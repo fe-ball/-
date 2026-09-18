@@ -28,3 +28,17 @@ GitHub 反映時には可能な限り次を区別する。
 
 誤解釈が判明した場合は、履歴を消して「最初からそうだった」ことにはしない。
 意味単位で修正し、必要なら supersede / revert を用いる。
+
+
+## Central registry synchronization
+
+GitHub反映によって次のいずれかが変わる場合、同じ永続化処理の中で `scenarios.yaml` も更新する。
+
+- current authority / authority version
+- canonical historical clock
+- clock state
+- current frontier
+- repository / path / entrypoint
+- import scope / import status
+
+シナリオ本文だけ更新して中央案内を古い状態に残さない。
