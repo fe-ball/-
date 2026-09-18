@@ -14,7 +14,7 @@
 ## シナリオ
 
 - [浅井世界線](scenarios/asai/README.md) — active / V22B / 1944-12-31 時点
-- 計算機異聞 — current package 再取得待ち
+- [計算機異聞](scenarios/keisanki-ibun/README.md) — active / Branch B v097 / 1944-04-30T24:00 時点
 
 ## ディレクトリ
 
