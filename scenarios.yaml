@@ -1,0 +1,33 @@
+registry_version: 1
+updated: "2026-09-19"
+
+scenarios:
+  asai:
+    title: "浅井世界線"
+    status: active
+    authority_version: "V22B"
+    canonical_clock: "1944-12-31T24:00"
+    clock_state: "open-to-1945"
+    frontier: "1945年初頭の独ソ作戦選択、ソ連の応答、日ソ中立条約1945-04-25ゲート"
+    repository: "fe-ball/alternate-history-hub"
+    path: "scenarios/asai"
+    entrypoint: "scenarios/asai/README.md"
+    authority_entrypoint: "scenarios/asai/current/00-START-HERE-2026-09-19-FULL-V22B.md"
+    epistemic_rule: "future-knowledge-individual"
+    source_import: "current-authority-plus-required-parents"
+    source_archive_status: "external-source-package-provenance"
+
+  keisanki-ibun:
+    title: "計算機異聞"
+    status: active
+    authority_version: "Branch B v097"
+    canonical_clock: "1944-04-30T24:00"
+    clock_state: frozen
+    frontier: "航空機processing-history監査を閉じてからFORAGER / Saipanへ進む"
+    repository: "fe-ball/alternate-history-hub"
+    path: "scenarios/keisanki-ibun"
+    entrypoint: "scenarios/keisanki-ibun/README.md"
+    authority_entrypoint: "scenarios/keisanki-ibun/current/00_CURRENT_AUTHORITY/00_READ_FIRST_CURRENT_V097_2026-09-19.md"
+    epistemic_rule: "no-future-knowledge-computation-accelerated"
+    source_import: "current-v097-plus-required-v096-and-aviation-canon"
+    source_archive_status: "external-source-package-provenance"
