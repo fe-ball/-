@@ -1,0 +1,27 @@
+id	status	date/window	decision/result	notes
+V22B-001	ACCEPTED	1940 H2	Germany seeks E5 as a full production/service package, not engine-only	Branch correction to earlier engine-centric interpretation
+V22B-002	ACCEPTED	1940 H2	Asai cooperates with state transfer if Japanese government compensates Asai	Government-to-government transfer preferred
+V22B-003	WORKING-CLOSED	1940 late-1941 H1	Initial E5 transfer includes reference aircraft, CKD sets, engines, tooling, records and technical personnel	Exact serial counts remain local/open
+V22B-004	ACCEPTED	1941 H1	German E5-D flight/production begins	Germanized, not magic copy
+V22B-005	ACCEPTED	1941 H2	E5-D/R and command/courier roles begin limited Eastern Front operation	Main early value is ISR/decision latency
+V22B-006	ACCEPTED	1941-42	German E5-D field lessons are returned to Japan through real channels	Feeds later E6 service improvements where applicable
+V22B-007	ACCEPTED	1942-43	Germany requests/obtains E6 technology in a second state-level exchange	Land route gone; submarine/high-value transfer dominates
+V22B-008	ACCEPTED	1943	German E6-D is a back-cross/hybrid derivative rather than a literal license copy	Japanese E6 + returned German E5-D lessons + German equipment
+V22B-009	ACCEPTED	1941-44	Me 262, Ar 234, Jumo 004/BMW003 remain indigenous German programs	Japanese transfer accelerates maturity/service integration
+V22B-010	WORKING-CLOSED	1944	German jet production is a multi-family system: Me262 + E6-D + Ar234 + residual E5-D	See aircraft/OOB file
+V22B-011	ACCEPTED	1942+	Public Japanese turbine transport/government aircraft contribute to Soviet reassessment	Important signal: E5-level tech has become public/non-frontier
+V22B-012	WORKING-CLOSED	1942-44	Soviet Far East retention increases in quality and persistence	Do not double-count against existing V21 Far East retention
+V22B-013	ACCEPTED	1943	Japan raises northern operational readiness but does not enter war in branch center	Entry remains a live gate
+V22B-014	WORKING-CLOSED	1943 Jul-Sep	Kursk still fails strategically; German southern wing performs better; Soviet losses rise; German mobile forces survive better	No German Kursk strategic victory
+V22B-015	WORKING-CLOSED	1943 Oct-1944 Jan	Kiev falls around early Jan 1944 rather than Nov 1943 center	Working center Jan 5-7
+V22B-016	WORKING-CLOSED	1944 Jan-Feb	Historical-scale Korsun pocket does not form; only smaller temporary enclosure / corridor battle	German army preservation effect dominates
+V22B-017	WORKING-CLOSED	1944 Mar-Apr	Hube-type catastrophe reduced to semi-envelopment / earlier withdrawal	Heavy equipment retention materially improves
+V22B-018	WORKING-CLOSED	1944 Mar-Apr	Crimea evacuated earlier; most German/Romanian manpower saved	Soviet forces also released earlier; not one-sided
+V22B-019	WORKING-CLOSED	1944 spring	Manstein dismissal is delayed; branch center keeps him through at least summer 1944	Exact later dismissal remains open
+V22B-020	WORKING-CLOSED	1944 Jun-Aug	Bagration remains a major Soviet victory but AG Center avoids historical destruction	German organized retreat replaces mass encirclement
+V22B-021	WORKING-CLOSED	1944 Aug-Oct	Warsaw approach delayed; historical Aug 1 uprising chain does not automatically occur	Polish political branch remains open
+V22B-022	WORKING-CLOSED	1944 Aug-Oct	Sandomierz/Baranow bridgehead exists but is smaller and compressed by German counterattack	Sandomierz city can return to German control
+V22B-023	WORKING-CLOSED	1944 autumn	Courland pocket forms smaller; more German mobile/heavy formations escape toward East Prussia	Exact division count remains banded
+V22B-024	WORKING-CLOSED	1944 autumn	Romania does not suffer historical August collapse; front contracts toward Focsani-Namoloasa-Galati / Carpathian defense	Political exit moves right
+V22B-025	OPEN	1945	Germany may no longer prefer continued passive withdrawal; offensive option reopens	Depends on Soviet dispositions and German operational goals
+V22B-026	OPEN	1945	Japanese anti-Soviet entry remains a major branch gate	Non-entry still default inherited through 1944 only
