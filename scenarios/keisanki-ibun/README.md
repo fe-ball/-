@@ -28,10 +28,25 @@ Recent conversational June-Marianas aircraft projections are quarantined until t
 2. [v097 handoff](current/V097_ADDENDUM_2026-09-19/00_HANDOFF/00_READ_FIRST_V097_FULL_HANDOFF.md)
 3. [v097 supersession/status map](current/V097_ADDENDUM_2026-09-19/01_AUTHORITY/V097_SUPERSESSION_AND_STATUS_MAP.md)
 4. [v097 next frontier](current/V097_ADDENDUM_2026-09-19/04_RESUME/NEXT_FRONTIER_1944-04-30_AIRCRAFT_HISTORY_FIRST.md)
-5. v096 retained current state / supersession map / session settlement files
+5. [v096 base handoff](current/00_CURRENT_AUTHORITY/00_READ_FIRST_V096_FULL_HANDOFF.md)
+6. [v096 supersession map](current/00_CURRENT_AUTHORITY/02_SUPERSESSION_MAP_V096_FULL.md)
+
+## Aircraft-audit source anchors
+
+The next discussion should use these before recomputing June force levels:
+
+- [Army/Navy aviation master canon](current/00_CURRENT_AUTHORITY/05_CLEAN_CANONICAL_REFERENCES/50_航空機研究_陸海軍総合正本.md)
+- [Army aircraft design / engines / timing](current/00_CURRENT_AUTHORITY/05_CLEAN_CANONICAL_REFERENCES/51_陸軍航空機_機種別設計・発動機・日程.md)
+- [Navy attack / dive / land attack / flying boats](current/00_CURRENT_AUTHORITY/05_CLEAN_CANONICAL_REFERENCES/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md)
+- [Navy fighters / air-cooled engines / jet aviation](current/00_CURRENT_AUTHORITY/05_CLEAN_CANONICAL_REFERENCES/53_海軍戦闘機・空冷発動機・噴進航空.md)
+- [B7A Ryusei full reaudit](current/00_CURRENT_AUTHORITY/05_CLEAN_CANONICAL_REFERENCES/BRANCH_B_B7A_RYUSEI_FULL_REAUDIT_1944-04-25_v001.md)
+
+The root aviation rule is retained: the computer accelerates calculation, measurement, comparison, test feedback and production-quality control; it does not supply future knowledge, materials, engines, skilled labor or elapsed endurance-test time for free.
 
 ## Import policy
 
-The provided FULL HANDOFF ZIP contains 2,520 entries and a deep chain of older addenda. GitHub initially imports the current v097 overlay plus the v096 authority layer needed to resume work. Older layers remain represented by source-package provenance rather than being blindly promoted to current authority.
+The provided FULL HANDOFF ZIP contains 2,520 entries and a deep chain of older addenda. GitHub imports the current v097 overlay, the v096 authority layer needed to resume work, its manifests, and the aviation canonical references required by the current audit.
+
+Older superseded branches—including later-clock historical experiments that conflict with the current 1944-04-30 freeze—remain represented by the source-package provenance and are not promoted into the current reading path.
 
 See [import/SOURCE-PACKAGE.md](import/SOURCE-PACKAGE.md).
