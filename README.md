@@ -55,6 +55,7 @@
 詳細:
 - [Persistence Policy](conventions/persistence-policy.md)
 - [Scenario Status Convention](conventions/scenario-status.md)
+- [Scenario Registry Convention](conventions/scenario-registry.md)
 
 AIの推論、ユーザー指定、未確定案、superseded事項を可能な限り区別し、誤解釈が判明した場合は履歴を隠さず修正する。
 
