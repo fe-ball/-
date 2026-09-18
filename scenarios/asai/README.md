@@ -2,9 +2,19 @@
 
 Status: **active**
 
-Current working overlay: **V22B**
+Authority: **V22B**
 
-Current historical point: **1944-12-31 / 1945 entry gate**
+Canonical clock: **1944-12-31T24:00級**
+
+Clock state: **1945 strategic behavior OPEN**
+
+Current frontier: **1945年初頭の独ソ作戦選択 → ソ連応答 → 日ソ中立条約1945-04-25ゲート**
+
+## Scenario rule
+
+最初に [SCENARIO-RULES.md](SCENARIO-RULES.md) を確認する。
+
+浅井側の先行知識・技術優位は、正本で認められた伝播経路を越えて他国・他組織へ自動コピーしない。
 
 ## 読み順
 
@@ -16,13 +26,15 @@ Current historical point: **1944-12-31 / 1945 entry gate**
 
 ## Precedence
 
-今回のインポートでは、V22B明示決定を、V21の非矛盾部分および旧技術親より優先して扱う。
+V22B明示決定 > V21の非矛盾部分 > 参照される旧技術親。
 
-GitHub 上のファイル配置は、元ZIPの論理構造をなるべく保持する。
+GitHub 上のファイル配置やファイルの日付だけではauthorityを決めない。
 
-## Source package
+## Import status
 
-詳細は [import/SOURCE-PACKAGE.md](import/SOURCE-PACKAGE.md)。
+- [Source package](import/SOURCE-PACKAGE.md)
+- [Import status](import/IMPORT-STATUS.md)
 
-この initial import は、受領した V22B フルZIPから、現在の議論再開に必要な authority / handoff / branch / technical parent を抽出した working set を GitHub 上でブラウズ可能にしたもの。
-元ZIPには旧版・監査履歴・ネストした過去ZIP・XLSX等も含まれる。
+受領したV22BフルZIPから、現在の議論再開に必要なauthority / handoff / branch / technical parentをGitHub上でブラウズ可能にしている。
+
+元ZIPに含まれる旧版・監査履歴・ネストした過去ZIP・XLSX等は、GitHubに存在しないことを理由に「存在しない」とは扱わない。
