@@ -1,0 +1,15 @@
+{
+  "package": "Branch B v097 full handoff overlay",
+  "base": "v096 full handoff 1944-04-30T2400",
+  "overlay_date": "2026-09-19",
+  "clock": "1944-04-30T24:00",
+  "clock_advanced": false,
+  "next_frontier": "aircraft processing-history audit before final pre-FORAGER OOB",
+  "authority": "v097 overlay supersedes only explicitly identified items; v096 remains base authority/provenance",
+  "notes": [
+    "Saipan Peleliu-type doctrinal reinterpretation; physical construction remains time-limited",
+    "New Caledonia POW old 8-14k assistant estimate superseded by 21-25k working balance",
+    "Recent June aircraft projections quarantined pending process-history audit",
+    "No automatic OVERLORD delay; downstream nonlinear effects remain open"
+  ]
+}
