@@ -1,0 +1,51 @@
+{
+  "revision": "v0.01",
+  "timestamp": "1941-12-07T23:59:00+09:00",
+  "role": "executable interval-state handoff for opening operations",
+  "principle": "run with bounded/unknown state; do not fabricate point estimates to close archival gaps",
+  "global_state_source": "opening_state_1941-12-07_v006.json",
+  "switch_registry": "switch_registry_v010.json",
+  "malaya": {
+    "phase0_source": "MALAYA_PHASE0_OPENING_PACKET_v003.json",
+    "unallocated_pools": {
+      "precombat_concentration_loss_historical": 46,
+      "replacement_shipment_1_southern_army": 148
+    },
+    "participant_serviceable_intervals": [
+      {
+        "id": "3AB-59-75-90",
+        "units": ["59th Sentai", "75th Sentai", "90th Sentai"],
+        "serviceable_eve_min": 53,
+        "serviceable_eve_max_working": 72,
+        "basis": "Dec-8 observed launch lower bound / primary nominal working sum",
+        "point_estimate": null
+      },
+      {
+        "id": "7AB-64-12-60-98",
+        "units": ["64th Sentai", "12th Sentai", "60th Sentai", "98th Sentai"],
+        "serviceable_eve_min": 93,
+        "serviceable_eve_max_working": 149,
+        "basis": "Dec-8 observed launch lower bound / primary-plus-secondary helper nominal sum",
+        "point_estimate": null
+      }
+    ],
+    "unknown_without_blocking_start": [
+      "46-loss allocation by unit/type/cause",
+      "148-replacement allocation by unit/date/type before Dec 8",
+      "Dec-7 eve exact serviceability by unit",
+      "crew/experienced-core losses during concentration",
+      "12th Air Brigade exact aircraft advanced to Singora",
+      "10th Air Brigade precise primary strength and Dec-8 participant mapping"
+    ],
+    "execution_rules": [
+      "same participant set repeated on the same day uses max observed launch as a serviceable lower bound, not the sum of waves",
+      "do not subtract the 46 pool from nominal OOB",
+      "do not add the 148 pool to unit OOB",
+      "known Dec-7 incident identities are evaluated event by event; no blanket survivor credit",
+      "pure-weather aborts do not become successful missions solely because aircraft performance is improved",
+      "airframe outcome and crew outcome are separate state transitions"
+    ]
+  },
+  "technical_clock_guard": "opening_technical_clock_guard_v001.json",
+  "validation": "validate_opening_package_v001.py"
+}

@@ -1,0 +1,17 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-04-15T24_WORKING_v001",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_CURRENT_OVERLAY",
+  "as_of": "1944-04-15T24:00:00+09:00",
+  "global_frontier": "1944-04-15T24",
+  "Pacific": {
+    "Japan_command": "Yamamoto remains Combined Fleet C-in-C; exact personal HQ location remains unforced.",
+    "Japan_carrier_core": "Four-core 272-296 ready; one-cycle synchronized package 168-200. Taiho B/B+, 57-68 ready; limited five-deck one-cycle coordination passes at roughly 195-230 package, but Taiho is not yet A-grade equal/repeat-cycle deck.",
+    "Japan_posture": "Southern Davao-Celebes/Tarakan training/reaction system; no Palau rescue sortie, no Majuro raid, no eastward TF58 hunt. Marianas reinforcement and ISR/ASW are prioritized.",
+    "Marianas": "9th Tank Regiment transport executes on 1-13 Apr clock; Saipan main elements and Guam detachment arrive with 0-3 tank shipping loss band centered zero and begin maintenance/defense integration.",
+    "US_fast_carriers": "TF58 returns Majuro centered 6 Apr. Hollandia is absent in Branch; first-half April used for replenishment/training. By 15 Apr immediate pool is 7 CV + 6 CVL including Bataan, ~700-795 ready aircraft working band.",
+    "information": "US submarines obtain warning-level evidence of major Japanese southern concentration but no fresh five-carrier fix. Japan continues warning-quality Central-Pacific ISR without weapon-quality TF58 track."
+  },
+  "Indian_Ocean_Bengal": "BACKGROUND_FREEZE remains active; no new ground-offensive or fleet-release gate.",
+  "next_active_question": "Advance 16-30 Apr: decide what TF58 does without Hollandia, close Taiho/B+ vs full five-deck repeat-cycle maturity, Palau recovery, Marianas air reinforcement, and reconcile against the 30-Apr authoritative checkpoint without importing historical Truk 29-30 Apr automatically."
+}

@@ -1,0 +1,56 @@
+{
+  "revision": "v001",
+  "id": "CHECKPOINT_1942-09-02T24_v001",
+  "checkpoint_id": "CHECKPOINT_1942-09-02T24_v001",
+  "as_of": "1942-09-03T00:00:00",
+  "status": "authoritative",
+  "type": "POST_SANTO_SETTLEMENT_CHECKPOINT",
+  "parent": "CHECKPOINT_1942-06-15T24_v002",
+  "parent_checkpoint": "CHECKPOINT_1942-06-15T24_v002",
+  "technical_baseline": "TECH_INDEX_v004",
+  "prewar_baseline": "PREWAR_INDEX_v004",
+  "current_branch_overrides": "00_CONFIG/current_branch_overrides_v001.json",
+  "state_sources": [
+    "06_RUNTIME/1942H2_STRATEGIC_SETTLEMENT_v001.md",
+    "06_RUNTIME/SANTO_1942-08_TECH_STACK_REAUDIT_v001.md"
+  ],
+  "territory": {
+    "Midway": "Japanese-held lean forward base",
+    "Port_Moresby": "Japanese-held",
+    "Lunga_Tulagi": "Japanese-held",
+    "Espiritu_Santo": "Japanese-held major base belt; small residual groups remain"
+  },
+  "carrier_state": {
+    "Japan": "Shokaku/Zuikaku operational; Hiryu return near/under work-up; Soryu still completing repair/work-up; Akagi/Kaga lost",
+    "United_States": "Wasp is sole fast carrier in theater, preserved as fleet-in-being"
+  },
+  "santo_result": {
+    "Japanese_ground_casualties": "2100-3000",
+    "Japanese_air_losses": "18-24 lost; 12-18 temporarily damaged",
+    "Japanese_shipping": "1 transport sunk; 1-2 damaged",
+    "US_ground": "1200-1900 casualties; 1200-1800 POW; 2000-2800 evacuated; 400-800 dispersed residual"
+  },
+  "next_gate": "New Caledonia defense estimate and four-carrier restoration; do not auto-repeat Santo-scale assumptions.",
+  "technical_entries": [
+    "TECH-AIR-NAV-REPORT-I-O-001",
+    "TECH-SEARCH-MULTILAYER-001",
+    "TECH-AIR-MEDIAN-RELIABILITY-001",
+    "TECH-AIR-GUN-FIGHTER-001",
+    "TECH-AIR-BOMB-LEVEL-POINT-001",
+    "TECH-AIR-BOMB-LEVEL-AREA-001",
+    "TECH-AIR-DIVE-FIXED-001",
+    "TECH-RADAR-1942-HUMANLOOP-001",
+    "TECH-LANDING-PACKAGE-001",
+    "TECH-AMPHIBIOUS-FIRSTDAY-001",
+    "TECH-ASW-CONTACT-HANDOFF-001",
+    "TECH-ASW-FOCUSED-CONVOY-1942-001",
+    "TECH-LOG-ASSET-UPTIME-ACCOUNTING-001",
+    "TECH-LOG-STANDARD-SHIP-I-001",
+    "TECH-INDUSTRIAL-STEEL-ADAPTATION-1940-42-001",
+    "TECH-GUNFIRE-SURFACE-1942-001",
+    "TECH-TORPEDO-SURFACE-ACCURACY-001",
+    "TECH-SURFACE-SPEED-ROBUSTNESS-001"
+  ],
+  "execution_valid": true,
+  "current_restart": false
+}

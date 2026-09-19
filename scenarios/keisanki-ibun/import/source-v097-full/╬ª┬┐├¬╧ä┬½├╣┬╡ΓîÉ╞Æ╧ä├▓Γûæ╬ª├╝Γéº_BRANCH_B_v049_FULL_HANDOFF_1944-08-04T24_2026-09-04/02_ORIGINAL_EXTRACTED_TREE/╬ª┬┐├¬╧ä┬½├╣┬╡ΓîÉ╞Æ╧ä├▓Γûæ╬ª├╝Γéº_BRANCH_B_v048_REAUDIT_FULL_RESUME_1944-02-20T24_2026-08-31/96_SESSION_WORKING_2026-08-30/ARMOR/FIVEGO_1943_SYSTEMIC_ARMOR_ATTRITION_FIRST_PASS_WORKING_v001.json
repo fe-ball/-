@@ -1,0 +1,196 @@
+{
+  "revision": "v001",
+  "id": "FIVEGO_1943_SYSTEMIC_ARMOR_ATTRITION_FIRST_PASS_WORKING_v001",
+  "status": "WORKING_FIRST_PASS_NOT_CURRENT",
+  "parents": [
+    "FIVEGO_3RD_TANK_DIVISION_OOB_REOPEN_1942-12_1943_WORKING_v001",
+    "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+    "SYSTEMIC_COMBAT_EFFECT_ACCOUNTING_FOR_VEHICLE_RETRO_AUDITS_WORKING_v001"
+  ],
+  "current_authoritative_campaign_anchor": {
+    "Phase_I": {
+      "start": "1943-03-25",
+      "Tongguan": "1943-03-30..31",
+      "Xian": "1943-04-16",
+      "Baoji": "1943-05-07",
+      "Japanese_casualties_current_band": [
+        17000,
+        21000
+      ],
+      "Chinese_casualties_current_band": [
+        55000,
+        70000
+      ]
+    },
+    "Phase_II": {
+      "start": "1943-06-10",
+      "Fengxian": "1943-06-19..20",
+      "Lueyang": "1943-07-07 approx",
+      "Hanzhong": "1943-07-21",
+      "Japanese_casualties_current_band": [
+        10000,
+        13000
+      ],
+      "Chinese_casualties_current_band": [
+        24000,
+        32000
+      ]
+    },
+    "guard": "These strategic dates/outcomes remain authoritative until the vehicle-layer reconstruction proves a material timing shift."
+  },
+  "corrected_armored_force": {
+    "8th_Tank_Regiment": "NOT PRESENT: South Pacific/Rabaul commitment by late 1942",
+    "core": [
+      "12th Tank Regiment",
+      "13th Tank Regiment",
+      "17th Tank Regiment",
+      "divisional recon/support"
+    ],
+    "launch_physical_tracked_AFV_band": [
+      195,
+      240
+    ],
+    "launch_ready_band": [
+      170,
+      205
+    ],
+    "center_ready": 188,
+    "important": "This is about 50-80 tracked AFVs below the prior provisional four-regiment/full-division-scale upper assumption."
+  },
+  "double_count_guard": {
+    "existing_campaign_already_knew_armor_was_present": true,
+    "existing_planning_already_mentions_reliability_reappearance_improvement": true,
+    "therefore": "Do NOT add a full 'tanks save infantry' bonus again. This audit mainly reallocates the magnitude, loss classes, consumption and residual strength; casualty-center movement is a correction, not a brand-new multiplier."
+  },
+  "Phase_I_plains_armor_cycle": {
+    "combat_effective_tank_days_vs_same_corrected_OOB_historical_quality_index": {
+      "historical_quality": 100,
+      "branch_band": [
+        116,
+        128
+      ],
+      "center": 122
+    },
+    "reason": [
+      "rail/road-backed plains operations allow reliability and recovery to pay",
+      "Chinese AT guns, field artillery, mines and bridge demolitions still create real combat damage",
+      "higher dispatchability creates more contact and therefore more damaged vehicles"
+    ],
+    "AFV_damage": {
+      "damaged_or_mission_killed_band": [
+        45,
+        65
+      ],
+      "irrecoverable_band": [
+        15,
+        25
+      ],
+      "center_irrecoverable": 20,
+      "depot_repair_or_long_repair_band": [
+        16,
+        26
+      ],
+      "returned_within_Phase_I_band": [
+        20,
+        32
+      ]
+    },
+    "Baoji_end": {
+      "physical_surviving_divisional_AFV_band": [
+        172,
+        215
+      ],
+      "immediate_ready_band": [
+        130,
+        160
+      ],
+      "long_repair_or_rear_rebuild_band": [
+        18,
+        28
+      ]
+    },
+    "systemic_correction_vs_current_settlement": {
+      "Japanese_ground_casualties_delta": "-200 to +300",
+      "Chinese_ground_casualties_delta": "-300 to +700",
+      "explanation": "The corrected force is smaller than the old provisional full-division image, while Branch reliability is better. Those effects largely cancel at campaign-total level. Existing 17-21k / 55-70k bands remain.",
+      "Japanese_guns_trucks_engineer_assets_saved_or_recovered_delta": "roughly +10 to +25 vehicle/gun equivalents, mainly through better covered recovery and fewer road-side abandonments",
+      "fuel_delta_vs_same_corrected_OOB_historical_quality": "+12-20%",
+      "tank_ammunition_delta": "+15-25%",
+      "workshop_recovery_hours_delta": "+25-45%"
+    }
+  },
+  "Phase_II_Qinling_armor_cycle": {
+    "doctrine": "Do not push the medium-tank main body through the Qinling mountain road as if it were a plains armored exploitation.",
+    "tracked_force_actually_crossing_or_operating_deep_band": [
+      35,
+      65
+    ],
+    "center": 50,
+    "composition": "Ha-Go / selected Chi-Ha/Shinhoto / tankettes / engineer tractors; heavy repair and most medium reserve stay north",
+    "roles": [
+      "road-junction seizure",
+      "direct fire against fixed positions",
+      "convoy/engineer protection",
+      "short counterattacks",
+      "rear-area mobile reserve"
+    ],
+    "AFV_damage": {
+      "irrecoverable_additional_band": [
+        5,
+        10
+      ],
+      "temporary_or_long_repair_additional_band": [
+        12,
+        22
+      ],
+      "mechanical_route_restriction": "far more important than enemy tank combat"
+    },
+    "systemic_correction_vs_current_settlement": {
+      "Japanese_ground_casualties_delta": "-100 to +200",
+      "Chinese_ground_casualties_delta": "-150 to +350",
+      "explanation": "Current settlement already models the mountains as the binding constraint. Better tanks cannot remove road tonnage, bridge geometry or engineer bottlenecks."
+    }
+  },
+  "end_Hanzhong_1943_07_23_working": {
+    "3rd_Tank_Division_total_physical_AFV_band": [
+      160,
+      200
+    ],
+    "immediate_ready_band": [
+      115,
+      145
+    ],
+    "depot_long_repair_band": [
+      20,
+      35
+    ],
+    "irrecoverable_campaign_total_band": [
+      20,
+      35
+    ],
+    "center_irrecoverable": 28,
+    "geographic_distribution": {
+      "Guanzhong_Baoji_north_rear_and_security": "95-125 physical",
+      "Hanzhong_forward_and_route_packets": "35-55 physical",
+      "depot_repair_rebuild_chain": "20-35 physical"
+    },
+    "note": "Most armor survives physically because Phase II intentionally refuses a mass tank push through the Qinling. That does not mean most is immediately ready."
+  },
+  "late_1943_residual_implication": {
+    "repair_return_Aug_Dec": "Substantial. With branch repair culture, roughly 15-25 of the July long-repair vehicles can return before year-end, subject to parts and rail movement.",
+    "training_crew_loss": "Lower than a naive destroyed-hull model, preserving experienced crews and maintenance cadres.",
+    "free_national_pool": "ZERO. Surviving 3rd Tank Division armor remains China-theater committed, with Hanzhong/Guanzhong security and future operations consuming it."
+  },
+  "strategic_judgment": {
+    "FiveGo_dates": "UNCHANGED centered",
+    "FiveGo_casualty_bands": "UNCHANGED centered; only small internal center shifts until regiment-level Chinese AT engagements are rebuilt",
+    "largest_change": "The residual armor ledger and theater placement, not the conquest timetable.",
+    "why": "The old campaign was already logistics-limited and already knew armor mattered. Correcting from a nominal four-regiment image to a physical three-regiment core prevents over-credit without erasing the Branch reliability advantage."
+  },
+  "next_required": [
+    "Build regiment-level 12th/13th/17th model mix at 25 Mar 1943.",
+    "Audit key Luoyang/Tongguan/Xian/Baoji AT-artillery contacts only, not every skirmish.",
+    "Post repair returns Aug-Dec and create 1943-12-31 China armor residual checkpoint.",
+    "Then combine China, Burma, NEI, Rabaul/New Caledonia, Kwantung/Home and training/repair pools into the national residual inventory."
+  ]
+}

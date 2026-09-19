@@ -1,0 +1,69 @@
+{
+  "title": "BRANCH B Santo 1942-09-25 D-Day Night Action v006",
+  "status": "WORKING-PROMOTED CURRENT",
+  "date": "1942-09-25",
+  "japanese_center_oob": {
+    "bombardment": [
+      "Hiei",
+      "Kirishima",
+      "Suzuya",
+      "Chikuma"
+    ],
+    "advance_screen": [
+      "Nagara",
+      "Kazagumo",
+      "Yugumo",
+      "Makigumo",
+      "Akigumo",
+      "Akizuki",
+      "Tanikaze",
+      "Murasame",
+      "Harusame"
+    ]
+  },
+  "us_center_oob": [
+    "Washington",
+    "Helena",
+    "Atlanta",
+    "Walke",
+    "Gwin",
+    "O'Brien"
+  ],
+  "center_outcome": {
+    "japan": {
+      "Hiei": "combat capable; light/no significant damage",
+      "Kirishima": "combat capable",
+      "Murasame": "medium damage; campaign surface-action mission kill",
+      "additional_dd": "light damage",
+      "sunk": []
+    },
+    "us": {
+      "Washington": "combat capable",
+      "Atlanta": "Type 93 hit; heavy damage; campaign mission kill; survives",
+      "Preston": "already sunk 1942-09-24",
+      "Quincy": "already heavy-damage mission kill 1942-09-24",
+      "new_sunk": []
+    }
+  },
+  "bombardment": {
+    "14in_rounds_band": [
+      220,
+      280
+    ],
+    "14in_rounds_center": 250,
+    "effect": "Santo immediate dawn sortie generation ~45-60%, center ~52%; Efate intact"
+  },
+  "tactical_logic": [
+    "Japan leads with a torpedo/screen group rather than exposing battleships first",
+    "first Type 93 wave forces U.S. maneuver",
+    "second group fires at the new U.S. course",
+    "Washington avoids torpedoes in the center line",
+    "Japan disengages rather than pursues into radar gunfire",
+    "reload-capable destroyers reload while opening distance; no automatic third salvo"
+  ],
+  "sensitivities": {
+    "Washington_torpedo_hit": "campaign mission kill likely; later sea control shifts strongly Japan",
+    "early_16in_hit_on_japanese_bb": "bombardment collapses to about 100-170 14-inch rounds and damaged BB exits campaign",
+    "reload_torpedo_hit_on_japanese_dd": "DD sinking and disruption of second-wave plan plausible"
+  }
+}

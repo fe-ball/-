@@ -1,0 +1,15 @@
+topic	current authority	intent / guard
+simulation method	10-CURRENT-1937-1938/01-METHOD-AND-CAUSAL-GUARD-V7.md	difference-led, physical constraints, no ghosts, enemy feedback
+1937 China campaign	10-CURRENT-1937-1938/10-1937-CHINA-WAR-REBASE-CANON-V7.md	replay from Nanyuan handback onward; calendar mostly same, internal clocks differ
+retreat behavior	10-CURRENT-1937-1938/01-METHOD-AND-CAUSAL-GUARD-V7.md	orders/thresholds remain; early warning changes execution not psychology magically
+Chinese equipment loss	10-CURRENT-1937-1938/12-FORCE-EQUIPMENT-STOCKFLOW-AND-RECOVERY-V7.md	stock-flow, no cumulative repeated %
+Japanese equipment advantage	10-CURRENT-1937-1938/12-FORCE-EQUIPMENT-STOCKFLOW-AND-RECOVERY-V7.md	inventory vs ready vs crew vs support vs performance
+E4/E5 chronology	20-AVIATION-1931-1938-REBASE/00-AVIATION-REBASE-CANON-1931-1938-V7.md	earlier mature test program; E4 operational in1937
+radio/EMI	20-AVIATION-1931-1938-REBASE/02-PHOTO-RECON-RADIO-AIRGROUND-CANON-V7.md	E4 control experiment accelerates standardization, does not invent RF interference
+photo information	40-RESEARCH-AND-OPEN-ISSUES/01-PHOTO-METADATA-HISTORICAL-PLAUSIBILITY-NOTE-V7.md	optical margin metadata + punched-card index; human interpretation
+photo corporate scope	30-ASAI-1937-CLOSEOUT/02-PHOTO-INDUSTRY-DIVISION-OF-LABOR-V7.md	Asai is integrator/platform/info company, not lens/film monopoly
+GT capacity	20-AVIATION-1931-1938-REBASE/03-GT-PRODUCTION-FACILITY-REBASE-V7.md	T1A/B earlier; T1C expansion; flight-grade capacity separate
+Panay	10-CURRENT-1937-1938/13-PANAY-AND-NANKING-CLOSEOUT-V7.md	first strike/sinking remain; follow-on attack shorter from better airborne radio
+Nanking occupation	10-CURRENT-1937-1938/13-PANAY-AND-NANKING-CLOSEOUT-V7.md	do not over-simulate; structural atrocity problem unchanged
+air interdiction	40-RESEARCH-AND-OPEN-ISSUES/00-HARD-OPEN-RETREAT-AIR-INTERDICTION-V7.md	hard open for next chat
+1938-1939 downstream	10-CURRENT-1937-1938/14-DOWNSTREAM-REPLAY-HOLD-V7.md	use V6 as baseline and resync forward

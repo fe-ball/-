@@ -1,0 +1,8 @@
+date,front,event,worldline_decision,asai_effect,status
+1937-09-14,North_China,14th Division begins advance at noon,SAME,ready_fraction_small_positive_no_command_shift,CLOSED
+1937-09-14,North_China,6th Division attacks about 1440,SAME,artillery_vehicle_readiness_small_positive,CLOSED
+1937-09-15,North_China,20th Division joins attack,SAME_DAY,preparation_quality_small_positive,CLOSED
+1937-09-17,North_China,14th Division cuts Peiping-Hankou railway south of Chohsien,SAME_DAY,pursuit_serviceability_small_positive,CLOSED
+1937-09-18_to_20,North_China,rain bridge road and river constraints slow pursuit,SAME_OPERATIONAL_LIMIT,asai_cannot_remove_physical_bottlenecks,CLOSED
+1937-09-14,Shanghai,Chinese orderly withdrawal to first defense line,SAME_DAY,slightly_stronger_fire_pressure_no_rout,CLOSED
+1937-09-20,Shanghai,strong Japanese pressure and gains near Lotien,SAME_DAY,fire_support_consistency_small_positive,CLOSED

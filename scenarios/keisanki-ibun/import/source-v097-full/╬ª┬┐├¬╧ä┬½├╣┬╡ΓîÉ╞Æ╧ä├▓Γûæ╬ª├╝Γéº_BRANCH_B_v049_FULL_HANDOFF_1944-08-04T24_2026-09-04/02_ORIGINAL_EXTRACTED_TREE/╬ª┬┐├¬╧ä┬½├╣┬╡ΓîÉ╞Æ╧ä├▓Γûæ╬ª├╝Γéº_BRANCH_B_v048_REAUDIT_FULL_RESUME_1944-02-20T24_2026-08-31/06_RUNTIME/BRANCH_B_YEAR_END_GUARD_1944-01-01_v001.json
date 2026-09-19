@@ -1,0 +1,25 @@
+{
+  "revision": "v001",
+  "id": "BRANCH_B_YEAR_END_GUARD_1944-01-01_v001",
+  "status": "ACTIVE_CURRENT_BRANCH_B_YEAR_END",
+  "restart": "1944-01-01T00:00",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "settled_through": "1943-12-31T24:00",
+  "authoritative_settlement": "06_RUNTIME/BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v001.md",
+  "rules": [
+    "Treat the 1943H2 settlement, Bengal/Chittagong settlement, GALVANIC settlement and Dodecanese withdrawal as realized current Branch B history.",
+    "Do not import any realized combat event after 1943-12-31 from retained/provisional descendants unless explicitly re-adjudicated from this frontier.",
+    "Late-December British Eastern Fleet eastbound movement/potential may be used only to the extent explicitly stated; January arrival/contact/combat remains open.",
+    "All 1944 capability must remain date-gated: hull existence, readiness, personnel, allocation, fuel, escort, route and local support are separate clocks.",
+    "No unit spawning and no fleet teleportation. Every cross-theater move requires origin, readiness, route, transit and arrival state.",
+    "Japanese destroyer/submarine/cruiser Indian Ocean reinforcement is NOT yet allocated; audit the movable wallet first.",
+    "German Monsun/U-boat cooperation requires actual boat availability and patrol days; no nominal-total shortcut.",
+    "No U-Go GO has been issued at this frontier; Ichigo and Central Pacific 1944 dates remain planning baselines, not realized fate."
+  ],
+  "retained_reference_only_examples": [
+    "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SPRING_REAUDIT_v001.json",
+    "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SUMMER_v001.json",
+    "06_RUNTIME/CHINA_ICHIGO_ANALOG_1944-05-27_08-06_FORWARD_ADJUDICATION_v001.md",
+    "06_RUNTIME/MARIANAS_SAIPAN_1944-06-11_07-14_SETTLEMENT_v001.md"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "revision": "v021",
+  "date": "2026-08-26",
+  "result": "PASS",
+  "checks": {
+    "all_json_parse": true,
+    "current_frontier": "1943-03-26T00:00",
+    "aleutians_efate_coupled_reaudit_present": true,
+    "efate_may_operation_rolled_back_to_provisional": true,
+    "attu_supply_first_rule_present": true,
+    "downstream_v020_retained_provisional": true,
+    "json_file_count": 221,
+    "bad_json": [],
+    "json_file_count_semantics": "Total JSON files in the completed v021 package, including this validation result.",
+    "current_registry_handoff": "NEXT_SESSION_HANDOFF_REFACTOR_v021.md",
+    "current_registry_branch_state": "CURRENT_BRANCH_STATE_v003.json",
+    "current_override_frontier": "1943-03-26T00:00",
+    "stale_current_control_references": []
+  }
+}

@@ -1,0 +1,4 @@
+# Source snapshots and ZIP originals must retain their exact bytes.
+scenarios/asai/import/source-v22b-full-exact/** -text
+scenarios/keisanki-ibun/import/source-v097-full/** -text
+scenarios/*/import/archives/*.zip -text

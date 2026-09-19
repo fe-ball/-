@@ -1,0 +1,39 @@
+{
+  "package": "ASAI-WORLDLINE-HANDOFF-2026-09-03-FULL-V8-1939AIRPOWER4-AIRFRAME1",
+  "source_package": "ASAI-WORLDLINE-HANDOFF-2026-09-03-FULL-V8-1939AIRPOWER3-HOMARE1.zip",
+  "source_sha256_entries_verified": 394,
+  "source_sha256_mismatches": 0,
+  "source_paths_deleted": 0,
+  "combat_clock_advanced": false,
+  "current_revalidated_combat_checkpoint": "1939-04-20 24:00",
+  "furthest_prior_explored_clock": "1939-09-01 00:00 / post-Nomonhan older V6 branch",
+  "combat_replay_status": "HOLD_FOR_AVIATION_AUDIT",
+  "active_technical_domain": "PISTON_AVIATION",
+  "technical_closure_added": [
+    "high-power four-blade propeller PA-D/PA-Q/PA-S state semantics",
+    "cooling/oil installation CI-D/CI-Q/CI-S state semantics",
+    "branch-neutral 1,800-2,200 hp propeller integration sequence through 1943Q1",
+    "J2M/B7A/N1K prebranch airframe integration chronology",
+    "guarded Reppu Homare/Ha-43 parallel installation path",
+    "1942 requirement/procurement replay gate"
+  ],
+  "post_1943_branch_dependent": [
+    "combat-derived requirement existence and exact specification",
+    "first-flight/service dates dependent on later requirements",
+    "monthly production quantities",
+    "fleet-wide TBO and reliability",
+    "theater fuel and lubricant availability",
+    "procurement priorities and quantities",
+    "carrier availability and war-derived program cancellations"
+  ],
+  "final_file_count": 404,
+  "inventory_entries_expected": 401,
+  "sha256_entries_expected": 402,
+  "final_validation": "PASS",
+  "tree_sha256_verified": 402,
+  "tree_sha256_mismatches": 0,
+  "zip_test": "PASS",
+  "roundtrip_file_count": 404,
+  "roundtrip_sha256_verified": 402,
+  "roundtrip_sha256_mismatches": 0
+}

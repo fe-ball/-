@@ -1,0 +1,13 @@
+priority	gap	current treatment	recommended next audit
+HIGH	1938 company P&L/headcount/capex and second-turbine-works commissioning	Do not infer exact 1938 revenue/headcount from 1937 closeout	Build 1938 H1/full-year corporate capacity audit before making large E5 production orders
+HIGH	Type 96 LMG monthly/arsenal production	Use +5-10% accepted-output delta only	Crosswalk Kokura/Nagoya/Nambu/Mukden production by month/year
+HIGH	Type 96 25mm improved firing-pin adoption date/share	Direction closed, fleet penetration open	Find Japanese ordnance change date or use ship/base spare-issue model
+HIGH	Chi-Ha exact 1938 acceptance curve	Use 'few dozen by midyear / ~100-scale full-year' working	Reconcile production vs arsenal-acceptance figures before unit OOB
+HIGH	Dense-core special AP exact ballistics and finished-round counts	Material allocation only	Run 37mm/20mm projectile mass, impact stress and penetration audit before combat issue
+HIGH	E5 aft-fan installed thrust/TSFC/mass	No flight authorization yet	Close installed audit before Twin No.2 flight
+MEDIUM	1938 Manchuria branch staffing/throughput	1937 topology retained; workload up	Audit Mukden/Dairen repair, turbo, computation and special-AP reserve before Soviet-border fighting
+MEDIUM	Type 97 81/90/150mm mortar exact production lines	81mm gets broad working continuation; 90/150 remain unresolved	Historical arsenal/year crosswalk; only promote if battlefield OOB needs them
+MEDIUM	Submarine turbo exact test boat/engine crosswalk	A3 limited trial only	Identify candidate classes/engine types before any 1938 sea-result claims
+MEDIUM	E5 marine GT test-craft hull/installation	engineering study only	Choose actual test hull only when naval program reaches design gate
+MEDIUM	Flood-zone boat/electrical kit field quantities	New working branch, deliberately small	If Wuhan/Yellow River policing becomes central, build engineer/river-force OOB and resupply model
+LOW	Type 96 24cm exact root cause	Series hold already decided	Only revisit if weapon program is re-opened

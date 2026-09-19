@@ -1,0 +1,77 @@
+{
+  "package_version": "v075_FULL",
+  "date": "2026-09-07",
+  "package_type": "FULL_SELF_CONTAINED",
+  "parent_full_archive": "計算機異聞_BRANCH_B_v074_FULL_HANDOFF_SANTO_D2_W2_FIRED_RAIDER_LIFT_CORRECTED_2026-09-07.zip",
+  "resume": {
+    "date": "1942-07-25",
+    "time": "00:00",
+    "phase": "SANTO_D2_COMMAND_POSTURE_CLOSED_BEFORE_RAIDER_ARRIVAL",
+    "clock_advanced_by_v075": false,
+    "center_Santo_D_day": "1942-07-27",
+    "prebattle_wallet": "CLOSED_V070_RETAINED",
+    "Japanese_capability_snapshot": "CLOSED_V071_RETAINED_WITH_D4_D3_EXPENDITURE",
+    "Allied_global_to_local_allocation": "CLOSED_V072_RETAINED_WITH_V074_RAIDER_CAPACITY_CORRECTION",
+    "Allied_reaction_clock": "W1_FIRED_W2_FIRED",
+    "D4_event": "CLOSED_V073",
+    "D3_event": "CLOSED_V074",
+    "command_personality_decision_doctrine": "CLOSED_V075",
+    "command_information_belief_matrix": "CLOSED_V075",
+    "Santo_H_hour_branch": "OPEN",
+    "New_Caledonia_date": "OPEN_POST_SANTO_RESET"
+  },
+  "command_close": {
+    "principle": "personality_changes_choices_not_raw_combat_multipliers",
+    "Japan": {
+      "Yamamoto": "strategic intent; fresh US carrier destruction highest-value naval opportunity",
+      "Nagumo": "BRANCH_WORKING_CLOSED on-scene Zuikaku/Shokaku/Ryujo tactical carrier commander",
+      "Yamaguchi": "survives MI; NOT on-scene; regeneration/training/staff lessons only",
+      "Kondo": "BRANCH_WORKING_CLOSED heavy/advance cover",
+      "Tanaka": "Jintsu/transport direct-cover tactical commander",
+      "Mikawa": "Eighth Fleet/local coordinator; authority transitional 25 Jul",
+      "Tsukahara": "Eleventh Air Fleet/land-air separate command node"
+    },
+    "Allies": {
+      "Nimitz": "calculated-risk strategic intent",
+      "Ghormley": "cautious SOPAC ceiling; Wasp remote-cover baseline",
+      "Noyes": "Wasp tactical commander with standing opportunity authority",
+      "Sherman": "Wasp ship/flight-deck execution",
+      "McCain": "shore-based-air command separate from Wasp",
+      "Arthur": "2d Marines combat-priority unload/coherent perimeter",
+      "Edson": "WORKING_CLOSED with ~520-man Raider fast detachment",
+      "Rose": "Santo fixed-base command"
+    },
+    "belief_locks": {
+      "Japan_knows_Wasp_is_only_healthy_US_carrier": false,
+      "Japan_knows_2d_Marines_or_Raiders_inbound": false,
+      "Allies_know_Japanese_carrier_exact_position": false,
+      "Allies_treat_Hiryu_Soryu_as_operational": false
+    },
+    "handoff_latency_minutes": {
+      "Japanese_land_air_to_Nagumo": [10, 30],
+      "Allied_shore_air_to_Wasp": [15, 45]
+    }
+  },
+  "operational_state_from_v074": {
+    "W2": {"status": "FIRED", "time_local": "1942-07-24 11:10"},
+    "Japanese_assault_body": {"distance_to_Santo_nm": "~550-565", "Allied_track": "AGING_AFTER_EVENING_DOGLEG"},
+    "Allied_2d_Marines": {"physical_center": 4840, "distance_to_Santo_nm": "~586", "eta_santo_center": "1942-07-26 ~15:00", "Japanese_detection": false},
+    "Raiders": {"physical_center": 520, "effective_center_if_clean_unload": 490, "distance_to_Santo_nm": "~120-130", "eta_santo_center": "1942-07-25 ~04:35", "Japanese_detection": false},
+    "Wasp": {"status": "REMOTE_COVER", "Japanese_detection": false},
+    "Efate_detachment": "ELIGIBLE_NOT_DISPATCHED_NO_CLOSED_LIFT",
+    "Japanese_contingency_reserve_1000": "ON_NOTICE_NOT_ACTIVATED"
+  },
+  "authority": {
+    "v075_command_personality_decision_doctrine": "CURRENT",
+    "v075_command_information_belief_matrix": "CURRENT",
+    "v074_Raider_capacity_correction": "RETAINED",
+    "v074_D3_event_close": "RETAINED",
+    "v073_D4_event_close": "RETAINED",
+    "v072_Allied_global_allocation": "RETAINED_EXCEPT_RAIDER_FAST_LIFT_EFFECT_ALREADY_CORRECTED_V074",
+    "v071_capability_snapshot": "RETAINED_AS_OPENING_BASELINE_NOT_RESET",
+    "v071_FS_change_clock": "RETAINED",
+    "v070_named_wallet": "RETAINED",
+    "historical_Watchtower_moves": "PROVENANCE_ONLY_UNLESS_REDERIVED"
+  },
+  "critical_rule": "Resume at 1942-07-25 00:00. v075 changes how commanders choose after contacts; it does not fire any D-2 contact, unload, reserve release or strike event."
+}

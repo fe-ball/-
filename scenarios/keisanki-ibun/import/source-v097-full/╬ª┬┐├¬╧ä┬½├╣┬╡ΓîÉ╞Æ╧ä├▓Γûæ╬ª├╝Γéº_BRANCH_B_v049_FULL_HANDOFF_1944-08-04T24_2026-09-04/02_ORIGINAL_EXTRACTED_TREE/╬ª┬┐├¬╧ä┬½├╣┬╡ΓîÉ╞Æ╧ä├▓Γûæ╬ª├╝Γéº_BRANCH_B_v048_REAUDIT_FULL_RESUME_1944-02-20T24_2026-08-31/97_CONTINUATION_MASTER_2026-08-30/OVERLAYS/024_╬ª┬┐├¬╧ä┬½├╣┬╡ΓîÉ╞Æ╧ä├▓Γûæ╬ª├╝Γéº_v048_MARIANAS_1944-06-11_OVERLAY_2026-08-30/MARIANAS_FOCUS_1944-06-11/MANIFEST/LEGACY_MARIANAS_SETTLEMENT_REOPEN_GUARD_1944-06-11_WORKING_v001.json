@@ -1,0 +1,17 @@
+{
+  "revision": "v001",
+  "id": "LEGACY_MARIANAS_SETTLEMENT_REOPEN_GUARD_1944-06-11_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_SUPERSESSION_GUARD",
+  "as_of": "1944-06-11T00:00:00+09:00",
+  "supersedes_for_future_adjudication": "06_RUNTIME/MARIANAS_SAIPAN_1944-06-11_07-14_SETTLEMENT_v001.md",
+  "reason": "The old June-July settlement was generated from a materially different prebattle state and must not be auto-replayed from 11 Jun onward.",
+  "material_changes": [
+    "Combined Fleet CINC is Yamamoto Isoroku, not the historical Koga/Toyoda command chain.",
+    "Current branch TF58 precombat baseline is 8 CV + 8 CVL / 16 fast decks, not the legacy 7 CV + 8 CVL.",
+    "Current Marianas land-air 5 Jun ready band is 285-350, not the legacy 350-410 starting band.",
+    "Historical KON/Biak detachment does not occur; Yamato and Musashi remain available to the main Pacific fleet.",
+    "Five-carrier Japanese core is more mature and has 358-378 ready aircraft by 5 Jun; Taiho is A-/A for normal first-cycle operation.",
+    "Tawi-Tawi ASW/submarine outcomes have been re-adjudicated, changing escort availability and training friction."
+  ],
+  "use_rule": "Legacy settlement may be consulted for geometry/mechanics sensitivity only. Named outcomes, loss bands, sortie dates and closure dates from 11 Jun onward require fresh branch adjudication."
+}

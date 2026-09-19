@@ -1,0 +1,27 @@
+subject	status	decision	guard
+replay_clock	CURRENT-CLOSE	1940-07-31 24:00 unchanged	No post-July combat event auto-canonized
+Hundred_Regiments_absolute_losses	OPEN	No absolute casualty ledger closed	Conceptual replay only until explicit battle gate
+Northern_Indochina_value	WORKING-CLOSE	Higher total value due forward aviation/logistics despite smaller marginal supply-closure effect	Do not equate with immediate China collapse
+China_air_dispersion	WORKING-CLOSE	Warning succeeds mainly by evacuation/dispersal rather than mass interception	Use workbands, not fixed historical measurements
+US_sanctions_gate	WORKING-CLOSE	Extra aggression can accelerate non-oil sanctions/China aid but full oil cutoff remains primarily US readiness/southward-threat gate	Do not force autumn-1940 oil embargo
+shadow_carriers	CURRENT-CLOSE	Historical conversion options retained; low-speed ships remain low-speed; aviation logistics/escort/training value emphasized	No V14-rejected GT up-power revival
+marine_diesel_role	CURRENT-CLOSE	Asai contributes turbo/measurement/QC, not naval diesel design ownership	Yamato remains steam
+submarine_common	CURRENT-CLOSE	Reliability/dive/battery/noise gains, headline speed/depth mostly historical	No magic underwater fleet
+I38_I39	CURRENT-CLOSE	Early B2-like standardization branch with Type 1A 10-cylinder family	Do not copy historical B1 machinery automatically
+submarine_nextgen_1941	CURRENT-PLANNING	Research/prototype electrical/yard sets only	No operational advanced boat in 1941
+Type95_body	CURRENT-CLOSE	Headline weapon performance not boosted	Common hardware QC only
+submarine_FCS3	WORKING-CLOSE	Mechanical continuous target-motion position keeper plus existing angle/gyro solution	Simpler than US TDC; no hit-rate multiplier
+Type91_air_torpedo	CURRENT-CLOSE	Retain V10 high-speed qualification/reliability bands	No magical new torpedo range
+Type93_surface	CURRENT-CLOSE	System-level gains from FC/reload/comms/formation synchronization	Body performance historical
+Akashi	WORKING-CLOSE	Forward repair/QC effectiveness materially improved	No automatic second ship; dock-heavy repairs still constrained
+Mizuho	WORKING-CLOSE	11-go chronic machinery trouble substantially reduced	Initial defects still possible
+underway_replenishment	WORKING-CLOSE	Hardware readiness improved; doctrine/crew experience separate	No automatic trained replenishment fleet
+Nisshin	WORKING-CLOSE	Type13 machinery risk reduced	Commissioning date remains open due role/outfitting gates
+Taiho_DC	OPEN	Dedicated fuel/ventilation/DC audit required	No pre-recorded 1944 survival
+Oyodo_E15K	OPEN	Requirement and aircraft integration to be reconciled after CRP common audit	Do not simplify automatically
+CRP_national_role	CURRENT-CLOSE	National shared technology; Asai strong contributor, not monopolist	Product leadership remains with historical actors
+CRP_Asai_motive	CURRENT-CLOSE	Pre-E15K turboprop backend/power-absorption option research	Not invented to rescue Shiun
+CRP_E15K_start	CURRENT-CLOSE	E15K is first major Japanese aircraft project to demand CRP from design outset	Prior component/research activity may exist
+CRP_benefit	CURRENT-CLOSE	Torque cancellation + constrained-diameter power absorption + modest efficiency gain	No giant free speed multiplier
+CRP_V8_fallback_rule	REOPEN	Old E15K-fails -> N1K-single-rotation bias no longer binding	E15K qualification outcome gates N1K choice
+E15K_full_reconciliation	NEXT-GATE	Compare piston/TP and float/mechanism matrix	Next principal technical topic

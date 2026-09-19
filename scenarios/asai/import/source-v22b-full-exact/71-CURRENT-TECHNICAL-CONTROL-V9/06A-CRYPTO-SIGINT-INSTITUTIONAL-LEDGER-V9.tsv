@@ -1,0 +1,11 @@
+stage	1939_institutional_state	distance	ownership	status	closed_effect	event_gate
+cipher_machine_engineering	regular small Navy-related electromechanical supply; secured maintenance; reliability-oriented contacts/power/printing synchronization	CD2->CD3	Navy equipment/keys; Asai vendor support	CLOSED-BASELINE	improved build/support capability	exact types/quantities only if material
+secure_calculation_room	selected central Navy work can remain inside customer security compartment	CD3	Navy	CLOSED-BASELINE	independent card/relay computation without exporting secret inputs	site inventory only if needed
+key_management	card-assisted generation/check/distribution bookkeeping permitted	CD3	Navy	CLOSED-BASELINE	lower administrative burden and better checking	actual policy/compromise event
+cryptanalytic_mechanization	classification; frequency/comparison/coincidence counts; candidate-list/search support	CD3	Navy	CLOSED-BASELINE	higher mechanical throughput and repeatability	target-specific attack/key recovery
+red_team_own_systems	opportunistic own-system attack practice institutionalizable by mid/late-1930s	CD3	Navy	CLOSED-BASELINE	earlier discovery of some procedural/machine weaknesses	no guarantee every weakness is found
+intercept_collection	not created by computation hardware	CD4->CD3	Navy	EVENT-GATED	records can be card-supported after collection	station/network/date coverage
+traffic_analysis	methods can use card classification but depend on continuity and analyst work	CD3	Navy	EVENT-GATED	mechanized metadata handling allowed	named network reconstruction
+target_specific_break	requires cryptanalytic insight plus target material/weakness	CD3	Navy	EVENT-GATED	machine assistance after attack is defined	named cipher/date/key
+decrypt_translation_exploitation	depends on solved system; staffing; command/security/timeliness	CD3/CD4	Navy	EVENT-GATED	better machinery can reduce some latency	volume/latency/operational use
+Asai_personal_role	normally no direct presence in target-specific cryptanalysis	CD0 only by explicit event	Asai	CLOSED-GUARD	hardware/workflow/general concept advice only when explicitly consulted	never infer exact target solution from reincarnation alone

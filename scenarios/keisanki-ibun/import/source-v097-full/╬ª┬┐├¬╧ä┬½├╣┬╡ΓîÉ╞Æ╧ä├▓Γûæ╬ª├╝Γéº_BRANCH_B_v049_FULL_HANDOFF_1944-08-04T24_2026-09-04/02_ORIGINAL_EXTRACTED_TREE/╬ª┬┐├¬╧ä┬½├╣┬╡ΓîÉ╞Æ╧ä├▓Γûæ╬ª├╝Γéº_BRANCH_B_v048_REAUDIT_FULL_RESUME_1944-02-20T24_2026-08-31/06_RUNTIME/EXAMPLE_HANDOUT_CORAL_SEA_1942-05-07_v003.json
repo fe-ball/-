@@ -1,0 +1,1272 @@
+{
+  "profile": "CARRIER_BATTLE",
+  "date": "1942-05-07",
+  "checkpoint": "CHECKPOINT_1942-05-06T24_v001",
+  "technical_baseline": "TECH_INDEX_v003",
+  "warstart_state": "WARSTART_STATE_LEDGER_v002",
+  "domain_resolution": [
+    {
+      "domain": "AIR_PLATFORM",
+      "resolution": "ACTIVE_OR_BOUNDED",
+      "warstart_coverage": "RESOLVED_BOUNDED",
+      "mapped_opening_states": [
+        {
+          "domain": "AIR_FORCE_POOL",
+          "state": "BOUNDED",
+          "values": {
+            "army_tactical_aircraft": [
+              1475,
+              1600
+            ],
+            "navy_tactical_aircraft": [
+              1375,
+              1450
+            ],
+            "total_tactical_aircraft": [
+              2850,
+              3050
+            ],
+            "net_increase_vs_historical_equivalent": [
+              225,
+              425
+            ],
+            "reserve_aircraft_increase": [
+              100,
+              200
+            ]
+          }
+        },
+        {
+          "domain": "AIR_OPENING_TYPES",
+          "state": "BOUNDED",
+          "values": {
+            "army_type100_fighter_I_available": [
+              280,
+              380
+            ],
+            "ki44_trial_operational": [
+              15,
+              25
+            ],
+            "ki49_I_small_force": [
+              50,
+              90
+            ],
+            "later_types_not_opening": [
+              "Ki-45 kai",
+              "D4Y",
+              "B6N",
+              "operational H8K force"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "domain": "AIR_WEAPONS",
+      "resolution": "ACTIVE_OR_BOUNDED",
+      "warstart_coverage": "RESOLVED_PROVISIONAL_MAGNITUDE",
+      "mapped_opening_states": [
+        {
+          "domain": "AIR_WEAPON_EFFECT",
+          "state": "BOUNDED",
+          "values": "per TECH_INDEX_v003 provisional relative bands; never convert to fixed percentage points"
+        }
+      ]
+    },
+    {
+      "domain": "CARRIER",
+      "resolution": "ACTIVE_OR_BOUNDED",
+      "warstart_coverage": "RESOLVED",
+      "mapped_opening_states": [
+        {
+          "domain": "CARRIER_AIR",
+          "state": "BOUNDED",
+          "values": {
+            "main_six": [
+              390,
+              410
+            ],
+            "Ryujo": [
+              36,
+              40
+            ],
+            "Zuiho": [
+              27,
+              30
+            ],
+            "Shoho": [
+              18,
+              24
+            ],
+            "Taiyo_if_combat_used": [
+              18,
+              24
+            ],
+            "combat_usable_excluding_Hosho": [
+              490,
+              525
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "domain": "SENSOR_SEARCH",
+      "resolution": "ACTIVE_OR_BOUNDED",
+      "warstart_coverage": "PRECURSOR_AT_OPENING",
+      "mapped_opening_states": [
+        {
+          "domain": "SENSOR_SEARCH",
+          "state": "CONDITIONAL",
+          "values": "optical median improvements present; radar precursor/trial only at opening"
+        }
+      ]
+    },
+    {
+      "domain": "SIGINT_COMINT",
+      "resolution": "ACTIVE_OR_BOUNDED",
+      "warstart_coverage": "RESOLVED_CORE_WITH_FIELD_CONSTRAINTS",
+      "mapped_opening_states": [
+        {
+          "domain": "SIGINT_COMINT",
+          "state": "BOUNDED",
+          "values": {
+            "central_comsec_audit": "OPERATIONAL_PARTIAL",
+            "1942_highgrade_result": "high-grade Japanese operational cryptosystem largely denies US short-strategy-time reconstruction; residual low-grade/plaintext/traffic/DF/recon remain"
+          }
+        }
+      ]
+    }
+  ],
+  "mandatory_state_resolution": [
+    {
+      "domain": "PERSONNEL_AND_SOFT",
+      "resolution": "BOUNDED_TRACKING_CLOSED_COUNTS_PARTIAL",
+      "values": {
+        "natural_movement": "ON",
+        "deliberate_skill_leveling": "LATENT",
+        "deliberate_veteran_nucleus_reallocation": "LATENT",
+        "IJN_air_ground_separation": "LATENT",
+        "IJA_air_base_mobility": "OPERATIONAL_PARTIAL",
+        "IJA_air_ground_liaison": "PRESENT_LIMITED"
+      }
+    },
+    {
+      "domain": "AIR_FORCE_POOL",
+      "resolution": "BOUNDED",
+      "values": {
+        "army_tactical_aircraft": [
+          1475,
+          1600
+        ],
+        "navy_tactical_aircraft": [
+          1375,
+          1450
+        ],
+        "total_tactical_aircraft": [
+          2850,
+          3050
+        ],
+        "net_increase_vs_historical_equivalent": [
+          225,
+          425
+        ],
+        "reserve_aircraft_increase": [
+          100,
+          200
+        ]
+      }
+    },
+    {
+      "domain": "AIR_OPENING_TYPES",
+      "resolution": "BOUNDED",
+      "values": {
+        "army_type100_fighter_I_available": [
+          280,
+          380
+        ],
+        "ki44_trial_operational": [
+          15,
+          25
+        ],
+        "ki49_I_small_force": [
+          50,
+          90
+        ],
+        "later_types_not_opening": [
+          "Ki-45 kai",
+          "D4Y",
+          "B6N",
+          "operational H8K force"
+        ]
+      }
+    },
+    {
+      "domain": "CARRIER_AIR",
+      "resolution": "BOUNDED",
+      "values": {
+        "main_six": [
+          390,
+          410
+        ],
+        "Ryujo": [
+          36,
+          40
+        ],
+        "Zuiho": [
+          27,
+          30
+        ],
+        "Shoho": [
+          18,
+          24
+        ],
+        "Taiyo_if_combat_used": [
+          18,
+          24
+        ],
+        "combat_usable_excluding_Hosho": [
+          490,
+          525
+        ]
+      }
+    }
+  ],
+  "entries": [
+    {
+      "id": "TECH-AIR-MEDIAN-RELIABILITY-001",
+      "domain": "AIR",
+      "status": "conditional",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "aircraft-specific",
+      "causal_stage": [
+        "READINESS",
+        "SORTIE",
+        "RECOVERY"
+      ],
+      "what_changed": "A major fraction of computing-assisted benefit appears in production median, repeatability, maintenance burden, mission aborts and handling rather than top speed alone.",
+      "magnitude": {
+        "type": "qualitative",
+        "range": "platform-specific; no universal multiplier"
+      },
+      "combat_meaning": [
+        "Raises ready aircraft and reduces abort/accident leakage; can compound with later search/attack stages."
+      ],
+      "nonlinear_effect": [
+        "shared_intermediate_no_double_count",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "top-speed-only improvement",
+        "automatic sortie-rate multiplier"
+      ]
+    },
+    {
+      "id": "TECH-AIR-NAV-REPORT-I-O-001",
+      "domain": "AIR",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "prewar/opening with unit/command variation",
+      "causal_stage": [
+        "SEARCH",
+        "CONTACT",
+        "INFORMATION",
+        "RETURN"
+      ],
+      "what_changed": "Position, time, wind, fuel, search-sector and return-position processing becomes more standardized; contact reports are more structured.",
+      "magnitude": {
+        "type": "system_role",
+        "range": "no universal multiplier"
+      },
+      "combat_meaning": [
+        "Reduces navigation/reporting leakage and makes multi-layer search/recontact more viable."
+      ],
+      "nonlinear_effect": [
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "perfect navigation",
+        "instant fleet data link"
+      ]
+    },
+    {
+      "id": "TECH-AIR-OPTICS-REPEATABILITY-001",
+      "domain": "AIR",
+      "status": "high_confidence_provisional",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "prewar maturation; exact equipment-specific implementation varies",
+      "causal_stage": [
+        "SEARCH",
+        "AIMING",
+        "ATTACK"
+      ],
+      "what_changed": "Optical calculation, glass characterization, grinding/assembly and calibration reduce systematic optical error and lot variance.",
+      "magnitude": {
+        "type": "technical_error",
+        "range": "optical-system angular error may shrink ~20% to 40%; final combat hit improvement is smaller/role-specific"
+      },
+      "combat_meaning": [
+        "Improves sight/bombsight/camera/observation consistency; does not map one-for-one into combat hit rate."
+      ],
+      "nonlinear_effect": [
+        "shared_intermediate_no_double_count"
+      ],
+      "do_not_simplify_as": [
+        "20-40% final hit-rate multiplier"
+      ]
+    },
+    {
+      "id": "TECH-AIR-A6M-ZUISEI-OPENING-001",
+      "domain": "AIR_PLATFORM",
+      "status": "high_confidence_provisional",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "1941-12 opening; detailed HARD audit can revise numbers but scenario selection is fixed",
+      "causal_stage": [
+        "READINESS",
+        "INTERCEPT",
+        "AIR_COMBAT",
+        "RETURN"
+      ],
+      "what_changed": "Opening carrier fighter is the Zuisei-powered Zero line, not historical Sakae baseline.",
+      "magnitude": {
+        "type": "platform_profile",
+        "range": {
+          "engine": "Zuisei 21 class ~1080 hp line",
+          "max_speed_kmh": "545-552 provisional",
+          "strengths": [
+            "long range",
+            "low-speed maneuver/carrier margin",
+            "mature production and lower variance"
+          ],
+          "comparative_note": "F4F remains dangerous/equal-class because of protection, firepower, radio and mutual-support tactics"
+        }
+      },
+      "combat_meaning": [
+        "Japanese carrier fighter advantage must be represented by range/low-speed maneuver/availability and not merely a speed bonus."
+      ],
+      "nonlinear_effect": [
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "invincible Zero",
+        "speed-only bonus"
+      ]
+    },
+    {
+      "id": "TECH-AIR-B5N-ZUISEI-OPENING-001",
+      "domain": "AIR_PLATFORM",
+      "status": "high_confidence_provisional",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "first-line standard by 1940; 1941 late standard at opening",
+      "causal_stage": [
+        "READINESS",
+        "SORTIE",
+        "APPROACH",
+        "ATTACK",
+        "RETURN"
+      ],
+      "what_changed": "Carrier torpedo bomber uses Zuisei 15 commonality and a 1941-late protection/fire-safety package.",
+      "magnitude": {
+        "type": "platform_profile",
+        "range": {
+          "engine": "Zuisei 15 ~940 hp",
+          "max_speed_kmh": "391-397",
+          "unit_median_kmh": "385-393",
+          "torpedo_mission_radius_km": "500-620 provisional",
+          "approach_speed_kmh": "112-122",
+          "protection": "fuel shutoff/firewall/extinguisher/line separation/local fire protection/small back armor"
+        }
+      },
+      "combat_meaning": [
+        "Faster/more repeatable and better protected than a simple historical-airframe baseline; maintenance commonality with Zero matters aboard carriers."
+      ],
+      "nonlinear_effect": [
+        "shared_intermediate_no_double_count"
+      ],
+      "do_not_simplify_as": [
+        "only +km/h",
+        "B6N-level carrier handling"
+      ]
+    },
+    {
+      "id": "TECH-AIR-D3A-OPENING-001",
+      "domain": "AIR_PLATFORM",
+      "status": "high_confidence_provisional",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "carrier conversion complete by 1940; 1941-late standard at opening",
+      "causal_stage": [
+        "READINESS",
+        "APPROACH",
+        "ATTACK",
+        "HIT",
+        "RETURN"
+      ],
+      "what_changed": "D3A late-1941 standard has improved dive-envelope repeatability, production consistency and slightly higher performance.",
+      "magnitude": {
+        "type": "platform_profile",
+        "range": {
+          "max_speed_kmh": "394-400",
+          "unit_median_kmh": "389-396",
+          "3000m_climb": "5m55s-6m12s",
+          "dive_angle_deg": "55-65",
+          "release_altitude_m": "450-650",
+          "pullout_g": "4.5-5.5"
+        }
+      },
+      "combat_meaning": [
+        "More uniform dive geometry reduces unsafe/failed attack cases as well as dispersion."
+      ],
+      "nonlinear_effect": [
+        "shared_intermediate_no_double_count"
+      ],
+      "do_not_simplify_as": [
+        "only higher hit percentage"
+      ]
+    },
+    {
+      "id": "TECH-AIR-KI43-OPENING-001",
+      "domain": "AIR_PLATFORM",
+      "status": "provisional_center",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "1941 opening; role/timing retained, detailed performance still flagged for component re-audit",
+      "causal_stage": [
+        "READINESS",
+        "ESCORT",
+        "AIR_COMBAT"
+      ],
+      "what_changed": "Army Type-100 fighter equivalent is available in substantial numbers before opening and combines long range, high climb/maneuverability and twin 12.7 mm armament.",
+      "magnitude": {
+        "type": "platform_profile",
+        "range": {
+          "opening_available": "280-380",
+          "max_speed_kmh": "500-504 center 502",
+          "5000m_climb": "5m25s-5m40s",
+          "escort_radius_km": "600-700 with drop tank",
+          "armament": "2x12.7mm",
+          "protection": "small back armor + fuel shutoff/fire protection; no full self-sealing"
+        }
+      },
+      "combat_meaning": [
+        "Changes Japanese opening land-air fighter mix and reach; should not be treated as a generic superiority over faster/protected P-40-class opponents."
+      ],
+      "nonlinear_effect": [
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "invulnerable long-range fighter",
+        "historical Ki-43 schedule"
+      ]
+    },
+    {
+      "id": "TECH-AIR-KI44-OPENING-TRIAL-001",
+      "domain": "AIR_PLATFORM",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "1941 late trial-operational only",
+      "causal_stage": [
+        "READINESS",
+        "INTERCEPT"
+      ],
+      "what_changed": "Ki-44 high-speed interceptor exists only as a small operational-trial force at opening.",
+      "magnitude": {
+        "type": "fielding_profile",
+        "range": {
+          "opening_trial_operational": "15-25 aircraft",
+          "Ki44-I_max_speed_kmh": "586-594 provisional",
+          "role": "point/area interception, not long-range escort"
+        }
+      },
+      "combat_meaning": [
+        "Provides a small high-speed interception niche but cannot be counted as mass opening air superiority."
+      ],
+      "nonlinear_effect": [
+        "threshold"
+      ],
+      "do_not_simplify_as": [
+        "mass 1941 deployment"
+      ]
+    },
+    {
+      "id": "TECH-AIR-SEAPLANE-OPENING-001",
+      "domain": "AIR_PLATFORM",
+      "status": "conditional",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "1941 opening",
+      "causal_stage": [
+        "SEARCH",
+        "LOCAL_AIR_DEFENSE",
+        "OBSERVATION"
+      ],
+      "what_changed": "Floatplane/seaplane force is larger and includes a small A6M2-N-equivalent water-fighter capability; local zero-to-some-air-cover effects matter more than national totals.",
+      "magnitude": {
+        "type": "fielding_profile",
+        "range": {
+          "A6M2N_operational": "18-35",
+          "F1M2": "190-270",
+          "E13A": "100-155",
+          "E8N2": "220-300",
+          "E7K2": "100-160"
+        }
+      },
+      "combat_meaning": [
+        "Can close temporary aviation gaps and strengthen small-base search/observation without substituting for modern land/carrier fighters."
+      ],
+      "nonlinear_effect": [
+        "threshold"
+      ],
+      "do_not_simplify_as": [
+        "top-down whole-air-force output multiplier",
+        "modern fighter replacement"
+      ]
+    },
+    {
+      "id": "TECH-AIR-BOMB-LEVEL-AREA-001",
+      "domain": "AIR_WEAPONS",
+      "status": "provisional_center",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "aircraft/weapon/training maturity dependent; opening carrier types have prewar standardization but magnitude remains audit-band",
+      "causal_stage": [
+        "APPROACH",
+        "ATTACK",
+        "HIT"
+      ],
+      "what_changed": "Technical dispersion, calibration and reproducibility improve for level bombing vs area targets under equivalent combat conditions.",
+      "magnitude": {
+        "type": "relative_probability",
+        "range": "+5% to +20% relative hit probability",
+        "note": "relative, not percentage points; aviation source labels table as pre-additional-audit center estimate"
+      },
+      "combat_meaning": [
+        "Raises same-opportunity attack effectiveness without removing human/visibility/enemy-motion limits."
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "resource_reallocation",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "fixed absolute hit rate",
+        "percentage-point increase",
+        "generic air-force output multiplier"
+      ]
+    },
+    {
+      "id": "TECH-AIR-BOMB-LEVEL-POINT-001",
+      "domain": "AIR_WEAPONS",
+      "status": "provisional_center",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "aircraft/weapon/training maturity dependent; opening carrier types have prewar standardization but magnitude remains audit-band",
+      "causal_stage": [
+        "APPROACH",
+        "ATTACK",
+        "HIT"
+      ],
+      "what_changed": "Technical dispersion, calibration and reproducibility improve for level bombing vs point targets under equivalent combat conditions.",
+      "magnitude": {
+        "type": "relative_probability",
+        "range": "+15% to +35% relative hit probability",
+        "note": "relative, not percentage points; aviation source labels table as pre-additional-audit center estimate"
+      },
+      "combat_meaning": [
+        "Raises same-opportunity attack effectiveness without removing human/visibility/enemy-motion limits."
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "resource_reallocation",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "fixed absolute hit rate",
+        "percentage-point increase",
+        "generic air-force output multiplier"
+      ]
+    },
+    {
+      "id": "TECH-AIR-DIVE-FIXED-001",
+      "domain": "AIR_WEAPONS",
+      "status": "provisional_center",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "aircraft/weapon/training maturity dependent; opening carrier types have prewar standardization but magnitude remains audit-band",
+      "causal_stage": [
+        "APPROACH",
+        "ATTACK",
+        "HIT"
+      ],
+      "what_changed": "Technical dispersion, calibration and reproducibility improve for dive bombing vs fixed targets under equivalent combat conditions.",
+      "magnitude": {
+        "type": "relative_probability",
+        "range": "+15% to +30% relative hit probability",
+        "note": "relative, not percentage points; aviation source labels table as pre-additional-audit center estimate"
+      },
+      "combat_meaning": [
+        "Raises same-opportunity attack effectiveness without removing human/visibility/enemy-motion limits."
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "resource_reallocation",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "fixed absolute hit rate",
+        "percentage-point increase",
+        "generic air-force output multiplier"
+      ]
+    },
+    {
+      "id": "TECH-AIR-DIVE-MOVING-001",
+      "domain": "AIR_WEAPONS",
+      "status": "provisional_center",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "aircraft/weapon/training maturity dependent; opening carrier types have prewar standardization but magnitude remains audit-band",
+      "causal_stage": [
+        "APPROACH",
+        "ATTACK",
+        "HIT"
+      ],
+      "what_changed": "Technical dispersion, calibration and reproducibility improve for dive bombing vs moving ships under equivalent combat conditions.",
+      "magnitude": {
+        "type": "relative_probability",
+        "range": "+10% to +25% relative hit probability",
+        "note": "relative, not percentage points; aviation source labels table as pre-additional-audit center estimate"
+      },
+      "combat_meaning": [
+        "Raises same-opportunity attack effectiveness.",
+        "For moving-ship dive bombing/aerial torpedo attack, may reduce aircraft required per target and free aircraft for second target/reserve/search/CAP."
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "resource_reallocation",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "fixed absolute hit rate",
+        "percentage-point increase",
+        "generic air-force output multiplier"
+      ]
+    },
+    {
+      "id": "TECH-AIR-GUN-BOMBER-GROUND-001",
+      "domain": "AIR_WEAPONS",
+      "status": "provisional_center",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "aircraft/weapon/training maturity dependent; opening carrier types have prewar standardization but magnitude remains audit-band",
+      "causal_stage": [
+        "INTERCEPT",
+        "ATTACK",
+        "HIT"
+      ],
+      "what_changed": "Technical dispersion, calibration and reproducibility improve for fixed guns vs bombers/ground targets under equivalent combat conditions.",
+      "magnitude": {
+        "type": "relative_probability",
+        "range": "+20% to +40% relative hit probability",
+        "note": "relative, not percentage points; aviation source labels table as pre-additional-audit center estimate"
+      },
+      "combat_meaning": [
+        "Raises same-opportunity attack effectiveness without removing human/visibility/enemy-motion limits."
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "resource_reallocation",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "fixed absolute hit rate",
+        "percentage-point increase",
+        "generic air-force output multiplier"
+      ]
+    },
+    {
+      "id": "TECH-AIR-GUN-FIGHTER-001",
+      "domain": "AIR_WEAPONS",
+      "status": "provisional_center",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "aircraft/weapon/training maturity dependent; opening carrier types have prewar standardization but magnitude remains audit-band",
+      "causal_stage": [
+        "INTERCEPT",
+        "ATTACK",
+        "HIT"
+      ],
+      "what_changed": "Technical dispersion, calibration and reproducibility improve for fighter fixed guns vs fighters under equivalent combat conditions.",
+      "magnitude": {
+        "type": "relative_probability",
+        "range": "+10% to +25% relative hit probability",
+        "note": "relative, not percentage points; aviation source labels table as pre-additional-audit center estimate"
+      },
+      "combat_meaning": [
+        "Raises same-opportunity attack effectiveness without removing human/visibility/enemy-motion limits."
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "resource_reallocation",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "fixed absolute hit rate",
+        "percentage-point increase",
+        "generic air-force output multiplier"
+      ]
+    },
+    {
+      "id": "TECH-AIR-TORPEDO-ATTACK-001",
+      "domain": "AIR_WEAPONS",
+      "status": "provisional_center",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "aircraft/weapon/training maturity dependent; opening carrier types have prewar standardization but magnitude remains audit-band",
+      "causal_stage": [
+        "APPROACH",
+        "ATTACK",
+        "HIT"
+      ],
+      "what_changed": "Technical dispersion, calibration and reproducibility improve for aerial torpedo attack under equivalent combat conditions.",
+      "magnitude": {
+        "type": "relative_probability",
+        "range": "+10% to +25% relative hit probability",
+        "note": "relative, not percentage points; aviation source labels table as pre-additional-audit center estimate"
+      },
+      "combat_meaning": [
+        "Raises same-opportunity attack effectiveness.",
+        "For moving-ship dive bombing/aerial torpedo attack, may reduce aircraft required per target and free aircraft for second target/reserve/search/CAP."
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "resource_reallocation",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "fixed absolute hit rate",
+        "percentage-point increase",
+        "generic air-force output multiplier"
+      ]
+    },
+    {
+      "id": "TECH-CARRIER-AIR-OPENING-CAPACITY-001",
+      "domain": "CARRIER",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "1941 opening",
+      "causal_stage": [
+        "READINESS",
+        "ALLOCATION"
+      ],
+      "what_changed": "Opening Japanese combat-usable carrier aviation is larger than just the six main carriers and has role-differentiated light/converted decks.",
+      "magnitude": {
+        "type": "force_profile",
+        "range": {
+          "main_six": "390-410",
+          "Ryujo": "36-40",
+          "Zuiho": "27-30",
+          "Shoho": "18-24",
+          "Taiyo_if_combat_used": "18-24",
+          "combat_usable_excluding_Hosho": "490-525"
+        }
+      },
+      "combat_meaning": [
+        "The main gain is extra supported operational fronts and flexibility; Taiyo combat use trades against replacement-aircraft ferry capacity."
+      ],
+      "nonlinear_effect": [
+        "resource_reallocation"
+      ],
+      "do_not_simplify_as": [
+        "all aircraft concentrated in one decisive carrier battle"
+      ]
+    },
+    {
+      "id": "TECH-CARRIER-DECK-CYCLE-LIGHT-001",
+      "domain": "CARRIER",
+      "status": "high_confidence_provisional",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "opening named light/converted carriers only",
+      "causal_stage": [
+        "SORTIE",
+        "RECOVERY",
+        "MISSION"
+      ],
+      "what_changed": "Aircraft handling/deck processing and conversion quality improve sortie cycling on specific light/converted carriers without expanding deck geometry beyond physical limits.",
+      "magnitude": {
+        "type": "relative_cycle",
+        "range": "Ryujo deck processing +10% to +15%; Zuiho sortie turnover +8% to +15%; Shoho conversion completion ~2-3 months earlier; ship-specific"
+      },
+      "combat_meaning": [
+        "Affects how many usable strike/CAP cycles a given air group can generate and whether a carrier is present at all on a date."
+      ],
+      "nonlinear_effect": [
+        "cycle_time",
+        "fielding_threshold"
+      ],
+      "do_not_simplify_as": [
+        "all carrier capacity +15%",
+        "aircraft production directly increases main-six deck spots"
+      ]
+    },
+    {
+      "id": "TECH-CARRIER-MISSION-CLASS-001",
+      "domain": "CARRIER",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "opening for named converted/light carriers subject to wind/load constraints",
+      "causal_stage": [
+        "SORTIE",
+        "MISSION",
+        "ALLOCATION"
+      ],
+      "what_changed": "Improved low-speed aircraft handling, load management and deck operations can move some light/converted carriers up one mission class without changing hull physics.",
+      "magnitude": {
+        "type": "mission_class",
+        "range": [
+          "aircraft transport -> limited escort/assault support carrier",
+          "light carrier -> small fleet carrier",
+          "converted merchant carrier -> low-speed medium fleet carrier"
+        ]
+      },
+      "combat_meaning": [
+        "Adds operational fronts where air support can be provided without consuming a first-line fleet carrier."
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "resource_reallocation"
+      ],
+      "do_not_simplify_as": [
+        "hull becomes fleet carrier in all conditions"
+      ]
+    },
+    {
+      "id": "TECH-DAMAGE-STATE-TRANSITION-001",
+      "domain": "CROSS_DOMAIN",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "all dates",
+      "causal_stage": [
+        "DAMAGE",
+        "RECOVERY"
+      ],
+      "what_changed": "Protection/reliability is modeled as transition probabilities among healthy, localized damage, degraded function, mission kill, immobile and loss states.",
+      "magnitude": {
+        "type": "model_rule",
+        "range": "event-specific"
+      },
+      "combat_meaning": [
+        "Small hit-probability changes may create large operational differences when they cross mission-kill or repair thresholds."
+      ],
+      "nonlinear_effect": [
+        "threshold"
+      ],
+      "do_not_simplify_as": [
+        "single hitpoints multiplier"
+      ]
+    },
+    {
+      "id": "TECH-DESIGN-LEARNING-MATURITY-001",
+      "domain": "CROSS_DOMAIN",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "all dates",
+      "causal_stage": [
+        "DESIGN",
+        "PRODUCTION",
+        "READINESS"
+      ],
+      "what_changed": "Calculated design improvements are allowed to consume safety margin only as test/sister-unit reproducibility matures.",
+      "magnitude": {
+        "type": "maturity_rule",
+        "levels": [
+          "unverified",
+          "single-unit",
+          "sister-unit reproducible",
+          "multi-unit mature"
+        ]
+      },
+      "combat_meaning": [
+        "Keeps early calculation gains from becoming instant fleet-wide optimized production while allowing repeated evidence to improve standard design."
+      ],
+      "nonlinear_effect": [
+        "threshold"
+      ],
+      "do_not_simplify_as": [
+        "calculation alone proves fleet maturity"
+      ]
+    },
+    {
+      "id": "TECH-INTEGRATION-RULE-001",
+      "domain": "CROSS_DOMAIN",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "all dates",
+      "causal_stage": [
+        "ALL"
+      ],
+      "what_changed": "Effects at distinct causal stages may compound; effects feeding the same intermediate state are integrated there first. Thresholds and reallocation can amplify modest component changes.",
+      "magnitude": {
+        "type": "model_rule",
+        "range": "event-specific"
+      },
+      "combat_meaning": [
+        "Avoids both unconditional percentage multiplication and the opposite error of treating all improvements as isolated increments."
+      ],
+      "nonlinear_effect": [
+        "multiplicative_across_distinct_stages",
+        "threshold",
+        "resource_reallocation",
+        "shared_intermediate_no_double_count",
+        "enemy_adaptation"
+      ],
+      "do_not_simplify_as": [
+        "never multiply",
+        "always multiply all percentages"
+      ]
+    },
+    {
+      "id": "TECH-MISSION-CONVERSION-CHAIN-001",
+      "domain": "CROSS_DOMAIN",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "all dates",
+      "causal_stage": [
+        "READINESS",
+        "MISSION",
+        "ALLOCATION"
+      ],
+      "what_changed": "Nominal hull/airframe existence is not combat power. Evaluate Hull/airframe -> Availability -> Mission set -> Mission effectiveness -> Allocation.",
+      "magnitude": {
+        "type": "model_rule",
+        "range": "state chain"
+      },
+      "combat_meaning": [
+        "Prevents paper OOB and headline performance from being treated as available combat force."
+      ],
+      "nonlinear_effect": [
+        "bottleneck_relief"
+      ],
+      "do_not_simplify_as": [
+        "nominal roster equals operational strength"
+      ]
+    },
+    {
+      "id": "TECH-OPTICS-LOT-UNIFORMITY-001",
+      "domain": "SENSOR_FIRECONTROL",
+      "status": "high_confidence_provisional",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "prewar onward, equipment-specific",
+      "causal_stage": [
+        "DETECT",
+        "RANGE",
+        "FIRE_CONTROL"
+      ],
+      "what_changed": "Optical glass characterization and production control reduce lot-to-lot refractive/dispersion variance and assembly error.",
+      "magnitude": {
+        "type": "technical_error",
+        "range": {
+          "glass_refractive_dispersion_lot_variance": "-30-50%"
+        }
+      },
+      "combat_meaning": [
+        "Improves consistency of rangefinding/night observation/photo/periscope systems; combat effectiveness still depends on crew/weather/I-O."
+      ],
+      "nonlinear_effect": [
+        "shared_intermediate_no_double_count"
+      ],
+      "do_not_simplify_as": [
+        "direct 30-50% hit-rate increase"
+      ]
+    },
+    {
+      "id": "TECH-OPTICS-RANGEFINDER-MEDIAN-001",
+      "domain": "SENSOR_SEARCH",
+      "status": "high_confidence_provisional",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "prewar onward; equipment/lot specific",
+      "causal_stage": [
+        "SEARCH",
+        "CONTACT",
+        "FIRECONTROL"
+      ],
+      "what_changed": "Optical glass/process/statistical calibration improves production median and lot uniformity of rangefinders/night optics more than best-case theoretical resolution.",
+      "magnitude": {
+        "type": "relative_error_process",
+        "range": "large rangefinder device variation -10% to -20%; total ranging error -5% to -8%; calibration time -20% to -30%; completed optical performance variation -30% to -50%"
+      },
+      "combat_meaning": [
+        "More units deliver near-designed ranging/identification performance and recover calibration faster."
+      ],
+      "nonlinear_effect": [
+        "median_shift",
+        "shared_intermediate_no_double_count"
+      ],
+      "do_not_simplify_as": [
+        "night sight distance always +12%",
+        "radar substitute"
+      ]
+    },
+    {
+      "id": "TECH-RADAR-1942-HUMANLOOP-001",
+      "domain": "SENSOR_SEARCH",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "1942 equipment-dependent; opening is precursor/trial",
+      "causal_stage": [
+        "DETECT",
+        "INFORMATION",
+        "TRACK"
+      ],
+      "what_changed": "Radar provides meaningful rough detection/early warning but remains a human-mediated input into plotting, optical confirmation and fire control.",
+      "magnitude": {
+        "type": "system_role",
+        "range": "applicable practical detection may improve ~5-15%; primary value is non-optical warning input, not automatic accuracy"
+      },
+      "combat_meaning": [
+        "Can buy warning minutes and recover contact in poor visibility; does not automatically identify, solve motion, direct CAP or guarantee gunfire."
+      ],
+      "nonlinear_effect": [
+        "bottleneck_relief",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "automatic fire-control radar",
+        "no effect until 1943"
+      ]
+    },
+    {
+      "id": "TECH-RADAR-CLOSEDLOOP-1943PLUS-001",
+      "domain": "SENSOR_SEARCH",
+      "status": "conditional",
+      "date_gate_state": "NOT_YET_MATURE",
+      "valid_from": "1943 onward as equipment/training/I-O mature",
+      "causal_stage": [
+        "DETECT",
+        "TRACK",
+        "COMMAND",
+        "INTERCEPT",
+        "FIRE_CONTROL"
+      ],
+      "what_changed": "Radar range, optical bearing, track prediction, multiple-target management and fighter/fire-control direction can approach a tactical closed loop.",
+      "warning": "Indexed but not mature for this event date; do not back-port."
+    },
+    {
+      "id": "TECH-RADAR-PRODUCTION-MEDIAN-001",
+      "domain": "SENSOR_SEARCH",
+      "status": "conditional",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "from actual radar fielding date, equipment dependent",
+      "causal_stage": [
+        "FIELDING",
+        "READINESS",
+        "SEARCH"
+      ],
+      "what_changed": "Computation/testing reduces calibration error, device variance and development iteration; initial operational radar units are more repeatable than historical equivalents.",
+      "magnitude": {
+        "type": "relative_process",
+        "range": "test iteration -30% to -50%; performance variation -30% to -40%; initial availability +15% to +25% relative; calibration error -30% to -50%; practical detection distance +5% to +15% where same principle/hardware applies"
+      },
+      "combat_meaning": [
+        "Fielded sets work more often and deliver more consistent ranges, but human I/O and doctrine still bound tactical use."
+      ],
+      "nonlinear_effect": [
+        "fielding_threshold",
+        "shared_intermediate_no_double_count"
+      ],
+      "do_not_simplify_as": [
+        "mature US-style radar fire control",
+        "opening fleet-wide radar"
+      ]
+    },
+    {
+      "id": "TECH-SEARCH-MULTILAYER-001",
+      "domain": "SENSOR_SEARCH",
+      "status": "conditional",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "improving at opening; more mature through 1942 and after carrier-battle lessons",
+      "causal_stage": [
+        "SEARCH",
+        "CONTACT",
+        "RECONTACT",
+        "TRACK"
+      ],
+      "what_changed": "Search evolves from single-pass sector search toward broad search, suspicious-contact revisit, fast confirmation, tracking and later position update.",
+      "magnitude": {
+        "type": "qualitative_cycle",
+        "range": "date/aircraft/navigation/doctrine dependent"
+      },
+      "combat_meaning": [
+        "Raises chance that ambiguous sightings become timely actionable tracks instead of expiring observations."
+      ],
+      "nonlinear_effect": [
+        "multiplicative_across_distinct_stages",
+        "threshold"
+      ],
+      "do_not_simplify_as": [
+        "fully mature on opening day",
+        "single search-radius multiplier"
+      ]
+    },
+    {
+      "id": "TECH-COMINT-JP-HIGHGRADE-1942-001",
+      "domain": "SIGINT_COMINT",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "1942",
+      "causal_stage": [
+        "INFORMATION_ACQUISITION"
+      ],
+      "what_changed": "Japanese high-grade operational cryptosystems plus key/traffic discipline prevent the US from normally reconstructing location, exact schedule and force composition from high-grade ciphertext with short-strategic timeliness/precision.",
+      "magnitude": {
+        "type": "information_capability",
+        "range": "high-grade content near-unavailable for short-strategic exploitation; not mathematical/permanent impossibility"
+      },
+      "combat_meaning": [
+        "Historical JN-25-like content advantages must not be silently reinserted into US pre-battle knowledge."
+      ],
+      "nonlinear_effect": [
+        "information_bottleneck"
+      ],
+      "do_not_simplify_as": [
+        "US knows nothing",
+        "all Japanese codes secure",
+        "permanent mathematical impossibility"
+      ]
+    },
+    {
+      "id": "TECH-COMINT-JP-OFFENSE-001",
+      "domain": "SIGINT_COMINT",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "opening onward; improves with Type2P/Type3 later",
+      "causal_stage": [
+        "INFORMATION_ACQUISITION",
+        "ANALYSIS"
+      ],
+      "what_changed": "Japanese cryptanalysis primarily exploits low/mid-grade codes, traffic analysis, DF, plaintext and operational mistakes; SIGABA-class highest-grade traffic is not routinely broken.",
+      "magnitude": {
+        "type": "information_capability",
+        "range": "mid-grade conditional; low-grade/traffic analytic"
+      },
+      "combat_meaning": [
+        "Provides probabilistic operational warning and short exploitation windows rather than omniscient reading of Allied plans."
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "substitution"
+      ],
+      "do_not_simplify_as": [
+        "routine SIGABA decryption",
+        "omniscient enemy OOB"
+      ]
+    },
+    {
+      "id": "TECH-COMINT-RESIDUAL-CHANNELS-1942-001",
+      "domain": "SIGINT_COMINT",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "1942 onward",
+      "causal_stage": [
+        "INFORMATION_ACQUISITION",
+        "ANALYSIS"
+      ],
+      "what_changed": "Unreadable high-grade content does not remove low-grade codes, plaintext, peripheral traffic, traffic volume, callsigns/frequencies, DF, air/sub reconnaissance, geography and logistics inference.",
+      "magnitude": {
+        "type": "information_channels",
+        "range": "channel-specific"
+      },
+      "combat_meaning": [
+        "Enemy can form candidate-operation probabilities and rough force/activity estimates but with worse precision/freshness."
+      ],
+      "nonlinear_effect": [
+        "substitution",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "information blackout"
+      ]
+    },
+    {
+      "id": "TECH-COMSEC-CENTRAL-AUDIT-OPENING-001",
+      "domain": "SIGINT_COMINT",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "opening; partial operational capability",
+      "causal_stage": [
+        "DESIGN",
+        "KEY_MANAGEMENT",
+        "ANALYSIS"
+      ],
+      "what_changed": "Central cryptographic computing/card-statistical capability is already present and used for design testing, key-usage audit and traffic statistics.",
+      "magnitude": {
+        "type": "capability",
+        "range": {
+          "1941_end": "Type 2 ~3-5, Type 1C ~5-10 plus multiple card rooms (scenario center estimates)"
+        }
+      },
+      "combat_meaning": [
+        "Raises cipher-design/operations quality and analytic throughput but remains constrained by distribution, operators, captures and radio traffic."
+      ],
+      "nonlinear_effect": [
+        "bottleneck_relief"
+      ],
+      "do_not_simplify_as": [
+        "perfect communications security"
+      ]
+    },
+    {
+      "id": "TECH-INFO-TO-COMMAND-SEPARATION-001",
+      "domain": "SIGINT_COMINT",
+      "status": "accepted",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "all dates",
+      "causal_stage": [
+        "INFORMATION_ACQUISITION",
+        "ANALYSIS",
+        "COMMAND",
+        "EXECUTION"
+      ],
+      "what_changed": "Information acquisition, analyst confidence, headquarters acceptance, decision and field execution are separate states.",
+      "magnitude": {
+        "type": "model_rule",
+        "range": "event-specific latency/acceptance"
+      },
+      "combat_meaning": [
+        "A cryptanalytic or reconnaissance warning changes history only if it remains timely and is believed/acted on."
+      ],
+      "nonlinear_effect": [
+        "multiplicative_across_distinct_stages",
+        "threshold"
+      ],
+      "do_not_simplify_as": [
+        "analyst knows = fleet acts"
+      ]
+    },
+    {
+      "id": "TECH-SURFACE-DC-MARGIN-001",
+      "domain": "SURFACE_PLATFORM",
+      "status": "conditional",
+      "date_gate_state": "ACTIVE_OR_CONDITIONAL",
+      "valid_from": "class/refit specific; opening strongest in computation-designed later classes",
+      "causal_stage": [
+        "DAMAGE",
+        "RECOVERY",
+        "MISSION"
+      ],
+      "what_changed": "Weight/strength calculation savings are reinvested in local reinforcement, drainage/firefighting, power/ventilation, steering and reserve margin rather than pure lightening.",
+      "magnitude": {
+        "type": "state_transition",
+        "range": "class specific; do not use one fleet multiplier"
+      },
+      "combat_meaning": [
+        "Can reduce transition from moderate damage to mission kill and preserve function after non-catastrophic hits."
+      ],
+      "nonlinear_effect": [
+        "damage_state_threshold",
+        "shared_intermediate_no_double_count"
+      ],
+      "do_not_simplify_as": [
+        "armor multiplier",
+        "survival bonus multiplied again with firing-continuity bonus"
+      ]
+    }
+  ],
+  "integration_rules": [
+    "same intermediate state: integrate once",
+    "distinct causal stages may compound",
+    "check thresholds/reallocation/bottlenecks",
+    "carry provisional bands visibly",
+    "technical cards never substitute for OOB/readiness/personnel state"
+  ]
+}

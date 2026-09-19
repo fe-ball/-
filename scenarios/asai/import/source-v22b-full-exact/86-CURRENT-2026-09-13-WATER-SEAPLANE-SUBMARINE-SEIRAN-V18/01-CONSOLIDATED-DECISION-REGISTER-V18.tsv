@@ -1,0 +1,40 @@
+subject	status	decision	guard
+replay_clock	CURRENT-CLOSE	1940-07-31 24:00 unchanged	No 1941-44 technical shadow is automatic history/OOB
+protagonist_GT_domain	CURRENT-CLOSE	Iwao has real professional answer/route knowledge in engine/GT/jet core and strong metallurgy/aviation reach	Do not reduce to idea-manager; do not turn into political ruler
+protagonist_industrial_gate	CURRENT-CLOSE	Idea/design gate can compress strongly; industrial/material/production/adoption gates cannot be skipped	No free materials, tooling, budget or obedience
+E15K_CRP	WORKING-CLOSE	CRP central credible branch; fail-safe retract auxiliary floats; real main-float jettison qualification required	No giant free speed multiplier
+E15K_CRP3_timing	WORKING-CLOSE	1941 Aug-Sep working center after 1940 Q3-Q4 full-power rig and 1941 spring flight	Technical shadow only
+N1K_Kyofu_CRP	WORKING-CLOSE	CRP retained; fixed low-drag auxiliary floats; takeoff EX3/flap/prop integration	Do not inherit retract auxiliary floats automatically
+N1K_Kyofu_speed	WORKING-CLOSE	500-510 km/h class; center ~505	Do not infer N1K1-J land fighter directly
+floatfighter_EX3	CURRENT-CLOSE	Mission-specific EX3: low-backpressure + ejector cooling; hot nozzle generally fixed, secondary flow variable	No separate magical EX4
+A6M_floatfighter_name	WORKING	1941 formal adoption would make worldline Type 1 Float Fighter	Historical Type 2 name only if formal acceptance crosses 1942
+H8K1	WORKING-CLOSE	435-440 km/h class; major gain is water-operation repeatability	No large speed inflation
+H8K2	WORKING-CLOSE	32.5 t max retained; 467-472 km/h class; quick-feather 4-blade strongly recommended	Use excess power as bad-condition/engine-out margin, not automatic MTOW growth
+H8K3	WORKING-CLOSE	Limited high-speed reconnaissance branch, ~479-485 km/h	Not universal H8K2 replacement; no central 500 km/h
+H9A	CURRENT-CLOSE	Flying-boat test/training system value elevated	Do not scale H8K hydrodynamics directly
+H10H	WORKING	Four-engine 18 t class; 468-476 km/h prototype shadow technically plausible	Procurement quantity OPEN
+H7Y	WORKING-CLOSE	Technically rescueable special ultra-long-range reconnaissance/experiment branch	Not normal mass-production combat boat
+E16A1	WORKING-CLOSE	CRP rejected; 448-455 km/h, ~4.5-4.55 t max/catapult guard	Do not inflate by CRP or weight growth
+E16A2	WORKING-CLOSE	Kinsei62 + 4-blade, 463-470 km/h, better takeoff/climb	Do not wait for it before initial E16A1 fielding
+A6M_Kinsei54	WORKING	Long-wing bridge candidate ~584-590 km/h, ~2.9 t	Not assumed adopted; Reppu successor remains higher priority
+J2M2	WORKING-CLOSE	600-605 km/h class 1942 Q3 technical shadow; 6 km ~5:10-5:30	Extension shaft/cooling remain integration issues, not magically erased
+N1K1J_CRP	WORKING	CRP successful technically but does not remove mid-wing long-gear geometry	Production comparison may reject CRP without technical failure
+N1K2J	WORKING-CLOSE	3.82-3.92 t; 602-606 km/h; 6 km ~5:50-6:10; 20 mm x4; auto combat flap plausible	Procurement/quantity remains history-gated
+submarine_inheritance	CURRENT-CLOSE	I-400 inherits dive trajectory, improved lead battery product, motor rating maps, own-noise maps, radio reliability, E14Y operations, FCS3	Do not reset to historical-quality subs
+submarine_nextgen_separation	CURRENT-CLOSE	12/15 kt high-underwater-speed non-air branch remains separate	No 40,000 nmi + 3 aircraft + 12-15 kt super-sub
+I400_Yamamoto_intent	CURRENT-CLOSE	Restore ultra-long-range strategic aircraft-submarine requirement; 3-aircraft I-400 remains central strategic branch	Do not pre-optimize away into AM
+I400_initial_plan	HISTORY-GATE	Retain Yamamoto 18-boat planned requirement as future strategic/political starting point	18 planned != 18 completed
+I400_technical	WORKING-CLOSE	~5.1-5.3 kt surface displacement, 3 Seiran, 7.7-8.0k hp, 18.5-19 kt, 360-cell ordinary lead battery, ~2.4k hp underwater, 6.5-7 kt	No advanced 4-motor high-speed underwater system
+I400_torpedo	WORKING-CLOSE	Retain 8 bow tubes/~20 torpedoes for first central block; FCS3 new-build integration possible	Do not strip all torpedo capability just for aircraft
+AM_role	WORKING	Two-Seiran supporting/common-aircraft branch; useful but not default replacement for I-400	Actual hull count future procurement
+Seiran_airframe	WORKING-CLOSE	3.5 m envelope, 2 crew, ~12.25 m span/27 m2, 800-850 kg class weapon, removable twin floats	Common to AM and I-400
+Seiran_engine	WORKING-CLOSE	E7-M lower-flow + 3.20-3.25 m 4-blade central if 1942 Q3 naval/reducer gates pass; Atsuta32 schedule fallback	Do not delay whole system waiting for TP
+Seiran_CRP	CURRENT-CLOSE	Comparison test only; reject for standard if normal 4-blade passes power/vibration/diameter gates	CRP can succeed technically and still lose system trade
+Seiran_speed	WORKING-CLOSE	Floats 510-522 km/h; no-float 598-612 km/h technical shadow	No immunity from late-war fighters
+Seiran_range	WORKING-CLOSE	Heavy-weapon floats total range 950-1150 km; radius ~350-450; no-float discard-return radius ~550-700; one-way reach 1200-1600	Separate total range from combat radius
+Seiran_launch_time	WORKING-CLOSE	3 aircraft: floats 20-25 min; no-float 12-15 min trained repeatable target	No miracle 5-minute whole strike
+Seiran_accuracy	WORKING	Use mission-type probability bands and common-error + individual-error model	No fixed universal hit multiplier
+next_water_gate	NEXT-GATE	E13A + F1M fleet reconnaissance/spotting system closeout	Preserve broad historical speed; audit information workflow
+next_shiun_gate	NEXT-GATE	E15K final initial-production one-sheet + Oyodo integration	Do not mix later Homare/E7 developments into initial spec
+next_ship_air_gate	NEXT-GATE	Catapult/crane/fuel/photo/maintenance/tender integration	Check aircraft masses against ship-specific dates
+next_I400_gate	NEXT-GATE	Yamamoto 18-plan -> yard/resource release audit	Calculate actual feasible lots without automatic OOB

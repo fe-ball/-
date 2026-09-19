@@ -1,0 +1,31 @@
+{
+  "revision": "v031",
+  "package_root": "計算機異聞_refactor_v031_2026-08-29_BRANCH_B_INDIAN_OCEAN_WALLET_WORKING_FULL",
+  "generated": "2026-08-29",
+  "purpose": "Continuation full package: preserve v030 GALVANIC authorities and add unpromoted Jan-1944 Japanese hull/submarine reconciliation plus Indian-Ocean reinforcement/origin-route working ledgers for Eastern Fleet indication simulation.",
+  "base_package": "計算機異聞_refactor_v030_2026-08-29_BRANCH_B_GALVANIC_NEGATIVE_DELTA_CLOSEOUT_FULL",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "authority_status": "CURRENT AUTHORITIES UNCHANGED FROM v030; NEW INDIAN-OCEAN MATERIAL IS WORKING/PENDING PROMOTION",
+  "current_branch_state_file": "06_RUNTIME/CURRENT_BRANCH_STATE_v012.json",
+  "current_restart_checkpoint": "05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v004.json",
+  "current_overrides": "00_CONFIG/current_branch_overrides_v012.json",
+  "next_session_handoff": "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v031.md",
+  "working_authorities_not_promoted": [
+    "06_RUNTIME/JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v003.json",
+    "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v004.json",
+    "95_AUDIT/JAPAN_INDIAN_OCEAN_ORIGIN_ROUTE_AUDIT_1944-01_WORKING_v001.md"
+  ],
+  "working_centers": {
+    "fleet_DD_physical": 81,
+    "fleet_DD_ready": 72,
+    "light_cruisers_physical": 21,
+    "light_cruisers_ready": "18-20",
+    "submarines_physical": 103,
+    "submarines_physical_band": "102-104",
+    "submarines_combat_usable_center": 86,
+    "submarines_ocean_patrol_ready_near_ready_center": 67
+  },
+  "next_required_adjudication": "Open Eastern Fleet indication timeline; quantify Andaman-Arakan observation network before first weapon-quality contact; issue/withhold movement orders gate-by-gate with Pacific opportunity-cost debit.",
+  "validation": "95_AUDIT/VALIDATION_RESULT_v031.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v031.txt"
+}

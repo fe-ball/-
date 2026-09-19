@@ -1,0 +1,136 @@
+{
+  "version": "v001",
+  "status": "CLOSED_CENTER_EVENT",
+  "date": "1942-07-23",
+  "method": "no_random_draw_center_adjudication_with_sensitivity_tails",
+  "gates": {
+    "W1": {
+      "status": "FIRED",
+      "time_local": "12:35",
+      "basis": [
+        "physical Shortland/Faisi support sighting",
+        "independent DF/traffic/logistics pattern"
+      ]
+    },
+    "W2": {
+      "status": "OPEN_NOT_FIRED_BY_24_00",
+      "basis": "no usable repeated assault-body track"
+    }
+  },
+  "japanese": {
+    "assault_body": {
+      "departure_local": "~00:30",
+      "origin": "Rabaul outer assembly",
+      "effective_speed_kts_center": 11.75,
+      "transports": [
+        "Kinryu Maru",
+        "Ryoyo Maru",
+        "Ayatosan Maru",
+        "Sasago Maru",
+        "Kazuura Maru",
+        "Myoko Maru"
+      ],
+      "command": "Jintsu",
+      "direct_cover_dd": [
+        "Hagikaze",
+        "Nowaki",
+        "Maikaze",
+        "Yukikaze",
+        "Tokitsukaze",
+        "Murasame"
+      ],
+      "d3_opening_location": "Shortland/Faisi latitude / exit axis, broad uncertainty box",
+      "allied_detection": "NOT_PHYSICALLY_REACQUIRED"
+    },
+    "search_sorties": {
+      "H6K_H8K": 3,
+      "G3M_G4M": 5,
+      "forward_water_air": 8,
+      "ship_floatplanes": 10,
+      "D4Y1C": 2,
+      "submarines_useful_geometry": "4-5"
+    },
+    "allied_reinforcement_detected": false,
+    "contingency_reserve_1000": {
+      "status": "NOT_ACTIVATED",
+      "readiness": "ON_NOTICE"
+    },
+    "d_day_center": "1942-07-27"
+  },
+  "allied": {
+    "search_sorties": {
+      "B17": 3,
+      "PBY": 6
+    },
+    "shortland_support_sighting": {
+      "time_local": "08:20",
+      "confidence": "MEDIUM",
+      "assault_body_identified": false,
+      "carrier_identified": false
+    },
+    "2d_marines": {
+      "physical_center": 4840,
+      "order_time_local": "13:05",
+      "sail_time_local": "16:20",
+      "transports": [
+        "Crescent City",
+        "President Adams",
+        "President Hayes",
+        "President Jackson",
+        "Alhena"
+      ],
+      "direct_escort_dd": [
+        "Wilson",
+        "Buchanan"
+      ],
+      "speed_kts_center": 15.0,
+      "eta_santo": "1942-07-26 13:00-19:00 center ~15:00",
+      "status": "UNDERWAY"
+    },
+    "wasp_group": {
+      "policy": "REMOTE_COVER",
+      "ships": [
+        "Wasp",
+        "North Carolina",
+        "Quincy",
+        "San Juan",
+        "Lang",
+        "Stack",
+        "Sterett",
+        "Farenholt"
+      ],
+      "status": "UNDERWAY_SEPARATE_FROM_TRANSPORTS"
+    },
+    "raiders": {
+      "physical_band": [
+        820,
+        900
+      ],
+      "apd_pool": [
+        "Little",
+        "Colhoun",
+        "Gregory",
+        "McKean"
+      ],
+      "immediate_dispatchable_equivalent_at_W1": 3,
+      "fourth_ready": "by late evening after short fueling/post-transit work",
+      "status": "EMBARKING_OR_NEAR_LOADED_HOLDING",
+      "sail_gate": "W2"
+    },
+    "efate_ground_release": {
+      "status": "NO",
+      "reason": "W2 not fired"
+    }
+  },
+  "irreversible_losses_center": {
+    "japanese_aircraft": 0,
+    "allied_aircraft": 0,
+    "ships": 0,
+    "submarines": 0,
+    "ground": 0
+  },
+  "next": {
+    "date": "1942-07-24",
+    "phase": "SANTO_D3_W2_AND_MUTUAL_CONTACT_RACE"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "revision": "v001",
+  "id": "EASTERN_FLEET_BENGAL_DORMANCY_GATE_1944-03-08_WORKING_v001",
+  "status": "WORKING_BRANCH_RULE",
+  "as_of": "1944-03-08T24:00:00+09:00",
+  "purpose": "Stop spending detailed clock resolution on an Indian-Ocean standoff once the currently underway INITIAL sortie closes, unless a material sea or land trigger appears.",
+  "current_state": "INITIAL remains underway and must be allowed to return on its own clock; this rule does not erase 9-12 Mar events already implied by the sortie.",
+  "after_INITIAL_return": {
+    "Eastern_Fleet": "DORMANT_SURVEILLANCE_AND_TRAINING_BACKGROUND",
+    "Japan_western_naval": "DORMANT_SURVEILLANCE_SUBMARINE_ASW_BACKGROUND",
+    "Bengal_Arakan_land": "HOLD_STALEMATE",
+    "Japanese_land_policy": "fortify/supply Chittagong and existing line; no Feni/Comilla main offensive without a new supply/force/air-superiority gate",
+    "Allied_land_policy": "rebuild Feni/Comilla and contain Chittagong; no automatic counteroffensive without a new reinforcement/logistics gate",
+    "old_Japanese_battleships": "End predictable routine shore-bombardment exposure. As the theater cools, rotate Fuso/Yamashiro/Ise/Hyuga rearward for maintenance/strategic reserve rather than keeping them on a fixed firing schedule. No instantaneous Pacific teleport."
+  },
+  "reopen_triggers": [
+    "fresh Eastern Fleet approach toward Andaman/Chittagong with attack geometry",
+    "major RN carrier or amphibious reinforcement",
+    "Japanese Bengal/Arakan land offensive approval",
+    "Allied Chittagong recapture offensive approval",
+    "confirmed high-value port concentration enabling positive-EV Japanese air/submarine strike",
+    "Japanese old-battleship forward sortie that creates a new RN attack opportunity"
+  ],
+  "effect": "After INITIAL closes, Indian Ocean/Bengal can be updated only when a trigger changes the strategic state; otherwise Pacific fleet reconstruction becomes the active discussion frontier."
+}

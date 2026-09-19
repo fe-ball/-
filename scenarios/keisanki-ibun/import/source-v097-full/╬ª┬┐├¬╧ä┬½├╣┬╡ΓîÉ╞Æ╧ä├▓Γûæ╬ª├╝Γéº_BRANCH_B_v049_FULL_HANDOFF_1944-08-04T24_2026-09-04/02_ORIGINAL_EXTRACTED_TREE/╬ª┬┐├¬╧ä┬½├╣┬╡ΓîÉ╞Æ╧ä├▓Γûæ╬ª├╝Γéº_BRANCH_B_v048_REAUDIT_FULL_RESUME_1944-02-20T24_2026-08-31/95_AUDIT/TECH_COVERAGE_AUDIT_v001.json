@@ -1,0 +1,56 @@
+{
+  "revision": "v001",
+  "tech_index": "TECH_INDEX_v003",
+  "entry_count": 62,
+  "domain_counts": {
+    "CROSS_DOMAIN": 4,
+    "AIR_WEAPONS": 7,
+    "AIR": 3,
+    "AIR_PLATFORM": 6,
+    "CARRIER": 3,
+    "AMPHIBIOUS": 2,
+    "LOGISTICS": 3,
+    "SURFACE_TORPEDO": 4,
+    "SURFACE_PLATFORM": 4,
+    "SURFACE": 1,
+    "SENSOR_FIRECONTROL": 1,
+    "SURFACE_GUNFIRE": 2,
+    "SENSOR_SEARCH": 5,
+    "SUBMARINE": 4,
+    "ASW": 8,
+    "SIGINT_COMINT": 5
+  },
+  "status_counts": {
+    "accepted": 25,
+    "provisional_center": 10,
+    "high_confidence_provisional": 15,
+    "conditional": 12
+  },
+  "priority_gaps": [
+    {
+      "id": "GAP-SURFACE-INDIVIDUAL",
+      "priority": "high",
+      "issue": "compact index does not yet encode every opening surface class/individual availability; event uses detailed opening OOB source"
+    },
+    {
+      "id": "GAP-AIR-WEAPON-STATS",
+      "priority": "medium",
+      "issue": "air-weapon relative hit bands remain provisional center estimates; retain sensitivity ranges"
+    },
+    {
+      "id": "GAP-ASW-TYPE-INVENTORY",
+      "priority": "medium",
+      "issue": "ship-by-ship sonar/depth-charge equipment inventory not fully compacted"
+    },
+    {
+      "id": "GAP-RADAR-BY-SHIP",
+      "priority": "medium",
+      "issue": "opening/1942 radar equipment fielding must be resolved by date and ship; no fleet-wide assumption"
+    },
+    {
+      "id": "GAP-PERSONNEL-UNIT",
+      "priority": "high",
+      "issue": "exact opening aircrew/maintenance cohort quantities are not fully closed in all theaters; track bounded where absent"
+    }
+  ]
+}

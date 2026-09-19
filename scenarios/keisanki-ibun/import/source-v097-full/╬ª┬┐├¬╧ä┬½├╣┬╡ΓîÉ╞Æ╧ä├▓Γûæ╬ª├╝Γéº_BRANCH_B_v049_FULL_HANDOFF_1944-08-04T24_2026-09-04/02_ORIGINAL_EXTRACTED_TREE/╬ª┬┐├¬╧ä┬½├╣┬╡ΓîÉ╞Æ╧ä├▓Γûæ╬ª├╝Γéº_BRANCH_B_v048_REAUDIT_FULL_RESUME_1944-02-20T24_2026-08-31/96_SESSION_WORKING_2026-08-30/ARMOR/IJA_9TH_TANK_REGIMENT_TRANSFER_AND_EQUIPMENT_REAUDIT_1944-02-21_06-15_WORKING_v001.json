@@ -1,0 +1,193 @@
+{
+  "revision": "v001",
+  "id": "IJA_9TH_TANK_REGIMENT_TRANSFER_AND_EQUIPMENT_REAUDIT_1944-02-21_06-15_WORKING_v001",
+  "status": "WORKING_REOPEN_CURRENT_SAIPAN_ARMOR_LAYER_NOT_CURRENT",
+  "cutoff_start": "1944-02-21",
+  "cutoff_end": "1944-06-15",
+  "historical_source_reconciliation": {
+    "regiment_total": {
+      "documented_secondary_reconstruction": "about 81 tanks: 5 Shinhoto Type97, 41 old-turret Type97, 35 Type95",
+      "USMC_operational_structure": "May-15 table gives 3rd/4th/5th companies each 11 medium + 3 light; HQ 3 medium + 3 light. A 6th company was added after the table and split between Saipan/Guam.",
+      "interpretation": "whole-regiment physical strength around 78-85 is consistent with both the company TOE and Guam/Saipan combat returns; exact model split is less secure than the total."
+    },
+    "Saipan_strength_conflict": {
+      "individual_vehicle_reconstruction": "47 9th-Regiment tanks is often cited for Saipan, with 4 Shinhoto +31 old Type97 +12 Type95.",
+      "USMC_D_day_and_night_attack": "4th Company had 14 tanks on D-Day and only 3 operative afterward; nevertheless about 44 9th-Regiment tanks were mustered for the 16/17 June attack.",
+      "reverse_inference": "44 attack-ready/theoretical + 11 lost from 4th Company implies roughly 55 9th-Regiment tanks before the D-Day loss gate, before adding naval armor.",
+      "working_resolution": "Use 50-56 physical 9th-Regiment tanks on Saipan as the hard working band. Treat 47 as a lower documented-identification series and ~55 as the operational-TOE series."
+    },
+    "Guam_crosscheck": {
+      "US_Army_history": "1st Co 12-15 light tanks; 2nd Co 12-14 tanks mostly medium. Together about 24-29 9th-Regiment tanks, with a separate 29th Division tank company bringing Guam total toward the high 30s.",
+      "effect": "A whole-regiment total around 80 is physically credible."
+    },
+    "transfer_clock": {
+      "historical_reassignment": "9th Tank Regiment removed from 1st Tank Division / reassigned to 31st Army in March 1944.",
+      "historical_transport": "Higashi-Matsu No.4 left Tokyo 1 April; Saipan-bound group arrived 9-10 April. Convoy suffered submarine attacks but the Saipan tank lift was not centered as lost.",
+      "split": "1st and 2nd Companies plus part of a later company to Guam; 3rd/4th/5th and HQ/main remainder to Saipan."
+    }
+  },
+  "branch_decision_clock": {
+    "HAILSTONE": "Branch Truk raid closes 21 Feb 1944 and demonstrates Truk can no longer act as a safe fleet/logistic concentration hub.",
+    "organizational_background": "Triangularization already creates an independent reason to detach 9th Regiment from 1st Tank Division.",
+    "transfer_order_band": "1944-02-24..03-03",
+    "center": "1944-02-27",
+    "assessment": "Only modestly different from historical March timing; HAILSTONE confirms rather than invents the Marianas transfer.",
+    "embarkation": "Keep East-Pine/Higashi-Matsu No.4 scale and early-April convoy clock centered. No magical March arrival."
+  },
+  "branch_regiment_strength_21_Feb": {
+    "physical_tanks_band": [
+      78,
+      85
+    ],
+    "ready_band": [
+      70,
+      79
+    ],
+    "center_physical": 81,
+    "center_ready": 75,
+    "model_mix_before_final_staging": {
+      "Shinhoto_Type97_band": [
+        19,
+        25
+      ],
+      "old_turret_Type97_band": [
+        21,
+        27
+      ],
+      "Type95_band": [
+        32,
+        36
+      ],
+      "explanation": "Branch 1942-43 conversion/production gives 1st Tank Division a materially higher 47mm share than historical 9th Regiment, but no all-Shinhoto rearmament."
+    }
+  },
+  "branch_final_reequipment_before_embark": {
+    "logic": [
+      "Marianas becomes high-priority after GALVANIC + HAILSTONE.",
+      "January-February anti-Allied-medium-tank guidance makes 47mm Shinhoto preferable to 57mm old-turret tanks for this mission.",
+      "57mm HE-support vehicles remain useful and are not all discarded.",
+      "Vehicle count is held near the regiment's existing envelope; model substitution is paid from Home/depot stocks."
+    ],
+    "physical_center_total": 81,
+    "model_mix_embark_center": {
+      "Shinhoto_Type97": 27,
+      "old_turret_Type97": 21,
+      "Type95": 33
+    },
+    "model_mix_embark_band": {
+      "Shinhoto_Type97": [
+        24,
+        30
+      ],
+      "old_turret_Type97": [
+        17,
+        24
+      ],
+      "Type95": [
+        31,
+        35
+      ]
+    },
+    "opportunity_cost": {
+      "Home_depot_Shinhoto_release": [
+        5,
+        9
+      ],
+      "old_Type97_received_back_or_reassigned": [
+        5,
+        9
+      ],
+      "national_hull_delta": 0
+    }
+  },
+  "transport_and_arrival": {
+    "convoy_center_departure": "1944-04-01",
+    "Saipan_arrival": "1944-04-09..10",
+    "Guam_forwarding": "1944-04-10..13",
+    "tank_shipping_irrecoverable_center": 0,
+    "tank_shipping_irrecoverable_band": [
+      0,
+      3
+    ],
+    "reason": "The historical convoy's submarine losses did not center on the Saipan tank cargo; Branch ASW does not justify inventing extra losses or perfect immunity.",
+    "post_unload_serviceability": "90-96% within 5-10 days because vehicles receive maintenance after sea transport."
+  },
+  "island_split_branch_center": {
+    "Saipan_9th_Regiment": {
+      "physical_band": [
+        50,
+        56
+      ],
+      "center": 53,
+      "model_center": {
+        "Shinhoto": 20,
+        "old_Type97": 18,
+        "Type95": 15
+      },
+      "ready_14_Jun_band": [
+        48,
+        53
+      ]
+    },
+    "Guam_9th_Regiment": {
+      "physical_band": [
+        26,
+        31
+      ],
+      "center": 28,
+      "model_center": {
+        "Shinhoto": 7,
+        "old_Type97": 3,
+        "Type95": 18
+      },
+      "ready_mid_June_band": [
+        24,
+        29
+      ]
+    },
+    "reason": "Saipan receives most medium companies; Guam receives a light-heavy 1st Company plus a medium 2nd Company."
+  },
+  "Saipan_other_armor": {
+    "SNLF_Type95_physical": 9,
+    "KaMi_amphibious_tanks_band": [
+      3,
+      5
+    ],
+    "ready_15_Jun_band": [
+      10,
+      13
+    ],
+    "guard": "These are separate from the 9th Tank Regiment and must not disappear inside its count."
+  },
+  "Saipan_15_Jun_revised_opening": {
+    "Japanese_armored_vehicle_physical_band": [
+      62,
+      70
+    ],
+    "ready_band": [
+      57,
+      64
+    ],
+    "center_ready": 61,
+    "Shinhoto_ready_band": [
+      18,
+      22
+    ],
+    "old_Type97_ready_band": [
+      16,
+      19
+    ],
+    "Type95_and_KaMi_ready_band": [
+      23,
+      27
+    ],
+    "comparison_to_current_settlement": "Current 52-55 ready is likely low by about 4-9 vehicles, and especially understates the Branch 47mm Shinhoto share."
+  },
+  "not_granted": [
+    "Chi-He on Saipan",
+    "75mm turreted stopgap tank on Saipan at opening",
+    "extra tank regiment",
+    "all 9th Regiment tanks as Shinhoto",
+    "free additional hulls from Branch production"
+  ]
+}

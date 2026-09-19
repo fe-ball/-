@@ -1,0 +1,28 @@
+{
+  "revision": "v003",
+  "id": "JAPAN_OPERATION_SA1_DECISION_1944-02-28_03-03_WORKING_v003",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "as_of": "1944-03-03T24:00:00+09:00",
+  "supersedes": "JAPAN_OPERATION_SA1_DECISION_REAUDIT_1944-02-25_27_WORKING_v002",
+  "decision": "HISTORICAL_SA_NO1_CANCELLED_IN_CURRENT_BRANCH_STATE",
+  "why": {
+    "physical_capability": "FAIL for historical force package: Tone/Chikuma are not at Lingga and have no dated Combined Fleet release.",
+    "command_release": "FAIL: Central-Pacific mobile-fleet retention remains the higher-priority assignment.",
+    "operational_slack": "MARGINAL: Aoba/local escorts exist, but the long-range reconnaissance/strike environment is tightening as the 705th bomber element begins eastward redeployment.",
+    "motive_and_payoff": "WEAKENED: expected commerce-raiding payoff does not justify spending scarce first-line scouts or creating an under-supported Aoba-only raider group.",
+    "information_quality": "GENERAL shipping-lane knowledge exists, but there is no high-value operational cue that raises the sortie above submarine/air interdiction alternatives.",
+    "opportunity_cost": "HIGH: Tone/Chikuma scouting, floatplane and high-speed screen value is elevated after 3-Feb aircrew losses, Marshall losses and Truk neutralization."
+  },
+  "local_variant_test": {
+    "Aoba_only_or_Aoba_plus_light_cruisers": "NO_GO_CENTERED",
+    "reason": "Technically possible but poorer reconnaissance/endurance/defensive margin, while 705 long-range support is shrinking and submarines are already producing commerce-pressure effects at much lower surface-force exposure.",
+    "Aoba_Kinu_Oi": "Remain Southwest Area Fleet local cover/transport/training assets unless a new high-payoff target or theater crisis creates a fresh operation."
+  },
+  "Oyodo_group": "Unchanged separate RN-contact reserve; no contact exists to release it and it is not substituted into SA.",
+  "future_policy": "A later Indian-Ocean surface raid is allowed only as a NEW Branch operation with fresh motive/slack/release gates; do not resume the historical SA chronology or inherit the Behar outcome.",
+  "sources_external": [
+    "https://www.combinedfleet.com/tone_t.htm",
+    "https://www.combinedfleet.com/chikuma_t.htm",
+    "https://www.combinedfleet.com/aoba_t.htm"
+  ]
+}

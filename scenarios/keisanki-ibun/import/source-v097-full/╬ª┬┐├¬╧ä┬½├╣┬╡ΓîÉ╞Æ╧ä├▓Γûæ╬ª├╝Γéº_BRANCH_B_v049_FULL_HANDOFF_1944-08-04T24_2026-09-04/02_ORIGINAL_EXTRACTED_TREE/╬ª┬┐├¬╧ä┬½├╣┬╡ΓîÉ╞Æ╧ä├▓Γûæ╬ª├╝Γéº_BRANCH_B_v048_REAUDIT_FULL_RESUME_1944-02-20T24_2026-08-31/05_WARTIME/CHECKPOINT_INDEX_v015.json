@@ -1,0 +1,20 @@
+{
+  "revision": "v015",
+  "current_restart": "CHECKPOINT_1943-12-31T24_BRANCH_B_v001",
+  "opening_baseline": "WARSTART_1941-12-07_08_v004",
+  "graph": "CHECKPOINT_GRAPH_v014.json",
+  "execution_policy": "Branch B year-end current: restart 1944-01-01 using CHECKPOINT_1943-12-31T24_BRANCH_B_v001, current_branch_overrides_v009 and BRANCH_B_YEAR_END_GUARD_1944-01-01_v001. Retained 1944 descendants remain reference-only.",
+  "settlement_chain": [
+    "CHECKPOINT_1942-04-10T24_v001",
+    "CHECKPOINT_1942-05-11T24_v001",
+    "CHECKPOINT_1942-06-02T24_v001",
+    "CHECKPOINT_1942-06-15T24_v002",
+    "CHECKPOINT_1942-09-02T24_v001",
+    "CHECKPOINT_1942-10-24T24_v001",
+    "CHECKPOINT_1942-11-19T24_v001",
+    "CHECKPOINT_1942-12-31T24_v001",
+    "CHECKPOINT_1943-07-31T24_BRANCH_B_v001",
+    "CHECKPOINT_1943-12-31T24_BRANCH_B_v001"
+  ],
+  "next_action": "Build Japanese Jan-1944 movable destroyer/submarine/cruiser wallet and allocate between Pacific/Indian Ocean only after readiness, commitments and transit are traced."
+}

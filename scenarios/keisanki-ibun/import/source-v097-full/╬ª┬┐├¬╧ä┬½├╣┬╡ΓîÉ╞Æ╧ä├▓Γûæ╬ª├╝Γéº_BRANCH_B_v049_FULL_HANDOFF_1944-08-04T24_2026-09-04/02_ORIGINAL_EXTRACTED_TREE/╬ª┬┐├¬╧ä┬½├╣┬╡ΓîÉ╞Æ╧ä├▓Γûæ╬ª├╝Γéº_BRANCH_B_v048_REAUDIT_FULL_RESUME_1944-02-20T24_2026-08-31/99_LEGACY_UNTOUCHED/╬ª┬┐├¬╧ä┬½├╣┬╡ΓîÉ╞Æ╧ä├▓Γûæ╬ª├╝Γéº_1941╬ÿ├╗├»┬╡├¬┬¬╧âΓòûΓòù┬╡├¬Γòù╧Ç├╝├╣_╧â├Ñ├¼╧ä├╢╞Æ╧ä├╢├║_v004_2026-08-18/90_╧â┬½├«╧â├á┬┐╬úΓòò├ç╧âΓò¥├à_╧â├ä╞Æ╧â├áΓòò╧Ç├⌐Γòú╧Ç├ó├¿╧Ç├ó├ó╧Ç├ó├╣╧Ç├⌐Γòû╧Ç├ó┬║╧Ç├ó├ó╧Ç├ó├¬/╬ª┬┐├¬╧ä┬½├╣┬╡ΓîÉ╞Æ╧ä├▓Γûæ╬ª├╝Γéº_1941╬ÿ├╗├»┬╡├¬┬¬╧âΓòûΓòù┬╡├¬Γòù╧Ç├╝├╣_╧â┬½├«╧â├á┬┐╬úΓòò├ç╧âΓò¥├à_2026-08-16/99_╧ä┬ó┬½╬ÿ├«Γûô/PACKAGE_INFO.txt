@@ -1,0 +1,8 @@
+package_name=計算機異聞_1941開戦巻戻し_完全一式_2026-08-16
+created=2026-08-16
+file_count_before_index_and_hash=117
+uncompressed_size_before_index_and_hash=7.6M
+current_root=01_現行正本
+reference_material=03_検討資料_設定正本
+old_wip=04_参考枝_旧WIP
+original_archives=05_原アーカイブ

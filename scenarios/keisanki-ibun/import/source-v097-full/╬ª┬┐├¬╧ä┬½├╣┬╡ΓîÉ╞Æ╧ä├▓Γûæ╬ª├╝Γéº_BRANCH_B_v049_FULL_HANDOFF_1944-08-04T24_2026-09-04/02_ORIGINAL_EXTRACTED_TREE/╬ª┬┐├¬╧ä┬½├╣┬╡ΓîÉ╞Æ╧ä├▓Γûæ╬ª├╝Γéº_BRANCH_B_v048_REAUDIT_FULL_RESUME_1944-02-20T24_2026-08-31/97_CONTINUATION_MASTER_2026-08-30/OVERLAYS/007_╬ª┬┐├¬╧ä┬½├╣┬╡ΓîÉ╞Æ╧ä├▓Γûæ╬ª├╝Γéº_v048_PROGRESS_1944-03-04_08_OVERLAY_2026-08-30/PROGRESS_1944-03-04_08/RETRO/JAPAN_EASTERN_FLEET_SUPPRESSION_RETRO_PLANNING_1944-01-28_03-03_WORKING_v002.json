@@ -1,0 +1,59 @@
+{
+  "revision": "v002",
+  "id": "JAPAN_EASTERN_FLEET_SUPPRESSION_RETRO_PLANNING_1944-01-28_03-03_WORKING_v002",
+  "status": "WORKING_BRANCH_RETROACTIVE_PLANNING_NODE_NO_CLOCK_CHANGE",
+  "supersedes": "JAPAN_EASTERN_FLEET_SUPPRESSION_RETRO_PLANNING_1944-01-28_03-03_WORKING_v001",
+  "time_scope": "1944-01-28..1944-03-03T24",
+  "purpose": "Correct the prior suppression-planning node by incorporating the omitted 10-14 Feb Ramree feint, which provides a real RN Bay/Arakan-direction cue before SLEUTH.",
+  "retained_from_v001": [
+    "7-Feb hostile reconnaissance remains a bounded Japanese Ceylon surveillance probe and does not yield target-quality Trincomalee intelligence.",
+    "No retroactive Trincomalee bomber strike is created.",
+    "SLEUTH itself remains undetected at weapon-quality level and is not a Japanese trigger.",
+    "After HAILSTONE/CATCHPOLE, low-cost submarine/recon suppression dominates over discretionary major surface/air diversion."
+  ],
+  "new_key_input": "EASTERN_FLEET_RAMREE_FEINT_RETRO_ADJUDICATION_1944-02-10_14_WORKING_v001",
+  "revised_timeline": [
+    {
+      "window": "1944-01-28..02-06",
+      "assessment": "WATCH_AND_PREPARE",
+      "strike_release": "NO"
+    },
+    {
+      "date": "1944-02-07",
+      "assessment": "RECON_PROBE_LOW_YIELD",
+      "strike_release": "NO"
+    },
+    {
+      "window": "1944-02-10..14",
+      "assessment": "RN_BAY_ARAKAN_SORTIE_CUE_AND_DECEPTION",
+      "effects": [
+        "Japanese cue-level DF/traffic indication centered",
+        "bounded 705 search-sector concentration",
+        "Oyodo/submarine contact-fusion readiness raised",
+        "no maintained track, no strike, no surface intercept"
+      ],
+      "strike_release": "NO_WITHOUT_RECONTACT"
+    },
+    {
+      "window": "1944-02-15..17",
+      "assessment": "HEIGHTENED_WATCH_AFTER_FEINT",
+      "effects": [
+        "Maintain Ceylon exit/Bay surveillance and submarine emphasis",
+        "Do not release second surface package; Central-Pacific opportunity cost remains high"
+      ],
+      "strike_release": "NO"
+    },
+    {
+      "window": "1944-02-18..03-03",
+      "assessment": "SHIFT_TO_LOW_COST_SUPPRESSION_AS_CENTRAL_PACIFIC_CRISIS_DOMINATES",
+      "strike_release": "NO"
+    }
+  ],
+  "preferred_operation_concept": "Ceylon/Bay surveillance + submarine ambush + conditional land-based bomber strike only on fresh high-value track. Oyodo group remains a contact-exploitation reserve, not a blind raider.",
+  "planning_judgment": "Japan is motivated enough to prepare to hurt the Eastern Fleet if it exposes itself, but not motivated/comfortable enough to spend first-line mobile-fleet assets or scarce trained naval aircrew on a speculative hunt.",
+  "future_trigger": "Fresh credible RN heavy/carrier track moving east/northeast or repeated interference with Andaman/Bengal bases reopens attack decision; Bay presence alone is not an automatic heavy-surface release.",
+  "sources_external": [
+    "https://www.naval-history.net/xDKWD-EF1943Dec-Apr1944.htm",
+    "https://rldunn.com/japanese-air-raid-on-calcutta/"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "revision": "v001",
+  "id": "COMBINED_FLEET_HQ_RELOCATION_AND_KOGA_SURVIVAL_1944-03-27_31_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_DIVERGENCE",
+  "clock_window": "1944-03-27..31",
+  "global_frontier_after_merge": "1944-03-31T24",
+  "parents": [
+    "JAPAN_PACIFIC_CARRIER_STRATEGIC_DECISION_1944-03-20_WORKING_v001",
+    "TF58_DESECRATE_APPROACH_WARNING_1944-03-22_29_WORKING_v001"
+  ],
+  "historical_chain_not_auto_inherited": [
+    "Historically Koga shifted the Combined Fleet headquarters from Palau after the late-March carrier strikes and died in a 31-Mar H8K flight during a typhoon; Fukudome survived a second crash and the Z-plan papers were captured.",
+    "Historical post-Palau concern also included a west-moving transport/landing threat associated with the New Guinea/Hollandia axis."
+  ],
+  "branch_changes_breaking_that_chain": [
+    "By 20 Mar Palau is already a tripwire rather than a mass fleet headquarters/anchorage concept; main heavy/carrier forces are on the southern fuel/reaction axis.",
+    "The Branch historical Hollandia 22-Apr deep jump is canceled; there is no equivalent west-moving invasion cue requiring a sudden 31-Mar headquarters dash to Davao.",
+    "Late-March ISR gives a persistent Palau warning before the raid, allowing an orderly headquarters movement rather than emergency evacuation after surprise."
+  ],
+  "adjudication": {
+    "HQ_move": "Combined Fleet command echelon is deliberately shifted from the exposed Palau forward node toward Davao/western-Philippines command facilities during 28-29 Mar, using planned staged movement and distributed records/communications.",
+    "Koga": "SURVIVES through 31 Mar; no historical emergency typhoon flight is generated.",
+    "Fukudome": "SURVIVES and is not captured by Filipino guerrillas in this window.",
+    "Z_plan_documents": "NOT_CAPTURED via the historical Cebu crash chain; US intelligence does not receive this specific document exploitation windfall.",
+    "command_succession": "No historical 31-Mar Koga death; Toyoda does not automatically assume Combined Fleet command on the historical succession clock.",
+    "Musashi": "The historical 29-Mar departure from Palau and Tunny torpedo hit are not inherited because the Branch heavy reserve is already based on the southern axis. No substitute submarine hit is created without an actual contact geometry."
+  },
+  "future_dependency": "Before FORAGER/Philippine Sea adjudication, recalculate Japanese command continuity, Z-plan/A-Go evolution and US intelligence knowledge without the captured Z-plan papers. Do not assume the historical intelligence compromise.",
+  "sources_external": [
+    "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-032/h-032-1.html",
+    "https://www.ibiblio.org/hyperwar/NHC/NewPDFs/USAAF/United%20States%20Strategic%20Bombing%20Survey/USSBS%20Campaigns%20of%20Pacific%20War.pdf"
+  ]
+}

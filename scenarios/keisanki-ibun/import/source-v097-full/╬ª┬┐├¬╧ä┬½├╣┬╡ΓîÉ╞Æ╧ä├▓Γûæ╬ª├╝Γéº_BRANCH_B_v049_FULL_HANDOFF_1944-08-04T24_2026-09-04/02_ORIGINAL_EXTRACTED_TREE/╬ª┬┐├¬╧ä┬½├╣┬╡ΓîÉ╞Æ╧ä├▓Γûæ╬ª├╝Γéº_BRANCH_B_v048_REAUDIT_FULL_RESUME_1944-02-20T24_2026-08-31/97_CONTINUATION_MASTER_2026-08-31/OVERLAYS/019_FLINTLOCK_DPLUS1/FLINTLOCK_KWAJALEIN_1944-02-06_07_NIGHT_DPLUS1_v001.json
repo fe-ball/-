@@ -1,0 +1,50 @@
+{
+  "id": "FLINTLOCK_KWAJALEIN_1944-02-06_07_NIGHT_DPLUS1_v001",
+  "status": "WORKING_SECTOR_ADJUDICATION_NOT_CANONICAL",
+  "sector": "Kwajalein Island",
+  "period": "1944-02-06T24 through 1944-02-07T24",
+  "night": {
+    "Japanese_action": "Fragmented but deliberate local cells conduct four to six infiltration/local counterattack actions rather than one mass charge. Roughly 260-380 men participate over the night, with the largest packet around 70-110. Targets are artillery/observer positions, road junctions, tank harbors, beach-exit traffic and local command posts.",
+    "local_success": "At one or two points Japanese groups penetrate roughly 100-180 m and briefly interrupt a road/support lane for 20-45 minutes. No cross-island breakthrough and no beachhead-ejection attack forms because command and communications cannot synchronize the remaining defense.",
+    "US_response": "Tarawa-informed final protective fires, star shells, battalion mortars/artillery, tanks held as mobile stop-lines and destroyer illumination/direct fire. Dense night traffic and close friendly lines force short pauses and produce some normal friendly-fire/accident friction.",
+    "US_casualties_band": [
+      90,
+      140
+    ],
+    "US_non_enemy_friction_within_band": "about 6-14",
+    "Japan_irrecoverable_band": [
+      190,
+      290
+    ],
+    "dawn_state": "About 1,650-2,050 organized/local fighters plus 420-600 scattered/support personnel remain capable of local defense."
+  },
+  "daylight_7Feb": {
+    "US_method": "Advance is deliberately paced around engineer-cleared lanes and observed strongpoints: suppress, tank/direct-fire approach, engineer/flamethrower/demolition action where needed, infantry occupation, then recheck for remanned positions. Later waves and heavy equipment are metered through improved beach exits rather than simply added to the queue.",
+    "advance": "Strong axes gain another roughly 0.8-1.1 km. By T24 the US controls or dominates about 65-75 percent of Kwajalein Island, including most of the western/airfield zone; the northeastern cantonment/defense belt remains contested.",
+    "vehicles": "D-Day temporary LVT mission-kills partly recover; roughly 7-10 of the short-repair vehicles return during D+1. Additional medium tanks and engineer equipment come ashore, but road/debris clearance remains the pacing constraint rather than raw tank count.",
+    "US_casualties_band": [
+      300,
+      420
+    ],
+    "Japan_irrecoverable_band": [
+      850,
+      1100
+    ],
+    "Japan_T24": {
+      "organized_local_fighters_band": [
+        850,
+        1150
+      ],
+      "scattered_support_band": [
+        250,
+        400
+      ],
+      "command": "No island-wide counterattack capability. Several mutually supporting local strongpoint clusters still exist in the northeast."
+    }
+  },
+  "Dplus1_US_band": [
+    390,
+    560
+  ],
+  "assessment": "Kwajalein remains the main resistance problem. Better pre-registered fires, shelters, ammunition distribution and local communications buy another costly day, but US tanks/engineers/direct fire and improving beach logistics steadily convert material superiority into ground."
+}

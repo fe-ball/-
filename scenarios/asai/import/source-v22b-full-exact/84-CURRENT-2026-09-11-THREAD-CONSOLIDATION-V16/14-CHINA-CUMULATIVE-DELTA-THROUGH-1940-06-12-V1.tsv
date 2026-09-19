@@ -1,0 +1,11 @@
+period	Japanese_loss_avoided_working_band	Chinese_additional_loss_capture_dispersion_working_band	note
+1938_retro_replay	350-700	1700-3000	pre-1940 accumulated state; do not reapply as multiplier
+1939_china_replay	3150-5375	9730-16420	approximate aggregation of closed campaign deltas
+1940_Jan-Apr_explicit	450-720_plus	1020-1810_plus	some small local actions lacked explicit delta numbers
+1940_May01-10	250-400	1000-1800	Yaoyi first phase
+1940_May11-20	500-800	2000-3500	nonlinear timing/posture event; not direct E6 kill count
+1940_May21-Jun01	100-180	300-600	bridgehead / recovery quality period
+1940_Jun01-06	180-300	600-1000	mountain/river mixed terrain; Nanzhang Chinese success retained
+1940_Jun07-12	250-400	900-1500	Yichang approach
+1940_Yaoyi_total_through_Jun12	1300-2100	4800-8400	working campaign branch delta
+1938_to_1940_Jun12_total_order	4700-8000_plus	15400-26500_plus	state divergence, not a future bonus pool

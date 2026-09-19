@@ -1,0 +1,104 @@
+{
+  "revision": "v002",
+  "id": "MARSHALL_AIR_OOB_1944-02-02T0930_WORKING_v002",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-02-02T09:30:00+12:00",
+  "supersedes": "MARSHALL_AIR_OOB_1944-02-02T0930_WORKING_v001",
+  "derived_from": [
+    "06_RUNTIME/MARSHALL_AIR_OOB_1944-02-02T0430_WORKING_v001.json",
+    "06_RUNTIME/FLINTLOCK_FIRST_SUPPRESSION_STRIKE_1944-02-02_WORKING_v002.json"
+  ],
+  "theatre": {
+    "combat_serviceable_band": [
+      90,
+      98
+    ],
+    "combat_serviceable_center": 94,
+    "immediate_alert_or_search_capable_band": [
+      70,
+      82
+    ],
+    "fighter_serviceable_band": [
+      43,
+      49
+    ],
+    "fighter_serviceable_center": 46,
+    "Raiden_serviceable_band": [
+      9,
+      11
+    ],
+    "Raiden_center": 10,
+    "water_air_unique_serviceable_band": [
+      18,
+      23
+    ],
+    "water_air_center": 20,
+    "land_or_carrier_attack_serviceable_center": 21
+  },
+  "base_working_centers": [
+    {
+      "base": "Taroa",
+      "serviceable_center": 27,
+      "fighters_center": 17,
+      "Raiden_center": 6,
+      "C2": "B/B+ degraded",
+      "runway": "emergency/intermittent; hours-scale repair"
+    },
+    {
+      "base": "Roi-Namur",
+      "serviceable_center": 19,
+      "fighters_center": 13,
+      "Raiden_center": 4,
+      "C2": "B centered/local outages",
+      "runway": "intermittent"
+    },
+    {
+      "base": "Kwajalein/Ebeye water-air",
+      "serviceable_center": 7,
+      "water_air_center": 7,
+      "C2": "local warning/recon degraded",
+      "runway": "not primary dependency; ramps/fuel/support damaged"
+    },
+    {
+      "base": "Wotje",
+      "serviceable_center": 10,
+      "fighters_center": 4,
+      "C2": "B-/remote",
+      "runway": "damaged/intermittent"
+    },
+    {
+      "base": "Mili",
+      "serviceable_center": 8,
+      "fighters_center": 5,
+      "Kyofu_center": 3,
+      "C2": "remote/B- degraded",
+      "runway": "suppressed/intermittent"
+    },
+    {
+      "base": "Jaluit",
+      "serviceable_center": 6,
+      "fighters_center": 3,
+      "Kyofu_center": 2,
+      "C2": "remote degraded",
+      "water_support": "partially suppressed"
+    },
+    {
+      "base": "Eniwetok",
+      "serviceable_center": 11,
+      "fighters_center": 0,
+      "land_attack_center": 10,
+      "C2": "B-/rear",
+      "runway": "usable"
+    },
+    {
+      "base": "other dispersed water nodes",
+      "serviceable_center": 6,
+      "Kyofu_or_float_center": 5,
+      "C2": "local warning/recon",
+      "runway": "not applicable"
+    }
+  ],
+  "sum_guard": "Base centers sum to 94. Fighter and water-air categories overlap where Kyofu is involved; do not sum categories independently.",
+  "search_capacity_after_first_cycle": "4-6 useful daily search/confirmation sorties remain feasible; surviving float/Zuiun detachments prevent a runway-only collapse, but damaged radio/plot and seaplane support reduce freshness and sortie rate.",
+  "external_reinforcement_guard": "No same-morning fighter reinforcement is added from Truk/Ponape/Wake/Nauru. Future ferry/staging is a separate order and pays transit/acceptance time."
+}

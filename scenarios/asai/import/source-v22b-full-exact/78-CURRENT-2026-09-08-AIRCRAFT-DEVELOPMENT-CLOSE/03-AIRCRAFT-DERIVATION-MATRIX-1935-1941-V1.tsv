@@ -1,0 +1,15 @@
+source_school	source_asset	relation	derivative_or_requirement	technical_transfer	earliest_period	current_disposition
+STOL	P1	direct development	P2	rough-field, low-speed, TP utility	1937-38	current
+STOL	P2	military technology transfer	military STOL / Ki-76 lineage	high-lift, field maintenance, rough-field gear, observation ergonomics	1938-40	V11 working
+STOL	P1/P2	technology transfer	carrier jet research	high-lift, low-speed control, short launch/recovery	1938-40	V11 restored research history
+shaft/TP	E5-S-T / P2	X-aircraft research	X-TP fighter	reducer, 4-blade prop, throttle response, kerosene deck handling	1937-40	research survives; E5 mass fighter rejected
+shaft/TP	X-TP fighter	requirement regeneration	A7M Gaifu E6	E6-S-T installation + carrier fighter lessons	1940-41	V11 working prototype
+pure-J	E5 single/future-form/HS	direct technology growth	E6 Single	inlet, CG, thermal, high-speed measurement	1937-39	current
+JF	E5 Twin J	backend growth	E5 Twin JF	low-speed thrust, TSFC, LP turbine/fan controls	1937	current
+JF	E5 Twin J/JF	direct generation growth	common E6 Twin	two-seat fast-twin military integration	1938-40	current
+attack school	E5 Twin attack	customer requirement	E6-B	more fuel/payload, 1.0-1.2t internal bomb load	1938H2-40	current outlook + V11 geometry
+naval attack	E5/E6 Twin	mission fit	G4 high-speed attack branch	high-speed torpedo release, short/medium strike	1938-41	current technical branch
+heavy-interceptor	E5/E6 Twin high-cover	requirement study	J2N Hekireki	heavy firepower/night/all-weather/radar if common types insufficient	1938H2-42	requirement gate only by 1941
+carrier jet	P2 STOL + E5/E6 JF	school merger	A8N Sakufu	high-lift + JF static thrust + carrier systems	1939-42	V11 working prototype 1941
+photo/high-altitude	photo recon + TP low vibration	requirement study	TP high-altitude recon	pressurization, high-AR wing, kerosene, low-vibration photo	1938-41	V11 working
+E7	E7 core program	retrofit	E6 Single/Twin E7 flight articles	inherit airframes, new generation core/backend	1941H2	current conditional outlook

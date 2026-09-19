@@ -1,0 +1,19 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-02-02T0930_WORKING_v001",
+  "status": "WORKING_NOT_CURRENT",
+  "as_of": "1944-02-02T09:30:00+12:00",
+  "Central_Pacific": {
+    "US": "TF58 first suppression cycle has occurred. 12-15 aircraft irrecoverable centered 13; no carrier/major-ship damage from the preceding Japanese night raid. Three TGs remain combat-capable and continue suppression planning.",
+    "Japan": "Marshall air network remains alive but reduced to about 101 serviceable center / 47 serviceable fighters / 11 Raiden. One US TG has a fresh 08:05-08:25 visual, but first-line carrier GO is still withheld. Submarines are converging on the fresh corridor."
+  },
+  "Indian_Ocean": {
+    "state": "No new clock event in this Pacific step. Eastern Fleet Ceylon workup continues; Japanese second surface reinforcement remains HOLD."
+  },
+  "Bengal": {
+    "state": "No new clock event in this Pacific step. Chittagong-Feni/Comilla stalemate persists; first Kinsei-Zero quality detachment remains, second batch held for Central Pacific priority."
+  },
+  "Yanagi_Jet": {
+    "state": "No combat effect. Discussion clock has entered the projected early-Feb I-34 Europe-arrival window edge, but no arrival is realized in this step; route gate remains to be adjudicated separately."
+  }
+}

@@ -1,0 +1,5 @@
+date	scope	type	metric	value	status	note
+1939-06-20	CHINA_CHONGQING	G3M2	headline_performance_credit	EX0-equivalent	CLOSED-CONSERVATIVE	No named unit/lot EX2 evidence in package
+1939-06-20	CHINA_CHONGQING	G3M2	reliability_QC_credit	APPLY	CLOSED	Retain engine/prop/cooling/vibration/QC/serviceability advantages
+1939-06-20	CHINA_CHONGQING	G3M2	EX2_physical_presence	POSSIBLE_SELECTIVE	LOCAL-EVIDENCE	49/49A allow 1939-40 new-build/major-overhaul adoption; no percentage inferred
+1939-06-20	CHINA_CHONGQING	G3M2	EX2_speed_credit_kmh	0 credited	CLOSED-CONTROL	Do not use +4 to +6 km/h full-shadow increment without named adoption evidence

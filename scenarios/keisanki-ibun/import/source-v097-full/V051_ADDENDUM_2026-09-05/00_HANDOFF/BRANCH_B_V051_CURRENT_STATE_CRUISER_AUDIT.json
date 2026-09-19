@@ -1,0 +1,26 @@
+{
+  "schema": "branch_b_v051_current_state_cruiser_audit",
+  "date": "2026-09-05",
+  "canonical_frontier": "1944-08-04T24:00",
+  "clock_advanced": false,
+  "overlay": "BRANCH_B_JAPANESE_CA_CL_CLASS_AUDIT_PROVISIONAL_v001",
+  "watchlist": "BRANCH_B_SURFACE_HULL_DIFFERENCE_WATCHLIST_v001",
+  "current_nc_1942_11_08_implications": {
+    "Takao": "T-38A full; 4x4 610mm; stronger 1942 AA state",
+    "Atago": "T-38A full; 4x4 610mm; stronger 1942 AA state",
+    "Maya": "T-38B limited; 4x2 610mm; older heavy-AA state",
+    "Chokai": "T-38B limited; 4x2 610mm; older heavy-AA state",
+    "CruDiv4_instantaneous_610mm_tubes": 48,
+    "Sendai": "old 5500t CL practical ~32kt family; use individual refit/radar state",
+    "radar_rule": "Type 21-class fit may assist warning/orientation; no SG-equivalence",
+    "gunfire_rule": "apply global 1942 Branch gunfire tech once; no class bonus stacking"
+  },
+  "detailed_audit_priority_next": [
+    "Takao class individual weight/DC/radar I-O",
+    "Myoko class individual refit/radar dates",
+    "Tone reconnaissance cycle",
+    "Furutaka/Aoba DC",
+    "5500t CL individual fits",
+    "Agano/Oyodo post-trial residual updates"
+  ]
+}

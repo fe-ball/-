@@ -1,0 +1,18 @@
+{
+  "package_state": "ACTIVE_COMBAT_REPLAY",
+  "current_checkpoint": "1939-05-10 24:00",
+  "next_gate": "1939-05-11 Nomonhan opening clash",
+  "technical_overlay": "IDENTITY1",
+  "retains_overlay": [
+    "EXHAUST1"
+  ],
+  "historical_identity_guard": true,
+  "navy_a7m_worldline": "Gaifu",
+  "historical_reppu_worldline_designation": "A9M",
+  "oob_count_not_configuration": true,
+  "total_files": 557,
+  "inventory_rows": 554,
+  "manifest_rows": 555,
+  "sha_targets": 555,
+  "manifest_verify_ok": true
+}

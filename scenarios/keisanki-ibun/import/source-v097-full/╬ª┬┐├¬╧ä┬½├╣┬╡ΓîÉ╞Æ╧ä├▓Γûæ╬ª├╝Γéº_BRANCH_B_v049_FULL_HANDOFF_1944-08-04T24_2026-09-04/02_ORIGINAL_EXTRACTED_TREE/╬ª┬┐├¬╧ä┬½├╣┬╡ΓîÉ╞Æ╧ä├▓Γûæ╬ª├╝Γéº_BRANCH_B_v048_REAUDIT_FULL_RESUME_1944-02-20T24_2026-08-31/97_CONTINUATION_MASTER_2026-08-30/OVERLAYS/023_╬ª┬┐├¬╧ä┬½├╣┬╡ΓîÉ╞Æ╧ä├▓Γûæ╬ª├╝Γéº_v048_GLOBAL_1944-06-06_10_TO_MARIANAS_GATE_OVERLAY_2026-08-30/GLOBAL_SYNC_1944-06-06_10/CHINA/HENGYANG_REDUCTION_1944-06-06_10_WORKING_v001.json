@@ -1,0 +1,68 @@
+{
+  "revision": "v001",
+  "id": "HENGYANG_REDUCTION_1944-06-06_10_WORKING_v001",
+  "status": "WORKING_CHINA_BACKGROUND_PROGRESS_BEFORE_MARIANAS_FOCUS",
+  "clock_window": "1944-06-06..06-10",
+  "parents": [
+    "ICHIGO_HENGYANG_APPROACH_1944-05-25_06-05_WORKING_v001",
+    "HUNAN_NODE_TRANSFER_STATE_1944-06-05_WORKING_v001"
+  ],
+  "operational_state": "Hengyang becomes a methodical reduction/siege problem. Japanese 68th/116th-centered forces close local approaches, bring artillery/engineers forward and improve observation; no general city storm is authorized in this window.",
+  "node_transfer": {
+    "city_rail_command": "CHINESE_HELD through 10 Jun",
+    "airfield": "JAPANESE_PHYSICAL_CONTROL; emergency fighter/recon use begins on a limited strip by 9-10 Jun, but medium/heavy-bomber-base credit remains denied",
+    "Chinese_rewire": "IX War Area logistics/command and Fourteenth Air Force support remain distributed toward Leiyang/Lingling/Kweilin/Chenzhou; major stores continue moving south.",
+    "Japanese_rear": "Changsha-Xiangtan network continues to mature under mixed Japanese/Nanjing security-administration, releasing additional Japanese line infantry from static duties only gradually."
+  },
+  "losses_6_10Jun_working_band": {
+    "Japan": {
+      "KIA": [
+        450,
+        700
+      ],
+      "WIA": [
+        1400,
+        2100
+      ]
+    },
+    "China": {
+      "KIA": [
+        700,
+        1100
+      ],
+      "WIA": [
+        1500,
+        2300
+      ],
+      "POW_MIA_disorganized": [
+        500,
+        900
+      ]
+    }
+  },
+  "logistics_10Jun": {
+    "campaign_stock_t_band": [
+      84000,
+      116000
+    ],
+    "immediately_forward_or_rapidly_drawable_t_band": [
+      22000,
+      34000
+    ],
+    "serviceable_motor_vehicles_band": [
+      3900,
+      4800
+    ]
+  },
+  "Fourteenth_AF_effect_6_10Jun": {
+    "irreversible_supply_loss_t_band": [
+      1500,
+      2800
+    ],
+    "delayed_or_rerouted_t_band": [
+      4000,
+      7000
+    ]
+  },
+  "decision_10Jun": "CONTINUE_METHODICAL_REDUCTION; NO_BYPASS; NO_GUILIN_RELEASE. During the Marianas-focused window, surface China again only if Hengyang city/rail node changes hands, Japanese logistics crosses RED, or Fourteenth Air Force produces a major operational shock."
+}

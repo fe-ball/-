@@ -1,0 +1,33 @@
+scenario	sector	1937_baseline_million_yen	assumed_level_uplift_pct	gross_uplift_million_yen
+conservative	agriculture	1312.319	0.03	0.394
+conservative	fisheries	6.159	0.10	0.006
+conservative	mining	65.279	0.80	0.522
+conservative	industry	259.506	1.00	2.595
+conservative	commerce	765.925	0.15	1.149
+conservative	transport	300.272	0.60	1.802
+conservative	public_services	125.013	0.10	0.125
+central	agriculture	1312.319	0.08	1.050
+central	fisheries	6.159	0.25	0.015
+central	mining	65.279	1.50	0.979
+central	industry	259.506	2.00	5.190
+central	commerce	765.925	0.40	3.064
+central	transport	300.272	1.20	3.603
+central	public_services	125.013	0.25	0.313
+upper	agriculture	1312.319	0.15	1.968
+upper	fisheries	6.159	0.50	0.031
+upper	mining	65.279	2.50	1.632
+upper	industry	259.506	3.20	8.304
+upper	commerce	765.925	0.70	5.361
+upper	transport	300.272	2.00	6.005
+upper	public_services	125.013	0.50	0.625
+summary	conservative gross uplift	2834.473		6.593
+summary	conservative modeled profit/outflow offset			-1.076
+summary	conservative net national-income uplift	2703.204	0.204	5.517
+summary	central gross uplift	2834.473		14.214
+summary	central modeled profit/outflow offset			-2.200
+summary	central net national-income uplift	2703.204	0.444	12.014
+summary	central modern-sector gross level uplift	1515.995	0.867	13.149
+summary	central direct core (mining+industry+transport) level uplift	625.057	1.563	9.773
+summary	upper gross uplift	2834.473		23.927
+summary	upper modeled profit/outflow offset			-3.617
+summary	upper net national-income uplift	2703.204	0.751	20.310

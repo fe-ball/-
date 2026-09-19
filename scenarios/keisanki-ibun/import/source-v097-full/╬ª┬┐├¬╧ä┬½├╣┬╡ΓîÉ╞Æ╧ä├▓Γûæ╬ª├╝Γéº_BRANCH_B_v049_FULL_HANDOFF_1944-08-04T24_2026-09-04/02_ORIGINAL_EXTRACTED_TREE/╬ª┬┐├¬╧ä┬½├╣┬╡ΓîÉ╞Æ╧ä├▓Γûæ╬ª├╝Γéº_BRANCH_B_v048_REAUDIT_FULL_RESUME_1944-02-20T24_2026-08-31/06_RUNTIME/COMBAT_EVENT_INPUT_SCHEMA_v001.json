@@ -1,0 +1,19 @@
+{
+  "revision": "v001",
+  "purpose": "Optional event-local input consumed by build_event_handout_v006. Values may be supplied by a human or the adjudicating model after reading scenario data.",
+  "shape": {
+    "event": {
+      "location": "string/structured",
+      "participants": "list/structured",
+      "objective": "string/structured"
+    },
+    "factors": {
+      "CCF-XX": {
+        "value": "any structured value",
+        "source": "optional provenance",
+        "note": "optional"
+      }
+    }
+  },
+  "rule": "A factor present under factors counts as event-runtime input. Unknown values should be stated explicitly rather than omitted when the factor is mandatory."
+}

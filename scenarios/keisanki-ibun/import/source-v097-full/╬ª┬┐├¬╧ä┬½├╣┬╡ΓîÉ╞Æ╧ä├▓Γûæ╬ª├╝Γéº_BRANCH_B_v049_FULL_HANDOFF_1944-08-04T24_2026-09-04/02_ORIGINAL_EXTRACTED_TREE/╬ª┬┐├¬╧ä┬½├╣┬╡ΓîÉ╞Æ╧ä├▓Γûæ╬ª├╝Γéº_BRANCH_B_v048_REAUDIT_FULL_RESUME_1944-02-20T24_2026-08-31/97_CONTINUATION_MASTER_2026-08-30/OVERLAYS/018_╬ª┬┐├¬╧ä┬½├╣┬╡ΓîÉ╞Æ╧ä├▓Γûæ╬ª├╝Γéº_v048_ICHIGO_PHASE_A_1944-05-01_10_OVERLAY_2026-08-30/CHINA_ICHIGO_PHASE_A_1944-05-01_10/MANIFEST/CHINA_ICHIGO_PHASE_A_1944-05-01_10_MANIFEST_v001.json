@@ -1,0 +1,26 @@
+{
+  "revision": "v001",
+  "id": "CHINA_ICHIGO_PHASE_A_1944-05-01_10_MANIFEST_v001",
+  "status": "WORKING_OVERLAY_MANIFEST",
+  "global_frontier": "1944-05-10T24",
+  "apply_after": [
+    "計算機異聞_v048_ICHIGO_TERMINAL_RECONSTRUCTION_1944-03-15_04-30_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_PACIFIC_1944-04-16_30_OVERLAY_2026-08-30.zip"
+  ],
+  "load_new_files_in_order": [
+    "CHINA/ICHIGO_HUNAN_PHASE_A_1944-05-01_10_WORKING_v001.json",
+    "CHINA/CHINA_14AF_HUNAN_INTERDICTION_1944-05-01_10_WORKING_v001.json",
+    "CHINA/CHINA_IX_WAR_AREA_FORCE_PRESERVATION_1944-05-01_10_WORKING_v001.json",
+    "CHINA/NANJING_HUNAN_REAR_SECURITY_1944-05-01_10_WORKING_v001.json",
+    "PACIFIC/PACIFIC_PARALLEL_1944-05-01_10_WORKING_v001.json",
+    "STATE/PARALLEL_THEATER_STATE_1944-05-10T24_WORKING_v001.json"
+  ],
+  "decisions": [
+    "Changsha does not fall by 10 May; approach/isolation gate is active.",
+    "Chinese IX War Area preserves the main body rather than accepting a city-fortress annihilation.",
+    "Fourteenth Air Force delays but cannot close Japanese LOC.",
+    "Nanjing forces provide rear security only.",
+    "Hengyang remains closed.",
+    "Pacific clock is synchronized through 10 May without creating a major carrier battle."
+  ]
+}

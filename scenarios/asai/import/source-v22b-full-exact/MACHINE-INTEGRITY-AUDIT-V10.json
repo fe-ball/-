@@ -1,0 +1,218 @@
+{
+  "package": "V10",
+  "datafix_revision": "DATAFIX1",
+  "datafix_scope": "integrity/provenance metadata only; no worldline facts changed by DATAFIX1",
+  "root": "ASAI-WORLDLINE-HANDOFF-2026-09-07-FULL-V10-CHINA-DEC31-NOMONHAN-REVISED-WEAPONGATE-EFAMILY1-NAMEGUARD1",
+  "expected_missing": [],
+  "current_files": 87,
+  "inventory_entries": 819,
+  "manifest_entries": 820,
+  "all_files_pre_manifest": 820,
+  "all_files_final": 822,
+  "china_clock": "1939-12-31 24:00",
+  "nomonhan_clock": "1939-08-31 24:00 revised closed",
+  "next_gate": "1940 weapon appearance review; combat clock not advanced",
+  "quarantine_present": true,
+  "historical_manifest_drift": {
+    "V7": {
+      "mismatches_against_datafix_tree": 1,
+      "paths": [
+        "40-RESEARCH-AND-OPEN-ISSUES/00-HARD-OPEN-RETREAT-AIR-INTERDICTION-V7.md"
+      ],
+      "classification": "intentional later V8 STATEFIX1 mutation of a V7-named provenance file"
+    },
+    "V8": {
+      "mismatches_against_datafix_tree": 2,
+      "paths": [
+        "00-START-HERE-CURRENT.md",
+        "PACKAGE-STATE-V8.tsv"
+      ],
+      "classification": "mutable CURRENT alias plus post-V8-manifest legacy-state mutation accepted by V9/V10 manifests"
+    },
+    "V9": {
+      "mismatches_against_datafix_tree": 1,
+      "paths": [
+        "00-START-HERE-CURRENT.md"
+      ],
+      "classification": "mutable CURRENT alias advanced to V10"
+    },
+    "V10": {
+      "mismatches_against_datafix_tree": 0,
+      "classification": "current package cryptographic authority"
+    }
+  },
+  "provenance_status": "CLASSIFIED_NO_CURRENT_V10_CORRUPTION",
+  "status": "PASS",
+  "technical_revision": "EFAMILY1",
+  "technical_revision_scope": "E5/E6/E7 aircraft-engine family hierarchy and Army/Navy service crosswalk; generation/core-scale/backend/airframe/service axes separated; no combat-clock advance",
+  "e5e6trans1": {
+    "new_current_files": [
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E5-E6-1940-PRODUCTION-TRANSITION-FLEET-ACCUMULATION-CLOSEOUT-V1.md",
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E5-E6-1940-PRODUCTION-TRANSITION-FLEET-LEDGER-V1.tsv"
+    ],
+    "e5_1939_program": "142 total by 1939-07-31 = 2 development + 140 military accepted",
+    "e5_1940_opening": "130 military extant + 2 development",
+    "e5_1940_bridge": "30-42 accepted, center 36; new starts end H1, Q3 tail/WIP only",
+    "e6_1940_center": "144 accepted service-series; existing 120-156 band retained",
+    "year_end_stock_center": "E5 152 / E6 136 / combined 288 military service airframes",
+    "attrition_semantics": "planning allowances only; exact 1940 losses remain replay-local",
+    "combat_clock_advanced": false
+  },
+  "e6rebase1": {
+    "stale_planning_superseded": "Twin 4 / Single 2 evaluation-only block",
+    "e6_twin_1940_planning": "SUPERSEDED by E6COSTREBASE1; former 36-60 / center ~48 retained only as revision history",
+    "combat_clock_advanced": false
+  },
+  "e6costrebase1": {
+    "whole_aircraft_cost_premium": "E6 JF vs E5 JF ~28-35% mission-equipped planning model",
+    "procurement_posture": "144 common Twin firm-order class + 72 option; exact date/service split replay-local",
+    "e6_twin_1940_planning": "120-156 accepted, center ~144, JF 85-90%",
+    "combat_clock_advanced": false
+  },
+  "e6mission1": {
+    "common_airframe": "two-seat J/JF common Twin; E6 Single is separate one-seat line, later service-production status controlled by E6SINGLE1",
+    "mission_bay": "~0.40 t internal mission-load class",
+    "armament_envelope": "2x20mm-class + 4x7.7mm-class concentrated nose; exact service gun identity local",
+    "combat_clock_advanced": false
+  },
+  "e6frpord1": {
+    "frp_scope": "plant-FRP on bay doors/cassette fairings/selected tail fairings/HSC/D320F; conventional HE bomb body and concentrated-load fittings stay metal",
+    "bay_adapters": "S6 up to six 50/60kg-class; S4 up to four 100kg/HSC; M1 one 250kg-class under ~0.40t bay limit",
+    "release": "small stores ~700-760km/h TAS at 7-9km; 250kg-class initial ~650-720km/h at 6-8km",
+    "combat_clock_advanced": false
+  },
+  "e6single1": {
+    "first_flight": "1939-05-31; no 1939 combat backflow",
+    "propulsion": "1x E6-M-J; ~850 kgf normal / ~900 kgf selected short",
+    "service_center": "~2.85 t / ~17.5 m2 / ~0.73 t internal kerosene / ~0.25 t nose module",
+    "performance": "~750 km/h at 6 km normal; 6 km ~5.6-6.0 min; radius ~400-500 km internal",
+    "cost": "~115-135 kY mission-equipped; center ~125 kY",
+    "procurement": "96 firm-order class +48 option; 1940 acceptance 84-108 center ~96",
+    "backend": "pure-J standard; JF Single engineering-only unless new requirement",
+    "combat_clock_advanced": false
+  },
+  "navaljettorp1": {
+    "names": "E5 Army Type98 HQ recon; R1As Type98 high-speed land recon; R2As Type0 high-speed land recon; G4As1 Type0 land attack",
+    "g4as": "one Type91-class torpedo OR ~0.35-0.40t bomb mission; initial torpedo radius ~300-400km",
+    "type91_mod2_1941": "~400-430km/h normal air-drop qualification; selected ~450km/h development growth; no late-war 300/350kt back-port",
+    "carrier_inheritance": "B5N2/D3A1 evolutionary; B6N torpedo interface ~400-430km/h design-origin; B7A inherits torpedo+dive schools",
+    "combat_clock_advanced": false
+  },
+  "b5naudit1": {
+    "new_current_files": [
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-B5N2-PISTON-TP-COMPARATIVE-CLOSEOUT-1939-1941-V1.md",
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-B5N2-PISTON-TP-COMPARATIVE-LEDGER-V1.tsv"
+    ],
+    "piston_worldline": "applicable later EX2/QC B5N2 ~382-384 km/h class; normal mission range ~980-1020 km",
+    "tp_conversion": "E5-S-T 2-4 technical conversion/test aircraft only; no serial re-engine program",
+    "tp_screening": "~680-780 km heavy/normal mission screening; ferry ~1350-1600 km; altitude-power map remains bracketed",
+    "type91_1941": "~400-430 km/h normal envelope exceeds practical B5N torpedo-attack speed; improves margin/repeatability without raising aircraft speed",
+    "next_wash": "G3M2 / Type96 land-based attack aircraft",
+    "combat_clock_advanced": false
+  },
+  "g3maudit1": {
+    "new_current_files": [
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-G3M2-PISTON-TP-COMPARATIVE-CLOSEOUT-1939-1941-V1.md",
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-G3M2-PISTON-TP-COMPARATIVE-LEDGER-V1.tsv"
+    ],
+    "piston_worldline": "applicable later EX2 G3M2 ~377-381 km/h; max/ferry ~4400 km kept separate from torpedo radius",
+    "torpedo_radius": "~650-800 km H->A ordinary torpedo planning band",
+    "e5st": "paper study only; no physical/serial conversion priority; ~450-600 km torpedo screening",
+    "e6st": "no serial G3M derivative; ~550-700 km torpedo screening; overlaps G4As while losing G3M reach",
+    "fuel_mix": "gasoline piston and kerosene turbine fleets coexist intentionally",
+    "next_wash": "D3A1 / Type99 carrier bomber, then G4M1",
+    "combat_clock_advanced": false
+  },
+  "torpedo41close1": {
+    "new_current_files": [
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-1941-YEAREND-NAVAL-AERIAL-TORPEDO-EFFECTIVENESS-EMPLOYMENT-CLOSEOUT-V1.md",
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-1941-YEAREND-NAVAL-AERIAL-TORPEDO-EFFECTIVENESS-EMPLOYMENT-LEDGER-V1.tsv"
+    ],
+    "mod1": "~784kg / 150kg Type97 retained service weapon",
+    "mod2": "~935kg / 205kg Type97; normal high-speed release ~400-430km/h",
+    "hit_semantics": "count valid releases first, then entry/run reliability and target-geometry band",
+    "capital_multi_axis_hit_band": "~16-24% per valid running torpedo",
+    "anchored_hit_band": "~45-60%",
+    "carrier_force_implication": "~18-24 torpedo-capable aircraft as useful strike block, not mandatory torpedo load every sortie",
+    "combat_clock_advanced": false
+  },
+  "d3aaudit1": {
+    "new_current_files": [
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-D3A1-PISTON-TP-DIVE-BOMBING-COMPARATIVE-CLOSEOUT-1939-1941-V1.md",
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-D3A1-PISTON-TP-DIVE-BOMBING-LEDGER-V1.tsv"
+    ],
+    "piston_worldline": "later EX2/QC D3A1 ~391-393 km/h at ~3 km; mission range ~1430-1500 km",
+    "dive_hit_model": "valid release first; moving large ship ~18-28% direct hit per valid 250kg release; favorable ~25-35%; smoke/evasive ~8-15%",
+    "tp_conversion": "2 aircraft + optional third technical conversion only; no serial E5-S-T D3A",
+    "tp_screening": "~355-362 km/h sea level; ~350-378 km/h at 3 km; ~1000-1180 km mission range",
+    "replacement_gate": "future D4Y audit tests ~3-6 month earlier effective replacement opportunity; 1941H2 D3A taper only if independent D4Y gates pass",
+    "next_wash": "G4M1 / Type1 land-based attack aircraft",
+    "combat_clock_advanced": false
+  },
+  "g4maudit1": {
+    "new_current_files": [
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-G4M1-PISTON-TP-LONGRANGE-ATTACK-COMPARATIVE-CLOSEOUT-1939-1941-V1.md",
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-G4M1-PISTON-TP-LONGRANGE-ATTACK-COMPARATIVE-LEDGER-V1.tsv"
+    ],
+    "piston_worldline": "applicable early EX2/QC G4M1 ~433-436 km/h at ~4.2 km",
+    "torpedo_radius": "~900-1150 km ordinary; ~1200-1300 favorable sensitivity only",
+    "protection": "no generic 1941 self-sealing integral wing tank/armor back-port",
+    "e6st": "no serial conversion; ~650-850 km torpedo screening",
+    "ramp": "~2-4 month earlier effective opportunity; ~20-50 extra late-1941 acceptance opportunity if factory rate otherwise matched; not pre-recorded",
+    "next_wash": "B6N requirement/engine, then D4Y replacement, then B7A composition",
+    "combat_clock_advanced": false
+  },
+  "e7outlook1": {
+    "new_current_files": [
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E7-E6-AIRFRAME-RETROFIT-PREWAR-OUTLOOK-1940-1942-V1.md",
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E7-E6-AIRFRAME-RETROFIT-PREWAR-OUTLOOK-LEDGER-V1.tsv"
+    ],
+    "schedule": "1940H1 rigs / 1940H2 integrated gas-generator / 1941H1 full-core ground / 1941H2 ground-qualified development core; 1942Q1-Q2 earliest E7-dedicated aircraft",
+    "single_retrofit": "1941H2 earliest conditional; ~785-800 km/h@6km, ~800-815@8km, 6km ~4.8-5.3min if installed package stays within assumptions",
+    "twin_retrofit": "1941H2 earliest conditional; clean ~805-825 km/h unchanged airframe; preferred benefit ~5.4-5.6t heavy design target after local structure/gear/brake qualification",
+    "future_aircraft_rule": "re-open propulsion at project start, detail freeze, and pre-first-flight; E-generation not frozen at project start",
+    "prewar_semantics": "ground qualification before a historical-date late-1941 Pacific-war expansion is plausible if program remains healthy; no actual war date or serial conversion is pre-recorded",
+    "combat_clock_advanced": false
+  },
+  "e7tpoutlook1": {
+    "e7_small_tp": "~1425-1500 shp normal / ~1525-1575 short",
+    "e7_lower_medium_tp": "~1750-1850 shp normal / ~1900-2000 short; B6N-size candidate",
+    "e7_medium_tp": "~2250-2450 shp normal; prop/reducer-gated above current high-power four-blade school",
+    "e7_large_tp": "~3500-4000 shp first-aircraft flat-rate; core capability ~4.65-4.78k hp neighborhood",
+    "bsfc_screen": "~0.34-0.36 kg/kWh rated; ~0.39-0.46 provisional part-load",
+    "b6n_rule": "reopen to E7-M lower-flow at detail freeze/pre-first-flight",
+    "at3_growth": "prefer 4xE7-M ~2300-2450 each over first-step 2xE7-L",
+    "combat_clock_advanced": false
+  },
+  "d4yaudit1": {
+    "piston_baseline": "healthy Atsuta branch ~583-592 km/h late 1.4khp class H->A; schedule baseline",
+    "e7st_tp": "~1425-1500shp normal / 1525-1575 short; ~585-598 normal / ~595-607 short; B+ to A- conditional",
+    "frontal_guard": "E7-S-T is not automatically narrower than ~0.71m Atsuta inline; radiator removal vs cowling/prop drag must be measured",
+    "schedule": "late-1940 piston first-flight class; 1941H2-42H1 service-development opportunity; E7-S-T earliest 1941Q4-42Q1 flight",
+    "b6n_relation": "D4Y E7-S and B6N E7-M use different core scales; shared naval auxiliary/qualification capacity is the overlap",
+    "combat_clock_advanced": false
+  },
+  "e6bomber1": {
+    "requirement_origin": "E5 ~135t released in 1938; 1939Q1 345 attack sorties/~138t",
+    "baseline": "3 crew; ~6.7t; 2x E6-M-JF; 1.0-1.2t internal bombs; ~1.5t overload target",
+    "performance": "~680-710km/h at 5-7km; ~550-700km standard strike radius",
+    "e7_growth": "~715-740km/h same-airframe OR ~7.3-7.6t heavy growth with 1.3-1.5t standard bombs",
+    "status": "H->A OUTLOOK; no future service fact pre-recorded",
+    "combat_clock_advanced": false
+  },
+  "efamily1": {
+    "new_current_files": [
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-AIRCRAFT-ENGINE-GENERATION-FAMILY-ARMY-NAVY-MATRIX-1937-1942-V1.md",
+      "75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-AIRCRAFT-ENGINE-GENERATION-FAMILY-ARMY-NAVY-LEDGER-1937-1942-V1.tsv"
+    ],
+    "semantics": "generation + core scale + backend + airframe family + service fit are independent axes",
+    "key_same_engine_example": "E6-M-JF -> Army common E6 Twin / Navy R2As / Navy G4As / distinct E6-B",
+    "key_cross_core_example": "E7-S-T D4Y / E7-M lower-T B6N / E7-M central-T AT-3 / E7-M J/JF retrofit / E7-L future large transport",
+    "combat_clock_advanced": false
+  },
+  "nomenclature_guard": {
+    "revision": "NAMEGUARD1",
+    "status": "CURRENT",
+    "effect": "new 2026-09-07 service names/codes are working aliases unless earlier-attested; older labels remain restorable; technical facts unchanged"
+  }
+}

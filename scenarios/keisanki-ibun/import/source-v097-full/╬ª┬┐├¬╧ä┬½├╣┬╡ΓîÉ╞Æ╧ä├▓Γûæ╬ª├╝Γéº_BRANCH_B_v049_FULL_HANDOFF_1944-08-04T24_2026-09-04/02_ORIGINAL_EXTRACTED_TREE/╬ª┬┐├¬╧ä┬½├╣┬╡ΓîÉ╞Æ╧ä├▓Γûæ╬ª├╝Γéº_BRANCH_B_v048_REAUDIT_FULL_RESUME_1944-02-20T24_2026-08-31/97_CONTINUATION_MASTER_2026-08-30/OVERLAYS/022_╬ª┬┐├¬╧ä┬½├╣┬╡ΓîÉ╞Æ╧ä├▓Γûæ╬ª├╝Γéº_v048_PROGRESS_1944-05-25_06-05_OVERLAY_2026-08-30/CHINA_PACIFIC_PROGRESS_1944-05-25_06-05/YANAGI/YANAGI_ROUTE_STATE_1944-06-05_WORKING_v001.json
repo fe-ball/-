@@ -1,0 +1,14 @@
+{
+  "revision": "v001",
+  "id": "YANAGI_ROUTE_STATE_1944-06-05_WORKING_v001",
+  "status": "WORKING_CURRENT_OVERLAY_ADJUDICATION",
+  "as_of": "1944-06-05T24:00:00+09:00",
+  "parent": "YANAGI_ROUTE_TECH_STATE_1944-05-24_v002",
+  "missions": {
+    "I34": "ALIVE_EASTBOUND; enters the early edge of the projected Singapore-arrival band. No physical cargo is credited ashore by 5 Jun centerline; arrival remains expected within roughly the next 1-2 weeks if machinery/weather/ASW permit.",
+    "I29": "ALIVE_EASTBOUND; Jumo 004B/HWK 509A-1 physical package still at sea. No Japanese physical-copy credit yet.",
+    "I52": "ALIVE_OUTBOUND in Atlantic approach/rendezvous phase. Historical June interception is still not auto-inherited because the decrypted rendezvous vector is absent; ordinary HFDF/patrol/hunter-killer risk remains open.",
+    "RO501": "loss 13 May remains paid."
+  },
+  "net_effect": "No new German engine hardware reaches Japan in this window; the meaningful realized technology event is the I-400/Seiran operational debut, not a jet breakthrough."
+}

@@ -1,0 +1,19 @@
+{
+  "revision": "v014",
+  "date": "2026-08-24",
+  "result": "PASS",
+  "checks": {
+    "all_json_parse": true,
+    "json_error_count": 0,
+    "sole_current_session_frontier": true,
+    "summer_frontier_explicitly_not_current": true,
+    "active_restart_time_is_1944_04_11": true,
+    "active_restart_checkpoint_is_null": true,
+    "legacy_4_30_checkpoint_reference_only": true,
+    "canonical_state_pointer_matches_frontier": true,
+    "file_count_before_checksum": 440,
+    "no_active_sounding_canonical_restart_key_in_frontiers": true
+  },
+  "json_errors": [],
+  "note": "Data-integrity/current-state validation; scenario adjudications were not replayed."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "US_AMPHIBIOUS_EXPERIENCE_AND_WEAR_DELTA_1944-02-10_v001",
+  "status": "WORKING_QUALITY_MODEL",
+  "problem": "Removing historical Guadalcanal/Solomons fighting changes both material wear and individual amphibious experience; these effects point in opposite directions.",
+  "material_wear": {
+    "LST_LCI_LCVP_LCM": "Some South-Pacific hull/engine/beaching wear is avoided, but Branch Santo/New Caledonia and ongoing logistics consume part of the saving. Use only a small 0 to +5 percent serviceability effect before local combat losses, not extra hulls by fiat.",
+    "LVT": "Guadalcanal itself creates almost no direct LVT inventory credit because the large tracked-assault system matured later. Tarawa and 1944 production/training are the dominant LVT gates."
+  },
+  "crew_experience": {
+    "APA_boat_coxswains_and_landing_control": "Potentially slightly less individually battle-seasoned than historical because repeated Solomons amphibious operations are absent/altered.",
+    "staff_doctrine": "Tarawa is longer and more costly in the Branch, so institutional lessons on wave control, reserve LVT, wreck removal, direct fire and repair are at least historical-equivalent and in some areas stronger.",
+    "LVT_units": "Rapid expansion still dilutes trained crews; preserved Tarawa amtrac survivors provide a somewhat healthier experienced cadre, but do not erase new-unit training friction."
+  },
+  "net_model": {
+    "raw_material_serviceability": "0 to +5 percent relative historical where the same hull/unit can be traced",
+    "individual_boat_crew_experience": "roughly historical to modestly worse in units whose historical experience came mainly from Solomons",
+    "system_level_amphibious_process": "historical-equivalent to modestly better after Branch Tarawa learning",
+    "rule": "Never combine these into one blanket multiplier. Apply to distinct failure modes: mechanical availability, navigation/control, traffic congestion, recovery, and fire-support coordination."
+  }
+}

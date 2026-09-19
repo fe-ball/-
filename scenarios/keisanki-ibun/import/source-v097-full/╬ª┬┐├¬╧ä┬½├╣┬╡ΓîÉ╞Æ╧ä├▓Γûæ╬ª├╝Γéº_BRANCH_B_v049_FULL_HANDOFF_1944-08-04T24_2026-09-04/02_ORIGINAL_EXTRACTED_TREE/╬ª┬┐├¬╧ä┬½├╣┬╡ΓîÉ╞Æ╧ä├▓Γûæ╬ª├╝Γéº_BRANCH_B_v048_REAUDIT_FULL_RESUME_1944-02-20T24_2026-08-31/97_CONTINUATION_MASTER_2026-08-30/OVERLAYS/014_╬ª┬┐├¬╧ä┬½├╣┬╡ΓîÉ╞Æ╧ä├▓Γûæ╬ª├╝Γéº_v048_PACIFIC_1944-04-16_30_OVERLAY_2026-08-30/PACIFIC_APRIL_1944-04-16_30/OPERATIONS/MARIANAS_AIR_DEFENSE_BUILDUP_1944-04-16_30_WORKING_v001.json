@@ -1,0 +1,47 @@
+{
+  "revision": "v001",
+  "id": "MARIANAS_AIR_DEFENSE_BUILDUP_1944-04-16_30_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-04-16..30",
+  "global_frontier_after_merge": "1944-04-30T24",
+  "parents": [
+    "MARIANAS_9TH_TANK_REGIMENT_TRANSFER_1944-04-01_13_WORKING_v001",
+    "JAPAN_ISR_RESPONSE_TRUK_RAID_1944-04-24_30_WORKING_v001"
+  ],
+  "strategic_assessment": "With Hollandia absent, US fast-carrier effort remaining centered on the Marshalls/Carolines and repeated pressure on Truk/Palau raises Japanese confidence that the Central Pacific/Marianas is the next decisive axis. It is not yet exact D-Day intelligence.",
+  "30Apr_theater_air_pool_working_band": {
+    "physical": [
+      225,
+      285
+    ],
+    "serviceable": [
+      195,
+      245
+    ],
+    "mission_ready": [
+      175,
+      225
+    ],
+    "fighter_ready": [
+      105,
+      140
+    ],
+    "attack_ready": [
+      45,
+      60
+    ],
+    "recon_seaplane_ready": [
+      25,
+      35
+    ],
+    "scope": "Saipan/Tinian/Guam/Rota/Pagan combined, not Saipan alone."
+  },
+  "actions": [
+    "Disperse aircraft among multiple strips/revetments rather than create one easily countable concentration.",
+    "Increase radar/plot/communications redundancy and pre-wire alternate command posts.",
+    "Build ammunition/fuel dispersal and rapid runway-repair stores.",
+    "Use flying boats/recon/seaplanes for outer warning; do not consume all long-range aircraft on routine offensive sweeps.",
+    "Continue 9th Tank Regiment integration and ground-air liaison without launching an unnecessary island counteroffensive."
+  ],
+  "guard": "Do not jump directly to the June pre-invasion OOB. May reinforcement, attrition, ferry loss and training remain separate clocks."
+}

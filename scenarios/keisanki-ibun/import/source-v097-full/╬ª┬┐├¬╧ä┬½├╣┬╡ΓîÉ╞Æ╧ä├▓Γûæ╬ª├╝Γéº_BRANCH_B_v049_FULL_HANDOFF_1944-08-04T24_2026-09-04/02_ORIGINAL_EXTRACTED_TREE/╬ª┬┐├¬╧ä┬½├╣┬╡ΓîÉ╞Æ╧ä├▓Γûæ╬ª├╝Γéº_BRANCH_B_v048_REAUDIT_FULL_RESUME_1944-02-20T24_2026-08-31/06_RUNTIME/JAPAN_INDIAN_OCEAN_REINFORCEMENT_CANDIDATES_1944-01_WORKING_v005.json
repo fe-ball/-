@@ -1,0 +1,151 @@
+{
+  "id": "JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v005",
+  "status": "WORKING_CANDIDATE_SCREEN_ORIGIN_ROUTE_AND_HISTORICAL_TRIGGER_TIMELINE_AUDITED_NO_ORDER",
+  "as_of": "1944-01-01T00:00:00",
+  "purpose": "Select realistic Indian Ocean reinforcements from the reconciled Branch wallet while preserving Central-Pacific opportunity cost and using submarine/observation liaison as the primary mission.",
+  "corrected_shipbuilding_logic": {
+    "young_surface_advantage": "primarily avoided historical Solomon/Rabaul losses plus higher availability; only modest 2-5% construction acceleration",
+    "kaibokan": "modest quantity delta; role separation/availability, not dozens of extra 1943 hulls",
+    "fleet_DD_physical_center": 81,
+    "fleet_DD_ready_center": 72,
+    "light_cruisers_physical_center": 21,
+    "light_cruisers_ready_band": "18-20",
+    "submarines_physical_working_center": 103,
+    "submarines_combat_usable_band": "82-89 center 86",
+    "warning": "Global physical count now closes at center 103 from named loss-path audit. Theater-transfer availability remains much smaller than physical count.",
+    "submarines_physical_band": "102-104"
+  },
+  "initial_release_rule": {
+    "when": "Eastern Fleet reinforcement is highly probable/eastbound but has not yet sortied east from Ceylon",
+    "modern_DD_release_without_major_Pacific_disruption": "4-6 initially; use survival-dividend hulls first",
+    "modern_DD_second_release_if_RN_eastbound_from_Ceylon": "additional 3-5",
+    "upper_transfer_without_explicit_Pacific_tradeoff": "8-11 total modern DD; above this requires explicit Central-Pacific tradeoff",
+    "CL_release": "Oyodo first; Agano or Noshiro only on second gate; Yahagi NO-GO early Jan",
+    "CA_release": "none initially; Suzuya/Kumano pair only on Bay-entry escalation gate",
+    "first_line_carriers": 0,
+    "secondary_carriers": "no automatic commitment; one/two only if later air-risk gate and Pacific situation permit"
+  },
+  "preferred_initial_mobile_group": {
+    "command_ISR": "Oyodo",
+    "AA_picket": "Teruzuki",
+    "torpedo_DD": [
+      "Takanami",
+      "Makinami",
+      "Kiyonami"
+    ],
+    "initial_strength": "Oyodo + Teruzuki + Takanami + Makinami + Kiyonami",
+    "why_this_exact_set": "All four DD are survival-dividend hulls whose historical Solomon loss chains are absent. This minimizes the opportunity cost of stripping historically-still-alive Pacific screens. Oyodo is the best fit for the Branch DF/ESM/submarine/air-contact fusion mission.",
+    "working_origin": "Truk / Combined-Fleet mobile pool center",
+    "route": "Truk -> Palau -> Balikpapan/Tarakan fuel gate -> Singapore/Lingga",
+    "movement_clock": "GO after high-confidence RN eastbound confirmation; 6-8 days center including fuel/coordination stop. A Jan11-12 GO gives Singapore/Lingga arrival about Jan18-21.",
+    "basing": "Singapore/Lingga rear; Penang/Sabang forward staging only; never park whole group at Port Blair",
+    "mission": [
+      "operational contact plot",
+      "escort high-value ISR/fast logistics",
+      "one-pass Type-93 strike on fresh contact",
+      "avoid sustained daylight/radar gunnery versus RN battle line"
+    ]
+  },
+  "why_these_DD": {
+    "Niizuki_Teruzuki": "mature Akizuki hulls whose historical Solomon losses are absent; radar/AA/picket utility is unusually valuable for the observation network",
+    "Takanami_Makinami_Kiyonami_Onami": "mature 1942-early-1943 Yugumo hulls, historical loss chains absent, enough training time by Jan1 and no current Branch commitment found",
+    "Suzunami_Hayanami": "mid-1943 Yugumo completions with adequate work-up; usable alternates",
+    "late_1943_Yugumo": "Asashimo/Kishinami/Okinami are not first-choice Indian transfers because their late-1943 completion leaves less work-up despite modest Branch schedule improvement"
+  },
+  "second_gate_if_Eastern_Fleet_sorties_east_from_Ceylon": {
+    "add_CL": "Noshiro center; retain Agano with Pacific carrier/10th-Squadron-oriented screen unless Pacific state separately frees it",
+    "add_Akizuki": "Niizuki preferred survival-dividend hull",
+    "add_DD": "2-3 from Onami / Suzunami / Hayanami, subject to maintenance check",
+    "submarines": "activate I-27 and I-37 first; target ~7 active/outbound conventional boats. Sentaka 1-2 only if contact age and geometry specifically reward sprint/recontact."
+  },
+  "third_gate_if_RN_enters_Bay_Andaman_approach": {
+    "add_CA": [
+      "Suzuya",
+      "Kumano"
+    ],
+    "role": "fast heavy cover/night strike and deterrence; do not line-battle QE/Valiant/Renown under Illustrious air cover",
+    "add_surface_note": "At this gate one more 2-3 DD escort package may be required; explicitly debit Central-Pacific screen before GO."
+  },
+  "special_support": {
+    "Chitose_or_Chiyoda": "retain as a later mobile seaplane-maintenance/recon option; exact Jan origin not yet hard enough to name one as initial mover.",
+    "Nisshin": "survives and is a strong fast heavy-logistics candidate, but prior Bengal settlement never actually booked its transfer; do not retroactively place it at Singapore without a dated movement decision.",
+    "old_local_cruisers": "Ashigara/Aoba + Kuma/Kinu/Oi/Kitakami remain local cover/transport/presence; young group is not used for routine shuttle work."
+  },
+  "submarine_local_nucleus": {
+    "on_station_1944_01_01": [
+      "I-162",
+      "I-166"
+    ],
+    "forward_ready_near_ready": [
+      "RO-110",
+      "I-165",
+      "I-27",
+      "I-37",
+      "RO-111"
+    ],
+    "en_route_south": [
+      "RO-112"
+    ],
+    "unavailable_or_wrong_mission": [
+      "I-8",
+      "I-10",
+      "I-29",
+      "I-34",
+      "I-175",
+      "I-30"
+    ],
+    "jan7_clock": "I-162 + I-166 remain out; RO-110, I-165 and RO-111 can be out/heading to station = 5 Japanese boats without Pacific transfer.",
+    "jan10_15_escalation": "activate I-27 and I-37 if RN eastbound evidence continues = ~7 active/outbound.",
+    "late_jan": "RO-112 and one additional Southwest boat can lift practical on-station/outbound target toward 7-9.",
+    "sentaka": "0 initial; 1-2 only after high-value fresh/stale contact geometry makes sprint-recontact useful.",
+    "German_Monsun": "sector-level handoff only, no unified tactical control; western/southwestern Ceylon-Arabian Sea information can cue Japanese eastern sectors."
+  },
+  "next_required_action": "Adjudicate whether/when the 1944-01-11 German visual sighting reaches Japanese operational intelligence. If timely/high-confidence and no new Pacific emergency blocks release, issue or withhold the first actual Truk-group movement order and explicitly debit Pacific screen cost. Do not treat Ceylon arrival as an immediate RN combat sortie.",
+  "origin_route_audit": {
+    "Oyodo": {
+      "confidence": "HIGH",
+      "historical_anchor": "Truk, Third Fleet/Combined Fleet late Dec 1943",
+      "branch_adjustment": "Kavieng BO-3 emergency chain not inherited; center stays Truk/mobile pool until new order",
+      "release_cost": "moderate; loses a Pacific ISR/command cruiser, but not a carrier flight deck or heavy cruiser"
+    },
+    "Teruzuki": {
+      "confidence": "MEDIUM_HIGH",
+      "historical_anchor": "mature Akizuki hull lost at Guadalcanal Dec 1942",
+      "branch_adjustment": "loss absent; center place in Truk carrier/fleet AA screen pool",
+      "release_cost": "one modern AA destroyer; acceptable because six Akizuki-class hulls physically survive Jan1"
+    },
+    "Takanami": {
+      "confidence": "MEDIUM_HIGH",
+      "historical_anchor": "mature Yugumo hull lost Tassafaronga Nov 1942",
+      "branch_adjustment": "loss absent; center in Truk/central mobile DD pool",
+      "release_cost": "low-moderate survival dividend"
+    },
+    "Makinami": {
+      "confidence": "MEDIUM",
+      "historical_anchor": "mature Yugumo hull; historical Solomon/Cape St George destruction absent",
+      "branch_adjustment": "center Truk/Palau fleet logistics-screen pool",
+      "release_cost": "low-moderate survival dividend"
+    },
+    "Kiyonami": {
+      "confidence": "MEDIUM",
+      "historical_anchor": "early-1943 Yugumo hull lost Kolombangara air attack",
+      "branch_adjustment": "loss chain absent; center Truk mobile DD pool",
+      "release_cost": "low-moderate survival dividend"
+    }
+  },
+  "construction_crosscheck": {
+    "surface_new_hulls": "Modest 2-5% yard acceleration does not create a large extra Jan1 surface class. The decisive delta is survival of 1942-43-built Yugumo/Akizuki hulls.",
+    "Yugumo": "16 historically completed by Jan1; Branch keeps all 16 physical center because historical Solomon losses are absent. Later units are not pulled across Jan1 by only 3-5% acceleration.",
+    "Akizuki": "6 completed by Jan1; Branch keeps all 6 physical center. Later Akizuki hulls remain 1944 gates.",
+    "Agano_class": "Agano and Noshiro are mature enough; Yahagi completed 1943-12-29 and remains work-up/no-go for Jan expedition.",
+    "Shimakaze": "single experimental hull; keep Pacific, no Indian transfer center.",
+    "Sentaka": "six first-generation hulls are the major genuinely new submarine construction addition by Jan1."
+  },
+  "historical_trigger_timeline": "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v001.json",
+  "observation_network": "06_RUNTIME/ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+  "dated_trigger_center": {
+    "first_robust_external_visual_evidence": "1944-01-11 German aircraft sighting in Eastern Fleet war diary",
+    "working_threshold_effect": "Sufficient for HIGH-confidence eastbound assessment only if delivered to Japanese channels in useful time",
+    "actual_GO_realized": false
+  }
+}

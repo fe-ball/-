@@ -1,0 +1,35 @@
+rank	item	pointer	rule
+0	START_HERE	00-START-HERE-CURRENT.md	always read first
+1	PACKAGE_STATE	PACKAGE-STATE-V9.tsv	machine-readable current-state cross-check
+2	SESSION_CLOSE	70-CURRENT-2026-09-05-SESSION-CLOSE/00-SESSION-HANDOFF-V9.md	overrides V8 where explicit
+3	CHINA_CURRENT_STATE	70-CURRENT-2026-09-05-SESSION-CLOSE/08A-CHINA-1939-06-20-STATE-V9.tsv	current chronological replay authority
+4	CHINA_NEXT_GATE	70-CURRENT-2026-09-05-SESSION-CLOSE/09-NEXT-GATE-SWATOW-1939-06-21-V9.md	resume here
+5	CROSS_THEATER_GUARD	70-CURRENT-2026-09-05-SESSION-CLOSE/07-CHINA-CROSS-THEATER-ALLOCATION-GUARD-V9.md	double-count prevention
+6	G3M_CHINA_EX_CLOSEOUT	70-CURRENT-2026-09-05-SESSION-CLOSE/11-G3M-CHONGQING-EX-STATE-CLOSEOUT-V9.md	Jun1939 China replay uses EX0-equivalent headline performance unless named lot evidence overrides
+7	NOMONHAN_SPECIAL_AMMO_FORMAL_FLOW	70-CURRENT-2026-09-05-SESSION-CLOSE/12A-NOMONHAN-SPECIAL-AMMO-FLOW-LEDGER-V9.tsv	formal lower-bound accepted/forwarded and campaign draw ledger; controls special-ammo flow
+8	NOMONHAN_AVIATION_STOCKFLOW	70-CURRENT-2026-09-05-SESSION-CLOSE/13A-NOMONHAN-AVIATION-STOCKFLOW-LEDGER-V9.tsv	campaign-sufficient fighter stock-flow; exact future sentai/day accounting is local
+9	URANIUM_SYSTEM_BALANCE	70-CURRENT-2026-09-05-SESSION-CLOSE/14A-URANIUM-SYSTEM-BALANCE-LEDGER-V9.tsv	Aug31 scenario strategic stock balance; do not equate with Home-Islands stock
+10	RIKEN_ISOTOPE_RESEARCH	70-CURRENT-2026-09-05-SESSION-CLOSE/15A-RIKEN-ISOTOPE-RESEARCH-LEDGER-V9.tsv	research state closed through Aug1939; no industrial enrichment
+11	ACTIVE_SESSION_OPEN_QUEUE	70-CURRENT-2026-09-05-SESSION-CLOSE/10A-ACTIVE-OPEN-ISSUES-V9.tsv	current active/deferred session queue; 10 file is issue history
+12	NOMONHAN_CLOSE	70-CURRENT-2026-09-05-SESSION-CLOSE/01-NOMONHAN-CLOSURE-CANON-V9.md	Aug23-31 main branch
+13	NOMONHAN_LOSS	70-CURRENT-2026-09-05-SESSION-CLOSE/02-NOMONHAN-LOSS-LEDGER-V9.tsv	terminal losses
+14	AIR_AMMO_CORRECTION	70-CURRENT-2026-09-05-SESSION-CLOSE/03-NOMONHAN-AIR-SPECIAL-AMMO-CORRECTION-V9.md	overrides old EX2/static special-ammo interpretations
+15	AIR_AMMO_WORKING_LEDGER	70-CURRENT-2026-09-05-SESSION-CLOSE/03A-NOMONHAN-AIR-SPECIAL-AMMO-WORKING-V9.tsv	machine-readable companion to correction narrative
+16	REPLACEMENT_PIPELINE	70-CURRENT-2026-09-05-SESSION-CLOSE/04-NOMONHAN-REINFORCEMENT-PIPELINE-V9.md	postbattle manpower flow
+17	REPLACEMENT_WORKING_LEDGER	70-CURRENT-2026-09-05-SESSION-CLOSE/04A-NOMONHAN-REINFORCEMENT-PIPELINE-V9.tsv	machine-readable companion to replacement narrative
+18	TERMINOLOGY_SUPERSESSION_GUARD	TERMINOLOGY-AND-SUPERSESSION-GUARD-V9.tsv	global no-backflow/identity/adoption guard
+19	DECISION_INTENT_OVERLAY	DECISION-INTENT-INDEX-V9.tsv	current semantic index; V7 decision-intent is provenance/fallback
+20	TECHNICAL_DISCUSSION_INDEX	71-CURRENT-TECHNICAL-CONTROL-V9/01-TECHNICAL-DISCUSSION-INDEX-V9.tsv	route technical questions here before old V8/V48 fallback
+21	TECHNICAL_ISSUE_REGISTER	71-CURRENT-TECHNICAL-CONTROL-V9/02-TECHNICAL-ISSUE-REGISTER-V9.tsv	controls technical OPEN/CLOSED status; session/combat open queue remains separate
+22	COMPUTATION_CRYPTO_CLOSURE	71-CURRENT-TECHNICAL-CONTROL-V9/03-COMPUTATION-CRYPTO-TECHNICAL-CLOSURE-V9.md	method/stop-line parent; read 06 for closed 1939 institutional baseline and target-event gating
+23	NAVAL_FCS_INTEGRATION	71-CURRENT-TECHNICAL-CONTROL-V9/04-NAVAL-COMPUTATION-FCS-INTEGRATION-CLOSURE-V9.md	R0-R3 taxonomy parent; read 07/07A for closed 1939 class baselines; 51/51A control function-specific FCS
+24	CHEAT_DISTANCE_TRANSFER_GUARD	71-CURRENT-TECHNICAL-CONTROL-V9/05-CHEAT-DISTANCE-AND-TRANSFER-GUARD-V9.md	mandatory for Asai/core -> external organization transfer; no remote reincarnator cloning; no confiscation of paid tools
+25	CRYPTO_SIGINT_INSTITUTIONAL	71-CURRENT-TECHNICAL-CONTROL-V9/06-CRYPTO-SIGINT-INSTITUTIONAL-CLOSEOUT-V9.md	1939 Navy cryptologic machine/institution baseline closed; named target outcomes event-gated
+26	NAVAL_FCS_CLASS_BASELINE	71-CURRENT-TECHNICAL-CONTROL-V9/07-NAVAL-FCS-CLASS-CLOSEOUT-V9.md	1939 class-level R baselines closed; 51/51A still control function-specific FCS interpretation
+27	CHEAT_RULE_COMPENDIUM	71-CURRENT-TECHNICAL-CONTROL-V9/08-CHEAT-RULE-COMPENDIUM-V9.md	current consolidated cheat/worldline technical rules; prevents distance/stage/deployment conflation
+28	TECHNICAL_STAGE_TAXONOMY	71-CURRENT-TECHNICAL-CONTROL-V9/08B-TECHNICAL-STAGE-TAXONOMY-V9.tsv	machine-readable stage vocabulary; local numerical/type canon controls conflicts
+29	V8_TECH_GUARDS	50-CURRENT-1939-1941-AIRPOWER-AUDIT/	retain unless explicit V9 override; specific mandatory guards are enumerated in CURRENT-MASTER-FILE-INDEX-V9.tsv
+90	OLDER_COMBAT_REPLAY	60-CURRENT-1939-COMBAT-REPLAY/	valid through Aug22 except explicit V9 corrections
+99	OLDER_V8_CONTROL	CURRENT-MASTER-FILE-INDEX-V8.tsv	provenance/fallback only
+100	ARCHIVE_V7_CONTROL	CURRENT-MASTER-FILE-INDEX-V7.tsv	provenance/comparator only
+101	BASE_V6	01-BASE-V6/	provenance only

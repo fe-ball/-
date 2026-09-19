@@ -1,0 +1,57 @@
+{
+  "status": "canonical-provisional-overlay",
+  "rule": "nominal design points remain historical unless explicitly changed; realized material quality may improve causally",
+  "historical_nominal_guard": {
+    "46cm_caliber_length": "46 cm/45",
+    "46cm_ap_mass_kg": 1460,
+    "46cm_ap_nominal_mv_mps": 780,
+    "type91_underwater_doctrine_retained": true,
+    "long_delay_fuze_retained": true
+  },
+  "projectile_materialization": {
+    "mature_heavy_ap_catastrophic_body_breakup_tail_relative_reduction_pct": [
+      10,
+      20
+    ],
+    "equivalent_penetration_threshold_sensitivity_pct": {
+      "favorable_low_obliquity": [
+        0,
+        1
+      ],
+      "narrow_marginal_body_failure_regime": [
+        1,
+        3
+      ]
+    },
+    "mature_46cm_intrinsic_ammo_gun_dispersion_component_improvement_pct": [
+      2,
+      4
+    ],
+    "selected_41cm_intrinsic_ammo_gun_dispersion_component_improvement_pct": [
+      1,
+      3
+    ],
+    "combined_physical_system_dispersion_improvement_cap_pct": [
+      3,
+      6
+    ]
+  },
+  "propellant": {
+    "lot_mean_mv_error_reduction_pct": [
+      15,
+      25
+    ],
+    "shot_to_shot_mv_spread_reduction_pct": [
+      10,
+      20
+    ],
+    "nominal_mv_increase": false,
+    "effective_service_life_planning_sensitivity_pct": [
+      5,
+      8
+    ]
+  },
+  "yamato_1942": "mature 46cm Type 1/late Type 91 family production realization; no wholesale projectile redesign",
+  "mutsu_1942": "mixed/selected 41cm lots; use lower end of bands unless lot-specific audit",
+  "non_stacking": true
+}

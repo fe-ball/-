@@ -1,0 +1,11 @@
+topic	superseded_reading	current_reading	authority
+1937 E5 twin	company-funded demonstrator with no military requirement	military-requirement technical prototype; final service role still open	20-AVIATION-CURRENT-REBASELINE/ASAI-1931-1939-TWIN-AIRCRAFT-CANON-REBASELINE-V1.md
+1938 Q4 twin requirement	first military high-speed twin requirement begins	requirement refinement/role narrowing; requirement already existed by 1935H2-36H1	same
+E5 aft-fan first flight	Sep-Oct 1938 first flight	1937 Q4 first flight; 1938 is durability/mission/maintenance maturation	20-AVIATION-CURRENT-REBASELINE/ASAI-AVIATION-INTENT-LINEAGE-PRODUCTIZATION-REBASELINE-1931-1939-V1.md
+E6 twin status	new company research aircraft in 1939	next-block military prototype in continuous twin program	20-AVIATION-CURRENT-REBASELINE/ASAI-1931-1939-TWIN-AIRCRAFT-CANON-REBASELINE-V1.md
+P1/P2/Material No1	one small TP/STOL/material aircraft object	P1 practical customer aircraft; P2 STOL evolution; Material No1 structural A/B test aircraft	20-AVIATION-CURRENT-REBASELINE/ASAI-AVIATION-INTENT-LINEAGE-PRODUCTIZATION-REBASELINE-1931-1939-V1.md
+productization	wait for newest core generation / technology stabilization	freeze useful stable block while research frontier advances	20-AVIATION-CURRENT-REBASELINE/ASAI-AVIATION-DECISION-INTENT-GUARD-V1.md
+performance dividend	automatic maximum-speed bonus	explicitly allocate to speed/fuel/payload/protection/life/field performance	same
+historical dates	engineering schedule governor	calibration/reference only; physical elapsed development time controls	same
+E-generation Sep1939	E6 only component research	E5 mature product/reference; E6 aviation flight generation; E7 rig horizon	20-AVIATION-CURRENT-REBASELINE/ASAI-1939-09-01-ASAI-AVIATION-CURRENT-ROSTER-V3.md
+aft-fan mechanism	no second spool / mechanism-free	free-LP-turbine/fan spool is real; chosen to avoid early front-fan multi-spool central path	20-AVIATION-CURRENT-REBASELINE/ASAI-AVIATION-DECISION-INTENT-GUARD-V1.md

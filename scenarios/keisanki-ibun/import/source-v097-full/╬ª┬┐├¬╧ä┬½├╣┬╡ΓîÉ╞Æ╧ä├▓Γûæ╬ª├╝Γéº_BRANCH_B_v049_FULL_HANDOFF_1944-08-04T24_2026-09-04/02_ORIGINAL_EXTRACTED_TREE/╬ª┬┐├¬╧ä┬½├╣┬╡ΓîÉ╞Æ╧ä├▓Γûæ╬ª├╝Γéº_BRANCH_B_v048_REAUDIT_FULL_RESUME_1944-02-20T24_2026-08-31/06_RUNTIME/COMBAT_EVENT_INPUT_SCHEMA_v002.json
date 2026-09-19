@@ -1,0 +1,31 @@
+{
+  "revision": "v002",
+  "purpose": "Event-local input for combat factors plus actual weapon/platform declarations, including ahistorical or divergent systems.",
+  "shape": {
+    "event": {
+      "location": "string/structured",
+      "participants": "list/structured",
+      "objective": "string/structured"
+    },
+    "factors": {
+      "CCF-XX": {
+        "value": "any structured value",
+        "source": "optional provenance",
+        "note": "optional"
+      }
+    },
+    "weapon_systems": [
+      {
+        "designation": "string",
+        "platform_class": "one of WEAPON_PLATFORM_CAPABILITY_INDEX platform class ids",
+        "historical_relation": "HISTORICAL_BASELINE | DIVERGENT_VARIANT | AHISTORICAL_TIMING | AHISTORICAL_NEW | COMPOSITE_DOCTRINAL_SYSTEM | UNKNOWN",
+        "index_id": "optional known SYS-* id",
+        "capability_record": "required structured value for unindexed novel/divergent/unknown system",
+        "availability_or_readiness": "structured/required for novel system",
+        "source": "provenance/required for novel system",
+        "note": "optional"
+      }
+    ]
+  },
+  "rule": "A factor under factors counts as event-runtime input. weapon_systems declares actual event-local systems/variants. Unindexed AHISTORICAL_NEW/DIVERGENT_VARIANT/AHISTORICAL_TIMING/UNKNOWN systems require capability_record, availability_or_readiness and source; absence is not neutral."
+}

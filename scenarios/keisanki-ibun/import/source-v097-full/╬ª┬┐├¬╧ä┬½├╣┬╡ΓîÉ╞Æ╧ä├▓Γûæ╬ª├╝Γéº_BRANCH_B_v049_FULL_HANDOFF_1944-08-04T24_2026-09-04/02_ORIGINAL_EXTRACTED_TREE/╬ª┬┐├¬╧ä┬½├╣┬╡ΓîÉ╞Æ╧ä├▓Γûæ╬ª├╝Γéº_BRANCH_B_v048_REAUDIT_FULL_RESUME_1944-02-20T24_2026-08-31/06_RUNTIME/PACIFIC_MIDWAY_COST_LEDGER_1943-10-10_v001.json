@@ -1,0 +1,63 @@
+{
+  "id": "PACIFIC_MIDWAY_COST_LEDGER_1943-10-10_v001",
+  "status": "CURRENT_WORKING_LEDGER",
+  "as_of": "1943-10-10T00:00",
+  "japan": {
+    "midway_personnel": [
+      5800,
+      6800
+    ],
+    "aircraft_physical": [
+      32,
+      42
+    ],
+    "aircraft_ready": [
+      26,
+      34
+    ],
+    "normal_delivery_kt_month": [
+      6,
+      9
+    ],
+    "stockpile_increment_kt_month_jul_sep": [
+      2,
+      4
+    ],
+    "submarine_east_patrol_pool": [
+      3,
+      5
+    ],
+    "escort_mission_slots": [
+      4,
+      6
+    ]
+  },
+  "united_states": {
+    "johnston_incremental_material_kt": [
+      4,
+      7
+    ],
+    "specialists_seabees": [
+      150,
+      250
+    ],
+    "patrol_aircraft_reallocated": [
+      8,
+      12
+    ],
+    "submarines_containment": [
+      4,
+      6
+    ],
+    "escort_mission_slots": [
+      3,
+      5
+    ],
+    "payment_priority": [
+      "Pacific survivor/dividend pool",
+      "Central Pacific construction reserve",
+      "shared global/Atlantic resources only after finite buffers bind"
+    ]
+  },
+  "rule": "No branch adaptation is free; record source pool or time lag."
+}

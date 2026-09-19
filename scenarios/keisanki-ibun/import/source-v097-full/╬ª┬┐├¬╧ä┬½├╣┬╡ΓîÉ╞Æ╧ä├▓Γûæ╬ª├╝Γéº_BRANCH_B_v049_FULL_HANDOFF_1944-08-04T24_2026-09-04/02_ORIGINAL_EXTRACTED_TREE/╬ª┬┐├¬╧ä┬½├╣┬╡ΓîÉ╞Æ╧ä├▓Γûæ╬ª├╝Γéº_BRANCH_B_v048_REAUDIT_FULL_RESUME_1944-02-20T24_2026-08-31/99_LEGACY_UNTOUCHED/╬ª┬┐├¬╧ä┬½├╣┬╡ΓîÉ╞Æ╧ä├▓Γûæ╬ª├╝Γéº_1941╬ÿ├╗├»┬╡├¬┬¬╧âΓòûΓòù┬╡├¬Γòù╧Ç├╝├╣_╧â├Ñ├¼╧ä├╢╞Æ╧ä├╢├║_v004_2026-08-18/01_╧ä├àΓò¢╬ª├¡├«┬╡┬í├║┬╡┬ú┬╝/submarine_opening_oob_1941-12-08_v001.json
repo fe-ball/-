@@ -1,0 +1,183 @@
+{
+  "revision": "v0.01",
+  "date": "1941-12-08",
+  "method_chain": [
+    "HULL",
+    "COMMAND_ASSIGNMENT",
+    "PHYSICAL_LOCATION",
+    "AVAILABILITY",
+    "MISSION",
+    "ON_STATION",
+    "CONTACT_ATTACK_REACQUIRE",
+    "RETURN_REPAIR"
+  ],
+  "formations": [
+    {
+      "formation": "Sixth Fleet/SubRon1",
+      "theater": "Hawaii",
+      "nominal_boats": [
+        "I-9",
+        "I-15",
+        "I-16",
+        "I-17",
+        "I-18",
+        "I-19",
+        "I-20",
+        "I-21",
+        "I-22",
+        "I-23",
+        "I-24",
+        "I-25"
+      ],
+      "note": "roster source formatting varies; special attack boats I-16/I-18/I-20/I-22/I-24 must be mission-separated"
+    },
+    {
+      "formation": "Sixth Fleet/SubRon2",
+      "theater": "Hawaii",
+      "nominal_boats": [
+        "I-1",
+        "I-2",
+        "I-3",
+        "I-4",
+        "I-5",
+        "I-6",
+        "I-7",
+        "I-10"
+      ]
+    },
+    {
+      "formation": "Sixth Fleet/SubRon3",
+      "theater": "Hawaii",
+      "nominal_boats": [
+        "I-8",
+        "I-68",
+        "I-69",
+        "I-70",
+        "I-71",
+        "I-72",
+        "I-73",
+        "I-74",
+        "I-75"
+      ]
+    },
+    {
+      "formation": "SubRon4",
+      "theater": "Malaya/South China Sea",
+      "nominal_boats": [
+        "I-53",
+        "I-54",
+        "I-55",
+        "I-56",
+        "I-57",
+        "I-58",
+        "RO-33",
+        "RO-34"
+      ],
+      "availability": "operational_patrol_group"
+    },
+    {
+      "formation": "SubRon5/SubDiv28",
+      "theater": "Southern",
+      "nominal_boats": [
+        "I-59",
+        "I-60"
+      ],
+      "opening_status": {
+        "I-59": "OVERHAUL_OR_NOT_OPERATIONAL_OPENING",
+        "I-60": "MODERNIZATION"
+      }
+    },
+    {
+      "formation": "SubRon5/SubDiv29",
+      "theater": "Malaya/South China Sea",
+      "nominal_boats": [
+        "I-62",
+        "I-64"
+      ],
+      "opening_status": {
+        "I-62": "AT_SEA_PATROL",
+        "I-64": "AT_SEA_PATROL"
+      }
+    },
+    {
+      "formation": "SubRon5/SubDiv30",
+      "theater": "Malaya/South China Sea",
+      "nominal_boats": [
+        "I-65",
+        "I-66"
+      ],
+      "opening_status": {
+        "I-65": "AT_SEA_PATROL",
+        "I-66": "AT_SEA_PATROL"
+      }
+    },
+    {
+      "formation": "Third Fleet/SubRon6",
+      "theater": "Philippines/NEI",
+      "nominal_boats": [
+        "I-121",
+        "I-122",
+        "I-123",
+        "I-124"
+      ],
+      "opening_status": {
+        "I-123": "FOREPLANE_FAILURE_MINE_MISSION_THEN_REPAIR",
+        "I-124": "MINE_MISSION_WEATHER_AIRCREW_RESCUE"
+      }
+    },
+    {
+      "formation": "Fourth Fleet/SubRon7",
+      "theater": "Central Pacific/Wake",
+      "nominal_boats": [
+        "RO-60",
+        "RO-61",
+        "RO-62",
+        "RO-63",
+        "RO-64",
+        "RO-65",
+        "RO-66",
+        "RO-67",
+        "RO-68"
+      ],
+      "opening_note": "base-ready vs on-station must be separated"
+    },
+    {
+      "formation": "Kure Naval District",
+      "theater": "Home/Training/Reserve",
+      "nominal_boats": [
+        "RO-49",
+        "RO-57",
+        "RO-58",
+        "I-52"
+      ],
+      "opening_note": "do not auto-count as deployed combat strength"
+    }
+  ],
+  "source_conflicts": [
+    {
+      "item": "SubRon4/SubDiv19",
+      "fleet_roster_variant": [
+        "I-56",
+        "I-69",
+        "I-70"
+      ],
+      "individual_TROM_working": [
+        "I-56",
+        "I-57",
+        "I-58"
+      ],
+      "working_choice": "individual_TROM_for_actual_1941_assignment"
+    }
+  ],
+  "policy_resets": [
+    "no_blanket_fleet_battle_only_doctrine",
+    "Guadalcanal_transport_bind_OPEN",
+    "Sentaka_lot3_OPEN",
+    "Germany_liaison_voyage_outcomes_OPEN",
+    "postopening_theater_allocation_recomputed"
+  ],
+  "opening_scenario_effects": {
+    "Sentaka_combat_boats": 0,
+    "Sentaka_shipyard_opportunity_cost": "track_separately"
+  }
+}

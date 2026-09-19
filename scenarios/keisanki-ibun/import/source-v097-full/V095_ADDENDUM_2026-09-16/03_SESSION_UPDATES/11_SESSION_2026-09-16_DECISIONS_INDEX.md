@@ -1,0 +1,27 @@
+# Session 2026-09-16 decision index
+
+- Completed forgotten-technology audit A1–D5.2.
+- Japanese Type94 HA fire-control base judged stronger than “primitive”; Branch gains mainly reacquisition/I-O/calibration/fuse-setting/quality.
+- Type III HA fire-control accelerated to prototype/evaluation by late 1943; no fleet standard issue yet.
+- Carrier DC/hangar/avgas/fire-main reforms reinserted from prior canonical technology chain.
+- US healthy fast carriers fixed as Yorktown/Lexington/Bunker Hill/Independence/Princeton/Cowpens; Wasp remains South Pacific containment layer.
+- Secondary-carrier D4Y/B6N compatibility audited; Ryujo remains fighter-heavy.
+- Air-ground separation and cross-deck regeneration formally applied.
+- Kinsei Zero current forward quantity/role closed; first 21 Nov escort remains long-range late Suisei-Zero force.
+- Ki-84, Ha43-Ki84/Ki100 insurance branch, Shiden-Kai/Reppu clocks audited.
+- Kyofu, kaibokan, fleet DD, Tokai/MAD, tanker/oiler ledgers tightened.
+- Kaibokan old 29/23–25 corrected to 19/15–16.
+- Type91 Mod3 Improved and D4Y Type2 No.50 anti-ship bomb standardized for 21 Nov combat adjudication.
+- Type93 night-surface doctrine redefined as conditional one-pass strike under US SG/CIC advantage.
+- Island base system formalized as warning/C2 + land-air + water-air + logistics + engineering + personnel functions.
+- Shinano policy reopened and corrected: float-out late 1942/early 1943; No.6 dock release early 1943; 5002/5005 construction revived.
+- Industrial response model corrected from fixed-resource “steal” framing to elastic planning response; nickel treated as war-spec floor, Cu/Mo/precision capacity remain hard constraints.
+- 21 Nov US carrier counterstrike closed NO-GO after countersearch fails to get weapon-quality contact.
+- Limited relief doctrine created (R0–R3); permanent rescue not required.
+- 21/22 Makin R2 aborts before contact; earlier extra Type93/DD-loss result revoked.
+- 22 Nov ISR: US hurt but not collapsing; 4–7 fast decks estimated, fast BB and assault fleet still present.
+- Makin organized resistance ends 23 Nov afternoon.
+- Tarawa receives partial R1 air-drop 23/24 night; organized resistance ends 24 Nov late afternoon.
+- Historical Liscome Bay sinking explicitly not inherited; I-175 attack misses and escapes.
+- US first-strike aircraft permanent loss revised 29–38 -> 23–30, with repairable and host-unavailable categories separated.
+- Japanese experienced aircrew loss no longer described as permanently unrecoverable unit quality; regeneration is explicit.

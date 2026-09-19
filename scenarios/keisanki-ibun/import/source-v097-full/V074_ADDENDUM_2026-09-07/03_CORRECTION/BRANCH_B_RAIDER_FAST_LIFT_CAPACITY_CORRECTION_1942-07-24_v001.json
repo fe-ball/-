@@ -1,0 +1,19 @@
+{
+  "status": "CLOSED_CORRECTION",
+  "date": "1942-07-24",
+  "scope": "Raider fast-lift capacity and H2/H3 contribution only",
+  "apds": ["Little", "Colhoun", "Gregory", "McKean"],
+  "troop_capacity_per_apd_center": 130,
+  "four_apd_physical_center": 520,
+  "four_apd_physical_band": [500, 540],
+  "effective_center": 490,
+  "effective_band": [460, 510],
+  "raiders_left_new_caledonia_physical_band": [300, 380],
+  "vehicles_in_fast_lift": 0,
+  "corrected_H2_effective_band": [4000, 4900],
+  "corrected_H3_effective_band": [4400, 5550],
+  "supersedes": [
+    "v072 near-complete Raider battalion fast-lift assumption",
+    "v073 Raider fast-lift implication derived from v072"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "revision": "v001",
+  "id": "US_TG58_6_AND_FAST_DECK_PIPELINE_1944-05-14_18_WORKING_v001",
+  "status": "WORKING_PARALLEL_FORCE_PIPELINE",
+  "clock_window": "1944-05-14..18",
+  "global_frontier_after_merge": "1944-05-18T24:00:00+09:00",
+  "parents": [
+    "US_FAST_CARRIER_PIPELINE_CORRECTION_1944-03-08_WORKING_v001",
+    "PACIFIC_PARALLEL_1944-05-01_10_WORKING_v001"
+  ],
+  "historical_anchor": "TG 58.6 with Essex, historical Wasp CV-18 and San Jacinto sortied 14-15 May for Marcus/Wake combat training/neutralization and fueled on 17-18 May.",
+  "branch_naming": "Historical Wasp CV-18 remains the physical Essex-class CV-18 hull but is branch-provisionally named Oriskany because Wasp CV-7 survives. No duplicate Wasp name.",
+  "execution": {
+    "TG58_6": "Essex + CV-18-equivalent (provisional Oriskany) + San Jacinto sortie on the historical training/neutralization logic. No branch event removes the operational purpose.",
+    "as_of_18May": "TG58.6 is fueled/approaching Marcus operation; strikes occur after this window and are not pre-awarded.",
+    "deck_pipeline": "CV-18-equivalent and San Jacinto now earn forward combat-deck credit. Cabot remains at the edge of its branch return band and is not yet forced into full 18-May combat credit.",
+    "immediate_fast_deck_pool_18May": "15 combat-usable fast decks working center: 8 CV + 7 CVL, counting TG58.6 entrants; exact simultaneous mission availability remains maintenance/task-group dependent.",
+    "note": "This confirms the old June 7-CV/8-CVL settlement must be rebuilt before FORAGER; do not silently reuse it."
+  },
+  "sources": [
+    "https://www.history.navy.mil/research/histories/ship-histories/danfs/w/wasp-ix.html",
+    "https://www.ibiblio.org/hyperwar/USN/BBBO/BBBO-13.html"
+  ]
+}

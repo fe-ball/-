@@ -1,0 +1,17 @@
+{
+  "id": "GALVANIC_MAKIN_SUBMARINE_1943-11-27_REAUDIT_WORKING_v001",
+  "status": "WORKING_BRANCH_RERUN_NOT_YET_PROMOTED",
+  "time": "1943-11-27 local",
+  "ground": {
+    "result": "Makin organized resistance ends during the afternoon centered; Tarawa hardening is not copied onto Makin because trained combat manpower remains the dominant ceiling.",
+    "effect_on_air": "Three-CVE-class support remains sufficient through the decisive ground period. Release/reallocation toward Tarawa begins only after closeout and cannot retroactively help Tarawa morning fighting."
+  },
+  "I175": {
+    "old_result": "Pierce APA-50 torpedo hit / I-175 heavily damaged",
+    "reaudit": "NOT centered now.",
+    "reason": "The 26/27 Japanese surface raid has shifted to Tarawa, so the Makin screen is not locally disrupted by that raid; the regional alert after the Tarawa surface attack also keeps ASW/screen discipline high during Makin reorganization.",
+    "centered_event": "I-175 obtains a marginal/longer-range firing opportunity during reorganization but scores no confirmed hit; counter-ASW causes light-to-moderate damage/fatigue and forces a temporary separation from the closest approach, but not a campaign-ending damage state.",
+    "sensitivity": "A single APA/AKA/LST torpedo hit remains plausible but is no longer the most-likely integer outcome. USS Pierce is therefore reopened/not damaged by default in this working line."
+  },
+  "submarine_system_note": "Prolonged Tarawa shipping dwell still creates additional submarine opportunity on 28 Nov and later; no compensating automatic high-value hit is booked."
+}

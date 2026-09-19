@@ -1,0 +1,91 @@
+{
+  "revision": "v0.02-refactor-normalized",
+  "role": "global opening synchronization state normalized against AUTHORITATIVE_MANIFEST_v004",
+  "master_start": "1941-11-15 Southern air concentration",
+  "global_opening": "1941-12-07/08",
+  "execution_policy": "event-level / bounded UNKNOWN / no top-down output multiplier",
+  "theaters": {
+    "Pearl": {
+      "source": "pearl_state_transition_v003.json",
+      "state": "EXECUTABLE_BOUNDED_CAUSAL_RERUN",
+      "effective_attack_aircraft": {
+        "center": 353,
+        "range": [
+          352,
+          354
+        ]
+      },
+      "irrecoverable_japanese_aircraft_loss": {
+        "center": 28,
+        "range": [
+          27,
+          29
+        ]
+      },
+      "japanese_aircrew_killed": {
+        "center": 53,
+        "range": [
+          50,
+          55
+        ]
+      },
+      "torpedo_hits_total": {
+        "center": 23,
+        "range": [
+          21,
+          24
+        ]
+      },
+      "heavy_ap_bomb_hits": {
+        "center": 9,
+        "range": [
+          9,
+          10
+        ]
+      },
+      "strategic_result": "PEARL_FLEET_DAMAGE_SAME_CLASS_BUT_REPAIR_BURDEN_HIGHER",
+      "open": [
+        "marginal ship-hit allocation by attack axis",
+        "damaged-return distribution / carrier air-group repair burden detail"
+      ]
+    },
+    "Malaya": {
+      "source": "opening_execution_state_v001.json",
+      "state": "EXECUTABLE_INTERVAL",
+      "3AB_59_75_90_serviceable_eve": [
+        53,
+        72
+      ],
+      "7AB_64_12_60_98_serviceable_eve": [
+        93,
+        149
+      ],
+      "unallocated_precombat_loss_pool": 46,
+      "unallocated_replacement_pool": 148,
+      "next_event_source": "malaya_phase1_events_v001.json"
+    },
+    "Philippines": {
+      "source": "philippines_opening_events_v001.json",
+      "state": "EXECUTABLE_HISTORICAL_SHELL",
+      "main_strike_departed": 192,
+      "japanese_fighter_losses": 7,
+      "result_class": "FEAF_EFFECTIVE_STRENGTH_APPROX_HALVED_FIRST_DAY",
+      "open": [
+        "Japanese individual loss causes",
+        "post-raid Japanese serviceability/damaged returns",
+        "unit-level Japanese OOB allocation"
+      ]
+    }
+  },
+  "cross_theater_rules": [
+    "no aircraft/crew teleportation between theaters",
+    "later human-state divergence starts only from actual survivors, wounds, fatigue and transfers",
+    "historical-class shell can advance the global clock while unresolved quantities remain UNKNOWN",
+    "a later source can narrow intervals but must not rewrite already-observed events without provenance"
+  ],
+  "next_execution_window": "1941-12-08 through 1941-12-15 Malaya daily state transition, while Pearl ship damage and Philippines Japanese post-strike state are refined in parallel",
+  "normalization_notes": [
+    "Legacy opening_sync_state_v001 pointed to pearl_state_transition_v002; AUTHORITATIVE_MANIFEST_v004 supersedes v002 for execution and prioritizes v003.",
+    "Legacy sync file remains preserved; this refactor-normalized file is the runtime pointer."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "scenario": "asai",
+  "archive": "ASAI-WORLDLINE-HANDOFF-2026-09-19-FULL-V22B-CHINA-PEACE-GERMAN-JET-BRANCH-GATE(1).zip",
+  "archive_bytes": 20996153,
+  "archive_sha256": "4bea918064d011331dfe5e0ba3ceed3994e59cc4d2187e84495e59719bc63307",
+  "zip_entries": 1228,
+  "file_entries": 1122,
+  "payload_bytes": 27856505,
+  "existing_exact_source_files": 0,
+  "added_source_files": 1122,
+  "extracted_directory": "source-v22b-full-exact",
+  "removed_zip_prefix": "ASAI-WORLDLINE-HANDOFF-2026-09-19-FULL-V22B-CHINA-PEACE-GERMAN-JET-BRANCH-GATE/",
+  "crc_verified": true,
+  "all_extracted_sha256_verified": true,
+  "filename_policy": "Preserve ZIP-decoded filenames exactly, including inherited mojibake; original ZIP bytes retained.",
+  "nested_archives": "Preserved byte-for-byte without recursive extraction.",
+  "current_authority": "V23"
+}

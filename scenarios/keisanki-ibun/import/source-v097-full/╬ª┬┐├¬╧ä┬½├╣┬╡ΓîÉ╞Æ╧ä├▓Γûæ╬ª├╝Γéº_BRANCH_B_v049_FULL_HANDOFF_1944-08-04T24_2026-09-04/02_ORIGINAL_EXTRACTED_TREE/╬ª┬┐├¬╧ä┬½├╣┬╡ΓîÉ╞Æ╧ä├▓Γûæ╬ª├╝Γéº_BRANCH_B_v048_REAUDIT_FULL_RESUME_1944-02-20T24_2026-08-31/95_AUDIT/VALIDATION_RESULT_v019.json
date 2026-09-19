@@ -1,0 +1,22 @@
+{
+  "revision": "v019",
+  "date": "2026-08-25",
+  "result": "PASS",
+  "checks": {
+    "all_json_parse": true,
+    "clock_remains_1944_04_25": true,
+    "final_force_gate_present": true,
+    "machine_ledger_present": true,
+    "anti_double_count_rule_present": true,
+    "hunan_d_day_division_count": 10,
+    "theater_reserve_named": "60th Division",
+    "western_active_divisions": [
+      "36th",
+      "41st",
+      "17th"
+    ],
+    "operation_staged_not_pre_awarded": true,
+    "file_count_before_checksum": 478,
+    "json_file_count": 212
+  }
+}

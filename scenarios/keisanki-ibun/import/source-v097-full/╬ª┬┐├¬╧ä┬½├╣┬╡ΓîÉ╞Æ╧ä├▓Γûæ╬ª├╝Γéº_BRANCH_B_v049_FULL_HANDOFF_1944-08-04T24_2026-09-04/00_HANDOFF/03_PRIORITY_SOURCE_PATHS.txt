@@ -1,0 +1,25 @@
+Priority original-canon files for the next chat:
+
+02_ORIGINAL_EXTRACTED_TREE/計算機異聞_BRANCH_B_v048_REAUDIT_FULL_RESUME_1944-02-20T24_2026-08-31/99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/00_常時コンテキスト_研究規約と正本索引.md
+  - especially §1.0.1, §1.1, §2.1–2.4
+
+.../03_検討資料_設定正本/50_航空機研究_陸海軍総合正本.md
+  - especially §1.2–1.4 and the earlier aircraft compute methodology
+
+.../03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md
+  - especially §§2.1–2.4, B5N/B6N and D3A/D4Y sections, torpedo/dive-envelope methods
+
+.../03_検討資料_設定正本/53_海軍戦闘機・空冷発動機・噴進航空.md
+  - Homare and Ha-43 maturation clocks / maintenance burdens / production state
+
+.../03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md
+  - threshold amplification, absorption/reinvestment, bottleneck attenuation, personnel circulation, multi-stage propagation
+
+.../03_検討資料_設定正本/93_資料庫_2026-08-13_現行総合引継ぎ_1944初夏・戦史再監査v3起点.md
+  - recovered Ryusei invariant: initial production; Feb combat 0; Taiho first full-operation carrier candidate
+
+03_SESSION_UPDATES/BRANCH_B_CARRIER_PERSONNEL_ECOSYSTEM_CELLULARIZATION_1944-03-08_v002.md
+  - carrier-personnel cell-division system and Taiho/Unryu/Amagi shadow-cell logic
+
+03_SESSION_UPDATES/BRANCH_B_B7A_RYUSEI_FULL_REAUDIT_1944-04-25_v001.md
+  - useful preliminary engine/mission hypotheses, BUT numerical performance/quantity must be reopened under the original compute doctrine

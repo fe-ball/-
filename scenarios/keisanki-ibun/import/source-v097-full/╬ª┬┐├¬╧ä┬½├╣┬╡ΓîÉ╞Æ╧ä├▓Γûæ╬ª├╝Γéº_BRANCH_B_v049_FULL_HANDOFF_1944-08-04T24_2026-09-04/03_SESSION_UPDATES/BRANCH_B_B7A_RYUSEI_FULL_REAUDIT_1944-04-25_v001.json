@@ -1,0 +1,122 @@
+{
+  "id": "BRANCH_B_B7A_RYUSEI_FULL_REAUDIT_1944-04-25_v001",
+  "status": "WORKING_TECHNICAL_CORRECTION_NEW_AUDIT",
+  "frontier": "1944-04-25T24:00",
+  "clock_advance": false,
+  "archive_finding": "No detailed B7A canon in active 52; only legacy invariant: initial production, Feb combat 0, Taiho first full-operation candidate",
+  "engine": {
+    "current": "Homare-12-line improved Branch production",
+    "prototype_family": "Homare-11-line",
+    "future": "Homare-23 test / Ha-43 B7A3 branch",
+    "Ha43_combat_credit_25Apr": 0,
+    "branch_H1_Homare_hp": {
+      "standard_good": [
+        1900,
+        2000
+      ],
+      "field_median": [
+        1850,
+        1950
+      ],
+      "5_6km": [
+        1550,
+        1680
+      ]
+    },
+    "maintenance_burden_vs_Kinsei": [
+      1.25,
+      1.4
+    ]
+  },
+  "performance_working": {
+    "empty_t": [
+      3.75,
+      3.9
+    ],
+    "standard_bombing_t": [
+      5.4,
+      5.8
+    ],
+    "standard_torpedo_t": [
+      5.8,
+      6.2
+    ],
+    "max_takeoff_t": [
+      6.3,
+      6.5
+    ],
+    "speed_test_good_kmh": [
+      575,
+      582
+    ],
+    "speed_production_standard_kmh": [
+      568,
+      576
+    ],
+    "speed_field_median_kmh": [
+      560,
+      570
+    ],
+    "climb_6000m": "9:40..10:20",
+    "max_range_km": [
+      3100,
+      3400
+    ],
+    "dive_bomb_radius_km": [
+      550,
+      700
+    ],
+    "torpedo_radius_km": [
+      500,
+      650
+    ]
+  },
+  "weapons": {
+    "crew": 2,
+    "forward": "20mm x2",
+    "rear": "flexible gun, later 13mm-class",
+    "torpedo": "~800kg-class external",
+    "dive_bomb": "2x250kg-class internal / lighter multiples",
+    "heavy_800kg_bomb": "not assumed standard steep-dive load without separate certification"
+  },
+  "mission": {
+    "airframe": "unified torpedo + dive attack aircraft",
+    "crew": "primary specialty retained; cross-qualification not universal",
+    "fighter_role": false,
+    "recon": "secondary/possible, D4Y/C6N remain better dedicated options"
+  },
+  "compute_effects": [
+    "load-state / center-of-gravity matrix",
+    "gull-wing / spar / landing-gear load analysis",
+    "dive-brake balance and flutter",
+    "bomb separation / pullout envelope",
+    "torpedo release/water-entry envelope",
+    "Homare-propeller vibration/cooling/QC",
+    "carrier handling weight-state planning"
+  ],
+  "carrier": {
+    "Taiho": "first full operational candidate",
+    "veteran_four": "trial/cross-deck plausible; full group certification OPEN",
+    "Unryu_Amagi": "future Ryusei handling benefits from Taiho data"
+  },
+  "quantity_25Apr_provisional": {
+    "national_physical": [
+      20,
+      32
+    ],
+    "serviceable_workup": [
+      15,
+      24
+    ],
+    "Taiho_associated": [
+      12,
+      20
+    ],
+    "Taiho_mission_ready": [
+      8,
+      14
+    ],
+    "guard": "pending production-line audit"
+  },
+  "operational_guard": "B7A does not replace D4Y/B6N bulk in Apr; small high-value Taiho cell"
+}

@@ -1,0 +1,60 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_CARRIER_AIR_REGENERATION_1944-04-01_15_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-04-01..15",
+  "global_frontier_after_merge": "1944-04-15T24",
+  "parents": [
+    "JAPAN_CARRIER_REGEN_AND_TAIHO_INTEGRATION_1944-03-21_31_WORKING_v001",
+    "JAPAN_AIRCREW_REGENERATION_SOFT_PROGRESS_1944-03-08_WORKING_v001"
+  ],
+  "purpose": "Continue lower-net-loss/cadre-return recovery into April while respecting the authoritative 30-Apr 280-300 ready four-carrier ceiling and charging training losses.",
+  "four_core": {
+    "carriers": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu"
+    ],
+    "31Mar_ready_band": [
+      260,
+      286
+    ],
+    "07Apr_ready_band": [
+      265,
+      291
+    ],
+    "15Apr_ready_band": [
+      272,
+      296
+    ],
+    "15Apr_one_cycle_synchronized_offensive_package_band": [
+      168,
+      200
+    ],
+    "qualitative": "A-/A- for one-cycle four-deck coordination; repeated long-range strike endurance and reserve attack-leader depth still below Branch 1942-43 mature peak."
+  },
+  "training_cost_01_15Apr": {
+    "aircraft_irrecoverable_writeoff_band": [
+      4,
+      7
+    ],
+    "fatal_or_permanently_lost_carrier_aircrew_band": [
+      1,
+      3
+    ],
+    "recoverable_damage_band": [
+      8,
+      13
+    ],
+    "note": "Already netted into dated ready bands."
+  },
+  "soft_progress_effect": {
+    "carrier_conversion_training_speed_multiplier": [
+      1.1,
+      1.22
+    ],
+    "cadre_effect": "Veteran leaders/navigation cells shorten the tail of squadron conversion and reduce the share of all-new formations; does not create extra factory airframes."
+  },
+  "guard": "Do not extrapolate above deck/airframe capacity. Recovery now expresses itself increasingly in replacement depth, reserve crews and repeat-sortie resilience rather than raw embarked count."
+}

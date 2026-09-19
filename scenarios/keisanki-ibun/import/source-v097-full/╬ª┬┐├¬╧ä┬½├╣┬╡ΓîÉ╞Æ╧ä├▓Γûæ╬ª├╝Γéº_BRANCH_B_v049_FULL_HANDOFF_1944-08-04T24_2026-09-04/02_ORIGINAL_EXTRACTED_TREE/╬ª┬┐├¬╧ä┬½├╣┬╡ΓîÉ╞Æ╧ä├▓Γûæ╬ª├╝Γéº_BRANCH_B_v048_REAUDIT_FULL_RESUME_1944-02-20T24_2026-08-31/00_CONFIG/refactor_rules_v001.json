@@ -1,0 +1,85 @@
+{
+  "revision": "v001",
+  "purpose": "Editable decision and refactor policy. Changing this file changes processing policy, not preserved legacy evidence.",
+  "immutable_principles": [
+    "Never delete legacy evidence during refactor; demote or quarantine instead.",
+    "Do not let a policy rule silently override an empirical/engineering claim; any policy override must be explicit and labeled.",
+    "Do not resolve technical/scientific conflicts by version number alone."
+  ],
+  "execution_artifact_precedence": {
+    "method": "explicit_manifest_then_same_family_revision",
+    "notes": "Use explicit superseded_for_execution declarations first. Revision recency may choose runtime artifacts only within the same artifact family and only when no contrary manifest exists."
+  },
+  "scientific_survival_method": {
+    "step_order": [
+      "Normalize scope: same platform, date, test condition, quantity definition, and baseline. If scopes differ, retain both claims as scoped rather than calling them contradictory.",
+      "Reject or quarantine claims violating arithmetic, units, chronology, conservation, known material/production constraints, or their own stated prerequisites.",
+      "For historical empirical facts, prefer direct contemporary/primary measurements and documented test conditions over later unsourced assertions.",
+      "For engineering feasibility/performance, prefer transparent calculations tied to physical inputs and validated historical analogs; retain sensitivity ranges where inputs are uncertain.",
+      "For scenario consequences, require a causal chain through intermediate state variables; do not promote narrative outcome to technical evidence.",
+      "A later synthesis does not automatically defeat an earlier, better-supported technical claim. A later explicit refutation with stronger evidence does.",
+      "If evidence is genuinely non-decisive, preserve both, mark conflict_status=unresolved, and exclude the disputed value from automatic runtime injection."
+    ],
+    "claim_classes": {
+      "historical_fact": "dates, historical equipment performance, OOB, observed tests",
+      "engineering_derivation": "performance or reliability derived from scenario technical changes",
+      "scenario_realization": "whether a technically possible change is adopted/deployed by a date",
+      "wartime_outcome": "battle/campaign state produced after WARSTART",
+      "policy_rule": "modeling and workflow rules; user-editable"
+    },
+    "allowed_runtime_status": [
+      "accepted",
+      "conditional",
+      "provisional_center"
+    ],
+    "blocked_runtime_status": [
+      "unresolved_conflict",
+      "superseded",
+      "rejected",
+      "reference_only"
+    ]
+  },
+  "history_rewind_policy": {
+    "major_floor": "WARSTART_1941-12-07_08",
+    "checkpoint_model": "postwar history is a chain of independently restartable checkpoints; changing a checkpoint invalidates descendants, not ancestors",
+    "upstream_change": "changes to CORE/TECH/PREWAR that alter WARSTART create a new WARSTART revision and invalidate all descendant wartime checkpoints unless explicitly revalidated",
+    "technical_baseline": "technical index is orthogonal to checkpoint state; checkpoints store only technical maturation deltas and baseline revision references"
+  },
+  "runtime_handout_policy": {
+    "source": "generated projection of checkpoint + technical index + event tags; never a separate source of truth",
+    "required_domain_resolution": [
+      "AIR",
+      "AIRCREW",
+      "SURFACE",
+      "SUBMARINE",
+      "SENSOR_SEARCH",
+      "SIGINT_COMINT",
+      "BASE",
+      "MAINTENANCE_READINESS",
+      "LOGISTICS",
+      "DOCTRINE_LEARNING",
+      "INFORMATION_COMMAND"
+    ],
+    "resolution_values": [
+      "ACTIVE",
+      "NO_RELEVANT_DELTA",
+      "NOT_YET_MATURE",
+      "UNKNOWN"
+    ],
+    "unknown_behavior": "UNKNOWN blocks final event computation unless explicitly waived with reason."
+  },
+  "integration_policy": {
+    "principle": "Do not treat small improvements as isolated percentage bumps; map them into causal stages and integrate through shared intermediate variables.",
+    "combination_types": [
+      "additive",
+      "multiplicative_across_distinct_stages",
+      "threshold",
+      "bottleneck_relief",
+      "resource_reallocation",
+      "substitution",
+      "shared_intermediate_no_double_count",
+      "enemy_adaptation"
+    ],
+    "diagnostic_product": "A naive product of stage improvements may be used as an upper-bound/warning diagnostic, never automatically as a canonical combat multiplier."
+  }
+}

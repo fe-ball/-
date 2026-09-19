@@ -1,0 +1,101 @@
+{
+  "revision": "v001",
+  "id": "INDIAN_OCEAN_AIR_CAPABILITY_GAP_AUDIT_1944-02-21_v001",
+  "status": "PRE_ADJUDICATION_BLOCKER_CONFIRMED",
+  "scope": "Eastern Fleet / Ceylon / Andaman-Arakan / Bay of Bengal aviation capability needed for 1944-02-19..22 adjudication at global frontier 1944-02-21T24.",
+  "finding": "Aviation is represented in the package, but no single loadable ledger normalizes the February 1944 Indian Ocean air balance to the physical/serviceable/mission-ready/sortie-generation standard already used in the Central Pacific. Operational air-sea adjudication should not proceed until this ledger exists.",
+  "coverage_found": {
+    "royal_navy_carrier_layer": {
+      "known": [
+        "Illustrious is in the Eastern Fleet heavy-group trace and reaches Trincomalee 1944-01-28.",
+        "Unicorn is in the eastbound group and is at Cochin in the 1944-01-28 parallel-theater state.",
+        "Battler is identified as an existing Eastern Fleet CVE in the January medium/light OOB."
+      ],
+      "missing_for_19_22_Feb": [
+        "embarked aircraft by role/type",
+        "physical vs serviceable vs mission-ready aircraft",
+        "aircrew readiness/experienced strike-leader constraint",
+        "deck/maintenance readiness and sortie generation",
+        "CAP/search/strike allocation",
+        "carrier aviation attrition and replacement state since year-end"
+      ]
+    },
+    "allied_land_air_layer": {
+      "known": [
+        "Ceylon long-range air contact/shadowing exists in the Eastern Fleet passage chronology.",
+        "Patenga/Chittagong late-December branch posture records 15-25 regular fighter/recon presence.",
+        "Feni/Comilla/Agartala is retained as the British defensive and air-support arc; British 224 Group and incoming units displaced north rather than being destroyed at Chittagong."
+      ],
+      "missing_for_19_22_Feb": [
+        "Ceylon and Bengal assigned aircraft OOB by base/role",
+        "serviceable and mission-ready bands",
+        "long-range maritime search capacity",
+        "fighter CAP/interception capacity",
+        "strike/anti-shipping capacity",
+        "airfield throughput, repair, fuel and weather constraints",
+        "daily and first-window sortie generation"
+      ]
+    },
+    "japanese_land_and_water_air_layer": {
+      "known": [
+        "Japanese 5th Air Division is leaned west but not wholly committed in the Bengal settlement.",
+        "Andaman-Arakan functional observation nodes include Port Blair, Mergui/Victoria Point, Sabang/Padang and Penang/Singapore reporting support.",
+        "The Indian Ocean reinforcement plan explicitly treats Chitose/Chiyoda only as later mobile seaplane support options and does not auto-commit carriers."
+      ],
+      "missing_for_19_22_Feb": [
+        "base-by-base assigned/serviceable/mission-ready aircraft",
+        "fighter vs bomber/torpedo vs reconnaissance/floatplane composition",
+        "Port Blair/Mergui/Sabang/Penang/Singapore sortie capacity",
+        "maritime search arcs and contact-refresh rates",
+        "fuel/maintenance/aircrew constraints",
+        "anti-shipping strike generation and escort availability",
+        "explicit debit for aircraft/crews retained in Central Pacific or Burma land support"
+      ]
+    },
+    "existing_generic_aircraft_ledger": {
+      "path": "06_RUNTIME/AIRCRAFT_FIELDING_LEDGER_1943-10-01_v003.json",
+      "assessment": "Useful for technology/fielding clocks, but not an Indian Ocean February-1944 theater OOB/readiness ledger; it does not supply the missing RAF/FAA/theater readiness state."
+    }
+  },
+  "required_normalization_schema": [
+    "location/base or carrier",
+    "organization/unit when known",
+    "aircraft role/type family",
+    "physical assigned band",
+    "serviceable band",
+    "mission-ready first-window band",
+    "crew/readiness quality band",
+    "search/CAP/escort/strike mission eligibility",
+    "sortie-generation band by operational window",
+    "range/payload/weather limitations",
+    "fuel/maintenance/base-capacity constraints",
+    "cross-theater allocation debit and no-double-count provenance"
+  ],
+  "adjudication_guard": {
+    "allowed_now": [
+      "reconstruct the air capability ledger",
+      "date carrier/base readiness",
+      "reconcile cross-theater aircraft allocation",
+      "resolve weather/search/contact inputs after capability bands exist"
+    ],
+    "blocked_until_closed": [
+      "air-sea contact probability result",
+      "carrier or land-air strike package generation",
+      "CAP/interception exchange",
+      "aircraft attrition result",
+      "surface-force decision that materially depends on assumed air cover"
+    ]
+  },
+  "source_artifacts_checked": [
+    "06_RUNTIME/PARALLEL_THEATER_STATE_1944-01-28_WORKING_v001.json",
+    "06_RUNTIME/PARALLEL_THEATER_STATE_1944-02-06T1800_WORKING_v002.json",
+    "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v002.json",
+    "06_RUNTIME/EASTERN_FLEET_MEDIUM_LIGHT_OOB_1944-01_WORKING_v001.json",
+    "06_RUNTIME/ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+    "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v006.json",
+    "06_RUNTIME/BENGAL_ARAKAN_CHITTAGONG_1943-10_12_SETTLEMENT_v002.md",
+    "06_RUNTIME/AIRCRAFT_FIELDING_LEDGER_1943-10-01_v003.json",
+    "00_README/CURRENT_DISCUSSION_FRONTIER_v015.json"
+  ],
+  "next_exact_action": "Build and source-audit INDIAN_OCEAN_AIR_CAPABILITY_LEDGER_1944-02-19_22_WORKING before resolving the Eastern Fleet/Andaman/Bay of Bengal operational event."
+}

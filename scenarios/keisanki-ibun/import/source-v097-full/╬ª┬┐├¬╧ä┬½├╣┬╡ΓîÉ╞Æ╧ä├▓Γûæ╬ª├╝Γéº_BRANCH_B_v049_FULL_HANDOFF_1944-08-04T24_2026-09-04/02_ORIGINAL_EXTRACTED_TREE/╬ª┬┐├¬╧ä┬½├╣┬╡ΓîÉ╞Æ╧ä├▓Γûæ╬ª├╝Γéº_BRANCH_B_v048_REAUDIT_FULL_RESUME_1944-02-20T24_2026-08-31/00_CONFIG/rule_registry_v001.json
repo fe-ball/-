@@ -1,0 +1,90 @@
+{
+  "revision": "v001",
+  "purpose": "Stable IDs for rules so policy can be changed without rewriting evidence or canon data.",
+  "rules": [
+    {
+      "id": "R-PRESERVE-LOSER",
+      "status": "active",
+      "text": "Losing/obsolete evidence is preserved; runtime eligibility is separate from archival preservation.",
+      "scope": "audit"
+    },
+    {
+      "id": "R-NEWER-NOT-TRUTH",
+      "status": "active",
+      "text": "Newer timestamp/version is not scientific evidence by itself.",
+      "scope": "adjudication"
+    },
+    {
+      "id": "R-SCIENCE-COMPARE-LIKE",
+      "status": "active",
+      "text": "Scientific/technical claims are compared only after normalizing configuration, load, date, environment and definition.",
+      "scope": "adjudication"
+    },
+    {
+      "id": "R-PHYSICS-FATAL",
+      "status": "active",
+      "text": "A fatal physical inconsistency blocks runtime use until repaired even if a document is newer.",
+      "scope": "adjudication"
+    },
+    {
+      "id": "R-CLOCKS-SEPARATE",
+      "status": "active",
+      "text": "Invention, test, adoption, production, training and unit-median clocks remain separate.",
+      "scope": "all"
+    },
+    {
+      "id": "R-NO-DOWNSTREAM-PROOF",
+      "status": "active",
+      "text": "Downstream battle outcomes cannot prove upstream technical capability except through an explicit learning/feedback edge.",
+      "scope": "all"
+    },
+    {
+      "id": "R-BOUNDED-NOT-ABSENT",
+      "status": "active",
+      "text": "A bounded/provisional value is carried as a band; it is not silently replaced by historical baseline.",
+      "scope": "runtime"
+    },
+    {
+      "id": "R-NO-DOUBLECOUNT",
+      "status": "active",
+      "text": "Effects entering the same intermediate state are integrated there once; do not multiply duplicate representations.",
+      "scope": "runtime"
+    },
+    {
+      "id": "R-CROSS-STAGE-COMPOUND",
+      "status": "active",
+      "text": "Effects at distinct causal stages may compound; threshold and resource-reallocation effects must be checked.",
+      "scope": "runtime"
+    },
+    {
+      "id": "R-EVENT-DOMAIN-COMPLETE",
+      "status": "active",
+      "text": "Each mandatory event domain must resolve ACTIVE, NO_RELEVANT_DELTA, NOT_YET_MATURE, or UNKNOWN before execution.",
+      "scope": "runtime"
+    },
+    {
+      "id": "R-CHECKPOINT-DESCENDANTS",
+      "status": "active",
+      "text": "Changing a checkpoint invalidates descendants, not ancestors or independent siblings.",
+      "scope": "checkpoint"
+    },
+    {
+      "id": "R-UPSTREAM-BASELINE",
+      "status": "active",
+      "text": "Changing PREWAR/WARSTART runtime canon creates a new baseline; descendants require impact revalidation or rerun.",
+      "scope": "checkpoint"
+    },
+    {
+      "id": "R-CITATION-ONLY-NO-RERUN",
+      "status": "active",
+      "text": "A citation/evidence-pointer correction that leaves runtime value unchanged does not invalidate descendants.",
+      "scope": "checkpoint"
+    },
+    {
+      "id": "R-RULE-OVERRIDE-EXPLICIT",
+      "status": "active",
+      "text": "Rule changes occur through explicit override records keyed by rule ID; old rule versions remain preserved.",
+      "scope": "governance"
+    }
+  ]
+}

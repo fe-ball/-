@@ -1,0 +1,54 @@
+{
+  "revision": "v001",
+  "id": "US_FAST_CARRIER_STATE_1944-04-01_15_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-04-01..15",
+  "global_frontier_after_merge": "1944-04-15T24",
+  "parents": [
+    "US_FAST_CARRIER_REINFORCEMENT_1944-03-09_20_WORKING_v001",
+    "PALAU_DESECRATE_I_1944-03-30_31_WORKING_v001"
+  ],
+  "01_06Apr": "TF58 retires from DESECRATE I and returns Majuro centered 6 Apr; weather/return transit, replenishment, aircraft replacement and maintenance consume the first week.",
+  "branch_Hollandia": "NO-GO / absent by current Branch authority. Historical 13-Apr sortie to support Hollandia is not auto-copied.",
+  "15Apr_immediate_pool": {
+    "CV": [
+      "Wasp CV-7",
+      "Essex CV-9",
+      "Yorktown CV-10",
+      "Intrepid CV-11",
+      "Hornet CV-12",
+      "Lexington CV-16",
+      "Bunker Hill CV-17"
+    ],
+    "CVL": [
+      "Princeton CVL-23",
+      "Belleau Wood CVL-24",
+      "Cowpens CVL-25",
+      "Monterey CVL-26",
+      "Langley CVL-27",
+      "Bataan CVL-29"
+    ],
+    "count": {
+      "CV": 7,
+      "CVL": 6,
+      "total": 13
+    },
+    "working_ready_aircraft_band": [
+      700,
+      795
+    ],
+    "note": "Bataan is usable but less seasoned; Palau losses have been partly replaced during Majuro replenishment. This is a planning band, not a dawn census."
+  },
+  "pipeline": {
+    "CV18_equivalent": "At Pearl/training pipeline after 4-Apr arrival-equivalent; no 15-Apr TF58 combat credit.",
+    "Cabot_CVL28": "Still campaign-out; late-Apr to mid-May return band.",
+    "San_Jacinto_CVL30": "Training/transit; no 15-Apr combat credit.",
+    "Independence_CVL22": "Long repair; no spring credit."
+  },
+  "US_decision": "Use the Hollandia-free first-half of April for replenishment, group training, integration of Bataan, photo/recon planning and FORAGER readiness rather than inventing a substitute major carrier raid without an operational payoff.",
+  "sources_external": [
+    "NHHC Enterprise/Monaghan/South Dakota histories for 6-Apr Majuro return and historical 13-Apr Hollandia sortie",
+    "DANFS Bataan for first combat in 21-24 Apr historical Hollandia operation",
+    "DANFS/ship history CV-18 for 4-Apr Pearl arrival and further training"
+  ]
+}

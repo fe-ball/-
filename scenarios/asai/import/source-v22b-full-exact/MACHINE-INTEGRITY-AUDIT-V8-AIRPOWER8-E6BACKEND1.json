@@ -1,0 +1,9 @@
+{
+  "package": "ASAI-WORLDLINE-HANDOFF-2026-09-04-FULL-V8-1939AIRPOWER8-E6BACKEND1",
+  "parent": "ASAI-WORLDLINE-HANDOFF-2026-09-04-FULL-V8-1939AIRPOWER7-E6SJ1",
+  "checkpoint": "1939-04-20 24:00",
+  "expected_total_files": 463,
+  "expected_inventory_rows": 460,
+  "expected_manifest_rows": 461,
+  "expected_sha_targets": 461
+}

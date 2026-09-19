@@ -1,0 +1,14 @@
+line	aircraft/config	completed flight airframes at 1939-04-20	additional build hardware	state	propulsion	current note
+Product	P1 practical TP	3	0	mature legacy/product-eval	E5-S-T	part of nine-airframe P1/P2 cumulative closure
+Product	P2 STOL practical	6	pilot/partner follow-on work	pilot/limited customer product	E5-S-T	configuration frozen after 1938 field work
+Military	E5 Twin family	10	spares/test nacelles	development/service evaluation	3 J / 7 JF	AIRPOWER6 closure retained
+Military	E6 Twin No.1	0 flying; 1 complete pre-flight	1 comparative second airframe in fabrication	ground/taxi release	interim -> E6-M-J	first flight still future
+Research	Ki-42/E5 Single	6	0	completed/evaluation	E5-J pure	all six remain pure-J on checkpoint
+Research	E5 future-form single	1	0	architecture reference	E5-J	physical airframe re-promoted in AIRPOWER6
+Research	HS-1	1 identity only	0	flying high-speed calibration	E5-J	same physical airframe as E4 Single No.2; do not double count
+Research	HS-2	0 flying; 1 complete pre-flight	0	ground/high-speed-taxi release	E6-S-J	first flight May target
+Research	E6 Single	0 flying; 1 late build	0	~80-90% airframe / integration	E6-M-J	May-Jun first-flight target
+Research	HS-3	0	paper/preliminary only	study	E6-M-J -> reheat plan	no physical flight airframe
+Materials	Material No.1	1	static/companion articles	flying aging/repair/field-cycle	E5-S-T/P2-family baseline	first flight 1938 H2 line retained
+Materials	Material No.2	0 flying; 1 build	static/panel articles	~60-70% flight-article build	E5-J allocated	first-flight gate H2 1939 / early 1940
+Rotorcraft	Small helicopter	2	rotor/transmission rigs	development flight/endurance	Asai 180-200 hp gasoline	single main rotor + tail rotor CLOSED; exact diameter/blade count OPEN

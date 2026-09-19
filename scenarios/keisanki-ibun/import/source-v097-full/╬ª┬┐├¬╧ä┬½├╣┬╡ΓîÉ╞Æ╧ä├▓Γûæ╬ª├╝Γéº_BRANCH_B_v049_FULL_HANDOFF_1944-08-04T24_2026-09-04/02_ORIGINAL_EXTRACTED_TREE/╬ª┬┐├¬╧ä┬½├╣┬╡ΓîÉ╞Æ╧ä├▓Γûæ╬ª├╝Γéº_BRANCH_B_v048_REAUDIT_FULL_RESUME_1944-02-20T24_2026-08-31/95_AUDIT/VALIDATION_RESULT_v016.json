@@ -1,0 +1,15 @@
+{
+  "revision": "v016",
+  "date": "2026-08-24",
+  "result": "PASS",
+  "checks": {
+    "all_json_parse": true,
+    "clock_remains_1944_04_25": true,
+    "pre_ichigo_working_audit_present": true,
+    "burma_2d_division_double_count_flagged": true,
+    "operation_not_prematurely_settled": true,
+    "legacy_ichigo_sizes_reference_only": true,
+    "file_count_before_checksum": 454
+  },
+  "note": "Data-integrity validation for a working audit release; open OOB/transport bands are explicit and do not advance scenario time."
+}

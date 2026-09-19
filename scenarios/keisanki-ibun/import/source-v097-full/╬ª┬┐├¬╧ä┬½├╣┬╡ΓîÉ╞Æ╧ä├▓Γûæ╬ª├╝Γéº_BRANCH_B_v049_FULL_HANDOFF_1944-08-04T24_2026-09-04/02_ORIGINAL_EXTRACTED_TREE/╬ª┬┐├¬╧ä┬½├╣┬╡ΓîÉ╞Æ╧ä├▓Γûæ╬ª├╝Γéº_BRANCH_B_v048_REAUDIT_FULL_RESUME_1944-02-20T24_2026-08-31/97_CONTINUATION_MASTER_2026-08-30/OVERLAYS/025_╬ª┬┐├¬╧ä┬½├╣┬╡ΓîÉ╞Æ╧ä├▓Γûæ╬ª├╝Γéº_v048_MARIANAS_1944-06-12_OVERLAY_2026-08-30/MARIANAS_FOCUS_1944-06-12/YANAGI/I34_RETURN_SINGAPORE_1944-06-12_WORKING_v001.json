@@ -1,0 +1,25 @@
+{
+  "revision": "v001",
+  "id": "I34_RETURN_SINGAPORE_1944-06-12_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_BACKGROUND_TRIGGER",
+  "event_time": "1944-06-12 evening Singapore local",
+  "parents": [
+    "YANAGI_ROUTE_STATE_1944-06-10_WORKING_v001",
+    "YANAGI_JET_CASCADE_REAUDIT_2026-08-29_v001"
+  ],
+  "route_result": "I-34 completes the Branch return to Singapore/Seletar. The historical Taurus/Ultra loss remains absent; ordinary Atlantic/Indian Ocean route risk has been successfully passed on this voyage.",
+  "passengers": "Rear Adm Kojima and the original I-34 technical party, including the Mitsubishi engineers, return with the boat. Do not duplicate these people on I-29.",
+  "cargo_credit_at_Singapore": [
+    "microfilm/drawings and German test/production reports",
+    "hot-section/material samples",
+    "bearing/seal/fuel-control small parts",
+    "measurement/calibration equipment and high-information-density technical samples"
+  ],
+  "explicit_non_credit": [
+    "No complete Jumo 004B engine from I-34.",
+    "No complete BMW 003 engine is invented.",
+    "I-29's historical Jumo 004B/HWK 509A-1 bulky hardware remains a separate future physical gate."
+  ],
+  "onward_transfer": "Paper, microfilm, passengers and selected small parts are prioritized for air courier from Singapore toward Japan beginning 13-14 Jun. Home-island laboratories do not receive full physical credit at 12T24; first meaningful detailed-paper/small-hardware design credit is expected within several days if the courier chain succeeds.",
+  "development_effect": "The previously transmitted Mar-Apr design-pruning information is now backed by exact reports, samples and measurement context. This materially improves axial-engine bench/test planning but creates no 1944 combat jet and no immediate Marianas combat effect."
+}

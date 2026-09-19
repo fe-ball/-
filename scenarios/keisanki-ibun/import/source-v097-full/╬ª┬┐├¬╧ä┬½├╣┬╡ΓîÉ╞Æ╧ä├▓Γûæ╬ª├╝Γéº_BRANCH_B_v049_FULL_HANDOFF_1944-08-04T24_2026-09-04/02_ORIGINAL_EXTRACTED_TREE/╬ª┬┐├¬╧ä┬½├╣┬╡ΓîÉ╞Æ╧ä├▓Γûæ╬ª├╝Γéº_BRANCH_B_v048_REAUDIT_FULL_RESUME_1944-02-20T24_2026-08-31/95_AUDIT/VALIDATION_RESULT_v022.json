@@ -1,0 +1,25 @@
+{
+  "revision": "v022",
+  "date": "2026-08-26",
+  "result": "PASS",
+  "checks": {
+    "all_json_parse": true,
+    "current_frontier": "1943-10-01T00:00",
+    "aleutians_attu_kiska_reaudit_closed": true,
+    "efate_june_settlement_present": true,
+    "india_burma_coastal_study_present": true,
+    "amphibious_naval_wallet_present": true,
+    "global_q3_sync_present": true,
+    "first_line_carriers_india_central": 0,
+    "air_drop_supply_is_non_axis": true,
+    "historical_allied_burma_plan_not_axiom": true,
+    "downstream_1944_retained_provisional": true,
+    "json_file_count": 227,
+    "bad_json": [],
+    "json_file_count_semantics": "Total JSON files in completed v022 package excluding the checksum text file and including this validation result.",
+    "current_registry_handoff": "NEXT_SESSION_HANDOFF_REFACTOR_v022.md",
+    "current_registry_branch_state": "CURRENT_BRANCH_STATE_v004.json",
+    "current_override_frontier": "1943-10-01T00:00",
+    "stale_current_control_references": []
+  }
+}

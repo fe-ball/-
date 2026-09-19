@@ -1,0 +1,12 @@
+series_or_ship_count	carrier_fit	worldline_effect	central_use	status
+Nitta Maru class x3	A	design/QC, steam plant	carrier conversion priority	HISTORICAL-STRONG
+Kashiwara/Izumo Maru class x2	A+	minor delta, already fast steam	fleet-carrier conversion priority	HISTORICAL-STRONG
+Argentina/Brasil Maru class x2	A	2-cycle turbo-assist + diesel reliability; future diesel+GT trade strong	carrier vs high-value transport decision	FUTURE-STRONG
+Scharnhorst x1	A/B	turbo-electric gives GT-electric compatibility	carrier/high-speed transport; GT-electric study	FUTURE-STUDY
+Hikawa Maru class x3	B+	4-cycle turbo retrofit +15-25% continuous working; 19.3-19.8kt pre-conversion potential	mostly transport/support; 0-1 carrier central	WL-OPTION-UPGRADE
+Miike Maru class	B+	2-cycle assist mainly SFC/scavenging margin	transport priority	WL-OPTION
+Asama Maru class x3	B	limited retrofit benefit	high-speed transport	RESERVE
+Hokoku Maru class	B	modest assist; availability rises	AMC/high-speed transport	NON-CARRIER-CENTRAL
+NYK A-type fast cargo x5	C	modest turbo/QC	aircraft/high-speed transport	NON-CARRIER-CENTRAL
+Kamikawa Maru-type	C	modest diesel/QC	seaplane/aviation support	NON-CARRIER-CENTRAL
+Kawasaki-type fast oilers	N/A	assist/QC improves fuel/availability	fleet train highest priority	DO-NOT-CONVERT

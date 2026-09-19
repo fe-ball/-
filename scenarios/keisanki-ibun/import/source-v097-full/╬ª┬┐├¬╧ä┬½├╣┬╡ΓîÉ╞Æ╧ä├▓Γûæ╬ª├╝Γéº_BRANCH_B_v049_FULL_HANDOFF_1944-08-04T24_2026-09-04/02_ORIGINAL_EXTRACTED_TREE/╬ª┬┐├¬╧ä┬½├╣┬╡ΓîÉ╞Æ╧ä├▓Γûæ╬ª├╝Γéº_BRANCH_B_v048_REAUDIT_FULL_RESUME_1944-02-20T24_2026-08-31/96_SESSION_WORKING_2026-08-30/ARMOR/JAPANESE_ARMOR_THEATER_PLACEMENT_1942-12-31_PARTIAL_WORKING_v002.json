@@ -1,0 +1,249 @@
+{
+  "revision": "v002",
+  "id": "JAPANESE_ARMOR_THEATER_PLACEMENT_1942-12-31_PARTIAL_WORKING_v002",
+  "status": "WORKING_BANDED_NATIONAL_RECONSTRUCTION_NOT_CURRENT",
+  "supersedes": "JAPANESE_ARMOR_THEATER_PLACEMENT_1942-12-31_PARTIAL_WORKING_v001",
+  "cutoff": "1942-12-31T24",
+  "accounting_warning": "This is the first national-balance reconstruction, but not yet a promoted exact inventory. Physical-location bands are stronger than model-by-model totals. Paper divisional organization never overrides traced physical theater location.",
+  "source_basis": {
+    "large_formations": [
+      "1st Tank Division formed 1942 in Manchuria from 1st Tank Group; four-regiment square organization in 1942.",
+      "2nd Tank Division formed 1942 in Manchuria; four-regiment square organization in 1942.",
+      "3rd Tank Division physical Branch core uses 12th/13th/17th Tank Regiments; 8th Tank Regiment is treated as South-Pacific detached because Branch/1942 theater OOB places it outside China.",
+      "23rd/24th Tank Regiments form the Armored Operational Training Brigade in Manchuria.",
+      "15th/16th Tank Regiments remain independent Kwantung formations."
+    ],
+    "regimental_scale": "1940-43 tank regiments varied materially. Use 55-75 physical tanks as a practical 1942 field band, rather than multiplying a single paper TOE blindly.",
+    "production": "Use Branch 1935-42 production/retrofit ledgers as inflow. Old Type94/Type89 retirement and repair classes remain banded."
+  },
+  "national_physical_by_family_working": {
+    "Type95_HaGo_and_tiny_KeNi": {
+      "physical_band": [
+        1780,
+        1950
+      ],
+      "combat_serviceable_band": [
+        1420,
+        1640
+      ],
+      "note": "From >2,000 cumulative Type95 production by end-1942, less combat loss, noncombat writeoff, long repair, training/static conversion."
+    },
+    "Type97_medium_family_all_hulls": {
+      "physical_band": [
+        1460,
+        1600
+      ],
+      "combat_serviceable_band": [
+        1190,
+        1370
+      ],
+      "model_mix_center": {
+        "57mm_old_turret": "about 820-930 physical",
+        "47mm_Shinhoto": "about 550-650 physical including converted old hulls"
+      },
+      "important": "Shinhoto conversion changes model mix, not physical hull count."
+    },
+    "Type89_medium": {
+      "physical_band": [
+        190,
+        255
+      ],
+      "combat_serviceable_band": [
+        115,
+        175
+      ],
+      "role": "front-line only in selected old regiments/garrisons; increasing training/static/secondary use"
+    },
+    "Type94_and_Type97_tankettes": {
+      "physical_band": [
+        820,
+        1030
+      ],
+      "combat_serviceable_band": [
+        580,
+        760
+      ],
+      "role": "reconnaissance, divisional tankette companies, security, training; many old Type94s are no longer first-line combat assets"
+    },
+    "SPG_and_new_small_series": {
+      "physical_band": [
+        25,
+        45
+      ],
+      "combat_serviceable_band": [
+        18,
+        34
+      ],
+      "content": "Ho-Ni I and tiny experimental/new light-series vehicles"
+    },
+    "national_total_tracked_combat_vehicle_physical_band": [
+      4275,
+      4880
+    ],
+    "national_total_immediate_or_short_notice_serviceable_band": [
+      3320,
+      3975
+    ]
+  },
+  "major_combat_formation_placement": {
+    "1st_Tank_Division_Manchuria": {
+      "physical_band": [
+        255,
+        290
+      ],
+      "ready_band": [
+        220,
+        255
+      ],
+      "medium_share": "roughly 175-205",
+      "light_share": "roughly 65-80",
+      "Shinhoto_share_of_medium": "20-35% by year-end, rising",
+      "note": "Includes returned/reassigned regimental lineages; do not also count those campaign survivors as separate free pools."
+    },
+    "2nd_Tank_Division_Manchuria": {
+      "physical_band": [
+        250,
+        285
+      ],
+      "ready_band": [
+        215,
+        250
+      ],
+      "medium_share": "roughly 170-200",
+      "light_share": "roughly 65-80",
+      "Shinhoto_share_of_medium": "20-35% by year-end"
+    },
+    "3rd_Tank_Division_China_forming": {
+      "physical_band": [
+        185,
+        220
+      ],
+      "ready_band": [
+        155,
+        190
+      ],
+      "regiments": [
+        "12th",
+        "13th",
+        "17th"
+      ],
+      "8th_Tank_Regiment": "NOT counted; South-Pacific tied",
+      "Shinhoto_share_of_medium": "25-40% during winter issue/re-equipment into Mar-1943"
+    },
+    "Armored_Operational_Training_Brigade_23rd_24th": {
+      "physical_band": [
+        90,
+        125
+      ],
+      "ready_training_band": [
+        70,
+        100
+      ],
+      "availability": "training/proving reserve, not instantly deployable as two free combat regiments"
+    },
+    "15th_16th_independent_Kwantung": {
+      "physical_band": [
+        55,
+        85
+      ],
+      "ready_band": [
+        45,
+        70
+      ]
+    }
+  },
+  "southern_and_isolated_tied_pools": {
+    "NEI_4th_Tank_Regiment": {
+      "Japanese_vehicle_serviceable_band": [
+        34,
+        41
+      ]
+    },
+    "Burma_14th_Tank_Regiment": {
+      "Japanese_vehicle_serviceable_band": [
+        28,
+        36
+      ],
+      "captured_Stuart_serviceable_band": [
+        6,
+        10
+      ]
+    },
+    "Rabaul_8th_Tank_Regiment": {
+      "Japanese_vehicle_serviceable_band": [
+        34,
+        43
+      ]
+    },
+    "New_Caledonia": {
+      "Japanese_ready_band": [
+        9,
+        15
+      ],
+      "captured_US_light_repairable_serviceable_band": [
+        4,
+        7
+      ]
+    },
+    "other_Branch_Pacific_packets": {
+      "center": 0,
+      "sensitivity_physical_band": [
+        0,
+        30
+      ],
+      "guard": "No tank company is spawned at Port Moresby/Santo/Lunga without a dated unit trace."
+    }
+  },
+  "distributed_non_divisional_pool": {
+    "China_and_other_infantry_recon_security": {
+      "physical_band": [
+        420,
+        620
+      ],
+      "ready_band": [
+        280,
+        440
+      ],
+      "mostly": "Type94/Type97 tankettes, light tanks, armored cars and small attached companies"
+    },
+    "Home_training_depot_replacement": {
+      "physical_band": [
+        900,
+        1250
+      ],
+      "short_notice_combat_allocatable_band": [
+        480,
+        720
+      ],
+      "note": "Includes modern replacement tanks plus many older/training vehicles; it is not one deployable formation."
+    },
+    "long_repair_factory_rebuild": {
+      "physical_band": [
+        210,
+        320
+      ],
+      "ready_now": 0,
+      "expected_return_1_12_weeks_band": [
+        120,
+        210
+      ]
+    },
+    "obsolete_static_retirement_candidate": {
+      "physical_band": [
+        350,
+        550
+      ],
+      "content": "mainly Type89/Type94 and worn vehicles still physically extant but poor candidates for mobile campaign allocation"
+    }
+  },
+  "systemic_result": {
+    "main_finding": "Branch reliability/recovery preserves dozens of hulls through early campaigns, but the 1942 armored reorganization absorbs most of the gain into better-filled divisions, training/replacement stocks, and southern garrisons. There is no giant free tank reserve.",
+    "free_modern_medium_pool_outside_named_formations": "roughly 180-320 serviceable-equivalent at year-end, but fragmented among depots/schools/replacement flows and not available without lead time",
+    "double_count_prevention": [
+      "1st/6th/7th campaign-returning regiment lineages are absorbed into 1st/2nd Tank Division accounting by year-end.",
+      "8th Tank Regiment is South-Pacific tied and excluded from 3rd Tank Division/Five-Go.",
+      "captured Allied tanks remain separate and consume distinct spares/ammunition."
+    ]
+  },
+  "next_gate": "Post 1943 production, Five-Go attrition/repair, GALVANIC -14 Type95, and theater transfers to produce 1943-12-31 national checkpoint."
+}

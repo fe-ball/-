@@ -1,0 +1,23 @@
+{
+  "id": "FLINTLOCK_US_SUPPORT_RELEASE_1944-02-09_13_v001",
+  "status": "WORKING_FORCE_WALLET_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-09 through 1944-02-13",
+  "DD_DE": {
+    "9Feb": "About four-to-six destroyer-equivalent close-fire assignments can transition to replenishment, escort or ASW after secure confirmation.",
+    "10_11Feb": "A further two-to-four equivalent direct-fire assignments can be released as unloading and pocket risk decline.",
+    "retained": "Outer ASW/picket/transport-screen demand remains high; support release is not a wholesale withdrawal of escort."
+  },
+  "CVE": {
+    "9_10Feb": "Roughly two-to-three CVE-equivalent daily sortie wallets shift from CAS/spotting toward CAP, ASW, ferry and replenishment.",
+    "10_12Feb": "Roughly four-to-five CVE-equivalent wallets can enter follow-on/replenishment planning, while one-to-two equivalent wallets remain local for cover, search, ferry and residual support.",
+    "guard": "Aircraft and deck availability remain limited by ammunition, fuel, maintenance and aircrew cycle; task release is not instant full-deck readiness."
+  },
+  "old_BB_CA_fire_support": {
+    "state": "Major direct-fire demand collapses after 9-Feb secure, but many ships require ammunition replenishment, barrel/gear checks, fuel and re-formation.",
+    "follow_on_ready_gate": "Selected heavy fire-support elements can be ready for a new assault support concentration around 12-15 Feb, not on the morning secure is declared."
+  },
+  "amphibious_shipping": {
+    "state": "Unloading, casualty evacuation, vehicle recovery, repair and reloading continue through roughly 10-13 Feb. The 5-Feb mission-killed LST reduces margin but does not halt follow-on planning.",
+    "effect": "Catchpole-type assault cannot be inferred solely from ground secure date; landing-shipping turnaround remains a schedule gate."
+  }
+}

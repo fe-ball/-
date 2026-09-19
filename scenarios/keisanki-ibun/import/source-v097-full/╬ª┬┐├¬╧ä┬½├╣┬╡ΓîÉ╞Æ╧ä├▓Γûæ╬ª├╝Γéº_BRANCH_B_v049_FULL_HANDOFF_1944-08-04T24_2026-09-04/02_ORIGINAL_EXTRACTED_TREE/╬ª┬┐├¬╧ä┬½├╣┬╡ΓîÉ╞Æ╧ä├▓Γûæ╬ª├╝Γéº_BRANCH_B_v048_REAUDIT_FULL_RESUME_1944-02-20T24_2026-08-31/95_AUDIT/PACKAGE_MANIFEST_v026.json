@@ -1,0 +1,22 @@
+{
+  "revision": "v026",
+  "package_root": "計算機異聞_refactor_v026_2026-08-27_BRANCH_B_1943SUMMER_INTEGRATED_FULL",
+  "generated": "2026-08-27",
+  "purpose": "Integrate Branch B 1943-summer rollback into normal current-version/index/graph/runtime tooling while retaining later v025/downstream material as reference-only evidence.",
+  "base_package": "計算機異聞_refactor_v025_2026-08-27_BRANCH_B_1943SUMMER_EXPLORATION_FULL",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "current_branch_state_file": "06_RUNTIME/CURRENT_BRANCH_STATE_v008.json",
+  "current_restart_checkpoint": "05_WARTIME/CHECKPOINT_1943-07-31T24_BRANCH_B_v001.json",
+  "current_branch_analysis_frontier": "1943-08-01T00:00",
+  "current_overrides": "00_CONFIG/current_branch_overrides_v008.json",
+  "rollback_guard": "06_RUNTIME/BRANCH_B_ROLLBACK_GUARD_1943-08-01_v001.json",
+  "next_session_handoff": "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v026.md",
+  "downstream_results_retained_reference_only": true,
+  "validation": "95_AUDIT/VALIDATION_RESULT_v026.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v026.txt",
+  "historical_branch_checksum": "95_AUDIT/BRANCH_SHA256SUMS_2026-08-27_v001.txt",
+  "next_required_adjudication": "Aug-Sep 1943 Japanese strategic allocation option set and Allied reaction generation from Branch B frontier.",
+  "file_count_before_checksum": 583,
+  "file_count_total": 584,
+  "json_file_count": 268
+}

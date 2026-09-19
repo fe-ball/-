@@ -1,0 +1,83 @@
+{
+  "id": "BRANCH_B_CATCHPOLE_PREASSAULT_REAUDIT_1944-02-21T0820_v001",
+  "status": "WORKING_CURRENT_CATCHPOLE_LOCAL_THREAD",
+  "local_clock": "1944-02-21T08:20 Eniwetok operational clock",
+  "supersession": "Supersedes prior Engebi preassault/battle result fields; does not rollback Truk/HAILSTONE adjudication.",
+  "passage_delay": {
+    "archived_delay_vs_clean_plan_hours": [2.5, 4.0],
+    "historical_execution_already_had_extra_deep_sweep_hours_approx": 2.0,
+    "branch_increment_vs_historical_execution_hours": [0.5, 2.0],
+    "center_increment_hours": 1.25,
+    "exact_1944_tide_solution": "OPEN"
+  },
+  "japan_intra_atoll_19_20Feb": {
+    "external_reinforcement": 0,
+    "Parry_to_Engebi_specialists": [30, 45],
+    "center_personnel": 36,
+    "high_value_stores_tonnes": [3, 5],
+    "center_stores_tonnes": 3.5,
+    "northern_pickets_total": [16, 20],
+    "center_pickets": 18,
+    "no_battalion_scale_transfer": true
+  },
+  "20Feb_timeline": {
+    "Deep_Entrance_start": "09:45..11:15; center 10:30",
+    "main_body_entry_complete": "11:10..12:45; center 11:50",
+    "Canna_Camellia_secure": "15:15..16:35; center 15:50",
+    "US_picket_contact_casualties": "0 fatal centered; 1-3 WIA band",
+    "artillery_ashore": "17:30..18:55",
+    "artillery_ready": "18:05..19:30; center 18:40",
+    "registration_complete": "20:35..21:40; center 20:55",
+    "night_harassment_begins": "21:20..22:15; center 21:45",
+    "Zinnia_secure": "1944-02-21T04:05..04:50"
+  },
+  "night_20_21": {
+    "field_artillery_harassment_hours_reduced_vs_historical_pattern": [1.5, 2.5],
+    "japan_local_air": {
+      "serviceable_dusk": [3, 5],
+      "launch_center_band": [3, 4],
+      "reach_release": [2, 4],
+      "US_direct_ship_hits_center": 0,
+      "US_transport_mission_kill_center": 0,
+      "japan_irrecoverable_center": 1
+    },
+    "japan_submarine": {
+      "useful_approach_nodes": [2, 3],
+      "credible_attacks_center": 1,
+      "second_attack": "UPPER_BRANCH_ONLY_NOT_REALIZED_CENTER",
+      "US_ship_hits_center": 0,
+      "attacker_cost_center": "one boat forced deep and mission-degraded"
+    },
+    "surface_sortie": "NO_NAMED_FORCE_SPAWNED"
+  },
+  "Engebi_H_hour_gate": {
+    "nominal_sector_personnel": [1240, 1320],
+    "pre_H_irrecoverable_personnel_casualties": [110, 175],
+    "temporarily_suppressed_isolated": [180, 280],
+    "immediately_organized_combat_contributors": [690, 790],
+    "C2": {
+      "islandwide_useful_fraction": [0.30, 0.45],
+      "local_sector_fraction": [0.55, 0.70]
+    },
+    "weapons_immediate": {
+      "120mm_coastal": "0 centered; 1 short-fire upper branch",
+      "75mm_mountain": "1 immediate; second delayed/suppressed plausible",
+      "37mm_direct_fire": "1 immediate; second may reappear",
+      "81mm_mortars": [4, 6],
+      "LMG_HMG_grenade_discharger_useful_fraction": [0.45, 0.60],
+      "20_13mm_positions": "0-1 immediate centered",
+      "Type95_physical_dawn": 3,
+      "Type95_contact_capable_center": 2,
+      "Type95_short_range_mobile": "1-2"
+    },
+    "ammo_catastrophic_single_dump_loss_center": false,
+    "defense_class": "HISTORICAL_ENIWETOK_TYPE_IMPROVED_COMPLETION_NOT_PELELIU"
+  },
+  "US_H_hour_gate": {
+    "amtrac_ready_center": 103,
+    "amphibian_tank_ready": [16, 17],
+    "night_mission_kill": false,
+    "H_hour": "OPEN_WORKING_WINDOW_09:00..10:00",
+    "reason_open": "exact 1944 local tide/current solution and final LCI(G)/LCM/air-smoke geometry not closed"
+  }
+}

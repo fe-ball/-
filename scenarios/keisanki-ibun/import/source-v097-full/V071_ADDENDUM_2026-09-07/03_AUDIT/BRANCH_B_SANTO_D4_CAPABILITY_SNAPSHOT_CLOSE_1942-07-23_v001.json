@@ -1,0 +1,417 @@
+{
+  "id": "BRANCH_B_SANTO_D4_CAPABILITY_SNAPSHOT_CLOSE_1942-07-23_v001",
+  "status": "CLOSED_FOR_D4_EVENT_INPUT",
+  "cut": "1942-07-23 D-4 opening; before new D-4 contact events",
+  "center_santo_d_day": "1942-07-27",
+  "resolution_classes": {
+    "HARD": "direct current-authority named wallet / explicit branch checkpoint",
+    "DERIVED_CLOSED": "reconstructed from accepted branch checkpoint/technical authority and frozen for event use",
+    "WORKING_CLOSED": "operational center required by the simulator where no exact named roster exists; frozen unless direct contradictory evidence appears",
+    "CONDITIONAL": "future availability only after stated date/event gate; never prebooked"
+  },
+  "carrier_air": {
+    "status": "DERIVED_CLOSED",
+    "committed_center_decks": [
+      "Zuikaku",
+      "Shokaku",
+      "Ryujo"
+    ],
+    "deck_state": {
+      "Zuikaku": {
+        "physical_embarked": 68,
+        "serviceable": 64,
+        "mission_ready": 61,
+        "mission_ready_mix": {
+          "A6M_Zuisei": 24,
+          "D3A": 20,
+          "B5N_Zuisei": 15,
+          "D4Y1_C_recon": 2
+        },
+        "crew_state": "VETERAN_HEAVY / high experienced-leader nucleus / medium-high cohesion"
+      },
+      "Shokaku": {
+        "physical_embarked": 62,
+        "serviceable": 57,
+        "mission_ready": 52,
+        "mission_ready_mix": {
+          "A6M_Zuisei": 22,
+          "D3A": 15,
+          "B5N_Zuisei": 14,
+          "D4Y1_C_recon": 1
+        },
+        "crew_state": "VETERAN_NUCLEUS_REBUILT / high leader nucleus / medium cohesion rising through work-up"
+      },
+      "Ryujo": {
+        "physical_embarked": 36,
+        "serviceable": 33,
+        "mission_ready": 30,
+        "mission_ready_mix": {
+          "A6M_Zuisei": 20,
+          "B5N_Zuisei": 10
+        },
+        "crew_state": "MIXED_SUPPORT / medium experienced-leader nucleus / support-CAP oriented"
+      }
+    },
+    "totals": {
+      "physical_embarked": 166,
+      "serviceable": 154,
+      "mission_ready_center": 143,
+      "mission_ready_band": [
+        135,
+        150
+      ],
+      "mission_ready_mix": {
+        "A6M_Zuisei": 66,
+        "D3A": 35,
+        "B5N_Zuisei": 39,
+        "D4Y1_C_recon": 3
+      }
+    },
+    "operational_budget": {
+      "attack_aircraft_ready_total": 74,
+      "major_anti_ship_wave_center": "50-58 D3A/B5N with 12-18 A6M escort is a normal maximum first major package while retaining CAP/search/reserve; larger launches require event-specific risk tradeoff",
+      "fast_recon": "3 D4Y1-C mission-ready; center employment 2 active confirmation/recontact + 1 reserve. Recon only; no D4Y bomber replacement credit in July 1942.",
+      "search_tradeoff": "B5N carrier search sorties subtract directly from strike inventory; no free search aircraft pool."
+    },
+    "noncenter_decks": {
+      "Junyo": {
+        "mission_ready_band": [
+          34,
+          40
+        ],
+        "role": "fleet/support reserve; not additive to Santo center"
+      },
+      "Zuiho": {
+        "mission_ready_band": [
+          24,
+          27
+        ],
+        "role": "light-deck reserve / CAP-support replacement"
+      },
+      "Shoho": {
+        "mission_ready_band": [
+          16,
+          20
+        ],
+        "role": "Southeast-area/base/convoy role; not automatically concentrated"
+      },
+      "Hiyo": {
+        "mission_ready": 0,
+        "role": "near-term completion/work-up; no Santo credit"
+      },
+      "Hiryu": {
+        "mission_ready": 0,
+        "role": "heavy-damage repair; no Santo credit"
+      },
+      "Soryu": {
+        "mission_ready": 0,
+        "role": "heavier-damage repair; no Santo credit"
+      }
+    },
+    "MI_survival_effect": [
+      "Akagi/Kaga hull loss is not converted into total air-group annihilation: many aircraft/crews were airborne and survivors were recovered/diverted.",
+      "Yamaguchi survives with Hiryu; experienced strike leaders, navigators, maintenance/deck chiefs and carrier staff remain materially thicker than historical post-Midway Japan.",
+      "Survivors are concentrated into first-line Zuikaku/Shokaku rather than spread uniformly; Ryujo remains mixed/support quality.",
+      "Track veteran/multi-seat crew attrition separately from aircraft hull attrition; this advantage can be spent rapidly during FS."
+    ]
+  },
+  "land_based_air": {
+    "status": "WORKING_CLOSED_DIRECT_FS_ALLOCATION_NOT_WHOLE_THEATER_INVENTORY",
+    "long_range_land_attack_recon": {
+      "types": "G3M/G4M family",
+      "mission_ready_center": 22,
+      "band": [
+        18,
+        24
+      ],
+      "use": "Rabaul/PM/Solomons holding system contribution; long-range search, fixed-target and secondary anti-shipping. No continuous Santo CAP credit.",
+      "daily_budget": "normally either 4-6 long-range recon/search sorties plus a smaller strike, or one 12-16 aircraft strike package if contact/range/weather permits; not both at full strength for free"
+    },
+    "flying_boats": {
+      "types": "H6K/H8K family",
+      "mission_ready_center": 6,
+      "band": [
+        5,
+        7
+      ],
+      "sustainable_long_range_search_sorties_per_day": [
+        2,
+        4
+      ],
+      "surge": "4-5 only at maintenance/fatigue cost"
+    },
+    "land_fighter_credit_over_santo_on_D4": 0,
+    "lunga_mature_combat_air_credit_on_D4": 0,
+    "guard": "These are direct FS mission budgets, not total aircraft located in the Southeast Area. Local holding fighters at Rabaul/PM/etc. cannot be counted again as Santo CAP."
+  },
+  "water_aviation": {
+    "status": "WORKING_CLOSED_LOCAL_ALLOCATION + DERIVED_CLOSED_SHIPBOARD",
+    "forward_nodes": {
+      "Shortland_Faisi": {
+        "physical": 10,
+        "serviceable": 8,
+        "mission_ready": 7,
+        "mix_center": {
+          "E13A": 4,
+          "F1M": 3
+        }
+      },
+      "Rekata_Bay": {
+        "physical": 7,
+        "serviceable": 6,
+        "mission_ready": 5,
+        "mix_center": {
+          "E13A": 3,
+          "F1M": 2
+        }
+      },
+      "Tulagi_Gavutu": {
+        "physical": 9,
+        "serviceable": 7,
+        "mission_ready": 6,
+        "mix_center": {
+          "E13A": 2,
+          "F1M": 1,
+          "A6M2_N": 3
+        }
+      }
+    },
+    "forward_node_totals": {
+      "physical": 26,
+      "serviceable": 21,
+      "mission_ready": 18,
+      "search_observation_aircraft_ready": 15,
+      "water_fighters_ready": 3,
+      "sustainable_daylight_search_recontact_launches_per_day": [
+        7,
+        9
+      ],
+      "surge_launches": [
+        10,
+        12
+      ]
+    },
+    "rabaul_kavieng_rotation_reserve": "6-9 serviceable E13A/F1M-class aircraft can rotate as replacements/staging assets; do not count simultaneously at forward nodes unless actually moved.",
+    "shipboard_floatplanes": {
+      "platform_basis": "Kongo + Kirishima + Atago + Takao + Maya + Suzuya + Kumano",
+      "nominal_physical_center": 21,
+      "serviceable_center": 18,
+      "mission_ready_center": 16,
+      "mix_working": "about 9-11 E13A + 5-7 F1M among ready aircraft",
+      "employment": "10-12 search/recontact assignments available in a high-search day; retain 4-6 for observation, liaison, recovery/standby. CL aircraft are not counted until a specific CL is attached."
+    },
+    "doctrine": "broad search -> suspicious-contact revisit -> fast confirmation -> track -> later position update; no all-weather persistent track or modern datalink"
+  },
+  "submarines": {
+    "status": "HARD_NAMED_WALLET + DERIVED_D4_GEOMETRY",
+    "core": [
+      "I-169",
+      "I-32",
+      "I-171",
+      "I-168",
+      "I-175"
+    ],
+    "late_reinforcement": [
+      "RO-33",
+      "RO-34"
+    ],
+    "D4_effective_useful_geometry_center": [
+      4,
+      5
+    ],
+    "D_day_effective_center": [
+      6,
+      7
+    ],
+    "roles": {
+      "I-32": "long-range reconnaissance/attack boat; floatplane-capable; use scout plane only with event-specific exposure/recovery cost",
+      "I-168_I-169_I-171_I-175": "attack/interception line and recontact barriers",
+      "RO-33_RO-34": "late closer-lane reinforcement; not retroactively on station at D-4"
+    },
+    "branch_operability": {
+      "surface_speed": "+0.3-0.4 kt typical mature conventional boat",
+      "submerged_speed": "+0.15-0.2 kt",
+      "surface_range": "+8-9%",
+      "submerged_endurance": "+7-10%",
+      "rapid_dive_time": "-10-15%",
+      "application": "apply through arrival/on-station/recontact/survival, never as a submarine-force x1.3 multiplier"
+    },
+    "information_rule": "structured contact reports improve handoff, but information ages; no submerged continuous fleet datalink",
+    "ordnance_fuel_guard": "No pre-D4 torpedo expenditure is invented. Once D-4 events begin, fuel/torpedo expenditure is posted boat by boat."
+  },
+  "surface_force": {
+    "status": "HARD_HULLS + DERIVED_CLOSED_DEFAULT_TASK_GROUPING",
+    "battleship_core": [
+      "Kongo",
+      "Kirishima"
+    ],
+    "heavy_cruiser": {
+      "night_heavy_center": [
+        "Atago",
+        "Takao",
+        "Maya"
+      ],
+      "outer_direct_cover": [
+        "Suzuya",
+        "Kumano"
+      ],
+      "reserve": [
+        "Myoko",
+        "Haguro"
+      ]
+    },
+    "light_cruiser_default": {
+      "Nagara": "carrier/screen command",
+      "Jintsu": "transport/direct-cover command",
+      "Yura": "reserve/ASW/relay"
+    },
+    "destroyer_default_groups": {
+      "carrier_screen_8": [
+        "Akigumo",
+        "Yugumo",
+        "Makigumo",
+        "Kazagumo",
+        "Urakaze",
+        "Isokaze",
+        "Tanikaze",
+        "Hamakaze"
+      ],
+      "transport_direct_cover_6": [
+        "Hagikaze",
+        "Nowaki",
+        "Maikaze",
+        "Yukikaze",
+        "Tokitsukaze",
+        "Murasame"
+      ],
+      "heavy_night_group_4": [
+        "Samidare",
+        "Oyashio",
+        "Kuroshio",
+        "Asagumo"
+      ],
+      "oiler_ASW_relay_2": [
+        "Minegumo",
+        "Hayashio"
+      ]
+    },
+    "capability_overlays": [
+      "Type 93 practical same-condition hit probability +10-25% relative where solution/geometry permits; not percentage points and not a generic surface multiplier.",
+      "Mature reload/re-attack: first-to-second effective torpedo salvo roughly 12-20 min; early Kagero-class 15-25 min where applicable.",
+      "Kagero-class practical full-load speed around 34.6-34.9 kt and range ~5,300 nmi/18 kt working band; main advantage is schedule/speed robustness and lower machinery dropout.",
+      "Kagero machinery fault incidence -15-25% and unplanned yard days -10-20% in matching early-service conditions.",
+      "No U.S.-SG-equivalent night radar/fire-control is created; optical/plotting/formation improvements remain bounded."
+    ],
+    "double_count_guard": "A hull assigned to one default group cannot appear in another. Reassignment is allowed before contact but must be posted explicitly."
+  },
+  "assault_ground_hardware": {
+    "status": "HARD_ZERO_AFV + WORKING_CLOSED_SUPPORT_VEHICLE_PACKAGE",
+    "combat_armored_vehicles": {
+      "booked": 0,
+      "class": "HARD",
+      "reason": "No named tank/armored unit is in the v070 Santo assault package; vehicle-performance overlay does not create a tank unit."
+    },
+    "cargo_trucks_field_cars": {
+      "physical_booked_center": 44,
+      "physical_band": [
+        40,
+        50
+      ],
+      "serviceable_crewed_center": 40,
+      "serviceable_band": [
+        36,
+        45
+      ],
+      "first_day_priority_load_center": 34,
+      "first_day_band": [
+        30,
+        38
+      ]
+    },
+    "prime_movers_tractors": {
+      "physical_booked_center": 14,
+      "physical_band": [
+        12,
+        18
+      ],
+      "serviceable_crewed_center": 12,
+      "serviceable_band": [
+        10,
+        15
+      ],
+      "first_day_priority_load_center": 10
+    },
+    "engineer_plant_utility_machines": {
+      "physical_booked_center": 8,
+      "physical_band": [
+        6,
+        10
+      ],
+      "serviceable_center": 7,
+      "serviceable_band": [
+        5,
+        9
+      ],
+      "first_day_priority_load_center": 6,
+      "examples": "light tractors/graders/rollers/pumps/generator transport as actually allocated; no free bulldozers"
+    },
+    "support_weapons_working_close": {
+      "75mm_mountain_guns_serviceable_center": 9,
+      "band": [
+        8,
+        12
+      ],
+      "infantry_battalion_AT_guns_serviceable_center": 10,
+      "band_aggregate": [
+        8,
+        12
+      ],
+      "heavy_mortars_serviceable_center": 21,
+      "medium_AA_guns_center": 5,
+      "light_AA_MG_positions_center": 10,
+      "note": "These are post-PM working centers for the booked Santo package, not the untouched pre-campaign South Seas Detachment establishment."
+    },
+    "branch_vehicle_effect_already_embedded": {
+      "1942_maturity": "MEDIUM",
+      "trucks_prime_movers_dispatchability": "+5-12% relative before conversion into the closed serviceable counts",
+      "common_repair_time": "-10-25%",
+      "engineer_existing_asset_uptime": "+5-12%",
+      "construction_output": "+3-8% before suppression/material shortage",
+      "repairable_24_72h_return": "+15-35% relative if reachable and workshop survives"
+    },
+    "amphibious_effect": {
+      "first_day_total_landing": "+15-25% versus same physical package",
+      "first_day_heavy_equipment": "+15-25%",
+      "load_beach_errors": "-20-35%",
+      "machinery_failures": "-15-30%",
+      "combat_ready_timing": "2-8 h earlier"
+    },
+    "guards": [
+      "Do not add vehicle dispatchability again: serviceable counts above already include the Branch maintenance layer.",
+      "Do not treat landing throughput as extra vehicle production or combat lethality.",
+      "Destroyed, drowned or abandoned vehicles do not reappear through repair statistics.",
+      "Pack/draft/manual transport remains materially important; this package does not motorize the 7,200-man assault force."
+    ]
+  },
+  "event_engine_fields_to_track": [
+    "aircraft physical/serviceable/mission-ready by deck or node",
+    "aircrew quality and veteran/section-leader losses separately from aircraft",
+    "search sorties actually flown and contact information age",
+    "submarine on-station status, fuel and torpedo expenditure by hull",
+    "surface hull damage/fuel/ammunition and floatplane losses",
+    "vehicles: destroyed / mission-killed / repairable / abandoned / returned-to-service",
+    "engineer plant availability and runway/port material state"
+  ],
+  "source_basis": [
+    "V070 Santo prebattle named wallet close",
+    "V070 forward-node close",
+    "V069 Post-MI -> Limited-FS convergence close",
+    "CHECKPOINT_1942-06-02T24_v001 (315-323 ready on five main carriers; Ryujo/Junyo second echelon)",
+    "MIDWAY_1942-06-10_15_SETTLEMENT_v001 (airborne/diverted air-group survival rule)",
+    "CHECKPOINT_1942-06-15T24_v002 (carrier ledger and repair projections)",
+    "TECH_INDEX_v009 accepted/conditional 1942 entries",
+    "Global Naval Personnel and MI Lineage re-audit",
+    "Japanese Land Vehicle Armor Lineage working overlay, subordinate to TECH_INDEX_v009",
+    "v050 naval support ledger used only for independent MI repair/role provenance where not contradicted; its old Santo battle date/results remain superseded"
+  ]
+}

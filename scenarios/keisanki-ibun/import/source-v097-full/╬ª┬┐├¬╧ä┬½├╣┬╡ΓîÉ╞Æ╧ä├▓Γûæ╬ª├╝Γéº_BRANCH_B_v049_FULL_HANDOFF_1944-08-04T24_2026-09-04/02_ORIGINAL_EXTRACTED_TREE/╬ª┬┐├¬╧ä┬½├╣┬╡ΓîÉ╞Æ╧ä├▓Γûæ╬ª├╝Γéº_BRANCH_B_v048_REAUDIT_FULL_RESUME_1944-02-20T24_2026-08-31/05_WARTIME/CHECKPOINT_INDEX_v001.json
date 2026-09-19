@@ -1,0 +1,89 @@
+{
+  "revision": "v001",
+  "checkpoints": [
+    {
+      "checkpoint_id": "WARSTART_1941-12-07_08_v001",
+      "parent_checkpoint": null,
+      "as_of": "1941-12-07/08",
+      "status": "authoritative",
+      "technical_baseline": "TECH_INDEX_v001",
+      "state_sources": [
+        "../04_WARSTART/WARSTART_CHECKPOINT_v001.json"
+      ],
+      "maturation_deltas": [],
+      "dependency_notes": "Major normal rewind floor."
+    },
+    {
+      "checkpoint_id": "STOP_1942-05-06_2400_v001",
+      "parent_checkpoint": "WARSTART_1941-12-07_08_v001",
+      "as_of": "1942-05-06 24:00",
+      "status": "provisional",
+      "technical_baseline": "TECH_INDEX_v001",
+      "state_sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/00_次回まず読む/SESSION_HANDOFF_2026-08-18_v001.md"
+      ],
+      "maturation_deltas": [],
+      "dependency_notes": "Current session stop point; May 7 Coral Sea not executed. May 4-6 search/air-capability state still requires re-audit after index refactor."
+    },
+    {
+      "checkpoint_id": "MO_MI_BRANCH_85",
+      "parent_checkpoint": "WARSTART_1941-12-07_08_v001",
+      "as_of": "1942-06",
+      "status": "blocked_pending_rerun",
+      "technical_baseline": "legacy",
+      "state_sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/85_歴史考察_2026-08-10_MO・MI再監査_暫定作業線.md"
+      ],
+      "maturation_deltas": [],
+      "dependency_notes": "Preserved prior branch, but runtime invalid after recorded COMINT context dropout before Coral Sea rerun."
+    },
+    {
+      "checkpoint_id": "AL_FS_BRANCH_86",
+      "parent_checkpoint": "MO_MI_BRANCH_85",
+      "as_of": "1942-09",
+      "status": "blocked_by_upstream",
+      "technical_baseline": "legacy",
+      "state_sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/86_歴史考察_2026-08-11_AL・南太平洋・FS再監査_暫定作業線.md"
+      ],
+      "maturation_deltas": [],
+      "dependency_notes": "Preserved branch; depends on blocked MO/MI branch."
+    },
+    {
+      "checkpoint_id": "LEGACY_BRANCH_87",
+      "parent_checkpoint": "AL_FS_BRANCH_86",
+      "as_of": "legacy branch",
+      "status": "archived_branch",
+      "technical_baseline": "legacy",
+      "state_sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/87_歴史考察_1942秋-1943夏_五号・米反攻・Midway同期.md"
+      ],
+      "maturation_deltas": [],
+      "dependency_notes": "Preserved historical branch; requires ancestor revalidation and local technical audit before restart use."
+    },
+    {
+      "checkpoint_id": "LEGACY_BRANCH_88",
+      "parent_checkpoint": "LEGACY_BRANCH_87",
+      "as_of": "legacy branch",
+      "status": "archived_branch",
+      "technical_baseline": "legacy",
+      "state_sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/88_歴史考察_1943秋冬_第二次Midway・Wake・GALVANIC同期.md"
+      ],
+      "maturation_deltas": [],
+      "dependency_notes": "Preserved historical branch; requires ancestor revalidation and local technical audit before restart use."
+    },
+    {
+      "checkpoint_id": "LEGACY_BRANCH_89",
+      "parent_checkpoint": "LEGACY_BRANCH_88",
+      "as_of": "legacy branch",
+      "status": "archived_branch",
+      "technical_baseline": "legacy",
+      "state_sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/89_歴史考察_1943冬-1944初夏_Marshall・Truk・Palau・FORAGER前.md"
+      ],
+      "maturation_deltas": [],
+      "dependency_notes": "Preserved historical branch; requires ancestor revalidation and local technical audit before restart use."
+    }
+  ]
+}

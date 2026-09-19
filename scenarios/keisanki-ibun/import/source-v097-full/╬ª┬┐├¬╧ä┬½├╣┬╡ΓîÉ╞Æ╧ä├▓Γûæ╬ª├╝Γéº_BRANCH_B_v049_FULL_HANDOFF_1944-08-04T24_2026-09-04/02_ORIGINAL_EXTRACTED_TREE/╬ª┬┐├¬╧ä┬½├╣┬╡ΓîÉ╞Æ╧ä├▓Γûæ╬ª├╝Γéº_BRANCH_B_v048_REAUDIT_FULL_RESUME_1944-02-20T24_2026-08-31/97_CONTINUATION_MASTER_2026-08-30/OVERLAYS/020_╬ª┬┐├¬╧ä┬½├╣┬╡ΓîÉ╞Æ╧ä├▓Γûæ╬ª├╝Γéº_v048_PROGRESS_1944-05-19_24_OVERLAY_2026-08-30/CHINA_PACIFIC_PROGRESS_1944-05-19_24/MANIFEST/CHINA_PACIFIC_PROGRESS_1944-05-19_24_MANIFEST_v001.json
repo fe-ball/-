@@ -1,0 +1,33 @@
+{
+  "revision": "v001",
+  "id": "CHINA_PACIFIC_PROGRESS_1944-05-19_24_MANIFEST_v001",
+  "status": "OVERLAY_MANIFEST_ADVANCES_GLOBAL_FRONTIER",
+  "global_frontier": "1944-05-24T24:00:00+09:00",
+  "apply_after": [
+    "計算機異聞_v048_PROGRESS_1944-05-11_18_OVERLAY_2026-08-30.zip"
+  ],
+  "load_new_files_in_order": [
+    "CHINA/CHANGSHA_NODE_TRANSFER_1944-05-19_24_WORKING_v001.json",
+    "CHINA/NANJING_CHANGSHA_ADMIN_SECURITY_TRANSFER_1944-05-19_24_WORKING_v001.json",
+    "CHINA/ICHIGO_HENGYANG_PHASE_B_GATE_1944-05-19_24_WORKING_v001.json",
+    "PACIFIC/US_FORAGER_STRATEGIC_RECONFIRMATION_1944-05-19_24_WORKING_v001.json",
+    "PACIFIC/US_TG58_6_MARCUS_WAKE_1944-05-19_24_WORKING_v001.json",
+    "PACIFIC/JAPAN_ISR_FORAGER_WARNING_1944-05-19_24_WORKING_v001.json",
+    "STATE/PARALLEL_THEATER_STATE_1944-05-24T24_WORKING_v001.json"
+  ],
+  "major_resolutions": [
+    "China campaign progress is now tracked as staged node transfer, not front-line color change alone.",
+    "Changsha-Xiangtan crosses minimum operational-transfer threshold by 23-24 May, enabling but not forcing Hengyang Phase B.",
+    "Phase B preparation GO on 23 May; movement begins 24 May, no pre-awarded Hengyang battle result.",
+    "US FORAGER remains GO with 15 June planning center: branch changes do not create a late-May stop condition.",
+    "Marcus/Wake strikes are retained as combat work-up/neutralization and strengthen Japanese inference of a Marianas-centered US campaign.",
+    "Yamamoto preserves the five-carrier force for landing-triggered reaction rather than chasing shaping raids."
+  ],
+  "forward_constraints": [
+    "Do not count occupied Chinese nodes at full rail/air/fiscal capacity on capture day.",
+    "Do not count Nanjing rear-security personnel as assault formations.",
+    "Do not begin Hengyang urban assault before the next combat window.",
+    "Do not accelerate FORAGER D-Day solely because Hollandia is absent.",
+    "Do not copy historical June US carrier OOB without branch rebuild."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "package_revision": "v041",
+  "ERRORS": 0,
+  "WARNINGS": 0,
+  "JSON_FILES": 414,
+  "errors": [],
+  "warnings": [],
+  "note": "Focused v041 validation: JSON parse, authority unchanged, discussion clock 16:30, OOB sum, cumulative loss centers and carrier conditional-GO state checked."
+}

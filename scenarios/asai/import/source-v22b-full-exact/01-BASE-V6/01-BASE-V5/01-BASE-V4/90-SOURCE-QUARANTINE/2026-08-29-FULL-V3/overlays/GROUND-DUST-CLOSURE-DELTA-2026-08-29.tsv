@@ -1,0 +1,8 @@
+issue	before	after	status	note
+D-D comparison rating	245-260 hp Normal used in initial dust input	220-235 hp continuous for ordinary 1937 Manchuria comparison	RESOLVED	245-260 hp retained as Normal/shorter duty; 275-285 High; ~300 experimental
+D-A..D-D airflow	OPEN	BSFC/AFR-derived working airflow: 0.063/0.121/0.191/0.276 kg/s center	RESOLVED-AS-DERIVED-WORKING	Use for sizing; do not promote as measured bench flow
+Military Manchuria cleaner architecture	OPEN	centrifugal/inertial precleaner -> oil bath -> oil-washed metal element, sealed clean-side duct	DESIGN-CLOSED	Two cleaner cell families: AC-150 and AC-315
+Winter cleaner operation	OPEN	seasonal oil; low-vis hydraulic/spindle oil in severe cold; dry only emergency below ~-40C	DESIGN-CLOSED	Based on later wartime practice as feasibility anchor, not copied model specification
+E5-VR general tank suitability	OPEN	reject for ordinary dusty Manchuria service	DESIGN-CLOSED	raw E5-VR requires ~55 AC-315-equivalent cells; ~842 kg/~1600 L installed filter bank sensitivity
+E5-like equal D-D power sensitivity	OPEN	still unattractive	DERIVED-SENSITIVITY	~19 cells; ~291 kg/~553 L at D-D shaft power if E5 specific airflow is preserved
+E5 compressor dust-TBO	OPEN	OPEN-TEST	OPEN	Needs compressor erosion/fouling map versus particle size and passed dust mass

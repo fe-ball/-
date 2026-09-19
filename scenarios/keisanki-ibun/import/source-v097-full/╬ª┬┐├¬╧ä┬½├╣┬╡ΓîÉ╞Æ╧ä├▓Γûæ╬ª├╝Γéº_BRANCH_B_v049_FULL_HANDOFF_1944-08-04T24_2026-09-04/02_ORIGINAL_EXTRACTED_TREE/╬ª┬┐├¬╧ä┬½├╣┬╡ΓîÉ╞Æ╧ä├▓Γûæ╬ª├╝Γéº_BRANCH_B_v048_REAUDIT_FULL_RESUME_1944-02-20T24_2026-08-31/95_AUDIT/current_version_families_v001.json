@@ -1,0 +1,39 @@
+{
+  "revision": "v001",
+  "families": [
+    {
+      "family": "AUTHORITATIVE_MANIFEST_vX.json",
+      "members": [
+        "AUTHORITATIVE_MANIFEST_v001.json",
+        "AUTHORITATIVE_MANIFEST_v002.json",
+        "AUTHORITATIVE_MANIFEST_v003.json",
+        "AUTHORITATIVE_MANIFEST_v004.json"
+      ]
+    },
+    {
+      "family": "AUTHORITATIVE_MANIFEST_vX.md",
+      "members": [
+        "AUTHORITATIVE_MANIFEST_v001.md",
+        "AUTHORITATIVE_MANIFEST_v002.md",
+        "AUTHORITATIVE_MANIFEST_v003.md",
+        "AUTHORITATIVE_MANIFEST_v004.md"
+      ]
+    },
+    {
+      "family": "PEARL_STATE_TRANSITION_vX.md",
+      "members": [
+        "PEARL_STATE_TRANSITION_v001.md",
+        "PEARL_STATE_TRANSITION_v002.md",
+        "PEARL_STATE_TRANSITION_v003.md"
+      ]
+    },
+    {
+      "family": "pearl_state_transition_vX.json",
+      "members": [
+        "pearl_state_transition_v001.json",
+        "pearl_state_transition_v002.json",
+        "pearl_state_transition_v003.json"
+      ]
+    }
+  ]
+}

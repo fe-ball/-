@@ -1,0 +1,31 @@
+{
+  "package_version": "V13",
+  "status": "PASS",
+  "expected_total_files": 896,
+  "expected_manifest_entries": 894,
+  "manifest_exclusions": [
+    "FULL-PACKAGE-MANIFEST-SHA256-V13.tsv",
+    "SHA256SUMS-V13.txt"
+  ],
+  "new_current_files": 8,
+  "new_rotorcraft_quarantine_files": 2,
+  "combat_clock_advanced": false,
+  "structural_checks": {
+    "v12_fixed_wing_retained": true,
+    "v13_helicopter_current_exists": true,
+    "h1_1939_physical_airframes": 2,
+    "h1_ordinary_oob": 0,
+    "h2_1941ye_physical_airframes": 4,
+    "h2_ordinary_oob": 0,
+    "h3_1941ye_flight_airframes": 0,
+    "kayaba_independence_guard": true,
+    "rotorcraft_quarantine_exists": true
+  },
+  "actual_total_files": 896,
+  "actual_manifest_entries": 894,
+  "final_verification": {
+    "missing_files": 0,
+    "size_mismatches": 0,
+    "sha256_mismatches": 0
+  }
+}

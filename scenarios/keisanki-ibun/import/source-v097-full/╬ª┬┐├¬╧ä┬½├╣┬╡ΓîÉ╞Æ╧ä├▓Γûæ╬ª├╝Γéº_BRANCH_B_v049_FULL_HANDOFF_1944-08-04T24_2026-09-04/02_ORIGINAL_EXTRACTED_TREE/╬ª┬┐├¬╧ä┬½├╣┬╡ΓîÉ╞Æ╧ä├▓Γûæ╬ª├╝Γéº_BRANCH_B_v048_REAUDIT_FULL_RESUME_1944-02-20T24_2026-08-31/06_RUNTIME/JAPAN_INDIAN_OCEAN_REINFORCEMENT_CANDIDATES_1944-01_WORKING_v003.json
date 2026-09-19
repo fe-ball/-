@@ -1,0 +1,107 @@
+{
+  "id": "JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v003",
+  "status": "WORKING_CANDIDATE_SCREEN_AFTER_SUBMARINE_RECONCILIATION",
+  "as_of": "1944-01-01T00:00:00",
+  "purpose": "Select realistic Indian Ocean reinforcements from the reconciled Branch wallet while preserving Central-Pacific opportunity cost and using submarine/observation liaison as the primary mission.",
+  "corrected_shipbuilding_logic": {
+    "young_surface_advantage": "primarily avoided historical Solomon/Rabaul losses plus higher availability; only modest 2-5% construction acceleration",
+    "kaibokan": "modest quantity delta; role separation/availability, not dozens of extra 1943 hulls",
+    "fleet_DD_physical_center": 81,
+    "fleet_DD_ready_center": 72,
+    "light_cruisers_physical_center": 21,
+    "light_cruisers_ready_band": "18-20",
+    "submarines_physical_working_center": 103,
+    "submarines_combat_usable_band": "82-89 center 86",
+    "warning": "Global physical count now closes at center 103 from named loss-path audit. Theater-transfer availability remains much smaller than physical count.",
+    "submarines_physical_band": "102-104"
+  },
+  "initial_release_rule": {
+    "when": "Eastern Fleet reinforcement is highly probable/eastbound but has not yet sortied east from Ceylon",
+    "modern_DD_release_without_major_Pacific_disruption": "4-6 initially; use survival-dividend hulls first",
+    "modern_DD_second_release_if_RN_eastbound_from_Ceylon": "additional 3-5",
+    "upper_transfer_without_explicit_Pacific_tradeoff": "8-11 total modern DD; above this requires explicit Central-Pacific tradeoff",
+    "CL_release": "Oyodo first; Agano or Noshiro only on second gate; Yahagi NO-GO early Jan",
+    "CA_release": "none initially; Suzuya/Kumano pair only on Bay-entry escalation gate",
+    "first_line_carriers": 0,
+    "secondary_carriers": "no automatic commitment; one/two only if later air-risk gate and Pacific situation permit"
+  },
+  "preferred_initial_mobile_group": {
+    "command_ISR": "Oyodo",
+    "AA_picket": "Niizuki OR Teruzuki (one only initially)",
+    "torpedo_DD_primary_candidates": [
+      "Takanami",
+      "Makinami",
+      "Kiyonami"
+    ],
+    "torpedo_DD_alternates": [
+      "Onami",
+      "Suzunami",
+      "Hayanami",
+      "Hatsukaze",
+      "Hayashio"
+    ],
+    "initial_strength": "Oyodo + 4 modern DD center (1 Akizuki-type + 3 Yugumo-type); fifth DD optional only after origin/maintenance check",
+    "basing": "Singapore/Lingga rear; forward operation through Penang/Sabang; do not park the whole group at Port Blair",
+    "mission": [
+      "receive DF/ESM/submarine/air-search reports and maintain one operational plot",
+      "escort high-value observation/fast-logistics movements",
+      "perform one-pass Type-93 interception only on fresh high-confidence contact",
+      "avoid sustained radar gunnery battle against a screened British battle fleet"
+    ]
+  },
+  "why_these_DD": {
+    "Niizuki_Teruzuki": "mature Akizuki hulls whose historical Solomon losses are absent; radar/AA/picket utility is unusually valuable for the observation network",
+    "Takanami_Makinami_Kiyonami_Onami": "mature 1942-early-1943 Yugumo hulls, historical loss chains absent, enough training time by Jan1 and no current Branch commitment found",
+    "Suzunami_Hayanami": "mid-1943 Yugumo completions with adequate work-up; usable alternates",
+    "late_1943_Yugumo": "Asashimo/Kishinami/Okinami are not first-choice Indian transfers because their late-1943 completion leaves less work-up despite modest Branch schedule improvement"
+  },
+  "second_gate_if_Eastern_Fleet_sorties_east_from_Ceylon": {
+    "add_CL": "Agano OR Noshiro",
+    "add_Akizuki": "the other of Niizuki/Teruzuki or another available Akizuki after Pacific screen check",
+    "add_DD": "2-4 additional mature Kagero/Yugumo line hulls",
+    "submarines": "raise Indian Ocean on-station target to 7-9 conventional boats; Sentaka 1-2 only if stale-contact-to-intercept geometry justifies transfer"
+  },
+  "third_gate_if_RN_enters_Bay_Andaman_approach": {
+    "add_CA": [
+      "Suzuya",
+      "Kumano"
+    ],
+    "role": "fast heavy cover/deterrence and night strike support; not daylight line battle against QE/Valiant/Renown under carrier air",
+    "Pacific_tradeoff": "explicitly recheck Central Pacific carrier/surface screen before GO"
+  },
+  "special_support": {
+    "Chitose_or_Chiyoda": "one may be screened for Singapore/Sabang mobile seaplane maintenance/recon support because Branch retains them as seaplane tenders; exact Jan location/readiness must be traced",
+    "Nisshin": "candidate for one/two fast heavy-equipment/AA/engineer transplant runs to Andamans; not combat surface group",
+    "old_local_cruisers": "Ashigara/Aoba plus Kuma/Kinu/Oi/Kitakami layer remains for local cover, transport and presence; do not waste modern group on routine shuttle work"
+  },
+  "submarine_local_nucleus": {
+    "on_station_1944_01_01": [
+      "I-162",
+      "I-166"
+    ],
+    "forward_ready_near_ready": [
+      "RO-110",
+      "I-165",
+      "I-27",
+      "I-37",
+      "RO-111"
+    ],
+    "en_route_south": [
+      "RO-112"
+    ],
+    "unavailable_or_wrong_mission": [
+      "I-8",
+      "I-10",
+      "I-29",
+      "I-34",
+      "I-175",
+      "I-30"
+    ],
+    "jan7_clock": "I-162 + I-166 remain out; RO-110, I-165 and RO-111 can be out/heading to station = 5 Japanese boats without Pacific transfer.",
+    "jan10_15_escalation": "activate I-27 and I-37 if RN eastbound evidence continues = ~7 active/outbound.",
+    "late_jan": "RO-112 and one additional Southwest boat can lift practical on-station/outbound target toward 7-9.",
+    "sentaka": "0 initial; 1-2 only after high-value fresh/stale contact geometry makes sprint-recontact useful.",
+    "German_Monsun": "sector-level handoff only, no unified tactical control; western/southwestern Ceylon-Arabian Sea information can cue Japanese eastern sectors."
+  },
+  "next_required_action": "Trace origin/maintenance of Oyodo + selected Teruzuki/Niizuki and mature Yugumo candidates, then start 26 Dec-27 Jan Eastern Fleet signal/movement timeline with the Jan1 submarine local clock above."
+}

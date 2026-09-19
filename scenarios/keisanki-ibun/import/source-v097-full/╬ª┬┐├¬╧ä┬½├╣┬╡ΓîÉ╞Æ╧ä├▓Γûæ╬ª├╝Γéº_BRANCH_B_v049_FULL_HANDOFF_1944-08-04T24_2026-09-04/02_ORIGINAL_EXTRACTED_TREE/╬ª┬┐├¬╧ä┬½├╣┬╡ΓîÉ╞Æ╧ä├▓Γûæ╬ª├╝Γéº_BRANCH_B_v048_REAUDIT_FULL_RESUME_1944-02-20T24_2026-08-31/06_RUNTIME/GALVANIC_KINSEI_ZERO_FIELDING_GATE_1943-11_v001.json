@@ -1,0 +1,93 @@
+{
+  "revision": "v001",
+  "id": "GALVANIC_KINSEI_ZERO_FIELDING_GATE_1943-11_v001",
+  "status": "AUTHORITATIVE_EVENT_LOCAL_FIELDING_GATE",
+  "event": "Branch B GALVANIC carrier battle, 1943-11-26",
+  "as_of": "1943-11-26T00:00:00",
+  "rule": "Do not inject completed production directly into combat. Separate physical completion, naval acceptance, carrier trials, unit conversion, carrier allocation and mission readiness.",
+  "authoritative_design_source": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/53_海軍戦闘機・空冷発動機・噴進航空.md",
+  "production_clock": {
+    "1943-09": 6,
+    "1943-10": 12,
+    "1943-11": 24,
+    "note": "Monthly pilot-production centers. November output is not assumed all completed/accepted before 11/26."
+  },
+  "physical_existences_by_event_band": "approximately 36-42 completed or essentially complete by 1943-11-26; low-confidence production-timing band, not combat strength",
+  "event_ready_and_allocatable": {
+    "band": [
+      18,
+      24
+    ],
+    "center": 20,
+    "confidence": "MEDIUM",
+    "reason": "Acceptance, carrier qualification, conversion training, spares/tools and deck-specific procedures consume roughly half of raw early-production availability."
+  },
+  "centered_carrier_allocation": {
+    "Shokaku": 7,
+    "Zuikaku": 7,
+    "Hiryu": 4,
+    "Soryu": 2,
+    "total": 20
+  },
+  "mission_allocation_center": {
+    "first_strike_escort": {
+      "kinsei_zero": 13,
+      "total_fighters": 48,
+      "remainder": "late Zuisei Zero"
+    },
+    "fleet_CAP": {
+      "kinsei_zero": 7,
+      "total_fighters": "50-55",
+      "remainder": "late Zuisei Zero"
+    },
+    "reserve_conversion_training": "Any additional accepted Kinsei aircraft remain ashore/rear-deck/training or are not mission-ready; do not spawn them into the strike."
+  },
+  "performance_gate": {
+    "kinsei_zero": {
+      "max_speed_unit_median_kmh": [
+        586,
+        593
+      ],
+      "climb_6000m_unit_median": "6:35-6:55",
+      "safe_long_escort_km": [
+        550,
+        620
+      ],
+      "carrier_approach_kmh": [
+        150,
+        157
+      ],
+      "armament": "20mm x2 + 13.2mm x2",
+      "protection": "head/back armor + partial tank/fire protection"
+    },
+    "zuisei_late_zero": {
+      "safe_long_escort_km": [
+        650,
+        750
+      ],
+      "carrier_approach_kmh": [
+        135,
+        145
+      ],
+      "role_note": "lower deck/recovery burden, longer safe escort, mature production and carrier procedures"
+    },
+    "us_system_comparison": "Kinsei narrows the individual performance gap and improves climb/closure/rejoin and firepower, but does not erase F6F high-speed/dive/protection/firepower plus radar/CIC/fighter-direction/AA system advantage."
+  },
+  "adjudication_delta": {
+    "old_erroneous_assumption": "Kinsei Zero effectively zero in GALVANIC carrier battle due 1943-10-01 ledger wording.",
+    "corrected_effect": "A small but material Kinsei component improves escort persistence/rejoin and CAP interception. It modestly reduces Japanese fighter/attack-aircraft losses and slightly raises weapon-release survival, without changing the centered Lexington/Soryu mission-kill outcome.",
+    "revised_japanese_irrecoverable_aircraft_band": [
+      60,
+      75
+    ],
+    "revised_us_irrecoverable_aircraft_band": [
+      40,
+      50
+    ]
+  },
+  "anti_overreach": [
+    "Do not treat 20 Kinsei as equivalent to an all-Kinsei carrier force.",
+    "Do not back-port A7M or 1944 production.",
+    "Do not convert a higher individual-aircraft performance into US CIC/radar/AA parity."
+  ]
+}

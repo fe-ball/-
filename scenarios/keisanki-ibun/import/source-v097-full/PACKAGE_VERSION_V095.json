@@ -1,0 +1,22 @@
+{
+  "version": "v095",
+  "date": "2026-09-16",
+  "current_cutoff": "1943-11-24T18:00",
+  "base_archive": "計算機異聞_BRANCH_B_v094_FULL_HANDOFF_1943-11-21T1020_TECH_AUDIT_FRONTIER_2026-09-15.zip",
+  "authority_files": [
+    "00_CURRENT_AUTHORITY/00_READ_FIRST_V095_FULL_HANDOFF.md",
+    "00_CURRENT_AUTHORITY/02_SUPERSESSION_MAP_V095_FULL.md",
+    "00_CURRENT_AUTHORITY/CURRENT_BRANCH_B_V095_COMPACT_ACTIVE_CONTEXT_1943-11-24T1800.md",
+    "00_CURRENT_AUTHORITY/CURRENT_BRANCH_B_V095_STATE_1943-11-24T1800.json"
+  ],
+  "current_updates": "CURRENT_1943-11-24_UPDATES",
+  "next_session": "POST_GALVANIC_CARRIER_AIR_REGENERATION_AND_FORCE_REGROUP",
+  "key_supersessions": [
+    "kaibokan ledger",
+    "US aircraft-loss accounting",
+    "Shinano float-out/dock release",
+    "21/22 Makin R2/Type93 outcome",
+    "Liscome Bay historical inheritance",
+    "Tarawa/Makin organized-resistance clocks"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "revision": "v001",
+  "id": "SYSTEMIC_COMBAT_EFFECT_ACCOUNTING_FOR_VEHICLE_RETRO_AUDITS_WORKING_v001",
+  "status": "WORKING_MANDATORY_METHOD_NOT_CURRENT",
+  "purpose": "Prevent vehicle-quality improvements from being accounted only as surviving tanks. Every extra vehicle sortie/tank-day must propagate through the combined-arms system and its costs.",
+  "core_unit": "combat-effective vehicle-day (tank-day / AFV-day), not only end-state hull survival",
+  "accounting_layers": {
+    "vehicle": [
+      "physical hull",
+      "serviceable/crewed",
+      "combat contact",
+      "mission kill",
+      "recoverable",
+      "irrecoverable",
+      "repair return"
+    ],
+    "own_force_benefit": [
+      "infantry casualties avoided because tanks suppress/absorb enemy fire",
+      "AT/field-artillery pieces and crews preserved",
+      "trucks/prime movers/engineer assets preserved during movement or withdrawal",
+      "positions/roads/bridges retained longer",
+      "wounded and disabled equipment recovered under armored cover",
+      "enemy salvage denied when battlefield possession changes"
+    ],
+    "enemy_cost": [
+      "additional personnel K/W/M",
+      "additional tanks/AFVs disabled or destroyed",
+      "AT guns/artillery/MG positions destroyed or suppressed",
+      "extra ammunition/fuel/repair burden caused by repeated Japanese contacts",
+      "delay and forced redeployment"
+    ],
+    "own_force_cost": [
+      "extra fuel",
+      "extra ammunition",
+      "crew fatigue",
+      "spares and workshop load",
+      "recovery tractor/engineer commitment",
+      "additional exposure and hence additional damaged vehicles/crew casualties",
+      "opportunity cost to other units"
+    ],
+    "operational_effect": [
+      "hours/days of delay",
+      "attack cycles enabled",
+      "withdrawal covered",
+      "supply route kept open/closed",
+      "formation tempo"
+    ]
+  },
+  "annihilated_force_rule": {
+    "principle": "If a garrison/formation is ultimately annihilated or captured, its final residual hull/personnel value may still be zero, but earlier survival is not erased.",
+    "persisting_effects": [
+      "additional enemy casualties inflicted before destruction",
+      "extra enemy ammunition/fuel/time consumed",
+      "friendly infantry/artillery surviving longer before final collapse",
+      "evacuation/recovery opportunities created for other formations",
+      "delayed objective capture",
+      "intelligence/training effects from longer combat"
+    ],
+    "guard": "Do not convert temporary survival into national surviving strength if no withdrawal/recovery route exists."
+  },
+  "combined_arms_cap": {
+    "rule": "Vehicle improvements are capped by the weakest binding system: fuel, bridges/roads, infantry/engineer/artillery coordination, ammunition, communications, air attack, battlefield possession.",
+    "effect": "A reliable tank that cannot be fueled, bridged, supported or recovered does not create proportional combat power."
+  },
+  "future_audit_outputs": [
+    "vehicle residual delta",
+    "own personnel casualty delta",
+    "own non-vehicle equipment survival delta",
+    "enemy personnel casualty delta",
+    "enemy equipment loss delta",
+    "consumption/logistics delta",
+    "time/terrain delta",
+    "training/doctrine/intelligence delta"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "revision": "v005",
+  "package_root": "計算機異聞_refactor_v005_2026-08-18",
+  "generated": "2026-08-18",
+  "purpose": "v004 refactor plus 1942Q2 Operation C/MO/modified-MI current-branch settlement",
+  "current_restart": "CHECKPOINT_1942-06-15T24_v001",
+  "file_count": 284,
+  "new_revision_entrypoints": [
+    "00_README/README_refactor_v005.md",
+    "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v005.md",
+    "05_WARTIME/CHECKPOINT_INDEX_v004.json",
+    "05_WARTIME/CHECKPOINT_GRAPH_v003.json",
+    "05_WARTIME/CHECKPOINT_1942-06-15T24_v001.json",
+    "06_RUNTIME/MIDWAY_1942-06-10_15_SETTLEMENT_v001.json",
+    "06_RUNTIME/1942Q2_OPERATION_C_MO_MI_REAUDIT_SETTLEMENT_v001.md"
+  ],
+  "validation": "95_AUDIT/VALIDATION_RESULT_v005.json"
+}

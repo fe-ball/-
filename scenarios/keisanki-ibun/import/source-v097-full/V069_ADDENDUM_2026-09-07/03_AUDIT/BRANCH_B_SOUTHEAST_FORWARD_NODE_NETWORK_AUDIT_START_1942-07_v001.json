@@ -1,0 +1,30 @@
+{
+  "document": "BRANCH_B_SOUTHEAST_FORWARD_NODE_NETWORK_AUDIT_START_1942-07_v001",
+  "status": "AUDIT_START_OPEN",
+  "cut_date": "1942-07-20",
+  "model": "DISTRIBUTED_ISR_RECOVERY_CONCENTRATED_HEAVY_LOGISTICS",
+  "major_roots": [
+    "Rabaul",
+    "Kavieng",
+    "Lae/Salamaua",
+    "Port Moresby (Branch-held)",
+    "Lunga (Branch project)"
+  ],
+  "forward_nodes": [
+    "Shortland/Faisi",
+    "Buka Passage",
+    "Kieta",
+    "Gizo",
+    "Rekata Bay",
+    "Tulagi/Gavutu"
+  ],
+  "temporary_precedent": [
+    "Deboyne Islands"
+  ],
+  "facility_classes": [
+    "anchorage/temporary point",
+    "forward seaplane base",
+    "regional seaplane/air logistics hub"
+  ],
+  "next_action": "build named facility ledger at 1942-07-20 before Santo event generation"
+}

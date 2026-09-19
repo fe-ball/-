@@ -1,0 +1,12 @@
+date	category	item	center	low	high	status	note
+1939-08-19	AIR	Ki27_EX2_fraction_pct	82	80	88	WORKING	frontline aggregate
+1939-08-19	AMMO	AT37_forward_issue	912	900	1000	CLOSED_BY_12A	old 576 under-supplied; formal flow authority=12A-NOMONHAN-SPECIAL-AMMO-FLOW-LEDGER-V9.tsv
+1939-08-19	AMMO	TANK37_forward_issue	288	240	320	CLOSED_BY_12A	old 192 under-supplied; formal flow authority=12A-NOMONHAN-SPECIAL-AMMO-FLOW-LEDGER-V9.tsv
+1939-08-20	AIR	Japanese_Ki27_usable_next_morning	100	98	103	WORKING	includes partial 24th reactivation
+1939-08-21	AIR	Japanese_fighter_attack_escort	88	85	90	WORKING	Operation S allocation
+1939-08-22	AIR	Ki27_serviceable	100	98	102	WORKING	
+1939-08-22	GROUND	First_Tank_Group_ready_2400	31	30	32	WORKING_SUPERSEDES_OLD29	air replay correction
+1939-08-22	AMMO	AT37_residual	550	520	580	CLOSED_BY_12A	pre-formal production ledger; formal flow authority=12A-NOMONHAN-SPECIAL-AMMO-FLOW-LEDGER-V9.tsv
+1939-08-22	AMMO	TANK37_residual	116	100	130	CLOSED_BY_12A	pre-formal production ledger; formal flow authority=12A-NOMONHAN-SPECIAL-AMMO-FLOW-LEDGER-V9.tsv
+1939-08-25	AMMO	AT37_residual	470	430	500	CLOSED_BY_12A	campaign stabilization; formal flow authority=12A-NOMONHAN-SPECIAL-AMMO-FLOW-LEDGER-V9.tsv
+1939-08-25	AMMO	TANK37_residual	100	85	115	CLOSED_BY_12A	campaign stabilization; formal flow authority=12A-NOMONHAN-SPECIAL-AMMO-FLOW-LEDGER-V9.tsv

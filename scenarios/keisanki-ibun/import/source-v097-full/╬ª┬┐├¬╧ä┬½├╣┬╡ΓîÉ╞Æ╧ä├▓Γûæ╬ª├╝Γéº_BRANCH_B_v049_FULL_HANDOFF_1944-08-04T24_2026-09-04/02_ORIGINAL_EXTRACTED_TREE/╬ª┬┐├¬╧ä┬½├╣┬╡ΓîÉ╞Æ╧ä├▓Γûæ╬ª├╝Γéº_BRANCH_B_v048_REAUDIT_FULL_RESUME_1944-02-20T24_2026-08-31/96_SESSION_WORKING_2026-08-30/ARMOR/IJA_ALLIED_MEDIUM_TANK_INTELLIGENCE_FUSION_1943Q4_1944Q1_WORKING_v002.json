@@ -1,0 +1,32 @@
+{
+  "revision": "v002",
+  "id": "IJA_ALLIED_MEDIUM_TANK_INTELLIGENCE_FUSION_1943Q4_1944Q1_WORKING_v002",
+  "status": "WORKING_DEVELOPMENT_INPUT_GATE_NOT_CURRENT",
+  "supersedes": "IJA_ALLIED_MEDIUM_TANK_INTELLIGENCE_FUSION_1943Q4_1944Q1_WORKING_v001",
+  "inputs": {
+    "GALVANIC_M4A2": {
+      "strength": "HIGH combat significance, LOW-MEDIUM detailed post-battle exploitation because the Japanese garrison is effectively destroyed/isolated.",
+      "message": "US medium tanks are decisive combined-arms tools; existing light weapons are insufficient."
+    },
+    "BENGAL_M3_Lee_Grant": {
+      "strength": "MEDIUM centered, not automatically HIGH.",
+      "reason": "25th Dragoons reinforcement exists but its historical access route is lost and Branch old-battleship bombardment/river/bridge demolition heavily constrains actual tank contact.",
+      "message_if_contact": "British 30-ton, 75mm medium armor exists in the India-Burma theater; 47mm is not a comfortable frontal answer.",
+      "exploitation_center": "inspection of one damaged/abandoned vehicle or useful components/field reports is plausible, not guaranteed"
+    },
+    "Axis_existing_intelligence": {
+      "role": "German/Italian and Japanese technical reporting on Allied medium tanks supplies dimensions/performance context even when battlefield capture is incomplete.",
+      "guard": "This does not grant perfect Sherman or Lee armor tables unless a dated report/source is traced."
+    }
+  },
+  "fused_requirement_effect": {
+    "center": "By late Dec 1943-Jan 1944 the IJA has enough independent evidence to elevate the problem from 'local Tarawa anomaly' to 'Allied 30-ton 75mm medium-tank class is a recurring theater threat.'",
+    "does_not_require": "a large Bengal tank battle",
+    "likely_actions": [
+      "keep Shinhoto/Chi-Ha family for China/South where it remains cost-effective",
+      "increase priority for 75mm mobile anti-tank/SPG solutions",
+      "accelerate Chi-He acceptance as a better system chassis/crew/radio platform",
+      "consider an urgent stopgap 75mm medium-tank requirement before historical May 1944, subject to development bureaucracy and industrial gates"
+    ]
+  }
+}

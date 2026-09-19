@@ -1,0 +1,8 @@
+event_id	time	event	historical_baseline	branch_delta	status	asai_relevance	next_gate
+E-19370707-01	1937-07-07 dusk	8th Company night maneuver near Lugouqiao	Occurred	none	CLOSED-SAME	none	
+E-19370707-02	1937-07-07 ~22:40	shots heard; maneuver halted	Occurred; shooter disputed	none relevant	CLOSED-EVENT	none	
+E-19370707-03	1937-07-07 late night	one Japanese private missing at roll call	Occurred; returned later	none relevant	CLOSED-EVENT	none	
+E-19370708-01	1937-07-08 before 02:00	negotiation/search-entry dispute continues; missing soldier return communicated	Occurred	none relevant	CLOSED-SAME	fixed telephone/orderly; Asai mobile power not gating	
+E-19370708-02	1937-07-08 ~03:00-03:30	gunfire heard again	Occurred	none relevant	CLOSED-EVENT	none	
+E-19370708-03	1937-07-08 ~03:00-05:30	Ichiki battalion advances/prepares fire; Mutaguchi authorizes engagement	Occurred	no material change to local C2/mobility	CLOSED-SAME	turbo trucks/power vehicles non-gating	
+E-19370708-04	1937-07-08 ~05:30	full local engagement begins	Occurred	minor weapon-mix uncertainty only	CLOSED-EVENT	Type96 LMG exact issue rate OPEN; dense-core AP irrelevant	first battle results and July 8 truce/reporting

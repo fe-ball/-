@@ -1,0 +1,26 @@
+{
+  "revision": "v012",
+  "package_root": "計算機異聞_refactor_v012_2026-08-23",
+  "generated": "2026-08-23",
+  "purpose": "Capture the settled Saipan branch through 1944-07-14, CBI air-logistics tax accounting, China-only forward adjudication, and the pending 1944-summer force-regeneration ledger while preserving v011 execution behavior.",
+  "file_count": 425,
+  "current_restart": "CHECKPOINT_1944-04-30T24_v004",
+  "current_global_analysis_frontier": "1944-07-14T24:00",
+  "new_revision_entrypoints": [
+    "00_README/README_refactor_v012.md",
+    "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v012.md",
+    "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SUMMER_v001.json",
+    "06_RUNTIME/MARIANAS_SAIPAN_1944-06-11_07-14_SETTLEMENT_v001.md",
+    "06_RUNTIME/CBI_AIR_LOGISTICS_TAX_1944-04_06_WORKING_SETTLEMENT_v001.md",
+    "06_RUNTIME/CHINA_ICHIGO_ANALOG_1944-05-27_08-06_FORWARD_ADJUDICATION_v001.md",
+    "06_RUNTIME/1944SUMMER_JAPAN_US_FORCE_REGENERATION_WORKING_LEDGER_v001.md",
+    "95_AUDIT/current_version_families_v009.json",
+    "95_AUDIT/V012_SESSION_STATE_AUDIT_v001.json",
+    "98_TOOLS/validate_refactor_v010.py"
+  ],
+  "validation": "95_AUDIT/VALIDATION_RESULT_v012.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v012.txt",
+  "legacy_policy": "99_LEGACY_UNTOUCHED retained byte-for-byte from v011 working tree.",
+  "execution_policy": "v011 combat/platform/novel-weapon execution layers remain authoritative. v012 adds session settlements/frontier only.",
+  "state_change_from_v011": "Adds post-1944-05-01 branch settlements and analysis frontier. Does not replace the canonical 1944-05-01 restart with a new global checkpoint."
+}

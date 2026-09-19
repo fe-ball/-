@@ -1,0 +1,163 @@
+{
+  "id": "US_PACIFIC_DEATH_DELTA_LEDGER_1944-02-10_WORKING_v001",
+  "status": "WORKING_ACCOUNTING_GATE_NOT_CANONICAL_UNTIL_FATALITY_SPLITS_ARE_CLOSED",
+  "cutoff": "1944-02-10T24:00:00",
+  "scope": "US personnel deaths relevant to Pacific force-generation and historical-vs-Branch comparison. Ground, shipboard, and aircrew are separated where possible. POW/WIA are not silently converted into deaths.",
+  "accounting_rules": [
+    "Use an umbrella historical campaign total only once; do not also add its named ship/battle components.",
+    "A historical death avoided is a credit only after the historical event is actually absent on the active Branch path.",
+    "A survivor is not automatically a deployable replacement: POW, WIA, disease, unit reconstitution, training, and theater commitment remain separate.",
+    "Carrier hull loss does not imply air group or deck crew annihilation; rescue geometry is event-specific.",
+    "For events whose current settlement gives total casualties but no fatality split, carry a bounded WORKING_FATALITY_RECONSTRUCTION rather than inventing an exact KIA number.",
+    "Specialist value is tracked separately: line infantry/NCO, surface-ship crew, carrier deck crew, and aircrew are not interchangeable manpower."
+  ],
+  "historical_suppressed_credits": [
+    {
+      "event": "Historical Guadalcanal campaign / WATCHTOWER and associated Guadalcanal naval-air campaign",
+      "historical_window": "1942-08-07..1943-02-08",
+      "historical_US_dead": 7100,
+      "branch_event_status": "DOES_NOT_OCCUR_AS_HISTORICAL_CAMPAIGN",
+      "credit_if_considered_in_isolation": 7100,
+      "decomposition_for_specialist_analysis_only": {
+        "US_Navy_sailors": "just under 5,000",
+        "Army_Marine_ground_killed_by_enemy_action": 1598,
+        "note": "Do not add these decomposition values to the 7,100 umbrella; definitions differ and aviation/other deaths sit across categories."
+      },
+      "double_count_guard": "Do not separately credit Wasp, Hornet/Santa Cruz, Savo, Naval Battle of Guadalcanal, Tassafaronga, etc.; they are inside this umbrella comparison.",
+      "confidence": "HIGH_HISTORICAL / HIGH_BRANCH_NONOCCURRENCE"
+    }
+  ],
+  "branch_replacement_debits_and_realized_losses": [
+    {
+      "event": "Branch Midway / MI naval-island battle",
+      "date": "1942-06-10..1942-06-15",
+      "branch_US_death_band": [2600, 4300],
+      "center": 3400,
+      "status": "WORKING_FATALITY_RECONSTRUCTION",
+      "components": {
+        "Midway_island_KIA": [600, 900],
+        "Enterprise_Hornet_Saratoga_sinkings_and_surface_screen": "unclosed personnel split; many are rescued, but three carrier losses plus roughly 3 CA and 5-6 DD losses create a major fatality bill",
+        "aircrew": "partly included in ship/air loss reconstruction; do not double count"
+      },
+      "historical_reference": "Historical Midway U.S. deaths were 307, but direct delta is not booked until the branch Coral Sea/Yorktown-Lexington personnel clock is reconciled.",
+      "confidence": "LOW_MEDIUM",
+      "reopen_needed": true
+    },
+    {
+      "event": "Santo campaign",
+      "date": "1942-08-23..1942-09-02",
+      "branch_US_ground_casualty_band": [1200, 1900],
+      "branch_US_death_band": [280, 480],
+      "center": 380,
+      "status": "WORKING_FATALITY_RECONSTRUCTION",
+      "note": "POW 1,200-1,800 and evacuation/dispersal are separate. Fatality split is not given by the authoritative settlement and must eventually be reconstructed from battalion-level combat phases.",
+      "confidence": "LOW_MEDIUM"
+    },
+    {
+      "event": "New Caledonia main battle and corridor cleanup",
+      "date": "1942-10-04..1942-11-19",
+      "branch_Allied_ground_combat_casualties_main": [8500, 11000],
+      "branch_Allied_cleanup_mixed_loss_band": [5000, 7000],
+      "branch_US_death_band": [1600, 2500],
+      "center": 2050,
+      "status": "WORKING_FATALITY_RECONSTRUCTION",
+      "note": "US personnel are the majority but not the whole Allied garrison. Cleanup figure mixes combat loss, capture, and failure to withdraw; therefore it is not converted one-for-one into deaths.",
+      "additional_US_naval_air_death_reserve": [120, 260],
+      "additional_note": "One US DD is sunk and 55-70 Allied aircraft are lost; Wasp is damaged but survives. This reserve is kept outside the ground band until named hull/aircrew accounting is closed.",
+      "confidence": "LOW_MEDIUM"
+    },
+    {
+      "event": "Attu",
+      "date": "1943-05-11..1943-06-04",
+      "branch_US_KIA_band": [650, 800],
+      "historical_US_KIA_reference": 550,
+      "delta_vs_historical_band": [100, 250],
+      "center_delta": 175,
+      "status": "BOOKABLE_CURRENT_BRANCH",
+      "note": "Cold/disease cases are not deaths unless separately fatal; the branch operation is longer and slightly bloodier than history.",
+      "confidence": "HIGH_BRANCH_BAND / HIGH_HISTORICAL_REFERENCE"
+    },
+    {
+      "event": "GALVANIC Tarawa ground",
+      "date": "1943-11-24..1943-11-29",
+      "branch_US_total_ground_casualty_band": [2850, 3860],
+      "branch_US_KIA_MIA_working_band": [850, 1100],
+      "center": 975,
+      "status": "WORKING_FATALITY_SPLIT_FROM_CURRENT_RERUN",
+      "historical_Tarawa_ground_dead_reference": 1009,
+      "note": "Current Branch landing geometry reduces some reef/drowning exposure but stronger completed defenses and longer night fighting add later direct-fire casualties. Center fatality ratio is kept near the prior v047 integrated band, not scaled from total casualties mechanically.",
+      "confidence": "MEDIUM_LOW"
+    },
+    {
+      "event": "GALVANIC Makin ground",
+      "date": "1943-11-24..1943-11-27",
+      "branch_US_death_band": [55, 85],
+      "center": 70,
+      "status": "WORKING_NEAR_HISTORICAL_GROUND_FATALITY",
+      "historical_reference": "58 KIA + 8 DOW = 66 Army deaths",
+      "confidence": "MEDIUM"
+    },
+    {
+      "event": "GALVANIC naval-air branch losses",
+      "date": "1943-11-23..1943-11-29",
+      "branch_US_death_band": [260, 430],
+      "center": 345,
+      "status": "WORKING_RESERVE",
+      "components": [
+        "Independence torpedo casualty slot",
+        "one US DD lost in the 26/27 November stand-off raid",
+        "carrier/land-air aircrew losses"
+      ],
+      "historical_comparison_note": "Historical GALVANIC Navy deaths exceeded 900, dominated by Liscome Bay; current Branch Liscome Bay survives. Do not automatically carry historical Corvina/Sculpin/Mississippi fatality events without branch confirmation.",
+      "confidence": "LOW_MEDIUM"
+    },
+    {
+      "event": "FLINTLOCK ground: Roi-Namur + Kwajalein",
+      "date": "1944-02-06..1944-02-09",
+      "branch_US_total_ground_casualty_band": [1570, 2215],
+      "branch_US_death_band": [350, 520],
+      "center": 430,
+      "status": "WORKING_FATALITY_SPLIT_FROM_CURRENT_RERUN",
+      "historical_US_ground_dead_reference": 332,
+      "note": "Historical 190 dead in the northern operation + 142 killed in the southern Kwajalein operation. Branch has stronger prepared defense but avoids the historical large Namur ammunition detonation, so the death ratio is not scaled directly with total casualties.",
+      "confidence": "MEDIUM_LOW"
+    },
+    {
+      "event": "FLINTLOCK sea/air losses before and during landing",
+      "date": "1944-02-02..1944-02-06",
+      "branch_US_death_band": [80, 150],
+      "center": 115,
+      "status": "WORKING_RESERVE",
+      "components": [
+        "carrier aircrew losses from 49-64 irreversible aircraft",
+        "Cabot torpedo damage personnel losses",
+        "LST mission-kill personnel deaths (casualties 30-65, only a subset fatal)"
+      ],
+      "confidence": "LOW"
+    }
+  ],
+  "south_pacific_guadalcanal_replacement_summary": {
+    "historical_Guadalcanal_credit": 7100,
+    "branch_Santo_NewCaledonia_death_working_band_including_small_naval_air_reserve": [2000, 3240],
+    "branch_Santo_NewCaledonia_center": 2700,
+    "net_survivor_credit_before_Midway_and_other_theaters_band": [3860, 5100],
+    "center": 4400,
+    "interpretation": "This is the correct first-order 'subtract Guadalcanal' credit. It is not the final national manpower delta because Branch Midway and later branch battles add deaths elsewhere."
+  },
+  "specialist_manpower_implication": {
+    "national_US_manpower": "A few thousand net deaths do not by themselves alter U.S. national mobilization or division authorization.",
+    "USMC_and_specific_units": "Santo/New Caledonia losses, POWs, and wounded can heavily disrupt specific Marine/Army formations even when national replacements exist.",
+    "surface_navy": "The branch avoids most historical Guadalcanal cruiser/destroyer crew deaths and hull losses. This is operationally more important than the same number of generic Army replacements because experienced ship crews and surviving hulls remain immediately useful.",
+    "carrier_navy": "Branch Midway destroys more fleet-carrier hulls than history and creates a large carrier/deck-crew burden, partially offset by deliberate rescue and by avoiding later Guadalcanal carrier losses.",
+    "aircrew": "Keep separate. Carrier/land aviation deaths and missing require an aircrew lineage ledger; do not infer from aircraft losses one-for-one."
+  },
+  "not_yet_closed": [
+    "Coral Sea / Lexington-Yorktown branch personnel-death reconciliation against historical baseline",
+    "Named cruiser/DD and carrier crew fatality split in Branch Midway",
+    "US vs Free French/Commonwealth fatality share in New Caledonia",
+    "Exact Tarawa current-rerun KIA/DOW/MIA split",
+    "Named US DD and exact crew loss in 26/27 Nov GALVANIC raid",
+    "Cabot/LST/aircrew exact FLINTLOCK fatality split"
+  ],
+  "current_use_rule": "For force planning after 1944-02-10, do not add a generic +7,100 U.S. manpower bonus. Use unit-specific availability plus this death ledger. The robust qualitative correction is healthier U.S. cruiser/DD manpower and hull availability than historical Guadalcanal, while carrier and South-Pacific ground formations pay alternate branch costs."
+}

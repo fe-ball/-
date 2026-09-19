@@ -1,0 +1,469 @@
+{
+  "revision": "v002",
+  "id": "INDIAN_OCEAN_AIR_CAPABILITY_LEDGER_1944-02-19_22_WORKING_v002",
+  "supersedes": "97_SESSION_CLEANED_2026-08-30/AIR/INDIAN_OCEAN_AIR_CAPABILITY_LEDGER_1944-02-19_22_WORKING_v001.json",
+  "status": "WORKING_RECONSTRUCTED_CAPABILITY_BANDS_READY_FOR_EVENT_LOCAL_ADJUDICATION",
+  "clock_window": "1944-02-19..22",
+  "global_frontier": "1944-02-21T24",
+  "purpose": "Normalize Indian Ocean aviation for event-local adjudication without inventing exact serviceability. Combat aviation and ASW/patrol aviation are separated, with all cross-theater debits explicit.",
+  "interpretation_rules": [
+    "Bands are branch planning bands, not exact historical rosters, unless an exact nominal count is explicitly identified as such.",
+    "physical_assigned >= serviceable >= mission_ready is required.",
+    "Unknown is not zero; zero is used only where local absence is source/branch supported.",
+    "A unit cannot be credited simultaneously in the Indian Ocean and another theater. Named transfers override generic theater assumptions.",
+    "First-window packages require event-time weather, contact freshness, base/deck readiness and mission radius checks.",
+    "Search cue, maintained datum and weapon-quality contact are separate states.",
+    "ASW aircraft do not add to fighter/anti-shipping strike strength unless the specific aircraft and mission allow it."
+  ],
+  "allied": {
+    "Eastern_Fleet_carrier_air": {
+      "Illustrious": {
+        "historical_nominal_air_group": {
+          "Corsair_II_1830_NAS": 14,
+          "Corsair_II_1833_NAS": 14,
+          "Barracuda_II_810_NAS": 12,
+          "Barracuda_II_847_NAS": 9,
+          "nominal_total": 49
+        },
+        "working_bands_if_embarked": {
+          "physical_assigned": [
+            47,
+            49
+          ],
+          "serviceable": [
+            35,
+            44
+          ],
+          "mission_ready_first_window": [
+            27,
+            36
+          ],
+          "first_window_strike_Barracuda": [
+            10,
+            14
+          ],
+          "first_window_fighter_CAP_or_escort": [
+            8,
+            14
+          ],
+          "total_sorties_24h_if_deck_weather_allow": [
+            38,
+            58
+          ]
+        },
+        "window_posture": {
+          "1944-02-19_21": "Major operational squadrons are treated as shore-based/ashore at China Bay after exercises; immediate carrier-launched package before re-embarkation is 0.",
+          "1944-02-22": "15 Wing Corsairs re-embark for Operation SLEUTH; Barracuda availability is event-time gated by embarkation/deck cycle.",
+          "guard": "Do not count shore sorties and carrier sorties from the same aircraft in the same time window."
+        },
+        "confidence": "MEDIUM"
+      },
+      "Unicorn": {
+        "role": "maintenance_carrier_and_deck_training_support",
+        "independent_operational_combat_air_group": [
+          0,
+          0
+        ],
+        "combat_sortie_credit": [
+          0,
+          0
+        ],
+        "capability_credit": "Repair/maintenance, aircraft support and deck-landing practice may improve Eastern Fleet sustainment but do not create an extra strike group.",
+        "confidence": "HIGH"
+      },
+      "Battler": {
+        "local_presence_1944-02-19_22": [
+          0,
+          0
+        ],
+        "reason": "Outside the Ceylon/Bay operational area in this window; no local sortie credit.",
+        "confidence": "HIGH"
+      }
+    },
+    "Ceylon_No222_Group_land_air": {
+      "historical_unit_role_anchor": {
+        "maritime_patrol": [
+          "321 Sqn Catalina",
+          "205 Sqn Catalina",
+          "413 Sqn RCAF Catalina",
+          "160 Sqn Liberator"
+        ],
+        "anti_shipping": [
+          "22 Sqn Beaufort",
+          "217 Sqn Beaufort"
+        ],
+        "fighter_interceptor": [
+          "17 Sqn Hurricane IIC",
+          "30 Sqn Thunderbolt",
+          "273 Sqn Hurricane IIB",
+          "89 Sqn Beaufighter VI"
+        ]
+      },
+      "working_bands": {
+        "maritime_patrol": {
+          "physical_assigned": [
+            36,
+            48
+          ],
+          "serviceable": [
+            24,
+            34
+          ],
+          "mission_ready": [
+            16,
+            26
+          ],
+          "long_range_search_sorties_24h": [
+            8,
+            16
+          ]
+        },
+        "anti_shipping": {
+          "physical_assigned": [
+            20,
+            28
+          ],
+          "serviceable": [
+            14,
+            21
+          ],
+          "mission_ready": [
+            10,
+            16
+          ],
+          "first_window_strike": [
+            6,
+            12
+          ],
+          "sorties_24h": [
+            8,
+            16
+          ]
+        },
+        "fighter_interceptor": {
+          "physical_assigned": [
+            42,
+            58
+          ],
+          "serviceable": [
+            30,
+            44
+          ],
+          "mission_ready": [
+            22,
+            34
+          ],
+          "sorties_24h": [
+            36,
+            60
+          ]
+        },
+        "combined_non_additive_sortie_guard": {
+          "physical_assigned": [
+            98,
+            134
+          ],
+          "serviceable": [
+            68,
+            99
+          ],
+          "mission_ready": [
+            48,
+            76
+          ]
+        }
+      },
+      "base_nodes": [
+        "China Bay",
+        "Koggala",
+        "Ratmalana",
+        "Sigiriya",
+        "Vavuniya",
+        "Dumbulla"
+      ],
+      "guards": [
+        "Do not add all role sortie ceilings blindly; maintenance, weather and airfield cycles overlap.",
+        "Catalina/Liberator search can cue fleet action but is not automatically weapon-quality tracking."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "No225_Group_Bay_support_subset": {
+      "role_anchor": [
+        "354 Sqn Liberator at Cuttack",
+        "240 Sqn Catalina at Red Hills Lake",
+        "203 Sqn Wellington at Santa Cruz as radius-dependent support"
+      ],
+      "working_bands": {
+        "physical_assigned": [
+          22,
+          34
+        ],
+        "serviceable": [
+          15,
+          25
+        ],
+        "mission_ready": [
+          10,
+          18
+        ],
+        "long_range_search_or_strike_sorties_24h": [
+          5,
+          10
+        ]
+      },
+      "guard": "Only aircraft within practical event radius and with mission tasking are credited; west-coast/remote 225 Group units are not automatically added.",
+      "confidence": "LOW_MEDIUM"
+    },
+    "Bengal_Arakan_No224_Group_branch_reconstituted": {
+      "branch_state": "Chittagong/Patenga is Japanese-held; British 224 Group elements and incoming units are treated as displaced/rebased north, not destroyed.",
+      "working_bands": {
+        "all_combat_aircraft": {
+          "physical_assigned": [
+            115,
+            155
+          ],
+          "serviceable": [
+            78,
+            112
+          ],
+          "mission_ready": [
+            55,
+            86
+          ]
+        },
+        "fighters_interceptors": {
+          "physical_assigned": [
+            90,
+            122
+          ],
+          "serviceable": [
+            61,
+            90
+          ],
+          "mission_ready": [
+            43,
+            69
+          ]
+        },
+        "strike_intruder": {
+          "physical_assigned": [
+            22,
+            34
+          ],
+          "serviceable": [
+            15,
+            24
+          ],
+          "mission_ready": [
+            10,
+            18
+          ]
+        },
+        "first_window_local_package_from_northern_arc": [
+          35,
+          55
+        ],
+        "sorties_24h": [
+          80,
+          130
+        ]
+      },
+      "included_branch_losses": "British campaign aircraft writeoffs 40-55 and airfield displacement are already reflected in the broad band; do not subtract again.",
+      "forward_arc": [
+        "Feni",
+        "Comilla/Lalmai",
+        "Agartala",
+        "Cox’s Bazaar/Dohazari/Ramu/Parashuram as branch-valid"
+      ],
+      "confidence": "LOW_MEDIUM"
+    }
+  },
+  "japan": {
+    "IJA_5th_Air_Division": {
+      "branch_state": "Leans west toward Bengal/Arakan but is not wholly committed; Burma/Imphal support remains a competing requirement.",
+      "whole_Burma_India_theater_working_band": {
+        "physical_assigned": [
+          135,
+          180
+        ],
+        "serviceable": [
+          90,
+          130
+        ],
+        "mission_ready": [
+          65,
+          100
+        ]
+      },
+      "western_rapid_allocation_subset": {
+        "physical_assigned": [
+          70,
+          105
+        ],
+        "serviceable": [
+          45,
+          75
+        ],
+        "mission_ready": [
+          32,
+          56
+        ],
+        "role_physical": {
+          "fighters": [
+            43,
+            68
+          ],
+          "bombers": [
+            20,
+            32
+          ],
+          "recon": [
+            5,
+            8
+          ]
+        },
+        "first_window_package": [
+          25,
+          45
+        ],
+        "sorties_24h": [
+          55,
+          90
+        ]
+      },
+      "Patenga_anchor": "Late-Dec branch 15-25 fighter/recon presence is included inside the western subset, not additive.",
+      "cross_theater_debit": "Any use near Bengal reduces Burma/Imphal coverage and must be posted event-locally.",
+      "confidence": "LOW"
+    },
+    "IJN_331st_Naval_Air_Group": {
+      "role": "fighter",
+      "branch_presence_rule": "Retained in western network for this window because no dated branch transfer has been posted before the global frontier. Historical February Pacific transfer is treated as a divergence warning, not an automatic hidden move.",
+      "working_bands": {
+        "physical_assigned": [
+          34,
+          42
+        ],
+        "serviceable": [
+          25,
+          34
+        ],
+        "mission_ready": [
+          20,
+          28
+        ]
+      },
+      "nodes": [
+        "Mergui/Victoria Point sector",
+        "Port Blair/Car Nicobar detachments as tasking permits"
+      ],
+      "cross_theater_debit": "If retained here, these aircraft/crews are unavailable to the Pacific. A later transfer requires a dated posting.",
+      "confidence": "LOW_MEDIUM"
+    },
+    "IJN_705th_Naval_Air_Group": {
+      "role": "long_range_maritime_search_and_land_attack",
+      "window_presence": "Credited in the Sumatra/Andaman search system for 1944-02-19..22. No earlier branch movement out is posted; historical transfer toward the Central Pacific occurs after this event window.",
+      "working_bands": {
+        "physical_assigned": [
+          34,
+          44
+        ],
+        "serviceable": [
+          24,
+          34
+        ],
+        "mission_ready": [
+          16,
+          26
+        ],
+        "long_range_sea_search_sorties_24h": [
+          4,
+          8
+        ],
+        "first_window_anti_shipping_strike_if_fresh_contact": [
+          10,
+          18
+        ]
+      },
+      "nodes": [
+        "Padang",
+        "Sabang staging/search arc"
+      ],
+      "guards": [
+        "Strike requires fresh weapon-quality contact, fuel, staging and escort/risk acceptance.",
+        "Do not simultaneously credit the unit at Truk/Palau before a dated transfer."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "IJN_551st_Naval_Air_Group": {
+      "role": "torpedo_attack",
+      "named_main_Tenzan_strike_credit_Indian_Ocean": [
+        0,
+        0
+      ],
+      "reason": "Twenty-six B6N2 Tenzan were ferried from Sabang via KAIYO on 1944-01-31 and reached Truk 1944-02-11; they cannot remain in the Indian Ocean ledger on 19-22 Feb.",
+      "unassigned_residual_legacy_aircraft_credit": [
+        0,
+        0
+      ],
+      "residual_guard": "Do not invent residual B5N/B6N combat strength without a dated unit/base source.",
+      "confidence": "HIGH"
+    },
+    "carrier_air_commitment": {
+      "first_line_carriers": 0,
+      "secondary_carriers": "NO_AUTOMATIC_COMMITMENT",
+      "mobile_seaplane_support": "Chitose/Chiyoda remain option-only unless a dated movement is posted.",
+      "guard": "Any commitment requires explicit Pacific opportunity-cost debit."
+    },
+    "dedicated_ASW_air": "See 97_SESSION_CLEANED_2026-08-30/AIR/JAPAN_INDIAN_OCEAN_ASW_AIR_CAPABILITY_1944-02-19_22_WORKING_v001.json"
+  },
+  "environment_and_C2": {
+    "weather": "EVENT_TIME_REQUIRED",
+    "observation_network": "Use 06_RUNTIME/ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+    "contact_state_rule": "cue != track != maintained datum != weapon-quality contact",
+    "airfield_and_deck_damage": "Apply only if a dated event posts degradation; do not silently carry generic damage forward.",
+    "night_operations": "Night capability is role/unit specific and not inferred from daytime sortie bands."
+  },
+  "cross_theater_debits": {
+    "Central_Pacific": [
+      "331 retained west means no simultaneous Pacific credit",
+      "705 remains west through this event window only; later transfer must be posted",
+      "551 Tenzan already debited from Indian Ocean and credited eastward"
+    ],
+    "Burma_land_support": [
+      "5th Air Division western package is a subset, not additive to theater total"
+    ],
+    "Allied": [
+      "Illustrious shore and carrier aircraft are the same aircraft; no double counting across embarkation state"
+    ]
+  },
+  "event_local_adjudication_gate": {
+    "air_capability_reconstruction": "CLOSED_WITH_BANDS",
+    "still_required_before_each_result": [
+      "exact event time",
+      "weather/visibility",
+      "contact source and freshness",
+      "mission radius",
+      "runway/deck cycle",
+      "fuel/maintenance degradation",
+      "crew fatigue",
+      "local cross-theater tasking debit"
+    ],
+    "combat_use": "ALLOWED_WITH_EVENT_LOCAL_GATES"
+  },
+  "provenance": {
+    "internal": [
+      "06_RUNTIME/BENGAL_ARAKAN_CHITTAGONG_1943-10_12_SETTLEMENT_v002.md",
+      "06_RUNTIME/ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+      "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v006.json",
+      "06_RUNTIME/PARALLEL_THEATER_STATE_1944-02-06T1800_WORKING_v002.json",
+      "97_SESSION_CLEANED_2026-08-30/RULES_ASW/ASW_RETROACTIVE_AND_FUTURE_ACTIVITY_GUARD_1943_1944Q1_WORKING_v002.json"
+    ],
+    "external_anchor_urls": [
+      "https://www.rafweb.org/Members%20Pages/Orders%20of%20Battle/1944/1944_01_SEAC.htm",
+      "https://www.naval-history.net/xDKWD-EF1943Dec-Apr1944.htm",
+      "https://www.royalnavyresearcharchive.org.uk/SQUADRONS/1833_Squadron.htm",
+      "https://www.combinedfleet.com/Kaiyo.htm"
+    ],
+    "source_quality_note": "External sources establish organization/location/nominal transfer anchors. Readiness and sortie values are intentionally broad branch planning bands, not claimed historical exacts."
+  }
+}

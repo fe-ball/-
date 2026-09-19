@@ -1,0 +1,6 @@
+date,front,event,worldline_decision,asai_effect,status
+1937-09-11,Shanghai,heavy Japanese attack Lotien-Woosung under artillery barrage,SAME_ATTACK_DATE,naval_fire_cycle_and_artillery_readiness_small_positive,CLOSED
+1937-09-11,Shanghai,continued landing of troops artillery and supplies,SAME_PHYSICAL_FLOW,unloaded_equipment_ready_fraction_small_positive,CLOSED
+1937-09-12,North_China,14th Division main concentration completed,SAME_DATE,repair_and_unloading_quality_only,CLOSED
+1937-09-11_to_14,North_China,1st Army schedules offensive for 14 September,SAME_COMMAND_TIMING,none_material_to_decision,CLOSED
+1937-09-13,Dual_Front,pre-offensive readiness state,SAME_STRATEGIC_GEOMETRY,minor_lower_maintenance_debt,CLOSED

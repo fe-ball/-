@@ -1,0 +1,13 @@
+{
+  "revision": "v001",
+  "id": "CHINA_AIR_LOSS_BAND_RECONCILIATION_1944-05-01_10_v001",
+  "status": "CLARIFICATION_NO_NEW_LOSS_DEBIT",
+  "as_of": "1944-05-18T24:00:00+09:00",
+  "parents": [
+    "ICHIGO_HUNAN_PHASE_A_1944-05-01_10_WORKING_v001",
+    "CHINA_14AF_HUNAN_INTERDICTION_1944-05-01_10_WORKING_v001"
+  ],
+  "issue": "The 1-10 May Phase-A file records a narrower direct combat subset (Japan 8-12; Allied/Chinese 8-13), while the theater interdiction file records broader irrecoverable losses including operational/interdiction activity (Japan 12-18; Allied/Chinese 10-16).",
+  "resolution": "Treat the larger theater bands as the accounting bands for 1-10 May. Treat the narrower phase bands as direct Phase-A combat subset descriptors only. DO NOT add the two bands together.",
+  "new_debit": false
+}

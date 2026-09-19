@@ -1,0 +1,101 @@
+{
+  "id": "FLINTLOCK_US_COUNTERSTRIKE_AND_02FEB_POSTSTATE_REAUDIT_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-02T08:20..24:00+12:00",
+  "US_counterstrike": {
+    "source": "TG58.1/TG58.3 after return-bearing/search localization of Japanese four-carrier force",
+    "launch_window": "08:45-09:35",
+    "strike_band": [
+      160,
+      180
+    ],
+    "center": 170,
+    "Japanese_effective_CAP_band": [
+      60,
+      74
+    ],
+    "CAP_note": "First-line CAP plus limited rear-deck relay/recovery depth; no fixed-base A-grade GCI bonus at sea.",
+    "effective_release_band": [
+      68,
+      84
+    ]
+  },
+  "centered_damage": {
+    "Hiryu": "One bomb hit plus damaging near miss centered; flight operations stop for the day, propulsion/waterline integrity retained.",
+    "Soryu": "Light splinter/near-miss damage centered; continues flight operations at reduced efficiency.",
+    "Shokaku_Zuikaku": "No material mission kill centered."
+  },
+  "counterstrike_losses": {
+    "US_irrecoverable_band": [
+      27,
+      35
+    ],
+    "center": 31,
+    "Japan_CAP_recon_irrecoverable_band": [
+      23,
+      30
+    ],
+    "center_Japan": 26
+  },
+  "carrier_air_cumulative_2Feb": {
+    "Japan_irrecoverable_band": [
+      78,
+      94
+    ],
+    "center": 56,
+    "US_irrecoverable_band": [
+      49,
+      64
+    ],
+    "note": "Japanese total includes offensive strike plus CAP/recon losses; local Marshall land-air losses are accounted separately."
+  },
+  "Marshall_afternoon": {
+    "reason": "Carrier exchange diverts/desynchronizes part of the second-day TF58 suppression wallet; Gilbert land air continues.",
+    "TF58_suppression_sorties_band": [
+      90,
+      120
+    ],
+    "Gilbert_sorties_band": [
+      45,
+      58
+    ],
+    "Japan_local_irrecoverable_band": [
+      12,
+      18
+    ],
+    "US_local_suppression_irrecoverable_band": [
+      6,
+      9
+    ],
+    "state_T24": {
+      "Marshall_combat_serviceable_band": [
+        52,
+        62
+      ],
+      "center": 57,
+      "fighters_band": [
+        24,
+        30
+      ],
+      "attack_band": [
+        10,
+        14
+      ],
+      "water_recon_band": [
+        10,
+        14
+      ],
+      "C2": "Taroa/Roi mostly C+/C with intermittent local warning; water-air/rear nodes preserve some search and night movement."
+    }
+  },
+  "fleet_decisions": {
+    "Japan": "No second carrier strike. After recovery, Hiryu deck loss and heavy cadre attrition, Yamamoto turns west under CAP/rear-deck recovery cover.",
+    "US": "No immediate deep chase. Cabot is campaign-out, Intrepid temporarily deck-limited, island suppression and amphibious timetable remain priority. Ten fast decks remain available once Intrepid recovers."
+  },
+  "state_2FebT24": {
+    "Japanese_first_line": "Shokaku/Zuikaku/Soryu operational; Hiryu flight operations disabled pending short repair assessment. Surviving air groups heavily cross-decked/reorganized.",
+    "Japanese_secondary": "Four rear decks remain intact and absorb orphan aircraft/recovery load; they do not erase aircrew cadre debt.",
+    "US_TF58": "Cabot out; Intrepid expected to recover near-normal deck cycle on a short clock if structural inspection is clean; other fast decks combat operational.",
+    "D_day": "1944-02-06 remains centerline; no automatic move yet."
+  }
+}

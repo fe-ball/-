@@ -1,0 +1,21 @@
+{
+  "id": "GALVANIC_FORTIFICATION_LOGISTICS_REOPEN_GATE_v001",
+  "status": "WORKING_REOPEN_GATE_NOT_SUPERSESSION",
+  "reason": "v047 ground rollback restored land hardware/vehicle execution but did not test Branch-specific delivered construction material and plant envelope before D-Day.",
+  "current_settlement": "06_RUNTIME/GALVANIC_BRANCH_B_1943-11_SETTLEMENT_v004.md",
+  "reopen_from": "pre-battle construction/logistics state before 1943-11-23 Nauru suppression",
+  "do_not_change_yet": [
+    "realized battle outcomes",
+    "carrier battle results",
+    "submarine/surface results",
+    "strategic ownership"
+  ],
+  "next_required_outputs": [
+    "1943-11-23 island fortification/base-function ledger",
+    "Nauru suppression reaudit",
+    "Marshall/Gilbert air-and-water-air suppression ledger",
+    "Tarawa prelanding survival ledger",
+    "Makin ground/base reaudit",
+    "Tarawa D-Day v005 candidate"
+  ]
+}

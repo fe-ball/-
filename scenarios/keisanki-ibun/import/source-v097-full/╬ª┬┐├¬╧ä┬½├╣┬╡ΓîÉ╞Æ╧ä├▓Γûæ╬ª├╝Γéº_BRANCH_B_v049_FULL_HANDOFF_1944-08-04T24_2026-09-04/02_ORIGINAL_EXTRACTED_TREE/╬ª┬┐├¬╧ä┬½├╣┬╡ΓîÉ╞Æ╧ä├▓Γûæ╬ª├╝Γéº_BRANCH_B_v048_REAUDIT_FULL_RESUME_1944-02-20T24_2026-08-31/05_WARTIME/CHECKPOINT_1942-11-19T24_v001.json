@@ -1,0 +1,47 @@
+{
+  "revision": "v001",
+  "id": "CHECKPOINT_1942-11-19T24_v001",
+  "checkpoint_id": "CHECKPOINT_1942-11-19T24_v001",
+  "as_of": "1942-11-20T00:00:00",
+  "status": "authoritative",
+  "type": "LIMITED_FS_CLOSEOUT_CHECKPOINT",
+  "parent": "CHECKPOINT_1942-10-24T24_v001",
+  "parent_checkpoint": "CHECKPOINT_1942-10-24T24_v001",
+  "technical_baseline": "TECH_INDEX_v004",
+  "prewar_baseline": "PREWAR_INDEX_v004",
+  "current_branch_overrides": "00_CONFIG/current_branch_overrides_v001.json",
+  "state_sources": [
+    "06_RUNTIME/NEW_CALEDONIA_1942-10_SETTLEMENT_v001.md",
+    "06_RUNTIME/1942H2_STRATEGIC_SETTLEMENT_v001.md"
+  ],
+  "territory": {
+    "New_Caledonia": "Japanese military control of Noumea-Tontouta-La Foa-Bourail-Plaines des Gaiacs corridor; small peripheral residuals not strategically decisive",
+    "Espiritu_Santo": "Japanese-held"
+  },
+  "limited_FS_policy": "closed; Fiji/Samoa postponed without date; South Pacific shifts to defense/base operations/recon/submarines/training",
+  "new_caledonia_governance": "Vichy nominal sovereignty/civil administration; Japanese military control of ports/airfields/external traffic; strategic minerals purchased by contract/barter",
+  "shipping_release": "15-22 large transports released from assault concentration; 3-5 tanker/oiler concentration demand released, while permanent base sustainment remains",
+  "next_gate": "1942 year-end Five-Go approval and 1943 Jan-Feb preparation; no automatic new South Pacific offensive.",
+  "technical_entries": [
+    "TECH-AIR-NAV-REPORT-I-O-001",
+    "TECH-SEARCH-MULTILAYER-001",
+    "TECH-AIR-MEDIAN-RELIABILITY-001",
+    "TECH-AIR-GUN-FIGHTER-001",
+    "TECH-AIR-BOMB-LEVEL-POINT-001",
+    "TECH-AIR-BOMB-LEVEL-AREA-001",
+    "TECH-AIR-DIVE-FIXED-001",
+    "TECH-RADAR-1942-HUMANLOOP-001",
+    "TECH-LANDING-PACKAGE-001",
+    "TECH-AMPHIBIOUS-FIRSTDAY-001",
+    "TECH-ASW-CONTACT-HANDOFF-001",
+    "TECH-ASW-FOCUSED-CONVOY-1942-001",
+    "TECH-LOG-ASSET-UPTIME-ACCOUNTING-001",
+    "TECH-LOG-STANDARD-SHIP-I-001",
+    "TECH-INDUSTRIAL-STEEL-ADAPTATION-1940-42-001",
+    "TECH-GUNFIRE-SURFACE-1942-001",
+    "TECH-TORPEDO-SURFACE-ACCURACY-001",
+    "TECH-SURFACE-SPEED-ROBUSTNESS-001"
+  ],
+  "execution_valid": true,
+  "current_restart": false
+}

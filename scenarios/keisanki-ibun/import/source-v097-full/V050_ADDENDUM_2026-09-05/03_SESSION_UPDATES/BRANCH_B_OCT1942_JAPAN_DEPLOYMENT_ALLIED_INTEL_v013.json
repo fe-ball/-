@@ -1,0 +1,83 @@
+{
+  "title": "BRANCH B 1942年10月 日本配備変化 / 連合軍目標推定台帳 v013",
+  "status": "WORKING-PROMOTED CURRENT",
+  "core_rule": "Japanese actual intent may be New Caledonia from 1 Oct, but Allied target identification remains probabilistic until final convoy/search geometry.",
+  "distances_nm_from_santo": {
+    "Efate": 162,
+    "Noumea": 415,
+    "Suva_Fiji": 681,
+    "Tonga": 1073,
+    "Samoa": 1240
+  },
+  "allied_target_estimate": {
+    "1942-10-01": {
+      "New_Caledonia": 30,
+      "Efate": 30,
+      "Fiji_axis": 15,
+      "fleet_raid_other": 25
+    },
+    "1942-10-10": {
+      "New_Caledonia": 35,
+      "Efate": 25,
+      "Fiji_axis": 15,
+      "fleet_raid_other": 25
+    },
+    "1942-10-20": {
+      "New_Caledonia": 45,
+      "Efate": 20,
+      "Fiji_axis": 15,
+      "fleet_raid_other": 20
+    },
+    "1942-10-28": {
+      "New_Caledonia": 55,
+      "Efate": 15,
+      "Fiji_axis": 10,
+      "fleet_raid_other": 20
+    },
+    "1942-11-03": {
+      "New_Caledonia": 65,
+      "Efate": 10,
+      "Fiji_axis": 10,
+      "fleet_raid_other": 15
+    },
+    "1942-11-06_pre_course_confirmation": {
+      "New_Caledonia": [
+        70,
+        75
+      ],
+      "Efate": [
+        5,
+        10
+      ],
+      "Fiji_axis": [
+        5,
+        10
+      ],
+      "fleet_raid_other": [
+        10,
+        15
+      ]
+    },
+    "D_minus_2_to_D_minus_1": {
+      "New_Caledonia": [
+        85,
+        95
+      ]
+    }
+  },
+  "deployment_principles": [
+    "Do not mass all main carriers visibly at Santo",
+    "Use Truk for heavy reserve, work-up and fleet command",
+    "Use Santo for land air, support carriers, convoy staging and tankers",
+    "Disperse assault shipping until late October",
+    "Keep Yamato/Mutsu at Truk unless U.S. battle-line intelligence triggers movement",
+    "Maintain Efate and some Fiji pressure to preserve natural ambiguity"
+  ],
+  "strong_target_indicators": [
+    "25,000-35,000-man amphibious shipping scale",
+    "detailed Noumea/Tontouta reconnaissance",
+    "Australia-Noumea and Noumea-Efate submarine geometry",
+    "Santo-to-New-Caledonia tanker/landing-craft pattern",
+    "army assault formations loading"
+  ]
+}

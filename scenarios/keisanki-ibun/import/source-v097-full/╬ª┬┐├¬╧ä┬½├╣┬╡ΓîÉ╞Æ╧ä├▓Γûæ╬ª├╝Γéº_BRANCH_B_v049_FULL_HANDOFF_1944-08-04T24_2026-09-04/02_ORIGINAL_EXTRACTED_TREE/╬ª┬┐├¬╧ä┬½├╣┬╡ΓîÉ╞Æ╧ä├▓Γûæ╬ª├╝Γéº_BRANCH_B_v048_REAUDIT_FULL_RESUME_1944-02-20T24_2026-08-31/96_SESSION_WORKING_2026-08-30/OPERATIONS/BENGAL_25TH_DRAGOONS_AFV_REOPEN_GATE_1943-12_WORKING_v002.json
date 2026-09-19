@@ -1,0 +1,73 @@
+{
+  "revision": "v002",
+  "id": "BENGAL_25TH_DRAGOONS_AFV_REOPEN_GATE_1943-12_WORKING_v002",
+  "status": "WORKING_REOPEN_REQUIRED_NOT_CURRENT",
+  "supersedes": "BENGAL_25TH_DRAGOONS_AFV_REOPEN_GATE_1943-12_WORKING_v001",
+  "correction": "v001 over-credited rapid Lee/Grant forward deployment by noticing the regiment's historical Dec-1943 transfer but underweighting the Branch destruction of its access routes by Japanese old-battleship bombardment, Japanese territorial advance, and British demolitions.",
+  "fixed_branch_obstacles": {
+    "historical_Ukhia_landing_route": "LOST: Ukhia already Japanese-held by mid-November.",
+    "reroute": "Incoming 25th Dragoons elements must be diverted toward Chittagong/Feni-side unloading and staging rather than landing south of the main river obstacles.",
+    "Karnaphuli": "A major mobility barrier for 30-ton Lee/Grant tanks; ferry/bridge capacity, approach roads and engineer time become hard gates.",
+    "old_battleship_rotation": "Fuso/Yamashiro and Ise/Hyuga conduct rotating heavy shore bombardment. Serious anti-port/fixed-target bombardment begins in the 5-7 Dec window and disrupts port handling, road junctions, approach routes, engineer work and vehicle concentration.",
+    "British_demolition": "Kalurghat bridge is demolished on 11 Dec after rear guards cross; this closes a major crossing rather than creating a convenient armored withdrawal/commitment route.",
+    "air_artillery_pressure": "Japanese air/artillery observation further discourages daylight concentration of large, high-silhouette Lee tanks."
+  },
+  "working_arrival_and_mobility_band": {
+    "physical_regimental_elements_reaching_Chittagong_Feni_staging_by_5_10_Dec": [
+      22,
+      40
+    ],
+    "serviceable_unloaded_or_rail_road_ready": [
+      16,
+      30
+    ],
+    "able_to_reach_south_or_immediate_front_before_route_disruption": [
+      0,
+      8
+    ],
+    "center_forward_before_8_Dec": 4,
+    "available_for_Karnaphuli_Chittagong_local_counterattack_11_14_Dec": [
+      5,
+      12
+    ],
+    "center_local_counterattack": 8,
+    "held_north_or_stranded_route_constrained": [
+      10,
+      24
+    ],
+    "note": "These are event bands, not a reconstructed regimental tank return. Exact squadron shipping/unloading diaries remain required."
+  },
+  "combat_role_revised": {
+    "Dohazari_Sangu_Patiya": "No regiment-scale Lee intervention centered. At most a very small packet appears, and zero is entirely plausible.",
+    "Karnaphuli_Chittagong": "The more plausible contact window. Small Lee packets can act as local mobile strongpoints/counterattack guns on usable road segments, but cannot maneuver as a regiment.",
+    "Feni_post_Chittagong": "A substantial surviving portion may withdraw or remain north and become part of the later Feni/Comilla defensive arc."
+  },
+  "loss_and_intelligence_gate": {
+    "Lee_Grant_irrecoverable_abandoned_band_before_Chittagong_fall": [
+      1,
+      5
+    ],
+    "center": 3,
+    "temporary_mobility_kills_band": [
+      3,
+      8
+    ],
+    "technical_intelligence": "A captured/abandoned Lee remains plausible but not guaranteed. One recoverable wreck/components is the centered intelligence sensitivity, not a whole captured platoon.",
+    "implication": "Bengal can reinforce the Allied-30-ton/75mm-medium-tank warning, but GALVANIC and pre-existing intelligence remain necessary co-inputs."
+  },
+  "campaign_effect_expectation": {
+    "casualties": "Small-to-moderate upward correction to Japanese losses in the final Chittagong phase if Lee packets engage.",
+    "capture_date": "Current late-14-Dec/early-15-Dec window is more likely to survive than v001 suggested; Lee tanks may buy hours locally, not days, because their mobility network is being physically destroyed.",
+    "allied_AFV_loss": "Reopen composition and loss class, but do not assume the previous 5-10 total must increase dramatically; some new medium-tank presence substitutes for previously generic AFV accounting."
+  },
+  "historical_development_input": {
+    "lesson": "The key Tokyo-level message is not that Britain fielded a regiment-scale armored counteroffensive at Chittagong. It is that 30-ton Allied 75mm tanks are physically present in the India-Burma theater and even a small number are awkward for Japanese 37/47mm defense.",
+    "confidence": "MEDIUM, rising to MEDIUM-HIGH only if a wreck or detailed after-action examination is confirmed."
+  },
+  "next_required": [
+    "Trace 25th Dragoons squadron movement/unloading dates and heavy-vehicle transport route after the historical Ukhia destination becomes unavailable.",
+    "Overlay 5-7 Dec old-battleship bombardment target set and road/port damage.",
+    "Overlay Karnaphuli ferry/bridge load and British demolition timing.",
+    "Then re-adjudicate only the 2-15 Dec phase."
+  ]
+}

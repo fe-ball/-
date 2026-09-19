@@ -1,0 +1,77 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_AMPHIBIOUS_NAVAL_WALLET_1943-07_09_v001",
+  "status": "CURRENT_PLANNING_LEDGER",
+  "as_of": "1943-09-30T24",
+  "scope": "India/Bay of Bengal feasibility; ranges are working planning bands unless marked branch-fixed",
+  "method_notes": [
+    "Do not restore every historical Solomon loss automatically; Santo/New Caledonia substitute losses remain.",
+    "No historical Guadalcanal/Tokyo-Express attrition chain exists in this branch.",
+    "Fleet destroyers are not default cargo trucks; coast-defense/escort categories increasingly separate roles.",
+    "First-line carriers are not allocated to India central plan as of Sep 1943."
+  ],
+  "major_surface": {
+    "battleships_alive_after_mutsu_loss": 11,
+    "groups": {
+      "yamato_musashi_nagato": 3,
+      "kongo_hiei_haruna_kirishima": 4,
+      "fuso_yamashiro_ise_hyuga": 4
+    },
+    "india_use": "Old BB pair (Fuso/Yamashiro or Ise/Hyuga) is the first bombardment candidate; Kongo-class remains higher-value Pacific/fast-force asset unless Eastern Fleet reaction demands escalation."
+  },
+  "heavy_cruisers": {
+    "alive_planning_band": "about 18",
+    "ready_planning_band": "15-17",
+    "india_candidate": "3-6"
+  },
+  "fleet_destroyers": {
+    "alive_planning_band": "58-66",
+    "ready_planning_band": "50-58",
+    "india_first_wave_candidate": "10-16",
+    "note": "ranges require future individual-hull ledger closure; central concept is much healthier than historical Solomon attrition, not loss-free"
+  },
+  "escort_separation": {
+    "dedicated_kaibokan_mid_1943": "roughly 10-16 working band, rapidly increasing later in 1943",
+    "other_small_escorts": "old DD/torpedo boats/subchasers/minesweepers also available",
+    "effect": "routine low-speed convoy escort increasingly moves off fleet DDs; not complete separation yet"
+  },
+  "submarines": {
+    "branch_difference": "roughly +4 to +6 nominal boats vs historical state at late spring/early summer; effective patrol capacity materially higher",
+    "india_operation_candidate": "8-12 total including existing Indian Ocean allocation and temporary reinforcement",
+    "rule": "do not convert Cox's sustainment into submarine cargo traffic"
+  },
+  "specialized_landing_shipping": {
+    "akitsu_maru": "available candidate; ~20 Daihatsu historical capacity",
+    "nigitsu_maru": "available candidate; ~20 Daihatsu historical capacity",
+    "mayasan_maru": "available candidate; ~20 Daihatsu historical capacity",
+    "shinshu_maru": "repairing during summer; Sep-Oct return is a future gate, not current guaranteed availability",
+    "nisshin": "high branch-survival candidate because historical New Georgia loss event is absent; individual survival must still be ledger-checked",
+    "chitose_chiyoda": "remain seaplane tenders in branch; useful as mobile reconnaissance/maintenance support, not automatically landing carriers"
+  },
+  "landing_craft": {
+    "branch_change": "availability +7-12 percentage points; machinery/shaft failures -15-30%; calm-water cycle +10-15%, rough-water +3-10%; heavy equipment combat-ready 2-8h sooner",
+    "autumn_package_working_band": "100-130 operational landing/small craft across local stock and carried craft if preparation matures",
+    "warning": "not all craft can use one beach simultaneously; throughput is constrained by tides, concealment, unloading points and inland distribution"
+  },
+  "initial_transport_package": {
+    "special_landing_ships": "3-4",
+    "medium_large_transports": "6-10",
+    "fast_heavy_equipment_ship": "1-2",
+    "oiler_supply": "2-3",
+    "large_ship_total": "roughly 12-18",
+    "purpose": "one concentrated insertion, not a permanent large-merchant shuttle to Cox's"
+  },
+  "central_india_surface_package_sep1943": {
+    "first_line_carriers": 0,
+    "secondary_carriers": "0-2 base design, higher only after air-risk gate",
+    "old_battleships": 2,
+    "heavy_cruisers": "3-4",
+    "light_cruisers": "1-2",
+    "fleet_destroyers": "10-14",
+    "submarines": "8-10",
+    "special_landing_ships": "3-4",
+    "transports": "8-12 plus supporting oil/supply",
+    "coastal_escorts": "multiple kaibokan/subchasers/minesweepers/torpedo boats",
+    "first_line_carrier_rule": "Shokaku/Zuikaku/Hiryu/Soryu remain Pacific in central case"
+  }
+}

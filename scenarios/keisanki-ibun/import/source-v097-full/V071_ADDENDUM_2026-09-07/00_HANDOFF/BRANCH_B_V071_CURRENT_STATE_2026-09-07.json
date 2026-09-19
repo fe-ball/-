@@ -1,0 +1,62 @@
+{
+  "package_version": "v071_FULL",
+  "date": "2026-09-07",
+  "package_type": "FULL_SELF_CONTAINED",
+  "parent_full_archive": "計算機異聞_BRANCH_B_v070_FULL_HANDOFF_SANTO_PREBATTLE_CLOSED_D4_READY_2026-09-07.zip",
+  "resume": {
+    "date": "1942-07-23",
+    "phase": "SANTO_D4_EVENT_GENERATION",
+    "center_Santo_D_day": "1942-07-27",
+    "Santo_execution_band": [
+      "1942-07-25",
+      "1942-07-29"
+    ],
+    "prebattle_wallet": "CLOSED_V070_RETAINED",
+    "Allied_mirror": "CLOSED_V070_RETAINED",
+    "capability_snapshot": "CLOSED_V071",
+    "FS_capability_change_clock": "CLOSED_GATES_V071",
+    "Santo_event_results": "OPEN_FROM_D4",
+    "New_Caledonia_date": "OPEN_POST_SANTO_RESET"
+  },
+  "authority": {
+    "v070_named_wallet": "RETAINED",
+    "v070_forward_nodes": "RETAINED",
+    "v070_Allied_mirror": "RETAINED",
+    "v071_capability_snapshot": "CURRENT",
+    "v071_FS_change_clock": "CURRENT",
+    "old_Santo_1942_09_25": "SUPERSEDED",
+    "old_Santo_1942_07_19_20_v086": "PROVENANCE_ONLY",
+    "Operation_B_heavy_surface_raid": "CENTER_NOT_ACTIVATED",
+    "crypto_guard": "RETAINED"
+  },
+  "quick_capability_centers": {
+    "carrier_air_MR": 143,
+    "carrier_air_MR_band": [
+      135,
+      150
+    ],
+    "carrier_decks": [
+      "Zuikaku",
+      "Shokaku",
+      "Ryujo"
+    ],
+    "D4Y1C_MR": 3,
+    "long_range_land_air_direct_FS_MR": 22,
+    "flying_boats_MR": 6,
+    "forward_node_water_air_MR": 18,
+    "shipboard_floatplanes_MR": 16,
+    "sub_D4_effective": [
+      4,
+      5
+    ],
+    "sub_Dday_effective": [
+      6,
+      7
+    ],
+    "combat_AFV_booked": 0,
+    "cargo_trucks_serviceable": 40,
+    "prime_movers_serviceable": 12,
+    "engineer_machines_serviceable": 7
+  },
+  "critical_reset_rule": "After any D-4 or later event, carry actual losses/readiness forward. Never reset to the 7/23 centers before Santo->NC re-audit."
+}

@@ -1,0 +1,197 @@
+{
+  "revision": "v003",
+  "tech_index": "TECH_INDEX_v006",
+  "profiles": "EVENT_RELEVANCE_PROFILES_v003",
+  "domain_state_map": "DOMAIN_STATE_MAP_v002",
+  "generator": "build_event_handout_v005.py",
+  "test_count": 11,
+  "tests": [
+    {
+      "profile": "CARRIER_BATTLE",
+      "date": "1942-05-12",
+      "checkpoint": "CHECKPOINT_1942-05-11T24_v001",
+      "technical_baseline": "TECH_INDEX_v003",
+      "entry_count": 43,
+      "missing_mandatory_tech": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_active": [
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001",
+        "TECH-SUB-KOU-FIRSTGEN-001"
+      ],
+      "execution_blocked": false,
+      "result": "PASS"
+    },
+    {
+      "profile": "SURFACE_NIGHT",
+      "date": "1942-11-20",
+      "checkpoint": "CHECKPOINT_1942-11-19T24_v001",
+      "technical_baseline": "TECH_INDEX_v004",
+      "entry_count": 36,
+      "missing_mandatory_tech": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_active": [
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001",
+        "TECH-SUB-KOU-FIRSTGEN-001"
+      ],
+      "execution_blocked": false,
+      "result": "PASS"
+    },
+    {
+      "profile": "CONVOY",
+      "date": "1942-09-03",
+      "checkpoint": "CHECKPOINT_1942-09-02T24_v001",
+      "technical_baseline": "TECH_INDEX_v004",
+      "entry_count": 41,
+      "missing_mandatory_tech": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_active": [
+        "TECH-ASW-LAYERED-1943-001",
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001",
+        "TECH-SUB-KOU-FIRSTGEN-001"
+      ],
+      "execution_blocked": false,
+      "result": "PASS"
+    },
+    {
+      "profile": "SUBMARINE",
+      "date": "1942-09-03",
+      "checkpoint": "CHECKPOINT_1942-09-02T24_v001",
+      "technical_baseline": "TECH_INDEX_v004",
+      "entry_count": 32,
+      "missing_mandatory_tech": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_active": [
+        "TECH-ASW-LAYERED-1943-001",
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001",
+        "TECH-SUB-KOU-FIRSTGEN-001"
+      ],
+      "execution_blocked": false,
+      "result": "PASS"
+    },
+    {
+      "profile": "AMPHIBIOUS",
+      "date": "1942-05-12",
+      "checkpoint": "CHECKPOINT_1942-05-11T24_v001",
+      "technical_baseline": "TECH_INDEX_v003",
+      "entry_count": 39,
+      "missing_mandatory_tech": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_active": [
+        "TECH-ASW-LAYERED-1943-001",
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001",
+        "TECH-SUB-KOU-FIRSTGEN-001"
+      ],
+      "execution_blocked": false,
+      "result": "PASS"
+    },
+    {
+      "profile": "LAND_AIR",
+      "date": "1942-05-12",
+      "checkpoint": "CHECKPOINT_1942-05-11T24_v001",
+      "technical_baseline": "TECH_INDEX_v003",
+      "entry_count": 31,
+      "missing_mandatory_tech": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_active": [
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001"
+      ],
+      "execution_blocked": false,
+      "result": "PASS"
+    },
+    {
+      "profile": "AIRFIELD_ATTACK",
+      "date": "1942-05-12",
+      "checkpoint": "CHECKPOINT_1942-05-11T24_v001",
+      "technical_baseline": "TECH_INDEX_v003",
+      "entry_count": 31,
+      "missing_mandatory_tech": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_active": [
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001"
+      ],
+      "execution_blocked": false,
+      "result": "PASS"
+    },
+    {
+      "profile": "BASE_DEFENSE",
+      "date": "1944-05-01",
+      "checkpoint": "CHECKPOINT_1944-04-30T24_v002",
+      "technical_baseline": "TECH_INDEX_v006",
+      "entry_count": 48,
+      "missing_mandatory_tech": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_active": [],
+      "execution_blocked": false,
+      "result": "PASS"
+    },
+    {
+      "profile": "FORAGER_GATE",
+      "date": "1944-05-01",
+      "checkpoint": "CHECKPOINT_1944-04-30T24_v002",
+      "technical_baseline": "TECH_INDEX_v006",
+      "entry_count": 57,
+      "missing_mandatory_tech": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_active": [],
+      "execution_blocked": false,
+      "result": "PASS"
+    },
+    {
+      "profile": "SPECIAL_STRIKE",
+      "date": "1944-05-31",
+      "checkpoint": "CHECKPOINT_1944-04-30T24_v002",
+      "technical_baseline": "TECH_INDEX_v006",
+      "entry_count": 39,
+      "missing_mandatory_tech": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_active": [],
+      "execution_blocked": false,
+      "result": "PASS"
+    },
+    {
+      "profile": "INDUSTRIAL_AIRCRAFT",
+      "date": "1944-05-01",
+      "checkpoint": "CHECKPOINT_1944-04-30T24_v002",
+      "technical_baseline": "TECH_INDEX_v006",
+      "entry_count": 18,
+      "missing_mandatory_tech": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_active": [],
+      "execution_blocked": false,
+      "result": "PASS"
+    }
+  ],
+  "temporal_gate_assertions": [
+    {
+      "tech_id": "TECH-AIR-COMBAT-MISSION-MATRIX-1944-001",
+      "expected_available_from": "1944-03-01",
+      "actual_available_from": "1944-03-01",
+      "result": "PASS"
+    },
+    {
+      "tech_id": "TECH-NICKEL-SELECTIVE-HOTTEMP-1943-44-001",
+      "expected_available_from": "1943-01-01",
+      "actual_available_from": "1943-01-01",
+      "result": "PASS"
+    },
+    {
+      "tech_id": "TECH-ASW-MAD-DATUM-LOCALIZATION-1943-44-001",
+      "expected_available_from": "1943-10-01",
+      "actual_available_from": "1943-10-01",
+      "result": "PASS"
+    },
+    {
+      "tech_id": "TECH-I400-SEIRAN-INTEGRATED-READINESS-1944-001",
+      "expected_available_from": "1944-03-01",
+      "actual_available_from": "1944-03-01",
+      "result": "PASS"
+    }
+  ],
+  "result": "PASS",
+  "findings": [
+    "All tested legacy/current event profiles resolve mandatory technical and semantic state requirements without UNKNOWN.",
+    "Current 1944 profiles consume CHECKPOINT_1944-04-30T24_v002 and TECH_INDEX_v006.",
+    "1943/44 additions carry machine-readable availability gates, preventing temporal back-port.",
+    "WARSTART state is fallback only when a selected checkpoint lacks local semantic state."
+  ]
+}

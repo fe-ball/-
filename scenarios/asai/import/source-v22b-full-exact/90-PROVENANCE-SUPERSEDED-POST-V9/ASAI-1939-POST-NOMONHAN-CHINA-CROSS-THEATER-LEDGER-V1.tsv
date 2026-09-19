@@ -1,0 +1,10 @@
+effective_date	flow	item	central_china	north_china	south_china	china_delta	status	note
+1939-08-31	guard	aggregate revised Nomonhan drain				0	CLOSED	Historical drains already in baseline
+1939-09-16	soviet_delta	Soviet aid/volunteer/equipment flow				0	CLOSED	No new Soviet strategic allocation threshold crossed
+1939-09-24/27	return	E5 Twin	6	2	0	+8 assigned	CLOSED	Post-ceasefire Manchuria return block
+1939-09-24/30	return	Ki-42	4	2	0	+6 assigned	CLOSED	Post-ceasefire Manchuria return block
+1939-late-Sep	return_state	59th Sentai Ki-27				+2 to +3 usable aircraft/crew eq	CLOSED	Whole sentai is historical return; only incremental surviving fraction counts
+1939-early/mid-Oct	return_state	64th + 31st Sentai			historical destination	+2 to +4 usable aircraft/crew eq	CLOSED	No major early-return date bonus
+1939-10-15	replacement	extra personnel				+0.3 to +0.5k cumulative	CLOSED	Replacement-system flow, not formed regiment
+1939-10-31	replacement	extra personnel				+1.2 to +1.6k cumulative	CLOSED	Part of saved replacement pool physically allocated to China
+1939-10-31	ground_return	tanks / major artillery / special-AP				0	CLOSED	Remain Manchuria/Home unless later allocation order exists

@@ -1,0 +1,857 @@
+path	layer	authority_status	domain_guess	size_bytes	first_heading
+00-START-HERE-2026-08-29-FULL-V3.md	late-2026-08-29-resume	CURRENT	cross-domain	1008	浅井世界線 — FULL HANDOFF 2026-08-29 V3
+ASAI-E3-E4-JET-FLIGHT-ORIGIN-V12.md	late-2026-08-29-resume	CURRENT	aviation;gas-turbine	10080	浅井世界線：E3→E4 初期GT航空実証の再試算 V12
+ASAI-EPOXY-FRP-CAPABILITY-LEDGER-V1.xlsx	late-2026-08-29-resume	CURRENT	materials	26296	
+ASAI-EPOXY-FRP-CAPABILITY-LEDGER-V2-COST.xlsx	late-2026-08-29-resume	CURRENT	materials	33240	
+ASAI-GT-FRONT-SCALE-RATING-PRODUCTS-V14-COST.xlsx	late-2026-08-29-resume	CURRENT	gas-turbine	46505	
+ASAI-SINGLE-REAR-JET-SIZING-V11.md	late-2026-08-29-resume	CURRENT	aviation	8161	浅井世界線：単発中央後部GT機 一次サイジング V11
+CURRENT-HANDOFF-NOTES-2026-08-29-FULL-V3.md	late-2026-08-29-resume	CURRENT	company	9710	浅井世界線 handoff notes — 2026-08-29 FULL V3
+CURRENT-PRECEDENCE-2026-08-29-FULL-V3.tsv	late-2026-08-29-resume	CURRENT	cross-domain	1429	
+CURRENT-STATE-2026-08-29-FULL-V3.json	late-2026-08-29-resume	CURRENT	cross-domain	1242	schema=asai-worldline-handoff-current-state-v3
+OPEN-QUEUE-2026-08-29-FULL-V3.md	outer-package	SUPPORT	cross-domain	1270	Open Queue — 2026-08-29 FULL V3
+PACKAGE-INVENTORY-2026-08-29-FULL-V3.tsv	outer-package	SUPPORT	cross-domain	1932	
+SHA256SUMS-2026-08-29-FULL-V3.txt	outer-package	SUPPORT	cross-domain	4283	
+archive-previous-overlay/CURRENT-HANDOFF-NOTES-2026-08-29-pre-naval-integration.md	archive-overlay	ARCHIVE	marine;company	3710	浅井世界線 handoff notes — 2026-08-29
+archive-previous-overlay/CURRENT-PRECEDENCE-2026-08-29.tsv	archive-overlay	ARCHIVE	cross-domain	2298	
+archive-previous-overlay/CURRENT-STATE-2026-08-29.json	archive-overlay	ARCHIVE	cross-domain	2492	schema=asai-worldline-handoff-current-state-v1
+archive-previous-overlay/DATA-ISSUE-REGISTER-2026-08-29.tsv	archive-overlay	ARCHIVE	cross-domain	2067	
+asai-worldline-20260828-v48r3-marine-gt-processed-handoff-v10.zip	outer-package	SUPPORT	marine;gas-turbine;company	7354483	
+nested/asai-worldline-v48r3-source-restored/00-START-HERE-2026-08-22.md	semantic-v48-support	BASE-SUPPORT	cross-domain	2390	浅井世界線・完全版入口 — semantic v48 / machine v48r3
+nested/asai-worldline-v48r3-source-restored/01-MATERIALS-MASTER-INDEX-2026-08-22.md	semantic-v48-support	BASE-SUPPORT	materials	16265	材料マスター索引（2026-08-22）
+nested/asai-worldline-v48r3-source-restored/02-COMPUTATION-MASTER-INDEX-2026-08-22.md	semantic-v48-support	BASE-SUPPORT	computation	14341	計算機・計算文化マスター索引（2026-08-22）
+nested/asai-worldline-v48r3-source-restored/03-OPEN-ISSUES-2026-08-22.md	semantic-v48-support	BASE-SUPPORT	cross-domain	3094	OPEN ISSUES — post-v48r3 source-restored
+nested/asai-worldline-v48r3-source-restored/04-INTEGRATION-AUDIT-2026-08-22.md	semantic-v48-support	BASE-SUPPORT	cross-domain	8473	計算機史統合リファクタリング監査（2026-08-22 / v4）
+nested/asai-worldline-v48r3-source-restored/05-AIRCRAFT-SHADOW-AUDIT-2026-08-22.md	semantic-v48-support	BASE-SUPPORT	aviation	9045	航空機 C/M/E/P/I/A 影機監査——v4入口（2026-08-22）
+nested/asai-worldline-v48r3-source-restored/06-AIRCRAFT-REBASELINE-P0-2026-08-22.md	semantic-v48-support	BASE-SUPPORT	aviation	6857	航空機史再基底化 P0 —— E共通帳簿・史実H→A・零戦第1号
+nested/asai-worldline-v48r3-source-restored/07-ENGINE-COMPUTATION-ORIGIN-P0-2026-08-22.md	semantic-v48-support	BASE-SUPPORT	computation	1600	発動機計算再基底化 P0-1（1923–28 浅井内部）
+nested/asai-worldline-v48r3-source-restored/08-ENGINE-COMPUTATION-EXTERNALIZATION-P0-2026-08-22.md	semantic-v48-support	BASE-SUPPORT	computation	1560	P0監査要約——1928–34 発動機計算の外販・吸収
+nested/asai-worldline-v48r3-source-restored/09-ENGINE-COMPUTATION-MATURATION-P0-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	computation	3951	P0監査要約——1934–37 発動機計算文化の成熟と系列分岐
+nested/asai-worldline-v48r3-source-restored/10-ENGINE-COMPETITION-ZUISEI-SAKAE-P0-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	cross-domain	4290	P0監査要約——1937–41 瑞星 vs 栄、零戦顧客下の発動機競争
+nested/asai-worldline-v48r3-source-restored/100-CAPABILITY-CONVERGENCE-METHOD-REBASELINE-V38-2026-08-26.md	machine-v48r3	MACHINE-CURRENT	cross-domain	846	100 — Capability Convergence / Long-Clock Rebaseline v38
+nested/asai-worldline-v48r3-source-restored/101-POST-V38-OPEN-AUDIT-V38R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	491	101 — Post-v38 Open Audit
+nested/asai-worldline-v48r3-source-restored/102-MACHINE-LAYER-REFRESH-V38R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	587	102 — Machine Layer Refresh v38r1
+nested/asai-worldline-v48r3-source-restored/103-PACKAGE-QA-V38R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	805	103 — Package QA v38r1
+nested/asai-worldline-v48r3-source-restored/104-E4-E5-HOT-SECTION-COMPONENT-LIFE-REBASELINE-V39-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	gas-turbine	22138	104 — E4/E5 Hot-section Component / Life Rebaseline — v39
+nested/asai-worldline-v48r3-source-restored/105-POST-V39-OPEN-AUDIT-V39R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1833	105 — post-v39 open audit — v39r1
+nested/asai-worldline-v48r3-source-restored/106-MACHINE-LAYER-REFRESH-V39R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1034	106 — Machine-layer refresh — v39r1
+nested/asai-worldline-v48r3-source-restored/107-PACKAGE-QA-V39R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	921	107 — Package QA — v39r1
+nested/asai-worldline-v48r3-source-restored/108-E4-E5-INSTALLED-CYCLE-REBASELINE-V40-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	gas-turbine	984	108 — E4/E5 installed-cycle rebaseline — v40
+nested/asai-worldline-v48r3-source-restored/109-POST-V40-OPEN-AUDIT-V40R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	2037	109 — post-v40 open audit — v40r1
+nested/asai-worldline-v48r3-source-restored/11-ZERO-ZUISEI-A0-P0-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	aviation	1576	P0監査要約——1939 十二試艦上戦闘機（A6M1）瑞星900/940馬力枝を機体へ戻す
+nested/asai-worldline-v48r3-source-restored/110-MACHINE-LAYER-REFRESH-V40R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	938	110 — Machine-layer refresh v40r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/111-PACKAGE-QA-V40R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1114	111 — Package QA v40r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/112-E4-E5-PRODUCT-MASSFLOW-SIZE-REBASELINE-V41-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	gas-turbine	1334	112 — E4/E5 product mass-flow / size rebaseline — v41
+nested/asai-worldline-v48r3-source-restored/113-POST-V41-OPEN-AUDIT-V41R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1803	113 — post-v41 open audit — v41r1
+nested/asai-worldline-v48r3-source-restored/114-MACHINE-LAYER-REFRESH-V41R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1015	114 — Machine-layer refresh v41r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/115-PACKAGE-QA-V41R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1141	115 — Package QA v41r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/116-E4-REGENERATION-INSTALLED-REBASELINE-V42-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	gas-turbine	1356	116 — E4 regeneration installed rebaseline — v42
+nested/asai-worldline-v48r3-source-restored/117-POST-V42-OPEN-AUDIT-V42R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1698	117 — post-v42 open audit — v42r1
+nested/asai-worldline-v48r3-source-restored/118-MACHINE-LAYER-REFRESH-V42R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1003	118 — Machine-layer refresh v42r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/119-PACKAGE-QA-V42R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1608	119 — Package QA v42r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/12-ZERO-A6M2-MATURATION-P0-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	aviation	1863	P0監査要約——A6M1→零式艦上戦闘機一一/二一型（A6M2）の成熟日程
+nested/asai-worldline-v48r3-source-restored/120-E5-E6-COMPRESSOR-OPERABILITY-REBASELINE-V43-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	gas-turbine	1452	120 — E5/E6 compressor operability rebaseline — v43
+nested/asai-worldline-v48r3-source-restored/121-POST-V43-OPEN-AUDIT-V43R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1599	121 — post-v43 open audit — v43r1
+nested/asai-worldline-v48r3-source-restored/122-MACHINE-LAYER-REFRESH-V43R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1132	122 — Machine-layer refresh v43r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/123-PACKAGE-QA-V43R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1546	123 — Package QA v43r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/124-E6-INSTALLED-CYCLE-PRODUCT-POWER-REBASELINE-V44-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	gas-turbine	8094	124 — E6 installed-cycle / product-power rebaseline — v44
+nested/asai-worldline-v48r3-source-restored/125-POST-V44-OPEN-AUDIT-V44R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1725	125 — post-v44 open audit — v44r1
+nested/asai-worldline-v48r3-source-restored/126-MACHINE-LAYER-REFRESH-V44R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1349	126 — Machine-layer refresh v44r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/127-PACKAGE-QA-V44R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1736	127 — Package QA v44r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/128-E6-S-AIRCRAFT-H-TO-A-REBASELINE-V45-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	aviation;gas-turbine	7400	128 — E6-S aircraft H→A rebaseline — v45
+nested/asai-worldline-v48r3-source-restored/129-POST-V45-OPEN-AUDIT-V45R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	991	129 — Post-v45 open audit — v45r1
+nested/asai-worldline-v48r3-source-restored/13-ZERO-FUEL-HISTORY-P0-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	aviation	3933	P0監査要約——栄一二型 vs 瑞星940馬力級の燃費/温度と初期零戦史料揺れ
+nested/asai-worldline-v48r3-source-restored/130-MACHINE-LAYER-REFRESH-V45R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1198	130 — Machine-layer refresh v45r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/131-PACKAGE-QA-V45R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1503	131 — Package QA v45r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/132-E6-M-JF-INSTALLED-THRUST-REBASELINE-V46-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	gas-turbine	1739	132 — E6-M-J / JF installed-thrust rebaseline — v46
+nested/asai-worldline-v48r3-source-restored/133-POST-V46-OPEN-AUDIT-V46R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1054	133 — Post-v46 open audit — v46r1
+nested/asai-worldline-v48r3-source-restored/134-MACHINE-LAYER-REFRESH-V46R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1573	134 — Machine-layer refresh v46r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/135-PACKAGE-QA-V46R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1659	135 — Package QA v46r1 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/138-AVIATION-HISTORY-RESET-CORE-REPOSITION-V48-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	aviation;gas-turbine	1046	v48 航空史リセット／コア再配置
+nested/asai-worldline-v48r3-source-restored/139-POST-V48-OPEN-AUDIT-V48R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	3020	OPEN ISSUES — post-v48r1
+nested/asai-worldline-v48r3-source-restored/14-ZERO-A6M3-ENGINE-STRUCTURE-P0-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	aviation	2266	P0監査要約——1941 A6M3 発動機競争・高速構造・量産形
+nested/asai-worldline-v48r3-source-restored/140-MACHINE-LAYER-REFRESH-V48R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	910	v48r1 machine-layer refresh
+nested/asai-worldline-v48r3-source-restored/141-PACKAGE-QA-V48R1-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1431	v48r1 package QA
+nested/asai-worldline-v48r3-source-restored/142-SOURCE-RESTORE-INTEGRITY-V48R3-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1792	142 — v48r3 source restore / integrity repair — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/143-PACKAGE-QA-V48R3-2026-08-26.md	semantic-v48-support	BASE-SUPPORT	cross-domain	699	143 — Package QA v48r3 — 2026-08-26
+nested/asai-worldline-v48r3-source-restored/15-SUBMARINE-REBASELINE-P0-1927-33-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	marine	969	P0 潜水艦再基底化 — 1927–33
+nested/asai-worldline-v48r3-source-restored/16-SUBMARINE-MATURATION-P0-1934-37-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	marine	1325	P0 潜水艦再基底化 — 1934–37
+nested/asai-worldline-v48r3-source-restored/17-SUBMARINE-AIRCRAFT-P0-1929-41-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	aviation;marine	1574	P0要約 — 潜水艦搭載機 1929–41
+nested/asai-worldline-v48r3-source-restored/18-SUBMARINE-SERIES-P0-1938-41-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	marine	1350	1938–41 潜水艦系列 P0監査要約
+nested/asai-worldline-v48r3-source-restored/19-SUBMARINE-PROPULSION-P0-1940-43-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	marine	1227	19 — 潜水艦主機合理化 P0 1940–43（v20）
+nested/asai-worldline-v48r3-source-restored/20-SUBMARINE-UNDERWATER-P0-1938-43-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	marine	1902	20 — 潜水艦水中系 P0 1938–43（v21）
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/00-NEXT-CHAT-START-HERE.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	5660	2026-08-27 Marine GT / naval adoption handoff — START HERE
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/01-WORKING-ENGINE-LEDGER.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	7739	Working engine ledger — marine GT discussion through 2026-08-27
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/02-MARINE-IMPLEMENTATION-WORKING.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	5939	Marine implementation working state — OPEN unless stated otherwise
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/03-CARRIER-WORKING-CALCULATIONS.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;computation;company	4913	Carrier GT working calculations — NOT adoption canon
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/04-FUEL-POOL-WORKING.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4263	Fuel-pool working model — GT / turbo-diesel / steam / aviation
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/05-OPEN-CLOSED-MATRIX.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2631	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/06-ENGINE-SCALE-WORKING.csv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1020	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/07-TAIYO-WORKING-CALC.csv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	574	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/08-HISTORICAL-CROSSWALK-SEED.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1649	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/09-NEXT-CHAT-CHECKLIST.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1058	Next-chat checklist
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/10-HISTORICAL-TECH-CROSSWALK-V1.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	9428	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/100-PROCESS-STATE-V7.json	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2856	schema=asai-marine-gt-processing-state-v7
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/101-PROCESS-VALIDATION-REPORT-V7.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1576	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/102-EVIDENCE-AND-HISTORY-CLASS-TAXONOMY-V8.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3445	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/103-MARINE-GT-CLAIM-BOUNDARY-REGISTER-V8.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	6016	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/104-HISTORY-PROMOTION-AND-STOP-RULES-V8.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2672	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/105-ENGINEERING-VS-HISTORY-AUTHORITY-MATRIX-V8.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1530	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/106-MARINE-GT-DECISION-FRONTIER-V8.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2458	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/107-MARINE-GT-REWORK-QUEUE-V8.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2176	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/108-V8-BOUNDARY-NOTES.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3940	Marine GT V8 — engineering/history boundary hardening
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/109-MARINE-GT-PRECEDENCE-OVERLAY-V8.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1732	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/11-CROSSWALK-DECISION-PASS1.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4128	Crosswalk decision pass 1 — 2026-08-27
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/110-PROCESSED-START-HERE-V8.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1720	Marine GT processed handoff — START HERE V8
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/111-PROCESS-STATE-V8.json	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2543	schema=asai-marine-gt-processing-state-v8
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/112-PROCESS-VALIDATION-REPORT-V8.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1806	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/113-POWER-STATION-ACCOUNTING-CORRECTION-V9.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2189	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/114-LL20-R2-TECHNICAL-PACKAGE-V9.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	5111	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/115-LL20-R2-FACILITY-AND-TEST-LOADS-V9.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3032	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/116-E6-M-MARINE-BOOST-ROLE-QUALIFICATION-V9.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;turbo-boost;company	3283	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/117-TAIYO-DUAL-PATH-COMMON-INTERFACE-V9.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4606	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/118-MARINE-GT-REWORK-QUEUE-V9.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2457	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/119-V9-TECHNICAL-NOTES.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4953	Marine GT V9 — technical continuation inside the V8 history stop line
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/12-MARINE-LARGE-SCALE-AUDIT-V1.py	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4783	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/120-MARINE-GT-PRECEDENCE-OVERLAY-V9.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1342	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/121-PROCESSED-START-HERE-V9.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1326	Marine GT processed handoff — START HERE V9
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/122-PROCESS-STATE-V9.json	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2818	schema=asai-marine-gt-processing-state-v9
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/123-PROCESS-VALIDATION-REPORT-V9.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2501	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/124-E5-QUALIFICATION-CRAFT-TECHNICAL-DOSSIER-V10.tsv	marine-V10-current	CURRENT-MARINE	marine;gas-turbine;company	4820	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/125-E5-QUALIFICATION-CRAFT-DELETION-AND-CLOSURE-LEDGER-V10.tsv	marine-V10-current	CURRENT-MARINE	marine;gas-turbine;company	2422	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/126-TEST-PLATFORM-INFORMATION-COVERAGE-MATRIX-V10.tsv	marine-V10-current	CURRENT-MARINE	marine;gas-turbine;company	1601	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/127-TEST-PLATFORM-MARGINAL-VALUE-AND-ACTIVATION-GATES-V10.tsv	marine-V10-current	CURRENT-MARINE	marine;gas-turbine;company	2604	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/128-MARINE-EVIDENCE-PRIMARY-SECONDARY-METHOD-V10.tsv	marine-V10-current	CURRENT-MARINE	marine;gas-turbine;company	2372	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/129-MARINE-GT-REWORK-QUEUE-V10.tsv	marine-V10-current	CURRENT-MARINE	marine;gas-turbine;company	2162	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/13-MARINE-LARGE-SCALE-AUDIT-V1.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3591	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/130-V10-TECHNICAL-NOTES.md	marine-V10-current	CURRENT-MARINE	marine;gas-turbine;company	3835	Marine GT V10 — qualification-craft dossier and test-platform information value
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/131-MARINE-GT-PRECEDENCE-OVERLAY-V10.tsv	marine-V10-current	CURRENT-MARINE	marine;gas-turbine;company	1388	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/132-PROCESSED-START-HERE-V10.md	marine-V10-current	CURRENT-MARINE	marine;gas-turbine;company	2625	Marine GT processed handoff V10 — start here
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/133-PROCESS-STATE-V10.json	marine-V10-current	CURRENT-MARINE	marine;gas-turbine;company	2888	schema=asai-marine-gt-processing-state-v10
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/134-PROCESS-VALIDATION-REPORT-V10.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2838	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/14-MARINE-LARGE-SCALE-AUDIT-NOTES-V1.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3368	Marine large-scale audit notes V1 — 2026-08-27
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/15-TAIYO-WORKING-RECALC-V2.csv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	728	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/16-LARGE-CORE-AVAILABILITY-GATES-V1.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2054	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/17-E6-TORPEDO-BOAT-DECISION-V1.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company;weapons-systems	2549	E6 torpedo-boat decision V1 — 2026-08-27
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/18-TEST-PLATFORM-DECISION-V1.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3309	Marine GT test-platform decision V1 — 2026-08-27
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/19-CARRIER-BOOST-COMPARISON-V1.csv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;turbo-boost;company	5815	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/20-CARRIER-DECISION-PASS1.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	6448	Carrier propulsion decision pass 1 — 2026-08-27
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/21-FUEL-IMPORT-EVIDENCE-V1.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1742	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/22-FUEL-DEMAND-SENSITIVITY-V1.csv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1488	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/23-FUEL-POLICY-PASS1.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4482	Marine/aviation turbine fuel policy pass 1 — 2026-08-27
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/24-MOMI-MARINE-TEST-PROGRAM-V1.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1870	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/25-LARGE-MARINE-LAND-RIG-GATES-V1.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1512	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/26-OPEN-CLOSED-MATRIX-PASS2.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3642	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/27-E6-TORPEDO-PROTOTYPE-CLOSURE-V2.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company;weapons-systems	2915	E6 large-MTB prototype closure V2 — 2026-08-27
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/28-OPEN-CLOSED-MATRIX-PASS3.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3853	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/29-MARINE-GT-PRECEDENCE-OVERLAY-V1.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2770	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/30-PROCESSED-START-HERE.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	5250	Marine GT processed handoff — START HERE — 2026-08-27
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/31-PROCESS-STATE.json	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	6869	schema=asai-marine-gt-processing-state-v1
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/32-PROCESS-VALIDATION-REPORT.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2900	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/33-DECISION-FRAMEWORK-REFRAME-V2.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	5646	Marine GT decision-framework reframe V2 — 2026-08-27
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/34-MARINE-GT-LAYERED-DECISION-MATRIX-V2.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	5872	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/35-ADOPTION-REOPEN-NOTES-V2.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	5155	Marine GT adoption reopen notes V2 — 2026-08-27
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/36-MARINE-GT-PRECEDENCE-OVERLAY-V2.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2188	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/37-PROCESSED-START-HERE-V2.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4383	Marine GT processed handoff V2 — START HERE — 2026-08-27
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/38-PROCESS-VALIDATION-REPORT-V2.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2594	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/39-PROCESS-STATE-V2.json	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1741	schema=asai-marine-gt-processing-state-v2
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/40-RESEARCH-TO-PRODUCT-STAGE-LEDGER-V3.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	6165	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/41-E4-E6-INHERITANCE-LEDGER-V3.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	5584	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/42-NAVAL-DESIGN-PROCUREMENT-BASELINE-V3.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3624	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/43-MARINE-GT-REWORK-QUEUE-V3.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3617	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/44-UNIT-POWER-DEMAND-SEED-V3.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3845	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/45-UPSTREAM-REFRAME-NOTES-V3.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4292	Marine GT upstream ledger reframe V3 — 2026-08-28
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/46-PROCESSED-START-HERE-V3.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2842	Marine GT processed handoff V3 — START HERE — 2026-08-28
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/47-MARINE-GT-PRECEDENCE-OVERLAY-V3.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2993	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/48-PROCESS-STATE-V3.json	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2609	schema=asai-marine-gt-processing-state-v3
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/49-PROCESS-VALIDATION-REPORT-V3.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2666	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/50-NUMERIC-DERIVATION-DISCIPLINE-V4.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4582	Marine GT V4 — numeric derivation discipline
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/51-E5-MARINE-QUALIFICATION-RECALC-V4.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	18961	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/52-E5-M-SCALE-RESEARCH-CLOSURE-V4.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2401	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/53-REDUCER-TORQUE-LADDER-V4.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2898	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/54-MARINE-DEMONSTRATION-LADDER-V4.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2543	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/55-MARINE-GT-REWORK-QUEUE-V4.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	5035	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/56-PROCESSED-START-HERE-V4.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4300	Marine GT processed handoff V4 — START HERE — 2026-08-28
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/57-MARINE-GT-PRECEDENCE-OVERLAY-V4.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3291	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/58-CROUCH-HULL-CALIBRATION-V4.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1426	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/59-MARINE-INSTALLATION-MASS-LEDGER-V4.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	6560	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/60-LARGE-CORE-DEMAND-DERIVATION-V4.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3768	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/60A-LARGE-CORE-DEMAND-NOTES-V4.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1556	V4 large-core demand derivation notes
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/61-PROCESS-STATE-V4.json	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3307	schema=asai-marine-gt-processing-state-v4
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/62-PROCESS-VALIDATION-REPORT-V4.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4422	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/63-QUALIFICATION-TERMINOLOGY-V5.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1884	"Marine GT V5 — qualification terminology and the misuse of ""maturity"""
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/64-E5-QUALIFICATION-CRAFT-MASS-BUILDUP-V5.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3795	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/65-E5-QUALIFICATION-CRAFT-GEOMETRY-SPEED-V5.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	5057	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/66-UNIT-POWER-DEMAND-MAP-V5.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	7079	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/67-LARGE-CORE-PROGRAM-GATES-V5.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	8816	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/68-MARINE-DEMONSTRATION-LADDER-V5.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2030	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/69-MARINE-GT-REWORK-QUEUE-V5.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3041	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/70-V5-RECALC-NOTES.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3902	Marine GT V5 — recalculation notes
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/71-MARINE-GT-PRECEDENCE-OVERLAY-V5.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1183	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/72-PROCESSED-START-HERE-V5.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3982	Marine GT processed handoff V5 — START HERE — 2026-08-28
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/73-PROCESS-STATE-V5.json	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3004	schema=asai-marine-gt-processing-state-v5
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/74-LARGE-CORE-ENABLING-INHERITANCE-V5.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4037	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/75-TAIYO-MODULE-ARCHITECTURE-TRADE-V5.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2307	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/75A-TAIYO-MODULE-ARCHITECTURE-NOTES-V5.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1563	Taiyo V5 module architecture — notes
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/76-PROCESS-VALIDATION-REPORT-V5.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1396	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/77-E5-QUALIFICATION-CRAFT-ARRANGEMENT-DECISION-V6.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	5093	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/78-E5-SHAFT-INTAKE-DERIVATION-V6.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1864	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/79-E5-QUALIFICATION-INSTRUMENT-TEST-PLAN-V6.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2620	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/80-FIRST-LARGE-HOT-CORE-R2-DECISION-V6.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2107	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/81-TAIYO-MODULE-NO-FREE-LUNCH-V6.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1642	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/82-MARINE-DEMONSTRATION-LADDER-V6.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2192	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/83-MARINE-GT-REWORK-QUEUE-V6.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3199	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/84-V6-RECALC-NOTES.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4123	Marine GT V6 — arrangement and first large-hot-core program decision
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/85-MARINE-GT-PRECEDENCE-OVERLAY-V6.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1690	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/86-PROCESSED-START-HERE-V6.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3212	Marine GT processed handoff V6 — start here
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/87-PROCESS-STATE-V6.json	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2851	schema=asai-marine-gt-processing-state-v6
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/88-PROCESS-VALIDATION-REPORT-V6.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2234	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/89-E5-QUALIFICATION-CRAFT-FIXED-MASS-AND-CG-V7.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2946	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/90-E5-QUALIFICATION-CRAFT-TRIAL-BALLAST-MATRIX-V7.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1722	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/91-LL20-R2-DESIGN-COORDINATES-V7.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2795	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/92-LL20-R2-ACCEPTANCE-TEST-LEDGER-V7.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2146	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/93-TAIYO-6VS10-INTEGRATION-V7.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1583	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/94-TAIYO-GEAR-PATH-REQUIREMENT-V7.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2295	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/95-TAIYO-AIR-TRUNK-AND-EXHAUST-V7.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2843	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/96-MARINE-GT-REWORK-QUEUE-V7.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3114	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/97-V7-RECALC-NOTES.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4822	Marine GT V7 — explicit test-craft takeoff, LL20 design duty, and Taiyo integration correction
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/98-MARINE-GT-PRECEDENCE-OVERLAY-V7.tsv	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1591	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/99-PROCESSED-START-HERE-V7.md	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	2315	Marine GT processed handoff — START HERE V7
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/SHA256SUMS-HANDOFF-PASS10.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	9794	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/SHA256SUMS-HANDOFF-PASS11.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	11228	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/SHA256SUMS-HANDOFF-PASS12.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	12469	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/SHA256SUMS-HANDOFF-PASS13.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	13704	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/SHA256SUMS-HANDOFF-PASS14.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	15011	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/SHA256SUMS-HANDOFF-PASS4.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3219	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/SHA256SUMS-HANDOFF-PASS5.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	3413	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/SHA256SUMS-HANDOFF-PASS6.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	4211	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/SHA256SUMS-HANDOFF-PASS7.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	5316	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/SHA256SUMS-HANDOFF-PASS8.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	6835	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/SHA256SUMS-HANDOFF-PASS9.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	8465	
+nested/asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/SHA256SUMS-HANDOFF.txt	marine-process-history	ARCHIVE-PROCESS	marine;gas-turbine;company	1357	
+nested/asai-worldline-v48r3-source-restored/21-SUBMARINE-UNDERWATER-RECONCILIATION-V22-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	marine	5223	21 — 潜水艦水中系 v21 分岐統合記録（v22）
+nested/asai-worldline-v48r3-source-restored/22-DATA-INTEGRITY-AUDIT-V22R1-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	cross-domain	5854	22 — Data integrity audit / v22r1 (2026-08-23)
+nested/asai-worldline-v48r3-source-restored/23-SEMANTIC-RECALL-AUDIT-V22R2-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	cross-domain	2205	Semantic recall / cross-domain trigger audit — v22r2 (2026-08-23)
+nested/asai-worldline-v48r3-source-restored/24-MACHINE-CHRONOLOGY-AUDIT-V22R3-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	cross-domain	2007	MACHINE CHRONOLOGY AUDIT — v22r3 — 2026-08-23
+nested/asai-worldline-v48r3-source-restored/25-MACHINE-LAYER-REPRODUCIBILITY-AUDIT-V22R4-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	cross-domain	2013	25 MACHINE LAYER REPRODUCIBILITY AUDIT — v22r4 — 2026-08-23
+nested/asai-worldline-v48r3-source-restored/26-SUBMARINE-NEXT-GENERATION-CLOSURE-V23-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	marine	2789	v23 潜水艦次世代P0閉鎖 — 1941–44
+nested/asai-worldline-v48r3-source-restored/27-CROSS-DOMAIN-OPEN-QUEUE-V23-2026-08-23.md	machine-v48r3	MACHINE-CURRENT	cross-domain	8038	v23 横断OPEN再編 — 計算機導入後の再考察キュー
+nested/asai-worldline-v48r3-source-restored/28-MACHINE-LAYER-REFRESH-V23R1-2026-08-23.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1106	v23r1 machine-layer refresh
+nested/asai-worldline-v48r3-source-restored/29-CROSS-DOMAIN-TECHNICAL-CLOSURE-V24-2026-08-24.md	machine-v48r3	MACHINE-CURRENT	cross-domain	2906	v24 横断技術閉鎖 — 計算機導入後の再伝播と戦車再基底化
+nested/asai-worldline-v48r3-source-restored/34-MACHINE-LAYER-REFRESH-V24R1-2026-08-24.md	semantic-v48-support	BASE-SUPPORT	cross-domain	903	v24r1 machine-layer refresh
+nested/asai-worldline-v48r3-source-restored/35-MACHINE-LAYER-SEMANTIC-RECALL-REPAIR-V24R2-2026-08-24.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1507	v24r2 machine-layer semantic-recall repair — 2026-08-24
+nested/asai-worldline-v48r3-source-restored/36-POST-COMPUTATION-OPEN-AUDIT-V24R2-2026-08-24.md	semantic-v48-support	BASE-SUPPORT	computation	4749	計算機統合後の未更新・未決着監査 — semantic v24 / machine v24r2 / 2026-08-24
+nested/asai-worldline-v48r3-source-restored/37-TANK-CONDITIONAL-TECHNICAL-CLOSURE-V25-2026-08-24.md	semantic-v48-support	BASE-SUPPORT	ground	2479	戦車・条件付き次世代技術閉鎖 — semantic v25 / 2026-08-24
+nested/asai-worldline-v48r3-source-restored/38-MACHINE-LAYER-REFRESH-V25R1-2026-08-24.md	semantic-v48-support	BASE-SUPPORT	cross-domain	2357	MACHINE LAYER REFRESH — v25r1 / 2026-08-24
+nested/asai-worldline-v48r3-source-restored/39-POST-TANK-OPEN-AUDIT-V25R1-2026-08-24.md	semantic-v48-support	BASE-SUPPORT	ground	5017	計算機統合後の未更新・未決着監査 — semantic v25 / machine v25r1 / 2026-08-24
+nested/asai-worldline-v48r3-source-restored/40-AIRCRAFT-POST-COMPUTATION-TECHNICAL-CLOSURE-V26-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	aviation;computation	4531	航空post-computation技術閉鎖 — semantic v26 / 2026-08-25
+nested/asai-worldline-v48r3-source-restored/41-MACHINE-LAYER-REFRESH-V26R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	2308	MACHINE LAYER REFRESH — v26r1 / 2026-08-25
+nested/asai-worldline-v48r3-source-restored/42-POST-AIRCRAFT-OPEN-AUDIT-V26R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	aviation	3111	航空再基底化後の未決着監査 — semantic v26 / machine v26r1 / 2026-08-25
+nested/asai-worldline-v48r3-source-restored/43-PACKAGE-QA-V26R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	2963	PACKAGE QA — semantic v26 / machine v26r1 / 2026-08-25
+nested/asai-worldline-v48r3-source-restored/44-EARLY-TANK-MATERIALS-COMPUTATION-REBASELINE-V27-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	ground;materials;computation	1071	v27 初期戦車 材料×計算×QC 再基底化
+nested/asai-worldline-v48r3-source-restored/45-MARINE-GT-SMALL-CRAFT-REBASELINE-V27-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	marine;gas-turbine	1062	v27 舶用GT小型高速艇 再基底化
+nested/asai-worldline-v48r3-source-restored/46-POST-V27-OPEN-AUDIT-V27R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1651	v27r1 post-audit OPEN queue
+nested/asai-worldline-v48r3-source-restored/47-MACHINE-LAYER-REFRESH-V27R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	624	v27r1 machine-layer refresh
+nested/asai-worldline-v48r3-source-restored/48-PACKAGE-QA-V27R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1452	v27r1 full-package QA
+nested/asai-worldline-v48r3-source-restored/49-SURFACE-SHIP-LARGE-MARINE-REBASELINE-V28-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	marine	1320	v28 水上艦船型・大型舶用 再基底化
+nested/asai-worldline-v48r3-source-restored/50-POST-V28-OPEN-AUDIT-V28R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1691	v28r1 post-audit OPEN queue
+nested/asai-worldline-v48r3-source-restored/51-MACHINE-LAYER-REFRESH-V28R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	793	v28r1 machine-layer refresh
+nested/asai-worldline-v48r3-source-restored/52-PACKAGE-QA-V28R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	755	v28r1 full-package QA
+nested/asai-worldline-v48r3-source-restored/53-MARINE-GT-SMALL-CRAFT-DESIGN-CLOSURE-V29-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	marine;gas-turbine	1685	v29 — Marine GT small-craft design closure / 2026-08-25
+nested/asai-worldline-v48r3-source-restored/54-POST-V29-OPEN-AUDIT-V29R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1519	v29r1 post-audit OPEN queue
+nested/asai-worldline-v48r3-source-restored/55-MACHINE-LAYER-REFRESH-V29R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1020	v29r1 machine-layer refresh
+nested/asai-worldline-v48r3-source-restored/56-PACKAGE-QA-V29R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1167	v29r1 full-package QA
+nested/asai-worldline-v48r3-source-restored/57-GFRP-SMALL-CRAFT-HULL-REBASELINE-V30-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	materials	2102	v30 — GFRP小型艇一次艇体 rebaseline
+nested/asai-worldline-v48r3-source-restored/58-POST-V30-OPEN-AUDIT-V30R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1739	v30r1 post-audit OPEN queue
+nested/asai-worldline-v48r3-source-restored/59-MACHINE-LAYER-REFRESH-V30R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1166	v30r1 machine-layer refresh
+nested/asai-worldline-v48r3-source-restored/60-PACKAGE-QA-V30R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1393	v30r1 full-package QA
+nested/asai-worldline-v48r3-source-restored/61-ARMY-FIGHTER-H-TO-A-REBASELINE-V31-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	aviation	3246	v31 — 陸軍戦闘機 H→A rebaseline
+nested/asai-worldline-v48r3-source-restored/62-POST-V31-OPEN-AUDIT-V31R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1684	v31r1 post-audit OPEN queue
+nested/asai-worldline-v48r3-source-restored/63-MACHINE-LAYER-REFRESH-V31R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1005	v31r1 machine-layer refresh
+nested/asai-worldline-v48r3-source-restored/64-PACKAGE-QA-V31R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1269	v31r1 full-package QA
+nested/asai-worldline-v48r3-source-restored/65-ROTORCRAFT-1942-PLUS-REBASELINE-V32-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	aviation	958	回転翼1942+再基底化 v32 — 2026-08-25
+nested/asai-worldline-v48r3-source-restored/66-POST-V32-OPEN-AUDIT-V32R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	965	POST-v32 OPEN AUDIT — v32r1
+nested/asai-worldline-v48r3-source-restored/67-MACHINE-LAYER-REFRESH-V32R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	908	v32r1 machine-layer refresh
+nested/asai-worldline-v48r3-source-restored/68-PACKAGE-QA-V32R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1168	v32r1 full-package QA
+nested/asai-worldline-v48r3-source-restored/69-RADIO-RADAR-RELIABILITY-REBASELINE-V33-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	weapons-systems	915	69 — RADIO / RADAR RELIABILITY REBASELINE v33
+nested/asai-worldline-v48r3-source-restored/70-POST-V33-OPEN-AUDIT-V33R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	761	POST-v33 OPEN AUDIT — v33r1
+nested/asai-worldline-v48r3-source-restored/71-MACHINE-LAYER-REFRESH-V33R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	492	MACHINE LAYER REFRESH — v33r1
+nested/asai-worldline-v48r3-source-restored/72-PACKAGE-QA-V33R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	454	PACKAGE QA — v33r1
+nested/asai-worldline-v48r3-source-restored/73-MINE-SURVEY-ARTILLERY-MET-REBASELINE-V34-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1000	73 — MINE / SURVEY / ARTILLERY METEOROLOGY REBASELINE v34
+nested/asai-worldline-v48r3-source-restored/74-POST-V34-OPEN-AUDIT-V34R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	768	POST-v34 OPEN AUDIT — v34r1
+nested/asai-worldline-v48r3-source-restored/75-MACHINE-LAYER-REFRESH-V34R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	606	MACHINE LAYER REFRESH — v34r1
+nested/asai-worldline-v48r3-source-restored/76-PACKAGE-QA-V34R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	613	PACKAGE QA — v34r1
+nested/asai-worldline-v48r3-source-restored/77-SUBMARINE-BATTERY-MOTOR-YARD-REBASELINE-V35-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	marine	1514	77 — SUBMARINE BATTERY / MOTOR / YARD REBASELINE v35
+nested/asai-worldline-v48r3-source-restored/78-POST-V35-OPEN-AUDIT-V35R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1218	POST-v35 OPEN AUDIT — v35r1
+nested/asai-worldline-v48r3-source-restored/79-MACHINE-LAYER-REFRESH-V35R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1203	MACHINE LAYER REFRESH — v35r1
+nested/asai-worldline-v48r3-source-restored/80-PACKAGE-QA-V35R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	979	PACKAGE QA — v35r1
+nested/asai-worldline-v48r3-source-restored/81-SUBMARINE-NEXT-GEN-2CYCLE-PRIME-MOVER-GATE-V36-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	marine	1423	81 — SUBMARINE NEXT-GEN 2-CYCLE PRIME-MOVER GATE v36
+nested/asai-worldline-v48r3-source-restored/82-POST-V36-OPEN-AUDIT-V36R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1157	POST-v36 OPEN AUDIT — v36r1
+nested/asai-worldline-v48r3-source-restored/83-MACHINE-LAYER-REFRESH-V36R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1267	MACHINE LAYER REFRESH — v36r1
+nested/asai-worldline-v48r3-source-restored/84-PACKAGE-QA-V36R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	661	PACKAGE QA — v36r1
+nested/asai-worldline-v48r3-source-restored/85-E8-E9-LATER-WAR-PROPULSION-REBASELINE-V37-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1880	E8/E9+ later-war propulsion rebaseline — semantic v37
+nested/asai-worldline-v48r3-source-restored/86-POST-V37-OPEN-AUDIT-V37R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	574	POST-v37 OPEN AUDIT — v37r1
+nested/asai-worldline-v48r3-source-restored/87-MACHINE-LAYER-REFRESH-V37R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1894	MACHINE LAYER REFRESH — v37r1
+nested/asai-worldline-v48r3-source-restored/88-PACKAGE-QA-V37R1-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1716	PACKAGE QA — v37r1
+nested/asai-worldline-v48r3-source-restored/89-COMPUTATION-ERA-CAPABILITY-INVENTORY-DRAFT-V38-2026-08-25.md	machine-v48r3	MACHINE-CURRENT	computation	28741	計算導入前から電子計算期までの「何ができるか」能力総覧
+nested/asai-worldline-v48r3-source-restored/90-CAPABILITY-CONVERGENCE-SCORING-FRAMEWORK-DRAFT-V38-2026-08-25.md	machine-v48r3	MACHINE-CURRENT	cross-domain	25020	「未来CAD＋未来部下＝100%」能力収斂スコアリング枠組み
+nested/asai-worldline-v48r3-source-restored/91-GT-CAPABILITY-CONVERGENCE-MATRIX-DRAFT-V38-2026-08-25.md	machine-v48r3	MACHINE-CURRENT	gas-turbine	13201	GT E1→E9 能力収斂マトリクス——「未来CAD＋未来部下＝100%」をGTへ実装する
+nested/asai-worldline-v48r3-source-restored/92-CROSS-DOMAIN-CONVERGENCE-MAP-DRAFT-V38-2026-08-25.md	machine-v48r3	MACHINE-CURRENT	cross-domain	3865	分野横断・能力収斂ヒートマップ——どの時期に未来設計環境へ何%近づくか
+nested/asai-worldline-v48r3-source-restored/93-GT-COMPUTATION-REDISTRIBUTION-AUDIT-DRAFT-V38-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	gas-turbine;computation	11893	GT計算配当・再分配監査——v37正本のどこを直し、どこを動かさないか
+nested/asai-worldline-v48r3-source-restored/94-METALLURGY-TIME-HEADSTART-CONVERGENCE-DRAFT-V38-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	materials	10507	冶金・高温材料の能力収斂——Time Head-start を独立会計する
+nested/asai-worldline-v48r3-source-restored/95-METALLURGY-TEST-START-LEDGER-DRAFT-V38-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	materials	18135	95 — Metallurgy Test-Start Ledger / v38 DRAFT
+nested/asai-worldline-v48r3-source-restored/96-EARLY-HOT-SECTION-MATERIALS-TEST-PROGRAM-DRAFT-V38-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	materials	12790	96 — Early Hot-Section Materials Test Program / v38 DRAFT
+nested/asai-worldline-v48r3-source-restored/97-GT-LIFE-TBO-SEMANTIC-LEDGER-DRAFT-V38-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	gas-turbine	10110	97 — GT Life / TBO Semantic Ledger / v38 DRAFT
+nested/asai-worldline-v48r3-source-restored/98-AVIATION-CAPABILITY-CONVERGENCE-MATRIX-DRAFT-V38-2026-08-25.md	machine-v48r3	MACHINE-CURRENT	aviation	13035	98 — Aviation Capability Convergence Matrix / v38 DRAFT
+nested/asai-worldline-v48r3-source-restored/99-V38-CANONICALIZATION-DECISION-LEDGER-2026-08-25.md	semantic-v48-support	BASE-SUPPORT	cross-domain	8197	99 — v38 Canonicalization Decision Ledger
+nested/asai-worldline-v48r3-source-restored/APPLICATION-TABLE-NOTES-2026-08-15.md	semantic-v48-support	BASE-SUPPORT	cross-domain	5776	1941適用表の作業記録（2026-08-15）
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V22R3.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	324768	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V22R3.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	232070	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V22R4.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	326937	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V22R4.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	233393	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V23R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	330125	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V23R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	233393	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V24R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	330273	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V24R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	233541	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V24R2.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	376530	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V24R2.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	255992	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V25R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	387072	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V25R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	264224	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V26R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	417652	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V26R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	282924	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V27R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	439714	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V27R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	298056	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V28R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	449534	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V28R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	305236	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V29R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	460879	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V29R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	313611	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V30R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	474788	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V30R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	323560	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V31R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	486256	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V31R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	331398	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V32R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	499523	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V32R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	340375	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V33R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	512044	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V33R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	348936	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V34R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	525237	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V34R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	357509	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V37R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	559483	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V37R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	379875	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V38R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	577302	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V38R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	391424	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V39R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	591093	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V39R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	400595	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V40R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	609623	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V40R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	413845	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V41R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	624066	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V41R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	423668	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V42R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	636420	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V42R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	432683	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V43R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	649907	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V43R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	441564	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V44R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	663537	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V44R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	450269	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V45R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	674037	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V45R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	457469	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V46R1.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	684365	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V46R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	465165	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V48R3.jsonl	machine-v48r3	MACHINE-CURRENT	cross-domain	721978	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-CHRONOLOGY-V48R3.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	496198	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V22R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	32371	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V22R2.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	32373	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V22R3.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	32373	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V22R4.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	32373	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V23R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	32584	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V24R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	34033	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V24R2.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	34612	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V25R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	34693	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V26R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	35924	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V27R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	36643	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V28R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	36887	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V29R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	37150	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V30R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	37381	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V31R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	37234	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V32R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	37359	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V33R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	37558	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V34R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	38059	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V37R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	38988	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V38R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	39678	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V39R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	39940	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V40R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	40134	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V41R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	40335	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V42R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	40727	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V43R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	40928	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V44R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	40592	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V45R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	40772	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V46R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	41360	
+nested/asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V48R3.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	27894	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V22R2.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	5567	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V22R3.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	5925	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V22R4.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	5925	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V23R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	8843	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V24R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	10539	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V24R2.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	11405	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V25R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	11856	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V26R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	13459	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V27R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	14725	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V28R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	15446	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V29R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	15606	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V30R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	15816	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V31R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	16453	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V32R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	16509	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V33R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	17152	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V34R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	18294	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V37R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	20047	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V38R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	21961	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V39R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	22861	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V40R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	23558	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V41R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	24102	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V42R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	24762	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V43R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	25573	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V44R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	26387	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V45R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	27086	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V46R1.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	27803	
+nested/asai-worldline-v48r3-source-restored/CAPABILITY-TRIGGER-MATRIX-V48R3.tsv	machine-v48r3	MACHINE-CURRENT	cross-domain	31341	
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V22R3.json	machine-v48r3	MACHINE-CURRENT	cross-domain	1239	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V22R4.json	machine-v48r3	MACHINE-CURRENT	cross-domain	1813	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V23R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	1882	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V24R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	1927	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V24R2.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2638	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V25R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2870	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V26R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2950	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V27R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2858	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V28R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2885	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V29R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2900	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V30R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2989	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V31R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	3083	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V32R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2977	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V33R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2946	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V34R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	3023	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V37R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	3059	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V38R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2874	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V39R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2832	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V40R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2957	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V41R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2986	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V42R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	3072	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V43R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2879	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V44R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2830	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V45R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2853	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V46R1.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2746	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CHRONOLOGY-SCHEMA-V48R3.json	machine-v48r3	MACHINE-CURRENT	cross-domain	2837	schema=asai-worldline.machine-chronology.v1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V22R2.md	machine-v48r3	MACHINE-CURRENT	cross-domain	4395	CROSS-DOMAIN PREFLIGHT — v22r2
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V22R3.md	machine-v48r3	MACHINE-CURRENT	cross-domain	5201	CROSS-DOMAIN PREFLIGHT — v22r3
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V22R4.md	machine-v48r3	MACHINE-CURRENT	cross-domain	5201	CROSS-DOMAIN PREFLIGHT — v22r4
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V23R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	6194	CROSS-DOMAIN PREFLIGHT — v23r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V24R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	4013	CROSS-DOMAIN PREFLIGHT — v24r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V24R2.md	machine-v48r3	MACHINE-CURRENT	cross-domain	4459	CROSS-DOMAIN PREFLIGHT — v24r2
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V25R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	4894	CROSS-DOMAIN PREFLIGHT — v25r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V26R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	4477	CROSS-DOMAIN PREFLIGHT — v26r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V27R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	4625	CROSS-DOMAIN PREFLIGHT — v27r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V28R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	5875	CROSS-DOMAIN PREFLIGHT — v27r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V29R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	7164	CROSS-DOMAIN PREFLIGHT — v29r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V30R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	9750	CROSS-DOMAIN PREFLIGHT — v30r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V31R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	12067	CROSS-DOMAIN PREFLIGHT — v31r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V32R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	14183	CROSS-DOMAIN PREFLIGHT — v32r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V33R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	16243	CROSS-DOMAIN PREFLIGHT — v33r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V34R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	19058	CROSS-DOMAIN PREFLIGHT — v34r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V35R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	20978	CROSS-DOMAIN PREFLIGHT — v35r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V36R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	22643	CROSS-DOMAIN PREFLIGHT — v36r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V37R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	25504	CROSS-DOMAIN PREFLIGHT — v37r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V38R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	27455	CROSS-DOMAIN PREFLIGHT — v38r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V39R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	28935	CROSS-DOMAIN PREFLIGHT — v39r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V40R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	30593	CROSS-DOMAIN PREFLIGHT — v40r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V41R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	32221	CROSS-DOMAIN PREFLIGHT — v41r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V42R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	33384	CROSS-DOMAIN PREFLIGHT — v42r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V43R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	35296	CROSS-DOMAIN PREFLIGHT — v43r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V44R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	37287	CROSS-DOMAIN PREFLIGHT — v44r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V45R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	38894	CROSS-DOMAIN PREFLIGHT — v45r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V46R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	41180	CROSS-DOMAIN PREFLIGHT — v46r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V48R1.md	machine-v48r3	MACHINE-CURRENT	cross-domain	3900	CROSS-DOMAIN PREFLIGHT — v48r1
+nested/asai-worldline-v48r3-source-restored/CROSS-DOMAIN-PREFLIGHT-V48R3.md	machine-v48r3	MACHINE-CURRENT	cross-domain	4059	CROSS-DOMAIN PREFLIGHT — v48r3 source-restored
+nested/asai-worldline-v48r3-source-restored/CURRENT-CANONICAL-STATE.md	machine-v48r3	MACHINE-CURRENT	cross-domain	3307	CURRENT CANONICAL STATE — semantic v48 / machine v48r3
+nested/asai-worldline-v48r3-source-restored/DIRECT-PATCH-2026-08-15.diff	semantic-v48-support	BASE-SUPPORT	cross-domain	1821	
+nested/asai-worldline-v48r3-source-restored/HANDOFF-TO-MAIN-2026-08-15.md	semantic-v48-support	BASE-SUPPORT	company	2159	浅井世界 main側への引継ぎ — 2026-08-15 技術浅層監査開始点
+nested/asai-worldline-v48r3-source-restored/HISTORY-CARRY-FORWARD-1941-20260815.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1769	歴史構想への持越しメモ（1941年12月8日開始点）
+nested/asai-worldline-v48r3-source-restored/HISTORY-RESTART-1941-12-08-2026-08-16.md	semantic-v48-support	BASE-SUPPORT	cross-domain	13604	歴史考察 再開メモ——1941年12月8日の日本から再開する（2026-08-16）
+nested/asai-worldline-v48r3-source-restored/MARINE-GT-PROCESSED-START-HERE-2026-08-27.md	semantic-v48-support	BASE-SUPPORT	marine;gas-turbine	1310	Marine GT processed handoff V2 — START HERE — 2026-08-27
+nested/asai-worldline-v48r3-source-restored/MARINE-GT-PROCESSED-START-HERE-2026-08-28.md	semantic-v48-support	BASE-SUPPORT	marine;gas-turbine	1809	Marine GT processed handoff V5 — START HERE — 2026-08-28
+nested/asai-worldline-v48r3-source-restored/MERGE-RECOMMENDATIONS-2026-08-15.md	semantic-v48-support	BASE-SUPPORT	cross-domain	6313	mainへのマージ提言——旧supplemental provenance修復（2026-08-15）
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-AIRCRAFT-REBASELINE-V5.md	semantic-v48-support	BASE-SUPPORT	aviation	3248	Migration note — aircraft rebaseline v5 (2026-08-22)
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-COMPUTATION-INTEGRATED-V4.md	semantic-v48-support	BASE-SUPPORT	computation	692	v3 → computation-integrated-v4 移行メモ
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-CROSS-DOMAIN-V24.md	machine-v48r3	MACHINE-CURRENT	cross-domain	911	Migration note — v23 → v24 cross-domain technical closure
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-ENGINE-COMPETITION-V9.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1288	Migration note — engine-competition-v9 (2026-08-23)
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-ENGINE-COMPUTATION-EXTERNALIZATION-V7.md	semantic-v48-support	BASE-SUPPORT	computation	811	Migration note — engine-computation-externalization-v7
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-ENGINE-COMPUTATION-MATURATION-V8.md	semantic-v48-support	BASE-SUPPORT	computation	1164	Migration note — engine-computation-maturation-v8 (2026-08-23)
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-ENGINE-COMPUTATION-REBASELINE-V6.md	semantic-v48-support	BASE-SUPPORT	computation	1173	Migration Note — engine-computation-rebaseline-v6
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-FROM-COMPUTATION-V2.md	semantic-v48-support	BASE-SUPPORT	computation	486	旧計算追加v2からの移行
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-SUBMARINE-AIRCRAFT-V18.md	semantic-v48-support	BASE-SUPPORT	aviation;marine	511	Migration note — submarine-aircraft-v18
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-SUBMARINE-MATURATION-V17.md	semantic-v48-support	BASE-SUPPORT	marine	927	Migration note — submarine maturation v17
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-SUBMARINE-NEXT-GENERATION-V23.md	semantic-v48-support	BASE-SUPPORT	marine	830	MIGRATION NOTE — Submarine next generation v23
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-SUBMARINE-PROPULSION-V20.md	semantic-v48-support	BASE-SUPPORT	marine	577	Migration note — submarine propulsion v20
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-SUBMARINE-REBASELINE-V16.md	semantic-v48-support	BASE-SUPPORT	marine	461	Migration note — submarine rebaseline v16
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-SUBMARINE-SERIES-V19.md	semantic-v48-support	BASE-SUPPORT	marine	596	MIGRATION NOTE — SUBMARINE SERIES V19
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-SUBMARINE-UNDERWATER-RECONCILED-V22.md	semantic-v48-support	BASE-SUPPORT	marine	1238	Migration note — submarine underwater reconciled v22
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-SUBMARINE-UNDERWATER-V21.md	semantic-v48-support	BASE-SUPPORT	marine	1028	Migration note — submarine underwater v21
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-TANK-CONDITIONAL-V25.md	semantic-v48-support	BASE-SUPPORT	ground	907	Migration note — Tank conditional next-generation v25
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-ZERO-A6M2-MATURATION-V11.md	semantic-v48-support	BASE-SUPPORT	aviation	823	Migration note — v10 → v11
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-ZERO-A6M3-REBASELINE-V13.md	semantic-v48-support	BASE-SUPPORT	aviation	626	MIGRATION NOTE — ZERO A6M3 REBASELINE v13
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-ZERO-FUEL-HISTORY-V12.md	semantic-v48-support	BASE-SUPPORT	aviation	656	Migration Note — v11 → v12 Zero fuel/thermal + early-history uncertainty
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-ZERO-OPERATIONAL-V14.md	semantic-v48-support	BASE-SUPPORT	aviation	764	Migration Note — Zero Operational Rebaseline v14
+nested/asai-worldline-v48r3-source-restored/MIGRATION-NOTE-ZERO-ZUISEI-REINTEGRATION-V10.md	semantic-v48-support	BASE-SUPPORT	aviation	830	Migration note — v10 Zero/Zuisei reintegration
+nested/asai-worldline-v48r3-source-restored/PROVENANCE-MERGE-NOTES-2026-08-15.md	semantic-v48-support	BASE-SUPPORT	cross-domain	7459	provenance修復パッケージのマージ記録（2026-08-15）
+nested/asai-worldline-v48r3-source-restored/PROVENANCE-REPAIR-README-2026-08-15.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1554	2026-08-15 provenance修復パッケージ
+nested/asai-worldline-v48r3-source-restored/README-CLOSED-2026-08-16.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1695	浅井世界 2026-08-16 閉鎖パッケージ
+nested/asai-worldline-v48r3-source-restored/README-CONTINUATION-2026-08-16.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1081	継続パッケージ案内（2026-08-16 更新版）
+nested/asai-worldline-v48r3-source-restored/README-HANDOFF-2026-08-18.txt	semantic-v48-support	BASE-SUPPORT	company	475	
+nested/asai-worldline-v48r3-source-restored/README-HANDOFF-2026-08-20-PROVISIONAL.txt	semantic-v48-support	BASE-SUPPORT	company	2081	
+nested/asai-worldline-v48r3-source-restored/README-HANDOFF.txt	semantic-v48-support	BASE-SUPPORT	company	555	
+nested/asai-worldline-v48r3-source-restored/RECOVERY-PROVENANCE-V48R3.json	semantic-v48-support	BASE-SUPPORT	cross-domain	495	
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/00-README-CURRENT.md	scenario-session	REFERENCE-SCENARIO	aviation	7372	2026-08-16 継続パッケージ：1941年末航空戦・作戦準備
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/01-CURRENT-CANON-AND-STATUS.md	scenario-session	REFERENCE-SCENARIO	aviation	21223	現行正準・状態表
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/02-AIR-OOB-1941-12-08.md	scenario-session	REFERENCE-SCENARIO	aviation	2926	1941年12月8日 航空OOB working ledger
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/03-ENEMY-FIGHTER-INTELLIGENCE-AND-PLANNING.md	scenario-session	REFERENCE-SCENARIO	aviation	2783	敵戦闘機の事前認識と初期所要量
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/04-RANGE-AND-OPERATIONAL-MOBILITY.md	scenario-session	REFERENCE-SCENARIO	aviation	2207	航続距離が初期南方作戦へ与える差
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/05-DECKED-TRANSPORT-SHIPS.md	scenario-session	REFERENCE-SCENARIO	aviation;marine	2728	カ号/STOL用 飛行甲板付輸送船
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/06-KI45-SIDE-NOTE.md	scenario-session	REFERENCE-SCENARIO	aviation	1437	Ki-45 → 屠龍：能力面の軽い処理
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/07-NEXT-AIR-COMBAT-MODEL.md	scenario-session	REFERENCE-SCENARIO	aviation	3890	次工程：浅井世界機 vs 史実敵機の機体性能比較
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/08-SOURCE-NOTES.md	scenario-session	REFERENCE-SCENARIO	aviation	2631	今回の歴史検討で使った主要公開史料メモ
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/09-AIR-COMBAT-CLOSURE-1941.md	scenario-session	REFERENCE-SCENARIO	aviation	5586	1941年末 機体対機体比較——一旦閉じるための結論
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/10-PEARL-HARBOR-CANON-1941-12-07.md	scenario-session	REFERENCE-SCENARIO	aviation	7409	真珠湾攻撃 1941-12-07——中央線と感度枝
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/11-WAKE-CANON-1941-12-08-23.md	scenario-session	REFERENCE-SCENARIO	aviation	4530	Wake攻略 1941-12-08〜23——中央線
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/12-NEXT-SOUTHERN-OPERATIONS.md	scenario-session	REFERENCE-SCENARIO	aviation	7868	次の再開点——1941年12月下旬 南方作戦
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/13-DATA-ISSUES-NOTE.md	scenario-session	REFERENCE-SCENARIO	aviation	3385	DATA ISSUES / AUDIT NOTE — 2026-08-16
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/14-PHILIPPINES-AIR-TRANSFER-CANON.md	scenario-session	REFERENCE-SCENARIO	aviation	8789	比島航空戦から南方への戦力解放 — 1941-12-13以後 中央線
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/15-SOUTHERN-AIR-PREP-CANON-1941-12-25-1942-01-24.md	scenario-session	REFERENCE-SCENARIO	aviation	10020	南方先行航空妨害 — 1941-12-25〜1942-01-24 中央線
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/16-SURFACE-GT-BOAT-CANON-1941-12-1942-01.md	scenario-session	REFERENCE-SCENARIO	aviation;marine;gas-turbine	8222	南方水上戦力・GT高速艇 — 1941-12〜1942-01 中央線
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/17-EASTERN-JAVA-SEA-CANON-1942-01-30-03-01.md	scenario-session	REFERENCE-SCENARIO	aviation	13401	東部蘭印〜Java Sea — 1942-01-30〜03-01 中央線
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/18-LAE-SALAMAUA-CANON-1942-03-08-12.md	scenario-session	REFERENCE-SCENARIO	aviation	13479	Lae / Salamaua — 1942-03-08〜12 中央線
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/19-LOSS-REPLACEMENT-FLOW-NOTE.md	scenario-session	REFERENCE-SCENARIO	aviation	4389	損耗・補充・循環を戦役へ反映するための共通メモ
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/20-EPOXY-APPLICATION-AND-PROTECTION-RETROCHECK.md	scenario-session	REFERENCE-SCENARIO	aviation;materials	5168	エポキシ応用・FRP防護の1941年遡及チェック
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/21-MO-PRELUDE-SEARCH-CANON-1942-04-30-05-05.md	scenario-session	REFERENCE-SCENARIO	aviation	14382	Operation MO 前奏 — 南東方面基地航空網と Tulagi 後の空母捜索（1942-04-30〜05-05）
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/22-MO-EARLY-CARRIER-CONTACT-CANON-1942-05-05.md	scenario-session	REFERENCE-SCENARIO	aviation;marine	7869	Operation MO — 5月5日早期空母接触と同日打撃可能性
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/23-MO-FIRST-STRIKE-CANON-1942-05-05.md	scenario-session	REFERENCE-SCENARIO	aviation	11604	Operation MO — 1942年5月5日 CarDiv 5先制打撃
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/24-MO-SECOND-CARRIER-DUEL-CANON-1942-05-06.md	scenario-session	REFERENCE-SCENARIO	aviation;marine	15672	Operation MO — 1942年5月5日夜〜5月6日 第二次空母戦
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/25-MO-CRACE-JOMARD-CANON-1942-05-06-08.md	scenario-session	REFERENCE-SCENARIO	aviation	10835	Operation MO — 1942年5月6日夜〜8日 Crace / Jomard Passage
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/26-MO-PORT-MORESBY-LANDING-CANON-1942-05-09-12.md	scenario-session	REFERENCE-SCENARIO	aviation	20964	Operation MO — Port Moresby上陸戦 1942-05-09〜12
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/27-PORT-MORESBY-BASING-ATTRITION-CANON-1942-05-12-06-30.md	scenario-session	REFERENCE-SCENARIO	aviation	21156	Port Moresby占領後 — 基地負担・航空運用・損耗会計 1942-05-12〜06-30
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/28-MORESBY-LOGISTICS-ESCORT-INTERDICTION-BASELINE-1942-05-12-08.md	scenario-session	REFERENCE-SCENARIO	aviation	15423	Port Moresby補給線 — 海運・空輸・山岳連絡・護衛監視 baseline 1942-05-12〜08
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/29-MI-CANON-1942-06-09-12.md	scenario-session	REFERENCE-SCENARIO	aviation	5104	29 — MI中央線：1942-06-09〜12
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/30-POST-MI-WORLD-STRATEGY-SICHUAN-1942-06-07.md	scenario-session	REFERENCE-SCENARIO	aviation	3950	30 — MI後の世界戦略と四川作戦準備：1942年6〜10月
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/31-JUL-AUG-PACIFIC-LOGISTICS-BASES-1942.md	scenario-session	REFERENCE-SCENARIO	aviation	3687	31 — 1942年7〜8月：太平洋の新占領地運営と連合軍基地圧迫
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/32-AIRLIFT-NAVAL-AIR-POLICY-1942.md	scenario-session	REFERENCE-SCENARIO	aviation;marine	4210	32 — 大型輸送機・空中給油・1942年勝利版艦政航空政策
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/33-AIRCREW-STATUS-1942-08.md	scenario-session	REFERENCE-SCENARIO	aviation	2230	33 — 1942年8月中旬：双方航空搭乗員プールの状態
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/34-BT-ADDU-CANON-1942-07-09.md	scenario-session	REFERENCE-SCENARIO	aviation	4271	34 — BT作戦継続・Addu発見・利用度：1942年7〜9月
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/35-HANDOFF-NEXT-1942-09-01.md	scenario-session	REFERENCE-SCENARIO	aviation;company	3331	35 — 次スレッド用Handoff：1942-09-01時点
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/next_combat_asai_inputs.csv	scenario-session	REFERENCE-SCENARIO	aviation	1194	
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/oob_1941-12-08.csv	scenario-session	REFERENCE-SCENARIO	aviation	805	
+nested/asai-worldline-v48r3-source-restored/SESSION-20260816-AIRWAR-PREP/production_1941_new_series.csv	scenario-session	REFERENCE-SCENARIO	aviation	504	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-AIRCRAFT-REBASELINE-V5.txt	semantic-v48-support	BASE-SUPPORT	aviation	26983	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-CONTINUATION-2026-08-18.txt	semantic-v48-support	BASE-SUPPORT	cross-domain	20609	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-ENGINE-COMPETITION-V9.txt	semantic-v48-support	BASE-SUPPORT	cross-domain	28486	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-ENGINE-COMPUTATION-EXTERNALIZATION-V7.txt	semantic-v48-support	BASE-SUPPORT	computation	27938	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-ENGINE-COMPUTATION-MATURATION-V8.txt	semantic-v48-support	BASE-SUPPORT	computation	28023	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-ENGINE-COMPUTATION-REBASELINE-V6.txt	semantic-v48-support	BASE-SUPPORT	computation	27445	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-INTEGRATED-V4.txt	semantic-v48-support	BASE-SUPPORT	cross-domain	25645	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-PRODUCT-CHRONOLOGY-V15.txt	semantic-v48-support	BASE-SUPPORT	cross-domain	45709	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-PROVISIONAL-2026-08-20.txt	semantic-v48-support	BASE-SUPPORT	cross-domain	1791	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-SUBMARINE-AIRCRAFT-V18.txt	semantic-v48-support	BASE-SUPPORT	aviation;marine	46348	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-SUBMARINE-MATURATION-V17.txt	semantic-v48-support	BASE-SUPPORT	marine	32672	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-SUBMARINE-REBASELINE-V16.txt	semantic-v48-support	BASE-SUPPORT	marine	32220	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-ZERO-A6M2-MATURATION-V11.txt	semantic-v48-support	BASE-SUPPORT	aviation	30093	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-ZERO-A6M3-REBASELINE-V13.txt	semantic-v48-support	BASE-SUPPORT	aviation	31105	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-ZERO-FUEL-HISTORY-V12.txt	semantic-v48-support	BASE-SUPPORT	aviation	30655	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-ZERO-OPERATIONAL-V14.txt	semantic-v48-support	BASE-SUPPORT	aviation	31432	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS-ZERO-ZUISEI-REINTEGRATION-V10.txt	semantic-v48-support	BASE-SUPPORT	aviation	29348	
+nested/asai-worldline-v48r3-source-restored/SHA256SUMS.txt	semantic-v48-support	BASE-SUPPORT	cross-domain	73945	
+nested/asai-worldline-v48r3-source-restored/TECHNICAL-ADDENDUM-2026-08-16.md	semantic-v48-support	BASE-SUPPORT	cross-domain	5986	技術監査・閉鎖追記（2026-08-16）
+nested/asai-worldline-v48r3-source-restored/TECHNICAL-SHALLOW-AUDIT-1941-20260815-v2.md	semantic-v48-support	BASE-SUPPORT	cross-domain	2835	1941開戦前 技術・機体側「浅い残論点」監査メモ v2
+nested/asai-worldline-v48r3-source-restored/UPDATE-2026-08-16-PEARL-WAKE.md	semantic-v48-support	BASE-SUPPORT	cross-domain	941	2026-08-16 更新内容：機体比較・真珠湾・Wake
+nested/asai-worldline-v48r3-source-restored/UPDATE-2026-08-18-MORESBY-LOGISTICS-ESCORT.md	semantic-v48-support	BASE-SUPPORT	cross-domain	2146	UPDATE 2026-08-18 — Port Moresby personnel / logistics / escort
+nested/asai-worldline-v48r3-source-restored/UPDATE-2026-08-18-POST-MI-JUL-AUG-ADDU.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1713	UPDATE 2026-08-18 — MI後〜1942年9月入口
+nested/asai-worldline-v48r3-source-restored/UPDATE-2026-08-18-TYPE1-CHE-INTERPRETATION.md	semantic-v48-support	BASE-SUPPORT	cross-domain	1349	UPDATE 2026-08-18 — 一式中戦車チヘの制式呼称・運用解釈
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/LEGACY-PATH-REMAP.tsv	base-archive	ARCHIVE	aviation	7971	
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/README.md	base-archive	ARCHIVE	aviation	915	aviation-pre-v48 archive — source-restored v48r3
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/MANIFEST.tsv	base-archive	ARCHIVE	aviation	15719	
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-a6m1-12shi-1939.md	base-archive	ARCHIVE	aviation	13547	1939 十二試艦上戦闘機（A6M1）——瑞星900/940馬力級を航空機E/P/Iへ戻す
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-a6m2-maturation-1939-40.md	base-archive	ARCHIVE	aviation	10581	十二試艦上戦闘機→零式艦上戦闘機一一型/二一型——1939–40開発成熟・日程再監査
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-aircraft-computation-closure-1937-46.md	base-archive	ARCHIVE	aviation;computation	12891	航空・計算成熟後の技術再基底化 1937–46 —— v26正本
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-aircraft-naming-canonical.md	base-archive	ARCHIVE	aviation	19400	航空機名称・略号・軍別仕様——命名正本
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-army-fighter-rebaseline-1937-42.md	base-archive	ARCHIVE	aviation	14937	陸軍軽戦・重戦の再基底化 1937–42 —— Ki-43 / Ki-44 H→C→M→E→P→I→A
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-attack-bomber-rebaseline-1937-46.md	base-archive	ARCHIVE	aviation	6984	襲撃・攻撃・爆撃機の再基底化 1937–46 —— 史実機を先に使う
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-autogyro-ka-go.md	base-archive	ARCHIVE	aviation	14542	オートジャイロ「カ号観測機」系列——観測ピストン型（量産）とタービン上位型（艦上・跳躍離陸）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-aviation-airframes.md	base-archive	ARCHIVE	aviation	6843	航空・各段階の実装機の考察
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-aviation-forms.md	base-archive	ARCHIVE	aviation	16500	航空推進の形式——一つのコア、多くの後端（連続体）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-aviation-lineup.md	base-archive	ARCHIVE	aviation	20737	航空機体ロスター——必要性駆動の置換・派生・新規（考察＋一覧）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-aviation-rework.md	base-archive	ARCHIVE	aviation	14873	機体側の洗い直し——登場タイミング・単発/双発・燃料
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-aviation-timeline.md	base-archive	ARCHIVE	aviation;company	15236	航空の年表——発動機の窓で引く（仮置き）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-aviation-variants.md	base-archive	ARCHIVE	aviation	6206	航空・変種機の短データ集（軽め機＝ロスター行＋要点）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-carrier-buildup-1942.md	base-archive	ARCHIVE	aviation;marine	8225	実働空母の誕生（41年末〜42年）——GT増速が攻勢可空母を何隻生むか
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-carrier-fighter-niche-1940-41.md	base-archive	ARCHIVE	aviation;marine	7563	1940–41艦上戦闘機ニッチN——零戦A0とF4F A'から空席を作り直す
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-cfrp-fighter.md	base-archive	ARCHIVE	aviation;materials	12159	CFRP特注多用途戦闘機の初期一発構想（甲＝ジェット／乙＝TP・履歴保存）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-e6-s-aircraft-h-to-a-rebaseline-1938-42.md	base-archive	ARCHIVE	aviation;gas-turbine	7400	128 — E6-S aircraft H→A rebaseline — v45
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-f4f-rebaseline.md	base-archive	ARCHIVE	aviation	9253	F4F Wildcat再基底化——敵側A'は「浅井技術なし・反応遅れあり」で通す
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-fighter-composition.md	base-archive	ARCHIVE	aviation	2798	戦闘機・要撃機の編成 —— v31要求起点の役割体系
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-fighter-ki64.md	base-archive	ARCHIVE	aviation	2797	Ki-64 —— v31名称回収：川崎タンデム発動機実験戦闘機／旧P-47型案はSUPERSEDED
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-fighter-mix.md	base-archive	ARCHIVE	aviation	9926	戦闘機の混成と配置——改良零戦・凱風・朔風一一型の並行（開戦〜中盤）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-fugaku-technical-shadow-1942-46.md	base-archive	ARCHIVE	aviation	8688	富嶽 160t級超々重爆 —— 技術成立shadow 1942–46
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-heavy-transport-at3-ki92-1939-44.md	base-archive	ARCHIVE	aviation	5798	中島AT-3 / Ki-92 大型輸送機 —— 55t級材料・輸送・給油プラットフォーム
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-historical-aircraft-rebaseline.md	base-archive	ARCHIVE	aviation	7077	史実基準機の再基底化 —— H→C→M→E→P→I→Aからニッチを作り直す
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-carrier-creative.md	base-archive	ARCHIVE	aviation;marine	8987	艦載ジェットの創造設計——速度を捨て低速に全振りするSTOL艦戦「朔風二一型」
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-carrier-sakufu.md	base-archive	ARCHIVE	aviation;marine;company	10563	艦載ジェットの時期と高速特化の艦戦「朔風一一型」（改定）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-carrier.md	base-archive	ARCHIVE	aviation;marine	11538	艦載ジェットの考察——日本の苦しさと、FH-1ファントムという天井
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-catalog.md	base-archive	ARCHIVE	aviation	11212	ジェット エンジン機種カタログ——コア系統 × ガワ
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-hekireki-21.md	base-archive	ARCHIVE	aviation	6950	主力戦闘機「霹靂 二一型」——機体側の詰め（E6-M-JF 後置ファン）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-hekireki-kai.md	base-archive	ARCHIVE	aviation	8294	高亜音速要撃機「霹靂 改」——上端の後退翼＋再燃焼（物理で一機詰める）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-interceptor-airframe.md	base-archive	ARCHIVE	aviation	8755	ジェット要撃機の機体構成と、遭遇時の戦い方
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-interceptor-program.md	base-archive	ARCHIVE	aviation	9489	ジェット双発要撃機——開発史・名称・諸元（初飛行時と完成形）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-interceptor.md	base-archive	ARCHIVE	aviation	10779	ジェット実用機（双発要撃機）——契約・機種・性能
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-physics.md	base-archive	ARCHIVE	aviation	14381	ジェット推進の物理——コアから推力・速度の壁まで
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-production.md	base-archive	ARCHIVE	aviation	9838	ジェット（タービン族）の生産力進展——37年以前の過剰拡大の賭け
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-sakufu-prototype.md	base-archive	ARCHIVE	aviation;company	9406	艦上点防御戦闘機「朔風試作型」——後置ファン艦戦（FH-1級の諸元）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-strike-rebaseline-1941-46.md	base-archive	ARCHIVE	aviation	4580	ジェット攻撃・爆撃・高速偵察の再基底化 1941–46
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-jet-trainer.md	base-archive	ARCHIVE	aviation	4947	複座ジェット転換練習機——本体が自ら認めていた唯一の穴
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-kaifu-11-i0-feasibility.md	base-archive	ARCHIVE	aviation	5815	凱風X/一一型 I0成立性——E5 1,000 shpで旧560–600 km/hを検査する
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-kaifu-11-requirement-reaudit.md	base-archive	ARCHIVE	aviation	6671	凱風一一型 要求再監査——「中庸主力」を捨ててE5機の存在理由を問い直す
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-late-war-historical-aircraft.md	base-archive	ARCHIVE	aviation	6295	後期史実機の性能台帳——受け皿を立てる
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-maritime-patrol.md	base-archive	ARCHIVE	aviation	5145	洋上哨戒・対潜固定翼機——○海の空欄を埋める
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-range-audit.md	base-archive	ARCHIVE	aviation	10278	航続数値の監査——「凱風・銀河の未反映」の性質と再計算（持ち帰り用）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-rotorcraft-1942-plus-rebaseline-1942-55.md	base-archive	ARCHIVE	aviation	10925	回転翼1942+再基底化 1942–55 —— レ号系中型ヘリ・艦上・救難・対潜 H→A
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-rotorcraft.md	base-archive	ARCHIVE	aviation	26113	回転翼の体系——四段の技術世代表（改訂正本）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-seaplane-flyingboat-rebaseline-1940-44.md	base-archive	ARCHIVE	aviation;marine	7269	水上機・飛行艇の再基底化 1940–44（v24正本）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-seiran-i400-tp-integration-1942-44.md	base-archive	ARCHIVE	aviation	5626	晴嵐・伊400型のターボプロップ統合 1942–44（v24正本）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-stol-poweredlift.md	base-archive	ARCHIVE	aviation	8912	STOL汎用連絡機の動力揚力——噴流の固定流路シェイピング（機械受動）で詰める
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-stol-proposal.md	base-archive	ARCHIVE	aviation	8948	浅井提案の短距離離着陸機（STOL）——速度を妥協しても陸海双方に刺さる
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-stol-spec.md	base-archive	ARCHIVE	aviation	10123	STOL汎用連絡機——想定諸元・タイムスケジュール・売り込み（三者整合）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-torpedo-air-attack-rebaseline-1938-44.md	base-archive	ARCHIVE	aviation;weapons-systems	5218	魚雷本体・航空雷撃の再基底化 1938–44（v24正本）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-transport-l5si.md	base-archive	ARCHIVE	aviation	2228	一式大型輸送機 L5Si — 幹線軍用輸送の正準案
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-turbojet-demonstrator-saiko.md	base-archive	ARCHIVE	aviation;turbo-boost	15055	1930年代・航空ターボジェット実証機（再稿）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-turboprop-altitude-installation-ledger.md	base-archive	ARCHIVE	aviation;turbo-boost	8683	E5/E6ターボプロップ高度・装備共通帳簿——「高度で出力を保つ」を物理へ戻す
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-turboprop-catalog.md	base-archive	ARCHIVE	aviation;turbo-boost	12178	ターボプロップ／軸出力 エンジン機種カタログ——コア系統 × ガワ
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-turboprop-exhaust.md	base-archive	ARCHIVE	aviation;turbo-boost	8085	ターボプロップ排気の統一処理——ESHP（当量軸馬力）・残留ジェット推力・メレディス回収
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-turboprop-fighter.md	base-archive	ARCHIVE	aviation;turbo-boost	15779	ターボプロップ戦闘機の構想——素性のいい早期ターボプロップゆえの自然な要求
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-turboprop-first.md	base-archive	ARCHIVE	aviation;turbo-boost	8024	最初のターボプロップ搭載実用機
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-turboprop-ki40.md	base-archive	ARCHIVE	aviation;turbo-boost	9177	高高度戦略偵察機「Ki-40」発展型——機体側の詰め（E6-S-N-T）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-turboprop-part-load-long-range.md	base-archive	ARCHIVE	aviation;turbo-boost	4132	E6/E7ターボプロップ部分負荷・長距離運用再監査（v24正本）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-turboprop-program.md	base-archive	ARCHIVE	aviation;turbo-boost	13606	ターボプロップ——開発史・名称・諸元（更新を踏まえた洗い直し）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-turboprop-second.md	base-archive	ARCHIVE	aviation;turbo-boost	6849	第2のターボプロップエンジン（E-6）で作る機体（複数種）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-turboprop-shinzan-renzan.md	base-archive	ARCHIVE	aviation;turbo-boost	19506	戦略重爆撃機「深山→連山」——G5N救済型からG8N研究吸収型まで（4×E6-M-T）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-turboprop-tenzan.md	base-archive	ARCHIVE	aviation;turbo-boost	2939	艦上攻撃機 B6N「天山」——E6-S-T統合のv26再基底化
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-turboprop-uses.md	base-archive	ARCHIVE	aviation;turbo-boost	6357	ターボプロップの用途（当時人が思いつく観点で）
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-zero-a6m3-engine-structure-1941.md	base-archive	ARCHIVE	aviation	16511	1941零戦再基底化——栄二一型 vs 瑞星二一型/ハ102級、A6M3高速構造ゲート
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-zero-early-evolution-uncertainty.md	base-archive	ARCHIVE	aviation	6535	初期零戦1937–41——史料不確実性台帳と世界線での改修ゲート
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-zero-engine-fuel-thermal-1939-40.md	base-archive	ARCHIVE	aviation	6133	零戦用発動機1939–40——栄一二型 vs 瑞星940馬力級の燃費・温度map
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-zero-operational-1941-42.md	base-archive	ARCHIVE	aviation	15288	零戦1941末〜1942前半再基底化——生産切替・OOB・第一次戦訓改修
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-zero-rebaseline.md	base-archive	ARCHIVE	aviation	17074	零戦二一型の再基底化 —— 十二試要求からH/C/M/E/P/I/Aを一本通す
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v46-main/asai-works-zero-zuisei-a0-1939.md	base-archive	ARCHIVE	aviation	222	superseded redirect
+nested/asai-worldline-v48r3-source-restored/archive/aviation-pre-v48/v47-working/README-MISSING-SOURCE.md	base-archive	ARCHIVE	aviation	278	v47 working archive — source unavailable
+nested/asai-worldline-v48r3-source-restored/archive/core-pre-v48/asai-works-gt-core-generations-v46.md	base-archive	ARCHIVE	gas-turbine	18891	ガスタービン・コアの世代数値（再較正・比仕事ベース）と航空への展開
+nested/asai-worldline-v48r3-source-restored/asai-supplemental-reverse-index-20260815-v2.md	semantic-v48-support	BASE-SUPPORT	cross-domain	3438	main → 旧supplemental 逆引き索引 v2（再認証後・2026-08-15）
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/00-README.md	machine-computation-support	SUPPORT	computation	899	計算追加層 2026-08-22
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/01-origin-business-and-product-lines.md	machine-computation-support	SUPPORT	computation;company	1981	計算部門の企業起源・商品化（統合ノート）
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/02-ferrite-cipher-magnetic-memory.md	machine-computation-support	SUPPORT	computation	2483	フェライト・暗号・磁気記憶（統合ノート）
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/03-machines-1923-1945-and-center-ecology.md	machine-computation-support	SUPPORT	computation	2139	1923–45 最大機と計算センター生態系（統合ノート）
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/04-aircraft-computation-bridge.md	machine-computation-support	SUPPORT	aviation;computation	1899	航空機設計への計算能力の侵入（統合ノート）
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/E4-E5-INSTALLED-CYCLE-V40.tsv	machine-computation-support	SUPPORT	gas-turbine;computation	1196	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/E4-E5-PRODUCT-RESIZE-P1.tsv	machine-computation-support	SUPPORT	gas-turbine;computation	1565	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/E4-REGENERATION-INSTALLED-V42.tsv	machine-computation-support	SUPPORT	gas-turbine;computation	833	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/E5-E6-COMPRESSOR-OPERABILITY-V43.tsv	machine-computation-support	SUPPORT	gas-turbine;computation	4487	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/E6-INSTALLED-CYCLE-PRODUCT-POWER-V44.tsv	machine-computation-support	SUPPORT	gas-turbine;computation	1054	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/E6-M-J-JF-INSTALLED-THRUST-V46.tsv	machine-computation-support	SUPPORT	gas-turbine;computation	2368	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/E6-M-JF-FAN-SIZE-V46.tsv	machine-computation-support	SUPPORT	gas-turbine;computation	4937	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/E6-PRODUCT-POWER-V44.tsv	machine-computation-support	SUPPORT	gas-turbine;computation	1193	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/E6-S-AIRCRAFT-RANGE-SHADOW-V45.tsv	machine-computation-support	SUPPORT	aviation;gas-turbine;computation	5643	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/E6-S-AIRCRAFT-SPEED-SCALING-V45.tsv	machine-computation-support	SUPPORT	aviation;gas-turbine;computation	539	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/E6-S-ALTITUDE-POWER-SHADOW-V45.tsv	machine-computation-support	SUPPORT	gas-turbine;computation	506	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/__pycache__/e4_e5_installed_cycle_v40.cpython-313.pyc	machine-computation-support	SUPPORT	gas-turbine;computation	9034	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/__pycache__/e6_installed_cycle_product_power_v44.cpython-313.pyc	machine-computation-support	SUPPORT	gas-turbine;computation	10961	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/e4_e5_installed_cycle_v40.py	machine-computation-support	SUPPORT	gas-turbine;computation	6764	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/e4_e5_product_resize_p1.py	machine-computation-support	SUPPORT	gas-turbine;computation	3418	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/e4_regeneration_installed_v42.py	machine-computation-support	SUPPORT	gas-turbine;computation	7151	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/e5_e6_compressor_operability_v43.py	machine-computation-support	SUPPORT	gas-turbine;computation	4581	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/e6_installed_cycle_product_power_v44.py	machine-computation-support	SUPPORT	gas-turbine;computation	7212	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/e6_m_jf_installed_thrust_v46.py	machine-computation-support	SUPPORT	gas-turbine;computation	9368	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/e6_s_aircraft_ha_v45.py	machine-computation-support	SUPPORT	aviation;gas-turbine;computation	2866	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/prior-v2/00_computation_overview.md	machine-computation-support	SUPPORT	computation	1074	計算史・基本思想
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/prior-v2/01_dividend_ledgers.md	machine-computation-support	SUPPORT	computation	1090	技術配当台帳
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/prior-v2/02_fire_control.md	machine-computation-support	SUPPORT	computation	757	平射射撃計算
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/prior-v2/03_aa_fire_control.md	machine-computation-support	SUPPORT	computation	664	対空射撃計算
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/prior-v2/04_carrier_operations.md	machine-computation-support	SUPPORT	marine;computation	478	空母航空運用計算
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/prior-v2/05_civil_computation.md	machine-computation-support	SUPPORT	computation	359	民間計算事業
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/prior-v2/06_design_play_combat_audit.md	machine-computation-support	SUPPORT	computation	4684	計算能力・技術配当・設計レイヤ監査
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-22/prior-v2/computation_state.json	machine-computation-support	SUPPORT	computation	4801	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-28-v5/E5-CENTER-SHAFT-SIZING-V5.tsv	machine-computation-support	SUPPORT	gas-turbine;computation	3991	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-28-v5/E5-INTAKE-GEOMETRY-V5.tsv	machine-computation-support	SUPPORT	gas-turbine;computation	1478	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-28-v9/E6M-MARINE-BOOST-ACCOUNTING-V9.tsv	machine-computation-support	SUPPORT	marine;gas-turbine;turbo-boost;computation	773	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-28-v9/LL20-R2-V9.tsv	machine-computation-support	SUPPORT	computation	2658	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-28-v9/TAIYO-COMMON-INTERFACE-V9.tsv	machine-computation-support	SUPPORT	computation	1774	
+nested/asai-worldline-v48r3-source-restored/computation-2026-08-28-v9/marine_gt_v9_recalc.py	machine-computation-support	SUPPORT	marine;computation	9659	
+nested/asai-worldline-v48r3-source-restored/main/asai-works-additions-benchmark-2026-08.md	semantic-v48-main	BASE-CURRENT	cross-domain	17735	2026-08改訂の制作物——同等品で測る
+nested/asai-worldline-v48r3-source-restored/main/asai-works-aero-turbosupercharger.md	semantic-v48-main	BASE-CURRENT	turbo-boost	16467	航空用 排気タービン過給機——技術と位置づけ（機体は次段）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-aircraft-designation-policy.md	semantic-v48-main	BASE-CURRENT	aviation	3482	航空機・発動機の名称規則——史実相当名称を優先する
+nested/asai-worldline-v48r3-source-restored/main/asai-works-aircrew-rescue.md	semantic-v48-main	BASE-CURRENT	cross-domain	5543	搭乗員救命の束——提案はするが、採用は前提にしない
+nested/asai-worldline-v48r3-source-restored/main/asai-works-akitsu-maru-ops.md	semantic-v48-main	BASE-CURRENT	cross-domain	7733	あきつ丸——陸軍水陸両用航空艦（初期LPH）の運用像
+nested/asai-worldline-v48r3-source-restored/main/asai-works-amphibious-landing-system-1938-44.md	semantic-v48-main	BASE-CURRENT	ground	3357	上陸舟艇・水陸両用輸送の技術体系 1938–44（v24正本）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-asw-effect.md	semantic-v48-main	BASE-CURRENT	cross-domain	3440	効果の試算——対潜（v32回転翼再基底化反映）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-aviation-controls-gate.md	semantic-v48-main	BASE-CURRENT	aviation	2883	航空制御の年代ゲート —— H→A監査で後から性能をひっくり返さないための最小骨格
+nested/asai-worldline-v48r3-source-restored/main/asai-works-aviation-reconstruction-framework-v48.md	semantic-v48-main	BASE-CURRENT	aviation	10301	航空開発史再構築フレーム——旧採用史を外し、能力・要求・実証から組み直す（v48）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-business-origin-diversification-1903-30.md	semantic-v48-main	BASE-CURRENT	company	7852	事業起源と多角化の操舵——織機から特殊鋼・計算・タービン・航空へ（1903–1930）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-cabin-pressurization.md	semantic-v48-main	BASE-CURRENT	cross-domain	6868	与圧・酸素・防曇防氷——高高度機の足元
+nested/asai-worldline-v48r3-source-restored/main/asai-works-capability-convergence-framework-1903-45.md	semantic-v48-main	BASE-CURRENT	cross-domain	3615	能力収斂フレームワーク 1903–45 —— future-CAD benchmark / O-G 正本
+nested/asai-worldline-v48r3-source-restored/main/asai-works-carrier-attrition.md	semantic-v48-main	BASE-CURRENT	marine	7126	搭乗員の真のテコ——供給（養成）でなく消耗（キルレシオとソロモン）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-carrier-construction-1945.md	semantic-v48-main	BASE-CURRENT	marine	9483	史実空母建艦の「破壊されていない延長線」——45年までの新造正規空母
+nested/asai-worldline-v48r3-source-restored/main/asai-works-carrier-pilots.md	semantic-v48-main	BASE-CURRENT	marine	8463	艦載機搭乗員の問題——先知でプールを肥やせるか、37年起点で41年に間に合うか
+nested/asai-worldline-v48r3-source-restored/main/asai-works-carrier-training-ships.md	semantic-v48-main	BASE-CURRENT	marine	12346	訓練空母——前線困難だがGT増速で訓練に活かせる艦と、その灯油消費
+nested/asai-worldline-v48r3-source-restored/main/asai-works-cfrp-program.md	semantic-v48-main	BASE-CURRENT	materials	20200	CFRP実装プログラム——初期実験機群(実装問題の潰し込み)と実用機の二層
+nested/asai-worldline-v48r3-source-restored/main/asai-works-cfrp-wing.md	semantic-v48-main	BASE-CURRENT	materials	14117	CFRP機の翼——物理の裏取りと翼平面形の開発史整流(CFRP実用機甲=直線翼/後退翼CFRP軽戦案=後退翼)
+nested/asai-worldline-v48r3-source-restored/main/asai-works-china-war-1937-1941.md	semantic-v48-main	BASE-CURRENT	cross-domain	17336	中国戦線 1937〜1941——技術優位を「戦争終了」と短絡しない（歴史側の親資料）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-company-structure.md	semantic-v48-main	BASE-CURRENT	company	17616	会社・業務構造——浅井精機工業の対内の形（法人・組織・工場・人・制度）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-computation-aviation-bridge.md	semantic-v48-main	BASE-CURRENT	aviation;computation	4953	航空設計への計算能力の侵入——C/M/E/P/I/A影機監査の計算側正本
+nested/asai-worldline-v48r3-source-restored/main/asai-works-computation-ferrite-cipher-memory.md	semantic-v48-main	BASE-CURRENT	computation	3202	フェライト・暗号・磁気記録／記憶——計算機史の磁気枝と官需接続の正本
+nested/asai-worldline-v48r3-source-restored/main/asai-works-computation-machines-centers.md	semantic-v48-main	BASE-CURRENT	computation	5641	1923–45 計算機系列と計算センター運用——最大機ではなく生態系で読む正本
+nested/asai-worldline-v48r3-source-restored/main/asai-works-computation-origin-business.md	semantic-v48-main	BASE-CURRENT	computation;company	8215	計算部門の企業起源・民需・商品化——1923年起点の正本
+nested/asai-worldline-v48r3-source-restored/main/asai-works-computation-repropagation-engine-aviation-1923-45.md	semantic-v48-main	BASE-CURRENT	aviation;computation	3599	計算能力の再伝播 1923–45 —— engine/metallurgy/aviation method authority
+nested/asai-worldline-v48r3-source-restored/main/asai-works-core-elements.md	semantic-v48-main	BASE-CURRENT	gas-turbine	21159	コアの要素分解——世代（E系）を独立軸へ分離する
+nested/asai-worldline-v48r3-source-restored/main/asai-works-core-hierarchy.md	semantic-v48-main	BASE-CURRENT	gas-turbine	21601	コアの構造模型——世代（帯）→コア種類→エンジン商品、能力は予算
+nested/asai-worldline-v48r3-source-restored/main/asai-works-core-rebaseline-history-v38-v48.md	semantic-v48-main	BASE-CURRENT	gas-turbine	6499	コア再基底化の経緯——v38からv48まで、何が変わり何が壊れたか
+nested/asai-worldline-v48r3-source-restored/main/asai-works-cross-domain-computation-fire-optics.md	semantic-v48-main	BASE-CURRENT	computation;weapons-systems	4769	計算機導入後の横断技術——専用計算器・射撃指揮・光学写真（v24正本）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-diesel-turbo-1930s.md	semantic-v48-main	BASE-CURRENT	turbo-boost	15671	ディーゼル過給機の1930年代展開——艦級・年次・量産規模
+nested/asai-worldline-v48r3-source-restored/main/asai-works-e4-e5-hot-section-component-life-rebaseline-1931-37.md	semantic-v48-main	BASE-CURRENT	gas-turbine	7497	E4/E5 hot-section component / life 再基線化 1931–37 — v39
+nested/asai-worldline-v48r3-source-restored/main/asai-works-e4-e5-installed-cycle-rebaseline-1931-37.md	semantic-v48-main	BASE-CURRENT	gas-turbine	12724	E4/E5 cooled installed-cycle 再基線化 1931–37 — gross Brayton から実shaft帳簿へ
+nested/asai-worldline-v48r3-source-restored/main/asai-works-e4-e5-product-massflow-size-rebaseline-1931-37.md	semantic-v48-main	BASE-CURRENT	gas-turbine	13368	E4/E5 product mass-flow / size rebaseline 1931–37 — v41
+nested/asai-worldline-v48r3-source-restored/main/asai-works-e4-regeneration-installed-rebaseline-1931-33.md	semantic-v48-main	BASE-CURRENT	gas-turbine	11494	E4 regeneration installed rebaseline 1931–33 — v42
+nested/asai-worldline-v48r3-source-restored/main/asai-works-e5-e6-compressor-operability-rebaseline-1934-41.md	semantic-v48-main	BASE-CURRENT	gas-turbine	14351	E5/E6 compressor operability rebaseline 1934–41 — v43
+nested/asai-worldline-v48r3-source-restored/main/asai-works-e6-installed-cycle-product-power-rebaseline-1938-41.md	semantic-v48-main	BASE-CURRENT	gas-turbine	8094	124 — E6 installed-cycle / product-power rebaseline — v44
+nested/asai-worldline-v48r3-source-restored/main/asai-works-e6-m-jf-installed-thrust-rebaseline-1938-43.md	semantic-v48-main	BASE-CURRENT	gas-turbine	8487	E6-M-J / JF installed-thrust rebaseline — 1938–43
+nested/asai-worldline-v48r3-source-restored/main/asai-works-e8-e9-later-war-propulsion-rebaseline-1942-47.md	semantic-v48-main	BASE-CURRENT	cross-domain	8099	E8/E9+ later-war propulsion 再基線化 1942–47 — 史実年代を天井にせず、支払済み能力と残存gateで判定する
+nested/asai-worldline-v48r3-source-restored/main/asai-works-engine-capability-core-e1-e9.md	semantic-v48-main	BASE-CURRENT	gas-turbine	12068	発動機能力コア正本——E1–E9・規模帯・後端方式（v48再配置）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-engine-competition-zuisei-sakae-1937-41.md	semantic-v48-main	BASE-CURRENT	cross-domain	18434	1937–41 瑞星 vs 栄 —— 零戦顧客下の発動機EH→EA競争
+nested/asai-worldline-v48r3-source-restored/main/asai-works-engine-computation-externalization-1928-34.md	semantic-v48-main	BASE-CURRENT	computation	16329	発動機計算史 II——外販・吸収・軍用評価への分岐（1928–34）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-engine-computation-internal-1923-28.md	semantic-v48-main	BASE-CURRENT	computation	12786	発動機計算史 I——浅井内部の「腱鞘炎軽減」から設計工程化まで（1923–28）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-engine-computation-maturation-1934-37.md	semantic-v48-main	BASE-CURRENT	computation	11347	発動機計算史 III——計算前提の設計組織と系列分岐（1934–37）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-engine-h-to-a-ledger.md	semantic-v48-main	BASE-CURRENT	cross-domain	5334	発動機H→A上流帳簿——コア開発と航空機装備Eの境界
+nested/asai-worldline-v48r3-source-restored/main/asai-works-fix-queue.md	semantic-v48-main	BASE-CURRENT	cross-domain	70609	v37/v36/v35 current closure notes
+nested/asai-worldline-v48r3-source-restored/main/asai-works-frp-manufacturing.md	semantic-v48-main	BASE-CURRENT	materials	26399	FRP/CFRPの製造技術——前駆体三系統(ピッチの補填)・成形と一発成形・労働力・検査と損傷・限界の再評価
+nested/asai-worldline-v48r3-source-restored/main/asai-works-fuel-control.md	semantic-v48-main	BASE-CURRENT	cross-domain	5286	ジェット・ターボプロップの燃料制御と始動系
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gfrp-small-craft-hull-rebaseline-1940-46.md	semantic-v48-main	BASE-CURRENT	materials	13975	GFRP小型艇一次艇体の再基底化——1940–46 scale-up / wet / slam / repair gate
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-apu.md	semantic-v48-main	BASE-CURRENT	gas-turbine	4346	補助動力・始動系（GT-APU）——始動と補助電源を束ねる
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-carrier-conversion.md	semantic-v48-main	BASE-CURRENT	marine;gas-turbine	7711	空母化の枠の再考——GT増速と合成風力
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-carrier-physics.md	semantic-v48-main	BASE-CURRENT	marine;gas-turbine	8166	艦上タービンの物理——発艦風・三乗則・増速重量の背骨
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-carrier-range.md	semantic-v48-main	BASE-CURRENT	marine;gas-turbine	7474	GT増速の適用範囲——でっちあげ・使いにくい空母・正規空母
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-carrier-taiyo.md	semantic-v48-main	BASE-CURRENT	marine;gas-turbine	16683	大鷹級タービン増速空母——具体設計と運用（蒸気巡航＋GT増速の一隻）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-carrier-tasan.md	semantic-v48-main	BASE-CURRENT	marine;gas-turbine	7502	空母化の増強範囲と在庫——試算
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-carrier-turbine.md	semantic-v48-main	BASE-CURRENT	marine;gas-turbine	22878	艦載タービンの工学——据付重量・熱・回生・燃料兼用・寿命（艦上に積む実体）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-catapult.md	semantic-v48-main	BASE-CURRENT	gas-turbine	16389	浅井工廠／GT駆動甲板カタパルト——現状整理
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-core-generations.md	semantic-v48-main	BASE-CURRENT	gas-turbine	902	ガスタービン・コア世代表 — v48互換wrapper
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-diesel-1929.md	semantic-v48-main	BASE-CURRENT	gas-turbine	8859	ガスタービンとディーゼル過給機の初期発展（〜1929・再稿）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-efficiency-regen.md	semantic-v48-main	BASE-CURRENT	gas-turbine	12829	GT出力効率・燃費とサイクル選択——補機・小型艦主機のSFC梯子と回生の閾値
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-first-customers.md	semantic-v48-main	BASE-CURRENT	gas-turbine	15682	各応用の最初の具体的顧客——誰が最初に買うか
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-fuel.md	semantic-v48-main	BASE-CURRENT	gas-turbine	16509	燃料の門——タービン燃料の構成戦略（留出油・脱硫の前倒し・合成/発酵・10年の布陣）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-gyorai-yobi.md	semantic-v48-main	BASE-CURRENT	gas-turbine	2333	GT魚雷艇・高速艇と予備動力——v29 design closure反映
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-kansei.md	semantic-v48-main	BASE-CURRENT	gas-turbine	7787	GT 増速の艦政への波及——商船の引き上げと戦時増産の皮算用
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-kubo-taiiki.md	semantic-v48-main	BASE-CURRENT	gas-turbine	8140	GT 増速で空母の帯域はどこまで広がるか——現時点の推測による見積り
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-kubo.md	semantic-v48-main	BASE-CURRENT	gas-turbine	8305	空母への GT 増速——合成風力の帯を広げる、ディーゼルとの組み合わせ
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-marine-program.md	semantic-v48-main	BASE-CURRENT	marine;gas-turbine	6631	舶用GTの試験・組み込み計画と、性能向上を踏まえた塗り替え
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-marine-rework.md	semantic-v48-main	BASE-CURRENT	marine;gas-turbine	8453	舶用ガスタービン混合の再考——コア族・製品幅の拡大で増強される要素
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-senpaku.md	semantic-v48-main	BASE-CURRENT	gas-turbine	9293	舶用ガスタービンの考察——サイズ・燃料・増加できる出力、および大型船の混合搭載
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-shogouki.md	semantic-v48-main	BASE-CURRENT	gas-turbine	8291	商品化初号機のガスタービン・コアと商品の形態
+nested/asai-worldline-v48r3-source-restored/main/asai-works-gt-shouhinka.md	semantic-v48-main	BASE-CURRENT	gas-turbine	7995	商品化グレードのガスタービン——その姿と、各分野での実装
+nested/asai-worldline-v48r3-source-restored/main/asai-works-handoff.md	semantic-v48-main	BASE-CURRENT	company	114498	浅井精機・ガスタービン計画——引き継ぎ（移行用）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-hot-section-materials-long-clock-1919-38.md	semantic-v48-main	BASE-CURRENT	materials	2965	Hot-section材料の長時計画 1919–38 —— creep / oxidation / thermal-cycle の前払い
+nested/asai-worldline-v48r3-source-restored/main/asai-works-industrial-turbomachinery.md	semantic-v48-main	BASE-CURRENT	ground;turbo-boost	5743	産業用ターボ機械——高炉送風機と水素複合体の圧縮機
+nested/asai-worldline-v48r3-source-restored/main/asai-works-integrity-audit-2026-07.md	semantic-v48-main	BASE-CURRENT	cross-domain	11401	浅井精機・整合性監査（2026-07-05）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-jet-armament-review-2026-07.md	semantic-v48-main	BASE-CURRENT	aviation	17010	作業まとめ——延長戦の空戦・戦後線再検証・武装・CFRP形態・設計原則（2026-07）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-kaiboukan-gt.md	semantic-v48-main	BASE-CURRENT	cross-domain	5971	海防艦のガスタービン——回生の閾値が名指ししていた艦種
+nested/asai-worldline-v48r3-source-restored/main/asai-works-marine-gt-small-craft-design-closure-1938-43.md	semantic-v48-main	BASE-CURRENT	marine;gas-turbine	16198	舶用GT小型高速艇 design closure 1938–43 — 船型・軸系・prop・marine qualification
+nested/asai-worldline-v48r3-source-restored/main/asai-works-marine-gt-small-craft-rebaseline-1934-43.md	semantic-v48-main	BASE-CURRENT	marine;gas-turbine	7435	舶用GT小型高速艇・魚雷艇 再基底化 1934–43（v27正本）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-materials-fleet-application.md	semantic-v48-main	BASE-CURRENT	marine;materials	16488	素材の艦隊適用——年限の導出・対象・利得(パテ/サンド外殻/GFRP)
+nested/asai-worldline-v48r3-source-restored/main/asai-works-materials-resin.md	semantic-v48-main	BASE-CURRENT	materials	35793	新素材・接着剤——社長の道楽領域(タングステン線・炭素・樹脂・複合材・金属複合)
+nested/asai-worldline-v48r3-source-restored/main/asai-works-military-diesel-vehicles.md	semantic-v48-main	BASE-CURRENT	ground	17064	軍用ディーゼル車両——過給の横展開（トラック・砲牽引車・装甲車・装軌車・自走砲）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-mine-countermeasures-rebaseline-1939-45.md	semantic-v48-main	BASE-CURRENT	cross-domain	4555	掃海・機雷対処再基線化 1939–45 — 木造低磁気艇、signature、機械・磁気・音響掃海の分離
+nested/asai-worldline-v48r3-source-restored/main/asai-works-naval-buildup.md	semantic-v48-main	BASE-CURRENT	marine	14635	浅井工廠／戦時艦艇建造の試算・対米較正・見積りの読み方
+nested/asai-worldline-v48r3-source-restored/main/asai-works-orbat-1941.md	semantic-v48-main	BASE-CURRENT	cross-domain	14186	41年末開戦時に動員できる改変航空戦力——艦載と陸上
+nested/asai-worldline-v48r3-source-restored/main/asai-works-piston-installation-shadow-ledger.md	semantic-v48-main	BASE-CURRENT	cross-domain	6875	レシプロ発動機装備影機 E —— 発動機単体と機体性能の間を閉じる共通帳簿
+nested/asai-worldline-v48r3-source-restored/main/asai-works-piston-package-1941-application.md	semantic-v48-main	BASE-CURRENT	cross-domain	15528	1941年 主力史実系レシプロへの浅井package適用表
+nested/asai-worldline-v48r3-source-restored/main/asai-works-piston-rework.md	semantic-v48-main	BASE-CURRENT	cross-domain	8811	レシプロ機の諸元変化——浅井の過給・推力排気・材料を「受けた」ピストン機
+nested/asai-worldline-v48r3-source-restored/main/asai-works-plant-fiber-composites.md	semantic-v48-main	BASE-CURRENT	materials	10979	植物繊維FRPの適性——三指標で計算する
+nested/asai-worldline-v48r3-source-restored/main/asai-works-product-availability-ledger-1903-41.md	semantic-v48-main	BASE-CURRENT	company	12784	浅井商品・利用可能性年代記——社内試作／商品化／外販／軍需採用を分ける（1903–1941）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-propeller-control.md	semantic-v48-main	BASE-CURRENT	cross-domain	8048	プロペラ制御——定速・フェザリング・負トルク
+nested/asai-worldline-v48r3-source-restored/main/asai-works-propulsion-roadmap.md	semantic-v48-main	BASE-CURRENT	cross-domain	15081	推進形式（後端軸）のロードマップ——ピュア端の深化とファン端の大戦内前倒し
+nested/asai-worldline-v48r3-source-restored/main/asai-works-radio-radar-reliability-rebaseline-1935-45.md	semantic-v48-main	BASE-CURRENT	weapons-systems	16770	無線・電探の実用品質再基底化 1935–45 —— tube / contact / insulation / power / EMI / training H→A
+nested/asai-worldline-v48r3-source-restored/main/asai-works-reverify-audit.md	semantic-v48-main	BASE-CURRENT	cross-domain	10922	再確認監査——性能数値の過剰／過小／誤り（全44ファイル・2026再確認）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-saiyo-kijo.md	semantic-v48-main	BASE-CURRENT	cross-domain	10388	官の受容——誰が買い、なぜ気に入るか（採用機序）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-structural-composites.md	semantic-v48-main	BASE-CURRENT	materials	15356	構造材の複合化——役割分担マップ・接着鋼パッチ/ダブラ・鋼×エポキシ・防護の定量
+nested/asai-worldline-v48r3-source-restored/main/asai-works-structural-testbeds.md	semantic-v48-main	BASE-CURRENT	cross-domain	13080	構造試験機「材一号・材二号」——麻エポ・紙ハニカム構体の並行実証
+nested/asai-worldline-v48r3-source-restored/main/asai-works-submarine-aircraft-1929-41.md	semantic-v48-main	BASE-CURRENT	aviation;marine	14795	潜水艦搭載機再基底化 1929–41 — 九一式水偵・九六式小型水上機・零式小型水上機
+nested/asai-worldline-v48r3-source-restored/main/asai-works-submarine-battery-motor-yard-rebaseline-1938-44.md	semantic-v48-main	BASE-CURRENT	marine	5433	潜水艦 battery / motor / yard 再基線化 1938–44 — 通常大型鉛電池、4主電動機、工業・工廠会計
+nested/asai-worldline-v48r3-source-restored/main/asai-works-submarine-h-to-a-ledger.md	semantic-v48-main	BASE-CURRENT	marine	7375	潜水艦 H→A 再審査帳簿
+nested/asai-worldline-v48r3-source-restored/main/asai-works-submarine-maturation-1934-37.md	semantic-v48-main	BASE-CURRENT	marine	19389	潜水艦再基底化 1934–37 — 海大六型成熟・巡潜二/三型・大鯨・掃気補助
+nested/asai-worldline-v48r3-source-restored/main/asai-works-submarine-next-gen-2cycle-prime-mover-gate-1941-45.md	semantic-v48-main	BASE-CURRENT	marine	3790	潜水艦 次世代2-cycle統合主機 gate 1941–45 — capability supply と requirement の分離
+nested/asai-worldline-v48r3-source-restored/main/asai-works-submarine-next-generation-1941-44.md	semantic-v48-main	BASE-CURRENT	marine	8863	潜水艦次世代再生成 1941–44 — 12kt第一世代から15kt級第二世代へ
+nested/asai-worldline-v48r3-source-restored/main/asai-works-submarine-propulsion-1940-43.md	semantic-v48-main	BASE-CURRENT	marine	15626	潜水艦主機合理化 1940–43 — 2号10型 / 1号甲10型 / 22号10型 / 複合掃気
+nested/asai-worldline-v48r3-source-restored/main/asai-works-submarine-rebaseline-1927-33.md	semantic-v48-main	BASE-CURRENT	marine	9727	潜水艦再基底化 1927–33 — 海大型・巡潜型と艦本式主機
+nested/asai-worldline-v48r3-source-restored/main/asai-works-submarine-series-1938-41.md	semantic-v48-main	BASE-CURRENT	marine	18932	潜水艦系列再基底化 1938–41 — 海大七型・巡潜甲/乙/丙・航空設備・主機分岐
+nested/asai-worldline-v48r3-source-restored/main/asai-works-submarine-underwater-1938-43.md	semantic-v48-main	BASE-CURRENT	marine	23663	潜水艦水中系再基底化 1938–43 — 急速潜航・蓄電池・主電動機・自艦雑音
+nested/asai-worldline-v48r3-source-restored/main/asai-works-surface-ship-large-marine-rebaseline-1934-41.md	semantic-v48-main	BASE-CURRENT	marine	15827	水上艦船型・大型舶用再基底化 1934–41 — 13号ディーゼル／GT増速・予備動力
+nested/asai-worldline-v48r3-source-restored/main/asai-works-survey-artillery-meteorology-rebaseline-1935-45.md	semantic-v48-main	BASE-CURRENT	cross-domain	3855	測量・砲兵気象再基線化 1935–45 — 観測からballistic-met messageまでの工程標準化
+nested/asai-worldline-v48r3-source-restored/main/asai-works-tank-computation-rebaseline-1938-41.md	semantic-v48-main	BASE-CURRENT	ground;computation	2494	九七式チハ→新砲塔47mm→一式中戦車チヘ 再基底化 1935–41（v27正本）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-tank-diesel-turbo.md	semantic-v48-main	BASE-CURRENT	ground;turbo-boost	2352	陸上用ターボディーゼルと戦車の世代発展（v27正本）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-tank-early-computation-materials-rebaseline-1928-41.md	semantic-v48-main	BASE-CURRENT	ground;materials;computation	9357	初期戦車・材料×計算×QC再基底化 1928–41（v27正本）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-tank-engine.md	semantic-v48-main	BASE-CURRENT	ground	11554	戦車の機関——ディーゼルターボ／ガスタービン／混合
+nested/asai-worldline-v48r3-source-restored/main/asai-works-tank-gen3-medium.md	semantic-v48-main	BASE-CURRENT	ground	2614	一式中戦車チヘ・一型詰め（v27再基底）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-tank-gt-hybrid.md	semantic-v48-main	BASE-CURRENT	ground;gas-turbine	5971	GT寒冷即応戦車と混合（戦車・残り二案）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-tank-lineup.md	semantic-v48-main	BASE-CURRENT	ground	1683	開戦前の戦車・装軌車両体系（v27）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-tank-next-generation-conditional-1939-45.md	semantic-v48-main	BASE-CURRENT	ground	13210	次期中戦車・対ソ先行研究の条件付き技術枝 1939–45（v25）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-tank-regen.md	semantic-v48-main	BASE-CURRENT	ground	7512	戦車GTの回生・熱利用——複数案から戦車らしい・当時自然な一手へ
+nested/asai-worldline-v48r3-source-restored/main/asai-works-tank-rework-2026-08.md	semantic-v48-main	BASE-CURRENT	ground	28734	改訂報告書——陸上用ターボディーゼル体系・戦車世代再整理（2026-08-11）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-tank-specs-turbo.md	semantic-v48-main	BASE-CURRENT	ground;turbo-boost	9206	戦車・軍用車両の過給適用型式と車両別適用（v27再基底）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-tank-spg75.md	semantic-v48-main	BASE-CURRENT	ground	15638	75mm固定戦闘室自走砲・一型詰め——最短経路の車台と砲
+nested/asai-worldline-v48r3-source-restored/main/asai-works-technical-delta-2026-08-14.md	semantic-v48-main	BASE-CURRENT	cross-domain	16480	2026-08-14 航空技術・生産再監査 統合デルタ
+nested/asai-worldline-v48r3-source-restored/main/asai-works-timeline-1920s.md	semantic-v48-main	BASE-CURRENT	company	12405	1920年代の年次年表——現金の確立と核の芽（創業〜E-3）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-timeline-1930s.md	semantic-v48-main	BASE-CURRENT	company	21455	1930年代の年次年表——製品投入・契約・改良を年ごとに（肉付け）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-timeline-1940s.md	semantic-v48-main	BASE-CURRENT	company	15667	1940年代前半の年次年表——実用化と結実（E-6〜上端・1940–1945前半）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-timeline-additions-2026-08.md	semantic-v48-main	BASE-CURRENT	company	8507	2026-08改訂で追加・確定した項目——年代順
+nested/asai-worldline-v48r3-source-restored/main/asai-works-timeline-fuel.md	semantic-v48-main	BASE-CURRENT	company	6589	燃料年表——十年の布陣（HDS前倒し → FT → 役割別配分、因果でつなぐ）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-timeline-marine.md	semantic-v48-main	BASE-CURRENT	marine;company	8032	舶用年表——過給機 → 舶用GT → 艦種別採用（v30再基底）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-timeline-master.md	semantic-v48-main	BASE-CURRENT	company	14295	全体年表——浅井精機の成長と展開（1903–1945、因果でつなぐ）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-timeline-tank.md	semantic-v48-main	BASE-CURRENT	ground;company	9097	戦車年表——過給機→車両適応→伝動系改良→新中戦車（v27再基底）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-uranium-ap.md	semantic-v48-main	BASE-CURRENT	cross-domain	16292	ウラン合金サブキャリバー徹甲弾——対戦車（弾材の正準）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-uranium.md	semantic-v48-main	BASE-CURRENT	cross-domain	9645	天然ウランの転用——タングステン代替とウラン弾
+nested/asai-worldline-v48r3-source-restored/main/asai-works-validated-derivations-2026-08-15.md	semantic-v48-main	BASE-CURRENT	cross-domain	49811	検証済み算出根拠集——旧追加考察からの provenance 復旧（2026-08-15）
+nested/asai-worldline-v48r3-source-restored/main/asai-works-worldline-flow.md	semantic-v48-main	BASE-CURRENT	cross-domain	10456	世界線の流れと二原則の正しい読み（訂正メモ兼・流れの骨）
+nested/asai-worldline-v48r3-source-restored/main/tensei-engineer-kufu-shu.md	semantic-v48-main	BASE-CURRENT	company	20503	未来の工夫 総覧（再整理版）
+nested/asai-worldline-v48r3-source-restored/provisional-2026-08-20/00-README-PROVISIONAL.md	base-provisional	PROVISIONAL	cross-domain	5389	仮置き新資料 2026-08-20 — 非正準・隔離領域
+nested/asai-worldline-v48r3-source-restored/provisional-2026-08-20/01-asai-works-computation-development-provisional.md	base-provisional	PROVISIONAL	computation	8480	浅井計算技術史（仮置き）— 計算工場から電子計算へ
+nested/asai-worldline-v48r3-source-restored/provisional-2026-08-20/02-asai-works-computation-marginal-effects-provisional.md	base-provisional	PROVISIONAL	computation	6665	計算技術の純差分（仮置き）— 二重加算防止台帳
+nested/asai-worldline-v48r3-source-restored/provisional-2026-08-20/03-asai-works-rnd-philosophy-provisional.md	base-provisional	PROVISIONAL	cross-domain	2423	浅井R&D運用思想（仮置き）— 未来知識から探索能力へ
+nested/asai-worldline-v48r3-source-restored/provisional-2026-08-20/04-asai-works-heavy-transport-gen1-provisional.md	base-provisional	PROVISIONAL	cross-domain	4011	第一世代・重貨物大型輸送研究機（仮置き）— GFRP大型構造の出口
+nested/asai-worldline-v48r3-source-restored/provisional-2026-08-20/05-asai-works-heavy-transport-derivatives-provisional.md	base-provisional	PROVISIONAL	cross-domain	4219	重貨物大型輸送機・派生候補（仮置き）
+nested/asai-worldline-v48r3-source-restored/provisional-2026-08-20/06-asai-works-aerial-refueling-europe-link-provisional.md	base-provisional	PROVISIONAL	cross-domain	4479	空中給油・超長距離技術連絡（仮置き）
+nested/asai-worldline-v48r3-source-restored/provisional-2026-08-20/07-asai-works-computation-commercial-diffusion-provisional.md	base-provisional	PROVISIONAL	computation	5779	浅井計算部門の商用化・軍需拡散（仮置き）
+nested/asai-worldline-v48r3-source-restored/provisional-2026-08-20/08-asai-works-gt-secondary-applications-provisional.md	base-provisional	PROVISIONAL	gas-turbine	5218	GT・ターボディーゼルの脇枝（鉄道・自動車・陸軍河川艇）仮置き
+nested/asai-worldline-v48r3-source-restored/provisional-2026-08-20/09-asai-works-computation-materials-aviation-gt-provisional.md	base-provisional	PROVISIONAL	aviation;gas-turbine;materials;computation	5920	計算能力の材料・航空・GTへの純差分（仮置き詳細）
+nested/asai-worldline-v48r3-source-restored/provisional-2026-08-20/10-asai-works-naval-computation-entry-provisional.md	base-provisional	PROVISIONAL	marine;computation	5928	海軍・造船への計算設備導入前史（仮置き）
+nested/asai-worldline-v48r3-source-restored/provisional-2026-08-20/11-HANDOFF-NEXT-NAVAL-COMPUTATION.md	base-provisional	PROVISIONAL	marine;computation;company	3800	次チャット引継ぎ — 艦艇計算差分を実開発史へ当てる
+nested/asai-worldline-v48r3-source-restored/tools/build_v46_machine.py	tools	TOOL	cross-domain	9885	
+nested/asai-worldline-v48r3-source-restored/tools/build_v48r3_machine.py	tools	TOOL	cross-domain	197	
+nested/asai-worldline-v48r3-source-restored/tools/validate_machine_layer.py	tools	TOOL	cross-domain	9399	
+nested/asai-worldline-v48r3-source-restored/tools/validate_v48r3.py	tools	TOOL	cross-domain	3694	
+overlays/GROUND-DIESEL-FAMILY-D-A-D-D-V1.tsv	late-2026-08-29-overlay	CURRENT-OVERLAY	ground	1636	
+overlays/GROUND-DUST-CLOSURE-DELTA-2026-08-29.tsv	late-2026-08-29-overlay	CURRENT-OVERLAY	ground	1322	
+overlays/GROUND-DUST-COMPARISON-INPUTS-V1.tsv	late-2026-08-29-overlay	CURRENT-OVERLAY	ground	2875	
+overlays/GROUND-DUST-INSTALLATION-D-A-D-D-V1.tsv	late-2026-08-29-overlay	CURRENT-OVERLAY	ground	2600	
+overlays/GROUND-DUST-INSTALLATION-NOTE-V1.md	late-2026-08-29-overlay	CURRENT-OVERLAY	ground	3885	Ground dust / Manchuria installation closure — 2026-08-29
+overlays/MERCHANT-CARRIER-REGISTER-2026-08-29-V1.tsv	late-2026-08-29-overlay	CURRENT-OVERLAY	marine	1297	
+overlays/NAVAL-COMMERCIAL-INTEGRATION-OVERLAY-V1.md	late-2026-08-29-overlay	CURRENT-OVERLAY	marine	1419	Naval / Commercial Integration Overlay V1 — 2026-08-29
+reference/ASAI-AIRCRAFT-DESIGNATION-POLICY-V48-SOURCE.md	reference	REFERENCE	aviation	3482	航空機・発動機の名称規則——史実相当名称を優先する
+reference/asai-works-seaplane-flyingboat-rebaseline-1940-44.md	reference	REFERENCE	marine	7269	水上機・飛行艇の再基底化 1940–44（v24正本）
+working/03-CARRIER-WORKING-CALCULATIONS.md	current-working	WORKING	marine;computation	4913	Carrier GT working calculations — NOT adoption canon
+working/07-asai-works-computation-commercial-diffusion-provisional.md	current-working	WORKING	computation	5779	浅井計算部門の商用化・軍需拡散（仮置き）
+working/19-CARRIER-BOOST-COMPARISON-V1.csv	current-working	WORKING	marine;turbo-boost	5815	
+working/20-CARRIER-DECISION-PASS1.md	current-working	WORKING	marine	6448	Carrier propulsion decision pass 1 — 2026-08-27
+working/MARINE-SURFACE-WORKING-NOTES.md	current-working	WORKING	marine	15827	水上艦船型・大型舶用再基底化 1934–41 — 13号ディーゼル／GT増速・予備動力
+working/NAVAL-COMPUTATION-WORKING-NOTES.md	current-working	WORKING	marine;computation	5928	海軍・造船への計算設備導入前史（仮置き）
+working/PROPULSION-WORKING-NOTES.md	current-working	WORKING	cross-domain	8048	プロペラ制御——定速・フェザリング・負トルク
+working/asai-works-gt-carrier-conversion.md	current-working	WORKING	marine;gas-turbine	7711	空母化の枠の再考——GT増速と合成風力
+working/asai-works-gt-carrier-physics.md	current-working	WORKING	marine;gas-turbine	8166	艦上タービンの物理——発艦風・三乗則・増速重量の背骨
+working/asai-works-gt-carrier-range.md	current-working	WORKING	marine;gas-turbine	7474	GT増速の適用範囲——でっちあげ・使いにくい空母・正規空母
+working/asai-works-gt-carrier-taiyo.md	current-working	WORKING	marine;gas-turbine	16683	大鷹級タービン増速空母——具体設計と運用（蒸気巡航＋GT増速の一隻）
+working/asai-works-surface-ship-large-marine-rebaseline-1934-41.md	current-working	WORKING	marine	15827	水上艦船型・大型舶用再基底化 1934–41 — 13号ディーゼル／GT増速・予備動力

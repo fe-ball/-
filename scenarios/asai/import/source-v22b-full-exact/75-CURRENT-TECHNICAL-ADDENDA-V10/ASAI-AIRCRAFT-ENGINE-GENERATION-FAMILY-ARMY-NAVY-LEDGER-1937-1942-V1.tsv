@@ -1,0 +1,27 @@
+generation	core_scale	backend	engine_product	output_band	airframe_family	airframe_relation	service	role_or_identity	status	note
+E5	S	T	E5-S-T	952-1000 shp class	P1	separate airframe	mixed/company	practical turboprop	mature/product	P1/P2 practical family
+E5	S	T	E5-S-T	952-1000 shp class	P2	P1-derived STOL	mixed/company	utility/STOL/liaison/survey/medical	limited product	no automatic E7 upgrade
+E5	S	T	E5-S-T	952-1000 shp class	Material No.1	research airframe	company	materials aging/repair	research	
+E5	jet high-flow	J	E5-J	~430-455 kgf normal; selected ~470 short	E5 Single / Ki-42	separate single	Army	high-speed fighter/high-cover	operational 1938-39	
+E5	jet high-flow	J	E5-J	~430-455 kgf normal	E5 Twin J	common Twin backend variant	Army/Navy	high-speed specialist/comparator	minority/backend	
+E5	jet high-flow	JF	E5-JF	~515-545 kgf installed	E5 Twin	common Twin	Army	九八式司令部偵察機; recon/command/light strike	mature operational	
+E5	jet high-flow	JF	E5-JF	~515-545 kgf installed	R1As / E5 Twin	same common Twin service fit	Navy	九八式高速陸上偵察機	mature operational	
+E5	jet high-flow	J	E5-J	~430-455 kgf normal	E5 future-form / HS-1 lineage	research/reference airframes	company	inlet/CG/high-speed calibration	research	
+E6	S	J	E6-S-J	~475-505 kgf standard; ~500-530 short high-flow	HS-2	dedicated research airframe	company	high-speed/compressibility research	research	do not confuse with E6 Single
+E6	S	T	E6-S-T	~1300 shp normal / ~1400 short	B6N test/fallback	external aircraft candidate	Navy	carrier TP test/schedule hedge	test/fallback only	B6NAUDIT1
+E6	M	J	E6-M-J	~850 kgf normal / ~900 selected short	E6 Single	separate single airframe	Army lead; Navy interest	interceptor/high-cover/CAP/sweep/tactical recon	1940 serial line	formal service name open
+E6	M	J	E6-M-J	~850/900 kgf	E6 Twin J	common Twin backend variant	Army/Navy	high-speed/high-altitude specialist	minority service backend	
+E6	M	J+reheat	E6-M reheat development	program-local	HS-3	research airframe	company	reheat/transonic research	development outlook	
+E6	M	JF	E6-M-JF	~984 kgf production center each	E6 Twin common	common Twin	Army	recon/command/light strike/courier/high-cover	main 1940 Twin family	
+E6	M	JF	E6-M-JF	~984 kgf each	R2As / E6 Twin	same common Twin service fit	Navy	零式高速陸上偵察機	1940 service lineage	
+E6	M	JF	E6-M-JF	~984 kgf each	G4As1	structural derivative of common Twin	Navy	零式陸上攻撃機一一型; Type91 torpedo/fast strike	1940 service-development lineage	
+E6	M	JF	E6-M-JF	~984 kgf each	E6-B	distinct larger airframe sharing engine pair	Army lead	fast heavy bomber; 1.0-1.2t normal internal	prototype/outlook	
+E6	M	T	E6-M-T	~2050-2100 shp each	AT-3 / Material No.3 initial	distinct heavy transport	company/future military	heavy transport	technical envelope	4 engines
+E7	S	T	E7-S-T	~1425-1500 normal / ~1525-1575 short	D4Y TP branch	external aircraft candidate	Navy	carrier recon/fast strike	conditional B+ to A-	Atsuta remains competitor
+E7	M	J	E7-M pure-J	~970-1000 kgf capability	E6 Single retrofit	retrofit bridge	Army/Navy possible	fighter speed/climb upgrade	1941H2 earliest conditional	dedicated E7 single follows
+E7	M	JF	E7-M inherited JF	~1100-1150 kgf capability	E6 Twin / R2As / G4As retrofit	retrofit common-family bridge	Army/Navy	payload/fuel/protection/high-altitude margin	1941H2 earliest conditional	raw speed compressibility-limited
+E7	M	JF	E7-M inherited JF	~1100-1150 kgf each	E6-B growth	retrofit distinct bomber	Army lead	715-740 km/h or 7.3-7.6t heavy growth	future outlook	
+E7	M lower	T	E7-M lower T	~1750-1850 normal / ~1900-2000 short	B6N Tenzan	external aircraft candidate	Navy	carrier torpedo/general attack	conditional main TP candidate	piston schedule hedge retained
+E7	M central	T	E7-M central T	~2250-2450 normal	AT-3 growth	new-build/growth transport	mixed/future military	heavy transport growth	preferred growth outlook	4x -> ~9200-9800 shp
+E7	L	T	E7-L-T	~3500-4000 first-aircraft flat-rate	future large transport/patrol	airframe open	Army/Navy/company possible	large transport/patrol	future product outlook	very-large propeller gated
+E7	M	J/JF	E7 dedicated aircraft package	program-local	E7 dedicated single/twin	clean-sheet airframes	Army/Navy open	thin/light-swept next-generation high-speed aircraft	1942Q1-Q2 earliest first-flight target	designation/procurement open

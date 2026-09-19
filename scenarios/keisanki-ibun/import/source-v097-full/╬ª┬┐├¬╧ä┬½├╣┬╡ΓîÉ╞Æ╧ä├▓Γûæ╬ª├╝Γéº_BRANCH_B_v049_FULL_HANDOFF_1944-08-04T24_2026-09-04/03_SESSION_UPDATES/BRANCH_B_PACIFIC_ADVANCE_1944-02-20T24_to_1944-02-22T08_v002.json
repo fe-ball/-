@@ -1,0 +1,379 @@
+{
+  "id": "BRANCH_B_PACIFIC_ADVANCE_1944-02-20T24_to_1944-02-22T08_v002",
+  "status": "NEW_WORKING_ADJUDICATION_FOR_DISCUSSION",
+  "semantic_base": "Branch B v048",
+  "parent_frontier": "1944-02-20T24",
+  "scope": "Pacific local progression only; does not by itself certify unrelated global-theater clocks",
+  "method_guards": [
+    "physical/serviceable/mission-ready/committed separated",
+    "cue/contact/track/weapon-quality fix separated",
+    "old 96_SESSION_WORKING outcomes used only as sensitivity priors, not runtime authority",
+    "no compensating ship hit",
+    "no historical script inheritance where geometry changed"
+  ],
+  "technical_inheritance": {
+    "status": "EXPLICITLY_PINNED_FROM_BRANCH_B_V048",
+    "primary_baseline": "02_TECH/TECH_INDEX_v009.json",
+    "audit_contexts": [
+      "06_RUNTIME/SESSION_2026-08-28_MASTER_AUDIT_DELTA_v001.md",
+      "06_RUNTIME/SESSION_2026-08-28_GALVANIC_TECH_REAUDIT_HANDOFF_v001.md",
+      "06_RUNTIME/AXIS_SUBMARINE_TECH_TRANSFER_REAUDIT_1942-1944_v001.md",
+      "06_RUNTIME/ELECTRONIC_WARFARE_OPERATIONAL_DERIVATIVES_1942-1944_v001.md",
+      "06_RUNTIME/JAPAN_JET_PRE_I29_TECH_GATE_v001.md"
+    ],
+    "guards": [
+      "Technology is a dated dependency/card deck, not a scalar national tech level; foreign transfer fills missing cards only when prerequisites, artifacts/tacit knowledge, materials and absorption time allow.",
+      "Apply date-specific maturity and availability gates; no later German hardware/data or later parametron maturity is back-ported into earlier battles.",
+      "Nominal equipment does not equal combat power: hull/airframe -> availability -> mission set -> mission effectiveness -> allocation.",
+      "Distinct causal-stage improvements may compound, but effects feeding the same intermediate state are integrated first to avoid double counting.",
+      "Passive ESM warning and bearing history may improve preparation without constituting target-quality radar contact; preserve EM warning -> preparation -> contact -> track -> weapon-quality ladder.",
+      "Type 2P/early Type 3A accelerates multi-source correlation and traffic/DF inference; it is not universal decryption and does not convert a single clue into certainty.",
+      "A-grade base electronics can support persistent plot/control, field service, staged readiness, ESM-cued reconnaissance and limited EMCON/RCM only where equipment trace and date gate support them.",
+      "Japanese Type 95 aerial torpedo at Feb 1944 retains approximately historical Mod-1 warhead scale; Branch improvement is primarily straight-running/depth/gyro/lot/fuze reliability unless a later warhead gate is proven.",
+      "Damage is resolved as state transitions and four-stage survival/recovery, not as automatic campaign-out survival or a single hitpoint multiplier.",
+      "Jet research is indigenous before I-29; late-1943 repeatable short self-sustaining bench runs are plausible, but durable flight-rated engines and later German hardware remain gated.",
+      "No local operational radar is invented without equipment/shipping trace; specifically, Eniwetok remains without local radar under the current trace."
+    ],
+    "runtime_rule": "For each future event, expose and apply only relevant date-valid technical cards plus branch overrides. UNKNOWN in a mandatory technical domain blocks final event computation unless explicitly waived."
+  },
+  "Truk_night_1944_02_20_21": {
+    "environment": {
+      "moon": "dark waning-crescent night, approximately 14% illuminated; directional visual-acquisition penalty only",
+      "weather_assumption": "ordinary broken trade cloud / intermittent local squall band; no invented storm and no perfect-clear omniscience"
+    },
+    "Japanese_air_accounting": {
+      "serviceable_night_capable_at_dusk": [
+        13,
+        19
+      ],
+      "mission_ready_after_crew_ordnance_runway_checks": [
+        11,
+        15
+      ],
+      "actually_committed": [
+        10,
+        13
+      ],
+      "uncommitted_recon_recovery_reserve": [
+        2,
+        5
+      ]
+    },
+    "cue_chain": {
+      "initial_cue_age_hours": [
+        1,
+        3
+      ],
+      "quality": "sector-level only",
+      "submarine_update": "one intermittent bearing/speed update is obtained, but not continuous shadow; it narrows one part of the search corridor and arrives too late to vector the whole package",
+      "attack_time_position_uncertainty": "roughly 60-100 nmi-class search problem centered after TF58 night displacement and zig-zag"
+    },
+    "execution": {
+      "launched": [
+        10,
+        13
+      ],
+      "early_abort_navigation_failure": [
+        1,
+        2
+      ],
+      "reach_predicted_search_sector": [
+        8,
+        11
+      ],
+      "obtain_any_ship_contact": [
+        3,
+        5
+      ],
+      "obtain_credible_release_solution": [
+        1,
+        3
+      ],
+      "carrier_core_weapon_quality_fix": [
+        0,
+        1
+      ]
+    },
+    "US_defense": {
+      "posture": "full alert after costly Day 1",
+      "night_fighter_slots": [
+        6,
+        10
+      ],
+      "screen": "fast battleships/cruisers remain concentrated with carrier groups; destroyer radar pickets and maneuver deepen the defensive layers",
+      "effect": "radar warning is generally obtained before the Japanese package reaches carrier-core visual range, but night interception remains imperfect"
+    },
+    "result": {
+      "Japanese_irrecoverable_aircraft": [
+        4,
+        6
+      ],
+      "Japanese_damaged_returned": [
+        2,
+        3
+      ],
+      "US_aircraft_irrecoverable": 0,
+      "US_ship_hits_center": 0,
+      "US_carrier_hits_center": 0,
+      "sensitivity_only": "one escort can receive a near-miss/splinter event; a torpedo hit remains a low-probability upper branch and is not canonical",
+      "interpretation": "the stale sector cue creates a real attack opportunity, but darkness, search-area growth, US radar direction, maneuver and dense screening prevent reliable conversion"
+    }
+  },
+  "Truk_submarine_1944_02_20_21": {
+    "useful_nodes_start": [
+      2,
+      4
+    ],
+    "freshish_contact_nodes": 1,
+    "attack_quality_solution_center": 0,
+    "US_ship_hits": 0,
+    "Japanese_cost": "one boat mission-damaged or forced outward centered; no sinking centered",
+    "tradeoff": "report/shadowing and torpedo attack cannot both be maximized under TF58 ASW pressure"
+  },
+  "Truk_dawn_1944_02_21": {
+    "Japan_fighters_serviceable": [
+      20,
+      26
+    ],
+    "Japan_fighters_immediately_mission_ready": [
+      14,
+      19
+    ],
+    "Japan_attack_recon_water_serviceable": [
+      8,
+      12
+    ],
+    "warning_plot_throughput_pct_of_pre_raid_dawn": [
+      55,
+      70
+    ],
+    "precision_AA": "one reliable channel centered; second local/intermittent",
+    "airfield": "one emergency-capable runway and one partially restored secondary launch/taxi path centered; still severe cycle limits",
+    "reason_for_higher_fighter_count_than_old_working": "no Enterprise-style US offensive night strike and several Day-1 repairable fighters return to service overnight"
+  },
+  "HAILSTONE_Day2_1944_02_21": {
+    "US_dawn_mission_ready_aircraft": [
+      405,
+      435
+    ],
+    "first_sweep_F6F": [
+      58,
+      64
+    ],
+    "US_tasking_priority": [
+      "fighter/runway suppression",
+      "radar/plot/communications and AA fire-direction",
+      "aviation fuel/ammunition/workshops/power",
+      "remaining attack/recon and water-aviation support",
+      "remaining lagoon shipping"
+    ],
+    "air_outcome": {
+      "Japan_additional_irrecoverable": [
+        19,
+        24
+      ],
+      "US_additional_irrecoverable": [
+        8,
+        12
+      ],
+      "Japan_dusk_fighters_serviceable": [
+        4,
+        8
+      ],
+      "Japan_dusk_attack_recon_water_serviceable": [
+        3,
+        6
+      ]
+    },
+    "cumulative_HAILSTONE_air_losses": {
+      "Japan_irrecoverable": [
+        63,
+        80
+      ],
+      "Japan_center": 71,
+      "US_irrecoverable": [
+        32,
+        43
+      ],
+      "US_center": 37
+    },
+    "shipping": {
+      "Day2_additional_medium_large_hulls_sunk_CTL": [
+        2,
+        4
+      ],
+      "raid_total_lagoon_medium_large_hulls_sunk_CTL": [
+        5,
+        9
+      ],
+      "raid_total_lagoon_GRT": [
+        24000,
+        46000
+      ],
+      "separate_pre_raid_escape_route_submarine_loss_GRT": [
+        4000,
+        7000
+      ],
+      "high_value_guard": "no first-line carrier, Akashi, fleet oiler or historical Katori/Maikaze massacre geometry is reinserted"
+    },
+    "fixed_base_raid_end": {
+      "warning_plot_throughput_pct_of_pre_raid": [
+        20,
+        35
+      ],
+      "precision_AA_reliable_channels": [
+        0,
+        1
+      ],
+      "airfields": "emergency/local movements may resume within roughly 24-36h; organized fighter cycles require several days",
+      "workshops_power_fuel": "major damage and isolation; Truk loses practical near-term forward-fleet-hub function"
+    },
+    "US_withdrawal": {
+      "decision": "withdraw/replenish after the 21 Feb afternoon-evening cycle; no third full raid day centered",
+      "carrier_campaign_out_new": 0,
+      "reason": "Catchpole shielding objective achieved, mobile high-value targets mostly absent, and marginal returns fall against recovering local AA/radar"
+    }
+  },
+  "Eniwetok_night_1944_02_20_21": {
+    "Japanese_air": {
+      "serviceable": [
+        3,
+        5
+      ],
+      "mission_ready": [
+        3,
+        4
+      ],
+      "launched": [
+        3,
+        4
+      ],
+      "reach_release_area": [
+        2,
+        3
+      ],
+      "credible_release_runs": [
+        1,
+        2
+      ],
+      "US_major_ship_hits": 0,
+      "US_transport_mission_kills": 0,
+      "Japanese_irrecoverable": [
+        1,
+        2
+      ],
+      "Japanese_damaged": [
+        0,
+        1
+      ],
+      "effect": "minor disruption/alert only; no delay to Engebi H-hour beyond already-consumed passage margin"
+    },
+    "Japanese_submarine": {
+      "useful_nodes": [
+        2,
+        3
+      ],
+      "fresh_contact_nodes": 1,
+      "credible_close_approach": 1,
+      "US_ship_hits": 0,
+      "Japanese_cost": "one boat forced off or mission-damaged centered",
+      "effect": "CVE air and DD/DE/entrance patrols prevent repeated close attacks"
+    }
+  },
+  "Engebi_1944_02_21": {
+    "H_hour": "08:50 centered; 08:35-09:05 working band",
+    "US_vehicle_state_at_H_hour": {
+      "amtracs_ready": [
+        102,
+        104
+      ],
+      "amphibian_tanks_ready": 17
+    },
+    "Japanese_H_hour_state": {
+      "physical_garrison": [
+        1240,
+        1320
+      ],
+      "organized_combat_effective": [
+        770,
+        850
+      ],
+      "armed_support_labor_lower_combat_value": [
+        430,
+        500
+      ],
+      "Type95": 3,
+      "defense_quality": "better ammunition dispersion, alternate command, registered mortar/AT lanes, camouflage and local mobile tank reserve; no deep cave network"
+    },
+    "preassault_fire": {
+      "effect": "coastal/visible positions heavily suppressed, but distributed mortar/AT/runner network prevents total fire-system decapitation",
+      "survivor": "one heavy/medium coastal or mountain-gun position can fire briefly before suppression centered"
+    },
+    "timeline_center": [
+      "08:50 first assault waves cross the reef/beach belt behind amphibian tanks",
+      "09:05-10:20 several registered mortar/AT lanes inflict vehicle and infantry losses; beachhead nevertheless expands",
+      "10:25 airfield area seized centered",
+      "11:05-11:45 three Type 95s commit from concealed local reserve in two packets; they damage amphibious vehicles but are all destroyed",
+      "14:00-17:00 infantry-engineer/direct-fire teams reduce the southern and interior strongpoints",
+      "20:10 organized resistance ends centered; small pockets/infiltrators remain through the night",
+      "1944-02-22 07:30 meaningful mop-up phase ends centered"
+    ],
+    "vehicle_losses": {
+      "amtrac_irrecoverable": [
+        2,
+        3
+      ],
+      "amtrac_damaged_repairable": [
+        4,
+        7
+      ],
+      "amphibian_tank_irrecoverable": [
+        0,
+        1
+      ],
+      "amphibian_tank_damaged_repairable": [
+        1,
+        2
+      ],
+      "Japanese_Type95_irrecoverable": 3
+    },
+    "casualties": {
+      "US_KIA": [
+        95,
+        120
+      ],
+      "US_WIA": [
+        430,
+        540
+      ],
+      "US_MIA": [
+        4,
+        10
+      ],
+      "US_total_battle_casualties": [
+        529,
+        670
+      ],
+      "Japan_dead_by_22Feb_0800": [
+        1180,
+        1260
+      ],
+      "Japan_captured": [
+        15,
+        30
+      ],
+      "Japan_residual_wounded_hidden_uncounted": "roughly 20-80 until final island accounting closes"
+    },
+    "result": "ENGEBI_SECURED_OPERATIONALLY; mop-up continues into 22 Feb morning"
+  },
+  "captured_intelligence_and_next_decision": {
+    "confidence": {
+      "Parry_is_stronger_than_Eniwetok_Island": "HIGH",
+      "exact_enemy_strength_by_island": "MEDIUM",
+      "remaining_tank_distribution": "MEDIUM-HIGH"
+    },
+    "US_decision": "prepare Eniwetok Island as the 22 Feb next assault because it is the weaker main island and because 106th Infantry can be used without waiting for full 22nd Marines recovery; Parry remains the final heavier reduction target",
+    "next_gate": "resolve 22 Feb Eniwetok Island assault from the updated vehicle/fatigue/fire-support wallet, then re-evaluate Parry date"
+  },
+  "new_pacific_local_frontier": "1944-02-22T08 local-theater working frontier"
+}

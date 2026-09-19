@@ -1,0 +1,16 @@
+{
+  "revision": "v020",
+  "date": "2026-08-25",
+  "result": "PASS",
+  "checks": {
+    "all_json_parse": true,
+    "current_frontier": "1943-10-10T00:00",
+    "midway_continuous_reaudit_present": true,
+    "us_no_free_wallet_rule_present": true,
+    "china_forward_saved_provisional": true,
+    "hump_realized_throughput_reopened": true,
+    "naval_force_reopen_gate_present": true,
+    "json_file_count": 217,
+    "bad_json": []
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "revision": "v001",
+  "id": "FIVEGO_3RD_TANK_DIVISION_OOB_REOPEN_1942-12_1943_WORKING_v001",
+  "status": "WORKING_MAJOR_OOB_CORRECTION_GATE_NOT_CURRENT",
+  "reason": "The prior provisional Four-regiment-scale 3rd Tank Division armor wallet can double-count the 8th Tank Regiment, which is independently anchored in the South Pacific/Rabaul OOB by Nov 1942.",
+  "source_conflict_note": {
+    "nominal_division": "Secondary organizational tables often list 8th, 12th, 13th and 17th Tank Regiments under the 3rd Tank Division.",
+    "physical_branch": "A Nov-1942 17th/8th Area Army OOB independently places the 8th Tank Regiment at Rabaul. Physical location overrides nominal paper organization.",
+    "resolution": "Treat 8th as detached before/while the 3rd Tank Division formation is completed. Branch Five-Go has a three-regiment armored core unless a replacement regiment is explicitly created and paid for; none is currently evidenced."
+  },
+  "revised_formation_center": {
+    "tank_regiments_physically_available_to_3rd_Tank_Division": [
+      "12th Tank Regiment",
+      "13th Tank Regiment",
+      "17th Tank Regiment"
+    ],
+    "8th_Tank_Regiment": "SOUTH_PACIFIC_TIED / NOT FIVEGO",
+    "recon_support": "divisional reconnaissance/light armor + artillery/engineer/maintenance/transport"
+  },
+  "1943_03_25_launch_working_band": {
+    "medium_class_physical": [
+      115,
+      145
+    ],
+    "light_tanks_physical": [
+      55,
+      75
+    ],
+    "tankettes_recon_AFV": [
+      20,
+      30
+    ],
+    "total_tracked_AFV_physical": [
+      195,
+      240
+    ],
+    "combat_ready_total": [
+      170,
+      205
+    ],
+    "center_total_physical": 217,
+    "center_ready": 188,
+    "model_mix_medium_center": {
+      "Shinhoto_47mm": "40-50%",
+      "Type97_57mm": "40-50%",
+      "Type89_or_other_old_medium": "5-15%"
+    },
+    "guard": "This is still a formation reconstruction, not a regiment-by-regiment archival return."
+  },
+  "difference_from_previous_provisional": {
+    "previous": "150-190 medium + 95-125 light, effectively four-regiment/full-division scale",
+    "new": "roughly 195-240 total tracked AFVs including reconnaissance, with only three tank regiments",
+    "delta": "about 50-80 fewer physical tracked AFVs at Five-Go launch than the earlier provisional upper-scale assumption",
+    "strategic_result": "Does not automatically reopen Five-Go strategic outcome; the current authoritative campaign already limits medium tanks south of Baoji/Qinling and remains logistics-bound."
+  },
+  "Phase_I_first_pass_damage_gate": {
+    "window": "1943-03-25 through Baoji 1943-05-07/08",
+    "irrecoverable_AFV_candidate_band": [
+      15,
+      25
+    ],
+    "repairable_mission_kill_candidate_band": [
+      40,
+      60
+    ],
+    "ready_at_Baoji_end_candidate_band": [
+      130,
+      160
+    ],
+    "reason": "Long road/rail-supported plains offensive generates high tank-days and real Chinese AT/artillery exposure; Branch recovery prevents many disabled vehicles becoming national losses."
+  },
+  "Phase_II_Qinling_rule": {
+    "medium_tank_main_body": "HOLD NORTH / road-security and mobile reserve",
+    "tracked_packet_south_of_Baoji_candidate": [
+      35,
+      65
+    ],
+    "role": "light/selected medium packets, engineer support, road-junction fire support; not a tank-division mountain thrust",
+    "effect": "Most surviving division armor remains a physical China-theater asset after Hanzhong rather than being consumed in the mountains."
+  },
+  "systemic_reaudit_needed": [
+    "Recompute Japanese infantry/artillery/engineer casualties saved in the plains phase from explicit tank-days.",
+    "Recompute Chinese infantry/AT/artillery losses caused by the corrected 195-240 AFV pool.",
+    "Recompute fuel/ammunition/workshop demand.",
+    "Reconcile Phase-I damaged vehicles with 1943 repair pipeline and year-end residual.",
+    "Do not alter the authoritative Hanzhong dates until this combat-layer audit shows a material timing difference."
+  ],
+  "immediate_residual_consequence": "Any 1943-12-31 national/tactical armor ledger must subtract the entire 8th Tank Regiment into South Pacific and use the three-regiment Five-Go core before adding 1943 new production or repairs."
+}

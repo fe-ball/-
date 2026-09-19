@@ -1,0 +1,21 @@
+category	item	value	unit	status	note
+schedule	E7_full_compressor_hot_rig	1940 H1		TARGET-CLOSED	parent schedule
+schedule	E7_integrated_gas_generator	1940 H2		TARGET-CLOSED	parent schedule
+schedule	E7_full_core_ground_development	1941 H1		TARGET-CLOSED	parent schedule
+schedule	E7_ground_qualified_core	1941 H2		TARGET-CLOSED	research-close target; no serial-service claim
+schedule	E7_inherited_aftfan_limited_flight_candidate	1941 H2 earliest		FUTURE-GATE	conditional on release/endurance/integration
+schedule	E7_dedicated_aircraft_first_flight	1942 Q1-Q2 earliest		TARGET-CLOSED	parent schedule
+capability	E7_medium_pureJ	970-1000	kgf	UPSTREAM-CAPABILITY	not installed product rating
+capability	E7_inherited_aftfan	1100-1150	kgf	UPSTREAM-CAPABILITY	not installed product rating
+single	E6_baseline_mass_center	2.85	t	CLOSED-E6SINGLE1	service center
+single	E7_retrofit_speed_6km	785-800	km/h	H->A-OUTLOOK	conditional mass growth <=~3%; compressibility-capped
+single	E7_retrofit_speed_8km	800-815	km/h	H->A-OUTLOOK	conditional; unchanged straight-wing airframe
+single	E7_retrofit_climb_6km	4.8-5.3	min	H->A-OUTLOOK	conditional installed package
+single	E7_retrofit_role	1941 limited conversion-development block		FUTURE-OUTLOOK	serial quantities open
+twin	E6_JF_baseline_total_thrust	1.968	tf	CLOSED-E6REBASE1	2x984 kgf center
+twin	E7_JF_total_thrust	2.20-2.30	tf	UPSTREAM-CAPABILITY	2x1100-1150 kgf
+twin	E7_retrofit_clean_speed	805-825	km/h	H->A-OUTLOOK	unchanged-airframe compressibility limited
+twin	E7_retrofit_heavy_design_target	5.4-5.6	t	H->A-DESIGN-TARGET	requires local wing-root/gear/brake/tyre qualification
+twin	E7_retrofit_preferred_payoff	payload_fuel_protection_altitude_margin		FUTURE-OUTLOOK	not raw top speed
+rule	future_aircraft_engine_review	project start + detail freeze + pre-first-flight		CLOSED-PLANNING-RULE	compare mature lower-equivalent and new E-front products
+guard	combat_clock	1939-12-31 24:00		UNCHANGED	no future combat/procurement inventory recorded

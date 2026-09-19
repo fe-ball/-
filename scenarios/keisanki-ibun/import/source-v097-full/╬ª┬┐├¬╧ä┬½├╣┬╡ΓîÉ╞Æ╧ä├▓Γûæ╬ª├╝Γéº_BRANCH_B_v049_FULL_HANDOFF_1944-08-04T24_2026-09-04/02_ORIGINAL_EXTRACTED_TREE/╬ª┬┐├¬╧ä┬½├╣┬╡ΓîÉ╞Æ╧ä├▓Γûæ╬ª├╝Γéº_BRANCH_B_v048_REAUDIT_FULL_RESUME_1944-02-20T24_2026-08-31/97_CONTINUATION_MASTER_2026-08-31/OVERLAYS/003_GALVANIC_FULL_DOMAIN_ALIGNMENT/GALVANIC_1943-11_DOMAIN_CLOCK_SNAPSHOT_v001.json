@@ -1,0 +1,52 @@
+{
+  "id": "GALVANIC_1943-11_DOMAIN_CLOCK_SNAPSHOT_v001",
+  "status": "WORKING_ALIGNMENT_SNAPSHOT_NOT_AUTHORITY",
+  "air": {
+    "kinsei_zero_1943_10_01": "PRE_FRONTLINE",
+    "kinsei_zero_1943_11_26_event_ready": [18,24],
+    "kinsei_zero_center": 20,
+    "kinsei_first_strike_escort_center": 13,
+    "primary_carrier_fighter": "late Zuisei Zero",
+    "japan_first_line_carrier_ready_11_23": [270,290],
+    "japan_secondary_carrier_ready_if_all_released": [105,130],
+    "marshall_land_fighter_physical_class": [80,95],
+    "marshall_attack_aircraft_physical_class": [35,45],
+    "marshall_legacy_water_recon_physical_class": [15,20],
+    "kyofu_physical": [12,20],
+    "kyofu_ready": [8,16],
+    "zuiun_physical": [5,9],
+    "zuiun_ready": [4,7],
+    "US_fast_decks": 10,
+    "US_fast_deck_ready_aircraft": [540,590],
+    "US_CVE_count": 8,
+    "US_CVE_ready_aircraft": [185,215]
+  },
+  "carriers": {
+    "japan_first_line": ["Shokaku","Zuikaku","Hiryu","Soryu"],
+    "japan_secondary": ["Junyo","Hiyo","Ryujo","Zuiho"],
+    "secondary_visible_not_counted": ["Shoho","Ryuho"],
+    "seaplane_tenders_not_carriers": ["Chitose","Chiyoda"]
+  },
+  "surface": {
+    "Kongo_class_survivors": ["Kongo","Hiei","Kirishima","Haruna"],
+    "Yamato_class": ["Yamato","Musashi"],
+    "Ise_Hyuga": "battleships_not_aviation_battleships",
+    "torpedo_second_salvo_conditional_minutes": [12,20],
+    "US_SG_CIC_advantage": true
+  },
+  "submarine": {
+    "old_centered_direct_war_zone_boats_revalidate": [10,12],
+    "old_centered_broad_peak_boats_revalidate": [14,17],
+    "first_gen_high_speed_submerged_ceiling": 6,
+    "continuous_high_speed_pursuit_forbidden": true
+  },
+  "ground": {
+    "Tarawa_Type95_physical": 14,
+    "Tarawa_Type95_prebomb_serviceable_prior": [12,14],
+    "Tarawa_Type95_post_suppression_prior_reopened": [6,9],
+    "US_M4A2_physical": 14,
+    "fortification_reopen": true,
+    "no_post_GALVANIC_hindsight": true
+  },
+  "cross_domain_gate": "If hardened ground/base persistence materially changes US support/suppression mission states by 1943-11-25, reopen 11/26 carrier positioning/mission split and 11/26-27 surface/submarine geometry before retaining old centered outcomes."
+}

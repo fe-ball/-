@@ -1,0 +1,34 @@
+{
+  "revision": "v001",
+  "id": "CHINA_PACIFIC_PROGRESS_1944-05-11_18_MANIFEST_v001",
+  "status": "OVERLAY_MANIFEST_ADVANCES_GLOBAL_FRONTIER",
+  "global_frontier": "1944-05-18T24:00:00+09:00",
+  "apply_after": [
+    "計算機異聞_v048_ICHIGO_PHASE_A_1944-05-01_10_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_PACIFIC_1944-04-16_30_OVERLAY_2026-08-30.zip"
+  ],
+  "load_new_files_in_order": [
+    "CHINA/CHINA_AIR_LOSS_BAND_RECONCILIATION_1944-05-01_10_v001.json",
+    "CHINA/ICHIGO_HUNAN_PHASE_A_CLOSEOUT_1944-05-11_18_WORKING_v001.json",
+    "CHINA/CHINA_14AF_CHANGSHA_INTERDICTION_WITHDRAWAL_1944-05-11_18_WORKING_v001.json",
+    "CHINA/CHINA_IX_WAR_AREA_POST_CHANGSHA_1944-05-18_WORKING_v001.json",
+    "CHINA/NANJING_HUNAN_REAR_SECURITY_1944-05-11_18_WORKING_v001.json",
+    "PACIFIC/PACIFIC_MOBILE_FLEET_SULU_SHIFT_1944-05-11_18_WORKING_v001.json",
+    "PACIFIC/US_TG58_6_AND_FAST_DECK_PIPELINE_1944-05-14_18_WORKING_v001.json",
+    "STATE/PARALLEL_THEATER_STATE_1944-05-18T24_WORKING_v001.json"
+  ],
+  "major_resolutions": [
+    "Changsha falls late 18 May working center; no IX War Area annihilation.",
+    "Hengyang remains closed pending a fresh 21-23 May logistics/airfield/Chinese-force gate.",
+    "Japanese Mobile Fleet uses distributed Sulu Sea forward posture, not blind historical single-anchorage copying.",
+    "Historical Inazuma 14-May sinking is not inherited automatically under changed layered-ASW geometry.",
+    "US CV-18-equivalent and San Jacinto gain forward deck credit with TG58.6; June US OOB must be rebuilt."
+  ],
+  "forward_constraints": [
+    "No immediate captured-airfield full-capacity credit.",
+    "No automatic Hengyang continuation.",
+    "No duplicate 1-10 May air-loss debit.",
+    "No historical Tawi-Tawi submarine casualty inheritance without branch contact adjudication.",
+    "No pre-awarded Marcus/Wake strike results before 19 May."
+  ]
+}

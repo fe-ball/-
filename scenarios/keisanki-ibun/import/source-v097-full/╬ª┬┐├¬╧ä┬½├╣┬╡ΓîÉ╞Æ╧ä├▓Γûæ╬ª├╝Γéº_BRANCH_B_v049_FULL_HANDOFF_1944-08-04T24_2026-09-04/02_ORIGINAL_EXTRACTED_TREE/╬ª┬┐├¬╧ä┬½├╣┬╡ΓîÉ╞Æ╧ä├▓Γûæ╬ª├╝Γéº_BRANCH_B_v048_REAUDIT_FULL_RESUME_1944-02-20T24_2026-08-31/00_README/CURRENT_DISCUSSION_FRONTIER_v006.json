@@ -1,0 +1,223 @@
+{
+  "revision": "v006",
+  "package_revision": "v037",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "purpose": "Machine-readable separation of authoritative execution state from the latest unpromoted discussion/research frontier.",
+  "authority_frontier": {
+    "time": "1944-01-01T00:00",
+    "checkpoint": "05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v004.json",
+    "state": "06_RUNTIME/CURRENT_BRANCH_STATE_v012.json",
+    "overrides": "00_CONFIG/current_branch_overrides_v012.json",
+    "changed_by_v032": false,
+    "GALVANIC": "CLOSED_AND_PROPAGATED",
+    "changed_by_v033": false,
+    "changed_by_v034": false,
+    "changed_by_v035": false,
+    "changed_by_v036": false,
+    "changed_by_v037": false
+  },
+  "discussion_frontier": {
+    "status": "WORKING_NOT_PROMOTED_DISCUSSION_CLOCK_ADVANCED_TO_1944-01-28",
+    "last_closed_nodes": [
+      "GALVANIC negative-delta closeout and propagation",
+      "Jan-1944 Japanese fleet-DD / light-cruiser / submarine wallet reconciliation",
+      "First Indian-Ocean mobile-group candidate selection",
+      "Truk-origin / Palau-Balikpapan/Tarakan-Singapore/Lingga route audit",
+      "Historical Eastern Fleet heavy-group passage chronology dated through Ceylon arrival and post-arrival cleaning gate",
+      "Andaman-Arakan observation-network accounting normalized to bounded functional nodes; false single physical-station count rejected",
+      "Axis-to-Japan delivery of the 11 Jan German visual report adjudicated: Japanese receipt center 12 Jan JST, delayed case 13 Jan",
+      "First Truk mobile-group release realized at WORKING discussion level; Oyodo + Teruzuki + Takanami + Makinami + Kiyonami, with I-27/I-37 activation",
+      "Central-Pacific opportunity-cost debit represented as allocation loss of 1 CL command/ISR asset + 4 modern DD screens, not global hull loss",
+      "Eastern Fleet January medium/light OOB split into existing station assets, true new arrivals, local escort joiners, transient ferries and later reinforcements",
+      "Jan13-28 Eastern Fleet passage to Ceylon and post-arrival split/workup carried on trace-locked baseline; no pre-arrival submarine weapon-quality contact centered",
+      "Bengal stalemate rechecked: Chittagong vs Feni-Comilla regeneration clocks harden rather than break the front in late Jan",
+      "Initial Bengal Kinsei-Zero quality reinforcement working center established; further westward fighter reinforcement held under Central-Pacific priority",
+      "US Branch Flintlock fast-deck wallet closed at 5 CV + 6 CVL and reorganized into three stronger TGs",
+      "Marshall 28-Jan air OOB closed as layered physical/serviceable/search bands with dispersal by base",
+      "Previously accepted submarine structured-report/contact-fusion/information-age effect explicitly propagated into Marshall mobilization warning",
+      "By 27-28 Jan Japan has HIGH major Central-Pacific operation warning and MEDIUM-HIGH Marshalls target inference, but no weapon-quality carrier track",
+      "All-band technology lineage/provenance audit closed at 1944-01-28: domestic pre-Europe baseline separated from Yanagi/European direct cards and catalytic derivatives; stale I-29 future back-port explicitly blocked",
+      "Yanagi/jet cascade re-audit: I-34 historical 13-Nov-1943 Ultra-directed Taurus loss removed in Branch; improved Yanagi trim/stowage also shifts the exposure window; I-34 is alive and Europe-bound at the 28-Jan discussion clock, while Europe arrival remains future",
+      "I-34 original technical passenger party retained with I-34; historical transfer of Kojima/two Mitsubishi engineers to I-29 is not duplicated, forcing I-29 passenger/cargo role diversification",
+      "Jet development schedule split into domestic bench, captive airborne hot-run, secure low-bandwidth Europe observation, paper/small-hardware return and bulky physical-engine gates",
+      "Legacy Mar-May-1944 dedicated pure-jet first-flight centerline superseded; Q2-1944 captive airborne hot-run is centered, no 1944 operational jet, favorable practical axial bench late-1944 and twin-jet experimental flight Q1/Q2-1945 only after future gates",
+      "German jet provenance tightened: physical Jumo004B/HWK509A-1 remain high-confidence I-29 future cargo candidates; BMW003 photographs/general-arrangement are important information, but a complete physical BMW003 engine is not auto-granted",
+      "Raiden re-audit closed the aircraft-to-C2 chain at the 1944-01-28 working clock: standard production median, limited high-altitude mechanically-supercharged subset, turbo-test combat zero, four-20mm armament mix, staged readiness and warning-to-intercept timing are separated.",
+      "Post-GALVANIC air-defense exchange transition is now dated rather than back-ported: GALVANIC remains locked, early-Dec/1-Jan/28-Jan fixed-base procedural maturity rises by explicit bands and collapses when radar/plot/radio is suppressed.",
+      "Marshall fighter total is unchanged; v002 decomposes 12-18 serviceable Raiden centered 16 inside the already-closed 72 fighter/local-cover slots, centered Taroa 10 and Roi 6, with only 0-2 high-altitude subset.",
+      "Future Raiden 4/30 ready 260-300 is guarded as national inventory/readiness, not a count of B-29-effective high-altitude interceptors."
+    ],
+    "working_not_promoted": [
+      "06_RUNTIME/JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v004.json",
+      "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v006.json",
+      "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v002.json",
+      "06_RUNTIME/EASTERN_FLEET_MEDIUM_LIGHT_OOB_1944-01_WORKING_v001.json",
+      "06_RUNTIME/ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+      "95_AUDIT/JAPAN_INDIAN_OCEAN_ORIGIN_ROUTE_AUDIT_1944-01_WORKING_v001.md",
+      "95_AUDIT/FRONTIER_AND_EASTERN_FLEET_DATA_AUDIT_2026-08-29_v001.md",
+      "95_AUDIT/EASTERN_FLEET_MEDIUM_LIGHT_OOB_AUDIT_2026-08-29_v001.md",
+      "06_RUNTIME/US_TF58_BRANCH_OOB_1944-01-28_WORKING_v001.json",
+      "06_RUNTIME/MARSHALL_SUBMARINE_CONTACT_LIAISON_1944-01-28_WORKING_v001.json",
+      "06_RUNTIME/PARALLEL_THEATER_STATE_1944-01-28_WORKING_v001.json",
+      "95_AUDIT/MARSHALL_MOBILIZATION_SUB_LIAISON_AUDIT_2026-08-29_v001.md",
+      "95_AUDIT/TECHNOLOGY_LINEAGE_ALL_BANDS_AUDIT_2026-08-29_v001.md",
+      "06_RUNTIME/YANAGI_ROUTE_TECH_GATE_STATE_1944-01-28_WORKING_v001.json",
+      "06_RUNTIME/JAPAN_JET_DEVELOPMENT_REAUDIT_1944_1945_WORKING_v001.json",
+      "95_AUDIT/YANAGI_JET_CASCADE_REAUDIT_2026-08-29_v001.md",
+      "06_RUNTIME/MARSHALL_AIR_OOB_1944-01-28_WORKING_v002.json",
+      "06_RUNTIME/TECHNOLOGY_LINEAGE_SYNTHESIS_1944-01-28_WORKING_v003.json",
+      "06_RUNTIME/RAIDEN_INTERCEPTOR_SYSTEM_1943Q4_1944Q1_WORKING_v001.json",
+      "06_RUNTIME/AIR_DEFENSE_EXCHANGE_TRANSITION_POST_GALVANIC_1943-11_1944-01_WORKING_v001.json",
+      "06_RUNTIME/1944SUMMER_JAPAN_US_FORCE_REGENERATION_WORKING_LEDGER_v002.md",
+      "95_AUDIT/RAIDEN_HEAVY_BOMBER_INTERCEPT_REAUDIT_2026-08-29_v001.md"
+    ],
+    "unresolved_nodes": [
+      "First firm US fast-carrier/assault-force contact after 28 Jan: sensor, time, location, target identity and report age",
+      "Whether submarine-cued Marshall air search recontacts a carrier TG before the first US suppression strike",
+      "Actual US first-strike date within the 2-4 Feb working window and exact target split among Taroa/Roi/Kwajalein/Wotje/Eniwetok",
+      "Japanese land-air weapon release/night-strike package after fresh contact, including serviceable aircraft and crew qualification at launch time",
+      "Japanese first-line carrier GO/withhold under contact freshness, US mission-state split, fuel/escort/recovery geometry and Soryu trial status",
+      "Actual amphibious D-Day within 4-7 Feb working window; not realized yet",
+      "I-34 projected early-Feb Europe arrival and exact technical-observation/report content; not realized on 28 Jan",
+      "I-34 return manifest/route survival and whether paper/small-hardware reaches Japan before I-29 Singapore gate",
+      "I-29 Europe/Singapore information gate and separate post-Singapore physical Jumo004B/HWK509A-1 hardware gate",
+      "RO-501 and I-52 future Yanagi survival/cargo effects, adjudicated by actual ASW/COMINT mechanism rather than automatic survival",
+      "Jet industrial-gate outcomes: hot-section life, bearings/seals, fuel control, compressor repeatability, flight-rated engine and airframe integration",
+      "Exact 1944 monthly Raiden standard/high-altitude production and theater allocation after Jan-28 combat losses",
+      "Observed B-24/B-29 exchange once future raids occur; the Jan-28 exchange-transition bands are prospective working priors, not realized kill ratios"
+    ],
+    "next_exact_action": "Return to the 1944-01-28 Marshall first-contact chain using MARSHALL_AIR_OOB v002, the Raiden interceptor-system overlay and the dated post-GALVANIC exchange-transition ledger. No future B-29 or high-altitude result is pre-realized. Separately trigger I-34 Europe-arrival only when the discussion clock reaches its early-Feb gate.",
+    "discussion_clock_center": "1944-01-28"
+  },
+  "mandatory_load_order": [
+    "00_README/CURRENT_DISCUSSION_FRONTIER_v006.json",
+    "06_RUNTIME/CURRENT_BRANCH_STATE_v012.json",
+    "05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v004.json",
+    "00_CONFIG/current_branch_overrides_v012.json",
+    "06_RUNTIME/PARALLEL_THEATER_STATE_1944-01-28_WORKING_v001.json",
+    "06_RUNTIME/TECHNOLOGY_LINEAGE_SYNTHESIS_1944-01-28_WORKING_v003.json",
+    "06_RUNTIME/RAIDEN_INTERCEPTOR_SYSTEM_1943Q4_1944Q1_WORKING_v001.json",
+    "06_RUNTIME/AIR_DEFENSE_EXCHANGE_TRANSITION_POST_GALVANIC_1943-11_1944-01_WORKING_v001.json",
+    "95_AUDIT/RAIDEN_HEAVY_BOMBER_INTERCEPT_REAUDIT_2026-08-29_v001.md",
+    "06_RUNTIME/MARSHALL_AIR_OOB_1944-01-28_WORKING_v002.json",
+    "06_RUNTIME/MARSHALL_SUBMARINE_CONTACT_LIAISON_1944-01-28_WORKING_v001.json",
+    "06_RUNTIME/US_TF58_BRANCH_OOB_1944-01-28_WORKING_v001.json",
+    "06_RUNTIME/YANAGI_ROUTE_TECH_GATE_STATE_1944-01-28_WORKING_v001.json",
+    "06_RUNTIME/JAPAN_JET_DEVELOPMENT_REAUDIT_1944_1945_WORKING_v001.json",
+    "95_AUDIT/YANAGI_JET_CASCADE_REAUDIT_2026-08-29_v001.md",
+    "02_TECH/TECH_INDEX_v009.json",
+    "06_RUNTIME/AXIS_SUBMARINE_TECH_TRANSFER_REAUDIT_1942-1944_v001.md",
+    "06_RUNTIME/JAPAN_JET_PRE_I29_TECH_GATE_v001.md",
+    "95_AUDIT/MARSHALL_MOBILIZATION_SUB_LIAISON_AUDIT_2026-08-29_v001.md"
+  ],
+  "guardrails": [
+    "CURRENT authority remains 1944-01-01; v036 preserves only the WORKING discussion clock to 1944-01-28.",
+    "No US Flintlock strike or amphibious landing after 28 Jan is CURRENT/realized; 2-4 Feb strike and 4-7 Feb D-Day are working windows only.",
+    "Submarine contact liaison improves warning/search/intercept probability but never creates a continuous data link or automatic torpedo/fleet strike solution.",
+    "Marshall aircraft counts are layered physical/serviceable/alert bands; do not collapse them into one fake exact count.",
+    "No dedicated Kinsei-Zero Marshall detachment is credited on 28 Jan; later forward order is not an arrival.",
+    "Japanese first-line carrier sortie still requires fresh positive-EV contact and US mission-state separation; a HIGH strategic warning is not the carrier GO itself.",
+    "Indian Ocean second surface reinforcement remains HOLD under Central-Pacific priority; the already-realized Oyodo group is not recalled retroactively.",
+    "TECH_INDEX_v009 remains authoritative; v036 technology lineage is a provenance/anti-double-count WORKING overlay, not a new scalar technology level.",
+    "SenTaka, Kinsei-Zero, Raiden/Shiden-Kai/Reppu domestic lines, surface-hull reliability, carrier-process maturation and Japanese high-grade COMSEC are not German-origin technologies.",
+    "I-29 second-mission physical German hardware, BMW003/Jumo004/HWK509, Naxos, Type XXI and schnorchel remain future unresolved gates and must not be back-ported to 1944-01-28.",
+    "I-30/Wuerzburg/Metox/Bold and RO-500/I-8 effects act only at their specific causal stages; do not re-add domestic compute/reliability gains as a second Europe multiplier.",
+    "I-34 is realized only as alive/outbound through 1944-01-28; projected early-Feb Europe arrival is not yet an event.",
+    "Removal of the Ultra-directed I-34/I-29 ambush mechanism does not confer immunity from generic ASW, mines, weather, mechanical failure or visual/radar patrol.",
+    "Do not duplicate the historical I-34 passenger party on I-29 after Branch I-34 survival.",
+    "No complete physical BMW003 engine is granted by default; distinguish BMW003 information/photos from physical Jumo004B/HWK509A-1 future cargo.",
+    "Q2-1944 airborne jet work means captive/underwing hot-run and measurement, not a centered self-propelled operational jet aircraft.",
+    "No 1944 jet or rocket combat unit; any late-1944 axial bench or 1945 flight date is conditional on future Yanagi and industrial gates.",
+    "Raiden national ready inventory is not a high-altitude-qualified inventory. Gate standard vs high-altitude mechanically-supercharged subset before B-29 loss calculations.",
+    "Exhaust-turbo Raiden combat-ready count is zero on 1944-01-28; do not back-port experimental high-altitude performance.",
+    "GALVANIC losses remain fixed. Post-GALVANIC exchange improvement is prospective and dated; no generic extra lesson multiplier may be stacked on the new exchange ledger.",
+    "Marshall v002 Raiden count is a subset of the existing fighter total and must not increase the 136 serviceable-theater center."
+  ],
+  "working_supersession": [
+    {
+      "older": "06_RUNTIME/JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v003.json",
+      "newer": "06_RUNTIME/JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v004.json",
+      "scope": "working discussion only"
+    },
+    {
+      "older": "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v004.json",
+      "newer": "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v005.json",
+      "scope": "working discussion only"
+    },
+    {
+      "older": "95_AUDIT/current_version_families_v019.json",
+      "newer": "95_AUDIT/current_version_families_v020.json",
+      "scope": "package/navigation registry"
+    },
+    {
+      "older": "00_README/CURRENT_DISCUSSION_FRONTIER_v001.json",
+      "newer": "00_README/CURRENT_DISCUSSION_FRONTIER_v002.json",
+      "scope": "package navigation/discussion frontier"
+    },
+    {
+      "older": "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v005.json",
+      "newer": "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v006.json",
+      "scope": "working discussion only"
+    },
+    {
+      "older": "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v001.json",
+      "newer": "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v002.json",
+      "scope": "working discussion only"
+    },
+    {
+      "older": "95_AUDIT/current_version_families_v020.json",
+      "newer": "95_AUDIT/current_version_families_v021.json",
+      "scope": "package/navigation registry"
+    },
+    {
+      "older": "00_README/CURRENT_DISCUSSION_FRONTIER_v002.json",
+      "newer": "00_README/CURRENT_DISCUSSION_FRONTIER_v003.json",
+      "scope": "package navigation/discussion frontier"
+    },
+    {
+      "older": "95_AUDIT/current_version_families_v021.json",
+      "newer": "95_AUDIT/current_version_families_v022.json",
+      "scope": "package/navigation registry"
+    },
+    {
+      "older": "00_README/CURRENT_DISCUSSION_FRONTIER_v003.json",
+      "newer": "00_README/CURRENT_DISCUSSION_FRONTIER_v004.json",
+      "scope": "package navigation/discussion frontier"
+    },
+    {
+      "older": "95_AUDIT/current_version_families_v022.json",
+      "newer": "95_AUDIT/current_version_families_v023.json",
+      "scope": "package/navigation registry"
+    },
+    {
+      "older": "06_RUNTIME/TECHNOLOGY_LINEAGE_SYNTHESIS_1944-01-28_WORKING_v001.json",
+      "newer": "06_RUNTIME/TECHNOLOGY_LINEAGE_SYNTHESIS_1944-01-28_WORKING_v002.json",
+      "scope": "working technology lineage; jet/Yanagi cascade revised"
+    },
+    {
+      "older": "00_README/CURRENT_DISCUSSION_FRONTIER_v004.json",
+      "newer": "00_README/CURRENT_DISCUSSION_FRONTIER_v005.json",
+      "scope": "package navigation/discussion frontier"
+    },
+    {
+      "older": "06_RUNTIME/MARSHALL_AIR_OOB_1944-01-28_WORKING_v001.json",
+      "newer": "06_RUNTIME/MARSHALL_AIR_OOB_1944-01-28_WORKING_v002.json",
+      "scope": "working Marshall aircraft composition/C2 overlay; total unchanged"
+    },
+    {
+      "older": "06_RUNTIME/TECHNOLOGY_LINEAGE_SYNTHESIS_1944-01-28_WORKING_v002.json",
+      "newer": "06_RUNTIME/TECHNOLOGY_LINEAGE_SYNTHESIS_1944-01-28_WORKING_v003.json",
+      "scope": "working technology lineage; Raiden variant/C2 overlay added"
+    },
+    {
+      "older": "06_RUNTIME/1944SUMMER_JAPAN_US_FORCE_REGENERATION_WORKING_LEDGER_v001.md",
+      "newer": "06_RUNTIME/1944SUMMER_JAPAN_US_FORCE_REGENERATION_WORKING_LEDGER_v002.md",
+      "scope": "working future inventory guard; Raiden ready != B-29-qualified"
+    },
+    {
+      "older": "00_README/CURRENT_DISCUSSION_FRONTIER_v005.json",
+      "newer": "00_README/CURRENT_DISCUSSION_FRONTIER_v006.json",
+      "scope": "package navigation/discussion frontier"
+    }
+  ]
+}

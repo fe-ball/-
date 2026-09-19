@@ -1,0 +1,7 @@
+Derived from: 計算機異聞_BRANCH_B_v090_FULL_HANDOFF_1943-11-05_ALEUTIANS_REAUDIT_2026-09-10.zip
+Build: v091 full handoff
+Created: 2026-09-12
+Global overlay cutoff: 1943-11-05
+Earliest active causal re-audit frontier: 1942-07-23 00:00 (Santo D-4)
+Reason: prebattle optionality re-audit plus Japanese aviation-wallet / Zero-family root reopen.
+Read 00_READ_FIRST_V091_FULL_HANDOFF.md first.

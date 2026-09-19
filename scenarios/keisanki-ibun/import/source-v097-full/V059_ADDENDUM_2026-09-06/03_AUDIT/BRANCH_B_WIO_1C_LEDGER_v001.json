@@ -1,0 +1,241 @@
+{
+  "project": "計算機異聞 Branch B",
+  "version": "v059",
+  "block": "WIO-1C",
+  "cutoff": "1942-06-18T24:00_local_working_clock",
+  "policy": {
+    "british_countermeasure_costing": "GROSS_FIRST_NO_OVERLAP_DISCOUNT",
+    "affordability_test": "DEFERRED_TO_LATER_GLOBAL_AUDIT",
+    "no_double_booking": true,
+    "no_back_projection_of_mature_convoy_system": true
+  },
+  "branch_context": {
+    "operation_c_1942_04_05": {
+      "Indomitable": "SUNK",
+      "Formidable": "SUNK",
+      "Warspite": "DAMAGED_SURVIVES",
+      "Hermes": "SURVIVES_09_APR_CHAIN_AND_USED_IN_BRANCH_IRONCLAD"
+    }
+  },
+  "submarine_sinkings_through_cutoff": {
+    "regular_submarines": {
+      "I-10": {
+        "ships": 3,
+        "grt": 12862
+      },
+      "I-16": {
+        "ships": 3,
+        "grt": 12484
+      },
+      "I-18": {
+        "ships": 1,
+        "grt": 2158
+      },
+      "I-20": {
+        "ships": 5,
+        "grt": 25336
+      },
+      "total": {
+        "ships": 12,
+        "grt": 52840
+      },
+      "branch_delta_vs_same_traffic_geometry": {
+        "ships": 0,
+        "grt": 0
+      }
+    },
+    "surface_raider_separate": {
+      "Elysia_grt": 6757
+    },
+    "British_Loyalty_separate": {
+      "grt": 6993,
+      "status": "SHALLOW_WATER_SUNK_EVENTUALLY_REFLOATED; AVAILABILITY_LOSS_CHARGED"
+    }
+  },
+  "daily_adjudication": [
+    {
+      "date": "1942-06-05",
+      "sub_losses": [
+        "Atlantic Gulf",
+        "Melvin H. Baker",
+        "Johnstown"
+      ],
+      "ruling": "RETAIN",
+      "reason": "attacks precede effective countermeasure cycle"
+    },
+    {
+      "date": "1942-06-06",
+      "sub_losses": [
+        "Susak",
+        "Wilford"
+      ],
+      "ruling": "RETAIN",
+      "reason": "response has begun but command/routing and coverage have not matured"
+    },
+    {
+      "date": "1942-06-08",
+      "sub_losses": [
+        "Christos Markettos",
+        "Agios Georgios IV",
+        "King Lud"
+      ],
+      "ruling": "RETAIN",
+      "reason": "surface patrols present but victims remain independent; no verified contact that Branch improvement converts"
+    },
+    {
+      "date": "1942-06-11",
+      "sub_losses": [
+        "Mahronda",
+        "Hellenic Trader"
+      ],
+      "ruling": "RETAIN",
+      "reason": "10 Jun evasive-routing order cannot fully redirect ships already exposed; normal trade convoying infeasible"
+    },
+    {
+      "date": "1942-06-12",
+      "sub_losses": [
+        "Clifton Hall",
+        "Supetar"
+      ],
+      "ruling": "RETAIN",
+      "reason": "same; Kilindini-centered rapid control not yet fully effective and victims are independent"
+    }
+  ],
+  "gross_british_bill_through_1942_06_18": {
+    "direct_Diego_Suarez_damage_response_inherited": {
+      "destroyer_days": {
+        "Active": 16,
+        "Duncan": 16,
+        "Decoy": 10,
+        "total": 42,
+        "status": "INHERITED_WORKING_GROSS_FROM_WIO-1B"
+      },
+      "Emerald_cruiser_days": {
+        "days": 7,
+        "span": "1942-06-03..09",
+        "status": "COUNTED_AS_RAMILLIES_ESCORT; NOT_DOUBLE_COUNTED_AS_RAIDER_PATROL"
+      },
+      "corvette_days": {
+        "total": 6,
+        "ships": [
+          "Fritillary",
+          "Jasmine"
+        ],
+        "status": "INHERITED_WORKING_GROSS; EXACT_DAILY_SPLIT_OPEN"
+      },
+      "Ramillies_dockyard_occupancy_days": {
+        "days": 10,
+        "span": "1942-06-09..18"
+      },
+      "Ramillies_unavailable_capital_ship_days": {
+        "days": 20,
+        "span": "1942-05-30..06-18",
+        "category": "COMBAT_AVAILABILITY_LOSS_NOT_ESCORT_COST"
+      },
+      "British_Loyalty_unavailable_tanker_days": {
+        "days": 20,
+        "span": "1942-05-30..06-18",
+        "grt_days": 139860,
+        "category": "COMBAT_AVAILABILITY_LOSS"
+      },
+      "salvage_diver_pump_tug_effort": "NONZERO_UNQUANTIFIED_DEBT_TICKET"
+    },
+    "trade_defence_and_high_value_shipping": {
+      "armed_merchant_cruiser_days": {
+        "Canton": 14,
+        "Chitral": 12,
+        "total": 26,
+        "method": "calendar assignment days through cutoff"
+      },
+      "cruiser_days_minimum_verified_or_branch_assigned": {
+        "Danae": {
+          "days": 5,
+          "role": "northern Mozambique Channel response patrol, 6-10 Jun; later convoy work not charged here"
+        },
+        "Dauntless": {
+          "days": 13,
+          "role": "trade-defence/patrol from departure after KM1 arrival on 6 Jun through cutoff; no contrary release event in daily diary before cutoff"
+        },
+        "Dragon": {
+          "days": 8,
+          "role": "intermittent Kilindini/Mozambique patrol windows 6-9 and 11-14"
+        },
+        "Caledon": {
+          "days": 8,
+          "role": "explicit patrol cycle 8-15; port relief hours not discounted under gross policy"
+        },
+        "Devonshire": {
+          "days": 13,
+          "role": "threat-response patrol then high-value east-of-Madagascar escort chain, 6-18"
+        },
+        "Frobisher": {
+          "days": 7,
+          "role": "10-16 interception/search mission; Branch paired with Hermes instead of sunk Indomitable"
+        },
+        "Mauritius": {
+          "days": 7,
+          "role": "Queen Mary/WS19W high-value escort, 10-16"
+        },
+        "Shropshire": {
+          "days": 7,
+          "role": "modern heavy-cruiser component of strengthened WS19 escort, 12-18"
+        },
+        "subtotal_excluding_Emerald": 68,
+        "subtotal_including_Emerald_direct_response": 75
+      },
+      "branch_carrier_days": {
+        "Hermes": {
+          "days": 7,
+          "span": "1942-06-10..16",
+          "ruling": "MODEL_SUBSTITUTION_FOR_HISTORICAL_INDOMITABLE_RESPONSE_SLOT",
+          "note": "carrier hull burden paid; capability is not treated as 1:1 modern-carrier equivalence"
+        }
+      },
+      "shipping_control": {
+        "from_1942_06_10": [
+          "evasive routing across navigable width",
+          "escorted troop convoys east of Madagascar",
+          "large fast unescorted ships east of Madagascar"
+        ],
+        "ordinary_trade_convoying": "IMPRACTICABLE_AT_THIS_STAGE_DUE_ESCORT_SHORTAGE",
+        "Kilindini_control": "transfer/centralization becomes effective around 14 Jun working clock"
+      },
+      "air_ASW": {
+        "Catalina_redeployment_commitments": 3,
+        "Catalina_aircraft_days": "OPEN_PENDING_EXACT_ARRIVAL/OPERATING_DATE",
+        "extra_GR_squadron_request": "REQUESTED; DELIVERY_BY_18_JUN_NOT_YET_VERIFIED",
+        "policy": "do not convert unserviceable aircraft into operational output"
+      }
+    },
+    "headline_known_totals": {
+      "destroyer_days": 42,
+      "cruiser_days": 75,
+      "armed_merchant_cruiser_days": 26,
+      "corvette_days": 6,
+      "branch_carrier_days": 7,
+      "capital_ship_dockyard_days": 10,
+      "capital_ship_unavailable_days": 20,
+      "tanker_unavailable_days": 20,
+      "tanker_grt_days_unavailable": 139860,
+      "plus": [
+        "3 Catalina redeployment commitments",
+        "salvage/diver/pump/tug effort debt ticket",
+        "merchant diversion/waiting debt tickets not yet route-quantified"
+      ]
+    }
+  },
+  "closure": {
+    "WIO-1A": "CLOSED",
+    "WIO-1C_through_1942_06_18": "CLOSED_CENTER",
+    "center_result": "12 regular-sub sinkings / 52,840 GRT retained through 18 Jun",
+    "next_block": "WIO-2_1942-06-19_to_1942-07-08",
+    "next_key_question": "full British routing/protection measures are now active; test second Japanese phase and whether Britain can maintain the gross bill without stealing capacity elsewhere"
+  },
+  "source_notes": [
+    "Royal Navy / Eastern Fleet War Diary, May-June 1942 (Naval-History.Net transcription of official material)",
+    "Eastern Fleet report: Japanese Raider and Submarine Attacks in the Mozambique-Madagascar Area",
+    "WS Convoys 1942 sailings chronology (Naval-History.Net)",
+    "Evert Kleynhans, The Naval War in South African Waters, 1939-1945",
+    "Branch B v058 START HERE and Royal Navy divergence audit v001"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "package_revision": "v042",
+  "ERRORS": 0,
+  "WARNINGS": 0,
+  "JSON_FILES": 427,
+  "errors": [],
+  "warnings": [],
+  "note": "Full validate_refactor_v025 result: all JSON parse, authority unchanged, discussion clock 1944-02-03 15:30, registry latest/current consistency, v041 center-field repair, carrier-battle centers and post-Marshall OOB all checked."
+}

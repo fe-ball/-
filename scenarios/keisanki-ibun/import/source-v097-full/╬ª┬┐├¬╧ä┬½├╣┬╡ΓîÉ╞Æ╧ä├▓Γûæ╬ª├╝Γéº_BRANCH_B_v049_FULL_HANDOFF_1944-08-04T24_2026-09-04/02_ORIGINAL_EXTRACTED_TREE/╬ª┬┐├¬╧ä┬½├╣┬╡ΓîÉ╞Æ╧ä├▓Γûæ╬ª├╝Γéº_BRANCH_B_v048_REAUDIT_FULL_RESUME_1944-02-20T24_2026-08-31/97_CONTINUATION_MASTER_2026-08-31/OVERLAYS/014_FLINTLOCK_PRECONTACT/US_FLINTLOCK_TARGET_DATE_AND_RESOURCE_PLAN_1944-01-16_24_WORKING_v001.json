@@ -1,0 +1,32 @@
+{
+  "id": "US_FLINTLOCK_TARGET_DATE_AND_RESOURCE_PLAN_1944-01-16_24_WORKING_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-01-16 through 1944-01-24",
+  "decision": {
+    "main_target": "Kwajalein/Roi-Namur with Majuro seizure/support",
+    "outer_island_first": "Rejected as centerline. Tarawa strengthens caution, but attacking Taroa/Wotje/Mili one by one would expose the fleet longer to the same Japanese air/submarine/carrier network.",
+    "provisional_main_D_day": "1944-02-06",
+    "D_day_sensitivity_band": "1944-02-05 through 1944-02-07",
+    "planned_fast_carrier_suppression_open": "1944-02-01/02, weather/fuel/contact dependent"
+  },
+  "US_fast_carrier_centerline": {
+    "decks": 11,
+    "composition_note": "5 CV + 6 CVL Branch TF58; Lexington CV-16 and Independence remain unavailable, while Wasp CV-7 survives in this branch.",
+    "ready_aircraft_band": [595, 625],
+    "center": 610,
+    "principle": "Tarawa learning increases suppression/recon/direct-fire allocations but does not remove anti-carrier CAP/search, ASW, oiler protection or deck-cycle constraints."
+  },
+  "Tarawa_learning_applied": [
+    "more photo/submarine/reef reconnaissance and repeated battle-damage assessment",
+    "larger bombardment ammunition reserve and permission to re-engage supposedly neutralized positions",
+    "more LVT/engineer/close-support assets in reserve",
+    "stronger beach traffic control and wreck-removal planning",
+    "more close-support destroyer availability, with explicit loss of those hulls from outer SG/ASW screen when committed inward"
+  ],
+  "finite_capacity_guards": [
+    "More shells do not multiply destruction linearly; target identification, smoke/dust, fire sectors and landing safety cap useful rate.",
+    "More LVT/LST create reserve depth faster than usable beach frontage; lanes, exits, refueling and disabled-vehicle clearance can congest.",
+    "Four operational Japanese first-line carriers force a real fleet-defense/search reserve.",
+    "The assault date is not delayed to await Lexington because further delay increases Japanese construction, submarine and carrier preparation."
+  ]
+}

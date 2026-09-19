@@ -1,0 +1,6 @@
+date	theater	event	historical_anchor	asai_delta	closure
+1937-10-01	Shanghai	13th Division landing	13th Division lands between Woosung and Shanghai	Landing unchanged; deployment readiness +2 to +4 points after unloading	CLOSED-SAME-DATE
+1937-10-01	North China	Southward movement	1st Army divisions move toward Shijiazhuang concentration areas	Vehicle/repair margin helps but schedule remains command/bridge limited	CLOSED-SAME-CALENDAR
+1937-10-03/04	Shanghai	Liuhang capture	Heavy artillery and bombing force Chinese withdrawal	Local collapse possibly 1–4 hours earlier; date unchanged	CLOSED-MINOR-HOURLY-ACCEL
+1937-10-04	North China	Shijiazhuang attack orders	Detailed attack orders disseminated	No command-date shift	CLOSED-SAME
+1937-10-04	Dual front	Loss exchange	Shanghai intense fighting; North China concentration	Japanese interval casualties -5 to -7%; Chinese 0 to +3% in Shanghai	WORKING-SENSITIVITY

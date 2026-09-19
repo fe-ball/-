@@ -1,0 +1,35 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_ISR_RESPONSE_TRUK_RAID_1944-04-24_30_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-04-24..30",
+  "global_frontier_after_merge": "1944-04-30T24",
+  "parents": [
+    "JAPAN_PACIFIC_ISR_SYSTEM_MATURITY_1944-03-20_31_WORKING_v001",
+    "US_LIMITED_TRUK_REFRESH_RAID_1944-04-29_30_WORKING_v001"
+  ],
+  "sequence": [
+    {
+      "time": "1944-04-25..26",
+      "quality": "EM_WARNING / BEARING_HISTORY",
+      "assessment": "Reduced but unusual US fast-carrier logistics/traffic creates a YELLOW Central-Carolines warning. Smaller raid package makes the strategic cue less obvious than DESECRATE I."
+    },
+    {
+      "time": "1944-04-27..28",
+      "quality": "SECTOR_WARNING",
+      "assessment": "Truk/Ponape approach sectors are prioritized; long-range search/submarine cues raise Truk alert to HIGH without an exact TG fix."
+    },
+    {
+      "time": "1944-04-29 dawn",
+      "quality": "LOCAL_TRACK",
+      "assessment": "Truk patrol/radar system obtains tactical warning on the approaching strike system. Working first-wave warning is roughly 45-70 minutes, enough for CAP launch/dispersal but not for southern Mobile Fleet intervention."
+    },
+    {
+      "time": "1944-04-29..30",
+      "quality": "WEAPON_QUALITY_LOCAL_ONLY",
+      "assessment": "Carrier positions become attack-quality only intermittently during the raid and expire rapidly on US withdrawal."
+    }
+  ],
+  "new_submarine_sensor_note": "Late-April Type 13 air-search radar fitting/trials on new Japanese submarines are a real maturation input for future picket work, but are not treated as an ocean-wide carrier detector or retroactive perfect fix in this event.",
+  "system_assessment": "The mature Japanese network again succeeds at warning and local readiness, but its persistent mobile-ocean tracking weakness remains. It protects the strategic fleet by preventing a blind sortie rather than by generating a carrier ambush."
+}

@@ -1,0 +1,21 @@
+{
+  "revision": "v009",
+  "id": "CURRENT_BRANCH_STATE_v009",
+  "date_created": "2026-08-28",
+  "package_revision": "v027",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "status": "CURRENT",
+  "current_analysis_time": "1944-01-01T00:00",
+  "current_frontier_event": "1943H2 closed through GALVANIC, Chittagong capture/year-end consolidation and retroactive Royal Navy/Dodecanese audit. 1944 combat remains unopened.",
+  "active_restart": {
+    "mode": "BRANCH_B_1943_YEAR_END_RESTART",
+    "time": "1944-01-01T00:00",
+    "checkpoint": "CHECKPOINT_1943-12-31T24_BRANCH_B_v001"
+  },
+  "current_overrides": "00_CONFIG/current_branch_overrides_v009.json",
+  "rollback_guard": "06_RUNTIME/BRANCH_B_YEAR_END_GUARD_1944-01-01_v001.json",
+  "current_session_settlement": "06_RUNTIME/SESSION_2026-08-28_BRANCH_B_1943YEAREND_HANDOFF_v001.md",
+  "year_end_settlement": "06_RUNTIME/BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v001.md",
+  "next_required_adjudication": "Audit Japanese 1944-01-01 movable destroyer/submarine/cruiser force across Pacific and Indian Ocean, including transfer times and German Monsun boat availability, before adjudicating Eastern Fleet contact or 1944 operations.",
+  "precedence_rule": "CURRENT_BRANCH_STATE_v009 + CHECKPOINT_1943-12-31T24_BRANCH_B_v001 + BRANCH_B_YEAR_END_GUARD_1944-01-01 + current_branch_overrides_v009 supersede the v026 summer rollback frontier and all retained/provisional 1944 descendants."
+}

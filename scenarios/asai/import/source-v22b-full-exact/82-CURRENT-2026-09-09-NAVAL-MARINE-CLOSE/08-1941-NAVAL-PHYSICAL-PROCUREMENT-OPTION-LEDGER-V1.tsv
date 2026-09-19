@@ -1,0 +1,14 @@
+item	1941-12-08 physical/procurement status	technical maturity	combat_OOB	V14 interpretation
+Main battleship/cruiser/destroyer/carrier propulsion	steam historical-type main line	Mature	YES historical fleet	Asai delta mainly integration/reliability; no blanket GT
+Yamato propulsion	all-steam central	Mature	as historical commissioning clock	13-go improvements do not replace missing service history
+Carrier GT boost retrofit	0 selected installations	technical study only	0	explicit prewar NO selection
+E5 marine qualification small-craft architecture	no series inventory fixed by V14	TECH-READY architecture	0 series by this ledger	one-GT boost test method retained; not sole large-GT gate
+E6 50-55 t high-speed/torpedo craft	series inventory 0 fixed prewar; procurement decision open	TECH-READY / production-engineering reachable	0 unless policy orders it	strategic option: requirement can move directly into prototype/acceptance path
+Yokosuka machinery experimental ship	1 program; 1939 order, 1940 launch/outfit, 1941 full trials	ACTIVE experimental infrastructure	0 combat	700-900 t, two shafts, initial 2xE6-M, safe-return diesel
+Large-ship GT primary propulsion	0	below M3	0	not yet a trusted sole ship heart
+Large-ship GT boost/auxiliary	0 selected surface-combatant installations	M1/M2 research path	0 selected	engineering option only before war opening
+Low-speed STOL carrier force	0 operational configuration	aircraft prototype/1942+ carrier gate	0	option appears only after A8N/powered-lift carrier qualification
+Heavy Daihatsu growth	6-8 physical total by YE working band	pilot	not standard flotilla	20-22 t payload threshold option
+Ka-Mi	~2 development test articles working	development	0	production remains 1942 gate
+Next-generation underwater-performance submarine	research/yard/electrical work only	research	0	~12 kt underwater target study; no 1941 operational boat
+Radar-ready electrical/structural provisions	selected new/modernized ships only	integration infrastructure	N/A	does not imply early radar; reduces later install lag

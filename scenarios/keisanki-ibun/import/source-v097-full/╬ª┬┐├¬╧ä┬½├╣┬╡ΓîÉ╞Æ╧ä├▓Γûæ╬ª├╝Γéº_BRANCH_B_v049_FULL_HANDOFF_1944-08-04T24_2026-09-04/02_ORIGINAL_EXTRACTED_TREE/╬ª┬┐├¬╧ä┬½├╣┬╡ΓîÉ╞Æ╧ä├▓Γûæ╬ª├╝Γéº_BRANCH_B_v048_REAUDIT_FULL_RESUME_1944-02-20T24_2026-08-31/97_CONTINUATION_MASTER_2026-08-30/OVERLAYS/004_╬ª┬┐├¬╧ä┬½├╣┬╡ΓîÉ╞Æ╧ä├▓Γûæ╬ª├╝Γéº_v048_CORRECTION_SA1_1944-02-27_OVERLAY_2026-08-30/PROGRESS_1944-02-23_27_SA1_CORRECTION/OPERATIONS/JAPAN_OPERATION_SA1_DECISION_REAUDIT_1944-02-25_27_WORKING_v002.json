@@ -1,0 +1,41 @@
+{
+  "revision": "v002",
+  "id": "JAPAN_OPERATION_SA1_DECISION_REAUDIT_1944-02-25_27_WORKING_v002",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "as_of": "1944-02-27T24:00:00+09:00",
+  "supersedes": "JAPAN_OPERATION_SA1_MOBILIZATION_1944-02-25_27_WORKING_v001",
+  "correction": "The historical 27-Feb departure is NOT inherited. Previous v001 tested hull survival but failed to close the Branch-specific movement and strategic-release chain for Tone and Chikuma.",
+  "branch_conflict": {
+    "Tone_Chikuma_03Feb": "Both were committed as heavy-cruiser scouts/screen in the Branch first-line carrier battle on 3 Feb, unlike their historical February movements.",
+    "postbattle": "The Branch carrier force then withdrew west after severe air-group attrition; HAILSTONE closeout only states that major surface units were west of Truk and dispersing toward Palau/Philippines/home-area support nodes. It does not place Tone or Chikuma at Lingga on a dated chain.",
+    "standing_gate": "Indian Ocean second surface reinforcement remained HOLD under Central-Pacific priority through the last pre-HAILSTONE synchronized state. A commerce-raider detachment using two first-line carrier-scout cruisers requires an explicit new release decision.",
+    "historical_schedule_not_portable": "Historically Tone left Truk on 1 Feb and reached Lingga on 21 Feb, while Chikuma completed a Kure refit and reached Lingga on 13 Feb. Those histories are impossible to copy after the Branch 3-Feb carrier engagement."
+  },
+  "decision_at_27T24": {
+    "SA_No1_historical_three_CA_sortie": "NO_GO_NOT_AUTHORIZED",
+    "Tone": "LOCATION/RELEASE_CHAIN_RECONSTRUCT_REQUIRED; not debit-able to Indian Ocean until carrier-screen withdrawal route and Combined Fleet release are dated",
+    "Chikuma": "LOCATION/RELEASE_CHAIN_RECONSTRUCT_REQUIRED; not debit-able to Indian Ocean until carrier-screen withdrawal route and Combined Fleet release are dated",
+    "Aoba_Kinu_Oi_local_elements": "AVAILABLE_FOR_PREPARATION/LOCAL_SW_AREA_TASKING subject to exact maintenance and escort state; they do not by themselves create historical SA No.1",
+    "Oyodo_group": "Remains separate Eastern-Fleet-contact reserve; do not silently substitute it into SA No.1",
+    "Uranami_Amagiri_Shikinami": "Local escort availability must be rechecked independently; no automatic 27-Feb raid escort assignment"
+  },
+  "centered_strategic_judgment": "After the Branch 3-Feb carrier battle, subsequent Marshall/CATCHPOLE loss and HAILSTONE neutralization of Truk, Combined Fleet has a stronger reason than history to retain Tone/Chikuma for mobile-fleet scouting, screening and reconstitution. Therefore the historical three-heavy-cruiser commerce raid is centered on HOLD/NO-GO at 27 Feb unless a later explicit release gate reverses that judgment.",
+  "permitted_future_variants": [
+    "DELAYED_SA1 after Tone/Chikuma physically reach Lingga and are released by Combined Fleet",
+    "SCALED_LOCAL_RAID using Southwest Area assets without Tone/Chikuma if command accepts lower payoff/higher risk",
+    "CANCEL_SURFACE_RAID and shift commerce pressure to submarines, long-range air reconnaissance/strike and route interdiction"
+  ],
+  "next_gate": "For 28 Feb..3 Mar, reconstruct Tone/Chikuma westward movement from the 3-Feb carrier battle, establish their actual location/readiness, then adjudicate Combined Fleet release versus retention. Do not import the historical 1-Mar Banka departure or later Behar outcome.",
+  "branch_refs": [
+    "06_RUNTIME/JAPAN_FIRST_LINE_CARRIER_HOLDING_FORCE_1944-01-28_02-02_WORKING_v003.json",
+    "06_RUNTIME/JAPAN_FIRST_LINE_CARRIER_BATTLE_STATE_1944-02-03T1530_WORKING_v001.json",
+    "06_RUNTIME/PARALLEL_THEATER_STATE_1944-02-06T1800_WORKING_v002.json",
+    "96_SESSION_WORKING_2026-08-30/OPERATIONS/TRUK_HAILSTONE_DAY1_AIR_SEA_1944-02-20_WORKING_v001.json",
+    "00_README/CURRENT_DISCUSSION_FRONTIER_v015.json"
+  ],
+  "historical_anchor_urls": [
+    "https://www.combinedfleet.com/tone_t.htm",
+    "https://www.combinedfleet.com/chikuma_t.htm",
+    "https://www.combinedfleet.com/aoba_t.htm"
+  ]
+}

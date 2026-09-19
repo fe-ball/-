@@ -1,0 +1,131 @@
+{
+  "id": "BRANCH_B_NC_1942_11_11_GROUND_WATER_AIR_CLOSURE_v001",
+  "checkpoint": "1942-11-11T18:00",
+  "water_air_architecture": {
+    "rear_heavy_support": "CHITOSE at Santo",
+    "chiyoda": "not committed to NC unless separately moved",
+    "intermediate_support": "KAMIKAWA_MARU / 11th Seaplane Tender Division-type layer",
+    "forward_nodes": [
+      "Saint-Vincent/Bourake sector",
+      "Boulouparis/Ouenghi sector",
+      "southern Tomo/Tontouta-side node as secured"
+    ],
+    "single_point_failure": false
+  },
+  "float_fighter_delta": {
+    "A6M_sorties_saved_cumulative": [
+      10,
+      15
+    ],
+    "A6M_damaged_aircraft_avoided_center": 2,
+    "A6M_ready_delta": [
+      1,
+      2
+    ],
+    "japanese_ground_air_attack_casualties_avoided": [
+      60,
+      120
+    ],
+    "US_ground_casualties_added_from_observed_fire": [
+      80,
+      140
+    ],
+    "tontouta_sustained_shelling_old": "1942-11-11T13:05",
+    "tontouta_sustained_shelling_revised": [
+      "1942-11-11T12:20",
+      "1942-11-11T12:40"
+    ]
+  },
+  "japan_ground": {
+    "ashore": [
+      32000,
+      34000
+    ],
+    "combat_effective": [
+      28000,
+      30500
+    ],
+    "forward_echelons": [
+      17000,
+      21000
+    ],
+    "cumulative_KW_MIA": [
+      2750,
+      3700
+    ],
+    "chiha_ready": [
+      12,
+      15
+    ],
+    "tankette_ready": 4,
+    "field_artillery_75mm_ready": [
+      42,
+      54
+    ],
+    "heavy_artillery_100_105mm_ready": [
+      6,
+      10
+    ],
+    "AT_37_47mm_ready": [
+      24,
+      32
+    ]
+  },
+  "allied_ground": {
+    "initial_direct_ground_combat": [
+      34000,
+      39000
+    ],
+    "cumulative_KW_MIA": [
+      2250,
+      3150
+    ],
+    "direct_combat_organized_available": [
+      31000,
+      35500
+    ],
+    "tontouta_defense_committed_supporting": [
+      22000,
+      27000
+    ],
+    "noumea_side_reserve": [
+      8000,
+      10000
+    ],
+    "light_tanks_ready": [
+      9,
+      12
+    ],
+    "105mm_artillery_ready": [
+      38,
+      46
+    ],
+    "155mm_artillery_ready": [
+      8,
+      11
+    ]
+  },
+  "space": {
+    "forward_line_km_north_of_tontouta": [
+      5.5,
+      8.5
+    ],
+    "controlled_corridor_length_km": [
+      52,
+      56
+    ],
+    "secure_lateral_depth_km_typical": [
+      5,
+      9
+    ],
+    "firm_control_area_km2": [
+      300,
+      430
+    ],
+    "patrol_fire_denial_area_km2": [
+      480,
+      680
+    ]
+  },
+  "qualitative_threshold_crossed": false
+}

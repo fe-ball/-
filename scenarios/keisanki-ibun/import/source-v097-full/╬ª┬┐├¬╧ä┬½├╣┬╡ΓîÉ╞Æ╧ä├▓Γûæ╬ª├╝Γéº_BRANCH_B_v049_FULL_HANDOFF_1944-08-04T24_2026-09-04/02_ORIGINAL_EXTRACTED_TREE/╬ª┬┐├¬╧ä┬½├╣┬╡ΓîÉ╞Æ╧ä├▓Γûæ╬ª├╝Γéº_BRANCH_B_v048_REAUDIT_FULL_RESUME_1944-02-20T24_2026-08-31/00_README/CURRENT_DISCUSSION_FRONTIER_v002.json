@@ -1,0 +1,109 @@
+{
+  "revision": "v002",
+  "package_revision": "v033",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "purpose": "Machine-readable separation of authoritative execution state from the latest unpromoted discussion/research frontier.",
+  "authority_frontier": {
+    "time": "1944-01-01T00:00",
+    "checkpoint": "05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v004.json",
+    "state": "06_RUNTIME/CURRENT_BRANCH_STATE_v012.json",
+    "overrides": "00_CONFIG/current_branch_overrides_v012.json",
+    "changed_by_v032": false,
+    "GALVANIC": "CLOSED_AND_PROPAGATED",
+    "changed_by_v033": false
+  },
+  "discussion_frontier": {
+    "status": "WORKING_NOT_PROMOTED_DISCUSSION_CLOCK_ADVANCED_TO_1944-01-13",
+    "last_closed_nodes": [
+      "GALVANIC negative-delta closeout and propagation",
+      "Jan-1944 Japanese fleet-DD / light-cruiser / submarine wallet reconciliation",
+      "First Indian-Ocean mobile-group candidate selection",
+      "Truk-origin / Palau-Balikpapan/Tarakan-Singapore/Lingga route audit",
+      "Historical Eastern Fleet heavy-group passage chronology dated through Ceylon arrival and post-arrival cleaning gate",
+      "Andaman-Arakan observation-network accounting normalized to bounded functional nodes; false single physical-station count rejected",
+      "Axis-to-Japan delivery of the 11 Jan German visual report adjudicated: Japanese receipt center 12 Jan JST, delayed case 13 Jan",
+      "First Truk mobile-group release realized at WORKING discussion level; Oyodo + Teruzuki + Takanami + Makinami + Kiyonami, with I-27/I-37 activation",
+      "Central-Pacific opportunity-cost debit represented as allocation loss of 1 CL command/ISR asset + 4 modern DD screens, not global hull loss",
+      "Eastern Fleet January medium/light OOB split into existing station assets, true new arrivals, local escort joiners, transient ferries and later reinforcements"
+    ],
+    "working_not_promoted": [
+      "06_RUNTIME/JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v004.json",
+      "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v006.json",
+      "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v002.json",
+      "06_RUNTIME/EASTERN_FLEET_MEDIUM_LIGHT_OOB_1944-01_WORKING_v001.json",
+      "06_RUNTIME/ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+      "95_AUDIT/JAPAN_INDIAN_OCEAN_ORIGIN_ROUTE_AUDIT_1944-01_WORKING_v001.md",
+      "95_AUDIT/FRONTIER_AND_EASTERN_FLEET_DATA_AUDIT_2026-08-29_v001.md",
+      "95_AUDIT/EASTERN_FLEET_MEDIUM_LIGHT_OOB_AUDIT_2026-08-29_v001.md"
+    ],
+    "unresolved_nodes": [
+      "Actual Jan13-20 Truk-group transit events, fuel/maintenance deviations and arrival time",
+      "When British/Allied SIGINT, reconnaissance, submarine or port reporting first infers the Japanese westward redeployment",
+      "Whether any RN Suez/Aden/Ceylon movement deviates from the trace-locked historical baseline before arrival",
+      "Any actual post-arrival Ceylon eastbound sortie/readiness divergence",
+      "Exact lower-escort individual trace only when a convoy/battle node makes a named hull causally relevant; not a blocking count exercise",
+      "First weapon-quality contact geometry, weather, contact age and recontact"
+    ],
+    "next_exact_action": "Run the 1944-01-13 to 1944-01-20 parallel clock: Japanese Oyodo group departs Truk and moves toward Palau/fuel gate while RN Group A moves Suez -> Red Sea -> Aden. Adjudicate Allied detection/inference from generated observables and keep all future arrivals on dated clocks.",
+    "discussion_clock_center": "1944-01-13"
+  },
+  "mandatory_load_order": [
+    "00_README/CURRENT_DISCUSSION_FRONTIER_v002.json",
+    "06_RUNTIME/CURRENT_BRANCH_STATE_v012.json",
+    "05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v004.json",
+    "00_CONFIG/current_branch_overrides_v012.json",
+    "06_RUNTIME/JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v004.json",
+    "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v006.json",
+    "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v002.json",
+    "06_RUNTIME/EASTERN_FLEET_MEDIUM_LIGHT_OOB_1944-01_WORKING_v001.json",
+    "06_RUNTIME/ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+    "06_RUNTIME/EASTERN_FLEET_1944Q1_POTENTIAL_GATE_v001.md",
+    "06_RUNTIME/ROYAL_NAVY_DIVERGENCE_AUDIT_1942-1943_v001.md",
+    "95_AUDIT/EASTERN_FLEET_MEDIUM_LIGHT_OOB_AUDIT_2026-08-29_v001.md"
+  ],
+  "guardrails": [
+    "CURRENT authority remains 1944-01-01; v033 advances only the WORKING discussion clock.",
+    "The first Japanese GO is WORKING-realized after Axis-report adjudication; it is not promoted into CURRENT state/checkpoint/overrides.",
+    "Do not instantiate RN late-Jan arrivals before their dated clocks; they are trace-locked baselines unless a causal Branch event interrupts them.",
+    "A saved Branch hull is not automatically in theatre, ready or free. Hermes/Vampire/Hollyhock remain unplaced for Jan 1944 pending dated trace.",
+    "Destroyer/escort shortage affects free availability and opportunity cost; it does not justify deleting named historical arrivals without a causal event.",
+    "Passive ESM/DF/radar cueing never grants an automatic weapon-quality firing solution."
+  ],
+  "working_supersession": [
+    {
+      "older": "06_RUNTIME/JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v003.json",
+      "newer": "06_RUNTIME/JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v004.json",
+      "scope": "working discussion only"
+    },
+    {
+      "older": "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v004.json",
+      "newer": "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v005.json",
+      "scope": "working discussion only"
+    },
+    {
+      "older": "95_AUDIT/current_version_families_v019.json",
+      "newer": "95_AUDIT/current_version_families_v020.json",
+      "scope": "package/navigation registry"
+    },
+    {
+      "older": "00_README/CURRENT_DISCUSSION_FRONTIER_v001.json",
+      "newer": "00_README/CURRENT_DISCUSSION_FRONTIER_v002.json",
+      "scope": "package navigation/discussion frontier"
+    },
+    {
+      "older": "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v005.json",
+      "newer": "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v006.json",
+      "scope": "working discussion only"
+    },
+    {
+      "older": "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v001.json",
+      "newer": "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v002.json",
+      "scope": "working discussion only"
+    },
+    {
+      "older": "95_AUDIT/current_version_families_v020.json",
+      "newer": "95_AUDIT/current_version_families_v021.json",
+      "scope": "package/navigation registry"
+    }
+  ]
+}

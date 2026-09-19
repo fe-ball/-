@@ -1,0 +1,67 @@
+{
+  "revision": "v001",
+  "id": "JAPANESE_ARMOR_RESIDUAL_DELTA_THROUGH_1942-06-15_WORKING_v001",
+  "status": "WORKING_PARTIAL_RESIDUAL_DELTA_NOT_NATIONAL_STOCK",
+  "cutoff": "1942-06-15",
+  "warning": "This is a DELTA/placement ledger, not a closed national tank inventory. China 1939-41, NEI, Pacific Branch-only deployments, retirements, depot repair and all home/Kwantung pools remain incomplete.",
+  "campaign_deltas": {
+    "China_1937_38": {
+      "Japanese_irrecoverable_hulls_saved": [
+        7,
+        15
+      ],
+      "1942_still_combat_relevant_rebuildable_equivalent": [
+        3,
+        8
+      ]
+    },
+    "Nomonhan_1939": {
+      "Japanese_irrecoverable_hulls_saved": [
+        3,
+        6
+      ],
+      "trained_crew_system_survival": "modestly positive"
+    },
+    "Malaya_1941_42": {
+      "Japanese_irrecoverable_hulls_saved": [
+        4,
+        8
+      ],
+      "placement": "survivors mainly feed 1st/14th reassignment; not free"
+    },
+    "Philippines_1941_42": {
+      "Japanese_irrecoverable_hulls_saved": [
+        3,
+        6
+      ],
+      "additional_usable_captured_M3": [
+        2,
+        5
+      ],
+      "placement": "4th -> NEI; 7th -> later Kwantung"
+    },
+    "Burma_1942": {
+      "Japanese_irrecoverable_hulls_saved": [
+        4,
+        8
+      ],
+      "additional_usable_captured_Stuart": [
+        3,
+        6
+      ],
+      "placement": "14th remains Burma; 1st in redeployment pipeline"
+    }
+  },
+  "systemic_personnel_delta_cumulative_first_pass": {
+    "Japanese_KWM_avoided": "roughly 1,300-2,700 across the audited phases, heavily uncertain and not all KIA",
+    "enemy_KWM_added": "roughly 2,000-4,100 across the audited phases, heavily uncertain",
+    "guard": "These are incremental vehicle-system effects only. Do not add them again to campaigns already globally re-adjudicated for Branch air/artillery/logistics unless the old settlement did not include the vehicle layer."
+  },
+  "major_finding": "Vehicle improvements do not create a huge free national tank reserve by mid-1942. They preserve dozens of hulls/crews across campaigns, but most survivors are immediately absorbed by Burma, NEI, Kwantung redeployment, repair/training, or other theater commitments.",
+  "next_required": [
+    "China 1939-41 residual/retirement/retrofit-candidate audit",
+    "NEI/Java and Branch-only Pacific garrison vehicle allocations 1942-43",
+    "then Five-Go/3rd Tank Division 1943 at regiment level",
+    "only after those steps build the 1943-12-31 national residual inventory"
+  ]
+}

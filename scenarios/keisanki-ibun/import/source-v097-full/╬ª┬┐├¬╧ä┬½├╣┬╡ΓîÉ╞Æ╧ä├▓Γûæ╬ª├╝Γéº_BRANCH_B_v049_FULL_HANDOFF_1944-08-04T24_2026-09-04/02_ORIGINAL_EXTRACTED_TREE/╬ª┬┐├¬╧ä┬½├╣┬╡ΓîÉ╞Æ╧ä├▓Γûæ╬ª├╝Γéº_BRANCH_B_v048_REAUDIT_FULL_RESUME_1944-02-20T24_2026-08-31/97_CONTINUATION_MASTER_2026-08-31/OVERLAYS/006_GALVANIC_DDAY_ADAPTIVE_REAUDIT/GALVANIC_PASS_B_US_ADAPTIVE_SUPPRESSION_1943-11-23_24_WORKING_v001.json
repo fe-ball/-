@@ -1,0 +1,28 @@
+{
+  "id": "GALVANIC_PASS_B_US_ADAPTIVE_SUPPRESSION_1943-11-23_24_WORKING_v001",
+  "status": "WORKING_ADJUDICATION_NOT_AUTHORITY",
+  "trigger": "Residual Marshall sorties plus the Independence torpedo hit demonstrate that the first suppression cycle did not sterilize the network.",
+  "US_adaptation": {
+    "extra_fast_carrier_offensive_sorties": "~45-65 reallocated late 11/23 and dawn 11/24, mainly Taroa/Mili/Jaluit staging and airfield systems",
+    "extra_land_based_attack_search_sorties": "~15-25, including repeat runway/base-system work and reconnaissance",
+    "fighter_reservation": "~20-30 additional F6F-equivalent deck positions/cycles tied to CAP/sweep/escort during the dangerous window",
+    "cost": "less discretionary search/secondary-target work and less immediate fast-deck flexibility; assault CVEs take a larger share of local CAS/ASW/spotting"
+  },
+  "Japanese_network_at_1943_11_24_dawn": {
+    "land_fighters_immediate_ready": "~36-45 across Marshall/Gilbert staging nodes, excluding aircraft merely repairable",
+    "attack_aircraft_immediate_ready": "~5-9 after D-1 strike losses and repeat suppression",
+    "legacy_recon_water_air_ready": "~9-12",
+    "Kyofu_ready": "~7-9",
+    "Zuiun_ready": "~3-4",
+    "all_immediate_ready": "~60-75",
+    "note": "This remains a dangerous search/CAP/nuisance network but no longer supports a second 20+ aircraft torpedo strike immediately at dawn."
+  },
+  "base_state": {
+    "Taroa": "runway intermittent/repairing; C2 survives in fragments; ~9-13 fighters immediate-ready and 0-2 attack aircraft",
+    "Mili": "degraded but usable; ~4-6 fighters, 2-4 attack, 1-2 Kyofu, Zuiun/search residue",
+    "Jaluit": "runway low-output; water-air support partially intact; 3-5 water/recon fighters/search assets remain usable",
+    "Nauru": "0-2 immediate-ready, mostly emergency/local; repair system survives better than air combat system",
+    "Tarawa": "normal runway combat operations effectively closed; surviving flyable air largely evacuated/staged"
+  },
+  "strategic_result": "US adapts successfully enough to protect the landing, but pays additional deck/sortie workload and cannot simultaneously maximize island CAS, Marshall suppression, fleet CAP/search and ASW."
+}

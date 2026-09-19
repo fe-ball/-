@@ -1,0 +1,22 @@
+{
+  "revision": "v024",
+  "package_root": "計算機異聞_refactor_v024_2026-08-26",
+  "generated": "2026-08-26",
+  "purpose": "Same 1943-10-01 synchronized state as v023, with explicit aircraft fielding clocks and water-aviation tactical doctrine integrated into runtime, checkpoint and validation.",
+  "base_package": "計算機異聞_refactor_v023_2026-08-26_FULL_REPAIRED",
+  "current_branch_state_file": "06_RUNTIME/CURRENT_BRANCH_STATE_v006.json",
+  "current_restart_checkpoint": "05_WARTIME/CHECKPOINT_1943-09-30T24_v002.json",
+  "current_branch_analysis_frontier": "1943-10-01T00:00",
+  "branch_invariant_guard": "06_RUNTIME/BRANCH_INVARIANT_GUARD_1943-10-01_v002.json",
+  "aircraft_fielding_ledger": "06_RUNTIME/AIRCRAFT_FIELDING_LEDGER_1943-10-01_v001.json",
+  "seaplane_tactics_ledger": "06_RUNTIME/SEAPLANE_TACTICS_LEDGER_1943-10-01_v001.json",
+  "next_session_handoff": "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v024.md",
+  "downstream_results_retained_provisional": true,
+  "validation": "95_AUDIT/VALIDATION_RESULT_v024.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v024.txt",
+  "historical_checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v023.txt",
+  "next_required_adjudication": "October 1943 US carrier pressure with explicit local aircraft/floatplane readiness and search/base-defense doctrine before Japanese allocation and India gate.",
+  "file_count_before_checksum": 544,
+  "file_count_total": 545,
+  "json_file_count": 247
+}

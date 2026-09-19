@@ -1,0 +1,21 @@
+case	item	value	unit	status	note
+G3M2_HISTORICAL	length	16.45	m	EXTERNAL-HISTORICAL	
+G3M2_HISTORICAL	span	25.0	m	EXTERNAL-HISTORICAL	
+G3M2_HISTORICAL	wing_area	75.0-75.1	m2	EXTERNAL-HISTORICAL	
+G3M2_HISTORICAL	empty_weight	4.97-5.15	t	EXTERNAL-HISTORICAL-BAND	source variation
+G3M2_HISTORICAL	loaded_weight	~8.0	t	EXTERNAL-HISTORICAL	
+G3M2_HISTORICAL	power	2x1075 TO / ~2x1000 @4.2km	hp	EXTERNAL-HISTORICAL	Kinsei45 class
+G3M2_HISTORICAL	max_speed	373-375	km/h	EXTERNAL-HISTORICAL	~4.2km
+G3M2_HISTORICAL	cruise	278-280	km/h	EXTERNAL-HISTORICAL	
+G3M2_HISTORICAL	max_range	~4400	km	EXTERNAL-HISTORICAL	not torpedo combat radius
+G3M2_HISTORICAL	offensive_load	1x800kg torpedo or ~800kg bombs		EXTERNAL-HISTORICAL	
+G3M2_WORLDLINE	max_speed_EX2	~377-381	km/h	CURRENT-DERIVED	+4-6 km/h current exhaust authority
+G3M2_WORLDLINE	torpedo_radius	~650-800	km	H->A	8t load ceiling + torpedo/crew/reserve screening
+G3M2_E5ST	power	2x952-1000 normal	hp	CURRENT-ENGINE/H->A	
+G3M2_E5ST	low_alt_speed	~330-340	km/h	H->A	little/no gain over piston low-alt screening
+G3M2_E5ST	torpedo_radius	~450-600	km	H->A	part-load SFC penalty dominates
+G3M2_E5ST	verdict	paper study only; no physical/serial conversion		CLOSED-RECOMMENDATION	B5N TP + E5/E6 already cover turbine test needs
+G3M2_E6ST	power	2x1300 normal / 2x1400 short	hp	CURRENT-ENGINE/H->A	
+G3M2_E6ST	low_alt_speed	~360-375	km/h	H->A	installation-dependent
+G3M2_E6ST	torpedo_radius	~550-700	km	H->A	still below piston long-range branch
+G3M2_E6ST	verdict	no serial G3M derivative		CLOSED-RECOMMENDATION	overlaps G4As without matching its speed; loses G3M reach

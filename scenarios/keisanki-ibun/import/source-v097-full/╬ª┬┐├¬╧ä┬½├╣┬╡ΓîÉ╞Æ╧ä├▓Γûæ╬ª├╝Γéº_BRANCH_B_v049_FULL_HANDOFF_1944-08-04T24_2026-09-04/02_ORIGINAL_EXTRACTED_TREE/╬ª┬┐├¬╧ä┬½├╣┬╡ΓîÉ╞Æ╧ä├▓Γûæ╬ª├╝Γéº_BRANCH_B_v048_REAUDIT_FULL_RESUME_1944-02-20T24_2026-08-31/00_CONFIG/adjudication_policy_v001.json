@@ -1,0 +1,78 @@
+{
+  "revision": "v001",
+  "purpose": "Editable policy for deciding which old/new judgments may feed runtime. Preservation is independent from adjudication.",
+  "user_editable": true,
+  "core_principles": [
+    "Never delete losing evidence solely because it lost adjudication.",
+    "Separate artifact-precedence questions from scientific/technical claim questions.",
+    "A newer timestamp is not scientific evidence by itself.",
+    "Historical/engineering facts use source quality, comparable conditions, physical constraints, reproducibility and uncertainty.",
+    "Scenario-policy choices use explicit scenario authority and provenance, not scientific scoring pretending to be physics.",
+    "Downstream battle outcomes may not be used to prove upstream technical capability unless an explicit learning/feedback edge exists.",
+    "Unresolved material conflicts block only the affected runtime field, not the entire corpus."
+  ],
+  "technical_adjudication": {
+    "score_dimensions": [
+      {
+        "id": "SOURCE_QUALITY",
+        "weight": 3,
+        "description": "primary measurement/documentation > well-traced secondary > unsourced narrative"
+      },
+      {
+        "id": "CONDITION_MATCH",
+        "weight": 3,
+        "description": "same weight/altitude/load/date/configuration/definition is required for direct comparison"
+      },
+      {
+        "id": "PHYSICAL_CONSISTENCY",
+        "weight": 3,
+        "description": "mass, power, drag, heat, material, endurance, geometry and conservation constraints"
+      },
+      {
+        "id": "PROCESS_TRANSPARENCY",
+        "weight": 2,
+        "description": "inputs, formula/logic and uncertainty are inspectable"
+      },
+      {
+        "id": "REPRODUCIBILITY",
+        "weight": 2,
+        "description": "sister-unit/lot/multiple-test repeatability; median preferred over exceptional best case"
+      },
+      {
+        "id": "CLOCK_CONSISTENCY",
+        "weight": 3,
+        "description": "invention, testing, adoption, production, training and unit-median clocks are not collapsed"
+      },
+      {
+        "id": "INDEPENDENT_CORROBORATION",
+        "weight": 2,
+        "description": "independent evidence supports the same band/direction"
+      }
+    ],
+    "decision_thresholds": {
+      "clear_survivor_margin": 5,
+      "close_margin": "0-4 -> preserve both and use bounded/gated state",
+      "fatal_physics_conflict": "automatic reject for runtime until repaired"
+    },
+    "uncertainty_rule": "Prefer a justified interval over a forced point estimate."
+  },
+  "scenario_adjudication": {
+    "precedence": [
+      "explicit later correction/handoff specific to the claim",
+      "dedicated scenario canon with explicit overwrite",
+      "runtime manifest for artifact execution",
+      "general summary/index",
+      "older working history"
+    ],
+    "note": "This precedence decides scenario intent, not external scientific truth."
+  },
+  "status_semantics": {
+    "accepted": "may feed runtime directly within valid scope/date",
+    "high_confidence_provisional": "may feed bounded runtime; retain uncertainty band and audit pointer",
+    "provisional_center": "usable for sensitivity/centerline if event handout explicitly marks provisional",
+    "conditional": "usable only when listed host/fielding/clock conditions are satisfied",
+    "gated": "do not feed runtime until gate closes",
+    "diagnostic_only": "comparison prior/check only; never an input multiplier",
+    "rejected_for_runtime": "preserve as history/evidence but do not feed calculations"
+  }
+}

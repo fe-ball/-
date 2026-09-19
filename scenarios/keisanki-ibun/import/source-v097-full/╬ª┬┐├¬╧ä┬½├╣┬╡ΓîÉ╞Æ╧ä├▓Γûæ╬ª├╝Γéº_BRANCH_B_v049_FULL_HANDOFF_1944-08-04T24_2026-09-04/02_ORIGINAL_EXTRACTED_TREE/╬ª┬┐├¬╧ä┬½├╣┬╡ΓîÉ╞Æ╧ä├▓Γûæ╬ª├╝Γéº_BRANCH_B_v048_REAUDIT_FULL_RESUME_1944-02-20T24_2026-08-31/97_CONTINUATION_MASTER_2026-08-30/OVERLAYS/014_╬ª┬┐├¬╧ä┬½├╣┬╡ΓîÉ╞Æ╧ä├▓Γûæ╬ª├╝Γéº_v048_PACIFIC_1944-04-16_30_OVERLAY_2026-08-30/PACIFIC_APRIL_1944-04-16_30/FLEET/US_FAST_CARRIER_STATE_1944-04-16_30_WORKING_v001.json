@@ -1,0 +1,61 @@
+{
+  "revision": "v001",
+  "id": "US_FAST_CARRIER_STATE_1944-04-16_30_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-04-16..30",
+  "global_frontier_after_merge": "1944-04-30T24",
+  "parents": [
+    "US_FAST_CARRIER_STATE_1944-04-01_15_WORKING_v001"
+  ],
+  "branch_context": "Hollandia remains absent. TF58 therefore has no 13-Apr southbound amphibious-support commitment and converts much of 16-24 Apr into maintenance, replacement absorption, Bataan integration and Central-Pacific rehearsal.",
+  "immediate_fast_deck_pool": {
+    "CV": [
+      "Wasp CV-7",
+      "Essex CV-9",
+      "Yorktown CV-10",
+      "Intrepid CV-11",
+      "Hornet CV-12",
+      "Lexington CV-16",
+      "Bunker Hill CV-17"
+    ],
+    "CVL": [
+      "Princeton CVL-23",
+      "Belleau Wood CVL-24",
+      "Cowpens CVL-25",
+      "Monterey CVL-26",
+      "Langley CVL-27",
+      "Bataan CVL-29"
+    ],
+    "count": {
+      "CV": 7,
+      "CVL": 6,
+      "total": 13
+    }
+  },
+  "late_April_limited_raid_package": {
+    "deck_band": [
+      6,
+      8
+    ],
+    "ready_aircraft_band": [
+      370,
+      470
+    ],
+    "purpose": [
+      "keep Truk reconnaissance/submarine/local-air node suppressed",
+      "give newer air groups/Bataan live combat experience",
+      "exercise long-range carrier logistics without committing the entire force"
+    ]
+  },
+  "30Apr_total_immediate_pool_ready_aircraft_band": [
+    710,
+    805
+  ],
+  "pipeline": {
+    "CV18_equivalent": "Hawaiian training pipeline; no 30-Apr combat credit. Historical CV-18 reached Pearl 4 Apr and only joined the new TG58.6 for mid-May combat-training raids.",
+    "San_Jacinto_CVL30": "training/transit pipeline; no 30-Apr main-force combat credit.",
+    "Cabot_CVL28": "Branch campaign-out band continues into late Apr/May; no 30-Apr credit.",
+    "Independence_CVL22": "Long repair; no spring credit."
+  },
+  "guard": "Do not auto-create historical Hollandia losses or Bataan elevator failure merely because they occurred historically. Branch events require their own causal trigger."
+}

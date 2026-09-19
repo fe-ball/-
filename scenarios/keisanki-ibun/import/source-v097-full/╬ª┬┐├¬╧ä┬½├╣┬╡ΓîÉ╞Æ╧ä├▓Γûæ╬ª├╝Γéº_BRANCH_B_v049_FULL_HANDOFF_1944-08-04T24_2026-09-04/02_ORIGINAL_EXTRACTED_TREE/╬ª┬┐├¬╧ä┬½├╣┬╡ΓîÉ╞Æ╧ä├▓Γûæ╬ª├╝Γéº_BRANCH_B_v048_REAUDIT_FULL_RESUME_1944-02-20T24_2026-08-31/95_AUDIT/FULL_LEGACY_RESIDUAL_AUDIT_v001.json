@@ -1,0 +1,1240 @@
+{
+  "revision": "v001",
+  "scope": "all files under 99_LEGACY_UNTOUCHED",
+  "file_count": 188,
+  "unique_content_hashes": 176,
+  "exact_duplicate_group_count": 8,
+  "version_family_count": 16,
+  "principles": [
+    "Exact duplicate mirrors are not semantic conflicts.",
+    "Version number alone never adjudicates a scientific/technical claim.",
+    "Explicit execution supersession may decide artifact routing, not technical truth.",
+    "Technical conflicts survive until same-condition comparison, chronology/physics checks and source-quality comparison resolve them.",
+    "Historical branches remain preserved even when execution eligibility is revoked."
+  ],
+  "version_families": [
+    {
+      "family": "AUTHORITATIVE_MANIFEST_v#.md",
+      "members": [
+        "01_現行正本/AUTHORITATIVE_MANIFEST_v001.md",
+        "01_現行正本/AUTHORITATIVE_MANIFEST_v002.md",
+        "01_現行正本/AUTHORITATIVE_MANIFEST_v003.md",
+        "01_現行正本/AUTHORITATIVE_MANIFEST_v004.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/AUTHORITATIVE_MANIFEST_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/AUTHORITATIVE_MANIFEST_v001.md"
+      ],
+      "count": 6
+    },
+    {
+      "family": "RERUN_GATE_MATRIX_v#.md",
+      "members": [
+        "01_現行正本/RERUN_GATE_MATRIX_v005.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/RERUN_GATE_MATRIX_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/RERUN_GATE_MATRIX_v002.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/RERUN_GATE_MATRIX_v003.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/RERUN_GATE_MATRIX_v004.md"
+      ],
+      "count": 5
+    },
+    {
+      "family": "AUTHORITATIVE_MANIFEST_v#.json",
+      "members": [
+        "01_現行正本/AUTHORITATIVE_MANIFEST_v001.json",
+        "01_現行正本/AUTHORITATIVE_MANIFEST_v002.json",
+        "01_現行正本/AUTHORITATIVE_MANIFEST_v003.json",
+        "01_現行正本/AUTHORITATIVE_MANIFEST_v004.json"
+      ],
+      "count": 4
+    },
+    {
+      "family": "PEARL_STATE_TRANSITION_v#.md",
+      "members": [
+        "01_現行正本/PEARL_STATE_TRANSITION_v001.md",
+        "01_現行正本/PEARL_STATE_TRANSITION_v002.md",
+        "01_現行正本/PEARL_STATE_TRANSITION_v003.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/PEARL_STATE_TRANSITION_v001.md"
+      ],
+      "count": 4
+    },
+    {
+      "family": "MASTER_SWITCH_AUDIT_v#.md",
+      "members": [
+        "01_現行正本/MASTER_SWITCH_AUDIT_v010.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/MASTER_SWITCH_AUDIT_v010.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/MASTER_SWITCH_AUDIT_v010.md"
+      ],
+      "count": 3
+    },
+    {
+      "family": "OPENING_DIVERGENCE_LEDGER_1941-12-07_08_v#.md",
+      "members": [
+        "01_現行正本/OPENING_DIVERGENCE_LEDGER_1941-12-07_08_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/OPENING_DIVERGENCE_LEDGER_1941-12-07_08_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/OPENING_DIVERGENCE_LEDGER_1941-12-07_08_v001.md"
+      ],
+      "count": 3
+    },
+    {
+      "family": "OPENING_RERUN_PACKET_1941_v#.md",
+      "members": [
+        "01_現行正本/OPENING_RERUN_PACKET_1941_v006.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/OPENING_RERUN_PACKET_1941_v006.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/OPENING_RERUN_PACKET_1941_v006.md"
+      ],
+      "count": 3
+    },
+    {
+      "family": "OPENING_STATE_1941-12-07_v#.md",
+      "members": [
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/OPENING_STATE_1941-12-07_v002.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/OPENING_STATE_1941-12-07_v003.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/OPENING_STATE_1941-12-07_v004.md"
+      ],
+      "count": 3
+    },
+    {
+      "family": "pearl_state_transition_v#.json",
+      "members": [
+        "01_現行正本/pearl_state_transition_v001.json",
+        "01_現行正本/pearl_state_transition_v002.json",
+        "01_現行正本/pearl_state_transition_v003.json"
+      ],
+      "count": 3
+    },
+    {
+      "family": "1941巻戻し_スイッチ監査_v#_2026-08-16.zip",
+      "members": [
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/04_参考枝_旧WIP/1941巻戻し_スイッチ監査_v0.01_2026-08-16.zip",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/04_参考枝_旧WIP/1941巻戻し_スイッチ監査_v0.03_2026-08-16.zip"
+      ],
+      "count": 2
+    },
+    {
+      "family": "MALAYA_PHASE1_1941-12-08_15_STATE_TRANSITION_v#.md",
+      "members": [
+        "01_現行正本/MALAYA_PHASE1_1941-12-08_15_STATE_TRANSITION_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/MALAYA_PHASE1_1941-12-08_15_STATE_TRANSITION_v001.md"
+      ],
+      "count": 2
+    },
+    {
+      "family": "PREWAR_SOUTHERN_AIR_CONCENTRATION_1941-11-15_12-07_v#.md",
+      "members": [
+        "01_現行正本/PREWAR_SOUTHERN_AIR_CONCENTRATION_1941-11-15_12-07_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/PREWAR_SOUTHERN_AIR_CONCENTRATION_1941-11-15_12-07_v001.md"
+      ],
+      "count": 2
+    },
+    {
+      "family": "RECOVERY_2026-08-16_1941_rollback_switch_audit_v#.md",
+      "members": [
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/RECOVERY_2026-08-16_1941_rollback_switch_audit_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/RECOVERY_2026-08-16_1941_rollback_switch_audit_v001.md"
+      ],
+      "count": 2
+    },
+    {
+      "family": "SHA256SUMS.txt",
+      "members": [
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/99_目録/SHA256SUMS.txt",
+        "SHA256SUMS.txt"
+      ],
+      "count": 2
+    },
+    {
+      "family": "opening_state_validator_v#.py",
+      "members": [
+        "01_現行正本/opening_state_validator_v003.py",
+        "02_検証/opening_state_validator_v004.py"
+      ],
+      "count": 2
+    },
+    {
+      "family": "validate_opening_package_v#.py",
+      "members": [
+        "02_検証/validate_opening_package_v001.py",
+        "02_検証/validate_opening_package_v002.py"
+      ],
+      "count": 2
+    }
+  ],
+  "exact_duplicate_groups": [
+    {
+      "sha256": "57873eb27b1ed6b425cce36532dfe29bfad23f43f63dbfbe53d111c6d265cb80",
+      "paths": [
+        "01_現行正本/AUTHORITATIVE_MANIFEST_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/AUTHORITATIVE_MANIFEST_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/AUTHORITATIVE_MANIFEST_v001.md"
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "b5532d8e4063bc58cfdba5d0460a6e4a7b465ee5179a850873dc9e54ba859537",
+      "paths": [
+        "01_現行正本/MALAYA_PHASE1_1941-12-08_15_STATE_TRANSITION_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/MALAYA_PHASE1_1941-12-08_15_STATE_TRANSITION_v001.md"
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "8397055124c144ea2600e69b2108491ec8fc184bd37694112449fcbf3013a495",
+      "paths": [
+        "01_現行正本/MASTER_SWITCH_AUDIT_v010.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/MASTER_SWITCH_AUDIT_v010.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/MASTER_SWITCH_AUDIT_v010.md"
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "8f4fbc37899e95407c29667a6808b594e0c71fbd26a2fe69749308e66cb69931",
+      "paths": [
+        "01_現行正本/OPENING_DIVERGENCE_LEDGER_1941-12-07_08_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/OPENING_DIVERGENCE_LEDGER_1941-12-07_08_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/OPENING_DIVERGENCE_LEDGER_1941-12-07_08_v001.md"
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "9d9d4f28919033f3c88812cb25fa332f99f2982252ba4bf3522359dc7f0847fd",
+      "paths": [
+        "01_現行正本/OPENING_RERUN_PACKET_1941_v006.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/OPENING_RERUN_PACKET_1941_v006.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/OPENING_RERUN_PACKET_1941_v006.md"
+      ],
+      "count": 3
+    },
+    {
+      "sha256": "356f8fa35686e7800781b9de80b7237de1a5acc2888389f9a58bd6d7b6eddd5e",
+      "paths": [
+        "01_現行正本/PEARL_STATE_TRANSITION_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/PEARL_STATE_TRANSITION_v001.md"
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "4d8a8383fdf92f2b27fe560562a2fcd2874fd5810fbbe6c700dc1d514f4e0611",
+      "paths": [
+        "01_現行正本/PREWAR_SOUTHERN_AIR_CONCENTRATION_1941-11-15_12-07_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/PREWAR_SOUTHERN_AIR_CONCENTRATION_1941-11-15_12-07_v001.md"
+      ],
+      "count": 2
+    },
+    {
+      "sha256": "02f9108c14b92e0581b412972a2a12754c4e5266f8d48a5490f67c4de181e89e",
+      "paths": [
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/RECOVERY_2026-08-16_1941_rollback_switch_audit_v001.md",
+        "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/RECOVERY_2026-08-16_1941_rollback_switch_audit_v001.md"
+      ],
+      "count": 2
+    }
+  ],
+  "files_with_risk_markers": [
+    {
+      "path": "00_次回まず読む/NEXT_SESSION_INDEX_DISCUSSION_SEED_v001.md",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "00_次回まず読む/SESSION_HANDOFF_2026-08-18_v001.md",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/AUTHORITATIVE_MANIFEST_v001.json",
+      "markers": [
+        "supersede",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/AUTHORITATIVE_MANIFEST_v001.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/AUTHORITATIVE_MANIFEST_v002.json",
+      "markers": [
+        "supersede",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/AUTHORITATIVE_MANIFEST_v002.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/AUTHORITATIVE_MANIFEST_v003.json",
+      "markers": [
+        "supersede"
+      ]
+    },
+    {
+      "path": "01_現行正本/AUTHORITATIVE_MANIFEST_v004.json",
+      "markers": [
+        "supersede",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/AUTHORITATIVE_MANIFEST_v004.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/CONDITIONAL_POLICY_RESET_LEDGER_v001.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/LATER_SWITCH_PROVENANCE_AND_RELEASE_v007.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/MALAYA_EVE_STATE_DERIVATION_v001.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/MALAYA_OPENING_OOB_BASELINE_v001.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/MALAYA_PHASE0_OPENING_PACKET_v003.json",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/MALAYA_PHASE1_1941-12-08_15_STATE_TRANSITION_v001.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/MARITIME_OPENING_SWITCH_REAUDIT_v001.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/MASTER_SWITCH_AUDIT_v010.csv",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/MASTER_SWITCH_AUDIT_v010.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/OPENING_RERUN_PACKET_1941_v006.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/PEARL_STATE_TRANSITION_v001.md",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/PEARL_STATE_TRANSITION_v002.md",
+      "markers": [
+        "withdrawn"
+      ]
+    },
+    {
+      "path": "01_現行正本/PEARL_STATE_TRANSITION_v003.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/PREWAR_SOUTHERN_AIR_CONCENTRATION_1941-11-15_12-07_v001.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/RERUN_GATE_MATRIX_v005.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/SUBMARINE_OPENING_OOB_1941-12-08_v001.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/SURFACE_OPENING_BASELINE_v001.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/SWITCH_AUDIT_COVERAGE_v001.md",
+      "markers": [
+        "withdrawn"
+      ]
+    },
+    {
+      "path": "01_現行正本/_later_switch_candidates.txt",
+      "markers": [
+        "supersede",
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/opening_divergence_ledger_1941-12-07_08_v001.json",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/opening_state_1941-12-07_v006.json",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/opening_technical_clock_guard_v001.json",
+      "markers": [
+        "supersede",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/pearl_state_transition_v001.json",
+      "markers": [
+        "provisional"
+      ]
+    },
+    {
+      "path": "01_現行正本/pearl_state_transition_v002.json",
+      "markers": [
+        "supersede"
+      ]
+    },
+    {
+      "path": "01_現行正本/pearl_state_transition_v003.json",
+      "markers": [
+        "supersede",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "01_現行正本/switch_registry_v010.json",
+      "markers": [
+        "supersede",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "02_検証/opening_state_validator_v004.py",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "02_検証/validate_opening_package_v002.py",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/00_まず読む/README_完全一式.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/00_まず読む/現行と旧枝の扱い.md",
+      "markers": [
+        "supersede",
+        "withdrawn"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/AUTHORITATIVE_MANIFEST_v001.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/MASTER_SWITCH_AUDIT_v010.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/OPENING_RERUN_PACKET_1941_v006.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/01_現行正本/RECOVERY_2026-08-16_1941_rollback_switch_audit_v001.md",
+      "markers": [
+        "supersede",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/AUTHORITATIVE_MANIFEST_v001.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/LATER_SWITCH_REAUDIT_v002.md",
+      "markers": [
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/MALAYA_PHASE1_1941-12-08_15_STATE_TRANSITION_v001.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/MASTER_SWITCH_AUDIT_v010.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/OPENING_RERUN_PACKET_1941_v006.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/OPENING_STATE_1941-12-07_v002.md",
+      "markers": [
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/OPENING_STATE_1941-12-07_v003.md",
+      "markers": [
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/OPENING_STATE_1941-12-07_v004.md",
+      "markers": [
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/PEARL_STATE_TRANSITION_v001.md",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/PREWAR_SOUTHERN_AIR_CONCENTRATION_1941-11-15_12-07_v001.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/RECOVERY_2026-08-16_1941_rollback_switch_audit_v001.md",
+      "markers": [
+        "supersede",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/RERUN_GATE_MATRIX_v001.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/RERUN_GATE_MATRIX_v002.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/RERUN_GATE_MATRIX_v003.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/RERUN_GATE_MATRIX_v004.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/02_巻戻し作業資料/SWITCH_LEDGER_v001.md",
+      "markers": [
+        "withdrawn"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/00_常時コンテキスト_研究規約と正本索引.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/101_資料庫_2026-08-14_欧州日程波及再監査_Efate前.md",
+      "markers": [
+        "supersede",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/103_資料庫_2026-08-14_第二次Midway再計算確定_GALVANIC再監査前.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/104_資料庫_2026-08-14_水上艦個艦再注入確定_GALVANIC再監査起点.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/105_資料庫_2026-08-14_GALVANIC水上艦・兵站再監査確定_Marshall再計算前.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/106_資料庫_2026-08-14_現在地差分確認_Marshall再計算初期条件確定.md",
+      "markers": [
+        "withdrawn"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/107_資料庫_2026-08-14_Marshall再監査確定_Truk再監査前.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/108_資料庫_2026-08-14_Truk・Eniwetok確定_Palau再監査前.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/10_水上艦_駆逐艦・戦艦改装・大和型.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/110_資料庫_2026-08-14_OVERLORD再確認確定_FORAGER再開前.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/111_資料庫_2026-08-14_FORAGER前哨・フィリピン海決戦確定_SaipanD+1.md",
+      "markers": [
+        "supersede",
+        "provisional"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/112_資料庫_2026-08-14_戦術研鑽再監査確定_FORAGER巻戻し.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/115_資料庫_2026-08-14_航空機技術時系列監査開始_ソフト統合ゲート.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/116_資料庫_2026-08-14_航空機技術監査_作業停止点・次回論点.md",
+      "markers": [
+        "provisional",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/117_資料庫_2026-08-14_推力式単排気管_史実時系列監査.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "withdrawn"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/118_資料庫_2026-08-15_航空機HARD監査_戦闘機・B6N中間統合.md",
+      "markers": [
+        "supersede",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/119_資料庫_2026-08-15_航空機技術監査_作業停止点_D4Y前.md",
+      "markers": [
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/11_水上艦_最上型・変則艦・生残旧艦.md",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/20_潜水艦_世代別設計・就役日程.md",
+      "markers": [
+        "supersede",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/21_潜水艦_任務体系・量産配備・潜高実戦運用.md",
+      "markers": [
+        "supersede",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/22_潜水艦_1941-43建造台帳・潜高船台割当.md",
+      "markers": [
+        "supersede",
+        "provisional"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/23_潜水艦_1942後半再配置・戦果台帳.md",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/24_潜水艦_1943年1-5月再配置・潜高初期実戦・北方配分.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/25_連合海運_1942-43船腹・護衛・間接損失台帳.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/26A_欧州波及_1944年春_OVERLORD再確認・追加引抜き監査.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/26_欧州波及_1942-44日程・損耗感度台帳.md",
+      "markers": [
+        "withdrawn"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/27_歴史考察_1943年6月_Efate無力化作戦_OOB・索敵・戦果.md",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/28_歴史考察_1943年9月_第二次Midway再計算.md",
+      "markers": [
+        "supersede",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/29_水上艦_1943年Efate・第二次Midway個艦再注入監査.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/30_センサー射撃指揮_I-O連鎖.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/31_魚雷・水雷戦_魚雷本体・射撃指揮・再装填・運用.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/32_歴史考察_1943年12月_GALVANIC再監査_水上艦・兵站・学習.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/33_歴史考察_1943年末現在地・差分台帳_Marshall再計算初期条件.md",
+      "markers": [
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/34_歴史考察_1944年2月_Marshall前哨戦・Kwajalein再監査.md",
+      "markers": [
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/35_歴史考察_1944年3月_Truk_HAILSTONE再監査.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/36_歴史考察_1944年3月_Eniwetok_CATCHPOLE同期.md",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/37_歴史考察_1944年4月_Palau_DESECRATE再監査・西方分散.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/38_艦艇台帳_1944年7月_Marianas直前実艦・Availability.md",
+      "markers": [
+        "provisional"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/39_歴史考察_1944年4-7月_Palau後西方分散・FORAGER時計同期.md",
+      "markers": [
+        "supersede"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/41_艦艇対潜_探信・爆雷・護衛運用.md",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/42_艦艇台帳_1944年7月_FORAGER実艦TaskGroup・決戦配置.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/43_歴史考察_1944年7月8-15_FORAGER前哨・フィリピン海再監査.md",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/44_戦術研鑽_1942-44_空母指揮・艦隊回避・教範化.md",
+      "markers": [
+        "provisional"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/45_航空運用制度_1942-44_空地分離・攻防火器管制破綻研究.md",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/46_航空人事_1942-44_自然還流・空地分離・練度平準化.md",
+      "markers": [
+        "withdrawn"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/47_航空機技術監査_1938-44_史実技術採用・時系列・再計算ゲート.md",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/50_航空機研究_陸海軍総合正本.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/51_陸軍航空機_機種別設計・発動機・日程.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/53_海軍戦闘機・空冷発動機・噴進航空.md",
+      "markers": [
+        "supersede",
+        "withdrawn"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/60_開戦戦力・輸送・空母・揚陸・砲計算.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/62_艦艇戦力評価_任務係数・艦隊運用・戦史再監査v3.md",
+      "markers": [
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/70_暗号・通信情報_設計防御・攻撃・運用.md",
+      "markers": [
+        "supersede",
+        "provisional"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/80_歴史考察_1942年MO・MI・中部太平洋.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/81_歴史考察_1942年夏秋_AL・FS・米戦力回復.md",
+      "markers": [
+        "provisional",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/82_歴史考察_中国・インド洋・連合輸送・独ソ戦波及.md",
+      "markers": [
+        "supersede",
+        "withdrawn",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/83_歴史考察_1942年艦政・空母建造史実基準.md",
+      "markers": [
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/84_歴史考察_1937-1942_前史・中国・ノモンハン・南方.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/85_歴史考察_2026-08-10_MO・MI再監査_暫定作業線.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/86_歴史考察_2026-08-11_AL・南太平洋・FS再監査_暫定作業線.md",
+      "markers": [
+        "provisional",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/87_歴史考察_1942秋-1943夏_五号・米反攻・Midway同期.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/88_歴史考察_1943秋冬_第二次Midway・Wake・GALVANIC同期.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/89_歴史考察_1943冬-1944初夏_Marshall・Truk・Palau・FORAGER前.md",
+      "markers": [
+        "provisional",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/90_資料庫_現行総合引継ぎ_瑞星決定・開戦侵攻能力検討時点.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "withdrawn",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/91_資料庫_2026-08-11_現行総合引継ぎ_五号・1943夏同期.md",
+      "markers": [
+        "supersede",
+        "withdrawn",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/92_資料庫_2026-08-12_現行総合引継ぎ_1943冬・GALVANIC同期.md",
+      "markers": [
+        "canonical_false"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/93_資料庫_2026-08-13_現行総合引継ぎ_1944初夏・戦史再監査v3起点.md",
+      "markers": [
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/94_資料庫_2026-08-13_水上艦代表級再監査_継続.md",
+      "markers": [
+        "provisional",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/95_資料庫_2026-08-14_水上艦例外艦監査_継続.md",
+      "markers": [
+        "canonical_false"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/96_資料庫_2026-08-14_水上艦戦史・潜水艦全体再監査_継続.md",
+      "markers": [
+        "provisional",
+        "withdrawn",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/97_資料庫_2026-08-14_潜高建造台帳確定・潜水艦再配置開始.md",
+      "markers": [
+        "supersede",
+        "withdrawn",
+        "canonical_false",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/98_資料庫_2026-08-14_1942後半潜水艦再配置・戦果監査.md",
+      "markers": [
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/README_更新内容と正本対応.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/RECOVERY_2026-08-15_航空マイクロ戦闘実験へ復帰.md",
+      "markers": [
+        "withdrawn"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/計算機とその波及_設定資料と解説_改定v9.md",
+      "markers": [
+        "supersede",
+        "provisional",
+        "withdrawn",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/計算機異聞_シナリオ_改定v3.md",
+      "markers": [
+        "supersede"
+      ]
+    },
+    {
+      "path": "90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/99_目録/SHA256SUMS.txt",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    },
+    {
+      "path": "PACKAGE_HANDOFF_INFO.txt",
+      "markers": [
+        "provisional"
+      ]
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "markers": [
+        "provisional",
+        "rerun_required"
+      ]
+    }
+  ],
+  "high_risk_stale_execution_references": [
+    {
+      "path": "01_現行正本/opening_sync_state_1941-12-07_08_v001.json",
+      "issue": "references superseded Pearl transition v002",
+      "effective_resolution": "04_WARSTART/opening_sync_state_1941-12-07_08_refactor_v002.json -> Pearl v003"
+    },
+    {
+      "path": "01_現行正本/RERUN_GATE_MATRIX_v005.md",
+      "issue": "K1 releases the 1942 high-grade COMINT result and conflicts with later restored scenario core",
+      "effective_resolution": "70 + SESSION_HANDOFF_2026-08-18 restore high-grade defense as current scenario condition; K1 sentence preserved as superseded branch rule"
+    },
+    {
+      "path": "01_現行正本/opening_state_1941-12-07_v006.json",
+      "issue": "COMSEC outcome gate remains OPEN in rollback/switch artifacts",
+      "effective_resolution": "retain as provenance of rollback experiment, but current runtime uses TECH-COMINT-JP-HIGHGRADE-1942-001 + residual channels; do not reopen automatically"
+    },
+    {
+      "path": "01_現行正本/MASTER_SWITCH_AUDIT_v010.csv",
+      "issue": "COMSEC outcome gate remains OPEN in rollback/switch artifacts",
+      "effective_resolution": "retain as provenance of rollback experiment, but current runtime uses TECH-COMINT-JP-HIGHGRADE-1942-001 + residual channels; do not reopen automatically"
+    },
+    {
+      "path": "01_現行正本/MASTER_SWITCH_AUDIT_v010.md",
+      "issue": "COMSEC outcome gate remains OPEN in rollback/switch artifacts",
+      "effective_resolution": "retain as provenance of rollback experiment, but current runtime uses TECH-COMINT-JP-HIGHGRADE-1942-001 + residual channels; do not reopen automatically"
+    }
+  ],
+  "closeout": "No legacy file deleted or rewritten. Runtime eligibility is carried only by refactor-layer artifacts."
+}

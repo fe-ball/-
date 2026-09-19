@@ -1,0 +1,21 @@
+key	value	status
+war_clock	1939-08-20 24:00	CURRENT
+Soviet_offensive	in progress;double envelopment not stopped	CURRENT
+4th_Tank_Regiment_dawn_ready	34	CLOSED
+4th_Tank_Regiment_evening_ready	~21 immediate	CLOSED-center
+4th_Aug20_irreversible	6	CLOSED-center
+4th_Aug20_repairable	7	CLOSED-center
+3rd_Tank_Regiment_dawn_ready	29	CLOSED
+3rd_Tank_Regiment_evening_ready	24 immediate	CLOSED-center
+3rd_Aug20_irreversible	2	CLOSED-center
+3rd_Aug20_repairable	3	CLOSED-center
+ChiHa_Aug20	3 immediate ready +1 repairable/recovered;0 irreversible	CLOSED-center
+armor_immediate_ready_total	~45	CURRENT-center
+TANK37_usable	~96	CURRENT-center
+AT37_usable_theater	~424	CURRENT-center
+mobile_AT_group	2 operational +1 damaged/recovered +1 destroyed	CURRENT-center
+Ki40	1 dawn mission decisive for early axis ID;2 forward airframes remain in evaluation detachment	CURRENT
+southern_delay	~5-7h on affected mechanized march/deployment cycle	CLOSED-center
+east_corridor	at least one truck-capable route + foot routes remain usable but threatened	CURRENT
+7th_Division_relief	still outside battlefield;approaching Hailar/eastern relief chain	CURRENT-working
+next_gate	1939-08-21 corridor race / withdrawal decision / Soviet adaptation	OPEN

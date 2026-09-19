@@ -1,0 +1,40 @@
+{
+  "revision": "v002",
+  "id": "RESUME_LOAD_ORDER_1944-02-21_v002",
+  "global_frontier": "1944-02-21T24",
+  "next_exact_action": "Close the Indian Ocean aviation capability gate first: reconstruct/source-audit 1944-02-19..22 FAA/RAF/Japanese land-water air physical/serviceable/mission-ready/sortie bands; then adjudicate Eastern Fleet / Andaman / Bay of Bengal before any global clock advance.",
+  "load_first": [
+    "97_SESSION_CLEANED_2026-08-30/MANIFEST/SESSION_MANIFEST_v002.json",
+    "97_SESSION_CLEANED_2026-08-30/MANIFEST/SESSION_DATA_AUDIT_v001.json",
+    "97_SESSION_CLEANED_2026-08-30/AIR/INDIAN_OCEAN_AIR_CAPABILITY_GAP_AUDIT_1944-02-21_v001.json",
+    "97_SESSION_CLEANED_2026-08-30/AIR/INDIAN_OCEAN_AIR_CAPABILITY_LEDGER_1944-02-19_22_WORKING_v001.json",
+    "06_RUNTIME/PARALLEL_THEATER_STATE_1944-02-06T1800_WORKING_v002.json",
+    "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v002.json",
+    "06_RUNTIME/EASTERN_FLEET_MEDIUM_LIGHT_OOB_1944-01_WORKING_v001.json",
+    "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v006.json",
+    "06_RUNTIME/ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+    "95_AUDIT/FRONTIER_AND_EASTERN_FLEET_DATA_AUDIT_2026-08-29_v001.md",
+    "95_AUDIT/EASTERN_FLEET_MEDIUM_LIGHT_OOB_AUDIT_2026-08-29_v001.md",
+    "95_AUDIT/JAPAN_INDIAN_OCEAN_ORIGIN_ROUTE_AUDIT_1944-01_WORKING_v001.md",
+    "97_SESSION_CLEANED_2026-08-30/RULES_ASW/ASW_RETROACTIVE_AND_FUTURE_ACTIVITY_GUARD_1943_1944Q1_WORKING_v002.json",
+    "96_SESSION_WORKING_2026-08-30/RULES_ASW/CROSS_DOMAIN_CAMPAIGN_REAUDIT_GUARD_1944Q1_WORKING_v001.json"
+  ],
+  "crosscheck_before_merge": [
+    "96_SESSION_WORKING_2026-08-30/OPERATIONS/TRUK_HAILSTONE_DAY2_CLOSEOUT_1944-02-21_WORKING_v001.json",
+    "97_SESSION_CLEANED_2026-08-30/OPERATIONS/TRUK_HAILSTONE_WARNING_CHAIN_1944-02-15_20_WORKING_v002.json",
+    "96_SESSION_WORKING_2026-08-30/OPERATIONS/CATCHPOLE_PREASSAULT_CROSS_DOMAIN_1944-02-20_21_WORKING_v001.json",
+    "96_SESSION_WORKING_2026-08-30/OPERATIONS/CATCHPOLE_ENGEBI_1944-02-21_WORKING_v001.json",
+    "96_SESSION_WORKING_2026-08-30/OPERATIONS/CATCHPOLE_ENIWETOK_ISLAND_1944-02-22_23_WORKING_v001.json",
+    "96_SESSION_WORKING_2026-08-30/OPERATIONS/CATCHPOLE_PARRY_CLOSEOUT_1944-02-23_27_WORKING_v001.json",
+    "97_SESSION_CLEANED_2026-08-30/ARMOR/JAPANESE_ARMOR_NATIONAL_CHECKPOINT_1944-02-21_WORKING_v002.json"
+  ],
+  "hold_until_later": [
+    "Bengal 25th Dragoons local re-adjudication",
+    "China/Five-Go armor residual tightening",
+    "Jan-Jun 1944 armor production/development wallet",
+    "Marianas/Saipan future gates"
+  ],
+  "clock_guard": "Catchpole files dated after 21 Feb are resolved future-local nodes only. They may be merged after Eastern Fleet/Andaman allocation is reconciled, not used to assert the global date is already 27 Feb.",
+  "supersedes": "97_SESSION_CLEANED_2026-08-30/MANIFEST/RESUME_LOAD_ORDER_v001.json",
+  "air_capability_guard": "Do not resolve detection/strike/CAP/air attrition or any surface decision materially dependent on air cover until the Indian Ocean air capability ledger has source-supported bands. Unknown is not zero."
+}

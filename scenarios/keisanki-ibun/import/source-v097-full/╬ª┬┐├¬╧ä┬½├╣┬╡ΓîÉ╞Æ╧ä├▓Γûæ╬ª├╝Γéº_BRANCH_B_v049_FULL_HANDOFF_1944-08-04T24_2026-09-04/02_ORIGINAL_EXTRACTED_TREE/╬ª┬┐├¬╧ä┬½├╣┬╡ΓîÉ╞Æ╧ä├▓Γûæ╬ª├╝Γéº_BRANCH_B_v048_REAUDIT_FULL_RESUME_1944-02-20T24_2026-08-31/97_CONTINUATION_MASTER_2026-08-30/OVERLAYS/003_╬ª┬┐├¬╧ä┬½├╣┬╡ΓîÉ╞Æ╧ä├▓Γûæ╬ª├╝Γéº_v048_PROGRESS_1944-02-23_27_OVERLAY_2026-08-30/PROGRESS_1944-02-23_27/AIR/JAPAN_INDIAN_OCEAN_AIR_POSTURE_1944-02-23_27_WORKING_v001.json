@@ -1,0 +1,32 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_INDIAN_OCEAN_AIR_POSTURE_1944-02-23_27_WORKING_v001",
+  "status": "WORKING_BRANCH_POSTURE_UPDATE_NOT_AUTHORITY",
+  "clock_window": "1944-02-23..27",
+  "global_frontier_after_event": "1944-02-27T24",
+  "parents": [
+    "97_SESSION_CLEANED_2026-08-30/AIR/INDIAN_OCEAN_AIR_CAPABILITY_LEDGER_1944-02-19_22_WORKING_v002.json",
+    "97_SESSION_CLEANED_2026-08-30/AIR/JAPAN_INDIAN_OCEAN_ASW_AIR_CAPABILITY_1944-02-19_22_WORKING_v001.json"
+  ],
+  "705th_NAG": {
+    "23_26Feb": "Retain previous western capability bands: physical 34-44, serviceable 24-34, mission-ready 16-26; long-range sea-search 4-8 sorties/24h when fuel/weather/tasking permit. No SLEUTH contact is credited.",
+    "27Feb_branch_order": "Post-HAILSTONE Central-Pacific reinforcement pressure triggers preparation order for the main long-range bomber element to redeploy eastward. This is a Branch scheduling decision compatible with the historical late-Feb move, not an instantaneous teleport.",
+    "27T24_accounting": "No physical aircraft debit is posted before 27T24. Packing/reassignment reduces discretionary western search/strike availability late on 27; use 2-4 long-range searches/24h equivalent from the evening transition until a 28 Feb+ transfer file posts actual departures.",
+    "guard": "Do not credit the same 705 airframes in Sumatra and Palau/Truk simultaneously."
+  },
+  "331st_NAG": {
+    "status_at_27T24": "Retained west in bounded fighter-defense role because no exact branch departure is posted through this clock. Early-March reorganization/transfer remains pending.",
+    "guard": "No simultaneous Pacific credit."
+  },
+  "Tokai_MAD": {
+    "status": "Western detachment remains active.",
+    "23_27_effect": "Routine convoy/submarine departure-lane coverage and datum-response readiness around Malacca/Penang/Sumatra. No confirmed Allied submarine datum converts into a kill in this window.",
+    "SA1_effect": "Reduces departure-lane risk for the 27 Feb commerce-raiding movement but does not make it submarine-proof."
+  },
+  "Ka_go": {
+    "local_aircraft": 0,
+    "effect": "NONE",
+    "reason": "No dated Ka-go carrier/shore operating detachment is present in the Indian Ocean window."
+  },
+  "cross_theater_effect": "From late 27 Feb onward the western air picture begins to tighten: SA No.1 is sailing while the 705 main bomber element is preparing to move east. This increases dependence on 331 local defense, residual search assets, floatplanes, submarines and shore reporting for March."
+}

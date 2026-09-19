@@ -1,0 +1,11 @@
+time	theater	formation_or_capability	state	worldline_delta	status	note
+1939-06-20T24:00	CENTRAL_CHINA	11TH_ARMY	RECOVERED_FROM_SUIXIAN_ZAOYANG	positive_readiness	CLOSED_TO_GATE	no major battle active
+1939-06-20T24:00	CENTRAL_CHINA	106DIV	READY_RECOVERING	+2100_to_2800_CEQ_family	WORKING_CARRY	Nanchang-derived historical delta
+1939-06-20T24:00	CENTRAL_CHINA	3_13_16DIV	RECOVERED_MOSTLY	+200_to_300_CEQ_family	WORKING_CARRY	Suixian-Zaoyang aggregate delta
+1939-06-20T24:00	ALL_CHINA	usable_military_capital	READY_FRACTION_HIGHER	+5000_to_8000_CEQ_family	WORKING_CARRY	do not treat as literal headcount
+1939-06-20T24:00	NORTH_CHINA	WUTAISHAN_PHASE4	ACTIVE	small_reliability_advantage	OPEN_TO_JUN22	guerrilla main body not trapped
+1939-06-20T24:00	AIR_CHINA	E4_photo_recon	SCARCE_AVAILABLE	no_Nomonhan_subtraction	CLOSED_GUARD	allocation still must be mission-specific
+1939-06-20T24:00	AIR_CHINA	G3M_EX_state	EX0_EQUIVALENT_PERFORMANCE_CREDIT	maintenance_QC_only_for_current_replay	CLOSED-CONSERVATIVE	selective EX2 physically possible; no unit percentage or +4-6 km/h credit without named lot evidence; see 11/11A
+1939-06-20T24:00	SOUTH_CHINA	GOTO_DETACHMENT	SAILING_TO_SHANTOU	104DIV_detachment	CLOSED_TO_GATE	~4 infantry battalions + mountain artillery core
+1939-06-20T24:00	SOUTH_CHINA	104DIV_SECURITY_LINE	TEMPORARILY_THINNED	real_manpower_gap	CLOSED_TO_GATE	vehicles/comms do not replace detached battalions
+1939-06-20T24:00	CROSS_THEATER	Nomonhan_worldline_extra_drain	NONE	0	CLOSED_GUARD	historical drains are already in historical baseline

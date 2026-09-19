@@ -1,0 +1,43 @@
+id	feature	x_or_station_m	y_m	z_m	size_or_envelope	motion_state	notes
+P1	propeller-plane	0.18	0	0.22	D=3.10 m	4-blade	engine/gearbox nose axis
+P2	propeller-plane	0.20	0	0.24	D=3.25 m	4-blade	engine/gearbox nose axis
+P2	starboard utility door	4.65	+0.69	0.10	1.05x1.30 m	hinged/sliding local	large cabin/cargo access
+Material-2	cheek/side inlets	3.05	±fuselage shoulder	0.10	0.40x0.32 m each	fixed	paired ducts to central/rear engine; visible boundary splitter lip
+E5-future	cheek/side inlets	3.00	±fuselage shoulder	0.10	0.44x0.34 m each	fixed	paired ducts to central/rear engine; visible boundary splitter lip
+Ki-42	cheek/side inlets	2.92	±fuselage shoulder	0.10	0.45x0.35 m each	fixed	paired ducts to central/rear engine; visible boundary splitter lip
+HS-2	cheek/side inlets	3.03	±fuselage shoulder	0.10	0.40x0.30 m each	fixed	paired ducts to central/rear engine; visible boundary splitter lip
+E6-Single	cheek/side inlets	3.45	±fuselage shoulder	0.10	0.54x0.42 m each	fixed	paired ducts to central/rear engine; visible boundary splitter lip
+Material-2	rear jet nozzle	8.35	0	0.02	OD~0.43 m	fixed convergent	tailplane is set above core exhaust axis
+E5-future	rear jet nozzle	8.48	0	0.02	OD~0.45 m	fixed convergent	tailplane is set above core exhaust axis
+Ki-42	rear jet nozzle	8.28	0	0.02	OD~0.45 m	fixed convergent	tailplane is set above core exhaust axis
+HS-2	rear jet nozzle	8.25	0	0.02	OD~0.43 m	fixed convergent	tailplane is set above core exhaust axis
+E6-Single	rear jet nozzle	8.86	0	0.02	OD~0.56 m	fixed convergent	tailplane is set above core exhaust axis
+E5-Twin	engine nacelles	wing x near 3.15	±2.25	wing centerline	OD~0.74 m; J length 2.85 m; JF length 3.45 m	fixed	circular/oval inlet; service access panels align to gas-generator and aft module split
+E6-Twin	engine nacelles	wing x near 3.15	±2.05	wing centerline	OD J~0.64 / JF~0.70 m; J length 2.75 m; JF length 3.40 m	fixed	circular/oval inlet; service access panels align to gas-generator and aft module split
+E6-B	engine nacelles	wing x near 3.75	±2.55	wing centerline	OD~0.72 m; J length n/a; JF length 3.60 m	fixed	circular/oval inlet; service access panels align to gas-generator and aft module split
+A8N-Sakufu	engine nacelles	wing x near 3.25	±2.25	wing centerline	OD~0.70 m; J length n/a; JF length 3.55 m	fixed	circular/oval inlet; service access panels align to gas-generator and aft module split
+E6-Twin	mission bay	4.05	0	-0.45	~1.75x0.76x0.55 m	two flush longitudinal doors	~0.40 t-class common bay close to CG
+E6-B	bomb bay	4.35-6.95	0	-0.58	~2.60x0.90x0.72 m	two flush longitudinal doors	normal 1.0-1.2 t; overload mass does not change OML
+E6-B	lower nose glazing	1.05-2.25	0	-0.38	limited flat panels	fixed	bombardier/navigation visibility; not greenhouse
+X-TP	propeller-plane	0.20	0	0.30	D=3.25 m	4-blade	research E5-S-T
+A7M-Gaifu	propeller-plane	0.20	0	0.30	D=3.35 m; spinner D~0.72	4-blade	E6-S-T
+A7M-Gaifu	wing fold	wing y=±5.45	±5.45	wing	outer 0.55 m each	up ~85 deg	small carrier tip fold; horizontal folded span ~10.90 m
+A7M-Gaifu	arresting hook	8.05	0	-0.62	hook length ~1.55 m	deploy aft/down	carrier prototype standard
+A7M-Gaifu	chin intake	0.95	0	-0.34	~0.55x0.24 m	fixed	TP inlet/cooling; side exhaust slots aft of engine section
+A8N-Sakufu	wing fold	wing y=±3.50	±3.50	wing	outer panel 3.10 m each	up ~90 deg	folded width target ~7.0 m; mechanical control disconnect at fold
+A8N-Sakufu	arresting hook	9.20	0	-0.62	hook length ~1.70 m	deploy aft/down	carrier qualification hardware
+A8N-Sakufu	cold-flow cascade	aft-lower nacelle	±2.25	-0.35	lower bypass sector	0/20/45 deg	mechanical/hydraulic cascade; directs only cold bypass flow over/down along flap
+Ki-40	propeller-plane	0.18	0	0.27	D=3.55 m; spinner D~0.70	4-blade	E6-S-N-T
+Ki-40	camera windows	6.20-7.15	0 / ±0.24	-0.42	1 vertical + 2 oblique	fixed optical flats	unarmed high-altitude recon baseline
+Ki-40	chin intake	1.05	0	-0.30	~0.48x0.20 m	fixed	small TP intake; lateral exhausts
+AT-3	engine nacelle	10.8	±7.4	wing	D~1.15 m cowling; prop D=3.80 m	fixed	four E6-M-T installations
+AT-3	engine nacelle	10.8	±14.6	wing	D~1.15 m cowling; prop D=3.80 m	fixed	four E6-M-T installations
+AT-3	rear cargo ramp	29.2-34.0	0	-1.55	3.20 m clear width	lower ramp + upper door	ramp is ground-supported in heavy-load condition
+AT-3	main gear sponsons	15.0-20.0	±2.55	-1.65	two bogies/side, 2 wheels per bogie	retract	8 main wheels total; keeps cargo floor unobstructed
+H1	main rotor hub	3.15	0	2.65	D=10.80 m; 3 blades	articulated	blade chord 0.32 m inboard ->0.28 m tip; root cutout ~0.65 m
+H1	tail rotor hub	8.02	port	1.82	D=1.75 m; 2 blades	variable pitch	port-side tail rotor; open/serviceable drive shaft sections allowed
+H1	engine/transmission cowl	3.55-4.75	0	0.65	compact air-cooled piston bay	removable panels	partly exposed cooling louvers; research-era mechanical visual
+H2	main rotor hub	3.55	0	2.82	D=11.20 m; 3 blades	articulated	blade chord 0.34 m inboard ->0.29 m tip; root cutout ~0.70 m
+H2	tail rotor hub	8.78	port	2.00	D=2.00 m; 2 blades	variable pitch	port-side tail rotor
+H2	starboard utility door	3.30-4.35	+0.725	0.08	~0.95x1.25 m	sliding	litter/third-person access
+H2	turboshaft intake/exhaust	4.05-4.95	dorsal/shoulder	1.15	screened inlet + upward/aft exhaust	fixed	keeps hot exhaust off cabin/tail boom; no decorative large jet pipe

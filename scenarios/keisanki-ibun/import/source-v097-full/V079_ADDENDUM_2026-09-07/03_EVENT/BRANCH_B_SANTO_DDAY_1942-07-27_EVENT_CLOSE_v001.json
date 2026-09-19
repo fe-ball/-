@@ -1,0 +1,59 @@
+{
+  "version": "v079",
+  "clock": "1942-07-28T00:00:00",
+  "status": "SANTO_DPLUS1_OPEN",
+  "japan": {
+    "physical_ashore_band": [
+      6850,
+      7050
+    ],
+    "combat_effective_band": [
+      5300,
+      5650
+    ],
+    "combat_effective_center": 5475,
+    "dday_ground_casualties_band": [
+      570,
+      740
+    ],
+    "turtle_bay": "captured_nonoperational",
+    "peterson_surundu": "lodgment_secure",
+    "luganville_segond": "not_captured",
+    "carrier_mr_band": [
+      91,
+      97
+    ],
+    "carrier_mr_center": 94,
+    "landing_craft_lost": 3,
+    "landing_craft_damaged_temp": 6,
+    "kazuura_maru": "light_damage_propulsion_intact",
+    "reserve_1000": "second_echelon_not_dday_additive"
+  },
+  "allies": {
+    "combat_effective_band": [
+      2850,
+      3150
+    ],
+    "combat_effective_center": 3000,
+    "dday_casualties_band": [
+      600,
+      790
+    ],
+    "captured_missing_band": [
+      60,
+      100
+    ],
+    "turtle_bay": "lost",
+    "luganville_segond": "held",
+    "pallikulo": "held_contested",
+    "wasp": "damaged_retiring_no_santo_cap",
+    "3_10_artillery": "absent_with_alhena"
+  },
+  "next_order": [
+    "night_linkup_patrol",
+    "air_readiness_and_shokaku_repair",
+    "reserve_eta",
+    "ground_operational_choice",
+    "dplus1_ground_fight"
+  ]
+}

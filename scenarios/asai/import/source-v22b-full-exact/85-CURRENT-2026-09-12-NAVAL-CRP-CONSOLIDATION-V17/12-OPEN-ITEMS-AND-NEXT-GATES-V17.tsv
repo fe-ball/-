@@ -1,0 +1,15 @@
+priority	item	status	next_action
+1	E15K_Shiun_full_reconciliation	NEXT-GATE	Run propulsion x float/mechanism performance/schedule matrix
+2	E15K_CRP3_timing	OPEN	Close gearbox/bearing/pitch/water-environment qualification schedule
+3	N1K_CRP_choice	GATED	Decide only after E15K CRP qualification outcome
+4	Taiho_fuel_ventilation_DC	OPEN	Audit fuel piping, ventilation isolation, drains, electrical/DC architecture
+5	Nisshin_completion_date	OPEN	Separate machinery gain from role/outfitting/yard schedule
+6	Akashi_effect_quantification	WORKING	Keep bands unless campaign-level repair ledger needs precise throughput
+7	underway_replenishment_doctrine	OPEN	Gate by actual Navy training decision/date
+8	Oyodo_requirement	OPEN	Reassess after E15K closeout; preserve broad reconnaissance need meanwhile
+9	Agano_Akizuki_Oyodo_late_design_integration	OPEN	Dedicated new-build electrical/FCS/requirements audit
+10	auxiliary_fleet_full_OOB	OPEN	Audit repair/oiler/seaplane/submarine tender/aircraft transport availability by date
+11	Type93_common_hardware_indices	WORKING	Only close if weapon-body QC precision is needed in later combat replay
+12	Hundred_Regiments_absolute_losses	OPEN	Do not import analytical casualty estimates
+13	Northern_Indochina_E6_exact_detachment	PLANNING	Close only when replay reaches occupation/deployment dates
+14	US_full_oil_embargo_date	GATED	Replay US/Japan/southward threat politics rather than forcing early date

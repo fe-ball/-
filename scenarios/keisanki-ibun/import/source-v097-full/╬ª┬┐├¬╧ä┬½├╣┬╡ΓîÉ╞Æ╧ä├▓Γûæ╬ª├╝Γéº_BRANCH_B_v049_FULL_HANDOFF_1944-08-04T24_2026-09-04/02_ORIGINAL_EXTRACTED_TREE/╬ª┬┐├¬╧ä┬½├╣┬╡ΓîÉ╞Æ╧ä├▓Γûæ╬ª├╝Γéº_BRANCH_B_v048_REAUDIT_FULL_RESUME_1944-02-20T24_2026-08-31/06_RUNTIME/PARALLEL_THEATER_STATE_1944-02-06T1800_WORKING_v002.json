@@ -1,0 +1,21 @@
+{
+  "revision": "v002",
+  "id": "PARALLEL_THEATER_STATE_1944-02-06T1800_WORKING_v002",
+  "status": "WORKING_NOT_CURRENT",
+  "as_of": "1944-02-06T18:00:00+12:00",
+  "authority_frontier": "1944-01-01T00:00 unchanged; authority revision v006 after Bengal rollback",
+  "supersedes": "PARALLEL_THEATER_STATE_1944-02-06T1800_WORKING_v001",
+  "Central_Pacific": {
+    "US": "Main Kwajalein/Roi-Namur D-Day succeeds on 6 Feb. Cabot remains campaign-out with return centered early May; Intrepid near-normal from 4 Feb. LST-224 is lost to Japanese submarine attack before D-Day; amphibious schedule absorbs the loss.",
+    "Japan": "Shokaku/Zuikaku withdraw; Hiryu reaches Truk repair pipeline and is not a combat deck. Soryu readiness remains separate. Marshall local air ~21 serviceable by evening; one local conventional submarine lost and two boats mission-damaged/withdrawn, but reporting network not completely erased."
+  },
+  "Indian_Ocean": {
+    "state": "No new event advanced in this Central-Pacific step. Eastern Fleet Ceylon workup continues; Japanese second surface reinforcement remains HOLD."
+  },
+  "Bengal": {
+    "state": "No new post-year-end combat event advanced. After the v048 campaign rollback, Chittagong was captured centered late 14 Dec and 55th Division entered 1944 with about 300-600 more effective personnel and 20-45 more dispatchable vehicles than v001 implied. This hardens Japanese defenses and limited probes earlier, but Chittagong-Feni/Comilla stalemate persists; first Kinsei detachment remains and the further batch is held under Central-Pacific priority."
+  },
+  "Yanagi_Jet": {
+    "state": "Clock is now inside I-34 projected early-Feb Europe-arrival band, but this Pacific step does not auto-realize arrival. It remains an unresolved near-term gate and must be adjudicated explicitly before jet-paper effects are applied."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "GALVANIC_JAPAN_REACTION_STATE_1943-11-25T24_WORKING_v001",
+  "status": "WORKING_CROSS_DOMAIN_DEPENDENCY_STATE",
+  "time": "1943-11-25T24 local",
+  "interpretation": {
+    "Tarawa": "organized resistance continues; first-night report is encouraging but subsequent daylight reports show the US has restored the beachhead connection and is landing armor",
+    "command_error_guard": "Japan may overestimate local tactical success, but does not receive omniscient knowledge or infer an imminent US evacuation"
+  },
+  "secondary_carriers": {
+    "Junyo_Ryujo_Zuiho": "Truk-area start and able to move east during 24-25 Nov",
+    "Hiyo": "arrived Truk during 23 Nov centered; can follow after fuel/air-group coordination",
+    "effect_by_11_26": "rear-deck/CAP/search/recovery participation becomes materially easier than in the old undated 105-130-aircraft pool treatment; exact strike addition still requires range/fuel/escort geometry"
+  },
+  "surface_and_submarine": "continued Tarawa fighting increases value of recontact and night harassment. Do not auto-order a suicidal transport run; a stand-off torpedo/raid concept becomes more attractive if US support ships remain fixed and a fresh night datum exists.",
+  "land_air": "regional network remains degraded but nonzero; search/water-air assets are more valuable for fleet cueing than for another immediate 20+ aircraft attack"
+}

@@ -1,0 +1,10 @@
+gate	dynamic_pressure_kPa	sea_level_equiv_kmh	purpose	status_at_1939-04-20
+Q0	15	~564	old-design correlation / first flight envelope	planned after flight release
+Q1	20	~651	first structural expansion	future test gate
+Q2	25	~727	beyond old level-flight structural environment	future test gate
+Q3	30	~797	high-q qualification	future test gate
+Q4	35	~860	selected upper structural/fluttter test	only after evidence
+engine E5-J-Q	425-430 kgf	-	mature baseline package	allocated
+engine E5-J-N	450-455 kgf	-	normal high-performance point	available; not automatic first-flight rating
+flight article build	60-70%	-	major structure/assembly	CLOSED current Apr20 state
+first flight	1939H2/early1940 gate	-	structural proof dependent	FUTURE / not achieved

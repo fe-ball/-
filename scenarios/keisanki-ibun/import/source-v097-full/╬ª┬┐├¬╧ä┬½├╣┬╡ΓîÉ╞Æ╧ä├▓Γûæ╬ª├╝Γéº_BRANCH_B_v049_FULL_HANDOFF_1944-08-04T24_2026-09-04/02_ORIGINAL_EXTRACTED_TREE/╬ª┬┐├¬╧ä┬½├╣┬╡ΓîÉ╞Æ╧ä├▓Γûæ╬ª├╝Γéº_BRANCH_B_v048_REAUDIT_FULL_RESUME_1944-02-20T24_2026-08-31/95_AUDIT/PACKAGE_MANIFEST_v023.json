@@ -1,0 +1,20 @@
+{
+  "revision": "v023",
+  "package_root": "計算機異聞_refactor_v023_2026-08-26",
+  "generated": "2026-08-26",
+  "purpose": "Repair runtime/current-version integration at the synchronized 1943-10-01 frontier and add anti-regression guards for branch geography, Allied carrier losses, Japanese hull/tech/COMINT state and China.",
+  "base_package": "計算機異聞_refactor_v022_2026-08-26_FULL",
+  "current_branch_state_file": "06_RUNTIME/CURRENT_BRANCH_STATE_v005.json",
+  "current_restart_checkpoint": "05_WARTIME/CHECKPOINT_1943-09-30T24_v001.json",
+  "current_branch_analysis_frontier": "1943-10-01T00:00",
+  "branch_invariant_guard": "06_RUNTIME/BRANCH_INVARIANT_GUARD_1943-10-01_v001.json",
+  "next_session_handoff": "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v023.md",
+  "downstream_results_retained_provisional": true,
+  "validation": "95_AUDIT/VALIDATION_RESULT_v023.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v023.txt",
+  "historical_checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v022.txt",
+  "next_required_adjudication": "October 1943 synchronized advance: branch-geography-aware US carrier pressure -> Japanese surviving-force allocation -> SEAC/Bengal air response -> individual hull readiness -> India GO/NO-GO.",
+  "file_count_before_checksum": 527,
+  "file_count_total": 528,
+  "json_file_count": 236
+}

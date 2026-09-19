@@ -1,0 +1,21 @@
+{
+  "id": "FLINTLOCK_1944-02-10T24_CLOSEOUT_CHECKPOINT_v001",
+  "status": "WORKING_FRONTIER_CHECKPOINT_NOT_CANONICAL",
+  "as_of": "1944-02-10T24 Marshall local",
+  "FLINTLOCK": "Ground campaign closed; Kwajalein formal secure centered 9-Feb 10:45. Main landing-battle US ground casualties 1,570-2,215 centered ~1,890, excluding 5-Feb LST and all carrier/naval/air losses.",
+  "US_postcapture": "Technical exploitation and base activation have started; Roi emergency/limited air use precedes regular squadron throughput, Majuro remains principal immediate fleet hub.",
+  "Japan_learning": "Kwajalein converts Tarawa lesson from stronger beach defense into explicit depth/dispersed-defense doctrine where terrain permits. Eniwetok can only apply expedients if attacked soon; Palau/Marianas can change materially.",
+  "open_next": [
+    "Recompute HAILSTONE timing and Truk evacuation from the post-2-Feb carrier exchange and Majuro replenishment state.",
+    "Recompute CATCHPOLE timing from assault-shipping/CVE/old-BB turnaround and Eniwetok warning/adaptation.",
+    "Resolve Hiryu repair/evacuation clock and first-line carrier air-team regeneration after 2-Feb losses.",
+    "Rebuild Eniwetok defense/OOB including previously traced armor, radar/sensor limitations, water aviation and short-warning fortification changes before any landing is simulated."
+  ],
+  "do_not_inherit": [
+    "historical 17-Feb Eniwetok assault date by script",
+    "old working 20-27 Feb CATCHPOLE dates without recomputation",
+    "old HAILSTONE dates/results without re-evaluating Truk evacuation and carrier damage",
+    "instant US understanding of Japanese ESM or future defense doctrine",
+    "Palau/Marianas mature depth-defense features at February Eniwetok"
+  ]
+}

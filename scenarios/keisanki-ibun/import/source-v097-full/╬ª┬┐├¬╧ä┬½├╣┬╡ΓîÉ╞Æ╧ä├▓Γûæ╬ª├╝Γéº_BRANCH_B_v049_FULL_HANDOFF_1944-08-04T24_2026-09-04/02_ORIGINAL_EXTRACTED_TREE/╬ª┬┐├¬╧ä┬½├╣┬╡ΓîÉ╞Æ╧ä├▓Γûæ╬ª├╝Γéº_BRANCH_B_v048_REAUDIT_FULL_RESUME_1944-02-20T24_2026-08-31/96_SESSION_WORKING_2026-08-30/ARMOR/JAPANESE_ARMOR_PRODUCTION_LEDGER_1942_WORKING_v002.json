@@ -1,0 +1,153 @@
+{
+  "revision": "v002",
+  "id": "JAPANESE_ARMOR_PRODUCTION_LEDGER_1942_WORKING_v002",
+  "status": "WORKING_DATED_RECONSTRUCTION_NOT_CURRENT",
+  "supersedes": "JAPANESE_ARMOR_PRODUCTION_LEDGER_1942_WORKING_v001 for dated/monthly values",
+  "accounting_guard": "JAPANESE_ARMOR_PRODUCTION_ACCOUNTING_CALENDAR_GUARD_1941_1944_WORKING_v001",
+  "historical_hard_anchors": [
+    "Shinhoto was already in prewar/early-war conversion and entered combat in the Philippines in spring 1942.",
+    "A widely used production series gives 503 new Shinhoto in '1942', but the exact calendar-vs-fiscal basis is not trusted for event dating.",
+    "About 300 older 57mm Type97 tanks were rebuilt with the new turret over the transition.",
+    "Type1 mobile 47mm AT-gun production at Nagoya Arsenal began in April 1942; tank gun and towed gun are related but physically distinct products.",
+    "Ho-Ni I program began in 1941 and historical series production is about 26 vehicles in 1942."
+  ],
+  "47mm_resource_wallet": {
+    "finding": "The towed Type1 47mm and the Type1 47mm tank gun share ammunition/metallurgy/design ecosystem but are not one identical barrel/assembly line. Towed-gun output therefore does not subtract one-for-one from tank-gun output.",
+    "tank_gun_constraint": "Final barrel machining, breech/recoil hardware, sights and turret integration remain real constraints.",
+    "branch_effect": "Earlier 68-hull conversion experience + tighter acceptance/QC can front-load retrofit throughput, but cannot double it.",
+    "1942_retrofit_band": [
+      135,
+      180
+    ],
+    "1942_retrofit_center": 160,
+    "reason_for_band": "Enough to exploit existing turret program without assuming undocumented 1942 tank-gun surge. If later Osaka/Sagami gun records show lower throughput, retrofit count slides first."
+  },
+  "calendar_1942_event_curve_working": {
+    "archive_status": "RECONSTRUCTED, NOT ARCHIVAL MONTHLY OUTPUT",
+    "months": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "Shinhoto_new_hull_center": [
+      10,
+      18,
+      28,
+      34,
+      40,
+      44,
+      48,
+      50,
+      52,
+      54,
+      54,
+      54
+    ],
+    "Shinhoto_new_hull_total_center": 486,
+    "Shinhoto_new_hull_year_band": [
+      450,
+      510
+    ],
+    "old_57mm_Type97_new_center": [
+      8,
+      6,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "old_57mm_Type97_new_total_center": 18,
+    "old_hull_Shinhoto_retrofit_center": [
+      18,
+      18,
+      18,
+      16,
+      16,
+      14,
+      14,
+      12,
+      10,
+      10,
+      8,
+      6
+    ],
+    "old_hull_Shinhoto_retrofit_total_center": 160,
+    "explanation": "Early months must support a March training/shipping detachment; later 1942 is the mass-conversion period. Numbers are a dated Branch model, while the frequently quoted 503 remains a source-series anchor rather than a literal calendar total."
+  },
+  "1942_national_AFV_policy": {
+    "total_output": "Keep national tracked-AFV envelope close to historical-equivalent. Do not cash Branch steel improvement directly into extra tank hulls.",
+    "main_change": "Model mix and retrofit/acceptance speed, plus recovery/workshop assets.",
+    "HaGo": "Keep high production/availability; southern success and better reliability reduce urgency of Ke-Ni replacement.",
+    "KeNi": "Low priority; no surge.",
+    "HoNiI": {
+      "new_build_band": [
+        26,
+        34
+      ],
+      "center": 30,
+      "guard": "Any amount above historical-equivalent consumes Type97 chassis + Type90 75mm gun resources."
+    },
+    "ChiHe": {
+      "calendar_1942": "prototype/test only",
+      "combat_issue": 0,
+      "branch_effect": "Testing and welding/process closure improve, but successful Shinhoto makes a crash line switch unattractive."
+    }
+  },
+  "dated_issue_gates": {
+    "Philippines": {
+      "historical_anchor": "A specially trained Shinhoto detachment left Japan around 20 Mar 1942 and reached the Philippines around the end of March; two Shinhoto are firmly associated with the Corregidor landing after-action imagery/records.",
+      "branch": "Earlier accepted stock makes a slightly larger training/issue detachment physically possible, but size is NOT changed until transport/landing-craft and crew records are audited.",
+      "strategic_outcome": "No automatic change to the already-decided fall of Bataan/Corregidor."
+    },
+    "Malaya": {
+      "branch": "No retroactive replacement before campaign close centered. 57mm HE remains valuable and invasion shipping/OOB was fixed."
+    },
+    "Burma": {
+      "branch": "Potential 47mm reinforcement must be traced through actual 2nd/14th Tank Regiment logistics; no automatic presence."
+    },
+    "Manchuria_China": {
+      "branch": "Primary destination for 1942 re-equipment as 1st/2nd Tank Divisions form in Manchuria and 3rd Tank Division is formed in China late 1942."
+    }
+  },
+  "end_1942_working_state": {
+    "Shinhoto_transition": "Far enough advanced that 47mm is the normal new medium-tank standard; old 57mm vehicles remain deliberately useful in infantry-support/gun-tank roles.",
+    "retrofit_cumulative": {
+      "pre_1942_program_mechanical_center": 68,
+      "1942_center": 160,
+      "cumulative_center": 228,
+      "range_end_1942": [
+        203,
+        248
+      ],
+      "remaining_of_about_300_historical_rebuild_anchor": "roughly 50-100 vehicles, to be resolved in 1943"
+    },
+    "not_granted": [
+      "mass Chi-He combat issue",
+      "75mm medium tank",
+      "all Southern Army units converted to Shinhoto",
+      "national AFV output explosion"
+    ]
+  },
+  "next_required": [
+    "Reconstruct calendar/fiscal 1943 from factory/acceptance sources rather than reusing annual table blindly.",
+    "Resolve Chi-He: calendar 1943 pre-series vs FY1943 Feb-Mar 1944 production.",
+    "Resolve Ke-Ni 1943 new-build vs repair classification.",
+    "Bind 3rd Tank Division + Five-Go demand to actual model mix and repair/recovery wallet.",
+    "Then propagate GALVANIC M4 shock into 75mm stopgap requirement timing."
+  ]
+}

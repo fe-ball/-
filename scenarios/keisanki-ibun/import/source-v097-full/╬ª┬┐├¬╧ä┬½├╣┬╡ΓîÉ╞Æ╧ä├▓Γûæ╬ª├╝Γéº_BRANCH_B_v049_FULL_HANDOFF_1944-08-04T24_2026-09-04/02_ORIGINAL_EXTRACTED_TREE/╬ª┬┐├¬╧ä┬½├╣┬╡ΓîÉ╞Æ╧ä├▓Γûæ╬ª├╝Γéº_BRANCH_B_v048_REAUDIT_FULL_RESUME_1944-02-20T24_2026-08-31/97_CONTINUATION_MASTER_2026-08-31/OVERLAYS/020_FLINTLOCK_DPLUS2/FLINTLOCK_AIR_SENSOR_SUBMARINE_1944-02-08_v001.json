@@ -1,0 +1,23 @@
+{
+  "id": "FLINTLOCK_AIR_SENSOR_SUBMARINE_1944-02-08_v001",
+  "status": "WORKING_SUPPORT_DOMAIN_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-07T24 through 1944-02-08T24",
+  "air": {
+    "start_serviceable_band": [10, 14],
+    "actions": "Two to four night/early-morning reconnaissance or harassment sorties and a few dispersed fighter/water-air movements occur. No coherent strike package can be assembled against the invasion fleet.",
+    "major_US_ship_hits": 0,
+    "T24_serviceable_band": [6, 9],
+    "T24_center": 7,
+    "composition_note": "Most survivors are dispersed reconnaissance, water-air or local-defense assets; only a very small number of attack aircraft remain serviceable."
+  },
+  "sensor_C2": {
+    "target_islands": "Kwajalein/Roi main tactical radar/director network is effectively destroyed as an atoll-wide battle-management system. Visual posts, runners, isolated phone segments and small radio/DF nodes continue local warning until overrun.",
+    "outer_nodes": "Maloelap, Wotje, Jaluit and other outer nodes continue to observe and report US movements. They provide operational warning to higher command but cannot restore tactical control on the assaulted islands."
+  },
+  "submarines": {
+    "useful_geometry_start": "About 5-7 boats retain useful or near-useful geometry around transport/support approaches after previous attrition and diversions.",
+    "center_action": "One boat obtains a marginal firing opportunity against a screened support/transport element but the solution is stale and/or crossing; four-to-six torpedoes produce no confirmed hit. A second boat is forced off by air/escort ASW before reaching weapon-quality geometry.",
+    "attrition": "One boat incurs damage or crew/equipment degradation producing roughly 24-48 hours local unavailability; no additional submarine sinking is forced on the centerline.",
+    "T24_useful_geometry": "Roughly 4-5 boats remain useful or near-useful around the wider atoll approaches."
+  }
+}

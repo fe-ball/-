@@ -1,0 +1,7 @@
+TIT_C	bleed_pct	static_thrust_kgf	TSFC_kg_per_kgfh	fan_power_kW	status
+820	5.4	966.0	0.643	394.3	continuous/economy shadow
+835	5.25	984.4	0.649	394.3	v46 long-life production-center authority
+850	5.15	1003.2	0.655	394.3	normal-high shadow
+870	5.0	1028.4	0.662	394.3	high-output shadow
+890	4.8	1052.8	0.669	394.3	Ni high shadow
+920	4.5	1088.0	0.681	394.3	Ni upper shadow

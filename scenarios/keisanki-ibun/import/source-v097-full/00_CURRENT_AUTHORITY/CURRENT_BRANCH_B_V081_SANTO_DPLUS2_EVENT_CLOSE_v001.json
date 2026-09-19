@@ -1,0 +1,28 @@
+{
+  "date": "1942-07-29",
+  "status": "CLOSED_CENTER_EVENT_SANTO_OPERATIONALLY_CAPTURED_NOT_PACIFIED",
+  "operational_capture_time_center": "17:30",
+  "japan": {
+    "ground_effective_open_center": 4800,
+    "ground_effective_close_center": 4380,
+    "dplus2_casualties_center": 400,
+    "carrier_mr_close_center": 86,
+    "santo_water_air_mr": 4,
+    "turtle_bay_sustained_fighter_base": false,
+    "second_echelon_physical_ashore_by_midnight_band": [250, 350],
+    "second_echelon_dplus2_combat_credit": 0
+  },
+  "allies": {
+    "ground_effective_open_center": 2180,
+    "dplus2_losses_center": 940,
+    "inland_residual_effective_center": 1090,
+    "major_santo_base_control": false
+  },
+  "control": {
+    "turtle_bay": "JAPAN",
+    "pallikulo_pekoa": "JAPAN",
+    "luganville": "JAPAN",
+    "segond_channel_shore": "JAPAN",
+    "interior_residual_allied_force": true
+  }
+}

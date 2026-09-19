@@ -1,0 +1,32 @@
+{
+  "revision": "v001",
+  "id": "US_TF58_CARRIER_AND_SURFACE_STATE_1944-06-14_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_US_FORCE_AUDIT",
+  "as_of": "1944-06-14T24:00:00+09:00",
+  "parents": [
+    "US_FORAGER_FORCE_LOGISTICS_1944-05-25_06-05_WORKING_v001",
+    "US_SAIPAN_BOMBARDMENT_AND_ASSAULT_PREP_1944-06-13_WORKING_v001"
+  ],
+  "fast_carrier_OOB": {
+    "CV": ["WASP_CV7", "ESSEX_CV9", "YORKTOWN_CV10", "INTREPID_CV11", "HORNET_CV12", "LEXINGTON_CV16", "BUNKER_HILL_CV17", "CV18_EQUIVALENT_PROVISIONAL_ORISKANY"],
+    "CVL": ["PRINCETON_CVL23", "BELLEAU_WOOD_CVL24", "COWPENS_CVL25", "MONTEREY_CVL26", "LANGLEY_CVL27", "CABOT_CVL28", "BATAAN_CVL29", "SAN_JACINTO_CVL30"],
+    "count": {"CV": 8, "CVL": 8, "total": 16},
+    "14Jun_ready_aircraft_band_after_11_13Jun_losses_and_repairs": [905, 990],
+    "working_center_role_mix": {
+      "F6F": 495,
+      "SB2C_SBD_dive_bomber": 232,
+      "TBM": 208,
+      "other_recon_utility": 18
+    },
+    "note": "Role mix is a working center, not a claim that every deck has the same group. CVLs are fighter/TBM heavy; the surviving branch Wasp CV-7 has been modernized into the contemporary F6F/TBM/SB2C-era operating system rather than retaining a 1942 air group."
+  },
+  "14Jun_rotation": {
+    "state": "Two fast-carrier task groups refuel/rearm in rotation while the remaining groups sustain Marianas suppression and fleet CAP. The full 16-deck force exists, but not all decks are launching over Saipan simultaneously.",
+    "immediate_Marianas_decks_at_one_time_band": [8, 10]
+  },
+  "surface": {
+    "Lee_fast_battleships": "Seven fast battleships remain intact and available; no branch campaign-out has yet reduced TG58.7.",
+    "Oldendorf_close_support": "Seven older battleships plus cruisers/destroyers enter close bombardment on 14 Jun. Their shore-bombardment training is materially better than the 13 Jun fast-battleship fire.",
+    "branch_note": "US surface strength has not paid a major hull loss in the 11-13 Jun shaping phase."
+  }
+}

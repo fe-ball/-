@@ -1,0 +1,5 @@
+PROVENANCE / GUARDS
+- Base: v048 canonical resume archive plus the current-session Post-GALVANIC/FLINTLOCK working overlays.
+- The superseded 3-Feb carrier battle and subsequent named submarine results are audit references only, not inherited outcomes.
+- Historical public sources were used only as repair/force sanity anchors, not as Branch event scripts.
+- Correction: prior nested Japanese carrier-air cumulative center typo 56 -> 86.

@@ -1,0 +1,114 @@
+{
+  "revision": "v001",
+  "id": "TAIHO_WORKUP_AND_CARRIER_CADRE_ACCELERATION_1944-03-08_20_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-03-09..20",
+  "global_frontier_after_merge": "1944-03-20T24",
+  "parents": [
+    "JAPAN_CARRIER_SURFACE_FLEET_AUDIT_1944-03-08_WORKING_v001",
+    "JAPAN_AIRCREW_REGENERATION_SOFT_PROGRESS_1944-03-08_WORKING_v001"
+  ],
+  "purpose": "Re-evaluate Taiho work-up after explicitly modeling the Branch-surviving carrier-air and deck-team cadre. Advance crew integration modestly without importing the historical 601st Air Group as 225 extra aircraft or hollowing out the four established fleet carriers.",
+  "branch_start_state": {
+    "completion": "Feb-1944 Branch completion; exact day not authoritative",
+    "08Mar_readiness": "C-/C early work-up",
+    "08Mar_fleet_strike_credit": 0
+  },
+  "historical_sanity_anchors": [
+    "Historical Taiho commissioned 7 Mar 1944, ran trials through 19 Mar, embarked a 75-aircraft component (27 fighter, 30 D4Y, 18 B6N) on/after 24 Mar, departed the Inland Sea 28 Mar and reached Lingga 5 Apr.",
+    "Historical 601st Naval Air Group was formed 15 Feb as the division-level carrier air organization; it must not be counted as a new 225-aircraft stock on top of existing carrier groups."
+  ],
+  "branch_acceleration_mechanism": {
+    "aircrew": "Use surviving carrier-qualified fighter pilots, D4Y/B6N leaders, navigators/observers and rotated veterans as seed cadres so the Taiho component is mixed-experience rather than novice-heavy.",
+    "deck_and_maintenance": "Use instructors/experienced petty officers from the unusually large surviving carrier establishment and secondary carriers for landing-signal, deck-handling, ordnance and maintenance standardization.",
+    "core_protection_rule": "Seed Taiho primarily from rear/training/secondary-carrier and rotating cadre pools. Temporary first-line loans are limited and must not reduce the four-core 20-Mar ready band below its own ledger.",
+    "net_effect": "Compared with simply copying the historical commissioning-to-air-group interval, basic air-group/deck integration can advance several days to about one week; full five-carrier synchronization does not advance by the full hull-construction delta."
+  },
+  "workup_curve": [
+    {
+      "as_of": "1944-03-12T24",
+      "readiness_class": "C/C+",
+      "physical_aircraft_in_ship_or_immediate_qualification_pool_band": [
+        28,
+        40
+      ],
+      "serviceable_band": [
+        22,
+        34
+      ],
+      "mission_ready_local_band": [
+        12,
+        22
+      ],
+      "combat_credit": "local CAP/ferry/deck qualification and emergency defensive use; no fleet synchronized strike credit"
+    },
+    {
+      "as_of": "1944-03-16T24",
+      "readiness_class": "C+",
+      "physical_aircraft_in_ship_or_immediate_qualification_pool_band": [
+        48,
+        62
+      ],
+      "serviceable_band": [
+        40,
+        54
+      ],
+      "mission_ready_local_band": [
+        26,
+        38
+      ],
+      "combat_credit": "limited independent CAP/search/short strike training package; still not a fifth synchronized offensive deck"
+    },
+    {
+      "as_of": "1944-03-20T24",
+      "readiness_class": "C+/B- centered",
+      "physical_aircraft_embarked_or_immediate_ship_pool_band": [
+        62,
+        75
+      ],
+      "serviceable_band": [
+        52,
+        66
+      ],
+      "mission_ready_band": [
+        40,
+        52
+      ],
+      "one_cycle_independent_package_band": [
+        26,
+        36
+      ],
+      "combat_credit": "Emergency fleet accompaniment and local/limited independent combat are plausible. Do not merge into the four-core 150-184 synchronized package."
+    }
+  ],
+  "training_cost_09_20Mar": {
+    "aircraft_irrecoverable_writeoff_band": [
+      2,
+      4
+    ],
+    "fatal_or_permanently_lost_qualified_aircrew_band": [
+      0,
+      2
+    ],
+    "recoverable_damage_band": [
+      4,
+      7
+    ],
+    "accounting_note": "Included in the dated work-up bands."
+  },
+  "next_gates": {
+    "southward_release": "Earliest rational release from home waters centered 1944-03-21..25 after fuel/escort and deck-team check; no need to force a 20-Mar departure.",
+    "B_class_center": "1944-04-05..12 if uninterrupted training continues",
+    "five_carrier_synchronized_strike_gate": "1944-04-10..20 centered; still requires at-sea integration with the four-core, not merely arrival at a southern anchorage",
+    "30Apr_consistency": "Compatible with existing B+ 30-Apr checkpoint; that checkpoint should mean a useful fifth carrier with remaining large-formation integration debt, not an immature hull."
+  },
+  "aircraft_type_guard": [
+    "No A7M combat credit.",
+    "Do not duplicate Kinsei-Zero allocations already booked to the four-core/shore system. Taiho fighter component is a mixed current-production pool unless a later subtype ledger assigns scarce aircraft explicitly.",
+    "601 historical organization may be used as a doctrine/TOE analogue only after subtracting aircraft and personnel already present in Branch carrier ledgers."
+  ],
+  "sources_external": [
+    "https://www.combinedfleet.com/Taiho.htm",
+    "https://www.combinedfleet.com/kojinshavolume6.pdf"
+  ]
+}

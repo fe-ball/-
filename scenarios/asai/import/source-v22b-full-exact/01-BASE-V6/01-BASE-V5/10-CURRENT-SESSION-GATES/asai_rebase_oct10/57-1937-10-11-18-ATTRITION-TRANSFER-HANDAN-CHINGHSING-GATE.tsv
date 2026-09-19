@@ -1,0 +1,10 @@
+date,theater,event,historical_state,asai_ruling,status
+1937-10-11,NorthChina,1st Army reorganization,20th/14th/6th continue advance and reorganize,Same date; slightly lower maintenance debt in exposed Japanese formations,CLOSED-SAME-DATE
+1937-10-12,NorthChina,6th Division assigned to 10th Army,Assignment for later Shanghai transfer,Same assignment date; movement-ready inspection/reconstitution may finish ~6-18h earlier,WORKING-READINESS-DELTA
+1937-10-13,NorthChina,Chinghsing captured by 20th right detachment,Koito Unit reaches Chiukuan and is slowed by stronger enemy,Same date; no operational bypass,CLOSED-SAME
+1937-10-14,NorthChina,Titou battalion encirclement,Japanese battalion suffers heavy casualties and breaks out,Same order of outcome; Asai effect near-zero to minor,CLOSED-SAME-ORDER
+1937-10-17,NorthChina,Handan captured,14th mechanized/rail pursuit takes Handan,Same date; possible hour-scale margin only,CLOSED-SAME-DATE
+1937-10-18,NorthChina,Chang Ho reached,14th reaches river line,Same date,CLOSED-SAME-DATE
+1937-10-18,NorthChina,20th right-flank concentration,6 infantry battalions plus artillery/support mass for western attack,Asai raises ready fraction of exposed artillery/tractor/workshop subset but does not start attack early,CLOSED-DIRECTION
+1937-10-11_to_18,Shanxi,Xinkou fighting,5th Division remains heavily engaged and terrain/fatigue limited,Same; Asai cannot restore formation to A-grade,CLOSED-SAME-OPERATIONAL
+1937-10-11_to_18,Shanghai,Wenzaobin-Dachang front,No decisive Japanese breakthrough; worn Chinese units reinforced/replaced,Same operational line; Japanese equipment/personnel preservation small, CLOSED-SAME-OPERATIONAL

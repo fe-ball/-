@@ -1,0 +1,134 @@
+{
+  "revision": "v0.01",
+  "period": [
+    "1941-12-07",
+    "1941-12-08"
+  ],
+  "rule": "event-level divergence only; no blanket reduction of 46-aircraft concentration loss pool",
+  "historical_events": [
+    {
+      "id": "DEC7-1ST-NAV-MISS",
+      "unit": "1st Air Regiment element",
+      "historical_state": {
+        "mission_miss": 1,
+        "airframe_loss": 0
+      },
+      "cause": "navigation_positioning",
+      "divergence_eligible": true,
+      "scenario_channels": [
+        "crew_experience",
+        "navigation_support",
+        "radio",
+        "range_margin"
+      ],
+      "centerline_quantification": "OPEN",
+      "note": "improvement can recover mission utility/fuel/fatigue; does not create airframe survivor because no historical airframe loss"
+    },
+    {
+      "id": "DEC7-98TH-WX-RETURN",
+      "unit": "98th Air Regiment",
+      "historical_state": {
+        "aircraft": 3,
+        "weather_return": 3,
+        "airframe_loss": 0
+      },
+      "cause": "pure_weather_visibility",
+      "divergence_eligible": false,
+      "scenario_channels": [
+        "abort_decision_only"
+      ],
+      "centerline_quantification": "HISTORICAL",
+      "note": "do not turn weather into improved reach merely from better aircraft"
+    },
+    {
+      "id": "DEC7-64TH-MISSING",
+      "unit": "64th Air element",
+      "historical_state": {
+        "missing_aircraft": 2
+      },
+      "cause": "night_return_positioning_weather_mixed",
+      "divergence_eligible": "PARTIAL",
+      "scenario_channels": [
+        "crew_experience",
+        "navigation_support",
+        "range_margin",
+        "airfield_support"
+      ],
+      "centerline_quantification": "OPEN",
+      "note": "weather itself fixed; only causal share due positioning/range/support may diverge"
+    },
+    {
+      "id": "DEC7-64TH-FORCED-LAND",
+      "unit": "64th Air element",
+      "historical_state": {
+        "forced_landing_aircraft": 1
+      },
+      "cause": "forced_landing_mixed",
+      "divergence_eligible": "PARTIAL",
+      "scenario_channels": [
+        "range_margin",
+        "crew_experience",
+        "airfield_support",
+        "aircraft_landing_characteristics"
+      ],
+      "centerline_quantification": "OPEN"
+    },
+    {
+      "id": "DEC7-1ST-FORCED-LAND",
+      "unit": "1st Air Regiment",
+      "historical_state": {
+        "seriously_damaged_aircraft": 2
+      },
+      "cause": "forced_landing_damage",
+      "divergence_eligible": "PARTIAL",
+      "scenario_channels": [
+        "crew_experience",
+        "airfield_condition",
+        "landing_characteristics",
+        "navigation_support"
+      ],
+      "centerline_quantification": "OPEN"
+    },
+    {
+      "id": "DEC8-3AB-WX-ABORT",
+      "unit": "59/75/90 elements",
+      "historical_state": {
+        "launched": 53,
+        "weather_abort": 53
+      },
+      "cause": "pure_weather_mission_abort",
+      "divergence_eligible": false,
+      "scenario_channels": [],
+      "centerline_quantification": "HISTORICAL"
+    },
+    {
+      "id": "DEC8-MAINFORCE-WX-DARK-LOSS",
+      "unit": "10th Air Brigade/main French Indochina force",
+      "historical_state": {
+        "aircraft_lost": 5
+      },
+      "cause": "darkness_weather_mixed",
+      "divergence_eligible": "PARTIAL",
+      "scenario_channels": [
+        "navigation_support",
+        "crew_experience",
+        "range_margin",
+        "airfield_support"
+      ],
+      "centerline_quantification": "OPEN",
+      "note": "do not remove five losses wholesale; event-by-event/causal-share required"
+    }
+  ],
+  "known_precombat_physical_incident_airframes_dec7": {
+    "missing": 2,
+    "forced_or_seriously_damaged": 3,
+    "total_physical_incident_airframes": 5,
+    "interpretation": "maximum count of specifically recorded Dec-7 physical aircraft incident outcomes exposed to causal re-evaluation; not expected alternate survivors"
+  },
+  "not_counted_as_divergence_inventory": [
+    "46 concentration losses as a whole",
+    "3-aircraft pure-weather return",
+    "53-aircraft Dec8 weather abort"
+  ],
+  "crew_rule": "airframe outcome and crew outcome are separate; no automatic veteran survivor per rescued airframe"
+}

@@ -1,0 +1,101 @@
+{
+  "revision": "v001",
+  "id": "CHONGQING_GOVERNMENT_ECONOMY_FORCE_1944-04-30_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_STRATEGIC_ESTIMATE_LOW_CONFIDENCE_ON_NATIONAL_HEADCOUNT",
+  "as_of": "1944-04-30T24:00:00+09:00",
+  "purpose": "Describe the National Government's branch-specific economic condition and distinguish nominal manpower from effective defensive/offensive military capacity after Five-Go and continuing Hanzhong-Guangyuan pressure.",
+  "economic_state": {
+    "classification": "SEVERE_FISCAL_MONETARY_AND_TRANSPORT_STRESS_BUT_NOT_IMMINENT_STATE_COLLAPSE",
+    "historical_1944_anchor": [
+      "1943 prices more than trebled and note issue more than doubled; early 1944 price acceleration became very sharp",
+      "industrial production was expected to continue falling"
+    ],
+    "branch_structural_worsening_vs_history": [
+      "greater 1937-38 loss of evacuated factories, skilled workers and transport equipment",
+      "Five-Go loss of Tongguan/Xian/Baoji/Hanzhong/Guangyuan-related territory, stocks, tax/transport nodes and forward air geometry",
+      "5-7 effective Chinese division-equivalents remain pinned to north-Sichuan defense/route protection",
+      "persistent air-defense, runway, fuel, truck and repair allocation tax around Chengdu/Sichuan"
+    ],
+    "branch_offsets_against_collapse": [
+      "U-Go is NO-GO, so Assam/Hump LOC avoids the historical Imphal emergency",
+      "US aid and Hump capacity can support selected high-value military recovery even while macro inflation worsens",
+      "Japan does not launch a deep ground drive on Chengdu; the state retains geographic retreat room and core institutions"
+    ],
+    "quantified_branch_pressure_vs_no_pressure_case": {
+      "chongqing_chengdu_urban_industrial_real_output_pct_delta": [
+        -7,
+        -4
+      ],
+      "free_china_aggregate_production_pct_delta": [
+        -3,
+        -1
+      ],
+      "sichuan_urban_food_transport_skilled_labor_cost_additional_pressure_pct": [
+        5,
+        10
+      ],
+      "combined_hanzhong_guangyuan_high_priority_hump_equivalent_tax_t_per_month": [
+        650,
+        1000
+      ],
+      "center_tax_t_per_month": 820,
+      "matterhorn_combat_stockpile_growth_below_no_pressure_potential_pct": [
+        12,
+        18
+      ]
+    },
+    "interpretation": "The branch is likely worse than historical spring 1944 in domestic real-economy/transport resilience, while the external high-value aid channel is somewhat less threatened because U-Go is absent. This combination sustains the state but does not restore broad offensive capacity."
+  },
+  "military_manpower": {
+    "critical_rule": "Do not reduce Chinese national manpower by a single casualty/territory multiplier. The branch damages equipment, cadres, transport, fiscal support and strategic mobility more than the raw pool of recruitable men.",
+    "nominal_national_government_and_associated_provincial_under_arms_working": [
+      2800000,
+      3400000
+    ],
+    "nominal_band_confidence": "LOW; package lacks a closed 1944 Nationalist nationwide OOB and historical Chinese rolls were highly inconsistent",
+    "formed_field_and_rear_force_character": "Hundreds of nominal divisions/brigades remain, many understrength and factionally controlled.",
+    "sustained_defensive_or_better_effective_division_equivalents_working": [
+      45,
+      60
+    ],
+    "sustained_defensive_or_better_personnel_equivalent_working": [
+      330000,
+      450000
+    ],
+    "modernized_or_offensive_capable_division_equivalents_working": [
+      14,
+      22
+    ],
+    "modernized_or_offensive_capable_personnel_equivalent_working": [
+      110000,
+      180000
+    ],
+    "confidence_on_effective_bands": "LOW_MEDIUM; intended for allocation logic, not a literal nationwide muster roll"
+  },
+  "current_fixations_and_free_capacity": {
+    "north_sichuan_pinned_nominal_divisions": [
+      6,
+      9
+    ],
+    "north_sichuan_effective_div_eq": [
+      5,
+      7
+    ],
+    "other_major_claims": [
+      "Yunnan/Burma/Salween and associated US-equipped forces",
+      "Communist containment/internal political security",
+      "eastern/southern war-area local defense",
+      "Sichuan/Matterhorn airfield and LOC defense"
+    ],
+    "hunan_implication": "Chongqing can mass substantial local and reinforcement manpower, but cannot convert all nominal divisions into mobile, supplied, artillery-supported field formations at once. Heavy weapons, transport, communications, pay/food and command cohesion are the limiting currencies."
+  },
+  "historical_sanity_checks": {
+    "1943_allied_estimate": "over 300 Chinese divisions including Communist divisions, with fewer than one-fifth assessed as fairly reliable sustained defensive troops and fewer offensive-capable",
+    "late_1943_nominal_active_army": "320 infantry and 16 cavalry divisions plus 30 independent infantry brigades in an Allied estimate; average division ~7,000, with very uneven quality",
+    "source_urls": [
+      "https://history.state.gov/historicaldocuments/frus1943/d210",
+      "https://history.state.gov/historicaldocuments/frus1943CairoTehran/d231",
+      "https://history.state.gov/historicaldocuments/frus1944v06/d667fn81"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "revision": "v016",
+  "current_restart": "CHECKPOINT_1943-12-31T24_BRANCH_B_v002",
+  "opening_baseline": "WARSTART_1941-12-07_08_v004",
+  "graph": "CHECKPOINT_GRAPH_v015.json",
+  "execution_policy": "Branch B year-end current remains 1944-01-01, now using TECH_INDEX_v009/current_branch_overrides_v010. GALVANIC detailed dependency is reopened from explicit execution-valid CHECKPOINT_1943-11-23T00_BRANCH_B_GALVANIC_REAUDIT_v001; old detailed settlement is comparison evidence until reclosed.",
+  "settlement_chain": [
+    "CHECKPOINT_1942-04-10T24_v001",
+    "CHECKPOINT_1942-05-11T24_v001",
+    "CHECKPOINT_1942-06-02T24_v001",
+    "CHECKPOINT_1942-06-15T24_v002",
+    "CHECKPOINT_1942-09-02T24_v001",
+    "CHECKPOINT_1942-10-24T24_v001",
+    "CHECKPOINT_1942-11-19T24_v001",
+    "CHECKPOINT_1942-12-31T24_v001",
+    "CHECKPOINT_1943-07-31T24_BRANCH_B_v001",
+    "CHECKPOINT_1943-12-31T24_BRANCH_B_v002"
+  ],
+  "next_action": "GALVANIC first firm Japanese external contact is now closed on the centered line for the morning of 1943-11-23. Next resolve the D-1 afternoon/night recontact and pre-D-day land-air/light-surface strike decision; close base attack OOB, named light group, submarine patrol-days, US screen/route geometry and actual sensor fits before weapon release.",
+  "reopened_analysis_checkpoint": "CHECKPOINT_1943-11-23T00_BRANCH_B_GALVANIC_REAUDIT_v001"
+}

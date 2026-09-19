@@ -1,0 +1,13 @@
+rank	layer	path	rule
+1	V19 replay/strategic	87-CURRENT-2026-09-15-CHINA-PEACE-BARBAROSSA-HANDOFF-V19/	Highest for chronology, China peace, 1941 policy state and Barbarossa handoff explicitly closed here
+2	V18 technical/session	86-CURRENT-2026-09-13-WATER-SEAPLANE-SUBMARINE-SEIRAN-V18/	Highest technical authority where V19 is silent
+3	V17 technical/naval	85-CURRENT-2026-09-12-NAVAL-CRP-CONSOLIDATION-V17/	Retained where V18/V19 silent
+4	V16 thread/replay/fuel	84-CURRENT-2026-09-11-THREAD-CONSOLIDATION-V16/	Fuel/technical/thread authority retained; replay clock superseded by V19
+5	V15 visual geometry	83-CURRENT-2026-09-09-AIRCRAFT-VISUAL-GEOMETRY-CLOSE/	Retained where later layers silent
+6	V14 naval/marine/ground	81-CURRENT-2026-09-09-GROUND-VEHICLE-CLOSE/ ; 82-CURRENT-2026-09-09-NAVAL-MARINE-CLOSE/	Retained except explicit later overrides/reopens
+7	V13 rotorcraft	80-CURRENT-2026-09-08-HELICOPTER-CLOSE/	Retained
+8	V12 fixed-wing procurement	79-CURRENT-2026-09-08-FIXED-WING-PROCUREMENT-CLOSE/	Retained
+9	V11 aircraft development	78-CURRENT-2026-09-08-AIRCRAFT-DEVELOPMENT-CLOSE/	Retained
+10	V10 technical/replay	72-77 CURRENT trees	Retained where not overridden; revised Nomonhan V10 remains physical authority
+11	V9 technical control	71-CURRENT-TECHNICAL-CONTROL-V9/	Mandatory fallback control
+100	provenance/quarantine	90-94 provenance trees	Never override current automatically

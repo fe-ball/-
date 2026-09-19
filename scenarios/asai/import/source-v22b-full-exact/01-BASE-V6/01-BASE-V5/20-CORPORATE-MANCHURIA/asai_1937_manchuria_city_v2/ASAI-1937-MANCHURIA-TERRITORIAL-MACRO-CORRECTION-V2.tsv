@@ -1,0 +1,14 @@
+metric	low	central	high	unit	interpretation
+Manchukuo 1937 baseline national income	2703.204	2703.204	2703.204	million yen	Historical official estimate used as denominator
+Manchukuo proper Asai/worldline net uplift	0.20	0.42	0.70	percent	Revised audit band after separating Dairen/Kwantung direct value added
+Manchukuo proper additional national income	5.406	11.353	18.922	million yen	Baseline multiplied by uplift; not a measured historical statistic
+Core mining+industry+transport exposed-sector productivity level uplift	0.9	1.5	2.3	percent	Operational/productivity differential, not citywide or national GDP
+Greater Manchurian computation capacity	25	34	42	FSE	Includes Dairen/Kwantung; central 34
+Manchukuo-proper computation capacity	21	28	35	FSE	Approximate subtraction of Dairen direct deployment
+Greater Manchurian exhaust turbo annual flow	80	100	125	units/year	Installed/replacement/trial flow, not standing fleet
+Manchukuo-proper exhaust turbo annual flow	71	88	110	units/year	Approximate subtraction of Dairen direct deployment
+Greater Manchurian independent GT customer deliveries	5	10	14	cores/year	New WORKING estimate; low confidence relative to turbo/computation
+Manchukuo-proper independent GT customer deliveries	4	8	11	cores/year	Approximate subtraction of Dairen direct deployment
+Five-year-plan exposed investment share	45	52.5	60	percent	Share plausibly touched by scheduling/material/inventory/data improvements
+Five-year-plan efficiency gain on exposed investment	1.5	2.2	3.0	percent	Avoided delay/misallocation/rework; not direct GDP
+Five-year-plan effective-capital saving/acceleration	17.4	30.0	46.4	million yen	Using roughly 2.58 billion yen plan envelope; realization mainly 1938+

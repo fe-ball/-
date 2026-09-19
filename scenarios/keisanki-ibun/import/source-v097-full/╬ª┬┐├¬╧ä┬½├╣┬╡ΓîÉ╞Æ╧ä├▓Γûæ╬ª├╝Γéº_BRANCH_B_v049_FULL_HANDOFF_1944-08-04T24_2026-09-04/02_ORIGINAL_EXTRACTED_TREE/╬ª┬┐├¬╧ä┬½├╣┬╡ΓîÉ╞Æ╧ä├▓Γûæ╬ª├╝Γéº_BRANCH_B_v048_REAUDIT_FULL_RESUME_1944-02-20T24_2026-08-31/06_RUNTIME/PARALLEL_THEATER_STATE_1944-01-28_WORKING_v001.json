@@ -1,0 +1,28 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-01-28_WORKING_v001",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_NOT_CURRENT",
+  "as_of": "1944-01-28",
+  "authority_frontier": "1944-01-01T00:00 unchanged",
+  "theaters": {
+    "Bengal": {
+      "state": "stalemate_hardening",
+      "Japan": "Chittagong repair/fortification, 55 Div regeneration, 54 Div buildup; no Feni main attack",
+      "Allies": "Feni-Comilla rebuild, re-equipment and air concentration; no immediate Chittagong counteroffensive",
+      "air_quality": "first Bengal Kinsei-Zero quality reinforcement working center ~12 delivered, ~10-12 serviceable by late Jan; further reinforcement held pending Central Pacific"
+    },
+    "Indian_Ocean": {
+      "state": "Eastern_Fleet_arrival_and_postarrival_workup",
+      "RN": "QE/Valiant/Illustrious Trincomalee, Renown Colombo, Unicorn Cochin; QE/Valiant cleaning/defect work into ~11 Feb",
+      "Japan": "Oyodo + Teruzuki + Takanami + Makinami + Kiyonami at/near Singapore-Lingga after working westward movement; about seven active/outbound conventional submarines; no second surface release",
+      "decision": "second western reinforcement HOLD because Central Pacific threat is now HIGH"
+    },
+    "Central_Pacific": {
+      "state": "major_US_operation_imminent",
+      "US": "11 fast decks organized into 3 stronger TGs; forward approach/fueling underway",
+      "Japan": "Marshall air serviceable center 136 dispersed; 16 submarine-network assignment center with 12 effective on-station; first-line carriers Shokaku/Zuikaku/Hiryu high readiness, Soryu trials",
+      "warning": "HIGH major operation imminent, MEDIUM-HIGH Marshalls, exact objective unresolved"
+    }
+  },
+  "next_gate": "Advance from 28 Jan to the first firm US fast-carrier/assault-force contact. Resolve whether submarine-cued air search obtains a fresh carrier track before the first US suppression strike; only then open Japanese carrier/light-surface/land-air weapon-release decisions."
+}

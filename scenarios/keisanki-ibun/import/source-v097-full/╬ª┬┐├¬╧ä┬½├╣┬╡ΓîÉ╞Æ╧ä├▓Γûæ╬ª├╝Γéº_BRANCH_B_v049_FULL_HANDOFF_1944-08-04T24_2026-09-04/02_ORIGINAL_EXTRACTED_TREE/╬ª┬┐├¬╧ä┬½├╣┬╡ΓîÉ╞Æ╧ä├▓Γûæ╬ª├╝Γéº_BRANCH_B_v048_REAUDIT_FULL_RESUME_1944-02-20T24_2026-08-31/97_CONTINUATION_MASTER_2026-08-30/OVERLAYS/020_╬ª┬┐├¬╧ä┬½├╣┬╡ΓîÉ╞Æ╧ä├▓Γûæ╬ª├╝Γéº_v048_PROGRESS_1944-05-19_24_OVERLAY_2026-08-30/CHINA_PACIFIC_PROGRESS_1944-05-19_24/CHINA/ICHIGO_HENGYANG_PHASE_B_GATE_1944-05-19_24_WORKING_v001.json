@@ -1,0 +1,35 @@
+{
+  "revision": "v001",
+  "id": "ICHIGO_HENGYANG_PHASE_B_GATE_1944-05-19_24_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_PHASE_RELEASE",
+  "clock_window": "1944-05-19..24",
+  "parents": [
+    "ICHIGO_HUNAN_PHASE_A_CLOSEOUT_1944-05-11_18_WORKING_v001",
+    "CHANGSHA_NODE_TRANSFER_1944-05-19_24_WORKING_v001",
+    "CHINA_14AF_CHANGSHA_INTERDICTION_WITHDRAWAL_1944-05-11_18_WORKING_v001"
+  ],
+  "gate_review": {
+    "Xiang_crossing": "PASS_PARTIAL; ferry/pontoon capacity adequate for staged continuation, not unrestricted mass movement",
+    "Changsha_Xiangtan_feed": "PASS_WITH_FRICTION by 23 May",
+    "air_support": "PASS_TACTICAL; fighter/recon servicing advanced, heavy sustained bomber-basing still limited",
+    "serviceable_motor_vehicles_24May_band": [4400, 5400],
+    "campaign_stock_24May_t_band": [106000, 143000],
+    "immediately_forward_or_rapidly_drawable_t_band": [31000, 45000],
+    "Fourteenth_AF_effect": "Continues to impose bridge/rail repair delays and supply loss, but no multi-day ammunition/POL starvation at the campaign level",
+    "Chinese_force_density": "Hengyang-Leiyang defense remains substantial; no assumption that Changsha withdrawal implies collapse"
+  },
+  "decision": "PHASE_B_GO_PREPARATION_23_MAY; movement/recon concentration begins 24 May; no instant Hengyang assault",
+  "earliest_major_contact_window": "1944-05-25 onward",
+  "why_go": [
+    "Hengyang is a major rail/air/command node whose capture compounds the node-transfer strategy rather than merely extending the map front",
+    "Changsha-Xiangtan has crossed the minimum operational-transfer threshold needed to support another bound",
+    "Japanese field-army cohesion and stocks remain adequate",
+    "Chinese field army is preserved, so delay also allows it to deepen defenses; indefinite consolidation is not cost-free"
+  ],
+  "why_not_immediate_assault": [
+    "Hengyang defense is denser and more prepared than the Changsha rear-guard system",
+    "forward airfield and bridge throughput are still partial",
+    "rear administration/security transfer remains incomplete",
+    "Japanese objective is node capture at acceptable cost, not momentum for its own sake"
+  ]
+}

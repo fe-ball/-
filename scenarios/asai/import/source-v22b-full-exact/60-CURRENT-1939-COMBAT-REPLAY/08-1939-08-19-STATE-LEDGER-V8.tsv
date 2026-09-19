@@ -1,0 +1,19 @@
+key	value	status
+war_clock	1939-08-19 24:00	CURRENT
+First_Tank_Group_role	6th Army mobile reserve;two-depth geometry	CURRENT
+armor_physical	68	CLOSED
+armor_serviceable	66	CLOSED
+armor_HOT_combat_ready	63	CLOSED
+3rd_ready	29 = Type89 18 + ChiHa4 + TeKe2 + Type94tankette5	CLOSED
+4th_ready	34 = HaGo27 + Type89 5 + Type94tankette2	CLOSED
+ChiHa_ready	4/4;200hp continuous/220hp short;57mm historical lineage	CLOSED
+AT37_theater	576 special rounds usable	CLOSED
+AT37_forward	8 guns x24 =192	CLOSED
+AT37_mobile_group	4 guns x36 =144 with outer reserve	CLOSED
+AT37_army_reserve	240	CLOSED
+TANK37	192 =16 selected HaGo x12	CLOSED
+Ki40	2 forward JF special-evaluation reconnaissance;1 rear	CLOSED
+64th_Sentai	historical reinforcement;combat patrol active since Aug17	CLOSED
+7th_Division_relief	battalion-group in transit;0 at front Aug19	CLOSED-working
+Soviet_attack_warning	major offensive likely within24-48h;both flanks at risk;exact H-hour unknown	CLOSED
+spall_liner_forward	0	CLOSED

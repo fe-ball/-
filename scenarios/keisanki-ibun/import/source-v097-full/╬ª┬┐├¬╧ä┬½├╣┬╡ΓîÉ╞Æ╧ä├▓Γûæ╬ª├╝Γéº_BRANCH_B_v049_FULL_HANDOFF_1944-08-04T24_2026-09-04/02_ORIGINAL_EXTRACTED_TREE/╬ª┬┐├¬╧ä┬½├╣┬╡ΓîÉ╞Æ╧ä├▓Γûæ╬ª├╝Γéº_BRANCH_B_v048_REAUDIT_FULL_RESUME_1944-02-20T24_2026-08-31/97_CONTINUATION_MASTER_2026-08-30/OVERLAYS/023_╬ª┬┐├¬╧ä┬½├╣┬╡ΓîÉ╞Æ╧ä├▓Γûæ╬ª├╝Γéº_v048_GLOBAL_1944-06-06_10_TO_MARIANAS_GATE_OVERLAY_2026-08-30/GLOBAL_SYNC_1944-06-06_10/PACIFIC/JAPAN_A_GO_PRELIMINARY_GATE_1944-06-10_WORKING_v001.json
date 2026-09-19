@@ -1,0 +1,25 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_A_GO_PRELIMINARY_GATE_1944-06-10_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_RELEASE_GATE",
+  "as_of": "1944-06-10T24:00:00+09:00",
+  "parents": [
+    "US_TF58_SORTIE_AND_JAPAN_ISR_1944-06-06_10_WORKING_v001",
+    "JAPAN_TAWITAWI_ASW_SUBWAR_1944-06-06_10_WORKING_v001"
+  ],
+  "commander": "Yamamoto Isoroku remains CINC Combined Fleet in this branch.",
+  "decision": "A_GO_PRELIMINARY_DEPLOYMENT_GO; MAIN_FLEET_EASTWARD_SORTIE_HOLD",
+  "reasoning": [
+    "TF58 sortie and Marianas-axis threat are now high-confidence, so passive peacetime posture is no longer rational.",
+    "No confirmed amphibious landing geometry or fresh TG track exists by 10 Jun, so Yamamoto still refuses to expose the five-carrier core merely to meet shaping strikes.",
+    "Preposition fuel, submarine/picket reconnaissance, air-search sectors, dispersal/repair and communications now; release the carrier battle force only after the 11 Jun strike picture or amphibious commitment closes the geometry."
+  ],
+  "fleet_state": {
+    "five_carrier_core": "Shokaku, Zuikaku, Hiryu, Soryu, Taiho retained together in the Sulu/Philippine reaction system; no eastern sortie by 10 Jun.",
+    "secondary_carriers": "Retained as support/reserve and possible second-line battle element; no automatic full merge.",
+    "heavy_surface": "Yamato/Musashi and other heavy units remain available to the main Pacific fleet rather than being detached to a historical Biak-relief mission."
+  },
+  "KON_Biak_branch": "NO_TRIGGER. The historical 10 Jun Operation KON detachment is not inherited because the branch lacks the historical Hollandia/Biak invasion chain that created the relief mission. Therefore the historical Harusame loss during that mission also does not occur in this window.",
+  "logistics": "Oiler staging and replenishment around Guimaras/Tarakan/Davao proceeds as A-GO preparation even without KON; branch Tatekawa damage remains a friction but not a fuel-system collapse.",
+  "next_gate": "11 Jun Marianas carrier strikes: recompute land-air attrition, information quality, Yamamoto release threshold and fleet movement from the actual branch result."
+}

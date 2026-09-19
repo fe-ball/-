@@ -1,0 +1,33 @@
+{
+  "revision": "v001",
+  "id": "YAMAMOTO_A_GO_BATTLE_RELEASE_1944-06-13_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_COMMAND_DECISION",
+  "as_of": "1944-06-13T24:00:00+09:00",
+  "commander": "Yamamoto Isoroku, CINC Combined Fleet",
+  "parents": [
+    "YAMAMOTO_A_GO_RELEASE_GATE_1944-06-12T24_WORKING_v001",
+    "US_SAIPAN_BOMBARDMENT_AND_ASSAULT_PREP_1944-06-13_WORKING_v001",
+    "JAPAN_MARIANAS_AIR_AND_RECON_1944-06-13_WORKING_v001"
+  ],
+  "trigger": {
+    "time_band": "1944-06-13 late morning to early afternoon",
+    "evidence": [
+      "Seven-fast-battleship-scale shore bombardment persists off Saipan.",
+      "Minesweeping and reef/obstacle work are reported.",
+      "Approach-force traffic is consistent with an imminent amphibious landing rather than a hit-and-run carrier raid."
+    ],
+    "assessment": "SAIPAN INVASION CAMPAIGN CONFIRMED; probability of a landing within roughly 24-48 hours is treated as operationally decisive."
+  },
+  "decision": "A-GO BATTLE RELEASE = GO. Complete the protected Guimaras refuel/concentration cycle and sortie east at the earliest tactically coherent time; do not wait for a weapon-quality TF58 carrier fix before moving the fleet into interception geometry.",
+  "reasoning": [
+    "The release condition deliberately required amphibious geometry so the carriers would not be spent chasing raids. That condition is now satisfied.",
+    "The five-carrier core has recovered enough aircrew and deck-cycle competence that additional waiting has lower value than preserving the reaction window to Saipan.",
+    "KON does not exist in this branch, so Yamato/Musashi and their supporting heavy units do not have to be recalled or recombined from Biak-related operations.",
+    "The branch Japanese ISR system provides sufficient strategic warning to move toward the battle area, even though it still cannot continuously track individual US carrier task groups."
+  ],
+  "timing": {
+    "Guimaras_refuel": "Accelerated but orderly through 13 Jun night / 14 Jun morning. The branch does not sacrifice tanker safety or carrier fueling discipline merely to gain a few hours.",
+    "eastward_sortie_gate": "14 Jun morning-to-midday centerline once the core groups have topped off and screen organization is complete.",
+    "effect_vs_history": "Operational release occurs about one day earlier than the historical Mobile Fleet departure from Guimaras, primarily because branch concentration began on 12 Jun and there is no KON recombination requirement."
+  }
+}

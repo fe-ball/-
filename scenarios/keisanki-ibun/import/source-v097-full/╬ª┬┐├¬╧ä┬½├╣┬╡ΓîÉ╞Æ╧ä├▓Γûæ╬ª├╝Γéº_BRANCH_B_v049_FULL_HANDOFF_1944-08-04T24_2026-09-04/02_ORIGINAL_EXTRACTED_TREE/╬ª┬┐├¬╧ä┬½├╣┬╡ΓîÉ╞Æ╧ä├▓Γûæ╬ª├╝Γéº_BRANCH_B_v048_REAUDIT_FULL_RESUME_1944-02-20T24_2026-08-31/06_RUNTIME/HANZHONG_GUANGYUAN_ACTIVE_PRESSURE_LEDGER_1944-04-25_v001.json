@@ -1,0 +1,178 @@
+{
+  "revision": "v001",
+  "id": "HANZHONG_GUANGYUAN_ACTIVE_PRESSURE_LEDGER_1944-04-25_v001",
+  "status": "AUTHORITATIVE_WORKING_LEDGER",
+  "as_of": "1944-04-25T00:00",
+  "clock_advanced": false,
+  "japanese_airfields": {
+    "xian": {
+      "grade": "A",
+      "permanent_aircraft_band": [
+        25,
+        40
+      ],
+      "surge_band": [
+        70,
+        90
+      ]
+    },
+    "baoji": {
+      "grade": "B+",
+      "permanent_aircraft_band": [
+        20,
+        30
+      ],
+      "surge_band": [
+        40,
+        50
+      ]
+    },
+    "hanzhong_nancheng": {
+      "grade": "A-",
+      "permanent_aircraft_band": [
+        45,
+        60
+      ],
+      "surge_48_72h_band": [
+        70,
+        85
+      ],
+      "inbound_t_per_day_normal": [
+        600,
+        750
+      ]
+    },
+    "guangyuan": {
+      "grade": "B",
+      "permanent_aircraft_band": [
+        20,
+        30
+      ],
+      "surge_band": [
+        35,
+        45
+      ],
+      "heavy_repair": "Hanzhong"
+    }
+  },
+  "hanzhong_guangyuan_route_t_per_day": {
+    "normal": [
+      430,
+      520
+    ],
+    "dry_short_surge": [
+      550,
+      600
+    ],
+    "early_monsoon": [
+      300,
+      400
+    ]
+  },
+  "japanese_western_air": {
+    "physical": [
+      90,
+      115
+    ],
+    "mission_ready": [
+      68,
+      86
+    ],
+    "routine_sorties_per_active_day": [
+      35,
+      50
+    ],
+    "one_day_surge_sorties": [
+      60,
+      80
+    ]
+  },
+  "japanese_ground_salient": {
+    "division_equivalent": [
+      2.3,
+      2.8
+    ],
+    "all_arms_personnel": [
+      45000,
+      58000
+    ],
+    "deep_chengdu_advance": "NO_GO"
+  },
+  "chinese_fixation": {
+    "effective_division_equivalent": [
+      5,
+      7
+    ],
+    "nominal_divisions": [
+      6,
+      9
+    ]
+  },
+  "allied_western_air": {
+    "fighters_physical_committed_or_held": [
+      70,
+      95
+    ],
+    "fighters_mission_ready": [
+      50,
+      70
+    ],
+    "replacement_or_allocation_pipeline_fighters": [
+      35,
+      50
+    ],
+    "medium_heavy_recon_task_equivalent": [
+      10,
+      16
+    ]
+  },
+  "eastward_surge_fighters": {
+    "one_day": [
+      25,
+      35
+    ],
+    "three_to_five_days": [
+      15,
+      25
+    ],
+    "over_five_days": "requires accepting materially higher western strike risk"
+  },
+  "additional_hump_high_priority_t_per_month": {
+    "total": [
+      450,
+      700
+    ],
+    "center": 560,
+    "aviation_fuel": [
+      260,
+      420
+    ],
+    "spares_ammo_specialist": [
+      90,
+      150
+    ],
+    "airfield_repair_aa_comms_equivalent": [
+      70,
+      120
+    ]
+  },
+  "matterhorn_stockpile_growth_penalty_vs_no_pressure_percent_center": [
+    10,
+    15
+  ],
+  "ichigo_scale_implication": {
+    "new_hunan_package_working_candidate_divisions": [
+      10,
+      12
+    ],
+    "existing_western_active_division_equivalent": [
+      2,
+      3
+    ],
+    "theater_active_pressure_combined": [
+      12,
+      15
+    ],
+    "not_yet_final": true
+  }
+}

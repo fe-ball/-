@@ -1,0 +1,188 @@
+{
+  "project": "計算機異聞 Branch B",
+  "version": "v060",
+  "block": "WIO-2",
+  "period": {
+    "start": "1942-06-19",
+    "cutoff": "1942-07-08T24:00_local_working_clock"
+  },
+  "policy": {
+    "british_countermeasure_costing": "GROSS_FIRST_NO_AFFORDABILITY_DISCOUNT",
+    "full_cost_not_full_effect": true,
+    "no_same_hull_same_day_double_booking": true,
+    "response_ledger_not_all_baseline_escort": true,
+    "historical_countermeasures_not_double_applied": true,
+    "global_affordability_test": "DEFERRED",
+    "new_caledonia": "FROZEN"
+  },
+  "stage_3A_inherited": {
+    "torpedo_running_fault_reduction_relative": [0.15, 0.25],
+    "torpedo_fuze_fault_reduction_relative": [0.15, 0.25],
+    "attack_fire_control_prep_time_reduction_relative": [0.10, 0.20],
+    "engine_preventable_fault_reduction_relative": [0.20, 0.35],
+    "rule": "apply process improvements to relevant failure gates; never multiply total hit/sinking probability"
+  },
+  "wio2_center_losses": {
+    "ships": [
+      {"date":"1942-06-28","boat":"I-10","target":"Queen Victoria","grt":4937,"ruling":"RETAIN"},
+      {"date":"1942-06-29","boat":"I-20","target":"Goviken","grt":4854,"ruling":"RETAIN"},
+      {"date":"1942-06-30","boat":"I-20","target":"Steaua Romana","grt":5311,"ruling":"RETAIN","note":"first torpedo premature; second sinks; no extra kill, carry inventory/exposure ticket"},
+      {"date":"1942-06-30","boat":"I-10","target":"Express","grt":6736,"ruling":"RETAIN"},
+      {"date":"1942-07-01","boat":"I-18","target":"De Weert","grt":1805,"ruling":"RETAIN","note":"damaged 1 Jul; sank 3 Jul"},
+      {"date":"1942-07-01","boat":"I-16","target":"Eknaren","grt":5243,"ruling":"RETAIN"},
+      {"date":"1942-07-06","boat":"I-18","target":"Mundra","grt":7341,"ruling":"RETAIN"},
+      {"date":"1942-07-06","boat":"I-10","target":"Nymphe","grt":4504,"ruling":"RETAIN"},
+      {"date":"1942-07-08","boat":"I-10","target":"Hartismere","grt":5498,"ruling":"RETAIN"},
+      {"date":"1942-07-08","boat":"I-10","target":"Alchiba","grt":4427,"ruling":"RETAIN","note":"working attack date 8 Jul 1755"}
+    ],
+    "total": {"ships":10,"grt":50656},
+    "branch_center_delta": {"ships":0,"grt":0}
+  },
+  "cumulative_regular_submarine_losses_through_cutoff": {
+    "wio1c_inherited": {"ships":12,"grt":52840},
+    "wio2": {"ships":10,"grt":50656},
+    "total": {"ships":22,"grt":103496},
+    "excludes": ["surface-raider Elysia", "midget-submarine British Loyalty availability event"]
+  },
+  "failed_attack_sensitivity": [
+    {
+      "date":"1942-06-30",
+      "target":"Rookley",
+      "observed":"shelled but not sunk",
+      "center":"SURVIVES",
+      "stage3A_link":"NONE_PROVEN",
+      "note":"deck-gun survival not auto-converted by torpedo reliability uplift"
+    },
+    {
+      "date":"1942-06-30",
+      "target":"Dallington Court",
+      "observed":"torpedo attack failed",
+      "center":"SURVIVES",
+      "stage3A_link":"CANDIDATE_ONLY_FAILURE_CLASS_UNRESOLVED",
+      "grt_reference":6889
+    },
+    {
+      "date":"1942-07-02",
+      "target":"Phemius",
+      "boat":"I-18",
+      "observed":"torpedoes exploded prematurely",
+      "center":"SURVIVES",
+      "stage3A_link":"DIRECT_DEFECT_SENSITIVE",
+      "grt_reference":7406,
+      "conditional_if_exactly_two_independent_defecting_torpedoes": {
+        "formula":"1-(1-r)^2",
+        "r_range":[0.15,0.25],
+        "at_least_one_mechanical_failure_removed_probability_range":[0.2775,0.4375],
+        "warning":"mechanical reset only; not hit or sinking probability; exact salvo count not promoted from inference"
+      }
+    },
+    {
+      "date":"1942-07-06",
+      "target":"Agapenor",
+      "observed":"unsuccessful attack",
+      "center":"SURVIVES",
+      "stage3A_link":"MECHANISM_AND_BOAT_UNRESOLVED"
+    }
+  ],
+  "japanese_carry_tickets": [
+    "STEAUA_ROMANA_FIRST_PREMATURE_POSSIBLE_SAVED_TORPEDO_AND_LOWER_EXPOSURE",
+    "I20_1942-07-05_TYPE95_DISASSEMBLY_AFTER_FREQUENT_PREMATURES_DOCUMENTS_SYSTEMIC_DEFECT",
+    "I18_DE_WEERT_TO_PHEMIUS_TRANSIT_CLOCK_OPEN",
+    "STEAUA_ROMANA_DATE_RECONCILIATION_OPEN_PROVENANCE_ONLY"
+  ],
+  "british_gross_response": {
+    "v059_inherited_headline": {
+      "destroyer_days":42,
+      "cruiser_days":75,
+      "armed_merchant_cruiser_days":26,
+      "corvette_days":6,
+      "branch_carrier_days":7,
+      "Ramillies_dockyard_days":10,
+      "Ramillies_unavailable_days":20,
+      "British_Loyalty_tanker_unavailable_days":20,
+      "British_Loyalty_grt_days":139860
+    },
+    "precutoff_correction_carried_in_v060": {
+      "Mauritius_cruiser_days": {
+        "days":2,
+        "span":"1942-06-17..18",
+        "reason":"v059 stopped at 16 Jun; Mauritius departed again 16 Jun for WS19 and remained assigned"
+      }
+    },
+    "wio2_new_bookings": {
+      "cruiser_days": {
+        "Mauritius": {"days":8,"span":"1942-06-19..26","role":"WS19 high-value escort until relief by Devonshire"},
+        "Devonshire": {"days":6,"span":"1942-06-26..07-01","role":"WS19/Bombay-detached high-value escort chain"},
+        "Dauntless": {"days":20,"span":"1942-06-19..07-08","role":"working gross response-pool allocation; includes Genista/Mayotte assistance and Operation THROAT; in-port/standby days are costed under gross-first policy"},
+        "Birmingham": {"days":8,"span":"1942-07-01..08","role":"Aden to Kilindini response redeployment"},
+        "subtotal":42
+      },
+      "destroyer_days": {
+        "Active": {"days":8,"span":"1942-07-01..08","role":"Operation THROAT / Comoro response working allocation"},
+        "Aden_six_destroyers": {
+          "ships":["HMAS Nizam","HMAS Norman","HMS Inconstant","HMS Hotspur","HMS Griffin","HMS Fortune"],
+          "days_each":8,
+          "total_days":48,
+          "span":"1942-07-01..08",
+          "role":"Aden to Kilindini response redeployment"
+        },
+        "subtotal":56
+      },
+      "air_ASW": {
+        "Catalina_redeployment_commitments_inherited":3,
+        "period_1942-07-02_to_08": {
+          "planned_Mombasa_standby_slot_days":7,
+          "planned_Dar_es_Salaam_creeping_search_slot_days":7,
+          "snapshot_aircraft_available_Mombasa":6,
+          "snapshot_aircraft_available_Dar_es_Salaam":3,
+          "effective_aircraft_days":"OPEN",
+          "constraint":"paucity of air patrols due non-arrival of maintenance stores and marine craft",
+          "rule":"FULL COST != FULL EFFECT"
+        },
+        "post_Mundra_RAF_SAAF_search_sorties":"NONZERO_UNQUANTIFIED_DEBT_TICKET"
+      },
+      "Operation_THROAT_Mayotte": {
+        "captured":"1942-07-02",
+        "cost_rule":"ship-days already included; do not double count",
+        "base_development_debt":["garrison","radio/coastwatch","airstrip/flying-boat operating support","flying-boat mooring","marine craft","survey/echo sounding","shore accommodation/stores"],
+        "effect_rule":"base capture does not itself create submarine detections or kills"
+      },
+      "damage_and_repair_extension": {
+        "Ramillies_additional_dockyard_days":20,
+        "Ramillies_additional_unavailable_days":20,
+        "British_Loyalty_additional_tanker_unavailable_days":20,
+        "British_Loyalty_additional_grt_days":139860
+      }
+    },
+    "headline_known_cumulative_through_cutoff": {
+      "destroyer_days":98,
+      "cruiser_days":119,
+      "armed_merchant_cruiser_days":26,
+      "corvette_days":6,
+      "branch_carrier_days":7,
+      "capital_ship_dockyard_days":30,
+      "capital_ship_unavailable_days":40,
+      "tanker_unavailable_days":40,
+      "tanker_grt_days_unavailable":279720,
+      "Catalina_redeployment_commitments":3,
+      "Catalina_planned_standby_slot_days_2_to_8_Jul":7,
+      "Catalina_planned_search_slot_days_2_to_8_Jul":7,
+      "qualification":"known booked gross minimum; open debts can only increase bill before later affordability/causal normalization"
+    },
+    "open_debts": [
+      "CANTON_RELEASE_CLOCK_POST_1942-06-18",
+      "Mayotte infrastructure/garrison/marine-craft/flying-boat support",
+      "RAF/SAAF post-Mundra ASW sortie count and hours",
+      "Catalina exact effective sorties/hours and maintenance consumption",
+      "salvage/diver/pump/tug effort for Ramillies/British Loyalty",
+      "merchant diversion/waiting/delay and extra sailing days"
+    ]
+  },
+  "closure": {
+    "WIO-2_through_1942-07-08":"CLOSED_CENTER",
+    "center_result":"10 regular-sub sinkings / 50,656 GRT in WIO-2; cumulative 22 / 103,496 GRT through 8 Jul",
+    "sensitivity":"OPEN_TAIL_NOT_CENTER",
+    "british_affordability":"NOT_YET_TESTED",
+    "next_block":"WIO-3_1942-07-09_to_1942-07-21"
+  }
+}

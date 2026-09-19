@@ -1,0 +1,60 @@
+{
+  "id": "BRANCH_B_NC_SURFACE_FLOATPLANE_REAUDIT_v001",
+  "scenario_scope": [
+    "1942-11-08",
+    "1942-11-14"
+  ],
+  "first_night": {
+    "qualitative_change": false,
+    "japanese_optical_convergence_gain_minutes": [
+      1,
+      2
+    ],
+    "additional_medium_caliber_hits_or_near_misses": [
+      1,
+      2
+    ],
+    "capital_ship_damage_states": "unchanged"
+  },
+  "second_night": {
+    "qualitative_change": false,
+    "US_first_fire": "1942-11-09T22:10",
+    "yamato_first_salvo": [
+      "22:15:00",
+      "22:15:30"
+    ],
+    "mutsu_first_salvo": [
+      "22:16:30",
+      "22:17:30"
+    ],
+    "washington_46cm_hit": [
+      "22:21:30",
+      "22:23:00"
+    ],
+    "washington_second_hit_on_mutsu": "retained but lower-margin / slightly later",
+    "damage_states": "unchanged"
+  },
+  "US_NGFS_spotting": {
+    "responsive_observed_quality_delta": [
+      -0.2,
+      -0.1
+    ],
+    "fighter_sorties_diverted_per_day_peak": [
+      6,
+      12
+    ],
+    "additional_japanese_ground_KW_avoided": [
+      70,
+      130
+    ],
+    "tontouta_extra_clock_gain_minutes": [
+      15,
+      25
+    ],
+    "tontouta_fall_date": "1942-11-12",
+    "occupation_center": [
+      "14:55",
+      "15:25"
+    ]
+  }
+}

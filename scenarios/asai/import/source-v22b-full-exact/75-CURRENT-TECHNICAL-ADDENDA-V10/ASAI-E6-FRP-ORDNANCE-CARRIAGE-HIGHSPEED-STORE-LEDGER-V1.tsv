@@ -1,0 +1,21 @@
+item	value	status	authority_note
+FRP_ordnance_scope	plant-FRP for bay doors/cassette fairings/high-speed tail fairings/HSC carrier/D320F; conventional HE bomb body and concentrated-load lugs remain metal	CLOSED	no blanket composite bomb-body substitution
+S6_small_store_cassette	up to 6x Army 50kg-class or 6x Navy 60kg-class, subject to ~0.40t bay limit	CLOSED 1940 SERVICE ARCHITECTURE	plant-FRP/sandwich tray fairing + metal fittings
+S4_medium_store_cassette	up to 4x 100kg-class or HSC-100F stores, subject to ~0.40t bay limit	CLOSED 1940 SERVICE ARCHITECTURE	production-center cassette
+M1_heavy_store_cradle	1x 250kg-class conventional service bomb	CLOSED 1940 SERVICE ARCHITECTURE	separate larger-store separation ladder
+HSR_small_Army	selected 50/100kg-class service bombs	1940-Q1 SERVICE RELEASE PATH	~700-760km/h TAS at ~7-9km target qualification band
+HSR_small_Navy	selected 60kg-class service bombs	1940-Q1 SERVICE RELEASE PATH	~700-760km/h TAS at ~7-9km target qualification band
+HSR_250	selected Army/Navy 250kg-class service bombs	1940-Q1-Q2 SERVICE RELEASE PATH	initial ~650-720km/h TAS at ~6-8km; expansion test-derived
+HSR_FRP_tail_fairing	flax/hemp-epoxy non-load-bearing tail/afterbody fairing where bomb-specific requalification supports it	CLOSED OPTION	local metal fittings remain
+HSC_100F_total_mass	~96-102kg nominal accepted class	CLOSED WORKING	keeps four-position S4 load near ~0.40t limit
+HSC_100F_carrier_overhead	~12-18kg FRP outer carrier + metal spine/fittings	H->A WORKING	weight gain is modest; industrial/shape benefit is primary
+HSC_100F_payload_class	~low/mid-80kg to high-80kg class service payload	H->A WORKING	exact arsenal small-store mix remains service-local
+HSC_larger_1940_standard	NOT STANDARDIZED	CLOSED REJECTION	loses S4/recon commonality and adds separation/adapter program
+RH1	camera + 1x HSC-100F	CLOSED	routine armed reconnaissance option
+RH2	camera + 2x HSC-100F	CLOSED LOAD-SHEET OPTION	shorter radius / deliberate armed reconnaissance
+S_dispersal	up to 4x HSC-100F within ~0.40t bay limit	CLOSED	dedicated area-effect strike
+S_medium	4x100kg-class conventional stores	CLOSED	maximum ordinary ~0.40t conventional internal strike
+S_small_Army	6x50kg-class conventional stores (~0.30t)	CLOSED	broad-area light strike
+S_small_Navy	6x60kg-class conventional stores (~0.36t)	CLOSED	broad-area light strike
+S_heavy	1x250kg-class conventional store	CLOSED	separate lower initial release-speed ladder
+bay_door_material	plant-FRP or plant-FRP/paper-sandwich non-primary panels + metal hinges/hardpoints	CLOSED	inside existing ~3.50t zero-fuel bookkeeping uncertainty

@@ -1,0 +1,323 @@
+{
+  "revision": "v001",
+  "id": "GALVANIC_FIGHTER_MICROCOMBAT_RESULT_1943-11_v001",
+  "status": "AUTHORITATIVE_DIAGNOSTIC_INPUT_TO_GALVANIC_NEGATIVE_DELTA_REAUDIT",
+  "event": "1943-11-26 Branch B GALVANIC carrier battle",
+  "model_scope": "Re-profiled legacy air_microcombat v04 pairwise kernel plus mesoscopic group/mission wrappers. This is a comparative diagnostic, not a full raid-level Monte Carlo.",
+  "profiles": {
+    "late_Zuisei_Zero": {
+      "mass_kg": 2800,
+      "peak_speed_kmh": 564,
+      "climb_6000m_center": "7:25",
+      "note": "current HARD/event center; legacy ROC re-scaled"
+    },
+    "Kinsei_Zero_early_unit": {
+      "mass_kg": 3290,
+      "peak_speed_kmh": 590,
+      "climb_6000m_center": "6:45",
+      "note": "GALVANIC early-unit median; legacy optimistic ROC corrected downward"
+    },
+    "F6F_3_1943": {
+      "mass_kg": 5553,
+      "peak_speed_kmh": 605,
+      "peak_alt_m": 7130,
+      "climb_20000ft_center": "7:00",
+      "armament": "6x .50 cal",
+      "note": "1943 combat profile; F6F-5/WEP is not used as the GALVANIC opponent"
+    }
+  },
+  "pairwise_selected": {
+    "zuisei_late": {
+      "3000": {
+        "jp_minus1000": {
+          "JP_kill": 0.014416666666666666,
+          "US_kill": 0.08241666666666667,
+          "JP_first": 0.17716666666666667,
+          "US_first": 0.8165
+        },
+        "coalt": {
+          "JP_kill": 0.019833333333333335,
+          "US_kill": 0.05566666666666667,
+          "JP_first": 0.39208333333333334,
+          "US_first": 0.59425
+        },
+        "jp_plus1000": {
+          "JP_kill": 0.04666666666666667,
+          "US_kill": 0.04066666666666666,
+          "JP_first": 0.6679166666666667,
+          "US_first": 0.32416666666666666
+        }
+      },
+      "5000": {
+        "jp_minus1000": {
+          "JP_kill": 0.014833333333333334,
+          "US_kill": 0.07191666666666667,
+          "JP_first": 0.18441666666666667,
+          "US_first": 0.80925
+        },
+        "coalt": {
+          "JP_kill": 0.018666666666666668,
+          "US_kill": 0.0645,
+          "JP_first": 0.36866666666666664,
+          "US_first": 0.6173333333333333
+        },
+        "jp_plus1000": {
+          "JP_kill": 0.035583333333333335,
+          "US_kill": 0.058916666666666666,
+          "JP_first": 0.6075,
+          "US_first": 0.384
+        }
+      },
+      "7000": {
+        "jp_minus1000": {
+          "JP_kill": 0.014416666666666666,
+          "US_kill": 0.08183333333333333,
+          "JP_first": 0.15208333333333332,
+          "US_first": 0.8423333333333334
+        },
+        "coalt": {
+          "JP_kill": 0.01575,
+          "US_kill": 0.07483333333333334,
+          "JP_first": 0.27616666666666667,
+          "US_first": 0.7155
+        },
+        "jp_plus1000": {
+          "JP_kill": 0.020583333333333332,
+          "US_kill": 0.08141666666666666,
+          "JP_first": 0.4489166666666667,
+          "US_first": 0.5405833333333333
+        }
+      }
+    },
+    "kinsei": {
+      "3000": {
+        "jp_minus1000": {
+          "JP_kill": 0.017833333333333333,
+          "US_kill": 0.06316666666666666,
+          "JP_first": 0.21533333333333332,
+          "US_first": 0.7791666666666667
+        },
+        "coalt": {
+          "JP_kill": 0.024166666666666666,
+          "US_kill": 0.03983333333333333,
+          "JP_first": 0.449,
+          "US_first": 0.5385833333333333
+        },
+        "jp_plus1000": {
+          "JP_kill": 0.060333333333333336,
+          "US_kill": 0.02,
+          "JP_first": 0.7645,
+          "US_first": 0.2265
+        }
+      },
+      "5000": {
+        "jp_minus1000": {
+          "JP_kill": 0.020666666666666667,
+          "US_kill": 0.057666666666666665,
+          "JP_first": 0.22241666666666668,
+          "US_first": 0.7718333333333334
+        },
+        "coalt": {
+          "JP_kill": 0.02475,
+          "US_kill": 0.043416666666666666,
+          "JP_first": 0.43525,
+          "US_first": 0.5520833333333334
+        },
+        "jp_plus1000": {
+          "JP_kill": 0.05075,
+          "US_kill": 0.030166666666666668,
+          "JP_first": 0.7106666666666667,
+          "US_first": 0.2806666666666667
+        }
+      },
+      "7000": {
+        "jp_minus1000": {
+          "JP_kill": 0.018583333333333334,
+          "US_kill": 0.06533333333333333,
+          "JP_first": 0.18758333333333332,
+          "US_first": 0.8085
+        },
+        "coalt": {
+          "JP_kill": 0.018583333333333334,
+          "US_kill": 0.05266666666666667,
+          "JP_first": 0.34891666666666665,
+          "US_first": 0.6381666666666667
+        },
+        "jp_plus1000": {
+          "JP_kill": 0.02675,
+          "US_kill": 0.050833333333333335,
+          "JP_first": 0.5474166666666667,
+          "US_first": 0.44175
+        }
+      }
+    }
+  },
+  "US_CIC_external_geometry_5km": {
+    "distribution": {
+      "F6F_1000m_above": 0.55,
+      "coalt": 0.35,
+      "Japan_1000m_above": 0.1
+    },
+    "weighted_pairwise": {
+      "zuisei_late": {
+        "JP_kill": 0.018250000000000002,
+        "US_kill": 0.06802083333333334,
+        "JP_first": 0.2912125,
+        "US_first": 0.6995541666666667
+      },
+      "kinsei": {
+        "JP_kill": 0.025104166666666667,
+        "US_kill": 0.04992916666666667,
+        "JP_first": 0.34573333333333334,
+        "US_first": 0.6458041666666667
+      }
+    },
+    "interpretation": "CIC/vectoring is applied as pre-contact geometry. It remains more important than the Kinsei-vs-Zuisei airframe substitution."
+  },
+  "mission_window_6pass": {
+    "first_strike_all_Zuisei": {
+      "trials": 1800,
+      "kinsei": 0,
+      "zuisei": 48,
+      "us_fighters": 60,
+      "passes": 6,
+      "vectoring": "US_CIC_GALVANIC",
+      "JP_fighter_loss_mean": 14.852777777777778,
+      "US_fighter_loss_mean": 4.238888888888889,
+      "JP_diseng_mean": 2.027222222222222,
+      "US_diseng_mean": 32.519444444444446,
+      "mean_US_firstshot_prob": 0.6997913198829081,
+      "mean_JP_firstshot_prob": 0.2909838501742646,
+      "JP_fighters_remaining_mean": 31.12,
+      "US_fighters_remaining_mean": 23.241666666666667,
+      "scenario": "FIRST_STRIKE_ALL_ZUISEI"
+    },
+    "first_strike_actual_13_Kinsei_35_Zuisei": {
+      "trials": 1800,
+      "kinsei": 13,
+      "zuisei": 35,
+      "us_fighters": 60,
+      "passes": 6,
+      "vectoring": "US_CIC_GALVANIC",
+      "JP_fighter_loss_mean": 13.736666666666666,
+      "US_fighter_loss_mean": 4.805555555555555,
+      "JP_diseng_mean": 1.923888888888889,
+      "US_diseng_mean": 31.596666666666668,
+      "mean_US_firstshot_prob": 0.6843252512526977,
+      "mean_JP_firstshot_prob": 0.30664888611320673,
+      "JP_fighters_remaining_mean": 32.339444444444446,
+      "US_fighters_remaining_mean": 23.59777777777778,
+      "scenario": "FIRST_STRIKE_ACTUAL_MIX"
+    },
+    "first_strike_all_Kinsei_counterfactual": {
+      "trials": 1800,
+      "kinsei": 48,
+      "zuisei": 0,
+      "us_fighters": 60,
+      "passes": 6,
+      "vectoring": "US_CIC_GALVANIC",
+      "JP_fighter_loss_mean": 11.157222222222222,
+      "US_fighter_loss_mean": 6.0216666666666665,
+      "JP_diseng_mean": 1.7655555555555555,
+      "US_diseng_mean": 29.718333333333334,
+      "mean_US_firstshot_prob": 0.6462278913765839,
+      "mean_JP_firstshot_prob": 0.34532039753986243,
+      "JP_fighters_remaining_mean": 35.077222222222225,
+      "US_fighters_remaining_mean": 24.26,
+      "scenario": "FIRST_STRIKE_ALL_KINSEI"
+    },
+    "defensive_CAP_all_Zuisei": {
+      "trials": 1800,
+      "kinsei": 0,
+      "zuisei": 52,
+      "us_fighters": 42,
+      "passes": 6,
+      "vectoring": "JP_fleet_CAP_warning",
+      "JP_fighter_loss_mean": 12.198888888888888,
+      "US_fighter_loss_mean": 4.562222222222222,
+      "JP_diseng_mean": 3.938888888888889,
+      "US_diseng_mean": 15.600555555555555,
+      "mean_US_firstshot_prob": 0.6054659749001914,
+      "mean_JP_firstshot_prob": 0.3844825128927642,
+      "JP_fighters_remaining_mean": 35.86222222222222,
+      "US_fighters_remaining_mean": 21.837222222222223,
+      "scenario": "DEF_CAP_ALL_ZUISEI"
+    },
+    "defensive_CAP_actual_7_Kinsei_45_Zuisei": {
+      "trials": 1800,
+      "kinsei": 7,
+      "zuisei": 45,
+      "us_fighters": 42,
+      "passes": 6,
+      "vectoring": "JP_fleet_CAP_warning",
+      "JP_fighter_loss_mean": 11.509444444444444,
+      "US_fighter_loss_mean": 4.756666666666667,
+      "JP_diseng_mean": 3.9505555555555554,
+      "US_diseng_mean": 15.591111111111111,
+      "mean_US_firstshot_prob": 0.5957535191895449,
+      "mean_JP_firstshot_prob": 0.3942974836878516,
+      "JP_fighters_remaining_mean": 36.54,
+      "US_fighters_remaining_mean": 21.65222222222222,
+      "scenario": "DEF_CAP_ACTUAL_MIX"
+    },
+    "defensive_CAP_all_Kinsei_counterfactual": {
+      "trials": 1800,
+      "kinsei": 52,
+      "zuisei": 0,
+      "us_fighters": 42,
+      "passes": 6,
+      "vectoring": "JP_fleet_CAP_warning",
+      "JP_fighter_loss_mean": 8.19,
+      "US_fighter_loss_mean": 6.2411111111111115,
+      "JP_diseng_mean": 4.384444444444444,
+      "US_diseng_mean": 14.396666666666667,
+      "mean_US_firstshot_prob": 0.5362871313040282,
+      "mean_JP_firstshot_prob": 0.454320692059347,
+      "JP_fighters_remaining_mean": 39.425555555555555,
+      "US_fighters_remaining_mean": 21.362222222222222,
+      "scenario": "DEF_CAP_ALL_KINSEI"
+    }
+  },
+  "derived_deltas": {
+    "first_strike_actual_mix_vs_all_Zuisei": {
+      "Japanese_fighter_losses_saved_mean": 1.116,
+      "additional_US_fighter_losses_mean": 0.567,
+      "relative_Japanese_fighter_loss_reduction": 0.0751
+    },
+    "defensive_CAP_actual_mix_vs_all_Zuisei": {
+      "Japanese_fighter_losses_saved_mean": 0.689,
+      "additional_US_fighter_losses_mean": 0.194
+    },
+    "all_Kinsei_counterfactual_note": "Full conversion would materially improve fighter exchange, but is date/production/deck/range constrained and is not available on 1943-11-26."
+  },
+  "crew_sensitivity": "Japanese veteran leader density is represented only by a small positional/kill sensitivity. No ace multiplier is used; effect is small compared with geometry/CIC.",
+  "macro_reinjection": {
+    "centered_route": "UNCHANGED",
+    "Japanese_irrecoverable_aircraft_band": [
+      60,
+      75
+    ],
+    "Japanese_working_center": 67,
+    "US_irrecoverable_aircraft_band": [
+      40,
+      50
+    ],
+    "US_working_center": 44,
+    "attack_aircraft_release_effect": "Not directly estimated by the fighter kernel. Bounding sensitivity is 0-2 additional Japanese attack aircraft reaching effective release relative to all-Zuisei assumption; insufficient to cross centered ship-damage thresholds.",
+    "hit_state_thresholds": "Lexington mission-kill, Yorktown temporary damage, Cowpens no major damage, Soryu mission-kill, Shokaku/Zuikaku/Hiryu operational all remain centered after threshold recheck."
+  },
+  "limitations": [
+    "Pairwise v04 kernel is a legacy diagnostic engine, not a validated historical kill-probability model.",
+    "Group wrappers preserve relative differences and geometry effects but do not reproduce full formation cohesion, radio net behavior, fuel state, AA, weather or complete raid routing.",
+    "CIC is deliberately externalized as initial geometry; it is not folded into F6F aircraft performance.",
+    "Macro aircraft-loss centers are adjudication centers inside the existing broad bands, not exact outputs of the micro kernel."
+  ],
+  "reproducibility": {
+    "tool_dir": "98_TOOLS/GALVANIC_AIR_MICRO_v001",
+    "profiles": "profiles_v04_GALVANIC_1943-11.json",
+    "pairwise": "pairwise_geometry_matrix.json",
+    "group": "group_4v4_8v8.json",
+    "crew": "crew_sensitivity.json",
+    "mission": "mission_sensitivity_v002.json"
+  }
+}

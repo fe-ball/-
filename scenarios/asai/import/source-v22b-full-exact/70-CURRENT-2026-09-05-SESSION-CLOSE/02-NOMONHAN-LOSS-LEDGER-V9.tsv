@@ -1,0 +1,29 @@
+side	formation_or_category	metric	center	range_low	range_high	status	note
+JAPAN	ALL	combat_human_loss	10600	9900	11700	WORKING_CLOSED	KIA/MIA/WIA combat loss band
+JAPAN	ALL	disease_noncombat_loss	1800	1700	2000	WORKING_CLOSED	separate from combat loss
+JAPAN	ALL	total_human_loss	12400	11600	13600	WORKING_CLOSED	campaign total
+JAPAN	ALL	KIA_MIA_capture	3800	3500	4300	WORKING	center family; exact split not yet unit-accounted
+JAPAN	23DIV	combat_loss	6250	5900	6600	WORKING_CLOSED	plus ~1100 disease/noncombat
+JAPAN	23DIV	total_loss	7350	7000	7800	WORKING_CLOSED	badly damaged, skeleton preserved
+JAPAN	64IR	combat_loss	1500	1400	1600	WORKING	~50-55% class
+JAPAN	71IR	combat_loss	1850	1700	2000	WORKING	~60-70% class; worst regiment remains
+JAPAN	72IR	combat_loss	1350	1250	1450	WORKING	~45-50% class
+JAPAN	13FA	combat_loss	600	520	680	WORKING	organization survives
+JAPAN	2_28IR	combat_loss	485	450	520	WORKING	882-man historical starting reference; organization survives
+JAPAN	1_27_REINF_BG	combat_loss	200	180	220	WORKING	still combat capable
+JAPAN	FIRST_TANK_GROUP	personnel_loss	445	430	460	WORKING	crew/maintenance skeleton largely preserved
+JAPAN	FIRST_TANK_GROUP	irreversible_AFV_loss	38	36	40	WORKING_CLOSED	campaign tank/tankette irreversible center
+JAPAN	FIRST_TANK_GROUP	physical_survivor_recoverable	50	48	50	WORKING_CLOSED	late-Aug physical pool
+JAPAN	FIRST_TANK_GROUP	late_Aug_ready	36	35	37	WORKING_CLOSED	post-repair, no renewed major battle
+JAPAN	CHI_HA	late_Aug_ready	3	3	3	CLOSED	5-class available during campaign; one lost July, one Aug22
+JAPAN	ARTILLERY	irreversible_gun_loss	42	38	46	WORKING_CLOSED	vs historical ~72-class
+JAPAN	AIR	irreversible_all_cause_aircraft	140	135	145	WORKING	combat-only/all-cause must remain separate in future ledger
+JAPAN	HUMAN_CAPITAL	retained_officer_NCO_specialist_delta	1225	950	1500	PROVISIONAL	DO NOT COMPOUND until planned end-1941 audit
+USSR	ALL	combat_human_loss	21850	20800	22900	WORKING_CLOSED	KIA/MIA/WIA
+USSR	ALL	total_human_loss	22500	21400	23650	WORKING_CLOSED	incl disease/noncombat ~650 center
+USSR	ALL	KIA_MIA	9050	8700	9600	WORKING	
+USSR	ALL	WIA	12800	11800	13500	WORKING	
+USSR	AFV	tank_destroyed_crippled_major_repair	222	215	230	WORKING_CLOSED	historical comparison definitions vary
+USSR	AFV	armored_car_loss	120	115	125	WORKING	
+USSR	AIR	irreversible_all_cause_aircraft	225	220	230	WORKING	
+MONGOLIA	ALL	total_human_loss	495	450	520	WORKING	

@@ -1,0 +1,59 @@
+{
+  "revision": "v001",
+  "id": "CHECKPOINT_1943-07-31T24_BRANCH_B_v001",
+  "checkpoint_id": "CHECKPOINT_1943-07-31T24_BRANCH_B_v001",
+  "as_of": "1943-08-01T00:00:00",
+  "status": "CURRENT_AUTHORITATIVE_BRANCH_B_RESTART",
+  "type": "ROLLBACK_FRONTIER_CHECKPOINT",
+  "parent": "CHECKPOINT_1942-12-31T24_v001",
+  "technical_baseline": "TECH_INDEX_v008",
+  "current_branch_overrides": "00_CONFIG/current_branch_overrides_v008.json",
+  "rollback_guard": "06_RUNTIME/BRANCH_B_ROLLBACK_GUARD_1943-08-01_v001.json",
+  "state_sources": [
+    "06_RUNTIME/ALEUTIANS_ATTU_KISKA_REAUDIT_1943-03_07_SETTLEMENT_v001.md",
+    "06_RUNTIME/EFATE_LIMITED_NEUTRALIZATION_1943-06_SETTLEMENT_v001.md",
+    "06_RUNTIME/BRANCH_B_SUMMER_STATE_1943-07-31_v001.md"
+  ],
+  "territory": {
+    "Midway": "Japanese-held",
+    "Port_Moresby": "Japanese-held",
+    "Lunga_Tulagi": "Japanese-held",
+    "Espiritu_Santo": "Japanese-held",
+    "New_Caledonia": "Japanese military control under Vichy nominal sovereignty",
+    "Efate": "US-held",
+    "Hanzhong": "Japanese-held after Five-Go Phase II; Sichuan Phase III HOLD",
+    "Kiska": "evacuated by Japan late July; no Japanese garrison remains"
+  },
+  "carrier_ledger": {
+    "Japan": {
+      "lost": [
+        "Akagi",
+        "Kaga"
+      ],
+      "first_line_core_alive": [
+        "Shokaku",
+        "Zuikaku",
+        "Hiryu",
+        "Soryu"
+      ]
+    },
+    "United_States": {
+      "branch_losses": [
+        "Lexington",
+        "Yorktown",
+        "Enterprise",
+        "Hornet",
+        "Saratoga"
+      ],
+      "survivor": "Wasp survives",
+      "new_build_forecast": "Essex/Independence/F6F strength expected to rise in late summer/autumn; exact operational pool after 1 Aug is open"
+    },
+    "Britain": {
+      "branch_losses": [
+        "Indomitable",
+        "Formidable"
+      ]
+    }
+  },
+  "future_boundary": "No realized history after 1943-07-31. GALVANIC is forecast only; Indian Ocean/Arakan landing is not an active current program."
+}

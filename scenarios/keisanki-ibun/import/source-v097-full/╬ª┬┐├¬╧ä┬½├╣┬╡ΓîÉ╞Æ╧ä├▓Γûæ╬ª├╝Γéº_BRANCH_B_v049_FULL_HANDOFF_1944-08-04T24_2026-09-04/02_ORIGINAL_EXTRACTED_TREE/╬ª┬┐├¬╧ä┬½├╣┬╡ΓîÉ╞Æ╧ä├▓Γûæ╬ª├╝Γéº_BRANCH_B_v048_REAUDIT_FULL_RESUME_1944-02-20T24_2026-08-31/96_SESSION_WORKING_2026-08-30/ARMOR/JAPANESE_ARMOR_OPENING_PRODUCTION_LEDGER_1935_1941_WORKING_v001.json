@@ -1,0 +1,174 @@
+{
+  "revision": "v001",
+  "id": "JAPANESE_ARMOR_OPENING_PRODUCTION_LEDGER_1935_1941_WORKING_v001",
+  "status": "WORKING_SOURCE_RECONCILED_NOT_CURRENT",
+  "cutoff": "1941-12-07",
+  "accounting_policy": {
+    "historical_annual_scaffold": "Zaloga 2007 family-by-family calendar-year table is used as the common cross-type accounting scaffold because it is internally consistent across AFV families.",
+    "source_conflict_policy": "Do not average incompatible series. Sagami/postwar figures are retained as an alternative acceptance/fiscal/repair series until original tables are transcribed.",
+    "monthly_values": "RECONSTRUCTED MODEL CURVE, NOT ARCHIVAL MONTHLY PRODUCTION. Annual totals are hard anchors; monthly allocation is only a working ramp for event timing.",
+    "branch_extra_hulls": "ZERO released at opening pending factory/engine/armor-plate audit. The Branch 1941 steel delta (+1.5 to +3%) is not converted automatically into tank hulls.",
+    "retrofit_counting": "Shinhoto retrofit of existing Type97 hulls changes model mix but does not add a new hull to national physical inventory."
+  },
+  "historical_anchor": {
+    "prewar_and_1941": {
+      "Type95_HaGo": {
+        "1936": 31,
+        "1937": 80,
+        "1938": 53,
+        "1939": 115,
+        "1940": 422,
+        "1941": 705,
+        "series_note": "Zaloga scaffold; total through 1941 = 1,406 in this series."
+      },
+      "Type97_ChiHa_57mm": {
+        "1938": 110,
+        "1939": 202,
+        "1940": 315,
+        "1941": 507,
+        "series_note": "Zaloga scaffold; 1942 has a final 28 before new-turret production dominates."
+      },
+      "all_AFV_1941_Zaloga_scaffold": 1397
+    },
+    "Type97_source_conflict": {
+      "Zaloga_calendar_series_1941_Type97_57mm": 507,
+      "postwar_US_report_all_Type97_series_1941": 687,
+      "Sagami_acceptance_series_1941_all_Type97": 448,
+      "interpretation": "These likely mix calendar/fiscal year, new production, acceptance, repair/conversion and incomplete factory coverage. They are not directly interchangeable."
+    },
+    "Shinhoto_1941": {
+      "trial_line": "47mm turret/gun trials were already active in 1940-41.",
+      "historical_conversion_order": 68,
+      "historical_conversion_start": "1941-10",
+      "historical_deployment_at_1941_12_opening": "0 centered; historical secondary synthesis says not deployed at expansion of war.",
+      "historical_first_combat": "Philippines 1942 replacement/temporary company; two vehicles at Corregidor are a hard later anchor."
+    },
+    "HoNiI": {
+      "program_start": "1941-06",
+      "historical_series_production": "1942, 26 total"
+    }
+  },
+  "branch_1935_1940": {
+    "1935_1938": "No quantity inflation. Improvement enters prototype comparison, tolerance, reliability, acceptance and repairability.",
+    "1939_Nomonhan": "Strategic result unchanged. Mechanized-force value is remembered more positively because recoverability/dispatchability are better; 47mm and armored-formation pressure remains at least historical.",
+    "1940": "Use historical family quantities until factory audit. Branch changes quality/acceptance and slightly accelerates 47mm turret integration, not mass hull output."
+  },
+  "branch_1941_new_production": {
+    "policy": "Use historical scaffold quantities as provisional physical new-build totals. Any extra new hulls require a later factory-resource ledger.",
+    "Type95_HaGo_new": 705,
+    "Type97_ChiHa_57mm_new": 507,
+    "Type98_KeNi_new": 1,
+    "Type97_TeKe_new": 3,
+    "other_AFV": 181,
+    "total": 1397,
+    "monthly_reconstructed_curve_Jan_to_Dec": {
+      "Type95_HaGo_new": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        60,
+        61,
+        62,
+        62,
+        61
+      ],
+      "Type97_ChiHa_57mm_new": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        42,
+        43,
+        43,
+        44,
+        45,
+        45,
+        45
+      ]
+    }
+  },
+  "branch_1941_Shinhoto_retrofit": {
+    "causal_change": "Branch test closure, tolerance control and acceptance shorten the already-historical 68-hull retrofit program. No new concept is invented.",
+    "authorization_working": "1941-08 or early 1941-09 equivalent; production preparation begins immediately after final practical trials.",
+    "mechanical_completion_reconstruction": {
+      "Sep": 10,
+      "Oct": 18,
+      "Nov": 22,
+      "Dec": 18,
+      "year_end_total": 68
+    },
+    "as_of_1941_12_07": {
+      "mechanically_complete_band": [
+        50,
+        56
+      ],
+      "accepted_serviceable_band": [
+        40,
+        49
+      ],
+      "center_accepted_serviceable": 45,
+      "Southern_Army_embarked_combat_deployed": {
+        "center": 0,
+        "band": [
+          0,
+          4
+        ],
+        "reason": "Southern invasion tank OOB and shipping plans were already fixed; 7th Tank Regiment in Luzon used Type89/Type95 and 4th was a light regiment. No evidence supports magically replacing their embarked tanks at the last minute."
+      },
+      "home_Kwantung_school_depot_pool": {
+        "center": 45,
+        "interpretation": "Accepted vehicles remain mainly in Japan/training/depot/anti-Soviet allocation until a dated issue/shipping decision is paid."
+      }
+    },
+    "year_end": {
+      "mechanically_complete": 68,
+      "accepted_serviceable_band": [
+        58,
+        66
+      ],
+      "next_batch": "A second retrofit/new-build transition batch may begin in early 1942, but is not yet booked."
+    }
+  },
+  "branch_1941_other_development": {
+    "Type1_ChiHe": {
+      "state": "development only; zero combat vehicles",
+      "branch_effect": "design/engine/welding process work may be cleaner, but successful ChiHa/Shinhoto reduces the need for a crash production switch."
+    },
+    "Type1_HoNiI": {
+      "state": "prototype/pre-series only",
+      "physical_prototype_band": [
+        1,
+        2
+      ],
+      "combat_unit_issued": 0,
+      "reason": "historical program starts June 1941; Branch may close evaluation somewhat faster, but no evidence supports opening-war operational deployment."
+    },
+    "Type98_KeNi": {
+      "state": "1 historical new-build scaffold vehicle only; no priority surge",
+      "reason": "Ha-Go was already considered adequate historically; a more reliable Branch Ha-Go makes a production switch no more urgent."
+    },
+    "Type1_47mm_AT": {
+      "state": "accepted/development-production transition",
+      "quantity": "OPEN; total-war production ~2,300 is known, but annual 1941-42 split is not yet securely sourced.",
+      "guard": "Do not steal an undefined number of guns from Shinhoto turrets or vice versa until Osaka Arsenal gun-production ledger is reconstructed."
+    }
+  },
+  "opening_effect": {
+    "immediate_1941_12_campaign_change": "Small. Shinhoto exists physically/accepted at home but is not centered in the embarked Southern Army tank OOB on 7 Dec.",
+    "first_retroactive_combat_gate": "Replacement shipments to Philippines/Malaya/Burma after opening; the historical Corregidor Shinhoto arrival is a later anchor that may be accelerated/enlarged.",
+    "major_future_effect": "1942 production mix and tank-regiment re-equipment, not Pearl Harbor-week order of battle."
+  },
+  "unresolved_required_next": [
+    "Transcribe or otherwise reconstruct the Sagami/JACAR 1941-45 factory-by-factory table, especially Type97 categories and repairs.",
+    "Reconstruct Osaka Arsenal Type1 47mm gun/tank-gun production and turret output.",
+    "Close 1942 monthly Type97 57mm -> Shinhoto new-build/retrofit transition.",
+    "Close 1942 Type95 output and whether successful Branch Ha-Go delays Ke-Ni further.",
+    "Close Ho-Ni I 1942 monthly production and allocation.",
+    "After 1942 production is fixed, re-run Philippines/Malaya/Burma only where vehicle mix actually changes."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "CLOSED_FOR_D4_INPUT",
+  "model": "DISTRIBUTED_ISR_RECOVERY_CONCENTRATED_HEAVY_LOGISTICS",
+  "nodes": {
+    "Rabaul": "regional heavy logistics / repair / fuel / air-seaplane hub",
+    "Kavieng": "regional support hub; lighter than Rabaul",
+    "Port Moresby": "Branch-held land-air ISR/staging hub; not a substitute for Rabaul heavy naval logistics",
+    "Lae-Salamaua": "regional air/ISR node",
+    "Shortland-Faisi": "usable forward seaplane/anchorage node",
+    "Rekata Bay": "usable forward seaplane node",
+    "Tulagi-Gavutu": "usable but limited forward seaplane/anchorage node",
+    "Buka Passage": "construction/anchorage node; not a mature fighter base",
+    "Kieta": "light anchorage/construction/relay; immature",
+    "Gizo": "temporary anchorage/recon relay",
+    "Lunga": "airfield under construction; ISR/liaison/emergency utility only at cut date, not a mature combat airbase"
+  },
+  "suppression_tax": [
+    "reconnaissance sorties",
+    "strike sorties",
+    "CAP/escort sorties",
+    "ASW effort",
+    "route deviation",
+    "surface-ship days"
+  ]
+}

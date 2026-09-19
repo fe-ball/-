@@ -1,0 +1,83 @@
+{
+  "revision": "v001",
+  "id": "CHECKPOINT_1942-12-31T24_v001",
+  "checkpoint_id": "CHECKPOINT_1942-12-31T24_v001",
+  "as_of": "1943-01-01T00:00:00",
+  "status": "authoritative",
+  "type": "YEAR_END_1942_STRATEGIC_RESTART_CHECKPOINT",
+  "parent": "CHECKPOINT_1942-11-19T24_v001",
+  "parent_checkpoint": "CHECKPOINT_1942-11-19T24_v001",
+  "technical_baseline": "TECH_INDEX_v004",
+  "prewar_baseline": "PREWAR_INDEX_v004",
+  "current_branch_overrides": "00_CONFIG/current_branch_overrides_v001.json",
+  "state_sources": [
+    "06_RUNTIME/1942H2_STRATEGIC_SETTLEMENT_v001.md",
+    "06_RUNTIME/ALLIED_LOGISTICS_FLEET_AXIS_EFFECTS_1942H2_v001.md",
+    "06_RUNTIME/CHINA_FIVEGO_POLITICAL_IMPLEMENTATION_1942Q4_v001.md",
+    "06_RUNTIME/NEW_CALEDONIA_1942-10_SETTLEMENT_v001.md"
+  ],
+  "territory": {
+    "Midway": "Japanese-held lean forward base",
+    "Port_Moresby": "Japanese-held",
+    "Lunga_Tulagi": "Japanese-held",
+    "Espiritu_Santo": "Japanese-held",
+    "New_Caledonia": "Japanese military control of main south/central military corridor; Vichy nominal sovereignty; peripheral residuals not a main field army"
+  },
+  "japan_naval_posture": {
+    "main": "defend/train/build; no Fiji/Samoa continuation",
+    "carrier_force": "Akagi/Kaga lost; Shokaku/Zuikaku/Hiryu/Soryu restored as four-fleet-carrier core by autumn, with training/reorganization ongoing after operations",
+    "indian_ocean": "submarine/cruiser pressure only; do not strip Pacific surface reserve",
+    "shipbuilding": "Taiho and Unryu/Amagi/Katsuragi continue; no Shinano emergency carrier conversion; tanker/kaibokan/repair capacity increased"
+  },
+  "base_sustainment": {
+    "forward_delivered_cargo_center": "75000-95000 t/month normal; Nov recovery 90000-120000 t/month",
+    "cargo_ship_equivalent": "25-35 ships continuously committed plus tankers/escorts",
+    "new_caledonia_return_cargo": "2000-4000 t/month Nov-Dec; planned 5000-8000 Q1 1943 and 7000-10000 spring-summer; nickel/chromite etc."
+  },
+  "five_go": {
+    "status": "formally approved in principle for spring 1943; Phase III Sichuan entry conditional",
+    "force": "north 10 divisions + Yichang 6 divisions; central reserve ~1 division",
+    "direct_related_personnel": "290000-310000 center",
+    "air": "300-320 held; 260-285 initial ready",
+    "vehicles": "4700-5200",
+    "engineer_rail_signal": "18000-22000",
+    "special_accumulation": "500000-550000 t",
+    "start_window": "1943-03-15 to 1943-04-10, center late March",
+    "final_gate": "mid-February 1943 logistics/enemy/South Pacific review",
+    "shipping_policy": "use 8-11万 GRT assault shipping released from limited FS; reject new permanent 30万 GRT civil requisition; allow temporary 3-5万 GRT Jan-Feb peak borrowing"
+  },
+  "allied_state": {
+    "United_States": "logistically able to build Hawaii/Samoa/Fiji/NZ/Australia; still weak in carrier-backed offensive amphibious conversion. Wasp survives and is repairing/returning; Essex commissioned 1942-12-31 but not yet front-line. Surface fleet is stronger than historical because Guadalcanal surface attrition did not occur.",
+    "Britain": "Indomitable/Formidable lost; Hermes survives; Indian Ocean escort and modern-carrier reserve constrained. Victorious US loan tends to be delayed 2-3 months because historical Formidable backfill is unavailable.",
+    "Europe_Africa": "El Alamein, TORCH, Stalingrad broad outcomes not reversed by Indian Ocean interference; effect is lower RN/merchant reserve elasticity and small-to-medium Axis strategic relief."
+  },
+  "shipping_scope_caveat": "No authoritative fixed end-1942 total Japanese merchant GRT yet. Mixed-scope 6.30-6.38m GRT conversational estimate remains quarantined. Use ship-days, delivered cargo, released assault shipping and fixed-category ledgers until a single 500GRT+ (or other chosen) universe is rebuilt.",
+  "next_actions": [
+    "Run Jan-Feb 1943 Five-Go preparation and mid-Feb final gate.",
+    "Check Wasp/Victorious/Essex/CVL clocks and any major Allied strategic operation before advancing.",
+    "Update NC mineral return-cargo and forward-base sustainment monthly.",
+    "Keep Fiji/Samoa closed unless a new national decision reopens FS."
+  ],
+  "technical_entries": [
+    "TECH-AIR-NAV-REPORT-I-O-001",
+    "TECH-SEARCH-MULTILAYER-001",
+    "TECH-AIR-MEDIAN-RELIABILITY-001",
+    "TECH-AIR-GUN-FIGHTER-001",
+    "TECH-AIR-BOMB-LEVEL-POINT-001",
+    "TECH-AIR-BOMB-LEVEL-AREA-001",
+    "TECH-AIR-DIVE-FIXED-001",
+    "TECH-RADAR-1942-HUMANLOOP-001",
+    "TECH-LANDING-PACKAGE-001",
+    "TECH-AMPHIBIOUS-FIRSTDAY-001",
+    "TECH-ASW-CONTACT-HANDOFF-001",
+    "TECH-ASW-FOCUSED-CONVOY-1942-001",
+    "TECH-LOG-ASSET-UPTIME-ACCOUNTING-001",
+    "TECH-LOG-STANDARD-SHIP-I-001",
+    "TECH-INDUSTRIAL-STEEL-ADAPTATION-1940-42-001",
+    "TECH-GUNFIRE-SURFACE-1942-001",
+    "TECH-TORPEDO-SURFACE-ACCURACY-001",
+    "TECH-SURFACE-SPEED-ROBUSTNESS-001"
+  ],
+  "execution_valid": true,
+  "current_restart": true
+}

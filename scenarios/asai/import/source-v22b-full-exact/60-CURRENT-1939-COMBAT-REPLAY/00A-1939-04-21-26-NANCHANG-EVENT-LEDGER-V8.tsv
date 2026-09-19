@@ -1,0 +1,10 @@
+date	event	historical_anchor	worldline_ruling	status
+1939-04-20 PM-night	Chinese counteroffensive preparations approach H-hour	Historical attack opens 21 Apr	E4 repeat-photo/change detection yields 8-18 h operational warning; exact H-hour/axes only partial	CLOSED-WORLDLINE-DELTA
+1939-04-20 night	Japanese local alert/preparation	Historical surprise remains substantial	Full local alert; artillery preregistration; ammo/medical/recovery staging; dawn air tasks prepared; no strategic redeployment	CLOSED-WORLDLINE-DELTA
+1939-04-21	Chinese multi-axis counteroffensive begins	Historical attack from north/west/south	Same date; local tactical surprise survives; warned sectors suffer 10-20% smaller first-day penetration	CLOSED-SAME-DATE / DELTA
+1939-04-22	Chinese advance continues	Historical sustained advance	Same operational direction; Japanese reporting/fallback and fire response cleaner; attack not stopped	CLOSED-SAME-OUTCOME
+1939-04-23	Battle broadens around approaches	Historical multi-axis pressure	Warning advantage largely spent; execution/serviceability/target-folder advantages remain; Chinese night/dispersed movement adapts	CLOSED-SAME-OUTCOME
+1939-04-24	Southern spearhead continues toward Nanchang	Historical south thrust remains dangerous	Worldline tempo ~8-15% slower on main successful axis; local sectors up to ~20% behind	CLOSED-SMALL-TEMPO-DELTA
+1939-04-25	Pressure reaches near-Nanchang defensive belt	Historical five-day advance approaches city	Narrower frontage; no cut of Japanese supply connection; local reserves better ordered	CLOSED-SMALL-POSITIONAL-DELTA
+1939-04-26	Chinese leading elements reach outer Nanchang approaches	Historical southern spearhead reaches outer area after ~5 days	Still reaches outer approaches; ~6-12 h later center and on narrower frontage; garrison not isolated	CLOSED-SAME-MILESTONE / HOURS-LATE
+1939-04-26 24:00	Opening phase closes	Japanese counterattack historically begins 27 Apr	Japanese counterstroke preparation materially better, but Apr27 result not pre-awarded	CLOSED-CHECKPOINT

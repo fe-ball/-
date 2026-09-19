@@ -1,0 +1,60 @@
+{
+  "title": "Branch B Santo 1942-09-25 D-Day Daylight Adjudication v005",
+  "status": "WORKING CENTER ADJUDICATION",
+  "window_local": "1942-09-25T04:30/18:30",
+  "inherits": [
+    "SANTO_1942-09_AIR_TECH_INPUT_v001",
+    "BRANCH_B_SANTO_1942-09-24_NIGHT_ACTION_READJUDICATION_v004"
+  ],
+  "dawn": {
+    "us": {
+      "santo_fighters": [22,26],
+      "santo_sbd": [12,15],
+      "santo_tbf": [3,4],
+      "efate_fighters": [12,16],
+      "efate_sbd": [8,11],
+      "efate_tbf": [2,3],
+      "b17_total": [6,8],
+      "santo_sortie_generation_pct": [65,75]
+    },
+    "japan": {
+      "zuikaku_ready": [50,55],
+      "ryujo_ready": [23,27],
+      "lunga_zero_timed": [18,22],
+      "lunga_g4m_timed": [12,15],
+      "shokaku_flight_deck": "unavailable"
+    }
+  },
+  "landing": {
+    "main_sector": "Turtle Bay/eastern Santo approaches",
+    "secondary_sector": "Pallikulo/Surundu approaches",
+    "campaign_assault_personnel": [20000,23000],
+    "ashore_0800": [5500,6500],
+    "ashore_1200": [9000,10500],
+    "ashore_1830": [13500,15500],
+    "guns_ashore_1830": [22,30]
+  },
+  "air_losses_dday": {
+    "japan_destroyed": [12,17],
+    "us_destroyed": [15,21]
+  },
+  "shipping": {
+    "transport_sunk_or_abandoned": 1,
+    "transport_medium_damage": 1,
+    "transport_light_damage": 1,
+    "landing_craft_lost": [8,14],
+    "landing_craft_damaged": [15,25],
+    "oiler_center_loss": 0
+  },
+  "ground_casualties_dday": {
+    "japan": [650,900],
+    "us": [450,700]
+  },
+  "dusk_control": {
+    "japan": ["two sustainable beachheads", "parts of coastal road network"],
+    "us": ["Luganville-Segond Channel", "reduced Santo air-base system"],
+    "turtle_bay": "under direct operational threat, not center-booked captured",
+    "pallikulo": "contested/reduced operational state"
+  },
+  "night_open": true
+}

@@ -1,0 +1,19 @@
+line_item	low_million_yen	central_million_yen	high_million_yen	status	notes
+Special steels / HSS / carbide / finished cutting tools	7.5	9.0	10.5	WORKING-AUDIT	Largest cash-generating line; do not infer blanket national monopoly.
+Machine tools / jigs / gauges / general precision machinery	3.0	3.7	4.5	WORKING-AUDIT	Includes gauges/fixtures/general machinery; dedicated high-precision gear-machine external sales remain limited in 1937.
+Exhaust turbochargers / diesel auxiliaries / spares-service	2.5	3.1	3.8	RESOLUTION-CANDIDATE	Consistent with ~1,135 end-user absorption and ~1,300 factory completions; implied realized revenue roughly ¥2.2k-3.3k per absorbed unit including spares/service mix.
+Independent GT / power sets	2.2	2.65	3.2	RESOLUTION-CANDIDATE	~88 delivered cores central; weighted current/series price roughly ¥25k-35k per delivered package/core depending configuration.
+Computation machines / leases / bureau / maintenance	1.0	1.25	1.5	WORKING-AUDIT	~125 FSE Japan+Manchuria; mixes leases, sales/refurbishment and bureau/maintenance revenue.
+Industrial turbomachinery / pumps / blowers / process machinery	1.8	2.3	2.9	WORKING-AUDIT	Separate from E4/E5 core count; low-volume high-value industrial orders.
+Legacy textile / general machinery	1.0	1.2	1.5	WORKING-AUDIT	Ancestor business does not vanish abruptly by 1937.
+Resins / composites / specialty supplies	0.6	0.8	1.0	WORKING-AUDIT	Small but profitable enabling line; not a macro pillar.
+Engineering / prototype contracts / licenses / technical services	1.0	1.3	1.6	WORKING-AUDIT	Military and industrial engineering, prototype, service and know-how receipts.
+TOTAL REVENUE	20.6	25.3	30.5	WORKING-AUDIT	Recommended 1937 company sales band.
+Gross profit	5.0	6.45	8.24	DERIVED	Approx. 24-27% gross margin; proprietary tools/services offset heavy manufacturing.
+R&D expense	1.4	1.7	2.0	DERIVED	Central ~6.7% of sales; E-series, materials, computation and test infrastructure.
+SG&A / sales / administration	1.2	1.45	1.75	DERIVED	Includes domestic selling, administration and routine field service overhead.
+Expansion / branch start-up / noncapitalized project cost	0.4	0.55	0.7	DERIVED	1936-38 turbine/dispersal and Manchuria expansion burden.
+Operating profit (EBIT)	2.0	2.75	3.79	DERIVED	Central operating margin ~10.9%.
+Interest expense	0.2	0.35	0.5	DERIVED	Moderate bank borrowing despite self-capital preference.
+Tax / profit charges / other net	0.5	0.55	0.7	DERIVED	Model bucket; not a reconstructed statutory tax return.
+Net profit	1.3	1.85	2.59	DERIVED	Central net margin ~7.3%; close to plausible high-quality Aichi machinery-company performance.

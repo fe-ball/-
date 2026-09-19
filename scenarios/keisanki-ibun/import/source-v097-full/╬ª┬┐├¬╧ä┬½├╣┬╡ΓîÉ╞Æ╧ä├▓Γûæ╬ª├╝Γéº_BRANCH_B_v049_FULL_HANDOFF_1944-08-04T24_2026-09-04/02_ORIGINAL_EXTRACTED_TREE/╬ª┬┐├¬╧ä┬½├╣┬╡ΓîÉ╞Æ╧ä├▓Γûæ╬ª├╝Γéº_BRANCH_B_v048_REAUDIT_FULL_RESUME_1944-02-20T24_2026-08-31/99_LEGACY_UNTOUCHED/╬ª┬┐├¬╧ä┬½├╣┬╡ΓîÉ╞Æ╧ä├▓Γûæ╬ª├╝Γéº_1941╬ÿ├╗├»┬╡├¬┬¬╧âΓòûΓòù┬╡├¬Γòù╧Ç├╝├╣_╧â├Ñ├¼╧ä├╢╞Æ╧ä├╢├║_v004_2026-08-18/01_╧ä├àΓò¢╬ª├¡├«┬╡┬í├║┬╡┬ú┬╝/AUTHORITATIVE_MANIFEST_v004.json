@@ -1,0 +1,20 @@
+{
+  "revision": "v0.04",
+  "role": "authoritative manifest after Pearl causal rerun and replacement pipeline expansion",
+  "priority": [
+    "AUTHORITATIVE_MANIFEST_v004.json",
+    "LOSS_REPLACEMENT_PIPELINE_RULES_v001.json",
+    "pearl_state_transition_v003.json",
+    "PEARL_1941-12-07_RUN_v001.md",
+    "opening_state_1941-12-07_v006.json",
+    "switch_registry_v010.json",
+    "MASTER_SWITCH_AUDIT_v010.md"
+  ],
+  "superseded_for_execution": [
+    "pearl_state_transition_v002.json",
+    "PEARL_STATE_TRANSITION_v002.md",
+    "pearl_state_transition_v001.json",
+    "PEARL_STATE_TRANSITION_v001.md"
+  ],
+  "rule_change": "UNKNOWN is no longer automatically historical-locked when a scenario-responsive causal mechanism exists"
+}

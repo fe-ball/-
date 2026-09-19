@@ -1,0 +1,10 @@
+topic	highest_current_pointer	reason
+restart	10-CURRENT-1938-1939/00-1939-09-01-RESTART-BASELINE-V6.md	Current clock and cross-domain restart state
+aviation method	20-AVIATION-CURRENT-REBASELINE/ASAI-AVIATION-DECISION-INTENT-GUARD-V1.md	Mandatory causal fields and anti-historical-year guard
+aviation causal line	20-AVIATION-CURRENT-REBASELINE/ASAI-AVIATION-INTENT-LINEAGE-PRODUCTIZATION-REBASELINE-1931-1939-V1.md	Fuel→landing→STOL; materials; productization; aft-fan timing
+military twin lineage	20-AVIATION-CURRENT-REBASELINE/ASAI-1931-1939-TWIN-AIRCRAFT-CANON-REBASELINE-V1.md	Versions, capability allocation, military decisions
+Sep 1939 Asai aviation roster	20-AVIATION-CURRENT-REBASELINE/ASAI-1939-09-01-ASAI-AVIATION-CURRENT-ROSTER-V3.md	Current aircraft/product/research classification
+general Japanese aviation	20-AVIATION-CURRENT-REBASELINE/ASAI-1939-09-01-AVIATION-SYSTEM-AUDIT-V1.md	Non-Asai aircraft audit; subordinate on Asai twin chronology
+turbine facilities	10-CURRENT-1938-1939/30-INDUSTRY-WEAPONS/ASAI-1936-1941-TURBINE-FACILITY-EXPANSION-REBASELINE-V1.md	Overlapping factory-wave construction
+weapons	10-CURRENT-1938-1939/30-INDUSTRY-WEAPONS/ASAI-1939-09-01-WEAPON-SYSTEM-AUDIT-V1.md	1939-09 weapons system audit
+Nomonhan final	10-CURRENT-1938-1939/20-NOMONHAN-1939/ASAI-1939-08-31-NOMONHAN-GATE93-94-ENCIRCLEMENT-BREAKOUT-V1.md	Final encirclement/breakout closure

@@ -1,0 +1,21 @@
+{
+  "id": "GALVANIC_MAKIN_TARAWA_CLOSEOUT_STATE_v001",
+  "status": "WORKING_CLOSEOUT_GATE",
+  "Makin_ground_reopen": false,
+  "Tarawa_ground_reopen": false,
+  "Tarawa_radar_rule": "warning/dispersion/C2 contributor only; no duplicate flat combat multiplier",
+  "Tarawa_evacuated_aircraft_rule": "already embedded in regional pre-Pass-B wallet; trace survivors, do not duplicate",
+  "US_postcapture_airfield_working_clock": {
+    "Tarawa_first_fighter_use": "1943-11-30..1943-12-01 centered",
+    "Tarawa_heavy_bomber_staging": "1943-12-19..1943-12-22 working",
+    "Makin": "exact operational date reopened only with Dec-Jan Seventh Air Force construction ledger"
+  },
+  "intelligence_rule": "US learns observable physical/tactical lessons; Japan-wide hidden parameters remain unknown",
+  "downstream_open": [
+    "Marshall/Gilbert Dec-Jan air-base calendar",
+    "Japanese regional air OOB post-GALVANIC",
+    "US replenishment/congestion wallet",
+    "US FLINTLOCK lessons propagation",
+    "Japanese Marshall rear-node fortification/sensor/C2 redistribution"
+  ]
+}

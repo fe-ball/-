@@ -1,0 +1,14 @@
+{
+  "id": "FLINTLOCK_ROI_NAMUR_1944-02-08_SECURE_v001",
+  "status": "WORKING_SECTOR_ADJUDICATION_NOT_CANONICAL",
+  "sector": "Roi-Namur",
+  "period": "1944-02-07T24 through 1944-02-08T12 Marshall local",
+  "result": {
+    "night": "Only small isolated groups remain. They conduct sniping, short-range ambushes and concealment rather than a renewed coordinated counterattack.",
+    "secure_window": "08:30-11:00 on 8-Feb, centered about 09:45, after repeated sweeps confirm that no mutually supporting defense cluster remains.",
+    "US_additional_casualties_band": [15, 30],
+    "Japan_irrecoverable_or_captured_band": [110, 170],
+    "residual": "Several dozen concealed individuals may remain after the formal secure declaration, but they are no longer an organized combat system."
+  },
+  "support_release": "From late morning, selected observation aircraft, direct-fire missions, engineer equipment and destroyer support can be reassigned or replenished. Transit, ammunition state and ASW tasks prevent instantaneous transfer to Kwajalein."
+}

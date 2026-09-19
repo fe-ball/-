@@ -1,0 +1,80 @@
+{
+  "revision": "v001",
+  "package_revision": "v032",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "purpose": "Machine-readable separation of authoritative execution state from the latest unpromoted discussion/research frontier.",
+  "authority_frontier": {
+    "time": "1944-01-01T00:00",
+    "checkpoint": "05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v004.json",
+    "state": "06_RUNTIME/CURRENT_BRANCH_STATE_v012.json",
+    "overrides": "00_CONFIG/current_branch_overrides_v012.json",
+    "changed_by_v032": false,
+    "GALVANIC": "CLOSED_AND_PROPAGATED"
+  },
+  "discussion_frontier": {
+    "status": "WORKING_NOT_PROMOTED",
+    "last_closed_nodes": [
+      "GALVANIC negative-delta closeout and propagation",
+      "Jan-1944 Japanese fleet-DD / light-cruiser / submarine wallet reconciliation",
+      "First Indian-Ocean mobile-group candidate selection",
+      "Truk-origin / Palau-Balikpapan/Tarakan-Singapore/Lingga route audit",
+      "Historical Eastern Fleet heavy-group passage chronology dated through Ceylon arrival and post-arrival cleaning gate",
+      "Andaman-Arakan observation-network accounting normalized to bounded functional nodes; false single physical-station count rejected"
+    ],
+    "working_not_promoted": [
+      "06_RUNTIME/JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v004.json",
+      "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v005.json",
+      "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v001.json",
+      "06_RUNTIME/ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+      "95_AUDIT/JAPAN_INDIAN_OCEAN_ORIGIN_ROUTE_AUDIT_1944-01_WORKING_v001.md",
+      "95_AUDIT/FRONTIER_AND_EASTERN_FLEET_DATA_AUDIT_2026-08-29_v001.md"
+    ],
+    "unresolved_nodes": [
+      "Whether/when the 1944-01-11 German aircraft sighting is delivered to Japanese operational intelligence",
+      "Actual GO/withhold decision for the first Truk mobile group and I-27/I-37 activation at that evidence gate",
+      "Explicit Central-Pacific screen/escort opportunity-cost debit at any actual western release",
+      "RN inference of Japanese redeployment from British SIGINT/recon/submarine observation",
+      "Any actual Ceylon eastbound RN sortie/readiness divergence after arrival",
+      "First weapon-quality contact geometry, weather, contact age and recontact"
+    ],
+    "next_exact_action": "Resolve Axis-to-Japan delivery of the 11 Jan German visual report. If timely and credible, apply the v005 release rule and issue/withhold actual movement orders; otherwise continue to Port Said/Suez/Aden evidence gates."
+  },
+  "mandatory_load_order": [
+    "00_README/CURRENT_DISCUSSION_FRONTIER_v001.json",
+    "06_RUNTIME/CURRENT_BRANCH_STATE_v012.json",
+    "05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v004.json",
+    "00_CONFIG/current_branch_overrides_v012.json",
+    "06_RUNTIME/JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v004.json",
+    "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v005.json",
+    "95_AUDIT/JAPAN_INDIAN_OCEAN_ORIGIN_ROUTE_AUDIT_1944-01_WORKING_v001.md",
+    "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v001.json",
+    "06_RUNTIME/ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+    "06_RUNTIME/SESSION_2026-08-29_INDIAN_OCEAN_WALLET_WORKING_HANDOFF_v001.md",
+    "06_RUNTIME/EASTERN_FLEET_1944Q1_POTENTIAL_GATE_v001.md"
+  ],
+  "guardrails": [
+    "No 1944 Japanese movement order is CURRENT or realized in v032.",
+    "Jan 11-12 GO is a conditional decision point, not an inherited event.",
+    "Historical Eastern Fleet chronology is evidence, not Branch realization.",
+    "Ceylon arrival does not equal immediate combat-ready eastbound sortie.",
+    "Do not invent exact Jan radar-station counts; use the bounded functional-node network until dated hardware evidence is available.",
+    "Passive ESM/DF/radar cueing never grants an automatic weapon-quality firing solution."
+  ],
+  "working_supersession": [
+    {
+      "older": "06_RUNTIME/JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v003.json",
+      "newer": "06_RUNTIME/JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v004.json",
+      "scope": "working discussion only"
+    },
+    {
+      "older": "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v004.json",
+      "newer": "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v005.json",
+      "scope": "working discussion only"
+    },
+    {
+      "older": "95_AUDIT/current_version_families_v019.json",
+      "newer": "95_AUDIT/current_version_families_v020.json",
+      "scope": "package/navigation registry"
+    }
+  ]
+}

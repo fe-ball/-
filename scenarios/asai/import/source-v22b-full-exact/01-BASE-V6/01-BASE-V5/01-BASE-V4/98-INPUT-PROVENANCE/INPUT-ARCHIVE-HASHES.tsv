@@ -1,0 +1,3 @@
+input_archive	size_bytes	sha256	role
+asai-worldline-handoff-20260829-full-v3.zip	7555637	0588d6057de97c5a5778fb43531c6713efaf7a4776dd0d38632c38c7d7d0130f	prior self-contained FULL source layer; quarantined inside V4
+ASAI-BRANCH-RECONSTRUCTION-2026-08-30-V1.zip	244454	5c108e8c65968772b9619066304248ddf9d99b4675981b4e11eb3d9328c59a5d	current reconstruction input; promoted to current layer with packaging/audit fixes

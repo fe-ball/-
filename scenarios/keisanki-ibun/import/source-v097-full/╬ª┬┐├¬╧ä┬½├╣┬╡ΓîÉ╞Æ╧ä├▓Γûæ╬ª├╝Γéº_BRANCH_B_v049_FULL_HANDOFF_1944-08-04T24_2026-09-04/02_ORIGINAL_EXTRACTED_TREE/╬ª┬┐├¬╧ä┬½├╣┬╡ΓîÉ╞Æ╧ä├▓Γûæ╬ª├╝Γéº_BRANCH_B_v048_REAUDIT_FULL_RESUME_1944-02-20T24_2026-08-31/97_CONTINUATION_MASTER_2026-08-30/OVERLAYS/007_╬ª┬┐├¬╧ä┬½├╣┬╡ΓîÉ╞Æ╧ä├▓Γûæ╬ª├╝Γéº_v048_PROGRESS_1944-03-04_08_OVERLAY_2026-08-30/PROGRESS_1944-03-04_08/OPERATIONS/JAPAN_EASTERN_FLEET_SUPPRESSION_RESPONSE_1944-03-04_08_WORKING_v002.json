@@ -1,0 +1,49 @@
+{
+  "revision": "v002",
+  "id": "JAPAN_EASTERN_FLEET_SUPPRESSION_RESPONSE_1944-03-04_08_WORKING_v002",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-03-04..08",
+  "global_frontier_after_merge": "1944-03-08T24",
+  "parents": [
+    "JAPAN_EASTERN_FLEET_SUPPRESSION_RETRO_PLANNING_1944-01-28_03-03_WORKING_v002",
+    "JAPAN_BAY_ENTRY_ESCALATION_GATE_REBASELINE_1944-03-08_WORKING_v001"
+  ],
+  "purpose": "Apply the retroactive Eastern-Fleet suppression concept to the first day of INITIAL using actual March reconnaissance, submarine and air-force slack.",
+  "Japanese_information_before_sortie": {
+    "strategic": "HIGH confidence that a reinforced Eastern Fleet with Illustrious and heavy ships is based at Ceylon.",
+    "operational": "LOW-MEDIUM. The failed/low-yield 7-Feb reconnaissance and subsequent loss of western long-range bomber/fighter depth prevent a continuously fresh Trincomalee port plot.",
+    "sortie_probability": "MODERATE in staff terms after the fleet reappears from SLEUTH and continues training, but no exact 8-Mar departure time is known."
+  },
+  "08Mar_detection_geometry": {
+    "RN_noon_position": "08-50N 81-47E",
+    "approx_distance_to_Port_Blair_nm": 670,
+    "approx_distance_to_Sabang_nm": 825,
+    "observation_effect": "Outside routine visual/radar coverage and awkward for the now-short-ranged western IJN strike/search residue. Long-range IJA reconnaissance could physically reach parts of the corridor but lacks a fresh cue and is not credited an automatic broad-ocean find.",
+    "radio": "RN W/T silence after 1630 removes the easiest same-day cue."
+  },
+  "decision_gates": {
+    "motive": "HIGHER_THAN_FEBRUARY if a real east/northeast RN movement is confirmed, because Chittagong/Andaman positions and coastal shipping could be threatened.",
+    "capability": "PARTIAL. Submarines and IJA reconnaissance remain useful; IJN 705 long-range G4M capability has been transferred into K706 eastward and 331 fighter element is leaving.",
+    "slack": "LOW_FOR_MAJOR_AIR_STRIKE / MODERATE_FOR_ISR_AND_SUBS.",
+    "information_quality": "FAIL_FOR_ATTACK at 8-Mar T24: no fresh track.",
+    "opportunity_cost": "HIGH for re-importing K706/S603 or releasing mobile-fleet heavy cruisers."
+  },
+  "08Mar_actions": [
+    "Raise Ceylon/Bay surveillance priority one step, but do not invent a departure sighting.",
+    "Keep Port Blair/Akyab/Patenga reconnaissance assets available for westward sectors if a cue appears on 9 Mar.",
+    "Treat RO-111 outbound patrol and I-166 patrol as useful Bay pressure/intelligence assets, but do not teleport either onto INITIAL.",
+    "Oyodo group remains contact-exploitation reserve; no sortie without maintained track.",
+    "No Trincomalee air raid, no 705 B5N deep-Bay strike, no Suzuya/Kumano release, no carrier/battlefleet reaction."
+  ],
+  "result_08MarT24": {
+    "INITIAL_detected_by_Japan": "NO_CENTERED",
+    "Japanese_track_quality": "NONE_TO_GENERAL_SORTIE_SUSPICION_ONLY",
+    "air_strike_release": "NO",
+    "surface_intercept_release": "NO",
+    "submarine_attack_on_INITIAL": "NO"
+  },
+  "next_trigger": "On 9-12 Mar, rerun detection as the RN force moves north toward 13-15N and later deliberately breaks W/T silence to advertise Bay presence. A cue can then create an actual Japanese reconnaissance response without retroactively granting 8-Mar contact.",
+  "sources_external": [
+    "https://www.naval-history.net/xDKWD-EF1943Dec-Apr1944.htm"
+  ]
+}

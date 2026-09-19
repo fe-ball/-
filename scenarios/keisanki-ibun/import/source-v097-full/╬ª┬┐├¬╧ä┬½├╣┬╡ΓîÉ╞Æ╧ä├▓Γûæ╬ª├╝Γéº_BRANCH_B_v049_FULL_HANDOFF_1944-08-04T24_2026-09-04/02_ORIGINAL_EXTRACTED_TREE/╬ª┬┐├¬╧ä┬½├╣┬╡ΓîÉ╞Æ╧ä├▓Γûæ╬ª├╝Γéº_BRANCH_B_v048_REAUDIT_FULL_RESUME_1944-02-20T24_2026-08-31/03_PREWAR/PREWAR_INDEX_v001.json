@@ -1,0 +1,21 @@
+{
+  "revision": "v001",
+  "status": "scaffold_with_authoritative_pointers",
+  "cutoff": "1941-12-07/08 opening boundary",
+  "purpose": "Separate technically possible changes from those actually realized before the US war.",
+  "required_clocks": [
+    "technical",
+    "requirement",
+    "adoption",
+    "production",
+    "training",
+    "unit_median"
+  ],
+  "primary_sources": [
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/84_歴史考察_1937-1942_前史・中国・ノモンハン・南方.md",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/60_開戦戦力・輸送・空母・揚陸・砲計算.md",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/70_暗号・通信情報_設計防御・攻撃・運用.md",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/47_航空機技術監査_1938-44_史実技術採用・時系列・再計算ゲート.md"
+  ],
+  "rule": "TECH entry may exist before WARSTART without being fully fielded; WARSTART records actual opening state only."
+}

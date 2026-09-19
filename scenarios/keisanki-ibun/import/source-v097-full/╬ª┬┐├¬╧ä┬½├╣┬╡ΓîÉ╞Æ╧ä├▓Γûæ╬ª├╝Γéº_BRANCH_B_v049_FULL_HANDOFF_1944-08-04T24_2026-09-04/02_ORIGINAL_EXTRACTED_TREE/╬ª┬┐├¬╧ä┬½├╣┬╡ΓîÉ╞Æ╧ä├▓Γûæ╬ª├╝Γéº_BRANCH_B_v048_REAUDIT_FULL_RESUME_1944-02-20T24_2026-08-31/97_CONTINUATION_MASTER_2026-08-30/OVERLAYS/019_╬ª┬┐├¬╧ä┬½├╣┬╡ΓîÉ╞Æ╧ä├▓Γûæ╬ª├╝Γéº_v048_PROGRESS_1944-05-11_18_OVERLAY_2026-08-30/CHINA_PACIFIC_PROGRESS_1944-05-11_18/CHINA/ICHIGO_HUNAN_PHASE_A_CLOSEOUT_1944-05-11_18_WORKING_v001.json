@@ -1,0 +1,119 @@
+{
+  "revision": "v001",
+  "id": "ICHIGO_HUNAN_PHASE_A_CLOSEOUT_1944-05-11_18_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_LOCAL_COMBAT_ADJUDICATION_SYNCHRONIZED_TO_GLOBAL_1944-05-18",
+  "clock_window": "1944-05-11T00:00..1944-05-18T24:00+09:00",
+  "global_frontier_after_merge": "1944-05-18T24:00:00+09:00",
+  "parents": [
+    "ICHIGO_HUNAN_PHASE_A_1944-05-01_10_WORKING_v001",
+    "CHINA_IX_WAR_AREA_FORCE_PRESERVATION_1944-05-01_10_WORKING_v001",
+    "CHINA_14AF_HUNAN_INTERDICTION_1944-05-01_10_WORKING_v001",
+    "FIVE_GO_GROUND_EXCHANGE_HARDWARE_REAUDIT_1943_WORKING_v001"
+  ],
+  "historical_sanity_anchor": {
+    "baseline": "Historical 11th Army fought through Liuyang/Ningxiang and isolated Changsha before taking the city on 18 June. Branch Phase A began 29 days earlier, Japanese logistics/engineer process is better, and Chinese command is more explicitly preserving field armies; therefore the operational sequence is retained but local battles are adjudicated from branch state rather than date-shift copying.",
+    "sources": [
+      "https://www.ibiblio.org/hyperwar/Japan/Monos/pdfs/JM-72/JM-72.PDF",
+      "https://pwencycl.kgbudge.com/C/h/Changsha.htm"
+    ]
+  },
+  "daily_phase_outline": [
+    {
+      "date": "1944-05-11..12",
+      "result": "Japanese eastern and western wings tighten pressure on Liuyang and Ningxiang approach systems. Chinese IX War Area continues demolition/rearguard fighting while shifting artillery, signals and service elements south of Changsha."
+    },
+    {
+      "date": "1944-05-13..15",
+      "result": "Liuyang defensive system is turned and collapses in stages; Japanese control is established by 15 May working center. Main Chinese formations disengage rather than accept encirclement. Liling/Chuzhou-axis pressure grows, reducing viable reinforcement routes into Changsha."
+    },
+    {
+      "date": "1944-05-16..17",
+      "result": "Ningxiang is taken/neutralized by 17 May working center; Xiangtan also falls or becomes operationally unusable to the Chinese on 17 May after planned evacuation/demolition. Changsha becomes operationally isolated, but the IX War Area heavy-command core is already southward."
+    },
+    {
+      "date": "1944-05-17..18",
+      "result": "Japanese 58th-Division-centered assault and flanking pressure enters Changsha after short concentrated preparation. Chinese local garrison conducts demolition and limited urban denial, then withdraws across/away from the Xiang where routes remain open. Changsha passes to Japanese operational control late 18 May working center; Yuelu/river crossings are not left intact."
+    }
+  ],
+  "position_state_18May": {
+    "Changsha": "JAPANESE_OPERATIONAL_CONTROL_AFTER_CONTROLLED_CHINESE_WITHDRAWAL_AND_DEMOLITION",
+    "Xiangtan": "JAPANESE_OPERATIONAL_CONTROL_OR_DENIED_TO_CHINA; rail/airfield facilities damaged and require repair",
+    "Liuyang": "JAPANESE_OPERATIONAL_CONTROL",
+    "Ningxiang": "JAPANESE_OPERATIONAL_CONTROL",
+    "Liling_Chuzhou_approaches": "JAPANESE_PRESSURE/SCREENING; exact local mop-up continues",
+    "Hengyang": "CHINESE_HELD; PHASE_B_NOT_RELEASED",
+    "Chinese_IX_War_Area_main_body": "MATERIALLY_PRESERVED_SOUTH_OF_CHANGSHA",
+    "Japanese_phase_A": "OBJECTIVE_CHANGSHA_COMPLETE; CONSOLIDATION_GATE_OPEN"
+  },
+  "ground_losses_11_18May": {
+    "Japan": {
+      "KIA": [
+        750,
+        1100
+      ],
+      "WIA": [
+        2300,
+        3400
+      ],
+      "illness_straggle_temporary": [
+        1000,
+        1700
+      ]
+    },
+    "China": {
+      "KIA": [
+        1800,
+        2800
+      ],
+      "WIA": [
+        3600,
+        5200
+      ],
+      "POW_MIA_dropout": [
+        3000,
+        4500
+      ]
+    },
+    "interpretation": "Japanese artillery/engineer/communications advantages and multi-axis geometry keep the exchange favorable, but Chinese pre-authorized force preservation prevents a large Changsha pocket. Urban loss is politically damaging without destroying IX War Area."
+  },
+  "cumulative_ground_losses_28Apr_18May": {
+    "Japan_combat_KIA_WIA": [
+      9600,
+      13750
+    ],
+    "China_KIA_WIA_POW_MIA_dropout": [
+      25800,
+      37700
+    ],
+    "guard": "Arithmetic envelope across prior working adjudications and this window; not a national casualty census."
+  },
+  "logistics_18May": {
+    "remaining_campaign_stock_wuhan_yueyang_changsha_system_t": [
+      118000,
+      157000
+    ],
+    "immediately_forward_or_rapidly_drawable_t": [
+      34000,
+      49000
+    ],
+    "serviceable_motor_vehicles_band": [
+      4600,
+      5700
+    ],
+    "engineer_state": "Still coherent, but bridge/rail/airfield reconstruction now competes with continued southward movement. Xiang crossings and Changsha-Xiangtan facilities are damaged by demolition.",
+    "captured_stock_credit": "LOW. Chinese forces evacuate/destroy high-value ammunition, fuel, communications and aircraft-support stores; do not refill Japanese campaign stocks with fantasy capture tonnage."
+  },
+  "phase_B_release_gate_18May": {
+    "decision": "HOLD_72_TO_120_HOURS_MINIMUM; no automatic Hengyang drive on city-capture day.",
+    "required": [
+      "restore usable Xiang River crossing/ferry capacity",
+      "open Changsha-Xiangtan road/rail segments enough for sustained feed",
+      "advance fighter/recon servicing to captured airfield system without assuming instant heavy-bomber use",
+      "keep serviceable vehicle floor above roughly 4.3-5.0k working band",
+      "verify 14AF interdiction has not created multi-day ammunition/POL starvation",
+      "reassess Chinese force density Hengyang-Leiyang rather than extrapolating Changsha withdrawal"
+    ],
+    "earliest_reassessment_window": "1944-05-21..23",
+    "meaning": "Changsha capture completes Phase A. It does not itself authorize Phase B."
+  }
+}

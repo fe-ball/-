@@ -1,0 +1,20 @@
+{
+  "id": "GALVANIC_1943-11-26_REOPEN_GATE_AFTER_TARAWA_DPLUS1_v001",
+  "status": "REOPEN_REQUIRED_BEFORE_CARRIER_BATTLE",
+  "reason": "Tarawa is still an organized high-intensity battle at 11/25 T24 and has consumed more US assault-air/fire-support time than v004. Japanese rear decks have also had one more day to close eastward.",
+  "must_recompute_before_11_26_carrier_battle": [
+    "US fast-carrier TG locations, deck cycles and CAP/search reservations after Independence loss and repeated Marshall suppression",
+    "eight-CVE split between Tarawa and Makin; do not add CVE aircraft to fast-carrier strike wallet",
+    "Japanese first-line four-carrier position/fuel/search state",
+    "Junyo/Hiyo/Ryujo/Zuiho exact 11/26 rear-deck geometry and CAP/search contribution",
+    "Marshall/Gilbert surviving land/water-air search contact quality and age",
+    "submarine patrol hull-by-hull contact opportunities caused by prolonged assault-force dwell",
+    "whether Japanese surface raid target preference shifts from Makin to Tarawa support/transport concentrations"
+  ],
+  "not_carried_forward_automatically": [
+    "old 160-165 Japanese first strike",
+    "old 135-150 US counterstrike",
+    "Lexington/Yorktown/Soryu hit states",
+    "11/26-27 Franks raid target and result"
+  ]
+}

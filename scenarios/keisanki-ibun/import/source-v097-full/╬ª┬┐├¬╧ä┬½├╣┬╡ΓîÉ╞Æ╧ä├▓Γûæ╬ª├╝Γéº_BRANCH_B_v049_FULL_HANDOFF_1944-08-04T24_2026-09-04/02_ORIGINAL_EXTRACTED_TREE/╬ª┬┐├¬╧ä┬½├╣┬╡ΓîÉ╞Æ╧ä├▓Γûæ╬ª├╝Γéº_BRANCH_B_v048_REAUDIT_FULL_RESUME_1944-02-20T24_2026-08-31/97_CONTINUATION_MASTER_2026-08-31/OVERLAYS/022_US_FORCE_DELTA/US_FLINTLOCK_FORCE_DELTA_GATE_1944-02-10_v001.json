@@ -1,0 +1,57 @@
+{
+  "id": "US_FLINTLOCK_FORCE_DELTA_GATE_1944-02-10_v001",
+  "status": "WORKING_FORCE_ACCOUNTING_GATE",
+  "as_of": "1944-02-10T24+12:00",
+  "decision": {
+    "retroactive_target_or_two_division_plan_change": false,
+    "ground_OOB": "historical-scale gross personnel and armor retained",
+    "largest_preassault_US_delta": "fast carrier deck/aircraft availability and allocation",
+    "new_residual_audit": "7th Infantry Division Attu replacement/cadre mix"
+  },
+  "historical": {
+    "TF51_assault_troops_approx": 54000,
+    "southern_7th_div_plus_assigned": 21768,
+    "northern_4th_marine_plus_assigned": 20778,
+    "attack_reserve": 9325,
+    "southern_amphibian_vehicles_total": 174,
+    "southern_armored_amphibians": 79,
+    "southern_LVT_reserve": 21,
+    "southern_first_night_medium_tanks": 44,
+    "southern_first_night_light_tanks": 18,
+    "fast_carrier_decks": 12,
+    "fast_carrier_aircraft": ">700",
+    "old_battleships_close_support": 7,
+    "CVE_close_support": 6
+  },
+  "current_branch": {
+    "prebattle_fast_decks": 11,
+    "prebattle_fast_deck_composition": "5 CV + 6 CVL",
+    "prebattle_ready_aircraft_band": [595, 625],
+    "prebattle_ready_aircraft_center": 610,
+    "Kwajalein_medium_available_Dday_evening_band": [40, 44],
+    "Kwajalein_medium_ready_Dday_evening_band": [37, 42],
+    "Kwajalein_light_available_Dday_evening_band": [16, 18],
+    "Kwajalein_light_ready_Dday_evening_band": [14, 17],
+    "southern_LVT_LVTA_irrecoverable_Dday_band": [8, 12],
+    "southern_LVT_LVTA_temp_out_Dday_band": [11, 17],
+    "preDday_LST": "one unnamed LST-class mission-killed; cargo open",
+    "post_FLINTLOCK_main_ground_KWM_band": [1570, 2215],
+    "reserve_22Marines_106Inf": "not consumed by main FLINTLOCK assault centered"
+  },
+  "7th_division_Attu_delta": {
+    "historical_US_KIA_approx": 550,
+    "historical_US_WIA_approx": "1100-1140",
+    "historical_cold_disease_approx": 1800,
+    "branch_US_KIA_band": [650, 800],
+    "branch_US_WIA_band": [1300, 1600],
+    "branch_cold_disease_band": [2200, 2700],
+    "FLINTLOCK_interpretation": "headcount rebuilt by replacements; retain small-unit cadre/replacement-mix effect, not a gross-force subtraction"
+  },
+  "guards": [
+    "Do not invent an exact extra LVT count without hull/transport trace.",
+    "Do not treat authorized strength as identical to veteran cadre quality.",
+    "Do not count a backfilled DD/LST as free; backfill consumes another assignment wallet.",
+    "Do not reroll FLINTLOCK objective/landing concept from the 7th Division Attu delta alone.",
+    "Re-audit HAILSTONE from carrier-air/deck state; re-audit CATCHPOLE from intact reserve troops plus amphibious/support turnaround."
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "revision": "v001",
+  "id": "US_COUNTERSTRIKE_JAPAN_CARRIER_FORCE_1944-02-03_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "discussion_clock_end": "1944-02-03T15:30:00+12:00",
+  "purpose": "Resolve US search/counterstrike after the Japanese dawn raid reveals a return bearing, while preserving the Japanese planned westward egress and applying sea-going rather than fixed-base Japanese fighter-direction quality.",
+  "timeline": [
+    {
+      "time": "08:20-09:45",
+      "event": "US groups recover raid survivors, detach immediate aid toward Cabot, and launch broad western searches along the Japanese raid return bearing. TG58.1/58.3 carry most of the search/counterstrike burden while TG58.2 deals with damage and recovery."
+    },
+    {
+      "time": "09:42-10:08",
+      "event": "A US carrier scout obtains a visual on the retiring Japanese carrier force, identifying at least three fleet carriers with fast heavy escorts. Report is fresh enough for a long-range counterstrike."
+    },
+    {
+      "time": "10:35-11:18",
+      "event": "TG58.1 and TG58.3 launch the principal counterstrike; TG58.2 contributes only a limited component because Cabot is mission-killed and Intrepid deck operations are interrupted."
+    },
+    {
+      "time": "12:25-13:05",
+      "event": "Japanese shipboard radar/passive warning and visual pickets provide useful but non-US-grade warning. Layered CAP meets the strike, with Kinsei fighters concentrated in high-cover/fast-intercept duty."
+    },
+    {
+      "time": "13:05-13:35",
+      "event": "US bombers penetrate portions of the CAP and heavy AA. The Japanese formation maintains westward withdrawal rather than turning back for a second offensive cycle."
+    }
+  ],
+  "US_counterstrike": {
+    "launch_band": [
+      132,
+      148
+    ],
+    "launch_center": 140,
+    "principal_sources": [
+      "TG58.1",
+      "TG58.3"
+    ],
+    "limited_source": "TG58.2",
+    "mission": "carrier attack with strong F6F escort; no claim that all launch aircraft reach target"
+  },
+  "Japanese_defense": {
+    "CAP_committed_band": [
+      48,
+      58
+    ],
+    "CAP_center": 53,
+    "note": "Sea-going carrier CAP gets carrier-process maturation and improved warning but not the A-grade fixed-base radar/plot bonus."
+  },
+  "centered_damage": {
+    "Hiryu": "One bomb hit plus a damaging near miss centered on aft flight-deck/hangar region. Flight operations cease for the rest of 3 Feb; propulsion and withdrawal speed remain adequate. Surviving airborne aircraft recover preferentially on Shokaku/Zuikaku or are diverted as fuel permits.",
+    "Shokaku": "Near-miss/splinter/light topside damage only centered; deck remains operational.",
+    "Zuikaku": "No major hit centered.",
+    "screen": "Minor splinter/near-miss damage on one or two escorts; no named escort loss centered."
+  },
+  "air_losses": {
+    "US_irrecoverable_band": [
+      21,
+      28
+    ],
+    "US_irrecoverable_center": 24,
+    "Japan_CAP_recon_irrecoverable_band": [
+      18,
+      25
+    ],
+    "Japan_CAP_recon_irrecoverable_center": 22,
+    "Japan_damaged_recoverable_band": [
+      12,
+      20
+    ]
+  },
+  "carrier_battle_cumulative_3Feb": {
+    "Japan_irrecoverable_aircraft_band": [
+      66,
+      79
+    ],
+    "Japan_irrecoverable_aircraft_center": 73,
+    "US_irrecoverable_aircraft_band": [
+      40,
+      51
+    ],
+    "US_irrecoverable_aircraft_center": 46,
+    "Japan_ship_state": "Shokaku/Zuikaku operational; Hiryu mission-limited by flight-deck damage but mobile. No Japanese carrier sunk centered.",
+    "US_ship_state": "Cabot campaign-out from fast-carrier operations pending repair; Intrepid temporarily disrupted but not campaign-out; remaining fast decks operational."
+  },
+  "decision": "Both sides terminate the carrier exchange after one main offensive cycle each. Japan withdraws west rather than trading its remaining carrier cadre into the still larger US deck pool; US does not launch a second same-day deep counterstrike without another fresh fix.",
+  "downstream": "Cabot repair duration and Hiryu repair duration require separate damage/yard audit before Truk/next-carrier-operation wallets are used."
+}

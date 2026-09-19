@@ -1,0 +1,6 @@
+coordinate	low	center	high	basis
+complete_dry_mass_kg	400	420	445	E5-J 380-415 + 2 axial stages/VIGV/PR7 hot-section and case; newer design partly offsets added hardware
+maximum_engine_OD_m	0.7	0.735	0.77	~0.500 m centrifugal impeller at 18 krpm/471 m/s remains diameter driver
+complete_length_m	1.95	2.08	2.22	E5-J 1.80-2.05 plus two axial rows, VIGV and PR7 compressor spacing
+870C_standard_nozzle_throat_m2	0.028	0.02856759786387164	0.0292	v46-compatible choked static nozzle calculation
+920C_standard_nozzle_throat_m2	0.0273	0.027842497667994456	0.0285	v46-compatible choked static nozzle calculation

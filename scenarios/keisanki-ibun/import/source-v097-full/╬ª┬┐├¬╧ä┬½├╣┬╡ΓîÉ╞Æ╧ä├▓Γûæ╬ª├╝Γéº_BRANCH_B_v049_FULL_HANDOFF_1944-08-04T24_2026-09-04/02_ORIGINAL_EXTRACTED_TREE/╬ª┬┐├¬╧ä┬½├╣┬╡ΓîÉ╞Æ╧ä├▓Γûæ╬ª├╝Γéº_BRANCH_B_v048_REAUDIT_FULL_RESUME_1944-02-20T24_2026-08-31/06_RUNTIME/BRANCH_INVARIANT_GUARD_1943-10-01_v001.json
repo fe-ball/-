@@ -1,0 +1,184 @@
+{
+  "revision": "v001",
+  "id": "BRANCH_INVARIANT_GUARD_1943-10-01_v001",
+  "package_revision": "v023",
+  "status": "AUTHORITATIVE_CURRENT_BRANCH_GUARD",
+  "cutoff": "1943-10-01T00:00:00",
+  "purpose": "Prevent historical-default or downstream-provisional state from being silently reinserted while advancing from the synchronized 1943-09-30 frontier.",
+  "precedence": [
+    "06_RUNTIME/CURRENT_BRANCH_STATE_v005.json",
+    "05_WARTIME/CHECKPOINT_1943-09-30T24_v001.json",
+    "00_CONFIG/current_branch_overrides_v007.json",
+    "06_RUNTIME/SESSION_2026-08-26_1943Q3_SYNCHRONIZED_HANDOFF_v001.md"
+  ],
+  "territorial_control": {
+    "Midway": {
+      "state": "JAPANESE_HELD",
+      "detail": "Japanese-held lean forward base from settled June 1942 MI; no current-authoritative recapture has been adjudicated by the 1943-09-30 cutoff.",
+      "anti_regression": "Do not import the retained-provisional Sep-1943 US recapture before it is re-adjudicated on the current synchronized line.",
+      "source": "06_RUNTIME/MIDWAY_1942-06-10_15_SETTLEMENT_v001.json"
+    },
+    "Port_Moresby": {
+      "state": "JAPANESE_HELD",
+      "source": "05_WARTIME/CHECKPOINT_1942-12-31T24_v001.json"
+    },
+    "Lunga_Tulagi": {
+      "state": "JAPANESE_HELD",
+      "source": "05_WARTIME/CHECKPOINT_1942-12-31T24_v001.json"
+    },
+    "Espiritu_Santo": {
+      "state": "JAPANESE_HELD",
+      "source": "05_WARTIME/CHECKPOINT_1942-12-31T24_v001.json"
+    },
+    "New_Caledonia": {
+      "state": "JAPANESE_MILITARY_CONTROL_VICHY_NOMINAL_SOVEREIGNTY",
+      "detail": "Japan controls the Noumea-Tontouta-La Foa-Bourail-Plaines des Gaiacs military corridor, ports/airfields/external traffic; nominal sovereignty/civil framework is Vichy French.",
+      "anti_regression": "Do not collapse this to ordinary Allied ownership or simple Japanese annexation.",
+      "source": "06_RUNTIME/NEW_CALEDONIA_1942-10_SETTLEMENT_v001.md"
+    },
+    "Efate": {
+      "state": "US_HELD",
+      "detail": "June 8-9 Japanese operation was limited neutralization, not occupation; US strategic hold and recovery followed.",
+      "source": "06_RUNTIME/EFATE_LIMITED_NEUTRALIZATION_1943-06_SETTLEMENT_v001.md"
+    },
+    "Hanzhong": {
+      "state": "JAPANESE_HELD_AFTER_FIVE_GO_PHASE_II",
+      "detail": "Five-Go Phase II took Hanzhong around 21 Jul; cleanup 22-23 Jul; no automatic Sichuan Phase III.",
+      "source": "06_RUNTIME/GLOBAL_1943Q3_SYNCHRONIZATION_LEDGER_v001.md"
+    },
+    "Maungdaw_Teknaf_Coxs_Bazar": {
+      "state": "NOT_JAPANESE_HELD",
+      "detail": "August exercise did not run through Japanese-held Maungdaw/Teknaf/Cox's; these were not Japanese-held.",
+      "source": "06_RUNTIME/SESSION_2026-08-26_1943Q3_SYNCHRONIZED_HANDOFF_v001.md"
+    }
+  },
+  "carrier_and_hull_state": {
+    "United_States": {
+      "branch_losses_through_MI": [
+        "Lexington",
+        "Yorktown",
+        "Enterprise",
+        "Hornet",
+        "Saratoga"
+      ],
+      "survivors_or_rebuild": [
+        "Wasp survives; June 1943 South Pacific fast-carrier central is Wasp",
+        "By late Aug/Sep multiple new Essex/Independence-class fast-carrier groups with F6F-class aircraft are a real combat factor"
+      ],
+      "anti_regression": "Do not restore historical named-carrier availability. New-build carrier power must be added on top of, not substituted for, branch losses.",
+      "sources": [
+        "06_RUNTIME/MIDWAY_1942-06-10_15_SETTLEMENT_v001.json",
+        "06_RUNTIME/EFATE_LIMITED_NEUTRALIZATION_1943-06_SETTLEMENT_v001.md",
+        "06_RUNTIME/GLOBAL_1943Q3_SYNCHRONIZATION_LEDGER_v001.md"
+      ]
+    },
+    "Britain": {
+      "branch_losses": [
+        "Indomitable",
+        "Formidable"
+      ],
+      "state": "Eastern Fleet modern-carrier depth materially below historical; Mediterranean/Home Fleet competition and maintenance margins remain binding.",
+      "anti_regression": "Do not copy historical Eastern Fleet carrier reinforcement or offensive schedules without paying actual surviving decks, crews, escorts and global commitments.",
+      "sources": [
+        "06_RUNTIME/INDIAN_OCEAN_BURMA_COASTAL_OPERATION_STUDY_1943-06_09_v001.md",
+        "06_RUNTIME/GLOBAL_1943Q3_SYNCHRONIZATION_LEDGER_v001.md"
+      ]
+    },
+    "Japan": {
+      "lost": [
+        "Akagi",
+        "Kaga"
+      ],
+      "first_line_core_alive": [
+        "Shokaku",
+        "Zuikaku",
+        "Hiryu",
+        "Soryu"
+      ],
+      "secondary_confirmed_operational_1943": [
+        "Junyo",
+        "Hiyo",
+        "Ryujo",
+        "Zuiho"
+      ],
+      "other_survival_markers": [
+        "Hiei and Kirishima are active in the June 1943 Efate settlement",
+        "Haruna is active in the May 1943 Aleutian rescue force",
+        "Yamamoto survives 1943-04-18",
+        "Shoho survived branch Coral Sea/MI ledger unless a later authoritative loss is adjudicated"
+      ],
+      "unresolved_hulls": [
+        "Shinshu Maru repair/readiness for Sep-Oct remains to close",
+        "Nisshin survival/availability remains to close"
+      ],
+      "anti_regression": "Never apply historical sinking/death dates mechanically. Individual hull/commander fate must come from branch-authoritative settlement or remain unresolved.",
+      "sources": [
+        "06_RUNTIME/MIDWAY_1942-06-10_15_SETTLEMENT_v001.json",
+        "06_RUNTIME/ALEUTIANS_ATTU_KISKA_REAUDIT_1943-03_07_SETTLEMENT_v001.md",
+        "06_RUNTIME/EFATE_LIMITED_NEUTRALIZATION_1943-06_SETTLEMENT_v001.md",
+        "06_RUNTIME/SESSION_2026-08-26_1943Q3_SYNCHRONIZED_HANDOFF_v001.md"
+      ]
+    }
+  },
+  "japanese_combat_capability_guard": {
+    "rule": "Use branch TECH/OOB maturity at event date, not historical median capability and not future back-porting.",
+    "active_or_relevant_by_cutoff": [
+      "TECH-AIR-A6M-ZUISEI-OPENING-001",
+      "TECH-AIR-B5N-ZUISEI-OPENING-001",
+      "TECH-AIR-D3A-OPENING-001",
+      "TECH-CARRIER-MISSION-CLASS-001",
+      "TECH-LANDING-PACKAGE-001",
+      "TECH-AMPHIBIOUS-FIRSTDAY-001",
+      "TECH-TORPEDO-SURFACE-ACCURACY-001",
+      "TECH-TORPEDO-SECOND-SALVO-001",
+      "TECH-TORPEDO-INTRINSIC-REPEATABILITY-001",
+      "TECH-TORPEDO-FAILURE-TAIL-001",
+      "TECH-SURFACE-SPEED-ROBUSTNESS-001",
+      "TECH-SURFACE-DC-MARGIN-001",
+      "TECH-GUNFIRE-SURFACE-1942-001",
+      "TECH-SEARCH-MULTILAYER-001",
+      "TECH-RADAR-1942-HUMANLOOP-001",
+      "TECH-RADAR-CLOSEDLOOP-1943PLUS-001",
+      "TECH-RADAR-PRODUCTION-MEDIAN-001",
+      "TECH-ASW-FOCUSED-CONVOY-1942-001",
+      "TECH-ASW-LAYERED-1943-001"
+    ],
+    "event_specific_anchor": "June 1943 Efate carrier air group explicitly includes branch A6M5-ish Zuisei-late Zero, limited D4Y bomber trials/D4Y1-C reconnaissance and B6N elements; do not back-port later Kinsei Zero/A7M.",
+    "sources": [
+      "02_TECH/TECH_INDEX_v006.json",
+      "06_RUNTIME/EFATE_LIMITED_NEUTRALIZATION_1943-06_SETTLEMENT_v001.md"
+    ]
+  },
+  "sigint_comint_guard": {
+    "active_entries": [
+      "TECH-COMSEC-CENTRAL-AUDIT-OPENING-001",
+      "TECH-COMINT-JP-HIGHGRADE-1942-001",
+      "TECH-COMINT-RESIDUAL-CHANNELS-1942-001",
+      "TECH-COMINT-JP-OFFENSE-001",
+      "TECH-INFO-TO-COMMAND-SEPARATION-001"
+    ],
+    "US_constraint": "Historical JN-25-like high-grade plaintext precision must not be silently restored; location/exact schedule/force composition are not normally reconstructed from high-grade ciphertext with short-strategic precision.",
+    "residual_channels": "Traffic analysis, DF, low-grade/plaintext, reconnaissance, geography/logistics inference still exist; no information blackout.",
+    "Japanese_offense": "Japanese COMINT can exploit low/mid-grade traffic, DF, plaintext and mistakes for probabilistic warning; not routine SIGABA reading.",
+    "operational_example": "Operation Vengeance historical kill-chain fails; Yamamoto survives 1943-04-18.",
+    "sources": [
+      "02_TECH/TECH_INDEX_v006.json",
+      "06_RUNTIME/ALEUTIANS_ATTU_KISKA_REAUDIT_1943-03_07_SETTLEMENT_v001.md"
+    ]
+  },
+  "china_guard": {
+    "five_go_phase_II": "10 Jun start; Fengxian 19-20 Jun; Lueyang about 7 Jul; Hanzhong 21 Jul; cleanup 22-23 Jul.",
+    "phase_III": "HOLD toward Sichuan.",
+    "autumn_posture": "Consolidation, repair, storage, airfield/road pressure and next-operation study; no automatic deep pursuit.",
+    "india_transfer_constraint": "Any engineering/transport/air support transfer to Burma must be charged against China consolidation rather than treated as free.",
+    "source": "06_RUNTIME/GLOBAL_1943Q3_SYNCHRONIZATION_LEDGER_v001.md"
+  },
+  "provisional_boundary": {
+    "rule": "Files listed as retained_provisional are evidence/reference only. Their dates, losses, ownership, OOB and outcomes do not overwrite the current synchronized line until re-adjudicated.",
+    "especially_forbid_automatic_inheritance": [
+      "PACIFIC_MIDWAY_CONTINUOUS_CAMPAIGN_REAUDIT_1943-07_10_v001.md",
+      "PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+      "CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md"
+    ]
+  }
+}

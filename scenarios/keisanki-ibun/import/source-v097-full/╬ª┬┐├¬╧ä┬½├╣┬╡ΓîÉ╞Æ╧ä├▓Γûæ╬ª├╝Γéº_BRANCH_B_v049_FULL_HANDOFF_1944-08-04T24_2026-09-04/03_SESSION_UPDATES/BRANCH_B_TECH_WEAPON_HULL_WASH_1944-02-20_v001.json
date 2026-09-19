@@ -1,0 +1,98 @@
+{
+  "id": "BRANCH_B_TECH_WEAPON_HULL_WASH_1944-02-20_v001",
+  "frontier": "1944-02-20T24",
+  "classification": {
+    "A": "ACTIVE_HARD",
+    "B": "ACTIVE_WORKING",
+    "C": "TRACE_REQUIRED",
+    "D": "FUTURE_GATED"
+  },
+  "hard_anchors": {
+    "japan_carriers": {
+      "lost": [
+        "Akagi",
+        "Kaga"
+      ],
+      "first_line_alive": [
+        "Shokaku",
+        "Zuikaku",
+        "Hiryu",
+        "Soryu"
+      ],
+      "secondary_confirmed": [
+        "Junyo",
+        "Hiyo",
+        "Ryujo",
+        "Zuiho"
+      ]
+    },
+    "kongo_class_alive": [
+      "Kongo",
+      "Hiei",
+      "Kirishima",
+      "Haruna"
+    ],
+    "yamato_class": [
+      "Yamato",
+      "Musashi"
+    ],
+    "sentaka_first_gen": {
+      "combat_hulls": 6,
+      "submerged_max_kt": [
+        18.5,
+        19.0
+      ],
+      "full_speed_minutes": [
+        55,
+        65
+      ]
+    },
+    "destroyer_reconciliation_1944_01_01": {
+      "physical_center": 81,
+      "ready_band": [
+        70,
+        75
+      ],
+      "ready_center": 72
+    },
+    "light_cruiser_reconciliation_1944_01_01": {
+      "physical_center": 21,
+      "ready_band": [
+        18,
+        20
+      ]
+    },
+    "enewetok_type95": {
+      "total": 9,
+      "per_main_island": 3
+    },
+    "flintlock_1944_02_02_strike_mix_center": {
+      "fighters": 55,
+      "Kinsei_Zero": 28,
+      "late_Zuisei_Zero": 27,
+      "D4Y": 60,
+      "B6N": 45
+    }
+  },
+  "future_gates": [
+    "Taiho combat workup",
+    "A7M mass service",
+    "N1K2 general service",
+    "turbo Raiden combat service",
+    "operational jet",
+    "I-400/Seiran before 1944-03",
+    "Sentaka Ko-7/8 without checkpoint",
+    "I-34/I-29 future hardware backport"
+  ],
+  "priority_audits": [
+    "20Feb individual warship master roster",
+    "all Japanese carrier hull state including Ryuho/Shoho/Taiho",
+    "20Feb carrier air-group variant/crew ledger",
+    "Ko-1..6 allocation",
+    "per-hull radar/ESM fit",
+    "per-class/hull damage-control refit",
+    "Army aviation Feb1944 fielding",
+    "land weapon/platform inventory",
+    "merchant/tanker surviving hull ledger"
+  ]
+}

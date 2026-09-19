@@ -1,0 +1,114 @@
+{
+  "audit": "ASAI FULL V5 MECHFIX1 machine integrity audit",
+  "date": "2026-08-30",
+  "status": "PASS",
+  "scope_note": "Structural/payload audit. Final inventory/manifest/SHA256SUMS are regenerated after this report and verified externally at package finalization.",
+  "checks": {
+    "tsv_schema": {
+      "status": "PASS",
+      "files": 144,
+      "data_rows": 4195,
+      "problems": []
+    },
+    "json_parse": {
+      "status": "PASS",
+      "files": 6,
+      "problems": []
+    },
+    "xlsx_container_xml": {
+      "status": "PASS",
+      "files": 4,
+      "container_or_xml_problems": [],
+      "formula_error_tokens": []
+    },
+    "embedded_v4_byte_identity": {
+      "status": "PASS",
+      "original_files": 111,
+      "problems": []
+    },
+    "gate_number_presence_36_76": {
+      "status": "PASS",
+      "present": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "missing": []
+    },
+    "casefold_path_collisions": {
+      "status": "PASS",
+      "problems": []
+    },
+    "symlinks": {
+      "status": "PASS",
+      "paths": []
+    },
+    "control_pointer_existence": {
+      "status": "PASS",
+      "checks": [
+        {
+          "pointer": "10-CURRENT-SESSION-GATES/asai_gate76_june_restart/76-1938-06-30-RESTART-BASELINE.md",
+          "exists": true
+        },
+        {
+          "pointer": "10-CURRENT-SESSION-GATES/asai_rebase_oct10/56-1937-10-10-SUPERSESSION-CROSSWALK.tsv",
+          "exists": true
+        },
+        {
+          "pointer": "30-AVIATION-CURRENT/asai_aviation_current_only/65-CURRENT-ONLY-AVIATION-BRANCH-CLEANUP.md",
+          "exists": true
+        },
+        {
+          "pointer": "30-AVIATION-CURRENT/asai_twin_aircraft_canon/64-1937-11-12-TWIN-ENGINE-AIRCRAFT-CANON-PATCH.md",
+          "exists": true
+        },
+        {
+          "pointer": "10-CURRENT-SESSION-GATES/asai_midcourse_nov12/63-1937-11-12-OPEN-QUEUE-PROGRESSION.tsv",
+          "exists": true
+        },
+        {
+          "pointer": "01-BASE-V4/TERMINOLOGY-AND-SUPERSESSION-GUARD.tsv",
+          "exists": true
+        }
+      ]
+    }
+  }
+}

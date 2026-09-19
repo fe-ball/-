@@ -1,0 +1,36 @@
+{
+  "id": "GALVANIC_1943-11-29T12_CLOSEOUT_STATE_WORKING_v001",
+  "status": "WORKING_RERUN",
+  "time": "1943-11-29T12 local",
+  "Tarawa": {
+    "overnight_28_29": "Isolated bombproof groups and individual holdouts continue scattered fire; no reconstitution of coherent defense occurs.",
+    "additional_US_casualties_overnight_and_dawn": [15, 35],
+    "Japanese_remaining_groups": "Most final coherent groups destroyed during night/dawn reduction; small numbers of isolated holdouts remain a mop-up/security problem.",
+    "secure_declaration_center": "1943-11-29 07:30-09:30 local",
+    "final_US_ground_casualties_working_band": [2850, 3860],
+    "working_center": 3350,
+    "final_assessment": "US tactical/operational victory. The 24-Nov tide/lane choice prevents beachhead failure, but pre-GALVANIC Branch-B construction/logistics hardening materially raises first-two-day losses and extends high-intensity support demand through 28 Nov."
+  },
+  "Makin": {
+    "status": "US-held since 27 Nov afternoon",
+    "support_release": "CVE/surface/transport assets continue staged reorganization and release; some support shifted toward Tarawa on 28 Nov, remaining elements begin broader post-assault tasks after Tarawa secure declaration."
+  },
+  "US_naval_air": {
+    "CVE_system": "Eight-CVE assault-air wallet remains intact; no centered CVE loss. It has paid materially more CAS/spotting/ASW deck cycles than the old quicker-Tarawa line.",
+    "fast_carriers": "Independence campaign-out; Lexington heavy mission-kill withdrawing; Yorktown useful again; other fast decks cover assault area and Japanese carrier withdrawal rather than conduct an automatic historical 4-Dec mass raid.",
+    "surface_screen": "One currently unnamed outer-screen DD lost in 26/27 Tarawa Type-93 raid; exact hull identity remains open."
+  },
+  "Japan_naval_air": {
+    "carriers": "Shokaku/Zuikaku/Hiryu operational; Soryu damaged but not campaign mission-killed centered. Secondary carriers continue cross-deck/CAP/recovery support during withdrawal.",
+    "surface": "Hatsuzuki/Suzutsuki/Hamakaze/Fujinami withdraw; Fujinami light-moderate damage. No second 27/28 raid centered.",
+    "submarine": "I-175 remains available as a degraded patrol asset rather than entering the old heavy-repair clock; no compensating 28-Nov hit booked."
+  },
+  "downstream_reopen": [
+    "post-GALVANIC US CVE and surface release timing",
+    "outer-Marshalls pressure/recon timing",
+    "Japanese carrier/air-group regeneration because Soryu is not campaign mission-killed",
+    "I-175 late-1943 patrol/repair availability",
+    "US destroyer OOB after unnamed 26/27 loss",
+    "GALVANIC casualty/lessons propagation into FLINTLOCK fortification and US assault doctrine"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "revision": "v003",
+  "id": "ALLIED_DEATH_TALLY_RETROACTIVE_LAND_HARDWARE_RESERVATION_1941_1944_WORKING_v003",
+  "status": "WORKING_ACCOUNTING_RESERVATION_PARTIALLY_APPLIED_GALVANIC_AND_BENGAL",
+  "created_at_working_clock": "1944-02-06T18:00:00+12:00",
+  "ledger_label_ja": "連合死者出納表",
+  "purpose": "Preserve the consolidated Allied-death-tally method while recording the v047 GALVANIC and v048 Bengal scoped corrections and keeping all other event corrections reserved.",
+  "trigger": {
+    "when": "At the next consolidated Allied death tally / casualty reconciliation that covers realized 1941-1944 Branch ground combat.",
+    "not_now": "v047 and v048 execute scoped exceptions for the reopened GALVANIC Tarawa and Bengal/Arakan nodes. Other realized ground events remain reserved until the consolidated tally trigger.",
+    "mandatory_output_at_trigger": [
+      "event",
+      "date",
+      "theater",
+      "old Allied KIA/deaths",
+      "new Allied KIA/deaths",
+      "delta",
+      "wounded/MIA/POW consistency check",
+      "Japanese casualty consistency check",
+      "hardware domains actually applied",
+      "maturity period",
+      "reason/no-change reason"
+    ]
+  },
+  "scope": {
+    "include": "Only realized CURRENT or WORKING-not-promoted ground engagements on the active Branch path through 1944-02-06 18:00 for which Japanese land-combat hardware/process could have affected fire, protection, communications, engineering, vehicles or ammunition reliability.",
+    "exclude": [
+      "air-to-air/naval-air losses",
+      "ship sinkings and naval personnel losses except where a ground-combat ledger explicitly combines them",
+      "purely hypothetical/future or superseded legacy battles",
+      "losses already adjudicated with the integrated v047 land layer, including Tarawa and Bengal/Arakan"
+    ],
+    "discovery_rule": "At ledger-build time scan the active frontier/current event family, not 99_LEGACY_UNTOUCHED and not stale future handouts. GALVANIC Tarawa is complete under v047 and Bengal/Arakan under v048. Remaining candidates include Makin if a fatality ledger is reconstructed, other active-branch Japanese-vs-Allied ground actions, and 6-Feb Kwajalein/Roi-Namur first-day losses."
+  },
+  "method": {
+    "no_blanket_multiplier": true,
+    "no_1944_backport_to_1941": true,
+    "maturity_sources": [
+      "06_RUNTIME/JAPANESE_LAND_COMBAT_HARDWARE_LINEAGE_1932_1944_WORKING_v001.json#maturity_by_period",
+      "06_RUNTIME/JAPANESE_LAND_VEHICLE_ARMOR_LINEAGE_1932_1944_WORKING_v001.json#maturity_by_period"
+    ],
+    "event_stage_gates": [
+      "Was the Japanese weapon/position/vehicle physically present and not already destroyed or suppressed?",
+      "Was the target lane preregistered or observed with functioning wire/radio/visual control?",
+      "Did ammunition/fuzes, fuel and common vehicle spares survive storage and issue?",
+      "Did preparation time/material/engineer plant permit protected positions or obstacles?",
+      "Was the fight static/prepared, mobile/jungle, urban, amphibious, pursuit, or collapse/retreat?",
+      "Could damaged vehicles be reached and repaired inside the event window?",
+      "Were Allied combined-arms suppression, armor, engineers, naval gunfire or artillery strong enough to erase the technical advantage before effective fire?"
+    ],
+    "death_vs_total_casualties": "Primary accounting target is Allied KIA/deaths. If an old event provides only broad casualties, do not fabricate a fatality split; reconstruct or bound it from event-local evidence.",
+    "outcome_guard": "Default to casualty correction, but change timing/geography if the event-local re-audit proves the old operational state inconsistent. v047 moves Tarawa secure timing by less than one day; v048 moves Chittagong entry about one day earlier. Both captures still occur.",
+    "double_count_guards": [
+      "Do not add hardware uptime as a second soft-C2 bonus when command succession/preregistered fire was already modeled.",
+      "Do not add vehicle dispatchability after an event ledger already starts from a Branch-adjusted serviceable count.",
+      "Do not add landing-package availability again as weapon lethality after equipment is ashore/in position.",
+      "Do not convert artillery prepared-fire bands into a theater-wide casualty scalar.",
+      "Do not count fortification survivability twice if the old event already credited dispersed magazines/revetments.",
+      "Do not apply mobile-formation 72h reappearance to destroyed/drowned/abandoned atoll vehicles."
+    ]
+  },
+  "executed_adjustments": [
+    {
+      "event": "GALVANIC Tarawa ground battle",
+      "date": "1943-11-24..1943-11-29",
+      "theater": "Central Pacific / Betio",
+      "old_Allied_KIA_MIA_band": [550, 700],
+      "new_Allied_KIA_MIA_band": [620, 770],
+      "old_Allied_WIA_band": [1350, 1650],
+      "new_Allied_WIA_band": [1530, 1780],
+      "old_total_band": [1900, 2300],
+      "new_total_band": [2150, 2550],
+      "old_total_center": 2100,
+      "new_total_center": 2350,
+      "delta_total_center": 250,
+      "delta_KIA_MIA_center": 70,
+      "delta_WIA_center": 155,
+      "hardware_domains_applied": [
+        "Type 95 running gear/serviceability and atoll-local reappearance",
+        "engineer-vehicle uptime",
+        "registered-fire and ammunition QC",
+        "tactical communications hardware",
+        "protected stores and physical fortification"
+      ],
+      "maturity_period": "1943H2 through 1944-02-06 FULL_WORKING_BAND",
+      "Japanese_casualty_consistency": "Garrison destruction/near-annihilation remains; the main change is extra combat time and Allied losses, not Japanese evacuation or a new strategic survivor pool.",
+      "operational_change": "Tarawa secure declaration shifts from 11/28 midday center to 11/29 morning center; US capture and naval/air outcomes unchanged.",
+      "source": "06_RUNTIME/GALVANIC_FINAL_OUTCOME_LEDGER_1943-11_12_v003.json"
+    },
+    {
+      "event": "Bengal / Arakan / Chittagong campaign",
+      "date": "1943-10-28..1943-12-31",
+      "theater": "Arakan coast / Bengal",
+      "old_Allied_KIA_band": [1500, 2100],
+      "new_Allied_KIA_band": [1700, 2350],
+      "old_Allied_WIA_band": [4200, 5500],
+      "new_Allied_WIA_band": [4500, 6100],
+      "old_Allied_POW_MIA_band": [1200, 2000],
+      "new_Allied_POW_MIA_band": [1400, 2200],
+      "old_total_band": [7200, 10500],
+      "new_total_band": [7700, 11100],
+      "old_total_center": 8700,
+      "new_total_center": 9300,
+      "delta_total_center": 600,
+      "delta_KIA_center": 225,
+      "hardware_domains_applied": [
+        "truck/prime-mover/engineer-plant dispatchability",
+        "24-72h repair/reappearance on reachable road-axis faults",
+        "artillery/mortar registration and ammunition QC at traced phases",
+        "tactical communications hardware",
+        "engineer equipment at river/bridge/road nodes"
+      ],
+      "maturity_period": "1943H2 FULL_WORKING_BAND with terrain/supply down-rating",
+      "Japanese_casualty_consistency": "Japanese combat-total center falls from about 6900 to 6300; disease and sea-LOC constraints remain material.",
+      "operational_change": "Chittagong entry shifts from 15 Dec afternoon/evening to late 14 Dec-early 15 Dec, centered late 14 Dec. British demolition and field-army escape still occur.",
+      "source": "06_RUNTIME/BENGAL_ARAKAN_LAND_VEHICLE_EVENT_LEDGER_1943-10_12_v001.json"
+    }
+  ],
+  "remaining_reservation": {
+    "Kwajalein_Roi_Namur_6Feb": "Keep the current 430-620 US killed+wounded first-day band plus separate LST-224 personnel loss until the consolidated tally or a separately authorized event rollback. Future fighting after 18:00 loads the integrated land layer immediately.",
+    "Makin_GALVANIC": "No vehicle-driven change identified. A future fatality ledger may still apply non-vehicle land-hardware corrections if event-local data support them.",
+    "other_active_ground_events": "Remain reserved. Do not infer their net number from GALVANIC or Bengal."
+  },
+  "expected_direction_not_amount": {
+    "prepared_amphibious_defense": "Usually modest upward Allied ground-death pressure if surviving registered weapons/crews were previously treated at historical technical reliability; can be near zero under overwhelming suppression.",
+    "burma_bengal_sustained_ground_fighting": "Bengal/Arakan is now separately audited and booked; later Burma battles still require their own event ledgers.",
+    "mobile_or_collapsing_battles": "Often small or ambiguous because observation, supply and prepared positions are absent.",
+    "net_total": "UNKNOWN for all remaining events. GALVANIC Tarawa and Bengal/Arakan have separately booked deltas."
+  },
+  "supersedes": "ALLIED_DEATH_TALLY_RETROACTIVE_LAND_HARDWARE_RESERVATION_1941_1944_WORKING_v002"
+}

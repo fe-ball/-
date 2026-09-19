@@ -1,0 +1,37 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-03-08T24_WORKING_v001",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_CURRENT_OVERLAY",
+  "as_of": "1944-03-08T24:00:00+09:00",
+  "global_frontier": "1944-03-08T24",
+  "merge_policy": "Only events through 8 Mar T24 are visible. INITIAL events of 9-12 Mar, any deliberate RN W/T advertising, K706 Eniwetok strike outcome, and later RO-111 targets remain future.",
+  "Indian_Ocean": {
+    "Eastern_Fleet": "INITIAL is GO and underway north from Trincomalee. Branch motive is training/show-of-force plus reassurance after Chittagong loss; route remains west/central Bay to protect Illustrious from needless land-air exposure. Illustrious carries 12 Barracudas + 27 Corsairs.",
+    "Japan_awareness": "Japan knows the reinforced Eastern Fleet exists at Ceylon but has no fresh 8-Mar sortie track by T24. Surveillance priority rises; no attack or surface intercept is released.",
+    "Japan_air": "705 G4M flight element is now K706 and eastbound/east; west-area 705 has only shorter-ranged B5N-centered local capability. Original 331 fighter element becomes S603/202 and starts eastward transfer. Tokai/MAD remains; Ka-go remains local zero.",
+    "Japan_submarines": "I-162 sinks Fort McCloud on 4 Mar; RO-111 departs Penang 7 Mar for upper-Bay/Calcutta traffic; I-166 remains on patrol; I-37 remains western. None contact INITIAL through 8T24.",
+    "Japan_surface": "Oyodo group remains a fresh-contact exploitation reserve. Historical SA No.1 remains cancelled. Bay entry alone no longer auto-releases Suzuya/Kumano or other heavy units."
+  },
+  "Central_Pacific": {
+    "First_Mobile_Fleet": "Phased southward fuel/training concentration begins as a regeneration/basing decision. Tone/Chikuma remain mobile-fleet scout/screen assets, not Indian-Ocean raiders.",
+    "K706": "Reorganization/eastward concentration continues; no 9-Mar Eniwetok strike result is credited before the clock reaches that event.",
+    "Eniwetok": "US-held; Engebi limited fighter/search staging continues."
+  },
+  "allocation_posting": {
+    "Tone_to_Indian_Ocean": 0,
+    "Chikuma_to_Indian_Ocean": 0,
+    "Suzuya_Kumano_new_release": 0,
+    "Oyodo_blind_sortie": 0,
+    "705_G4M_western_combat_credit": 0,
+    "705_B5N_western_physical_band": [
+      20,
+      24
+    ],
+    "331_formed_western_fighter_ready_band": [
+      0,
+      4
+    ],
+    "Ka_go_Indian_Ocean": 0
+  },
+  "next_exact_action": "Advance 9-12 Mar. Resolve INITIAL detection as it reaches 13-15N, especially after the RN deliberately breaks W/T silence to advertise its Bay presence; then decide Japanese reconnaissance, submarine cueing, and whether any air/surface strike gate actually opens. Also close K706 Central-Pacific action separately without double-counting west-area aircraft."
+}

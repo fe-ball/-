@@ -1,0 +1,102 @@
+[
+  {
+    "id": "S1",
+    "title": "David Stevens, A Critical Vulnerability (2005), Papers in Australian Maritime Affairs No.15",
+    "kind": "RAN-published archival research",
+    "url": "https://seapower.navy.gov.au/sites/default/files/2023-02/PIAMA15.pdf",
+    "locators": {
+      "patrols": "Appendix V, printed pp.353–356; PDF indices369–372",
+      "scope_note": "printed p.349; PDF365",
+      "shipping": "printed pp.206–207; PDF222–223",
+      "advanced_force": "printed p.203; PDF219"
+    },
+    "inspection": "Patrol tables and shipping figures visually checked with PDF screenshots. Day totals are reported patrol length, NOT verified on-station time.",
+    "limitations": [
+      "Appendix is a reconstructed record, not a complete observation/launch log.",
+      "Dureenbee is a total loss after damage/abandonment, not necessarily an immediate torpedo sinking.",
+      "Some tonnages/dates/methods differ from Gill; variants are preserved."
+    ]
+  },
+  {
+    "id": "S2",
+    "title": "G. Hermon Gill, Royal Australian Navy 1942–1945 (1968), Chapter 3",
+    "kind": "Australian official history using wartime records and postwar accounts",
+    "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1070272/document/5519570.PDF",
+    "locators": {
+      "Wellen": "printed p.62; PDF4",
+      "midgets": "printed pp.64–65; PDF6–7",
+      "June_attacks": "printed pp.74–78; PDF16–20",
+      "regional_total": "printed p.79; PDF23"
+    },
+    "limitations": [
+      "Guatemala 5,967 tons here versus5,527 in S1; no resolved aggregate GRT adopted.",
+      "Early boat attribution for Iron Crown is tentative; later S1 I-27 attribution retained with caveat.",
+      "Indian Ocean 16 ships /76,123 tons is a mixed submarine-and-surface-raider aggregate, not submarine-only."
+    ]
+  },
+  {
+    "id": "S3",
+    "title": "G. Hermon Gill, Royal Australian Navy 1942–1945 (1968), Chapter 7",
+    "kind": "Australian official history",
+    "url": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG1070424/document/5519708.PDF",
+    "locators": {
+      "submarine_aggregate_and_escorts": "printed p.185; PDF1",
+      "Persian_Gulf": "printed p.203; PDF19"
+    },
+    "inspection": "Printed p.185 visually checked.",
+    "limitations": [
+      "14 June submarine sinkings plus5 early-July victims is a source-reported aggregate; ship list and patrol-day denominator still required.",
+      "The26-DD distribution is a period snapshot, not a constant allocation throughout1942."
+    ]
+  },
+  {
+    "id": "S4",
+    "title": "US Naval Technical Mission to Japan, O-32, Japanese Torpedo Fire Control",
+    "kind": "1945–46 technical investigation / primary source",
+    "url": "https://www.fischer-tropsch.org/primary_documents/gvt_reports/USNAVY/USNTMJ%20Reports/USNTMJ-200F-0086-0124%20Report%20O-32.pdf",
+    "locators": {
+      "Type92": "printed pp.12–13; scanned report visual inspection"
+    },
+    "limitations": [
+      "Describes apparatus, not representative1942 combat success probabilities.",
+      "Common observed target-motion errors must not be counted as independent errors for every torpedo."
+    ]
+  },
+  {
+    "id": "S5",
+    "title": "US Naval Technical Mission to Japan, S-42, Japanese Navy Diesel Engines",
+    "kind": "postwar technical investigation / primary source",
+    "url": "https://www.fischer-tropsch.org/primary_documents/gvt_reports/USNAVY/USNTMJ%20Reports/USNTMJ-200I-0478-0536%20Report%20S-42.pdf",
+    "locators": {
+      "Model_No2": "printed p.7; PDF8 (duplicated next scan)"
+    },
+    "inspection": "Model No.2 page visually checked.",
+    "limitations": [
+      "Confirms cooling/spares/manufacturing/training problems, not a fleet-wide failure denominator.",
+      "Do not adopt the questionable submerged-speed sentence on the same page as a submarine performance specification.",
+      "Figures for other diesel models and later war production cannot be transplanted to1942 large I-boats."
+    ]
+  },
+  {
+    "id": "S6",
+    "title": "Tanaka Hiromi, The Japanese Navy’s operations against Australia (AWM journal,1997)",
+    "kind": "archival historical research",
+    "url": "https://www.awm.gov.au/articles/journal/j30/tanaka",
+    "locators": {
+      "commerce": "paras28–32"
+    },
+    "limitations": [
+      "Narrative six-merchant-vessel figure has unclear scope relative to verified coast/time subsets.",
+      "Reports torpedo trouble without a launch denominator. Do not estimate absolute failure rate from that sentence."
+    ]
+  },
+  {
+    "id": "S7",
+    "title": "Royal Australian Navy, Anti-submarine warfare, mine warfare and coastal trade",
+    "kind": "official historical overview",
+    "url": "https://www.navy.gov.au/about-navy/history/history-milestones/anti-submarine-warfare-mine-warfare-coastal-trade",
+    "limitations": [
+      "Overview corroboration only, not a quantitative conversion-rate dataset."
+    ]
+  }
+]

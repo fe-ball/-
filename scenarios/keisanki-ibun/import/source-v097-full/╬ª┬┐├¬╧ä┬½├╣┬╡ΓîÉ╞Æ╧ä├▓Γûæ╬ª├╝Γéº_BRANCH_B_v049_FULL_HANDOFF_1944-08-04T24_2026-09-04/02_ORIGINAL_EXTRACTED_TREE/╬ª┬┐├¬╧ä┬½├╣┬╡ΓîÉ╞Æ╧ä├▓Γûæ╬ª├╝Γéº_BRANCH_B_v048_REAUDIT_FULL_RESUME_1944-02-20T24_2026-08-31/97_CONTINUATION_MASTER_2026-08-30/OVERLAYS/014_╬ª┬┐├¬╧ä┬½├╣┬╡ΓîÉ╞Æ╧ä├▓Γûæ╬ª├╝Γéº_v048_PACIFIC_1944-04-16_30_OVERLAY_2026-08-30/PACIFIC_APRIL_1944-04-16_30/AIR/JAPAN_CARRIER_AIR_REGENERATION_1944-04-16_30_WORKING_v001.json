@@ -1,0 +1,54 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_CARRIER_AIR_REGENERATION_1944-04-16_30_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-04-16..30",
+  "global_frontier_after_merge": "1944-04-30T24",
+  "parents": [
+    "JAPAN_CARRIER_AIR_REGENERATION_1944-04-01_15_WORKING_v001",
+    "JAPAN_AIRCREW_REGENERATION_SOFT_PROGRESS_1944-03-08_WORKING_v001"
+  ],
+  "purpose": "Close the April recovery curve into the existing 30-Apr authority while explicitly charging training attrition and representing lower-net-loss/cadre-return gains as reserve depth and repeat-sortie resilience rather than impossible deck overfill.",
+  "four_core": {
+    "carriers": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu"
+    ],
+    "15Apr_ready_band": [
+      272,
+      296
+    ],
+    "22Apr_ready_band": [
+      276,
+      299
+    ],
+    "30Apr_ready_band": [
+      280,
+      300
+    ],
+    "30Apr_one_cycle_synchronized_offensive_package_band": [
+      175,
+      205
+    ],
+    "qualitative": "A- to A for one-cycle four-deck coordination. Repeat-cycle endurance is materially better than historical 1944 Japan but still constrained by attack-leader/observer depth and fatigue."
+  },
+  "training_cost_16_30Apr": {
+    "aircraft_irrecoverable_writeoff_band": [
+      3,
+      6
+    ],
+    "fatal_or_permanently_lost_carrier_aircrew_band": [
+      1,
+      3
+    ],
+    "recoverable_damage_band": [
+      7,
+      12
+    ],
+    "note": "Netted into the readiness curve; no free training."
+  },
+  "regen_effect": "Raw embarked count is now close to deck/airframe ceiling. The branch advantage increasingly appears in spare qualified crews, faster replacement absorption, lower lower-tail squadron weakness and the ability to rebuild after a limited loss without collapsing the whole air group.",
+  "guard": "Do not exceed the authoritative 30-Apr four-core 280-300 ready band without reopening deck/airframe capacity."
+}

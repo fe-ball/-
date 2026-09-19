@@ -1,0 +1,100 @@
+{
+  "revision": "v001",
+  "factor_index": "COMBAT_CAPABILITY_FACTOR_INDEX_v001",
+  "matrix": "COMBAT_EVENT_FACTOR_MATRIX_v001",
+  "profile_count": 11,
+  "factor_count": 20,
+  "checks": [
+    {
+      "profile": "CARRIER_BATTLE",
+      "mandatory_count": 18,
+      "conditional_count": 2,
+      "runtime_required_count": 9,
+      "missing_factor_ids": [],
+      "result": "PASS"
+    },
+    {
+      "profile": "SURFACE_NIGHT",
+      "mandatory_count": 18,
+      "conditional_count": 2,
+      "runtime_required_count": 9,
+      "missing_factor_ids": [],
+      "result": "PASS"
+    },
+    {
+      "profile": "CONVOY",
+      "mandatory_count": 18,
+      "conditional_count": 2,
+      "runtime_required_count": 9,
+      "missing_factor_ids": [],
+      "result": "PASS"
+    },
+    {
+      "profile": "SUBMARINE",
+      "mandatory_count": 18,
+      "conditional_count": 2,
+      "runtime_required_count": 9,
+      "missing_factor_ids": [],
+      "result": "PASS"
+    },
+    {
+      "profile": "AMPHIBIOUS",
+      "mandatory_count": 19,
+      "conditional_count": 1,
+      "runtime_required_count": 10,
+      "missing_factor_ids": [],
+      "result": "PASS"
+    },
+    {
+      "profile": "LAND_AIR",
+      "mandatory_count": 19,
+      "conditional_count": 1,
+      "runtime_required_count": 10,
+      "missing_factor_ids": [],
+      "result": "PASS"
+    },
+    {
+      "profile": "AIRFIELD_ATTACK",
+      "mandatory_count": 19,
+      "conditional_count": 1,
+      "runtime_required_count": 10,
+      "missing_factor_ids": [],
+      "result": "PASS"
+    },
+    {
+      "profile": "BASE_DEFENSE",
+      "mandatory_count": 19,
+      "conditional_count": 1,
+      "runtime_required_count": 10,
+      "missing_factor_ids": [],
+      "result": "PASS"
+    },
+    {
+      "profile": "FORAGER_GATE",
+      "mandatory_count": 20,
+      "conditional_count": 0,
+      "runtime_required_count": 10,
+      "missing_factor_ids": [],
+      "result": "PASS"
+    },
+    {
+      "profile": "SPECIAL_STRIKE",
+      "mandatory_count": 18,
+      "conditional_count": 2,
+      "runtime_required_count": 9,
+      "missing_factor_ids": [],
+      "result": "PASS"
+    },
+    {
+      "profile": "INDUSTRIAL_AIRCRAFT",
+      "mandatory_count": 10,
+      "conditional_count": 4,
+      "runtime_required_count": 3,
+      "missing_factor_ids": [],
+      "result": "PASS"
+    }
+  ],
+  "factors_without_source_candidates": [],
+  "result": "PASS",
+  "note": "Source candidates are discovery pointers only; event-dynamic factors may still correctly require runtime input."
+}

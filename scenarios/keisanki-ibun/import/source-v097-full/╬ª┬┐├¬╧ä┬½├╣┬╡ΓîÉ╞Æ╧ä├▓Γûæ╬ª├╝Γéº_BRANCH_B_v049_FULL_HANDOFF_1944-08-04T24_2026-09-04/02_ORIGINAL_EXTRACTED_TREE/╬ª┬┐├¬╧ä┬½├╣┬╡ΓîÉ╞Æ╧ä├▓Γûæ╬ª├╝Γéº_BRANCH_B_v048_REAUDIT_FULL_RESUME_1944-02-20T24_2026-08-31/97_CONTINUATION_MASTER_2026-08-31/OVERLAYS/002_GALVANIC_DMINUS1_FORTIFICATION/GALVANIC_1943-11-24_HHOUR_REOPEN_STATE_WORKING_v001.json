@@ -1,0 +1,33 @@
+{
+  "id": "GALVANIC_1943-11-24_HHOUR_REOPEN_STATE_WORKING_v001",
+  "status": "WORKING_NO_OUTCOME_BOOKED",
+  "fixed": {
+    "D_day": "1943-11-24",
+    "Tarawa_total_personnel": "4900-5300",
+    "Tarawa_first_line": "2600-2900",
+    "Tarawa_Type95_physical": 14,
+    "US_M4A2_physical": 14,
+    "tide_lane_plan": "retain v004 observed-depth/high-water logic"
+  },
+  "reopened": {
+    "Nauru_system_suppression": true,
+    "Marshall_air_ground_survival": true,
+    "Marshall_water_air_suppression": true,
+    "Tarawa_fortress_bombardment_survival": true,
+    "Tarawa_Type95_post_bombardment_state": true,
+    "Makin_base_and_ground_defense": true
+  },
+  "guards": [
+    "no pre-GALVANIC tactical hindsight",
+    "no automatic extra troop/gun/tank/aircraft count",
+    "no flat fortification survivability scalar",
+    "water-air separate from runway-air",
+    "vehicle reappearance only after damage classification"
+  ],
+  "expected_direction": {
+    "Nauru": "same broad suppression result, higher US workload and more recoverable residual support function",
+    "Tarawa": "higher H-hour fire-system survival; strategic atoll ceiling unchanged",
+    "Makin": "modest increase; combat manpower remains cap",
+    "Marshall_air": "modestly higher persistence, not extra existence"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "revision": "v010",
+  "current_restart": "CHECKPOINT_1944-04-30T24_v004",
+  "opening_baseline": "WARSTART_1941-12-07_08_v004",
+  "graph": "CHECKPOINT_GRAPH_v009.json",
+  "execution_policy": "Use current_restart. v004 is same-state platform/novel-weapon revalidation of v003 and requires both combat-factor and weapon/platform capability support before combat/gate adjudication.",
+  "settlement_chain": [
+    "CHECKPOINT_1942-04-10T24_v001",
+    "CHECKPOINT_1942-05-11T24_v001",
+    "CHECKPOINT_1942-06-02T24_v001",
+    "CHECKPOINT_1942-06-15T24_v002",
+    "CHECKPOINT_1942-09-02T24_v001",
+    "CHECKPOINT_1942-10-24T24_v001",
+    "CHECKPOINT_1942-11-19T24_v001",
+    "CHECKPOINT_1942-12-31T24_v001",
+    "CHECKPOINT_1944-04-30T24_v001",
+    "CHECKPOINT_1944-04-30T24_v002",
+    "CHECKPOINT_1944-04-30T24_v003",
+    "CHECKPOINT_1944-04-30T24_v004"
+  ],
+  "next_action": "Run 1944-05-01 Pacific gate, then advance May 1-15 with global checks. Finalize Ichigo-equivalent allocation, Myitkyina pressure, Sevastopol evacuation, I-400/401 joint readiness, Soviet Far East release, and ANVIL/HG decisions."
+}

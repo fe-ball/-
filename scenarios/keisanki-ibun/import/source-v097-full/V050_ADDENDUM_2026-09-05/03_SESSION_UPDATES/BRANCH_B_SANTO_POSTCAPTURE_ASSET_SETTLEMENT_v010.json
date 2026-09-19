@@ -1,0 +1,111 @@
+{
+  "title": "BRANCH B Santo Post-Capture Asset / Base Conversion Settlement v010",
+  "status": "WORKING-PROMOTED CURRENT",
+  "capture_date": "1942-09-29",
+  "airfields": {
+    "Turtle_Bay_Fighter1": {
+      "physical_survival_pct": [
+        80,
+        90
+      ],
+      "sustained_fighter_ops_days_after_capture": [
+        3,
+        5
+      ]
+    },
+    "Pallikulo": {
+      "useful_construction_pct": [
+        55,
+        75
+      ]
+    },
+    "Pekoa": {
+      "useful_incomplete_construction_pct": [
+        35,
+        60
+      ]
+    }
+  },
+  "captured_material": {
+    "avgas_usable_pct": [
+      10,
+      20
+    ],
+    "naval_fuel_usable_pct": [
+      10,
+      25
+    ],
+    "bombs_ammo_usable_pct": [
+      15,
+      30
+    ],
+    "construction_stock_usable_pct": [
+      30,
+      50
+    ],
+    "heavy_engineering_immediate_pct": [
+      15,
+      25
+    ],
+    "heavy_engineering_additional_repairable_pct": [
+      15,
+      25
+    ],
+    "vehicles_immediate_pct": [
+      10,
+      20
+    ],
+    "vehicles_repairable_pct": [
+      15,
+      25
+    ],
+    "harbor_craft_usable_repairable_pct": [
+      20,
+      35
+    ],
+    "repairable_us_aircraft": [
+      2,
+      5
+    ]
+  },
+  "november_capability": {
+    "operational_aircraft_sustainable": [
+      45,
+      65
+    ],
+    "fighters": [
+      28,
+      36
+    ],
+    "land_attack_recon": [
+      12,
+      20
+    ],
+    "seaplane_flyingboat_support": [
+      5,
+      10
+    ],
+    "naval_base_class": "forward fleet staging / aviation base, not full repair base"
+  },
+  "logistics": {
+    "first_month_restoration_import_tons": [
+      20000,
+      30000
+    ],
+    "captured_engineering_lift_avoided_tons": [
+      5000,
+      10000
+    ],
+    "steady_october_support_tons_per_month": [
+      10000,
+      15000
+    ]
+  },
+  "strategic_effects": [
+    "Efate becomes exposed to fighter-escorted Japanese operations",
+    "carrier search/base-suppression burden falls",
+    "New Caledonia convoy and surface forces can stage much farther south",
+    "Segond Channel provides forward anchorage but not heavy repair",
+    "physical-base capture outweighs low capture of flyable aircraft/fuel"
+  ]
+}

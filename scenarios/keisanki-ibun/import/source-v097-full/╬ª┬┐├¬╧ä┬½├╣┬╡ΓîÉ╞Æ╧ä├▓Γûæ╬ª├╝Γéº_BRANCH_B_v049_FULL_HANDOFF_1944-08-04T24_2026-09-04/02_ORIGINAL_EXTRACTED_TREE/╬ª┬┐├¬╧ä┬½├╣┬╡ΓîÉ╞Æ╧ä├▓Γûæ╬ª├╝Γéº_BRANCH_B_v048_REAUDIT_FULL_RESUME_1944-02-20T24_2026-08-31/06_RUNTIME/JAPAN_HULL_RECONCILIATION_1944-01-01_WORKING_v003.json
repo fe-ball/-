@@ -1,0 +1,423 @@
+{
+  "id": "JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v003",
+  "status": "WORKING_RECONCILIATION_SURFACE_AND_SUBMARINE_CENTER_CLOSED_PENDING_PROMOTION",
+  "as_of": "1944-01-01T00:00:00",
+  "purpose": "Rebuild Japanese surface-combatant and submarine physical/readiness wallets from realized Branch events rather than historical loss-date inheritance; close narrative-only damage slots; identify remaining submarine uncertainty before Eastern Fleet simulation.",
+  "precedence_note": "This v003 replaces v002 for 1944-01-01 wallet work. Surface hull center is retained; global submarine center is rebuilt from the 1-Jan-1944 historical organization/dead-node baseline plus named Branch loss-path changes, Sentaka construction and explicit opportunity cost.",
+  "method": [
+    "Start from ships actually completed by the date.",
+    "Retain historical losses only where the causal theater/route/event still exists or a Branch-specific event recreates the loss.",
+    "Restore ships whose historical loss depended on absent Guadalcanal/Solomons/Rabaul/New-Guinea emergency chains unless a Branch substitute loss is realized.",
+    "Book Branch-specific Midway/New-Caledonia/Efate/Bengal/GALVANIC damage and losses explicitly.",
+    "Separate physical hull existence, machinery/crew readiness, mission allocation and theater-transfer availability.",
+    "Do not use the old July-1944 legacy DD roster as authority where it conflicts with current Branch-specific loss assignments."
+  ],
+  "named_damage_loss_closures": {
+    "MIDWAY_SURFACE_PURSUIT_1942-06": {
+      "Chokai": {
+        "state": "HEAVY_DAMAGE",
+        "full_ready": "1942-08-late"
+      },
+      "Hiei": {
+        "state": "MODERATE_DAMAGE",
+        "full_ready": "1942-07-late"
+      },
+      "Kongo": {
+        "state": "LIGHT_DAMAGE",
+        "full_ready": "1942-07-early_mid"
+      },
+      "Yudachi": {
+        "state": "SUNK"
+      },
+      "Natsugumo": {
+        "state": "SUNK"
+      },
+      "Arashi": {
+        "state": "MODERATE_DAMAGE",
+        "full_ready": "1942-07"
+      },
+      "Hagikaze": {
+        "state": "LIGHT_DAMAGE",
+        "full_ready": "1942-06-late_to_07-early"
+      },
+      "Nowaki": {
+        "state": "UPPER_BAND_ONLY_LIGHT_DAMAGE_NOT_BOOKED_CENTER"
+      }
+    },
+    "NEW_CALEDONIA_1942-10-10": {
+      "Haruna": {
+        "state": "MEDIUM_HEAVY_DAMAGE_2x16IN",
+        "full_ready": "1943-01-05_to_15"
+      },
+      "Fubuki": {
+        "state": "SUNK"
+      }
+    },
+    "ATTU_1943-05": {
+      "I-31": {
+        "state": "SUNK_CENTER"
+      }
+    },
+    "MUTSU_1943-06-08": {
+      "Mutsu": {
+        "state": "SUNK"
+      }
+    },
+    "EFATE_1943-06": {
+      "Tanikaze": {
+        "state": "MEDIUM_DAMAGE",
+        "full_ready": "1943-07-early"
+      },
+      "CA_medium_damage": "CENTER_0"
+    },
+    "BENGAL_1943-10_12": {
+      "Uranami": {
+        "state": "TEMP_LIGHT_MEDIUM",
+        "ready": "1944-01-03_center"
+      },
+      "Shikinami": {
+        "state": "TEMP_LIGHT",
+        "ready": "1944-01-early"
+      }
+    },
+    "GALVANIC_1943-11": "Use GALVANIC_DAMAGE_REPAIR_REGEN_LEDGER_1943-11_1944Q1_v002; Soryu/Fujinami/I-175 already closed.",
+    "EFATE_SUBMARINE_1943-06": {
+      "I-178": {
+        "state": "SUNK_CENTER",
+        "date_band": "1943-06-14_to_15",
+        "cause": "US ASW during Efate withdrawal/refueling-line action",
+        "reason": "Legacy Efate settlement explicitly booked one conventional I-boat loss; I-178 is the strongest geographic/temporal fit and its historical loss was already in the same Efate/New-Hebrides danger area."
+      },
+      "Ko-4": {
+        "state": "MEDIUM_DAMAGE",
+        "date_band": "1943-06-14_to_15",
+        "repair": "Santo/Truk staged repair; full ready 1943-07-15_to_25",
+        "reason": "Legacy Efate settlement explicitly booked one first-generation Sentaka damaged; assigning Ko-4 preserves the late-Jul six-boat ready gate after repair."
+      }
+    },
+    "SOUTH_PACIFIC_PATROL_1943H2": {
+      "RO-35": {
+        "state": "SUNK_CENTER",
+        "date_band": "1943-09-early",
+        "area": "Fiji-Tonga/Efate outer traffic line",
+        "cause": "US destroyer/air ASW after contact-preservation patrol",
+        "reason": "Provides the one additional H2 attrition slot supported by the earlier summer 0-2 loss band without re-importing the historical Santo loss geometry; a medium RO boat is the best fit for the middle observation line."
+      }
+    },
+    "I-179_WORKUP_1943": {
+      "state": "SURVIVES_CENTER_DELAYED_WORKUP",
+      "branch_completion": "1943-09_to_10 after 3-4 month Sentaka opportunity-cost delay",
+      "incident": "late-workup flooding/vent-status near-miss; checklist/status-board discipline prevents historical catastrophic loss",
+      "ready": "1943-12-late_to_1944-01-early limited patrol ready",
+      "note": "Do not count as an experienced forward boat on 1 Jan."
+    }
+  },
+  "fleet_destroyer_reconciliation": {
+    "definition": "modern fleet-type DD line: Fubuki/Akatsuki through Shimakaze; older Kamikaze/Mutsuki/Minekaze types are separate local-escort/transport pool",
+    "classes": [
+      {
+        "line": "Fubuki_Akatsuki",
+        "completed_by_1944_01_01": 24,
+        "branch_permanent_losses": [
+          "Shinonome",
+          "Sagiri",
+          "Oboro",
+          "Isonami",
+          "Fubuki"
+        ],
+        "branch_survivors": 19,
+        "restored_from_absent_historical_loss_chain_examples": [
+          "Murakumo",
+          "Shirayuki",
+          "Hatsuyuki",
+          "Asagiri",
+          "Ayanami",
+          "Yugiri",
+          "Akatsuki"
+        ]
+      },
+      {
+        "line": "Hatsuharu",
+        "completed_by_1944_01_01": 6,
+        "branch_permanent_losses": [
+          "Nenohi"
+        ],
+        "branch_survivors": 5,
+        "restored_examples": [
+          "Ariake",
+          "Yugure"
+        ]
+      },
+      {
+        "line": "Shiratsuyu",
+        "completed_by_1944_01_01": 10,
+        "branch_permanent_losses": [
+          "Yamakaze",
+          "Yudachi"
+        ],
+        "branch_survivors": 8,
+        "restored_examples": [
+          "Murasame",
+          "Kawakaze"
+        ]
+      },
+      {
+        "line": "Asashio",
+        "completed_by_1944_01_01": 10,
+        "branch_permanent_losses": [
+          "Arare",
+          "Natsugumo"
+        ],
+        "branch_survivors": 8,
+        "restored_examples": [
+          "Oshio",
+          "Asashio",
+          "Arashio",
+          "Minegumo"
+        ]
+      },
+      {
+        "line": "Kagero",
+        "completed_by_1944_01_01": 19,
+        "branch_permanent_losses": [
+          "Natsushio"
+        ],
+        "branch_survivors": 18,
+        "restored_examples": [
+          "Hayashio",
+          "Tokitsukaze",
+          "Kagero",
+          "Kuroshio",
+          "Oyashio",
+          "Hatsukaze",
+          "Arashi",
+          "Hagikaze"
+        ]
+      },
+      {
+        "line": "Yugumo",
+        "completed_by_1944_01_01": 16,
+        "branch_permanent_losses": [],
+        "branch_survivors": 16,
+        "restored_examples": [
+          "Yugumo",
+          "Makigumo",
+          "Makinami",
+          "Takanami",
+          "Onami",
+          "Kiyonami",
+          "Suzunami"
+        ]
+      },
+      {
+        "line": "Akizuki",
+        "completed_by_1944_01_01": 6,
+        "branch_permanent_losses": [],
+        "branch_survivors": 6,
+        "restored_examples": [
+          "Teruzuki",
+          "Niizuki"
+        ]
+      },
+      {
+        "line": "Shimakaze",
+        "completed_by_1944_01_01": 1,
+        "branch_permanent_losses": [],
+        "branch_survivors": 1
+      }
+    ],
+    "physical_hulls_center": 81,
+    "mechanically_crew_ready_band": "70-75",
+    "ready_center": 72,
+    "workup_or_short_maintenance_band": "6-11",
+    "allocation_note": "Ready does not mean transferable. Carrier screens, Central Pacific reaction, South-Pacific bases, tanker/convoy protection and local fleets consume many hulls.",
+    "comparison_to_old_planning_band": "The Sep-1943 planning band 58-66 undercounted Jan-1944 physical hulls because it did not yet close absent-event Solomon losses hull-by-hull. Current settlements contain only three Branch-specific permanent modern-DD substitute losses (Yudachi, Natsugumo, Fubuki) plus retained non-Solomon losses listed above; do not force the new ledger back into the old band."
+  },
+  "light_cruiser_reconciliation": {
+    "physical_combat_hulls_center": 21,
+    "roster": {
+      "Tenryu": [
+        "Tenryu",
+        "Tatsuta"
+      ],
+      "Kuma": [
+        "Kuma",
+        "Tama",
+        "Kitakami",
+        "Oi",
+        "Kiso"
+      ],
+      "Nagara": [
+        "Nagara",
+        "Isuzu",
+        "Natori",
+        "Yura",
+        "Kinu",
+        "Abukuma"
+      ],
+      "Sendai": [
+        "Sendai",
+        "Jintsu",
+        "Naka"
+      ],
+      "singletons": [
+        "Yubari",
+        "Oyodo"
+      ],
+      "Agano": [
+        "Agano",
+        "Noshiro",
+        "Yahagi"
+      ]
+    },
+    "branch_loss_logic": {
+      "Tenryu": "historical Madang reinforcement loss not inherited because Branch PNG campaign geometry differs after Port Moresby capture",
+      "Yura": "historical Guadalcanal air-loss chain absent",
+      "Jintsu": "historical Kolombangara loss absent",
+      "Sendai": "historical Empress Augusta Bay loss absent"
+    },
+    "readiness_1944_01_01": {
+      "fully_or_near_ready_band": "18-20",
+      "Yahagi": "WORKUP; completed 1943-12-29, not Jan-early expeditionary asset",
+      "Kinu": "operational at frontier but carries near-term Singapore refit/maintenance debt",
+      "Oi_Kitakami": "local transport/training/refit-oriented, useful but not preferred young combat layer",
+      "Agano_Noshiro_Oyodo": "no current-Branch damage/commitment found that blocks Jan movement; individual origin/route still must be assigned"
+    }
+  },
+  "submarine_reconciliation": {
+    "historical_1944_01_01_baseline": {
+      "paper_organization_hulls": 78,
+      "known_dead_nodes_still_carried_on_paper": [
+        "I-19",
+        "I-21",
+        "I-35",
+        "I-39",
+        "I-40",
+        "RO-38",
+        "RO-100"
+      ],
+      "physical_center_after_dead_node_removal": 71,
+      "sensitivity": "71-72 because RO-38 loss date/status was historically uncertain",
+      "note": "Using the 1 Jan 1944 IJN organization as the counting frame prevents double-counting training/reserve boats and exposes the wartime paper-roster lag."
+    },
+    "branch_deltas_to_historical_physical": {
+      "settled_1942_net_survival_delta_center": 2,
+      "I-30_survives_1942_Singapore_mine": 1,
+      "historical_1943_submarine_losses_reviewed": 27,
+      "branch_losses_within_that_27": [
+        "I-31 (Attu)",
+        "I-178 (Efate reassigned loss)",
+        "RO-35 (alternate South-Pacific H2 attrition)"
+      ],
+      "restored_or_surviving_from_absent_loss_chains_count": 24,
+      "first_generation_Sentaka_physical": 6,
+      "I-183_cancelled_or_indefinitely_deferred": -1,
+      "I-179_I-181_delay_physical_effect_on_Jan1": 0,
+      "late_conventional_schedule_ripple_sensitivity": "0 to -1 hull around Jan1; center 0 pending exact yard-tail assignment"
+    },
+    "global_physical_hulls": {
+      "center": 103,
+      "sensitivity_band": "102-104",
+      "calculation_center": "71 + 2 + 1 + 24 + 6 - 1 = 103",
+      "supersedes": "v002 86-92 / center 89; that band retained too many historical H2 losses implicitly."
+    },
+    "readiness_layers_1944_01_01": {
+      "physical_hulls": "102-104 center 103",
+      "combat_usable_for_some_military_sortie": "82-89 center 86",
+      "ocean_patrol_ready_or_near_ready": "63-71 center 67",
+      "not_immediately_expeditionary": "home-district reserve/training boats, new-workup boats, Yanagi boats, overhaul/repair boats and specialist test hulls",
+      "do_not_flat_multiply": "The earlier 1.4-1.6x effective-patrol-power anchor was spring-1943 theater output, not a permanent readiness multiplier."
+    },
+    "named_1943_loss_path_pass": {
+      "BRANCH_LOST": [
+        "I-31",
+        "I-178",
+        "RO-35"
+      ],
+      "SURVIVE_ABSENT_ALEUTIAN_CHAIN": [
+        "I-9",
+        "I-24",
+        "I-7"
+      ],
+      "SURVIVE_ABSENT_SOLOMON_NEW_HEBRIDES_CHAIN": [
+        "I-1",
+        "I-18",
+        "RO-34",
+        "RO-102",
+        "RO-107",
+        "I-168",
+        "RO-103",
+        "I-17",
+        "I-182",
+        "I-25",
+        "RO-101",
+        "I-20",
+        "I-19",
+        "I-35",
+        "RO-100",
+        "I-40",
+        "I-39",
+        "I-21",
+        "RO-38"
+      ],
+      "SPECIAL": [
+        "I-179 survives delayed work-up accident center",
+        "I-34 survives historical Ultra-cued Taurus ambush but is outbound Yanagi and unavailable",
+        "I-30 survives 1942 mine and is retained as test/training/tech-integration hull unless later dated sortie is opened"
+      ]
+    },
+    "jan1_indian_ocean_local_clock": {
+      "ON_STATION": [
+        "I-162",
+        "I-166"
+      ],
+      "FORWARD_READY_OR_NEAR_READY": [
+        "RO-110",
+        "I-165",
+        "I-27",
+        "I-37",
+        "RO-111"
+      ],
+      "EN_ROUTE_SOUTH_NOT_CEYLON_READY": [
+        "RO-112"
+      ],
+      "PHYSICALLY_EXTANT_BUT_NOT_AVAILABLE_FOR_RN_RESPONSE": [
+        "I-8 post-Yanagi debrief/refit",
+        "I-10 Sasebo overhaul",
+        "I-29 outbound Yanagi",
+        "I-34 Branch-surviving outbound Yanagi",
+        "I-175 GALVANIC repair",
+        "I-30 tech-integration/training allocation"
+      ],
+      "JAN2_TO_7_NATURAL_SORTIE_CLOCK": [
+        "RO-110 departs ~Jan2",
+        "I-165 ~Jan7",
+        "RO-111 ~Jan7 while I-162/I-166 remain out"
+      ],
+      "JAN7_EFFECT": "5 boats on patrol or outbound without any Pacific transfer",
+      "JAN10_TO_15_ESCALATION": "I-27 and I-37 can be activated as Eastern-Fleet warning rises, giving ~7 active/outbound conventional boats before using Sentaka.",
+      "RO-112": "can become a late-Jan eighth/ninth hull only after reaching Southwest bases and being retasked."
+    },
+    "sentaka_rule": {
+      "jan1_west_committed": 0,
+      "west_transfer_ready": "1-2 only after RN eastbound contact quality justifies stale-contact sprint/recontact role",
+      "efate_damage_note": "Ko-4 repaired by late July 1943, so all six first-generation hulls are physically available again by year-end subject to normal maintenance."
+    },
+    "paper_roster_liaison_effect": "Historical Jan-1944 paper organizations carried several already-lost boats. Branch survival plus better status discipline reduces false silent-node ambiguity: a missing report is less often an unknowable sunk-vs-radio-failure case, improving contact-network confidence even before any tactical performance gain."
+  },
+  "warship_construction_correction": {
+    "fleet_DD": "Yugumo build time only 3-5% shorter and Akizuki 2-4% shorter; Jan1 advantage is survival and availability, not mass extra hulls",
+    "kaibokan": "quantity difference is modest under FOUNDATIONAL_BASELINE_REAUDIT_1944-01-01_v001; delete old 36-42 completion claim. Main effect is better availability/doctrine and gradual separation of slow-convoy escort from fleet DD",
+    "Matsu": "no large emergency acceleration before 1944",
+    "Chitose_Chiyoda": "remain seaplane tenders",
+    "Nisshin": "survives absent New Georgia loss chain",
+    "Ise_Hyuga": "remain conventional battleships",
+    "Taiho": "Feb-1944 completion then work-up; not Jan asset",
+    "Ibuki": "heavy cruiser path, late Jun/early Jul 1944; not Jan asset"
+  },
+  "remaining_hard_close_items": [
+    "Exact 1942 individual identity behind the already-settled +2 year-end net survival delta can remain provenance-level unless a later named boat dependency requires it; I-30 is separately named and booked.",
+    "Assign exact Jan-1944 origin/route for Oyodo and the selected survival-dividend DD group before issuing movement orders.",
+    "Promote this ledger into CURRENT only when the Eastern Fleet signal timeline actually opens; no full package is generated at this working stage."
+  ]
+}

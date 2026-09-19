@@ -1,0 +1,170 @@
+{
+  "revision": "v001",
+  "id": "TRUK_HAILSTONE_DAY1_AIR_SEA_1944-02-20_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "date": "1944-02-20",
+  "scope": "HAILSTONE-equivalent first daylight period after the initial fighter sweep, including lagoon shipping, escape traffic, US/Japanese submarines, surface-force geometry and the night-counterstrike gate.",
+  "parents": [
+    "FLINTLOCK_POSTCAPTURE_AND_NEXT_OPS_1944-02-06_27_WORKING_v001",
+    "TRUK_HAILSTONE_WARNING_CHAIN_1944-02-15_20_WORKING_v001",
+    "TRUK_HAILSTONE_FIRST_FIGHTER_SWEEP_1944-02-20_WORKING_v001"
+  ],
+  "US_force_allocation_center": {
+    "Truk_fast_decks": {
+      "CV": [
+        "Wasp CV-7",
+        "Yorktown CV-10",
+        "Essex CV-9",
+        "Intrepid CV-11",
+        "Bunker Hill CV-17"
+      ],
+      "CVL": [
+        "Belleau Wood CVL-24",
+        "Monterey CVL-26",
+        "Cowpens CVL-25"
+      ],
+      "count": "5 CV + 3 CVL",
+      "ready_aircraft_band": [
+        445,
+        485
+      ],
+      "note": "Princeton and Langley are centered on the Eniwetok/CATCHPOLE support split with CVEs; Cabot is campaign-out."
+    },
+    "fast_surface_cover": "Most fast battleship/cruiser screen remains with the carriers. A historical full Iowa/New Jersey leaker-hunt is not automatically detached without a worthwhile surface target."
+  },
+  "Japanese_mobile_asset_state_before_dawn": {
+    "already_evacuated": [
+      "first-line carriers and major fleet combatants",
+      "Hiryu after emergency Truk repair when ferry/recovery-safe",
+      "Akashi/mobile repair specialists",
+      "major fleet oilers and high-value tenders",
+      "most high-speed merchant/auxiliary shipping"
+    ],
+    "lagoon_center_at_dawn": {
+      "light_cruisers": 0,
+      "destroyers_or_destroyer_equivalents": "2-4",
+      "small_escorts_patrol_service_craft": "4-7",
+      "merchant_auxiliary_over_1000GRT": "10-14",
+      "harbor_small_craft": "numerous"
+    },
+    "last_convoy": {
+      "departure": "1944-02-19 evening/night",
+      "composition_center": "5-8 merchant/auxiliary hulls with 2 escorts",
+      "route": "west/southwest toward Palau/western Carolines, with route variation rather than a radio-announced fixed convoy lane",
+      "purpose": "remove seaworthy but lower-priority hulls once 'next dawn' warning becomes HIGH"
+    }
+  },
+  "US_submarine_exit_pickets": {
+    "logic": "US submarines can be positioned on likely Truk exits by the HAILSTONE operation plan even without Branch-forbidden plaintext intelligence; Japanese COMSEC removes exact convoy cueing, not geographic exit interdiction.",
+    "useful_pickets_center": "3-5 around western/northern/southern escape sectors",
+    "last_convoy_centered_contact": {
+      "result": "One western picket obtains a night/periscope-radar contact on the last convoy.",
+      "weapon_result": "One medium merchant/auxiliary ship of about 4,000-7,000 GRT sunk or constructive-total-loss centered; a second hit is sensitivity only.",
+      "Japanese_response": "Escort counterattack forces the submarine deep; US submarine survives centered.",
+      "high_value_guard": "No Akashi/fleet-oiler/carrier is retroactively placed in this convoy."
+    }
+  },
+  "daylight_air_campaign_after_first_sweep": {
+    "US_operational_choice": "Shift a larger-than-historical share of the next waves to deliberate air-defense suppression because the Japanese plot/radar/AA/fighter system remains coherent and lagoon shipping density is lower.",
+    "priority": [
+      "Eten/Param/Moen runways and fighter revetments",
+      "warning radar/communications/plot nodes and AA fire-direction sites",
+      "aviation fuel/ammunition and maintenance zones",
+      "fixed workshops/power",
+      "remaining lagoon shipping"
+    ],
+    "additional_Japanese_air_irrecoverable_band": [
+      23,
+      30
+    ],
+    "additional_Japanese_air_irrecoverable_center": 26,
+    "additional_Japanese_air_damaged_band": [
+      12,
+      18
+    ],
+    "additional_US_air_irrecoverable_band": [
+      13,
+      18
+    ],
+    "additional_US_air_irrecoverable_center": 15,
+    "additional_US_air_damaged_band": [
+      18,
+      28
+    ],
+    "day1_air_losses_cumulative_center": {
+      "Japan_irrecoverable": 48,
+      "US_irrecoverable": 24
+    },
+    "dusk_Japanese_air_state": {
+      "serviceable_fighters_band": [
+        14,
+        20
+      ],
+      "serviceable_fighters_center": 17,
+      "serviceable_attack_recon_night_capable_band": [
+        12,
+        18
+      ],
+      "immediately_relaunchable_fighters": "8-12 after refuel/rearm and strip availability",
+      "interpretation": "US has practical daylight air superiority by late afternoon, but Japanese night/recon/harassment capability is not erased."
+    }
+  },
+  "Truk_fixed_system_damage_by_dusk": {
+    "airfields": "All major strips cratered and cycle-limited; at least one strip remains usable for emergency/small-package launches by dusk after repair-party work.",
+    "air_defense_network": "Degraded but not decapitated. One precision AA fire-direction channel remains reliable centered; a second is intermittent/local.",
+    "warning_plot_output": "roughly 45-60% of dawn effective throughput centered by late afternoon",
+    "aviation_maintenance": "about 30-45% immediate functional loss",
+    "fuel_fire": "roughly 3,000-6,000 tons burned/contaminated/isolated by end of first daylight period centered",
+    "communications_power": "local outages and damaged nodes; low-bandwidth command connectivity survives through redundancy"
+  },
+  "lagoon_shipping_day1": {
+    "centered_losses": {
+      "merchant_auxiliary": "4-6 hulls sunk/constructive total loss",
+      "GRT_band": [
+        18000,
+        32000
+      ],
+      "destroyer": "0 sunk centered; 1 damaged/mission-limited centered",
+      "small_craft": "2-4 sunk/destroyed"
+    },
+    "interpretation": "Still a severe local shipping loss, but radically below historical mass destruction because much of the valuable mobile inventory is already outside Truk."
+  },
+  "US_surface_sweep": {
+    "historical_anchor": "Historically Spruance detached Iowa/New Jersey/cruisers/destroyers and destroyed Katori/Maikaze/other leakers after air reports.",
+    "branch_center": "No full historical TG50.9 gun action. Air/sea search does not find a Katori-class valuable escape group close enough to justify pulling the fast battleships away from the harder-fighting carrier screen.",
+    "possible_action": "Cruiser/destroyer outer sweep or shore bombardment is limited; may finish a small damaged craft but gains no major surface kill centered.",
+    "secondary_effect": "Keeping the fast battleships with TF58 slightly strengthens evening/night AA and ASW protection."
+  },
+  "Japanese_submarines_near_TF58": {
+    "useful_contact_nodes": "2-4 favorably placed from the warning arc, with other boats committed to Eniwetok/withdrawal.",
+    "daylight_center": "One boat obtains a coarse carrier-screen contact/bearing after US launch/recovery activity reveals the operating sector, but does not achieve a satisfactory torpedo firing position.",
+    "US_ASW_effect": "One Japanese boat is mission-damaged/forced outward centered; no submarine sinking centered during daylight.",
+    "information_payoff": "The contact plus RI/DF and returning-aircraft observations provides a 1-3 hour-old sector cue for the Japanese night-air counterstrike."
+  },
+  "Japanese_surface_fleet": {
+    "counter_sortie": "NO-GO",
+    "reason": "Shokaku/Zuikaku/Hiryu and major surface units are already west of Truk; no fresh weapon-quality TF58 track and no positive-EV reason to reverse into five fleet carriers plus fast battleships.",
+    "strategic_action": "Continue dispersal toward Palau/Philippines/home-area support nodes while Truk absorbs the fixed-base attack."
+  },
+  "night_counterstrike_gate": {
+    "status": "OPEN_NOT_YET_RESOLVED",
+    "available_package_band": [
+      14,
+      20
+    ],
+    "sources": "surviving Truk night-capable attack/recon aircraft plus limited nearby reinforcement/staging only if physically date/range valid",
+    "cue": "submarine/RI/DF sector picture, not an exact carrier position",
+    "US_state": "TF58 is more alert than historical because daylight resistance was substantial and fast battleships remain concentrated with the carriers.",
+    "next_question": "Can Japan convert a stale sector cue into a 20-Feb night torpedo contact, and if so is the payoff a carrier/escort hit or only losses against radar CAP/AA?"
+  },
+  "Catchpole_interlock": {
+    "effect": "The Truk warning/submarine arc and surviving night-air effort are resources not available at Eniwetok. The Japanese cannot simultaneously mass the same submarines and air crews against both operations.",
+    "US_effect": "Princeton/Langley plus CVE/old-BB support can continue the Eniwetok operation while the five fleet carriers and three CVLs sustain Truk suppression."
+  },
+  "day1_centered_judgment": {
+    "air": "US clear tactical/operational advantage by dusk, obtained at materially higher aircraft cost than historical HAILSTONE.",
+    "sea": "Japanese pre-evacuation prevents the historical surface massacre and saves most high-value mobile assets, but transfers risk into submarine-interdicted escape routes and sacrifices fixed Truk infrastructure.",
+    "base": "Truk is wounded, not yet neutralized at dusk. The second day remains necessary if the US objective is to make it unusable as a fleet/air intervention base.",
+    "next": "Resolve the 20/21-Feb night counterstrike and submarine/ASW interaction, then the second daylight period and final Truk closeout."
+  }
+}

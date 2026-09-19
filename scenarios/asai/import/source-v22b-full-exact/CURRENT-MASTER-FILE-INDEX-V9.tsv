@@ -1,0 +1,48 @@
+authority_rank	status	role	pointer	supersession_note
+0	PACKAGE-CONTROL	start	00-START-HERE-CURRENT.md	V9 session-close current pointer
+1	PACKAGE-CONTROL	machine current state	PACKAGE-STATE-V9.tsv	machine-readable cross-check; referenced narrative files retain authority
+2	CURRENT-HIGHEST	session handoff	70-CURRENT-2026-09-05-SESSION-CLOSE/00-SESSION-HANDOFF-V9.md	all post-V8 session decisions
+3	CURRENT-HIGHEST	China current state	70-CURRENT-2026-09-05-SESSION-CLOSE/08A-CHINA-1939-06-20-STATE-V9.tsv	current chronological combat checkpoint
+4	CURRENT-HIGHEST	next China gate	70-CURRENT-2026-09-05-SESSION-CLOSE/09-NEXT-GATE-SWATOW-1939-06-21-V9.md	resume here
+5	CURRENT-HIGH	cross-theater allocation guard	70-CURRENT-2026-09-05-SESSION-CLOSE/07-CHINA-CROSS-THEATER-ALLOCATION-GUARD-V9.md	prevents Nomonhan/China double counting
+6	CURRENT-HIGH	China catch-up	70-CURRENT-2026-09-05-SESSION-CLOSE/08-CHINA-CATCHUP-1939-04-20-06-20-V9.md	Suixian-Zaoyang + May25-Jun20 closure
+7	CURRENT-HIGH	Nomonhan closure	70-CURRENT-2026-09-05-SESSION-CLOSE/01-NOMONHAN-CLOSURE-CANON-V9.md	supersedes historical Aug22-31 pocket continuation
+8	CURRENT-HIGH	Nomonhan losses	70-CURRENT-2026-09-05-SESSION-CLOSE/02-NOMONHAN-LOSS-LEDGER-V9.tsv	campaign terminal working ledger
+9	CURRENT-HIGH	Nomonhan air/ammo correction	70-CURRENT-2026-09-05-SESSION-CLOSE/03-NOMONHAN-AIR-SPECIAL-AMMO-CORRECTION-V9.md	supersedes minority/frozen EX2 and old 576/192 special-ammo stock interpretation
+10	CURRENT-HIGH	Nomonhan air/ammo working ledger	70-CURRENT-2026-09-05-SESSION-CLOSE/03A-NOMONHAN-AIR-SPECIAL-AMMO-WORKING-V9.tsv	machine-readable companion to rank 9
+11	CURRENT-HIGH	Nomonhan replacement pipeline	70-CURRENT-2026-09-05-SESSION-CLOSE/04-NOMONHAN-REINFORCEMENT-PIPELINE-V9.md	new replacement/Manchuria saved-pool authority
+12	CURRENT-HIGH	Nomonhan replacement working ledger	70-CURRENT-2026-09-05-SESSION-CLOSE/04A-NOMONHAN-REINFORCEMENT-PIPELINE-V9.tsv	machine-readable companion to rank 11
+13	CURRENT-HIGH	actor lessons / Soviet threat	70-CURRENT-2026-09-05-SESSION-CLOSE/05-NOMONHAN-ACTOR-LESSONS-THREAT-ESTIMATE-V9.md	postbattle interpretation authority
+14	CURRENT	uranium/nuclear handoff	70-CURRENT-2026-09-05-SESSION-CLOSE/06-URANIUM-NUCLEAR-RESEARCH-HANDOFF-V9.md	working future branch; no industrial enrichment
+15	CURRENT-HIGH	China G3M EX-state closeout	70-CURRENT-2026-09-05-SESSION-CLOSE/11-G3M-CHONGQING-EX-STATE-CLOSEOUT-V9.md	closes Jun20 China replay at conservative EX0-equivalent performance credit; local named-lot evidence may override
+16	CURRENT-HIGH	Nomonhan special-ammo formal flow	70-CURRENT-2026-09-05-SESSION-CLOSE/12A-NOMONHAN-SPECIAL-AMMO-FLOW-LEDGER-V9.tsv	formal minimum production/inspection/forwarding reconstruction; supersedes pre-formal status in 03A
+17	CURRENT-HIGH	Nomonhan aviation stock-flow closeout	70-CURRENT-2026-09-05-SESSION-CLOSE/13A-NOMONHAN-AVIATION-STOCKFLOW-LEDGER-V9.tsv	campaign-sufficient named-unit/aggregate stock-flow through critical Aug20-22
+18	CURRENT	uranium Aug31 system balance	70-CURRENT-2026-09-05-SESSION-CLOSE/14A-URANIUM-SYSTEM-BALANCE-LEDGER-V9.tsv	formalizes 55-65 t-U scenario strategic system balance; geography remains local
+19	CURRENT	RIKEN isotope research through Aug1939	70-CURRENT-2026-09-05-SESSION-CLOSE/15A-RIKEN-ISOTOPE-RESEARCH-LEDGER-V9.tsv	dated research-state ledger; future scale-up is a later chronological gate
+20	CURRENT	active session/combat issue queue	70-CURRENT-2026-09-05-SESSION-CLOSE/10A-ACTIVE-OPEN-ISSUES-V9.tsv	active queue only; 10-OPEN-ISSUES-V9.tsv retained as full issue history
+21	CURRENT	open issues	70-CURRENT-2026-09-05-SESSION-CLOSE/10-OPEN-ISSUES-V9.tsv	future audit queue
+22	CURRENT-HIGH	terminology/supersession guard	TERMINOLOGY-AND-SUPERSESSION-GUARD-V9.tsv	V9 consolidated global no-backflow guard; supersedes V8 guard as current control file
+23	CURRENT-HIGH	decision-intent overlay	DECISION-INTENT-INDEX-V9.tsv	V9 current semantic index; V7 index is provenance/fallback only
+24	CURRENT-HIGH	technical discussion router	71-CURRENT-TECHNICAL-CONTROL-V9/01-TECHNICAL-DISCUSSION-INDEX-V9.tsv	current V9 technical semantic router; replaces nested/old computation master for restart routing
+25	CURRENT-HIGH	technical issue register	71-CURRENT-TECHNICAL-CONTROL-V9/02-TECHNICAL-ISSUE-REGISTER-V9.tsv	global technical open/closed register; 70/.../10 remains session/combat queue
+26	CURRENT-HIGH	cheat distance/transfer guard	71-CURRENT-TECHNICAL-CONTROL-V9/05-CHEAT-DISTANCE-AND-TRANSFER-GUARD-V9.md	CD0-CD4 cross-organizational guard; paid transferred tools persist, personal foreknowledge does not auto-replicate
+27	CURRENT-HIGH	crypto/SIGINT institutional closeout	71-CURRENT-TECHNICAL-CONTROL-V9/06-CRYPTO-SIGINT-INSTITUTIONAL-CLOSEOUT-V9.md	closes 1939 institutional/mechanized baseline; named target breaks remain event/network gated
+28	CURRENT-HIGH	naval FCS class closeout	71-CURRENT-TECHNICAL-CONTROL-V9/07-NAVAL-FCS-CLASS-CLOSEOUT-V9.md	closes 1939 class-level R baselines; individual later refit/radar events remain local
+29	CURRENT-HIGH	cheat rule compendium	71-CURRENT-TECHNICAL-CONTROL-V9/08-CHEAT-RULE-COMPENDIUM-V9.md	consolidated CD/capability/aircraft-engine transformation/deployment anti-stage-skipping rules; local type/value canon remains authoritative
+30	CURRENT-HIGH	technical stage taxonomy	71-CURRENT-TECHNICAL-CONTROL-V9/08B-TECHNICAL-STAGE-TAXONOMY-V9.tsv	machine-readable CD/U/H-C-M-E-P-I-A/EH-EA/EA-PA-CI/ID/EX/FCS/R stage vocabulary
+31	CURRENT-HIGH	mandatory capability preflight	50-CURRENT-1939-1941-AIRPOWER-AUDIT/00A-MANDATORY-CHEAT-CAPABILITY-PREFLIGHT-CANON-V8.md	retained V8 mandatory guard
+32	CURRENT-HIGH	state machine	50-CURRENT-1939-1941-AIRPOWER-AUDIT/10-HANDOFF-STATE-MACHINE-CANON-V8.md	retained rollback/replay semantics
+33	CURRENT-HIGH	historical identity guard	50-CURRENT-1939-1941-AIRPOWER-AUDIT/50-HISTORICAL-DESIGNATION-NOT-IDENTICAL-HARDWARE-GUARD-V8.md	retained
+34	CURRENT-HIGH	fire-control chain	50-CURRENT-1939-1941-AIRPOWER-AUDIT/51-FIRE-CONTROL-SIGHTING-BOMBING-INTEGRATION-CANON-V8.md	retained
+35	CURRENT-HIGH	relative mobility	50-CURRENT-1939-1941-AIRPOWER-AUDIT/52-RELATIVE-MOBILITY-GEOMETRY-TIMING-CANON-V8.md	retained
+36	CURRENT-HIGH	photo/deep-fire	50-CURRENT-1939-1941-AIRPOWER-AUDIT/53-AERIAL-PHOTO-RECON-DEEP-FIRE-INTEGRATION-CANON-V8.md	retained
+37	CURRENT-HIGH	reinforcement/HOT reserve	50-CURRENT-1939-1941-AIRPOWER-AUDIT/54-NOMONHAN-REINFORCEMENT-HOT-RESERVE-CANON-V8.md	retained through Aug22 where not superseded by V9 closure
+38	CURRENT-HIGH	piston exhaust	50-CURRENT-1939-1941-AIRPOWER-AUDIT/49-PISTON-EXHAUST-ENERGY-RECOVERY-CANON-V8.md	retained; V9 updates unit adoption state
+39	CURRENT	historical vehicle delta	50-CURRENT-1939-1941-AIRPOWER-AUDIT/47-1939-04-20-HISTORICAL-VEHICLE-DELTA-CANON-V8.md	retained
+40	CURRENT	company Apr20 state	50-CURRENT-1939-1941-AIRPOWER-AUDIT/39-1939-04-20-ASAI-COMPANY-MASTER-ROSTER-CANON-V8.md	retained physical/company carry-in
+41	CURRENT	computation/crypto closure	71-CURRENT-TECHNICAL-CONTROL-V9/03-COMPUTATION-CRYPTO-TECHNICAL-CLOSURE-V9.md	current V9 method closure; TECHCLOSE2 closes 1939 institutional baseline, named target outcomes remain event/network gated
+42	CURRENT	naval computation/FCS integration closure	71-CURRENT-TECHNICAL-CONTROL-V9/04-NAVAL-COMPUTATION-FCS-INTEGRATION-CLOSURE-V9.md	R0-R3 taxonomy; TECHCLOSE2 07/07A closes 1939 class baselines while later individual/refit/radar events remain local
+90	BASE	prior V8 control index	CURRENT-MASTER-FILE-INDEX-V8.tsv	provenance/fallback only where not explicitly superseded by V9
+91	BASE	prior V8 combat replay tree	60-CURRENT-1939-COMBAT-REPLAY/	valid through its closed checkpoints except explicit V9 corrections
+99	ARCHIVE	older V7 control index	CURRENT-MASTER-FILE-INDEX-V7.tsv	provenance/comparator only
+100	ARCHIVE	V6 base tree	01-BASE-V6/	provenance/comparator only

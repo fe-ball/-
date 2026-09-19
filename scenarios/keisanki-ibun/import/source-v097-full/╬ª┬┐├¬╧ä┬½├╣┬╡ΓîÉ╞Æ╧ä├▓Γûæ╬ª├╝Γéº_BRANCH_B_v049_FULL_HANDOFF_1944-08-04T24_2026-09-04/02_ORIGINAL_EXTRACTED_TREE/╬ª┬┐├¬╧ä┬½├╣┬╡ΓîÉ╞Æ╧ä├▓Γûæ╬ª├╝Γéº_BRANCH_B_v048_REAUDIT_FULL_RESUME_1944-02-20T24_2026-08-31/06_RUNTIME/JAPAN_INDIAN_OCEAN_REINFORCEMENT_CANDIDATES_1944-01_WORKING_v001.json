@@ -1,0 +1,128 @@
+{
+  "id": "JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v001",
+  "status": "WORKING_CANDIDATE_SCREEN",
+  "as_of": "1944-01-01T00:00:00",
+  "purpose": "Separate actual Branch shipbuilding/survival dividend from fantasy acceleration, then screen younger hulls for Indian Ocean observation/submarine liaison/light-force reinforcement.",
+  "shipbuilding_branch_deltas": {
+    "Yugumo_class": "3-5% shorter completion/fit-out clock; normally 2-4 weeks, not months",
+    "Akizuki_class": "2-4% shorter clock; gun/director/electrical bottlenecks remain",
+    "Matsu_class": "no major emergency acceleration before 1944; not a Jan-1944 reinforcement source",
+    "kaibokan_1943": "20-30 extra/accelerated orders; 1943 completion center 36-42, upper about 45; key effect is freeing fleet DD from slow convoy escort",
+    "Chitose_Chiyoda": "remain seaplane tenders, not converted to carriers",
+    "Ise_Hyuga": "remain conventional 12-gun battleships; no hybrid conversion downtime",
+    "Nisshin": "survives because historical New Georgia loss chain absent",
+    "Ibuki": "heavy-cruiser path; completion not before late Jun/early Jul 1944; irrelevant to Jan move",
+    "Taiho": "Feb 1944 completion, then work-up; not Jan asset"
+  },
+  "survival_dividend": {
+    "Yugumo_class": "16 hulls historically completed by 1944-01-01; seven of those historical pre-1944 losses are tied to absent Guadalcanal/Solomons operations and therefore return to the Branch pool unless branch-specific loss assigned",
+    "Akizuki_class": "six hulls completed by 1944-01-01; Teruzuki and Niizuki historical pre-1944 losses are absent in this Branch unless separately assigned",
+    "minimum_young_DD_dividend_vs_history_from_these_two_classes": 9,
+    "warning": "Kagero-class extra survival is probably substantial but must wait for 1941-early-1943 hull audit before being counted."
+  },
+  "candidate_screen": [
+    {
+      "name": "Oyodo",
+      "priority": "A",
+      "recommended_role": "Singapore/Sabang mobile ISR, communications and submarine-report fusion headquarters; not a line-of-battle cruiser",
+      "why": "completed Feb 1943; fast; originally conceived around long-range reconnaissance/submarine-squadron command functions; Branch sensor/DF/contact-handoff improvements increase the value of this role",
+      "transfer_cost": "medium; currently Pacific/Combined-Fleet useful but less directly tied to a specific carrier air group than Agano"
+    },
+    {
+      "name": "Teruzuki",
+      "priority": "A-",
+      "recommended_role": "AA/picket escort for mobile observation/light-force group",
+      "why": "Akizuki-class, mature by Jan 1944; historical Guadalcanal loss absent",
+      "transfer_cost": "medium-high because Akizuki hulls are scarce carrier escorts"
+    },
+    {
+      "name": "Niizuki",
+      "priority": "A-",
+      "recommended_role": "radar/picket-oriented AA destroyer and night-contact relay",
+      "why": "Akizuki-class, completed Mar 1943; historical Kula Gulf loss absent",
+      "transfer_cost": "medium-high; use one of Teruzuki/Niizuki initially, not both unless RN enters Bay"
+    },
+    {
+      "name": "Kiyonami",
+      "priority": "A",
+      "recommended_role": "fleet torpedo/escort, stand-off night raid",
+      "why": "Yugumo-class mature early 1943; historical Solomon loss absent",
+      "transfer_cost": "medium"
+    },
+    {
+      "name": "Suzunami",
+      "priority": "A",
+      "recommended_role": "fleet torpedo/escort, stand-off night raid",
+      "why": "Yugumo-class completed Jul 1943; historical Rabaul loss absent",
+      "transfer_cost": "medium"
+    },
+    {
+      "name": "Hayanami",
+      "priority": "A-",
+      "recommended_role": "fleet torpedo/escort",
+      "why": "Yugumo-class completed Jul 1943; enough work-up by Jan 1944",
+      "transfer_cost": "medium"
+    },
+    {
+      "name": "Makinami_or_Onami",
+      "priority": "B+",
+      "recommended_role": "additional torpedo DD if Pacific screen can release one",
+      "why": "mature Yugumo-class hulls whose historical late-1943 Solomon losses are absent",
+      "transfer_cost": "medium"
+    },
+    {
+      "name": "Agano",
+      "priority": "B_conditional",
+      "recommended_role": "DesRon leader for a true offensive light-force interception group",
+      "why": "modern 35-knot-class light cruiser, mature; historical Rabaul/Scamp damage chain absent",
+      "transfer_cost": "high because it is naturally tied to Third Fleet/carrier destroyer organization; do not move merely because RN reaches Ceylon"
+    },
+    {
+      "name": "Noshiro",
+      "priority": "B_conditional",
+      "recommended_role": "DesRon leader/fast surface group",
+      "why": "completed Jun 1943 and mature by Jan",
+      "transfer_cost": "high because it is Second Fleet DesRon flagship; better as second escalation choice"
+    },
+    {
+      "name": "Yahagi",
+      "priority": "NO_GO_JAN",
+      "recommended_role": "none initially",
+      "why": "completed 1943-12-29; still work-up/training in Jan; earliest serious transfer Feb"
+    },
+    {
+      "name": "Shimakaze",
+      "priority": "RESERVE_ONLY",
+      "recommended_role": "high-speed intercept/reposition experiment only after fresh RN eastbound contact",
+      "why": "unique high-value experimental hull; not worth stripping from Central Pacific for routine presence",
+      "transfer_cost": "very high"
+    },
+    {
+      "name": "Chitose_or_Chiyoda",
+      "priority": "A_support_conditional",
+      "recommended_role": "rear mobile seaplane maintenance/recon support at Singapore/Sabang/Mergui",
+      "why": "Branch did not convert them to carriers; this creates an observation-network asset that history did not have in this form at this date",
+      "transfer_cost": "medium; exact location/readiness must be traced before assignment"
+    },
+    {
+      "name": "Nisshin",
+      "priority": "A_logistics_conditional",
+      "recommended_role": "fast heavy-equipment/engineer/AA transplant to Andamans, not fleet combat",
+      "why": "Branch survival removes historical New Georgia loss",
+      "transfer_cost": "medium; submarine risk must be paid"
+    }
+  ],
+  "recommended_initial_package_before_RN_enters_Bay": {
+    "command_ISR": "Oyodo",
+    "AA_picket_DD": "one of Teruzuki or Niizuki",
+    "torpedo_DD": ["Kiyonami", "Suzunami", "Hayanami"],
+    "basing": "Singapore/Lingga with forward use through Penang/Sabang; do not park the whole group at Port Blair",
+    "mission": "observation/contact handoff, escort, one-pass Type-93 night interception if a high-quality target appears",
+    "explicitly_not_included": ["first-line carriers", "Shimakaze", "Agano/Noshiro by default", "two extra heavy cruisers before British eastbound sortie is confirmed"]
+  },
+  "escalation_if_Eastern_Fleet_leaves_Ceylon_eastbound": {
+    "add": ["Agano OR Noshiro", "one additional Akizuki-class DD", "2-3 additional Yugumo/Kagero-line DD"],
+    "second_gate": "Suzuya/Kumano pair only if British fleet persists into Bay/Andaman approach and Central Pacific risk permits",
+    "submarine_gate": "conventional submarine reinforcement first; high-speed-submerged boats only after fresh contact geometry justifies their repositioning advantage"
+  }
+}

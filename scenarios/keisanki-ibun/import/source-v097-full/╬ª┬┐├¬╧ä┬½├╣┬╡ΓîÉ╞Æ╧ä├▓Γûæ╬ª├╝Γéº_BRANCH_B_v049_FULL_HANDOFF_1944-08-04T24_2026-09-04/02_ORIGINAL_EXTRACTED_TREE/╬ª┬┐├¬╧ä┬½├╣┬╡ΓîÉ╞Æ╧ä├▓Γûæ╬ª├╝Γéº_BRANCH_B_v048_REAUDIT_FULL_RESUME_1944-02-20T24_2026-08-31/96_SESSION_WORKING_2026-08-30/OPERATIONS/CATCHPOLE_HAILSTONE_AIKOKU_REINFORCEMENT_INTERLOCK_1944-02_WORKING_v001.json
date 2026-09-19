@@ -1,0 +1,32 @@
+{
+  "revision": "v001",
+  "id": "CATCHPOLE_HAILSTONE_AIKOKU_REINFORCEMENT_INTERLOCK_1944-02_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "purpose": "Resolve whether HAILSTONE delay/surviving transport assets create extra Eniwetok garrison strength.",
+  "historical_anchors": [
+    "1st Amphibious Brigade was about 3,940 men on formation; only a portion physically reached Eniwetok, while other personnel/transports remained in the Truk/Ponape system.",
+    "Aikoku Maru attempted a Brown/Eniwetok-area reinforcement run in early Feb 1944 but aborted under US air pressure and later returned toward Truk.",
+    "Historical HAILSTONE destroyed Aikoku Maru at Truk; sources disagree on the exact passenger-unit identity/number aboard, so personnel accounting must remain banded."
+  ],
+  "branch_state": {
+    "HAILSTONE_attack": "1944-02-20..21",
+    "Truk_mobile_evacuation": "1944-02-10..17 centered",
+    "Kwajalein_loss": "already known",
+    "Eniwetok_US_approach": "obvious by 1944-02-19/20"
+  },
+  "centered_decision": {
+    "extra_Eniwetok_reinforcement": 0,
+    "reason": [
+      "The early-Feb eastbound reinforcement corridor is already under US carrier/land-air pressure and is not reopened by a 3-day HAILSTONE delay.",
+      "After Kwajalein falls, moving a loaded transport east toward a soon-to-be-assaulted fixed island has lower expected value than preserving troops/ship westward.",
+      "Branch Truk evacuation doctrine explicitly removes mobile/high-value logistics assets before the raid."
+    ],
+    "surviving_western_personnel_band": [
+      350,
+      650
+    ],
+    "destination": "Ponape/Palau/Rabaul/western reserve pipeline; exact unit identity remains OPEN",
+    "future_effect": "These survivors may strengthen later western garrisons but are not available to CATCHPOLE."
+  },
+  "HAILSTONE_accounting_guard": "Current Branch HAILSTONE shipping/death totals already excluded a historical Aikoku-style catastrophic transient-ship loss, so do not subtract the same people twice."
+}

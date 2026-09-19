@@ -1,0 +1,15 @@
+item	status	value_or_state	note
+E6-S-J_core	CLOSED	PR7; 7 axial + 1 centrifugal; 7.8kg/s design; 7.6-8.2 trim	parent E6-S
+E6-S-J_N_nonNi	CLOSED	870C; ~476kgf; TSFC~0.799; fuel~380kg/h	standard flight-development rating
+E6-S-J_M_Ni	CLOSED	920C; ~505kgf; TSFC~0.820; fuel~414kg/h	selected Ni upper standard-flow coordinate
+E6-S-J_HF_nonNi	CLOSED	8.2kg/s; 870C; ~500kgf	short/high-flow trim, not standard
+E6-S-J_HF_Ni	CLOSED	8.2kg/s; 920C; ~531kgf	selected short upper coordinate
+E6-S-J_dry_mass	CLOSED	400-445kg; center~420kg	complete engine, excluding aircraft-local intake/mount/fairing
+E6-S-J_max_OD	CLOSED	0.70-0.77m; center~0.735m	centrifugal compressor/diffuser driven
+E6-S-J_length	CLOSED	1.95-2.22m; center~2.08m	complete engine working band
+E6-S-J_nozzle_870	CLOSED	throat~0.0286m2; equiv D~0.191m	sea-level static v46-compatible calculation
+E6-S-J_nozzle_920	CLOSED	throat~0.0278m2; equiv D~0.188m	sea-level static v46-compatible calculation
+E6-S-J_1939_state	CLOSED	late R3 / R4 flight-release candidate	ground/installed/taxi development exists; first flight not yet claimed
+HS-2_initial_rating	CLOSED	~475kgf standard-flow nonNi	~500kgf HF is later envelope-expansion option
+E6-S-J_R5_service	OPEN	not claimed	needs flight/endurance/production qualification
+E6-S-J_TBO	OPEN	not assigned	derive from E6 teardown evidence under file21 semantics

@@ -1,0 +1,161 @@
+{
+  "revision": "v002",
+  "id": "CHECKPOINT_1942-06-15T24_v002",
+  "checkpoint_id": "CHECKPOINT_1942-06-15T24_v002",
+  "as_of": "1942-06-16T00:00:00",
+  "status": "authoritative",
+  "type": "FORMAL_POST_MI_BASELINE_REVALIDATION_CHECKPOINT",
+  "parent": "CHECKPOINT_1942-06-15T24_v001",
+  "parent_checkpoint": "CHECKPOINT_1942-06-15T24_v001",
+  "technical_baseline": "TECH_INDEX_v004",
+  "prewar_baseline": "PREWAR_INDEX_v004",
+  "current_branch_overrides": "00_CONFIG/current_branch_overrides_v001.json",
+  "state_sources": [
+    "05_WARTIME/CHECKPOINT_1942-06-15T24_v001.json",
+    "06_RUNTIME/INDUSTRIAL_LOGISTICS_REVALIDATION_1941_1942Q2_v001.md",
+    "02_TECH/INDUSTRIAL_LOGISTICS_BASELINE_1932_1942_v001.md",
+    "06_RUNTIME/MIDWAY_1942-06-10_15_SETTLEMENT_v001.json",
+    "06_RUNTIME/1942Q2_OPERATION_C_MO_MI_REAUDIT_SETTLEMENT_v001.md"
+  ],
+  "maturation_deltas": [
+    "MI creates very strong live evidence for cross-carrier recovery/diversion, air-group reorganization, layered search/recontact, fast surface pursuit and repeat torpedo attack. These are experience/organizational triggers; later institutional maturation must still be dated rather than retroactively assumed.",
+    "Hornet inspection and captured Midway equipment create a small learning input for Japanese radar/CIC/base/damage-control study; no immediate performance multiplier is applied.",
+    "Industrial/logistics baseline revalidated: compute-as-service provenance, standard-ship genealogy, 1940-42 steel adaptation and asset-uptime accounting. No battle-state change through MI."
+  ],
+  "dependency_notes": [
+    "All legacy 81/82/85/86/87+ summer-autumn outcome lines are blocked until rerun from this checkpoint.",
+    "Historical 1942-08-07 WATCHTOWER is not inherited.",
+    "Repair and personnel clocks are projections, not already-completed state.",
+    "1942-06 onward shipping/steel/shipbuilding quantities must be recomputed monthly under TECH/PREWAR v004; prior conversational end-1942 GRT totals are not canonical."
+  ],
+  "territory": {
+    "Port_Moresby": "Japanese-held",
+    "Tulagi": "Japanese-held",
+    "Midway": "Japanese-held as of about 1942-06-15; heavily damaged and not yet a mature base"
+  },
+  "carrier_ledger": {
+    "Japan": {
+      "lost": [
+        "Akagi",
+        "Kaga"
+      ],
+      "heavy_damage_survive": [
+        "Soryu",
+        "Hiryu"
+      ],
+      "under_repair_from_MO": [
+        "Shokaku"
+      ],
+      "operational": [
+        "Zuikaku",
+        "Ryujo",
+        "Junyo",
+        "Zuiho",
+        "Shoho"
+      ],
+      "near_term_additions": [
+        "Hiyo nearing completion",
+        "Ryuho conversion/completion path continues"
+      ]
+    },
+    "United_States": {
+      "lost_by_1942-05": [
+        "Lexington",
+        "Yorktown"
+      ],
+      "lost_in_MI": [
+        "Enterprise",
+        "Hornet",
+        "Saratoga"
+      ],
+      "Pacific_fast_carrier_state": "temporary zero before Wasp transfer; Ranger remains Atlantic unless strategic emergency forces reconsideration",
+      "aircrew_note": "Hull losses are much larger than personnel losses; many experienced carrier aviators/deck/support personnel survive for later Essex/CVL force generation."
+    }
+  },
+  "midway_base_policy": {
+    "role_priority": [
+      "forward search/warning",
+      "flying-boat support",
+      "submarine support and information node",
+      "fighter/recon staging",
+      "force US Hawaii defense and interdiction expenditure"
+    ],
+    "not_role": [
+      "permanent main fleet anchorage",
+      "automatic Hawaii isolation",
+      "immediate large bomber fortress"
+    ],
+    "garrison_center": "about 4500-6000 after consolidation, subject to logistics review",
+    "initial_air_center": "A6M about 24-36, recon/seaplane about 10-20, land bombers about 12-18 as forward/rotational force; H6K/H8K detachments as conditions permit",
+    "construction_priority": [
+      "runway/taxiway repair",
+      "water/desalination/storage",
+      "dispersed aviation fuel/ammunition",
+      "revetments/undergrounding",
+      "radar/communications",
+      "cargo handling",
+      "flying-boat facilities",
+      "coastal/AA defenses"
+    ],
+    "sustainment_policy": "Exploit the short US carrier gap to build initial 2-3 month stockpile, then reduce regular lift and accept a submarine-interdiction tax rather than over-garrison."
+  },
+  "allied_interdiction": {
+    "immediate": "No near-term carrier-backed recapture. US submarines and Hawaii-based air/recon become primary pressure tools.",
+    "japanese_ASW_effect": "Focused priority convoys are harder to reattack and suffer fewer avoidable formation/escort failures, but first-shot submarine opportunity is not eliminated.",
+    "working_summer_cost": "For Midway sustainment specifically, use about 15-25% extra ship-days/escort-days/route-delay burden as a working range; direct transport/auxiliary losses about 1-3 over three summer months plus damaged ships is a provisional center, not yet a closed ledger."
+  },
+  "repair_rebuild_projection": {
+    "Shokaku": "return roughly late June if yard/air-group checks close",
+    "Hiryu": "hull/flight-deck repair roughly late July-August; combat return after air-group work-up",
+    "Soryu": "heavier repair roughly August-September",
+    "Japanese_carrier_airgroups": "8-12 week serious rebuild/reorganization window is favored; surviving experts are not to be fed immediately into a Guadalcanal-style attrition cycle unless a new emergency forces it."
+  },
+  "naval_policy_implications": {
+    "Japan": [
+      "No historical post-Midway panic conversion program. Continue Hiyo/Ryuho/Taiho/Unryu-family paths; retain long-term dedicated fast-carrier quantity demand.",
+      "Do not automatically convert Ise/Hyuga or Chitose/Chiyoda immediately solely because of MI.",
+      "Raise priority of escorts, oilers, repair/salvage capacity and standardized transports because PM/Solomons/Midway create long simultaneous sustainment tails."
+    ],
+    "United_States": [
+      "Existing Essex and Independence programs become top fleet priority; avoid design changes that delay hull completion.",
+      "Wasp transfers to Pacific; Ranger remains Atlantic unless Hawaii emergency overrides European/Atlantic need.",
+      "Preserve surviving carrier aviators, deck crews, fighter-direction and damage-control personnel to seed new Essex/CVL groups.",
+      "Near-term fleet doctrine places more weight on radar surface screens, night-pursuit avoidance, damaged-carrier escape and submarine/land-air attrition while carrier numbers are low."
+    ],
+    "Britain": [
+      "Operation C loss of Indomitable/Formidable remains a major fleet-carrier deficit; European/Med commitments likely pull scarce modern decks west, leaving Indian Ocean weak and emphasizing CVE/light-carrier acceleration and conversion studies."
+    ]
+  },
+  "open_recalculation_gates": [
+    "1942-06 through 09 Japanese next-main-operation choice: FS vs consolidation vs Indian Ocean pressure vs Hawaii pressure.",
+    "WATCHTOWER/Guadalcanal cancellation/replacement and Allied South Pacific posture.",
+    "US submarine allocation and Midway blockade/interdiction ledger.",
+    "Exact named cruiser/destroyer loss assignments from MI surface pursuit.",
+    "Japanese carrier-aircraft/aircrew/personnel ledger and repair-yard capacity by hull.",
+    "Japanese escort/oiler/transport construction and allocation response.",
+    "British carrier emergency measures and consequences for Malta/TORCH/Arctic/Indian Ocean.",
+    "Midway captured-equipment exploitation clock for radar/CIC/base/damage-control learning."
+  ],
+  "technical_entries": [
+    "TECH-DAMAGE-STATE-TRANSITION-001",
+    "TECH-AIR-NAV-REPORT-I-O-001",
+    "TECH-SEARCH-MULTILAYER-001",
+    "TECH-SURFACE-SPEED-ROBUSTNESS-001",
+    "TECH-GUNFIRE-SURFACE-1942-001",
+    "TECH-GUNFIRE-LONGRANGE-NONSTANDARD-001",
+    "TECH-TORPEDO-SURFACE-ACCURACY-001",
+    "TECH-TORPEDO-SECOND-SALVO-001",
+    "TECH-ASW-CONTACT-HANDOFF-001",
+    "TECH-ASW-FOCUSED-CONVOY-1942-001",
+    "TECH-AMPHIBIOUS-FIRSTDAY-001",
+    "TECH-CARRIER-MISSION-CLASS-001",
+    "TECH-COMINT-RESIDUAL-CHANNELS-1942-001",
+    "TECH-SUB-INFO-AGE-001",
+    "TECH-COMPUTE-AS-SERVICE-DIFFUSION-001",
+    "TECH-LOG-STANDARD-SHIP-I-001",
+    "TECH-INDUSTRIAL-STEEL-ADAPTATION-1940-42-001",
+    "TECH-LOG-ASSET-UPTIME-ACCOUNTING-001"
+  ],
+  "current_restart": true,
+  "revalidation_of": "CHECKPOINT_1942-06-15T24_v001"
+}

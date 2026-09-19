@@ -1,0 +1,21 @@
+{
+  "revision": "v027",
+  "package_root": "計算機異聞_refactor_v027_2026-08-28_BRANCH_B_1943YEAREND_RN_AUDIT_FULL",
+  "generated": "2026-08-28",
+  "purpose": "Integrate Branch B realized 1943H2, Royal Navy 1942-43 divergence audit and year-end 1944 restart boundary.",
+  "base_package": "計算機異聞_refactor_v026_2026-08-27_BRANCH_B_1943SUMMER_INTEGRATED_FULL",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "current_branch_state_file": "06_RUNTIME/CURRENT_BRANCH_STATE_v009.json",
+  "current_restart_checkpoint": "05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v001.json",
+  "current_branch_analysis_frontier": "1944-01-01T00:00",
+  "current_overrides": "00_CONFIG/current_branch_overrides_v009.json",
+  "rollback_guard": "06_RUNTIME/BRANCH_B_YEAR_END_GUARD_1944-01-01_v001.json",
+  "next_session_handoff": "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v027.md",
+  "downstream_1944_results_retained_reference_only": true,
+  "validation": "95_AUDIT/VALIDATION_RESULT_v027.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v027.txt",
+  "next_required_adjudication": "Japanese 1944-01-01 movable destroyer/submarine/cruiser force audit across Pacific and Indian Ocean before Eastern Fleet contact.",
+  "file_count_before_checksum": 606,
+  "file_count_total": 607,
+  "json_file_count": 277
+}

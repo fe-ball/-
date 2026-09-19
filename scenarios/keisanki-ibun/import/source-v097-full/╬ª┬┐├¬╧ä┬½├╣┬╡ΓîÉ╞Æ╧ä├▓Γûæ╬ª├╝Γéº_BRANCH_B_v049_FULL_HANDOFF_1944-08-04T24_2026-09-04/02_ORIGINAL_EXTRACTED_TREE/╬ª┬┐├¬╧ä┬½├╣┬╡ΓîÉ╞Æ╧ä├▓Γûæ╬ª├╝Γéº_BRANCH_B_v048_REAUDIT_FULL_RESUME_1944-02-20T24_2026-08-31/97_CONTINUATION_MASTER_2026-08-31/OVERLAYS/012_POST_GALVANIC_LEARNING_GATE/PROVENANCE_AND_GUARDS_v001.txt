@@ -1,0 +1,8 @@
+POST-GALVANIC MARSHALL LEARNING GATE — PROVENANCE / GUARDS
+
+Base: v048 semantic package + current 2026-08-31 GALVANIC rerun through 1943-11-29T12.
+
+Current rerun takes precedence over old GALVANIC settlement named-hit/repair outcomes.
+Do not import Second Midway from stale strategic/legacy documents.
+Use public historical sources only as anchors for US learning/Marshall geography, not as automatic event outcomes.
+This package is working, not promoted current authority.

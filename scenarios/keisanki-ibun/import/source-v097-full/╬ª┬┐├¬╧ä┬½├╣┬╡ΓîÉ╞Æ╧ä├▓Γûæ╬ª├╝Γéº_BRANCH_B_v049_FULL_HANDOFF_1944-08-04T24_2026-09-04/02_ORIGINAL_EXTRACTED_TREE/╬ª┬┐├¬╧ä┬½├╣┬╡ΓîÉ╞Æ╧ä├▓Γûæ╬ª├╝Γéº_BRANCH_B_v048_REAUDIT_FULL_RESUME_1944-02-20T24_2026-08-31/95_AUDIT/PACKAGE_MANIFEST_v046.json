@@ -1,0 +1,21 @@
+{
+  "package_revision": "v046",
+  "root_name": "計算機異聞_refactor_v046_2026-08-29_BRANCH_B_LAND_HARDWARE_RETRO_RESERVATION_WORKING_FULL",
+  "authority_time": "1944-01-01T00:00",
+  "working_discussion_clock": "1944-02-06T18:00:00+12:00",
+  "clock_advance": false,
+  "added_files": [
+    "06_RUNTIME/JAPANESE_LAND_COMBAT_HARDWARE_LINEAGE_1932_1944_WORKING_v001.json",
+    "06_RUNTIME/ALLIED_DEATH_TALLY_RETROACTIVE_LAND_HARDWARE_RESERVATION_1941_1944_WORKING_v001.json",
+    "06_RUNTIME/TECHNOLOGY_LINEAGE_SYNTHESIS_1944-01-28_WORKING_v004.json",
+    "06_RUNTIME/FLINTLOCK_DDAY_DECISION_AND_LANDING_1944-02-06_WORKING_v002.json",
+    "95_AUDIT/LAND_COMBAT_HARDWARE_RETRO_RESERVATION_AUDIT_2026-08-29_v001.md",
+    "00_README/CURRENT_DISCUSSION_FRONTIER_v013.json",
+    "00_README/README_refactor_v046.md",
+    "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v046.md",
+    "95_AUDIT/current_version_families_v031.json",
+    "98_TOOLS/validate_refactor_v027.py"
+  ],
+  "retro_accounting_policy": "No past casualty numbers changed in v046; correction reserved for future consolidated Allied death tally.",
+  "file_count_pre_checksum": 888
+}

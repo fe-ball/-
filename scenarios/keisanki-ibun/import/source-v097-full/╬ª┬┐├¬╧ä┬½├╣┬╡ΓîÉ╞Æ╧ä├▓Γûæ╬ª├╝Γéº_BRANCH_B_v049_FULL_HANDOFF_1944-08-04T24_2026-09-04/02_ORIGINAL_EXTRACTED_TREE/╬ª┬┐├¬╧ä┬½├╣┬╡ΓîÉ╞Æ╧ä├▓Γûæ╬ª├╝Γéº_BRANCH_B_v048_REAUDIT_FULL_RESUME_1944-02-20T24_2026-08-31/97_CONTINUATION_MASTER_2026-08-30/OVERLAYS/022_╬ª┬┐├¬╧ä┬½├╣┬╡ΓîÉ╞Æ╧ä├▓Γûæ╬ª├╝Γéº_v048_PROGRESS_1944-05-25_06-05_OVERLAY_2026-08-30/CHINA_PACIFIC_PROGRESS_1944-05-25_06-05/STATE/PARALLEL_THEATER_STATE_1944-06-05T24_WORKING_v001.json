@@ -1,0 +1,21 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-06-05T24_WORKING_v001",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_CURRENT_OVERLAY",
+  "as_of": "1944-06-05T24:00:00+09:00",
+  "global_frontier": "1944-06-05T24",
+  "China": {
+    "Ichigo": "Phase B reaches Hengyang outer system. Hengyang airfield is physically seized/damaged by 4-5 Jun centerline; city/rail-command node remains Chinese. No instant urban storm.",
+    "node_transfer": "Changsha-Xiangtan is a partial/moderate Japanese operational node with expanding Nanjing administration; Chinese network is rewired to Hengyang/Leiyang/Lingling/Kweilin depth.",
+    "Nanjing": "40-52k rear-security/admin personnel in the Yueyang-Changsha/Xiangtan system; static-duty substitution about 1.4-1.8 Japanese division-equivalents."
+  },
+  "Pacific": {
+    "US": "FORAGER remains GO. Branch TF58 pre-sortie pool closes at 8 CV + 8 CVL / 16 fast decks, approximately 960-1045 ready carrier aircraft before special-strike friction.",
+    "Japan_mobile": "Five-core carrier system 358-378 ready aircraft, first synchronized package 235-275; secondary carrier pool retained as heterogeneous support/reserve. Yamamoto still waits for the US amphibious commitment.",
+    "Marianas": "Land-based mission-ready aircraft 285-350 working band on 5 Jun; warning CRITICAL/PERSISTENT.",
+    "Seiran": "I-400/I-401 six-aircraft system strikes Majuro 3 Jun, damages ammunition/service capacity and causes a small 6-7 Jun sortie stagger but does not cancel FORAGER."
+  },
+  "Technology": "75mm turreted stopgap receives a small pilot-series authorization; no combat unit yet. I-34/I-29/I-52 remain at sea.",
+  "Indian_Ocean_Bengal": "BACKGROUND_FREEZE maintained.",
+  "next_active_question": "6 Jun onward: TF58 sortie/approach, Japanese detection and A-Go release logic, Marianas shaping strikes, and whether Hengyang becomes a siege or a costly premature assault."
+}

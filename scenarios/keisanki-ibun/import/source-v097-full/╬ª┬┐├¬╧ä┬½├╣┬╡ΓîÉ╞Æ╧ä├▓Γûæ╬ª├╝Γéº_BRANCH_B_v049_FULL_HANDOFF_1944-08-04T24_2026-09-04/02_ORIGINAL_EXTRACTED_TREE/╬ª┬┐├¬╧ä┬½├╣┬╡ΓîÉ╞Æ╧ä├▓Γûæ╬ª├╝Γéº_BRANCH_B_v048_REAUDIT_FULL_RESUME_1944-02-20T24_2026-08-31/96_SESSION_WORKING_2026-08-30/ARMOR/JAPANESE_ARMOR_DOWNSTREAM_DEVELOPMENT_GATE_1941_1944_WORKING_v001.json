@@ -1,0 +1,67 @@
+{
+  "revision": "v001",
+  "id": "JAPANESE_ARMOR_DOWNSTREAM_DEVELOPMENT_GATE_1941_1944_WORKING_v001",
+  "status": "WORKING_AUDIT_GATE_NOT_CURRENT",
+  "as_of": "1944-02-21",
+  "finding": "Current Branch vehicle lineage closes reliability/serviceability/recovery effects for Type 95/97 families but intentionally does not yet propagate those causes through successor-tank development, production conversion, and field allocation. This is an unresolved downstream layer, not evidence that later tanks stay historical by rule.",
+  "historical_baseline": {
+    "Type97_Kai": "47mm Shinhoto line is already a historical 1942-43 production family and must be unit/date gated, not treated as a rare future technology.",
+    "Type1_ChiHe": "Design accepted early-war; historical production begins 1943, total roughly 170 through 1944. Improvements include 47mm gun, five-man crew/three-man turret logic, more powerful engine, welded/thicker hull and standard radio.",
+    "Type3_ChiNu": "Historical urgent development starts May 1943 and design is completed around October 1943; regular production historically waits until late 1944, with steel/resource priority an important bottleneck.",
+    "Type4_ChiTo": "Separate heavier/new-generation line. Prototype-stage during 1944; not a credible mass battlefield asset in 1944H1 without a much larger industrial divergence."
+  },
+  "branch_causal_effects_to_audit": [
+    "compute/metrology -> stress, recoil, turret-balance and tolerance calculations close faster",
+    "production statistics/QC -> fewer prototype and early-series rejection loops",
+    "welding/process control -> Chi-He-class hull production is easier to stabilize",
+    "engine/reliability line -> 240hp-class powertrain acceptance and field reliability improve, but engine count remains an industrial gate",
+    "optics/bore/ammunition-lot repeatability -> better first-round and repeat-fire consistency without changing penetration",
+    "radio/communications maturity -> standard radio and five-man crew yield more operational value than historical Japanese flag-command practice",
+    "Nomonhan and 1942-43 combat feedback -> anti-armor requirement remains real even if Type97 reliability is better",
+    "Sherman intelligence/combat reports -> pushes 75mm stopgap priority, but does not create steel or factories",
+    "Navy/aircraft/ship steel priority -> remains the dominant cap on mass production unless separately changed"
+  ],
+  "provisional_center_until_industrial_ledger_is_built": {
+    "Type97_Kai": {
+      "rule": "retain historical-family availability and likely broad 1942-43 fielding; Branch benefit is readiness/QC, not automatic extra hulls",
+      "warning": "future OOBs must distinguish 57mm Type97 from 47mm Kai instead of generic 'Type97' when antitank combat matters"
+    },
+    "Type1_ChiHe": {
+      "1944_02_status": "production line definitely exists; cumulative physical count needs a factory ledger before locking",
+      "branch_timing_effect": "0-3 months earlier stable production/tooling is plausible; large quantity multiplication is not",
+      "allocation": "home/training/selected armored formations first unless a dated shipping/theater decision sends them overseas"
+    },
+    "Type3_ChiNu": {
+      "1944_02_status": "design/tooling or pilot/pre-series stage; no regular combat unit assumed yet",
+      "branch_timing_effect": "design freeze may move ~1-2 months earlier and low-rate production gate ~2-4 months earlier than historical if steel is allocated",
+      "working_regular_production_gate": "1944-04..06 rather than automatic historical late-1944; must pass steel/factory/priority gate",
+      "combat_effect": "potentially relevant to Home Islands/late-1944 deployments; Marianas availability requires both production and physically credible shipping before the battle"
+    },
+    "Type4_ChiTo": {
+      "1944H1": "prototype/research only",
+      "rule": "computation can reduce iteration, but new hull, gun, engine and mass/steel requirements remain; no 1944H1 combat unit"
+    }
+  },
+  "doctrine_and_support_propagation": [
+    "A more reliable Chi-Ha does not remove the need for 47mm antitank firepower; it may make armored formations more credible organizationally.",
+    "Three-man turret/standard-radio value should be evaluated separately from armor/gun penetration.",
+    "Recovery tractors, workshops, spare packs and tank transport matter to successor units too.",
+    "Type 1 47mm towed AT guns and Ho-Ni/other SPG lines should be audited alongside tanks because Japan may rationally solve Sherman locally with gun vehicles rather than only new medium tanks.",
+    "Do not infer 'better tank doctrine' universally; require unit training and combined-arms evidence."
+  ],
+  "required_before_next_tank_sensitive_campaign": [
+    "1943-44 monthly Japanese tank/AFV factory output by family",
+    "steel/engine/gun/turret production allocation",
+    "unit conversion and depot acceptance dates",
+    "theater shipping decisions",
+    "57mm Type97 vs 47mm Kai composition by tank regiment",
+    "Chi-He/Chi-Nu/SPG/AT-gun availability as one common antitank wallet"
+  ],
+  "immediate_effect_on_existing_settlements": {
+    "Tarawa": "no change without evidence that its 14 Type95 vehicles were a different family",
+    "Bengal": "no change; independent tank regiment remains absent",
+    "Kwajalein_RoiNamur": "no change",
+    "Saipan_future_working": "must be re-opened before promotion because 'Type97/Type95' generic composition may understate 47mm Kai share and because an early Chi-He/Chi-Nu shipping decision has not been audited",
+    "China_1944_future": "Tank Regiment No.3 physical count can stand provisionally, but model mix and 47mm/Chi-He share need the same production ledger"
+  }
+}

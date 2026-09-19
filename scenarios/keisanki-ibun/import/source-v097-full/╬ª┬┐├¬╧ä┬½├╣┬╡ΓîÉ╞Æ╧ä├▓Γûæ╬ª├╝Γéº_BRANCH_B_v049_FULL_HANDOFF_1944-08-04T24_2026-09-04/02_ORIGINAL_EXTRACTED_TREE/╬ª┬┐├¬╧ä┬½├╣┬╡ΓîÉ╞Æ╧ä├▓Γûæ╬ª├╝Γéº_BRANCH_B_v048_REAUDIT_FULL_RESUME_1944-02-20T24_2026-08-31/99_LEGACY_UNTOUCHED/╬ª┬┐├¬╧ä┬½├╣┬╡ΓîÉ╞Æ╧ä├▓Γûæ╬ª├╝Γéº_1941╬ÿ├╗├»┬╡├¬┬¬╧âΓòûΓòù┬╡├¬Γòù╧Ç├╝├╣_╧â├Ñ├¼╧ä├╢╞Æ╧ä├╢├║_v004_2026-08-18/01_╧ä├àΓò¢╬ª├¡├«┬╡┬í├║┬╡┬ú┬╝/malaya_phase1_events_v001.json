@@ -1,0 +1,176 @@
+{
+  "revision": "v0.01",
+  "scope": "historical observation ledger; not yet alternate-world outcome",
+  "events": [
+    {
+      "id": "MAL-19411208-KB-01",
+      "date": "1941-12-08",
+      "service": "IJA",
+      "area": "Kota Bharu/Tanah Merah",
+      "observed": {
+        "launched": 39,
+        "mission_effective": 39,
+        "returned_damaged_long": 5
+      },
+      "notes": "3rd Air Group element; enemy kill claims excluded from state truth",
+      "source": {
+        "id": "JM55",
+        "lines": "1097-1098",
+        "reliability": "self-operation HIGH; enemy-loss claims LOW/MEDIUM"
+      }
+    },
+    {
+      "id": "MAL-19411208-KB-02",
+      "date": "1941-12-08",
+      "service": "IJA",
+      "area": "Kota Bharu sector",
+      "observed": {
+        "launched": 53,
+        "weather_abort": 53,
+        "mission_effective": 0
+      },
+      "notes": "advanced but returned because of unfavorable weather",
+      "source": {
+        "id": "JM55",
+        "lines": "1097-1098",
+        "reliability": "HIGH for own sortie/abort"
+      }
+    },
+    {
+      "id": "MAL-19411208-KEDAH-01",
+      "date": "1941-12-08",
+      "service": "IJA",
+      "area": "Kedah airfields",
+      "observed": {
+        "launched": 93,
+        "returned_damaged_long": 3
+      },
+      "notes": "mission target set included Sungei Patani/Alor Star/Penang area; enemy damage claims excluded",
+      "source": {
+        "id": "JM55",
+        "lines": "1103-1104",
+        "reliability": "HIGH/MEDIUM for own sortie/damage"
+      }
+    },
+    {
+      "id": "MAL-19411208-WX-LOSS-01",
+      "date": "1941-12-08",
+      "service": "IJA",
+      "area": "French Indochina main force",
+      "observed": {
+        "noncombat_lost_weather_darkness": 5
+      },
+      "notes": "five aircraft including commander's aircraft lost due dark night/unfavorable weather; attribution retained as source observation",
+      "source": {
+        "id": "JM55",
+        "lines": "1105-1106",
+        "reliability": "MEDIUM/HIGH for own loss"
+      }
+    },
+    {
+      "id": "MAL-19411209-KEDAH-WX-01",
+      "date": "1941-12-09",
+      "service": "IJA",
+      "area": "Kedah/Victoria Point",
+      "observed": {
+        "launched": 93,
+        "primary_target_abort_weather": true
+      },
+      "notes": "main target attack suspended/changed due bad weather; do not equate all 93 with no mission effect because an element subsequently attacked other targets",
+      "source": {
+        "id": "JM55",
+        "lines": "1118-1120",
+        "reliability": "HIGH for weather diversion; event must remain composite"
+      }
+    },
+    {
+      "id": "MAL-19411210-FORCEZ-01",
+      "date": "1941-12-10",
+      "service": "IJN",
+      "area": "South China Sea / Force Z",
+      "observed": {
+        "strike_force": 84,
+        "bombers": 34,
+        "torpedo_aircraft": 50,
+        "combat_lost": 3,
+        "crew_combat_lost": 21,
+        "fuel_forced_landings": 2,
+        "major_enemy_ships_sunk": 2
+      },
+      "notes": "saturated strategic result; alternate delta should first affect returning condition and crew survival, not add another capital ship",
+      "source": {
+        "id": "RN_BS14",
+        "lines": "521-524, 675-676",
+        "reliability": "HIGH for compiled attack/loss summary"
+      }
+    },
+    {
+      "id": "MAL-19411208-15-SINGORA",
+      "date_range": "1941-12-08/15",
+      "service": "IJA",
+      "area": "Singora",
+      "observed": {
+        "air_sector_unit_present": true,
+        "drainage_problem": true,
+        "frequent_accidents": true,
+        "operational_by_mid_december": true
+      },
+      "source": {
+        "id": "JM55",
+        "lines": "1139-1143, 1146-1151",
+        "reliability": "HIGH for own base status"
+      }
+    },
+    {
+      "id": "MAL-19411208-15-BATANI",
+      "date_range": "1941-12-08/15",
+      "service": "IJA",
+      "area": "Batani",
+      "observed": {
+        "flooded_initially": true,
+        "bombardment_damage": true,
+        "usable_by_1941_12_15": true
+      },
+      "source": {
+        "id": "JM55",
+        "lines": "1140-1143, 1149-1152",
+        "reliability": "HIGH for own base status"
+      }
+    },
+    {
+      "id": "MAL-19411210-11-AIRLIFT",
+      "date_range": "1941-12-10/11",
+      "service": "IJA",
+      "area": "Malaya advance",
+      "observed": {
+        "air_transport_attached": true,
+        "mechanic_airlift_ordered": true
+      },
+      "notes": "direct evidence that IJA air-base mobility was already functionally partly separated at opening",
+      "source": {
+        "id": "JM55",
+        "lines": "1177-1194",
+        "reliability": "HIGH for orders"
+      }
+    }
+  ],
+  "campaign_calibration_constraints": [
+    {
+      "period": "outbreak to fall of Singapore",
+      "service": "IJA 3rd Air Group",
+      "observed": {
+        "aircraft_losses": 331,
+        "additional_concentration_weather_losses": 46,
+        "replacement_aircraft": 270,
+        "personnel_losses": 582,
+        "officer_losses": 73
+      },
+      "use": "calibration constraint only; not Phase-1 initial input",
+      "source": {
+        "id": "JM55",
+        "lines": "2237-2240, 2259-2260, 2305-2307",
+        "reliability": "MEDIUM/HIGH for own administrative totals; OCR/table caveats"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "package_version": "v078_FULL",
+  "date": "2026-09-07",
+  "package_type": "FULL_SELF_CONTAINED",
+  "parent_full_archive": "計算機異聞_BRANCH_B_v077_FULL_HANDOFF_SANTO_DDAY_PREDawn_WASP_SHOKAKU_DAMAGED_2026-09-07.zip",
+  "resume": {
+    "date": "1942-07-27",
+    "time": "00:00",
+    "phase": "SANTO_DDAY_PREDawn_WASP_DAMAGED_SHOKAKU_LIMITED_DECK_2DMARINES_PARTIAL_ASHORE",
+    "clock_advanced_by_v078": false,
+    "carrier_defense_root_corrected_by_v078": true,
+    "D1_event": "CLOSED_V078_V002",
+    "D1_carrier_battle": "CLOSED_V078_RUNTIME_V002",
+    "Santo_H_hour_branch": "OPEN",
+    "New_Caledonia_date": "OPEN_POST_SANTO_RESET"
+  },
+  "root_correction": {
+    "Ryujo_role": "FIGHTER_HEAVY_SUPPORT_CAP_DECK_EXPLICITLY_REINTEGRATED_AFTER_WASP_CONTACT",
+    "Ryujo_offset_nm_at_Wasp_contact": "~50-70 center from fleet-carrier pair",
+    "effective_Japanese_CAP_vs_Wasp_strike": "~20-24 A6M center ~22",
+    "Japanese_carrier_radar_credit_1942_07_26": 0,
+    "Wasp_counterstrike_destroyed_center": {
+      "F4F": 3,
+      "SBD": 4,
+      "TBF": 3
+    },
+    "Shokaku": "ONE_1000LB_BOMB_HIT_PLUS_DAMAGING_NEAR_MISS_LIMITED_DECK_RESTORED_EVENING",
+    "Shokaku_Dday_limited_deck_credit": "~24-28 center ~26 embedded in fleet total",
+    "Japan_operational_carrier_MR_Dday": "~100-108 center ~104"
+  },
+  "retained_D1": {
+    "Wasp": "2_BOMB_HITS_PLUS_DAMAGING_NEAR_MISS_MISSION_DEGRADED_RETIRING",
+    "Wasp_H_hour_CAP_credit": 0,
+    "Alhena": "ONE_TYPE91_TORPEDO_HIT_PROPULSION_MISSION_KILL_AFLOAT",
+    "3_10_artillery_H_hour_credit": 0,
+    "2d_Marines_physical_ashore": "~3650-3900",
+    "Allied_immediate_ground_effective": "~3900-4400 center ~4150",
+    "Japanese_assault_physical_center": 7200,
+    "Japanese_contingency_reserve_H_hour_credit": 0
+  },
+  "critical_rule": "Resume 1942-07-27 00:00. Use ~104 launchable Japanese carrier MR across Zuikaku+Ryujo+limited Shokaku. Do not use v077 81-MR/two-deck state and do not reset to 143/138. Wasp and Alhena remain unavailable for automatic H-hour credit."
+}

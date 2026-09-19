@@ -1,0 +1,526 @@
+{
+  "revision": "v001",
+  "purpose": "Compact battle-significant technical delta index; reference studies remain authoritative evidence/calculation sources.",
+  "entry_count": 14,
+  "entries": [
+    {
+      "id": "TECH-AIR-ATTACK-ACCURACY-001",
+      "domain": "AIR",
+      "status": "provisional_center",
+      "valid_from": "platform/weapon maturity dependent; 1941-42 carrier attack use requires aircraft-specific audit",
+      "what_changed": "Technical error and reproducibility of aerial torpedo attack and moving-ship dive bombing improve under equivalent conditions.",
+      "magnitude": {
+        "type": "relative_probability",
+        "range": "+10% to +25% relative hit probability",
+        "note": "Not percentage points; source calls these pre-additional-audit center estimates."
+      },
+      "causal_stage": [
+        "APPROACH",
+        "ATTACK",
+        "HIT"
+      ],
+      "combat_meaning": [
+        "Can reduce aircraft needed to reach a target damage/mission-kill probability threshold.",
+        "Freed aircraft can be reassigned to second targets, reserve waves, search, or CAP."
+      ],
+      "combines_with": [
+        "aircraft_availability",
+        "aircrew_quality",
+        "search_contact_quality",
+        "strike_coordination"
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "resource_reallocation",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "fixed absolute hit rate",
+        "+10 to +25 percentage points",
+        "generic whole-air-force multiplier"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "id": "TECH-AIR-MEDIAN-RELIABILITY-001",
+      "domain": "AIR",
+      "status": "conditional",
+      "valid_from": "aircraft-specific",
+      "what_changed": "A major share of computing-assisted benefit appears in production median, repeatability, maintenance burden, mission aborts, and carrier handling rather than top-speed alone.",
+      "magnitude": {
+        "type": "qualitative",
+        "range": "platform-specific; no universal multiplier"
+      },
+      "causal_stage": [
+        "READINESS",
+        "SORTIE",
+        "RECOVERY"
+      ],
+      "combat_meaning": [
+        "Raises ready aircraft and reduces abort/accident leakage; interacts multiplicatively with search/attack success stages when they are distinct."
+      ],
+      "combines_with": [
+        "maintenance_capacity",
+        "spares",
+        "aircrew",
+        "base_or_carrier_cycle"
+      ],
+      "nonlinear_effect": [
+        "shared_intermediate_no_double_count",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "top-speed-only improvement",
+        "automatic sortie-rate multiplier without maintenance/base state"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/53_海軍戦闘機・空冷発動機・噴進航空.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/47_航空機技術監査_1938-44_史実技術採用・時系列・再計算ゲート.md"
+      ]
+    },
+    {
+      "id": "TECH-TORPEDO-SURFACE-ACCURACY-001",
+      "domain": "SURFACE_TORPEDO",
+      "status": "conditional",
+      "valid_from": "late 1930s-1941 first-line units after calibration/training maturation",
+      "what_changed": "Ship/launcher/gyro/lot calibration and fire-control error are reduced; same-opportunity practical torpedo effectiveness rises most at useful non-extreme ranges.",
+      "magnitude": {
+        "type": "relative_probability",
+        "range": "overall same-condition practical hit rate +10% to +25% relative; later refined sensitivity often +5% to +12% at 5-12 km unalerted and smaller when targets maneuver"
+      },
+      "causal_stage": [
+        "TRACK",
+        "FIRE_CONTROL",
+        "ATTACK",
+        "HIT"
+      ],
+      "combat_meaning": [
+        "More useful torpedoes per firing opportunity; does not make long-range shots precision attacks."
+      ],
+      "combines_with": [
+        "second_salvo_cycle",
+        "contact_maintenance",
+        "enemy_alertness"
+      ],
+      "nonlinear_effect": [
+        "multiplicative_across_distinct_stages",
+        "enemy_adaptation"
+      ],
+      "do_not_simplify_as": [
+        "long range equals high accuracy",
+        "fixed absolute hit rate"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/31_魚雷・水雷戦_魚雷本体・射撃指揮・再装填・運用.md"
+      ]
+    },
+    {
+      "id": "TECH-TORPEDO-SECOND-SALVO-001",
+      "domain": "SURFACE_TORPEDO",
+      "status": "accepted",
+      "valid_from": "1939-41 doctrine integration for equipped first-line destroyer/cruiser units",
+      "what_changed": "Reliability engineering cuts the long failure tail of reload machinery; reload becomes tactically schedulable in suitable engagements.",
+      "magnitude": {
+        "type": "time_cycle",
+        "range": "4-torpedo reload typically 6-9 min class; first launch to second effective firing solution/relaunch 12-20 min class"
+      },
+      "causal_stage": [
+        "ATTACK",
+        "RELOAD",
+        "RECONTACT",
+        "REATTACK"
+      ],
+      "combat_meaning": [
+        "In 20-60 minute night actions, next torpedoes can become actual combat power instead of paper ammunition.",
+        "Can force prolonged enemy evasive maneuver even when a second salvo is not ultimately fired."
+      ],
+      "combines_with": [
+        "surface_torpedo_accuracy",
+        "night_contact",
+        "formation_command"
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "enemy_adaptation"
+      ],
+      "do_not_simplify_as": [
+        "double instantaneous torpedo firepower",
+        "guaranteed second salvo"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/31_魚雷・水雷戦_魚雷本体・射撃指揮・再装填・運用.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "id": "TECH-SUB-CONVENTIONAL-OPERABILITY-001",
+      "domain": "SUBMARINE",
+      "status": "conditional",
+      "valid_from": "class-specific; strongest in full-computation generations by opening/early war",
+      "what_changed": "Conventional submarines improve in range, trim/potential dive repeatability, battery use, machinery reliability, navigation, and sister-ship variance more than in headline speed.",
+      "magnitude": {
+        "type": "representative",
+        "range": "typical mature class effects include surface range +8-9%, submerged endurance +7-10%, dive time -10-15%, initial machinery faults -20-35%, sister-ship variance -30-50%; exact class values differ"
+      },
+      "causal_stage": [
+        "SORTIE",
+        "TRANSIT",
+        "ON_STATION",
+        "CONTACT",
+        "RECOVERY",
+        "RESORTIE"
+      ],
+      "combat_meaning": [
+        "More boats leave on time, arrive on station, stay useful, survive mission degradation, and return to patrol sooner."
+      ],
+      "combines_with": [
+        "submarine_allocation",
+        "intel_cueing",
+        "torpedo_attack",
+        "asw_pressure"
+      ],
+      "nonlinear_effect": [
+        "multiplicative_across_distinct_stages",
+        "bottleneck_relief"
+      ],
+      "do_not_simplify_as": [
+        "submarine force x1.3 from component percentages",
+        "speed-only benefit"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/20_潜水艦_世代別設計・就役日程.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/21_潜水艦_任務体系・量産配備・潜高実戦運用.md"
+      ]
+    },
+    {
+      "id": "TECH-SUB-KOU-FIRSTGEN-001",
+      "domain": "SUBMARINE",
+      "status": "conditional",
+      "valid_from": "first units complete 1942 autumn-end; combat-ready primarily 1943 onward per lot ledger",
+      "what_changed": "First-generation high-speed submerged submarine changes underwater movement from mainly evasion to deliberate firing-position correction/repositioning.",
+      "magnitude": {
+        "type": "performance",
+        "range": "18.5-19.0 kt submerged maximum; 55-65 min full-speed endurance, center ~60 min; 42-47 s dive time"
+      },
+      "causal_stage": [
+        "CONTACT",
+        "INTERCEPT",
+        "FIRING_POSITION",
+        "EVADE",
+        "REATTACK"
+      ],
+      "combat_meaning": [
+        "Can convert aging contact reports into viable firing positions when time-to-crossing thresholds are met; e.g. 10 nmi correction ~33 min at 18 kt versus ~75 min at 8 kt."
+      ],
+      "combines_with": [
+        "external_contact_reports",
+        "low_speed_listening",
+        "battery_budget"
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "resource_budget"
+      ],
+      "do_not_simplify_as": [
+        "continuous 19 kt patrol",
+        "listening accurately at 19 kt",
+        "available in mass during 1941-42 major battles"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/20_潜水艦_世代別設計・就役日程.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/21_潜水艦_任務体系・量産配備・潜高実戦運用.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "id": "TECH-ASW-CONTACT-HANDOFF-001",
+      "domain": "ASW",
+      "status": "accepted",
+      "valid_from": "1941-42 for two-ship surface ASW doctrine where trained/equipped; broader layered system matures later",
+      "what_changed": "Surface ASW uses role separation: one escort retains contact while another attacks, then immediate reacquisition/repeated attack.",
+      "magnitude": {
+        "type": "qualitative_cycle",
+        "range": "no universal kill multiplier"
+      },
+      "causal_stage": [
+        "DETECT",
+        "TRACK",
+        "ATTACK",
+        "REACQUIRE",
+        "REATTACK"
+      ],
+      "combat_meaning": [
+        "Changes time structure from detect-attack-lost-search again to contact retention and repeated attacks."
+      ],
+      "combines_with": [
+        "sonar_quality",
+        "escort_count",
+        "convoy_formation"
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "bottleneck_relief"
+      ],
+      "do_not_simplify_as": [
+        "sonar range +10%",
+        "1942 complete late-war ASW system"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/41_艦艇対潜_探信・爆雷・護衛運用.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "id": "TECH-SEARCH-MULTILAYER-001",
+      "domain": "SENSOR_SEARCH",
+      "status": "conditional",
+      "valid_from": "improving at opening; matures through 1942 and after MI lessons",
+      "what_changed": "Search evolves from one-shot sector search toward broad search, suspicious-contact revisit, fast confirmation, tracking, and later position update.",
+      "magnitude": {
+        "type": "qualitative_cycle",
+        "range": "maturity depends on date, aircraft availability, navigation, and doctrine"
+      },
+      "causal_stage": [
+        "SEARCH",
+        "CONTACT",
+        "RECONTACT",
+        "TRACK"
+      ],
+      "combat_meaning": [
+        "Improves probability that uncertain sightings become timely actionable tracks rather than one-time observations."
+      ],
+      "combines_with": [
+        "aircraft_availability",
+        "navigation",
+        "seaplanes",
+        "command_information_flow"
+      ],
+      "nonlinear_effect": [
+        "multiplicative_across_distinct_stages",
+        "threshold"
+      ],
+      "do_not_simplify_as": [
+        "fully mature on 1941-12-07",
+        "single search-radius multiplier"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md"
+      ]
+    },
+    {
+      "id": "TECH-RADAR-1942-HUMANLOOP-001",
+      "domain": "SENSOR_SEARCH",
+      "status": "accepted",
+      "valid_from": "1942 equipment-dependent",
+      "what_changed": "Radar provides meaningful rough detection/early warning but remains a human-mediated input into plotting, optical confirmation, and fire control rather than a modern closed loop.",
+      "magnitude": {
+        "type": "system_role",
+        "range": "scenario computing may improve practical detection distance about 5-15% where applicable; primary value is new all-weather/low-visibility input, not automatic accuracy"
+      },
+      "causal_stage": [
+        "DETECT",
+        "INFORMATION",
+        "TRACK"
+      ],
+      "combat_meaning": [
+        "Can buy warning minutes and restore contact in poor visibility; does not automatically identify ship type, solve target motion, direct CAP perfectly, or guarantee gunfire hits."
+      ],
+      "combines_with": [
+        "plotting",
+        "optics",
+        "fire_control",
+        "fighter_direction"
+      ],
+      "nonlinear_effect": [
+        "bottleneck_relief",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "automatic fire-control radar",
+        "no effect until 1943"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/30_センサー射撃指揮_I-O連鎖.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "id": "TECH-GUNFIRE-SURFACE-1942-001",
+      "domain": "SURFACE_GUNFIRE",
+      "status": "accepted",
+      "valid_from": "system/platform dependent by 1942",
+      "what_changed": "Better calculation, calibration, optics and I/O shorten convergence of existing mechanical fire-control cycles; they do not replace them.",
+      "magnitude": {
+        "type": "relative",
+        "range": "normal daylight surface fire overall hit probability +2-5% relative; first straddle/effective solution roughly 5-10% faster; stronger reduction in initial systematic error at non-standard long range"
+      },
+      "causal_stage": [
+        "FIRE_CONTROL",
+        "ATTACK",
+        "HIT"
+      ],
+      "combat_meaning": [
+        "More reliable/earlier effective fire, especially under nonstandard conditions, while salvo-observe-correct cycle remains."
+      ],
+      "combines_with": [
+        "optics",
+        "radar_warning",
+        "crew_drill"
+      ],
+      "nonlinear_effect": [
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "20-40% generic gun hit increase",
+        "electronic replacement of Type 98/mechanical fire-control"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/30_センサー射撃指揮_I-O連鎖.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "id": "TECH-COMINT-JP-HIGHGRADE-1942-001",
+      "domain": "SIGINT_COMINT",
+      "status": "accepted",
+      "valid_from": "1942",
+      "what_changed": "Japanese high-grade operational cryptosystems and key/traffic discipline are sufficiently improved that US reconstruction from high-grade ciphertext cannot normally deliver operation location, exact schedule, and force composition with short-strategic timeliness/precision.",
+      "magnitude": {
+        "type": "information_capability",
+        "range": "near-unavailable for short-strategic exploitation of high-grade content; not mathematically unbreakable forever"
+      },
+      "causal_stage": [
+        "INFORMATION_ACQUISITION"
+      ],
+      "combat_meaning": [
+        "Historical JN-25-like high-grade content advantages must not be silently reinserted into US pre-battle knowledge."
+      ],
+      "combines_with": [
+        "traffic_analysis",
+        "reconnaissance",
+        "direction_finding",
+        "command_acceptance"
+      ],
+      "nonlinear_effect": [
+        "information_bottleneck"
+      ],
+      "do_not_simplify_as": [
+        "US knows nothing",
+        "every Japanese code is secure",
+        "permanent mathematical impossibility"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/70_暗号・通信情報_設計防御・攻撃・運用.md"
+      ]
+    },
+    {
+      "id": "TECH-COMINT-RESIDUAL-CHANNELS-1942-001",
+      "domain": "SIGINT_COMINT",
+      "status": "accepted",
+      "valid_from": "1942",
+      "what_changed": "Loss of timely high-grade decryption does not erase low-grade code exploitation, plaintext, traffic volume, callsigns/frequencies, DF, air/submarine reconnaissance, geography, and logistics inference.",
+      "magnitude": {
+        "type": "information_channels",
+        "range": "channel-specific"
+      },
+      "causal_stage": [
+        "INFORMATION_ACQUISITION",
+        "ANALYSIS"
+      ],
+      "combat_meaning": [
+        "Enemy can form candidate-operation probabilities and rough force/activity estimates, but with worse precision and freshness than a high-grade-content solution."
+      ],
+      "combines_with": [
+        "highgrade_crypto_defense",
+        "reconnaissance",
+        "analysis_capacity"
+      ],
+      "nonlinear_effect": [
+        "substitution",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "high-grade unreadable means information blackout"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/70_暗号・通信情報_設計防御・攻撃・運用.md"
+      ]
+    },
+    {
+      "id": "TECH-SURFACE-SPEED-ROBUSTNESS-001",
+      "domain": "SURFACE",
+      "status": "conditional",
+      "valid_from": "class-specific",
+      "what_changed": "For many surface ships the important speed effect is not a large trial-speed increase but a higher probability of making planned speed when loaded, fouled, fatigued, or after continuous operations.",
+      "magnitude": {
+        "type": "qualitative",
+        "range": "class-specific; headline maximum-speed change often small"
+      },
+      "causal_stage": [
+        "TRANSIT",
+        "INTERCEPT",
+        "WITHDRAW"
+      ],
+      "combat_meaning": [
+        "Raises schedule/intercept realization probability and can enable other tactics such as re-entry after torpedo reload."
+      ],
+      "combines_with": [
+        "machinery_reliability",
+        "fuel_state",
+        "torpedo_cycle"
+      ],
+      "nonlinear_effect": [
+        "threshold",
+        "multiplicative_across_distinct_stages"
+      ],
+      "do_not_simplify_as": [
+        "large universal knot increase",
+        "irrelevant because maximum speed changed little"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/10_水上艦_駆逐艦・戦艦改装・大和型.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "id": "TECH-INTEGRATION-RULE-001",
+      "domain": "CROSS_DOMAIN",
+      "status": "accepted",
+      "valid_from": "all dates",
+      "what_changed": "Independent improvements at distinct stages may compound; improvements feeding the same intermediate variable must be integrated there first to avoid double counting. Thresholds and freed-resource reallocation can make total operational change much larger than any single percentage.",
+      "magnitude": {
+        "type": "model_rule",
+        "range": "event-specific"
+      },
+      "causal_stage": [
+        "ALL"
+      ],
+      "combat_meaning": [
+        "Prevents both naive Warsman-style unconditional multiplication and the opposite error of treating every improvement as disconnected minor increments."
+      ],
+      "combines_with": [
+        "all technical entries"
+      ],
+      "nonlinear_effect": [
+        "multiplicative_across_distinct_stages",
+        "threshold",
+        "resource_reallocation",
+        "shared_intermediate_no_double_count",
+        "enemy_adaptation"
+      ],
+      "do_not_simplify_as": [
+        "never multiply",
+        "always multiply all percentages"
+      ],
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    }
+  ]
+}

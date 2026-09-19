@@ -1,0 +1,19 @@
+{
+  "revision": "v012",
+  "result": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "date": "2026-08-23",
+  "validator": "98_TOOLS/validate_refactor_v010.py",
+  "current_restart": "CHECKPOINT_1944-04-30T24_v004",
+  "current_global_analysis_frontier": "1944-07-14T24:00",
+  "technical_baseline": "TECH_INDEX_v006",
+  "checks_passed": [
+    "all v011 structural/combat/platform/novel-weapon checks retained",
+    "v012 README/handoff current-family targets resolve",
+    "v012 session frontier preserves canonical restart while separating 1944-07-14 global analysis frontier from China-only 1944-08-06 forward adjudication",
+    "Saipan authoritative settlement, CBI logistics-tax working settlement, China forward adjudication and summer force-regeneration working ledger all exist",
+    "legacy subtree retained"
+  ],
+  "note": "v012 is a session-state/settlement package update, not a new full global checkpoint. Monthly 1944 summer force-regeneration accounting remains intentionally WORKING_NOT_CLOSED."
+}

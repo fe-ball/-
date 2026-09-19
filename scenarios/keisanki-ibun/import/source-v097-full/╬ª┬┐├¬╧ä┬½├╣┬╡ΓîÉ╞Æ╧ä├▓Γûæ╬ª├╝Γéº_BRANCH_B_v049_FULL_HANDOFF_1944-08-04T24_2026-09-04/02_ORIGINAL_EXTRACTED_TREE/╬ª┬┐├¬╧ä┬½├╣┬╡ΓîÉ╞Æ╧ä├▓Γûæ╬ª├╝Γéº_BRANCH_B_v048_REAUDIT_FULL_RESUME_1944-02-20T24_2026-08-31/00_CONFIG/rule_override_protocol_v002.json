@@ -1,0 +1,37 @@
+{
+  "revision": "v002",
+  "purpose": "Editable mechanism for changing branch/runtime rules without contaminating technical/historical evidence.",
+  "precedence": [
+    "explicit active branch override",
+    "later version of same base rule registry",
+    "base adjudication/refactor policy"
+  ],
+  "override_schema": {
+    "override_id": "OVR-* unique stable id",
+    "target_rule_ids": "list of R-*; may be empty only for an additive branch rule",
+    "action": [
+      "add_branch_rule",
+      "replace_behavior",
+      "replace_rule",
+      "disable_rule",
+      "narrow_scope",
+      "expand_scope"
+    ],
+    "effective_rule": "required for active behavioral overrides",
+    "reason": "free text",
+    "effective_from": "package/checkpoint/date",
+    "impact_scope": [
+      "runtime_only",
+      "checkpoint_descendants",
+      "prewar_and_warstart",
+      "all_descendants"
+    ],
+    "status": [
+      "PROPOSED",
+      "ACTIVE_CURRENT_BRANCH",
+      "RETIRED"
+    ]
+  },
+  "application_rule": "Never edit evidence to make it agree with a rule change. Re-evaluate only outputs whose dependency graph intersects the changed rule/override.",
+  "active_override_source": "00_CONFIG/current_branch_overrides_v003.json"
+}

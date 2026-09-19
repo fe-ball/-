@@ -1,0 +1,23 @@
+{
+  "revision": "v0.01",
+  "opening_date": "1941-12-07/08",
+  "precedence_rule": "later dedicated HARD-clock audits override older aircraft-document timing statements when they conflict",
+  "guards": [
+    {
+      "id": "TECH-THRUST-EXHAUST",
+      "opening_state_required": "TEST",
+      "opening_mass_standardization_allowed": false,
+      "centerline_clock": {
+        "1941": "bench comparison and limited flight test",
+        "1942_H1": "aircraft-specific comparison / thermal / flame / durability testing",
+        "1942_H2": "new-build or major-refit mass-standardization may begin after test closure",
+        "1943": "broader retrofit and standard drawing spread"
+      },
+      "authoritative_basis": "117_資料庫_2026-08-14_推力式単排気管_史実時系列監査.md as summarized in switch_registry_v010 / MASTER_SWITCH_AUDIT_v010",
+      "superseded_input_claims": [
+        "Ki-46-II thrust-exhaust mass-production timing of 1941-late to 1942-early retained in older 51 text",
+        "any fixed +km/h opening-performance bonus attributed solely to thrust exhaust"
+      ]
+    }
+  ]
+}

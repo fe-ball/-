@@ -1,0 +1,49 @@
+{
+  "package": "BRANCH B v050 retro-audit layer",
+  "canonical_frontier": "1944-08-04T24:00",
+  "retro_audit_focus": "1942H2 Santo to New Caledonia",
+  "santo": {
+    "d_day": "1942-09-25",
+    "organized_us_defense_ends": "1942-09-29",
+    "japan_ground_losses_center": [3400, 4800],
+    "current_primary_campaign_authority": "BRANCH_B_SANTO_TF64_CORRECTION_AND_DPLUS3_v009",
+    "japan_surface_state": {
+      "Kongo": "medium damage; November conditional/second echelon",
+      "Hagikaze": "medium-heavy damage",
+      "Tokitsukaze": "light-medium damage",
+      "Murasame": "medium-heavy damage"
+    },
+    "us_surface_state": {
+      "Wasp": "campaign mission kill; November return OPEN",
+      "Preston": "sunk",
+      "Duncan": "lost",
+      "Quincy": "heavy damage",
+      "Atlanta": "combat capable in corrected line",
+      "Washington": "combat capable"
+    },
+    "november_base_air_sustainable": [45, 65]
+  },
+  "japan_1942_11_08_working": {
+    "fleet_carriers": ["Shokaku", "Zuikaku", "Hiryu", "Soryu"],
+    "fleet_carrier_operational_aircraft": [197, 220],
+    "support_carriers_center": ["Junyo", "Ryujo", "Zuiho"],
+    "support_carrier_reserve_gate": "Hiyo",
+    "fast_bb_first_line": ["Hiei", "Kirishima", "Haruna"],
+    "fast_bb_conditional": "Kongo",
+    "destroyers_mission_ready": [28, 33],
+    "submarines_effective": [8, 11],
+    "tankers_normal": [5, 7],
+    "tankers_with_yamato_mutsu": [7, 9],
+    "heavy_reserve": "Yamato + Mutsu conditional on U.S. fast-BB intelligence and tanker state"
+  },
+  "allied_target_estimate_new_caledonia_pct": {
+    "1942-10-01": 30,
+    "1942-10-10": 35,
+    "1942-10-20": 45,
+    "1942-10-28": 55,
+    "1942-11-03": 65,
+    "1942-11-06_pre_course_confirmation": [70, 75],
+    "D_minus_2_to_D_minus_1": [85, 95]
+  },
+  "next_fixed_task": "Allied 1942-10-01 to 1942-11-08 buildup and exact OOB under target uncertainty"
+}

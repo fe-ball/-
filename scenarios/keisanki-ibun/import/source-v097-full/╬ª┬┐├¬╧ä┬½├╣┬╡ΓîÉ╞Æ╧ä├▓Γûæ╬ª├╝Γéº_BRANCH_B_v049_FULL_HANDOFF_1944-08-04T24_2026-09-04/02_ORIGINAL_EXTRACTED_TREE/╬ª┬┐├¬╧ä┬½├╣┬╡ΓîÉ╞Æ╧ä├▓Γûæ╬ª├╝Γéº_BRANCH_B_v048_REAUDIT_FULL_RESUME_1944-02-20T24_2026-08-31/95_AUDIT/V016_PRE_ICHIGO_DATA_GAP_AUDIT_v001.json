@@ -1,0 +1,19 @@
+{
+  "revision": "v001",
+  "id": "V016_PRE_ICHIGO_DATA_GAP_AUDIT_v001",
+  "date": "2026-08-24",
+  "result": "PASS_WITH_OPEN_WORKING_BANDS",
+  "clock_advanced": false,
+  "current_time": "1944-04-25T00:00",
+  "findings": {
+    "burma_2d_division_double_count_flagged": true,
+    "old_7_9_division_ichigo_not_current": true,
+    "old_14_division_ichigo_not_current": true,
+    "five_go_guangyuan_phase_precedes_ichigo_resizing": true,
+    "land_airfield_ledger_required": true,
+    "china_oob_fixed_vs_mobile_ledger_required": true,
+    "national_1944_shipping_pool_not_yet_canonical": true,
+    "nanjing_measured_as_rear_substitution_not_assault_headcount": true,
+    "operation_scale_not_yet_settled": true
+  }
+}

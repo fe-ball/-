@@ -1,0 +1,18 @@
+{
+  "package": "ASAI-WORLDLINE-HANDOFF-2026-09-03-FULL-V8-1939AIRPOWER2",
+  "source_package": "ASAI-WORLDLINE-HANDOFF-2026-09-02-FULL-V8-1939AIRPOWER1.zip",
+  "source_file_count": 373,
+  "source_files_preserved_pathwise": 373,
+  "unchanged_source_files_hash_checked": 368,
+  "unchanged_source_files_hash_match": 368,
+  "missing_source_files": [],
+  "unexpected_source_hash_mismatch": [],
+  "intentional_source_file_updates": [
+    "50-CURRENT-1939-1941-AIRPOWER-AUDIT/04-OPEN-SHIDEN-AUTO-COMBAT-FLAP-ASAI-AUTOMATION-V8.md",
+    "PACKAGE-STATE-V8.tsv",
+    "PACKAGE-INVENTORY-V8.tsv",
+    "FULL-PACKAGE-MANIFEST-SHA256-V8.tsv",
+    "SHA256SUMS-V8.txt"
+  ],
+  "note": "All non-metadata/non-resolved-open files inherited from 1939AIRPOWER1 matched SHA256 exactly before the AIRPOWER2 manifest rebuild. New AIRPOWER2 overlay files are additive."
+}

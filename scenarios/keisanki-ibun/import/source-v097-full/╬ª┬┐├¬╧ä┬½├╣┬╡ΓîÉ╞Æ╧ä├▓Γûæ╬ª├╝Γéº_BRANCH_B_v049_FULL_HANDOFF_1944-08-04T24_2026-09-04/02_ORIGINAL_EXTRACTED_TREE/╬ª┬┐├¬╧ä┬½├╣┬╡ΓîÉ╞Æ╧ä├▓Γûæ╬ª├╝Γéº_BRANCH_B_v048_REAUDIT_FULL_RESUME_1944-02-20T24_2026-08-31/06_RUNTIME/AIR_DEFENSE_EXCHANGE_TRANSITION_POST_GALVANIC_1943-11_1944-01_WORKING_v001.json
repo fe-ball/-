@@ -1,0 +1,72 @@
+{
+  "revision": "v001",
+  "id": "AIR_DEFENSE_EXCHANGE_TRANSITION_POST_GALVANIC_1943-11_1944-01_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "period": "1943-11-26 through 1944-01-28",
+  "purpose": "Record the dated post-GALVANIC learning effect on expected Japanese land-base fighter exchange without retroactively rewriting realized GALVANIC losses or turning C2 into a universal kill multiplier.",
+  "metric_definition": {
+    "name": "favorable_exchange_index",
+    "meaning": "Relative multiplier on expected enemy combat losses per Japanese combat loss under otherwise matched aircraft, pilot, mission and target conditions, compared with the same Branch unit before the post-GALVANIC procedural learning was absorbed.",
+    "not_meaning": [
+      "percentage-point kill probability bonus",
+      "global aircraft-performance multiplier",
+      "guaranteed historical loss-ratio rewrite",
+      "US-style GCI equivalence"
+    ],
+    "use_rule": "Apply through warning/readiness/initial-energy/section-control stages. If those stages are absent or suppressed, use the lower maturity band rather than adding the index anyway."
+  },
+  "dated_transition": [
+    {
+      "date": "1943-11-26",
+      "context": "GALVANIC realized battle",
+      "A_grade_fixed_base_relative_shift": "0% retroactive",
+      "carrier_CAP_relative_shift": "0% retroactive",
+      "rule": "Battle is the learning trigger. Keep macro centers Japan 67 / US 44 irrecoverable aircraft and existing microcombat result unchanged."
+    },
+    {
+      "date_band": "1943-12-01..1943-12-15",
+      "context": "priority fixed bases absorb immediate lessons",
+      "A_grade_fixed_base_relative_shift": "+3% to +8%",
+      "B_grade_base_relative_shift": "+1% to +4%",
+      "remote_base_relative_shift": "0% to +2%",
+      "carrier_CAP_relative_shift": "0% to +3%",
+      "main_causes": "readiness staging, section discipline, cue-to-confirm procedure, refusal of low-value chase; hardware essentially unchanged"
+    },
+    {
+      "date": "1944-01-01",
+      "context": "A-grade base procedures stabilized; EW/field-service system already material",
+      "A_grade_fixed_base_relative_shift": "+8% to +15%",
+      "B_grade_base_relative_shift": "+3% to +7%",
+      "remote_base_relative_shift": "0% to +4%",
+      "carrier_CAP_relative_shift": "+2% to +5%",
+      "main_causes": "better layered readiness, radio procedure, plot-to-intercept handoff, maintenance/availability discipline"
+    },
+    {
+      "date": "1944-01-28",
+      "context": "post-GALVANIC learning plus Q1 calibration/test-procedure improvement",
+      "A_grade_fixed_base_relative_shift": "+12% to +22%",
+      "B_grade_base_relative_shift": "+5% to +10%",
+      "remote_base_relative_shift": "0% to +5%",
+      "carrier_CAP_relative_shift": "+3% to +8%",
+      "main_causes": "warning/plot reliability, staged alert, section control, radar/radio field service and more disciplined energy geometry; still below US precision GCI/CIC"
+    }
+  ],
+  "target_and_mission_gates": {
+    "medium_altitude_heavy_bomber_raid": "A-grade fixed-base band may be used if warning network remains intact and interceptor has sufficient altitude performance.",
+    "B29_high_altitude": "Do not apply full A-grade exchange shift to standard Raiden at 8.5-10 km. First gate variant/altitude capability; only then use warning/C2 effect on opportunity quality.",
+    "carrier_fighter_battle": "Use carrier-CAP band only; fixed-base plot/radar maturity is not transferable.",
+    "radar_suppressed_base": "Downgrade one or more maturity grades depending on remaining visual/DF/radio picture. Platform performance is unchanged but geometry advantage collapses.",
+    "poor_weather_or_broken_radio": "Use lower band or zero incremental shift if the cue-to-visual/section-control chain fails."
+  },
+  "past_event_application": {
+    "GALVANIC_1943_11_26": "LOCKED_NO_REWRITE",
+    "December_outer_Marshall_pressure": "No centered aircraft-loss adjudication exists to rewrite. If later reconstructed, use early-December maturity rather than Jan-28 maturity.",
+    "Jan_28_and_later_Flintlock_equivalent": "Prospective use of Jan-28 maturity is allowed, subject to base-specific suppression and aircraft-type gates."
+  },
+  "why_this_is_not_double_counting": [
+    "Airframe median/reliability is modeled in the aircraft platform layer.",
+    "Radar production/field-service is modeled in the sensor/readiness layer.",
+    "This ledger captures the post-battle procedural conversion of those existing assets into better initial geometry and section control.",
+    "Do not separately add a generic 'GALVANIC lesson bonus' after using this ledger."
+  ]
+}

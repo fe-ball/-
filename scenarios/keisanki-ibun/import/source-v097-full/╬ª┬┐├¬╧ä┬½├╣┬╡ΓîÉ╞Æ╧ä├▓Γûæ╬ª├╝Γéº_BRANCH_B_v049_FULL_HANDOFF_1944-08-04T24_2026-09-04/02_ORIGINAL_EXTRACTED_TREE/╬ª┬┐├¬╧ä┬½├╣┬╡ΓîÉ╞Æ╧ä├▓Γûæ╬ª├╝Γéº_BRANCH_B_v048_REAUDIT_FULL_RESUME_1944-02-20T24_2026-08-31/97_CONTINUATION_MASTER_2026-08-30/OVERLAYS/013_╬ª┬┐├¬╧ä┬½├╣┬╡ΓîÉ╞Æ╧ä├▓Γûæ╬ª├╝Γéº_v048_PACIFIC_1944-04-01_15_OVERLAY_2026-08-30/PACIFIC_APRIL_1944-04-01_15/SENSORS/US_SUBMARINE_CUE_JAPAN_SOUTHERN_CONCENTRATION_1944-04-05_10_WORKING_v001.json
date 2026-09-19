@@ -1,0 +1,18 @@
+{
+  "revision": "v001",
+  "id": "US_SUBMARINE_CUE_JAPAN_SOUTHERN_CONCENTRATION_1944-04-05_10_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-04-05..10",
+  "global_frontier_after_merge": "1944-04-15T24",
+  "parents": [
+    "JAPAN_FIRST_MOBILE_FLEET_SOUTHWARD_CONCENTRATION_DECISION_1944-03-04_08_WORKING_v001",
+    "JAPAN_PACIFIC_ISR_SYSTEM_MATURITY_1944-03-20_31_WORKING_v001"
+  ],
+  "historical_anchor": "US submarines historically sighted/attacked major Japanese cruiser groups moving between Davao and Lingga on 6-7 Apr; Branch uses this only as a sanity anchor for submarine observation opportunity, not as an automatic exact ship encounter.",
+  "branch_result": {
+    "US_information": "One or more intermittent submarine reports confirm heavy Japanese surface movement on the southern Philippines/Celebes approach routes. Confidence rises that a major fleet pool is concentrating south, but carrier count/precise anchorage remains unresolved.",
+    "Japanese_loss": "No major fleet ship loss centered in this window. Improved route ASW, routing discipline and speed reduce attack opportunities but do not eliminate submarine contact risk.",
+    "weapon_quality_on_carriers": "NO. US submarines do not deliver a fresh, complete fix on the five-carrier body."
+  },
+  "effect": "Both sides gain warning-level information without forcing battle: Japan treats submarines as a basing hazard and rotates anchorages; the US avoids assuming the Japanese carriers are absent merely because no exact carrier visual is obtained."
+}

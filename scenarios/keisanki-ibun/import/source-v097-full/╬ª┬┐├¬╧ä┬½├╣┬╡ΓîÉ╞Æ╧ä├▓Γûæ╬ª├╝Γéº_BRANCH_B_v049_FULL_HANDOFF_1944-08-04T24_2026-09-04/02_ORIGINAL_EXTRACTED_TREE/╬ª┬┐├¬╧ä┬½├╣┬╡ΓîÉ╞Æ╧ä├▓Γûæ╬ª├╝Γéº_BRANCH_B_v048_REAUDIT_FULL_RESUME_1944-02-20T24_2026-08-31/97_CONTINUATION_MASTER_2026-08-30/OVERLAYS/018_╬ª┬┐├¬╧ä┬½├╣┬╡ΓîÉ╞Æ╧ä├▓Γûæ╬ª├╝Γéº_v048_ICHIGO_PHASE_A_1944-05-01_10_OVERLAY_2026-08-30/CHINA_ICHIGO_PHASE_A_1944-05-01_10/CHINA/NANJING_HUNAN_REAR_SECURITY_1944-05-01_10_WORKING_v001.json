@@ -1,0 +1,23 @@
+{
+  "revision": "v001",
+  "id": "NANJING_HUNAN_REAR_SECURITY_1944-05-01_10_WORKING_v001",
+  "status": "WORKING_BRANCH_REAR_SECURITY_EXECUTION",
+  "clock_window": "1944-05-01..10",
+  "global_frontier_after_merge": "1944-05-10T24:00:00+09:00",
+  "parents": [
+    "CHINA_NANJING_CHONGQING_STATE_1944-04-30_WORKING_v001",
+    "CHINA_STATE_1944-04-30T24_POST_ICHIGO_LAUNCH_WORKING_v001"
+  ],
+  "authorized_initial_hunan_security_package_band": [30000, 45000],
+  "physically_in_secured_Yueyang_northern_Hunan_rear_by_10May_band": [18000, 28000],
+  "roles": [
+    "rail/road bridge and depot guard behind Japanese combat formations",
+    "town and warehouse security",
+    "police/intelligence screening and anti-sabotage patrols",
+    "prisoner/straggler handling",
+    "limited route protection with Japanese mobile reaction cadres retained at key nodes"
+  ],
+  "Japanese_static_workload_released_by_10May_div_eq": [0.6, 0.9],
+  "combat_credit": "NONE for breakthrough fighting. This apparatus improves Japanese operational endurance by keeping first-line infantry from being peeled off in large numbers behind the advance.",
+  "risk": "Reliability falls if asked to hold isolated contested areas without Japanese cadres, artillery or nearby mobile reserve."
+}

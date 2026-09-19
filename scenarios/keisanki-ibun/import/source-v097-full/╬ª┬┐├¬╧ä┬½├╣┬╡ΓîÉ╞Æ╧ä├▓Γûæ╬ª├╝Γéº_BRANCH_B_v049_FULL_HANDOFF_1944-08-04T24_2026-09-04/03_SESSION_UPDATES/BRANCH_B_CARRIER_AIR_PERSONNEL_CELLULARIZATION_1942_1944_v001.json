@@ -1,0 +1,52 @@
+{
+  "id": "BRANCH_B_CARRIER_AIR_PERSONNEL_CELLULARIZATION_1942_1944_v001",
+  "status": "WORKING_INSTITUTIONAL_OVERLAY",
+  "clock_advance": false,
+  "current_frontier": "1944-03-08T24:00",
+  "model_layers": [
+    "hull-organic deck/air department",
+    "mobile flying/direct-maintenance",
+    "carrier-division/fleet qualified pool",
+    "training/regeneration/future-carrier"
+  ],
+  "march_1944": {
+    "four_core_combat_usable_aircraft": [
+      225,
+      255
+    ],
+    "four_core_flying_personnel_estimate": [
+      420,
+      500
+    ],
+    "carrier_compatible_flying_personnel_outside_four_core": [
+      180,
+      300
+    ],
+    "total_carrier_compatible_flying_system": [
+      600,
+      800
+    ],
+    "guard": "not all are elite or immediately carrier-night qualified"
+  },
+  "new_cell_seed": {
+    "experienced_leadership_specialist_billet_fraction": [
+      0.15,
+      0.3
+    ],
+    "guard": "not a fraction of all personnel; prioritize bottleneck leadership/specialist billets"
+  },
+  "principal_brakes": [
+    "training fuel",
+    "hull-specific deck teams",
+    "navigators/search specialists",
+    "strike leaders",
+    "senior maintenance supervisors",
+    "combat losses to seed cadres"
+  ],
+  "future_carriers": {
+    "Taiho": "first test of cadre budding without hollowing veteran four",
+    "Unryu_Amagi": "prospective cadres form before hull completion",
+    "Katsuragi": "later wave; personnel generation must start early"
+  },
+  "mandatory_guard": "aircrew portability does not imply instant ship readiness"
+}

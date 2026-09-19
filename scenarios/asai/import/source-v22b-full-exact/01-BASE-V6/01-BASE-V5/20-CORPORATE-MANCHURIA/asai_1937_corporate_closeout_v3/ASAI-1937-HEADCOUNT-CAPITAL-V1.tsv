@@ -1,0 +1,18 @@
+metric	low	central	high	unit	status	notes
+Direct employees	8000	10000	12000	persons	EXISTING-WORKING	Current archive band preserved; central used for financial audit.
+Average annual employer personnel cost	700	760	820	yen/person/year	DERIVED	1936 male factory average ~¥1.98/day; skilled grinding/forge/pattern jobs near ¥2.9-3/day; engineers/admin higher, women/apprentices lower.
+Total personnel cost	5.6	7.6	9.84	million yen/year	DERIVED	Embedded across COGS, R&D and SG&A.
+Paid-in capital	7	9	11	million yen	WORKING-AUDIT	Central intentionally similar order to late-1937 Toyoda paid-in scale, but Asai remains independent family/management controlled.
+Retained earnings / reserves	4	5	6.5	million yen	DERIVED	Built from mature steel/tool/turbo cash lines.
+Bank debt	3	4	5.5	million yen	DERIVED	Expansion borrowing; not dominant financing source.
+Trade payables / customer advances / other liabilities	4	5	6	million yen	DERIVED	Military prototype advances and normal trade finance are useful non-equity funding.
+Total assets / capital employed	18	23	29	million yen	DERIVED	Net fixed plant plus inventory, receivables, cash, leased computation assets.
+Equity ratio	61.1	60.9	60.3	percent	DERIVED	Supports archive rule: relatively high self-capital ratio and control insulation.
+Net fixed plant & equipment	10.5	13.5	17	million yen	DERIVED	Steel, machining, test stands, turbine expansion, computing plant and distributed facilities.
+Inventory	3.0	3.7	4.8	million yen	DERIVED	Strategic alloy stock, W/Ni/Mo inputs, turbo/GT spares, work in process.
+Receivables	2.2	2.8	3.5	million yen	DERIVED	Government/industrial terms and Manchuria branch sales.
+Cash / liquid balances	1.2	1.5	2.0	million yen	DERIVED	Kept modest during expansion.
+Other assets	1.1	1.5	1.7	million yen	DERIVED	Lease fleet, deposits, prepaid/technical assets; presentation bucket.
+1937 depreciation & amortization	1.0	1.3	1.6	million yen/year	DERIVED	Used for cash-flow sanity check.
+1937 capital expenditure	2.8	3.6	4.8	million yen/year	DERIVED	Expansion year; exceeds depreciation.
+Revenue per employee	2575	2530	2542	yen/person/year	DERIVED	Scenario revenue divided by scenario headcount; intentionally fairly stable.

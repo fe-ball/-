@@ -1,0 +1,25 @@
+field\tvalue\nnominal_version\tV16\nbase_package\tV15 aircraft visual geometry full package\nbuild_date\t2026-09-11\ncurrent_session_folder\t84-CURRENT-2026-09-11-THREAD-CONSOLIDATION-V16\nchina_clock\t1940-07-31 24:00\nnomonhan_clock\t1939-08-31 24:00 CLOSED\nnext_replay_gate\tHundred Regiments Offensive lead-in / first phase\ncombat_helicopter_1940\t0\n4th_division_july_1940\tManchuria retained\nyichang_status\tJapanese-held forward aviation base\nbranch_guard\tV16 explicit-only supersession; otherwise retain older current authority\nEOF
+
+cat > "$ROOT/TERMINOLOGY-AND-SUPERSESSION-GUARD-V16.tsv" <<'EOF'
+term\trule\nCURRENT-CLOSE\tThread decision/replay event is current authority where explicitly listed\nCURRENT-PLANNING\tAccepted planning band; future realization remains replay-dependent\nWORKING-CLOSE\tAccepted accounting/sustainment value until dedicated closeout refines it\nGATE\tFuture condition/decision; not a completed event\nANALYSIS-ONLY\tNever auto-import into canon/OOB/losses\nphysical\tPhysically exists; does not imply accepted/service-released/assigned/ready/combat-present\naccepted\tFactory/arsenal accepted; does not imply service release\nservice-released\tEligible for normal unit use; does not imply theater assignment\nassigned\tAllocated to a unit/theater; does not imply ready\nready\tMission-ready at the stated time\ncombat-present\tActually present in the replayed combat event\nlogistics_delta\tEnd-to-end system effect unless explicitly component-scoped; do not stack correlated percentages\nloss_delta\tAbsorb into current unit state after each phase; do not reapply as future multiplier\nEOF
+
+cat > "$ROOT/V16-CHANGELOG-THREAD-CONSOLIDATION.md" <<'EOF'
+# V16 CHANGELOG — THREAD CONSOLIDATION
+
+V16 adds one current session tree (`84-CURRENT-2026-09-11-THREAD-CONSOLIDATION-V16`) and advances the China replay clock from 1939-12-31 to 1940-07-31.
+
+Major additions:
+
+- national resource / aviation sustainment consolidation;
+- Ki-42 1940 continuation closure;
+- 1940 weapon-fielding gates and E6 service-release dates;
+- fuel / diesel / GT middle-distillate doctrine and processing capacities;
+- pilot / technician / GT advanced-training planning;
+- airfield / oxygen / warning-network planning;
+- ground-mobility / merchant / Nanjing logistics non-stacking rules;
+- northern / Finland / SIGINT strategic gate;
+- chronological 1940 China replay through 31 July;
+- Hundred Regiments logistics pre-gate;
+- analytical-only quarantine for side calculations explicitly not promoted to canon.
+
+No V15 visual-geometry current file is removed or weakened. No V14/V13/V12 procurement/OOB file is superseded unless V16 explicitly says so.

@@ -65,3 +65,10 @@ AIの推論、ユーザー指定、未確定案、superseded事項を可能な�
 - principles/ — 複数シナリオ共通の方法論
 - conventions/ — authority / status / persistenceの運用規約
 - scenarios/ — 現在のシナリオ配置
+
+## 元ZIPの完全保存 — 2026-09-20
+
+- [浅井世界線 V22B: 原本ZIPと全1,122ファイル](scenarios/asai/import/IMPORT-STATUS.md)
+- [計算機異聞 v097: 原本ZIPと全2,071ファイル](scenarios/keisanki-ibun/import/IMPORT-STATUS.md)
+
+全件CRC・SHA-256検証済み。現行正本V23 / v098と歴史時計は維持。

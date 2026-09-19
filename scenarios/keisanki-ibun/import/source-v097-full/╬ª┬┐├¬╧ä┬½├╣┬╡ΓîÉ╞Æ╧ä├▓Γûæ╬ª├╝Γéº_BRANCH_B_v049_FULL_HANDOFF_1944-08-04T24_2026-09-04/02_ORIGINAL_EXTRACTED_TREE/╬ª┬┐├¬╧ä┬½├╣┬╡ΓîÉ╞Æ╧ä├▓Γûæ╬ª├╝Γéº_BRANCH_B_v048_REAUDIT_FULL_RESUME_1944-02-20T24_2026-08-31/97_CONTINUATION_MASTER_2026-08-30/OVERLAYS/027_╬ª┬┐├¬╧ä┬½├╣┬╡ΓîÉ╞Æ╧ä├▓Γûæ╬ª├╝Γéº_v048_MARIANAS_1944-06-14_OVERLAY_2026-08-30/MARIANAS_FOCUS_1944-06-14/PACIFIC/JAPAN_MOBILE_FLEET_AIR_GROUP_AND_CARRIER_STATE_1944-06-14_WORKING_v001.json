@@ -1,0 +1,50 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_MOBILE_FLEET_AIR_GROUP_AND_CARRIER_STATE_1944-06-14_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_OOB_AIR_GROUP_AUDIT",
+  "as_of": "1944-06-14T24:00:00+09:00",
+  "parents": [
+    "JAPAN_MOBILE_FLEET_ORDER_1944-06-13_WORKING_v001",
+    "WEAPONS_TECH_PRODUCTION_STATE_1944-05-24_v001",
+    "JAPAN_MOBILE_FLEET_MARIANAS_POSTURE_1944-05-25_06-05_WORKING_v001"
+  ],
+  "five_carrier_core": {
+    "ships": ["SHOKAKU", "ZUIKAKU", "HIRYU", "SORYU", "TAIHO"],
+    "carrier_state": {
+      "SHOKAKU_ZUIKAKU_HIRYU_SORYU": "A / veteran first-line deck-cycle system; hull/deck fully battle-usable on 14 Jun.",
+      "TAIHO": "A-/A. Fully included in normal first coordinated cycle. Repeat-cycle/night/adverse-weather/damage-recovery remains slightly below the veteran four but no longer just a work-up deck."
+    },
+    "mission_ready_aircraft_band": [358, 380],
+    "working_center_role_mix": {
+      "fighters_total": 183,
+      "late_Zuisei_Zero": 129,
+      "Kinsei_Zero_mod": 54,
+      "D4Y_dive_recon": 92,
+      "B6N_torpedo_attack": 87,
+      "C6N_other_fast_recon": 8
+    },
+    "role_mix_guard": "Working-center counts are composition bookkeeping inside the 358-380 ready band, not extra aircraft. Actual launch package varies by search/CAP allocation and deck state.",
+    "synchronized_first_strike_band": [238, 278],
+    "fighter_quality_note": "Kinsei Zero materially narrows the speed/energy deficit and gives better disengagement/escort choices versus F6F, but F6F protection, high-speed handling, radar-CIC fighter direction and numerical depth remain major US advantages.",
+    "A7M": "COMBAT 0. Reppu is still prototype/test and is not embarked for this battle."
+  },
+  "secondary_carrier_group": {
+    "ships": ["JUNYO", "HIYO", "RYUHO", "RYUJO", "ZUIHO", "SHOHO"],
+    "combat_usable_aircraft_band": [145, 180],
+    "working_center_role_mix": {
+      "fighters": 80,
+      "of_which_Kinsei_Zero_mod": 12,
+      "D4Y": 24,
+      "D3A_or_older_dive_bomber": 17,
+      "B6N": 23,
+      "B5N_or_utility_attack": 12,
+      "recon_utility": 4
+    },
+    "employment": "Separate second echelon: CAP, search, reserve/second strike and convoy/surface-cover support. It is not merged into the first five-carrier synchronized launch because ship speed, deck cycle and air-group median remain heterogeneous."
+  },
+  "construction_nonparticipants": {
+    "UNRYU_AMAGI": "Not yet combat-ready; completion/work-up clocks remain future.",
+    "CHITOSE_CHIYODA": "Remain seaplane tenders under branch policy; do not count them as carriers.",
+    "SHINANO": "Not converted into a carrier under current branch policy."
+  }
+}

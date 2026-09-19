@@ -1,0 +1,97 @@
+{
+  "revision": "v001",
+  "id": "US_FAST_CARRIER_PIPELINE_CORRECTION_1944-03-08_WORKING_v001",
+  "status": "WORKING_BRANCH_AUDIT_CORRECTION",
+  "as_of": "1944-03-08T24:00:00+09:00",
+  "purpose": "Correct omitted late-1943 US fast-carrier construction hulls and separate current TF58 combat decks from repair returns and near-term arrivals. This correction changes the reinforcement pipeline, not the already-adjudicated 8-Mar combat OOB.",
+  "current_immediate_fast_deck_pool": {
+    "fleet_carriers_CV": [
+      "Wasp CV-7",
+      "Essex CV-9",
+      "Yorktown CV-10",
+      "Intrepid CV-11",
+      "Bunker Hill CV-17"
+    ],
+    "light_carriers_CVL": [
+      "Princeton CVL-23",
+      "Belleau Wood CVL-24",
+      "Cowpens CVL-25",
+      "Monterey CVL-26",
+      "Langley CVL-27"
+    ],
+    "count": {
+      "CV": 5,
+      "CVL": 5,
+      "total": 10
+    },
+    "working_total_ready_aircraft_band": [
+      520,
+      580
+    ],
+    "aircraft_band_note": "Derived from the HAILSTONE split of 5 CV + 3 CVL at 445-485 ready aircraft, the Princeton/Langley Catchpole support split, Feb raid losses, and US replacement capacity. This is a March-8 planning band, not an exact morning aircraft census."
+  },
+  "known_repair_absences": {
+    "Lexington_CV16": {
+      "state": "MAJOR_REPAIR_BRANCH",
+      "return_to_full_service_band": "1944-03-10..1944-03-25",
+      "meaning_at_8Mar": "not yet credited as a combat deck"
+    },
+    "Cabot_CVL28": {
+      "state": "CAMPAIGN_OUT_BRANCH",
+      "return_to_full_fast_carrier_service_band": "1944-04-28..1944-05-20",
+      "center": "early May"
+    },
+    "Independence_CVL22": {
+      "state": "LONG_REPAIR_BRANCH",
+      "return_to_full_service_band": "1944-07-18..1944-07-25",
+      "meaning_at_8Mar": "not a spring reinforcement"
+    }
+  },
+  "near_term_new_build_pipeline": {
+    "Hornet_CV12": {
+      "state_8Mar": "commissioned/worked-up and Pacific-bound, not yet in TF58",
+      "historical_transit_anchor": "joined Fast Carrier Task Force at Majuro 1944-03-20",
+      "branch_rule": "construction/transit remains unless separately changed by branch events"
+    },
+    "CV18_equivalent": {
+      "branch_name": "PROVISIONAL_ORISKANY_CV18",
+      "naming_status": "UNRESOLVED_NAME_ONLY",
+      "why": "Historical CV-18 was laid down as Oriskany and renamed Wasp after loss of CV-7. Branch Wasp CV-7 survives, so the Essex-class hull still exists but should not silently duplicate the Wasp name.",
+      "state_8Mar": "commissioned/shakedown complete or completing post-shakedown correction; Pacific transfer underway/starting, not a TF58 combat deck",
+      "historical_anchor": "San Diego 1944-03-21; Pearl Harbor 1944-04-04; first TF58 combat-experience sortie mid-May",
+      "combat_credit_8Mar": 0
+    },
+    "Bataan_CVL29": {
+      "state_8Mar": "Pacific-bound; Panama Canal transit on 1944-03-08 historical clock",
+      "historical_anchor": "San Diego 1944-03-16; Pearl Harbor 1944-03-22; further qualification before forward deployment",
+      "combat_credit_8Mar": 0
+    },
+    "San_Jacinto_CVL30": {
+      "state_8Mar": "commissioned and in shakedown/transit/training pipeline; not yet a forward combat deck",
+      "historical_anchor": "later joins TF58 at Majuro and is in the Marcus/Wake/Marianas buildup",
+      "combat_credit_8Mar": 0
+    }
+  },
+  "permanent_branch_carrier_losses_not_returning": [
+    "Lexington CV-2",
+    "Yorktown CV-5",
+    "Enterprise CV-6",
+    "Hornet CV-8",
+    "Saratoga CV-3"
+  ],
+  "forecast_interpretation": {
+    "8Mar": "US fast-deck pool is temporarily compressed to ten immediately useful decks.",
+    "late_March": "Lexington/Hornet can erase much of the temporary compression; Bataan is approaching forward utility.",
+    "April_May": "Cabot, CV-18-equivalent, Bataan and San Jacinto create another reinforcement wave even with Independence still absent.",
+    "guard": "Do not assume all arriving hulls are simultaneously fully trained, maintenance-free, and available to one operation. But do not omit their physical pipeline."
+  },
+  "source_anchors": [
+    "Branch: US_TF58_BRANCH_OOB_1944-01-28_WORKING_v001.json",
+    "Branch: CARRIER_DAMAGE_REPAIR_CLOCK_1944-02-03_WORKING_v001.json",
+    "Branch: GALVANIC_DAMAGE_REPAIR_REGEN_LEDGER_1943-11_1944Q1_v002.json",
+    "US NHHC DANFS: Hornet VIII (CV-12)",
+    "US NHHC DANFS: Wasp IX (CV-18)",
+    "US NHHC DANFS: Bataan I (CVL-29)",
+    "US NHHC DANFS: San Jacinto II (CVL-30)"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "revision": "v011",
+  "current_restart": "CHECKPOINT_1943-09-30T24_v001",
+  "opening_baseline": "WARSTART_1941-12-07_08_v004",
+  "graph": "CHECKPOINT_GRAPH_v010.json",
+  "execution_policy": "Use CHECKPOINT_1943-09-30T24_v001 plus BRANCH_INVARIANT_GUARD_1943-10-01_v001. Former 1944 checkpoints are provisional references and must not be selected implicitly.",
+  "settlement_chain": [
+    "CHECKPOINT_1942-04-10T24_v001",
+    "CHECKPOINT_1942-05-11T24_v001",
+    "CHECKPOINT_1942-06-02T24_v001",
+    "CHECKPOINT_1942-06-15T24_v002",
+    "CHECKPOINT_1942-09-02T24_v001",
+    "CHECKPOINT_1942-10-24T24_v001",
+    "CHECKPOINT_1942-11-19T24_v001",
+    "CHECKPOINT_1942-12-31T24_v001",
+    "CHECKPOINT_1943-09-30T24_v001"
+  ],
+  "next_action": "October 1943 synchronized Pacific carrier-pressure gate -> Japanese allocation -> Bengal/SEAC air response -> individual amphibious/naval hull readiness -> India GO/NO-GO."
+}

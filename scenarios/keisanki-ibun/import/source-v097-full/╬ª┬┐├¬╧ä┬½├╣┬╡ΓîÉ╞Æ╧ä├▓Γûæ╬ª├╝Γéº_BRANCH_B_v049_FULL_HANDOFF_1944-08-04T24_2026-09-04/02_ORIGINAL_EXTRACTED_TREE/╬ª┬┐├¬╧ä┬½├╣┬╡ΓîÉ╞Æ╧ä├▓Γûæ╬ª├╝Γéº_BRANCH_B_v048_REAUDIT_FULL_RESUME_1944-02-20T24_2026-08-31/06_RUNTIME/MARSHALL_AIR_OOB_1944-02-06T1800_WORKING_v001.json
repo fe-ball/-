@@ -1,0 +1,41 @@
+{
+  "revision": "v001",
+  "id": "MARSHALL_AIR_OOB_1944-02-06T1800_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-02-06T18:00:00+12:00",
+  "baseline_ref": "06_RUNTIME/MARSHALL_AIR_OOB_1944-02-03T1530_WORKING_v001.json",
+  "theatre_1800": {
+    "physical_present_or_repairable_center": "about 93-105",
+    "combat_serviceable_band": [
+      18,
+      24
+    ],
+    "combat_serviceable_center": 21,
+    "fighter_serviceable_band": [
+      7,
+      10
+    ],
+    "fighter_serviceable_center": 8,
+    "Raiden_serviceable_band": [
+      1,
+      3
+    ],
+    "Raiden_serviceable_center": 2,
+    "attack_serviceable_band": [
+      4,
+      6
+    ],
+    "attack_serviceable_center": 5,
+    "unique_water_air_recon_serviceable_band": [
+      5,
+      7
+    ],
+    "unique_water_air_recon_serviceable_center": 6
+  },
+  "notes": [
+    "Physical/repairable remains much larger than immediately combat-serviceable because cratered runways, damaged fuel/communications and repair queues dominate.",
+    "Water-air/recon retains disproportionate warning value after runway suppression but lagoon ramps/tenders/fuel have also been repeatedly attacked.",
+    "No 6-8 Kinsei late-Jan order is credited as Marshall combat reinforcement; it is held farther west after the air situation collapses."
+  ],
+  "operational_state": "Residual local defense/harassment and reporting only; incapable of stopping division-scale landings or contesting US air superiority."
+}

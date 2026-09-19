@@ -1,0 +1,100 @@
+{
+  "id": "GALVANIC_1943-11-26_DAWN_DOMAIN_STATE_WORKING_v001",
+  "status": "WORKING_BRANCH_RERUN_NOT_YET_PROMOTED",
+  "time": "1943-11-26T05:30 local",
+  "semantic_base": "Branch B v048 + current Tarawa/fortification/secondary-carrier reaudit chain",
+  "Japan_carriers": {
+    "first_line_hulls": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu"
+    ],
+    "first_line_mission_ready_aircraft": [
+      274,
+      290
+    ],
+    "first_line_posture": "advanced east behind the Marshalls after the 24-25 Nov contact/ground reports; carrier commitment remains gated by fresh US carrier-center contact rather than a Tarawa rescue order",
+    "secondary_hulls": [
+      "Junyo",
+      "Hiyo",
+      "Ryujo",
+      "Zuiho"
+    ],
+    "secondary_combat_usable_aircraft": [
+      102,
+      122
+    ],
+    "secondary_geometry": "rear support echelon; Ryujo/Zuiho centered about 70-100 nmi behind the first-line system, Junyo/Hiyo roughly 100-150 nmi behind/offset; not one homogeneous TG",
+    "secondary_jobs": [
+      "CAP relief/relay",
+      "search and re-search",
+      "emergency recovery",
+      "ferry/cross-deck absorption",
+      "limited follow-on strike only if separately generated"
+    ],
+    "Kinsei_Zero": "18-24 event-ready, centered 20; 13 centered in first-strike escort and 7 in first-line defensive CAP. No Marshall land allocation."
+  },
+  "Japan_regional_air": {
+    "ready_total": [
+      43,
+      57
+    ],
+    "fighters": [
+      25,
+      32
+    ],
+    "attack": [
+      3,
+      6
+    ],
+    "legacy_recon_water_air": [
+      9,
+      12
+    ],
+    "Kyofu": [
+      5,
+      7
+    ],
+    "Zuiun": [
+      2,
+      3
+    ],
+    "role": "degraded but still material search/recontact/CAP system; not a second 20+ aircraft torpedo-strike wallet"
+  },
+  "US_carriers": {
+    "fast_decks_operational": [
+      "Wasp",
+      "Essex",
+      "Yorktown CV-10",
+      "Lexington CV-16",
+      "Bunker Hill",
+      "Princeton",
+      "Belleau Wood",
+      "Cowpens",
+      "Monterey"
+    ],
+    "Independence": "campaign-out since 23 Nov torpedo hit",
+    "ready_aircraft_class": [
+      475,
+      525
+    ],
+    "mission_state": "not a clean reset: repeated Marshall suppression, heavy fleet CAP/search/ASW, and amphibious cover have accumulated fatigue/maintenance debt, but the force is still materially superior in radar/CIC, fighter direction, deck depth and replacement margin",
+    "CVE_split": "centered 5 CVEs on Tarawa support and 3 on Makin by dawn 26 Nov after natural US adaptation; CVE aircraft remain a separate assault-air wallet",
+    "CVE_ready_aircraft_class": [
+      178,
+      205
+    ]
+  },
+  "Tarawa": {
+    "US": "beachhead secure; Red 2/3 seam hardened; 9-11 M4A2 operational late 25 Nov; deliberate combined-arms reduction doctrine now forming in combat",
+    "Japan": "organized local defense still high-intensity; roughly 1050-1350 first-line-equivalent defenders and 250-400 armed-support/local-defense personnel remain at dawn, not all mutually connected; 2-4 Type 95 contact-capable at 25 T24",
+    "effect_on_naval_state": "Tarawa still consumes CVE CAS/spotting/ASW and close surface-fire support, leaving transports/support shipping concentrated in the assault area longer than old v004"
+  },
+  "guards": [
+    "No old 160-165/135-150 strike sizes inherited automatically.",
+    "No old Lexington/Yorktown/Soryu hit states inherited automatically.",
+    "No secondary-carrier aircraft are added as if they were four more Shokaku-class decks.",
+    "No post-GALVANIC Japanese ground doctrine back-port."
+  ]
+}

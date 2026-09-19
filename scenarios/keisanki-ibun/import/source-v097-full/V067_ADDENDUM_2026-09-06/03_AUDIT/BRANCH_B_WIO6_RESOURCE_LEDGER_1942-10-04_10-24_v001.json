@@ -1,0 +1,156 @@
+{
+  "version": "v067",
+  "period": {"start": "1942-10-04", "end": "1942-10-24"},
+  "status": "CENTER_CLOSED_UPPER_TICKETS_OPEN",
+  "rules": {
+    "gross_first": true,
+    "full_cost_not_full_tactical_effect": true,
+    "unpaid_bill_must_appear_somewhere": true,
+    "same_hull_same_day_double_booking": false,
+    "no_invented_named_counterfactual_casualties": true,
+    "historical_duty_removed_by_branch_gets_credit_without_automatic_combat_effect": true
+  },
+  "v066_correction": {
+    "omitted_event": "I-166 shells CAMILA on 1942-10-01; beached total loss",
+    "camila_grt": 1201,
+    "corrected_WIO5_increment": {"ships": 6, "grt": 28107},
+    "corrected_cumulative_through_1942-10-03": {"ships": 30, "grt": 140971},
+    "classification": "BOOKKEEPING_CORRECTION_NOT_BRANCH_EXTRA"
+  },
+  "submarine_events": {
+    "I_162": {
+      "MANON_1942-10-07": {"result": "SUNK_RETAINED", "grt": 5597, "historical_dead": 8},
+      "MARTABAN_1942-10-13": {
+        "result_center": "DAMAGED_SALVAGED",
+        "grt": 4161,
+        "historical_dead": 2,
+        "unavailable_days_through_cutoff": 12,
+        "temporary_grt_days_through_cutoff": 49932,
+        "ASTER_tow_days_1942-10-16_21": 6,
+        "rescue_support": ["HMAS LAUNCESTON", "HMIS NETRAVATI", "EMPIRE DEFIANCE order", "Catalina/air searches"],
+        "branch_extra_sink": false
+      }
+    },
+    "I_27": {
+      "EMPIRE_BOWMAN_1942-10-18": {
+        "grt": 7031,
+        "historical_geometry": "TWO_TORPEDOES_HIT_AMIDSHIPS_BOTH_DUD",
+        "result_center": "SURVIVES",
+        "open_ticket": "EMPIRE_BOWMAN_1942-10-18_OPEN_UPPER_TORPEDO_DUD_DAMAGE_OR_LOSS",
+        "working_sensitivity_not_adopted_probability": {
+          "p_remove_dud_gate_each_0.15_at_least_one": 0.2775,
+          "p_remove_dud_gate_each_0.20_at_least_one": 0.36,
+          "p_remove_dud_gate_each_0.25_at_least_one": 0.4375,
+          "note": "WIO working sensitivity convention only; Stage3A explicitly does not adopt these as final torpedo failure coefficients; damage-to-loss remains another gate"
+        }
+      },
+      "OCEAN_VINTAGE_1942-10-22": {"result": "SUNK_RETAINED", "grt": 7174, "cargo_tons": 9300}
+    },
+    "unattributed_or_unresolved": {
+      "HAVFRU": "UNATTRIBUTED_DUD_ATTACK_OPEN_IDENTITY",
+      "GLENAFRIC_POINT_CLEAR_CABERITA": "NOT_PROMOTED_WITHOUT_IDENTIFIED_JAPANESE_MECHANISM"
+    },
+    "WIO6_permanent_loss_increment": {"ships": 2, "grt": 12771},
+    "cumulative_ordinary_IJN_submarines_1942-06-05_to_1942-10-24": {"ships": 32, "grt": 153742},
+    "branch_extra_center_direct_merchant_loss": {"ships": 0, "grt": 0}
+  },
+  "british_ASW_and_cross_theatre": {
+    "Cromer_Cromarty_Romney": {
+      "Aden_arrival": "1942-10-05",
+      "interpretation": "TRANSIENT_ONWARD_TRANSFER_TO_MEDITERRANEAN_STATION_NOT_PERMANENT_ADEN_ASW",
+      "center_choice": "DO_NOT_RETAIN_AT_ADEN_TO_RESCUE_I27_TARGETS"
+    },
+    "Hero_Tetcott": {
+      "WIO6_days_each": 21,
+      "Mediterranean_destroyer_days_removed": 42,
+      "classification": "GROSS_HISTORICAL_CROSS_THEATRE_BURDEN"
+    },
+    "Persian_Gulf": {
+      "incoming_trade_unescorted_fraction_historical_approx": 0.5,
+      "reason": "lack of suitable assembly port",
+      "effect": "NO_FULL_ESCORT_SCREEN_ASSUMED"
+    },
+    "Cape_emergency_destroyers": {
+      "Arrow_Active_days": 36,
+      "Nizam_Foxhound_days": 36,
+      "Express_Catterick_days": 24,
+      "Nepal_days": 7,
+      "known_minimum_gross_assignment_days": 103,
+      "operational_effect_equals_assignment_days": false,
+      "excluded_from_quantified_minimum": ["FORTUNE while boiler-cleaning/availability clock unresolved", "NAPIER/INCONSTANT/BLACKMORE while still MD1 escort"]
+    },
+    "Branch_credit_no_Illustrious_Durban_Kilindini_escort": {
+      "Hotspur_Derwent_historical_duty_1942-10-15_20_days_each": 6,
+      "gross_destroyer_days_credit": 12,
+      "automatic_enemy_kill_credit": false
+    },
+    "Catalina_cascade": {
+      "Persian_Gulf_WIO6_commitment_days": 63,
+      "Persian_Gulf_cumulative_1942-09-03_to_10-24": 156,
+      "South_Africa_detachment_1942-10-13_24_commitment_days": 36,
+      "Ceylon_to_Mombasa_backfill_1942-10-13_24_commitment_days": 36,
+      "commitment_days_equal_sorties": false
+    }
+  },
+  "Madagascar_drawdown": {
+    "heavy_naval_task": "MOSTLY_COMPLETE_EARLY_OCTOBER",
+    "Force_M_turnover": "1942-10-05",
+    "MD1_1942-10-18_24": {
+      "troopships": ["DUNERA", "DILWARA", "EMPIRE PRIDE"],
+      "troopship_days_through_cutoff": 21,
+      "escort": ["DAUNTLESS", "NAPIER", "INCONSTANT", "BLACKMORE"],
+      "escort_hull_days_through_cutoff": 28,
+      "Eastern_Prince": "EXCLUDED_ENGINE_ROOM_DEFECTS"
+    },
+    "29th_Independent_Brigade": {
+      "direct_to_India": false,
+      "reason": "serious malaria deterioration; up to 55 new cases per day reported",
+      "route_center": "DURBAN_RECUPERATION",
+      "brigade_days_unavailable_for_India_through_cutoff": 7,
+      "exact_malaria_total_inferred_from_daily_peak": false,
+      "recuperation_debt": "OPEN"
+    }
+  },
+  "Torch_carrier_deficit": {
+    "historical_Force_H_modern_carriers": ["VICTORIOUS", "FORMIDABLE"],
+    "historical_Formidable_air_group_scale": 42,
+    "branch_Formidable": "SUNK_1942-04-05",
+    "branch_Indomitable": "SUNK_1942-04-05",
+    "branch_Illustrious": "MISSION_KILL_PEDESTAL_1942-08-12",
+    "branch_Hermes": "NOT_MODERN_FLEET_CARRIER_EQUIVALENT",
+    "center_1942-10-24": "VICTORIOUS_ONLY_MODERN_FLEET_CARRIER_IN_FORCE_H_COVER_SLOT",
+    "Formidable_slot": "UNFILLED_AT_CENTER",
+    "Furious_free_substitute": false,
+    "Torch_casualty_adjudicated": false
+  },
+  "Japanese_payment": {
+    "I_30_1942-10-13": {
+      "result": "SUNK_BY_BRITISH_MINE_EAST_OF_KEPPEL_HARBOUR",
+      "crew_dead": 13,
+      "crew_rescued": 96,
+      "Wurzburg_model": "DESTROYED",
+      "Wurzburg_drawings": "UNUSABLE_AFTER_SALT_WATER",
+      "branch_reliability_improvement_prevents_loss": false,
+      "future_technology_effect": "OPEN_SEPARATE_TICKET"
+    }
+  },
+  "center_close": {
+    "date": "1942-10-24",
+    "ordinary_submarine_cumulative": "32 ships / 153,742 GRT",
+    "branch_extra_center_direct_merchant_loss": "0 ships / 0 GRT",
+    "central_interpretation": "Britain is now triaging scarce hulls and aircraft across Madagascar, Aden/Persian Gulf, Cape, Mediterranean and TORCH; the network remains porous despite large gross costs"
+  },
+  "open_tickets": [
+    "EMPIRE_BOWMAN_1942-10-18_OPEN_UPPER_TORPEDO_DUD_DAMAGE_OR_LOSS",
+    "HAVFRU_DUD_ATTACK_OPEN_IDENTITY",
+    "MARTABAN_REPAIR_AND_RETURN_TO_TRADE_OPEN",
+    "MADAGASCAR_29TH_BRIGADE_RECUPERATION_DEBT_OPEN",
+    "CAPE_U_BOAT_EMERGENCY_CONTINUES_OPEN",
+    "SOUTH_ATLANTIC_DESTROYER_LOANS_CONTINUE_OPEN",
+    "TORCH_FORMIDABLE_SLOT_UNFILLED_OPEN_GLOBAL",
+    "I30_YANAGI_TECHNOLOGY_LOSS_FUTURE_EFFECT_OPEN",
+    "I162_EARLY_NOV_ENGINE_ABORT_NEXT_BLOCK",
+    "I166_NOVEMBER_SEVENTH_PATROL_NEXT_BLOCK"
+  ],
+  "next_block": {"name": "WIO-7A", "start": "1942-10-25", "end": "1942-11-20", "hard_events": ["TORCH_1942-11-08", "FS_FORMAL_CLOSE_1942-11-20"]}
+}

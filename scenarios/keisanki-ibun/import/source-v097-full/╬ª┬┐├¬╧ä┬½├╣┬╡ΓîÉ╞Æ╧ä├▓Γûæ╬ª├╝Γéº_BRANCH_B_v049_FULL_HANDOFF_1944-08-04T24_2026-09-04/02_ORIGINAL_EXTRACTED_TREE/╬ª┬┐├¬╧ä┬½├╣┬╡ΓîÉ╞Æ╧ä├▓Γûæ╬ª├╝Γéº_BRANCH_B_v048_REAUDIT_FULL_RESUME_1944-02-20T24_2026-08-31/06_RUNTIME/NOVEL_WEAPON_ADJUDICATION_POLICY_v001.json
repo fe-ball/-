@@ -1,0 +1,28 @@
+{
+  "revision": "v001",
+  "id": "NOVEL_WEAPON_ADJUDICATION_POLICY_v001",
+  "purpose": "Rules for weapons/platforms that do not exist in historical combat data, exist at different dates, or materially diverge from the historical type sharing their name.",
+  "procedure": [
+    "1 Identify the actual branch designation/configuration and historical_relation before using historical performance assumptions.",
+    "2 Resolve engineering capability: speed/range/endurance/protection/sensors/weapons/reliability and relevant failure modes.",
+    "3 Resolve maturity separately: prototype, trial, production, commissioned, crew-workup, combat-ready.",
+    "4 Resolve quantity and allocation separately from existence. A design entry is never fleet strength.",
+    "5 Resolve mission fit and causal stages. A strong system can be irrelevant to an event if geometry, doctrine, supply or allocation prevents use.",
+    "6 Use historical analogues only as bounded component priors where mechanisms are shared. Never import the historical analogue combat record as the result.",
+    "7 Record enemy observation/adaptation only after the system has plausibly been encountered; do not grant prescient countermeasures.",
+    "8 If capability, provenance or maturity is missing for an event-local ahistorical/divergent system, keep combat resolution unready rather than assigning a neutral modifier."
+  ],
+  "minimum_runtime_fields_for_unindexed_novel_system": [
+    "designation",
+    "platform_class",
+    "historical_relation",
+    "capability_record",
+    "availability_or_readiness",
+    "source"
+  ],
+  "anti_bias_examples": [
+    "A 潜高 boat is not evaluated as an ordinary historical Japanese submarine merely because it carries torpedoes.",
+    "A branch-specific Zero engine variant is not evaluated from the historical Zero model name alone.",
+    "A future new weapon with no historical counterpart receives no automatic weakness and no automatic superiority; mechanism and maturity determine the band."
+  ]
+}

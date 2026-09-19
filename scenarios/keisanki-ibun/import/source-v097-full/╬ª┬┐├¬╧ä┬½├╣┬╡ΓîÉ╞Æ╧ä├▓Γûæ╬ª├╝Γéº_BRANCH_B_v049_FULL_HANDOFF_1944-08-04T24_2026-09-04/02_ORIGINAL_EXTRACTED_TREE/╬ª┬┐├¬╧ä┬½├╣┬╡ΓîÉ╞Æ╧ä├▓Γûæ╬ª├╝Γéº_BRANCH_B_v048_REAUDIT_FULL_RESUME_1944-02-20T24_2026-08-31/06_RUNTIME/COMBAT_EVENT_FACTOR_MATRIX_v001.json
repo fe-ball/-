@@ -1,0 +1,419 @@
+{
+  "revision": "v001",
+  "id": "COMBAT_EVENT_FACTOR_MATRIX_v001",
+  "factor_index": "COMBAT_CAPABILITY_FACTOR_INDEX_v001",
+  "profile_revision": "EVENT_RELEVANCE_PROFILES_v003",
+  "purpose": "Per-event mandatory/conditional factor checklist. This is a completeness layer above technical-domain selection.",
+  "profiles": {
+    "CARRIER_BATTLE": {
+      "mandatory_factors": [
+        "CCF-01",
+        "CCF-02",
+        "CCF-03",
+        "CCF-05",
+        "CCF-06",
+        "CCF-07",
+        "CCF-08",
+        "CCF-09",
+        "CCF-10",
+        "CCF-11",
+        "CCF-12",
+        "CCF-13",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-19",
+        "CCF-20"
+      ],
+      "conditional_factors": [
+        "CCF-04",
+        "CCF-17"
+      ],
+      "runtime_required_factors": [
+        "CCF-01",
+        "CCF-03",
+        "CCF-07",
+        "CCF-10",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-20"
+      ],
+      "rule": "Every mandatory factor must be explicitly assessed. Runtime-required factors remain RUNTIME_INPUT_REQUIRED until event-local data is supplied; never infer zero/no effect from omission."
+    },
+    "SURFACE_NIGHT": {
+      "mandatory_factors": [
+        "CCF-01",
+        "CCF-02",
+        "CCF-03",
+        "CCF-05",
+        "CCF-06",
+        "CCF-07",
+        "CCF-08",
+        "CCF-09",
+        "CCF-10",
+        "CCF-11",
+        "CCF-12",
+        "CCF-13",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-19",
+        "CCF-20"
+      ],
+      "conditional_factors": [
+        "CCF-04",
+        "CCF-17"
+      ],
+      "runtime_required_factors": [
+        "CCF-01",
+        "CCF-03",
+        "CCF-07",
+        "CCF-10",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-20"
+      ],
+      "rule": "Every mandatory factor must be explicitly assessed. Runtime-required factors remain RUNTIME_INPUT_REQUIRED until event-local data is supplied; never infer zero/no effect from omission."
+    },
+    "CONVOY": {
+      "mandatory_factors": [
+        "CCF-01",
+        "CCF-02",
+        "CCF-03",
+        "CCF-05",
+        "CCF-06",
+        "CCF-07",
+        "CCF-08",
+        "CCF-09",
+        "CCF-10",
+        "CCF-11",
+        "CCF-12",
+        "CCF-13",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-19",
+        "CCF-20"
+      ],
+      "conditional_factors": [
+        "CCF-04",
+        "CCF-17"
+      ],
+      "runtime_required_factors": [
+        "CCF-01",
+        "CCF-03",
+        "CCF-07",
+        "CCF-10",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-20"
+      ],
+      "rule": "Every mandatory factor must be explicitly assessed. Runtime-required factors remain RUNTIME_INPUT_REQUIRED until event-local data is supplied; never infer zero/no effect from omission."
+    },
+    "SUBMARINE": {
+      "mandatory_factors": [
+        "CCF-01",
+        "CCF-02",
+        "CCF-03",
+        "CCF-05",
+        "CCF-06",
+        "CCF-07",
+        "CCF-08",
+        "CCF-09",
+        "CCF-10",
+        "CCF-11",
+        "CCF-12",
+        "CCF-13",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-19",
+        "CCF-20"
+      ],
+      "conditional_factors": [
+        "CCF-04",
+        "CCF-17"
+      ],
+      "runtime_required_factors": [
+        "CCF-01",
+        "CCF-03",
+        "CCF-07",
+        "CCF-10",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-20"
+      ],
+      "rule": "Every mandatory factor must be explicitly assessed. Runtime-required factors remain RUNTIME_INPUT_REQUIRED until event-local data is supplied; never infer zero/no effect from omission."
+    },
+    "AMPHIBIOUS": {
+      "mandatory_factors": [
+        "CCF-01",
+        "CCF-02",
+        "CCF-03",
+        "CCF-05",
+        "CCF-06",
+        "CCF-07",
+        "CCF-08",
+        "CCF-09",
+        "CCF-10",
+        "CCF-11",
+        "CCF-12",
+        "CCF-13",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-19",
+        "CCF-20",
+        "CCF-17"
+      ],
+      "conditional_factors": [
+        "CCF-04"
+      ],
+      "runtime_required_factors": [
+        "CCF-01",
+        "CCF-03",
+        "CCF-07",
+        "CCF-10",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-17",
+        "CCF-18",
+        "CCF-20"
+      ],
+      "rule": "Every mandatory factor must be explicitly assessed. Runtime-required factors remain RUNTIME_INPUT_REQUIRED until event-local data is supplied; never infer zero/no effect from omission."
+    },
+    "LAND_AIR": {
+      "mandatory_factors": [
+        "CCF-01",
+        "CCF-02",
+        "CCF-03",
+        "CCF-05",
+        "CCF-06",
+        "CCF-07",
+        "CCF-08",
+        "CCF-09",
+        "CCF-10",
+        "CCF-11",
+        "CCF-12",
+        "CCF-13",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-19",
+        "CCF-20",
+        "CCF-17"
+      ],
+      "conditional_factors": [
+        "CCF-04"
+      ],
+      "runtime_required_factors": [
+        "CCF-01",
+        "CCF-03",
+        "CCF-07",
+        "CCF-10",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-17",
+        "CCF-18",
+        "CCF-20"
+      ],
+      "rule": "Every mandatory factor must be explicitly assessed. Runtime-required factors remain RUNTIME_INPUT_REQUIRED until event-local data is supplied; never infer zero/no effect from omission."
+    },
+    "AIRFIELD_ATTACK": {
+      "mandatory_factors": [
+        "CCF-01",
+        "CCF-02",
+        "CCF-03",
+        "CCF-05",
+        "CCF-06",
+        "CCF-07",
+        "CCF-08",
+        "CCF-09",
+        "CCF-10",
+        "CCF-11",
+        "CCF-12",
+        "CCF-13",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-19",
+        "CCF-20",
+        "CCF-17"
+      ],
+      "conditional_factors": [
+        "CCF-04"
+      ],
+      "runtime_required_factors": [
+        "CCF-01",
+        "CCF-03",
+        "CCF-07",
+        "CCF-10",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-17",
+        "CCF-18",
+        "CCF-20"
+      ],
+      "rule": "Every mandatory factor must be explicitly assessed. Runtime-required factors remain RUNTIME_INPUT_REQUIRED until event-local data is supplied; never infer zero/no effect from omission."
+    },
+    "BASE_DEFENSE": {
+      "mandatory_factors": [
+        "CCF-01",
+        "CCF-02",
+        "CCF-03",
+        "CCF-05",
+        "CCF-06",
+        "CCF-07",
+        "CCF-08",
+        "CCF-09",
+        "CCF-10",
+        "CCF-11",
+        "CCF-12",
+        "CCF-13",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-19",
+        "CCF-20",
+        "CCF-17"
+      ],
+      "conditional_factors": [
+        "CCF-04"
+      ],
+      "runtime_required_factors": [
+        "CCF-01",
+        "CCF-03",
+        "CCF-07",
+        "CCF-10",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-17",
+        "CCF-18",
+        "CCF-20"
+      ],
+      "rule": "Every mandatory factor must be explicitly assessed. Runtime-required factors remain RUNTIME_INPUT_REQUIRED until event-local data is supplied; never infer zero/no effect from omission."
+    },
+    "FORAGER_GATE": {
+      "mandatory_factors": [
+        "CCF-01",
+        "CCF-02",
+        "CCF-03",
+        "CCF-05",
+        "CCF-06",
+        "CCF-07",
+        "CCF-08",
+        "CCF-09",
+        "CCF-10",
+        "CCF-11",
+        "CCF-12",
+        "CCF-13",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-19",
+        "CCF-20",
+        "CCF-04",
+        "CCF-17"
+      ],
+      "conditional_factors": [],
+      "runtime_required_factors": [
+        "CCF-01",
+        "CCF-03",
+        "CCF-07",
+        "CCF-10",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-17",
+        "CCF-18",
+        "CCF-20"
+      ],
+      "rule": "Every mandatory factor must be explicitly assessed. Runtime-required factors remain RUNTIME_INPUT_REQUIRED until event-local data is supplied; never infer zero/no effect from omission."
+    },
+    "SPECIAL_STRIKE": {
+      "mandatory_factors": [
+        "CCF-01",
+        "CCF-02",
+        "CCF-03",
+        "CCF-05",
+        "CCF-06",
+        "CCF-07",
+        "CCF-08",
+        "CCF-09",
+        "CCF-10",
+        "CCF-11",
+        "CCF-12",
+        "CCF-13",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-19",
+        "CCF-20"
+      ],
+      "conditional_factors": [
+        "CCF-04",
+        "CCF-17"
+      ],
+      "runtime_required_factors": [
+        "CCF-01",
+        "CCF-03",
+        "CCF-07",
+        "CCF-10",
+        "CCF-14",
+        "CCF-15",
+        "CCF-16",
+        "CCF-18",
+        "CCF-20"
+      ],
+      "rule": "Every mandatory factor must be explicitly assessed. Runtime-required factors remain RUNTIME_INPUT_REQUIRED until event-local data is supplied; never infer zero/no effect from omission."
+    },
+    "INDUSTRIAL_AIRCRAFT": {
+      "mandatory_factors": [
+        "CCF-01",
+        "CCF-02",
+        "CCF-04",
+        "CCF-05",
+        "CCF-08",
+        "CCF-11",
+        "CCF-13",
+        "CCF-15",
+        "CCF-19",
+        "CCF-20"
+      ],
+      "conditional_factors": [
+        "CCF-06",
+        "CCF-07",
+        "CCF-12",
+        "CCF-14"
+      ],
+      "runtime_required_factors": [
+        "CCF-01",
+        "CCF-15",
+        "CCF-20"
+      ],
+      "rule": "Every mandatory factor must be explicitly assessed. Runtime-required factors remain RUNTIME_INPUT_REQUIRED until event-local data is supplied; never infer zero/no effect from omission."
+    }
+  }
+}

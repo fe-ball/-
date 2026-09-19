@@ -1,0 +1,7 @@
+package	ASAI-WORLDLINE-HANDOFF-2026-08-31-FULL-V6-AIRREBASE1
+semantic_version	V6 AIRREBASE1
+restart_clock	1939-09-01 00:00
+highest_authority	10-CURRENT-1938-1939/00-1939-09-01-RESTART-BASELINE-V6.md
+aviation_highest_guard	20-AVIATION-CURRENT-REBASELINE/ASAI-AVIATION-DECISION-INTENT-GUARD-V1.md
+base_v5_policy	01-BASE-V5 preserved as prior full package
+superseded_policy	old conflicting session drafts preserved only under 90-SUPERSEDED-SESSION-DRAFTS

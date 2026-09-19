@@ -1,0 +1,98 @@
+{
+  "revision": "v002",
+  "tech_index": "TECH_INDEX_v003",
+  "profiles": "EVENT_RELEVANCE_PROFILES_v002",
+  "test_count": 7,
+  "tests": [
+    {
+      "profile": "CARRIER_BATTLE",
+      "date": "1942-05-07",
+      "entry_count": 35,
+      "missing_mandatory_tech_or_mapping": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_mature": [
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001"
+      ],
+      "result": "PASS"
+    },
+    {
+      "profile": "SURFACE_NIGHT",
+      "date": "1942-11-13",
+      "entry_count": 26,
+      "missing_mandatory_tech_or_mapping": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_mature": [
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001"
+      ],
+      "result": "PASS"
+    },
+    {
+      "profile": "SUBMARINE",
+      "date": "1942-04-15",
+      "entry_count": 22,
+      "missing_mandatory_tech_or_mapping": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_mature": [
+        "TECH-ASW-LAYERED-1943-001",
+        "TECH-SUB-KOU-FIRSTGEN-001"
+      ],
+      "result": "PASS"
+    },
+    {
+      "profile": "CONVOY",
+      "date": "1942-08-01",
+      "entry_count": 28,
+      "missing_mandatory_tech_or_mapping": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_mature": [
+        "TECH-ASW-LAYERED-1943-001",
+        "TECH-SUB-KOU-FIRSTGEN-001"
+      ],
+      "result": "PASS"
+    },
+    {
+      "profile": "AMPHIBIOUS",
+      "date": "1942-05-10",
+      "entry_count": 27,
+      "missing_mandatory_tech_or_mapping": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_mature": [
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001"
+      ],
+      "result": "PASS"
+    },
+    {
+      "profile": "LAND_AIR",
+      "date": "1941-12-08",
+      "entry_count": 16,
+      "missing_mandatory_tech_or_mapping": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_mature": [],
+      "result": "PASS"
+    },
+    {
+      "profile": "AIRFIELD_ATTACK",
+      "date": "1941-12-08",
+      "entry_count": 22,
+      "missing_mandatory_tech_or_mapping": [],
+      "missing_mandatory_state": [],
+      "indexed_but_not_mature": [
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "result": "PASS",
+  "findings": [
+    "No tested event profile has a mandatory domain with no TECH entry/state mapping after alias normalization.",
+    "Personnel/readiness/OOB state is now mandatory separately from TECH cards, preventing a technically complete but operationally context-free handout.",
+    "Remaining gaps are granularity/fielding uncertainties (named hull, host equipment, unit cohort), not missing domain categories.",
+    "Future-mature entries remain indexed as NOT_YET_MATURE rather than disappearing or back-porting."
+  ],
+  "remaining_nonblocking_data_gaps": [
+    "air-weapon provisional statistical bands",
+    "ship-by-ship ASW/radar fielding",
+    "some unit-level personnel/serviceability counts",
+    "named surface-hull opening availability must resolve when relevant"
+  ]
+}

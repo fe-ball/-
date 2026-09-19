@@ -1,0 +1,23 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_BAY_ENTRY_ESCALATION_GATE_REBASELINE_1944-03-08_WORKING_v001",
+  "status": "WORKING_PROSPECTIVE_RULE_OVERLAY",
+  "effective_from": "1944-03-08T00:00:00+09:00",
+  "purpose": "Rebase the old 1943/Jan-1944 Bay-entry surface reinforcement gate after HAILSTONE, CATCHPOLE, the 3-Feb carrier battle and western naval-air redeployments.",
+  "old_rule_problem": "Earlier planning language could be read as if any Eastern Fleet entry into the Bay automatically opened heavy-cruiser reinforcement. That is too coarse for the March Branch state.",
+  "new_distinctions": {
+    "Bay_presence": "RN heavy ships operating anywhere in the Bay is an intelligence/alert event only.",
+    "Andaman_Bengal_threat": "Requires a fresh track plus an east/northeast vector, repeated sweeps, or strike/support geometry against Port Blair, Andaman sea lanes, Akyab/Chittagong/Patenga or Japanese coastal LOCs.",
+    "weapon_quality": "Requires fresh air/submarine/visual recontact; COMINT or general sortie inference alone cannot launch a surface intercept."
+  },
+  "surface_release_policy": {
+    "Oyodo_group": "May raise readiness and reposition within Singapore-Lingga/Penang-Sabang support axis on credible cues, but does not sortie blind into the Bay.",
+    "Suzuya_Kumano_or_equivalent_CA": "NO_AUTOMATIC_RELEASE. Reassess only after Andaman/Bengal threat is established and Central-Pacific/mobile-fleet opportunity cost is explicitly accepted.",
+    "battlefleet_or_carriers": "NO-GO for this gate; requires a separate strategic crisis decision."
+  },
+  "INITIAL_08Mar_application": {
+    "RN_state": "KNOWN_IN_GENERAL_AT_CEYLON; fresh sortie track absent at T24.",
+    "geographic_assessment": "Historical/branch INITIAL axis is west-central Bay, not an Andaman approach at this point.",
+    "gate_result": "ALERT_ONLY_NOT_SURFACE_RELEASE"
+  }
+}

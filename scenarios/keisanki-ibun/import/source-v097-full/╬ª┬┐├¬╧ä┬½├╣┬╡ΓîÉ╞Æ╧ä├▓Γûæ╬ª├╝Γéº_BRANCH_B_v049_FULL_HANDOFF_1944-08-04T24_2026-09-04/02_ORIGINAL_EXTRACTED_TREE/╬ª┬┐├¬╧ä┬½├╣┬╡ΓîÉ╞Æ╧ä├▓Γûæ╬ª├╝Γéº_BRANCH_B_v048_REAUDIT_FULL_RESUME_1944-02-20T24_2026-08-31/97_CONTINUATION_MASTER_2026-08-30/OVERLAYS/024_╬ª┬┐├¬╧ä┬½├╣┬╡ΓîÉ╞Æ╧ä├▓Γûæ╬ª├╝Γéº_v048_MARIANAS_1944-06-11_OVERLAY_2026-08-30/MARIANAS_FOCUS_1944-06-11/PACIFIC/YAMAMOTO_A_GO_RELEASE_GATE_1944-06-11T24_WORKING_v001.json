@@ -1,0 +1,26 @@
+{
+  "revision": "v001",
+  "id": "YAMAMOTO_A_GO_RELEASE_GATE_1944-06-11T24_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_COMMAND_DECISION",
+  "as_of": "1944-06-11T24:00:00+09:00",
+  "parents": [
+    "US_TF58_FIRST_MARIANAS_STRIKE_1944-06-11_WORKING_v001",
+    "JAPAN_MARIANAS_AIR_DEFENSE_1944-06-11_WORKING_v001",
+    "JAPAN_A_GO_PRELIMINARY_GATE_1944-06-10_WORKING_v001"
+  ],
+  "commander": "Yamamoto Isoroku, CINC Combined Fleet.",
+  "decision": "A_GO OPERATIONAL CONCENTRATION GO; EAST-OF-PHILIPPINES BATTLE COMMITMENT STILL CONDITIONAL.",
+  "why": [
+    "The scale and breadth of the 11 Jun raid removes the remaining doubt that TF58 is conducting a major Marianas shaping operation rather than a minor nuisance raid.",
+    "The fleet is now sufficiently trained that continued passive dispersion risks missing the amphibious commitment; logistics/concentration must begin.",
+    "However, no confirmed transport concentration/landing geometry and no fresh carrier track exist by 11 Jun night. Yamamoto still refuses a blind eastward carrier hunt."
+  ],
+  "orders_effective_11Jun_night": [
+    "Five-carrier core and heavy surface pool prepare controlled concentration toward the Guimaras/central-Philippines refuel-and-sortie system beginning 12 Jun under EMCON and ASW cover.",
+    "Yamato/Musashi remain with the main Pacific battle pool because KON/Biak is absent.",
+    "Oilers move to planned A-GO replenishment positions; avoid a single exposed anchorage.",
+    "Marianas reconnaissance prioritizes amphibious shipping confirmation and TF58 bearing updates, not revenge sorties.",
+    "Secondary carriers remain a separately controlled reserve/support pool pending the 12-13 Jun geometry and do not automatically merge with the five fast core."
+  ],
+  "next_release_trigger": "Confirmed amphibious shipping/shore-bombardment commitment OR persistent high-quality TF58 track. Re-evaluate 12 Jun after convoy/airfield/bombardment picture."
+}

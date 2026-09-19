@@ -1,0 +1,27 @@
+{
+  "revision": "v029",
+  "generated": "2026-08-29",
+  "validator": "98_TOOLS/validate_refactor_v017.py",
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "json_file_count": 303,
+  "authoritative_frontier": "1944-01-01T00:00",
+  "current_checkpoint": "CHECKPOINT_1943-12-31T24_BRANCH_B_v003",
+  "closed_analysis_checkpoint": "CHECKPOINT_1943-11-23T00_BRANCH_B_GALVANIC_REAUDIT_v001",
+  "technical_baseline": "TECH_INDEX_v009",
+  "notes": [
+    "GALVANIC detailed dependency closed and propagated",
+    "Named ship outcomes and repair clocks closed",
+    "Kinsei Zero late-Nov event gate integrated",
+    "Old GALVANIC results explicitly blocked from current authority",
+    "Historical 12/4 mass Kwajalein/Roi raid not inherited"
+  ],
+  "runtime_checks": {
+    "current_checkpoint_resolution": "PASS",
+    "current_override": "v011",
+    "current_year_end_guard": "v002",
+    "current_aircraft_fielding_ledger": "v002",
+    "execution_blocked_at_frontier": false
+  }
+}

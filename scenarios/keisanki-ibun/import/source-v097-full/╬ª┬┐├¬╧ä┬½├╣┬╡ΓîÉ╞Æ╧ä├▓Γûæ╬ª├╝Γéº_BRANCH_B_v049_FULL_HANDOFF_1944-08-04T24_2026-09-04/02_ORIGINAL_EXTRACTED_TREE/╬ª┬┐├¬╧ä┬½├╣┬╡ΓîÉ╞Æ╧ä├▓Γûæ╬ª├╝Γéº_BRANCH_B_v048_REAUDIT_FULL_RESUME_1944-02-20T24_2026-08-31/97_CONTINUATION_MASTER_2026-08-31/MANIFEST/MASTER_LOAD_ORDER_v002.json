@@ -1,0 +1,512 @@
+{
+  "revision": "v002",
+  "id": "MASTER_LOAD_ORDER_REAUDIT_1944-02-20T24_v002",
+  "semantic_base": "Branch B v048",
+  "package_type": "FULL_RESUME_WITH_BASE_PLUS_REAUDIT_OVERLAYS",
+  "global_frontier": "1944-02-20T24",
+  "base_zip": "計算機異聞_BRANCH_B_v048_CANONICAL_RESUME_1944-06-15T24_2026-08-30.zip",
+  "base_zip_sha256": "7beb3a2bd35453cf24c640d29c32d3861d146b76b3f5b31a0762fcb69fa8562f",
+  "load_contract": [
+    "The base v048 tree is the knowledge/provenance substrate, not an instruction to treat every later-dated 06_RUNTIME or 97_CONTINUATION_MASTER_2026-08-30 result as current.",
+    "For reopened Central Pacific / carrier / Marshall / FLINTLOCK / HAILSTONE-CATCHPOLE matters from 1943-11-23 through 1944-02-20, the 2026-08-31 overlays below have strict precedence in sequence order.",
+    "Do NOT load the old 97_CONTINUATION_MASTER_2026-08-30 as the current continuation after loading this master. It is preserved only as downstream provenance/reference.",
+    "Do NOT advance to any old post-1944-02-20 Pacific settlement merely because it exists in the base archive. Recompute causally from the new frontier.",
+    "Unrelated theaters may retain prior background facts only where they are not causally downstream of the reopened Pacific changes and do not import future-state knowledge into 1944-02-20.",
+    "Historical outcomes are behavioral/physical reference anchors, never scripts."
+  ],
+  "overlays": [
+    {
+      "sequence": 1,
+      "source_zip": "計算機異聞_v048_PRE_GALVANIC_FORTIFICATION_REAUDIT_1943-11-23_2026-08-30.zip",
+      "source_sha256": "8a6a52833da08964e7da1ac4a7614538029f4a46b22d75d6100ec4f6b4afecce",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/001_PRE_GALVANIC_FORTIFICATION_REAUDIT",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "GALVANIC_FORTIFICATION_LOGISTICS_REOPEN_GATE_v001.json",
+        "PRE_GALVANIC_ISLAND_DEFENSE_LEDGER_1943-11-23_WORKING_v001.json"
+      ],
+      "documentation_files": [
+        "PRE_GALVANIC_FORTIFICATION_REAUDIT_1942-08_1943-11_WORKING_v001.md",
+        "SHA256SUMS.txt",
+        "SOURCE_AND_PRECEDENCE_NOTES_v001.md"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 2,
+      "source_zip": "計算機異聞_v048_GALVANIC_DMINUS1_FORTIFICATION_REAUDIT_1943-11-24_2026-08-30.zip",
+      "source_sha256": "bd9add0535308bf6db07d6c2b306b99d2bcb2f070f33c936182ee6e5d41d7566",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/002_GALVANIC_DMINUS1_FORTIFICATION",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "GALVANIC_1943-11-24_HHOUR_REOPEN_STATE_WORKING_v001.json"
+      ],
+      "documentation_files": [
+        "GALVANIC_DMINUS1_PRELANDING_FORTIFICATION_REAUDIT_WORKING_v001.md",
+        "SHA256SUMS.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 3,
+      "source_zip": "計算機異聞_v048_GALVANIC_FULL_DOMAIN_ALIGNMENT_GATE_1943-11_2026-08-30.zip",
+      "source_sha256": "2176822e5295f19ee90029500ad1cd93be56bd94ec735d1c11a6aa31a9a28db9",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/003_GALVANIC_FULL_DOMAIN_ALIGNMENT",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "GALVANIC_1943-11_DOMAIN_CLOCK_SNAPSHOT_v001.json"
+      ],
+      "documentation_files": [
+        "GALVANIC_FULL_DOMAIN_ALIGNMENT_GATE_1943-11_WORKING_v001.md",
+        "SHA256SUMS.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 4,
+      "source_zip": "計算機異聞_v048_GALVANIC_AIR_OOB_HARDENING_1943-11-23_WORKING_2026-08-31.zip",
+      "source_sha256": "c5bc1bf1b9a298e2853eafc650764fe276568e3d700f775f2a75d98143fe8a24",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/004_GALVANIC_AIR_OOB_HARDENING",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "GALVANIC_BASE_AIR_OOB_AND_HARDENING_1943-11-23_WORKING_v001.json"
+      ],
+      "documentation_files": [
+        "GALVANIC_AIRBASE_REVETMENT_PROTECTION_MODEL_1943-11_WORKING_v001.md",
+        "SHA256SUMS.txt",
+        "SOURCE_AND_PRECEDENCE_NOTES_v001.md"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 5,
+      "source_zip": "計算機異聞_v048_GALVANIC_SECONDARY_CARRIER_TRACE_CLOSED_1943-11-23_2026-08-31.zip",
+      "source_sha256": "0b2eaeb95349e8c0d336187efe9a6e13755f9ab046da4eb6efcbaa6ccdcd9ee4",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/005_GALVANIC_SECONDARY_CARRIERS_CLOSED",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "GALVANIC_SECONDARY_CARRIER_INDIVIDUAL_TRACE_1943-11-23_v001.json"
+      ],
+      "documentation_files": [
+        "GALVANIC_SECONDARY_CARRIER_TRACE_CLOSEOUT_1943-11_v001.md",
+        "SHA256SUMS.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 6,
+      "source_zip": "計算機異聞_v048_GALVANIC_PASS_A_B_DDAY_REAUDIT_1943-11-24_WORKING_2026-08-31.zip",
+      "source_sha256": "17e71944bb5872a09867f50b664f0f0bfe23325611a28db12f7a147571931aea",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/006_GALVANIC_DDAY_ADAPTIVE_REAUDIT",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "GALVANIC_BASE_AIR_OOB_AND_HARDENING_1943-11-23_WORKING_v002.json",
+        "GALVANIC_CROSS_DOMAIN_PROPAGATION_GATE_1943-11-25_26_WORKING_v001.json",
+        "GALVANIC_DMINUS1_JAPAN_MARITIME_STRIKE_REAUDIT_1943-11-23_WORKING_v001.json",
+        "GALVANIC_PASS_B_US_ADAPTIVE_SUPPRESSION_1943-11-23_24_WORKING_v001.json",
+        "GALVANIC_TARAWA_DDAY_1943-11-24_REAUDIT_WORKING_v001.json",
+        "GALVANIC_TARAWA_HHOUR_STATE_1943-11-24_FORTIFICATION_REAUDIT_v002.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_GALVANIC_PASS_A_B_DDAY_REAUDIT_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": [
+        "Pass A fixed/non-adaptive US suppression is diagnostic only and MUST NOT be loaded as an active scenario. Pass B/adaptive and corrected D-day state are retained."
+      ]
+    },
+    {
+      "sequence": 7,
+      "source_zip": "計算機異聞_v048_GALVANIC_TARAWA_1943-11-25_REAUDIT_WORKING_2026-08-31.zip",
+      "source_sha256": "01bd300f01787c054f7f464cca0d608e9fe7c9690884dae296e99668f0be95a7",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/007_GALVANIC_TARAWA_25NOV",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "GALVANIC_1943-11-26_REOPEN_GATE_AFTER_TARAWA_DPLUS1_v001.json",
+        "GALVANIC_JAPAN_REACTION_STATE_1943-11-25T24_WORKING_v001.json",
+        "GALVANIC_TARAWA_DPLUS1_1943-11-25_REAUDIT_WORKING_v001.json",
+        "GALVANIC_TARAWA_FIRST_NIGHT_1943-11-24_25_REAUDIT_WORKING_v001.json",
+        "GALVANIC_US_MISSION_STATE_1943-11-25T24_REAUDIT_WORKING_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_GALVANIC_TARAWA_1943-11-24_25_REAUDIT_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 8,
+      "source_zip": "計算機異聞_v048_GALVANIC_1943-11-26_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "source_sha256": "64f6c8805fc6d182cb60d37864f81ff079278147016b55370e7535b5662ee076",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/008_GALVANIC_26NOV",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "GALVANIC_1943-11-26T24_CROSS_DOMAIN_STATE_WORKING_v001.json",
+        "GALVANIC_1943-11-26_DAWN_DOMAIN_STATE_WORKING_v001.json",
+        "GALVANIC_CARRIER_BATTLE_1943-11-26_REAUDIT_WORKING_v001.json",
+        "GALVANIC_TARAWA_DPLUS2_1943-11-26_REAUDIT_WORKING_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_GALVANIC_1943-11-26_INTEGRATED_RERUN_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 9,
+      "source_zip": "計算機異聞_v048_GALVANIC_1943-11-27_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "source_sha256": "f0de829d8fe1d8d23cca1768d2285a5c5dff60473e87df75da54d39fa39423b0",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/009_GALVANIC_27NOV",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "GALVANIC_1943-11-26_27_NIGHT_SURFACE_REAUDIT_WORKING_v001.json",
+        "GALVANIC_1943-11-27T24_CROSS_DOMAIN_STATE_WORKING_v001.json",
+        "GALVANIC_MAKIN_SUBMARINE_1943-11-27_REAUDIT_WORKING_v001.json",
+        "GALVANIC_TARAWA_DPLUS3_1943-11-27_REAUDIT_WORKING_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_GALVANIC_1943-11-26_27_INTEGRATED_RERUN_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 10,
+      "source_zip": "計算機異聞_v048_GALVANIC_1943-11-28_29_CLOSEOUT_RERUN_WORKING_2026-08-31.zip",
+      "source_sha256": "3cb4540b59cfe3811e034d723fab5c38560bd147702d9fbc30bbe839f85cb50d",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/010_GALVANIC_28_29NOV_CLOSEOUT",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "GALVANIC_1943-11-29T12_CLOSEOUT_STATE_WORKING_v001.json",
+        "GALVANIC_SUBMARINE_SUPPORT_DWELL_1943-11-28_REAUDIT_WORKING_v001.json",
+        "GALVANIC_TARAWA_DPLUS4_1943-11-28_REAUDIT_WORKING_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_GALVANIC_1943-11-28_29_CLOSEOUT_RERUN_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 11,
+      "source_zip": "計算機異聞_v048_GALVANIC_MAKIN_TARAWA_RESIDUAL_CLOSEOUT_WORKING_2026-08-31.zip",
+      "source_sha256": "269fe8a09c8929cdbafc5c57fd59a2beeb6865eeb283f8f384b5e8168bac6826",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/011_GALVANIC_RESIDUAL_CLOSEOUT",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "GALVANIC_MAKIN_TARAWA_CLOSEOUT_STATE_v001.json"
+      ],
+      "documentation_files": [
+        "GALVANIC_MAKIN_TARAWA_RESIDUAL_CLOSEOUT_v001.md",
+        "SHA256SUMS.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 12,
+      "source_zip": "計算機異聞_v048_POST_GALVANIC_MARSHALL_LEARNING_GATE_WORKING_2026-08-31.zip",
+      "source_sha256": "83a23310fc97861a7477e78340fb97791a7cc6989cac380e9ea0c2eaa4fb2e73",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/012_POST_GALVANIC_LEARNING_GATE",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "GALVANIC_SORYU_DAMAGE_REPAIR_REGEN_REAUDIT_1943-11_1944-01_WORKING_v001.json",
+        "POST_GALVANIC_MARSHALL_AIR_STAGING_AND_FORTIFICATION_NETWORK_WORKING_v001.json",
+        "US_POST_TARAWA_ADAPTATION_CAPACITY_AND_CONGESTION_MODEL_WORKING_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_POST_GALVANIC_MARSHALL_LEARNING_GATE_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 13,
+      "source_zip": "計算機異聞_v048_POST_GALVANIC_TO_MARSHALL_1944-01-15_CLOSEOUT_WORKING_2026-08-31.zip",
+      "source_sha256": "8898af8be15331df06d1b278ad584148f8bca5dc5b5cffe593206922ea569e89",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/013_MARSHALL_TO_15JAN",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "JAPAN_MARSHALL_FORWARD_LOGISTICS_1943-11-29_1944-01-15_WORKING_v001.json",
+        "MARSHALL_FORTIFICATION_SENSOR_C2_STATE_1944-01-15_WORKING_v001.json",
+        "MARSHALL_REGIONAL_AIR_OOB_1944-01-15_WORKING_v001.json",
+        "POST_GALVANIC_MARSHALL_1944-01-15T24_WORKING_CHECKPOINT_v001.json",
+        "SORYU_AND_JAPAN_CARRIER_REGEN_1943-11-26_1944-01-15_WORKING_v001.json",
+        "US_GILBERTS_BUILDUP_AND_POST_TARAWA_LEARNING_1943-11-29_1944-01-15_WORKING_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_POST_GALVANIC_TO_MIDJAN_CLOSEOUT_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 14,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_PRECONTACT_1944-01-16_31_REAUDIT_WORKING_2026-08-31.zip",
+      "source_sha256": "131f4eaa59230dbdfb4a26dcf5ee848126e6b0b45e03c65f2676900e49680b01",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/014_FLINTLOCK_PRECONTACT",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "FLINTLOCK_1944-01-31T24_WORKING_CHECKPOINT_v001.json",
+        "JAPAN_FLINTLOCK_CARRIER_SUBMARINE_POSTURE_1944-01-22_31_WORKING_v001.json",
+        "JAPAN_MARSHALL_FORWARD_LOGISTICS_1944-01-16_31_WORKING_v001.json",
+        "MARSHALL_AIR_SENSOR_STATE_1944-01-28_REAUDIT_v004.json",
+        "MARSHALL_WARNING_CONTACT_CHAIN_1944-01-16_31_REAUDIT_v001.json",
+        "US_FLINTLOCK_TARGET_DATE_AND_RESOURCE_PLAN_1944-01-16_24_WORKING_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_FLINTLOCK_PRECONTACT_1944-01-16_31_REAUDIT_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 15,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_1944-02-01_02_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "source_sha256": "c47b729b94195fa1fc455160cc144919f3568a808eea099857b4c1933d955b44",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/015_FLINTLOCK_01_02FEB",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "FLINTLOCK_1944-02-02T24_REAUDIT_CHECKPOINT_v001.json",
+        "FLINTLOCK_JAPAN_FOUR_CARRIER_GO_AND_STRIKE_1944-02-02_REAUDIT_v001.json",
+        "FLINTLOCK_US_COUNTERSTRIKE_AND_02FEB_POSTSTATE_REAUDIT_v001.json",
+        "FLINTLOCK_US_FIRST_SUPPRESSION_1944-02-01_REAUDIT_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_FLINTLOCK_1944-02-01_02_INTEGRATED_RERUN_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 16,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_MARITIME_REBASELINE_1944-02-03T24_WORKING_2026-08-31.zip",
+      "source_sha256": "b4eddf0a8a575df501cab2bea9ef17091a88e0bfa4b622c70b93a038235938eb",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/016_FLINTLOCK_MARITIME_REBASELINE",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "FLINTLOCK_02FEB_T24_MARITIME_LEDGER_v001.json",
+        "FLINTLOCK_1944-02-03T24_MARITIME_REBASELINE_CHECKPOINT_v001.json",
+        "FLINTLOCK_CARRIER_DAMAGE_DECK_CONGESTION_REAUDIT_1944-02-02_03_v001.json",
+        "FLINTLOCK_SUBMARINE_RETASKING_1944-02-02_03_v001.json",
+        "FLINTLOCK_US_03FEB_REPLENISHMENT_AND_SUPPRESSION_WALLET_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_FLINTLOCK_MARITIME_REBASELINE_1944-02-02T24_03T24_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 17,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_1944-02-04_05_DDAY_GO_RERUN_WORKING_2026-08-31.zip",
+      "source_sha256": "dd77fa68da8e815f84855591e83b675eed659b629b9e6eaab1f21b213872fb43",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/017_FLINTLOCK_04_05FEB",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "FLINTLOCK_1944-02-05T24_WORKING_CHECKPOINT_v001.json",
+        "FLINTLOCK_DDAY_FINAL_GO_1944-02-06_RERUN_v001.json",
+        "FLINTLOCK_KWAJALEIN_ROI_PRELANDING_GROUND_STATE_1944-02-06_DAWN_v001.json",
+        "FLINTLOCK_MARSHALL_AIR_SENSOR_AA_STATE_1944-02-06_DAWN_v001.json",
+        "FLINTLOCK_SUBMARINE_NIGHT_AIR_INTERDICTION_1944-02-04_05_v001.json",
+        "FLINTLOCK_US_04_05FEB_REGEN_SUPPRESSION_WALLET_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_FLINTLOCK_1944-02-04_05_DDAY_GO_RERUN_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 18,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_DDAY_1944-02-06_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "source_sha256": "c016bce534b965af5d66cf828cffc81a265ff87e9c1dc8e5776a3880e04ca4ad",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/018_FLINTLOCK_DDAY_06FEB",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "FLINTLOCK_1944-02-06T24_WORKING_CHECKPOINT_v001.json",
+        "FLINTLOCK_DDAY_1944-02-06_INTEGRATED_RERUN_v001.json",
+        "FLINTLOCK_DDAY_AIR_SENSOR_AA_SUBMARINE_1944-02-06_v001.json",
+        "FLINTLOCK_KWAJALEIN_DDAY_1944-02-06_v001.json",
+        "FLINTLOCK_ROI_NAMUR_DDAY_1944-02-06_v001.json",
+        "FLINTLOCK_US_DDAY_FIRE_TRAFFIC_LEARNING_1944-02-06_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_FLINTLOCK_DDAY_1944-02-06_INTEGRATED_RERUN_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 19,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_1944-02-07_DPLUS1_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "source_sha256": "a322a9129252c2099648111e78a134b1af79a996f43fe25639de1041a2bd8b05",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/019_FLINTLOCK_DPLUS1",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "FLINTLOCK_1944-02-07T24_WORKING_CHECKPOINT_v001.json",
+        "FLINTLOCK_1944-02-07_INTEGRATED_RERUN_v001.json",
+        "FLINTLOCK_AIR_SENSOR_SUBMARINE_1944-02-07_v001.json",
+        "FLINTLOCK_KWAJALEIN_1944-02-06_07_NIGHT_DPLUS1_v001.json",
+        "FLINTLOCK_NAMUR_1944-02-06_07_NIGHT_DPLUS1_v001.json",
+        "FLINTLOCK_US_NIGHT_FIRE_TRAFFIC_1944-02-06_07_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_FLINTLOCK_1944-02-06_07_NIGHT_DPLUS1_RERUN_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 20,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_1944-02-08_DPLUS2_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "source_sha256": "4a060a6fd218a0f61b14901c699d5767dd5ce7b556421234a8dc2da9b95bf473",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/020_FLINTLOCK_DPLUS2",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "FLINTLOCK_1944-02-08T24_WORKING_CHECKPOINT_v001.json",
+        "FLINTLOCK_1944-02-08_INTEGRATED_RERUN_v001.json",
+        "FLINTLOCK_AIR_SENSOR_SUBMARINE_1944-02-08_v001.json",
+        "FLINTLOCK_KWAJALEIN_1944-02-07_08_NIGHT_DPLUS2_v001.json",
+        "FLINTLOCK_ROI_NAMUR_1944-02-08_SECURE_v001.json",
+        "FLINTLOCK_US_SUPPORT_RELEASE_1944-02-08_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_FLINTLOCK_1944-02-07_08_NIGHT_DPLUS2_RERUN_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 21,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_1944-02-10_CLOSEOUT_WORKING_2026-08-31.zip",
+      "source_sha256": "4151157190a1156ff18d32163e80e546e5151374f510f1e35194e5f99ed59f19",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/021_FLINTLOCK_CLOSEOUT",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "FLINTLOCK_1944-02-10T24_CLOSEOUT_CHECKPOINT_v001.json",
+        "FLINTLOCK_CAPTURED_INTELLIGENCE_1944-02-09_15_v001.json",
+        "FLINTLOCK_JAPANESE_LESSON_PROPAGATION_1944-02-09_15_v001.json",
+        "FLINTLOCK_KWAJALEIN_1944-02-08_09_SECURE_v001.json",
+        "FLINTLOCK_POSTBATTLE_NAVAL_AIR_SUB_STATE_1944-02-10T24_v001.json",
+        "FLINTLOCK_US_BASE_TRANSITION_1944-02-09_15_v001.json",
+        "FLINTLOCK_US_SUPPORT_RELEASE_1944-02-09_13_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE_AND_GUARDS_v001.txt",
+        "README_FLINTLOCK_1944-02-08_10_CLOSEOUT_v001.md",
+        "SHA256SUMS_WORKING_2026-08-31.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 22,
+      "source_zip": "計算機異聞_v048_US_FLINTLOCK_FORCE_DELTA_GATE_1944-02-10_WORKING_2026-08-31.zip",
+      "source_sha256": "1b2fd38769c6a37e4f00bffaf80cdd8696c81b468861fb15fc8ab7dfc06a0659",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/022_US_FORCE_DELTA",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "US_FLINTLOCK_FORCE_DELTA_GATE_1944-02-10_v001.json"
+      ],
+      "documentation_files": [
+        "SHA256SUMS.txt",
+        "US_FLINTLOCK_FORCE_DELTA_GATE_1944-02-10_v001.md"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 23,
+      "source_zip": "計算機異聞_v048_US_PACIFIC_DEATH_LEDGER_1944-02-10_WORKING_2026-08-31.zip",
+      "source_sha256": "d41d98b0478096f72ee18e60a32ba2e0bed558276be400cc26970d869a2fe761",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/023_US_DEATH_LEDGER",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "us_death_ledger_1944-02-10_2026-08-31/US_PACIFIC_DEATH_DELTA_LEDGER_1944-02-10_WORKING_v001.json"
+      ],
+      "documentation_files": [
+        "us_death_ledger_1944-02-10_2026-08-31/README_US_PACIFIC_DEATH_LEDGER_1944-02-10_v001.md",
+        "us_death_ledger_1944-02-10_2026-08-31/SHA256SUMS.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 24,
+      "source_zip": "計算機異聞_v048_US_AMPHIBIOUS_WALLET_REAUDIT_1944-02-10_WORKING_2026-08-31.zip",
+      "source_sha256": "a70164881725a9fb45fe5e1dd06695833c9037a29fd45f7a16ef8de926eb86ee",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/024_US_AMPHIBIOUS_WALLET",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "US_AMPHIBIOUS_EXPERIENCE_AND_WEAR_DELTA_1944-02-10_v001.json",
+        "US_CATCHPOLE_DEDICATED_AMPHIBIOUS_WALLET_1944-02-10_15_v001.json",
+        "US_FLINTLOCK_AMPHIBIOUS_VEHICLE_CLOSEOUT_1944-02-10_v001.json",
+        "US_TARAWA_LVT_CLOSEOUT_REAUDIT_1943-11-29_v001.json"
+      ],
+      "documentation_files": [
+        "README_US_AMPHIBIOUS_WALLET_REAUDIT_1944-02-10_v001.md",
+        "SHA256SUMS.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 25,
+      "source_zip": "計算機異聞_v048_POST_FLINTLOCK_NEXTOPS_CLOSEOUT_1944-02-10_WORKING_2026-08-31.zip",
+      "source_sha256": "d8f73620c4ad498a21024cf209ecc8cdecf1195fc84ba32de96a57044af34a91",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/025_POST_FLINTLOCK_NEXTOPS",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "JAPAN_TRUK_ENIWETOK_PREOP_CLOSEOUT_1944-02-10_20_v001.json",
+        "US_HAILSTONE_CATCHPOLE_FORCE_SPLIT_1944-02-15_21_v001.json",
+        "US_JAPAN_NEXTOPS_CLOSEOUT_1944-02-10_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE.txt",
+        "README_NEXTOPS_FORCE_AND_SCHEDULE_CLOSEOUT_v001.md",
+        "SHA256SUMS.txt"
+      ],
+      "notes": []
+    },
+    {
+      "sequence": 26,
+      "source_zip": "計算機異聞_v048_HAILSTONE_CATCHPOLE_1944-02-20T24_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "source_sha256": "c279c59ee4f6fd6c625e8bae2a3f238995009d95f24da277fd3707759b92a75c",
+      "extracted_root": "97_CONTINUATION_MASTER_2026-08-31/OVERLAYS/026_HAILSTONE_CATCHPOLE_TO_20FEB",
+      "status": "ACTIVE_WORKING_OVERLAY",
+      "runtime_json_files": [
+        "CATCHPOLE_APPROACH_AND_OUTER_ISLETS_1944-02-17_20_REAUDIT_v001.json",
+        "GLOBAL_FRONTIER_1944-02-20T24_v001.json",
+        "HAILSTONE_WARNING_EVACUATION_1944-02-11_19_REAUDIT_v001.json",
+        "TRUK_HAILSTONE_DAY1_1944-02-20_REAUDIT_v001.json"
+      ],
+      "documentation_files": [
+        "PROVENANCE.txt",
+        "README_HAILSTONE_CATCHPOLE_1944-02-11_20_RERUN_v001.md",
+        "SHA256SUMS.txt"
+      ],
+      "notes": []
+    }
+  ],
+  "diagnostic_only": [
+    "GALVANIC_PASS_A_FIXED_US_SUPPRESSION_1943-11-23_WORKING_v001.json: sensitivity test only; no blind/non-adaptive US path is active.",
+    "97_CONTINUATION_MASTER_2026-08-31/AUDIT/DIAGNOSTIC_OVERLAYS/**: intermediate trace material, not runtime state."
+  ],
+  "quarantine": [
+    "97_CONTINUATION_MASTER_2026-08-30/**: old downstream continuation to 1944-06-15, preserved but superseded for current replay.",
+    "96_SESSION_WORKING_2026-08-30/**: audit/working material, never runtime authority.",
+    "97_CONTINUATION_MASTER_2026-08-31/QUARANTINED_DOWNSTREAM/**: provisional Marianas 1944-06-16..21 generated before the GALVANIC/FLINTLOCK upstream re-audit.",
+    "99_LEGACY_UNTOUCHED/**: provenance only unless independently revalidated."
+  ],
+  "next_exact_step": "Resolve 1944-02-20/21 Truk night counterstrike + submarine/ASW interaction, then HAILSTONE Day 2 conditional on fixed-system state; in parallel resolve Eniwetok night air/submarine activity and 1944-02-21 Engebi assault."
+}

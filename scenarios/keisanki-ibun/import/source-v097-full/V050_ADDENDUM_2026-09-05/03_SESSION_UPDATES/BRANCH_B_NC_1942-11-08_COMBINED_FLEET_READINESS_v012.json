@@ -1,0 +1,143 @@
+{
+  "title": "BRANCH B 1942-10-01 Combined Fleet NC demand / 1942-11-08 readiness v012",
+  "status": "WORKING-PROMOTED CURRENT",
+  "target_date": "1942-11-08",
+  "fleet_carriers": {
+    "Zuikaku": {
+      "ready": true,
+      "aircraft": [
+        54,
+        59
+      ],
+      "quality": "high"
+    },
+    "Hiryu": {
+      "ready": true,
+      "aircraft": [
+        53,
+        58
+      ],
+      "quality": "high"
+    },
+    "Shokaku": {
+      "ready": true,
+      "aircraft": [
+        47,
+        54
+      ],
+      "quality": "mixed rebuilt"
+    },
+    "Soryu": {
+      "ready": true,
+      "aircraft": [
+        43,
+        49
+      ],
+      "quality": "mixed rebuilt"
+    },
+    "total_aircraft": [
+      197,
+      220
+    ],
+    "center": 208
+  },
+  "support_carriers": {
+    "Junyo": {
+      "aircraft": [
+        43,
+        48
+      ],
+      "role": "committed support"
+    },
+    "Ryujo": {
+      "aircraft": [
+        25,
+        30
+      ],
+      "role": "committed support, fighter-heavy"
+    },
+    "Zuiho": {
+      "aircraft": [
+        24,
+        28
+      ],
+      "role": "committed support"
+    },
+    "Hiyo": {
+      "aircraft": [
+        36,
+        44
+      ],
+      "role": "reserve/support",
+      "reliability": "elevated machinery/new-ship risk"
+    },
+    "Shoho": {
+      "role": "regional/secondary unless late gate"
+    }
+  },
+  "fast_battleships": {
+    "Hiei": "first-line",
+    "Kirishima": "first-line",
+    "Haruna": "first-line",
+    "Kongo": "conditional-ready / second echelon, 0.75-0.85 mission availability"
+  },
+  "heavy_reserve": {
+    "Yamato": "available at/through Truk; conditional southward commitment",
+    "Mutsu": "available at Truk; conditional southward commitment",
+    "Nagato": "Inland Sea standby; no center commitment",
+    "Musashi": "work-up; no center commitment"
+  },
+  "destroyers": {
+    "requested": [
+      30,
+      36
+    ],
+    "simultaneous_mission_ready": [
+      28,
+      33
+    ],
+    "damaged_returns": {
+      "Tokitsukaze": "mid-Oct",
+      "Hagikaze": "late Oct/early Nov",
+      "Murasame": "late Oct/early Nov"
+    }
+  },
+  "submarines_effective": [
+    8,
+    11
+  ],
+  "tankers": {
+    "without_heavy_reserve": [
+      5,
+      7
+    ],
+    "with_yamato_mutsu": [
+      7,
+      9
+    ]
+  },
+  "santo_air": {
+    "fighters": [
+      28,
+      36
+    ],
+    "land_attack_recon": [
+      12,
+      20
+    ],
+    "support": [
+      5,
+      10
+    ],
+    "total": [
+      45,
+      65
+    ]
+  },
+  "main_groups": [
+    "First Carrier Strike Group",
+    "Support Carrier / Invasion Cover Group",
+    "Surface/Torpedo Advance Group",
+    "Conditional Yamato-Mutsu Main Body"
+  ]
+}

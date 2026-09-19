@@ -1,0 +1,17 @@
+{
+  "revision": "v001",
+  "id": "GLOBAL_SYNC_STATE_1944-06-10T24_WORKING_v001",
+  "status": "CURRENT_OVERLAY_FRONTIER",
+  "as_of": "1944-06-10T24:00:00+09:00",
+  "global_frontier": "1944-06-10T24",
+  "Pacific": {
+    "US": "TF58 is at sea for FORAGER; Seiran-caused hours-scale stagger absorbed. Branch fast-deck precombat baseline remains 8 CV + 8 CVL.",
+    "Japan": "Marianas warning is effectively confirmed. Yamamoto authorizes preliminary A-GO deployment but holds the five-carrier core pending the 11 Jun strike/landing geometry. Historical KON/Biak detachment does not occur.",
+    "subwar": "Harder remains dangerous but improved branch ASW reduces the historical 6-9 Jun three-DD loss cluster to one centered loss (Hayanami)."
+  },
+  "China": "Hengyang city/rail-command node remains Chinese; airfield partly physically transferred and only limited fighter/recon use restored. Methodical reduction continues in background.",
+  "Europe": "OVERLORD launches 6 Jun and establishes the Normandy lodgment; Rome is not yet credited captured in the delayed branch Italy clock.",
+  "Yanagi": "I-34/I-29/I-52 remain active at sea/approach states; no new German engine hardware reaches Japan by 10 Jun.",
+  "CBI_Indian_Ocean": "No U-Go/Eastern-Fleet escalation is introduced here. North-Burma unresolved local questions are not replaced by historical auto-events in this global-sync overlay.",
+  "next_focus": "1944-06-11 onward MARIANAS PRIMARY. Background theaters surface only on node-transfer, major-loss, technology-arrival or strategic-decision triggers."
+}

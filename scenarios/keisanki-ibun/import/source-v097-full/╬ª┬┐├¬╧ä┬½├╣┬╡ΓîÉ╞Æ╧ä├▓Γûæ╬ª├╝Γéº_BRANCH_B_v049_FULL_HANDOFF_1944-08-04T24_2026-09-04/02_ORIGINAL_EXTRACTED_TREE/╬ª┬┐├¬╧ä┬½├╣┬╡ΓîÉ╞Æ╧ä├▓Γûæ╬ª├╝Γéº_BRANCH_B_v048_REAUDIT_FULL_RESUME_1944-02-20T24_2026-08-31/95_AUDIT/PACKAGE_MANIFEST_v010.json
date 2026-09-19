@@ -1,0 +1,33 @@
+{
+  "revision": "v010",
+  "package_root": "計算機異聞_refactor_v010_2026-08-23",
+  "generated": "2026-08-23",
+  "purpose": "Add mandatory combat-capability completeness index/matrix/context to current checkpoint and runtime generator without changing settled world state.",
+  "file_count": 389,
+  "current_restart": "CHECKPOINT_1944-04-30T24_v003",
+  "new_revision_entrypoints": [
+    "00_README/README_refactor_v010.md",
+    "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v010.md",
+    "05_WARTIME/CHECKPOINT_INDEX_v009.json",
+    "05_WARTIME/CHECKPOINT_GRAPH_v008.json",
+    "05_WARTIME/CHECKPOINT_1944-04-30T24_v003.json",
+    "06_RUNTIME/COMBAT_CAPABILITY_FACTOR_INDEX_v001.json",
+    "06_RUNTIME/COMBAT_EVENT_FACTOR_MATRIX_v001.json",
+    "06_RUNTIME/COMBAT_EVENT_INPUT_SCHEMA_v001.json",
+    "06_RUNTIME/COMBAT_ADJUDICATION_CONTEXT_v001.md",
+    "06_RUNTIME/EVENT_HANDOUT_SCHEMA_v003.json",
+    "06_RUNTIME/RUNTIME_CONTRACT_v003.json",
+    "95_AUDIT/current_version_families_v007.json",
+    "95_AUDIT/COMBAT_CAPABILITY_COVERAGE_AUDIT_v001.json",
+    "95_AUDIT/V010_COMBAT_FACTOR_REPAIR_AUDIT_v001.json",
+    "98_TOOLS/build_event_handout_v006.py",
+    "98_TOOLS/build_combat_context_v001.py",
+    "98_TOOLS/validate_refactor_v008.py",
+    "06_RUNTIME/EXAMPLE_HANDOUT_FORAGER_GATE_1944-05-01_v002.json"
+  ],
+  "validation": "95_AUDIT/VALIDATION_RESULT_v010.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v010.txt",
+  "legacy_policy": "99_LEGACY_UNTOUCHED retained byte-identical from v009 package.",
+  "execution_policy": "Combat/gate adjudication loads combat_resolution_support from current checkpoint; final combat result additionally requires combat_resolution_ready=true.",
+  "state_change_from_v009": "none; v003 is same-state combat-completeness execution revalidation of v002."
+}

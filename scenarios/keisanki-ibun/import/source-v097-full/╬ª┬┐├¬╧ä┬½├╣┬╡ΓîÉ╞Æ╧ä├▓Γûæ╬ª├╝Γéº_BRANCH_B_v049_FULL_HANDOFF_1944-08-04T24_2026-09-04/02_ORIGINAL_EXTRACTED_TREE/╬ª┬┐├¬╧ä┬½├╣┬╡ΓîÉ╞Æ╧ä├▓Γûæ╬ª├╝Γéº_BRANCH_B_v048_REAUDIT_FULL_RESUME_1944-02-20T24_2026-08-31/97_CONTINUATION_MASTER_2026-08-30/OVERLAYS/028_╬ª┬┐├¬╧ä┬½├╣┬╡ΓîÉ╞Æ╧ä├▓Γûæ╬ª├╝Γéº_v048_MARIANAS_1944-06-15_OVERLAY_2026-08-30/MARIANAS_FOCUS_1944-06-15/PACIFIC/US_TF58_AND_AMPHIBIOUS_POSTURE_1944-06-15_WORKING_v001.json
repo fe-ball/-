@@ -1,0 +1,44 @@
+{
+  "revision": "v001",
+  "id": "US_TF58_AND_AMPHIBIOUS_POSTURE_1944-06-15_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_US_DAY_POSTURE",
+  "clock_window": "1944-06-15T00:00..24:00+09:00",
+  "parents": [
+    "US_TF58_CARRIER_AND_SURFACE_STATE_1944-06-14_WORKING_v001",
+    "US_SUBMARINE_RECONTACT_AND_SPRUANCE_POSTURE_1944-06-15_WORKING_v001"
+  ],
+  "fast_carrier_pool": {
+    "decks_total": 16,
+    "CV": 8,
+    "CVL": 8,
+    "opening_ready_aircraft_band": [
+      905,
+      990
+    ],
+    "local_Saipan_Philippine_Sea_fast_decks_center": 12,
+    "Bonins_suppression_decks_center": 4,
+    "note": "The 15 Jun submarine warning makes a historical two-task-group northern detachment unnecessarily risky. One group is enough for a short Bonins suppression cycle while three groups remain close enough to cover Saipan."
+  },
+  "CVE_close_support": "Escort carriers sustain beach CAP/CAS/ASW. Their aircraft are not counted inside the TF58 16-deck ready band.",
+  "D_day_air_tasks": [
+    "fleet CAP against Japanese land/carrier air",
+    "beach/shore CAS and armed reconnaissance",
+    "ASW over transport lanes",
+    "runway/C2 suppression",
+    "search westward for the reported Japanese fleet"
+  ],
+  "end_day_fast_carrier_ready_band": [
+    890,
+    975
+  ],
+  "irreversible_air_loss_15Jun_band": [
+    7,
+    12
+  ],
+  "repairable_short_term_band": [
+    10,
+    18
+  ],
+  "surface_major_campaign_out": "NONE on 15 Jun.",
+  "Spruance_priority": "Protect the lodgment. No westward carrier chase on stale submarine reports."
+}

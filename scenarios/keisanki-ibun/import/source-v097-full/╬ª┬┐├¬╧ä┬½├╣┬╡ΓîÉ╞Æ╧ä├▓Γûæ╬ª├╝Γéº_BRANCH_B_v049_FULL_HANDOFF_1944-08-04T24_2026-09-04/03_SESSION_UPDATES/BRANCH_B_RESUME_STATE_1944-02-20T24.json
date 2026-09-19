@@ -1,0 +1,61 @@
+{
+  "semantic_base": "Branch B v048",
+  "authoritative_frontier": "1944-02-20T24",
+  "master_load_order": "97_CONTINUATION_MASTER_2026-08-31/MANIFEST/MASTER_LOAD_ORDER_v002.json",
+  "old_1944_06_15_state": "QUARANTINED_PROVENANCE_ONLY",
+  "locked_results": {
+    "GALVANIC_Tarawa_rerun": true,
+    "FLINTLOCK_DDay": "1944-02-06",
+    "Kwajalein_secure": "1944-02-09",
+    "FLINTLOCK_closeout": "1944-02-10",
+    "Japanese_first_line_carriers_surviving": ["Shokaku", "Zuikaku", "Hiryu", "Soryu"],
+    "CATCHPOLE_amtracs_physical": 106,
+    "CATCHPOLE_amphibian_tanks_physical": 17,
+    "HAILSTONE_main_force": "5 CV + 3 CVL",
+    "Eniwetok_local_radar": 0
+  },
+  "Truk_1944_02_20T24": {
+    "US_ready_aircraft": {"low": 445, "center": 465, "high": 485},
+    "Japan_day1_irrecoverable_aircraft": {"low": 40, "center": 45, "high": 50},
+    "US_day1_irrecoverable_aircraft": {"low": 24, "center": 27, "high": 31},
+    "Japan_dusk_serviceable_fighters": {"low": 16, "high": 22},
+    "Japan_dusk_night_capable_attack_recon_water_air": {"low": 13, "high": 19},
+    "warning_plot_throughput_pct_of_dawn": {"low": 50, "high": 65},
+    "night_counterstrike": {
+      "status": "OPEN",
+      "available_aircraft": {"low": 13, "high": 19},
+      "cue_age_hours": {"low": 1, "high": 3},
+      "cue_quality": "SECTOR_ONLY_NOT_EXACT_CARRIER_FIX"
+    },
+    "Japanese_submarine_nodes_near_TF58": {"low": 2, "high": 4}
+  },
+  "Eniwetok_1944_02_20T24": {
+    "Engebi_DDay": "1944-02-21",
+    "garrison_total": {"low": 3380, "high": 3540},
+    "garrison_by_island": {
+      "Engebi": {"low": 1240, "high": 1320},
+      "Eniwetok_Island": {"low": 790, "high": 840},
+      "Parry": {"low": 1330, "high": 1390}
+    },
+    "Type95": {"physical_total": 9, "serviceable_center": 9, "per_main_island": 3},
+    "local_air_serviceable_dusk": {"low": 3, "high": 5},
+    "local_radar": 0,
+    "US_amtracs": {"physical": 106, "ready_center": 103},
+    "US_amphibian_tanks": {"physical": 17, "ready_center": 17},
+    "passage_delay_hours": {"low": 2.5, "high": 4.0},
+    "night_gate": {
+      "Japan_air_package_possible": {"low": 3, "high": 5},
+      "Japan_submarine_useful_approach_nodes": {"low": 2, "high": 3},
+      "status": "OPEN"
+    }
+  },
+  "next_sequence": [
+    "Truk night air counterstrike",
+    "Truk submarine/TF58 interaction",
+    "Recompute Truk dawn fixed-system state",
+    "Decide HAILSTONE Day 2 tasking",
+    "Eniwetok night air/submarine interference",
+    "21 Feb Engebi assault",
+    "Post-Engebi intelligence-based Eniwetok Island/Parry sequencing"
+  ]
+}

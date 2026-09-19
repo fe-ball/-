@@ -1,0 +1,9 @@
+item	status	reason	guard
+J2N Hekireki	INTENTIONAL-OPEN	requirement/preliminary only; no 1941 dedicated prototype	do not freeze a definitive twin-engine night/heavy fighter OML until formal program selects engine/firepower/radar
+H3 medium helicopter	INTENTIONAL-OPEN	1941 design/rig only; no flying prototype	15 m rotor / 3.0-3.3 t / 900-1000 shp envelope may be used for massing only, not final cabin/tail/gear
+HS-3	INTENTIONAL-OPEN	paper/1940-41 flight-development research branch	no final OML until HS-2 results choose Mach/wing/tail requirements
+E7 clean-sheet fixed-wing types	INTENTIONAL-OPEN	E7 retrofit exists; new-airframe programs remain later gate	do not generate a single generic E7 fighter shell
+A8N serial powered-lift refinements	LOCAL-VARIANT	cascade vane count, exact duct-wall thickness and actuator fairings remain manufacturer detail	outer envelope/cascade sector and 0/20/45 states are locked
+service-local gun marks	LOCAL-VARIANT	caliber/model may remain Army/Navy local where current authority closes only envelope	port count/size class used by CG is visual module, not weapon-adoption authority
+prototype paint/tactical codes	LOCAL-VARIANT	date/unit-specific history not implied by OML close	use 10-SURFACE-PANEL-MARKING visual defaults unless HISTORY supplies exact markings
+exact rivet pitch / hidden internal structure	LOCAL-VARIANT	not silhouette-defining	do not infer factory drawing tolerances from CG data

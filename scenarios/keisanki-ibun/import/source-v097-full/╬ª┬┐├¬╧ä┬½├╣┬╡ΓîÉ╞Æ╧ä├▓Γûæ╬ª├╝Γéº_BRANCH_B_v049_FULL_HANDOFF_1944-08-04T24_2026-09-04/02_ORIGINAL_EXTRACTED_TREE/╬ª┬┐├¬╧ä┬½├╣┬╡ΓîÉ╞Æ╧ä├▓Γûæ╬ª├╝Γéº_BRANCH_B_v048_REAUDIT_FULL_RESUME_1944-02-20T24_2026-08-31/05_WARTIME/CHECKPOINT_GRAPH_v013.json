@@ -1,0 +1,271 @@
+{
+  "revision": "v013",
+  "purpose": "Branch B integrated graph: authoritative restart is 1943-08-01 after Kiska evacuation and Hanzhong Phase-II endpoint; later 1943Q3/Q4 and 1944 states are retained reference-only pending Branch B re-adjudication.",
+  "nodes": [
+    {
+      "id": "WARSTART_1941-12-07_08_v003",
+      "date": "1941-12-07/08",
+      "status": "SUPERSEDED_BY_REFACTOR_V004_BASELINE",
+      "parent": null,
+      "kind": "major_floor",
+      "execution_valid": false
+    },
+    {
+      "id": "WARSTART_1941-12-07_08_v004",
+      "date": "1941-12-07/08",
+      "status": "EXECUTION_VALID_REVALIDATED",
+      "execution_valid": true,
+      "parent": null,
+      "kind": "major_floor",
+      "state_ledger": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+      "checkpoint_file": "04_WARSTART/WARSTART_CHECKPOINT_v004.json"
+    },
+    {
+      "id": "LEGACY_80_MO_MI",
+      "date": "1942 MO/MI",
+      "status": "ARCHIVAL_COMPARISON_ONLY",
+      "parent": "WARSTART_1941-12-07_08_v003",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LEGACY_85_MO_MI_REAUDIT",
+      "date": "1942 MO/MI",
+      "status": "BLOCKED_PENDING_COMINT_RERUN",
+      "parent": "WARSTART_1941-12-07_08_v003",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LOCAL_RESTART_1942-05-06T24",
+      "date": "1942-05-06T24:00",
+      "status": "SUPERSEDED_BY_FORMAL_CHECKPOINT",
+      "parent": "WARSTART_1941-12-07_08_v003",
+      "kind": "local_floor",
+      "requirements": [
+        "regenerate 1942-05-04..05-06 information-state handout with restored COMINT",
+        "then execute 1942-05-07 Coral Sea"
+      ],
+      "execution_valid": false,
+      "superseded_by": "CHECKPOINT_1942-05-06T24_v001"
+    },
+    {
+      "id": "LEGACY_86_AL_FS",
+      "date": "1942 AL/South Pacific/FS",
+      "status": "BLOCKED_BY_PARENT",
+      "parent": "LEGACY_85_MO_MI_REAUDIT",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LEGACY_87_1942FALL_1943SUMMER",
+      "date": "1942 fall-1943 summer",
+      "status": "BLOCKED_BY_ANCESTRY_UNTIL_REVALIDATED",
+      "parent": "LEGACY_86_AL_FS",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LEGACY_88_1943FALL_WINTER",
+      "date": "1943 fall-winter",
+      "status": "BLOCKED_BY_ANCESTRY_UNTIL_REVALIDATED",
+      "parent": "LEGACY_87_1942FALL_1943SUMMER",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LEGACY_89_1943WINTER_1944EARLYSUMMER",
+      "date": "1943 winter-1944 early summer",
+      "status": "BLOCKED_BY_ANCESTRY_UNTIL_REVALIDATED",
+      "parent": "LEGACY_88_1943FALL_WINTER",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "CHECKPOINT_1942-05-06T24_v001",
+      "parent": "WARSTART_1941-12-07_08_v004",
+      "status": "SUPERSEDED_BY_1942Q2_REAUDIT",
+      "execution_valid": false,
+      "note": "Preserved as former restart boundary; current-branch Operation C/MO rerun produces a different ancestor state.",
+      "superseded_by": "CHECKPOINT_1942-05-11T24_v001"
+    },
+    {
+      "id": "CHECKPOINT_1942-04-10T24_v001",
+      "date": "1942-04-10/11",
+      "status": "EXECUTION_VALID_SETTLED",
+      "execution_valid": true,
+      "parent": "WARSTART_1941-12-07_08_v004",
+      "kind": "formal_checkpoint",
+      "note": "Operation C qualitative branch settled; Force A modern carriers lost."
+    },
+    {
+      "id": "CHECKPOINT_1942-05-11T24_v001",
+      "date": "1942-05-11/12",
+      "status": "EXECUTION_VALID_SETTLED",
+      "execution_valid": true,
+      "parent": "CHECKPOINT_1942-04-10T24_v001",
+      "kind": "formal_checkpoint",
+      "note": "Doolittle + Coral Sea + Port Moresby settlement; Yorktown/Lexington lost, PM Japanese-held."
+    },
+    {
+      "id": "CHECKPOINT_1942-06-02T24_v001",
+      "date": "1942-06-02/03",
+      "status": "EXECUTION_VALID_SETTLED",
+      "execution_valid": true,
+      "parent": "CHECKPOINT_1942-05-11T24_v001",
+      "kind": "formal_checkpoint",
+      "note": "Modified MI sortie state: 5 fleet carriers, AL detached, attack 6/10, US intelligence bounded without high-grade plaintext."
+    },
+    {
+      "id": "CHECKPOINT_1942-06-15T24_v001",
+      "date": "1942-06-15/16",
+      "status": "SUPERSEDED_BY_BASELINE_REVALIDATION",
+      "execution_valid": false,
+      "parent": "CHECKPOINT_1942-06-02T24_v001",
+      "kind": "formal_checkpoint",
+      "note": "Post-MI settlement: Midway Japanese-held; Akagi/Kaga lost, Soryu/Hiryu damaged survive; US Enterprise/Hornet/Saratoga lost.",
+      "superseded_by": "CHECKPOINT_1942-06-15T24_v002"
+    },
+    {
+      "id": "CHECKPOINT_1942-06-15T24_v002",
+      "date": "1942-06-15/16",
+      "status": "EXECUTION_VALID_SETTLED_ANCESTOR",
+      "execution_valid": true,
+      "parent": "CHECKPOINT_1942-06-15T24_v001",
+      "kind": "same_state_baseline_revalidation",
+      "note": "Former current restart; retained as settled ancestor of 1942H2 advance.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1942-06-15T24_v002.json"
+    },
+    {
+      "id": "CHECKPOINT_1942-09-02T24_v001",
+      "date": "1942-09-02/03",
+      "status": "EXECUTION_VALID_SETTLED",
+      "execution_valid": true,
+      "parent": "CHECKPOINT_1942-06-15T24_v002",
+      "kind": "formal_checkpoint",
+      "note": "Post-Santo tech-stack re-audit settlement; major base belt captured.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1942-09-02T24_v001.json"
+    },
+    {
+      "id": "CHECKPOINT_1942-10-24T24_v001",
+      "date": "1942-10-24/25",
+      "status": "EXECUTION_VALID_SETTLED",
+      "execution_valid": true,
+      "parent": "CHECKPOINT_1942-09-02T24_v001",
+      "kind": "formal_checkpoint",
+      "note": "Noumea/Tontouta main campaign captured; northern Allied force remains.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1942-10-24T24_v001.json"
+    },
+    {
+      "id": "CHECKPOINT_1942-11-19T24_v001",
+      "date": "1942-11-19/20",
+      "status": "EXECUTION_VALID_SETTLED",
+      "execution_valid": true,
+      "parent": "CHECKPOINT_1942-10-24T24_v001",
+      "kind": "formal_checkpoint",
+      "note": "Limited FS formally closed after New Caledonia military-corridor clearance; Fiji/Samoa postponed.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1942-11-19T24_v001.json"
+    },
+    {
+      "id": "CHECKPOINT_1942-12-31T24_v001",
+      "date": "1942-12-31/1943-01-01",
+      "status": "EXECUTION_VALID_SETTLED_ANCESTOR",
+      "execution_valid": true,
+      "parent": "CHECKPOINT_1942-11-19T24_v001",
+      "kind": "formal_checkpoint",
+      "note": "Former current restart; settled ancestor of v008 1943-44Q1 advance.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1942-12-31T24_v001.json"
+    },
+    {
+      "id": "CHECKPOINT_1944-04-30T24_v001",
+      "date": "1944-04-30/1944-05-01",
+      "status": "SUPERSEDED_BY_EXECUTION_REVALIDATION",
+      "execution_valid": false,
+      "parent": "CHECKPOINT_1942-12-31T24_v001",
+      "kind": "formal_checkpoint",
+      "note": "1943-44Q1 global settlement: Five-Go/Hanzhong, second Midway and Central Pacific counteroffensive, Burma pressure, Italy/OVERLORD re-audit, Eastern Front differential ledger, spring-1944 weapons audit.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1944-04-30T24_v001.json",
+      "superseded_by": "CHECKPOINT_1944-04-30T24_v002"
+    },
+    {
+      "id": "CHECKPOINT_1944-04-30T24_v002",
+      "date": "1944-04-30/1944-05-01",
+      "status": "SUPERSEDED_BY_COMBAT_COMPLETENESS_REVALIDATION",
+      "execution_valid": false,
+      "parent": "CHECKPOINT_1944-04-30T24_v001",
+      "kind": "same_state_execution_revalidation",
+      "note": "Same settled state as v001; runtime dependencies repaired to TECH v006, override v003 and v009 execution tooling.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+      "superseded_by": "CHECKPOINT_1944-04-30T24_v003"
+    },
+    {
+      "id": "CHECKPOINT_1944-04-30T24_v003",
+      "date": "1944-04-30/1944-05-01",
+      "status": "SUPERSEDED_BY_PLATFORM_NOVELTY_REVALIDATION",
+      "execution_valid": false,
+      "parent": "CHECKPOINT_1944-04-30T24_v002",
+      "kind": "same_state_combat_completeness_revalidation",
+      "note": "Same settled state as v002; adds mandatory combat factor index/matrix/context dependencies and generator completeness checking.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1944-04-30T24_v003.json",
+      "superseded_by": "CHECKPOINT_1944-04-30T24_v004"
+    },
+    {
+      "id": "CHECKPOINT_1944-04-30T24_v004",
+      "date": "1944-04-30/1944-05-01",
+      "status": "RETAINED_PROVISIONAL_BLOCKED_BY_1943_ROLLBACK",
+      "execution_valid": false,
+      "parent": "CHECKPOINT_1944-04-30T24_v003",
+      "kind": "same_state_platform_novelty_revalidation",
+      "note": "Same settled world state as v003; adds mandatory platform-class capability review and ahistorical/divergent weapon registration/adjudication support. Retained as downstream reference only after v021/v022 rollback; not current execution authority.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1944-04-30T24_v004.json",
+      "superseded_by": "CHECKPOINT_1943-09-30T24_v001"
+    },
+    {
+      "id": "CHECKPOINT_1943-09-30T24_v001",
+      "date": "1943-09-30/1943-10-01",
+      "status": "SUPERSEDED_BY_AIRFIELDING_EXECUTION_REVALIDATION",
+      "execution_valid": false,
+      "parent": "CHECKPOINT_1942-12-31T24_v001",
+      "kind": "synchronized_frontier_checkpoint",
+      "note": "v022 spring-to-autumn rollback/re-audit closed through Sep 30; includes branch-invariant guard for geography, carrier/hull state, COMINT, Japanese combat capability and China.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1943-09-30T24_v001.json",
+      "superseded_by": "CHECKPOINT_1943-09-30T24_v002"
+    },
+    {
+      "id": "CHECKPOINT_1943-09-30T24_v002",
+      "date": "1943-09-30/1943-10-01",
+      "status": "SUPERSEDED_BY_NAVAL_CAPABILITY_EXECUTION_REVALIDATION",
+      "execution_valid": false,
+      "parent": "CHECKPOINT_1943-09-30T24_v001",
+      "kind": "same_state_aircraft_fielding_execution_revalidation",
+      "note": "Same synchronized world state as v001; adds explicit aircraft fielding clocks and water-aircraft doctrine to prevent historical introduction/allocation defaults.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1943-09-30T24_v002.json",
+      "superseded_by": "CHECKPOINT_1943-09-30T24_v003"
+    },
+    {
+      "id": "CHECKPOINT_1943-09-30T24_v003",
+      "date": "1943-09-30/1943-10-01",
+      "status": "RETAINED_REFERENCE_ONLY_BLOCKED_BY_BRANCH_B_ROLLBACK",
+      "execution_valid": false,
+      "parent": "CHECKPOINT_1943-09-30T24_v002",
+      "kind": "same_state_naval_capability_execution_revalidation",
+      "note": "Former v025 synchronized restart. Preserved unchanged as Branch A/downstream research evidence; not executable current state under Branch B rollback.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1943-09-30T24_v003.json",
+      "superseded_by": "CHECKPOINT_1943-07-31T24_BRANCH_B_v001"
+    },
+    {
+      "id": "CHECKPOINT_1943-07-31T24_BRANCH_B_v001",
+      "date": "1943-07-31/1943-08-01",
+      "status": "CURRENT_FORMAL_RESTART_BOUNDARY_BRANCH_B",
+      "execution_valid": true,
+      "parent": "CHECKPOINT_1942-12-31T24_v001",
+      "kind": "branch_b_rollback_frontier_checkpoint",
+      "note": "Branch B authoritative frontier after late-July Kiska evacuation and Hanzhong Phase-II endpoint. All later realized outcomes are reopened; rollback guard is mandatory.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1943-07-31T24_BRANCH_B_v001.json",
+      "rollback_guard": "06_RUNTIME/BRANCH_B_ROLLBACK_GUARD_1943-08-01_v001.json"
+    }
+  ],
+  "invalidation_classes": {
+    "EVIDENCE_POINTER_ONLY": "no rerun if runtime value/status unchanged",
+    "TECH_ENTRY_VALUE_CHANGE": "find checkpoints/events whose handouts include changed tech entry or dependent intermediate state; revalidate/rerun descendants from earliest affected event",
+    "PREWAR_REALIZATION_CHANGE": "new WARSTART baseline; all wartime descendants require impact review",
+    "WARSTART_STATE_CHANGE": "new WARSTART baseline; all descendants require impact review",
+    "CHECKPOINT_STATE_CHANGE": "invalidate descendants of that checkpoint only",
+    "RULE_RUNTIME_CHANGE": "use rule dependency mapping; rerun from earliest event whose calculation used affected rule"
+  },
+  "principle": "Current execution authority is CHECKPOINT_1943-09-30T24_v003. Branch invariants, aircraft/seaplane fielding, and surface/carrier capability ledgers must be loaded before historical defaults."
+}

@@ -1,0 +1,18 @@
+{
+  "revision": "v036",
+  "package_revision": "v036",
+  "generated": "2026-08-29",
+  "validator": "98_TOOLS/validate_refactor_v023.py",
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "json_files": 372,
+  "authority_status": "CURRENT authority unchanged at 1944-01-01; discussion clock remains 1944-01-28",
+  "specific_checks": [
+    "I-34 Branch state alive/outbound through 1944-01-28; Europe arrival remains future",
+    "legacy Mar-May 1944 dedicated pure-jet first-flight centerline superseded",
+    "no 1944 operational jet/rocket combat unit",
+    "BMW003 information distinguished from physical Jumo004B/HWK509A-1 future cargo",
+    "frontier/registry/latest-present references consistent"
+  ]
+}

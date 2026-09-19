@@ -65,3 +65,5 @@ China 29 May–14 Jun detailed event sequence remains a parallel OPEN ledger.
 - [Import status](import/IMPORT-STATUS.md)
 
 The external FULL HANDOFF source package remains provenance. v098 adds current session-derived authority files; it does not promote the deep legacy archive into current/.
+
+2026-09-20: 原本v097 ZIPと全2,071ファイルを `import/source-v097-full/` に保存済み。現行v098のauthorityと読み順は維持。

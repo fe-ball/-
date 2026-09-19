@@ -1,0 +1,34 @@
+{
+  "id": "FLINTLOCK_US_04_05FEB_REGEN_SUPPRESSION_WALLET_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-04 through 1944-02-05T24 Marshall local",
+  "starting_state_ref": "FLINTLOCK_1944-02-03T24_MARITIME_REBASELINE_CHECKPOINT_v001",
+  "principle": "US material superiority is large but finite. Replenishment, CAP/search, ASW, damaged-carrier escort, close gunfire, UDT/channel work and island suppression consume overlapping deck/escort/command capacity.",
+  "4Feb": {
+    "TF58_offensive_suppression_sorties_band": [155, 185],
+    "TF58_center": 170,
+    "Gilberts_relevant_sorties_band": [52, 66],
+    "Gilberts_center": 59,
+    "CVE_close_support_note": "Six CVE support groups primarily cover CAP/ASW/spotting and preliminary-islet work; only bounded strike sorties are counted as direct suppression, not free additions to TF58 totals.",
+    "old_battleship_support": "Seven existing old-battleship support slots remain available in the assault package; they begin deliberate target-system reduction and channel/islet preparation. No new upstream loss is introduced.",
+    "fast_battleships": "Most remain with TF58/anti-surface cover during the morning. By evening, increased confidence that the Japanese carrier force is retiring permits 1-2 fast-BB-class hulls to shift toward intermediate covering geometry, not close beach bombardment.",
+    "destroyer_tradeoff": "Additional close-fire/UDT/islet slots are created by moving some DDs inward; DE/CVE air partially backfill ASW, but the outer screen is not simultaneously at maximum density.",
+    "result": "Suppression rises from the 3-Feb recovery day but remains below a theoretical all-deck maximum because carrier air groups and decks are still absorbing 2-Feb losses/cross-deck congestion."
+  },
+  "5Feb": {
+    "TF58_offensive_suppression_sorties_band": [175, 210],
+    "TF58_center": 192,
+    "Gilberts_relevant_sorties_band": [55, 70],
+    "Gilberts_center": 62,
+    "CVE_and_gunfire": "Close-support CVEs, old battleships, cruisers and destroyers shift from broad suppression toward repeated reattack of target systems, flanking-islet support, artillery-observation preparation and lagoon approaches.",
+    "bombardment_learning": "Tarawa-derived doctrine is already present in historical FLINTLOCK-type planning; this branch adds persistence and reattack rather than another linear 2-3x multiplier. Smoke, dust, target identification and fire-sector conflicts cap useful rate.",
+    "traffic_congestion": "More LVT/LST/LCI and engineer reserve improves resilience but causes intermittent staging/lagoon-lane congestion during preliminary moves. Commanders separate gunfire, UDT and assault-lane windows rather than simply pushing all craft forward at once.",
+    "result": "By late 5-Feb the US has completed a strong but not magically perfect preparation cycle. Remaining Japanese positions are suppressed unevenly rather than erased."
+  },
+  "anti_double_count": [
+    "Do not count CAP/search/ASW sorties as island-suppression sorties.",
+    "Do not add Cabot survivor aircraft as an extra flight deck.",
+    "Do not count fast battleships as both carrier screen and close bombardment in the same time block.",
+    "Do not turn additional bombardment ammunition into a linear lethality multiplier."
+  ]
+}

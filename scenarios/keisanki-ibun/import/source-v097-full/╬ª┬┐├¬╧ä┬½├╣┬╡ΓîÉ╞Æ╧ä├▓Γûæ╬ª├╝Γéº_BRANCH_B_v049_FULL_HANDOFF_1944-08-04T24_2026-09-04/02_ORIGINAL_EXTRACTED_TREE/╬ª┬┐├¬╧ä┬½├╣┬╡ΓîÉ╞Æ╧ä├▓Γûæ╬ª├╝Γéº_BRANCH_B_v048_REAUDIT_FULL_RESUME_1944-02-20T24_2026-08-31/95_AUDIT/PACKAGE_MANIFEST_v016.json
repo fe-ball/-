@@ -1,0 +1,17 @@
+{
+  "revision": "v016",
+  "package_root": "計算機異聞_refactor_v016_2026-08-24",
+  "generated": "2026-08-24",
+  "purpose": "Add pre-Ichigo land/airfield/OOB/shipping/Nanjing working audit without advancing the 1944-04-25 clock.",
+  "file_count_before_checksum": 454,
+  "base_package": "計算機異聞_refactor_v015_2026-08-24",
+  "current_branch_state_file": "06_RUNTIME/CURRENT_BRANCH_STATE_v001.json",
+  "current_branch_analysis_frontier": "1944-04-25T00:00",
+  "current_working_audit": "06_RUNTIME/PRE_ICHIGO_LAND_AIRFIELD_OOB_SHIPPING_NANJING_AUDIT_1944-04-25_v001.md",
+  "current_session_settlement": "06_RUNTIME/CATCHPOLE_ENIWETOK_1944-04-18_24_SETTLEMENT_v001.md",
+  "clock_advanced": false,
+  "validation": "95_AUDIT/VALIDATION_RESULT_v016.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v016.txt",
+  "historical_checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v015.txt",
+  "next_required_adjudication": "Complete the Apr-25 pre-Ichigo data audit, then size and launch the No.1/Ichigo-equivalent operation."
+}

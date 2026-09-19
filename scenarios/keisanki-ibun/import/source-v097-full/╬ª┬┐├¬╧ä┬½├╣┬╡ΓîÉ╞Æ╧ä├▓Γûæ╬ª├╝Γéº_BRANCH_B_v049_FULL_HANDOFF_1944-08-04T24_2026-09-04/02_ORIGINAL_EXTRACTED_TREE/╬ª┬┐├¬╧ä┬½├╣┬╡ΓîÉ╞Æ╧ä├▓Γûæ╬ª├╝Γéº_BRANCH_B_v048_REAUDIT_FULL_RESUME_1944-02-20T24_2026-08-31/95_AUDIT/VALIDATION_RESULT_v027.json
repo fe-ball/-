@@ -1,0 +1,16 @@
+{
+  "revision": "v027",
+  "generated": "2026-08-28",
+  "validator": "98_TOOLS/validate_refactor_v015.py",
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "json_file_count": 277,
+  "authoritative_frontier": "1944-01-01T00:00",
+  "current_checkpoint": "CHECKPOINT_1943-12-31T24_BRANCH_B_v001",
+  "notes": [
+    "1943H2 Branch B realized settlement integrated",
+    "Royal Navy 1942-43 divergence/Dodecanese audit integrated",
+    "Retained 1944 descendants structurally non-current; next gate is Japanese Jan-1944 movable naval wallet audit"
+  ]
+}

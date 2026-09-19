@@ -1,0 +1,145 @@
+{
+  "revision": "v001",
+  "id": "FLINTLOCK_GROUND_REDUCTION_1944-02-06_10_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "discussion_clock_start": "1944-02-06T18:00:00+12:00",
+  "discussion_clock_end_center": "1944-02-10T04:00:00+12:00",
+  "purpose": "Prospective re-adjudication of Kwajalein/Roi-Namur ground reduction after the v047-v048 integrated Japanese land+vehicle audit. Does not reroll the locked 6-Feb D-Day geography or the held first-day casualty band.",
+  "inherit_locked": {
+    "source": "FLINTLOCK_DDAY_DECISION_AND_LANDING_1944-02-06_WORKING_v003",
+    "main_assault_D_day": "1944-02-06",
+    "state_6Feb_1800": "US beachheads sustainable; Roi largely overrun; Namur and Kwajalein still fighting; no Japanese mechanism to eject landing force.",
+    "US_first_day_KW_band": [
+      430,
+      620
+    ],
+    "LST224_personnel_KMW_separate_band": [
+      70,
+      110
+    ],
+    "reroll_first_day": false
+  },
+  "historical_sanity_anchors": {
+    "southern_japanese_personnel": "about 5,000 total; official Army estimate 1,820 combat effective, 865+ partially effective, 1,830 ineffective",
+    "northern_japanese_personnel": "3,563 postbattle actual total; best official estimate 345 combat effective Guard Force, 2,150 air personnel partially effective, 357 labor ineffective, ~700 miscellaneous mostly ineffective",
+    "historical_US_south_first_night": "six infantry battalions, 44 medium tanks, 18 light tanks, five SP 75mm, two platoons 4.2-inch mortars ashore",
+    "historical_US_losses": "southern operation 142 KIA, 845 WIA, 2 MIA; northern operation 737 casualties, 190 killed/died of wounds",
+    "historical_timing": "Namur organized resistance ended on D+1 afternoon; Kwajalein declared secure on D+3 afternoon."
+  },
+  "vehicle_trace": {
+    "Japan_Namur": {
+      "Type94_tankette_physical": "minimum 1 confirmed by postbattle USMC recovery/memoir",
+      "exact_total": "unresolved; no second hull credited",
+      "6Feb1800_contact_capable_band": [
+        0,
+        1
+      ],
+      "center": 0,
+      "role_if_high_case": "mobile/static machine-gun firepoint only; no meaningful anti-M4 capability",
+      "repair_reappearance": "none after capture/abandonment or if workshop/recovery access is lost"
+    },
+    "Japan_other_main_islands": {
+      "combat_tank_credit": 0,
+      "note": "No traced dated OOB supports a Japanese tank platoon on Kwajalein or Roi-Namur. Tank ditches do not imply tank units."
+    },
+    "US_Kwajalein": {
+      "historical_ready_anchor_medium": 44,
+      "historical_ready_anchor_light": 18,
+      "branch_6Feb1800_local_ready_medium_band": [
+        40,
+        44
+      ],
+      "branch_6Feb1800_local_ready_light_band": [
+        16,
+        18
+      ],
+      "interpretation": "Difference from historical anchor is unloading/serviceability friction only. LST-224 cargo is not invented and no tank company is deleted by fiat."
+    },
+    "US_Roi_Namur": {
+      "state": "medium-tank company support remains available from Roi; Namur light tanks remain useful but terrain/bogging and resupply reduce tempo",
+      "effect": "Shermans are decisive against surviving fixed positions once routes are cleared; Japanese tankette cannot duel them."
+    }
+  },
+  "branch_japanese_ground_effects_loaded": [
+    "warning removes historical strategic surprise and permits sector assignment before bombardment",
+    "lagoon-side defense emphasis and anti-LVT choke-point preparation where time/material allow",
+    "command succession and local reserve plans improve post-bombardment coherence",
+    "registered mortar/artillery lanes become useful if observation/wire/radio survive",
+    "distributed ammunition/water/comms and smaller protected magazines reduce single-hit chain failures",
+    "earth/timber protection and crew shelter completion improve locally, but no Tarawa/Iwo-Jima depth is created",
+    "airmen/technicians may execute assigned static/local tasks, but are not converted into trained infantry and weapon counts do not increase"
+  ],
+  "adjudication": [
+    {
+      "window": "1944-02-06 18:00 to 1944-02-07 06:00",
+      "Roi": "mopping only; no coherent Japanese counterattack above small isolated groups",
+      "Namur": "surviving Guard/air personnel use prepared sectors and local infiltration more coherently than history; no beachhead ejection",
+      "Kwajalein": "principal Japanese effort is night infiltration/local counterattack against forward battalions and artillery/road nodes; temporary 50-150m local penetrations possible, but US illumination/artillery/tanks prevent operational breakthrough",
+      "assessment": "Branch effect is visible mainly as extra close combat and delayed reduction, not recapture."
+    },
+    {
+      "window": "1944-02-07 daylight",
+      "Roi": "secure except isolated pockets",
+      "Namur": "systematic tank-engineer reduction; organized resistance ends centered about 19:30, range 17:00-22:00",
+      "Kwajalein": "US attack clears/overruns most airfield sector but suffers repeated fire from bypassed shelters, mortars and debris positions; advance slower than the historical-equivalent day."
+    },
+    {
+      "window": "1944-02-08",
+      "Namur": "mopping and casualty collection; northern combat power released for recovery/base work",
+      "Kwajalein": "fight shifts into northern built-up/debris zone. Tanks, engineers, flamethrowers/demolitions and artillery dominate, while distributed Japanese stores/command succession allow some bypassed positions to reappear. No rational mass banzai is centered; local counterattacks are favored."
+    },
+    {
+      "window": "1944-02-09 to 1944-02-10 dawn",
+      "Kwajalein": "remaining command network fragments under close tank-engineer-artillery reduction. Organized resistance is operationally broken late 9-Feb; formal secure declaration centered 10-Feb 04:00, plausible band 9-Feb 23:00 to 10-Feb 08:00.",
+      "outlying_islets": "minor mopping can continue after main-island secure declaration without altering possession."
+    }
+  ],
+  "casualty_working_result": {
+    "rule": "No blanket multiplier. Totals emerge from extra night/local contacts, protected-position persistence and slower final strongpoint reduction, offset by overwhelming US combined arms and lack of Japanese depth.",
+    "US_northern_main_ground_KW_band": [
+      760,
+      900
+    ],
+    "US_southern_main_ground_KW_band": [
+      980,
+      1250
+    ],
+    "US_combined_main_ground_KW_working_band": [
+      1740,
+      2150
+    ],
+    "US_combined_center_approx": 1940,
+    "LST224_separate_KMW_band": [
+      70,
+      110
+    ],
+    "fatality_split": "RESERVED; do not fabricate KIA/WIA/MIA split until consolidated Allied death tally.",
+    "Japan": "garrison destruction/near-annihilation remains. Better preparation changes time and exchange, not evacuation or strategic survival."
+  },
+  "operational_result": {
+    "Roi_Namur": "captured; Namur costs several extra hours versus historical-equivalent reduction",
+    "Kwajalein": "captured; integrated Branch defense buys roughly an extra half-night beyond historical-equivalent secure timing, not another multi-day battle",
+    "strategic_capture": "UNCHANGED",
+    "why_not_more_delay": "flat tiny islands, no defense-in-depth, no reinforced armor reserve, no resupply, and US has division-scale infantry plus several dozen tanks, heavy artillery, naval gunfire, CVE/air support and secure unloading.",
+    "why_not_historical_smoothness": "Branch defenders are warned, lagoon-side/local reserve plans exist, distributed stores and better comm/registered fire survive longer, and technician/air personnel are less likely to dissolve immediately."
+  },
+  "propagation_gate": {
+    "next_required_nodes": [
+      "remaining Japanese submarine withdrawal/attrition",
+      "Roi/Kwajalein captured-airfield and logistics activation",
+      "then Eniwetok/Truk timing"
+    ],
+    "do_not_propagate_yet": [
+      "post-Flintlock Japanese fighter release to Bengal",
+      "Eastern Fleet/Andaman allocation changes"
+    ],
+    "reason": "Those depend on the fully closed Central-Pacific result, not merely the ground reduction."
+  },
+  "source_notes": [
+    "U.S. Army CMH, Seizure of the Gilberts and Marshalls: Japanese combat-effectiveness tables and historical loss/timing anchors.",
+    "U.S. Marine Corps histories: Roi-Namur tank employment and Namur reduction.",
+    "Robert M. Neiman and Kenneth W. Estes, Tanks on the Beaches: firsthand confirmation of one Type 94 tankette recovered relatively intact on Namur.",
+    "Branch package v048 integrated land/hardware/vehicle lineage files govern all prospective post-6-Feb-18:00 adjudication."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "GALVANIC_1943-11-26_27_NIGHT_SURFACE_REAUDIT_WORKING_v001",
+  "status": "WORKING_BRANCH_RERUN_NOT_YET_PROMOTED",
+  "time": "1943-11-26 19:00..1943-11-27 05:30 local",
+  "reopened_from": "old Makin stand-off raid / USS Franks named result",
+  "Japanese_light_group": {
+    "ships": [
+      "Hatsuzuki",
+      "Suzutsuki",
+      "Hamakaze",
+      "Fujinami"
+    ],
+    "why_same_hulls": "No new causal path changes which four already-forward destroyers can reach the first 26/27-night window. CL/heavier units remain farther back or committed to cover/reinforcement roles.",
+    "target_choice": "Tarawa outer support/transport concentration replaces Makin as centered target because organized Tarawa resistance remains high-intensity and CVE/transport/bombardment shipping remains fixed there.",
+    "mission": "stand-off Type 93 attack on outer screen / support traffic; no inner-anchorage penetration and no prolonged gun battle"
+  },
+  "cue_chain": [
+    {
+      "time": "20:00-21:10",
+      "event": "Degraded Marshall long-range reconnaissance/night-air reports plus radio bearings refresh the Tarawa support concentration broadly; no exact CVE anchorage map is obtained."
+    },
+    {
+      "time": "22:40-23:15",
+      "event": "Japanese destroyers approach at high speed from the Marshall side while using passive emission awareness/optics; US outer SG screen is already alert after the daytime carrier battle and continuing Japanese reconnaissance."
+    },
+    {
+      "time": "23:20-23:35",
+      "event": "US SG obtains the first reliable surface track at roughly 22-27 km class. US outer-screen destroyers turn to engage and the transport/support concentration begins emergency maneuver."
+    },
+    {
+      "time": "23:35-23:45",
+      "event": "Japanese group launches its immediate first torpedo salvo from roughly 16-18 km and turns away before radar-directed gunfire can develop into a prolonged action."
+    }
+  ],
+  "torpedo_accounting": {
+    "centered_first_salvo": 24,
+    "reason": "Hatsuzuki/Suzutsuki contribute one quadruple mount each and Hamakaze/Fujinami one octuple battery each. The old 28-32 centered launch over-counted immediate tubes for an attack that turns away at once.",
+    "second_salvo": "NOT centered. Branch reload/second-effective-salvo capability exists, but the SG-contact stand-off doctrine requires immediate withdrawal; no 12-20 minute reload engagement is accepted here."
+  },
+  "centered_result": {
+    "US": "One outer-screen destroyer takes one Type 93 hit and is lost/abandoned centered. Exact hull name remains OPEN until the Tarawa night-screen OOB is individually closed. No centered CVE/APA/LST hit; one additional transport-area hit remains a sensitivity branch only.",
+    "Japan": "Fujinami takes one light-to-moderate 5-inch/splinter damage event during radar-directed return fire, keeps withdrawal speed. Other three destroyers avoid mission-kill.",
+    "air_followup": "A small 5-7 aircraft Japanese night harassment/recon wave arrives during/after withdrawal, scores no centered ship hit, loses 1-2 aircraft, and increases US reluctance to conduct a long chase outside the transport screen."
+  },
+  "Tarawa_ground_coupling": "For roughly 60-100 minutes some US destroyer/outer-cover attention shifts seaward. This reduces immediate night naval-fire responsiveness but does not remove artillery, M4A2, machine-gun or all destroyer support. Japanese infiltration gains a local temporary benefit only.",
+  "heavy_surface_gate": {
+    "decision": "NO GO",
+    "reason": "Tarawa persistence and the daytime Lexington hit increase attraction, but Kongo/CA heavy cover is not physically positioned for a 26/27-night strike without a daylight approach on 27 Nov under still-large US fast-carrier/CVE air power. No teleporting heavy-force rescue run."
+  },
+  "named_result_guard": "Old USS Franks DD-554 sinking is VOID as a named fact in this rerun until screen OOB closure; centered loss is currently one unnamed US outer-screen DD."
+}

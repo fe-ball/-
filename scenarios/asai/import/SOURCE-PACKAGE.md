@@ -1,5 +1,13 @@
 # Source Package
 
+## 完全保存の追記 — 2026-09-20
+
+原本ZIPは [archives/ASAI-WORLDLINE-HANDOFF-2026-09-19-FULL-V22B-CHINA-PEACE-GERMAN-JET-BRANCH-GATE(1).zip](archives/ASAI-WORLDLINE-HANDOFF-2026-09-19-FULL-V22B-CHINA-PEACE-GERMAN-JET-BRANCH-GATE(1).zip)、全展開ファイルは [source-v22b-full-exact/](source-v22b-full-exact/) に保存済み。
+全件のCRC・SHA-256照合を完了。詳細は [Import Status](IMPORT-STATUS.md) を参照。
+以下の初期取り込み範囲・版・時計の記述は、元パッケージと初期取り込み時点の記録です。
+現行authorityは **V23** です。
+
+
 Imported from the user-provided archive:
 
 `ASAI-WORLDLINE-HANDOFF-2026-09-19-FULL-V22B-CHINA-PEACE-GERMAN-JET-BRANCH-GATE(1).zip`

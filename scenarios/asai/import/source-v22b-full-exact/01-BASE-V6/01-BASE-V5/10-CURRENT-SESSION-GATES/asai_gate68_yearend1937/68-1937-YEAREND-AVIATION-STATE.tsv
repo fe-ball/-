@@ -1,0 +1,10 @@
+branch/item	1937-11-12 state	1937-12-31 state	year-end ruling	status
+E5 universal twin demonstrator	1 flying airframe; mission-envelope work	No.1 remains flying; cumulative mission/reliability work substantially expanded	Basic envelope ~80-90%; nacelle ~75-85%; single-engine ~55-70%; mission systems ~60-70%; endurance ~40-55%	CANON
+E5 twin No.2	not authorized	One additional research airframe authorized for 1938 build; company-funded structure with military-paid test/instrument work	Provisioned to avoid grounding No.1 and to carry aft-fan / alternate installation work	CLOSED-WORKING
+E5 single future-form demonstrator	1 physical airframe; ground integration / near first flight	First flight achieved before year end; exact day not fixed (late-Nov to early-Dec band)	~8-15 early flights / ~5-10 h working; basic handling and intake/CG architecture validated; no service qualification	CANON-DATE-BAND
+Separate small early-GT fighter	dropped/merged	remains absent	No new branch created	CLOSED-DROP
+E5 aft-fan	installed audit open	Full-scale ground/nacelle work continues; no 1937 flight	Use Twin No.2 as preferred 1938 flight carrier if static/TSFC/installed-mass audit passes	OPEN-PERFORMANCE / CLOSED-NO-1937-FLIGHT
+Small TP / short-field practical line	2-4 flyable, center 3	~3 flyable; one additional/replacement frame may be on jig	Army technical side requests small 1938 field-evaluation package; no formal type adoption	WORKING-A2+
+Small helicopter	~2 development airframes	~2 remain; improved Asai-engine configuration becomes principal test article	Free-flight/control ~75-85%; engine integration ~60-70%; autorotation ~50-60%; drivetrain durability ~40-55%; useful payload still ~25-40%	CLOSED-TECH
+Material flight-test branch	0 dedicated aircraft; substructure tests	Material No.1 program authorized/design released for 1938 build; 0 completed aircraft	Material No.2 remains later high-dynamic-pressure project	CLOSED-DIRECTION
+TP conversion / donor-airframe tests	1-2 donor aircraft	continues	Test infrastructure only	CLOSED

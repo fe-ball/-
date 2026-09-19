@@ -1,0 +1,16 @@
+{
+  "revision": "v001",
+  "id": "OVERLORD_BRANCH_SYNC_1944-06-06_10_WORKING_v001",
+  "status": "GLOBAL_BRANCH_SYNC_SETTLEMENT",
+  "clock_window": "1944-06-06..06-10",
+  "parent": "EUROPE_ITALY_OVERLORD_ANVIL_REAUDIT_1943_1944Q1_v001",
+  "branch_authority_before_event": "OVERLORD remains 6 Jun, five beaches, historical-class first wave; direct assault capability index 100-103, D+1-7 follow-up 97-102, later logistics buffer thinner than history.",
+  "result": [
+    "6 Jun: OVERLORD/NEPTUNE launches on Utah, Omaha, Gold, Juno and Sword. The branch does not contain a pre-D-Day shock large enough to cancel or shrink the assault.",
+    "Initial lodgments succeed. Omaha remains the hardest US beach; naval gunfire/airborne/amphibious mechanics remain historical-class rather than being re-rolled from Japanese branch differences.",
+    "By 10 Jun a continuous Allied lodgment is operationally established, but high-capacity port access remains unresolved and the branch thinner logistics buffer has not yet crossed a crisis threshold."
+  ],
+  "Italy": "Do not inherit the historical 4 Jun Rome capture. The branch Italy clock is delayed; Rome remains not-credited-as-captured through 10 Jun pending the branch mid/late-June gate.",
+  "ANVIL": "Remains a provisional mid-July operation with its June final gate still open; no 6-10 Jun cancellation.",
+  "global_effect_before_11Jun": "No Europe event in this five-day window materially changes the already-committed Pacific FORAGER force."
+}

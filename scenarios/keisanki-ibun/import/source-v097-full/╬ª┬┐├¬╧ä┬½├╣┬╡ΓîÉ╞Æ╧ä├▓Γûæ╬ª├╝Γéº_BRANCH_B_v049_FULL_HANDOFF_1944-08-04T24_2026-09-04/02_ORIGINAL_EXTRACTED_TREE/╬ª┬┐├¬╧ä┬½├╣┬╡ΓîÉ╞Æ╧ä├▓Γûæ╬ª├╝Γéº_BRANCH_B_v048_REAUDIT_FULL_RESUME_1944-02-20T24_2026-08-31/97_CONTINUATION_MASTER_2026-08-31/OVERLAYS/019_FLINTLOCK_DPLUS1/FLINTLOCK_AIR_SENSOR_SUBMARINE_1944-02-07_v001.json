@@ -1,0 +1,29 @@
+{
+  "id": "FLINTLOCK_AIR_SENSOR_SUBMARINE_1944-02-07_v001",
+  "status": "WORKING_SUPPORT_DOMAIN_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-06T24 through 1944-02-07T24",
+  "air": {
+    "start_serviceable_band": [
+      16,
+      21
+    ],
+    "night_actions": "Four to six reconnaissance/harassment sorties from dispersed nodes; no coherent strike package. One to two aircraft are lost or rendered short-repair by interception/operational causes.",
+    "day_actions": "Remaining fighters and water/recon assets continue warning/recontact while US carrier/Gilberts strikes and local CVE pressure suppress launch sites and support nodes.",
+    "major_US_ship_hits": 0,
+    "T24_serviceable_band": [
+      10,
+      14
+    ],
+    "T24_center": 12,
+    "composition_note": "Roughly 4-6 of the surviving serviceable aircraft are water/recon types; regional serviceable does not imply availability over the landing beaches."
+  },
+  "sensor_C2": {
+    "target_islands": "Primary radar/director systems around the main landing sectors remain largely out. Visual posts, local telephone/runner nets and some DF/radio nodes still provide warning and local fires, not a unified atoll picture.",
+    "outer_nodes": "Outer Marshall warning nodes continue to report US air/ship movement but cannot materially restore target-island tactical C2."
+  },
+  "submarines": {
+    "useful_geometry": "About 6-8 boats retain useful or near-useful transport/support-lane geometry during 7-Feb after earlier damage, loss and Cabot-diversion effects.",
+    "center_action": "One boat reaches a marginal torpedo opportunity against a screened transport/CVE support element but fails to achieve weapon-quality geometry; no US ship hit centered.",
+    "attrition": "One boat is depth-charged/air-attacked into a 48-72 hour local unavailability band; no additional submarine sinking forced on the centerline."
+  }
+}

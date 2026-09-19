@@ -1,0 +1,51 @@
+field	value
+package	ASAI-WORLDLINE-HANDOFF-2026-09-05-FULL-V9-NOMONHAN-CLOSED-CHINA-JUN20
+state_semantics	NOMONHAN campaign closed; CHINA active replay current 1939-06-20 24:00
+current_revalidated_combat_checkpoint	CHINA 1939-06-20 24:00
+nomonhan_status	CLOSED through 1939-08-31 stabilization/central stop; postwar allocation flows future/open
+china_status	ACTIVE_COMBAT_REPLAY
+next_chronological_combat_gate_if_resumed	1939-06-21 Shantou/Swatow landing + Wutaishan phase4 close + Guangdong security-gap reaction
+highest_restart	70-CURRENT-2026-09-05-SESSION-CLOSE/00-SESSION-HANDOFF-V9.md
+current_master_index	CURRENT-MASTER-FILE-INDEX-V9.tsv
+current_precedence	PRECEDENCE-2026-09-05-FULL-V9.tsv
+current_terminology_supersession_guard	TERMINOLOGY-AND-SUPERSESSION-GUARD-V9.tsv
+current_decision_intent_index	DECISION-INTENT-INDEX-V9.tsv
+current_china_state	70-CURRENT-2026-09-05-SESSION-CLOSE/08A-CHINA-1939-06-20-STATE-V9.tsv
+next_gate	70-CURRENT-2026-09-05-SESSION-CLOSE/09-NEXT-GATE-SWATOW-1939-06-21-V9.md
+cross_theater_guard	70-CURRENT-2026-09-05-SESSION-CLOSE/07-CHINA-CROSS-THEATER-ALLOCATION-GUARD-V9.md
+nomonhan_closure	70-CURRENT-2026-09-05-SESSION-CLOSE/01-NOMONHAN-CLOSURE-CANON-V9.md
+nomonhan_loss_ledger	70-CURRENT-2026-09-05-SESSION-CLOSE/02-NOMONHAN-LOSS-LEDGER-V9.tsv
+nomonhan_air_ammo_correction	70-CURRENT-2026-09-05-SESSION-CLOSE/03-NOMONHAN-AIR-SPECIAL-AMMO-CORRECTION-V9.md
+nomonhan_air_ammo_working_ledger	70-CURRENT-2026-09-05-SESSION-CLOSE/03A-NOMONHAN-AIR-SPECIAL-AMMO-WORKING-V9.tsv
+nomonhan_replacement_pipeline	70-CURRENT-2026-09-05-SESSION-CLOSE/04-NOMONHAN-REINFORCEMENT-PIPELINE-V9.md
+nomonhan_replacement_working_ledger	70-CURRENT-2026-09-05-SESSION-CLOSE/04A-NOMONHAN-REINFORCEMENT-PIPELINE-V9.tsv
+nomonhan_actor_lessons	70-CURRENT-2026-09-05-SESSION-CLOSE/05-NOMONHAN-ACTOR-LESSONS-THREAT-ESTIMATE-V9.md
+uranium_nuclear_handoff	70-CURRENT-2026-09-05-SESSION-CLOSE/06-URANIUM-NUCLEAR-RESEARCH-HANDOFF-V9.md
+special_ammo_status	CLOSED-FLOW through Aug25: Aug19 AT37=912 TANK37=288; cumulative accepted/forwarded minima AT>=936 TANK>=322; exact factory monthly output not asserted
+ki27_ex2_status	Aug19 frontline working aggregate ~80%+; cumulative/absorbing adoption semantics
+china_nom_extra_drain_19390525_0831	0 unless itemized worldline-only China-sourced transfer proven
+post_nomonhan_saved_pool_china_semantics	Home/Manchuria/central first; China plus only on actual reassignment
+retained_specialist_capital	+0.95k to +1.5k provisional; defer compounding to end-1941 audit
+legacy_decision_intent_semantics	DECISION-INTENT-INDEX-V7.tsv is provenance/fallback only; never overrides V8/V9 current authority
+current_technical_discussion_index	71-CURRENT-TECHNICAL-CONTROL-V9/01-TECHNICAL-DISCUSSION-INDEX-V9.tsv
+current_technical_issue_register	71-CURRENT-TECHNICAL-CONTROL-V9/02-TECHNICAL-ISSUE-REGISTER-V9.tsv
+current_computation_crypto_closure	71-CURRENT-TECHNICAL-CONTROL-V9/03-COMPUTATION-CRYPTO-TECHNICAL-CLOSURE-V9.md
+current_naval_fcs_integration	71-CURRENT-TECHNICAL-CONTROL-V9/04-NAVAL-COMPUTATION-FCS-INTEGRATION-CLOSURE-V9.md
+technical_open_queue_semantics	71 technical register controls technical OPEN/CLOSED; 70 session-close open issues is combat/session future queue
+current_cheat_distance_guard	71-CURRENT-TECHNICAL-CONTROL-V9/05-CHEAT-DISTANCE-AND-TRANSFER-GUARD-V9.md
+current_crypto_sigint_institutional	71-CURRENT-TECHNICAL-CONTROL-V9/06-CRYPTO-SIGINT-INSTITUTIONAL-CLOSEOUT-V9.md
+current_naval_fcs_class_baseline	71-CURRENT-TECHNICAL-CONTROL-V9/07-NAVAL-FCS-CLASS-CLOSEOUT-V9.md
+technical_distance_semantics	CD0 Asai personal; CD1 Asai core; CD2 supported customer; CD3 autonomous institution; CD4 field user
+current_cheat_rule_compendium	71-CURRENT-TECHNICAL-CONTROL-V9/08-CHEAT-RULE-COMPENDIUM-V9.md
+current_cheat_rule_index	71-CURRENT-TECHNICAL-CONTROL-V9/08A-CHEAT-RULE-INDEX-V9.tsv
+current_technical_stage_taxonomy	71-CURRENT-TECHNICAL-CONTROL-V9/08B-TECHNICAL-STAGE-TAXONOMY-V9.tsv
+aircraft_rebase_semantics	H->C->M->E->P->I->A; then N niche and O original-program regeneration; local later V8/V9 values control
+technical_realization_semantics	capability/integration/article/qualification/adoption/serial-or-refit/allocation/serviceable/forward/combat/effect are separate gates; checklist not universal calendar order
+g3m_chongqing_ex_state	CLOSED-CONSERVATIVE: Jun20 replay EX0-equivalent headline performance; selective EX2 physical presence possible but uncredited absent named lot evidence; authority 70/.../11/11A
+nomonhan_special_ammo_flow_ledger	70-CURRENT-2026-09-05-SESSION-CLOSE/12A-NOMONHAN-SPECIAL-AMMO-FLOW-LEDGER-V9.tsv
+nomonhan_aviation_stockflow	CLOSED-CAMPAIGN-SUFFICIENT; authority 70-CURRENT-2026-09-05-SESSION-CLOSE/13A-NOMONHAN-AVIATION-STOCKFLOW-LEDGER-V9.tsv
+uranium_aug31_system_balance	55-65 t-U center62; accounting bins 27 feed +14 metal/process +9 military +4 research +8 overseas/in-transit; geography local
+uranium_system_balance_ledger	70-CURRENT-2026-09-05-SESSION-CLOSE/14A-URANIUM-SYSTEM-BALANCE-LEDGER-V9.tsv
+riken_isotope_state	CLOSED through 1939-08-31 research scale; tiny/lab separated samples at best; no kg enriched U or industrial enrichment
+riken_isotope_ledger	70-CURRENT-2026-09-05-SESSION-CLOSE/15A-RIKEN-ISOTOPE-RESEARCH-LEDGER-V9.tsv
+active_session_open_queue	70-CURRENT-2026-09-05-SESSION-CLOSE/10A-ACTIVE-OPEN-ISSUES-V9.tsv

@@ -1,0 +1,24 @@
+{
+  "revision": "v025",
+  "date": "2026-08-26",
+  "result": "PASS",
+  "validator": "98_TOOLS/validate_refactor_v013.py",
+  "checks": {
+    "all_json_parse": true,
+    "current_frontier": "1943-10-01T00:00",
+    "current_restart": "CHECKPOINT_1943-09-30T24_v003",
+    "TECH_baseline": "TECH_INDEX_v008",
+    "aircraft_fielding_ledger_bound": true,
+    "seaplane_tactics_ledger_bound": true,
+    "surface_combatant_capability_ledger_bound": true,
+    "carrier_capability_ledger_bound": true,
+    "carrier_tactical_maturation_machine_bound": true,
+    "surface_tactical_maturation_machine_bound": true,
+    "Kongo_task_specific_bands_guarded": true,
+    "surface_second_salvo_cycle_guarded": true,
+    "carrier_first_line_survival_guarded": true,
+    "nominal_carrier_capacity_not_runtime_strength": true,
+    "generator_smoke_carrier_and_surface": true,
+    "existing_branch_geography_carrier_loss_COMINT_China_aircraft_seaplane_guards_retained": true
+  }
+}

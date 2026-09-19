@@ -1,0 +1,23 @@
+{
+  "revision": "v001",
+  "entries": [
+    {
+      "id": "CORE-COMPUTER-SCENARIO",
+      "status": "accepted",
+      "summary": "Exogenous scenario: Japanese electromechanical/computing development diverges from late 1920s/early 1930s; all downstream changes must be causally derived rather than assumed.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/計算機異聞_シナリオ_改定v3.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/計算機とその波及_設定資料と解説_改定v9.md"
+      ]
+    },
+    {
+      "id": "CORE-COMPUTER-CLOCK",
+      "status": "accepted",
+      "summary": "Computer generations and I/O/organizational adoption clocks are distinct constraints; technical existence does not imply field deployment.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/00_常時コンテキスト_研究規約と正本索引.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/計算機とその波及_設定資料と解説_改定v9.md"
+      ]
+    }
+  ]
+}

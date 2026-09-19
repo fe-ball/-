@@ -1,0 +1,169 @@
+{
+  "revision": "v001",
+  "id": "JAPANESE_ARMOR_HISTORICAL_ATTRITION_AND_RESIDUAL_FORCE_AUDIT_GATE_1937_1943_WORKING_v001",
+  "status": "WORKING_HARD_HOLD_ON_NATIONAL_RESIDUAL_STRENGTH",
+  "cutoff": "1943-12-31",
+  "reason": "Production/development ledgers alone cannot determine 1944 opening armor strength. Campaign losses, mechanical writeoffs, repair/recovery, retirement, overseas garrison immobilization and Branch-only deployments are not yet reconciled.",
+  "hard_guard": {
+    "national_1944_02_tank_stock": "DO NOT QUOTE AS CLOSED",
+    "theater_1944_02_tank_stock": "DO NOT DERIVE FROM PRODUCTION MINUS HISTORICAL LOSSES",
+    "previous_3rd_Tank_Division_1943_physical_band": "PROVISIONAL / NOT VALID FOR NATIONAL RESIDUAL ACCOUNTING until regiment-level audit",
+    "previous_1944_China_and_Saipan_model_mix": "OPEN",
+    "production_ledgers": "remain useful as inflow/development ledgers but are not an opening-balance ledger"
+  },
+  "accounting_identity": "opening stock + new build + accepted retrofit - irreversible combat loss - abandonment/capture - noncombat writeoff - retirement/scrap - shipment loss - permanently immobilized isolated garrison + repaired returns + recaptured/rebuilt hulls = dated physical residual",
+  "mandatory_damage_classes": [
+    "destroyed/burned/exploded",
+    "abandoned to enemy / unrecoverable terrain",
+    "mission-kill recoverable locally",
+    "depot repair 1-12 weeks",
+    "factory rebuild / long repair",
+    "mechanical noncombat writeoff",
+    "retired/training/static conversion",
+    "serviceable surviving",
+    "physical but isolated/fixed to garrison"
+  ],
+  "kill_ratio_audit_rule": {
+    "definition": "Enemy AFV kills and Japanese AFV losses are re-adjudicated separately. A better Japanese vehicle can raise enemy losses while also lowering Japanese writeoffs; neither is inferred from the other.",
+    "important": "A tank disabled in an action is not automatically a national loss. Battlefield possession, recovery tractors, repair capacity, route security and time before withdrawal determine whether it returns.",
+    "branch_effects": [
+      "higher dispatchability creates more contacts and therefore can increase both kills and exposure",
+      "better reliability reduces noncombat attrition and abandonment",
+      "better repair/recovery converts some historical 'losses' into temporary mission-kills",
+      "better operational performance can change battlefield possession and therefore salvage rights",
+      "later Allied 75mm medium tanks can sharply increase irreversible loss despite better Japanese reliability"
+    ]
+  },
+  "campaign_audit_sequence": [
+    {
+      "phase": "China 1937-1938",
+      "priority": "HIGH for cumulative wear / LOW-MEDIUM for exact duel counts",
+      "tasks": [
+        "reconstruct tank battalion/regiment issue strength and replacements",
+        "separate combat destruction from mechanical breakdown/abandonment",
+        "estimate depot repair return and old Type89/Type94 retirement",
+        "do not assume every Japanese tactical success means low vehicle attrition"
+      ],
+      "expected_branch_change": "mainly fewer mechanical writeoffs and slightly lower irreversible loss; Chinese AFV/AT losses modestly higher"
+    },
+    {
+      "phase": "Nomonhan 1939",
+      "priority": "VERY HIGH",
+      "historical_OOB_anchor": {
+        "3rd_Tank_Regiment": "26 Type89B + 4 Type97 medium + 7 Type94 tankettes + 4 Type97 Te-Ke = 41",
+        "4th_Tank_Regiment": "35 Type95 + 8 Type89A + 3 Type94 tankettes = 46",
+        "total_regimental_AFVs": 87
+      },
+      "primary_source_gate": "JACAR 4th Tank Regiment detailed battle reports contain organization, casualty, weapon/ammunition loss and fuel-loss appendices; 3rd Regiment equivalent must also be traced.",
+      "tasks": [
+        "transcribe vehicle-loss appendices rather than rely on tertiary destroyed-counts",
+        "classify knocked-out vs recovered vs later repaired",
+        "apply Branch running-gear/recovery improvement",
+        "recalculate Soviet AFV losses only after Japanese firing/contact cycle is rebuilt"
+      ],
+      "expected_branch_change": "potentially material to surviving trained crews/hulls and institutional memory, but no strategic victory"
+    },
+    {
+      "phase": "China 1939-1941",
+      "priority": "MEDIUM",
+      "tasks": [
+        "track repaired Nomonhan survivors and replacement flow",
+        "track Type89/Type94 retirement and training transfer",
+        "reconcile Shinhoto conversion candidates with surviving Type97 hull pool"
+      ]
+    },
+    {
+      "phase": "Malaya 1941-42",
+      "priority": "HIGH",
+      "tasks": [
+        "regiment-level opening OOB",
+        "battle vs mechanical losses by road phase",
+        "repair/recovery after British withdrawals",
+        "whether rapid advance reduces enemy salvage but increases Japanese maintenance burden"
+      ],
+      "expected_branch_change": "mostly lower Japanese writeoffs and slightly better exchange ratio; strategic result likely unchanged"
+    },
+    {
+      "phase": "Philippines 1941-42",
+      "priority": "HIGH",
+      "tasks": [
+        "4th/7th Tank Regiment issue and reinforcement ledger",
+        "US M3 light-tank engagements and Japanese losses",
+        "Shinhoto replacement detachment timing",
+        "Bataan/Corregidor end-state and surviving hull recovery"
+      ],
+      "expected_branch_change": "greater than Malaya locally because real tank-vs-tank combat occurred"
+    },
+    {
+      "phase": "Burma 1942",
+      "priority": "HIGH",
+      "historical_anchor": "US official history confirms 1st and 14th Tank Regiments arrived at Rangoon during Mar-Apr 1942.",
+      "tasks": [
+        "arrival OOB by regiment and model",
+        "engagements against 7th Armoured Brigade / Stuart and retreating Allied armor",
+        "road/bridge/monsoon mechanical loss",
+        "end-campaign surviving tanks and where the regiments go afterward"
+      ],
+      "expected_branch_change": "material to later Burma/Bengal mobile reserve and replacement demand"
+    },
+    {
+      "phase": "Branch-only South/Central Pacific 1942-43",
+      "priority": "VERY HIGH for national allocation",
+      "tasks": [
+        "enumerate every tank/tankette/armored-car unit shipped to Port Moresby, Lunga/Tulagi, Santo, New Caledonia, Midway/Wake and other Branch-held bases",
+        "classify combat losses, shipment losses and surviving but strategically immobilized garrison vehicles",
+        "prevent these vehicles from also appearing in China/Manchuria/Home Islands"
+      ],
+      "expected_branch_change": "may reduce the supposedly free national tank wallet even when physical hulls survive"
+    },
+    {
+      "phase": "Five-Go China 1943",
+      "priority": "VERY HIGH",
+      "current_problem": "Existing settlement gives campaign manpower/logistics outcomes but lacks a regiment-level tank loss/repair ledger.",
+      "tasks": [
+        "build 3rd Tank Division regiment/model OOB at 1943-03-25",
+        "separate Phase I plains use from Qinling mountain restrictions",
+        "calculate combat, road, bridge, drivetrain and recovery losses",
+        "track hulls left north of Qinling versus those committed to Hanzhong",
+        "close 1943-08 and 1943-12 residual strength"
+      ],
+      "expected_branch_change": "likely lower irreversible loss than a naive historical-quality vehicle model, but substantial temporary attrition and immobilization remain"
+    },
+    {
+      "phase": "GALVANIC 1943-11",
+      "priority": "CLOSED_LOCAL / NATIONAL POSTING REQUIRED",
+      "known": "Tarawa uses 14 physical Type95-class tanks; all become national permanent losses by destruction/capture when the island falls.",
+      "tasks": [
+        "post -14 Type95 to national ledger",
+        "do not allow repair/recovery after loss of the island"
+      ]
+    },
+    {
+      "phase": "Bengal 1943-10_12",
+      "priority": "NO JAPANESE TANK STOCK CHANGE CENTERED",
+      "known": "No independent Japanese tank regiment; centered Japanese tank strength 0. Motor/prime-mover/engineer vehicle losses remain a separate transport ledger.",
+      "tasks": [
+        "reopen British M3 Lee/Grant contact for kill-ratio/intelligence effects",
+        "do not back-port these Allied tanks into Japanese tank-stock arithmetic"
+      ]
+    }
+  ],
+  "first_pass_findings": [
+    "The current 1943-12-31 checkpoint is not a national armor inventory checkpoint.",
+    "Bengal vehicle numbers are operational motor-pool figures, not Japanese national tank stock.",
+    "Five-Go is the largest current hole for 1943 Japanese tank residual strength.",
+    "Branch-only Pacific garrisons are the largest likely hidden allocation hole.",
+    "Nomonhan is the key prewar repair-vs-writeoff audit because primary Japanese battle reports with weapon-loss appendices exist."
+  ],
+  "promotion_gate_for_1944_production": {
+    "required_before": "using Jan-Jun 1944 production to claim available combat vehicles",
+    "minimum_outputs": [
+      "1941-12-07 opening national physical tank/AFV pool by family",
+      "1942-12-31 residual by Home/Kwantung/China/South/isolated-Pacific pools",
+      "1943-12-31 residual by same pools",
+      "depot/factory repair backlog",
+      "training/static/obsolete pool separated from combat-allocatable pool",
+      "model mix including 57mm Type97 / Shinhoto / Ha-Go / SPG / pilot Chi-He"
+    ]
+  }
+}

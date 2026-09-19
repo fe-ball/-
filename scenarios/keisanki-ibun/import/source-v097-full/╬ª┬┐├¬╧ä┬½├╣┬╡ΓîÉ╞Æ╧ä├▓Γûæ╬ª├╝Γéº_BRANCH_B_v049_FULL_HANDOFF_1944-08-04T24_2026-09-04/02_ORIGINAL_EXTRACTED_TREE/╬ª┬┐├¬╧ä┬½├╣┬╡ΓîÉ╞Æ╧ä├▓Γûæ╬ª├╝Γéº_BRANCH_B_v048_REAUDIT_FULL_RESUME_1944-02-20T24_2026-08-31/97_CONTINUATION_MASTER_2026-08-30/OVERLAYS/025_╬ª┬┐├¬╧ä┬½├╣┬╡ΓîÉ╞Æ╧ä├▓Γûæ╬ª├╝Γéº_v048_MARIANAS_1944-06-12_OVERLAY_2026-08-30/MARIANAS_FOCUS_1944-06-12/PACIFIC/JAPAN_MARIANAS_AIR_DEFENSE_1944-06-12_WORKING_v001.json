@@ -1,0 +1,69 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_MARIANAS_AIR_DEFENSE_1944-06-12_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_DAY_SETTLEMENT",
+  "clock_window": "1944-06-12T00:00..24:00+09:00",
+  "parents": [
+    "JAPAN_MARIANAS_AIR_DEFENSE_1944-06-11_WORKING_v001"
+  ],
+  "opening_state_after_overnight_repairs": {
+    "onsite_ready_all_band": [
+      190,
+      243
+    ],
+    "onsite_ready_fighter_band": [
+      108,
+      143
+    ],
+    "note": "Includes bounded overnight return from the 11 Jun short-term repair pool; evacuated aircraft are not silently returned to the islands."
+  },
+  "doctrine_change": "PRESERVE_ATTACK_RECON_CADRE. Area commands no longer feed every serviceable fighter into every US wave. Staged CAP, selective interception, dispersal and westward evacuation take priority over attritional prestige defense.",
+  "combat_and_suppression_result": {
+    "fighters_committed_in_major_interception_cycles_band": [
+      48,
+      66
+    ],
+    "Japanese_irreversible_aircraft_loss_band": [
+      29,
+      41
+    ],
+    "of_which_fighter_irreversible_band": [
+      17,
+      25
+    ],
+    "repairable_or_short_term_unavailable_band": [
+      18,
+      29
+    ],
+    "additional_westward_evacuated_or_rebased_band": [
+      12,
+      20
+    ],
+    "interpretation": "Loss rate falls from 11 Jun because Japanese commanders conserve cadres and US raids shift toward suppression/ground targets, but repeated strikes still damage aircraft on dispersal fields and catch some CAP at disadvantage."
+  },
+  "end_12Jun": {
+    "onsite_immediate_ready_all_band": [
+      134,
+      174
+    ],
+    "onsite_immediate_ready_fighter_band": [
+      73,
+      98
+    ],
+    "onsite_attack_recon_immediate_ready_band": [
+      39,
+      55
+    ],
+    "C2_effective_percent_band": [
+      66,
+      79
+    ],
+    "runway_sustained_day_capacity_percent_band": [
+      46,
+      63
+    ],
+    "water_aviation": "Still dispersed; useful for night/sector reconnaissance but exposed maintenance capacity is degrading.",
+    "repair_outlook": "Limited overnight recovery remains possible, but repeated runway/maintenance-area attacks now create cumulative repair backlog."
+  },
+  "offensive_response": "NO MASS ANTI-CARRIER STRIKE. Night and long-range reconnaissance is preserved; incoming raid bearings still do not give a sufficiently fresh carrier position."
+}

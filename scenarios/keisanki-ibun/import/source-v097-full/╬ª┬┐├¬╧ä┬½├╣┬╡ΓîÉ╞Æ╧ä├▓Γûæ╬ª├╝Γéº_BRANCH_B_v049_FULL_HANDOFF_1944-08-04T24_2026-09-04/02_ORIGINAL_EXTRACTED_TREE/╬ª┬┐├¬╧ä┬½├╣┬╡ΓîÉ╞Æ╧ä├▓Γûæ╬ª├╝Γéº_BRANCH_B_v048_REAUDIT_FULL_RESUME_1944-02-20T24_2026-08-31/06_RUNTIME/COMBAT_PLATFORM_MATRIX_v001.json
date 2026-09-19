@@ -1,0 +1,126 @@
+{
+  "revision": "v001",
+  "id": "COMBAT_PLATFORM_MATRIX_v001",
+  "capability_index": "WEAPON_PLATFORM_CAPABILITY_INDEX_v001",
+  "purpose": "Event-profile matrix forcing platform-class capability review independently of TECH event-tag selection. This is especially intended to stop submarines, surface combatants and branch-original weapons from disappearing behind historical priors.",
+  "profiles": {
+    "CARRIER_BATTLE": {
+      "mandatory_classes": [
+        "CARRIER",
+        "AIRCRAFT",
+        "SURFACE_COMBATANT"
+      ],
+      "conditional_classes": [
+        "SUBMARINE",
+        "ASW_ESCORT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ]
+    },
+    "SURFACE_NIGHT": {
+      "mandatory_classes": [
+        "SURFACE_COMBATANT"
+      ],
+      "conditional_classes": [
+        "SUBMARINE",
+        "AIRCRAFT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ]
+    },
+    "CONVOY": {
+      "mandatory_classes": [
+        "SUBMARINE",
+        "ASW_ESCORT",
+        "SURFACE_COMBATANT"
+      ],
+      "conditional_classes": [
+        "AIRCRAFT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ]
+    },
+    "SUBMARINE": {
+      "mandatory_classes": [
+        "SUBMARINE",
+        "ASW_ESCORT"
+      ],
+      "conditional_classes": [
+        "SURFACE_COMBATANT",
+        "AIRCRAFT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ]
+    },
+    "AMPHIBIOUS": {
+      "mandatory_classes": [
+        "SURFACE_COMBATANT",
+        "AIRCRAFT",
+        "CARRIER",
+        "LAND_COMBAT_SYSTEM"
+      ],
+      "conditional_classes": [
+        "SUBMARINE",
+        "ASW_ESCORT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ]
+    },
+    "LAND_AIR": {
+      "mandatory_classes": [
+        "AIRCRAFT"
+      ],
+      "conditional_classes": [
+        "LAND_COMBAT_SYSTEM",
+        "SPECIAL_NOVEL_SYSTEM"
+      ]
+    },
+    "AIRFIELD_ATTACK": {
+      "mandatory_classes": [
+        "AIRCRAFT"
+      ],
+      "conditional_classes": [
+        "LAND_COMBAT_SYSTEM",
+        "SPECIAL_NOVEL_SYSTEM"
+      ]
+    },
+    "BASE_DEFENSE": {
+      "mandatory_classes": [
+        "AIRCRAFT",
+        "LAND_COMBAT_SYSTEM"
+      ],
+      "conditional_classes": [
+        "SURFACE_COMBATANT",
+        "ASW_ESCORT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ]
+    },
+    "FORAGER_GATE": {
+      "mandatory_classes": [
+        "CARRIER",
+        "AIRCRAFT",
+        "SURFACE_COMBATANT",
+        "SUBMARINE"
+      ],
+      "conditional_classes": [
+        "ASW_ESCORT",
+        "LAND_COMBAT_SYSTEM",
+        "SPECIAL_NOVEL_SYSTEM"
+      ]
+    },
+    "SPECIAL_STRIKE": {
+      "mandatory_classes": [
+        "SUBMARINE",
+        "AIRCRAFT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "conditional_classes": [
+        "SURFACE_COMBATANT",
+        "ASW_ESCORT"
+      ]
+    },
+    "INDUSTRIAL_AIRCRAFT": {
+      "mandatory_classes": [
+        "AIRCRAFT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "conditional_classes": []
+    }
+  },
+  "rule": "Every mandatory class is emitted with its capability dimensions, anti-underestimate rules and active TECH candidates from the full technical baseline, not only the normal event-tag selection. Indexed capability does not prove participant possession."
+}

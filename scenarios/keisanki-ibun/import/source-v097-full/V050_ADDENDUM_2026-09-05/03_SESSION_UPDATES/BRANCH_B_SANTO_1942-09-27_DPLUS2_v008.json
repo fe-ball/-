@@ -1,0 +1,82 @@
+{
+  "title": "BRANCH B Santo 1942-09-27 D+2 Southern Base Belt / Evacuation Decision v008",
+  "status": "WORKING-PROMOTED CURRENT",
+  "clock": "1942-09-27T04:30/1942-09-28T04:30",
+  "dawn": {
+    "japan_personnel_ashore": [
+      19000,
+      20500
+    ],
+    "japan_guns": [
+      36,
+      46
+    ],
+    "us_effective_ground": [
+      5800,
+      6900
+    ]
+  },
+  "daylight": {
+    "pallikulo": "falls/abandoned 1500-1700",
+    "pekoa": "becomes tactically untenable late afternoon; demolition/withdrawal",
+    "luganville_segond": "U.S. holds at dusk",
+    "evacuated_day": [
+      600,
+      900
+    ],
+    "ground_losses": {
+      "japan": [
+        700,
+        1000
+      ],
+      "us": [
+        850,
+        1150
+      ]
+    },
+    "air_losses": {
+      "japan": [
+        4,
+        6
+      ],
+      "us": [
+        6,
+        9
+      ]
+    }
+  },
+  "night": {
+    "segond_direct_japanese_entry": false,
+    "reason": "minefields + channel geometry + Washington cover",
+    "evacuated_sea": [
+      1400,
+      2000
+    ],
+    "major_transport_sunk": false
+  },
+  "total_dplus2_evacuation": [
+    2000,
+    2800
+  ],
+  "end_state_1942_09_28_0430": {
+    "japan_holds": [
+      "Turtle Bay/Fighter 1",
+      "Pallikulo main base zone",
+      "most eastern coastal road",
+      "Pekoa approaches/denied area"
+    ],
+    "us_holds": [
+      "Luganville",
+      "Segond Channel final perimeter"
+    ],
+    "us_remaining_total": [
+      5000,
+      6500
+    ],
+    "us_remaining_combat_rearguard": [
+      3800,
+      4800
+    ],
+    "center_next_decision": "deliberate final evacuation rather than sacrificial last stand"
+  }
+}

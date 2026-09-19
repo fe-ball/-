@@ -1,0 +1,27 @@
+{
+  "checkpoint_id": "WARSTART_1941-12-07_08_v004",
+  "checkpoint_type": "major_floor",
+  "status": "authoritative_opening_baseline_revalidated_v004",
+  "technical_baseline": "TECH_INDEX_v004",
+  "parent": null,
+  "state_sources": [
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_execution_state_v001.json",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_sync_state_1941-12-07_08_v001.json",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_technical_clock_guard_v001.json",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/SUBMARINE_OPENING_OOB_1941-12-08_v001.md",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/submarine_opening_oob_1941-12-08_v001.json",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/SURFACE_OPENING_BASELINE_v001.md",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/MALAYA_OPENING_OOB_BASELINE_v001.md",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/malaya_opening_oob_baseline_v001.json",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/PREWAR_SOUTHERN_AIR_CONCENTRATION_1941-11-15_12-07_v001.md",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/prewar_southern_air_concentration_v001.json",
+    "02_TECH/INDUSTRIAL_LOGISTICS_BASELINE_1932_1942_v001.md",
+    "06_RUNTIME/INDUSTRIAL_LOGISTICS_REVALIDATION_1941_1942Q2_v001.md"
+  ],
+  "note": "Revalidated opening floor with TECH/PREWAR v004 industrial-logistics clarification. No additional opening combat OOB is auto-credited; existing opening state remains numerically unchanged except bounded industrial/logistics metadata.",
+  "prewar_baseline": "PREWAR_INDEX_v004",
+  "runtime_sync": "opening_sync_state_1941-12-07_08_refactor_v002.json",
+  "domain_audit": "WARSTART_DOMAIN_AUDIT_v004.json",
+  "state_ledger": "WARSTART_STATE_LEDGER_v003.json"
+}

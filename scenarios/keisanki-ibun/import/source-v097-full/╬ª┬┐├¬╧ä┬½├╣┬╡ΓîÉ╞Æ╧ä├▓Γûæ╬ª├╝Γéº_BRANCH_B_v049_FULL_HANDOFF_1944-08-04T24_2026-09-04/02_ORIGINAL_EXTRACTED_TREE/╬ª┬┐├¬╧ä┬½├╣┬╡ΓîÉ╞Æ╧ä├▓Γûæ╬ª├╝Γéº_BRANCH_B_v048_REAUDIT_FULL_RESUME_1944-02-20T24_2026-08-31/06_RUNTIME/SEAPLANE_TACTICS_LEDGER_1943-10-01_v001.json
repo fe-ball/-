@@ -1,0 +1,66 @@
+{
+  "revision": "v001",
+  "id": "SEAPLANE_TACTICS_LEDGER_1943-10-01_v001",
+  "package_revision": "v024",
+  "status": "AUTHORITATIVE_CURRENT_BRANCH_DOCTRINE",
+  "cutoff": "1943-10-01T00:00:00",
+  "core_rule": "Water aviation is a mission system: aircraft + crew + tender/base + fuel/ammunition + sea state + recovery/maintenance + communications. It is not a free aircraft-total multiplier.",
+  "search_contact_cycle": [
+    "broad sector search",
+    "mark suspicious contact",
+    "revisit/re-search",
+    "fast confirmation when available",
+    "maintain contact/track",
+    "later position update and handoff"
+  ],
+  "maturation": "Improves from opening; 1942 carrier-battle lessons institutionalize re-search/role division. Treat as mature enough to matter by 1943, but event weather/aircraft availability/report latency remain explicit.",
+  "role_division": {
+    "E13A_F1M_legacy_core": "mature search/observation/spotting pool; detailed individual type audit remains incomplete, so do not invent precision performance beyond current bands",
+    "D4Y_recon": "fast confirmation/longer-range reconnaissance when assigned",
+    "Kyofu": "local interception, bomber/torpedo/recon denial, runway-suppression bridge; avoid full fighter-sweep duel",
+    "Zuiun": "once locally ready: fast search/contact first, gunfire spotting/liaison second, opportunistic light attack third",
+    "tenders": "Chitose/Chiyoda remain branch seaplane tenders; mobile reconnaissance/maintenance/support bases, not automatically converted carriers"
+  },
+  "base_defense": {
+    "standard_Kyofu_detachment": "12 aircraft; 8-10 normally ready",
+    "runway_independence": "water operations can preserve a temporary local air layer after runway suppression",
+    "attention_tax": "attacker must separately locate/suppress anchorage, tenders, fuel, cranes/ramps and dispersed support",
+    "hard_limits": [
+      "sea state",
+      "tow/recovery time",
+      "refuel/rearm cycle",
+      "corrosion/maintenance",
+      "anchorage vulnerability",
+      "fighter cover"
+    ]
+  },
+  "gunfire_observation": {
+    "rule": "Floatplane observation may improve spotting/correction only if visibility, communications, aircraft survival and target geometry permit.",
+    "working_branch_band": "10-25% improvement from legacy cross-domain reference; never auto-apply as hit-rate multiplier."
+  },
+  "night_operations": {
+    "state": "EVENT_SPECIFIC_NOT_GENERIC_BONUS",
+    "rule": "Night reconnaissance/contact/liaison may be used only when crew qualification, navigation, weather/moon/illumination, communications, recovery point and enemy night threat are supplied. No automatic night-search superiority is encoded."
+  },
+  "anti_errors": [
+    "Do not count national floatplane inventory as local ready aircraft.",
+    "Do not equate a surviving lagoon with a functioning seaplane base.",
+    "Do not treat Kyofu as F6F-class sustained air-superiority fighter.",
+    "Do not field Zuiun at 1943-10-01 merely because September delivery began.",
+    "Do not double count TECH-SEARCH-MULTILAYER and this doctrine as two independent search bonuses."
+  ],
+  "tech_entries": [
+    "TECH-AIR-SEAPLANE-OPENING-001",
+    "TECH-SEARCH-MULTILAYER-001",
+    "TECH-AIR-N1K1-KYOFU-FIELDING-1943-001",
+    "TECH-AIR-E16A-ZUIUN-FIELDING-1943-001",
+    "TECH-AIR-SEAPLANE-DOCTRINE-1942-43-001"
+  ],
+  "sources": [
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/50_航空機研究_陸海軍総合正本.md",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/53_海軍戦闘機・空冷発動機・噴進航空.md",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md",
+    "06_RUNTIME/JAPAN_AMPHIBIOUS_NAVAL_WALLET_1943-07_09_v001.json"
+  ]
+}

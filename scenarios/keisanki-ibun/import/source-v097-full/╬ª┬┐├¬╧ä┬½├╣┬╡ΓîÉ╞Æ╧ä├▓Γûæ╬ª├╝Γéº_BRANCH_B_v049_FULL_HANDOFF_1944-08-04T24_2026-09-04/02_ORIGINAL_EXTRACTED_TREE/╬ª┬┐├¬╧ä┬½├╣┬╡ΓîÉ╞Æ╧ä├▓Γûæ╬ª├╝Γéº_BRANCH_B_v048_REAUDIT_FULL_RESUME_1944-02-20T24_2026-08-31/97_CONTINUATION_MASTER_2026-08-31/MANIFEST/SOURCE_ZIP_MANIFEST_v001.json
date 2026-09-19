@@ -1,0 +1,298 @@
+{
+  "base": {
+    "name": "計算機異聞_BRANCH_B_v048_CANONICAL_RESUME_1944-06-15T24_2026-08-30.zip",
+    "sha256": "7beb3a2bd35453cf24c640d29c32d3861d146b76b3f5b31a0762fcb69fa8562f"
+  },
+  "sources": [
+    {
+      "sequence": 1,
+      "source_zip": "計算機異聞_v048_PRE_GALVANIC_FORTIFICATION_REAUDIT_1943-11-23_2026-08-30.zip",
+      "sha256": "8a6a52833da08964e7da1ac4a7614538029f4a46b22d75d6100ec4f6b4afecce",
+      "label": "PRE_GALVANIC_FORTIFICATION_REAUDIT",
+      "kind": "runtime",
+      "json_count": 2,
+      "runtime_json_count": 2
+    },
+    {
+      "sequence": 2,
+      "source_zip": "計算機異聞_v048_GALVANIC_DMINUS1_FORTIFICATION_REAUDIT_1943-11-24_2026-08-30.zip",
+      "sha256": "bd9add0535308bf6db07d6c2b306b99d2bcb2f070f33c936182ee6e5d41d7566",
+      "label": "GALVANIC_DMINUS1_FORTIFICATION",
+      "kind": "runtime",
+      "json_count": 1,
+      "runtime_json_count": 1
+    },
+    {
+      "sequence": 3,
+      "source_zip": "計算機異聞_v048_GALVANIC_FULL_DOMAIN_ALIGNMENT_GATE_1943-11_2026-08-30.zip",
+      "sha256": "2176822e5295f19ee90029500ad1cd93be56bd94ec735d1c11a6aa31a9a28db9",
+      "label": "GALVANIC_FULL_DOMAIN_ALIGNMENT",
+      "kind": "runtime",
+      "json_count": 1,
+      "runtime_json_count": 1
+    },
+    {
+      "sequence": 4,
+      "source_zip": "計算機異聞_v048_GALVANIC_AIR_OOB_HARDENING_1943-11-23_WORKING_2026-08-31.zip",
+      "sha256": "c5bc1bf1b9a298e2853eafc650764fe276568e3d700f775f2a75d98143fe8a24",
+      "label": "GALVANIC_AIR_OOB_HARDENING",
+      "kind": "runtime",
+      "json_count": 1,
+      "runtime_json_count": 1
+    },
+    {
+      "sequence": 5,
+      "source_zip": "計算機異聞_v048_GALVANIC_SECONDARY_CARRIER_TRACE_CLOSED_1943-11-23_2026-08-31.zip",
+      "sha256": "0b2eaeb95349e8c0d336187efe9a6e13755f9ab046da4eb6efcbaa6ccdcd9ee4",
+      "label": "GALVANIC_SECONDARY_CARRIERS_CLOSED",
+      "kind": "runtime",
+      "json_count": 1,
+      "runtime_json_count": 1
+    },
+    {
+      "sequence": 6,
+      "source_zip": "計算機異聞_v048_GALVANIC_PASS_A_B_DDAY_REAUDIT_1943-11-24_WORKING_2026-08-31.zip",
+      "sha256": "17e71944bb5872a09867f50b664f0f0bfe23325611a28db12f7a147571931aea",
+      "label": "GALVANIC_DDAY_ADAPTIVE_REAUDIT",
+      "kind": "curated_runtime",
+      "json_count": 7,
+      "runtime_json_count": 6
+    },
+    {
+      "sequence": 7,
+      "source_zip": "計算機異聞_v048_GALVANIC_TARAWA_1943-11-25_REAUDIT_WORKING_2026-08-31.zip",
+      "sha256": "01bd300f01787c054f7f464cca0d608e9fe7c9690884dae296e99668f0be95a7",
+      "label": "GALVANIC_TARAWA_25NOV",
+      "kind": "runtime",
+      "json_count": 5,
+      "runtime_json_count": 5
+    },
+    {
+      "sequence": 8,
+      "source_zip": "計算機異聞_v048_GALVANIC_1943-11-26_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "sha256": "64f6c8805fc6d182cb60d37864f81ff079278147016b55370e7535b5662ee076",
+      "label": "GALVANIC_26NOV",
+      "kind": "runtime",
+      "json_count": 4,
+      "runtime_json_count": 4
+    },
+    {
+      "sequence": 9,
+      "source_zip": "計算機異聞_v048_GALVANIC_1943-11-27_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "sha256": "f0de829d8fe1d8d23cca1768d2285a5c5dff60473e87df75da54d39fa39423b0",
+      "label": "GALVANIC_27NOV",
+      "kind": "runtime",
+      "json_count": 4,
+      "runtime_json_count": 4
+    },
+    {
+      "sequence": 10,
+      "source_zip": "計算機異聞_v048_GALVANIC_1943-11-28_29_CLOSEOUT_RERUN_WORKING_2026-08-31.zip",
+      "sha256": "3cb4540b59cfe3811e034d723fab5c38560bd147702d9fbc30bbe839f85cb50d",
+      "label": "GALVANIC_28_29NOV_CLOSEOUT",
+      "kind": "runtime",
+      "json_count": 3,
+      "runtime_json_count": 3
+    },
+    {
+      "sequence": 11,
+      "source_zip": "計算機異聞_v048_GALVANIC_MAKIN_TARAWA_RESIDUAL_CLOSEOUT_WORKING_2026-08-31.zip",
+      "sha256": "269fe8a09c8929cdbafc5c57fd59a2beeb6865eeb283f8f384b5e8168bac6826",
+      "label": "GALVANIC_RESIDUAL_CLOSEOUT",
+      "kind": "runtime",
+      "json_count": 1,
+      "runtime_json_count": 1
+    },
+    {
+      "sequence": 12,
+      "source_zip": "計算機異聞_v048_POST_GALVANIC_MARSHALL_LEARNING_GATE_WORKING_2026-08-31.zip",
+      "sha256": "83a23310fc97861a7477e78340fb97791a7cc6989cac380e9ea0c2eaa4fb2e73",
+      "label": "POST_GALVANIC_LEARNING_GATE",
+      "kind": "runtime",
+      "json_count": 3,
+      "runtime_json_count": 3
+    },
+    {
+      "sequence": 13,
+      "source_zip": "計算機異聞_v048_POST_GALVANIC_TO_MARSHALL_1944-01-15_CLOSEOUT_WORKING_2026-08-31.zip",
+      "sha256": "8898af8be15331df06d1b278ad584148f8bca5dc5b5cffe593206922ea569e89",
+      "label": "MARSHALL_TO_15JAN",
+      "kind": "runtime",
+      "json_count": 6,
+      "runtime_json_count": 6
+    },
+    {
+      "sequence": 14,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_PRECONTACT_1944-01-16_31_REAUDIT_WORKING_2026-08-31.zip",
+      "sha256": "131f4eaa59230dbdfb4a26dcf5ee848126e6b0b45e03c65f2676900e49680b01",
+      "label": "FLINTLOCK_PRECONTACT",
+      "kind": "runtime",
+      "json_count": 6,
+      "runtime_json_count": 6
+    },
+    {
+      "sequence": 15,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_1944-02-01_02_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "sha256": "c47b729b94195fa1fc455160cc144919f3568a808eea099857b4c1933d955b44",
+      "label": "FLINTLOCK_01_02FEB",
+      "kind": "runtime",
+      "json_count": 4,
+      "runtime_json_count": 4
+    },
+    {
+      "sequence": 16,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_MARITIME_REBASELINE_1944-02-03T24_WORKING_2026-08-31.zip",
+      "sha256": "b4eddf0a8a575df501cab2bea9ef17091a88e0bfa4b622c70b93a038235938eb",
+      "label": "FLINTLOCK_MARITIME_REBASELINE",
+      "kind": "runtime",
+      "json_count": 5,
+      "runtime_json_count": 5
+    },
+    {
+      "sequence": 17,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_1944-02-04_05_DDAY_GO_RERUN_WORKING_2026-08-31.zip",
+      "sha256": "dd77fa68da8e815f84855591e83b675eed659b629b9e6eaab1f21b213872fb43",
+      "label": "FLINTLOCK_04_05FEB",
+      "kind": "runtime",
+      "json_count": 6,
+      "runtime_json_count": 6
+    },
+    {
+      "sequence": 18,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_DDAY_1944-02-06_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "sha256": "c016bce534b965af5d66cf828cffc81a265ff87e9c1dc8e5776a3880e04ca4ad",
+      "label": "FLINTLOCK_DDAY_06FEB",
+      "kind": "runtime",
+      "json_count": 6,
+      "runtime_json_count": 6
+    },
+    {
+      "sequence": 19,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_1944-02-07_DPLUS1_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "sha256": "a322a9129252c2099648111e78a134b1af79a996f43fe25639de1041a2bd8b05",
+      "label": "FLINTLOCK_DPLUS1",
+      "kind": "runtime",
+      "json_count": 6,
+      "runtime_json_count": 6
+    },
+    {
+      "sequence": 20,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_1944-02-08_DPLUS2_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "sha256": "4a060a6fd218a0f61b14901c699d5767dd5ce7b556421234a8dc2da9b95bf473",
+      "label": "FLINTLOCK_DPLUS2",
+      "kind": "runtime",
+      "json_count": 6,
+      "runtime_json_count": 6
+    },
+    {
+      "sequence": 21,
+      "source_zip": "計算機異聞_v048_FLINTLOCK_1944-02-10_CLOSEOUT_WORKING_2026-08-31.zip",
+      "sha256": "4151157190a1156ff18d32163e80e546e5151374f510f1e35194e5f99ed59f19",
+      "label": "FLINTLOCK_CLOSEOUT",
+      "kind": "runtime",
+      "json_count": 7,
+      "runtime_json_count": 7
+    },
+    {
+      "sequence": 22,
+      "source_zip": "計算機異聞_v048_US_FLINTLOCK_FORCE_DELTA_GATE_1944-02-10_WORKING_2026-08-31.zip",
+      "sha256": "1b2fd38769c6a37e4f00bffaf80cdd8696c81b468861fb15fc8ab7dfc06a0659",
+      "label": "US_FORCE_DELTA",
+      "kind": "runtime",
+      "json_count": 1,
+      "runtime_json_count": 1
+    },
+    {
+      "sequence": 23,
+      "source_zip": "計算機異聞_v048_US_PACIFIC_DEATH_LEDGER_1944-02-10_WORKING_2026-08-31.zip",
+      "sha256": "d41d98b0478096f72ee18e60a32ba2e0bed558276be400cc26970d869a2fe761",
+      "label": "US_DEATH_LEDGER",
+      "kind": "runtime",
+      "json_count": 1,
+      "runtime_json_count": 1
+    },
+    {
+      "sequence": 24,
+      "source_zip": "計算機異聞_v048_US_AMPHIBIOUS_WALLET_REAUDIT_1944-02-10_WORKING_2026-08-31.zip",
+      "sha256": "a70164881725a9fb45fe5e1dd06695833c9037a29fd45f7a16ef8de926eb86ee",
+      "label": "US_AMPHIBIOUS_WALLET",
+      "kind": "runtime",
+      "json_count": 4,
+      "runtime_json_count": 4
+    },
+    {
+      "sequence": 25,
+      "source_zip": "計算機異聞_v048_POST_FLINTLOCK_NEXTOPS_CLOSEOUT_1944-02-10_WORKING_2026-08-31.zip",
+      "sha256": "d8f73620c4ad498a21024cf209ecc8cdecf1195fc84ba32de96a57044af34a91",
+      "label": "POST_FLINTLOCK_NEXTOPS",
+      "kind": "runtime",
+      "json_count": 3,
+      "runtime_json_count": 3
+    },
+    {
+      "sequence": 26,
+      "source_zip": "計算機異聞_v048_HAILSTONE_CATCHPOLE_1944-02-20T24_INTEGRATED_RERUN_WORKING_2026-08-31.zip",
+      "sha256": "c279c59ee4f6fd6c625e8bae2a3f238995009d95f24da277fd3707759b92a75c",
+      "label": "HAILSTONE_CATCHPOLE_TO_20FEB",
+      "kind": "runtime",
+      "json_count": 4,
+      "runtime_json_count": 4
+    },
+    {
+      "sequence": "A001",
+      "source_zip": "計算機異聞_v048_GALVANIC_SECONDARY_CARRIER_DOMAIN_TRACE_RESUME_1943-11_2026-08-31.zip",
+      "sha256": "30d0c1bc48f89a1e1f1fc4f58328c63b24f23087a8cbc671aecb26d5cd33c888",
+      "label": "SECONDARY_CARRIER_TRACE_INTERMEDIATE",
+      "kind": "superseded_intermediate",
+      "runtime_json_count": 0
+    },
+    {
+      "sequence": "Q001",
+      "source_zip": "計算機異聞_v048_MARIANAS_1944-06-16_OVERLAY_2026-08-30.zip",
+      "sha256": "4c77c500e15c350661083c47938abea6986946af13ea045082b6051d420aaae3",
+      "label": "MARIANAS_16JUN_PROVISIONAL",
+      "kind": "QUARANTINED_DOWNSTREAM",
+      "runtime_json_count": 0
+    },
+    {
+      "sequence": "Q002",
+      "source_zip": "計算機異聞_v048_MARIANAS_1944-06-17_OVERLAY_2026-08-30.zip",
+      "sha256": "19a9db77c629ccab3e23c0c2ae6f132efdc4c8202897cb2c9d2ef52f3e4c1cb0",
+      "label": "MARIANAS_17JUN_PROVISIONAL",
+      "kind": "QUARANTINED_DOWNSTREAM",
+      "runtime_json_count": 0
+    },
+    {
+      "sequence": "Q003",
+      "source_zip": "計算機異聞_v048_MARIANAS_1944-06-17_REAUDIT_AND_06-18_OVERLAY_2026-08-30.zip",
+      "sha256": "845654b731d3cb0bb5e5277f79029df90e93c096596045100d50d5c19c16ff41",
+      "label": "MARIANAS_17_REAUDIT_18JUN_PROVISIONAL",
+      "kind": "QUARANTINED_DOWNSTREAM",
+      "runtime_json_count": 0
+    },
+    {
+      "sequence": "Q004",
+      "source_zip": "計算機異聞_v048_MARIANAS_1944-06-19_OVERLAY_2026-08-30.zip",
+      "sha256": "000bd296d283465d47630f39909af43980e7d576f20371dadfc9a28247766c78",
+      "label": "MARIANAS_19JUN_PROVISIONAL",
+      "kind": "QUARANTINED_DOWNSTREAM",
+      "runtime_json_count": 0
+    },
+    {
+      "sequence": "Q005",
+      "source_zip": "計算機異聞_v048_MARIANAS_1944-06-20_OVERLAY_2026-08-30.zip",
+      "sha256": "1ec6b162715a264e5cfb79378c3d77a2eec07054132daf22f5b07de4c50e537a",
+      "label": "MARIANAS_20JUN_PROVISIONAL",
+      "kind": "QUARANTINED_DOWNSTREAM",
+      "runtime_json_count": 0
+    },
+    {
+      "sequence": "Q006",
+      "source_zip": "計算機異聞_v048_MARIANAS_1944-06-21_OVERLAY_2026-08-30.zip",
+      "sha256": "ea17ec7b5f911787b34d2b059071c0bc5e7b3e0dbfeef3ee120d67539040509c",
+      "label": "MARIANAS_21JUN_PROVISIONAL",
+      "kind": "QUARANTINED_DOWNSTREAM",
+      "runtime_json_count": 0
+    }
+  ]
+}

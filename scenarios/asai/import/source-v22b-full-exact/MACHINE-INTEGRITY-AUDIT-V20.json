@@ -1,0 +1,13 @@
+{
+  "version": "V20",
+  "base_zip": "ASAI-WORLDLINE-HANDOFF-2026-09-15-FULL-V19-CHINA-PEACE-BARBAROSSA-HANDOFF.zip",
+  "inherited_checksum_entries": 1059,
+  "unexpected_inherited_hash_mismatches_excluding_router": [],
+  "missing_inherited_files_excluding_router": [],
+  "intentionally_modified_inherited_files": [
+    "00-START-HERE-CURRENT.md"
+  ],
+  "new_current_layer": "88-CURRENT-2026-09-15-1942-EURASIA-POLITICS-HANDOFF-V20",
+  "history_clock": "1942-08-31 24:00",
+  "next_gate": "major-power political perception / Eurasian-order audit"
+}

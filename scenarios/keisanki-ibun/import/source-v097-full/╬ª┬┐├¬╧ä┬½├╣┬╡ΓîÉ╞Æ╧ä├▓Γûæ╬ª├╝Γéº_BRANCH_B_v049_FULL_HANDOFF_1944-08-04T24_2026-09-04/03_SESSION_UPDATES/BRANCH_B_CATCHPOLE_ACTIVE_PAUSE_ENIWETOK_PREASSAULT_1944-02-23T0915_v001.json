@@ -1,0 +1,122 @@
+{
+  "id": "BRANCH_B_CATCHPOLE_ACTIVE_PAUSE_ENIWETOK_PREASSAULT_1944-02-23T0915_v001",
+  "status": "WORKING_CURRENT_CATCHPOLE_LOCAL",
+  "frontier": "1944-02-23T09:15 local",
+  "decision_22feb": "active pause; no 22-Feb afternoon assault",
+  "next_target": "Eniwetok Island",
+  "target_confidence": {
+    "Parry_heavier_than_Eniwetok": "MEDIUM",
+    "exact_OOB": "LOW-MEDIUM"
+  },
+  "US_ready_23feb": {
+    "1_106_fit_fraction": [
+      0.9,
+      0.95
+    ],
+    "3_106_fit_fraction": [
+      0.9,
+      0.95
+    ],
+    "3_22_reserve_fit_fraction": [
+      0.75,
+      0.85
+    ],
+    "troop_amtrac_physical": 105,
+    "troop_amtrac_ready": [
+      99,
+      103
+    ],
+    "amphibian_tank_physical": 16,
+    "amphibian_tank_ready": [
+      14,
+      16
+    ],
+    "M4_immediately_deployable_working": [
+      12,
+      15
+    ],
+    "M4_trace_status": "working band pending individual hull ledger"
+  },
+  "Japan_Eniwetok_23feb_Hhour": {
+    "original_physical": [
+      790,
+      840
+    ],
+    "prelanding_irrecoverable": [
+      80,
+      130
+    ],
+    "suppressed_isolated": [
+      110,
+      180
+    ],
+    "immediately_coherent": [
+      500,
+      590
+    ],
+    "Type95_physical_center": 3,
+    "Type95_mobile_dispatchable_center": 2,
+    "mortar_81mm_immediate": [
+      3,
+      5
+    ],
+    "mortar_81mm_later_reappearance": [
+      1,
+      2
+    ],
+    "mountain_75mm_immediate": [
+      0,
+      1
+    ],
+    "direct_fire_37_20mm_useful": [
+      1,
+      2
+    ],
+    "island_C2_fraction": [
+      0.25,
+      0.4
+    ],
+    "best_local_C2_fraction": [
+      0.5,
+      0.65
+    ],
+    "defense_form": "beach/lagoon warning-fire -> sand-rise registered choke -> local axial fallback pockets; not Peleliu-depth"
+  },
+  "Japan_Parry": {
+    "physical": [
+      1330,
+      1390
+    ],
+    "Type95": 3,
+    "22feb_actions": [
+      "ammo/document dispersion",
+      "demolition/burn triggers",
+      "anti-engineer close-defense tasks",
+      "mortar/MG post-suppression reappearance planning"
+    ],
+    "note": "intermittent US fire denies a completely productive construction day"
+  },
+  "22_23feb_interference": {
+    "air_sorties": [
+      1,
+      2
+    ],
+    "major_US_hit_center": 0,
+    "sub_weapon_quality_shot_center": 0,
+    "surface_reinforcement_center": 0
+  },
+  "next_H_hour": {
+    "date": "1944-02-23",
+    "band": [
+      "09:20",
+      "09:50"
+    ],
+    "center": "09:35",
+    "resolved": false
+  },
+  "strategic_clocks": {
+    "US": "amphibious arm rebuilds/bases after CATCHPOLE; fast carriers remain operationally active",
+    "Japan": "late-Feb/early-Mar decision window for westward reinforcement/construction priority; actual lift remains shipping-gated",
+    "fortification_guard": "layer/time/material/terrain dependent; no scalar and no instant Peleliu"
+  }
+}

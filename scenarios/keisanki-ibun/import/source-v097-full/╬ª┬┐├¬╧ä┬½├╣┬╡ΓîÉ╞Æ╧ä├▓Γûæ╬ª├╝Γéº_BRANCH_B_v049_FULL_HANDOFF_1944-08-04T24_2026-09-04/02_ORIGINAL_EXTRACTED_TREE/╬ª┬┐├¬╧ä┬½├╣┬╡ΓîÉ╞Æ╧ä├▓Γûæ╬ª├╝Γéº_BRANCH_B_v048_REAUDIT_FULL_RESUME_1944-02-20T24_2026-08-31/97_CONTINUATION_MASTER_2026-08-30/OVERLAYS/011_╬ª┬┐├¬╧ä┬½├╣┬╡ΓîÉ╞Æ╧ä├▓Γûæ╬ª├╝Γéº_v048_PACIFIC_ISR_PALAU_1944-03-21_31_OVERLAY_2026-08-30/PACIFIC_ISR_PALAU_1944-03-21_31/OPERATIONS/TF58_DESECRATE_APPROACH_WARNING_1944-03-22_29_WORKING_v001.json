@@ -1,0 +1,53 @@
+{
+  "revision": "v001",
+  "id": "TF58_DESECRATE_APPROACH_WARNING_1944-03-22_29_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-03-22..29",
+  "global_frontier_after_merge": "1944-03-31T24",
+  "parents": [
+    "JAPAN_PACIFIC_ISR_SYSTEM_MATURITY_1944-03-20_31_WORKING_v001",
+    "JAPAN_PACIFIC_CARRIER_STRATEGIC_DECISION_1944-03-20_WORKING_v001"
+  ],
+  "historical_sanity_anchors": [
+    "Historical TF58 left Majuro on 22 Mar for the western Carolines raid and, after fueling, approached Palau on 28-29 Mar.",
+    "Historical Japanese reconnaissance detected elements of the US carrier force before the attack, allowing some Combined Fleet ships to leave Palau."
+  ],
+  "branch_warning_timeline": [
+    {
+      "time": "1944-03-22..24",
+      "state": "ROUTINE_TO_YELLOW",
+      "information": "US fast-carrier traffic and support activity indicate a major force at sea, but target direction is not yet unique. Japan does not know DESECRATE I or its exact objective."
+    },
+    {
+      "time": "1944-03-25..26",
+      "state": "YELLOW",
+      "information": "RI/DF/traffic pattern plus western operating geometry raises probability of a western-Carolines move. Search sectors are narrowed toward Truk-Palau approaches; no fresh carrier track."
+    },
+    {
+      "time": "1944-03-27..28",
+      "state": "ORANGE_TO_HIGH",
+      "information": "Reconnaissance/outer-node reports confirm a large fast carrier force moving west of the usual Marshalls operating box. Palau/Yap becomes the leading threat sector, but target identity and exact TG geometry remain uncertain."
+    },
+    {
+      "time": "1944-03-28..29",
+      "state": "HIGH_PERSISTENT_WARNING",
+      "information": "Multiple cues survive cross-check and negative-search cycles. Palau is ordered to execute full dispersal/air-defense readiness. Intermittent contacts do not remain fresh enough to become a Japanese carrier-strike solution."
+    }
+  ],
+  "effective_warning_lead_before_30Mar_first_strike_hours_band": [
+    36,
+    60
+  ],
+  "contact_quality_at_best_prestrike": "TRACK-QUALITY SECTOR/COURSE ESTIMATE, intermittently better locally; NOT a <=90-minute stable weapon-quality multi-TG fix.",
+  "why_branch_is_better_than_a_single_historical_sighting": "Standing Palau tripwire policy is already active from 20 Mar, multiple information sources are fused, and HAILSTONE taught headquarters not to cancel preparations after one failed recontact.",
+  "what_is_not_known": [
+    "No exact US task-group composition in real time.",
+    "No reliable deck-cycle timing.",
+    "No proof of an amphibious landing force.",
+    "No stable separation of a vulnerable US subgroup from its fighter/AA umbrella."
+  ],
+  "sources_external": [
+    "https://www.history.navy.mil/research/histories/ship-histories/danfs/e/enterprise-cv-6-vii.html",
+    "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/beans-bullets-black-oil.html"
+  ]
+}

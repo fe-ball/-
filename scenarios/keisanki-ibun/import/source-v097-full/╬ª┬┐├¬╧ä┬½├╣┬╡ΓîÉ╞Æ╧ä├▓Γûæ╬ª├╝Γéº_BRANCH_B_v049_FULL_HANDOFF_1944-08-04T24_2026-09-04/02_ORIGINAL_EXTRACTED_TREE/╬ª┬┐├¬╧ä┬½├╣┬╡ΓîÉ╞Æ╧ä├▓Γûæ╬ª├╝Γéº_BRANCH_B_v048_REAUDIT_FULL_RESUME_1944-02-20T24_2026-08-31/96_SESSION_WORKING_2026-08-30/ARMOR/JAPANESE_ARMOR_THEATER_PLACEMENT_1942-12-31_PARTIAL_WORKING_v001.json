@@ -1,0 +1,78 @@
+{
+  "revision": "v001",
+  "id": "JAPANESE_ARMOR_THEATER_PLACEMENT_1942-12-31_PARTIAL_WORKING_v001",
+  "status": "WORKING_PARTIAL_PLACEMENT_NOT_NATIONAL_TOTAL",
+  "cutoff": "1942-12-31",
+  "warning": "This is deliberately incomplete. It exists to lock known theater commitments and prevent double allocation while Home/Kwantung/China total stock is still being audited.",
+  "known_tied_pools": {
+    "Dutch_East_Indies": {
+      "4th_Tank_Regiment_serviceable_tank_equivalents": [
+        34,
+        41
+      ],
+      "captured_M3_included": "up to several in this band",
+      "availability_for_elsewhere": 0
+    },
+    "Burma": {
+      "14th_Tank_Regiment_Japanese_serviceable": [
+        28,
+        36
+      ],
+      "captured_Stuart_serviceable": [
+        6,
+        10
+      ],
+      "availability_for_elsewhere": 0
+    },
+    "Rabaul_New_Britain": {
+      "8th_Tank_Regiment_serviceable": [
+        34,
+        43
+      ],
+      "availability_for_China_FiveGo": 0
+    },
+    "New_Caledonia": {
+      "Japanese_ready_survivors": [
+        9,
+        15
+      ],
+      "captured_US_light_tanks_repairable_or_serviceable": [
+        4,
+        7
+      ],
+      "availability_for_elsewhere": 0
+    },
+    "Philippines_to_Kwantung_pipeline": {
+      "7th_Tank_Regiment": "redeployment/repair flow; exact year-end number OPEN, not free until received by destination"
+    },
+    "Burma_to_Kwantung_or_other_pipeline": {
+      "1st_Tank_Regiment": "redeployment flow; exact year-end number OPEN"
+    }
+  },
+  "minimum_known_serviceable_tied_or_pipeline_excluding_China_Kwantung_Home": {
+    "Japanese_produced_tanks_AFVs_band": [
+      105,
+      135
+    ],
+    "captured_Allied_tanks_band": [
+      10,
+      17
+    ],
+    "meaning": "Even before counting China and the large Kwantung/Home pools, over one hundred useful tracked vehicles are already committed to southern/isolated theaters."
+  },
+  "China_3rd_Tank_Division_formation_gate": {
+    "8th_Tank_Regiment": "must NOT be counted; physically Rabaul",
+    "three_regiment_core": "12th/13th/17th + divisional recon/support",
+    "Mar_1943_launch_physical_candidate": [
+      195,
+      240
+    ]
+  },
+  "still_open": [
+    "China 1939-42 regimental residuals and 12th/13th/17th exact pre-division stocks",
+    "Kwantung 1st/2nd Tank Division and independent regiments",
+    "Home training/depot/static/obsolete stock",
+    "Port Moresby/Santo/Lunga small independent armor packets",
+    "shipment losses and factory/depot repair backlog"
+  ]
+}

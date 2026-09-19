@@ -1,0 +1,59 @@
+{
+  "revision": "v001",
+  "id": "MALAYA_1941_42_SYSTEMIC_ARMOR_RETRO_AUDIT_WORKING_v001",
+  "status": "WORKING_FIRST_PASS_NOT_CURRENT",
+  "method": "SYSTEMIC_COMBAT_EFFECT_ACCOUNTING_FOR_VEHICLE_RETRO_AUDITS_WORKING_v001",
+  "scope": "8 Dec 1941 through Singapore surrender 15 Feb 1942",
+  "historical_anchors": {
+    "assigned_force": "Widely used OOB: 1st and 6th Tank Regiments each 37 Type97 + 20 Type95; 14th Tank Regiment 45 Type95 = 159 tanks assigned.",
+    "dated_strength_conflict": "Some 8 Dec / 8 Feb OOBs list lower actual counts (e.g. 31+17 and 25+12 in 1st/6th). Treat 159 as assigned establishment-scale and 130-ish as a dated field-strength cross-check, not as an unexplained 29-tank loss.",
+    "Slim_River": "About 17 Type97 + 3 Type95 in the spearhead; 4 destroyed and 1 damaged is a commonly repeated local loss anchor.",
+    "Gemas": "At least several Japanese tanks were lost/disabled in the Australian ambush; local tactical loss did not change campaign outcome."
+  },
+  "branch_opening": {
+    "physical_assigned": 159,
+    "combat_ready_band": [
+      140,
+      151
+    ],
+    "note": "No Shinhoto back-port. Reliability/QC improves dispatchability but shipping/OOB is unchanged."
+  },
+  "first_pass_outcome": {
+    "combat_effective_tank_days_relative": "+12-20%",
+    "Japanese_irrecoverable_tank_loss_hist_equivalent_band": [
+      15,
+      25
+    ],
+    "Japanese_irrecoverable_tank_loss_branch_band": [
+      11,
+      19
+    ],
+    "Japanese_damaged_repairable_branch_band": [
+      30,
+      46
+    ],
+    "campaign_end_combat_ready_tanks_branch_band": [
+      119,
+      133
+    ],
+    "center_end_ready": 126,
+    "Japanese_personnel_KWM_delta": "-250 to -500",
+    "Japanese_engineer_artillery_transport_KWM_delta": "-70 to -140",
+    "Commonwealth_personnel_KWM_delta": "+350 to +750 before surrender; POW total essentially unchanged",
+    "Commonwealth_guns_vehicles_additional_destroyed_or_abandoned": "15-30 equivalents",
+    "Japanese_fuel_delta": "+10-16%",
+    "Japanese_tank_ammunition_delta": "+12-20%",
+    "Japanese_workshop_recovery_hours_delta": "+20-35%"
+  },
+  "time_effect": {
+    "Slim_River": "0-6 hours earlier/cleaner exploitation centered, not a different battle result",
+    "campaign": "0-18 hours earlier cumulative operational tempo centered; do not move Singapore by several days from vehicle quality alone"
+  },
+  "system_effect": "The largest benefit is infantry/engineer survival and keeping spearhead vehicles present on successive roadblocks, not a dramatic tank-vs-tank kill ratio.",
+  "post_campaign_allocation_guard": "1st/14th are later reassigned toward Burma; surviving tanks are not free national reserve on 15 Feb.",
+  "confidence": {
+    "loss_bands": "LOW-MEDIUM",
+    "OOB": "MEDIUM",
+    "direction": "HIGH"
+  }
+}

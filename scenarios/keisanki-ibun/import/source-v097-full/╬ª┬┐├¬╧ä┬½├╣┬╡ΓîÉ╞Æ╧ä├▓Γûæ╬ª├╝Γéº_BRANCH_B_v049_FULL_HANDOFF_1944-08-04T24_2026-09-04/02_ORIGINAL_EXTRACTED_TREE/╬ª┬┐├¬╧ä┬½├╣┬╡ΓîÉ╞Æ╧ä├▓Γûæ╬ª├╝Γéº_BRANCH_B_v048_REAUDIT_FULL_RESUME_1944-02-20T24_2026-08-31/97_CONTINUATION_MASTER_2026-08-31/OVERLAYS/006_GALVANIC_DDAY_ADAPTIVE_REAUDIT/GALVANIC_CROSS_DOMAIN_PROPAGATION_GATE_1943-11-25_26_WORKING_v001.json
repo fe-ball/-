@@ -1,0 +1,18 @@
+{
+  "id": "GALVANIC_CROSS_DOMAIN_PROPAGATION_GATE_1943-11-25_26_WORKING_v001",
+  "status": "WORKING_REOPEN_GATE",
+  "why_reopened": "The new fortification/base-hardening pass materially changes US support mission state and Japanese residual search/strike persistence, so v004 naval/air outcomes cannot be retained without a new dependency check.",
+  "US_constraints": {
+    "CVE": "eight-CVE assault-air wallet remains heavily committed to CAS, naval-gunfire spotting, CAP and ASW while Tarawa/Makin resistance remains organized",
+    "fast_carriers": "Independence campaign-out plus repeat Marshall suppression/CAP reserve reduces free deck margin even though the remaining fast force is numerically strong",
+    "surface": "fire-support BB/CA/DD and ammunition expenditure remain tied to Betio longer if organized strongpoints persist",
+    "transports": "slower beach unloading leaves valuable shipping/landing craft in the threat area longer"
+  },
+  "Japan_opportunities": {
+    "secondary_carriers": "Junyo/Ryujo/Zuiho at Truk-area start and Hiyo arriving 23-Nov can use 24-26 Nov to close toward rear-deck support geometry; do not add them to first-line strike until actual range/escort/fuel closes",
+    "submarines": "longer target dwell and higher US ASW workload can create additional contact attempts; actual hull-by-hull patrol ledger still required",
+    "surface": "light/fast groups obtain more time to reach a still-active battle area; target selection changes if transports/fire-support ships remain pinned",
+    "land_air": "search/water-air network survives enough to help recontact even after attack-air strength is depleted"
+  },
+  "next_exact_boundary": "Close 24/25 night Tarawa counterattack and Makin D-day, then recompute 25-Nov US support/Marshall suppression mission states before re-adjudicating 26-Nov carrier battle geometry."
+}

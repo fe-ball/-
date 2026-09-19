@@ -1,0 +1,74 @@
+{
+  "status": "CLOSED_CENTER_EVENT",
+  "cut": "1942-07-25 00:00-24:00",
+  "next": "1942-07-26 00:00 D-1",
+  "events": [
+    {
+      "time": "04:25-06:05",
+      "event": "Raider APDs arrive/unload",
+      "result": "520 physical ashore; clean pre-raid effective ~490; APDs intact"
+    },
+    {
+      "time": "06:18",
+      "event": "D4Y1-C Santo recon",
+      "result": "physical Allied reinforcement confirmed"
+    },
+    {
+      "time": "06:50",
+      "event": "Japanese contingency reserve gate",
+      "result": "FIRED; second-echelon only; no H-hour automatic credit"
+    },
+    {
+      "time": "08:05-10:15",
+      "event": "Ryujo bounded Santo strike",
+      "result": "10 A6M + 8 B5N; Allied 2 F4F lost/1 damaged; Japan 1 A6M+1 B5N lost/1 B5N damaged; Turtle Bay delay ~10-14h"
+    },
+    {
+      "time": "07:45",
+      "event": "PBY assault-body reacquisition",
+      "result": "useful report transmitted; PBY subsequently lost"
+    },
+    {
+      "time": "12:45-13:00",
+      "event": "5 B-17 assault-body strike",
+      "result": "0 ship hits; 1 B-17 damaged/non-MR"
+    },
+    {
+      "time": "13:50",
+      "event": "B-17 carrier search",
+      "result": "Ryujo physically sighted; Shokaku/Zuikaku not sighted; Wasp out of strike geometry"
+    },
+    {
+      "time": "daylight",
+      "event": "Japanese deep-east air search",
+      "result": "2d Marines and Wasp not found"
+    },
+    {
+      "time": "19:20-21:35",
+      "event": "I-32 2d-Marine convoy contact/attack",
+      "result": "5 transports+2DD confirmed; 0 torpedo hits; I-32 lightly damaged; convoy ETA delayed 0.5-1h"
+    }
+  ],
+  "D1_opening": {
+    "Japanese_assault_body_distance_to_Santo_nm": "~280-290",
+    "Japanese_carrier_force_distance_to_Santo_nm": "~240-270 N/NW center",
+    "Japanese_carrier_MR_center": 138,
+    "2d_Marines_distance_to_Santo_nm": "~235-245 east",
+    "2d_Marines_eta": "1942-07-26 ~15:30-16:00",
+    "Wasp_detected_by_Japan": false,
+    "Wasp_air_group_MR_center": 62,
+    "Raiders_physical_ashore": 520,
+    "Raiders_effective_center": "~475-480",
+    "Santo_resident_plus_Raiders_effective": "~1100-1300",
+    "VMF212_MR": "~12-13",
+    "B17_MR": "~9-10",
+    "Japanese_submarines": "~5 clean/effective + 1 marginal/damaged/closing",
+    "Japanese_contingency_reserve": "ACTIVATED_SECOND_ECHELON_NO_HHOUR_CREDIT"
+  },
+  "locks": [
+    "No Wasp strike on D-2",
+    "No Shokaku/Zuikaku physical Allied sighting on D-2",
+    "No Japanese physical Wasp contact on D-2",
+    "No automatic 1000-man reserve addition to 27-Jul dawn H-hour"
+  ]
+}

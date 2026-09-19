@@ -1,0 +1,39 @@
+{
+  "id": "FLINTLOCK_NAMUR_1944-02-06_07_NIGHT_DPLUS1_v001",
+  "status": "WORKING_SECTOR_ADJUDICATION_NOT_CANONICAL",
+  "sector": "Roi-Namur",
+  "period": "1944-02-06T24 through 1944-02-07T24",
+  "night": {
+    "Japanese_action": "No fortress-wide banzai. Three to five local infiltration/counterattack packets use debris, vegetation and surviving phone/runner cells to probe Marine seams, mortar/artillery observation posts and supply routes. The largest dawn packet is roughly 80-120 men; total participants over the night are about 200-280, not simultaneous.",
+    "local_success": "One or two penetrations reach roughly 70-130 m into forward positions or support lanes and cause temporary 20-40 minute local disruption. No durable severing of the beachhead or artillery support network.",
+    "US_response": "Pre-registered 75/105-mm defensive fires, star-shell illumination, machine guns, tanks held behind the line, and short destroyer/LCI(G) fire missions. US commanders meter illumination and artillery because friendly lines are close.",
+    "US_casualties_band": [
+      65,
+      105
+    ],
+    "Japan_irrecoverable_band": [
+      150,
+      220
+    ],
+    "dawn_state": "Japanese organized/local fighters about 500-690, plus 260-390 scattered/support personnel capable of local defense."
+  },
+  "daylight_7Feb": {
+    "result": "Roi pockets are reduced in the morning. On Namur, tank/engineer/direct-fire teams work north and east strongpoint by strongpoint. Better shelters and local ammunition keep some positions alive after suppression, but lack of depth and loss of island-wide C2 make mutual support increasingly impossible.",
+    "support_shift": "As Roi mopping ends, tanks/fire-support teams can reinforce Namur. This does not happen instantaneously; causeway/landing-craft movement and rubble create a morning transition lag.",
+    "US_casualties_band": [
+      125,
+      185
+    ],
+    "Japan_irrecoverable_band": [
+      450,
+      620
+    ],
+    "organized_resistance_break_window": "16:30-19:00",
+    "T24_remaining": "About 110-190 isolated/local fighters plus 70-130 scattered/support personnel; no coherent island-level counterattack capability."
+  },
+  "Dplus1_US_band": [
+    190,
+    290
+  ],
+  "assessment": "Stronger Branch defenses prolong Namur into late D+1, but removal of the historical large torpedo-magazine catastrophe and very strong US registered fires/tank-engineer reduction prevent a simple one-way casualty inflation."
+}

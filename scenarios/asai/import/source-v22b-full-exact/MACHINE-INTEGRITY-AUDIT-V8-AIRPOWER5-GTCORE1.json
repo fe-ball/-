@@ -1,0 +1,19 @@
+{
+  "package": "ASAI-WORLDLINE-HANDOFF-2026-09-04-FULL-V8-1939AIRPOWER5-GTCORE1",
+  "source_package": "ASAI-WORLDLINE-HANDOFF-2026-09-03-FULL-V8-1939AIRPOWER4-AIRFRAME1",
+  "source_sha256_targets_verified": 402,
+  "source_sha256_failures": 0,
+  "overlay_policy": "preserve source/provenance; edit only documented current/status files; add GTCORE1 current/support files",
+  "combat_checkpoint": "1939-04-20 24:00",
+  "furthest_prior_explored_clock": "1939-09-01 00:00",
+  "combat_replay_status": "HOLD_FOR_AVIATION_AUDIT",
+  "expected_final_total_files": 429,
+  "expected_inventory_rows": 426,
+  "expected_manifest_rows": 427,
+  "expected_sha256_targets": 427,
+  "mandatory_capability_preflight": "50-CURRENT-1939-1941-AIRPOWER-AUDIT/00A-MANDATORY-CHEAT-CAPABILITY-PREFLIGHT-CANON-V8.md",
+  "integrity_status_before_final_zip": "FINAL_METADATA_REBUILT; LOCAL_TREE_427_OF_427_SHA_VERIFIED; PRE_FINAL_ZIP_427_OF_427_VERIFIED",
+  "pre_final_zip_unpack_total_files": 429,
+  "pre_final_zip_sha256_targets_verified": 427,
+  "pre_final_zip_sha256_failures": 0
+}

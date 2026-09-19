@@ -1,0 +1,24 @@
+{
+  "revision": "v001",
+  "id": "GALVANIC_NEGATIVE_DELTA_REVALIDATION_2026-08-29_v001",
+  "status": "PASS_NO_QUALITATIVE_ROUTE_CHANGE",
+  "scope": "major GALVANIC current nodes",
+  "rule": "No-change requires dependency independence or explicit threshold recheck.",
+  "quantitative_center": {
+    "Japan_irrecoverable_aircraft": 67,
+    "US_irrecoverable_aircraft": 44,
+    "bands": {
+      "Japan": [
+        60,
+        75
+      ],
+      "US": [
+        40,
+        50
+      ]
+    }
+  },
+  "microcombat_source": "06_RUNTIME/GALVANIC_FIGHTER_MICROCOMBAT_RESULT_1943-11_v001.json",
+  "human_readable": "95_AUDIT/GALVANIC_NEGATIVE_DELTA_REVALIDATION_2026-08-29.md",
+  "qualitative_route_change": false
+}

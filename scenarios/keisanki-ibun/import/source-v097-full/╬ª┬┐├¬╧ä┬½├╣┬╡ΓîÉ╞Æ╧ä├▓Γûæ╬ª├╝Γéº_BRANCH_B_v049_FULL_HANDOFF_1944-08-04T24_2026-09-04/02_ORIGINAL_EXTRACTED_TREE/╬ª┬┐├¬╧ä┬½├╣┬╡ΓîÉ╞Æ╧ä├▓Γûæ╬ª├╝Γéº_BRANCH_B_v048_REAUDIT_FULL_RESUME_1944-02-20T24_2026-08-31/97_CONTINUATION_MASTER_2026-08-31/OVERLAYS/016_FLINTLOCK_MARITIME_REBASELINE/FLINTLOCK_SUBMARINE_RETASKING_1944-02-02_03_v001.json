@@ -1,0 +1,41 @@
+{
+  "id": "FLINTLOCK_SUBMARINE_RETASKING_1944-02-02_03_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "starting_effective_local_band": [
+    12,
+    13
+  ],
+  "rules": [
+    "no real-time wolfpack link",
+    "conventional boats need transit time between patrol boxes",
+    "Sentaka sprint is tactical geometry correction, not strategic teleport",
+    "reporting and weapon attack are separate choices"
+  ],
+  "cripple_hunt": {
+    "target": "Cabot probable withdrawal corridor",
+    "boats_diverted_band": [
+      1,
+      2
+    ],
+    "why": "Japanese strike debriefs identify a badly damaged light carrier and its likely eastward egress.",
+    "center_result": "No firing-quality solution. Alert US escorts/CAP and route uncertainty defeat the hunt.",
+    "cost": "Consumes boat-hours otherwise usable against assault/support echelons."
+  },
+  "assault_lane_retasking": {
+    "3Feb_evening_useful_geometry_band": [
+      7,
+      9
+    ],
+    "relocating_band": [
+      3,
+      4
+    ],
+    "outer_reporting_or_cripple_assets_band": [
+      1,
+      2
+    ],
+    "3Feb_centered_weapon_hits": 0,
+    "information_effect": "Confirms continued assault/support movement toward Kwajalein axis and narrows 4-5 Feb approach corridors."
+  },
+  "US_ASW": "Heightened after carrier attack and prior GALVANIC experience; CVE/land-air/DD-DE screens are strong but finite and compete with bombardment/close-support assignments."
+}

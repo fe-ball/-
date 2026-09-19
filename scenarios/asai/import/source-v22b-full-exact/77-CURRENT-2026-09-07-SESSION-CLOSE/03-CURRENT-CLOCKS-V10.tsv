@@ -1,0 +1,8 @@
+scope	checkpoint	status	next_gate
+CHINA	1939-12-31 24:00	CLOSED THROUGH YEAR-END WINTER OFFENSIVE CHECKPOINT	1940-01-01, after 1940 weapon-appearance review
+NOMONHAN	1939-08-31 24:00	REVISED COMBAT BRANCH CLOSED	postwar/replenishment flows only
+POST-NOMONHAN CHINA REALLOCATION	1939-10-31	CLOSED	carry already integrated where dated
+TECH: E5/Ki-42 AUX FUEL	1939	CLOSED	use explicit fuel state in future missions
+TECH: WET/HEAVY MOBILITY	1939-09-17	CLOSED	apply by actual OOB/allocation
+TECH: WINTER GT	1939-12-31	CLOSED	apply by temperature and supported cluster
+1940 WEAPON APPEARANCE	1940-01-01..12-31	PLANNING GATE ONLY; COMBAT CLOCK NOT ADVANCED	review/confirm before 1940 replay

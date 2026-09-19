@@ -1,0 +1,62 @@
+{
+  "package_version": "v077_FULL",
+  "date": "2026-09-07",
+  "package_type": "FULL_SELF_CONTAINED",
+  "parent_full_archive": "計算機異聞_BRANCH_B_v076_FULL_HANDOFF_SANTO_D1_RAIDERS_ASHORE_2DMARINES_TRACKED_2026-09-07.zip",
+  "resume": {
+    "date": "1942-07-27",
+    "time": "00:00",
+    "phase": "SANTO_DDAY_PREDawn_WASP_SHOKAKU_DAMAGED_2DMARINES_PARTIAL_ASHORE",
+    "clock_advanced_by_v077": true,
+    "center_Santo_D_day": "1942-07-27",
+    "D4_event": "CLOSED_V073",
+    "D3_event": "CLOSED_V074",
+    "D2_command": "CLOSED_V075",
+    "D2_event": "CLOSED_V076",
+    "D1_event": "CLOSED_V077",
+    "D1_carrier_battle": "CLOSED_V077_RUNTIME",
+    "Santo_H_hour_branch": "OPEN",
+    "New_Caledonia_date": "OPEN_POST_SANTO_RESET"
+  },
+  "D1_close": {
+    "Ryujo_transport_strike": {
+      "package": "8 A6M + 8 B5N",
+      "Alhena": "ONE_TYPE91_TORPEDO_HIT_PROPULSION_MISSION_KILL_AFLOAT",
+      "3_10_artillery_H_hour_credit": 0
+    },
+    "carrier_battle": {
+      "Wasp": "2_BOMB_HITS_PLUS_DAMAGING_NEAR_MISS_MISSION_DEGRADED_RETIRING",
+      "Wasp_torpedo_hits": 0,
+      "Shokaku": "2_X_1000LB_BOMB_HITS_FLIGHT_OPS_UNAVAILABLE_DDAY_OPENING",
+      "Zuikaku": "INTACT_OPERATIONAL",
+      "Ryujo": "INTACT_OPERATIONAL_TURNAROUND_AND_CROWDING_COST",
+      "Japan_operational_carrier_MR_Dday_center": 81,
+      "Japan_operational_carrier_MR_band": "78-84",
+      "Wasp_H_hour_CAP_credit": 0
+    },
+    "2d_Marines": {
+      "four_AP_arrival": "~15:45-16:10",
+      "physical_ashore_before_withdrawal": "~3650-3900",
+      "immediate_effective_after_bombardment": "~2900-3250",
+      "main_3_10_light_artillery": "NOT_H_HOUR_AVAILABLE"
+    },
+    "night_bombardment": {
+      "time": "~23:05-23:45",
+      "force": "Kongo_Kirishima_Atago_Takao_Maya_screen",
+      "Allied_casualties": "~80-120",
+      "Turtle_Bay_emergency_operation": "~29-30_Jul_center_absent_further_event"
+    }
+  },
+  "Dday_opening": {
+    "Japanese_assault_physical_center": 7200,
+    "Japanese_contingency_reserve_H_hour_credit": 0,
+    "Japanese_assault_body_distance_to_Santo_nm": "~25-45 N/NW",
+    "Japanese_operational_carrier_MR": "~81 center (78-84)",
+    "Shokaku_operational_deck_credit": 0,
+    "Allied_immediate_ground_effective": "~3900-4400 center ~4150",
+    "Wasp_H_hour_CAP_credit": 0,
+    "Alhena_3_10_artillery_H_hour_credit": 0,
+    "Turtle_Bay_operational": false
+  },
+  "critical_rule": "Resume at 1942-07-27 00:00. Do not reset prebattle air counts. Do not add the second-echelon Japanese 1000-man reserve, Wasp H-hour CAP, Shokaku deck aviation, or Alhena/3-10 artillery without a new physical availability event."
+}

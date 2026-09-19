@@ -1,0 +1,57 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_FIRST_LINE_CARRIER_HOLDING_FORCE_1944-01-28_02-02_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "purpose": "Close the hidden-fleet-in-being posture behind the Marshalls so carrier GO/withhold decisions use real transit, range and mission-state constraints rather than assuming the first-line carriers are either at Truk or magically in strike position.",
+  "authority_note": "No CURRENT promotion. Exact escort hull roster remains unclosed until a surface/carrier engagement requires hull-level accounting.",
+  "core": {
+    "carriers": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu"
+    ],
+    "Soryu": "Excluded from the mobile striking core; still in the late-Jan/early-Feb trial and team-readiness return clock.",
+    "working_ready_aircraft_band": [
+      210,
+      228
+    ],
+    "working_ready_aircraft_center": 219,
+    "air_group_guard": "Ready-aircraft class includes fighter/attack/recon reservations and is not a simultaneous strike count. Experienced strike-leader/navigation debt from GALVANIC remains.",
+    "Kinsei_fighter_note": "Kinsei-Zero concentration remains preferential on Shokaku/Zuikaku with a mixed Hiryu group; exact Jan-31 subtype count is intentionally not re-audited here and may not be used to inflate strike radius."
+  },
+  "screen_and_logistics": {
+    "fast_surface_screen": "Pacific fast-battleship/cruiser/destroyer screen and oilers are allocated as a real opportunity cost; exact named roster deferred pending combat need.",
+    "Indian_Ocean_guard": "Oyodo + four-DD western release and the already-realized Indian-Ocean submarine layer are not clawed back.",
+    "fuel_rule": "Advance is limited by tanker geometry and recovery/egress fuel; no free high-speed loiter near Kwajalein."
+  },
+  "movement_clock": [
+    {
+      "time": "1944-01-28 night to 01-29",
+      "state": "With Central-Pacific operation warning HIGH, Combined Fleet orders the three operational first-line carriers to leave the Truk-centered visible operating area under EMCON and move into a broad west-Marshall holding zone. This is an advance-to-threat order, not carrier GO."
+    },
+    {
+      "time": "1944-01-30 to 01-31",
+      "state": "Force remains several hundred nautical miles west of the Kwajalein-Maloelap battle space, using weather, emission discipline and tanker separation. It is close enough to shorten a future response but not close enough for an immediate short-range strike on a transient US contact."
+    },
+    {
+      "time": "1944-02-01 night",
+      "state": "After confirmation of at least two US carrier groups plus an assault force, the holding force edges east while preserving an exit to Truk/Palau. It does not rush into a 250-nmi launch point without a fresh mission-split contact."
+    }
+  ],
+  "GO_gate": {
+    "required": [
+      "fresh valuable carrier contact",
+      "known or strongly inferred US mission-state split",
+      "launch/recovery range compatible with escort fuel",
+      "credible egress after strike",
+      "other US carrier groups not positioned for an immediate overwhelming counterstrike"
+    ],
+    "not_sufficient": [
+      "US carriers are present",
+      "Kwajalein/Roi is under attack",
+      "one old carrier visual with >100-min age",
+      "a submarine logistics contact alone"
+    ],
+    "status_through_1944-02-02_09": "WITHHELD"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "BRANCH_B_NAVAL_SENIOR_PERSONNEL_REAUDIT_1944-03-08_v001",
+  "status": "WORKING_CURRENT_PERSONNEL_OVERLAY",
+  "as_of": "1944-03-08T24:00",
+  "Japan": {
+    "Yamamoto": {
+      "status": "ALIVE_HARD",
+      "role": "CINC Combined Fleet"
+    },
+    "Yamaguchi": {
+      "status": "ALIVE_HIGH",
+      "rank_working": "Vice Admiral centered 1942-11-01",
+      "role": "principal first-line carrier tactical commander"
+    },
+    "Nagumo": {
+      "status": "ALIVE_HIGH",
+      "role": "First Fleet / surface-night warfare working center"
+    },
+    "Ugaki": {
+      "status": "ALIVE_HIGH",
+      "role": "BatDiv1 working center"
+    },
+    "Koga": {
+      "status": "ALIVE_HARD",
+      "role": "Central Pacific Area Fleet CINC working center"
+    },
+    "Ozawa": {
+      "status": "ALIVE_HIGH",
+      "role": "First Mobile Fleet CINC working center"
+    },
+    "Kurita": {
+      "status": "ALIVE_HIGH",
+      "role": "Second Fleet heavy surface strike"
+    },
+    "Tanaka_Raizo": {
+      "status": "ALIVE_ACTIVE_CENTER",
+      "role": "night torpedo subordinate commander candidate"
+    }
+  },
+  "US": {
+    "Fitch": "ALIVE_VERY_HIGH",
+    "Mitscher": "ALIVE_VERY_HIGH_CENTER",
+    "Spruance": "ALIVE_HIGH_CENTER",
+    "Fletcher": "ALIVE_CENTER_NOT_HARD_pending_named_cruiser_losses",
+    "Kinkaid": "OPEN_LEAN_ALIVE_pending_Minneapolis_and_cruiser_loss_assignment",
+    "Halsey": "ALIVE_NO_CURRENT_FATAL_GATE",
+    "Nimitz": "ALIVE",
+    "King": "ALIVE"
+  },
+  "UK": {
+    "Somerville": "ALIVE_VERY_HIGH",
+    "Boyd": "ALIVE_CENTER_HIGH"
+  },
+  "command_architecture": {
+    "Combined_Fleet": "Yamamoto / Fukudome working center",
+    "First_Mobile_Fleet": "Ozawa",
+    "First_line_carrier_tactical": "Yamaguchi",
+    "First_Fleet_surface_night": "Nagumo",
+    "Second_Fleet_heavy_surface": "Kurita",
+    "BatDiv1": "Ugaki",
+    "Central_Pacific_Area_Fleet": "Koga working center; Toyoda/Nagumo alternates",
+    "Fourth_Fleet_Truk": "Hara working center"
+  },
+  "carrier_future": {
+    "Taiho": "five-carrier synchronized gate 1944-04-10..20 centered",
+    "Unryu": "completion 1944-06..07; work-up separate",
+    "Amagi": "completion 1944-06..07; work-up separate",
+    "Katsuragi": "completion 1944-08..09",
+    "personnel_effect": "begin future carrier HQ/cadre formation before hull completion"
+  },
+  "next_gates": [
+    "name modified-MI US cruiser losses",
+    "resolve Fletcher/Kinkaid hard survival",
+    "build March IJN flag-command OOB",
+    "Taiho HQ/cadre assignment",
+    "Unryu/Amagi prospective HQ formation"
+  ]
+}

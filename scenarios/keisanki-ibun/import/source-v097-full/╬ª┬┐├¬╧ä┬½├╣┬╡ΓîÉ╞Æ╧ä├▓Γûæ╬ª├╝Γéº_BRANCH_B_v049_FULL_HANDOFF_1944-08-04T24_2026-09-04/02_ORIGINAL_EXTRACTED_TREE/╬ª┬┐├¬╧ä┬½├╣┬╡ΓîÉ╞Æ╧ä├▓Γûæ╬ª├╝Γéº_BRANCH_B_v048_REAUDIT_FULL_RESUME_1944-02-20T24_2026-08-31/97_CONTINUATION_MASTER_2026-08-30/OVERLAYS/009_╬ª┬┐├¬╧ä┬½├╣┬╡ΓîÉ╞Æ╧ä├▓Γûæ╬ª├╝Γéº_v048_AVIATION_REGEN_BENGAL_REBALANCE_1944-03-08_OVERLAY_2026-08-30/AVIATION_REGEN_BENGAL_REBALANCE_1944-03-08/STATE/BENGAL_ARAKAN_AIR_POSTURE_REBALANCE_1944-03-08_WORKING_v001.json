@@ -1,0 +1,76 @@
+{
+  "revision": "v001",
+  "id": "BENGAL_ARAKAN_AIR_POSTURE_REBALANCE_1944-03-08_WORKING_v001",
+  "status": "WORKING_BRANCH_POSTURE_CORRECTION",
+  "as_of": "1944-03-08T24:00:00+09:00",
+  "purpose": "Translate the Feb air-capability correction and Japanese regeneration feedback into the current dormant Bengal/Arakan posture without reopening a land offensive or Eastern Fleet chase.",
+  "Japan": {
+    "theater_air_state": "5th Air Division is healthier and less centrally sucked into Imphal than historical; Bengal/Arakan can retain a meaningful western pool.",
+    "western_available_physical_band": [
+      100,
+      145
+    ],
+    "western_serviceable_band": [
+      70,
+      108
+    ],
+    "western_mission_ready_band": [
+      52,
+      84
+    ],
+    "Patenga_normal_local_presence": [
+      18,
+      28
+    ],
+    "Patenga_short_surge_24_48h": [
+      30,
+      45
+    ],
+    "preferred_tasks": [
+      "CAP and base defense",
+      "fighter sweeps/interdiction against Feni-Comilla-Agartala arc",
+      "reconnaissance",
+      "short/medium-range ground attack",
+      "protect Chittagong coastal LOC"
+    ],
+    "not_automatically_credited": [
+      "deep maritime search comparable to 705 G4M",
+      "carrier-quality anti-ship torpedo strike",
+      "Ceylon attack package"
+    ]
+  },
+  "Allies": {
+    "No224_reconstituted_physical_band": [
+      150,
+      200
+    ],
+    "serviceable_band": [
+      105,
+      150
+    ],
+    "mission_ready_band": [
+      75,
+      115
+    ],
+    "meaning": "Chittagong loss displaced the group and cost aircraft/infrastructure but did not destroy the formation; northern fields and India-wide maintenance/training depth sustain a substantial counterweight."
+  },
+  "land_effect": "Air balance becomes more active and costly but not decisive. Japanese air can make Feni/Comilla buildup and daylight movement harder; Allied air can contest Patenga/LOC. Neither side gains a ground offensive automatically because Japanese coastal throughput/55th Division recovery and Allied re-equipment/logistics remain independent gates.",
+  "naval_effect": "Eastern Fleet dormancy judgment is unchanged. Stronger Bengal IJA air is predominantly tactical/recon rather than the long-range maritime strike system required to chase a conserved Eastern Fleet at Ceylon. Submarines remain the cheaper naval pressure tool.",
+  "reopen_trigger_effect": "If either side later approves a land offensive, use these larger air pools and re-run local sortie allocation rather than resurrecting the older 70-105/115-155 bands.",
+  "supersedes_interpretation": [
+    "IJA_5th_Air_Division bands inside INDIAN_OCEAN_AIR_CAPABILITY_LEDGER_1944-02-19_22_WORKING_v002",
+    "Bengal_Arakan_No224_Group_branch_reconstituted bands inside the same v002 ledger"
+  ],
+  "provenance": {
+    "internal": [
+      "06_RUNTIME/BENGAL_ARAKAN_CHITTAGONG_1943-10_12_SETTLEMENT_v002.md",
+      "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+      "PACIFIC_FLEET_AUDIT_1944-03-08/RULES/EASTERN_FLEET_BENGAL_DORMANCY_GATE_1944-03-08_WORKING_v001.json"
+    ],
+    "external": [
+      "https://www.rafweb.org/Members%20Pages/Orders%20of%20Battle/1944/1944_01_SEAC.htm",
+      "https://www.rafweb.org/Members%20Pages/Orders%20of%20Battle/1944/1944_03_SEAC.htm",
+      "https://history.army.mil/portals/143/Images/Publications/catalog/9-2.pdf"
+    ]
+  }
+}

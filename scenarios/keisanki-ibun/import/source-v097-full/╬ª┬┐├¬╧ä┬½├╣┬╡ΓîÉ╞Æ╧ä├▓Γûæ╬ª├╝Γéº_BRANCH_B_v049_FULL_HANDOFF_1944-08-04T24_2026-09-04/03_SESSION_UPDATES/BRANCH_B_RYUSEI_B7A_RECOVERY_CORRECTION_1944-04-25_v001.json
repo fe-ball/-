@@ -1,0 +1,60 @@
+{
+  "id": "BRANCH_B_RYUSEI_B7A_RECOVERY_CORRECTION_1944-04-25_v001",
+  "status": "WORKING_CORRECTION_OVERLAY",
+  "frontier": "1944-04-25T24:00",
+  "clock_advance": false,
+  "recovered_invariant": "Ryusei initial production; Feb combat credit 0; Taiho first full-operation carrier candidate",
+  "B7A_25Apr_working": {
+    "national_physical": [
+      25,
+      40
+    ],
+    "serviceable_training_usable": [
+      20,
+      32
+    ],
+    "carrier_qualified_or_near": [
+      16,
+      26
+    ],
+    "Taiho_associated_physical": [
+      16,
+      26
+    ],
+    "Taiho_mission_ready": [
+      12,
+      20
+    ],
+    "veteran_carrier_trial_total": [
+      0,
+      6
+    ]
+  },
+  "corrected_five_carrier_ready_total": [
+    331,
+    368
+  ],
+  "corrected_type_envelope": {
+    "fighters_total": [
+      155,
+      175
+    ],
+    "B7A": [
+      12,
+      20
+    ],
+    "D4Y": [
+      68,
+      84
+    ],
+    "B6N": [
+      62,
+      78
+    ],
+    "legacy_utility_scarce_recon": [
+      15,
+      25
+    ]
+  },
+  "guard": "counts provisional until production ledger / ship-by-ship allocation recovered; total ready aircraft unchanged"
+}

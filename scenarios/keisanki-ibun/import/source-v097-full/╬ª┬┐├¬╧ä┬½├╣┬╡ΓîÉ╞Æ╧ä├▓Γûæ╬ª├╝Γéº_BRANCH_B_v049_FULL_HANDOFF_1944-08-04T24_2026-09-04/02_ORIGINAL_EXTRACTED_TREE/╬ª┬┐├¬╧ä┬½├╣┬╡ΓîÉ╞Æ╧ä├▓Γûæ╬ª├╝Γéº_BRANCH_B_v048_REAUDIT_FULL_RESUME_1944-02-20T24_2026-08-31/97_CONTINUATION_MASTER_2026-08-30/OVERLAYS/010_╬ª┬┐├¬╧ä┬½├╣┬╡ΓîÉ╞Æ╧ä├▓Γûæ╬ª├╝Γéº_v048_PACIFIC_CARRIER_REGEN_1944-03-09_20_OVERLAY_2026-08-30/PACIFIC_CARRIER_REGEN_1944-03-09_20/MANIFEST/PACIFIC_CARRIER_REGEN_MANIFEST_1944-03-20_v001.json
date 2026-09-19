@@ -1,0 +1,27 @@
+{
+  "revision": "v001",
+  "id": "PACIFIC_CARRIER_REGEN_MANIFEST_1944-03-20_v001",
+  "status": "WORKING_OVERLAY_MANIFEST",
+  "global_frontier": "1944-03-20T24",
+  "requires_prior_overlays": [
+    "計算機異聞_v048_PACIFIC_FLEET_AUDIT_1944-03-08_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_AVIATION_REGEN_BENGAL_REBALANCE_1944-03-08_OVERLAY_2026-08-30.zip"
+  ],
+  "load_new_files_in_order": [
+    "PACIFIC_CARRIER_REGEN_1944-03-09_20/AIR/JAPAN_CARRIER_AIR_REGENERATION_LEDGER_1944-03-08_20_WORKING_v001.json",
+    "PACIFIC_CARRIER_REGEN_1944-03-09_20/FLEET/TAIHO_WORKUP_AND_CARRIER_CADRE_ACCELERATION_1944-03-08_20_WORKING_v001.json",
+    "PACIFIC_CARRIER_REGEN_1944-03-09_20/FLEET/US_FAST_CARRIER_REINFORCEMENT_1944-03-09_20_WORKING_v001.json",
+    "PACIFIC_CARRIER_REGEN_1944-03-09_20/OPERATIONS/K706_ENIWETOK_NIGHT_RAID_1944-03-09_WORKING_v001.json",
+    "PACIFIC_CARRIER_REGEN_1944-03-09_20/RULES/INDIAN_OCEAN_BENGAL_BACKGROUND_FREEZE_1944-03-12_20_WORKING_v001.json",
+    "PACIFIC_CARRIER_REGEN_1944-03-09_20/DECISIONS/JAPAN_PACIFIC_CARRIER_STRATEGIC_DECISION_1944-03-20_WORKING_v001.json",
+    "PACIFIC_CARRIER_REGEN_1944-03-09_20/STATE/PARALLEL_THEATER_STATE_1944-03-20T24_WORKING_v001.json"
+  ],
+  "key_corrections": [
+    "Make carrier-aircrew survival feedback raise March recovery slope, with training accidents charged.",
+    "Advance Taiho personnel/deck integration modestly via survivor/secondary-carrier cadres without duplicating historical 601st strength or hollowing out the four-core.",
+    "Close the US temporary fast-deck compression by adjudicating Lexington return and Hornet arrival.",
+    "Finish INITIAL then background-freeze Indian Ocean/Bengal; do not inherit historical DIPLOMAT with Branch Saratoga absent.",
+    "Shift Palau from fleet anchorage concept toward forward tripwire/dispersal posture after the Truk lesson."
+  ],
+  "next_exact_action": "Advance 21-31 Mar with Pacific priority. Resolve US late-March raid planning/movement and Japanese detection/dispersal/reaction from actual Branch intelligence; do not auto-copy historical Palau outcomes."
+}

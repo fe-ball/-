@@ -1,0 +1,9 @@
+item	historical_state	material_path	military_effect	effect_level	1937_status	main_limit	branch_treatment
+Type 94 37mm AT gun	service weapon	WC/W-hard core; WHA test; natural-U test	short-range anti-armor margin without new gun	HIGH	limited special-AP evaluation/issue plausible	range/obliquity and projectile qualification	CLOSED-DIRECTION
+Type 94 37mm tank gun	service weapon	dense-core special AP	close-range improvement	MEDIUM	evaluation plausible	lower muzzle velocity	WORKING
+Type 97 20mm automatic cannon	adopted 1937; historical production 1939	dense-core special AP	extends light-armor usefulness	HIGH after production	ammo R&D can precede mass gun production	weapon weight/cost/production	CLOSED-DIRECTION
+Type 97 57mm Chi-Ha gun	low-velocity infantry-support tank gun	dense-core special AP	limited close-range improvement only	LOW	not central	low muzzle velocity and gun architecture	CLOSED-DIRECTION
+Type 96 25mm	AA/AT autocannon	dense-core AP	light armor/boat secondary benefit	LOW-MEDIUM	optional limited round	AA mission dominates	WORKING
+W heavy alloy penetrator	WHA commercial-material onset 1935-38	W-Ni-Cu family	possible tough dense penetrator	MEDIUM potential	ballistic qualification only	penetrator-grade strength/sinter quality	WORKING-TECH
+natural U penetrator	no historical 1937 service analogue	near-pure natural U dense core	W-saving dense-core alternative	MEDIUM potential	ballistic qualification only	anisotropy/corrosion/strength; no assumed DU self-sharpening	WORKING-TECH
+natural U ammunition after 1939	fission changes strategic value	natural U	opportunity cost rises sharply	NEGATIVE for mass issue	curtail mass ammo use	nuclear feed value	CLOSED-DIRECTION

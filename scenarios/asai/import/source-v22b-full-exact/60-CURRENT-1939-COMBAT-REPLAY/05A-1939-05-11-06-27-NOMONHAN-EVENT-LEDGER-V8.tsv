@@ -1,0 +1,18 @@
+date	event	historical_anchor	worldline_result	status
+1939-05-11	Nomonhan opening border clash	historical border-incident skeleton retained	near-historical immediate result; better report quality only	CLOSED
+1939-05-12	initial aviation response	24th Ki-27 x19; 10th Ki-15/Ki-30 x6 each	same scale; Ki-15-I not Ki-15-II; later unit config closure applied	CLOSED
+1939-05-18/21	continuous patrol/recon and early air contacts	historical escalation	enemy organized support recognized ~0.5-1 day earlier/cleaner; no extra confirmed kills	CLOSED
+1939-05-24/27	air reinforcement / Azuma-Yamagata preparation	11th Sentai 56 Ki-27-class reinforcement	force scale retained; exact 11th EX mix OPEN; workshop package x1 rear	CLOSED
+1939-05-28/29	Azuma force battle	matched-history ~220 initial and ~139/63% loss	78 total loss =42 KIA/MIA +36 WIA; Azuma survives; organized withdrawal	CLOSED
+1939-05-29	dense-core 37mm AP release	field report of Soviet armor	limited combat-evaluation release approved; front stock still 0	CLOSED
+1939-06-03	AT-37 special AP forward issue	Type 94 infantry 37mm rapid-fire gun	48 rounds =4 guns x12; combat validation OPEN	CLOSED
+1939-06-03	mobile GT first Nomonhan support use	rear workshop power	1 mobile GT at Kanchuerhmiao rear workshop; non-combat	CLOSED
+1939-06-05	Zhukov arrives	historical Soviet command event	retained	CLOSED
+1939-06-08/17	TANK-37 special AP adaptation	Type 94 tank gun requires separate qualification	limited qualification PASS 17 Jun; separate complete round	CLOSED
+1939-06-19	large Japanese operation approved	historical mid-June escalation	formal tank mobilization; support allocation 3 packages/2 GT	CLOSED
+1939-06-22	3rd/4th Tank Regiments unload Arshaan	historical movement clock	Chi-Ha combat 4 all technical PASS; rear replacement 1 remains Kungchuling	CLOSED
+1939-06-22	major fighter battle	historical large Soviet/Japanese engagement	24th config 15 EX2/4 EX0; mission capable 18; 4 irreversible +1 repairable loss center	CLOSED
+1939-06-24	Tamsag reconnaissance	historical ~135 aircraft incl 4 TB-3 observed	Ki-15-I EX2 retrofit used; observation anchor retained	CLOSED
+1939-06-24/25	TANK-37 combat-test lot issue	special tank-gun round	48 rounds issued 8 Ha-Go x6; combat validation OPEN	CLOSED
+1939-06-27	Tamsag-area airfield attack	historical major Japanese attack	~104 aircraft-class package; ~22 Soviet actual-loss class; Japan 6 out/5 irreversible+1 repair candidate	CLOSED
+1939-06-27	bombing workflow FIREOPTICS1 retrospective	same bombs/sorties/height	+5-8% effective target-area concentration; temporary ground/repair burden only; no proportional permanent-kill bonus	CLOSED

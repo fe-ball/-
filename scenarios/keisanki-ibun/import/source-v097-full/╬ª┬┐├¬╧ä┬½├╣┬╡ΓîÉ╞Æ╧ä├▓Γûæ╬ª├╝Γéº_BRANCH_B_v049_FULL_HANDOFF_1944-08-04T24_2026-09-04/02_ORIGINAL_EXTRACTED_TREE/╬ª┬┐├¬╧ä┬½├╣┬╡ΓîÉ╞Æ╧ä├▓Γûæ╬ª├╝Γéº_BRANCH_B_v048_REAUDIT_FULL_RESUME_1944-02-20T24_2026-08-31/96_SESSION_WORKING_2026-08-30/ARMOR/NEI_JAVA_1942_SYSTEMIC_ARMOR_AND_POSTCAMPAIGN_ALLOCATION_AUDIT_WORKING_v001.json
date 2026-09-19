@@ -1,0 +1,93 @@
+{
+  "revision": "v001",
+  "id": "NEI_JAVA_1942_SYSTEMIC_ARMOR_AND_POSTCAMPAIGN_ALLOCATION_AUDIT_WORKING_v001",
+  "status": "WORKING_FIRST_PASS_NOT_CURRENT",
+  "method": "SYSTEMIC_COMBAT_EFFECT_ACCOUNTING_FOR_VEHICLE_RETRO_AUDITS_WORKING_v001",
+  "scope": "Netherlands East Indies / Java-Sumatra-Timor armored layer, Jan-Mar 1942, plus immediate post-campaign placement",
+  "historical_OOB_anchors": {
+    "Java_2nd_Division": {
+      "2nd_Tank_Regiment_2nd_4th_companies_Type97": 21,
+      "2nd_Reconnaissance_Regiment_Type97_tankettes": 16
+    },
+    "Java_48th_Division": {
+      "4th_Tank_Regiment_3rd_company_Type95": 10,
+      "2nd_Tank_Regiment_3rd_company_Type97": 10,
+      "captured_M3_with_same_force": 5,
+      "48th_Reconnaissance_Regiment_Type97_tankettes": 16
+    },
+    "Java_other": {
+      "56th_Infantry_Group_tankette_unit": 8,
+      "4th_Tank_Regiment_1st_company_Type95": 10
+    },
+    "Sumatra": {
+      "4th_Tank_Regiment_2nd_company_Type95": 10
+    },
+    "38th_Division_Timor": {
+      "tankette_company_anchor": "11 Type94 tankettes documented in one Timor reinforcement packet; exact end-campaign company strength remains open"
+    },
+    "Java_tracked_AFV_total_excluding_Sumatra_Timor": 96,
+    "guard": "OOB snapshots and captured M3s are physical assignments, not all national new production."
+  },
+  "branch_combat_effect": {
+    "effective_AFV_days_relative": "+6-12%",
+    "reason": "rapid campaign already limits the payoff from reliability; roads/bridges and surrender timing cap extra tank-days",
+    "Japanese_irrecoverable_AFV_hist_equivalent_band": [
+      4,
+      9
+    ],
+    "Japanese_irrecoverable_AFV_branch_band": [
+      3,
+      7
+    ],
+    "Japanese_repairable_damage_branch_band": [
+      8,
+      16
+    ],
+    "Japanese_personnel_KWM_delta": "-80 to -180",
+    "Allied_personnel_KWM_delta": "+120 to +300 before surrender",
+    "Japanese_fuel_delta": "+5-9%",
+    "Japanese_workshop_recovery_delta": "+10-20%",
+    "strategic_result": "UNCHANGED"
+  },
+  "postcampaign_placement_center": {
+    "4th_Tank_Regiment_NEI": {
+      "status": "FIXED_TO_NEI",
+      "opening_campaign_anchor": "38 Type95 + 5 captured M3",
+      "1942_spring_serviceable_band": [
+        34,
+        41
+      ],
+      "note": "The regiment remains in the Dutch East Indies. Surviving hulls are not a free China/Kwantung/Home pool."
+    },
+    "2nd_Reconnaissance_Regiment": {
+      "status": "ORGANIC_TO_2ND_DIVISION",
+      "post_Java_physical_band": [
+        14,
+        16
+      ],
+      "post_repair_serviceable_by_1942_late_summer_band": [
+        13,
+        15
+      ],
+      "importance": "2nd Division later becomes a main force in Branch New Caledonia; these tankettes must travel with or be deliberately detached from the division."
+    },
+    "2nd_Tank_Regiment_4th_company": {
+      "status": "17TH_ARMY_SOUTH_PACIFIC_CANDIDATE",
+      "historical_anchor": "4th Company was at Davao under 17th Army planning in May 1942 and historically became the core of the 1st Independent Tank Company sent to Guadalcanal.",
+      "post_Java_physical_band": [
+        10,
+        12
+      ],
+      "branch_implication": "With WATCHTOWER absent, the company is not automatically destroyed at Matanikau. It must be allocated to another South Pacific task, with New Caledonia a high-value candidate."
+    },
+    "38th_Division_tankette_company": {
+      "status": "DETACHMENT_LOCATION_OPEN",
+      "post_NEI_serviceable_band": [
+        6,
+        11
+      ],
+      "guard": "Do not automatically attach all of it to New Caledonia; Timor/other detached commitments may retain part or all."
+    }
+  },
+  "systemic_finding": "The Java campaign creates little free national armor. Its larger importance is that relatively intact tracked units become the seed stock for later South Pacific commitments."
+}

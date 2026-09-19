@@ -1,0 +1,75 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_MARIANAS_AIR_DDAY_REACTION_1944-06-15_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_DAY_AIR_SETTLEMENT",
+  "clock_window": "1944-06-15T00:00..24:00+09:00",
+  "parents": [
+    "JAPAN_MARIANAS_AIR_AND_LOCAL_REACTION_1944-06-14_WORKING_v001"
+  ],
+  "opening_after_overnight_repair": {
+    "onsite_ready_all_band": [
+      86,
+      114
+    ],
+    "fighter_band": [
+      43,
+      60
+    ],
+    "attack_recon_band": [
+      25,
+      37
+    ]
+  },
+  "D_day_strike": {
+    "attack_aircraft_committed_band": [
+      24,
+      34
+    ],
+    "fighter_escort_band": [
+      15,
+      22
+    ],
+    "execution": "Two small/medium packets attack fire-support and transport lanes rather than one large daylight mass. C6N/D4Y reconnaissance is protected for recontact.",
+    "terminal_attackers_band": [
+      12,
+      18
+    ],
+    "US_ship_damage": "No old-battleship or fast-carrier mission kill. One LST/APA/AKA-class transport-support hull receives medium damage; one destroyer/LCI-type escort receives light-to-medium damage; several landing craft are lost/damaged.",
+    "Japanese_irreversible_loss_band": [
+      15,
+      22
+    ],
+    "US_air_irreversible_loss_band": [
+      5,
+      8
+    ]
+  },
+  "reconnaissance": {
+    "result": "A surviving fast reconnaissance aircraft obtains a broad fast-carrier sector east of Saipan late in the day; uncertainty remains roughly 70-120 nmi and the report ages before reaching the Mobile Fleet.",
+    "use": "Improves 16 Jun search-axis selection but is not a 15 Jun weapon-quality strike fix."
+  },
+  "end_15Jun": {
+    "onsite_ready_all_band": [
+      58,
+      78
+    ],
+    "fighter_band": [
+      27,
+      39
+    ],
+    "attack_recon_band": [
+      18,
+      27
+    ],
+    "C2_effective_percent_band": [
+      38,
+      50
+    ],
+    "runway_sustained_day_capacity_percent_band": [
+      24,
+      36
+    ],
+    "interpretation": "The local air system can still scout and generate small strikes but can no longer sustain theater air defense. Surviving attack/recon assets are deliberately husbanded for 16-17 Jun."
+  },
+  "A7M": "COMBAT 0."
+}

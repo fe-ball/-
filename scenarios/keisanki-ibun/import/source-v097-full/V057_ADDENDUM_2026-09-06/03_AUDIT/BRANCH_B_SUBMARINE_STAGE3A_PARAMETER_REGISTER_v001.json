@@ -1,0 +1,118 @@
+[
+  {
+    "id": "P_RANGE_B1",
+    "legacy": [
+      14000,
+      15100
+    ],
+    "units": "nm_at16kt",
+    "status": "PRIOR_HYPOTHESIS_PHYSICAL_BUDGET_CHECKED_NOT_EMPIRICALLY_VALIDATED",
+    "interpretation": "samefuel implies7.285percent lower totalfuelburn_pernm; separate propulsion,displacement,hotel loads,sea margins",
+    "automatic_patrol_multiplier": false
+  },
+  {
+    "id": "P_SPEED_B1",
+    "legacy": [
+      22,
+      22.4
+    ],
+    "units": "kt_max_surface",
+    "status": "PRIOR_HYPOTHESIS",
+    "interpretation": "cubicapprox5.55percent effectivepower increase at fixedcoefficient; not evidence this powerexists and notcruise16→16.4"
+  },
+  {
+    "id": "P_DIVE_B1",
+    "legacy": [
+      50,
+      44
+    ],
+    "units": "seconds",
+    "status": "PRIOR_HYPOTHESIS",
+    "missing": [
+      "teststart/end",
+      "initialspeed",
+      "ballastairvents",
+      "preparationstate"
+    ]
+  },
+  {
+    "id": "P_DEPTH",
+    "legacy": [
+      100,
+      110
+    ],
+    "units": "m_gauge_depth",
+    "status": "PRIOR_HYPOTHESIS",
+    "interpretation": "roughly10percent more hydrostaticgaugepressure; shellbuckling,welds,ovality,proofpressure require verification; noautomaticASWsurvivalbonus"
+  },
+  {
+    "id": "P_ENGINE_PREVENTABLE",
+    "legacy_relative_reduction": [
+      0.2,
+      0.35
+    ],
+    "status": "MECHANISM_SUPPORTED_MAGNITUDE_UNCALIBRATED",
+    "source": "S5",
+    "missing": [
+      "abortcount",
+      "exposure",
+      "causeclassification",
+      "dayslost"
+    ]
+  },
+  {
+    "id": "P_TORPEDO_RUN",
+    "legacy_relative_reduction": [
+      0.15,
+      0.25
+    ],
+    "status": "ABSOLUTE_BASELINE_UNKNOWN",
+    "source": "S6 reportsproblemswithoutdenominator",
+    "no_misses_as_defects": true
+  },
+  {
+    "id": "P_TORPEDO_FUZE",
+    "legacy_relative_reduction": [
+      0.15,
+      0.25
+    ],
+    "status": "ABSOLUTE_BASELINE_UNKNOWN",
+    "missing": [
+      "functioningimpactdenominator",
+      "weaponvariant",
+      "lot",
+      "prematuresvsnonfunctioning"
+    ]
+  },
+  {
+    "id": "P_FIRECONTROL",
+    "legacy_prep_reduction": [
+      0.1,
+      0.2
+    ],
+    "legacy_hull_calibration_reduction": 0.3,
+    "status": "MECHANISM_SUPPORTED_MAGNITUDE_UNCALIBRATED",
+    "source": "S4",
+    "terminology": "IJN torpedo-director I/O andcalibration, notUScontinuousrangekeeper",
+    "no_double_count": "variancecomponents not wholehitprobability"
+  },
+  {
+    "id": "P_MERCHANT_SALVO",
+    "status": "UNIVERSAL_ONE_TORPEDO_ASSUMPTION_REJECTED",
+    "evidence": [
+      "Chloe2 reported",
+      "WilliamDawes2 reported"
+    ],
+    "interpretation": "doctrine preference may exist but operationaluniversalnotvalid; trace actual branchorder and finite torpedobudget"
+  },
+  {
+    "id": "P_EXAMPLES",
+    "status": "CONDITIONAL_EXAMPLES_ONLY",
+    "interpretation": "q_run.15,q_fuze.10,abort.20,etc are NOTmeasurement or adoptedBranch coefficients"
+  },
+  {
+    "id": "P_FINAL_MULTIPLIER",
+    "status": "NO_CAP_NO_TARGET",
+    "interpretation": "Compute at end; no1.3ceiling; no2xor3xpromise."
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "package": "ASAI-WORLDLINE-HANDOFF-2026-08-30-FULL-V4",
+  "checks": {
+    "current_tsv_schema_files_checked": 29,
+    "json_files_parsed": 2,
+    "branch_claims": 149,
+    "review_items": 35,
+    "event_records": 126,
+    "nested_zip_members": 818,
+    "nested_zip_crc": "PASS",
+    "raw_source_records": 856,
+    "raw_source_unresolved": 0,
+    "current_source_pointer_refs": 159,
+    "current_source_pointer_unresolved": 0,
+    "case_insensitive_path_collisions": 0,
+    "current_manifest_entries": 61,
+    "full_manifest_entries": 110,
+    "full_manifest_mismatches": 0,
+    "final_zip_crc": "PASS",
+    "final_zip_duplicate_member_names": 0,
+    "final_zip_case_insensitive_member_collisions": 0
+  },
+  "issues": [],
+  "repairs": [
+    "full source payload integrated",
+    "pre-8/30 source namespace physically quarantined",
+    "current entry point changed to 8/30 branch index/session layer",
+    "misleading prior FULL-HANDOFF rebuilt wording corrected",
+    "856-record source resolution map added",
+    "24 supersession/terminology guard rows generated",
+    "current and full SHA256 manifests rebuilt"
+  ],
+  "archive_status": "PASS — final FULL V4 ZIP built and CRC-tested by packaging pipeline"
+}

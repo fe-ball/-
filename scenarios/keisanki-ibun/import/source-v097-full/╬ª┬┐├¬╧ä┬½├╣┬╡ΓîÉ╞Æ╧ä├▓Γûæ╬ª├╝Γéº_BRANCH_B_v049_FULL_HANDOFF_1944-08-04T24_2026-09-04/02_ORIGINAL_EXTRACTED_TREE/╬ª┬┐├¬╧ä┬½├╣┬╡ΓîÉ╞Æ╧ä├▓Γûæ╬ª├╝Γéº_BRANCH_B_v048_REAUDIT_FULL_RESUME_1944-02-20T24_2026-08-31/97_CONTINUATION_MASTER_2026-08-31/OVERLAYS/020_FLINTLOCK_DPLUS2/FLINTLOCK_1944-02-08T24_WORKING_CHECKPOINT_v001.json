@@ -1,0 +1,30 @@
+{
+  "id": "FLINTLOCK_1944-02-08T24_WORKING_CHECKPOINT_v001",
+  "status": "WORKING_FRONTIER_CHECKPOINT_NOT_CANONICAL",
+  "as_of": "1944-02-08T24+12:00",
+  "US": {
+    "Roi_Namur": "Secure declared morning 8-Feb; mopping/hideout search only.",
+    "Kwajalein": "Organized defense collapsed late 8-Feb; operational control established, formal secure declaration pending pocket verification.",
+    "cumulative_main_ground_center": 1840,
+    "support": "Some northern-sector and late-day Kwajalein close-support capacity begins release/replenishment, while ASW remains elevated."
+  },
+  "Japan": {
+    "Kwajalein": "About 120-220 isolated/local fighters plus 60-120 scattered/support personnel remain; no coherent island defense.",
+    "air": "Regional serviceable 6-9 centered 7; mostly recon/water/local-defense assets.",
+    "submarines": "About 4-5 boats retain useful/near-useful wider approach geometry; no new major US hit centered on 8-Feb.",
+    "fleet_carriers": "Main carrier force continues westward regeneration; no renewed eastward commitment."
+  },
+  "open_8_9Feb": [
+    "Kwajalein formal secure declaration and final pocket casualties",
+    "capture/inspection of fortifications, radar/communications and dispersed ammunition system",
+    "airfield repair/start-of-US-base clock",
+    "which fire-support/CVE/DD tasks are actually released after the battle",
+    "submarine withdrawal or one last approach window"
+  ],
+  "do_not_inherit": [
+    "historical secure date as fixed script",
+    "old v003 final casualty totals",
+    "automatic submarine compensation hits",
+    "instant release of all fire-support ships when ground resistance collapses"
+  ]
+}

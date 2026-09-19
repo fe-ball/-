@@ -1,0 +1,17 @@
+{
+  "revision": "v019",
+  "package_root": "計算機異聞_refactor_v019_2026-08-25",
+  "generated": "2026-08-25",
+  "purpose": "Close the final pre-launch China Expeditionary Army OOB, Five-Go retained-unit anti-double-count, Nanjing rear substitution, support-arms, shipping and inland-logistics gate for the staged No.1/Ichigo-equivalent operation.",
+  "file_count_before_checksum": 478,
+  "base_package": "計算機異聞_refactor_v018_2026-08-24",
+  "current_branch_state_file": "06_RUNTIME/CURRENT_BRANCH_STATE_v001.json",
+  "current_branch_analysis_frontier": "1944-04-25T00:00",
+  "current_working_audit": "06_RUNTIME/PRE_ICHIGO_FINAL_FORCE_LOGISTICS_GATE_1944-04-25_v001.md",
+  "current_working_ledger": "06_RUNTIME/PRE_ICHIGO_FINAL_FORCE_LOGISTICS_GATE_1944-04-25_v001.json",
+  "clock_advanced": false,
+  "validation": "95_AUDIT/VALIDATION_RESULT_v019.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v019.txt",
+  "historical_checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v018.txt",
+  "next_required_adjudication": "Late-April Chinese/Fourteenth Air Force detection/allocation, then 1944-05-10 Hunan launch and Changsha phase."
+}

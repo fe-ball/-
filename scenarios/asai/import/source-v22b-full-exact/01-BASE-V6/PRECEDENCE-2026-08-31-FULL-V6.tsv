@@ -1,0 +1,7 @@
+rank	scope	pointer	authority	status	rule
+1	restart	10-CURRENT-1938-1939/00-1939-09-01-RESTART-BASELINE-V6.md	V6 1939-09-01 restart	CURRENT-HIGHEST	Controls current clock and cross-domain restart state.
+2	aviation-method	20-AVIATION-CURRENT-REBASELINE/ASAI-AVIATION-DECISION-INTENT-GUARD-V1.md	Aviation intent guard	CURRENT-HIGH	Controls how aircraft requirements, performance allocation and productionization are interpreted.
+3	aviation-lineage	20-AVIATION-CURRENT-REBASELINE/ASAI-AVIATION-INTENT-LINEAGE-PRODUCTIZATION-REBASELINE-1931-1939-V1.md; 20-AVIATION-CURRENT-REBASELINE/ASAI-1931-1939-TWIN-AIRCRAFT-CANON-REBASELINE-V1.md	Aviation causal/twin canon	CURRENT-HIGH	Supersedes conflicting Gate64/68/69/76 interpretation while retaining non-conflicting physical measurements.
+4	current-1938-1939	10-CURRENT-1938-1939; 20-AVIATION-CURRENT-REBASELINE; 30-ASAI-CURRENT-AUDITS	Current session closures	CURRENT	Use domain files subject to higher guards.
+20	base-v5	01-BASE-V5/00-START-HERE-2026-08-30-FULL-V5.md	Preserved FULL V5	BASE	Use for all older history and derivation not superseded by V6.
+90	superseded	90-SUPERSEDED-SESSION-DRAFTS	Provenance only	SUPERSEDED	Never use to override current V6 aviation authority.

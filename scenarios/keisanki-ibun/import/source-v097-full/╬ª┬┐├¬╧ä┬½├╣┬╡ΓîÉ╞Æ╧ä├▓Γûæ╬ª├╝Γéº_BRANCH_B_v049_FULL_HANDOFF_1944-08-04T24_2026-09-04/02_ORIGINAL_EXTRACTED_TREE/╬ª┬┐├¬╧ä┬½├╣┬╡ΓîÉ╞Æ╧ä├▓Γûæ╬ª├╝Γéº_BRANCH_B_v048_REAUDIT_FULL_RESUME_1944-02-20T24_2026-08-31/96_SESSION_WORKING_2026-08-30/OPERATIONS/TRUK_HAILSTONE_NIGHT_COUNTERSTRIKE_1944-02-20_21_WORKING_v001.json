@@ -1,0 +1,91 @@
+{
+  "revision": "v001",
+  "id": "TRUK_HAILSTONE_NIGHT_COUNTERSTRIKE_1944-02-20_21_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "parents": [
+    "TRUK_HAILSTONE_WARNING_CHAIN_1944-02-15_20_WORKING_v001",
+    "TRUK_HAILSTONE_FIRST_FIGHTER_SWEEP_1944-02-20_WORKING_v001",
+    "TRUK_HAILSTONE_DAY1_AIR_SEA_1944-02-20_WORKING_v001"
+  ],
+  "window": "1944-02-20 dusk through 1944-02-21 dawn",
+  "US_branch_force_note": "Branch OOB checked: Enterprise CV-6 and Saratoga CV-3 are permanent losses; Wasp CV-7 survives. Cabot CVL-28 is campaign-out from 3-Feb torpedo damage. Truk force remains centered on 5 CV + 3 CVL while Princeton/Langley support Catchpole.",
+  "Japanese_night_attack": {
+    "available_night_capable_pool_band": [
+      14,
+      20
+    ],
+    "launch_center": 14,
+    "launch_band": [
+      12,
+      16
+    ],
+    "composition_working": "Truk-based B5N/B6N-class radar/search/torpedo aircraft plus a small physically valid Marianas/Tinian G4M-class contribution; no new units spawned.",
+    "cue": "1-3 hour old submarine/RI/DF sector cue plus dusk search reports. Enough for an area-search attack, not a weapon-quality carrier fix.",
+    "execution": {
+      "early_abort_or_navigation_failure_band": [
+        1,
+        3
+      ],
+      "reach_US_radar_search_box_band": [
+        9,
+        12
+      ],
+      "obtain_some_visual_or_radar_ship_contact_band": [
+        5,
+        8
+      ],
+      "credible_torpedo_runs_band": [
+        3,
+        5
+      ]
+    }
+  },
+  "US_night_defense": {
+    "state": "FULL ALERT after unexpectedly hard daylight resistance",
+    "night_fighter_procedures": "Post-GALVANIC radar/night-CAP procedures are task-force-wide rather than dependent on one carrier, but hardware and intercept reliability remain immature.",
+    "radar_night_fighters_available_center": "6-10 distributed F6F-3N/F4U-2N-class detachments/slots across appropriate carriers",
+    "surface_screen": "Fast battleships remain with carrier groups because the historical Katori/Maikaze surface chase did not occur; this thickens AA and screening.",
+    "limitation": "Night interception is not airtight; historical Truk night-fighter radar failures remain a valid warning against over-crediting US capability."
+  },
+  "centered_result": {
+    "Japanese_irrecoverable_aircraft_band": [
+      6,
+      8
+    ],
+    "Japanese_irrecoverable_center": 7,
+    "Japanese_damaged_returned_band": [
+      2,
+      4
+    ],
+    "US_night_fighter_irrecoverable": 0,
+    "US_ship_hits": "One Type-91-class torpedo hit on an outer-screen destroyer slot; ship becomes constructive total loss/sinks. No carrier hit centered.",
+    "US_destroyer_casualties_band": [
+      45,
+      85
+    ],
+    "meaning": "Improved Japanese cue converts into one real torpedo hit, but stronger US radar/night defense and denser screen keep the attack away from the carrier core."
+  },
+  "Japanese_submarine_night": {
+    "result": "No satisfactory torpedo shot on a fast carrier. One boat maintains only intermittent contact and is forced off by ASW.",
+    "effect": "Sector information remains useful for aircraft, but submarine attack and continuous shadowing cannot both be achieved."
+  },
+  "US_offensive_night_strike": {
+    "historical_anchor": "Enterprise VT-10 historically launched 12 radar-equipped TBFs and achieved a disproportionate share of HAILSTONE shipping hits.",
+    "branch_result": "NO equivalent 12-plane radar-bombing night strike centered because Enterprise is a permanent Branch loss and no paid replacement offensive night-bombing unit is present in the current ledger.",
+    "allowed_activity": "Night CAP, search/ASW, rescue/recovery and small harassment/navigation sorties only.",
+    "effect": "Remaining lagoon shipping and fixed facilities receive no historical Enterprise-style night hammer; they survive to face daylight Day 2."
+  },
+  "dawn_state": {
+    "Japanese_serviceable_fighters_band": [
+      10,
+      15
+    ],
+    "Japanese_serviceable_night_attack_recon_band": [
+      6,
+      10
+    ],
+    "Truk_air_defense": "still functioning at reduced throughput; one precision AA channel reliable, secondary channel intermittent",
+    "US_carriers": "all Truk-assigned flight decks operational; no Intrepid-style campaign-out damage centered",
+    "US_destroyers": "one outer-screen destroyer lost/CTL centered"
+  }
+}

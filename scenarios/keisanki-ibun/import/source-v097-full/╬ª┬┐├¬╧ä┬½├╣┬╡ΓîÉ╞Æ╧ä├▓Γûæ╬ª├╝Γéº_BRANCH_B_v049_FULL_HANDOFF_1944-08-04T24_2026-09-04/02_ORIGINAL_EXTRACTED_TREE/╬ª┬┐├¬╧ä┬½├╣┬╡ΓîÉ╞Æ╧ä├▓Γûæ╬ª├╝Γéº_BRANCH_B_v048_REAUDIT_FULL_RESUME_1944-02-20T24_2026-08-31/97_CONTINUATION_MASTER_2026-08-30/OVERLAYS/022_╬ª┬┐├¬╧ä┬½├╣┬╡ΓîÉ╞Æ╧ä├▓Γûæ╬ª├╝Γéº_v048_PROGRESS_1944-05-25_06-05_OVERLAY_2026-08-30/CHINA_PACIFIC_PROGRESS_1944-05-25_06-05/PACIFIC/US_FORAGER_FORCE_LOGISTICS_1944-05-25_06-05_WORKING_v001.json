@@ -1,0 +1,53 @@
+{
+  "revision": "v001",
+  "id": "US_FORAGER_FORCE_LOGISTICS_1944-05-25_06-05_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_PRE_FORAGER_OOB",
+  "as_of": "1944-06-05T24:00:00+09:00",
+  "parents": [
+    "US_FORAGER_STRATEGIC_RECONFIRMATION_1944-05-19_24_WORKING_v001",
+    "US_TG58_6_AND_FAST_DECK_PIPELINE_1944-05-14_18_WORKING_v001",
+    "FUTURE_US_CARRIER_OOB_REOPEN_GUARD_1944-06_WORKING_v001"
+  ],
+  "historical_anchor": {
+    "historical_TF58": "15 carriers = 7 CV + 8 CVL, generally about 930 carrier aircraft; departed Majuro 6 Jun for FORAGER.",
+    "source": "NHHC H-Gram 032"
+  },
+  "branch_fast_carrier_OOB_5Jun": {
+    "CV": [
+      "Wasp CV-7",
+      "Essex CV-9",
+      "Yorktown CV-10",
+      "Intrepid CV-11",
+      "Hornet CV-12",
+      "Lexington CV-16",
+      "Bunker Hill CV-17",
+      "CV-18 equivalent (provisional Oriskany)"
+    ],
+    "CVL": [
+      "Princeton CVL-23",
+      "Belleau Wood CVL-24",
+      "Cowpens CVL-25",
+      "Monterey CVL-26",
+      "Langley CVL-27",
+      "Cabot CVL-28",
+      "Bataan CVL-29",
+      "San Jacinto CVL-30"
+    ],
+    "count": {
+      "CV": 8,
+      "CVL": 8,
+      "total": 16
+    },
+    "ready_carrier_aircraft_band": [
+      960,
+      1045
+    ],
+    "note": "Enterprise is a permanent Branch loss; surviving CV-7 Wasp approximately replaces the historical Enterprise-sized deck, while Intrepid remains an additional Essex deck because her historical Feb torpedo campaign-out did not occur. Cabot has crossed the branch May return gate by early June."
+  },
+  "logistics": {
+    "Rainier_AE5": "Arrives Majuro 31 May. Historical 1-5 Jun issue cycle supplied about 1,600 tons of ammunition to TF58 before the 6 Jun sortie.",
+    "Majuro": "Dense carrier/battleship/service concentration and ammunition/fuel handling create a short high-value window.",
+    "scheduled_sortie": "6 Jun remains the operational center before the special-strike result is applied; 15 Jun Saipan D-Day remains fixed absent a major shock."
+  },
+  "guard": "Do not reuse legacy 7-CV/8-CVL June settlement. This 8-CV/8-CVL pool is the current pre-combat branch baseline before any 6-20 Jun losses/detachments."
+}

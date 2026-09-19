@@ -1,0 +1,91 @@
+{
+  "revision": "v0.01",
+  "scope": "3rd Air Group southern concentration before Malaya opening",
+  "period": "1941-11-15/1941-12-07",
+  "layers": [
+    "PLANNED_CONCENTRATION",
+    "DEPARTED_ORIGIN",
+    "ARRIVED_STAGING",
+    "ARRIVED_FORWARD_AREA",
+    "SERVICEABLE_ON_EVE_OF_WAR"
+  ],
+  "observations": [
+    {
+      "id": "PRE-19411115-ORDER",
+      "observed": {
+        "concentration_order": true,
+        "air_transport_attached": true,
+        "air_sector_support": true
+      },
+      "source": {
+        "id": "JM55",
+        "lines": "830-880"
+      }
+    },
+    {
+      "id": "PRE-19411130-SUPPORT",
+      "observed": {
+        "air_sector_units_mostly_deployed_by_end_nov": true,
+        "air_intel_weather_signal_nets_completed_by_end_nov": true
+      },
+      "source": {
+        "id": "JM55",
+        "lines": "879-891"
+      }
+    },
+    {
+      "id": "PRE-19411206-CONCENTRATION",
+      "observed": {
+        "second_concentration_completed_1941_12_06": true,
+        "severe_monsoon": true,
+        "many_air_accidents": true,
+        "leadership_casualties": true
+      },
+      "source": {
+        "id": "JM55",
+        "lines": "891, 969-970"
+      }
+    },
+    {
+      "id": "PRE-19411207-CONVOY-COVER",
+      "observed": {
+        "navigation_missed_convoy": true,
+        "heavy_bombers_weather_abort": 3,
+        "missing_aircraft": 2,
+        "forced_landings": 1,
+        "serious_forced_landing_damage": 2
+      },
+      "source": {
+        "id": "JM55",
+        "lines": "1016-1018"
+      }
+    },
+    {
+      "id": "PRE-CONCENTRATION-LOSS-TOTAL",
+      "observed": {
+        "aircraft_lost_during_concentration_bad_weather": 46
+      },
+      "classification": "PRECOMBAT_CONCENTRATION_LOSS",
+      "confidence": "MEDIUM_HIGH that it is separate from outbreak-to-Singapore 331; exact timing/type breakdown OPEN",
+      "source": {
+        "id": "JM55",
+        "lines": "2231-2237"
+      }
+    }
+  ],
+  "alternate_effect_channels": {
+    "PURE_WEATHER_NO_VISIBILITY": "LOW",
+    "NAVIGATION_OR_POSITIONING": "MEDIUM",
+    "FUEL_MARGIN": "MEDIUM_HIGH",
+    "MECHANICAL_RELIABILITY": "HIGH",
+    "FORCED_LANDING_DAMAGE": "MEDIUM_HIGH",
+    "UNKNOWN": "NO_CHANGE_CENTERLINE"
+  },
+  "open_items": [
+    "planned strength by unit",
+    "46-loss type/date breakdown",
+    "leadership casualty identities and roles",
+    "eve-of-war serviceable by base",
+    "replacement first shipment 148 inventory status"
+  ]
+}

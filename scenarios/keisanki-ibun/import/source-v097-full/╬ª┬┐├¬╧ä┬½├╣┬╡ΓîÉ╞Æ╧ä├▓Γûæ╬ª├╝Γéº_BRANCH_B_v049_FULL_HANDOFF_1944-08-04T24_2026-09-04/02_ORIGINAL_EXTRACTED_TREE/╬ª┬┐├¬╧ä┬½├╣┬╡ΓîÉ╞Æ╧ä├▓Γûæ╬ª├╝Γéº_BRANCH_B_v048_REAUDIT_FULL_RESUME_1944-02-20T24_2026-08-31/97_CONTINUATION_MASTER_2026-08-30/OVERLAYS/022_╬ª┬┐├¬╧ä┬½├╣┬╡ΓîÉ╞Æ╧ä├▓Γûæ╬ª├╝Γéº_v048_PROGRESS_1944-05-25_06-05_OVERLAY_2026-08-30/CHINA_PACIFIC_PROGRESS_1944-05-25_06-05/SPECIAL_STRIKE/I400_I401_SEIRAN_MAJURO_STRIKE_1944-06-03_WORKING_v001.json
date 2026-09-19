@@ -1,0 +1,47 @@
+{
+  "revision": "v001",
+  "id": "I400_I401_SEIRAN_MAJURO_STRIKE_1944-06-03_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_SPECIAL_STRIKE_RESULT",
+  "event_time": "1944-06-03 pre-dawn/local",
+  "parents": [
+    "I400_SEIRAN_STRIKE_GATE_1944-05-24_v002",
+    "JAPAN_ISR_FORAGER_WARNING_1944-05-19_24_WORKING_v001"
+  ],
+  "historical_sanity_anchors": [
+    "I-400 design requirement: three Seirans assembled/launched within 30 minutes; Seiran could carry an 800-kg bomb or torpedo.",
+    "Historical I-36 conducted an E14Y reconnaissance of Majuro on 22 Apr 1944, demonstrating submarine-air reconnaissance feasibility.",
+    "Historical Rainier arrived Majuro 31 May and issued about 1,600 tons of ammunition to TF58 on 1-5 Jun before the 6 Jun sortie."
+  ],
+  "readiness_and_intelligence": {
+    "25_29May": "I-400/I-401 complete the final joint procedure gate while beginning the long eastbound deployment. Six aircraft become serviceable; minimum five fully mission-ready threshold is passed by 29-30 May.",
+    "April_recon_retention": "The historical I-36 Majuro reconnaissance is retained as an ISR mission even though the low-value Tatsumaki amphibious-tank attack is cancelled; its harbor layout information is stale but useful for planning.",
+    "30_31May_fresh_packet": "Traffic analysis plus a high-speed reconnaissance/submarine observation packet confirms a large carrier/service concentration at Majuro. Exact ship identities are not assumed, but ammunition/oiler/service handling is visibly dense enough to pass the strike-value gate.",
+    "decision": "GO_MAJURO. Do not spend surprise on Eniwetok once the higher-value Majuro packet is confirmed."
+  },
+  "mission_design": {
+    "launch_geometry": "I-400 and I-401 approach from a low-traffic sector and launch outside the immediate anchorage ASW ring; simultaneous two-boat deck preparation keeps the total exposure closer to one 30-35 minute cycle per boat rather than serial six-aircraft preparation.",
+    "aircraft_launched": 6,
+    "load": "800-kg-class bomb centered; support-shipping/ammunition handling is the aim, not carrier search.",
+    "ingress": "pre-dawn low-level/twilight route using known atoll geometry; no broad target search.",
+    "recovery_policy": "Airframes are expendable after attack. Surviving crews are to alight/ditch at a distant prearranged rendezvous for submarine pickup rather than expose the boats to lengthy aircraft crane recovery close to Majuro."
+  },
+  "centerline_result": {
+    "aircraft_reaching_target_area": 5,
+    "weapon_releases": 4,
+    "Japanese_aircraft_lost_or_expended": 6,
+    "Japanese_aircrew": "4 crews recovered centerline; 2 crews lost/missing",
+    "US_damage": [
+      "USS Rainier (AE-5): one heavy bomb hit/very damaging near-hit sequence centered on cargo-handling/upper works; no magazine catastrophe. Ammunition issue operations stop and the ship becomes locally campaign-out for several days.",
+      "One additional fleet-service/oiler target receives moderate splinter/blast damage and leaves the immediate issue line for roughly 2-4 days.",
+      "Ammunition handling/lighter/shore-transfer area suffers a secondary fire/explosion; working 180-320 tons of ammunition/special stores destroyed or rendered unusable."
+    ],
+    "US_air_defense": "Radar/visual warning is short. AA and hurried CAP down/disable part of the raid, but the unexpected submarine-aircraft axis prevents a clean interception before all attackers reach weapon range.",
+    "I400_I401": "Both boats escape the immediate search centerline; no hull loss. Surprise value is consumed and future US anchorage ASW/CAP standards rise sharply."
+  },
+  "operational_effect_on_FORAGER": {
+    "ammunition_issue": "Historical 1,600-ton Rainier issue cycle is truncated; branch working issue before/around the strike is roughly 850-1150 tons, with remaining requirements cross-loaded from base/service stocks and other auxiliaries.",
+    "sortie_effect": "FORAGER is NOT cancelled and 15 Jun D-Day is NOT moved. TF58 departure becomes slightly staggered: first elements can sail 6 Jun, while some groups/service-dependent ships lose roughly 8-18 hours to cross-loading/recheck. Reassembly before the 11 Jun strike remains feasible.",
+    "strategic_value": "The raid proves the system and imposes real logistics/security friction, but six aircraft cannot paralyze the US Central Pacific logistics network."
+  },
+  "future_effect": "US forces now treat submarine-launched aircraft as an operational threat. Majuro/Eniwetok anchorages increase radar/CAP/ASW readiness; future I-400 surprise attacks face materially lower expected value."
+}

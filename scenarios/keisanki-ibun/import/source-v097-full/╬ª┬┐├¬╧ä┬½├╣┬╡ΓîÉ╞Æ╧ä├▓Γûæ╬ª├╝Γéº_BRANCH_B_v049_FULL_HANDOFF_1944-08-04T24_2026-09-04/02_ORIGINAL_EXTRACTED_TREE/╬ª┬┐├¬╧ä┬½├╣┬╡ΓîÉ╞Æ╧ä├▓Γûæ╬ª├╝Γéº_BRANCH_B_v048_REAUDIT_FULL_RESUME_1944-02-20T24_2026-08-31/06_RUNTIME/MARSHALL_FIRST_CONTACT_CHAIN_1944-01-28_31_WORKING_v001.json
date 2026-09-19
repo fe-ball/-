@@ -1,0 +1,72 @@
+{
+  "revision": "v001",
+  "id": "MARSHALL_FIRST_CONTACT_CHAIN_1944-01-28_31_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "discussion_clock_end": "1944-01-31T12:00:00+12:00",
+  "purpose": "Advance the Branch Flintlock-equivalent warning chain from strategic/submarine warning to the first firm visual contact on a US fast-carrier task group without yet creating a weapon-quality strike solution.",
+  "authority_note": "CURRENT authority remains 1944-01-01. This file realizes only WORKING discussion events through 31 Jan noon local Marshall time.",
+  "historical_sanity_anchors": [
+    {
+      "anchor": "Historical TF58 trained/fueled through 25-28 Jan and approached under radar silence/poor weather; historical groups reached launch points without useful Japanese detection."
+    },
+    {
+      "anchor": "Historical Kwajalein account records a single unidentified aircraft passing roughly 50 miles astern of one carrier group before dawn 29 Jan, a useful near-miss sanity anchor rather than a Branch contact."
+    },
+    {
+      "anchor": "Historical 29 Jan launch points were about 100 miles from target; Branch operation remains shifted several days later by the existing v034/v037 mobilization ledger."
+    }
+  ],
+  "events": [
+    {
+      "time": "1944-01-28 afternoon-night",
+      "ground_truth": "US three-TG fast-carrier force continues approach cycle with fueling/training completed or completing; Japanese Marshall network disperses aircraft, raises staged alert and narrows search arcs using submarine/DF/traffic fusion.",
+      "japanese_knowledge": "HIGH major Central-Pacific operation; MEDIUM-HIGH Marshalls; no carrier fix.",
+      "result": "No carrier visual credited."
+    },
+    {
+      "time": "1944-01-29",
+      "ground_truth": "US carrier groups and assault/support echelons remain separated enough that auxiliary/transport contacts do not reveal the fast-carrier centroid.",
+      "japanese_knowledge": "A further outer-submarine/logistics report strengthens Kwajalein/Roi as likely primary objective but cannot identify a carrier group.",
+      "result": "Strategic warning strengthens; no carrier GO."
+    },
+    {
+      "time": "1944-01-30 evening",
+      "ground_truth": "One outer/middle Japanese submarine receives a strong high-speed multi-shaft sound picture in the narrowed southwest/south approach corridor and obtains a brief poor periscope glimpse of a large fast formation.",
+      "report": "Large fast force, at least one probable flat-top and heavy escort; north-to-northeast course; speed estimate 20-24 kt; position uncertainty tens of nautical miles.",
+      "confidence": "MEDIUM probable carrier group, not firm enough for mass air weapon release.",
+      "result": "HQ shifts 31 Jan dawn/morning long-range search toward the reported motion cone and reserves 1-2 confirmation sorties."
+    },
+    {
+      "time": "1944-01-31 10:25-10:45",
+      "ground_truth": "A Taroa-centered long-range search aircraft, operating on the submarine-cued corridor, visually acquires one US fast-carrier TG roughly 300-380 nmi south-to-southwest of Maloelap/Taroa. Broken cloud/squalls and US CAP limit observation time.",
+      "report": "At least two flight decks observed or strongly identified, multiple heavy surface escorts, numerous destroyers; course generally north/northeast; speed about 20-24 kt. Exact hull identities and total TF58 composition unresolved.",
+      "report_delivery": "Structured contact report transmitted before US CAP forces the scout away; scout is lost or fails to return centered, but the report is received.",
+      "confidence": "HIGH one fast-carrier group exists on Marshall approach; MEDIUM-HIGH larger multi-group operation; exact strike launch point still unknown."
+    },
+    {
+      "time": "1944-01-31 11:00-12:00",
+      "ground_truth": "Japanese confirmation search launches, but immediate recontact is denied by weather, US CAP and US course adjustment/EMCON.",
+      "result": "The firm carrier contact is real but ages rapidly; no weapon-quality night-strike or first-line-carrier strike solution is granted."
+    }
+  ],
+  "operational_effects": {
+    "Japan": [
+      "Marshall bases shift from high strategic alert to carrier-confirmed battle alert.",
+      "Aircraft remain dispersed; Taroa/Roi Raiden staged-readiness is activated but no aircraft are added.",
+      "Night maritime-strike crews and reconnaissance aircraft are put on launch-ready posture pending fresh recontact.",
+      "SenTaka/middle submarines receive a time-stamped moving intercept corridor rather than a generic patrol box.",
+      "Shokaku/Zuikaku/Hiryu carrier force remains GO-WITHHELD: one TG contact is insufficient to establish total US mission split and safe positive-EV geometry."
+    ],
+    "US": [
+      "Loss/forcing-off of Japanese scout makes compromise of tactical surprise plausible to US commanders.",
+      "US CAP/ASW readiness increases; local course/launch-point adjustment is allowed.",
+      "Operation is not aborted; if fuel/weather permit, first suppression strike planning biases toward the early edge of the existing 2-4 Feb window."
+    ],
+    "information_guard": [
+      "A carrier-group visual is not a continuous track.",
+      "Do not convert two observed flight decks into the total 11-deck TF58 OOB.",
+      "Do not award a Japanese strike until a fresh enough recontact survives launch-to-target aging."
+    ]
+  },
+  "next_exact_action": "Resolve the 31 Jan afternoon/night recontact attempt by submarine and air assets. If a fresh carrier-group fix is obtained, adjudicate the first Japanese land-based night/predawn maritime strike package. If not, carry warning into the US first suppression strike, centered toward 2 Feb after tactical surprise is compromised."
+}

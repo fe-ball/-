@@ -1,0 +1,40 @@
+case	item	value	unit	status	note
+B5N2_HISTORICAL_ANCHOR	length	10.3	m	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	span	15.518	m	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	wing_area	37.7	m2	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	aspect_ratio	6.387		EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	empty_weight	2279	kg	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	normal_loaded_weight	3800	kg	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	max_takeoff_weight	4100	kg	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	takeoff_power	1000	hp	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	rated_power_3000m	970	hp	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	prop_diameter	3.2	m	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	max_speed_3600m	378	km/h	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	cruise_speed_3000m	259	km/h	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	normal_range	978	km	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	ferry_range	1991	km	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	service_ceiling	8260	m	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	time_to_3000m	7.67	min	EXTERNAL-HISTORICAL	
+B5N2_HISTORICAL_ANCHOR	calibrated_cd0	0.0283		DERIVED	calibrated to 378 km/h @3600 m using prop efficiency 0.80; model coordinate only
+B5N2_HISTORICAL_ANCHOR	fuel_capacity_external	1160	L	EXTERNAL-HISTORICAL-BAND	capacity source is less secure than primary performance anchors; do not equate full tank with torpedo mission fuel
+B5N2_WORLDLINE_EX2	max_speed_3600m	382-384	km/h	CURRENT-DERIVED	historical 378 + current EX0->EX2 physical delta 4-6 km/h on applicable later lots
+B5N2_WORLDLINE_EX2	cruise_speed	260-264	km/h	H->A	headline cruise change intentionally small; QC/exhaust margin may be spent on fuel/thermal margin
+B5N2_WORLDLINE_EX2	normal_range	~980-1020	km	H->A	no free large range multiplier; same airframe and fuel architecture
+B5N2_WORLDLINE_EX2	torpedo_release_1941	airframe-limited; Type91 envelope 400-430	km/h	CURRENT-INHERITANCE	1941 high-speed torpedo envelope exceeds B5N low-altitude attack speed, so torpedo ceases to be main speed limiter in ordinary sea attack
+B5N2_E5ST_TP_DERIVATIVE	engine	E5-S-T		CURRENT-ENGINE/H->A-AIRFRAME	
+B5N2_E5ST_TP_DERIVATIVE	engine_power	952 quantity-continuous / 1000 normal / 1050-1060 selected	hp	CURRENT-ENGINE	
+B5N2_E5ST_TP_DERIVATIVE	installed_powerplant_mass	510-640; center 575	kg	CURRENT-ENGINE	
+B5N2_E5ST_TP_DERIVATIVE	estimated_empty_weight	2170-2210; center 2190	kg	H->A	radial/cowl removal saves mass, but intake/exhaust/firewall/starter integration returns part of it
+B5N2_E5ST_TP_DERIVATIVE	propeller	3.2-3.3 m 3-blade constant-speed; existing gear geometry retained		H->A	no large-diameter prop required at same 1000 hp rating
+B5N2_E5ST_TP_DERIVATIVE	parasite_drag_change	-4 to -7	percent	H->A	smaller frontal package partly offset by inlet/exhaust/installation drag
+B5N2_E5ST_TP_DERIVATIVE	clean_max_speed_0m	350-353; center 351	km/h	H->A	altitude-power map is bracketed because no current E5-S-T aircraft altitude map is closed
+B5N2_E5ST_TP_DERIVATIVE	clean_max_speed_1000m	347-354; center 350	km/h	H->A	altitude-power map is bracketed because no current E5-S-T aircraft altitude map is closed
+B5N2_E5ST_TP_DERIVATIVE	clean_max_speed_3000m	339-354; center 346	km/h	H->A	altitude-power map is bracketed because no current E5-S-T aircraft altitude map is closed
+B5N2_E5ST_TP_DERIVATIVE	clean_max_speed_3600m	335-354; center 345	km/h	H->A	altitude-power map is bracketed because no current E5-S-T aircraft altitude map is closed
+B5N2_E5ST_TP_DERIVATIVE	normal_torpedo_range	~680-780	km	H->A	same-size mission; part-load TP SFC 0.47-0.55 kg/kWh vs piston effective ~0.29-0.33; lower drag and modest mass saving cannot recover the fuel penalty
+B5N2_E5ST_TP_DERIVATIVE	ferry_range	~1350-1600	km	H->A	same wing tank volume with denser kerosene partly offsets higher SFC
+B5N2_E5ST_TP_DERIVATIVE	takeoff_landing	small improvement or unchanged		H->A	weight saving may shorten roll, but same wing/prop/MTOW and carrier limits prevent a dramatic change
+B5N2_E5ST_TP_DERIVATIVE	carrier_value	kerosene / lower vibration / smaller nose / test value		DERIVED	
+B5N2_E5ST_TP_DERIVATIVE	carrier_cost	two-fuel deck logistics + turbine intake/salt/FOD/start/maintenance + GT opportunity cost		DERIVED	
+B5N2_E5ST_TP_DERIVATIVE	procurement_verdict	2-4 conversion/test aircraft plausible; no serial re-engine program		CLOSED-RECOMMENDATION	B5N2 piston is already mature and range-efficient; TP benefits do not pay for lost radius and conversion burden
+B5N2_E5ST_TP_DERIVATIVE	technology_inheritance	feed B6N / naval TP / torpedo release / carrier turbine qualification		CLOSED-RECOMMENDATION	

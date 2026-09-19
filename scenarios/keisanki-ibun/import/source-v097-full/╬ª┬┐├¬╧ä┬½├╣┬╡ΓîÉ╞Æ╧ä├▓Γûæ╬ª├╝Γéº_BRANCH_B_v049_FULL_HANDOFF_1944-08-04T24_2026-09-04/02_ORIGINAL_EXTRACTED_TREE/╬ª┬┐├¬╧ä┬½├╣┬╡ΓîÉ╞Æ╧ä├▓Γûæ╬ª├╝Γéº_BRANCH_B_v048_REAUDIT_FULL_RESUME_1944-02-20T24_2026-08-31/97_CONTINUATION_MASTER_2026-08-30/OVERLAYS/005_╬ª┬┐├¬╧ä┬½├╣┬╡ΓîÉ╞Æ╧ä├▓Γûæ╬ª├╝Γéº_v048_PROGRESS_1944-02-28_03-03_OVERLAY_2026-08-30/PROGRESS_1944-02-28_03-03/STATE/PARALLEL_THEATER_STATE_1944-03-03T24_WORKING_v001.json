@@ -1,0 +1,30 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-03-03T24_WORKING_v001",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_CURRENT_OVERLAY",
+  "as_of": "1944-03-03T24:00:00+09:00",
+  "global_frontier": "1944-03-03T24",
+  "merge_policy": "Only events through 3 Mar T24 are visible. 4-Mar 705/706 and 331 organizational changes, I-162 Fort McCloud attack, and 8-Mar Operation INITIAL remain future.",
+  "Indian_Ocean": {
+    "Eastern_Fleet": "Operation SLEUTH closed with no enemy ship found. Illustrious is back at Trincomalee on 3 Mar; Gambia reached Fremantle 2 Mar; Sussex remains on separate return toward Fremantle.",
+    "battle_squadron": "Destroyer scarcity still limits heavy-ship sea time. 1-Mar exercise is cancelled after a submarine-periscope report; 2-Mar destroyers conduct a hunt southwest of Ceylon.",
+    "Japan_surface": "Historical SA No.1 is CANCELLED in current Branch state. Tone/Chikuma remain Combined-Fleet/mobile-fleet scout/screen assets on the Palau-western Philippines axis; Aoba/Kinu/Oi remain local SW Area assets. Oyodo group stays a separate contact reserve.",
+    "Japan_air": "705 main long-range bomber flight element is moving east toward Palau/Peleliu reorganization; western long-range search depth falls to about 1-3 sorties/day by 3 Mar. 331 remains west; Tokai/MAD remains active; Ka-go local zero.",
+    "Japan_submarines": "I-37 sinks Ascot 29 Feb and reconnoiters Chagos 3 Mar; I-162/I-166 remain active. Possible Ceylon periscope identity is not promoted to confirmed I-162."
+  },
+  "Central_Pacific": {
+    "mobile_fleet": "First Mobile Fleet reorganization on/around 1 Mar strengthens retention of first-line scout cruisers and carrier-screen assets; exact later fleet concentration at Lingga remains a separate basing decision.",
+    "Truk": "Remains damaged air/recon/submarine staging base, not a fleet hub.",
+    "Palau_Peleliu": "Begins receiving/reorganizing the transferred 705 long-range bomber element; immediate sortie generation is limited by ferry fatigue and ground-support lag.",
+    "Eniwetok": "US secured; Engebi limited fighter/search staging continues. No new combat adjudication in this window."
+  },
+  "allocation_posting": {
+    "Tone_to_Indian_Ocean": 0,
+    "Chikuma_to_Indian_Ocean": 0,
+    "Aoba_surface_raid_departure": 0,
+    "705_eastbound_physical_center": 26,
+    "705_western_residual_physical_center": 13,
+    "Ka_go_Indian_Ocean": 0
+  },
+  "next_exact_action": "Advance 4-8 Mar. First post 4-Mar 705/706 and 331 organizational changes and I-162 Fort McCloud event; then decide whether Eastern Fleet Operation INITIAL on 8 Mar still launches under Branch threat/readiness. Separately decide whether the Japanese Mobile Fleet begins a southward fuel/training concentration toward Lingga as a fleet move, not as SA No.1."
+}

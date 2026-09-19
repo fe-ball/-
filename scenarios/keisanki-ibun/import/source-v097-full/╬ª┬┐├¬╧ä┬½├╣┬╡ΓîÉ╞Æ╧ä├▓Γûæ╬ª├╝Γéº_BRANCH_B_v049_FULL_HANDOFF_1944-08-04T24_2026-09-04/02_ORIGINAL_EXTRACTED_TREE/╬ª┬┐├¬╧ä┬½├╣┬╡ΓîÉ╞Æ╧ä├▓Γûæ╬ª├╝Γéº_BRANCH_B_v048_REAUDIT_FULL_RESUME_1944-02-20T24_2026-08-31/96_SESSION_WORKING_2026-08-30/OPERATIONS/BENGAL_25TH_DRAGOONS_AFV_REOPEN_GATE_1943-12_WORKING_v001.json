@@ -1,0 +1,56 @@
+{
+  "revision": "v001",
+  "id": "BENGAL_25TH_DRAGOONS_AFV_REOPEN_GATE_1943-12_WORKING_v001",
+  "status": "WORKING_REOPEN_REQUIRED_NOT_CURRENT",
+  "supersedes_local_assumption": "BENGAL_ARAKAN_LAND_VEHICLE_EVENT_LEDGER_1943-10_12_v001 allied_AFVs='limited; retain 5-10 loss band; no new tank duel'",
+  "historical_anchors": {
+    "25th_Dragoons_equipment": "M3 Lee/Grant-class 30-ton medium tanks with 75mm hull gun + 37mm turret gun",
+    "movement": [
+      "British official history: 25th Dragoons secretly disembarked by night near Ukhia on 1943-12-02.",
+      "254th Indian Tank Brigade history: 25th Dragoons + engineer troop + motor infantry company detached to XV Corps effective 1943-12-05.",
+      "Personal/regimental evidence places the regiment moving through the Chittagong-Arakan route in late 1943."
+    ],
+    "support": "Engineer support included route/bridge preparation; historical employment later demonstrated effective jungle bunker-busting."
+  },
+  "branch_collision": {
+    "Japanese_state": [
+      "Ukhia captured centered 1943-11-14",
+      "Cox's Bazar captured centered late 1943-11-20",
+      "Dohazari attack begins 1943-12-02",
+      "Chittagong falls centered late 1943-12-14 in current settlement"
+    ],
+    "consequence": "Historical Ukhia landing route is unavailable. British command must reroute, delay, or commit the incoming regiment defensively through Chittagong/Feni-side LOC.",
+    "mandatory": "25th Dragoons cannot be omitted merely because the branch offensive is earlier; its already-scheduled transfer is an independent Allied reinforcement clock."
+  },
+  "working_force_gate_not_yet_settled": {
+    "regimental_physical_tank_scale": "roughly regiment-sized; exact dated tank return still to be sourced",
+    "branch_arrival_to_Chittagong_Feni_area": "likely partial, staggered, and route-constrained in early/mid December",
+    "combat_ready_candidate_band_for_first_contact": [
+      12,
+      30
+    ],
+    "note": "This is a provisional event band, not a locked OOB. Exact squadron arrival/shipping/rail/bridge diary must be rebuilt."
+  },
+  "combat_implications": [
+    "Japanese 55th Division has no centered tank regiment, so this is mainly Allied medium tanks versus Japanese infantry AT guns, artillery, mines, engineers and air attack.",
+    "M3 Lee/Grant 75mm HE materially strengthens British counterattack and bunker/field-position destruction where roads/bridges permit.",
+    "30-ton weight, high silhouette, limited hull-gun traverse, bridges, paddy/mud and Japanese air/artillery prevent unrestricted maneuver.",
+    "Japanese 47mm-class AT fire can be dangerous from flank/close-range geometry but is not a reliable frontal solution; 37mm-class weapons are much less satisfactory.",
+    "British use can delay or locally reverse Japanese road-axis advances even without changing the whole campaign."
+  ],
+  "settlement_reopen_scope": {
+    "must_recalculate": [
+      "Dohazari-Sangu-Patiya phase from 1943-12-02",
+      "Karnaphuli/Chittagong defense",
+      "British/Commonwealth AFV losses",
+      "Japanese casualties and AT/artillery losses",
+      "Chittagong capture date and probability",
+      "captured/damaged Allied medium-tank technical intelligence"
+    ],
+    "do_not_reopen_yet": [
+      "Naf-Teknaf-Ukhia phase before late Nov",
+      "Cox's Bazar capture unless reinforcement timing back-propagates operational decisions",
+      "GALVANIC naval/air result"
+    ]
+  }
+}

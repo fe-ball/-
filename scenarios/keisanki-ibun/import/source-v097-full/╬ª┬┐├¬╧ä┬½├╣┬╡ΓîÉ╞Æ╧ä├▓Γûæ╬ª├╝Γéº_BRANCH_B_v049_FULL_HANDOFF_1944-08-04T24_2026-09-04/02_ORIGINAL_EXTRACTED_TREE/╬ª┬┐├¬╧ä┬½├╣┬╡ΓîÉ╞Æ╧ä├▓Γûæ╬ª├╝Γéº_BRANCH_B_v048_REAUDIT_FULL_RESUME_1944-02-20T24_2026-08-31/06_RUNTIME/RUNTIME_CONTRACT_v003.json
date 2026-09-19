@@ -1,0 +1,44 @@
+{
+  "revision": "v003",
+  "purpose": "Minimum contract before an event can be executed; v003 adds mandatory combat-capability completeness checks and explicit event-local input handling.",
+  "inputs_required": [
+    "checkpoint id",
+    "event date/time window",
+    "event profile",
+    "participating formations/units if known",
+    "TECH baseline",
+    "state ledger/checkpoint delta",
+    "combat capability factor index/matrix for combat or operational-gate profiles",
+    "event-local combat inputs for runtime-required factors before final combat result"
+  ],
+  "steps": [
+    "1 Resolve the requested checkpoint through the current checkpoint index/graph and verify execution_valid ancestry.",
+    "2 Read TECH baseline, PREWAR baseline and branch overrides from that checkpoint; do not hard-code baseline revisions in generators.",
+    "3 Resolve the event profile and mandatory semantic state requirements against checkpoint-local state first.",
+    "4 Pull TECH entries by tags/domain and apply explicit runtime gates or conservative valid_from date inference.",
+    "5 Resolve each mandatory domain as ACTIVE / NO_RELEVANT_DELTA / NOT_YET_MATURE / UNKNOWN.",
+    "6 Merge effects by causal stage; same-intermediate effects integrate once, distinct stages may compound.",
+    "7 Apply threshold, allocation/reallocation, schedule and enemy-adaptation checks.",
+    "8 Keep provisional bands visible; do not silently convert to point estimates.",
+    "9 Emit state transitions/checkpoint delta with provenance and preserve the exact checkpoint/baseline/profile revisions used.",
+    "9a For combat/gate adjudication, load combat_resolution_support from the selected checkpoint and resolve every mandatory capability factor.",
+    "9b Keep structural execution validity separate from combat-local readiness: a handout may be generated while combat_resolution_ready=false, but final combat outcome must not be issued with silent mandatory-factor omissions."
+  ],
+  "execution_blockers": [
+    "mandatory domain unresolved UNKNOWN when material to result and no bounded model exists",
+    "gated TECH value used as accepted",
+    "blocked checkpoint ancestry used as current state",
+    "stale superseded execution artifact used contrary to manifest",
+    "historical outcome used directly as upstream input",
+    "event generator ignores or only relabels the requested checkpoint without consuming its baseline/state",
+    "current event profile/domain map is older than the current-version registry",
+    "later-dated TECH entry is treated as mature before its machine/date gate",
+    "combat/gate result issued without loading checkpoint combat_resolution_support",
+    "mandatory combat factor silently omitted or defaulted to neutral/zero"
+  ],
+  "non_blocking_uncertainty": [
+    "bounded unit strength with interval",
+    "provisional effect magnitude when sensitivity band can be carried",
+    "citation incompleteness that does not alter runtime state"
+  ]
+}

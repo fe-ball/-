@@ -1,0 +1,84 @@
+{
+  "revision": "v001",
+  "id": "CATCHPOLE_ENIWETOK_ISLAND_1944-02-22_23_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "assault_start": "1944-02-22T09:15",
+  "why_not_repeat_historical_underbombardment": {
+    "historical": "The short 19-Feb bombardment left many positions intact and the 106th RCT bogged down.",
+    "branch": "GALVANIC/FLINTLOCK learning plus the already-delayed Catchpole clock makes Hill/Watson less willing to trade hours of schedule for an underprepared landing.",
+    "result": "preparatory fire begins earlier and lasts roughly 2-3 hours with planned pauses for carrier strikes; still not a Parry-scale saturation bombardment."
+  },
+  "Japanese_defense": {
+    "physical_band": [
+      790,
+      840
+    ],
+    "Type95": 3,
+    "branch_strength": "better mortar registration, ammo dispersion, local communications and tank dispatchability",
+    "radar_precision": 0
+  },
+  "landing": {
+    "H_hour": "09:15 centered",
+    "terrain": "eight-foot-class beach bluff/sand rise still blocks LVT movement and creates congestion; this physical geometry is not solved by better US doctrine",
+    "US_progress": "initial beachhead secure but inland movement slows under MG/mortar fire"
+  },
+  "counterattacks": {
+    "22Feb_afternoon": {
+      "Japanese_personnel_band": [
+        240,
+        330
+      ],
+      "Type95_committed": [
+        1,
+        2
+      ],
+      "result": "repulsed by Army infantry, Marine reserve, M4s, mortars/artillery and naval call-fire; causes real local disruption but no beachhead collapse"
+    },
+    "22_23Feb_night": {
+      "Japanese_personnel_band": [
+        120,
+        190
+      ],
+      "result": "penetrates one local perimeter/command-support area in small packets but is contained; no operational breakthrough",
+      "US_night_advantage": "illumination, shipboard/shore communications and pre-registered artillery improve response; radar is warning/coordination support, not foxhole detection"
+    },
+    "23Feb_dusk": {
+      "organized_attack": false,
+      "result": "C2 fragmentation leaves only 20-60-man infiltrator groups and isolated positions"
+    }
+  },
+  "armor_exchange": {
+    "Japanese_Type95_irrecoverable": 3,
+    "US_M4_irrecoverable_enemy_fire_center": 0,
+    "US_M4_mission_kill_repairable_band": [
+      1,
+      2
+    ],
+    "US_LVT_irrecoverable_band": [
+      0,
+      1
+    ],
+    "note": "reliability makes the three Japanese tanks tactically present for longer, not survivable after loss of the island"
+  },
+  "organized_resistance_end": {
+    "center": "1944-02-23T19:20",
+    "band": "1944-02-23T16:30..1944-02-24T02:00",
+    "night_window": "crosses sunset at center; only fragmented infiltration after ~20:00, no new large counterattack"
+  },
+  "casualties_working": {
+    "US_KWM_band": [
+      210,
+      310
+    ],
+    "US_center": 255,
+    "Japan_dead_band": [
+      760,
+      810
+    ],
+    "Japan_captured_band": [
+      15,
+      40
+    ]
+  },
+  "Parry_effect": "The 22d Marines reembark/reorganize during 22-23 Feb and Parry saturation fires begin while Eniwetok mop-up is still ending; Parry assault remains feasible on 25 Feb."
+}

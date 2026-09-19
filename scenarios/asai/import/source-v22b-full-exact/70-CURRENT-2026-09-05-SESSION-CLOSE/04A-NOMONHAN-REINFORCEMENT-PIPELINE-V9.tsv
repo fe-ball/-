@@ -1,0 +1,8 @@
+date	flow	formation	worldline_center	low	high	location_effect	china_delta_immediate	status
+1939-08-19	avoided_extraction	Manchuria_donor_units	275	200	350	personnel retained in donor units	0	WORKING
+1939-08-19	in_pipeline_excess	23DIV_6ARMY	200	150	250	already moving/absorbed	0	WORKING
+1939-08-31	avoided_or_deferred_replacement	23DIV_7DIV	800	600	1000	Home/Manchuria pool	0	WORKING
+1939-09-15	transfer_pressure_reduction	23DIV_7DIV	4300	4100	4600	Home/Manchuria pool	0	WORKING
+1939-09-15	worldline_replacement_flow	23DIV	6350	6200	6500	23DIV rebuild	0	WORKING
+1939-09-15	worldline_replacement_flow	7DIV	4550	4400	4700	7DIV readiness	0	WORKING
+1939-10-31	visible_saved_pool	Imperial_replacement_system	3400	3000	3800	classification OPEN	OPEN	PROVISIONAL

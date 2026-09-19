@@ -1,0 +1,63 @@
+{
+  "revision": "v0.03-opening-executable",
+  "created": "2026-08-16",
+  "purpose": "authoritative opening-rerun package with repaired machine dependencies and executable interval-state handoff",
+  "authoritative_files": [
+    "OPENING_RERUN_PACKET_1941_v006.md",
+    "opening_state_1941-12-07_v006.json",
+    "opening_execution_state_v001.json",
+    "opening_technical_clock_guard_v001.json",
+    "prewar_concentration_accounting_v001.json",
+    "switch_registry_v010.json",
+    "MASTER_SWITCH_AUDIT_v010.md",
+    "MASTER_SWITCH_AUDIT_v010.csv",
+    "RERUN_GATE_MATRIX_v005.md",
+    "CONDITIONAL_POLICY_RESET_LEDGER_v001.md",
+    "LATER_SWITCH_PROVENANCE_AND_RELEASE_v007.md",
+    "SWITCH_AUDIT_COVERAGE_v001.md",
+    "MALAYA_PHASE0_OPENING_PACKET_v003.json",
+    "OPENING_DIVERGENCE_LEDGER_1941-12-07_08_v001.md",
+    "opening_divergence_ledger_1941-12-07_08_v001.json",
+    "MALAYA_OPENING_OOB_BASELINE_v001.md",
+    "malaya_opening_oob_baseline_v001.json",
+    "MALAYA_EVE_STATE_DERIVATION_v001.md",
+    "MALAYA_DEC8_LOWER_BOUND_CONSTRAINTS_v001.md",
+    "malaya_dec8_lower_bound_constraints_v001.json",
+    "PRECOMBAT_DIVERGENCE_ELIGIBILITY_MATRIX_v001.md",
+    "precombat_divergence_eligibility_v001.json",
+    "PREWAR_SOUTHERN_AIR_CONCENTRATION_1941-11-15_12-07_v001.md",
+    "prewar_southern_air_concentration_v001.json",
+    "MALAYA_PHASE1_1941-12-08_15_STATE_TRANSITION_v001.md",
+    "malaya_phase1_state_schema_v001.json",
+    "malaya_phase1_events_v001.json",
+    "state_transition_validator_v001.py",
+    "opening_state_validator_v004.py",
+    "validate_opening_package_v001.py",
+    "PEARL_STATE_TRANSITION_v001.md",
+    "pearl_state_transition_v001.json",
+    "SUBMARINE_OPENING_OOB_1941-12-08_v001.md",
+    "submarine_opening_oob_1941-12-08_v001.json",
+    "SURFACE_OPENING_BASELINE_v001.md",
+    "FLEET_ROSTER_SOURCE_AUDIT_v001.md",
+    "MARITIME_OPENING_SWITCH_REAUDIT_v001.md",
+    "_later_switch_candidates.txt"
+  ],
+  "precedence": {
+    "manifest": "AUTHORITATIVE_MANIFEST_v002 supersedes v001 as execution entry",
+    "opening_validator": "opening_state_validator_v004 supersedes v003 for execution",
+    "thrust_exhaust_clock": "opening_technical_clock_guard_v001 / switch_registry_v010 supersede older 51 timing language; opening state is TEST",
+    "old_output_bands": "diagnostic only; never scenario input"
+  },
+  "execution_start": {
+    "southern_air_concentration": "1941-11-15",
+    "global_war_opening": "1941-12-07/08",
+    "state_policy": "interval/UNKNOWN values permitted; lower bounds constrain events; no point-estimate imputation"
+  },
+  "residual_nonblocking_unknowns": [
+    "allocation/cause of 46 precombat concentration losses",
+    "allocation of first 148 Southern Army replacement shipment before Dec 8",
+    "Dec 7 eve exact serviceability and crew cohorts by Malaya unit",
+    "remaining surface-fleet individual opening availability only when a specific operation needs the hull",
+    "remaining submarine candidate exact opening availability beyond verified examples"
+  ]
+}

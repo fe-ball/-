@@ -1,0 +1,17 @@
+rank	scope	authority	note
+0	package	00-START-HERE-CURRENT.md	V13 entry point
+1	current state	PACKAGE-STATE-V13.tsv	V13 machine state
+2	prewar Asai helicopter / rotorcraft interaction	80-CURRENT-2026-09-08-HELICOPTER-CLOSE/	highest helicopter authority through 1941 planning
+3	fixed-wing development/procurement/OOB boundary	79-CURRENT-2026-09-08-FIXED-WING-PROCUREMENT-CLOSE/	V12 fixed-wing authority retained
+4	aircraft development / industrial base	78-CURRENT-2026-09-08-AIRCRAFT-DEVELOPMENT-CLOSE/	V11/V12 development base unless overridden
+5	session/combat state	77-CURRENT-2026-09-07-SESSION-CLOSE/	combat/session state inherited; no clock advance
+6	1940 combat gate	76-CURRENT-1940-WEAPON-GATE-V10/	mandatory before 1940 combat
+7	V10 technical addenda	75-CURRENT-TECHNICAL-ADDENDA-V10/	retained unless later current explicitly overrides
+8	China 1939	74-CURRENT-CHINA-1939-REPLAY-V10/	closed chronological replay
+9	Nomonhan	73-CURRENT-NOMONHAN-REVISED-V10/	revised closed branch
+10	retro airpower	72-CURRENT-RETRO-AIRPOWER-1938-1939/	current 1938-39 airpower corrections
+20	V9 technical control	71-CURRENT-TECHNICAL-CONTROL-V9/	retained technical base unless overridden
+90	old versions	all prior directories/files	provenance/comparator unless current chain points there
+99	post-V9 quarantine	90-PROVENANCE-SUPERSEDED-POST-V9/	not current
+100	aircraft hard quarantine	91-PROVENANCE-QUARANTINED-AIRCRAFT-RESEARCH-V11/	not current; no automatic import
+101	rotorcraft hard quarantine	92-PROVENANCE-QUARANTINED-ROTORCRAFT-RESEARCH-V13/	not current; no automatic import

@@ -1,0 +1,42 @@
+{
+  "revision": "v003",
+  "id": "RESUME_LOAD_ORDER_1944-02-21_v003",
+  "global_frontier": "1944-02-21T24",
+  "next_exact_action": "Run the Eastern Fleet / Andaman / Bay of Bengal 1944-02-19..22 event-local adjudication using the reconstructed air-capability bands, including Tokai/MAD ASW and explicit Ka-go local-zero. Do not advance the global clock before this cross-theater allocation is reconciled.",
+  "load_first": [
+    "97_SESSION_CLEANED_2026-08-30/MANIFEST/SESSION_MANIFEST_v004.json",
+    "97_SESSION_CLEANED_2026-08-30/MANIFEST/SESSION_DATA_AUDIT_v003.json",
+    "97_SESSION_CLEANED_2026-08-30/AIR/INDIAN_OCEAN_AIR_CAPABILITY_GAP_AUDIT_1944-02-21_v002.json",
+    "97_SESSION_CLEANED_2026-08-30/AIR/INDIAN_OCEAN_AIR_CAPABILITY_LEDGER_1944-02-19_22_WORKING_v002.json",
+    "97_SESSION_CLEANED_2026-08-30/AIR/JAPAN_INDIAN_OCEAN_ASW_AIR_CAPABILITY_1944-02-19_22_WORKING_v001.json",
+    "06_RUNTIME/PARALLEL_THEATER_STATE_1944-02-06T1800_WORKING_v002.json",
+    "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v002.json",
+    "06_RUNTIME/EASTERN_FLEET_MEDIUM_LIGHT_OOB_1944-01_WORKING_v001.json",
+    "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v006.json",
+    "06_RUNTIME/ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+    "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+    "95_AUDIT/FRONTIER_AND_EASTERN_FLEET_DATA_AUDIT_2026-08-29_v001.md",
+    "95_AUDIT/EASTERN_FLEET_MEDIUM_LIGHT_OOB_AUDIT_2026-08-29_v001.md",
+    "95_AUDIT/JAPAN_INDIAN_OCEAN_ORIGIN_ROUTE_AUDIT_1944-01_WORKING_v001.md",
+    "97_SESSION_CLEANED_2026-08-30/RULES_ASW/ASW_RETROACTIVE_AND_FUTURE_ACTIVITY_GUARD_1943_1944Q1_WORKING_v002.json",
+    "96_SESSION_WORKING_2026-08-30/RULES_ASW/CROSS_DOMAIN_CAMPAIGN_REAUDIT_GUARD_1944Q1_WORKING_v001.json"
+  ],
+  "crosscheck_before_merge": [
+    "96_SESSION_WORKING_2026-08-30/OPERATIONS/TRUK_HAILSTONE_DAY2_CLOSEOUT_1944-02-21_WORKING_v001.json",
+    "97_SESSION_CLEANED_2026-08-30/OPERATIONS/TRUK_HAILSTONE_WARNING_CHAIN_1944-02-15_20_WORKING_v002.json",
+    "96_SESSION_WORKING_2026-08-30/OPERATIONS/CATCHPOLE_PREASSAULT_CROSS_DOMAIN_1944-02-20_21_WORKING_v001.json",
+    "96_SESSION_WORKING_2026-08-30/OPERATIONS/CATCHPOLE_ENGEBI_1944-02-21_WORKING_v001.json",
+    "96_SESSION_WORKING_2026-08-30/OPERATIONS/CATCHPOLE_ENIWETOK_ISLAND_1944-02-22_23_WORKING_v001.json",
+    "96_SESSION_WORKING_2026-08-30/OPERATIONS/CATCHPOLE_PARRY_CLOSEOUT_1944-02-23_27_WORKING_v001.json",
+    "97_SESSION_CLEANED_2026-08-30/ARMOR/JAPANESE_ARMOR_NATIONAL_CHECKPOINT_1944-02-21_WORKING_v002.json"
+  ],
+  "hold_until_later": [
+    "Bengal 25th Dragoons local re-adjudication",
+    "China/Five-Go armor residual tightening",
+    "Jan-Jun 1944 armor production/development wallet",
+    "Marianas/Saipan future gates"
+  ],
+  "clock_guard": "Catchpole files dated after 21 Feb are resolved future-local nodes only. They may be merged after Eastern Fleet/Andaman allocation is reconciled, not used to assert the global date is already 27 Feb.",
+  "supersedes": "97_SESSION_CLEANED_2026-08-30/MANIFEST/RESUME_LOAD_ORDER_v002.json",
+  "air_capability_guard": "THEATER RECONSTRUCTION CLOSED. Event-local weather/contact/radius/tasking gates remain mandatory; unknown event-time readiness is sampled/banded, not silently zeroed or exacted."
+}

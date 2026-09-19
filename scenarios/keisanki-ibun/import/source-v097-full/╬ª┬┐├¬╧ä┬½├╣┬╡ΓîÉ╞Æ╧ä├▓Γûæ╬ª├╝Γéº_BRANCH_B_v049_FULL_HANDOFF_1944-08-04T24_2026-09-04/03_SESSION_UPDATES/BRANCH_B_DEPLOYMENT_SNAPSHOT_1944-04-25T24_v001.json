@@ -1,0 +1,232 @@
+{
+  "id": "BRANCH_B_DEPLOYMENT_SNAPSHOT_1944-04-25T24_v001",
+  "status": "WORKING_CURRENT_DEPLOYMENT_SNAPSHOT",
+  "frontier": "1944-04-25T24:00",
+  "clock_advance": false,
+  "commands": {
+    "Combined_Fleet": "Yamamoto Isoroku",
+    "Central_Pacific_Area_Fleet": "Koga Mineichi WORKING CURRENT",
+    "31st_Army": "Hideyoshi Obata",
+    "First_Mobile_Fleet": "Ozawa Jisaburo WORKING CURRENT",
+    "carrier_tactical_layer": "Yamaguchi Tamon WORKING CURRENT",
+    "First_Fleet_night_surface": "Nagumo Chuichi WORKING CURRENT",
+    "Second_Fleet": "Kurita Takeo"
+  },
+  "Marianas": {
+    "Saipan": {
+      "present": [
+        "31st Army HQ",
+        "Central Pacific naval command layer",
+        "8th Expeditionary Unit 3800-4200",
+        "9th Tank Regiment Saipan allocation"
+      ],
+      "tanks": {
+        "physical": [
+          50,
+          56
+        ],
+        "serviceable": [
+          46,
+          53
+        ],
+        "combat_ready": [
+          42,
+          49
+        ]
+      },
+      "43d_first_echelon": "EN ROUTE 5500-7000; ETA 27 Apr-1 May",
+      "maturity": [
+        2.7,
+        3.1
+      ]
+    },
+    "Tinian": {
+      "present": "29th Division detached 50th Infantry Regiment-level force + naval/base personnel WORKING CURRENT",
+      "role": "aviation redundancy",
+      "tank_guard": "separate attached tank-company ledger; do not add to 9th Tank Regiment"
+    },
+    "Guam": {
+      "present": "29th Division main concentration WORKING CURRENT + existing garrison",
+      "working_structure": [
+        "29th Division HQ",
+        "38th Infantry Regiment-level mass",
+        "18th Infantry Regiment-level/divisional mass",
+        "divisional services"
+      ],
+      "tanks": {
+        "physical": [
+          26,
+          31
+        ],
+        "serviceable": [
+          23,
+          29
+        ],
+        "combat_ready": [
+          20,
+          26
+        ]
+      },
+      "maturity": [
+        2.5,
+        2.9
+      ]
+    },
+    "air": {
+      "physical": [
+        158,
+        198
+      ],
+      "serviceable": [
+        124,
+        155
+      ],
+      "immediate_ready": [
+        96,
+        120
+      ],
+      "fighter_ready": [
+        58,
+        74
+      ],
+      "attack_recon_seaplane_ready": [
+        38,
+        50
+      ]
+    }
+  },
+  "Palau": {
+    "ground": "14th Division physically present and integrated; exact other brigade naming open",
+    "commander": "Sadae Inoue working",
+    "maturity": [
+      2.8,
+      3.2
+    ],
+    "Peleliu_selected": [
+      3.3,
+      3.6
+    ],
+    "air_last_full_audit_15Apr": {
+      "physical_recovering": [
+        75,
+        100
+      ],
+      "serviceable": [
+        50,
+        70
+      ],
+      "immediate_ready": [
+        35,
+        50
+      ],
+      "scope": "Palau+Yap+Woleai"
+    }
+  },
+  "Truk": {
+    "ground": "52d Division + existing garrison; 8th Expeditionary Unit absent/diverted Saipan",
+    "air": {
+      "physical_recovering": [
+        20,
+        32
+      ],
+      "serviceable": [
+        13,
+        23
+      ],
+      "immediate_ready": [
+        9,
+        16
+      ]
+    },
+    "role": "radio/weather/submarine/recon; not main fleet/air intervention base"
+  },
+  "Japan_mobile_fleet": {
+    "carriers": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu",
+      "Taiho"
+    ],
+    "posture": "Lingga-Celebes-Davao southern belt",
+    "four_core_ready": [
+      270,
+      296
+    ],
+    "four_core_one_cycle": [
+      170,
+      200
+    ],
+    "Taiho_ready": [
+      61,
+      72
+    ],
+    "five_deck_one_cycle": [
+      210,
+      245
+    ],
+    "repeat_cycle": "PARTIAL"
+  },
+  "Japan_heavy_surface": {
+    "physical_available": [
+      "Yamato",
+      "Musashi",
+      "Nagato",
+      "Kongo",
+      "Hiei",
+      "Kirishima",
+      "Haruna"
+    ],
+    "posture": "west/south strategic wallet",
+    "exact_25Apr_anchorages": "OPEN"
+  },
+  "reinforcement_pipeline": {
+    "delivered": [
+      "29th Division major concentration Guam",
+      "50th Regt-level detachment Tinian",
+      "8th Expeditionary Unit Saipan",
+      "9th Tank Regiment Saipan/Guam",
+      "14th Division Palau"
+    ],
+    "at_sea": [
+      "43d Division first echelon 5500-7000"
+    ],
+    "planned": [
+      "43d later echelon"
+    ],
+    "contingency": [
+      "one additional division-equivalent earmark only"
+    ]
+  },
+  "US": {
+    "fast_decks": {
+      "CV": 7,
+      "CVL": 6,
+      "total": 13
+    },
+    "pre_Truk_ready_aircraft": [
+      710,
+      800
+    ],
+    "Truk_raid_committed_decks": [
+      7,
+      8
+    ],
+    "Truk_raid_aircraft": [
+      430,
+      515
+    ],
+    "Eniwetok": "operational forward air/logistics/B-24 stepping node",
+    "FORAGER_assault_assembly": "not yet reconciled"
+  },
+  "open_deployment_questions": [
+    "Saipan detailed Army/Navy OOB",
+    "Guam expeditionary-unit reorganization timing",
+    "Palau other local brigades/base forces",
+    "Yap/Woleai garrison redesignations",
+    "25-Apr western Carolines air redistribution",
+    "heavy surface hull-by-hull anchorage",
+    "US post-Truk exact carrier-air readiness",
+    "FORAGER assault-force assembly"
+  ]
+}

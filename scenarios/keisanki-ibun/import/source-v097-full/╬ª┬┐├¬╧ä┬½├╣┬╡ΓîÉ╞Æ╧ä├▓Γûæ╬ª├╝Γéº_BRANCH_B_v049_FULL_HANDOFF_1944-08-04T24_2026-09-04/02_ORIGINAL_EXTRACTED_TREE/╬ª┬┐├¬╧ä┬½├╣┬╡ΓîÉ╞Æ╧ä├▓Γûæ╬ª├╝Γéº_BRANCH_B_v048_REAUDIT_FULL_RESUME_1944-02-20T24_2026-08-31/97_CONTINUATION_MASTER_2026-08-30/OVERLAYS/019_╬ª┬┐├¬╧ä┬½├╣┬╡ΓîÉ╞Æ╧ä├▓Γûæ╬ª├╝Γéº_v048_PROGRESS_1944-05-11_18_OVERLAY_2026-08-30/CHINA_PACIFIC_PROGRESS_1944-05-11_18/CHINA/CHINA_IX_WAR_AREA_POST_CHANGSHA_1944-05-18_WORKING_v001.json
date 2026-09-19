@@ -1,0 +1,35 @@
+{
+  "revision": "v001",
+  "id": "CHINA_IX_WAR_AREA_POST_CHANGSHA_1944-05-18_WORKING_v001",
+  "status": "WORKING_BRANCH_FORCE_POSTURE",
+  "as_of": "1944-05-18T24:00:00+09:00",
+  "parents": [
+    "CHINA_IX_WAR_AREA_FORCE_PRESERVATION_1944-05-01_10_WORKING_v001",
+    "ICHIGO_HUNAN_PHASE_A_CLOSEOUT_1944-05-11_18_WORKING_v001"
+  ],
+  "post_Changsha_effective_force": {
+    "sustained_defense_effective_division_equivalents": [
+      15.5,
+      21.0
+    ],
+    "effective_combat_manpower_band": [
+      125000,
+      170000
+    ],
+    "Hengyang_Leiyang_operational_reserve_effective_div_eq": [
+      7.0,
+      9.5
+    ],
+    "east_west_flank_counterpressure_and_local_security_effective_div_eq": [
+      4.0,
+      5.5
+    ],
+    "reorganizing_ex_Changsha_rearguard_effective_div_eq": [
+      4.5,
+      6.0
+    ]
+  },
+  "command_result": "Force-preservation succeeds operationally. Loss of Changsha is accepted as a major political/territorial defeat, but the IX War Area is not annihilated and retains enough organized force to make a Hengyang advance a new campaign problem.",
+  "political_friction": "Chongqing demands explanation and continued resistance, but branch command had already prioritized evacuation of heavy equipment and staff. Do not inherit the historical command breakdown/execution chain automatically where its causal confusion is absent.",
+  "next_defense": "Prepare Hengyang/Leiyang axis, keep mobile forces off obvious roads under Japanese air observation, and use terrain/fortifications to force a fresh Japanese artillery-ammunition concentration."
+}

@@ -1,0 +1,54 @@
+{
+  "revision": "v009",
+  "purpose": "Branch B year-end precedence after closing 1943H2 exploration and Royal Navy audit.",
+  "protocol": "00_CONFIG/rule_override_protocol_v002.json",
+  "inherits": "00_CONFIG/current_branch_overrides_v008.json",
+  "overrides": [
+    {
+      "override_id": "OVR-BRANCH-B-RESTART-1944-01-01-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "2026-08-28",
+      "impact_scope": "runtime_restart_selection",
+      "effective_rule": "Default restart is CHECKPOINT_1943-12-31T24_BRANCH_B_v001 at 1944-01-01T00:00. v026 summer rollback frontier is now a settled ancestor.",
+      "source": "05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v001.json"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-1943H2-REALIZED-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-08-01",
+      "impact_scope": "1943H2_realized_history",
+      "effective_rule": "Use BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v001 and its companion Bengal/GALVANIC/Dodecanese settlements as current realized history. Old v026 forecast-only restrictions for these events are superseded.",
+      "source": "06_RUNTIME/BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v001.md"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-RN-AUDIT-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1942-04-05",
+      "impact_scope": "Royal_Navy_1942_1944",
+      "effective_rule": "Apply ROYAL_NAVY_DIVERGENCE_AUDIT_1942-1943_v001 before using historical RN carrier, escort, Mediterranean or Eastern Fleet availability.",
+      "source": "06_RUNTIME/ROYAL_NAVY_DIVERGENCE_AUDIT_1942-1943_v001.md"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-1944-YEAREND-GUARD-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1944-01-01",
+      "impact_scope": "all_1944_downstream_adjudication",
+      "effective_rule": "Load BRANCH_B_YEAR_END_GUARD_1944-01-01_v001 and do not inherit retained 1944 outcomes as realized.",
+      "source": "06_RUNTIME/BRANCH_B_YEAR_END_GUARD_1944-01-01_v001.json"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-JAPAN-NAVAL-WALLET-FIRST-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1944-01-01",
+      "impact_scope": "Indian_Ocean_and_Central_Pacific_naval_allocation",
+      "effective_rule": "Before 1944 Eastern Fleet contact or Japanese reinforcement, rebuild actual movable Japanese destroyer/submarine/cruiser wallet and transfer times.",
+      "source": "06_RUNTIME/JAPAN_NAVAL_FORCE_REOPEN_GATE_1944_v002.md"
+    }
+  ],
+  "supersession_note": "v008 remains historical evidence for the summer rollback. v009 supersedes its forecast-only restrictions where the year-end settlement now declares realized outcomes."
+}

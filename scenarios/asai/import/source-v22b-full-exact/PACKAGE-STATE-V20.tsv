@@ -1,0 +1,19 @@
+field	value
+nominal_version	V20
+base_package	V19 China-peace/Barbarossa full package
+build_date	2026-09-15
+current_replay_session_folder	88-CURRENT-2026-09-15-1942-EURASIA-POLITICS-HANDOFF-V20
+current_technical_session_folder	86-CURRENT-2026-09-13-WATER-SEAPLANE-SUBMARINE-SEIRAN-V18 (plus explicit V20 engineering gates)
+history_clock	1942-08-31 24:00
+china_clock	1942-08-31 24:00; peace effective 1941-05-20; China-proper withdrawal ~15-month center reached
+nomonhan_clock	1939-08-31 24:00 CLOSED
+japan_us_uk_nl_war	not begun
+japan_soviet_war	not begun
+us_germany_formal_war	not begun
+japan_strategic_center	armed neutrality / option preservation
+north_gates	N-OPP RED; N-PREV LATENT-YELLOW; N-ACC LATENT
+south_gates	S-COM ACTIVE; S-POL LIGHT ACTIVE; S-CRISIS CLOSED; S-WAR CLOSED
+kwantung_state	~19 division combat core through winter/summer 1942; two further divisions ordered north 1942-08-24, ~21 target not yet ready
+next_replay_gate	political perception / Eurasian-order audit before Japanese Soviet-war decision
+next_highest_audit	major-power end-state beliefs; German post-Soviet sphere proposal; US/UK northward-war reaction triggers; exact Aug-1942 OOBs
+branch_guard	V20 explicit-only supersession; otherwise inherit V19/V18/V17/V16 and older current authority

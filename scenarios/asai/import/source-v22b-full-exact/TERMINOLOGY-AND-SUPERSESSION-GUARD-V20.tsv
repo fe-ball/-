@@ -1,0 +1,37 @@
+term	rule
+CURRENT-CLOSE	Current authority where explicitly listed
+CURRENT-REPLAY	Accepted replay event/state through the stated history clock; may be reopened only explicitly
+CURRENT-PLANNING	Accepted planning band; future realization remains replay-dependent
+WORKING-CLOSE	Accepted interpretation until dedicated closeout refines it
+WORKING	Current planning/result; may move with dedicated closeout
+GATED	Future condition/decision; not a completed event
+NEXT-GATE	Highest-priority next item; not yet closed
+OPEN	Unresolved; do not silently choose a branch
+ANALYSIS-ONLY	Never auto-import into canon/OOB/losses
+physical	Physically exists; does not imply accepted/service-released/assigned/ready/combat-present
+accepted	Factory/arsenal accepted; does not imply service release
+service-released	Eligible for normal unit use; does not imply theater assignment
+assigned	Allocated to a unit/theater; does not imply ready
+ready	Mission-ready at the stated time
+combat-present	Actually present in a replayed combat event
+withdrawal_ordered	Ordered to withdraw; not yet concentrated/transported/reassigned
+withdrawal_concentrated	Moved into withdrawal concentration area; not theater-exited
+withdrawal_theater_exit	Left China theater; still may require rest/refit/reassignment
+returned_manchuria	Actually arrived in Manchuria/Kwantung area; does not imply Soviet-front ready
+workband	Engineering/planning range; not a direct combat multiplier or exact observed value
+future_technical_shadow	Engineering/design/qualification possibility after current replay date; not actual history until a later replay/procurement layer realizes it
+historical_anchor	Historical fact/measurement used as constraint; worldline result may differ only through explicit causal change
+china_peace_guard	Formal branch peace is in force from 1941-05-20; historical post-May China campaigns do not auto-occur
+siberian_divisions_guard	Never use popular aggregate shorthand instead of unit/date transfer data
+nomonhan_global_effect_guard	Raw 1939 casualty delta is modest; main global channel is 1941 eastern threat perception and force-transfer timing
+us_oil_guard	Ordinary petroleum/DEI trade, premium avgas/TEL controls, asset freeze and broader embargo are separate policy levers
+fuel_grade_guard	V16 Grade A/B/C doctrine retained; avgas shortage does not equal GT/diesel fuel absence
+explicit_only_supersession	Later layers supersede older current authority only on subjects they explicitly close/reopen
+replay_clock_guard	V20 main replay clock is 1942-08-31 24:00
+pacific_war_guard	No Pearl Harbor/Malaya/Philippines/DEI war has occurred by V20 clock; historical Pacific-war events require worldline triggers
+us_war_guard	United States remains formally nonbelligerent through V20 clock; no historical 1941-12-11 German declaration
+kwantung_ready_guard	Ordered/moving/arrived/integrated/ready are distinct; 1942-08-24 two-division order does not equal 21 ready divisions on 31 Aug
+soviet_transfer_guard	Use unit/date/sector transfer ledger; Japanese fixation affects which units can move, not all eastern forces equally
+perception_guard	Separate objective FACT from intelligence ESTIMATE, leader BELIEF, PLAN-INPUT and PUBLIC-LINE
+north_south_gate_guard	N-OPP, N-PREV, N-ACC, S-COM, S-POL, S-CRISIS, S-WAR and HOLD are separate strategic gates; do not collapse to north-vs-south binary
+engineering_gate_guard	C-gates/CAT-gates and design-study bands are not physical fleet equipment unless procurement/qualification is explicitly replayed

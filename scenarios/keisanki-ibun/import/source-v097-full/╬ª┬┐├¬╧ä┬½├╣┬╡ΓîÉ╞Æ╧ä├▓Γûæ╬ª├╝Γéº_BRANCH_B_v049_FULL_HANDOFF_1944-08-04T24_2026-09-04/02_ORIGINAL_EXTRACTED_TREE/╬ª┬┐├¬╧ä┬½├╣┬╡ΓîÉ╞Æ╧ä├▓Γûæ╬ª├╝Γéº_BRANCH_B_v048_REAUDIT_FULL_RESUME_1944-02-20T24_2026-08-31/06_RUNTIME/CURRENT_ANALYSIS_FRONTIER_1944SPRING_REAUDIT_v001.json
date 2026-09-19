@@ -1,0 +1,30 @@
+{
+  "revision": "v001",
+  "id": "CURRENT_ANALYSIS_FRONTIER_1944SPRING_REAUDIT_v001",
+  "status": "CURRENT_SESSION_FRONTIER",
+  "date_created": "2026-08-24",
+  "warning": "The v012 1944-04-30 checkpoint remains legacy reference only. The active current branch has now closed re-audited CATCHPOLE/Eniwetok through 1944-04-24 and next returns to early-May China.",
+  "current_branch_analysis_frontier": "1944-04-25T00:00",
+  "frontier_event": "Post re-audited CATCHPOLE/Eniwetok closeout; atoll secured, early base-opening clock started.",
+  "invalidated_or_suspended_descendants": [
+    "Old Sep-1943 Second Midway invasion/result chain",
+    "Old Nov-1943 GALVANIC timing/result chain",
+    "Old spring-1944 Kwajalein/HAILSTONE/CATCHPOLE dates and loss tables where dependent on the above",
+    "v012 Saipan/1944-summer continuation as CURRENT branch state",
+    "v012 China Ichigo forward adjudication as CURRENT synchronized world state"
+  ],
+  "retained_as_reference_not_current": [
+    "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SUMMER_v001.json",
+    "06_RUNTIME/MARIANAS_SAIPAN_1944-06-11_07-14_SETTLEMENT_v001.md",
+    "06_RUNTIME/CHINA_ICHIGO_ANALOG_1944-05-27_08-06_FORWARD_ADJUDICATION_v001.md",
+    "06_RUNTIME/1944SUMMER_JAPAN_US_FORCE_REGENERATION_WORKING_LEDGER_v001.md"
+  ],
+  "current_authoritative_session_delta": "06_RUNTIME/CATCHPOLE_ENIWETOK_1944-04-18_24_SETTLEMENT_v001.md",
+  "next_event": "Early-May 1944 China No.1/Ichigo-equivalent launch re-audit.",
+  "next_cross_theater_sync": "After China No.1 launch synchronization, return to Pacific Palau/DESECRATE in the mid/late-May working window.",
+  "is_current": true,
+  "active_restart_mode": "NARRATIVE_FRONTIER_NO_CHECKPOINT",
+  "active_restart_time": "1944-04-25T00:00",
+  "active_restart_checkpoint": null,
+  "legacy_v012_restart_checkpoint": "CHECKPOINT_1944-04-30T24_v004"
+}

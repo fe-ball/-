@@ -1,0 +1,128 @@
+{
+  "package_version": "v072_FULL",
+  "date": "2026-09-07",
+  "package_type": "FULL_SELF_CONTAINED",
+  "parent_full_archive": "計算機異聞_BRANCH_B_v071_FULL_HANDOFF_SANTO_D4_CAPABILITY_CLOSED_2026-09-07.zip",
+  "resume": {
+    "date": "1942-07-23",
+    "phase": "SANTO_D4_EVENT_GENERATION",
+    "center_Santo_D_day": "1942-07-27",
+    "Santo_execution_band": [
+      "1942-07-25",
+      "1942-07-29"
+    ],
+    "prebattle_wallet": "CLOSED_V070_RETAINED",
+    "Japanese_capability_snapshot": "CLOSED_V071_RETAINED",
+    "Allied_global_to_local_allocation": "CLOSED_V072",
+    "Allied_reaction_clock": "CLOSED_GATES_V072",
+    "Santo_event_results": "OPEN_FROM_D4",
+    "New_Caledonia_date": "OPEN_POST_SANTO_RESET"
+  },
+  "authority": {
+    "v070_named_wallet": "RETAINED",
+    "v070_forward_nodes": "RETAINED",
+    "v070_Allied_local_mirror": "RETAINED_WITH_V072_REFINEMENT",
+    "v071_capability_snapshot": "RETAINED",
+    "v071_FS_change_clock": "RETAINED",
+    "v072_Allied_global_allocation": "CURRENT",
+    "v072_Allied_reaction_clock": "CURRENT",
+    "historical_Watchtower_moves": "PROVENANCE_ONLY_UNLESS_REDERIVED",
+    "Operation_B_heavy_surface_raid": "CENTER_NOT_ACTIVATED"
+  },
+  "Allied_quick_allocation_centers": {
+    "fixed_ground_release_by_Dday": {
+      "Hawaii": 0,
+      "Americal_New_Caledonia": 0,
+      "37th_Fiji": 0,
+      "7th_Marines_Samoa": 0,
+      "147th_Tonga": 0,
+      "1st_Marine_Division_NZ": 0,
+      "SWPA_division_ground": 0,
+      "new_UK_ground": 0
+    },
+    "2d_Marines_physical_center": 4840,
+    "1st_Raider_physical_band": [
+      820,
+      900
+    ],
+    "1st_Raider_effective_band": [
+      780,
+      850
+    ],
+    "Raider_fast_lift_APD_equivalent_conditional_band": [
+      3,
+      4
+    ],
+    "Efate_physical_base_population_band": [
+      5500,
+      6500
+    ],
+    "Efate_VMF212_MR_center": 16,
+    "Efate_VMF212_MR_band": [
+      14,
+      18
+    ],
+    "Santo_resident_physical_band": [
+      850,
+      1100
+    ],
+    "Santo_resident_effective_band": [
+      650,
+      850
+    ],
+    "B17_SOPAC_D4_MR_center": 10,
+    "B17_SOPAC_D4_MR_band": [
+      8,
+      12
+    ],
+    "B17_SOPAC_Dday_MR_center": 16,
+    "B17_SOPAC_Dday_MR_band": [
+      14,
+      18
+    ],
+    "PBY_Santo_search_sustained_per_day": [
+      4,
+      6
+    ],
+    "PBY_Santo_search_surge_per_day": [
+      6,
+      8
+    ],
+    "healthy_fleet_carrier_immediate": "Wasp",
+    "Efate_release_without_W2_center_band": [
+      0,
+      150
+    ],
+    "Efate_W2_conditional_light_battalion_physical_band": [
+      500,
+      800
+    ],
+    "Efate_W2_conditional_light_battalion_effective_band": [
+      400,
+      650
+    ]
+  },
+  "Allied_H_hour_ground_effective_branches": {
+    "warning_failure": [
+      650,
+      850
+    ],
+    "late_partial_2d_Marines": [
+      1600,
+      3300
+    ],
+    "timely_2d_Marines_only": [
+      3500,
+      4400
+    ],
+    "timely_2d_Marines_plus_Raiders": [
+      4250,
+      5250
+    ],
+    "max_emergency_plus_Efate_detachment": [
+      4650,
+      5900
+    ]
+  },
+  "critical_rule": "Oceania presence is not Santo availability. Every transfer pays warning, lift/combat-loading, transit/escort and donor-base degradation; fixed garrisons remain zero-center release through H-hour."
+}

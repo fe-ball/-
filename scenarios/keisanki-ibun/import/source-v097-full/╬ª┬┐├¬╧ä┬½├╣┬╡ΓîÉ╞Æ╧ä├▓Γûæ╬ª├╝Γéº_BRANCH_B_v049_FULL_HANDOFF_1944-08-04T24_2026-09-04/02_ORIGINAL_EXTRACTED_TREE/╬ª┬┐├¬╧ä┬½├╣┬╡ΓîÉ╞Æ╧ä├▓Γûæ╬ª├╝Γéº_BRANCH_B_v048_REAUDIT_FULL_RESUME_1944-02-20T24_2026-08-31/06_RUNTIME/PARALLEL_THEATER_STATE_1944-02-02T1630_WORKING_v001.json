@@ -1,0 +1,19 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-02-02T1630_WORKING_v001",
+  "status": "WORKING_NOT_CURRENT",
+  "as_of": "1944-02-02T16:30:00+12:00",
+  "Central_Pacific": {
+    "US": "TF58 second suppression cycle completed with Gilbert land-air parallel pressure. Day-2Feb irrecoverable aircraft center ~27 across morning+second cycle; all three fast-carrier TGs remain operational. One TG was repeatedly recontacted and briefly forced into ASW/evasive maneuver; no ship hit.",
+    "Japan": "Marshall local serviceable center ~62 / fighters 29 / Raiden 6 / unique water-air 13 / attack 14. Taroa/Roi fighter-direction degraded to C+/B- class. Submarine-water-air chain kept one three-carrier TG track alive into early afternoon, but no torpedo hit. Shokaku/Zuikaku/Hiryu posture upgrades from WITHHOLD to CONDITIONAL_GO_PREPARED_NO_LAUNCH pending an overnight/dawn fresh fix."
+  },
+  "Indian_Ocean": {
+    "state": "No new event advanced in this step. Eastern Fleet Ceylon workup continues; Japanese second surface reinforcement remains HOLD."
+  },
+  "Bengal": {
+    "state": "No new event advanced. Chittagong-Feni/Comilla stalemate persists; initial Kinsei-Zero detachment remains, further batch held under Central-Pacific priority."
+  },
+  "Yanagi_Jet": {
+    "state": "No automatic combat effect. The discussion date is now inside the early-Feb I-34 projected Europe-arrival window, but that separate route/arrival event has not yet been adjudicated and is not silently realized."
+  }
+}

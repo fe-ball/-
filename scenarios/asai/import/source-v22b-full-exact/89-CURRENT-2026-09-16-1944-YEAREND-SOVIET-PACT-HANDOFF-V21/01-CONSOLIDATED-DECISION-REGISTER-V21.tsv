@@ -1,0 +1,30 @@
+id	subject	status	clock	decision_or_band	guard
+V21-R1	history clock	CURRENT-REPLAY	1944-12-31 24:00	Accepted replay through 1944 year-end	Do not auto-import later historical events
+V21-R2	Japan Pacific war	CURRENT-REPLAY	through 1944-12-31	No Japan-US/UK/NL war	Pearl Harbor/South Asia war require explicit trigger
+V21-R3	Japan-USSR war	CURRENT-REPLAY	through 1944-12-31	Not begun; armed neutrality continues	Do not convert exercises to attack
+V21-R4	US-Germany war	CURRENT-REPLAY	through 1944-12-31	No formal war; Atlantic shadow-war risk remains	A naval incident is a gate, not automatic war
+V21-R5	Stalingrad/Winter Storm	CURRENT-REPLAY	1942-11 to 1943-02	Uranus succeeds; stronger Winter Storm opens temporary corridor; 70-100k Sixth Army escape working band	Range not exact casualty ledger
+V21-R6	Citadel 1943	CURRENT-REPLAY	1943-07	North pincer fails; south performs better; Prokhorovka temporarily taken; Kursk not taken	No total German victory
+V21-R7	Kiev 1943	CURRENT-REPLAY	1943-12	Kiev held through Nov, lost late Dec	Not historical 6 Nov
+V21-R8	Bagration 1944	CURRENT-REPLAY	1944-06/07	Soviet strategic victory, AG Centre survives; 170-230k German personnel loss working band	Do not use historical AGC annihilation
+V21-R9	Warsaw Uprising	CURRENT-REPLAY	1944	Historical 1 Aug uprising does not occur; AK remains substantially intact	Future Polish action OPEN
+V21-R10	Romania 1944	CURRENT-REPLAY	1944-12-31	No 23 Aug coup; Romania remains Axis; Ploiesti intact	Peace plotting exists
+V21-R11	Finland 1944	CURRENT-REPLAY	1944-12-31	No historical Sept armistice closed; de facto quiet/peace contacts	Formal settlement OPEN
+V21-R12	Sandomierz counterattack	CURRENT-REPLAY	late 1944	Germany retakes Sandomierz and compresses Soviet bridgehead, does not erase all Vistula bridgeheads	German reserve materially consumed
+V21-J1	Japan strategy	CURRENT-CLOSE	1944-12-31	HOLD ACTIVE; N-PREV HIGH-YELLOW; N-OPP YELLOW/AMBER	Northward gates remain distinct
+V21-J2	China relation	CURRENT-CLOSE	1943-44	Cold peace; military withdrawal completed; normalization active; Manchukuo recognition not forced	No post-peace China war auto-import
+V21-J3	Manchukuo opium gradual prohibition	WORKING-CLOSE	1943-12 onward	Registered habitual users ~300-400k; legal flow ~45-60% of 1938; legal poppy area ~35-50% of 1938	Ranges are planning/replay bands
+V21-N1	Mutsu	CURRENT-CLOSE	1943	Historical 8 Jun 1943 explosion does not recur; Mutsu survives	Accident was not a deterministic class failure
+V21-N2	Yamato class	CURRENT-CLOSE	1944-12	Yamato/Musashi active; Shinano remains battleship; No.111 low-priority construction resumed; no later hull automatically laid	Do not convert Shinano to carrier
+V21-N3	destroyer architecture	WORKING-CLOSE	1943-44	Yugumo ends mature pure-steam torpedo line; Akizuki AA line continues; Shimakaze becomes GT+HP-steam combined-propulsion demonstrator; follow-on integrated DD line planned	Exact follow-on count remains procurement-sensitive
+V21-N4	Matsu/Tachibana	CURRENT-CLOSE	1944	No wartime emergency Matsu/Tachibana requirement	Do not auto-import historical emergency classes
+V21-N5	aircraft submarines	WORKING-CLOSE	1943-44	Natural 1-aircraft -> 2-aircraft -> limited 3-aircraft evolution; special float recon aircraft near historical Seiran performance band; strategic strike is secondary doctrine discovered later	No historical emergency I-400 auto-import
+V21-A1	H7Y special recon	WORKING-CLOSE	1943-44	Small 2-4 aircraft special/experimental ultra-long-range recon force	No routine peacetime US-overflight
+V21-A2	air refueling	WORKING-CLOSE	1943	Limited practical refueling closed at small scale; L5Si tanker kit; heavier transfer evolves toward AT-3/Ki-92	Not modern mass-package tanker doctrine
+V21-A3	AT-3/Ki-92	WORKING-CLOSE	1943-12	4-6 aircraft initial lot/evaluation band	Exact service designation/quantity may be refined
+V21-G1	Soviet losses	WORKING	through 1944-12	Cumulative extra irreversible loss vs history ~0.8-1.3m; extra military deaths ~0.5-0.8m	Not exact accounting; update with dedicated loss audit
+V21-G2	German manpower	WORKING	1944-12	~0.8-1.2m more German servicemen retained vs historical branch; manpower constrained but not yet historical terminal crisis	Total service strength ranges are working
+V21-G3	German late technology	CURRENT-PLANNING	1944-12	Me262/Ar234/Type XXI/V-weapons materially more usable than history due healthier fuel/industry; no nuclear weapon branch	Do not turn wonder weapons into automatic victory
+V21-W1	Western Entry	CURRENT-PLANNING	1944 H2	British study of French restoration / invited entry; Lebrun constitutional bridge working concept; execution not yet triggered	German punishment capacity and pro-German Vichy faction are live risks
+V21-W2	US war production	WORKING-CLOSE	1942-44	US total mobilization below history; Soviet Lend-Lease remains comparatively high, especially vehicles/food/rail/industry inputs	Do not import historical US total-war output automatically
+V21-P1	Soviet-Japanese Neutrality Pact deadline	NEXT-GATE	1945-04-25	Pact entered force 1941-04-25; expires 1946-04-25; denunciation by one year before expiry prevents automatic five-year extension	Treaty is neutrality pact, not generic nonaggression treaty

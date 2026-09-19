@@ -1,0 +1,18 @@
+ledger_id	category	item	first_ready_or_period	1937_summer_or_current_state	closure	production_or_adoption	main_source	notes
+P-001	industrial product	AH-1/AH-2 high-speed/tool steels	1917–19	外販・現金源	CLOSED	民需＋官需	main/asai-works-business-origin-diversification-1903-30.md	特殊鋼事業の母体
+P-002	industrial product	diesel exhaust turbocharger	1925	成熟商品、商船/大型dieselへ展開	CLOSED	量産商品	main/asai-works-product-availability-ledger-1903-41.md	独立GTより先に商売成功
+P-003	industrial product	Kongo carbide / hard tooling	1926	工具商品	CLOSED	民需＋工廠	main/asai-works-product-availability-ledger-1903-41.md	工作能力の母体
+P-004	business product	office/statistical machines & leasing	1926–28	外販/リース＋中古再生	CLOSED	民間市場中心	main/asai-works-computation-origin-business.md	科学計算事業を裾野から支える
+P-005	business service	technical calculation service/equipment	1928–29	大企業・軍需メーカーへ段階吸収	CLOSED	外販＋受託	main/asai-works-computation-origin-business.md	1935–37主要発動機部門U4
+P-006	industrial product	machine-tool department / gear-cutting support	1928	少量商品/貸与・自社主用途	CLOSED	限定外販	main/asai-works-company-structure.md	本格gear cutting成熟は1940–42
+P-007	GT product	E4 industrial GT	1932–33	約500kW級、非常電源/ポンプ等	CLOSED	商品化済み	main/asai-works-engine-capability-core-e1-e9.md	1937には既設交換需要も発生し得る
+P-008	materials product	epoxy casting/adhesive/impregnation	mid-1930s	少量商品	CLOSED	限定高価値用途	main/asai-works-materials-resin.md	航空一次主構造の全面置換ではない
+P-009	GT product	E5 small core family	1936+	7.6kg/s、約950–1060hp能力帯	CLOSED-UPSTREAM	応用別認定	main/asai-works-engine-capability-core-e1-e9.md	TP/J/marine等は後端別
+P-010	aviation testbed	E4/E5 turboprop flight-test series	1933–34+	既存母機/八八式改造でTP飛行試験	CLOSED-TECH	社内/共同試験	main/asai-works-timeline-1930s.md	採用史とは分離
+P-011	aviation material product	plant-fiber epoxy / paper-honeycomb partial airframe structures	1936–37	二次～準構造で飛行実証可能	CLOSED-TECH	限定/評価	main/asai-works-materials-resin.md	主桁等は従来材
+P-012	rotorcraft prototype	Asai small helicopter series	1933–1937 summer	自由飛行・浅井180–200hp機関試験まで	CLOSED-TECH	試作のみ	07-SESSION-DELTA-2026-08-30.md	軍実用化は後段OPEN
+W-001	ground weapon	Type 97 Chi-Ha worldline baseline	1937	三菱V12＋浅井低圧turbo/intake、180PS normal/200PS max	CLOSED	量産準備/史実型枠	CURRENT-HANDOFF-NOTES-2026-08-29-FULL-V3.md	普通戦車線はType97まで閉鎖
+W-002	ground demonstrator	1938 GT tank prototype	1938	約15t、300/340hp。技術成功、通常主力代替否定	CLOSED-TECH	試作	CURRENT-HANDOFF-NOTES-2026-08-29-FULL-V3.md	1937夏以後
+W-003	marine platform	ordinary landing craft diesel line	1930s–	小発/大発/特大発はNA diesel本流	CLOSED	通常装備	CURRENT-HANDOFF-NOTES-2026-08-29-FULL-V3.md	GT通常不利
+W-004	marine system	Hiei emergency E4-class GT generator	1937–40 refit context	400–450kW級1基P2	CLOSED-OVERLAY	比叡限定	CURRENT-HANDOFF-NOTES-2026-08-29-FULL-V3.md	他艦へ自動伝播禁止
+W-005	marine platform	propulsion test ship	1938–41	横須賀工廠雑役船/機関実験船、公称番号、2×E6-M＋safe-return diesel	CLOSED-DIRECTION	試験船	07-SESSION-DELTA-2026-08-30.md	具体番号4017はworking

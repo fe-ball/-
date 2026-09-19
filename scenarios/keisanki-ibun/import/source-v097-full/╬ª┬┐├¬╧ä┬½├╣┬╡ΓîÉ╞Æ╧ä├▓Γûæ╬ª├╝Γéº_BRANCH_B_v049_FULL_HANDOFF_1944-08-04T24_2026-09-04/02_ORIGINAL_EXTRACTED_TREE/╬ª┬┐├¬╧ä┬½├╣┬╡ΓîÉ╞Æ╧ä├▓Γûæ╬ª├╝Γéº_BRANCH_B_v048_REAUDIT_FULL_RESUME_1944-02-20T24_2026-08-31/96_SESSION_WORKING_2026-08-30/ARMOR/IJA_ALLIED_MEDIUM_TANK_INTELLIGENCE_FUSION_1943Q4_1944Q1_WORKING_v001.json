@@ -1,0 +1,35 @@
+{
+  "revision": "v001",
+  "id": "IJA_ALLIED_MEDIUM_TANK_INTELLIGENCE_FUSION_1943Q4_1944Q1_WORKING_v001",
+  "status": "WORKING_DEVELOPMENT_INPUT_GATE_NOT_CURRENT",
+  "purpose": "Fuse Tarawa M4A2 and Bengal M3 Lee/Grant evidence into Japanese anti-armor development decisions without requiring Tarawa survivors to provide all technical detail.",
+  "inputs": {
+    "GALVANIC": {
+      "date": "1943-11-24..29",
+      "evidence_quality": "High battlefield certainty that US medium tanks with strong armor/firepower are decisive locally; low-to-medium detailed technical reporting because the garrison is destroyed/isolated.",
+      "message": "Existing 37mm/light-tank weapons are inadequate; 47mm-class frontal reliability against US medium armor is doubtful."
+    },
+    "BENGAL": {
+      "date": "1943-12 first half, subject to reopened settlement",
+      "evidence_quality": "Potentially HIGH because Japanese division/army staffs survive, battlefield can be revisited, prisoners/documents/wrecks may be examined, and communications to Burma Area Army/Tokyo remain.",
+      "enemy_type": "M3 Lee/Grant-class 30-ton 75mm medium tank",
+      "message": "Allied 75mm medium armor is no longer a remote European/African phenomenon; it is physically entering the India-Burma theater."
+    }
+  },
+  "development_consequence_candidate": {
+    "decision_window": "1943-12 late .. 1944-01",
+    "confidence": "MEDIUM-HIGH if Bengal contact with Lee/Grant is confirmed in the reopened battle",
+    "likely_IJA_requirement": [
+      "Do not abandon the Shinhoto/Chi-Ha family for China/South use.",
+      "Accelerate Chi-He production/acceptance for better crew/radio/armor system qualities.",
+      "Open an urgent 75mm-class stopgap medium-tank or mobile anti-tank requirement rather than waiting only for Chi-To.",
+      "Raise Ho-Ni / mobile 75mm AT reserve priority and issue tactical guidance for flank/ambush/mines against 30-ton Allied mediums."
+    ],
+    "important": "The requirement is no longer 'counter Sherman specifically'. It becomes 'counter Allied 30-ton 75mm medium tanks now appearing in both Pacific amphibious and India-Burma theaters'."
+  },
+  "technical_intelligence_gate": {
+    "best_case": "One recoverable/captured Lee/Grant or major components/document set allows measurement of armor, gun layout, radio, tracks, engine and internal arrangement.",
+    "center": "Detailed field reports plus inspection of at least one damaged/wrecked vehicle; enough to confirm armor/firepower class, not reproduce its technology.",
+    "low_case": "Only combat observation; still reinforces urgency but gives little engineering detail."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "revision": "v001",
+  "id": "CHANGSHA_NODE_TRANSFER_1944-05-19_24_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_NODE_TRANSFER_ADJUDICATION",
+  "clock_window": "1944-05-19..24",
+  "parents": [
+    "ICHIGO_HUNAN_PHASE_A_CLOSEOUT_1944-05-11_18_WORKING_v001",
+    "NANJING_HUNAN_REAR_SECURITY_1944-05-11_18_WORKING_v001"
+  ],
+  "model_rule": "Territorial possession is not equivalent to usable operational/economic control. Track physical possession, transport utility, airfield utility, administration/security, and economic extraction separately.",
+  "node_states": {
+    "Changsha": {
+      "physical_control": "JAPANESE_SECURE_CORE_BY_19_MAY; peripheral searches/demolitions continue",
+      "river_crossing_and_port": "PARTIAL_BY_21_22_MAY; ferries/pontoons and limited wharf use restored, major fixed crossings still damaged",
+      "rail_road": "NORTHBOUND_FEED_PARTIAL_BY_22_23_MAY; local Changsha-Xiangtan movement usable with interruptions; full through-capacity not credited",
+      "telegraph_command": "JAPANESE_FIELD_NET_REESTABLISHED; civil network partial",
+      "airfield": "fighter/recon servicing PARTIAL by 22-23 May; medium/heavy sustained operations not yet credited",
+      "administration_security": "Japanese military control first; Nanjing police/railway/municipal cadres enter progressively 20-24 May under Japanese key-node supervision",
+      "economic_extraction": "LOW_INITIAL. Registries, markets and tax offices begin reopening, but evacuation, sabotage and stock removal prevent immediate fiscal windfall"
+    },
+    "Xiangtan": {
+      "physical_control": "JAPANESE",
+      "transport_role": "PARTIAL rail/river transshipment node; repair crews prioritize this because it is essential for continued southward supply",
+      "administration_security": "MIXED Japanese engineering/security core plus Nanjing rear-security elements",
+      "airfield": "DENIED_TO_CHINA; limited Japanese tactical use only after repair checks"
+    },
+    "Chinese_rewired_network": {
+      "command": "IX War Area command/service core displaced south rather than destroyed",
+      "transport": "Hengyang-Leiyang-Chenzhou system assumes a larger share of rail/road storage and redistribution",
+      "air": "Fourteenth Air Force/CACW use Hengyang-Lingling/Kweilin depth and temporary fields; Changsha/Xiangtan no longer treated as available bases",
+      "fiscal_security": "Chongqing loses direct access to Changsha/Xiangtan urban-tax/transport nodes but retains clandestine/local resistance networks; no claim of complete Japanese political control"
+    }
+  },
+  "node_transfer_interpretation": "By 24 May Japan has enough operational transfer to use Changsha-Xiangtan as a forward campaign platform, but not enough to count the region as fully pacified or economically self-supporting. Continued advance creates a real rear-security burden which Nanjing can partially absorb, not erase."
+}

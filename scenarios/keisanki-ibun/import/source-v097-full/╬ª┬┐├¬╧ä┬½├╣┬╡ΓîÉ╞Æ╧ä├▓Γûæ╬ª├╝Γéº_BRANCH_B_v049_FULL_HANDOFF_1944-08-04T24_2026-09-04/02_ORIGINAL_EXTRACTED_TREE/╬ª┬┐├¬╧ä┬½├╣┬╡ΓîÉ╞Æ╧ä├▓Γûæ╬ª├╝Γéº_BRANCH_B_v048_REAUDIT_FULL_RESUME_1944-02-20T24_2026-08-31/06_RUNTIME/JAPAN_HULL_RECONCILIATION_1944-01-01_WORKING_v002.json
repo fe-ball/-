@@ -1,0 +1,175 @@
+{
+  "id": "JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v002",
+  "status": "WORKING_RECONCILIATION_SURFACE_HULLS_CLOSED_SUBMARINES_BANDED",
+  "as_of": "1944-01-01T00:00:00",
+  "purpose": "Rebuild Japanese surface-combatant and submarine physical/readiness wallets from realized Branch events rather than historical loss-date inheritance; close narrative-only damage slots; identify remaining submarine uncertainty before Eastern Fleet simulation.",
+  "precedence_note": "This working audit supersedes the old planning-only fleet-DD alive band 58-66 for Jan-1944 analysis if hull-by-hull reconciliation is accepted. It does not yet modify CURRENT_BRANCH_STATE until promoted.",
+  "method": [
+    "Start from ships actually completed by the date.",
+    "Retain historical losses only where the causal theater/route/event still exists or a Branch-specific event recreates the loss.",
+    "Restore ships whose historical loss depended on absent Guadalcanal/Solomons/Rabaul/New-Guinea emergency chains unless a Branch substitute loss is realized.",
+    "Book Branch-specific Midway/New-Caledonia/Efate/Bengal/GALVANIC damage and losses explicitly.",
+    "Separate physical hull existence, machinery/crew readiness, mission allocation and theater-transfer availability.",
+    "Do not use the old July-1944 legacy DD roster as authority where it conflicts with current Branch-specific loss assignments."
+  ],
+  "named_damage_loss_closures": {
+    "MIDWAY_SURFACE_PURSUIT_1942-06": {
+      "Chokai": {"state": "HEAVY_DAMAGE", "full_ready": "1942-08-late"},
+      "Hiei": {"state": "MODERATE_DAMAGE", "full_ready": "1942-07-late"},
+      "Kongo": {"state": "LIGHT_DAMAGE", "full_ready": "1942-07-early_mid"},
+      "Yudachi": {"state": "SUNK"},
+      "Natsugumo": {"state": "SUNK"},
+      "Arashi": {"state": "MODERATE_DAMAGE", "full_ready": "1942-07"},
+      "Hagikaze": {"state": "LIGHT_DAMAGE", "full_ready": "1942-06-late_to_07-early"},
+      "Nowaki": {"state": "UPPER_BAND_ONLY_LIGHT_DAMAGE_NOT_BOOKED_CENTER"}
+    },
+    "NEW_CALEDONIA_1942-10-10": {
+      "Haruna": {"state": "MEDIUM_HEAVY_DAMAGE_2x16IN", "full_ready": "1943-01-05_to_15"},
+      "Fubuki": {"state": "SUNK"}
+    },
+    "ATTU_1943-05": {"I-31": {"state": "SUNK_CENTER"}},
+    "MUTSU_1943-06-08": {"Mutsu": {"state": "SUNK"}},
+    "EFATE_1943-06": {
+      "Tanikaze": {"state": "MEDIUM_DAMAGE", "full_ready": "1943-07-early"},
+      "CA_medium_damage": "CENTER_0"
+    },
+    "BENGAL_1943-10_12": {
+      "Uranami": {"state": "TEMP_LIGHT_MEDIUM", "ready": "1944-01-03_center"},
+      "Shikinami": {"state": "TEMP_LIGHT", "ready": "1944-01-early"}
+    },
+    "GALVANIC_1943-11": "Use GALVANIC_DAMAGE_REPAIR_REGEN_LEDGER_1943-11_1944Q1_v002; Soryu/Fujinami/I-175 already closed."
+  },
+  "fleet_destroyer_reconciliation": {
+    "definition": "modern fleet-type DD line: Fubuki/Akatsuki through Shimakaze; older Kamikaze/Mutsuki/Minekaze types are separate local-escort/transport pool",
+    "classes": [
+      {
+        "line": "Fubuki_Akatsuki",
+        "completed_by_1944_01_01": 24,
+        "branch_permanent_losses": ["Shinonome", "Sagiri", "Oboro", "Isonami", "Fubuki"],
+        "branch_survivors": 19,
+        "restored_from_absent_historical_loss_chain_examples": ["Murakumo", "Shirayuki", "Hatsuyuki", "Asagiri", "Ayanami", "Yugiri", "Akatsuki"]
+      },
+      {
+        "line": "Hatsuharu",
+        "completed_by_1944_01_01": 6,
+        "branch_permanent_losses": ["Nenohi"],
+        "branch_survivors": 5,
+        "restored_examples": ["Ariake", "Yugure"]
+      },
+      {
+        "line": "Shiratsuyu",
+        "completed_by_1944_01_01": 10,
+        "branch_permanent_losses": ["Yamakaze", "Yudachi"],
+        "branch_survivors": 8,
+        "restored_examples": ["Murasame", "Kawakaze"]
+      },
+      {
+        "line": "Asashio",
+        "completed_by_1944_01_01": 10,
+        "branch_permanent_losses": ["Arare", "Natsugumo"],
+        "branch_survivors": 8,
+        "restored_examples": ["Oshio", "Asashio", "Arashio", "Minegumo"]
+      },
+      {
+        "line": "Kagero",
+        "completed_by_1944_01_01": 19,
+        "branch_permanent_losses": ["Natsushio"],
+        "branch_survivors": 18,
+        "restored_examples": ["Hayashio", "Tokitsukaze", "Kagero", "Kuroshio", "Oyashio", "Hatsukaze", "Arashi", "Hagikaze"]
+      },
+      {
+        "line": "Yugumo",
+        "completed_by_1944_01_01": 16,
+        "branch_permanent_losses": [],
+        "branch_survivors": 16,
+        "restored_examples": ["Yugumo", "Makigumo", "Makinami", "Takanami", "Onami", "Kiyonami", "Suzunami"]
+      },
+      {
+        "line": "Akizuki",
+        "completed_by_1944_01_01": 6,
+        "branch_permanent_losses": [],
+        "branch_survivors": 6,
+        "restored_examples": ["Teruzuki", "Niizuki"]
+      },
+      {
+        "line": "Shimakaze",
+        "completed_by_1944_01_01": 1,
+        "branch_permanent_losses": [],
+        "branch_survivors": 1
+      }
+    ],
+    "physical_hulls_center": 81,
+    "mechanically_crew_ready_band": "70-75",
+    "ready_center": 72,
+    "workup_or_short_maintenance_band": "6-11",
+    "allocation_note": "Ready does not mean transferable. Carrier screens, Central Pacific reaction, South-Pacific bases, tanker/convoy protection and local fleets consume many hulls.",
+    "comparison_to_old_planning_band": "The Sep-1943 planning band 58-66 undercounted Jan-1944 physical hulls because it did not yet close absent-event Solomon losses hull-by-hull. Current settlements contain only three Branch-specific permanent modern-DD substitute losses (Yudachi, Natsugumo, Fubuki) plus retained non-Solomon losses listed above; do not force the new ledger back into the old band."
+  },
+  "light_cruiser_reconciliation": {
+    "physical_combat_hulls_center": 21,
+    "roster": {
+      "Tenryu": ["Tenryu", "Tatsuta"],
+      "Kuma": ["Kuma", "Tama", "Kitakami", "Oi", "Kiso"],
+      "Nagara": ["Nagara", "Isuzu", "Natori", "Yura", "Kinu", "Abukuma"],
+      "Sendai": ["Sendai", "Jintsu", "Naka"],
+      "singletons": ["Yubari", "Oyodo"],
+      "Agano": ["Agano", "Noshiro", "Yahagi"]
+    },
+    "branch_loss_logic": {
+      "Tenryu": "historical Madang reinforcement loss not inherited because Branch PNG campaign geometry differs after Port Moresby capture",
+      "Yura": "historical Guadalcanal air-loss chain absent",
+      "Jintsu": "historical Kolombangara loss absent",
+      "Sendai": "historical Empress Augusta Bay loss absent"
+    },
+    "readiness_1944_01_01": {
+      "fully_or_near_ready_band": "18-20",
+      "Yahagi": "WORKUP; completed 1943-12-29, not Jan-early expeditionary asset",
+      "Kinu": "operational at frontier but carries near-term Singapore refit/maintenance debt",
+      "Oi_Kitakami": "local transport/training/refit-oriented, useful but not preferred young combat layer",
+      "Agano_Noshiro_Oyodo": "no current-Branch damage/commitment found that blocks Jan movement; individual origin/route still must be assigned"
+    }
+  },
+  "submarine_reconciliation": {
+    "historical_reference": "historical IJN physical submarine count about 72 on 1944-01-01; Branch comparison must correct loss paths and Sentaka opportunity cost",
+    "known_branch_deltas": [
+      "1942 year-end net +1 to +3 hull survival, center +2, after extra Indian/South-Pacific patrol losses",
+      "1943 May nominal combat-usable advantage +4 to +6 vs historical, including early Sentaka readiness and survival/mission-allocation effects",
+      "six first-generation Sentaka combat-ready by late Jul 1943; separate from conventional-boat count",
+      "I-183 is cancelled/indefinitely deferred center; I-179/I-181 construction delayed",
+      "I-30 survives historical Oct-1942 Singapore mine event but its 1943 operational fate remains not yet named",
+      "I-34 historical Ultra-directed Penang ambush is not inherited; Europe/return mission remains date-gated",
+      "I-31 is the Branch Attu submarine loss center",
+      "I-175 is damaged in GALVANIC and unavailable Jan1 until Jan5-20 band",
+      "many historical 1943 Solomon/Gilberts submarine losses are not automatically inherited; GALVANIC current settlement books no Japanese submarine sinking"
+    ],
+    "working_global_physical_band": "86-92",
+    "working_center": 89,
+    "combat_usable_band": "72-79",
+    "warning": "Global submarine exact named roster is not yet hard-promoted. The 86-92 band is a reconciliation output from historical 72 plus Branch survival/Sentaka changes minus opportunity cost and alternate-patrol attrition; individual H2 conventional-boat fates still need final pass.",
+    "known_indian_ocean_nucleus_around_1944_01": {
+      "I-162": "on Indian Ocean patrol from 1943-12-14; historical return 1944-01-22",
+      "I-166": "Ceylon/Eight Degree Channel patrol from 1943-12-07; historical return Penang 1944-01-09",
+      "RO-111": "returned Penang 1943-12-29; historically departs 1944-01-07 for Ceylon east-coast mine/patrol",
+      "I-165": "SubDiv30 partner; exact Branch Jan route requires individual trace before assignment",
+      "RO-112": "newly assigned Southwest/8th SubRon and moving south; not automatically Ceylon-ready on Jan1",
+      "I-175": "not available for immediate Indian reinforcement due GALVANIC repair"
+    },
+    "indian_ocean_working_capacity_before_new_transfer": "assigned 5-7 Japanese boats, on-station/forward-ready 3-5 around Jan1; can thicken to 7-9 on-station during late Jan using conventional boats before diverting Sentaka",
+    "sentaka_rule": "0 Sentaka committed west at Jan1 center; hold 1-2 WEST-TRANSFER-READY only after Eastern Fleet eastbound contact makes sprint/recontact geometry valuable"
+  },
+  "warship_construction_correction": {
+    "fleet_DD": "Yugumo build time only 3-5% shorter and Akizuki 2-4% shorter; Jan1 advantage is survival and availability, not mass extra hulls",
+    "kaibokan": "quantity difference is modest under FOUNDATIONAL_BASELINE_REAUDIT_1944-01-01_v001; delete old 36-42 completion claim. Main effect is better availability/doctrine and gradual separation of slow-convoy escort from fleet DD",
+    "Matsu": "no large emergency acceleration before 1944",
+    "Chitose_Chiyoda": "remain seaplane tenders",
+    "Nisshin": "survives absent New Georgia loss chain",
+    "Ise_Hyuga": "remain conventional battleships",
+    "Taiho": "Feb-1944 completion then work-up; not Jan asset",
+    "Ibuki": "heavy cruiser path, late Jun/early Jul 1944; not Jan asset"
+  },
+  "remaining_hard_close_items": [
+    "Final named H2-1943 conventional submarine roster/fates, especially I-30 post-return, I-34 voyage gate, and alternate patrol losses around New Hebrides/Central Pacific.",
+    "Older destroyer/local-escort pool is not part of the 81 modern fleet-DD count; rebuild separately only if local escort capacity becomes a binding constraint.",
+    "Promote this ledger into Branch CURRENT only after submarine named pass and route/origin assignments for any actual Indian Ocean transfer."
+  ]
+}

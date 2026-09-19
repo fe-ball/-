@@ -1,0 +1,25 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_FIRST_MOBILE_FLEET_SOUTHWARD_CONCENTRATION_DECISION_1944-03-04_08_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-03-04..08",
+  "global_frontier_after_merge": "1944-03-08T24",
+  "parents": [
+    "TONE_CHIKUMA_POST_03FEB_MOVEMENT_AND_RELEASE_RECONSTRUCTION_1944-02-03_03-03_WORKING_v001"
+  ],
+  "purpose": "Separate the rational southward fuel/training concentration of the First Mobile Fleet from any Indian-Ocean commerce raid or Eastern-Fleet reaction.",
+  "decision_gate": {
+    "motive": "PASS. Truk is no longer a safe fleet hub, Central-Pacific forward bases have contracted, and carrier-air regeneration/training is urgent after 3-Feb losses.",
+    "logistics": "PASS_CENTERED. Southern Philippines/Borneo/Singapore-Lingga axis offers better fuel and training support than remaining exposed in the Carolines.",
+    "combat_readiness": "MIXED. Shokaku/Zuikaku are operational; Hiryu hull/team gate has reopened by early March; air-group cadre depth remains the limiting factor. Taiho is a Branch February-completed hull but remains in work-up and is not counted as an immediate synchronized combat deck.",
+    "Eastern_Fleet_motive": "NOT_PRIMARY. This is a Mobile-Fleet regeneration/basing move, not a response to INITIAL and not a revival of SA No.1."
+  },
+  "decision": "BEGIN_PHASED_SOUTHWARD_CONCENTRATION",
+  "04_08_posture": {
+    "mobile_carrier_scout_screen_pool": "Begin movement/planning from Palau-western Philippines toward Davao/Borneo/Singapore-Lingga support axis as maintenance and escorts permit.",
+    "Tone_Chikuma": "Remain attached to mobile-fleet scout/screen pool; no Indian-Ocean operational release.",
+    "arrival_guard": "Do not claim every named ship has reached Lingga by 8 Mar; exact hull-by-hull transit is not fully reconstructed here.",
+    "Indian_Ocean_effect": "Physical proximity may improve in later March, but command ownership and opportunity cost remain; proximity is not sortie authorization."
+  },
+  "SA_No1": "REMAINS_CANCELLED"
+}

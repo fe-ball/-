@@ -1,0 +1,61 @@
+{
+  "revision": "v001",
+  "id": "TAIHO_FIVE_DECK_INTEGRATION_1944-04-16_30_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-04-16..30",
+  "global_frontier_after_merge": "1944-04-30T24",
+  "parents": [
+    "TAIHO_FIVE_DECK_INTEGRATION_1944-04-01_15_WORKING_v001",
+    "JAPAN_CARRIER_AIR_REGENERATION_1944-04-16_30_WORKING_v001"
+  ],
+  "historical_sanity_anchor": "Historical Taiho remained in intensive Lingga carrier training through April/early May after becoming Ozawa flagship on 15 Apr. Branch earlier completion plus larger surviving cadre accelerates the curve, but does not erase the separate ship/deck/air-group integration clock.",
+  "22Apr": {
+    "class": "B+ centered",
+    "physical_or_immediate_air_pool_band": [
+      74,
+      83
+    ],
+    "serviceable_band": [
+      65,
+      75
+    ],
+    "mission_ready_band": [
+      60,
+      71
+    ]
+  },
+  "30Apr": {
+    "class": "B+",
+    "physical_or_immediate_air_pool_band": [
+      76,
+      84
+    ],
+    "serviceable_band": [
+      67,
+      77
+    ],
+    "mission_ready_band": [
+      61,
+      72
+    ]
+  },
+  "five_deck_gate": {
+    "status_30Apr": "PASS_FOR_ONE_CYCLE_MASS_OPERATION; PARTIAL_FOR_REPEAT_CYCLE",
+    "Taiho_contribution_to_mass_strike_band": [
+      35,
+      45
+    ],
+    "five_deck_one_cycle_synchronized_package_band": [
+      210,
+      250
+    ],
+    "still_below_veteran_core": [
+      "repeat launch/recovery rhythm at sustained tempo",
+      "night/bad-weather cross-deck recovery",
+      "deep D4Y/B6N observer/navigation leader reserve",
+      "deck-team improvisation after damage/cycle disruption"
+    ]
+  },
+  "personnel_effect": "Taiho is easier to activate because veteran seed cadres and secondary-carrier qualification capacity exist. Acceleration is mostly in leader density, landing qualification and deck-team learning; it does not require hollowing out the four veteran carriers.",
+  "basing": "Continue Davao-Celebes/Tarakan axis rotation and sea exercises; no Palau forward basing."
+}

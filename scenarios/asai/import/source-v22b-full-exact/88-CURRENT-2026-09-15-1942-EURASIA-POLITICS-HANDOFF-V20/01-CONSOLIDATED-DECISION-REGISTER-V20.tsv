@@ -1,0 +1,74 @@
+id	status	topic	decision	guard
+V20-001	CURRENT-REPLAY	history_clock	1942-08-31 24:00	Supersedes V19 replay clock only for chronology explicitly replayed in V20
+V20-002	CURRENT-REPLAY	barbarossa	German invasion of USSR begins 1941-06-22	Historical anchor retained
+V20-003	CURRENT-REPLAY	continuation_war	Finland enters renewed Soviet war after 1941-06-25 air attacks; state of war recognized 06-26	Later Finnish war aims remain separately gated
+V20-004	CURRENT-CLOSE	finland_leningrad	Finland does not become unrestricted Leningrad-assault partner	Limited East-Karelian advance remains allowed
+V20-005	CURRENT-CLOSE	south_indochina_1941	Historical 1941 South Indochina military occupation decision is not made	No automatic July asset-freeze/oil-embargo cascade
+V20-006	CURRENT-REPLAY	matsuoka	Immediate Soviet-war line loses; Matsuoka removed in July 1941 cabinet reconstruction	Does not mean northward option is abandoned
+V20-007	CURRENT-REPLAY	konoe_iii	Third Konoe Cabinet forms July 1941 and continues beyond historical Oct resignation	No historical US-war deadline crisis
+V20-008	CURRENT-CLOSE	tojo_cabinet_1941	Historical October 1941 Tojo Cabinet does not form	May reopen only through a new political crisis
+V20-009	CURRENT-REPLAY	kantokuen	Worldline Kantokuen begins July 1941 and is not wound down for a southward war	Evolves into reinforced standing northern posture
+V20-010	WORKING-CLOSE	kwantung_divisions_1941_06	13-division base: historical 12 plus branch-retained 4th Division	Exact supporting-unit counts separate
+V20-011	WORKING-CLOSE	kwantung_divisions_1941_08	~15 ready base plus 21st arriving and 33rd in transfer	Do not count arriving units as fully ready until integrated
+V20-012	WORKING-CLOSE	kwantung_divisions_1941_09	~17-division combat base by late September	Worldline working OOB
+V20-013	WORKING-CLOSE	kwantung_divisions_1941_11	~19-division reinforced northern posture by late November	Winterization/rationalization may reduce peak mobilization manpower without removing combat core
+V20-014	CURRENT-REPLAY	pearl_harbor	No Japanese attack on US/UK/NL in Dec 1941	Historical Pacific War events do not auto-occur
+V20-015	CURRENT-CLOSE	germany_us_war_1941	No historical 1941-12-11 German declaration on the United States	A later US-German war remains OPEN
+V20-016	CURRENT-REPLAY	us_status_1942	United States remains formally nonbelligerent through current clock while supporting Britain/USSR	Atlantic incidents and Lend-Lease remain
+V20-017	WORKING-CLOSE	soviet_extra_east_1941	Worldline retains about 4 rifle divisions plus 58th Tank Division east that historically transferred west	Unit-specific ledger; not aggregate myth
+V20-018	CURRENT-CLOSE	sov_hold_21rd	21st Rifle Division retained east	Primorye/Ussuri threat
+V20-019	CURRENT-CLOSE	sov_hold_32rd	32nd Rifle Division retained east	Primorye/Ussuri threat
+V20-020	CURRENT-CLOSE	sov_hold_78rd	78th Rifle Division retained east	Khabarovsk/Ussuri threat
+V20-021	CURRENT-CLOSE	sov_hold_92rd	92nd Rifle Division retained east	Vladivostok/coastal threat
+V20-022	CURRENT-CLOSE	sov_hold_58td	58th Tank Division retained east	Key mobile reserve against Japanese armored concentration
+V20-023	WORKING-CLOSE	soviet_transfer_selection	Moscow preferentially extracts units from less threatened western/inner Far East sectors while keeping Ussuri/coastal formations	Recalculate each transfer window
+V20-024	WORKING-CLOSE	moscow_1941_effect	Soviet counteroffensive still occurs; missing eastern formations modestly worsen selected NW/W sectors but do not cause Moscow fall	German logistics/weather still decisive constraints
+V20-025	CURRENT-REPLAY	finland_1942	Finland shifts toward holding existing lines and seeking exit opportunities in 1942	No automatic peace settlement yet
+V20-026	CURRENT-REPLAY	fisheries_1942	March 1942 Japan-USSR fisheries modus vivendi/extension retained	Worldline incentives to preserve neutrality are at least as strong
+V20-027	WORKING-CLOSE	pacific_lend_lease	Japan monitors but does not blockade US/Soviet Pacific Lend-Lease; seeks political assurances against Far-East anti-Japan use	No Japanese inspection right
+V20-028	CURRENT-REPLAY	case_blue	German 1942 southern offensive retained	Worldline Soviet strength differs through transfer effects
+V20-029	CURRENT-REPLAY	maikop	Germany captures Maikop area but oil installations are wrecked and not a usable strategic oil prize by current clock	Do not treat Maikop capture as Soviet oil-system collapse
+V20-030	WORKING-CLOSE	sov_transfer_wave_1942	96th/204th/205th can go west; 87th/98th/126th/208th/422nd are held east in current replay	Dedicated detailed OOB audit can refine dates
+V20-031	WORKING-CLOSE	stalingrad_effect_aug1942	Soviet Stalingrad approaches are thinner than history because several Far Eastern divisions are absent; German corridor/pressure improves locally but city not yet fallen	Do not erase German fuel/logistics limits
+V20-032	CURRENT-REPLAY	japan_two_more_divisions_1942_08	On 1942-08-24 Japan orders two more China-withdrawal formations prepared/transferred north	Exact division identities OPEN
+V20-033	WORKING-CLOSE	japan_northern_goal_1942_09	Aim toward ~21-division northern posture during September	Not yet a completed 21-division ready OOB at 1942-08-31
+V20-034	CURRENT-CLOSE	n_opportunity_gate	N-OPP RED as of 1942-08-31	War not auto-triggered; local Soviet Far East remains strong
+V20-035	CURRENT-PLANNING	n_preventive_gate	N-PREV LATENT/YELLOW: Soviet strategic recovery while main Red Army remains tied west can become a preventive-war trigger	Not presently a war decision
+V20-036	CURRENT-PLANNING	n_accommodation_gate	N-ACC LATENT: decisive Soviet advantage can push Japan toward strengthened neutrality/border settlement	Not pro-Soviet alignment
+V20-037	CURRENT-CLOSE	s_commerce_gate	S-COM ACTIVE	Current southern central policy
+V20-038	CURRENT-PLANNING	s_political_gate	S-POL LIGHT ACTIVE	Commercial/political influence short of occupation
+V20-039	CURRENT-CLOSE	s_resource_crisis_gate	S-CRISIS CLOSED at current clock	Reopens on financial/oil/material strangulation
+V20-040	CURRENT-CLOSE	s_war_gate	S-WAR CLOSED at current clock	Can reopen after resource crisis/strategic trigger
+V20-041	CURRENT-CLOSE	hold_gate	Armed-neutrality HOLD remains central branch	Does not imply passive disarmament
+V20-042	CURRENT-CLOSE	taiho	Taiho construction continues on historical basic clock	Technical detail can differ through worldline design/quality changes
+V20-043	CURRENT-PLANNING	carrier_800	Maru-5 No.800 becomes deliberate medium standard fleet-carrier line, not automatic wartime Unryu simplification	Detailed band in naval closeout
+V20-044	CURRENT-REPLAY	carrier_800_order	No.800 construction execution authorized Apr 1942; detail design active through summer	Actual keel date still OPEN at 1942-08-31
+V20-045	GATED	carrier_additional_two	Two additional No.800-family carriers planned for Oct 1942 decision after US build/yard review	Not ordered at current clock
+V20-046	CURRENT-PLANNING	improved_taiho	Maru-5 Nos.801/802 retained as improved-Taiho line	Start dates remain yard/program dependent
+V20-047	WORKING-CLOSE	carrier_balance_1942	Current Japanese carrier force is adequate in 1942-43; main ratio danger moves toward 1944 under US building curve	Do not equate total US fleet carriers with immediate Pacific concentration
+V20-048	CURRENT-CLOSE	catapult_cat0	Catapult concept/base technology closed	Not service qualification
+V20-049	CURRENT-CLOSE	catapult_cat1	Low-priority/full-scale research program exists	Not service equipment
+V20-050	OPEN	catapult_cat2	Full-scale land-launch qualification	Needs repeat launches/recharge/acceleration qualification
+V20-051	CURRENT-PLANNING	catapult_cat3	Taiho structural reservation accepted	Actual launcher fit remains open
+V20-052	OPEN	catapult_cat4_6	Taiho fit, sea qualification and later-carrier standardization	Future gates
+V20-053	WORKING-CLOSE	marine_e6_simple	E6-M marine simple-cycle installed shaft efficiency ~22.5% workband	Engineering workband, not fleetwide measured number
+V20-054	WORKING-CLOSE	marine_e6_recuperated	E6-M marine recuperated efficiency ~26.9% workband	Dependent on marine recuperator losses
+V20-055	WORKING-CLOSE	marine_e7_recuperated	Latest 1941 ground E7 + advanced recuperation ~30.1-30.7% shaft-efficiency workband	Ground research state, not 1941 fleet engine
+V20-056	CURRENT-CLOSE	combined_cycle_c0	GT exhaust/high-pressure steam combined-cycle concept C0 closed	Later engineering/procurement gates remain open
+V20-057	OPEN	combined_cycle_c1_c7	Land integrated rig -> E7 marine core -> full train -> sea qualification -> combat adoption -> fleet trial -> mass production	Do not auto-complete from theory
+V20-058	CURRENT-PLANNING	e7_combined_leader_study	3.3-3.6kt standard / ~85-90k shp / 36.5-37kt / long-range E7+steam leader is design-study ideal only	No procurement without C-gates
+V20-059	WORKING-CLOSE	china_peace_dividend	Recovery order: fuel burn improves first; shipping/imports next; fiscal/labor/civilian consumption later	Kantokuen absorbs a meaningful share
+V20-060	WORKING	shipping_1941_end	Military/government shipping ~1.8-2.4m gross tons; civilian/normal trade ~3.9-4.5m gross tons working band	Strategic estimate, not exact registry close
+V20-061	WORKING	middle_distillate_1941_end	~0.85-1.00m kL working band	Needs dedicated petroleum audit for exact close
+V20-062	WORKING-REPLAY	africa_gazala	Axis gains tactical advantage at Gazala but Tobruk does not fall in June 1942 due stronger British/Commonwealth reserve picture	Dedicated Africa audit can reopen details
+V20-063	WORKING-REPLAY	madagascar_1942	Historical British Madagascar invasion not automatic; Japanese Indian Ocean-base trigger is absent	Reopens on a new Axis/Japanese base trigger
+V20-064	CURRENT-CLOSE	torch_1942	Historical-scale Operation Torch unavailable while US remains formally nonbelligerent	A later US entry can reopen
+V20-065	CURRENT-PLANNING	german_japan_postwar_boundary	Japan now wants explicit German clarification of Far-Eastern/post-Soviet spheres before treating German victory as automatically beneficial	Actual German response is next political topic
+V20-066	CURRENT-PLANNING	eurasia_outcome_a	Prolonged German-Soviet mutual attrition recognized as broadly favorable to Japanese freedom of action	Actor preferences differ; do not publish as official doctrine without replay
+V20-067	CURRENT-PLANNING	eurasia_outcome_b	German western victory plus Soviet state compressed into Urals/Siberia recognized as potentially dangerous to Japan	Important next political perception question
+V20-068	CURRENT-PLANNING	eurasia_outcome_c	Soviet collapse plus Japanese Far-Eastern faits accomplis recognized as Army-favorable outcome	Requires successful timing/war or state collapse
+V20-069	CURRENT-PLANNING	eurasia_outcome_d	Soviet collapse with German influence reaching deep east before Japanese settlement recognized as dangerous	Alliance != unconditional trust
+V20-070	CURRENT-PLANNING	eurasia_outcome_e	German-Soviet negotiated peace recognized as dangerous because both armies become freer	Actor weighting to audit
+V20-071	CURRENT-PLANNING	eurasia_outcome_f	Soviet strategic recovery while Germany still pins main Red Army recognized as dangerous preventive-war window	Central future political/military gate
+V20-072	CURRENT-PLANNING	eurasia_outcome_g	Decisive Soviet victory recognized as dangerous but potentially manageable through accommodation and partial Anglo-American interest convergence	Not an automatic Japan-US alliance
+V20-073	NEXT-GATE	political_perception	Audit how each major leadership recognizes/welcomes/fears Eurasian end-states and how it reads others' triggers	Distinguish fact, estimate, belief, planning input and propaganda

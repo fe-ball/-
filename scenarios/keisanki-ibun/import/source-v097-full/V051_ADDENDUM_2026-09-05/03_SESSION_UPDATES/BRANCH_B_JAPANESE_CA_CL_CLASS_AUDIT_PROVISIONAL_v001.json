@@ -1,0 +1,244 @@
+{
+  "schema": "branch_b_japanese_ca_cl_class_audit_provisional_v001",
+  "date": "2026-09-05",
+  "authority": "canonical-provisional-overlay",
+  "canonical_frontier": "1944-08-04T24:00",
+  "campaign_clock_advanced": false,
+  "purpose": "Class-level engineering/performance overlay for IJN CA/CL where detailed individual audits are absent. Values are coarse sensitivities, not universal combat multipliers.",
+  "global_nonstacking_rules": [
+    "Do not stack class engineering percentages with global TECH-GUNFIRE-SURFACE or torpedo reliability/accuracy modifiers as if independent hit-rate bonuses.",
+    "Class overlay primarily changes realized speed/reliability/fuel/repairability/DC/I-O and bad-tail probability, not armor thickness, shell energy, or nominal weapon count.",
+    "Individual refit date, individual radar fit, damage/repair state, ammunition state, crew state and theater availability override class profile.",
+    "Radar prewire/power/plotting integration is not radar detection-range or SG-equivalence.",
+    "Historical post-divergence conversions/refits are causal gates, not automatic calendar events."
+  ],
+  "classes": [
+    {
+      "class": "Furutaka",
+      "category": "CA",
+      "ships": "Furutaka / Kako",
+      "audit_status": "PROVISIONAL_OVERLAY",
+      "baseline": "post-1936–39 major modernization; historical weapons/armor geometry retained",
+      "branch_delta": {
+        "refit_engineering": "mature post-accident analysis; engineering/rework burden ~15–25% lower where yard bottleneck does not dominate",
+        "speed": "do not increase headline rating; healthy practical sustained performance centered about historical 33 kt, with ~0.1–0.3 kt-equivalent retention benefit",
+        "cruise_fuel": "~3–5% better sensitivity",
+        "machinery_fault_tail": "~10–20% lower",
+        "dc_io": "moderate improvement in drainage/fire-main/electrical isolation and calibration; no armor multiplier"
+      },
+      "combat_rule": "global gunfire/torpedo tech applies separately; no extra class hit multiplier"
+    },
+    {
+      "class": "Aoba",
+      "category": "CA",
+      "ships": "Aoba / Kinugasa",
+      "audit_status": "PROVISIONAL_OVERLAY",
+      "baseline": "late-1930s/1940 modernization; historical main battery/torpedo/armor geometry retained",
+      "branch_delta": {
+        "refit_engineering": "mature case ~20–30% shorter engineering loop where docks/materials do not dominate",
+        "speed": "headline near historical; ~0.1–0.3 kt-equivalent better practical retention",
+        "cruise_fuel": "~4–6% better sensitivity",
+        "machinery_fault_tail": "~15–25% lower",
+        "dc_io": "moderate-high for an old hull after mature refit"
+      },
+      "combat_rule": "no universal toughness or accuracy multiplier"
+    },
+    {
+      "class": "Myoko",
+      "category": "CA",
+      "ships": "Myoko / Nachi / Haguro / Ashigara",
+      "audit_status": "PROVISIONAL_OVERLAY",
+      "baseline": "1939–41 full modernization; retain 10x203mm, 4x4 610mm launchers + 8 reloads, historical post-refit displacement and ~33.3 kt headline",
+      "branch_delta": {
+        "speed": "healthy practical band ~33.4–33.7 kt equivalent; emphasis on repeatability, not a new top-speed rating",
+        "cruise_fuel": "~4–6% better sensitivity",
+        "post_refit_faults": "~15–25% lower unplanned correction/yard tail",
+        "dc_io": "moderate-high; improved power segregation, pumps/fire-main routing and future sensor integration",
+        "torpedo_hazard": "Type 93 magazine/reload hazard remains material"
+      },
+      "combat_rule": "surface-gunfire global tech only; launcher count is historical refit specific"
+    },
+    {
+      "class": "Takao",
+      "category": "CA",
+      "ships": "Takao / Atago / Maya / Chokai",
+      "audit_status": "CURRENT_PROVISIONAL_AUTHORITY",
+      "baseline": "split 1938 standard: Takao/Atago full modernization; Maya/Chokai limited modernization because yard capacity still binds",
+      "branch_delta": {
+        "Takao_Atago": {
+          "profile": "T-38A full mature refit",
+          "torpedoes": "4x4 610mm; 8 reloads; total 24 carried center",
+          "speed": "historical post-refit ~34.3 kt; good-condition Branch trial/practical sensitivity ~34.4–34.6, but no blanket +kt",
+          "cruise_fuel": "~3–5% better",
+          "aa_1942_11": "4x2 Type 89 127mm plus then-current light AA; individual radar fit date applies",
+          "dc_io": "moderate-high"
+        },
+        "Maya_Chokai": {
+          "profile": "T-38B limited refit",
+          "torpedoes": "retain 4x2 610mm at 1942-11 center; no automatic full Takao/Atago rebuild",
+          "speed": "near historical pre-full-rebuild condition; small practical-retention benefit only",
+          "aa_1942_11": "retain older 120mm AA battery plus then-current light AA; Type 21-class radar may be fitted by historical/Branch date",
+          "dc_io": "moderate"
+        }
+      },
+      "combat_rule": "for 1942-11 four-ship division instantaneous launcher count = 16+16+8+8 = 48, not 64; radar prewire/I-O improvement is not radar-range improvement"
+    },
+    {
+      "class": "Mogami",
+      "category": "CA",
+      "ships": "Mogami / Mikuma / Suzuya / Kumano",
+      "audit_status": "DETAILED_CANONICAL_INHERITED",
+      "baseline": "DO NOT OVERWRITE existing detailed audit in legacy canonical file 11",
+      "branch_delta": {
+        "reference": "teacher pair Mogami/Mikuma; mature pair Suzuya/Kumano; existing mission-effectiveness bands retained"
+      },
+      "combat_rule": "existing canonical audit wins over this overlay"
+    },
+    {
+      "class": "Tone",
+      "category": "CA",
+      "ships": "Tone / Chikuma",
+      "audit_status": "PROVISIONAL_OVERLAY",
+      "baseline": "new-build mature post-Fourth-Fleet design; retain 8x203mm, 4x3 610mm, seaplane scouting layout, ~35 kt historical headline",
+      "branch_delta": {
+        "speed": "planned 35 kt realized more consistently; good-condition practical/trial sensitivity ~35.1–35.4 rather than a new official rating",
+        "cruise_fuel": "~4–7% better sensitivity",
+        "initial_fault_tail": "~15–25% lower",
+        "search_aircraft_cycle": "~5–10% better launch/recovery/reporting process; no reconnaissance-radius bonus",
+        "dc_io": "high by contemporary IJN cruiser standard"
+      },
+      "combat_rule": "scouting value comes from cycle/reliability/reporting, not magical sensor range"
+    },
+    {
+      "class": "Ibuki",
+      "category": "CA",
+      "ships": "Ibuki / planned sister as applicable to Branch construction policy",
+      "audit_status": "PROVISIONAL_FUTURE",
+      "baseline": "under-construction/new-build CA; existing Branch construction clock and CA-not-CV policy are not changed",
+      "branch_delta": {
+        "engineering": "use mature Mogami/Tone lessons; lower rework/fault tail",
+        "performance": "no additional guns/armor/speed beyond separately authorized design changes"
+      },
+      "combat_rule": "no 1942 combat relevance; historical carrier conversion is not automatic"
+    },
+    {
+      "class": "Tenryu",
+      "category": "CL",
+      "ships": "Tenryu / Tatsuta",
+      "audit_status": "PROVISIONAL_OVERLAY",
+      "baseline": "old destroyer-leader hull; retain historical physical weapons and tight modernization margin",
+      "branch_delta": {
+        "speed": "no headline increase; only small practical retention (~0.1–0.2 kt-equivalent sensitivity)",
+        "fuel_maintenance": "~2–4% better process sensitivity",
+        "dc_io": "modest only"
+      },
+      "combat_rule": "no automatic mid-1930s full AA conversion; old-hull limits dominate"
+    },
+    {
+      "class": "Kuma-conventional",
+      "category": "CL",
+      "ships": "Kuma / Tama / Kiso / Oi",
+      "audit_status": "PROVISIONAL_OVERLAY_WITH_INHERITED_EXCEPTION",
+      "baseline": "post-stability/oil conversion conventional 5500t cruiser; historical full-load speed near 32 kt center",
+      "branch_delta": {
+        "speed": "healthy practical ~32.2–32.5 kt-equivalent band",
+        "cruise_fuel": "~3–5% better sensitivity",
+        "maintenance": "modest fault-tail reduction",
+        "dc_io": "modest"
+      },
+      "combat_rule": "Oi remains conventional CL per inherited canon; do not resurrect full 40-tube conversion"
+    },
+    {
+      "class": "Kitakami-special",
+      "category": "CL",
+      "ships": "Kitakami",
+      "audit_status": "DETAILED_CANONICAL_INHERITED",
+      "baseline": "one-off 40-tube heavy-torpedo experimental cruiser",
+      "branch_delta": {
+        "reference": "existing canonical file 11"
+      },
+      "combat_rule": "no series conversion; later fast-transport/Kaiten changes require separate causal gate"
+    },
+    {
+      "class": "Nagara",
+      "category": "CL",
+      "ships": "Nagara / Isuzu / Natori / Yura / Kinu / Abukuma",
+      "audit_status": "PROVISIONAL_OVERLAY",
+      "baseline": "post-stability/oil-conversion 5500t family; historical individual refits remain individual",
+      "branch_delta": {
+        "speed": "healthy practical ~32.2–32.5 kt-equivalent band",
+        "cruise_fuel": "~3–5% better sensitivity",
+        "fire_control_io": "modest calibration/communications improvement",
+        "dc_io": "modest"
+      },
+      "combat_rule": "do not standardize Abukuma-specific torpedo or later Isuzu AA configuration across class"
+    },
+    {
+      "class": "Sendai",
+      "category": "CL",
+      "ships": "Sendai / Jintsu / Naka",
+      "audit_status": "PROVISIONAL_OVERLAY",
+      "baseline": "post-stability 5500t family; historical individual 1941 torpedo refits remain individual",
+      "branch_delta": {
+        "speed": "healthy practical ~32.2–32.5 kt-equivalent band",
+        "cruise_fuel": "~3–5% better sensitivity",
+        "destroyer_leader_io": "moderate improvement in plotting, torpedo-salvo calibration, communications and second-salvo control",
+        "dc_io": "modest-moderate"
+      },
+      "combat_rule": "valuable as flotilla command node; no blanket torpedo-tube standardization"
+    },
+    {
+      "class": "Yubari",
+      "category": "CL",
+      "ships": "Yubari",
+      "audit_status": "PROVISIONAL_OVERLAY",
+      "baseline": "compact experimental hull with chronic weight/margin constraints",
+      "branch_delta": {
+        "speed": "historical physical performance; no meaningful headline uplift",
+        "trim_maintenance": "~5–10% process/availability benefit sensitivity",
+        "dc_io": "modest; tight volume limits remain"
+      },
+      "combat_rule": "1944 historical refit is not automatic; do not treat compact design as a free modernization platform"
+    },
+    {
+      "class": "Katori",
+      "category": "training_CL",
+      "ships": "Katori / Kashima / Kashii",
+      "audit_status": "WATCHLIST_ONLY",
+      "baseline": "training cruisers; historical low speed/armament retained",
+      "branch_delta": {
+        "value": "training, calibration, communications and staff-work platform rather than frontline combat uplift"
+      },
+      "combat_rule": "exclude from normal frontline CL combat-performance pool unless mission explicitly requires"
+    },
+    {
+      "class": "Agano",
+      "category": "CL",
+      "ships": "Agano / Noshiro / Yahagi / Sakawa",
+      "audit_status": "PROVISIONAL_OVERLAY",
+      "baseline": "late-1930s new-build; retain historical/existing-canonical main battery, torpedo battery and AA fit by hull/date; ~35 kt class headline; existing completion clocks win",
+      "branch_delta": {
+        "speed": "good-condition practical/trial sensitivity ~35.2–35.5 kt without changing official design rating",
+        "cruise_fuel": "~5–8% better sensitivity",
+        "initial_fault_tail": "~15–25% lower",
+        "dc_io": "high for contemporary IJN CL",
+        "flotilla_command": "improved I/O/plotting/communications reliability"
+      },
+      "combat_rule": "weapon physics unchanged; exact AA weapon label/count must come from current weapon/hull ledger, not this coarse overlay"
+    },
+    {
+      "class": "Oyodo",
+      "category": "CL",
+      "ships": "Oyodo",
+      "audit_status": "PROVISIONAL_FUTURE",
+      "baseline": "reconnaissance/command-oriented new-build; existing canonical Feb-1943 completion clock wins; no torpedo battery",
+      "branch_delta": {
+        "speed": "historical ~35.3 kt trial neighborhood; Branch good-condition sensitivity ~35.4–35.6",
+        "cruise_fuel": "~4–7% better sensitivity",
+        "command_plotting_io": "~10–15% process improvement in plotting/report handoff/space-power integration",
+        "aircraft_handling": "~5–10% cycle/reliability benefit"
+      },
+      "combat_rule": "E15K or other aircraft-specific reliability/range limits remain; later Combined Fleet flagship conversion requires causal audit"
+    }
+  ]
+}

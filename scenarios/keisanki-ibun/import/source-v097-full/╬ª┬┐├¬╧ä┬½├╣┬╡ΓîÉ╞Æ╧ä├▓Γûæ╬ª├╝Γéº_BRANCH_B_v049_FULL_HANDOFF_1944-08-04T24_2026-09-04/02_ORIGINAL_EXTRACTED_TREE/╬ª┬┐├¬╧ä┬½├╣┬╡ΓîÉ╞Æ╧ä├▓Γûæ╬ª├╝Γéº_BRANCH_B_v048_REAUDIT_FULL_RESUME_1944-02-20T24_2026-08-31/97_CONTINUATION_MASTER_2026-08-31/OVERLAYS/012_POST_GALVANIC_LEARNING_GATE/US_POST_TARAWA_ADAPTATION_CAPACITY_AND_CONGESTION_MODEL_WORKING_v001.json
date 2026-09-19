@@ -1,0 +1,66 @@
+{
+  "id": "US_POST_TARAWA_ADAPTATION_CAPACITY_AND_CONGESTION_MODEL_WORKING_v001",
+  "status": "WORKING_GATE_NOT_PROMOTED",
+  "historical_anchor": "Turner late-Nov 1943 lessons: more reconnaissance/submarine scouting, obstacle demolition, destroyers, landing craft, and roughly triple pre-landing bombardment/ammunition; Spruance approved in early Dec.",
+  "branch_information_model": {
+    "rule": "US adapts to what it observes, not to hidden Branch parameters.",
+    "likely_immediate_beliefs": [
+      "pre-assault damage assessment was too optimistic",
+      "Japanese protected positions and local C2 survived longer than expected",
+      "tank-engineer-direct-fire reduction works",
+      "support shipping needs stronger surface/submarine/air defense"
+    ],
+    "not_immediately_known": [
+      "exact Japanese construction-productivity advantage",
+      "future island-specific fortification layouts",
+      "precise Japanese shipping reserve and rear-airfield completion state"
+    ]
+  },
+  "adaptation_axes": [
+    {
+      "axis": "bombardment",
+      "natural_response": "more ammunition, longer fires, more observed re-attacks",
+      "finite_cost": "BB/CA/DD ship-days, ammunition lift, fuel, target spotting, submarine exposure; smoke/dust can degrade observation and landing control"
+    },
+    {
+      "axis": "air_suppression",
+      "natural_response": "more photo-recon, repeat strikes, tighter target-system attack",
+      "finite_cost": "carrier deck cycles, CAP/search/ASW/anti-carrier reserve; small-atoll airspace and target-identification congestion"
+    },
+    {
+      "axis": "landing_craft_LVT",
+      "natural_response": "more LVT/LVT(A), better obstacle/recon lanes, more reserve lift",
+      "finite_cost": "APA/LST deck space, reef/lagoon traffic control, beach exits, maintenance/fuel; extra craft do not create extra beach frontage"
+    },
+    {
+      "axis": "engineers_tanks_direct_fire",
+      "natural_response": "more integrated reduction teams and on-call fire",
+      "finite_cost": "beach unloading priority, engineer equipment, artillery ammo, road/exits and command bandwidth"
+    },
+    {
+      "axis": "destroyers_screen",
+      "natural_response": "more DD on-call gunfire and outer pickets",
+      "finite_cost": "same hull cannot simultaneously provide shore fire, ASW, radar picket and anti-surface screen"
+    },
+    {
+      "axis": "intelligence_surprise",
+      "natural_response": "more aerial/submarine reconnaissance and obstacle reconnaissance",
+      "finite_cost": "recon can telegraph objective and give Japan time to disperse/reinforce; tension with surprise"
+    },
+    {
+      "axis": "force_size_delay",
+      "natural_response": "amass more lift/support before next assault",
+      "finite_cost": "calendar delay gives Japan more construction time and permits carrier/air-group regeneration; delay is not automatically beneficial"
+    }
+  ],
+  "target_choice_effect": "Heavier Tarawa losses do not automatically force a Wotje/Maloelap stepping-stone assault. Historically caution increased yet Nimitz chose direct Kwajalein. In Branch B, stronger outer-island fortifications can make bypass more attractive, while harder-to-suppress aviation can make bypass more dangerous. Reopen target choice after Jan air/hardening and fleet-cover ledgers are closed.",
+  "congestion_rule": "Once firepower/lift exceed local command, spotting, airspace, reef lanes, beach exits, fuel/ammunition handling or radio capacity, marginal added force produces delay/friendly-fire/queueing rather than proportional combat power.",
+  "reopen": [
+    "FLINTLOCK target selection",
+    "FLINTLOCK D-day",
+    "US fast-carrier vs close-support sortie allocation",
+    "old-BB/DD bombardment plan",
+    "CVE allocation",
+    "assault shipping and LVT/LST/APA/AKA readiness"
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "revision": "v001",
+  "id": "WEAPON_PLATFORM_COVERAGE_AUDIT_v001",
+  "result": "PASS",
+  "profile_count": 11,
+  "system_count": 8,
+  "platform_class_count": 7,
+  "profiles": [
+    {
+      "profile": "CARRIER_BATTLE",
+      "mandatory_classes": [
+        "CARRIER",
+        "AIRCRAFT",
+        "SURFACE_COMBATANT"
+      ],
+      "conditional_classes": [
+        "SUBMARINE",
+        "ASW_ESCORT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "missing_class_definitions": []
+    },
+    {
+      "profile": "SURFACE_NIGHT",
+      "mandatory_classes": [
+        "SURFACE_COMBATANT"
+      ],
+      "conditional_classes": [
+        "SUBMARINE",
+        "AIRCRAFT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "missing_class_definitions": []
+    },
+    {
+      "profile": "CONVOY",
+      "mandatory_classes": [
+        "SUBMARINE",
+        "ASW_ESCORT",
+        "SURFACE_COMBATANT"
+      ],
+      "conditional_classes": [
+        "AIRCRAFT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "missing_class_definitions": []
+    },
+    {
+      "profile": "SUBMARINE",
+      "mandatory_classes": [
+        "SUBMARINE",
+        "ASW_ESCORT"
+      ],
+      "conditional_classes": [
+        "SURFACE_COMBATANT",
+        "AIRCRAFT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "missing_class_definitions": []
+    },
+    {
+      "profile": "AMPHIBIOUS",
+      "mandatory_classes": [
+        "SURFACE_COMBATANT",
+        "AIRCRAFT",
+        "CARRIER",
+        "LAND_COMBAT_SYSTEM"
+      ],
+      "conditional_classes": [
+        "SUBMARINE",
+        "ASW_ESCORT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "missing_class_definitions": []
+    },
+    {
+      "profile": "LAND_AIR",
+      "mandatory_classes": [
+        "AIRCRAFT"
+      ],
+      "conditional_classes": [
+        "LAND_COMBAT_SYSTEM",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "missing_class_definitions": []
+    },
+    {
+      "profile": "AIRFIELD_ATTACK",
+      "mandatory_classes": [
+        "AIRCRAFT"
+      ],
+      "conditional_classes": [
+        "LAND_COMBAT_SYSTEM",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "missing_class_definitions": []
+    },
+    {
+      "profile": "BASE_DEFENSE",
+      "mandatory_classes": [
+        "AIRCRAFT",
+        "LAND_COMBAT_SYSTEM"
+      ],
+      "conditional_classes": [
+        "SURFACE_COMBATANT",
+        "ASW_ESCORT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "missing_class_definitions": []
+    },
+    {
+      "profile": "FORAGER_GATE",
+      "mandatory_classes": [
+        "CARRIER",
+        "AIRCRAFT",
+        "SURFACE_COMBATANT",
+        "SUBMARINE"
+      ],
+      "conditional_classes": [
+        "ASW_ESCORT",
+        "LAND_COMBAT_SYSTEM",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "missing_class_definitions": []
+    },
+    {
+      "profile": "SPECIAL_STRIKE",
+      "mandatory_classes": [
+        "SUBMARINE",
+        "AIRCRAFT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "conditional_classes": [
+        "SURFACE_COMBATANT",
+        "ASW_ESCORT"
+      ],
+      "missing_class_definitions": []
+    },
+    {
+      "profile": "INDUSTRIAL_AIRCRAFT",
+      "mandatory_classes": [
+        "AIRCRAFT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "conditional_classes": [],
+      "missing_class_definitions": []
+    }
+  ],
+  "checks": [
+    "all event profiles have a platform matrix entry",
+    "all referenced platform classes exist",
+    "submarine and surface-combatant review is mandatory in their direct combat profiles",
+    "FORAGER_GATE explicitly reviews both submarine and surface-combatant capability",
+    "novel/divergent runtime systems require explicit record by policy"
+  ]
+}

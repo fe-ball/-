@@ -1,0 +1,88 @@
+{
+  "revision": "v002",
+  "id": "JAPAN_705TH_NAG_EASTWARD_REDEPLOYMENT_1944-02-28_03-03_WORKING_v002",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-02-28..03-03",
+  "global_frontier_after_event": "1944-03-03T24",
+  "parents": [
+    "JAPAN_INDIAN_OCEAN_AIR_POSTURE_1944-02-23_27_WORKING_v001"
+  ],
+  "correction": "Any prior text saying 705 provides support to a 27-Feb SA surface departure is void because that surface sortie was cancelled by the SA decision re-audit.",
+  "decision_logic": {
+    "motive": "Central-Pacific reinforcement pressure is stronger after Eniwetok secure and Truk neutralized; a long-range bomber transfer to the Palau/Peleliu defense system has higher marginal value than retaining the full unit for an unsupported commerce raid.",
+    "slack": "The transfer is feasible by staged self-deployment, but ground organization and maintenance do not teleport; arrival aircraft are not instantly full-strength sorties."
+  },
+  "starting_center_27T24": {
+    "physical": 39,
+    "serviceable": 29,
+    "mission_ready": 21,
+    "source_band": "previous 34-44 / 24-34 / 16-26 western ledger"
+  },
+  "movement": [
+    {
+      "date": "1944-02-28",
+      "state": "PACKING_AND_FIRST_FERRY_PREP",
+      "western_long_range_search_equivalent": "2-4 sorties/24h"
+    },
+    {
+      "date": "1944-03-01",
+      "state": "FIRST_MAIN_G4M_ECHELON_DEPARTS_SUMATRA_STAGING_CHAIN",
+      "note": "No simultaneous western/eastern mission credit."
+    },
+    {
+      "date": "1944-03-02",
+      "state": "MAIN_FLIGHT_ELEMENT_IN_BORNEO_DAVAO_PALAU_FERRY_CHAIN",
+      "western_long_range_search_equivalent": "1-3 sorties/24h"
+    },
+    {
+      "date": "1944-03-03",
+      "state": "MOST_TRANSFERRED_FLIGHT_ELEMENT_AT_OR_APPROACHING_PALAU_PELELIU_REORGANIZATION_NODES",
+      "note": "Reorganization and ground-support lag keep immediate eastern sortie generation below departure readiness."
+    }
+  ],
+  "03Mar_center_reconciliation": {
+    "eastbound_or_arrived_main_element": {
+      "physical_center": 26,
+      "serviceable_center_at_departure": 20,
+      "mission_ready_center_at_departure": 15,
+      "immediate_ready_after_ferry_center_band": [
+        8,
+        14
+      ]
+    },
+    "western_residual": {
+      "physical_center": 13,
+      "serviceable_center": 9,
+      "mission_ready_center": 6,
+      "physical_band": [
+        10,
+        16
+      ],
+      "serviceable_band": [
+        7,
+        12
+      ],
+      "mission_ready_band": [
+        4,
+        8
+      ],
+      "long_range_search_sorties_per_24h": [
+        1,
+        3
+      ]
+    },
+    "center_check": "26+13=39 physical; 20+9=29 serviceable; 15+6=21 mission-ready at allocation point. Ferry fatigue then lowers immediate eastern ready count without destroying aircraft."
+  },
+  "replacement_guard": "Do not credit the historical replacement 24 B5N local structure or the 4-Mar 706th attack-unit reorganization before 4 Mar; that belongs to the next clock window.",
+  "331st_NAG": "Retains bounded western fighter-defense role through 3 Mar; historical 4-Mar organizational change is future.",
+  "Tokai_MAD": "Western detachment remains active for convoy/departure-lane ASW. No confirmed datum creates a kill in this window.",
+  "Ka_go": {
+    "local_aircraft": 0,
+    "effect": "NONE"
+  },
+  "operational_effect": "By 1-3 Mar the Japanese western system loses most of its flexible long-range bomber search/strike depth. This further lowers the expected value of a surface commerce raid and reduces probability of independently finding SLEUTH.",
+  "sources_external": [
+    "https://rikukaigun.org/JeffD/Air%20Units%203%20-%20Numbered%20Kokutai%20%28Air%20Groups%29.html",
+    "https://ja.wikid.org/%E4%B8%89%E6%B2%A2%E6%B5%B7%E8%BB%8D%E8%88%AA%E7%A9%BA%E9%9A%8A"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "revision": "v002",
+  "id": "INDIAN_OCEAN_AIR_CAPABILITY_GAP_AUDIT_1944-02-21_v002",
+  "supersedes": "97_SESSION_CLEANED_2026-08-30/AIR/INDIAN_OCEAN_AIR_CAPABILITY_GAP_AUDIT_1944-02-21_v001.json",
+  "status": "MAJOR_GAP_CLOSED_WITH_BANDED_RECONSTRUCTION_EVENT_LOCAL_GATES_REMAIN",
+  "scope": "Eastern Fleet / Ceylon / Andaman-Arakan / Bay of Bengal aviation capability needed for 1944-02-19..22 adjudication at global frontier 1944-02-21T24.",
+  "finding": "The theater-level aviation omission is closed for planning/adjudication: FAA/RAF/IJA/IJN combat aviation plus Tokai/MAD and Ka-go ASW aviation now have loadable bands and no-double-count rules. Exact event-time readiness remains intentionally unresolved until the event is instantiated.",
+  "closed_items": [
+    "Illustrious nominal air group and Feb19-22 embarkation posture separated from shore use",
+    "Unicorn support role and Battler local absence resolved",
+    "Ceylon No222 Group maritime patrol, anti-shipping and fighter bands constructed",
+    "Bay-support No225 subset and branch-displaced Bengal/Arakan No224 bands constructed",
+    "IJA 5th Air Division western subset constructed with Burma cross-debit",
+    "IJN 331 and 705 western presence handled with explicit cross-theater rules",
+    "IJN 551 main Tenzan force removed from Indian Ocean to prevent double count after Jan31 ferry to Truk",
+    "Tokai/MAD national and western detachment bands constructed as branch interpolation",
+    "Ka-go local Indian Ocean contribution fixed at zero absent a dated local platform movement"
+  ],
+  "residual_event_local_inputs_not_a_theater_OOB_blocker": [
+    "weather/visibility at event hour",
+    "airfield/deck temporary damage",
+    "crew fatigue and same-day prior sorties",
+    "exact contact freshness/quality",
+    "mission-radius and payload choice",
+    "specific tasking debit between search/CAP/strike/ASW"
+  ],
+  "working_files": [
+    "97_SESSION_CLEANED_2026-08-30/AIR/INDIAN_OCEAN_AIR_CAPABILITY_LEDGER_1944-02-19_22_WORKING_v002.json",
+    "97_SESSION_CLEANED_2026-08-30/AIR/JAPAN_INDIAN_OCEAN_ASW_AIR_CAPABILITY_1944-02-19_22_WORKING_v001.json"
+  ],
+  "no_double_count_findings": {
+    "551": "26 B6N2 ferried from Sabang to Truk by 11 Feb; main Indian Ocean Tenzan credit is zero for 19-22 Feb.",
+    "331": "If branch retains it west pending a dated transfer, it receives zero simultaneous Pacific credit.",
+    "705": "Credited west in this event window; any subsequent eastward transfer must be dated and posted before Pacific use.",
+    "Illustrious": "Same FAA aircraft cannot be counted once ashore and again as embarked carrier sorties in the same window.",
+    "Tokai": "Western detachment is inside national MAD-capable total, not additional to it.",
+    "Ka_go": "National/type capability does not imply local presence."
+  },
+  "adjudication_guard": {
+    "allowed_now": [
+      "Eastern Fleet / Andaman / Bay event-local contact generation",
+      "air strike/CAP package generation within bands",
+      "air attrition accounting",
+      "ASW/search contribution with local gates"
+    ],
+    "still_blocked": [
+      "Using exact point estimates where only bands exist",
+      "Stacking search and strike sorties from the same aircraft without tasking debit",
+      "Using Ka-go in the Indian Ocean in this window without a new dated movement",
+      "Using 551 Tenzan in both Truk and Sabang",
+      "Treating Tokai MAD as broad-area search radar"
+    ]
+  },
+  "next_exact_action": "Instantiate the 1944-02-19..22 Eastern Fleet / Andaman / Bay event timeline, apply event-hour weather/contact/tasking gates, and adjudicate. Aviation reconstruction is no longer the blocking task."
+}

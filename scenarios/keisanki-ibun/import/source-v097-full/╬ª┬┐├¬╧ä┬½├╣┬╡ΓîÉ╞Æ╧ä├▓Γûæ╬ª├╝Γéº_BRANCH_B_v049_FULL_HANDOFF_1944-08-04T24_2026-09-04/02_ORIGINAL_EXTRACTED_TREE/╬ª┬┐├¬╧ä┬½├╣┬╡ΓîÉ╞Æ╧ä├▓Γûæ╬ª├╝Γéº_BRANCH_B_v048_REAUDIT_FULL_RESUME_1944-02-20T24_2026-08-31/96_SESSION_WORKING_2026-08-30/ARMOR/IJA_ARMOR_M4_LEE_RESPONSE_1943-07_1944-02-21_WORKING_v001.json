@@ -1,0 +1,190 @@
+{
+  "revision": "v001",
+  "id": "IJA_ARMOR_M4_LEE_RESPONSE_1943-07_1944-02-21_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "cutoff": "1944-02-21",
+  "purpose": "Reconstruct how the IJA's already-existing 1943 anti-tank development policy is changed by GALVANIC M4 contact, Bengal Lee/Grant contact, and Branch success of the Chi-Ha family.",
+  "historical_anchors": {
+    "1943_07_research_policy": {
+      "state": "IJA armor development had already shifted toward anti-tank combat before GALVANIC.",
+      "ChiTo": "1942H2 new-medium program; July 1943 requirement moved from 47mm-class toward long 57mm and heavier protection.",
+      "ChiRi": "July 1943 research-policy line included a 75mm-class heavier medium-tank requirement.",
+      "meaning": "Tarawa/Bengal do not invent the concept of a 75mm anti-tank tank. They change urgency, procurement priority, and the need for a stopgap."
+    },
+    "ChiHe": {
+      "development_complete": "1943-06 historical official-history anchor",
+      "historical_mass_production": "1944 spring; commonly reconstructed factory output begins Feb 1944",
+      "role": "better 5-man/radio/armor/engine system but 47mm remains inadequate as a reliable frontal answer to M4-class armor"
+    },
+    "ChiNu_historical": {
+      "decision": "1944-05",
+      "prototype": "1944-09",
+      "production": "1944-10",
+      "architecture": "Chi-He lineage hull + new large turret + Type 3 75mm tank gun derived from the existing Type 90 75mm field gun"
+    },
+    "HoNiI_Type90": {
+      "state": "Existing practical architecture before 1944: Type97 chassis + Type90 75mm field gun; Type90 was also recognized as usable in an anti-tank role.",
+      "importance": "This gives the IJA a faster 75mm mobile-firepower path than waiting for a new turreted medium tank."
+    }
+  },
+  "branch_intelligence_fusion": {
+    "GALVANIC": {
+      "date": "1943-11-24..29",
+      "information": "High confidence that US 75mm medium tanks materially improve assault reduction power; detailed Japanese post-battle exploitation is poor because the garrison is destroyed/isolated.",
+      "effect": "Immediate warning that the 47mm/light-tank system does not provide a comfortable frontal answer."
+    },
+    "BENGAL": {
+      "date": "1943-12 first half",
+      "contact_state": "25th Dragoons Lee/Grant reinforcement is route-disrupted by loss of Ukhia access, Japanese old-battleship bombardment, Karnaphuli crossings and British demolitions; only small packets are likely to fight.",
+      "information_probability": {
+        "reliable_combat_identification": "70-85%",
+        "detailed_wreck_or_component_exploitation": "35-55%"
+      },
+      "effect": "Surviving divisional/army communications can report that 30-ton 75mm British medium tanks are physically present in the India-Burma theater."
+    },
+    "European_global_intelligence": {
+      "effect": "The technical establishment already knows that world medium-tank design is moving toward heavier armor and 75mm-class guns. Branch decision does not require perfect Tiger/Panther/Sherman blueprints."
+    },
+    "fused_message_to_Tokyo": "The problem is not a local Tarawa anomaly. Allied 30-ton/75mm medium armor is becoming a recurring threat in both Pacific amphibious warfare and the India-Burma theater."
+  },
+  "branch_decision_gate": {
+    "window": "1943-12-24..1944-01-12",
+    "center": "1944-01-06",
+    "centered_result": "YES: urgent anti-Allied-medium-tank program is opened.",
+    "probability_working": {
+      "urgent_multitrack_response": 0.76,
+      "historical_like_wait_until_spring": 0.16,
+      "heavy_tank_overreaction": 0.08
+    },
+    "reasoning": [
+      "July-1943 anti-tank policy means the bureaucracy already accepts the technical direction.",
+      "GALVANIC proves immediate operational relevance.",
+      "Bengal gives an independent theater warning with a surviving reporting chain.",
+      "Branch armor reliability makes tank forces institutionally more credible, strengthening the case for investment.",
+      "Aircraft/ship/shipping priorities still prevent a large national tank-production surge."
+    ]
+  },
+  "selected_four_track_program": {
+    "track_A_immediate_field_solution": {
+      "name": "75mm direct-fire / Ho-Ni anti-tank reserve",
+      "priority": "IMMEDIATE",
+      "actions": [
+        "Issue doctrine emphasizing mines/immobilization, flank geometry, and concealed 75mm direct fire against Allied medium tanks.",
+        "Reserve AP ammunition and selected motorized Type90 75mm field guns for armored/anti-tank contingency roles.",
+        "Reclassify existing Ho-Ni I vehicles as valuable anti-medium-tank mobile reserve assets rather than only mobile artillery.",
+        "Place a small follow-on Ho-Ni-I-type 75mm batch or equivalent production restart under urgent study/order."
+      ],
+      "1944_02_21_state": {
+        "existing_HoNiI_reallocated_for_training_reserve_band": [
+          6,
+          10
+        ],
+        "new_or_restart_75mm_SPG_complete_band": [
+          0,
+          4
+        ],
+        "center_new_complete": 2,
+        "fielded_overseas_new_batch": 0
+      },
+      "guard": "Type90 field guns are scarce and useful as artillery; do not strip China/Bengal field artillery wholesale."
+    },
+    "track_B_ChiHe_acceleration": {
+      "name": "Bring Chi-He production forward modestly",
+      "priority": "HIGH",
+      "historical_problem": "Design already complete; production lag is substantially a priority/tooling/resource problem rather than ignorance of how to build the vehicle.",
+      "branch_change": "Advance line switchover by roughly 2-5 weeks, not by a year.",
+      "working_output": {
+        "1944_Jan_physical": [
+          3,
+          6
+        ],
+        "1944_Feb_01_21_physical": [
+          7,
+          12
+        ],
+        "cumulative_physical_by_1944_02_21": [
+          10,
+          18
+        ],
+        "accepted_serviceable_by_1944_02_21": [
+          7,
+          14
+        ],
+        "center_physical": 14,
+        "center_accepted": 10
+      },
+      "deployment": "school, proving, depot and selected home/armored-formation conversion only; no overseas combat unit centered by 21 Feb",
+      "opportunity_cost": "Shinhoto tail and other vehicle work lose roughly 8-15 medium-chassis-equivalent slots through Feb; no extra national hull magic."
+    },
+    "track_C_75mm_stopgap_medium": {
+      "name": "Chi-He-lineage 75mm turreted stopgap",
+      "priority": "URGENT DEVELOPMENT",
+      "historical_analogue": "This is the causal ancestor of a Chi-Nu-like solution, but its final Branch designation/layout is not frozen yet.",
+      "design_choice": "Use a Chi-He-lineage hull and adapt the existing Type90 75mm ballistic family into a tank installation; use a new turret rather than wait for Chi-To.",
+      "start_center": "1944-01-08",
+      "1944_02_21_state": {
+        "requirement": "FROZEN",
+        "layout_trade": "CLOSED centered: turreted stopgap beats a new 25-30t hull for near-term production",
+        "full_scale_turret_mockup": "complete or near-complete",
+        "recoil_mount_bench_work": "under test",
+        "first_hull": "reserved/being modified",
+        "complete_running_prototype": 0,
+        "combat_vehicle": 0
+      },
+      "prototype_clock": {
+        "first_running_or_firing_prototype_band": "1944-03-25..04-20",
+        "center": "1944-04-07",
+        "reason": "Historical May->Sep development took about four months; Branch has earlier start, better compute/metrology/QC and existing Ho-Ni/Type90 integration experience, but turret/ring/recoil/sight/manufacturing work remains physical."
+      },
+      "production_gate": {
+        "earliest_low_rate": "1944-05 late if trials go unusually well",
+        "centered_low_rate": "1944-06",
+        "not_yet_granted": "No quantity or Marianas shipment is booked at this stage."
+      }
+    },
+    "track_D_ChiTo_long_term": {
+      "name": "Skip treating 57mm Chi-To as the future production answer",
+      "priority": "HIGH_RESEARCH",
+      "branch_change": "The 57mm prototype may still be completed as a chassis/test article because sunk work exists, but the production requirement is frozen around a 75mm-class main armament earlier than the historical final redesign.",
+      "1944_02_21_state": "new-hull development continues; 75mm turret/gun path receives higher design priority, but engine, hull, armor and large-turret manufacturing remain major gates.",
+      "effect": "Potentially saves a later redesign cycle; does not create a usable 30t tank in 1944H1."
+    }
+  },
+  "rejected_or_secondary_paths": {
+    "mass_ChiHe_as_M4_killer": "REJECTED. Better tank system, wrong main-gun class for reliable frontal M4 combat.",
+    "HoI_short_75mm_as_primary_AT_answer": "SECONDARY. Useful HE/fire support and close ambush possibilities, but low-velocity 75mm is not the preferred medium-tank counter.",
+    "crash_ChiRi_or_heavy_tank": "REJECTED for near term because engines, armor plate, transport, factories and time dominate.",
+    "abandon_Shinhoto": "REJECTED. 47mm Shinhoto remains highly cost-effective in China, Burma/South and against lighter armor; it becomes theater/role differentiated rather than obsolete everywhere."
+  },
+  "doctrine_output_by_1944_02_21": {
+    "status": "REALIZED_WORKING",
+    "content": [
+      "47mm: avoid centered frontal duel with Allied 30t medium tanks; seek side/rear, short range, prepared lanes.",
+      "37mm/light tanks: reconnaissance, flank/mobile firepoint and infantry-support roles; no frontal medium-tank duel.",
+      "75mm field/SPG: concealed direct-fire anti-tank reserve where terrain permits.",
+      "mines/engineers/artillery: immobilize and channel before direct-fire engagement.",
+      "tank units: preserve reliable Chi-Ha/Shinhoto mobility for local counterattack rather than sacrificial frontal charge."
+    ],
+    "distribution": "Tank School / artillery-school / selected formation guidance can circulate during Jan-Feb; theater adoption remains local."
+  },
+  "industrial_effect_by_1944_02_21": {
+    "scale": "MODEST_PHYSICAL / LARGE_DIRECTIONAL",
+    "steel": "No national tank steel surge. Branch 1944 industry is healthier than historical but aircraft, ships, merchant shipping and trucks remain competing priorities.",
+    "engine": "240hp Type100-class engine production becomes a more explicit bottleneck because Chi-He and the stopgap share the improved chassis lineage.",
+    "guns": "75mm gun/breech/recoil/sight throughput is the most important near-term stopgap bottleneck.",
+    "turret": "Large rotating turret manufacturing is the main difference between an immediate Ho-Ni-type solution and a later Chi-Nu-like solution.",
+    "net": "By Feb21 the qualitative decision has changed, but fielded tank strength has not yet changed dramatically."
+  },
+  "retroactive_implications": {
+    "China_pre_GALVANIC": "Mostly quantity/serviceability/model-mix corrections; no 75mm stopgap back-port.",
+    "South_1941_43": "Mostly quantity/serviceability/model-mix corrections.",
+    "Bengal_Dec1943": "Reopen Lee/Grant contact and existing Japanese AT/vehicle balance, but no Jan1944 production response can be back-ported into the December battle.",
+    "GALVANIC": "No new Japanese weapons added; it is an intelligence/requirement trigger.",
+    "post_Feb1944": "Every tank-sensitive campaign must use the new production/development clocks."
+  },
+  "next_gates": [
+    "Rebuild Bengal 2-15 Dec armored contact only enough to fix the quality of the Lee/Grant report and wreck-exploitation gate.",
+    "Build Jan-Jun 1944 monthly medium-chassis/240hp-engine/75mm-gun/turret production ledger.",
+    "Then determine what is physically accepted, assigned, shipped and delivered before Marianas; do not decide Saipan first."
+  ]
+}

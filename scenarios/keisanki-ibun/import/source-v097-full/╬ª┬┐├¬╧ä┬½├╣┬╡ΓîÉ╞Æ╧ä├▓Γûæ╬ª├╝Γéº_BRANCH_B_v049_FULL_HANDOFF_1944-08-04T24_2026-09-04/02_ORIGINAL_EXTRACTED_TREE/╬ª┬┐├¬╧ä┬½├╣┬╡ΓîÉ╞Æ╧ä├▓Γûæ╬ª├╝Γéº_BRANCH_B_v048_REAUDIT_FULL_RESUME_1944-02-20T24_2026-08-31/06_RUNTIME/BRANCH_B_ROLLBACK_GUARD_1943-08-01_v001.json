@@ -1,0 +1,28 @@
+{
+  "revision": "v001",
+  "id": "BRANCH_B_ROLLBACK_GUARD_1943-08-01_v001",
+  "status": "ACTIVE_CURRENT_BRANCH_B",
+  "restart": "1943-08-01T00:00",
+  "purpose": "Prevent downstream 1943Q3/Q4 and 1944 material from silently becoming Branch B history.",
+  "authoritative_through_restart": [
+    "06_RUNTIME/ALEUTIANS_ATTU_KISKA_REAUDIT_1943-03_07_SETTLEMENT_v001.md",
+    "06_RUNTIME/EFATE_LIMITED_NEUTRALIZATION_1943-06_SETTLEMENT_v001.md",
+    "06_RUNTIME/BRANCH_B_SUMMER_STATE_1943-07-31_v001.md"
+  ],
+  "reference_only_after_restart": [
+    "06_RUNTIME/INDIAN_OCEAN_BURMA_COASTAL_OPERATION_STUDY_1943-06_09_v001.md",
+    "06_RUNTIME/JAPAN_AMPHIBIOUS_NAVAL_WALLET_1943-07_09_v001.json",
+    "06_RUNTIME/GLOBAL_1943Q3_SYNCHRONIZATION_LEDGER_v001.md",
+    "06_RUNTIME/PACIFIC_MIDWAY_CONTINUOUS_CAMPAIGN_REAUDIT_1943-07_10_v001.md",
+    "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+    "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+    "06_RUNTIME/SESSION_2026-08-27_GALVANIC_MANDATORY_FACTORS_MEMO_v001.md"
+  ],
+  "rules": [
+    "Do not import any realized event after 1943-07-31 unless re-adjudicated in Branch B.",
+    "Later tech ledgers may be used only through their date-gated entries valid by the event date.",
+    "The GALVANIC mandatory-factors memo is a methodological checklist only; its implied November sequence is not history.",
+    "Indian Ocean/Arakan operation may be reconsidered from scratch among other strategic choices; its later study does not grant preparation, allocation, or GO.",
+    "US carrier regeneration must be forecast from branch losses and industrial/training clock; old US carriers remain lost."
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001",
+  "status": "WORKING_BOUNDED_CAPABILITY_MODEL_SINGLE_STATION_COUNT_REJECTED",
+  "as_of": "1944-01-01T00:00",
+  "purpose": "Resolve the pre-contact observation-network data gate without inventing a false exact count across unlike radar, DF/ESM, air-reconnaissance, visual-watch and plotting assets.",
+  "adjudication_rule": "R-SCIENCE-COMPARE-LIKE / bounded-not-absent: heterogeneous sensor/reporting assets are not collapsed into one physical station count.",
+  "accounting_decision": {
+    "requested_exact_station_count": "NOT_A_VALID_SINGLE_METRIC",
+    "reason": "The prior open node mixed physical radar sites, radio/DF collection, reconnaissance detachments, coastal visual observation and plot/reporting cells. These have different definitions and readiness clocks.",
+    "replacement": "Count functional reporting nodes by role/readiness and keep physical radar-site count separately UNKNOWN unless dated source evidence identifies installations.",
+    "physical_radar_station_count": {
+      "value": null,
+      "status": "UNKNOWN_BLOCKED_FROM_POINT_ESTIMATE",
+      "note": "Later 1944 evidence confirms plural Japanese radar installations in the Andamans, but it does not justify back-dating an exact 1 Jan count."
+    }
+  },
+  "source_anchors": [
+    {
+      "type": "internal_branch",
+      "path": "06_RUNTIME/INDIAN_OCEAN_BURMA_COASTAL_OPERATION_STUDY_1943-06_09_v001.md",
+      "supports": "Akyab/Port Blair active sensor layer; Ceylon/Addu passive observation logic."
+    },
+    {
+      "type": "internal_branch",
+      "path": "06_RUNTIME/BENGAL_ARAKAN_CHITTAGONG_1943-10_12_SETTLEMENT_v001.md",
+      "supports": "Chittagong/Patenga damaged but partially restored year-end air/recon capacity; 15-25 regular fighter/recon presence band."
+    },
+    {
+      "type": "internal_branch",
+      "path": "05_WARTIME/CHECKPOINT_1943-11-23T00_BRANCH_B_GALVANIC_REAUDIT_v001.json",
+      "supports": "Japanese low/mid-grade COMINT and passive ESM may cue search sectors but do not create automatic weapon-quality tracks."
+    },
+    {
+      "type": "external_secondary",
+      "title": "Japanese Air Raid on Calcutta – December 1943",
+      "url": "https://rldunn.com/japanese-air-raid-on-calcutta/",
+      "supports": "331 Air Group detachments reported at Mergui and Port Blair; 705 Air Group sea-search activity from Padang/Sabang."
+    },
+    {
+      "type": "external_later_corroboration",
+      "title": "Contribution of RN aircraft carriers (King's College thesis)",
+      "url": "https://kclpure.kcl.ac.uk/portal/files/65358706/Contribution_of_RN_aircraft_carriers_BENBOW_Accepted3March2017_GREEN_AAM.pdf",
+      "supports": "June 1944 Illustrious strike at Port Blair included two radar stations; proves plural radar installations by mid-1944 only, not exact Jan count."
+    },
+    {
+      "type": "external_general_corroboration",
+      "title": "History of Electronic Warfare / Congressional Record extract",
+      "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt22/pdf/GPO-CRECB-1967-pt22-10-2.pdf",
+      "supports": "Australian/British ferret aircraft from India plotted Japanese radars on the Andaman Islands and Malay Peninsula during the war."
+    }
+  ],
+  "functional_forward_nodes": [
+    {
+      "node": "AKYAB",
+      "roles": [
+        "air_reconnaissance",
+        "coastal_visual_reporting",
+        "search_launch_base"
+      ],
+      "readiness": "HIGH",
+      "historical_or_branch_basis": "Established Japanese-side Bay/Arakan sensor base in Branch planning; not newly captured."
+    },
+    {
+      "node": "PORT_BLAIR",
+      "roles": [
+        "air_reconnaissance",
+        "local_air_warning_radar_presence_bounded",
+        "coastal_visual_reporting",
+        "Andaman_sea_lane_reporting"
+      ],
+      "readiness": "MEDIUM_HIGH",
+      "historical_or_branch_basis": "Established Andaman base with air detachment/traffic; later 1944 evidence proves multiple radar stations, exact Jan count unresolved."
+    },
+    {
+      "node": "MERGUI_VICTORIA_POINT_SECTOR",
+      "roles": [
+        "air_detachment_reporting",
+        "coastal_visual_reporting",
+        "Andaman_Sea_north_south_cue"
+      ],
+      "readiness": "MEDIUM",
+      "historical_or_branch_basis": "Mergui outlying fighter/air presence corroborated; treat Victoria Point as sector support, not a separately proven radar station."
+    },
+    {
+      "node": "CHITTAGONG_PATENGA",
+      "roles": [
+        "forward_air_reconnaissance",
+        "coastal_visual_reporting",
+        "local_plot_and_relay"
+      ],
+      "readiness": "MEDIUM",
+      "historical_or_branch_basis": "Captured 15 Dec; heavy demolition and repair debt. Branch year-end allows regular 15-25 fighter/recon presence, so useful but not mature/dense sensor coverage."
+    }
+  ],
+  "rear_support_nodes": [
+    {
+      "node": "SABANG_PADANG",
+      "roles": [
+        "long_range_sea_search",
+        "rear_air_reporting"
+      ],
+      "readiness": "HIGH_FOR_SEARCH",
+      "note": "Rear search support; not counted as Andaman-Arakan forward physical station."
+    },
+    {
+      "node": "PENANG_SINGAPORE",
+      "roles": [
+        "submarine_contact_aggregation",
+        "Axis_liaison",
+        "traffic_analysis_COMINT_relay"
+      ],
+      "readiness": "HIGH_FOR_REPORTING",
+      "note": "Reporting/liaison node, not direct wide-area visual/radar coverage."
+    }
+  ],
+  "countable_summary": {
+    "forward_functional_reporting_nodes": 4,
+    "rear_support_reporting_nodes": 2,
+    "physical_radar_sites": "UNKNOWN",
+    "ready_equivalent_forward_node_center": 3.25,
+    "ready_equivalent_method": "HIGH=1.0, MEDIUM_HIGH=0.85, MEDIUM=0.7 used only as planning coverage diagnostic; not a combat multiplier."
+  },
+  "contact_quality_rule": {
+    "cue_level": "Any one node may create bearing/sector/time-window cue.",
+    "track_level": "Requires repeated reports or a second modality/node to narrow track age/route.",
+    "weapon_quality": "Requires fresh air/seaplane/submarine/visual recontact. Passive ESM/DF or a single radar/visual report never grants automatic firing solution.",
+    "do_not_double_count": "Air-recon detachment and its report relay at the same node are one causal chain, not two independent detection bonuses."
+  },
+  "open_after_this_audit": [
+    "Exact Jan-1944 hardware inventory/radar-set count at each node remains source-unknown and is not required to proceed with the first indication gate.",
+    "Weather, sortie availability and contact freshness are event-time variables and must be resolved when the RN force actually enters local search geometry."
+  ],
+  "data_gate_result": "CLOSED_FOR_WORKING_SIMULATION_WITH_BOUNDED_NODE_MODEL"
+}

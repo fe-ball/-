@@ -1,0 +1,23 @@
+{
+  "revision": "v001",
+  "id": "OPERATION_INITIATION_MOTIVE_SLACK_GATE_1944_WORKING_v001",
+  "status": "WORKING_PROSPECTIVE_ADJUDICATION_GUARD",
+  "effective_from": "1944-02-28T00:00:00+09:00",
+  "purpose": "Prevent historical operations from auto-firing in Branch B. Historical chronology supplies candidate options and process anchors, not compulsory decisions.",
+  "required_gates": {
+    "physical_capability": "Required hulls/air units/crews are physically present or have a dated feasible movement chain and are serviceable enough for the mission.",
+    "command_release": "The owning command has actually released the assets; theater-local availability cannot silently debit Combined Fleet/mobile-fleet assets.",
+    "operational_slack": "Fuel, escorts, maintenance, trained crews, reconnaissance and recovery capacity remain after higher-priority commitments.",
+    "motive_and_payoff": "The expected military or political payoff is still worth the risk in the Branch situation; historical motive may have weakened or strengthened.",
+    "information_quality": "For target-dependent sorties, the command has enough current information to justify launch; theoretical radius is not a target solution.",
+    "opportunity_cost": "The force is not more valuable in another active or imminent theater unless command explicitly accepts that tradeoff."
+  },
+  "decision_rule": "If any major gate fails, default DELAY/HOLD/NO-GO. A historical date cannot substitute for a failed Branch gate.",
+  "precision_guard": "Use qualitative or bounded judgments where staff motive/readiness is uncertain; do not manufacture exact probability percentages.",
+  "applies_first_to": [
+    "Operation SA No.1 / variants",
+    "Eastern Fleet reaction sorties",
+    "Japanese Central-Pacific reinforcement transfers",
+    "future Bay of Bengal surface escalation"
+  ]
+}

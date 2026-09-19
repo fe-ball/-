@@ -1,0 +1,195 @@
+{
+  "revision": "v001",
+  "id": "JAPANESE_ARMOR_PRODUCTION_LEDGER_1942_WORKING_v001",
+  "status": "WORKING_CAUSAL_PRODUCTION_RECONSTRUCTION_NOT_CURRENT",
+  "parents": [
+    "JAPANESE_ARMOR_OPENING_PRODUCTION_LEDGER_1935_1941_WORKING_v001",
+    "JAPANESE_ARMOR_HISTORY_REAUDIT_1935_1944_WORKING_v001"
+  ],
+  "historical_anchor": {
+    "Zaloga_1942": {
+      "Type97_tankette": 35,
+      "Type95_HaGo": 655,
+      "Type98_KeNi": 24,
+      "Type97_ChiHa_57mm": 28,
+      "Type97_Kai_Shinhoto_new": 503,
+      "Type1_HoNiI": 26,
+      "other_AFV": 124,
+      "total": 1395
+    },
+    "old_Type97_retrofit_note": "About 300 older Type97 57mm tanks were rebuilt with Shinhoto turrets over the wartime transition; this is additional model-mix conversion, not new hull production."
+  },
+  "strategic_allocation_logic": [
+    "Early Malaya/Philippines/Burma success validates Japanese armored operations but does not remove IJN/IJA aviation priority.",
+    "Therefore national AFV output envelope stays near historical rather than exploding.",
+    "Branch advantage is used first to accelerate model transition, acceptance, recovery and divisional support.",
+    "Reliable Type95 performance makes an urgent KeNi switch less attractive.",
+    "Nomonhan + M3 experience makes 47mm Shinhoto/AT firepower more attractive than continued new-build 57mm medium tanks."
+  ],
+  "branch_1942_output_center": {
+    "budget_envelope_band": [
+      1390,
+      1420
+    ],
+    "center_total": 1395,
+    "Type97_tankette": 35,
+    "Type95_HaGo": 655,
+    "Type98_KeNi": 15,
+    "Type97_ChiHa_57mm_new": 6,
+    "Type97_Kai_Shinhoto_new": 525,
+    "Type1_HoNiI": 30,
+    "other_AFV_recovery_tractor_special": 129,
+    "note": "Center deliberately preserves the historical total production envelope. Mix is shifted, not national steel magically enlarged."
+  },
+  "monthly_reconstructed_new_build": {
+    "Type95_HaGo": [
+      58,
+      57,
+      56,
+      56,
+      55,
+      55,
+      54,
+      54,
+      53,
+      53,
+      52,
+      52
+    ],
+    "Type97_ChiHa_57mm": [
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Type97_Kai_Shinhoto": [
+      24,
+      30,
+      36,
+      40,
+      44,
+      45,
+      48,
+      50,
+      52,
+      52,
+      52,
+      52
+    ],
+    "months": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "archive_guard": "These are event-timing model curves, not archival monthly production values."
+  },
+  "Shinhoto_retrofit_existing_hulls": {
+    "opening_carry_in_completed": 68,
+    "1942_monthly": [
+      18,
+      18,
+      18,
+      18,
+      16,
+      16,
+      15,
+      15,
+      12,
+      12,
+      10,
+      10
+    ],
+    "1942_total": 178,
+    "cumulative_completed_by_1942_12_31": 246,
+    "working_total_historical_rebuild_anchor": 300,
+    "interpretation": "Branch front-loads most of the historically attested rebuild program. Remaining ~50-ish historical-equivalent rebuilds can close in 1943 after gun/turret ledger check."
+  },
+  "Shinhoto_total_additions_1942": {
+    "new_hulls": 525,
+    "retrofit_old_hulls": 178,
+    "total_vehicles_changed_or_added_to_Shinhoto_pool": 703,
+    "important": "Only 525 are new physical hulls. 178 are already-existing Type97s moved from 57mm to 47mm category."
+  },
+  "Type1_47mm_AT_and_tank_gun_gate": {
+    "status": "OPEN_RESOURCE_LEDGER",
+    "reason": "Tank guns and towed AT guns share bore/ammunition/arsenal ecosystem but exact annual gun split is not securely established.",
+    "rule": "The 525 new turrets + 178 retrofit turrets are provisional until Osaka Arsenal gun/turret output confirms this throughput. If gun output is lower, retrofit volume is the first item to slide, not new hull production already contracted."
+  },
+  "ChiHe_1942": {
+    "state": "prototype/design maturation",
+    "physical_pilot_band_year_end": [
+      0,
+      4
+    ],
+    "combat_issue": 0,
+    "logic": "Branch can close welding/240hp-engine/design loops faster, but successful Shinhoto makes a crash line conversion irrational while national priority is naval/air."
+  },
+  "HoNiI_1942": {
+    "historical": 26,
+    "branch_center": 30,
+    "band": [
+      26,
+      34
+    ],
+    "source_of_delta": "slightly earlier evaluation closure and armored-division artillery demand",
+    "resource_guard": "extra units consume Type97 chassis and Type90 75mm gun resources; no larger expansion until artillery gun ledger."
+  },
+  "KeNi_1942": {
+    "historical": 24,
+    "branch_center": 15,
+    "band": [
+      10,
+      20
+    ],
+    "diverted_capacity": "repair/recovery/tractor/special AFV work rather than extra medium tanks",
+    "logic": "A more reliable Ha-Go strengthens the same historical reason Ke-Ni was low priority."
+  },
+  "operational_issue_timeline": {
+    "Philippines": {
+      "opening_Shinhoto": 0,
+      "replacement_window": "1942 Jan-Apr",
+      "branch_candidate": "A small earlier replacement batch can be sent from the prewar accepted pool; exact 4th/7th Regiment issue and shipping must be event-audited before changing battles.",
+      "historical_anchor": "Two Shinhoto were present for Corregidor after complaints about the 57mm gun."
+    },
+    "Malaya": {
+      "policy": "No automatic conversion of the 1st Tank Regiment before campaign end. 57mm HE remains useful against infantry/positions and the British lack a large local tank force."
+    },
+    "Burma": {
+      "policy": "47mm AT guns and limited Shinhoto reinforcement are potentially valuable against Stuart-equipped British armor, but must pass Rangoon/road/shipping allocation."
+    },
+    "Manchuria_China": {
+      "priority": "Major recipient of new Shinhoto as tank divisions form in Manchuria and the 3rd Tank Division forms in China."
+    }
+  },
+  "end_1942_consequence": {
+    "core": "The Japanese medium-tank fleet is much more rapidly 47mm-heavy than in a simple historical deployment reading, without increasing the national hull wallet much.",
+    "not_granted": [
+      "mass Chi-He combat units",
+      "75mm medium tanks",
+      "large national AFV output increase",
+      "automatic Shinhoto presence in every Southern Army tank regiment"
+    ]
+  },
+  "next_gate": [
+    "Reconstruct 1942 Type1 47mm gun/tank-gun production capacity.",
+    "Reconstruct 1943: 427 Shinhoto new, Chi-He 15 historical, Ho-Ni II 14, Ka-Mi 112, tank divisions and Branch Five operation demand.",
+    "Then audit 1942 Southern battles only where dated replacement shipments materially change vehicle mix."
+  ]
+}

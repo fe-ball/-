@@ -1,0 +1,156 @@
+{
+  "revision": "v002",
+  "policy": "00_CONFIG/adjudication_policy_v001.json",
+  "case_count": 10,
+  "cases": [
+    {
+      "id": "ADJ-EXEC-PEARL-SYNC-001",
+      "claim": "Which Pearl transition may feed opening runtime?",
+      "kind": "artifact_precedence",
+      "candidates": [
+        "pearl_state_transition_v002.json",
+        "pearl_state_transition_v003.json",
+        "opening_sync_state_v001 pointer to v002"
+      ],
+      "decision": "v003 feeds runtime; create normalized sync v002",
+      "status": "RESOLVED",
+      "basis": [
+        "AUTHORITATIVE_MANIFEST_v004 explicitly supersedes v002 for execution",
+        "v003 is a bounded causal rerun rather than the strict historical-shell v002"
+      ],
+      "scientific_score": "not applicable; execution artifact precedence",
+      "preserve_losers": true
+    },
+    {
+      "id": "ADJ-COMINT-1942-001",
+      "claim": "Is 1942 Japanese high-grade operational traffic normally exploitable by US cryptanalysis in short-strategic time?",
+      "kind": "scenario_technical_model",
+      "candidates": [
+        "70 section 8/9: almost unavailable at required time/precision",
+        "switch_registry_v010 COMSEC-1942-HIGH-GRADE-OUTCOME: OPEN",
+        "2026-08-18 handoff: explicitly identifies reintroduction of historical JN-25 COMINT as an error and restores 70 core condition"
+      ],
+      "decision": "Use 70/handoff high-grade-defense condition as current scenario runtime; retain switch OPEN entry as superseded stale gate to be repaired, not deleted. Field/operator/capture exceptions remain possible.",
+      "status": "RESOLVED_CURRENT_SCENARIO",
+      "basis": [
+        "dedicated cryptographic canon contains mechanism: design audit, key logistics, shorter key/use periods, reduced stereotyped traffic",
+        "later handoff explicitly diagnoses context dropout rather than a deliberate canon reversal",
+        "residual low-grade/traffic/DF/recon channels prevent overstatement"
+      ],
+      "scientific_note": "This is a scenario model choice constrained by plausible cryptographic mechanisms; it is not a claim of mathematical unbreakability. External evidence review may reopen magnitude but not silently restore historical intelligence state.",
+      "preserve_losers": true
+    },
+    {
+      "id": "ADJ-AIR-HARD-001",
+      "claim": "May old 50-53 aircraft numbers flow directly into combat?",
+      "kind": "technical_maturity",
+      "candidates": [
+        "50-53 platform studies",
+        "47 HARD gate",
+        "118/119 later audits",
+        "opening technical-clock guards"
+      ],
+      "decision": "Use explicit opening/late-audit profiles as bounded/provisional; later-aircraft fielding requires HARD/adoption/production/training/unit-median gates.",
+      "status": "PARTIALLY_RESOLVED",
+      "basis": [
+        "later dedicated audit separates clocks and identifies which values were re-audited",
+        "no physical reason to discard all earlier calculations, so retain them as evidence rather than runtime truth"
+      ],
+      "preserve_losers": true
+    },
+    {
+      "id": "ADJ-THRUST-EXHAUST-001",
+      "claim": "Can thrust exhaust provide a fleet-wide opening speed bonus?",
+      "kind": "technical_clock",
+      "candidates": [
+        "older aircraft timing claims",
+        "117 audit / opening technical guard"
+      ],
+      "decision": "No. Opening state TEST; mass standardization begins only after aircraft-specific test closure, generally 1942H2+ for new-build/major refit.",
+      "status": "RESOLVED",
+      "basis": [
+        "dedicated historical-clock audit is more condition-specific",
+        "opening guard explicitly supersedes older timing statements"
+      ],
+      "preserve_losers": true
+    },
+    {
+      "id": "ADJ-TOPDOWN-AIR-OUTPUT-001",
+      "claim": "Can +15-25% first-line or +20-35% repetitive land-air output bands be applied as inputs?",
+      "kind": "model_semantics",
+      "candidates": [
+        "older aviation summary/output bands",
+        "opening_state diagnostic-only copy",
+        "switch A-NO-TOPDOWN-OUTPUT-MULTIPLIER"
+      ],
+      "decision": "No as input. Derive readiness/reach/return/serviceability from component state; retain old bands only as diagnostic priors.",
+      "status": "RESOLVED",
+      "basis": [
+        "component model avoids double counting now that platform/readiness/weapon/search deltas are individually indexed"
+      ],
+      "preserve_losers": true
+    },
+    {
+      "id": "ADJ-GERMANY-LIAISON-001",
+      "claim": "Are Germany liaison submarine cargo arrivals fixed in advance?",
+      "kind": "outcome_vs_capability",
+      "candidates": [
+        "70 wording that prior result is fixed",
+        "switch SUB-GERMANY-LIAISON-VOYAGE-OUTCOME OPEN"
+      ],
+      "decision": "Voyage outcome remains an event gate. Technical capability/cargo intent may be canon; success is not fixed before route/threat/mechanical/COMSEC evaluation.",
+      "status": "RESOLVED",
+      "basis": [
+        "outcome depends on stochastic/event-specific route conditions and cannot be scientifically inferred solely from platform capability"
+      ],
+      "preserve_losers": true
+    },
+    {
+      "id": "ADJ-HISTORY-POSTOPENING-001",
+      "claim": "Can 80/85/86 old post-opening history be used as current state?",
+      "kind": "history_branch",
+      "decision": "No until revalidated/rerun from corrected inputs. Preserve as comparison branches.",
+      "status": "RESOLVED_RUNTIME",
+      "basis": [
+        "2026-08-18 handoff stops before Coral Sea after identifying material COMINT input failure"
+      ],
+      "preserve_losers": true
+    },
+    {
+      "id": "ADJ-GUN-AGGREGATE-001",
+      "claim": "May old broad 10-30% artillery/high-angle practical hit improvement be used as a runtime multiplier?",
+      "kind": "withdrawn_aggregate_model",
+      "decision": "No. Preserve the old summary as history, but runtime requires weapon/director/fuze/tracking/training decomposition; naval surface gunnery uses the narrower system-specific bands already indexed.",
+      "status": "RESOLVED",
+      "basis": [
+        "60 explicitly withdraws the old 10-30% army artillery and high-angle/high-AA practical hit-rate summaries pending system audit",
+        "30 separates mechanical director capability, correction convergence, physical dispersion and I/O."
+      ],
+      "preserve_losers": true
+    },
+    {
+      "id": "ADJ-SURFACE-AGGREGATE-001",
+      "claim": "May destroyer effective-force +10-15% or generic ship mission coefficients be used as direct combat multipliers?",
+      "kind": "diagnostic_vs_input",
+      "decision": "No direct top-down multiplier. Preserve as diagnostic/sensitivity output; derive through readiness, approach, contact, weapons, damage and re-entry stages.",
+      "status": "RESOLVED",
+      "basis": [
+        "10 describes effective-force uplift as an integrated consequence",
+        "62 explicitly decomposes mission effectiveness and warns that multiple 5-20% stage improvements may compound or be bottlenecked."
+      ],
+      "preserve_losers": true
+    },
+    {
+      "id": "ADJ-ASW-OUTCOME-001",
+      "claim": "May Tokai/ASW system outcome reductions in submarine opportunities or convoy loss be applied as intrinsic technology multipliers?",
+      "kind": "system_outcome_vs_technical_input",
+      "decision": "No. Retain them as bounded theater/coverage outcome priors after fielding; build runtime from radar/air coverage, contact, handoff, depth attack, escort allocation and enemy adaptation.",
+      "status": "RESOLVED",
+      "basis": [
+        "40 labels effects as coverage-dependent and diluted at theater scale",
+        "41 separates ship sensor/attack cycle and notes explicit 1942 gaps."
+      ],
+      "preserve_losers": true
+    }
+  ]
+}

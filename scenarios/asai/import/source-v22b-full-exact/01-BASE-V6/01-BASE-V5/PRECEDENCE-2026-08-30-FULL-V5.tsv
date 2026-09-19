@@ -1,0 +1,7 @@
+rank	scope	pointer	authority	status	rule
+1	restart	10-CURRENT-SESSION-GATES/asai_gate76_june_restart/76-1938-06-30-RESTART-BASELINE.md	Gate 76 / 1938-06-30 24:00	CURRENT-HIGHEST	Controls current numerical/company/weapon/aviation/flood-support state; use to resume 1938-07-01.
+2	late-current-session	10-CURRENT-SESSION-GATES/asai_gate68_yearend1937 through asai_gate75_general_effect_audit; 30-AVIATION-CURRENT; 40-MANPOWER-ATTRITION	Gates 63-75, including domain Gates 64-67 and 70-71	CURRENT-SUBORDINATE	Use for causal detail and derivation except where Gate 76 closes or supersedes a working value.
+3	earlier-current-session	10-CURRENT-SESSION-GATES Gates 36-62	Current-session battle progression	CURRENT-HISTORICAL	Historical progression and battlefield accounting through 1937-11-12; later rebase/supersession rulings control conflicts.
+4	corporate-derivation	20-CORPORATE-MANCHURIA	1937 company/Manchuria audits and closeouts	CURRENT-DERIVATION	Derivation support for later Gates; later Gate values control where closed.
+5	base-current	01-BASE-V4/01-CURRENT-BRANCH	V4 current reconstruction	BASE-CURRENT	Base authority only where not superseded by V5 current-session/domain rulings.
+90	source-reference	01-BASE-V4/90-SOURCE-QUARANTINE; 90-SUPPORT-REFERENCE	Archived/source material	SOURCE-ONLY	Provenance/reference only; never auto-promote archived aircraft names/adoption histories into current canon.

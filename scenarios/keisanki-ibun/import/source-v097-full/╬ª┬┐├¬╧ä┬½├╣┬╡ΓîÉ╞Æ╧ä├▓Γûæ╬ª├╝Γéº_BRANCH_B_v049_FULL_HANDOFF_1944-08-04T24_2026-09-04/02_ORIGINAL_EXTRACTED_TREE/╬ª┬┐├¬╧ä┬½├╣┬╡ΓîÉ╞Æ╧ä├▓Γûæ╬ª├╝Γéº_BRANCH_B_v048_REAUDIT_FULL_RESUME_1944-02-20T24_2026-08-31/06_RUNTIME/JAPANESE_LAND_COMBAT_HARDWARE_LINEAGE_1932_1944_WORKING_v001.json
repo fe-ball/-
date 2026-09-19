@@ -1,0 +1,208 @@
+{
+  "revision": "v001",
+  "id": "JAPANESE_LAND_COMBAT_HARDWARE_LINEAGE_1932_1944_WORKING_v001",
+  "status": "WORKING_PROVENANCE_AND_CAPABILITY_OVERLAY_NOT_CURRENT_AUTHORITY",
+  "as_of": "1944-02-06T18:00:00+12:00",
+  "purpose": "Close the missing non-software land-combat layer: artillery/mortars, infantry weapons, direct-fire/AT, mines/explosives, fortification materials, tactical communications hardware, engineer/mechanical plant, vehicles and ammunition/storage. Effects are bounded to repeatability, serviceability and prepared-position use; no new weapon family or quantity is created. This v046 form also defines the maturity clock needed for later event-by-event retroactive casualty correction without applying a blanket 1944 value to 1941-43 battles.",
+  "authority_note": "TECH_INDEX_v009 remains authority. This overlay interprets existing compute/measurement/QC/logistics principles for land combat and explicitly preserves the prior rule that a universal Army-artillery hit-rate multiplier is not yet authorized.",
+  "causal_architecture": [
+    "Domestic compute/measurement starts with firing tables, error decomposition and lot statistics before Europe missions.",
+    "Industrial/process gains reduce technical dispersion, reject bad lots and improve repair/serviceability; they do not increase nominal gun caliber, armor or explosive energy.",
+    "The strongest battlefield payoff occurs where targets/lanes are preregistered and communications survive; moving battles with broken observation receive much less benefit.",
+    "Europe/Yanagi is secondary for land weapons by Jan-1944. German precision-measurement/electronics experience can cross-feed test/calibration practice but does not create Japanese infantry/artillery weapon families.",
+    "Do not add these hardware effects again on top of existing soft C2/registered-fire/local-reserve effects; use stage-specific deltas only."
+  ],
+  "bands": [
+    {
+      "key": "artillery_mortar_ballistics",
+      "label": "野砲・山砲・歩兵砲・迫撃砲の射表/弾道/照準・弾薬中央値",
+      "origin": "STRONGLY_DOMESTIC_COMPUTE_MEASUREMENT_QC",
+      "hardware_unchanged": "Existing gun and mortar families/counts, tube ballistics and shell energy remain historical/trace-bound.",
+      "working_effects": {
+        "prepared_registered_position": "time/rounds to useful fire roughly 8-15% lower when survey/observation/wire-radio survive",
+        "first_effective_salvo_or_area_solution": "roughly +8-15% relative technical effectiveness in a preregistered lane; not a casualty multiplier",
+        "technical_dispersion_outlier_reduction": "roughly 10-20% for controlled lots/known tubes after lot sorting, propellant-temperature and barrel-wear correction",
+        "ammo_for_equivalent_suppression": "roughly 8-15% lower under stable observation; collapses toward baseline if FO/comms are broken"
+      },
+      "limits": [
+        "No global Army-artillery hit-rate scalar.",
+        "No effect if weapon destroyed/suppressed or observation is lost.",
+        "Counterbattery, smoke, terrain and crew quality remain dominant event variables."
+      ]
+    },
+    {
+      "key": "grenade_discharger_and_short_mortars",
+      "label": "擲弾筒・軽迫撃砲の照準表/弾薬lot/事前標定",
+      "origin": "DOMESTIC_QC_AND_TRAINING_AID",
+      "hardware_unchanged": "No launcher-count/range/explosive-energy increase.",
+      "working_effects": {
+        "first_salvo_consistency_at_marked_chokepoints": "about +5-12% relative technical consistency",
+        "ammo_wastage": "about 5-10% lower in prepared defense"
+      },
+      "limits": [
+        "Human range estimation and battlefield obscuration still dominate unregistered targets."
+      ]
+    },
+    {
+      "key": "small_arms_machine_guns",
+      "label": "小銃・軽重機関銃の製造中央値/照準零点/給弾・予備部品",
+      "origin": "DOMESTIC_PRODUCTION_QC",
+      "hardware_unchanged": "Same weapon families, cyclic rates and cartridge energy; no extra machine-gun sections are created.",
+      "working_effects": {
+        "technical_grouping_and_sight_zero": "old provisional ceiling 5-15%; event use should remain below this",
+        "prepared_position_useful_fire_persistence": "center roughly +3-7% relative where ammo/feed/spares survive"
+      },
+      "limits": [
+        "No generic infantry combat multiplier.",
+        "Suppression, fatigue, visibility and training dominate actual hit rate."
+      ]
+    },
+    {
+      "key": "direct_fire_anti_vehicle_and_local_armor",
+      "label": "20/37mm級・歩兵/高角砲の直射、対舟艇/対車両、局地装甲車両",
+      "origin": "DOMESTIC_QC_CALIBRATION_MAINTENANCE",
+      "hardware_unchanged": "Only historically/trace-valid guns and vehicles. No extra 47mm guns, tanks or heavier antitank weapons are spawned.",
+      "working_effects": {
+        "sight_and_ammo_repeatability": "roughly +5-12% relative technical repeatability at known lanes",
+        "vehicle_serviceability_pre_bombardment": "roughly +5-10% relative uptime where spares/fuel exist"
+      },
+      "limits": [
+        "Does not turn 20/37mm-class weapons into reliable frontal M4 Sherman killers.",
+        "US LVT/LVT(A) remain more vulnerable than M4 at favorable geometry.",
+        "Pre-invasion bombardment can erase the benefit before contact."
+      ]
+    },
+    {
+      "key": "mines_demolition_fuzes",
+      "label": "地雷・爆薬・信管・障害物破壊資材",
+      "origin": "DOMESTIC_MUNITIONS_QC",
+      "hardware_unchanged": "No minefield or explosive-stock quantity is created.",
+      "working_effects": {
+        "technical_dud_or_outlier_reduction": "roughly 10-20% relative for controlled factory lots/kept-dry stocks",
+        "prepared_obstacle_charge_reliability": "modestly improved through waterproofing, segregation and test rejection"
+      },
+      "limits": [
+        "Coral, salt water, hurried emplacement and bombardment damage can overwhelm factory-quality gains.",
+        "No invisible naval minefield is inferred."
+      ]
+    },
+    {
+      "key": "fortification_physical_engineering",
+      "label": "掩体・交通壕・revettment・小分散弾薬庫・blast protection",
+      "origin": "DOMESTIC_ENGINEERING_STANDARDIZATION",
+      "hardware_unchanged": "Same labor/material envelope. No deep cave/tunnel network and no untraced concrete-pillbox construction program.",
+      "working_effects": {
+        "completed_earth_timber_protected_positions": "roughly +10-20% local completion versus historical baseline where warning/material/time permit",
+        "protected_crew_bombardment_survival": "roughly 5-12% relative local casualty reduction for personnel actually inside completed positions",
+        "catastrophic_store_chain_loss": "lower probability through smaller magazines, blast separation and revetments"
+      },
+      "limits": [
+        "Open coral terrain and multi-day 16-inch/air/artillery bombardment remain devastating.",
+        "Benefit is local, not garrison-wide."
+      ]
+    },
+    {
+      "key": "tactical_comms_hardware",
+      "label": "野戦電話・無線・電池・交換部品・試験器材",
+      "origin": "DOMESTIC_ELECTRICAL_QC_WITH_GENERAL_EUROPE_METROLOGY_CROSSFEED",
+      "hardware_unchanged": "No large increase in radio/telephone set count without a traced issue table.",
+      "working_effects": {
+        "prepared_base_equipment_serviceability": "roughly +10-15% relative for protected sets/circuits with batteries/spares",
+        "repair_turnaround": "fault isolation and modular spares reduce some avoidable dead-time"
+      },
+      "limits": [
+        "Cable cuts, antenna destruction, power loss and RF jamming still break the network.",
+        "This hardware uptime underpins soft C2; do not add a second command multiplier."
+      ]
+    },
+    {
+      "key": "engineer_mechanical_plant_and_vehicles",
+      "label": "工兵器材・牽引車・トラクター・ポンプ・発電機・軽機械",
+      "origin": "DOMESTIC_MAINTENANCE_LOGISTICS_PROCESS",
+      "hardware_unchanged": "No extra engineer companies, tractors, trucks or construction battalions are created.",
+      "working_effects": {
+        "prepared_base_uptime": "roughly +5-10% relative where parts/fuel exist",
+        "physical_payoff": "faster re-digging, ditch/obstacle work, firebreaks, runway/track clearing, water/ammunition movement"
+      },
+      "limits": [
+        "Bombardment, fuel shortage and spare depletion dominate after sustained isolation."
+      ]
+    },
+    {
+      "key": "ammunition_packaging_storage_and_issue",
+      "label": "弾薬lot分離・防湿包装・小分散保管・給弾",
+      "origin": "DOMESTIC_QC_LOGISTICS",
+      "hardware_unchanged": "No ammunition tonnage increase is implied.",
+      "working_effects": {
+        "median_round_reliability": "bad lots are rejected/segregated more consistently",
+        "survivability": "smaller magazines and protected issue points reduce single-hit chain loss",
+        "issue_efficiency": "known lot/weapon pairing reduces avoidable correction and stoppage"
+      },
+      "limits": [
+        "This overlaps with distributed-store process doctrine; count the physical survivability once, not as a second logistics bonus."
+      ]
+    }
+  ],
+  "cross_theater_implications": {
+    "atoll_defense": "largest payoff in preregistered fire lanes, protected crews, communication uptime and reliable obstacles; still no depth against US combined arms",
+    "burma_bengal": "more useful over longer fronts because artillery/mortar corrections, engineer/vehicle uptime and ammunition issue can persist without total naval-fire dominance; must be event-audited separately",
+    "china": "artillery/engineer/logistics hardware/process may matter materially in sustained operations, but corps-level artillery concentration and transport remain separate gates",
+    "home_islands_future": "high-altitude air defense is not part of this land overlay; AA weapon/fire-control needs its own weapon-system audit before B-29 attrition is computed"
+  },
+  "anti_double_count": [
+    "Do not add a global land-combat +X% multiplier.",
+    "The v044 ground-adaptation file already models command succession, local reserves, preregistration doctrine and distributed stores. Hardware overlay only changes whether existing weapons/positions/equipment execute those tasks reliably.",
+    "Landing-package gains affect deployment/availability of guns, radios, engineers and vehicles; once equipment is in position, do not add the same +15-25% again to weapon lethality.",
+    "TECH_INDEX_v009 remains authority; this does not silently close every Army-artillery weapon model."
+  ],
+  "internal_source_anchors": [
+    "02_TECH/INDUSTRIAL_LOGISTICS_BASELINE_1932_1942_v001.md",
+    "02_TECH/TECH_INDEX_v009.json#TECH-LANDING-PACKAGE-001",
+    "02_TECH/TECH_INDEX_v009.json#TECH-AMPHIBIOUS-FIRSTDAY-001",
+    "99_LEGACY_UNTOUCHED/**/60_開戦戦力・輸送・空母・揚陸・砲計算.md (land artillery explicitly marked not integrated)",
+    "99_LEGACY_UNTOUCHED/**/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md (small-arms provisional bound and no generic artillery hit-rate transfer)"
+  ],
+  "maturity_by_period": [
+    {
+      "period": "1941 opening through 1942H1",
+      "artillery_ballistics_and_tables": "MEDIUM_HIGH: prewar compute/firing-table work already pays; use lower half of mature prepared-fire bands unless unit has exceptional survey/observation support",
+      "ammunition_QC_small_arms_reliability": "MEDIUM: factory lot rejection/zeroing/parts discipline exists but field feedback loop is not yet fully standardized",
+      "fortification_physical_standardization": "LOW_MEDIUM: better drawings, revetment/store separation and materials accounting where preparation time exists; not a late-war island-defense system",
+      "tactical_comms_hardware_serviceability": "LOW_MEDIUM: electrical QC helps, but spares/battery/fault-isolation system is not yet 1943-level",
+      "engineer_plant_vehicle_uptime": "LOW_MEDIUM: maintenance/process gains present but dispersed field-service organization is immature",
+      "retro_rule": "Never use Jan-1944 upper bands automatically for 1941-42. Apply only domain-specific early maturity."
+    },
+    {
+      "period": "1942H2",
+      "artillery_ballistics_and_tables": "HIGH for prepared units; lot/tube/temperature correction becoming repeatable",
+      "ammunition_QC_small_arms_reliability": "MEDIUM_HIGH",
+      "fortification_physical_standardization": "MEDIUM",
+      "tactical_comms_hardware_serviceability": "MEDIUM",
+      "engineer_plant_vehicle_uptime": "MEDIUM",
+      "retro_rule": "Effects become visible in prepared defenses and sustained campaigns but remain uneven by theater and supply state."
+    },
+    {
+      "period": "1943H1",
+      "artillery_ballistics_and_tables": "HIGH",
+      "ammunition_QC_small_arms_reliability": "HIGH",
+      "fortification_physical_standardization": "MEDIUM_HIGH where warning/labor/material exist",
+      "tactical_comms_hardware_serviceability": "MEDIUM_HIGH",
+      "engineer_plant_vehicle_uptime": "MEDIUM_HIGH",
+      "retro_rule": "Use event-local upper-middle bands only when observation, logistics and preparation are traced."
+    },
+    {
+      "period": "1943H2 through 1944-02-06",
+      "artillery_ballistics_and_tables": "FULL_WORKING_BAND",
+      "ammunition_QC_small_arms_reliability": "FULL_WORKING_BAND",
+      "fortification_physical_standardization": "FULL_WORKING_BAND subject to time/material/terrain",
+      "tactical_comms_hardware_serviceability": "FULL_WORKING_BAND before physical suppression",
+      "engineer_plant_vehicle_uptime": "FULL_WORKING_BAND subject to fuel/spares",
+      "retro_rule": "This is the mature pre-Feb-1944 working state; still no global casualty or hit-rate scalar."
+    }
+  ],
+  "retroactive_accounting_guard": {
+    "reservation_ref": "06_RUNTIME/ALLIED_DEATH_TALLY_RETROACTIVE_LAND_HARDWARE_RESERVATION_1941_1944_WORKING_v001.json",
+    "rule": "Do not rewrite individual pre-v046 casualty ledgers now solely because this missing hardware layer was discovered. Reserve event-local correction for the next consolidated Allied death tally / casualty reconciliation.",
+    "prospective_rule": "Any new land combat adjudicated after the 1944-02-06 18:00 working clock loads this hardware layer immediately."
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "revision": "v001",
+  "id": "ICHIGO_HUNAN_TERMINAL_PREPARATION_WEEKLY_1944-03-15_04-28_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_RETRO_RECONSTRUCTION_SUPPORTS_LOCAL_LAUNCH",
+  "global_reference_time": "1944-04-30T24:00:00+09:00",
+  "purpose": "Reconstruct the actual terminal preparation curve on the Wuhan-Hankou -> Yueyang/Pailiuchi axis without assuming a May launch date, then identify the earliest date on which the staged Hunan operation has a robust force/logistics/engineer/air gate.",
+  "parents": [
+    "PRE_ICHIGO_FINAL_FORCE_LOGISTICS_GATE_1944-04-25_v001",
+    "ICHIGO_DECISION_ORIGIN_AND_LAUNCH_GATE_REOPEN_1943-11_1944-04-30_v002",
+    "NANJING_GOVERNMENT_SECURITY_MANPOWER_1944-04-30_WORKING_v001",
+    "JAPAN_AIRCREW_REGENERATION_SOFT_PROGRESS_1944-03-08_WORKING_v001"
+  ],
+  "method": {
+    "not_a_historical_exact_manifest": true,
+    "rule": "Use branch-fixed OOB and terminal totals as end constraints, reconstruct monotonic dated bands from force location, transport/repair clocks, Nanjing substitution and plausible river/rail accumulation; charge Allied detection/interdiction rather than assume perfect concealment.",
+    "historical_sanity": [
+      "Historical Ichi-Go preparations were ordered in January 1944; March saw organization of independent brigades and air maintenance/supply units.",
+      "Historical Japanese planning relied heavily on inland water transport and rapid rail repair because gasoline and shipping were constrained.",
+      "Historical Fourteenth Air Force attacks did not prevent Japanese accumulation at Hankow; much Yangtze movement was at night and used defended ports."
+    ],
+    "source_urls": [
+      "https://www.ibiblio.org/hyperwar/Japan/Monos/JM-45/index.html",
+      "https://history.state.gov/historicaldocuments/frus1944v06/d53",
+      "https://www.ibiblio.org/hyperwar/AAF/AAFHS/AAFHS-132.pdf"
+    ]
+  },
+  "fixed_hunan_package": {
+    "divisions": [
+      "3d",
+      "13th",
+      "27th",
+      "34th",
+      "37th",
+      "40th",
+      "58th",
+      "64th",
+      "68th",
+      "116th"
+    ],
+    "theater_reserve": "60th",
+    "first_echelon_core": [
+      "3d",
+      "13th",
+      "40th",
+      "68th",
+      "116th"
+    ],
+    "sixth_first_echelon_equivalent": "selected 27th/37th elements according to axis",
+    "note": "Seven of the ten Hunan divisions are already 11th-Army-area formations in the January baseline; 27th/37th have months to rebuild/redeploy after Five-Go; 64th is enabled to move from lower Yangtze by Nanjing rear substitution. Unit arrival is therefore not the terminal pacing item."
+  },
+  "weekly": [
+    {
+      "as_of": "1944-03-15",
+      "hunan_package_divisions_in_wuhan_yueyang_system": 7,
+      "first_echelon_ready_div_eq": [
+        4.5,
+        5.0
+      ],
+      "second_echelon_staged_div_eq": [
+        1.0,
+        1.8
+      ],
+      "campaign_stock_t": [
+        78000,
+        105000
+      ],
+      "immediately_drawable_t": [
+        18000,
+        28000
+      ],
+      "assigned_motor_vehicles": [
+        5300,
+        6500
+      ],
+      "serviceable_motor_vehicles": [
+        3500,
+        4400
+      ],
+      "serviceability_center_pct": 67,
+      "engineer_bridging_bn_eq_positioned": [
+        4,
+        6
+      ],
+      "rail_repair_regimental_groups_positioned": [
+        1,
+        2
+      ],
+      "central_hunan_mission_ready_aircraft": [
+        118,
+        148
+      ],
+      "hunan_48_72h_surge_potential": [
+        145,
+        170
+      ],
+      "chinese_detection": "LOW_MEDIUM: local troop/rail/river activity visible, operation scale not yet separable from routine reinforcement."
+    },
+    {
+      "as_of": "1944-03-22",
+      "hunan_package_divisions_in_wuhan_yueyang_system": 8,
+      "first_echelon_ready_div_eq": [
+        5.0,
+        5.3
+      ],
+      "second_echelon_staged_div_eq": [
+        1.7,
+        2.4
+      ],
+      "campaign_stock_t": [
+        91000,
+        121000
+      ],
+      "immediately_drawable_t": [
+        22000,
+        33000
+      ],
+      "assigned_motor_vehicles": [
+        5600,
+        6800
+      ],
+      "serviceable_motor_vehicles": [
+        3800,
+        4700
+      ],
+      "serviceability_center_pct": 69,
+      "engineer_bridging_bn_eq_positioned": [
+        5,
+        7
+      ],
+      "rail_repair_regimental_groups_positioned": [
+        1,
+        2
+      ],
+      "central_hunan_mission_ready_aircraft": [
+        122,
+        153
+      ],
+      "hunan_48_72h_surge_potential": [
+        150,
+        178
+      ],
+      "chinese_detection": "MEDIUM: heavy Yangtze movement and support-unit concentration increasingly inconsistent with routine garrison rotation."
+    },
+    {
+      "as_of": "1944-03-29",
+      "hunan_package_divisions_in_wuhan_yueyang_system": 9,
+      "first_echelon_ready_div_eq": [
+        5.2,
+        5.7
+      ],
+      "second_echelon_staged_div_eq": [
+        2.3,
+        3.0
+      ],
+      "campaign_stock_t": [
+        105000,
+        138000
+      ],
+      "immediately_drawable_t": [
+        27000,
+        39000
+      ],
+      "assigned_motor_vehicles": [
+        5900,
+        7200
+      ],
+      "serviceable_motor_vehicles": [
+        4100,
+        5100
+      ],
+      "serviceability_center_pct": 71,
+      "engineer_bridging_bn_eq_positioned": [
+        6,
+        8
+      ],
+      "rail_repair_regimental_groups_positioned": [
+        1,
+        2
+      ],
+      "central_hunan_mission_ready_aircraft": [
+        126,
+        158
+      ],
+      "hunan_48_72h_surge_potential": [
+        155,
+        182
+      ],
+      "chinese_detection": "MEDIUM_HIGH: Changsha/Hunan becomes a credible major-objective hypothesis, but exact H-hour and force scale remain uncertain."
+    },
+    {
+      "as_of": "1944-04-05",
+      "hunan_package_divisions_in_wuhan_yueyang_system": 9,
+      "first_echelon_ready_div_eq": [
+        5.5,
+        6.0
+      ],
+      "second_echelon_staged_div_eq": [
+        3.0,
+        3.8
+      ],
+      "campaign_stock_t": [
+        119000,
+        154000
+      ],
+      "immediately_drawable_t": [
+        31000,
+        44000
+      ],
+      "assigned_motor_vehicles": [
+        6200,
+        7500
+      ],
+      "serviceable_motor_vehicles": [
+        4500,
+        5500
+      ],
+      "serviceability_center_pct": 73,
+      "engineer_bridging_bn_eq_positioned": [
+        6,
+        9
+      ],
+      "rail_repair_regimental_groups_positioned": [
+        2,
+        2
+      ],
+      "central_hunan_mission_ready_aircraft": [
+        132,
+        164
+      ],
+      "hunan_48_72h_surge_potential": [
+        160,
+        188
+      ],
+      "chinese_detection": "HIGH on a spring Hunan operation; exact start remains poorly fixed because most core divisions are long-standing 11th Army formations."
+    },
+    {
+      "as_of": "1944-04-12",
+      "hunan_package_divisions_in_wuhan_yueyang_system": 10,
+      "first_echelon_ready_div_eq": [
+        5.8,
+        6.1
+      ],
+      "second_echelon_staged_div_eq": [
+        3.6,
+        4.3
+      ],
+      "campaign_stock_t": [
+        133000,
+        171000
+      ],
+      "immediately_drawable_t": [
+        36000,
+        50000
+      ],
+      "assigned_motor_vehicles": [
+        6500,
+        7800
+      ],
+      "serviceable_motor_vehicles": [
+        4800,
+        5900
+      ],
+      "serviceability_center_pct": 75,
+      "engineer_bridging_bn_eq_positioned": [
+        7,
+        9
+      ],
+      "rail_repair_regimental_groups_positioned": [
+        2,
+        2
+      ],
+      "central_hunan_mission_ready_aircraft": [
+        138,
+        171
+      ],
+      "hunan_48_72h_surge_potential": [
+        165,
+        195
+      ],
+      "chinese_detection": "HIGH: broad intent likely known; Chinese/US response shifts from discovering the operation to delaying its logistics and preserving field forces."
+    },
+    {
+      "as_of": "1944-04-19",
+      "hunan_package_divisions_in_wuhan_yueyang_system": 10,
+      "first_echelon_ready_div_eq": [
+        6.0,
+        6.2
+      ],
+      "second_echelon_staged_div_eq": [
+        4.1,
+        4.7
+      ],
+      "campaign_stock_t": [
+        148000,
+        188000
+      ],
+      "immediately_drawable_t": [
+        42000,
+        58000
+      ],
+      "assigned_motor_vehicles": [
+        6700,
+        8000
+      ],
+      "serviceable_motor_vehicles": [
+        5200,
+        6300
+      ],
+      "serviceability_center_pct": 77,
+      "engineer_bridging_bn_eq_positioned": [
+        8,
+        10
+      ],
+      "rail_repair_regimental_groups_positioned": [
+        2,
+        3
+      ],
+      "central_hunan_mission_ready_aircraft": [
+        143,
+        177
+      ],
+      "hunan_48_72h_surge_potential": [
+        170,
+        200
+      ],
+      "chinese_detection": "VERY_HIGH: analogous to Chennault 19-Apr historical assessment that major Yangtze movement made a Changsha offensive virtually certain. Branch exact date still hidden."
+    },
+    {
+      "as_of": "1944-04-26",
+      "hunan_package_divisions_in_wuhan_yueyang_system": 10,
+      "first_echelon_ready_div_eq": [
+        6.0,
+        6.3
+      ],
+      "second_echelon_staged_div_eq": [
+        4.5,
+        5.0
+      ],
+      "campaign_stock_t": [
+        162000,
+        205000
+      ],
+      "immediately_drawable_t": [
+        50000,
+        68000
+      ],
+      "assigned_motor_vehicles": [
+        6800,
+        8200
+      ],
+      "serviceable_motor_vehicles": [
+        5400,
+        6500
+      ],
+      "serviceability_center_pct": 79,
+      "engineer_bridging_bn_eq_positioned": [
+        8,
+        11
+      ],
+      "rail_repair_regimental_groups_positioned": [
+        2,
+        3
+      ],
+      "central_hunan_mission_ready_aircraft": [
+        145,
+        180
+      ],
+      "hunan_48_72h_surge_potential": [
+        175,
+        205
+      ],
+      "chinese_detection": "VERY_HIGH intent / LOW exact H-hour. Japanese terminal gate is robustly crossed."
+    },
+    {
+      "as_of": "1944-04-30_pre_consumption_reference",
+      "hunan_package_divisions_in_wuhan_yueyang_system": 10,
+      "campaign_stock_t_if_no_launch": [
+        169000,
+        214000
+      ],
+      "immediately_drawable_t_if_no_launch": [
+        54000,
+        72000
+      ],
+      "note": "Counterfactual continuation only, supplied to reconcile the prior early-May 175-225kt terminal total. Actual branch launches before this date, so use the opening-operation ledger for 30-Apr remaining stocks."
+    }
+  ],
+  "prelaunch_interdiction_charge_1944-03-15_04-27": {
+    "assessment": "MATERIAL_BUT_NOT_GATE_CLOSING",
+    "irrecoverable_or_consumed_supply_equivalent_t": [
+      4500,
+      7500
+    ],
+    "cargo_delayed_rerouted_or_temporarily_inaccessible_t": [
+      12000,
+      20000
+    ],
+    "motor_vehicles_irrecoverable_band": [
+      35,
+      60
+    ],
+    "motor_vehicles_repairable_or_temporarily_out_band": [
+      80,
+      130
+    ],
+    "route_effect": "Periodic daytime barge/rail/road disruption and local bridge/yard damage; no sustained break of Wuhan-Hankow -> Yueyang system because night river movement, defended ports, dispersal and repair absorb the attacks.",
+    "anti_double_count": "These are terminal-preparation working charges embedded in the weekly net stocks/serviceability; do not debit them again."
+  },
+  "gate_crossing": {
+    "force_concentration": "PASS by 1944-04-12; not pacing after that.",
+    "vehicle_serviceability": "PASS robustly by 1944-04-19 and reaches the prior 5.4-6.5k launch band by 1944-04-26.",
+    "engineer_bridge_rail": "PASS by 1944-04-19..26.",
+    "forward_stock": "ROBUST PASS 1944-04-26 when lower-band immediate draw reaches 50kt and campaign stock exceeds 160kt.",
+    "air_support": "PASS by 1944-04-19..26; 175-205 aircraft-class short surge can be generated without terminating western pressure.",
+    "overall_earliest_robust_terminal_gate": "1944-04-26",
+    "why_not_earlier": "A six-division limited attack is possible earlier, but the approved staged ten-division scheme would accept too little ammunition/POL/bridge reserve and too much risk of a 14AF-induced pause before the Changsha logistics nodes are reached."
+  }
+}

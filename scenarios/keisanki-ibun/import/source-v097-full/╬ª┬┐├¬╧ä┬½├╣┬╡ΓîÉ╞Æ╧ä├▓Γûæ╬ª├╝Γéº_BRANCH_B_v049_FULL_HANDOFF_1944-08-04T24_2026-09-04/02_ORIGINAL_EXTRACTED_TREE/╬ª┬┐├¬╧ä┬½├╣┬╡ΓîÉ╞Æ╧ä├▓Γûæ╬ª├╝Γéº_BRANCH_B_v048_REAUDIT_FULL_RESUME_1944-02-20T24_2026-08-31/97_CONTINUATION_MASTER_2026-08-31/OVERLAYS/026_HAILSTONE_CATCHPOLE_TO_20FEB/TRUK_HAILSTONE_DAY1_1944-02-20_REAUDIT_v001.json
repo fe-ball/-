@@ -1,0 +1,197 @@
+{
+  "id": "TRUK_HAILSTONE_DAY1_1944-02-20_REAUDIT_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_FOR_THIS_OVERLAY",
+  "date": "1944-02-20 Truk local",
+  "US_force": {
+    "carriers": [
+      "Wasp CV-7",
+      "Yorktown CV-10",
+      "Essex CV-9",
+      "Intrepid CV-11",
+      "Bunker Hill CV-17",
+      "Belleau Wood CVL-24",
+      "Monterey CVL-26",
+      "Cowpens CVL-25"
+    ],
+    "count": "5 CV + 3 CVL",
+    "ready_aircraft_band": [
+      445,
+      485
+    ],
+    "ready_aircraft_center": 465,
+    "surface_cover": "Most fast battleships/cruisers remain with carrier screen because Japanese resistance and submarine warning make a historical leaker-hunt detachment lower-value unless a major surface target appears."
+  },
+  "attack_dawn": {
+    "strategic_surprise": "NONE",
+    "operational_surprise": "LOW",
+    "tactical_surprise": "PARTIAL",
+    "Japan_CAP_already_airborne_band": [
+      20,
+      24
+    ],
+    "Japan_5min_ready_band": [
+      14,
+      18
+    ],
+    "Japan_10_15min_ready_band": [
+      12,
+      16
+    ],
+    "local_usable_warning_minutes_band": [
+      15,
+      22
+    ],
+    "US_first_F6F_sweep_band": [
+      68,
+      72
+    ],
+    "US_first_F6F_sweep_center": 70
+  },
+  "first_sweep_and_immediate_suppression": {
+    "fighters_engaged_Japan_band": [
+      50,
+      56
+    ],
+    "Japan_airborne_irrecoverable_band": [
+      13,
+      18
+    ],
+    "Japan_ground_destroyed_band": [
+      3,
+      6
+    ],
+    "Japan_recoverable_damaged_band": [
+      6,
+      10
+    ],
+    "US_F6F_irrecoverable_band": [
+      7,
+      10
+    ],
+    "US_F6F_damaged_band": [
+      9,
+      14
+    ],
+    "immediate_TBF_package": 18,
+    "US_TBF_irrecoverable_band": [
+      2,
+      4
+    ],
+    "effect": "Runways/revetments and one or more peripheral radar/communications/fire-direction elements are hit, but dispersal, backup power and component separation prevent immediate system decapitation.",
+    "state_after_first_two_hours": {
+      "Japan_fighters_serviceable_band": [
+        34,
+        42
+      ],
+      "Japan_immediately_turnable_band": [
+        18,
+        25
+      ],
+      "air_defense": "degraded but coherent"
+    }
+  },
+  "US_daylight_operational_choice": {
+    "logic": "Because lagoon shipping density is lower and Japanese air-defense/repair system remains coherent, more sorties than in a historical-style shipping massacre are assigned to deliberate base-system suppression.",
+    "priority": [
+      "Eten/Param/Moen runways and repair parties",
+      "warning radar/plot/communications and AA fire-direction components",
+      "aviation fuel/ammunition and maintenance",
+      "power/workshops",
+      "remaining lagoon shipping"
+    ],
+    "constraint": "Kwajalein-captured evidence improves U.S. awareness that antenna/power/plot/communications are separable targets, but 10 days is insufficient for complete technical exploitation of Japanese passive-warning equipment."
+  },
+  "day1_air_exchange_cumulative": {
+    "Japan_irrecoverable_band": [
+      40,
+      50
+    ],
+    "Japan_irrecoverable_center": 45,
+    "US_irrecoverable_band": [
+      24,
+      31
+    ],
+    "US_irrecoverable_center": 27,
+    "Japan_damaged_repairable_band": [
+      17,
+      25
+    ],
+    "US_damaged_repairable_band": [
+      26,
+      38
+    ],
+    "dusk_Japan_serviceable": {
+      "fighters_band": [
+        16,
+        22
+      ],
+      "attack_recon_water_night_capable_band": [
+        13,
+        19
+      ],
+      "immediately_relaunchable_fighters_band": [
+        8,
+        12
+      ]
+    },
+    "interpretation": "US obtains practical daylight air superiority at materially higher cost than historical HAILSTONE; prepared Japanese defense avoids a first-hour massacre but cannot match repeated U.S. deck cycles."
+  },
+  "fixed_base_damage_by_dusk": {
+    "airfields": "All major strips cratered/cycle-limited; at least one strip can still support emergency/small-package launches after repair-party work.",
+    "warning_plot_throughput_percent_of_dawn_band": [
+      50,
+      65
+    ],
+    "precision_AA_channels": "one reliable centered; a second intermittent/local",
+    "aviation_maintenance_immediate_functional_loss_percent_band": [
+      25,
+      40
+    ],
+    "fuel_burned_contaminated_isolated_tons_band": [
+      2000,
+      4500
+    ],
+    "communications_power": "local outages; low-bandwidth command connectivity survives through redundancy and alternate power."
+  },
+  "shipping_and_escape": {
+    "US_submarine_exit_pickets_useful_band": [
+      3,
+      5
+    ],
+    "last_convoy": "one western picket obtains a night/periscope-radar contact; center result is one medium 4,000-7,000 GRT merchant/auxiliary sunk or constructive total loss; a second hit is sensitivity only.",
+    "lagoon_day1_losses": {
+      "merchant_auxiliary_hulls_band": [
+        3,
+        5
+      ],
+      "GRT_band": [
+        14000,
+        26000
+      ],
+      "destroyer": "0 sunk centered; 1 destroyer/escort mission-limited or damaged centered",
+      "small_craft_destroyed_band": [
+        2,
+        4
+      ]
+    },
+    "guard": "No carrier, Akashi, fleet oiler, Katori-class force or other high-value historical leaker is inserted merely to recreate historical surface combat."
+  },
+  "surface_and_submarine": {
+    "US_surface_sweep": "No full historical Iowa/New Jersey leaker-hunt centered. Fast battleships stay with carrier screen unless a valuable escape group is actually found.",
+    "Japan_submarine_nodes_near_TF58_band": [
+      2,
+      4
+    ],
+    "Japan_submarine_result": "one coarse carrier-screen sector contact possible; no satisfactory daylight torpedo shot centered; one boat mission-damaged/forced outward centered.",
+    "Japan_surface_fleet_counter_sortie": "NO-GO; major fleet units continue westward preservation."
+  },
+  "night_counterstrike_gate": {
+    "status": "OPEN_FOR_NEXT_STEP",
+    "available_package_band": [
+      13,
+      19
+    ],
+    "cue": "1-3 hour old submarine/RI/DF/water-air sector picture, not exact carrier fix",
+    "US_state": "high alert after costly daylight defense; fast battleships remain concentrated with TF58."
+  }
+}

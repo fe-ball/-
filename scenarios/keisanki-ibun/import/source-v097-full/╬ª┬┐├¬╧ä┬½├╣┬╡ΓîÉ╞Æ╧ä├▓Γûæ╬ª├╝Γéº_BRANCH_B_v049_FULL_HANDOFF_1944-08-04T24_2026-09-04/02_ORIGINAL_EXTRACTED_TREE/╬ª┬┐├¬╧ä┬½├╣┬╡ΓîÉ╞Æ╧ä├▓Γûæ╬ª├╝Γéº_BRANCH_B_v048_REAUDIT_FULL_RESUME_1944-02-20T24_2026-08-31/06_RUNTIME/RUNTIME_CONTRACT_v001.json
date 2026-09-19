@@ -1,0 +1,34 @@
+{
+  "revision": "v001",
+  "purpose": "Minimum contract before an event can be executed.",
+  "inputs_required": [
+    "checkpoint id",
+    "event date/time window",
+    "event profile",
+    "participating formations/units if known",
+    "TECH baseline",
+    "state ledger/checkpoint delta"
+  ],
+  "steps": [
+    "1 Resolve checkpoint state and descendants/branch validity.",
+    "2 Select event profile mandatory domains.",
+    "3 Pull TECH entries by tags/domain and valid date/host conditions.",
+    "4 Resolve each mandatory domain as ACTIVE / NO_RELEVANT_DELTA / NOT_YET_MATURE / UNKNOWN.",
+    "5 Merge effects by causal stage; same-intermediate effects integrate once, distinct stages may compound.",
+    "6 Apply threshold, allocation/reallocation, schedule and enemy-adaptation checks.",
+    "7 Keep provisional bands visible; do not silently convert to point estimates.",
+    "8 Emit state transitions and checkpoint delta with provenance."
+  ],
+  "execution_blockers": [
+    "mandatory domain unresolved UNKNOWN when material to result and no bounded model exists",
+    "gated TECH value used as accepted",
+    "blocked checkpoint ancestry used as current state",
+    "stale superseded execution artifact used contrary to manifest",
+    "historical outcome used directly as upstream input"
+  ],
+  "non_blocking_uncertainty": [
+    "bounded unit strength with interval",
+    "provisional effect magnitude when sensitivity band can be carried",
+    "citation incompleteness that does not alter runtime state"
+  ]
+}

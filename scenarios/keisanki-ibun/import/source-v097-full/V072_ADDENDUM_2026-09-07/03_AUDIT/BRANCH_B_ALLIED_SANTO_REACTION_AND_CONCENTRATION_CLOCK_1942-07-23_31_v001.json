@@ -1,0 +1,68 @@
+{
+  "version": "v001",
+  "window": [
+    "1942-07-23",
+    "1942-07-31"
+  ],
+  "status": "CLOSED_GATES_EVENTS_OPEN",
+  "W1": {
+    "trigger": "Santo_HIGH_probability_by_multisource_fusion",
+    "actions": [
+      "2d_Marines_diversion_permitted",
+      "Raiders_6_12h_embark_alert",
+      "PBY_surge_permitted",
+      "B17_priority_shift",
+      "VMF212_high_readiness",
+      "AA_dispersal_alert"
+    ],
+    "fixed_garrisons_released": false
+  },
+  "W2": {
+    "trigger": "Japanese_assault_movement_physically_reacquired",
+    "actions": [
+      "2d_Marines_diversion_center_policy",
+      "Raiders_dispatch_if_3plus_APD_equivalent",
+      "B17_reinforcement_toward_Dday_band",
+      "Wasp_remote_cover_retained",
+      "Efate_light_battalion_500_800_physical_may_dispatch_if_local_lift"
+    ]
+  },
+  "dates": {
+    "1942-07-25": "first_2d_Marine_elements_can_approach_or_unload_if_W2_early; Raiders_can_approach",
+    "1942-07-26": "ground_readiness_branch_resolves; Turtle_Bay_not_mature",
+    "1942-07-27": "select_H0_H1_H2_from_actual_events",
+    "1942-07-28_29": "Turtle_Bay_emergency_ops_conditional_if_Allied_held_and_unsuppressed",
+    "1942-07-31_08-03": "earliest_useful_1st_Marine_Division_RCT_scale_second_wave_if_emergency_loading_and_lift_succeed"
+  },
+  "H_hour": {
+    "H0": [
+      650,
+      850
+    ],
+    "H0_5_late_partial_2d_Marines": [
+      1600,
+      3300
+    ],
+    "H1_timely_2d_Marines": [
+      3500,
+      4400
+    ],
+    "H2_2d_Marines_plus_Raiders": [
+      4250,
+      5250
+    ],
+    "H3_max_emergency_plus_Efate_detachment": [
+      4650,
+      5900
+    ]
+  },
+  "priority": [
+    "information",
+    "2d_Marines",
+    "Raiders_if_lift",
+    "PBY_B17_concentration_with_Hawaii_reserve",
+    "Wasp_preservation_remote_cover",
+    "retain_fixed_bases",
+    "prepare_1st_Marine_Division_second_wave"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "BRANCH B Santo後の連合艦隊作戦意思・New Caledonia前段 v011",
+  "status": "WORKING STRATEGIC INTENT SUPPLEMENT",
+  "core_thesis": "Use Santo as an air/search/fleet-staging anvil and New Caledonia as both territorial objective and favorable fleet-battle forcing mechanism.",
+  "priority_order": [
+    "secure/restore Santo",
+    "repair/regenerate carriers, air groups and damaged surface ships",
+    "suppress but do not occupy Efate",
+    "shape U.S. movement toward New Caledonia",
+    "fight under Santo land-air/submarine/torpedo-screen support",
+    "reassess and normally stop before Fiji/Samoa"
+  ],
+  "key_lessons": [
+    "carrier mission kill does not remove an air group if land recovery fields remain",
+    "SG fast battleships are independent operational threats",
+    "Type 93 waves shape enemy maneuver even without hits",
+    "land bases should free carrier decks for fleet strike/CAP",
+    "experienced aircrew are a campaign resource, not expendable replacements"
+  ],
+  "preferred_nc_architecture": {
+    "fleet_carriers": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu"
+    ],
+    "support_carrier_roles": [
+      "convoy CAP",
+      "ASW",
+      "secondary fixed-target attack",
+      "recovery/replacement deck"
+    ],
+    "fast_battleships": [
+      "Hiei",
+      "Kirishima",
+      "Haruna",
+      "Kongo if repaired"
+    ],
+    "heavy_main_body": "desired as distant reserve if U.S. fast-battleship concentration and tanker geometry justify it"
+  },
+  "efate_policy": "pressure/suppress/reconnaissance; no center occupation",
+  "fiji_samoa_policy": "not automatic; normally postponed after New Caledonia",
+  "new_caledonia_target_date_center": "1942-11-08"
+}

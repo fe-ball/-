@@ -1,0 +1,15 @@
+item	value	status	note
+P1 completed by Apr20	3	CLOSED	end-1937 practical-aircraft anchor retained
+P2 completed by Apr20	6	CLOSED	pilot/limited product after 1938 H2 freeze
+P1+P2 cumulative	9	CLOSED	current Apr20 physical closure
+MTOW	2.75-2.85 t center 2.80	CLOSED working product coordinate	reconnected to current E5-S-T authority
+wing area	~27 m2	CLOSED working product coordinate	~104 kg/m2 at 2.8 t
+span	~13.0 m	CLOSED working product coordinate	wide straight practical/STOL wing
+length	~10.0 m	CLOSED working product coordinate	utility cabin/freight arrangement
+E5-S-T normal	952-1000 hp	CLOSED	quantity/normal product band
+selected high end	1050-1060 hp	AVAILABLE not mandatory	Ni/high-end point
+max speed	360-380 km/h center ~370	WORKING H->A	measured block result can vary
+range	1200-1400 km center ~1300	WORKING H->A	payload/fuel dependent
+CLmax planning	2.4-2.6	WORKING design	Fowler/slat family
+Vs at 2.8t	~91-95 km/h	CALCULATED	for CLmax 2.6-2.4
+approach planning at 2.8t	~118-123 km/h	CALCULATED	1.3 Vs; not measured landing result

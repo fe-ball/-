@@ -1,0 +1,86 @@
+{
+  "id": "JAPAN_MARSHALL_FORWARD_LOGISTICS_1943-11-29_1944-01-15_WORKING_v001",
+  "status": "WORKING_CLOSEOUT_ADJUDICATION_NOT_YET_CANONICAL",
+  "period": "1943-11-29 through 1944-01-15",
+  "scope": "Forward military cargo actually discharged or redistributed into the Marshall main network, with Kusaie/Ponape tracked separately. This is not national shipping output.",
+  "guards": [
+    "No Sep-1943 Second Midway chain.",
+    "No historical 4-Dec mass Kwajalein/Roi carrier raid is auto-imported after the revised GALVANIC carrier damage/mission state.",
+    "Branch cargo-utilization/turnaround gains improve useful delivered tonnage; they do not create merchant hulls.",
+    "US submarines and late-Dec Gilbert-based air pressure remain real; no immunity is credited.",
+    "Troop reinforcement remains bounded near historical planned Central-Pacific reinforcement scale; the main Branch delta is equipment/material completion, not a second army appearing on the atolls."
+  ],
+  "forward_cargo_attempted_tonnes_band": [
+    50000,
+    64000
+  ],
+  "forward_cargo_delivered_tonnes_band": [
+    43000,
+    55000
+  ],
+  "forward_cargo_delivered_center": 49000,
+  "loaded_cargo_lost_aborted_or_turned_back_band": [
+    6000,
+    10000
+  ],
+  "loss_mechanisms": "1-2 medium transport/auxiliary losses or mission kills plus weather/submarine/air-threat aborts and inter-atoll unloading friction; exact hull names remain open.",
+  "delivered_center_by_function_tonnes": {
+    "routine_food_water_medical": 9000,
+    "aviation_fuel_lubricants": 8000,
+    "artillery_ammunition_mines_wire_explosives": 8000,
+    "fortification_bulk_cement_steel_timber_coral_work_material": 12000,
+    "engineer_plant_vehicles_tools_spares": 4000,
+    "sensor_C2_power_cable_radio_radar_spares": 2000,
+    "aviation_spares_ordnance_workshop_stock": 4000,
+    "other_unit_equipment": 2000
+  },
+  "delivered_center_by_node_tonnes": {
+    "Kwajalein_Roi_Ebeye": 11000,
+    "Maloelap_Taroa": 9000,
+    "Wotje": 5500,
+    "Mili": 5000,
+    "Jaluit": 3500,
+    "Eniwetok": 8000,
+    "other_Marshall_nodes_and_interatoll_reserve": 7000
+  },
+  "eastern_carolines_separate_delivery": {
+    "Kusaie_Ponape_delivered_tonnes_band": [
+      12000,
+      17000
+    ],
+    "center": 14500,
+    "main_use": "garrison reinforcement, runway/staging completion, seaplane/harbor support, power/communications, engineer plant and reserve stores; not added to Marshall local combat OOB"
+  },
+  "personnel_flow": {
+    "Marshall_net_new_or_redistributed_personnel_band": [
+      2000,
+      3000
+    ],
+    "combat_personnel_component_band": [
+      1000,
+      1700
+    ],
+    "engineer_aviation_base_signal_component_band": [
+      900,
+      1400
+    ],
+    "rule": "Most are historically plausible planned reinforcements or reallocation. Do not add these on top of a later garrison total that already includes Jan arrivals.",
+    "Marshall_midJan_total_guard": "Use roughly 26,500-28,500 personnel in the Marshall proper as the total-scale work band; Kwajalein/Roi-Namur roughly 8,200-8,900. Do not exceed this without named-unit trace.",
+    "Kusaie_note": "Kusaie remains a separate eastern-Carolines garrison, roughly 4,000-class plus dated Jan reinforcement; not part of Marshall total."
+  },
+  "time_phases": [
+    {
+      "dates": "29 Nov-15 Dec",
+      "effect": "Emergency redistribution and first reinforcement cycle while US Gilbert bases are only beginning to turn into sustained air-pressure nodes. Highest marginal value for construction plant, wire/cable, ammunition dispersion, radar/power spares and aviation support."
+    },
+    {
+      "dates": "16 Dec-31 Dec",
+      "effect": "Organized convoy cycle through Truk/Ponape/Kusaie. US long-range/photo pressure rises; daylight inter-atoll movement becomes less attractive. Night unloading and dispersal increase turnaround cost."
+    },
+    {
+      "dates": "1 Jan-15 Jan",
+      "effect": "Forward delivery remains possible but progressively dangerous. More cargo is discharged west/central nodes and redistributed by small craft at night; completion rather than new giant projects becomes priority."
+    }
+  ],
+  "strategic_allocation_logic": "Japan does not know Kwajalein will be the direct main target. Taroa/Wotje/Mili still attract substantial investment as plausible stepping-stones; Kwajalein/Roi gets C2/lagoon/base-system reinforcement; Eniwetok gets western staging/recovery value. Some material is therefore deliberately 'wasted' on strongpoints the US may bypass."
+}

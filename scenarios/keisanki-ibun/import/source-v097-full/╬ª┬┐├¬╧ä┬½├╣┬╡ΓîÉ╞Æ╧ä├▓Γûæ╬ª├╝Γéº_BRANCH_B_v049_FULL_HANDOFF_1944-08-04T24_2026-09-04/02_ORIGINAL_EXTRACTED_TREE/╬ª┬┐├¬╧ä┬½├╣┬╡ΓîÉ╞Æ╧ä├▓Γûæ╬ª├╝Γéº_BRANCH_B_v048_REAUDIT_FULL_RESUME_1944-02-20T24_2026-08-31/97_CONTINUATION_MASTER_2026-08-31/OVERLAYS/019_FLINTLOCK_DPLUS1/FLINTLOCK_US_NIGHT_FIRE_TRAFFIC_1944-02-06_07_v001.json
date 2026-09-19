@@ -1,0 +1,15 @@
+{
+  "id": "FLINTLOCK_US_NIGHT_FIRE_TRAFFIC_1944-02-06_07_v001",
+  "status": "WORKING_PROCESS_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-06T24 through 1944-02-07T24",
+  "night_defense": {
+    "Tarawa_learning": "US units expect remanned positions and infiltration. Defensive fires are registered before dark; tanks are retained behind likely seams rather than pushed into darkness; illumination is planned but not continuous.",
+    "finite_capacity": "Artillery, destroyer illumination, radio nets and beach roads cannot service every request simultaneously. Local 5-15 minute fire-request/traffic delays occur, but redundant observers and command nets prevent systemic failure.",
+    "friction": "Close-range fighting plus dense artillery/vehicle traffic creates a small non-enemy casualty component; this is included inside sector casualty bands, not added again."
+  },
+  "daylight_logistics": {
+    "beach": "Engineer work and pontoon/causeway improvements reduce the worst D-Day exit queues. Heavy equipment can move ashore faster, but debris and road clearance remain rate limits.",
+    "fire_support": "Roi support demand collapses in the morning, allowing some tank/artillery/direct-fire capacity to shift to Namur. Kwajalein retains its own heavy support wallet and does not receive unlimited assets from the northern sector.",
+    "learning": "Suppression reports are treated as temporary until infantry/tanks physically clear the position; broad bombardment increasingly gives way to observed strongpoint reduction."
+  }
+}

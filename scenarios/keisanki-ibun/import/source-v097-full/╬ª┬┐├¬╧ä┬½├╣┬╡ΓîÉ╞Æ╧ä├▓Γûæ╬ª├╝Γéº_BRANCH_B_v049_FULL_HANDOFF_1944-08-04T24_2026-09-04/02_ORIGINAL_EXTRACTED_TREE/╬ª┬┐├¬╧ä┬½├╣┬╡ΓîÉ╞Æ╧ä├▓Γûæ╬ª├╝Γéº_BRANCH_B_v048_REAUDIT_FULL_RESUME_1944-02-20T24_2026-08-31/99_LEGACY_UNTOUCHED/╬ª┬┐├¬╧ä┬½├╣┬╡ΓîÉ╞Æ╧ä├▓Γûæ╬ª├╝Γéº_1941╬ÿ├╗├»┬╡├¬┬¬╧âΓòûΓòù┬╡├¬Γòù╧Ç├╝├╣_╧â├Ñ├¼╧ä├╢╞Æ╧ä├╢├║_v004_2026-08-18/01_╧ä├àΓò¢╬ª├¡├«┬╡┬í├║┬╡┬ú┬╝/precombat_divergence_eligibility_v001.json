@@ -1,0 +1,16 @@
+{
+  "revision": "v0.01",
+  "rule": "no blanket percentage reduction to the 46-aircraft concentration-loss pool",
+  "causes": {
+    "pure_weather_visibility": {"centerline_improvement": false, "possible_secondary_effects": ["abort_decision", "return_decision"]},
+    "navigation_positioning": {"centerline_improvement": true, "channels": ["crew_experience", "navigation_support", "radio", "range_margin"]},
+    "night_return_positioning": {"centerline_improvement": true, "channels": ["crew_experience", "navigation_support", "range_margin", "airfield_support"]},
+    "fuel_margin": {"centerline_improvement": true, "channels": ["aircraft_range", "fuel_management", "fuel_stock"]},
+    "drop_tank_shortage": {"centerline_improvement": false, "unless": ["scenario_logistics_changes_stock"]},
+    "mechanical_failure": {"centerline_improvement": true, "channels": ["aircraft_maturity", "maintenance_quality", "spares_tools"]},
+    "forced_landing_damage": {"centerline_improvement": true, "channels": ["low_speed_handling", "landing_gear_structure", "crew_experience", "airfield_condition"]},
+    "crew_accident_loss": {"centerline_improvement": "cause_dependent", "outputs_separate_from_airframe": true},
+    "combat": {"centerline_improvement": true, "handled_by": "combat_layer"},
+    "unknown": {"centerline_improvement": false}
+  }
+}

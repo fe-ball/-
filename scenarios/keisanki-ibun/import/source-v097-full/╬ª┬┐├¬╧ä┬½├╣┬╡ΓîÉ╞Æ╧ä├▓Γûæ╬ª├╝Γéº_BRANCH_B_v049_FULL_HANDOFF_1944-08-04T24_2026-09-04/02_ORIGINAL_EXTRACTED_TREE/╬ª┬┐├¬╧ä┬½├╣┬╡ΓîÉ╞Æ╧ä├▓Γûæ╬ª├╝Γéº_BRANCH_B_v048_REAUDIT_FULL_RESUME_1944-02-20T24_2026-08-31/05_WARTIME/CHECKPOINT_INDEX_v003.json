@@ -1,0 +1,8 @@
+{
+  "revision": "v003",
+  "current_restart": "CHECKPOINT_1942-05-06T24_v001",
+  "opening_baseline": "WARSTART_1941-12-07_08_v004",
+  "graph": "CHECKPOINT_GRAPH_v002.json",
+  "execution_policy": "Use current_restart. Archived history nodes may be consulted for comparison/evidence but never imported as state without explicit revalidation.",
+  "next_action": "Generate CARRIER_BATTLE handout for 1942-05-07, close mandatory_reaudit_before_5_7_execution, then execute Coral Sea search/contact/strike sequence."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "FLINTLOCK_KWAJALEIN_1944-02-08_09_SECURE_v001",
+  "status": "WORKING_SECTOR_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-08T24 through 1944-02-09T13 Marshall local",
+  "source_checkpoint": "FLINTLOCK_1944-02-08T24_WORKING_CHECKPOINT_v001",
+  "night_8_9Feb": {
+    "Japanese_action": "Residual shelters and small groups conduct sniping, short ambushes, one mortar burst and two-to-four local break-out/infiltration attempts. Roughly 80-140 people are active over the night, but no more than about 30-50 act together at one time.",
+    "US_response": "US units maintain illumination plans, registered fires, roadblocks and tank/direct-fire stop lines while engineer/infantry sweep teams close bypassed shelters. Heavy naval fires are used sparingly because friendly lines now dominate the island.",
+    "US_casualties_band": [
+      18,
+      32
+    ],
+    "Japan_irrecoverable_or_captured_band": [
+      55,
+      90
+    ]
+  },
+  "morning_9Feb": {
+    "clearance": "Systematic shelter checks, demolitions and prisoner extraction continue. A few groups resist to destruction; others, especially wounded/support/labor personnel, are captured once isolated.",
+    "US_casualties_band": [
+      15,
+      28
+    ],
+    "Japan_irrecoverable_or_captured_band": [
+      70,
+      120
+    ],
+    "formal_secure_window": "09:30-12:30 on 9-Feb, centered about 10:45",
+    "post_secure_residual": "About 25-55 concealed individuals may remain after the declaration, but none form a mutually supporting combat system."
+  },
+  "final_increment_US_band": [
+    33,
+    60
+  ],
+  "final_increment_US_center": 46,
+  "cumulative_main_ground_battles": {
+    "band": [
+      1570,
+      2215
+    ],
+    "center": 1890,
+    "scope": "Roi-Namur plus Kwajalein ground/landing-area combat only. Excludes separate 5-Feb LST personnel losses, carrier-air exchange, naval and submarine casualties."
+  },
+  "assessment": "FLINTLOCK ground combat is operationally closed. Remaining danger is mopping-up/UXO/booby-trap exposure, not renewed organized defense."
+}

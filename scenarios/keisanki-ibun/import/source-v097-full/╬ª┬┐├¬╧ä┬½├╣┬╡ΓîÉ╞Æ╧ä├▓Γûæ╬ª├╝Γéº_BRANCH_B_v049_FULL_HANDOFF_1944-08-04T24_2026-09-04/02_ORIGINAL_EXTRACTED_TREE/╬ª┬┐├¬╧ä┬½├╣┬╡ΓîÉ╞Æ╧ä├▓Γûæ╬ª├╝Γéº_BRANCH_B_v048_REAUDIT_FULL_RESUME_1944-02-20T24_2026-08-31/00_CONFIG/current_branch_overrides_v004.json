@@ -1,0 +1,74 @@
+{
+  "revision": "v004",
+  "purpose": "Current-branch overrides after 2026-08-24 rollback/re-audit. v003 rules remain active unless explicitly superseded here.",
+  "protocol": "00_CONFIG/rule_override_protocol_v002.json",
+  "inherits": "00_CONFIG/current_branch_overrides_v003.json",
+  "overrides": [
+    {
+      "override_id": "OVR-PACIFIC-SECOND-MIDWAY-ROLLBACK-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-09-01",
+      "impact_scope": "all_descendants_dependent_on_event",
+      "effective_rule": "The old Sep-1943 US Midway recapture operation does not occur. Its sortie gate used an incorrect three-carrier Japanese core. Recalculate all dependent losses, availability and operational dates.",
+      "reason": "Correct Japanese fleet-carrier core in Sep 1943 is Shokaku, Zuikaku, Hiryu and Soryu.",
+      "source": "06_RUNTIME/SESSION_2026-08-24_ROLLBACK_PACIFIC_CHINA_SETTLEMENT_v001.md"
+    },
+    {
+      "override_id": "OVR-IJN-CARRIER-ROSTER-SORYU-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1942-06-15",
+      "impact_scope": "all_carrier_force_tables",
+      "effective_rule": "Soryu survives the branch Midway and remains in the fleet-carrier core unless a later re-adjudicated event removes her. After Taiho completion the physical carrier hull total is 11: four established fleet carriers + Taiho + six second-line carriers.",
+      "reason": "Old 1944 tables remembered second-line carriers but silently omitted Soryu.",
+      "source": "06_RUNTIME/SESSION_2026-08-24_ROLLBACK_PACIFIC_CHINA_SETTLEMENT_v001.md"
+    },
+    {
+      "override_id": "OVR-GALVANIC-DELAY-1944FEB-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-11-01",
+      "impact_scope": "Central_Pacific_descendants",
+      "effective_rule": "GALVANIC is delayed to Feb 1944 (working D-Day around Feb 9; exact tide/H-hour remains open). Recalculate Tarawa/Makin, carrier damage, base-building and Marshall follow-on dates from this delay.",
+      "source": "06_RUNTIME/SESSION_2026-08-24_ROLLBACK_PACIFIC_CHINA_SETTLEMENT_v001.md"
+    },
+    {
+      "override_id": "OVR-TRUK-FLEET-BASE-DOWNGRADE-1944MAR-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1944-03-26",
+      "impact_scope": "Truk_Palau_Marianas_descendants",
+      "effective_rule": "After Kwajalein loss, Combined Fleet does not reconcentrate at Truk. High-value mobile assets disperse west; Truk becomes a local air/submarine/recon/communications node and is accepted as a fixed-base attrition target.",
+      "source": "06_RUNTIME/SESSION_2026-08-24_ROLLBACK_PACIFIC_CHINA_SETTLEMENT_v001.md"
+    },
+    {
+      "override_id": "OVR-FIVEGO-GUANGYUAN-LIMITED-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-08-01",
+      "impact_scope": "China_CBI_descendants",
+      "effective_rule": "Five-Go Phase III-A is a limited Hanzhong-to-Guangyuan operation and is GO; deep ground pursuit to Chengdu is NO-GO by default. The strategic payoff is airfield/logistics geography, not Sichuan conquest.",
+      "source": "06_RUNTIME/SESSION_2026-08-24_ROLLBACK_PACIFIC_CHINA_SETTLEMENT_v001.md"
+    },
+    {
+      "override_id": "OVR-BURMA-MAINLINE-RETAIN-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-11-01",
+      "impact_scope": "Burma_CBI_descendants",
+      "effective_rule": "Retain the old Burma main line: no deep U-Go/Imphal-Kohima offensive. Raise North Burma/Myitkyina importance; keep NCAC pressure historical-to-slightly-strong while Y-Force is somewhat delayed/reduced by China-proper pressure.",
+      "source": "06_RUNTIME/SESSION_2026-08-24_ROLLBACK_PACIFIC_CHINA_SETTLEMENT_v001.md"
+    },
+    {
+      "override_id": "OVR-CURRENT-FRONTIER-ROLLBACK-19440411-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "2026-08-24",
+      "impact_scope": "session_continuation",
+      "effective_rule": "For current continuation, use 1944-04-11 post-HAILSTONE-equivalent as the analysis frontier. Later v012 Saipan/July and China-August adjudications are reference/provisional only until re-run from the corrected spring branch.",
+      "source": "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SPRING_REAUDIT_v001.json"
+    }
+  ],
+  "edit_protocol": "Do not delete v003 or later historical/provisional settlements. Current continuation follows v004 plus the 2026-08-24 session settlement."
+}

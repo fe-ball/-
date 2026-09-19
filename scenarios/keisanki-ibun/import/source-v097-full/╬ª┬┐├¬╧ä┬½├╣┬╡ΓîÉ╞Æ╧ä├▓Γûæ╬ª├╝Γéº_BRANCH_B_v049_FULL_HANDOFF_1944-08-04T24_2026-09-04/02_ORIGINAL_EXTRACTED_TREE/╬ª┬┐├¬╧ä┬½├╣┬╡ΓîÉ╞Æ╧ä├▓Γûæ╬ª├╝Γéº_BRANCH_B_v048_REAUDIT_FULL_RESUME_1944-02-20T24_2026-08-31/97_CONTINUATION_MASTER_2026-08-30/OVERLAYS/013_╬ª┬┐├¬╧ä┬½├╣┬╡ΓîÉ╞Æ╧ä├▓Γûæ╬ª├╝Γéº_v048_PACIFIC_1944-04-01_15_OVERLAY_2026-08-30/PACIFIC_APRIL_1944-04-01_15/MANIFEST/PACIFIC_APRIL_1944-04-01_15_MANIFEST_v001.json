@@ -1,0 +1,30 @@
+{
+  "revision": "v001",
+  "id": "PACIFIC_APRIL_1944-04-01_15_MANIFEST_v001",
+  "status": "WORKING_OVERLAY_MANIFEST",
+  "global_frontier": "1944-04-15T24",
+  "apply_after": [
+    "計算機異聞_v048_PACIFIC_ISR_PALAU_1944-03-21_31_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_CORRECTION_YAMAMOTO_COMMAND_1944-03-31_OVERLAY_2026-08-30.zip"
+  ],
+  "load_new_files_in_order": [
+    "AIR/JAPAN_CARRIER_AIR_REGENERATION_1944-04-01_15_WORKING_v001.json",
+    "FLEET/TAIHO_FIVE_DECK_INTEGRATION_1944-04-01_15_WORKING_v001.json",
+    "FLEET/US_FAST_CARRIER_STATE_1944-04-01_15_WORKING_v001.json",
+    "OPERATIONS/MARIANAS_9TH_TANK_REGIMENT_TRANSFER_1944-04-01_13_WORKING_v001.json",
+    "SENSORS/US_SUBMARINE_CUE_JAPAN_SOUTHERN_CONCENTRATION_1944-04-05_10_WORKING_v001.json",
+    "DECISIONS/YAMAMOTO_PACIFIC_POSTURE_1944-04-15_WORKING_v001.json",
+    "RULES/FUTURE_US_CARRIER_OOB_REOPEN_GUARD_1944-06_WORKING_v001.json",
+    "STATE/PARALLEL_THEATER_STATE_1944-04-15T24_WORKING_v001.json"
+  ],
+  "historical_non_autocopy": [
+    "Operation Hollandia/Reckless/Persecution 21-24 Apr",
+    "TF58 historical 29-30 Apr Truk strike",
+    "historical Koga/Toyoda command chain"
+  ],
+  "forward_constraints": [
+    "30-Apr authority: four-core 280-300 ready; Taiho B+ not yet fully A-grade equal to veteran core",
+    "historical Hollandia absent in current branch",
+    "June carrier OOB must be re-audited before use"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "revision": "v002",
+  "families": [
+    {
+      "family": "README_refactor_vX.md",
+      "current": "README_refactor_v005.md"
+    },
+    {
+      "family": "NEXT_SESSION_HANDOFF_REFACTOR_vX.md",
+      "current": "NEXT_SESSION_HANDOFF_REFACTOR_v005.md"
+    },
+    {
+      "family": "CHECKPOINT_INDEX_vX.json",
+      "current": "CHECKPOINT_INDEX_v004.json"
+    },
+    {
+      "family": "CHECKPOINT_GRAPH_vX.json",
+      "current": "CHECKPOINT_GRAPH_v003.json"
+    },
+    {
+      "family": "TECH_INDEX_vX.json",
+      "current": "TECH_INDEX_v003.json"
+    },
+    {
+      "family": "current_branch_overrides_vX.json",
+      "current": "current_branch_overrides_v001.json"
+    }
+  ]
+}

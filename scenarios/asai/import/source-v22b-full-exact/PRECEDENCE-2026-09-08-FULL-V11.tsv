@@ -1,0 +1,14 @@
+rank	scope	authority	note
+0	package	00-START-HERE-CURRENT.md	V11 entry point
+1	current state	PACKAGE-STATE-V11.tsv	V11 machine state
+2	aircraft development / working performance	78-CURRENT-2026-09-08-AIRCRAFT-DEVELOPMENT-CLOSE/	highest authority for V11 aircraft-development/history/working values
+3	session/combat state	77-CURRENT-2026-09-07-SESSION-CLOSE/	V10 combat/session state inherited; no clock advance in V11
+4	1940 combat gate	76-CURRENT-1940-WEAPON-GATE-V10/	mandatory before 1940 combat
+5	V10 technical addenda	75-CURRENT-TECHNICAL-ADDENDA-V10/	retained current unless V11 explicitly overrides gap/stale value
+6	China 1939	74-CURRENT-CHINA-1939-REPLAY-V10/	closed chronological replay
+7	Nomonhan	73-CURRENT-NOMONHAN-REVISED-V10/	revised closed branch
+8	retro airpower	72-CURRENT-RETRO-AIRPOWER-1938-1939/	current 1938-39 airpower corrections
+20	V9 technical control	71-CURRENT-TECHNICAL-CONTROL-V9/	retained technical base unless overridden
+90	old V10/V9/V8/V7/V6	all prior directories/files	provenance/comparator unless current chain points there
+99	post-V9 quarantine	90-PROVENANCE-SUPERSEDED-POST-V9/	not current
+100	aircraft hard quarantine	91-PROVENANCE-QUARANTINED-AIRCRAFT-RESEARCH-V11/	not current; no automatic import

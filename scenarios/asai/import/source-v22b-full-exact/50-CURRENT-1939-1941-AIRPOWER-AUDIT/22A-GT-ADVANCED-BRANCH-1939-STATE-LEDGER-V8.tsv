@@ -1,0 +1,13 @@
+branch	1939_04_20_readiness	knowledge_gate	physical_status	product_status	remaining_gate
+E6-S_VIGV_bleed	R5-R6	PAID	mechanical VIGV + stage-4 bleed mapped	standard architecture	product-specific endurance only
+E6-M_VIGV_two_bleeds	R4-R5	PAID	VIGV + two staged bleed bands mapped	current PR7 all-axial solution	full product qualification / production maturity
+multi-row_VSV	R2	PAID	cascade/mechanism/partial-compressor subsystem work active	not standard E6 product	full-compressor map + actuator/schedule + yield
+true_two_spool_gas_generator	R1-R2	PAID	concentric-shaft/bearing/seal + split-compressor/matching rigs	no integrated fired flight core yet	inter-spool transient + controls + endurance + full-core map
+free_power_turbine	R5-R6	PAID	mature inherited independent-spool mechanics	stationary/marine/TP family basis	local product installation
+aft_fan_backend	R3-R5_family_dependent	PAID	free-LP turbine + aft-fan architecture hardware-capable	E6-M-JF engine-side accepted; E5-J/JF local installed audit CLOSED in file 23	aircraft-local altitude map/mission integration remain in file 24
+front_fan_low_BPR	R1-R2	PAID	fan + drive architecture/component rigs	integrated flight product open	second-spool/geared drive + duct/inlet + transient + endurance
+reheat_variable_nozzle	R2	PAID	short-duration tailpipe-burner + variable/two-position nozzle rig work	flight package open	augmentation map + pressure loss + hot-duct/nozzle endurance + flight release
+hollow_cooled_blade	R5-R6	PAID	fabricated hollow cooling + proof-flow + coating inherited	E4/E5/E6 product basis	local rating/process line
+advanced_staged_cooling	R1-R2	PAID	vane/rotor/root/disk staged-cooling and thermal-map rigs	E7+ product integration open	passage yield + metal-temperature map + thermal fatigue + endurance
+PR8_compressor	R1-R2	PAID	E7 component/partial-stack rig front	full integrated E7 core later	full compressor map + rotordynamics + endurance
+PR9_10_directed_work	K-R1	PAID	stage/matching/VSV design and component studies	no qualified full compressor claim	partial/full stack + surge/clearance/yield

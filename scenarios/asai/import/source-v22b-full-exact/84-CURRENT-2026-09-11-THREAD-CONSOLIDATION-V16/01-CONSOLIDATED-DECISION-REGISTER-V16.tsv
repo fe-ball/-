@@ -1,0 +1,37 @@
+id	status	topic	decision	authority_note
+V16-001	CURRENT-CLOSE	China clock	Replay advanced through 1940-07-31 24:00	Supersedes V10/V14 no-1940-start clock
+V16-002	CURRENT-CLOSE	Ki-42 1940	1940-01-01 physical extant 69; 6 tail aircraft Jan-Feb; no new long-run order	Supersedes 1940 continuation open item
+V16-003	CURRENT-CLOSE	E6 Twin release	Normal-unit service eligibility from 1940-04-01	Replay still controls actual assignment/ready/combat-present
+V16-004	CURRENT-CLOSE	E6 Single release	Normal-unit service eligibility from 1940-05-01	Replay still controls actual assignment/ready/combat-present
+V16-005	CURRENT-CLOSE	A6M China gate	Small-scale operational trial from 1940-07-01; default major air-combat anchor 1940-09-13	Does not pre-record combat result
+V16-006	CURRENT-CLOSE	47mm towed AT 1940	Limited 24-36 accepted/service-test class by year-end; named China trial at most	Not mass fielded in 1940
+V16-007	CURRENT-CLOSE	47mm Chi-Ha 1940	8-12 evaluation/pilot vehicles class; no normal China combat allocation	1941 remains first serious series gate
+V16-008	WORKING-CLOSE	E6-M-JF OH	450-600 h scheduled removal; center 525 h	Product-level planning value, not generic GT law
+V16-009	WORKING-CLOSE	E6-M-J OH	250-350 h scheduled removal; center 300 h	Product-level planning value
+V16-010	WORKING-CLOSE	GT spare float	20-25%; center 22.5%	Circulating flight-grade spare / acceptance pool
+V16-011	CURRENT-CLOSE	OH accounting	Scheduled OH does not consume one new core automatically	New core demand = new installs + pool growth + irreparable loss + new branch
+V16-012	WORKING-CLOSE	Fuel grades	Grade A aviation / Grade B common military middle distillate / Grade C tolerant lower grade	No universal one-fuel simplification
+V16-013	WORKING-CLOSE	1941 turbine liquid	58k kL main aviation-GT + 6k kL GT advanced training = 64k kL total	Training uses mainly Grade B
+V16-014	WORKING-CLOSE	1941 middle-distillate strategic stock	380k kL kerosene-family + 400k kL light/gas-oil = 780k kL center	Finished A-grade reserve 30k minimum / 40k working target
+V16-015	WORKING-CLOSE	A-grade finishing	1940 center 70k kL/y; 1941 center 115k kL/y	Selective finishing, not full pool
+V16-016	WORKING-CLOSE	Mild HDS	1940 center 25k kL/y; 1941 center 50k kL/y	Treat only failing / premium lots
+V16-017	WORKING-CLOSE	Dewax/cold-flow	1940 center 20k kL/y; 1941 center 45k kL/y	Mainly aviation-grade uplift of waxy feed
+V16-018	WORKING-CLOSE	FT liquids	1940 center 6k kL/y; 1941 center 15k kL/y	Strategic clean blending stock, not national fuel replacement
+V16-019	WORKING-CLOSE	Pilot expansion	1941 +500 pilot graduates/year above historical-type pipeline	Built progressively from 1938, not sudden 1941 event
+V16-020	WORKING-CLOSE	Observer/mission crew	1941 +300/year	Twin-seat growth requirement
+V16-021	WORKING-CLOSE	GT advanced training	40-50 twin-seat GT trainers; ~20k h/year; 35-45 h/student	Mature 1941 state
+V16-022	WORKING-CLOSE	Aviation organization	~7,500 technical/maintenance; ~14-16k total Asai aviation organization, center 15k	1941 planning class
+V16-023	WORKING-CLOSE	Airfield network	1941 principal HA/E6 bases 24-30; support packages 30-36; deep depots 5-7	Selected network only
+V16-024	WORKING-CLOSE	Air warning	Ready I 2-3 min; Ready II 5-7 min at full warning bases	Observer/telephone/radio/plotting dominant; radar supplementary
+V16-025	CURRENT-CLOSE	Ground motorization	No extra fully motorized divisions; national truck/bus output remains historical-order	Quality/availability effect, not quantity miracle
+V16-026	WORKING-CLOSE	Heavy transport effect	Asai-exposed heavy pool +10-18% ready-ton-km; ordinary supported division +2-5% logistics	Do not apply nationally
+V16-027	WORKING-CLOSE	Merchant shipping	1941 physical tonnage +0.5% center; effective transport +2.5% center	Do not add percentages separately
+V16-028	WORKING-CLOSE	Central-China logistics	Shanghai-Nanjing-Yangtze-Wuhan system +4-7% in good conditions	Includes component improvements; no stacking
+V16-029	CURRENT-CLOSE	4th Division July 1940	Remains in Manchuria instead of automatic 11th Army transfer	Northern pressure gate has opportunity cost in China
+V16-030	GATE	Japan-Finland anti-Soviet cooperation	Stronger covert arms/SIGINT exchange; no formal joint-war obligation	Exact arms flow and Finnish peace border remain scenario-bounded
+V16-031	GATE	Soviet 1941 Far-East retention	Working expectation: 3-5 division-equivalents more retained than history if Japanese pressure remains credible	Future gate, not 1940 OOB fact
+V16-032	CURRENT-CLOSE	Helicopter 1940 OOB	0 combat helicopters; H1 development/evaluation only	V13 rotorcraft canon reaffirmed
+V16-033	ANALYSIS-ONLY	Laminar-aircraft foreign hypothesis	Plausible analytical misreading of E6, not canon foreign assessment	Do not use automatically
+V16-034	ANALYSIS-ONLY	A6M/E6 comparison	Worldline A6M2 543-550 km/h class used as working comparator from older aviation material	Old/quarantined technical provenance; requires dedicated A6M closeout before promotion
+V16-035	ANALYSIS-ONLY	July air-combat vignette	Illustrative only; no kills/losses/OOB changes recorded	Do not advance clock
+V16-036	ANALYSIS-ONLY	Yichang bombing loop calculation	Illustrative recon-weather-BDA-strike system analysis	Not a recorded operation

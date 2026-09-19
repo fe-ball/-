@@ -1,0 +1,18 @@
+{
+  "revision": "v026",
+  "date": "2026-08-27",
+  "result": "PASS",
+  "validator": "98_TOOLS/validate_refactor_v014.py",
+  "checks": {
+    "all_json_parse": true,
+    "current_frontier": "1943-08-01T00:00",
+    "current_restart": "CHECKPOINT_1943-07-31T24_BRANCH_B_v001",
+    "branch_b_registry_integrated": true,
+    "rollback_guard_machine_bound": true,
+    "former_october_restart_execution_blocked": true,
+    "event_handout_branch_b_default": true,
+    "event_date_tech_gating_smoke": true,
+    "validator_errors": 0,
+    "validator_warnings": 0
+  }
+}

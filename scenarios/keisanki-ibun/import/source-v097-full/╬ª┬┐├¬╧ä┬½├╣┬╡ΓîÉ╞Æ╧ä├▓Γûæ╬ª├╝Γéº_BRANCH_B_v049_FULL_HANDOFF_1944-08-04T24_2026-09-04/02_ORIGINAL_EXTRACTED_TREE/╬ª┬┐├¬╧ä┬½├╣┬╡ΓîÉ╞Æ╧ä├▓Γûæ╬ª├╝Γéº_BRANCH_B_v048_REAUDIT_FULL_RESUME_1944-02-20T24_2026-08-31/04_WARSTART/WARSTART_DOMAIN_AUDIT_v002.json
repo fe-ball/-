@@ -1,0 +1,130 @@
+{
+  "revision": "v002",
+  "checkpoint": "WARSTART_1941-12-07_08",
+  "technical_baseline": "TECH_INDEX_v003",
+  "prewar_baseline": "PREWAR_INDEX_v003",
+  "runtime_sync": "opening_sync_state_1941-12-07_08_refactor_v002.json",
+  "domains": [
+    {
+      "domain": "AIR_PLATFORM",
+      "coverage": "RESOLVED_BOUNDED",
+      "tech_links": [
+        "TECH-AIR-A6M-ZUISEI-OPENING-001",
+        "TECH-AIR-B5N-ZUISEI-OPENING-001",
+        "TECH-AIR-D3A-OPENING-001",
+        "TECH-AIR-KI43-OPENING-001",
+        "TECH-AIR-KI44-OPENING-TRIAL-001",
+        "TECH-AIR-SEAPLANE-OPENING-001"
+      ]
+    },
+    {
+      "domain": "AIR_WEAPONS",
+      "coverage": "RESOLVED_PROVISIONAL_MAGNITUDE",
+      "tech_links": [
+        "TECH-AIR-GUN-FIGHTER-001",
+        "TECH-AIR-GUN-BOMBER-GROUND-001",
+        "TECH-AIR-BOMB-LEVEL-POINT-001",
+        "TECH-AIR-BOMB-LEVEL-AREA-001",
+        "TECH-AIR-DIVE-FIXED-001",
+        "TECH-AIR-DIVE-MOVING-001",
+        "TECH-AIR-TORPEDO-ATTACK-001"
+      ]
+    },
+    {
+      "domain": "CARRIER",
+      "coverage": "RESOLVED",
+      "tech_links": [
+        "TECH-CARRIER-MISSION-CLASS-001",
+        "TECH-CARRIER-AIR-OPENING-CAPACITY-001"
+      ]
+    },
+    {
+      "domain": "SURFACE_PLATFORM",
+      "coverage": "PARTIAL_CLASS_AUDIT",
+      "tech_links": [
+        "TECH-SURFACE-DD-ASASHIO-KAGERO-001",
+        "TECH-SURFACE-SPEED-ROBUSTNESS-001"
+      ]
+    },
+    {
+      "domain": "SURFACE_TORPEDO",
+      "coverage": "RESOLVED_CONDITIONAL",
+      "tech_links": [
+        "TECH-TORPEDO-SURFACE-ACCURACY-001",
+        "TECH-TORPEDO-SECOND-SALVO-001"
+      ]
+    },
+    {
+      "domain": "SURFACE_GUNFIRE",
+      "coverage": "RESOLVED_EARLYWAR",
+      "tech_links": [
+        "TECH-GUNFIRE-SURFACE-1942-001",
+        "TECH-GUNFIRE-LONGRANGE-NONSTANDARD-001"
+      ]
+    },
+    {
+      "domain": "SUBMARINE",
+      "coverage": "RESOLVED_OPENING_STATE",
+      "tech_links": [
+        "TECH-SUB-CONVENTIONAL-OPERABILITY-001",
+        "TECH-SUB-OPENING-ALLOCATION-001",
+        "TECH-SUB-KOU-FIRSTGEN-001"
+      ]
+    },
+    {
+      "domain": "ASW",
+      "coverage": "PARTIAL_REALIZATION",
+      "tech_links": [
+        "TECH-ASW-SONAR-OWNNOISE-001",
+        "TECH-ASW-DEPTH-SETTING-001",
+        "TECH-ASW-CONTACT-HANDOFF-001"
+      ]
+    },
+    {
+      "domain": "SENSOR_SEARCH",
+      "coverage": "PRECURSOR_AT_OPENING",
+      "tech_links": [
+        "TECH-SEARCH-MULTILAYER-001",
+        "TECH-RADAR-1942-HUMANLOOP-001"
+      ]
+    },
+    {
+      "domain": "SIGINT_COMINT",
+      "coverage": "RESOLVED_CORE_WITH_FIELD_CONSTRAINTS",
+      "tech_links": [
+        "TECH-COMSEC-CENTRAL-AUDIT-OPENING-001",
+        "TECH-COMINT-JP-HIGHGRADE-1942-001",
+        "TECH-COMINT-RESIDUAL-CHANNELS-1942-001",
+        "TECH-INFO-TO-COMMAND-SEPARATION-001"
+      ]
+    },
+    {
+      "domain": "LOGISTICS",
+      "coverage": "RESOLVED_OPENING_LIMITED",
+      "tech_links": [
+        "TECH-LOG-OPENING-TURNAROUND-001",
+        "TECH-LOG-STANDARD-SHIP-I-001"
+      ]
+    },
+    {
+      "domain": "AMPHIBIOUS",
+      "coverage": "RESOLVED_PREPARED_OPERATIONS",
+      "tech_links": [
+        "TECH-LANDING-PACKAGE-001"
+      ]
+    },
+    {
+      "domain": "SOFT_ORGANIZATION",
+      "coverage": "RESOLVED_AS_SWITCH_STATES",
+      "tech_links": []
+    }
+  ],
+  "critical_rule": "A domain marked PARTIAL/PROVISIONAL is not absent. Runtime must carry the interval/status; it may not silently substitute historical baseline.",
+  "known_gaps": [
+    "surface individual-class audit is broader than compact TECH index; current opening OOB remains authoritative for actual hull availability",
+    "several air-weapon and ASW quantitative bands remain provisional centers pending source-level statistical audit",
+    "exact unit-level serviceability/personnel allocation remains bounded in several opening theaters",
+    "opening radar is precursor/trial; equipment-by-ship inventory must be resolved per event rather than globally assumed"
+  ],
+  "state_ledger": "WARSTART_STATE_LEDGER_v001.json"
+}

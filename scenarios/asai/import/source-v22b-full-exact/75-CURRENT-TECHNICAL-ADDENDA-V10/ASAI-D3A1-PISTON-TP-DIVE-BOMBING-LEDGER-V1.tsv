@@ -1,0 +1,39 @@
+case	field	value	unit	status	note
+D3A1_HIST	length	10.20	m	EXTERNAL-HISTORICAL	late D3A1 anchor
+D3A1_HIST	span	14.37	m	EXTERNAL-HISTORICAL	late D3A1 anchor
+D3A1_HIST	wing_area	34.9	m2	EXTERNAL-HISTORICAL	late D3A1 anchor
+D3A1_HIST	empty_mass	2.40	t	EXTERNAL-HISTORICAL	approximate late D3A1
+D3A1_HIST	max_takeoff	3.65	t	EXTERNAL-HISTORICAL	approximate
+D3A1_HIST	engine	Kinsei 44 ~1070-1075 hp		EXTERNAL-HISTORICAL	
+D3A1_HIST	max_speed_3000m	~387	km/h	EXTERNAL-HISTORICAL	comparison anchor
+D3A1_HIST	time_to_3000m	~6.4-6.5	min	EXTERNAL-HISTORICAL	
+D3A1_HIST	range	~1470	km	EXTERNAL-HISTORICAL	comparison anchor
+D3A1_HIST	bomb_central	250	kg	EXTERNAL-HISTORICAL	Type99 No25 ordinary/SAP class
+D3A1_HIST	bomb_wing	2x60	kg	EXTERNAL-HISTORICAL	light stores
+D3A1_WORLDLINE_EX2	max_speed_3000m	~391-393	km/h	CURRENT-DERIVED	387 + current EX2 4-6 km/h
+D3A1_WORLDLINE_EX2	range	~1430-1500	km	H->A	no generic large range bonus
+D3A1_DIVE	ordinary_angle	45-60	deg	H->A	trained service band
+D3A1_DIVE	controlled_speed	400-440	km/h	H->A	dive-brake controlled
+D3A1_DIVE	ordinary_release_altitude	450-650	m	H->A	ship target; geometry dependent
+D3A1_DIVE	valid_release_moderate_defense	0.78-0.90	fraction	H->A	conditional on reaching attack area
+D3A1_DIVE	valid_release_favorable	0.90-0.96	fraction	H->A	
+D3A1_DIVE	valid_release_heavy_disruption	0.55-0.75	fraction	H->A	
+D3A1_DIVE	hit_valid_release_large_moving_ship	0.18-0.28	fraction	H->A	ordinary coordinated attack
+D3A1_DIVE	hit_valid_release_elite_favorable	0.25-0.35	fraction	H->A	
+D3A1_DIVE	hit_valid_release_anchored_visible	0.30-0.45	fraction	H->A	
+D3A1_DIVE	hit_valid_release_smoke_evasive	0.08-0.15	fraction	H->A	
+D3A1_DIVE	hit_valid_release_small_fast_ship	0.06-0.12	fraction	H->A	
+D3A1_DIVE	whole_attack_large_moving_ship	~0.14-0.25	fraction	DERIVED	valid-release x hit band; target-area arrivals only
+TYPE99_NO25_SAP	mass	~250	kg	EXTERNAL-HISTORICAL	
+TYPE99_NO25_SAP	explosive	~60-62	kg	EXTERNAL-HISTORICAL	SAP/ordinary anti-ship class
+D3A1_E5ST	engine	E5-S-T		CURRENT-ENGINE/H->A-AIRFRAME	
+D3A1_E5ST	engine_power	952 continuous / 1000 normal / 1050-1060 selected	hp	CURRENT-ENGINE	
+D3A1_E5ST	empty_mass	2.33-2.39 center 2.36	t	H->A	limited mass saving
+D3A1_E5ST	parasite_drag_change	-2 to -4 center -3	percent	H->A	fixed gear dominates residual drag
+D3A1_E5ST	max_speed_0m	355-362	km/h	H->A	
+D3A1_E5ST	max_speed_1000m	355-365	km/h	H->A	
+D3A1_E5ST	max_speed_3000m	350-378 center ~365	km/h	H->A	altitude power bracket retained
+D3A1_E5ST	range	1000-1180	km	H->A	part-load SFC penalty
+D3A1_E5ST	serial_decision	REJECT		CLOSED	2 aircraft + optional third technical conversion only
+D3A1_REPLACEMENT	D4Y_schedule_screen	3-6 months earlier effective opportunity		H->A-GATE	not closed service date; includes non-additive engine/test advantages
+D3A1_REPLACEMENT	earliest_rational_taper	1941 H2 if D4Y passes gates		FUTURE-GATE	D4Y audit required

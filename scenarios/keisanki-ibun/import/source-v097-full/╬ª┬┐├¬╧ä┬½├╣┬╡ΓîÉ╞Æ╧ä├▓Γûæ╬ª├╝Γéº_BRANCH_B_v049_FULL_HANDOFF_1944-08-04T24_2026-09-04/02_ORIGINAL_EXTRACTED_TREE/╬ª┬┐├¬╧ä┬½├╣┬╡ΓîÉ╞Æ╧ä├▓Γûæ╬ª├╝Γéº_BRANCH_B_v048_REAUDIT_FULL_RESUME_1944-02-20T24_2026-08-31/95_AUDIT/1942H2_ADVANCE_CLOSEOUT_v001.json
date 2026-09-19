@@ -1,0 +1,42 @@
+{
+  "revision": "v001",
+  "status": "PASS_PENDING_FINAL_CHECKSUM",
+  "scope": "1942H2 history advance from 1942-06-16 to 1942-12-31T24",
+  "current_restart": "CHECKPOINT_1942-12-31T24_v001",
+  "history_advanced": true,
+  "major_settlements": [
+    "Santo tech-stack re-audit",
+    "New Caledonia main campaign and limited-FS closeout",
+    "Vichy nominal governance and return mineral cargo",
+    "Allied logistics/surface fleet/Axis indirect effects",
+    "Five-Go year-end political approval"
+  ],
+  "superseded_working_values": [
+    {
+      "value": "Santo 8/31 old loss/defender estimates",
+      "reason": "replaced by tech-stack and historical-force re-audit"
+    },
+    {
+      "value": "New Caledonia 25-35k defense estimate",
+      "reason": "failed to account for Americal retention and no Guadalcanal redeployment"
+    },
+    {
+      "value": "South Pacific +90-140 large-cargo-ship-month indirect burden",
+      "reason": "insufficiently netted against non-occurrence of historical Guadalcanal supply burden"
+    },
+    {
+      "value": "New Caledonia return voyage treated as empty",
+      "reason": "Vichy/purchase framework and nickel/chromite return cargo added"
+    },
+    {
+      "value": "US Navy broadly weak because carrier losses",
+      "reason": "Guadalcanal surface attrition absent; surface fleet is stronger than historical"
+    }
+  ],
+  "quarantined": [
+    "1942 year-end Japanese merchant total 6.30-6.38m GRT mixed-scope conversational estimate"
+  ],
+  "legacy_content_hash_identical": true,
+  "legacy_file_count": 188,
+  "legacy_mismatch_count": 0
+}

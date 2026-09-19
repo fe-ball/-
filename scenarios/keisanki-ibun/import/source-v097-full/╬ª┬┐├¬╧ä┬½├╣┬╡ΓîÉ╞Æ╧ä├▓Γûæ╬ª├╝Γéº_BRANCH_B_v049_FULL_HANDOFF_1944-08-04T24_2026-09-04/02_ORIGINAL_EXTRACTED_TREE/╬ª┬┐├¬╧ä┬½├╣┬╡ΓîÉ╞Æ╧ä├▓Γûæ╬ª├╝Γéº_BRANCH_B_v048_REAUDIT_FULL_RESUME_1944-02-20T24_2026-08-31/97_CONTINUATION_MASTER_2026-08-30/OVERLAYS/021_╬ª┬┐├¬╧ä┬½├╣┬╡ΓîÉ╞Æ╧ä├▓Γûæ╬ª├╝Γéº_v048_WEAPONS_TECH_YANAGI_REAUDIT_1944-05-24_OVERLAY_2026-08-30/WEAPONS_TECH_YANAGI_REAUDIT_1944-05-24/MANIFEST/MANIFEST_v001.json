@@ -1,0 +1,25 @@
+{
+  "revision": "v001",
+  "id": "WEAPONS_TECH_YANAGI_REAUDIT_1944-05-24_MANIFEST_v001",
+  "status": "WORKING_OVERLAY_MANIFEST",
+  "as_of": "1944-05-24T24:00:00+09:00",
+  "load_after": [
+    "計算機異聞_v048_PROGRESS_1944-05-19_24_OVERLAY_2026-08-30.zip"
+  ],
+  "files": [
+    "WEAPONS/WEAPONS_TECH_PRODUCTION_STATE_1944-05-24_v001.json",
+    "WEAPONS/TECH_CONFLICT_REPAIR_1944-05-24_v001.json",
+    "YANAGI/YANAGI_ROUTE_TECH_STATE_1944-05-24_v002.json",
+    "SPECIAL_STRIKE/I400_SEIRAN_STRIKE_GATE_1944-05-24_v002.json"
+  ],
+  "clock_change": "NONE",
+  "combat_result_change": "NONE",
+  "important_new_gates": [
+    "I-400/I-401 six-Seiran release expected 28 May-2 Jun if final drill passes",
+    "I-34 physical paper/small-hardware return projected June, conditional",
+    "I-52 historical June loss not auto-inherited",
+    "75mm stopgap low-rate decision late May-early June",
+    "Ki-67 ordinary combat June-July",
+    "Unryu/Amagi hull completion June-July"
+  ]
+}

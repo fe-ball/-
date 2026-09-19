@@ -1,0 +1,250 @@
+{
+  "scenario": "計算機異聞 Branch B",
+  "version": "v094",
+  "cutoff": "1943-11-21T10:20",
+  "next_session_frontier": "FORGOTTEN_TECHNOLOGY_AUDIT_BEFORE_US_COUNTERSTRIKE",
+  "strategic_geography": {
+    "Midway": "JAPAN",
+    "Port_Moresby": "JAPAN",
+    "Santo": "JAPAN",
+    "New_Caledonia_strategic": "JAPAN",
+    "Efate": "ALLIED",
+    "Attu": "US",
+    "Kiska": "US",
+    "Hanzhong": "JAPAN",
+    "Sichuan_Phase_III": "HOLD"
+  },
+  "Japan_carriers": {
+    "fleet": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu"
+    ],
+    "secondary": [
+      "Junyo",
+      "Hiyo",
+      "Ryujo",
+      "Zuiho",
+      "Ryuho",
+      "Shoho"
+    ],
+    "aux_training": [
+      "Taiyo",
+      "Unyo",
+      "Chuyo",
+      "Hosho"
+    ],
+    "permanent_losses": [
+      "Akagi",
+      "Kaga"
+    ]
+  },
+  "US_prior_carrier_losses": [
+    "Lexington CV-2",
+    "Yorktown CV-5",
+    "Enterprise CV-6",
+    "Hornet CV-8",
+    "Saratoga CV-3"
+  ],
+  "Galvanic_21Nov_1020": {
+    "US_carriers": {
+      "Essex": {
+        "hits": {
+          "bomb": 2,
+          "torpedo": 1
+        },
+        "status": "CAMPAIGN_MISSION_KILL",
+        "afloat": true,
+        "repair_weeks_provisional": [
+          6,
+          10
+        ]
+      },
+      "Belleau_Wood": {
+        "hits": {
+          "bomb": 1,
+          "torpedo": 1
+        },
+        "status": "HEAVY_MISSION_KILL",
+        "afloat": true,
+        "repair_months_provisional": [
+          4,
+          6
+        ]
+      },
+      "Monterey": {
+        "hits": {
+          "bomb": 1,
+          "torpedo": 0
+        },
+        "status": "TEMPORARY_MISSION_LIMITED",
+        "flight_ops_stop_hours": [
+          6,
+          10
+        ],
+        "full_return_days": [
+          1,
+          2
+        ]
+      },
+      "other_fast_carriers_combat_capable": 6
+    },
+    "Japan_first_wave": {
+      "launched": {
+        "fighter": 52,
+        "D4Y": 46,
+        "B6N": 42,
+        "total": 140
+      },
+      "valid_releases": {
+        "D4Y": 35,
+        "B6N": 26
+      },
+      "irreversible": {
+        "fighter": 12,
+        "D4Y": 11,
+        "B6N": 15,
+        "total": 38
+      },
+      "damaged_return": [
+        17,
+        23
+      ],
+      "flying_personnel_irreversible_missing": [
+        55,
+        70
+      ]
+    },
+    "Japan_main_carriers": {
+      "hulls_damaged": 0,
+      "fighters_short_turn_ready": [
+        55,
+        62
+      ],
+      "strike_aircraft_near_ready": [
+        23,
+        30
+      ],
+      "immediate_second_full_strike": false,
+      "maneuver": "DISPLACE_W_NW_UNDER_HEAVY_CAP"
+    },
+    "US_aircraft_losses_first_strike": [
+      29,
+      38
+    ]
+  },
+  "support_layers": {
+    "US_CVE": {
+      "total": 8,
+      "Makin_ready": [
+        58,
+        65
+      ],
+      "Tarawa_ready": [
+        105,
+        125
+      ]
+    },
+    "US_old_BB_shore_fire": {
+      "Tarawa": 3,
+      "Makin": 4
+    },
+    "US_fast_BB_reserve": 4,
+    "Japan_secondary_carrier_ready": {
+      "Junyo_Hiyo": [
+        70,
+        80
+      ],
+      "Ryujo_Zuiho": [
+        45,
+        55
+      ],
+      "Ryuho_Shoho": [
+        35,
+        45
+      ],
+      "broad_total": [
+        150,
+        180
+      ],
+      "Central_Pacific_24h": [
+        110,
+        135
+      ]
+    },
+    "Japan_fast_surface": "Kongo2_CA4_5_CL1_DD10_12",
+    "Japan_useful_submarines": [
+      10,
+      12
+    ]
+  },
+  "ground_latest_closed": {
+    "Tarawa": {
+      "US_cumulative_ground_casualties": [
+        1840,
+        2190
+      ],
+      "Japan_organized_locally_commandable": [
+        3650,
+        4000
+      ],
+      "US_control_percent": [
+        20,
+        25
+      ]
+    },
+    "Makin": {
+      "Japan_effective_predawn": [
+        1050,
+        1200
+      ],
+      "counterlanding_troops_landed": [
+        390,
+        460
+      ],
+      "cargo_landed_tons": [
+        40,
+        55
+      ],
+      "US_tank_artillery_delay_hours": [
+        8,
+        14
+      ]
+    }
+  },
+  "merchant_logistics_1943_10_31": {
+    "merchant_500GRT_plus_million_GRT": [
+      5.89,
+      5.94
+    ],
+    "tanker_usable_advantage_percent": [
+      8,
+      13
+    ],
+    "Tokai": {
+      "assigned": 42,
+      "ready": [
+        34,
+        36
+      ],
+      "radar_ready": [
+        27,
+        30
+      ],
+      "MAD_trial": [
+        12,
+        14
+      ]
+    },
+    "kaibokan": {
+      "physical": 29,
+      "routine_ready": [
+        23,
+        25
+      ]
+    },
+    "Nov_month_end_closed": false
+  },
+  "open_gate": "TECH_AUDIT_THEN_US_6_FAST_CARRIER_COUNTERSEARCH_COUNTERSTRIKE"
+}

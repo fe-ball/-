@@ -1,0 +1,72 @@
+{
+  "revision": "v001",
+  "id": "EASTERN_FLEET_SLEUTH_ADJUDICATION_1944-02-23_27_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_AUTHORITY",
+  "clock_window": "1944-02-23..27",
+  "global_frontier_after_event": "1944-02-27T24",
+  "parents": [
+    "PROGRESS_1944-02-19_22/OPERATIONS/EASTERN_FLEET_ANDAMAN_BAY_ADJUDICATION_1944-02-19_22_WORKING_v001.json"
+  ],
+  "purpose": "Advance Operation SLEUTH through 27 Feb while preserving cue/track/weapon-quality distinctions and without treating theoretical aircraft radius as guaranteed search coverage.",
+  "rules": [
+    "Within aircraft radius is not equivalent to searched coverage.",
+    "A stale or uncorrelated cue does not release an anti-shipping strike.",
+    "Embarked Illustrious aircraft cannot also be credited ashore in Ceylon.",
+    "Known post-27 outcomes do not back-propagate into this window."
+  ],
+  "chronology": [
+    {
+      "date": "1944-02-23",
+      "RN_state": "Illustrious + Gambia + Rotherham + Tjerk Hiddes continue south/southeast on SLEUTH. Ceylon heavy battle squadron remains harbour/escort constrained.",
+      "carrier_air": "Routine CAP, A/S patrol and blockade-runner search; no strike target.",
+      "Japan_search": "705th Sumatra search system receives no precise route cue; broad southwest search allocation remains sparse.",
+      "contact_result": "NO Japanese maintained datum on SLEUTH.",
+      "decision": "Oyodo group remains reserve; no second reinforcement gate."
+    },
+    {
+      "date": "1944-02-24",
+      "RN_state": "At 1153FG near 02-57S 88-19E, Rotherham and Tjerk Hiddes detach for Addu. Illustrious and Gambia continue the operation with temporarily reduced close surface screen.",
+      "carrier_air": "A/S patrol share is raised inside the available deck cycle because close destroyer screen is thinner; blockade-runner search continues.",
+      "Japan_search": "The force is about 680 nmi from Sabang, inside G4M ferry/search radius but near the outer end of useful search geometry. With only 4-8 long-range searches/day spread over multiple lanes and no precise cue, no visual contact is credited.",
+      "contact_result": "NO cue maturation; NO Japanese air strike."
+    },
+    {
+      "date": "1944-02-25",
+      "RN_state": "Illustrious + Gambia continue searching southwest of the Cocos approach. Sussex sails from Fremantle to join but is not yet present.",
+      "Japan_search": "No fresh contact. 705th remains capable of long-range search but cannot infer the carrier track from silence.",
+      "contact_result": "NO weapon-quality contact.",
+      "decision": "No Japanese carrier-response or surface interception release."
+    },
+    {
+      "date": "1944-02-26",
+      "RN_state": "SLEUTH continues without finding the suspected German surface blockade runner. Thin-screen carrier posture persists; deck ASW/CAP remains emphasized.",
+      "subwar_interlock": "I-37 sinks Sutlej far to the west near 08S 70E; this shipping attack is geographically independent and does not cue SLEUTH.",
+      "Japan_search": "No maintained RN carrier datum.",
+      "contact_result": "NO Japanese attack."
+    },
+    {
+      "date": "1944-02-27",
+      "RN_state": "Illustrious + Gambia remain at sea on SLEUTH. Sussex is still en route and will not join until 28 Feb, outside this window.",
+      "Japan_state": "No SLEUTH contact is available to the Oyodo reserve. A separate Japanese commerce-raiding movement (SA No.1) begins from Lingga/Singapore and is accounted independently.",
+      "contact_result": "SLEUTH remains undetected at weapon-quality level through 27T24.",
+      "decision": "Eastern-Fleet interception gate remains CLOSED."
+    }
+  ],
+  "event_outcome": {
+    "SLEUTH_target_found": "NO",
+    "Japanese_weapon_quality_contact_on_Illustrious_through_27T24": "NO",
+    "Japanese_air_attack_on_SLEUTH": "NO",
+    "Japanese_surface_interception_of_SLEUTH": "NO",
+    "RN_heavy_battle_squadron_Bay_entry": "NO",
+    "Illustrious_operational": "YES",
+    "destroyer_screen_reduction_from_24Feb": "YES"
+  },
+  "historical_anchors": [
+    "Eastern Fleet diary: capital ships remained harbour-constrained 25-29 Feb for lack of destroyers.",
+    "Operation SLEUTH: Rotherham and Tjerk Hiddes detached to Addu at 1153FG/24 in 02-57S 88-19E; Sussex sailed Fremantle 25 Feb and joined only on 28 Feb."
+  ],
+  "sources_external": [
+    "https://www.naval-history.net/xDKWD-EF1943Dec-Apr1944.htm",
+    "https://www.uboat.net/allies/warships/ship/3258.html"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "revision": "v0.01",
+  "date": "1941-12-08",
+  "semantics": {
+    "kind": "observed_sortie_lower_bounds",
+    "same_day_rule": "do_not_sum_repeated_waves_for_same_participant_set; use maximum observed simultaneous/one-wave launch unless distinct aircraft identity is proven"
+  },
+  "constraints": [
+    {
+      "id": "LB-3AB-597590",
+      "formation": "3rd Air Brigade",
+      "units": ["59th Sentai", "75th Sentai", "90th Sentai"],
+      "observed_waves": [39, 53],
+      "serviceable_at_sortie_min": 53,
+      "primary_nominal_sum": 72,
+      "implied_serviceable_fraction_floor": 0.7361111111,
+      "interpretation": "lower bound only; not an estimated readiness rate",
+      "source": "JM55 lines 1097-1098"
+    },
+    {
+      "id": "LB-7AB-64126098",
+      "formation": "7th Air Brigade",
+      "units": ["64th Sentai", "12th Sentai", "60th Sentai", "98th Sentai"],
+      "observed_waves": [93],
+      "serviceable_at_sortie_min": 93,
+      "nominal_sum_with_secondary_60th": 149,
+      "implied_serviceable_fraction_floor_using_secondary_denominator": 0.6241610738,
+      "interpretation": "lower bound only; 60th nominal uses secondary OOB because primary OCR omits the number",
+      "source": "JM55 lines 1103-1104"
+    },
+    {
+      "id": "LB-12AB",
+      "formation": "12th Air Brigade",
+      "units": ["1st Sentai", "11th Sentai"],
+      "serviceable_at_sortie_min": null,
+      "status": "OPEN",
+      "note": "arrival/air-defense duty at Singora is confirmed but current primary excerpt does not close the aircraft count"
+    }
+  ],
+  "allocation_rejection_rules": [
+    "reject any precombat-loss allocation that drives LB-3AB-597590 below 53 at the relevant sortie time",
+    "reject any precombat-loss allocation that drives LB-7AB-64126098 below 93 at the relevant sortie time",
+    "do not add known Dec-7 losses on top of the 46-loss pool if they are treated as members of that pool",
+    "do not combine nominal strength, 46-loss pool, and 148-aircraft replacement shipment unless snapshot dates and allocation are compatible"
+  ]
+}

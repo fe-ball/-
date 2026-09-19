@@ -1,0 +1,109 @@
+{
+  "schema": "Stage3A_v001",
+  "historical_observations": {
+    "A_reported_patrol_days": 232,
+    "B_reported_patrol_days": 99,
+    "B_recorded_attack_events": 9,
+    "B_ship_total_losses": 5,
+    "B_damaged_not_lost": 1,
+    "B_missed_attacks": 3,
+    "B_claimed_sinkings": 8,
+    "on_station_days": null,
+    "torpedoes_fired_complete": null,
+    "absolute_torpedo_failure_rate": null
+  },
+  "B1_legacy_consistency": {
+    "range_delta": 0.07857142857142851,
+    "same_fuel_burn_per_nm_reduction": 0.07284768211920534,
+    "submerged_endurance_hours_before": 33.0,
+    "submerged_endurance_hours_after": 35.666666666666664,
+    "submerged_endurance_added_hours": 2.6666666666666665,
+    "surface_speed_cubic_power_change_if_coefficient_fixed": 0.055543200601051446,
+    "dive_time_change": -0.12,
+    "status": "arithmetical_implications_of_legacy_hypotheses_NOT_new_measured_capabilities"
+  },
+  "conditional_residual_range_budget": [
+    {
+      "roundtrip_transit_nm_at_same_test_condition": 5000,
+      "remaining_equivalent_nm_before": 9000,
+      "remaining_equivalent_nm_after": 10100,
+      "remaining_range_budget_increase": 0.12222222222222223,
+      "assumptions": "samefuel,16kt-equivalent budget,noadditionalreserve; remainingrangeNOTliters; NOTpatrol-durationprediction"
+    },
+    {
+      "roundtrip_transit_nm_at_same_test_condition": 8000,
+      "remaining_equivalent_nm_before": 6000,
+      "remaining_equivalent_nm_after": 7100,
+      "remaining_range_budget_increase": 0.18333333333333335,
+      "assumptions": "samefuel,16kt-equivalent budget,noadditionalreserve; remainingrangeNOTliters; NOTpatrol-durationprediction"
+    },
+    {
+      "roundtrip_transit_nm_at_same_test_condition": 10000,
+      "remaining_equivalent_nm_before": 4000,
+      "remaining_equivalent_nm_after": 5100,
+      "remaining_range_budget_increase": 0.2749999999999999,
+      "assumptions": "samefuel,16kt-equivalent budget,noadditionalreserve; remainingrangeNOTliters; NOTpatrol-durationprediction"
+    }
+  ],
+  "conditional_machinery_station_days_saved_per_sortie": 0.44999999999999996,
+  "conditional_cycle_examples": [
+    {
+      "station_days": 40,
+      "nonstation_cycle_days": 40,
+      "station_days_per_100_calendar_days_longrun": 50.0,
+      "status": "CONDITIONAL_EXAMPLE_NOT_CALIBRATION"
+    },
+    {
+      "station_days": 45,
+      "nonstation_cycle_days": 40,
+      "station_days_per_100_calendar_days_longrun": 52.94117647058823,
+      "status": "CONDITIONAL_EXAMPLE_NOT_CALIBRATION"
+    },
+    {
+      "station_days": 45,
+      "nonstation_cycle_days": 36,
+      "station_days_per_100_calendar_days_longrun": 55.55555555555556,
+      "status": "CONDITIONAL_EXAMPLE_NOT_CALIBRATION"
+    }
+  ],
+  "conditional_torpedo_technical_reliability": {
+    "before": 0.765,
+    "after": 0.8096,
+    "relative_change": 0.05830065359477121
+  },
+  "conditional_common_error_salvos": [
+    {
+      "torpedoes_per_attack": 1,
+      "p_at_least_one_damaging_hit": 0.22376249999999998,
+      "max_engagements_with_20_torpedoes": 20,
+      "expected_damaging_hit_engagements_if_4_available": 0.8950499999999999,
+      "expected_damaging_hit_engagements_if_12_available": 2.6851499999999997,
+      "status": "CONDITIONAL_EXAMPLE; not historicalsalvodoctrine; not shipkills"
+    },
+    {
+      "torpedoes_per_attack": 2,
+      "p_at_least_one_damaging_hit": 0.370494759375,
+      "max_engagements_with_20_torpedoes": 10,
+      "expected_damaging_hit_engagements_if_4_available": 1.4819790375,
+      "expected_damaging_hit_engagements_if_12_available": 3.70494759375,
+      "status": "CONDITIONAL_EXAMPLE; not historicalsalvodoctrine; not shipkills"
+    },
+    {
+      "torpedoes_per_attack": 3,
+      "p_at_least_one_damaging_hit": 0.46671443846015614,
+      "max_engagements_with_20_torpedoes": 6,
+      "expected_damaging_hit_engagements_if_4_available": 1.8668577538406246,
+      "expected_damaging_hit_engagements_if_12_available": 2.8002866307609366,
+      "status": "CONDITIONAL_EXAMPLE; not historicalsalvodoctrine; not shipkills"
+    }
+  ],
+  "historical_report_shipping_arithmetic": {
+    "loss_tons_per23daycycle": 30652,
+    "relative_output_reduction": 0.07575521663589702,
+    "identical_capacity_increase_to_restore_output": 0.08196445140881425,
+    "approx_tons_perday_gap": 1332.695652173913,
+    "status": "calculation from reported estimate; not pure causal attribution orBranchincrement"
+  },
+  "campaign_clock_advanced": false,
+  "legacy_final_kill_band_revalidated": false
+}

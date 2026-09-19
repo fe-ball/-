@@ -1,0 +1,272 @@
+{
+  "id": "BRANCH_B_JAPAN_SUPPORT_NETWORK_AND_1944-04-15_SYNC_v001",
+  "status": "WORKING_CURRENT_BROAD_SYNC",
+  "frontier": "1944-04-15T24:00",
+  "clock_advanced": true,
+  "support_rule": "facility != unit; ferry range != combat radius; remote strategic denial != same-day tactical support",
+  "nodes": {
+    "Marianas_internal": {
+      "Saipan": {
+        "class": "A",
+        "maturity": [
+          2.6,
+          3.0
+        ],
+        "selected_upper": 3.1
+      },
+      "Tinian": {
+        "class": "A-",
+        "ground_maturity": [
+          2.1,
+          2.4
+        ],
+        "role": "aviation redundancy"
+      },
+      "Guam": {
+        "class": "A",
+        "maturity": [
+          2.4,
+          2.8
+        ]
+      },
+      "Rota": {
+        "class": "A-/B+",
+        "role": "warning/dispersal/emergency"
+      },
+      "Pagan": {
+        "class": "B",
+        "role": "warning/ferry/emergency"
+      }
+    },
+    "Western_Carolines": {
+      "Palau": {
+        "class": "A operational / B direct-Marianas",
+        "base_output_percent": [
+          65,
+          75
+        ],
+        "maturity": [
+          2.5,
+          2.9
+        ]
+      },
+      "Yap": {
+        "class": "B+",
+        "base_output_percent": [
+          70,
+          80
+        ]
+      },
+      "Woleai": {
+        "class": "B",
+        "base_output_percent": [
+          65,
+          75
+        ]
+      },
+      "Truk": {
+        "class": "B+ operational / C direct-fighter",
+        "role": "air/seaplane/sub/recon/staging; no fleet concentration"
+      },
+      "Puluwat": {
+        "class": "C"
+      },
+      "Sorol": {
+        "class": "C/D"
+      },
+      "Ulithi": {
+        "class": "D current Japanese support"
+      },
+      "Ponape": {
+        "class": "C/D"
+      }
+    },
+    "Southwest": {
+      "Davao": {
+        "class": "A operational rear",
+        "23rd_Air_Flotilla_HQ": "retained; historical Sorong move suppressed"
+      },
+      "Manado": {
+        "class": "B"
+      },
+      "Kendari_Makassar": {
+        "class": "B-/C"
+      },
+      "Tarakan_Balikpapan": {
+        "class": "A logistics / C tactical-air"
+      },
+      "Halmahera_Morotai_Sorong": {
+        "class": "B-/C",
+        "historical_Hollandia_emergency_drain": false
+      }
+    },
+    "North": {
+      "Iwo": {
+        "class": "B+"
+      },
+      "Chichi": {
+        "class": "B"
+      },
+      "Marcus": {
+        "class": "C"
+      },
+      "Wake": {
+        "class": "D direct Marianas"
+      },
+      "Midway": {
+        "state": "US-held current Branch"
+      }
+    },
+    "Southeast_holdings": {
+      "Rabaul_Kavieng": {
+        "class": "C direct / A strategic"
+      },
+      "Port_Moresby": {
+        "class": "D direct / A strategic denial"
+      },
+      "Santo_New_Caledonia": {
+        "class": "ZERO direct / very high strategic denial"
+      }
+    }
+  },
+  "air_movements": {
+    "S603": {
+      "6Apr_ferry_to_Marianas": [
+        14,
+        18
+      ],
+      "arrive_physical": [
+        12,
+        16
+      ],
+      "arrive_immediate_ready": [
+        9,
+        13
+      ],
+      "route": "Davao -> Palau/Yap -> Guam/Saipan",
+      "ground_echelon": "not fully moved"
+    },
+    "K706_15Apr": {
+      "physical_surviving_recovering": [
+        22,
+        30
+      ],
+      "serviceable": [
+        15,
+        22
+      ],
+      "immediate_ready": [
+        9,
+        15
+      ],
+      "distribution": "Palau/Yap/Davao"
+    }
+  },
+  "23rd_Air_Flotilla": {
+    "HQ": "Davao",
+    "historical_13Apr_Sorong_move": "SUPPRESSED",
+    "reason": "no Hollandia deep jump; Palau threat remains actual",
+    "historical_180_aircraft_eastward_build": "NOT COPIED"
+  },
+  "9th_Tank_Regiment": {
+    "shipping_irrecoverable_tanks": [
+      0,
+      3
+    ],
+    "center": 0,
+    "Saipan_physical": [
+      50,
+      56
+    ],
+    "Guam_physical": [
+      26,
+      31
+    ],
+    "Saipan_state_15Apr": "unloaded; serviceability climbing toward 90-96%",
+    "Guam_state_15Apr": "unloaded/completing maintenance"
+  },
+  "14th_Division": {
+    "depart": "1944-04-06..08",
+    "Palau_approach": "1944-04-14..15",
+    "personnel_ashore_fraction_by_15Apr": [
+      0.35,
+      0.55
+    ],
+    "heavy_stores_ashore_fraction": [
+      0.15,
+      0.3
+    ],
+    "transport_sunk_center": 0,
+    "upper": "one transport damaged/diverted"
+  },
+  "Marianas_air_15Apr": {
+    "physical": [
+      135,
+      175
+    ],
+    "serviceable": [
+      105,
+      135
+    ],
+    "immediate_ready": [
+      80,
+      105
+    ],
+    "fighter_ready": [
+      48,
+      65
+    ],
+    "attack_recon_seaplane_ready": [
+      32,
+      45
+    ],
+    "guard": "regional planning band, not unit-level final OOB"
+  },
+  "Western_Carolines_air_15Apr": {
+    "physical_recovering": [
+      75,
+      100
+    ],
+    "serviceable": [
+      50,
+      70
+    ],
+    "immediate_ready": [
+      35,
+      50
+    ]
+  },
+  "five_carrier_15Apr": {
+    "Taiho_readiness": "B/B+",
+    "Taiho_mission_ready": [
+      57,
+      68
+    ],
+    "Taiho_mass_strike_contribution": [
+      28,
+      38
+    ],
+    "five_deck_gate": "LIMITED_PASS_ONE_CYCLE",
+    "synchronized_one_cycle": [
+      195,
+      230
+    ]
+  },
+  "US_submarine_6_10Apr": {
+    "warning_reports": true,
+    "major_Japanese_loss_center": 0,
+    "five_carrier_weapon_quality_fix": false
+  },
+  "TF58": {
+    "Hollandia_copy": false,
+    "planning_13_15Apr": "second Truk suppression",
+    "next_raid_gate": "1944-04-22..25"
+  },
+  "next_gates": [
+    "complete 14th Division Palau unload",
+    "Palau repair/fortification allocation",
+    "43d Division Saipan shipping",
+    "additional Marianas air reinforcement",
+    "Truk raid 22-25 Apr audit/execution"
+  ]
+}

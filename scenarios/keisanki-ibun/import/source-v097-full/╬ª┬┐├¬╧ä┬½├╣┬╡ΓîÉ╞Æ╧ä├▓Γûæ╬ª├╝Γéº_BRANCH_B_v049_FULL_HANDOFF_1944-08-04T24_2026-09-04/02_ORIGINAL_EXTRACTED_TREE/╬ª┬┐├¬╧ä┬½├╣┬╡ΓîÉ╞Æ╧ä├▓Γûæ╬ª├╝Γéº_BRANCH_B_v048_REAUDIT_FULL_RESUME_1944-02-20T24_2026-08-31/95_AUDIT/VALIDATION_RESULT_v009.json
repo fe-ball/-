@@ -1,0 +1,29 @@
+{
+  "revision": "v009",
+  "validator": "98_TOOLS/validate_refactor_v007.py",
+  "package_root": "計算機異聞_refactor_v009_2026-08-22",
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "scope": [
+    "all JSON parse",
+    "current-version registry targets",
+    "TECH/PREWAR source and link integrity",
+    "current checkpoint/index/graph/state-source integrity",
+    "new TECH temporal gates",
+    "event profile/domain/state-map coverage",
+    "override protocol and dependency coverage",
+    "event-generator checkpoint consumption and invalid-checkpoint blocking",
+    "coverage audit freshness",
+    "current README/handoff entrypoints",
+    "package manifest file count/entrypoints",
+    "SHA-256 full-file coverage excluding checksum file"
+  ],
+  "behavioral_checks": {
+    "current_forager_gate": "CHECKPOINT_1944-04-30T24_v002 / TECH_INDEX_v006 / execution_blocked=false",
+    "checkpoint_override": "execution-valid 1942 checkpoint resolves its own TECH_INDEX_v003 rather than current TECH",
+    "invalid_checkpoint": "CHECKPOINT_1942-05-06T24_v001 blocked by current graph",
+    "industrial_profile": "nickel/materials TECH surfaced and active on 1944-05-01"
+  },
+  "note": "This result is stored before checksum generation and is included in SHA256SUMS_REFACTOR_v009.txt; the validator is rerun after checksum generation to verify the stored result."
+}

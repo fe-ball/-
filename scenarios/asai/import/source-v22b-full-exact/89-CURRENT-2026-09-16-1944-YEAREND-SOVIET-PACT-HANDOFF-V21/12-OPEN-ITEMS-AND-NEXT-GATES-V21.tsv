@@ -1,0 +1,13 @@
+priority	gate	status	question	needed_before
+1	SOV-JPN-Pact-1945	NEXT-GATE	Will Moscow or Tokyo denounce before 1945-04-25, renegotiate, or allow automatic extension?	Any 1945 Far-East branch
+2	1945Q1 Eastern Front	OPEN	What follows the compressed Sandomierz bridgehead and preserved Warsaw/AK situation?	Soviet treaty incentive estimate
+3	SOV-FE-OOB-1945	OPEN	Exact Far-East formations/air/armor released or retained by early 1945?	Pact decision
+4	Kwantung-1945-ready	OPEN	1945 readiness, reinforcement and actual attack window after years of modernization?	Pact decision
+5	US-1944-election	OPEN	Who wins the nonbelligerent 1944 US presidential election and what changes in 1945 policy?	1945 US diplomacy
+6	FRA-WESTERN-ENTRY	OPEN	Does Lebrun/Free French/Vichy work survive German counteraction and pro-German factions?	Post-German end state
+7	Romania-exit	OPEN	When does Romanian royal/opposition/govt peace maneuver become executable?	German oil/manpower clock
+8	Finland-settlement	OPEN	Formal armistice timing/terms under stronger German branch?	Northern Europe 1945
+9	GER-1945-counterreserve	OPEN	How much of German mobile reserve remains after Sandomierz?	1945 eastern front
+10	SOV-manpower-dedicated-audit	OPEN	Replace broad 0.8-1.3m excess irreversible-loss band with campaign ledger if needed	1945 force-quality assessment
+11	IJN-C6-C7-marineGT	OPEN	Does Shimakaze/follow-on long-duration proof justify fleet-standard combined propulsion in 1944-45?	Future fleet procurement
+12	Japan-large-aircraft-1944	OPEN	Exact AT-3/Ki-92/H7Y/G8N production and service roster if needed	Detailed 1945 contingency planning

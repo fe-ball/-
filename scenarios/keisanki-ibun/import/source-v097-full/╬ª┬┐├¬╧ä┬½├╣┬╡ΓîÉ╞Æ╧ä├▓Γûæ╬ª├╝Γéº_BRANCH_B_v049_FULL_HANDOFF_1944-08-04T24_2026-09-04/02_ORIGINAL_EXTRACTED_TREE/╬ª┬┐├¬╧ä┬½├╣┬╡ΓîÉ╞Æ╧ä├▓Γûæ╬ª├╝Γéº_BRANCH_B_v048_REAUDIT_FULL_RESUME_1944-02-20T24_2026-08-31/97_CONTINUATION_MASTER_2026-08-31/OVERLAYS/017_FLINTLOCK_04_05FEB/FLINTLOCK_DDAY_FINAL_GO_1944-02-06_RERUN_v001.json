@@ -1,0 +1,27 @@
+{
+  "id": "FLINTLOCK_DDAY_FINAL_GO_1944-02-06_RERUN_v001",
+  "status": "WORKING_DECISION_NOT_CANONICAL",
+  "decision_time": "1944-02-05 18:00 Marshall local",
+  "main_assault_D_day": "1944-02-06",
+  "why_not_5Feb": [
+    "3-Feb remained a fleet recovery/replenishment day after the 2-Feb carrier battle; 4-Feb is the first restored high-output suppression day rather than a completed preparation cycle.",
+    "Japanese regional air/sensor/water-recon capability remains materially nonzero on 4-Feb and conducts a real night approach.",
+    "A 5-Feb submarine hit mission-kills one LST-class assault-support hull and forces local tractor/landing redistribution.",
+    "Tarawa-derived US doctrine favors completing preliminary-islet, UDT/beach, artillery-observation and repeated-target reduction instead of saving 24 hours at the cost of another underprepared landing."
+  ],
+  "why_not_7Feb": [
+    "By late 5-Feb Japanese runway-based strike capability is reduced to a small remnant and primary target-island radar is largely destroyed/intermittent.",
+    "Old-battleship/CVE/close-fire preparation and channel/islet work have reached diminishing returns; another day adds less destruction than exposure.",
+    "The amphibious force is already concentrated inside a submarine/night-air threat envelope, and further delay gives Japanese repair/recontact assets more time.",
+    "Japanese first-line carriers are withdrawing and not in immediate same-day strike geometry; waiting for a hypothetical perfect sea picture is not required."
+  ],
+  "confidence": "HIGH centerline; 6-Feb now replaces the prior 5/6/7 sensitivity as the working main-assault date unless a new upstream ship loss or weather event is introduced.",
+  "Majuro": "Small Majuro force occupies the atoll on 4-Feb centered without organized resistance. Anchorage becomes immediately useful for security/assembly, but full base/logistics development is future work.",
+  "preliminary_islets": "5-Feb late through 6-Feb pre-dawn: flanking/channel islets and observation/artillery positions are seized or cleared. Resistance is light-to-moderate and cannot close the lagoon passes.",
+  "D_day_start_state": {
+    "US": "Ten physical fast decks remain; Cabot is absent, Intrepid near-normal but overall air-group fatigue/losses remain. Six CVE support groups and old-battleship/cruiser/DD gunfire are available with finite ASW/traffic tradeoffs.",
+    "Japan_air": "24-30 regional combat-serviceable centered 27, mostly scattered fighters/recon with only 3-5 attack aircraft.",
+    "Japan_submarines": "Still capable of reporting and occasional approaches, but one boat sunk, one successful attacker mission-damaged and other boats pushed outward by ASW.",
+    "Japan_ground": "Warned and materially better prepared than historical-equivalent; lagoon-side/local-defense system survives in fragments, not as an intact fortress-wide C2 network."
+  }
+}

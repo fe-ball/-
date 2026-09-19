@@ -1,0 +1,32 @@
+{
+  "revision": "v001",
+  "id": "NANJING_HUNAN_REAR_SECURITY_1944-05-11_18_WORKING_v001",
+  "status": "WORKING_BRANCH_REAR_SECURITY_EXECUTION",
+  "clock_window": "1944-05-11..18",
+  "global_frontier_after_merge": "1944-05-18T24:00:00+09:00",
+  "parents": [
+    "NANJING_HUNAN_REAR_SECURITY_1944-05-01_10_WORKING_v001",
+    "ICHIGO_HUNAN_PHASE_A_CLOSEOUT_1944-05-11_18_WORKING_v001"
+  ],
+  "authorized_initial_hunan_security_package_band": [
+    30000,
+    45000
+  ],
+  "physically_in_secured_Yueyang_northern_Hunan_rear_by_18May_band": [
+    26000,
+    38000
+  ],
+  "Japanese_static_workload_released_by_18May_div_eq": [
+    0.9,
+    1.25
+  ],
+  "Changsha_policy": "Do not immediately hand Changsha/Xiangtan to unsupported Nanjing formations. Japanese cadres, military police, engineers and a mobile reserve hold key crossings, depots and communications while Nanjing police/security elements enter behind them.",
+  "roles": [
+    "rail/road/bridge guard",
+    "depot/town security",
+    "anti-sabotage and intelligence screening",
+    "POW/straggler handling",
+    "administrative reopening only after Japanese tactical control"
+  ],
+  "combat_credit": "NONE for capture of Liuyang/Ningxiang/Xiangtan/Changsha. Rear-security effect is endurance and release of Japanese static manpower."
+}

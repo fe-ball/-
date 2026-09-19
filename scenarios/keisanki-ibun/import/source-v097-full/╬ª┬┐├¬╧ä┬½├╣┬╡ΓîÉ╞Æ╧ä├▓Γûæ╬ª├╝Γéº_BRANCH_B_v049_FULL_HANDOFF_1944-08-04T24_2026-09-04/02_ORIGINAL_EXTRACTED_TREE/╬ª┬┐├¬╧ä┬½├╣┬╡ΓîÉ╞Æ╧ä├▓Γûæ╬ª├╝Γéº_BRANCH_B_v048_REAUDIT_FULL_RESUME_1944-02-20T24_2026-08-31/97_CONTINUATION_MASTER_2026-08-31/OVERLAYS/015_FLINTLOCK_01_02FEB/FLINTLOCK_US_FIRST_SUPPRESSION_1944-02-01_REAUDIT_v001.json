@@ -1,0 +1,145 @@
+{
+  "id": "FLINTLOCK_US_FIRST_SUPPRESSION_1944-02-01_REAUDIT_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-01T04:30..16:30+12:00",
+  "inputs": [
+    "1944-01-31T24 revised precontact checkpoint",
+    "hardened/dispersed Marshall air-sensor-water-air network",
+    "US 11-fast-deck finite-resource plan",
+    "Tarawa-derived US adaptation without infinite optimization"
+  ],
+  "US_first_cycle": {
+    "launch_window": "04:50-05:35",
+    "TF58_strike_sweep_sorties_band": [
+      220,
+      240
+    ],
+    "center": 230,
+    "Gilbert_relevant_sorties_band": [
+      52,
+      68
+    ],
+    "center_Gilbert": 60,
+    "target_split_center": {
+      "Taroa_Maloelap": 80,
+      "Roi_Kwajalein": 85,
+      "Wotje_Mili_Jaluit": 45,
+      "Eniwetok_or_western_nodes": 20
+    },
+    "reserve_rule": "Large CAP/search/ASW reserve retained because four Japanese first-line carriers are unlocated."
+  },
+  "Japanese_defense": {
+    "starting_combat_serviceable_band": [
+      136,
+      146
+    ],
+    "center": 141,
+    "fighters_airborne_or_committed_band": [
+      52,
+      61
+    ],
+    "Raiden_subset_band": [
+      13,
+      15
+    ],
+    "Kyofu_local_intercepts": "4-6 subset over water/shore nodes",
+    "warning": "A/A- nodes commonly yield roughly 22-35 min useful preparation; B nodes less. Not precision GCI."
+  },
+  "first_cycle_losses": {
+    "US_TF58_irrecoverable_band": [
+      12,
+      16
+    ],
+    "US_Gilbert_irrecoverable_band": [
+      3,
+      5
+    ],
+    "US_total_irrecoverable_band": [
+      15,
+      21
+    ],
+    "Japan_irrecoverable_band": [
+      35,
+      42
+    ],
+    "Japan_temp_damaged_grounded_band": [
+      14,
+      21
+    ]
+  },
+  "post_first_cycle": {
+    "Marshall_combat_serviceable_band": [
+      99,
+      108
+    ],
+    "center": 104,
+    "fighter_serviceable_band": [
+      49,
+      55
+    ],
+    "sensor_state": "Taroa/Roi main radar-runway nodes heavily hit but alternate plot/power/telephone and water-air links prevent decapitation."
+  },
+  "reverse_bearing_contact": {
+    "time": "08:05-08:30",
+    "event": "A surviving fast reconnaissance aircraft follows return/recovery traffic and visually acquires one three-deck US group with three fast battleships at roughly 125-165 nmi from the Kwajalein battle area.",
+    "confidence": "HIGH one TG; other TG geometry incomplete.",
+    "carrier_decision": "WITHHOLD; Japanese first-line carriers are still roughly 315-365 nmi from the fresh target and other US TG uncertainty remains too high."
+  },
+  "US_second_cycle": {
+    "window": "10:55-14:40",
+    "TF58_sorties_band": [
+      175,
+      195
+    ],
+    "center": 185,
+    "Gilbert_sorties_band": [
+      45,
+      58
+    ],
+    "center_Gilbert": 51,
+    "effect": "Repeated runway/radar/repair-party/water-air suppression. Submarine alarms and recovery friction prevent perfect synchronization."
+  },
+  "second_cycle_losses": {
+    "US_total_irrecoverable_band": [
+      9,
+      13
+    ],
+    "Japan_irrecoverable_band": [
+      22,
+      29
+    ],
+    "Japan_temp_damaged_grounded_band": [
+      13,
+      20
+    ]
+  },
+  "state_16_30": {
+    "Marshall_combat_serviceable_band": [
+      70,
+      80
+    ],
+    "center": 75,
+    "fighter_serviceable_band": [
+      32,
+      37
+    ],
+    "attack_serviceable_band": [
+      15,
+      19
+    ],
+    "water_recon_serviceable_band": [
+      15,
+      19
+    ],
+    "immediate_search_alert_band": [
+      50,
+      60
+    ],
+    "C2": "Taroa/Roi C+/B- centered; local/alternate warning persists. Eniwetok and dispersed water-air depth remain useful."
+  },
+  "guards": [
+    "No Kinsei Zero is added to Marshall land OOB.",
+    "Hardening reduces cluster/system kill; it does not make open-top revetments immune to direct hits.",
+    "US adaptation is real but finite: DD/deck/search/ASW tasks compete for the same assets."
+  ]
+}

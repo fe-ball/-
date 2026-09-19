@@ -1,0 +1,47 @@
+{
+  "revision": "v028",
+  "generated": "2026-08-28",
+  "validator": "98_TOOLS/validate_refactor_v016.py",
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "json_file_count": 290,
+  "authoritative_frontier": "1944-01-01T00:00 strategic",
+  "current_checkpoint": "CHECKPOINT_1943-12-31T24_BRANCH_B_v002",
+  "reopened_analysis_checkpoint": "CHECKPOINT_1943-11-23T00_BRANCH_B_GALVANIC_REAUDIT_v001",
+  "technical_baseline": "TECH_INDEX_v009",
+  "notes": [
+    "I-30 centered survival/Axis submarine-tech exchange audit integrated",
+    "1943 ESM/radar/RCM/tool-driven operational derivatives machine-bound",
+    "GALVANIC detailed dependency reopened from sortie/commitment start with all carrier classes explicitly required",
+    "Future I-34/I-29 hardware/RO-501/I-52 and German jet/submarine physical effects remain gated",
+    "Post-v027 foundational aviation/materials/shipping/damage/atoll-defense audit preserved in master delta",
+    "Merged precursor GALVANIC_REAUDIT-only artifacts retained as non-executable provenance; stale ESM-cued-search TECH ID repaired.",
+    "GALVANIC sortie/mobilization prelude 1943-11-08..23 added with transit/alert fatigue and all carrier classes explicitly separated.",
+    "Secondary-carrier Bengal hull commitment centered 0; Junyo/Hiyo/Ryujo/Zuiho mandatory trace, Shoho/Ryuho background-visible for later Eastern Fleet audit.",
+    "11/23 runtime binding repaired: mandatory CARRIER_BATTLE technical domains and state requirements resolve checkpoint-local, not WARSTART fallback.",
+    "Kyofu/Zuiun and matured water-air search/contact cycle are runtime-bound; local allocation remains unresolved until base-by-base closure.",
+    "GALVANIC first-contact re-audit closed provisionally through ~1943-11-23 08:15 local: passive/DF warning -> dawn visual contact -> partial recontact; no weapons released.",
+    "Qualitative gate crossed: D-1 firm carrier contact, healthier Marshall air wallet and dark 23/24 night require a pre-D-day recontact/strike decision before rejoining the old settlement sequence."
+  ],
+  "merge_integrity_checks": {
+    "json_parse": "PASS",
+    "tech_id_uniqueness": "PASS",
+    "override_id_uniqueness": "PASS",
+    "checkpoint_graph_reference_integrity": "PASS",
+    "current_path_reference_integrity": "PASS",
+    "precursor_guard_tech_reference_integrity": "PASS"
+  },
+  "sortie_start_runtime_checks": {
+    "CARRIER_BATTLE_mandatory_domains": "PASS_CHECKPOINT_LOCAL",
+    "mandatory_state_requirements": "PASS_CHECKPOINT_LOCAL",
+    "WARSTART_fallback_in_mandatory_domains": "NONE",
+    "validator": "PASS_ERRORS_0_WARNINGS_0"
+  },
+  "first_contact_checks": {
+    "warning_to_contact_chain": "PASS_PARTIAL_CONTACT_ONLY",
+    "weapon_quality_track": "NOT_YET",
+    "weapons_released": "NO",
+    "qualitative_gate": "CROSSED_PRE_D_DAY_RECONTACT_STRIKE_DECISION_REQUIRED"
+  }
+}

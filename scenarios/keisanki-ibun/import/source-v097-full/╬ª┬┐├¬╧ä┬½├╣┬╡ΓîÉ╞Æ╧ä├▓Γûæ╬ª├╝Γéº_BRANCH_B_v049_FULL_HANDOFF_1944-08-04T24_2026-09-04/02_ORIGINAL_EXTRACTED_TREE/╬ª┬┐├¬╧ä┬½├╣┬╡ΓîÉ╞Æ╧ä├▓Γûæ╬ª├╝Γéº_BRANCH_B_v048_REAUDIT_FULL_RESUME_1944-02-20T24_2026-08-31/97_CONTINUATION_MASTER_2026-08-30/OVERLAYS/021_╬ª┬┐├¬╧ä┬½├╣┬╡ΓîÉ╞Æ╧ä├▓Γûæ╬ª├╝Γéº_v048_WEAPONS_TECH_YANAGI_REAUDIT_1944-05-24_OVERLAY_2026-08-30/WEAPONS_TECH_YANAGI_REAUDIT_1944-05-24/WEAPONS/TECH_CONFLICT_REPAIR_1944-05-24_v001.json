@@ -1,0 +1,34 @@
+{
+  "revision": "v001",
+  "id": "TECH_CONFLICT_REPAIR_1944-05-24_v001",
+  "status": "WORKING_CURRENT_OVERLAY_CONFLICT_RESOLUTION",
+  "as_of": "1944-05-24T24:00:00+09:00",
+  "repairs": [
+    {
+      "topic": "Japanese pure-jet flight clock",
+      "stale_source": "06_RUNTIME/MATERIALS_NICKEL_TURBO_JET_1944SPRING_v001.md",
+      "stale_claim": "Ne-4 pure-turbojet first-flight clock Mar-May 1944",
+      "superseding_source": "06_RUNTIME/JAPAN_JET_DEVELOPMENT_REAUDIT_1944_1945_WORKING_v001.json",
+      "current_rule": "REJECT the Mar-May self-propelled pure-jet flight. Q2 1944 captive airborne hot-run/test work only; no 1944 combat jet.",
+      "reason": "later re-audit explicitly identified the earlier clock as over-compressed and retained turbine-life, materials, bearing and fuel-control gates"
+    },
+    {
+      "topic": "A7M prototype vs combat availability",
+      "stale_risk": "interpreting May prototype flight as operational carrier fighter",
+      "current_rule": "A7M remains C / combat 0 on 24 May; ordinary summer combat is not granted",
+      "reason": "prototype performance, engine choice, carrier qualification, tooling and production are distinct clocks"
+    },
+    {
+      "topic": "I-400 historical completion dates vs Branch",
+      "stale_risk": "regressing Branch I-400/I-401 availability to historical late-1944 completion because external histories use historical dates",
+      "current_rule": "Branch authoritative accelerated boat clocks remain: I-400 Jan 1944 commissioning, I-401 Apr 1944, six-Seiran joint gate late May-Jun",
+      "reason": "external history is used only to anchor Seiran airframe development and mission mechanics; branch ship-construction divergence is already authoritative"
+    },
+    {
+      "topic": "75mm stopgap naming and quantity",
+      "stale_risk": "calling it a mass Type 3 Chi-Nu fleet merely because it has the same operational role",
+      "current_rule": "keep Branch Chi-He-lineage 75mm stopgap as prototype/trial line; prototype realized, low-rate gate late May-Jun, quantity unclosed",
+      "reason": "gun/turret/engine/armor-plate production wallet is still pending"
+    }
+  ]
+}

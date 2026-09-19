@@ -1,0 +1,24 @@
+{
+  "revision": "v002",
+  "id": "CURRENT_BRANCH_STATE_v002",
+  "date_created": "2026-08-25",
+  "package_revision": "v020",
+  "status": "CURRENT",
+  "current_analysis_time": "1943-10-10T00:00",
+  "current_frontier_event": "Post Midway-inclusive Wake raid re-audit; Central Pacific continuous-campaign audit paused before GALVANIC preparation closure.",
+  "active_restart": {
+    "mode": "PACIFIC_CONTINUOUS_REAUDIT",
+    "time": "1943-10-10T00:00",
+    "checkpoint": null
+  },
+  "current_overrides": "00_CONFIG/current_branch_overrides_v005.json",
+  "current_session_settlement": "06_RUNTIME/PACIFIC_MIDWAY_CONTINUOUS_CAMPAIGN_REAUDIT_1943-07_10_v001.md",
+  "retained_provisional": [
+    "06_RUNTIME/SESSION_2026-08-24_ROLLBACK_PACIFIC_CHINA_SETTLEMENT_v001.md",
+    "06_RUNTIME/CATCHPOLE_ENIWETOK_1944-04-18_24_SETTLEMENT_v001.md",
+    "06_RUNTIME/PRE_ICHIGO_FINAL_FORCE_LOGISTICS_GATE_1944-04-25_v001.md",
+    "06_RUNTIME/CHINA_ICHIGO_ANALOG_1944-05-10_10-20_PROVISIONAL_FORWARD_v001.md"
+  ],
+  "next_required_adjudication": "Close GALVANIC preparation and detection from the 1943-10-10 Midway-inclusive state, then advance continuously through Marshalls/CATCHPOLE before reopening FORAGER/Indian Ocean/Hump synchronization.",
+  "precedence_rule": "CURRENT_BRANCH_STATE_v002 and current_branch_overrides_v005 supersede contrary CURRENT labels in older files."
+}

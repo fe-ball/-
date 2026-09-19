@@ -1,0 +1,148 @@
+{
+  "revision": "v001",
+  "id": "JAPANESE_ARMOR_PRODUCTION_AND_ALLOCATION_1943_WORKING_v001",
+  "status": "WORKING_BANDED_RECONSTRUCTION_NOT_CURRENT",
+  "accounting_guard": "JAPANESE_ARMOR_PRODUCTION_ACCOUNTING_CALENDAR_GUARD_1941_1944_WORKING_v001",
+  "source_matrix": "JAPANESE_ARMOR_SOURCE_BASIS_MATRIX_1938_1944_WORKING_v001",
+  "cutoff": "1943-12-31",
+  "strategic_context": [
+    "Tank divisions were formed largely by regrouping existing regiments, not by creating an entirely new national tank fleet.",
+    "Branch Five-Go starts 1943-03-25 and uses the 3rd Tank Division heavily on suitable terrain, while its larger bottlenecks are rail, rolling stock, trucks, engineers, fuel and ammunition.",
+    "China and southern campaigns continue to validate reliable 15-17t vehicles; no reason yet for a mass 30t-tank switch.",
+    "GALVANIC in Nov1943 creates a qualitatively new M4/Sherman anti-armor requirement late in the year."
+  ],
+  "source_baseline_bands_calendar_equivalent": {
+    "Shinhoto_new_hulls": {
+      "band": [
+        360,
+        430
+      ],
+      "center": 400,
+      "note": "The widely cited 427 is retained as an upper/source-series anchor, not asserted as an archival Jan-Dec total."
+    },
+    "HaGo_new_hulls": {
+      "band": [
+        180,
+        260
+      ],
+      "center": 220,
+      "note": "Common 239 annual figure is treated as a scaffold pending fiscal-source transcription."
+    },
+    "KeNi_new_hulls": {
+      "band": [
+        10,
+        18
+      ],
+      "center": 12,
+      "note": "Primary-document reconstruction strongly rejects the old 79/89 mass-production figure; FY1943 actual completions were about 15."
+    },
+    "ChiHe_new_hulls": {
+      "historical_routine_combat_series": 0,
+      "branch_pilot_pre_series_band": [
+        4,
+        10
+      ],
+      "center": 6,
+      "note": "Branch may close development several weeks/months earlier, but JGSDF chronology still puts historical development completion Jun1943 and mass production spring1944."
+    },
+    "HoNiII_new_hulls": {
+      "band": [
+        12,
+        22
+      ],
+      "center": 18,
+      "note": "First prototype 1942, series from 1943; total wartime 54 is a broad secondary anchor, annual split remains OPEN."
+    }
+  },
+  "Shinhoto_old_hull_retrofit_1943": {
+    "opening_cumulative_center": 228,
+    "historical_total_rebuild_anchor": "about 300 old Type97s",
+    "1943_band": [
+      50,
+      90
+    ],
+    "center": 70,
+    "end_1943_cumulative_center": 298,
+    "interpretation": "Branch essentially completes the known old-hull conversion program during 1943. This changes gun mix, not physical hull count."
+  },
+  "branch_production_policy": {
+    "national_hull_inflation": "LOW. Keep total tracked-AFV new-build close to historical-equivalent envelope.",
+    "model_mix": [
+      "End new 57mm Type97 construction except residual contracts.",
+      "Make Shinhoto the normal new medium tank.",
+      "Keep Ha-Go production/use because China/South reward a reliable light tank.",
+      "Keep Ke-Ni extremely low priority; use freed planning/plant attention on recovery tractors, spares, workshops and special AFVs.",
+      "Run Chi-He as a quality/pilot line, not a 1943 mass replacement.",
+      "Expand mobile artillery/SPG modestly where it directly supports tank divisions."
+    ],
+    "branch_extra_resources_first_destination": "spares, recovery, tractors, radios, workshop throughput, gun/turret QC; not a large extra hull count"
+  },
+  "FiveGo_and_3rd_Tank_Division": {
+    "formation": "3rd Tank Division formed Dec1942 in China from existing armored formations; Five-Go does not wait for 1943 new production.",
+    "working_divisional_physical_tank_wallet_pre_operation": {
+      "medium_tanks_band": [
+        150,
+        190
+      ],
+      "light_tanks_band": [
+        95,
+        125
+      ],
+      "other_tankette_armored_engineer_support": [
+        20,
+        40
+      ],
+      "note": "Band follows four-regiment/tank-division scale and allows understrength/equipment-transition; exact regiment ledger still to be built."
+    },
+    "medium_mix_at_1943_03_25_center": {
+      "57mm_Type97": "55-65%",
+      "Shinhoto_47mm": "35-45%",
+      "ChiHe": "0%",
+      "reason": "Branch prewar/1942 retrofit accelerates 47mm share, but China does not need or receive every new 47mm vehicle."
+    },
+    "serviceability": {
+      "physical_to_ready_center": "82-90% at launch after Five-Go buildup",
+      "reason": "Branch reliability/maintenance plus a long prepared logistics buildup; terrain/supply still gate tactical contact."
+    },
+    "FiveGo_retroactive_effect": "Re-open local tank-vs-AT engagements and operational reappearance where the old settlement used generic Type97/Type95. Do not change Five-Go strategic outcome merely from model mix."
+  },
+  "ChiHe_1943_branch_timeline": {
+    "historical_anchor": "development complete around Jun1943; historical mass production spring1944",
+    "branch": {
+      "design_test_closure": "1943-04..05 centered",
+      "pilot_hulls": "1943-08..12",
+      "accepted_pilot_pre_series_by_year_end": [
+        4,
+        10
+      ],
+      "combat_issue_by_year_end": "0-4, center 0",
+      "priority": "school, proving, selected armored-formation evaluation"
+    },
+    "why_not_mass": "Shinhoto is good enough in China/South; steel/engine/factory and air/naval priorities remain real."
+  },
+  "GALVANIC_feedback_gate": {
+    "trigger": "Nov1943 M4 combat reports",
+    "effect": "47mm medium-tank system is reclassified as insufficient for frontal anti-M4 combat.",
+    "decision_window": "1943-12 through 1944-01",
+    "candidate_actions": [
+      "accelerate Chi-He regular line because its chassis/crew/radio/armor are useful even if 47mm is not the final anti-M4 answer",
+      "issue a stopgap 75mm-medium-tank requirement using the Chi-He/Type97 family and existing 75mm gun experience",
+      "raise priority of Ho-Ni/AT-gun mobile reserve solutions",
+      "raise Chi-To long-75mm priority without pretending it is ready for 1944H1 mass combat"
+    ],
+    "no_auto_grant": "No Chi-Nu-equivalent combat vehicle exists in 1943."
+  },
+  "end_1943_branch_state_center": {
+    "medium_fleet": "Shinhoto is the normal modern medium type; large numbers of 57mm Type97 remain intentionally useful for infantry-support work.",
+    "light_fleet": "Ha-Go remains the dominant field light tank; Ke-Ni is a tiny side line.",
+    "next_generation": "Chi-He is pilot/pre-series, not yet a mass field type.",
+    "75mm_stopgap": "requirement can be opened by GALVANIC; design/prototype work begins only after explicit Dec43/Jan44 decision.",
+    "production_focus": "physical fleet improvement comes as much from conversion/serviceability/support as from new-hull totals."
+  },
+  "next_required": [
+    "Build 3rd Tank Division regiment-by-regiment March/June 1943 vehicle ledger and recheck Five-Go local engagements.",
+    "Build 1944 Jan-Jun Chi-He + stopgap75mm + Shinhoto tail monthly ledger.",
+    "Audit 75mm gun/turret/engine/armor-plate manufacturing wallet before assigning any Chi-Nu-equivalent production date.",
+    "Then reopen Saipan and 1944 China tank OOB."
+  ]
+}

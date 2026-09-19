@@ -1,0 +1,29 @@
+{
+  "id": "GALVANIC_TARAWA_FIRST_NIGHT_1943-11-24_25_REAUDIT_WORKING_v001",
+  "status": "WORKING_BRANCH_RERUN_NOT_YET_PROMOTED",
+  "time": "1943-11-24T22:00..1943-11-25T05:30 local",
+  "inputs": {
+    "Japanese_attack_force": "430-530 first-line troops; 5-6 Type 95 centered; 1-3 additional tanks held as local reserve/temporarily unavailable",
+    "US_stop_line": "5-7 operational M4A2 at attack opening, dry radios, 75-mm/infantry artillery, MGs, illumination and destroyer fire",
+    "Japanese_advantages": "better preserved local wire/runners, preplanned covered assembly, more accessible local ammunition, slightly better tank serviceability",
+    "Japanese_limits": "pre-GALVANIC doctrine, tiny Betio maneuver space, US illumination/fire support, no armor/gun-energy improvement",
+    "US_adaptation": "resistance severity and D-day losses make a night counterattack expected; defensive fires and armored stop-line are prepared rather than surprised blind"
+  },
+  "centered_sequence": [
+    "23:00-00:15: infiltration and tank-supported local attacks hit the Red 2/3 connection and nearby supply/command nodes; several US platoon/company positions fall back locally.",
+    "00:15-02:30: Japanese attack opens a temporary seam and partially isolates forward Red 3 elements; a small amount of beach supply/communications equipment is destroyed or abandoned.",
+    "02:30-04:30: US Shermans, artillery, illumination and destroyer direct/near-direct fire concentrate on the penetration. Japanese tanks lose mobility in shell holes, obstacles and close-range combined-arms fire.",
+    "04:30-05:30: attack coherence breaks; survivors withdraw into strongpoints or revert to infiltration. The beachhead is not cut from the sea and no major US HQ is overrun."
+  ],
+  "results": {
+    "temporary_Red2_3_disruption": "~1.5-3.0 hours material disruption; local seam/route denial longer in individual sectors",
+    "US_additional_night_casualties": "~260-390 total K/W/M class",
+    "US_M4A2": "0-1 irrecoverable centered; 1-2 additional mobility/mission-kills repairable or replaceable by D+1 arrivals",
+    "Japan_attack_force_casualties": "~290-410 killed/wounded/missing class among the attacking echelon",
+    "Type95_irrecoverable_or_abandoned": "3-4 from the assault group",
+    "Type95_short_repair_or_recovered": "0-1 from assault; plus held-back vehicles",
+    "Type95_contact_capable_at_dawn": "3-5, center ~4; additional 1-2 may be short-repair but access is worsening",
+    "strategic": "counterattack gains a real local tactical success but fails operationally; it buys hours and forces a conservative US D+1 scheme rather than threatening amphibious defeat"
+  },
+  "accounting_guard": "Do not translate all surviving garrison personnel into organized infantry. Night survivors re-enter local strongpoints with fragmented command."
+}

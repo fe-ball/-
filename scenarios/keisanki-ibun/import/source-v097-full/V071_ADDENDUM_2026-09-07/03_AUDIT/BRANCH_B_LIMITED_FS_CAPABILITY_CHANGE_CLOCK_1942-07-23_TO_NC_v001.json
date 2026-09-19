@@ -1,0 +1,168 @@
+{
+  "id": "BRANCH_B_LIMITED_FS_CAPABILITY_CHANGE_CLOCK_1942-07-23_TO_NC_v001",
+  "status": "CLOSED_GATES / EVENT_OUTCOMES_OPEN",
+  "rule": "A future item contributes only after its gate is passed and after any combat attrition/maintenance cost is applied. No item is additive merely because it exists elsewhere in theater.",
+  "D4_to_Santo_Dday": [
+    {
+      "window": "1942-07-23 to 1942-07-27",
+      "item": "RO-33/RO-34",
+      "change": "submarine useful line can rise from 4-5 D-4 geometry to 6-7 effective boats by D-day",
+      "class": "CONDITIONAL",
+      "gate": "arrival/repositioning succeeds; no combat/mechanical loss"
+    },
+    {
+      "window": "1942-07-23 to 1942-07-27",
+      "item": "Shokaku work-up",
+      "change": "natural recovery ceiling allows roughly +0 to +4 mission-ready aircraft versus the 52 center if spares/crew/weather cooperate",
+      "class": "CONDITIONAL",
+      "gate": "no prebattle loss; does not raise center package above overall 150-MR working band for free"
+    },
+    {
+      "window": "same",
+      "item": "Turtle Bay / Allied reinforcement",
+      "change": "Allied capability rises simultaneously: B-17 elements arrive in NC, 2d Marines can be diverted after reacquisition, and runway construction continues unless suppressed",
+      "class": "HARD_FROM_V070_MIRROR",
+      "gate": "actual warning/contact clock"
+    }
+  ],
+  "surface_repair_releases": [
+    {
+      "window": "late Jul 1942",
+      "item": "Hiei",
+      "change": "+1 fast-battleship physical reserve after repair/trials",
+      "class": "CONDITIONAL",
+      "guard": "not retroactive Santo core; assignment to NC requires explicit order/fuel/screen"
+    },
+    {
+      "window": "Jul 1942",
+      "item": "Arashi",
+      "change": "+1 destroyer reserve after MI repair/trials",
+      "class": "CONDITIONAL",
+      "guard": "v070 excluded it because Santo gate did not need it"
+    },
+    {
+      "window": "late Aug 1942",
+      "item": "Chokai",
+      "change": "heavy-cruiser reserve returns after MI heavy damage",
+      "class": "CONDITIONAL",
+      "guard": "not an immediate Santo/early-NC input"
+    },
+    {
+      "window": "already by D4",
+      "item": "Kongo / Hagikaze",
+      "change": "MI repairs are already paid and embedded in v070 center availability",
+      "class": "CLOSED",
+      "guard": "do not add a second readiness bonus"
+    }
+  ],
+  "carrier_release_clock": [
+    {
+      "window": "late Jul / early Aug physical completion path",
+      "item": "Hiyo",
+      "change": "new physical deck may enter work-up",
+      "class": "CONDITIONAL",
+      "gate": "acceptance + trained air group + machinery/deck cycle; zero Santo credit and no immediate first-line credit"
+    },
+    {
+      "window": "late Jul-Aug hull/flight-deck repair; later air-group work-up",
+      "item": "Hiryu",
+      "change": "surviving hull and Yamaguchi/personnel lineage can eventually regenerate a first-line-capable deck",
+      "class": "CONDITIONAL",
+      "gate": "repair + trials + air-group work-up. No Santo credit; immediate early-NC credit normally zero."
+    },
+    {
+      "window": "Aug-Sep heavier repair; then work-up",
+      "item": "Soryu",
+      "change": "later carrier-depth increase",
+      "class": "CONDITIONAL",
+      "gate": "repair + trials + air-group rebuild; no immediate FS credit"
+    },
+    {
+      "window": "during FS",
+      "item": "Junyo / Zuiho / Shoho substitution",
+      "change": "reserve decks can replace losses rather than automatically stack with the Santo center",
+      "class": "CLOSED_POLICY",
+      "gate": "if Zuikaku/Shokaku becomes unavailable, Junyo is first fleet-capacity substitute; if Ryujo/support deck is unavailable, Zuiho is first support substitute; Shoho remains last-choice concentration while Southeast base/convoy requirement persists"
+    }
+  ],
+  "base_network_maturation": [
+    {
+      "window": "approx 1942-07-30 to 08-03",
+      "item": "Lunga",
+      "change": "may cross emergency recovery/ferry-strip threshold",
+      "class": "CONDITIONAL",
+      "gate": "11th/13th Naval Construction work uninterrupted enough; drainage/materials/fuel and Allied suppression permit"
+    },
+    {
+      "window": "approx 1942-08-05 to 08-10",
+      "item": "Lunga",
+      "change": "small operational fighter/recon detachment becomes possible, center 8-16 aircraft rather than a mature large base",
+      "class": "CONDITIONAL",
+      "gate": "strip, fuel, maintenance, revetment and warning network all pass"
+    },
+    {
+      "window": "Santo capture +1 to +2 days",
+      "item": "Santo water aviation",
+      "change": "4-8 floatplane/flying-boat assets can stage south without waiting for runway completion",
+      "class": "CONDITIONAL",
+      "gate": "anchorage secure + tender/fuel/rearm + sea state; aircraft must be moved from an existing node/reserve, so northern nodes lose corresponding density"
+    },
+    {
+      "window": "Santo capture +2 to +4 days",
+      "item": "Santo airfield",
+      "change": "emergency fighter/recon recovery possible",
+      "class": "CONDITIONAL",
+      "gate": "captured runway sector sufficiently intact/repairable; engineer plant and material survive"
+    },
+    {
+      "window": "Santo capture +4 to +7 days",
+      "item": "Santo airfield",
+      "change": "8-16 local fighters/recon aircraft can be staged as a small operational node",
+      "class": "CONDITIONAL",
+      "gate": "fuel/ordnance/maintenance/C2 and runway surface pass"
+    },
+    {
+      "window": "Santo capture +7 to +14 days",
+      "item": "Santo airfield",
+      "change": "20-30 mixed local operational aircraft becomes possible",
+      "class": "CONDITIONAL",
+      "gate": "no decisive Allied suppression; sufficient shipping, fuel, spares, AA and runway maintenance. This is still not 'mini-Rabaul'."
+    }
+  ],
+  "post_Santo_to_NC_reset": [
+    {
+      "item": "carrier air",
+      "rule": "recompute actual MR and crew-quality after Santo sorties. Do not reset to 143. Reserve-deck substitutions are replacements, not free additions."
+    },
+    {
+      "item": "submarines",
+      "rule": "the same 6-7 D-day boats cannot remain at full forward effectiveness indefinitely. Center immediate post-Santo useful line 4-6; after replenishment/rotation, 5-7 for NC if no losses. Any >7 NC line requires a newly named hull allocation audit."
+    },
+    {
+      "item": "surface",
+      "rule": "fuel, torpedoes, bombardment ammunition, maintenance days and floatplane losses carry forward; Hiei/Arashi release can offset some attrition only after their gates."
+    },
+    {
+      "item": "vehicles",
+      "rule": "post-landing ledger becomes physical survivors + repaired vehicles. Branch 24-72h return improves repairable returns but never restores destroyed/drowned/abandoned machines."
+    },
+    {
+      "item": "engineers",
+      "rule": "15th Independent Engineer elements used to make Santo usable cannot simultaneously be counted in the NC first wave. Release to NC only after Santo minimum runway/port/garrison tasks are explicitly handed over."
+    },
+    {
+      "item": "ground force",
+      "rule": "Kawaguchi main body remains the principal NC follow-on reserve. Its own vehicle/artillery/shipping wallet must be closed at the actual NC decision date; do not copy the Santo hardware package onto it."
+    },
+    {
+      "item": "Allied mirror",
+      "rule": "NC defender/air/naval state must be re-audited at the actual post-Santo date. Delay is not free: New Caledonia receives additional air/ground preparation while Japan repairs and builds forward bases."
+    }
+  ],
+  "attrition_feedback": [
+    "Loss of veteran carrier strike leaders/navigators/maintenance nuclei matters more than the same count of replacement aircraft; track separately.",
+    "Loss/suppression of Shortland/Rekata/Tulagi reduces search/recontact redundancy and forces carrier/shipboard aircraft to spend more sorties on ISR.",
+    "A captured Santo base lowers carrier ISR/fixed-target burden only after its conditional air/water-aviation gates pass.",
+    "Fuel/oiler damage can nullify nominally available hull additions; capability clock never bypasses logistics."
+  ]
+}

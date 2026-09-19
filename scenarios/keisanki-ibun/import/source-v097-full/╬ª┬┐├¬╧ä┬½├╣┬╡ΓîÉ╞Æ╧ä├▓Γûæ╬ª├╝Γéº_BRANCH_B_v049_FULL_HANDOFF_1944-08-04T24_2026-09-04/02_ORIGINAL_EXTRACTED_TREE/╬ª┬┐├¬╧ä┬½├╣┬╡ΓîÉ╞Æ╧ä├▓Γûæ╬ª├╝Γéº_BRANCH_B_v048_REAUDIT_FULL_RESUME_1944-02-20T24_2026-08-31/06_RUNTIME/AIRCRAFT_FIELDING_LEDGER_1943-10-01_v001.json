@@ -1,0 +1,70 @@
+{
+  "revision": "v001",
+  "id": "AIRCRAFT_FIELDING_LEDGER_1943-10-01_v001",
+  "package_revision": "v024",
+  "status": "AUTHORITATIVE_CURRENT_BRANCH_AIRCRAFT_CLOCK",
+  "cutoff": "1943-10-01T00:00:00",
+  "rule": "Existence -> production/delivery -> unit conversion -> frontline readiness -> local allocation are separate clocks. Historical introduction dates are fallback only where no branch entry exists.",
+  "japan": {
+    "D4Y": {
+      "state": "ACTIVE_BY_ROLE",
+      "recon": "deployed from 1942H1; active by 1943",
+      "bomber": "late-1942 deployment clock, but June 1943 branch only guarantees limited bomber-trial/operational elements; event counts required",
+      "tech": "TECH-AIR-D4Y-FIELDING-1942-43-001"
+    },
+    "B6N": {
+      "state": "ACTIVE_LIMITED_TO_EXPANDING",
+      "initial_units": "1942 late-1943 early",
+      "1943_gate": "engine durability/adoption + spares/tools/training remains binding",
+      "june_anchor": "B6N elements valid at Efate",
+      "tech": "TECH-AIR-B6N-FIELDING-1942-43-001"
+    },
+    "J2M_Raiden": {
+      "state": "MATERIAL_FRONTLINE_INTERCEPTOR",
+      "august_1943": "220-250 completed; 150-175 frontline; 80-100 four-20mm standard",
+      "deployment": "18-30 aircraft concentrated priority-base units",
+      "tech": "TECH-AIR-J2M-FIELDING-1942-43-001"
+    },
+    "N1K1_Kyofu": {
+      "state": "OPERATIONAL_WATER_FIGHTER",
+      "october_1943": "70-90 completed; 50-65 frontline center",
+      "unit": "12 aircraft standard detachment, 8-10 normally ready",
+      "tech": "TECH-AIR-N1K1-KYOFU-FIELDING-1943-001"
+    },
+    "E16A_Zuiun": {
+      "state": "DELIVERY_TO_FIRST_DETACHMENT_TRANSITION",
+      "restart_rule": "Initial deliveries exist, but 1943-10-01 does not imply a combat-ready local detachment. First combat-capable detachments center Oct-Nov.",
+      "tech": "TECH-AIR-E16A-ZUIUN-FIELDING-1943-001"
+    },
+    "late_zero": {
+      "state": "ACTIVE",
+      "rule": "Use event-specific Zuisei-late A6M5-ish branch readiness; do not back-port Kinsei Zero/A7M.",
+      "source": "05_WARTIME/CHECKPOINT_1943-09-30T24_v001.json"
+    }
+  },
+  "united_states": {
+    "june_efate": {
+      "F6F": "NOT_PRESENT_IN_THIS_BATTLE",
+      "Wasp_group": "F4F/SBD/TBF",
+      "land_mix": "F4U/P-38/F4F/P-40/P-39 plus strike/recon types"
+    },
+    "late_aug_sep": {
+      "state": "NEW_FAST_CARRIER_FORCE_REAL",
+      "aircraft": "F6F-class carrier fighter groups",
+      "rule": "new Essex/Independence force is additive to branch losses, not restoration of old named carriers"
+    },
+    "october": "Exact carrier/air-group count, readiness and raid axis require event adjudication."
+  },
+  "anti_backport": [
+    "Kinsei Zero/A7M not available by cutoff",
+    "Shiden-kai not operational by cutoff",
+    "Zuiun not mass operational at restart",
+    "No 1943 operational jet/Seiran back-port"
+  ],
+  "sources": [
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md",
+    "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/53_海軍戦闘機・空冷発動機・噴進航空.md",
+    "06_RUNTIME/EFATE_LIMITED_NEUTRALIZATION_1943-06_SETTLEMENT_v001.md",
+    "06_RUNTIME/GLOBAL_1943Q3_SYNCHRONIZATION_LEDGER_v001.md"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v002",
+  "status": "WORKING_AXIS_REPORT_DELIVERY_AND_FIRST_JAPANESE_RELEASE_ADJUDICATED_NOT_CURRENT",
+  "as_of_branch_frontier": "1944-01-01T00:00",
+  "purpose": "Date the historical Eastern Fleet heavy-group movement and convert it into evidence gates without back-porting those future historical observations into Branch-B realized 1944 state.",
+  "claim_class_split": {
+    "movement_dates": "historical_fact",
+    "Japanese_receipt_and_confidence": "scenario_realization / gated",
+    "release_policy": "policy_rule / working"
+  },
+  "sources": [
+    {
+      "type": "primary_transcription",
+      "title": "Vice Admiral Eastern Fleet War Diary, 15 Dec 1943-31 Jan 1944",
+      "url": "https://www.naval-history.net/xDKWD-EF1943Dec-Apr1944.htm",
+      "note": "Detailed day-by-day passage chronology; transcription of Admiralty war diary."
+    },
+    {
+      "type": "official_archive_corroboration",
+      "title": "Royal Navy Historical Branch, Naval War Diary January 1944",
+      "url": "https://sccd.royalnavy.mod.uk/-/media/rnweb/locations-and-operations/navy-historical-branch/pdfs/1944/war_diary_naval_1944_01.pdf",
+      "note": "Official diary index/January station planning; used as corroboration, not required for Branch realization."
+    },
+    {
+      "type": "internal_branch",
+      "path": "06_RUNTIME/EASTERN_FLEET_1944Q1_POTENTIAL_GATE_v001.md"
+    },
+    {
+      "type": "internal_branch",
+      "path": "06_RUNTIME/BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v003.md"
+    }
+  ],
+  "historical_group_center": [
+    "Renown",
+    "Queen Elizabeth",
+    "Valiant",
+    "Illustrious",
+    "Unicorn"
+  ],
+  "historical_events": [
+    {
+      "date": "1943-12-27",
+      "event": "Renown leaves Rosyth for Scapa after foreign-service preparation",
+      "evidence_strength": "HIGH",
+      "branch_gate": "preparation / departure precursor"
+    },
+    {
+      "date": "1943-12-30T17:30",
+      "event": "Renown, Queen Elizabeth and Valiant sail Scapa; carriers depart Clyde later same night",
+      "evidence_strength": "HIGH",
+      "branch_gate": "departure"
+    },
+    {
+      "date": "1943-12-31T10:30",
+      "event": "Heavy ships and carriers assemble west of Skerryvore and shape course south/west for Gibraltar",
+      "evidence_strength": "HIGH",
+      "branch_gate": "departure consolidated"
+    },
+    {
+      "date": "1944-01-05T21:30",
+      "event": "Battleship group arrives Gibraltar and fuels under secrecy precautions",
+      "evidence_strength": "HIGH",
+      "branch_gate": "Gibraltar / Mediterranean transit",
+      "intelligence_note": "Night passage and precautions reduce neutral visual reporting reliability; do not auto-promote Japanese confidence."
+    },
+    {
+      "date": "1944-01-06T03:00",
+      "event": "Carrier group passes Europa Point; battleship group sails Gibraltar 04:15 and reunites east of the Strait",
+      "evidence_strength": "HIGH",
+      "branch_gate": "Mediterranean transit"
+    },
+    {
+      "date": "1944-01-10T17:30~",
+      "event": "War diary records Group A and nearby convoy probably sighted by enemy aircraft",
+      "evidence_strength": "MEDIUM_HIGH",
+      "branch_gate": "possible Axis visual indication"
+    },
+    {
+      "date": "1944-01-11T16:40",
+      "event": "War diary records German aircraft sighting of the force",
+      "evidence_strength": "HIGH",
+      "branch_gate": "strong Axis visual confirmation",
+      "intelligence_note": "This is the first source-grounded robust external visual gate. Whether/when the report reaches Japanese decision channels remains a Branch event."
+    },
+    {
+      "date": "1944-01-12",
+      "event": "Group A off Port Said; Canal transit begins",
+      "evidence_strength": "HIGH",
+      "branch_gate": "Port Said / Suez confirmation"
+    },
+    {
+      "date": "1944-01-13",
+      "event": "Renown and carriers in Suez Bay; Queen Elizabeth and Valiant join",
+      "evidence_strength": "HIGH",
+      "branch_gate": "Suez confirmation"
+    },
+    {
+      "date": "1944-01-16",
+      "event": "Force departs Suez eastbound through Red Sea",
+      "evidence_strength": "HIGH",
+      "branch_gate": "Red Sea eastbound"
+    },
+    {
+      "date": "1944-01-19_to_1944-01-21",
+      "event": "Aden fueling in two heavy-ship groups because of harbour/tide limits",
+      "evidence_strength": "HIGH",
+      "branch_gate": "Aden confirmation"
+    },
+    {
+      "date": "1944-01-27",
+      "event": "Renown reaches Colombo; long-range Ceylon aircraft have already contacted/shadowed the force",
+      "evidence_strength": "HIGH",
+      "branch_gate": "Ceylon arrival"
+    },
+    {
+      "date": "1944-01-28",
+      "event": "Queen Elizabeth, Valiant and Illustrious reach Trincomalee; Group A passage complete",
+      "evidence_strength": "HIGH",
+      "branch_gate": "Ceylon arrival complete"
+    },
+    {
+      "date": "1944-01-28_to_1944-02-11",
+      "event": "Queen Elizabeth and Valiant undertake deferred boiler cleaning/normal defect repair; Renown follows after early-Feb arrival Trincomalee",
+      "evidence_strength": "HIGH",
+      "branch_gate": "post-arrival readiness gate",
+      "intelligence_note": "Arrival is not identical to immediate battle-ready eastbound sortie."
+    },
+    {
+      "date": "1944-02-14_planned",
+      "event": "First Battle Squadron intended to resume squadron training at sea",
+      "evidence_strength": "HIGH",
+      "branch_gate": "earliest historical post-cleaning training marker"
+    }
+  ],
+  "working_detection_interpretation": {
+    "pre_1944-01-10": "Growing but non-decisive indicators only. Gibraltar secrecy measures explicitly prevent treating port passage as automatic Japanese high confidence.",
+    "1944-01-10": "Possible enemy-air sighting raises confidence but report identity and dissemination remain uncertain.",
+    "1944-01-11": "German visual sighting is sufficient source evidence for a HIGH-confidence eastbound assessment if the report is delivered to Japanese operational intelligence in a useful time window.",
+    "after_1944-01-12": "Port Said/Suez/Aden stages progressively remove ambiguity, but later confirmation may arrive too late to maximize a 6-8 day Truk release clock."
+  },
+  "working_release_policy": {
+    "initial_surface_group": "Oyodo + Teruzuki + Takanami + Makinami + Kiyonami",
+    "decision_rule": "Do not issue a realized GO from historical hindsight alone. First adjudicate Axis-to-Japan report delivery. Timely receipt of the 11 Jan German visual report is sufficient to cross the working HIGH-confidence release threshold unless a new Pacific emergency blocks release.",
+    "movement_clock": "6-8 days center from Truk mobile pool to Singapore/Lingga via Palau and Balikpapan/Tarakan fuel gate",
+    "second_gate": "Do not infer immediate RN eastbound combat sortie from Ceylon arrival; branch must separately adjudicate repair/training/readiness and any actual sortie."
+  },
+  "branch_realization": {
+    "Axis_report_delivery_to_Japan_realized_working": true,
+    "Japanese_receipt_center": "1944-01-12 JST",
+    "first_Truk_surface_release_order_realized_working": true,
+    "first_Truk_surface_release_issue_window": "1944-01-12 night to 1944-01-13 early JST",
+    "I_27_I_37_activation_realized_working": true,
+    "authority_promotion": false,
+    "RN_future_Suez_Aden_Ceylon_events": "historical trace baseline only until their clocks are reached; do not instantiate early",
+    "RN_Ceylon_eastbound_combat_sortie_realized": false
+  },
+  "next_gate": "Run Jan13-20 parallel movement/detection clock. RN Group A continues from Suez toward Aden on historical trace unless a Branch event interrupts; Japanese surface release departs Truk on its own clock. Update Allied inference from observables rather than hindsight.",
+  "discussion_clock_center": "1944-01-13",
+  "new_OOB_reference": "06_RUNTIME/EASTERN_FLEET_MEDIUM_LIGHT_OOB_1944-01_WORKING_v001.json"
+}

@@ -1,0 +1,21 @@
+{
+  "revision": "v002",
+  "id": "PARALLEL_THEATER_STATE_1944-03-31T24_WORKING_v002",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_CURRENT_OVERLAY",
+  "supersedes": [
+    "PARALLEL_THEATER_STATE_1944-03-31T24_WORKING_v001"
+  ],
+  "as_of": "1944-03-31T24:00:00+09:00",
+  "global_frontier": "1944-03-31T24",
+  "Pacific": {
+    "Japan_ISR": "Mature for theater warning, cueing and dispersal at priority sectors; still materially weaker at long-range continuous recontact and weapon-quality mobile-carrier targeting.",
+    "Palau": "US DESECRATE I strikes on 30-31 Mar temporarily reduce base output to 40-50%. Japanese aircraft irrecoverable/abandoned 60-75, US irrecoverable 28-36. No Japanese main warship loss; high-value mobile logistics exposure reduced by pre-dispersal.",
+    "Japan_carrier_core": "Shokaku/Zuikaku/Hiryu/Soryu 260-286 integrated ready class; 158-190 synchronized one-cycle package. No Palau intervention.",
+    "Taiho": "B-/B centered, 48-60 mission-ready; southward integration underway/completed to southern training axis, but five-deck synchronized strike gate remains future.",
+    "Combined_Fleet_command": "Yamamoto remains Combined Fleet C-in-C. The historical Koga command, 31-Mar Koga death, Fukudome Z-plan capture chain and Toyoda succession are inapplicable. Yamamoto's exact HQ location on 27-31 Mar remains to be branch-adjudicated rather than inferred from Koga history.",
+    "Musashi": "No historical Palau-exit/Tunny torpedo event in this Branch because the heavy reserve is already on the southern axis.",
+    "US_fast_carrier_action": "DESECRATE I achieves temporary base neutralization and aviation attrition but does not force the Japanese mobile fleet into battle."
+  },
+  "Indian_Ocean_Bengal": "BACKGROUND_FREEZE remains active: mutual fleet preservation and no new ground-offensive gate.",
+  "next_active_question": "Advance into April with Pacific priority under Yamamoto's continuing command. Resolve Taiho five-deck integration, exact Combined Fleet HQ posture if operationally relevant, and the US follow-on axis without importing Koga/Toyoda historical succession."
+}

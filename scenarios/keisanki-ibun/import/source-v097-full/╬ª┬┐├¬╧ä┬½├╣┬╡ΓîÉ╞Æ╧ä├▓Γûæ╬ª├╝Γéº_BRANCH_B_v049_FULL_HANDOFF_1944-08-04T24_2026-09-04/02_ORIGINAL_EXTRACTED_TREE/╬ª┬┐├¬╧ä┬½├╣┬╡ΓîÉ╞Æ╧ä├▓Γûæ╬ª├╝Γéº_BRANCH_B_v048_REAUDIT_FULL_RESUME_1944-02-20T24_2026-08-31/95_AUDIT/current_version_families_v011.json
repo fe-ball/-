@@ -1,0 +1,54 @@
+{
+  "revision": "v011",
+  "purpose": "v022 current-version registry after closing the 1943 spring rollback through 1943-09-30 and opening October synchronized advance.",
+  "families": [
+    {
+      "family": "README_refactor_vX.md",
+      "current": "README_refactor_v022.md"
+    },
+    {
+      "family": "NEXT_SESSION_HANDOFF_REFACTOR_vX.md",
+      "current": "NEXT_SESSION_HANDOFF_REFACTOR_v022.md"
+    },
+    {
+      "family": "current_branch_overrides_vX.json",
+      "current": "current_branch_overrides_v006.json"
+    },
+    {
+      "family": "CURRENT_BRANCH_STATE_vX.json",
+      "current": "CURRENT_BRANCH_STATE_v004.json"
+    },
+    {
+      "family": "CHECKPOINT_INDEX_vX.json",
+      "current": "CHECKPOINT_INDEX_v010.json"
+    },
+    {
+      "family": "CHECKPOINT_GRAPH_vX.json",
+      "current": "CHECKPOINT_GRAPH_v009.json"
+    },
+    {
+      "family": "TECH_INDEX_vX.json",
+      "current": "TECH_INDEX_v006.json"
+    },
+    {
+      "family": "DOMAIN_STATE_MAP_vX.json",
+      "current": "DOMAIN_STATE_MAP_v002.json"
+    },
+    {
+      "family": "rule_override_protocol_vX.json",
+      "current": "rule_override_protocol_v002.json"
+    },
+    {
+      "family": "RULE_DEPENDENCY_MAP_vX.json",
+      "current": "RULE_DEPENDENCY_MAP_v002.json"
+    },
+    {
+      "family": "EVENT_RELEVANCE_PROFILES_vX.json",
+      "current": "EVENT_RELEVANCE_PROFILES_v003.json"
+    },
+    {
+      "family": "RUNTIME_CONTRACT_vX.json",
+      "current": "RUNTIME_CONTRACT_v004.json"
+    }
+  ]
+}

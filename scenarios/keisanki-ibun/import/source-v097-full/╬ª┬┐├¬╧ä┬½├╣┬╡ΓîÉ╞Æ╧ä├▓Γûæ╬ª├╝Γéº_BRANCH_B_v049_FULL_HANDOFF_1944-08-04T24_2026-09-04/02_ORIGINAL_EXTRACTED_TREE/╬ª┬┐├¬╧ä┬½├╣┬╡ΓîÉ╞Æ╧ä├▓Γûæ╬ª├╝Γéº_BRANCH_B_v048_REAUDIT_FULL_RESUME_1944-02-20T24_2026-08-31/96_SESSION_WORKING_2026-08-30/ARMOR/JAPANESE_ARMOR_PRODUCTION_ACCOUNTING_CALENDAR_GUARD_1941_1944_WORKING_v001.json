@@ -1,0 +1,40 @@
+{
+  "revision": "v001",
+  "id": "JAPANESE_ARMOR_PRODUCTION_ACCOUNTING_CALENDAR_GUARD_1941_1944_WORKING_v001",
+  "status": "WORKING_MANDATORY_ACCOUNTING_GUARD_NOT_CURRENT",
+  "finding": "Japanese armor production sources mix calendar year, Japanese fiscal year (Apr-Mar), factory acceptance, repair, retrofit, and all-factory national output. Annual figures cannot be placed directly on dated events without classification.",
+  "primary_anchor": {
+    "JACAR_ref": "C15011257500",
+    "description": "Sagami Army Arsenal production sheet explicitly labels Fiscal Year and months Apr..Mar, and contains separate production/repair/value classes.",
+    "implication": "At least one major postwar source series is fiscal-year accounting, not calendar-year output."
+  },
+  "examples_of_material_conflict": {
+    "ChiHe": {
+      "annual_secondary_table": "15 often listed under 1943",
+      "monthly_Japanese_series": "5 in Feb 1944 + 10 in Mar 1944 = 15 in FY1943",
+      "decision": "Do not place 15 Chi-He in calendar 1943 without an independent dated factory source."
+    },
+    "Type97": {
+      "Zaloga_like_series_1941_57mm": 507,
+      "postwar_report_all_Type97_1941": 687,
+      "Sagami_acceptance_series_1941": 448,
+      "decision": "Retain separate series; do not average."
+    },
+    "KeNi": {
+      "warning": "The commonly repeated 1943 total may include repairs or fiscal-year effects in some source chains. New-build and repair must be separated."
+    }
+  },
+  "mandatory_fields_for_each_future_number": [
+    "accounting basis: calendar / fiscal / unknown",
+    "new build / retrofit / repair / acceptance",
+    "factory coverage: one arsenal / named manufacturers / national",
+    "physical hull vs weapon/turret installation",
+    "mechanically complete vs accepted/serviceable",
+    "unit issue and shipping date"
+  ],
+  "promotion_rule": "No monthly or dated production ledger is promoted from an annual total alone. If only an annual/fiscal total exists, use a marked reconstruction band and preserve the source-basis uncertainty.",
+  "impact_on_previous_working": {
+    "1935_1941_opening_ledger": "Remains a useful scaffold but its 1941 monthly new-build curve is NOT authoritative. Opening 7-Dec physical/accepted Shinhoto estimate is retained as an engineering working band because it is tied to the separate 68-hull conversion order, not merely to the annual 507 figure.",
+    "1942_v001": "Superseded for dated production by v002. The 525 new-Shinhoto point estimate was too confident before fiscal/calendar reconciliation."
+  }
+}

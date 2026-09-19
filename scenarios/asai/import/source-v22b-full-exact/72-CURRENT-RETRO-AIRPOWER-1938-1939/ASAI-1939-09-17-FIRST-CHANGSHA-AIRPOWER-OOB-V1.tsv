@@ -1,0 +1,6 @@
+layer	type	assigned	extant_working	ready_working	old_branch_regular_fleet	status	notes
+Central China Army	E5 Twin	30	29-30	23-25	~0	CLOSED	Existing before ceasefire; mature common-airframe operational fleet
+Central China Army	Ki-42	20	19-20	15-17	0	CLOSED	Existing before ceasefire; specialist high-speed/high-cover fighter
+Navy East/Central China	E5 Twin	12	11-12	9-10	~0	CLOSED	Not automatically under 11th Army control
+Post-ceasefire reallocation to Central China	E5 Twin	+6	not arrived 17 Sep	0	+0 at opening	FUTURE_DATED	First arrivals ~24-27 Sep
+Post-ceasefire reallocation to Central China	Ki-42	+4	not arrived 17 Sep	0	+0 at opening	FUTURE_DATED	First arrivals ~24-30 Sep

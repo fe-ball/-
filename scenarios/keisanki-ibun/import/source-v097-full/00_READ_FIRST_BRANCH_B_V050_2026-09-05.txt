@@ -1,0 +1,13 @@
+BRANCH B v050 FULL HANDOFF — READ FIRST (2026-09-05)
+
+This ZIP is the complete v049 full handoff copied byte-for-byte, plus a v050 addendum.
+The inherited v049 internal tree is intentionally preserved unchanged to avoid path/filename damage.
+
+START WITH:
+  V050_ADDENDUM_2026-09-05/00_HANDOFF/BRANCH_B_V050_START_HERE_2026-09-05.md
+then:
+  V050_ADDENDUM_2026-09-05/00_HANDOFF/BRANCH_B_V050_AUTHORITY_SUPERSESSION_MAP_2026-09-05.md
+  V050_ADDENDUM_2026-09-05/00_HANDOFF/BRANCH_B_V050_NEXT_CHAT_PRIORITY_NC_ALLIED_BUILDUP_2026-09-05.md
+
+Canonical frontier remains 1944-08-04T24:00.
+v050 is a retroactive 1942H2 Santo→New Caledonia causal re-audit, not a clock advance.

@@ -1,0 +1,184 @@
+{
+  "id": "BRANCH_B_CATCHPOLE_ENGEBI_DUSK_NIGHT_1944-02-22T0930_v001",
+  "status": "WORKING_CURRENT_CATCHPOLE_LOCAL",
+  "checkpoint": "1944-02-22T09:30 local operational clock",
+  "supersedes_post_1230_line": true,
+  "sunset_gate": {
+    "opens": true,
+    "organized_resistance_break_band": [
+      "1944-02-21T18:05",
+      "1944-02-21T19:05"
+    ],
+    "center": "1944-02-21T18:35",
+    "note": "Exact astronomical-to-operational-clock mapping is not hard-coded; centerline crosses darkness by roughly 10-35 minutes."
+  },
+  "phase_1230_1430": {
+    "us_casualties": [
+      45,
+      65
+    ],
+    "japanese_removed_from_coherent_combat": [
+      120,
+      170
+    ],
+    "japanese_coherent_fighters_1430": [
+      180,
+      260
+    ],
+    "third_type95_center": "brief short-range engagement then destroyed/abandoned",
+    "m4_irrecoverable": 0,
+    "m4_repairable_mobility_damage": [
+      0,
+      1
+    ]
+  },
+  "phase_1430_1630": {
+    "us_casualties": [
+      35,
+      55
+    ],
+    "japanese_removed_from_coherent_combat": [
+      100,
+      150
+    ],
+    "japanese_coherent_fighters_1630": [
+      80,
+      140
+    ],
+    "coordinated_mortar_network": "ends by roughly 16:00-16:30"
+  },
+  "phase_1630_sunset": {
+    "us_casualties": [
+      25,
+      40
+    ],
+    "japanese_removed_from_coherent_combat": [
+      60,
+      100
+    ],
+    "armed_fighters_at_sunset": [
+      55,
+      90
+    ],
+    "additional_scattered_wounded_support": [
+      40,
+      70
+    ]
+  },
+  "night_action": {
+    "japanese_packets": [
+      3,
+      5
+    ],
+    "total_participants": [
+      55,
+      90
+    ],
+    "largest_packet": [
+      20,
+      35
+    ],
+    "penetration_m": [
+      30,
+      80
+    ],
+    "local_disruption_minutes": [
+      10,
+      30
+    ],
+    "us_casualties": [
+      22,
+      38
+    ],
+    "us_killed_missing": [
+      7,
+      12
+    ],
+    "japanese_irrecoverable": [
+      45,
+      75
+    ],
+    "japanese_captured": [
+      5,
+      12
+    ],
+    "major_us_node_overrun": false,
+    "m4_irrecoverable": 0,
+    "light_vehicle_repairable_damage": [
+      0,
+      1
+    ]
+  },
+  "sea_escape_gate": {
+    "opens": true,
+    "organized_extraction": false,
+    "attempting_persons_total": [
+      4,
+      12
+    ],
+    "temporary_success_to_nearby_islet": [
+      0,
+      2
+    ],
+    "surviving_external_combat_node": 0
+  },
+  "dawn_22feb": {
+    "armed_holdouts_first_light": [
+      20,
+      35
+    ],
+    "other_wounded_scattered_survivors": [
+      25,
+      45
+    ],
+    "meaningful_armed_mopup_end_band": [
+      "1944-02-22T08:30",
+      "1944-02-22T09:30"
+    ],
+    "us_casualties": [
+      5,
+      12
+    ],
+    "japanese_killed": [
+      15,
+      30
+    ],
+    "japanese_captured": [
+      8,
+      18
+    ]
+  },
+  "cumulative": {
+    "us_total_combat_casualties": [
+      250,
+      385
+    ],
+    "us_center": 315,
+    "us_killed_missing": [
+      57,
+      90
+    ],
+    "japanese_killed_irrecoverable": [
+      1190,
+      1270
+    ],
+    "japanese_prisoners": [
+      25,
+      40
+    ],
+    "japanese_organized_combat_units_surviving": 0,
+    "japanese_external_combat_node_surviving": 0
+  },
+  "operational_consequences": {
+    "3_22_and_tank_engineer_wallet": "tied to Engebi overnight; not fully fresh early 22 Feb",
+    "marine_battalions": "material fatigue/reorganization requirement",
+    "intel_clock": "important documents/prisoners continue arriving into night/early 22 Feb",
+    "next_assault": "22 Feb remains possible but target/order/H-hour must be re-adjudicated from actual intelligence and ready units"
+  },
+  "next_frontier": [
+    "captured document/prisoner intelligence timing and content",
+    "Eniwetok Island vs Parry target assessment",
+    "22 Feb US ready-unit/amtrac/tank wallet",
+    "next assault order and H-hour"
+  ]
+}

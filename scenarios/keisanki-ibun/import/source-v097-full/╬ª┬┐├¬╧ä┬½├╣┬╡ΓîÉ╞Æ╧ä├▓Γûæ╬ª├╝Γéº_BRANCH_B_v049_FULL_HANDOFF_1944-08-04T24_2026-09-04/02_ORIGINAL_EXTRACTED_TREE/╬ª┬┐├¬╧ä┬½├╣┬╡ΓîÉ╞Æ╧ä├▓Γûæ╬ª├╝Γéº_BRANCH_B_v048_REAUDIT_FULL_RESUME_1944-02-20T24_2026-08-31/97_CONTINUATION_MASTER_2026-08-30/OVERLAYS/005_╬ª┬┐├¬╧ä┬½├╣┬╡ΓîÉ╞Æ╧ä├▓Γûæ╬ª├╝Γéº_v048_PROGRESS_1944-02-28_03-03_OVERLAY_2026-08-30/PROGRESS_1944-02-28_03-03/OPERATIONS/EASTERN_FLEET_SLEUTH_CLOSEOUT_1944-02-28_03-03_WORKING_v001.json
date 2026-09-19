@@ -1,0 +1,47 @@
+{
+  "revision": "v001",
+  "id": "EASTERN_FLEET_SLEUTH_CLOSEOUT_1944-02-28_03-03_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-02-28..03-03",
+  "global_frontier_after_event": "1944-03-03T24",
+  "parents": [
+    "EASTERN_FLEET_SLEUTH_ADJUDICATION_1944-02-23_27_WORKING_v001"
+  ],
+  "chronology": [
+    {
+      "date": "1944-02-28",
+      "RN": "Sussex joins Illustrious/Gambia in the afternoon. Gambia then detaches for Fremantle. Nizam and Quality depart Trincomalee to reinforce the returning carrier screen.",
+      "Japan": "No weapon-quality cue. 705 discretionary long-range search is already constrained by redeployment preparation.",
+      "result": "NO_CONTACT_NO_STRIKE"
+    },
+    {
+      "date": "1944-03-01",
+      "RN": "Nizam and Quality join Illustrious around 1500FG while the carrier returns toward Ceylon. Separately, Renown/Queen Elizabeth/Ceylon put to sea for exercises but return after a reported submarine periscope in the practice area.",
+      "Japan": "No surface or air force receives a correlated Illustrious track.",
+      "result": "SLEUTH_RETURN_CONTINUES"
+    },
+    {
+      "date": "1944-03-02",
+      "RN": "Gambia reaches Fremantle. Available fleet destroyers conduct a submarine hunt southwest of Ceylon after the previous warning.",
+      "submarine_identity": "I-162 is geographically plausible as one candidate while outbound toward the Maldive/77E route, but identification is NOT established and no Branch weapon contact is credited.",
+      "result": "ASW_SCARE_OPERATIONAL_EFFECT_ONLY"
+    },
+    {
+      "date": "1944-03-03",
+      "RN": "Illustrious returns to Trincomalee with Napier, Nizam, Quality and Quickmatch in the arriving screen. Sussex does not accompany her into Trincomalee and continues on its separate return toward Fremantle.",
+      "result": "SLEUTH_CLOSED_NO_ENEMY_SHIP_FOUND"
+    }
+  ],
+  "outcome": {
+    "blockade_runner_found": "NO",
+    "Japanese_contact_on_Illustrious": "NO",
+    "Japanese_air_attack": "NO",
+    "Japanese_surface_interception": "NO",
+    "RN_carrier_loss_or_damage": "NONE",
+    "operational_value": "search mission fails to find target but provides carrier/ASW/work-up sea time and demonstrates continuing destroyer scarcity around the battle squadron"
+  },
+  "sources_external": [
+    "https://uboat.net/allies/warships/ship/3258.html",
+    "https://www.naval-history.net/xDKWD-EF1943Dec-Apr1944.htm"
+  ]
+}

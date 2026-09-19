@@ -1,0 +1,25 @@
+{
+  "package_version": "V11",
+  "created": "2026-09-08",
+  "combat_clock_advanced": false,
+  "new_current_dir": "78-CURRENT-2026-09-08-AIRCRAFT-DEVELOPMENT-CLOSE",
+  "hard_quarantine_dir": "91-PROVENANCE-QUARANTINED-AIRCRAFT-RESEARCH-V11",
+  "quarantined_aircraft_source_count": 11,
+  "checks": {
+    "v10_tree_preserved_except_moving_start_pointer": true,
+    "previous_start_pointer_preserved_as_versioned_file": true,
+    "hard_quarantine_readme_present": true,
+    "designation_gate_ledger_present": true,
+    "aircraft_master_present": true,
+    "industrial_closeout_present": true
+  },
+  "manifest_exclusions": [
+    "FULL-PACKAGE-MANIFEST-SHA256-V11.tsv",
+    "SHA256SUMS-V11.txt"
+  ],
+  "status": "PASS",
+  "file_count_total": 858,
+  "manifest_entry_count": 856,
+  "manifest_missing_count": 0,
+  "manifest_mismatch_count": 0
+}

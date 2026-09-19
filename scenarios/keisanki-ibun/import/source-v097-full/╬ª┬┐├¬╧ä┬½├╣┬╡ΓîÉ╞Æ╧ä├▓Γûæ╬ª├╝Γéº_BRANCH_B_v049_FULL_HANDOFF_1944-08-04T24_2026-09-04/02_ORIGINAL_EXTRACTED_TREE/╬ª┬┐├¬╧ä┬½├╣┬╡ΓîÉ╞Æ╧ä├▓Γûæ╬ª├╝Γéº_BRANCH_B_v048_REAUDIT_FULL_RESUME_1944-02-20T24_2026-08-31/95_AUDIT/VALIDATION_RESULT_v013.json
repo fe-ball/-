@@ -1,0 +1,15 @@
+{
+  "revision": "v013",
+  "date": "2026-08-24",
+  "result": "PASS",
+  "checks": {
+    "required_entrypoints_present": true,
+    "missing_entrypoints": [],
+    "all_json_parse": true,
+    "json_error_count": 0,
+    "file_count": 433,
+    "current_frontier_explicitly_rollback_marked": true,
+    "v012_later_state_retained_not_deleted": true
+  },
+  "note": "This is a package-integrity/session-state validation, not a full replay of every historical adjudication."
+}

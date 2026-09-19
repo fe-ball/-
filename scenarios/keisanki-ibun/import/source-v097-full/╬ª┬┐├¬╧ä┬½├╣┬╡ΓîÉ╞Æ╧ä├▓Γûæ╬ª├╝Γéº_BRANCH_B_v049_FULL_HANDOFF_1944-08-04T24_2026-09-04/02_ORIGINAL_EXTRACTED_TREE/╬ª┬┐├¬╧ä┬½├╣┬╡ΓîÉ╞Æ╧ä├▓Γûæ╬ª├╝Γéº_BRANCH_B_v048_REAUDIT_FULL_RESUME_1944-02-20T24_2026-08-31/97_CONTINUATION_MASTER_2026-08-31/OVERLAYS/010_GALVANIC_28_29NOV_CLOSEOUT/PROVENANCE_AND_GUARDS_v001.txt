@@ -1,0 +1,10 @@
+GALVANIC 28-29 NOV 1943 WORKING RERUN — PROVENANCE / GUARDS
+
+Semantic base: Branch B v048 canonical package plus current pre-GALVANIC fortification/airbase-hardening/secondary-carrier chain and integrated 24-27 Nov reruns.
+
+Do not restore old v004 outcomes merely because the final Tarawa secure date remains near 29 Nov.
+Old named Franks/Pierce results remain reopened.
+No automatic Liscome Bay loss.
+No automatic 4-Dec historical mass Marshall raid.
+No post-GALVANIC Japanese defense doctrine is retrojected into Tarawa.
+US adapts to observed resistance but is neither blind nor omniscient.

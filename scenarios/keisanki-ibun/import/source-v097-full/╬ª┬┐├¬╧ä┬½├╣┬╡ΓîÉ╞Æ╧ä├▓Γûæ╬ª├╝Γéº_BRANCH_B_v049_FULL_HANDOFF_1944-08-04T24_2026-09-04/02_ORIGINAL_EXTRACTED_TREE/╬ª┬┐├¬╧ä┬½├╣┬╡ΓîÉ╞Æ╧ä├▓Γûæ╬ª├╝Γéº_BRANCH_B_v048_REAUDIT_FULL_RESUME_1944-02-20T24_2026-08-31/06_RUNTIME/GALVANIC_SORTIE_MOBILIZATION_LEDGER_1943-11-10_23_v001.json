@@ -1,0 +1,227 @@
+{
+  "revision": "v001",
+  "id": "GALVANIC_SORTIE_MOBILIZATION_LEDGER_1943-11-10_23_v001",
+  "status": "CURRENT_WORKING_REAUDIT_LEDGER",
+  "scope": "Operation GALVANIC pre-tactical mobilization, departure, intelligence signature, readiness/fatigue carry-forward and all-carrier-class visibility before the 1943-11-23 tactical checkpoint.",
+  "window": {
+    "start_band": "1943-11-08..1943-11-10 for slow/assault echelons and initial large-operation signature; fast/CVE carrier departures and rendezvous are staggered through roughly 1943-11-10..16",
+    "first_tactical_checkpoint": "1943-11-23T00:00:00",
+    "old_branch_D_day": "1943-11-24 planning/comparison datum only; reopened if the reconstructed prelude changes the operation qualitatively",
+    "rule": "Do not materialize fleets at 11/23. Transit, AO rendezvous, CAP/ASW, search, training, maintenance, alert and crew fatigue accrued during this window are paid."
+  },
+  "evidence_classes": {
+    "HARD_BRANCH": "Current Branch-B checkpoint/ledger or settled pre-reopen fact.",
+    "HISTORICAL_FALLBACK": "Historical date/formation used only where Branch-B has no contrary causal chain.",
+    "CENTERED_REAUDIT": "Most-likely working line derived from Branch facts; can move when individual-hull or local-unit trace closes.",
+    "SENSITIVITY": "Plausible alternate branch, not centered.",
+    "UNRESOLVED": "Must be closed before the affected combat event."
+  },
+  "qualitative_deltas_already_found": [
+    {
+      "item": "Junyo 1943-11-05 damage",
+      "status": "CENTERED_REAUDIT",
+      "result": "Do not inherit the historical torpedo hit. Historical HALIBUT interception was Ultra-cued; Branch B explicitly denies US historical high-grade short-strategic Japanese traffic reconstruction. Centered Junyo reaches the pre-GALVANIC reserve undamaged by that event; uncued submarine encounter remains sensitivity.",
+      "effect": "One secondary/medium carrier hull and its deck cycle are materially more available than a naive historical carry-forward would imply."
+    },
+    {
+      "item": "Marshall air stripping for Operation RO",
+      "status": "CENTERED_REAUDIT",
+      "result": "Do not inherit the historical 12 Nov stripping of 27 Marshall aircraft for Operation RO as an automatic event. Branch South-Pacific geography/campaign chain is different and the historical Rabaul emergency is not a current Branch-B realized dependency.",
+      "effect": "Marshall/Gilbert air defense and night-attack wallet is materially larger than historical Galvanic unless a separate Branch transfer ledger proves an equivalent draw."
+    },
+    {
+      "item": "Bunker Hill pre-GALVANIC wear and staging",
+      "status": "CENTERED_REAUDIT",
+      "result": "Do not copy historical Espiritu Santo/Rabaul sequence because Espiritu Santo is Japanese-held in Branch B. Bunker Hill remains date-valid, but stages through surviving US nodes; she avoids historical Rabaul combat wear while paying different transit/rendezvous costs.",
+      "effect": "Lower acute combat fatigue but different logistics/timing; not a free readiness bonus."
+    },
+    {
+      "item": "Japanese secondary-carrier Bengal allocation",
+      "status": "CENTERED_REAUDIT",
+      "result": "Bengal hull commitment centered 0. Secondary carriers remain a two-ocean mobile reserve, then shift Pacific-priority as the US amphibious operation becomes apparent.",
+      "effect": "No Bengal-campaign fatigue/deck attrition is charged; routine ferry/patrol/training and subsequent Pacific transit are charged."
+    }
+  ],
+  "united_states": {
+    "fast_carrier_pool_11_23": {
+      "status": "CENTERED_REAUDIT",
+      "large_CV": [
+        "Wasp (CV-7)",
+        "Essex (CV-9)",
+        "Yorktown (CV-10)",
+        "Lexington (CV-16)",
+        "Bunker Hill (CV-17)"
+      ],
+      "CVL": [
+        "Independence (CVL-22)",
+        "Princeton (CVL-23)",
+        "Belleau Wood (CVL-24)",
+        "Cowpens (CVL-25)",
+        "Monterey (CVL-26)"
+      ],
+      "excluded_by_date_or_branch": [
+        "Lexington CV-2",
+        "Yorktown CV-5",
+        "Enterprise CV-6",
+        "Hornet CV-8",
+        "Saratoga CV-3",
+        "Intrepid CV-11",
+        "Cabot CVL-28"
+      ],
+      "ready_aircraft_working_band": "about 540-590 across the ten fast decks before event-specific CAP/search/recovery reservations; exact squadron roster remains to close",
+      "fatigue_11_23": "LOW_TO_MODERATE overall. September Midway and October Wake experience is paid; roughly a month of replenishment/training reduces acute fatigue. Bunker Hill has less branch combat wear than historical but also less immediate Rabaul combat seasoning.",
+      "rule": "CVL output is not interchangeable with Essex-class output. Preserve deck-cycle, range, recovery, CAP/search burden and mission class."
+    },
+    "escort_carrier_pool": {
+      "status": "HISTORICAL_FALLBACK_PENDING_BRANCH_DAMAGE_TRACE",
+      "CVE": [
+        "Barnes",
+        "Chenango",
+        "Coral Sea",
+        "Corregidor",
+        "Liscome Bay",
+        "Nassau",
+        "Sangamon",
+        "Suwanee"
+      ],
+      "working_ready_aircraft_band": "about 185-215 total across the eight CVEs; exact VC squadron readiness is separate from fast-carrier strike power",
+      "primary_roles": [
+        "assault-force CAP",
+        "ASW",
+        "close air support",
+        "gunfire spotting",
+        "local reconnaissance"
+      ],
+      "fatigue_11_23": "MODERATE workup/transit burden; generally less fleet-carrier experience and narrower deck margin than TF fast decks.",
+      "rule": "Do not treat Liscome Bay as an isolated scripted target. The eight-CVE system is a separate assault-air wallet."
+    },
+    "routing_and_departure": {
+      "status": "CENTERED_REAUDIT",
+      "historical_anchor": "Several Galvanic carrier/CVE elements departed Pearl Harbor on 10 Nov; southern fast-carrier elements historically used Espiritu Santo and sortied around 15 Nov.",
+      "branch_change": "Espiritu Santo and New Caledonia are unavailable to the US. Use Hawaii/Johnston/Canton/Samoa/Funafuti/Efate and at-sea AO rendezvous as event-valid nodes; exact TG routing remains distributed to reduce Midway observability.",
+      "operational_effect": "Small-to-moderate extra scheduling/escort/AO burden, not enough by itself to cancel GALVANIC. It increases pre-departure signature management and makes one synchronized historical departure date inappropriate."
+    }
+  },
+  "japan": {
+    "first_line_carriers": {
+      "status": "HARD_BRANCH_PLUS_CENTERED_READINESS",
+      "ships": [
+        "Shokaku",
+        "Zuikaku",
+        "Hiryu",
+        "Soryu"
+      ],
+      "ready_aircraft_working_band": "about 270-290 across the four decks before mission-specific reservations",
+      "fatigue_11_23": "LOW. The core has been conserved as fleet-in-being; alert/search/training activity rises in mid-November but no Bengal charge is applied.",
+      "employment": "Do not auto-sortie to save Tarawa/Makin. Positive-EV contact freshness, US mission-state separation, fuel/escort and recovery geometry remain gates."
+    },
+    "secondary_carriers_mandatory_trace": {
+      "status": "CENTERED_REAUDIT",
+      "ships": {
+        "Junyo": {
+          "hull": "CENTERED AVAILABLE; historical 11/05 HALIBUT damage not inherited",
+          "role": "low-speed medium carrier; rear/mobile reserve, ferry/CAP/search/limited strike, can free first-line deck burden",
+          "fatigue": "LOW_TO_MODERATE depending on final eastward transit timing"
+        },
+        "Hiyo": {
+          "hull": "CENTERED AVAILABLE after prior repair/workup; no Bengal combat charge",
+          "role": "low-speed medium carrier; reserve/ferry/CAP/limited strike rather than first-line fast strike equivalence",
+          "fatigue": "LOW_TO_MODERATE"
+        },
+        "Ryujo": {
+          "hull": "CENTERED AVAILABLE; released from Aleutians after May intervention",
+          "role": "forward light deck for search/CAP/ferry/limited strike under suitable wind/load",
+          "fatigue": "LOW_TO_MODERATE; routine duty only before alert"
+        },
+        "Zuiho": {
+          "hull": "CENTERED AVAILABLE",
+          "role": "forward light deck for CAP/search/ferry/limited strike and deck-load sharing",
+          "fatigue": "LOW_TO_MODERATE"
+        }
+      },
+      "combined_ready_aircraft_working_band": "about 105-130 across Junyo/Hiyo/Ryujo/Zuiho if all are individually released for Pacific use; do not assume all four are in one task group or inside immediate strike radius on 11/23",
+      "centered_bengal_commitment_hulls": 0,
+      "posture": "two-ocean strategic reserve until RN eastern return fails to materialize; Pacific-priority once US amphibious threat is recognized; routine ferry/patrol/training followed by maintenance/rest."
+    },
+    "secondary_carriers_background_trace": {
+      "status": "UNRESOLVED_VISIBLE_NOT_COUNTED",
+      "ships": [
+        "Shoho",
+        "Ryuho"
+      ],
+      "rule": "Both are kept visible as date-valid/survival-path candidates, but contribute zero to the immediate combat wallet until individual location, air group and deck readiness are closed. Re-open in depth for the later Eastern Fleet return audit."
+    },
+    "marshall_gilbert_air_and_water_air": {
+      "status": "CENTERED_REAUDIT_WITH_LOCAL_ALLOCATION_UNRESOLVED",
+      "historical_operation_RO_guard": "Historical Galvanic had 27 aircraft stripped from the Marshalls on 12 Nov for Operation RO, leaving only 46; do not import that drain without a Branch-equivalent transfer event.",
+      "legacy_candidate_revalidated_structure": {
+        "land_fighters_capable_of_Gilberts_reaction": "roughly 80-95 physical-class across the Marshall network before suppression, with ready count lower/event-specific",
+        "attack_aircraft_land_or_carrier_type": "roughly 35-45 physical-class available across the network; night-qualified fraction is smaller",
+        "legacy_recon_flying_boat_floatplane_core": "roughly 15-20 physical-class before adding the new small Zuiun layer",
+        "Kyofu": "roughly 12-20 physical / 8-16 normally ready across priority Gilbert-Marshall lagoon nodes as a working allocation, not at every island",
+        "Zuiun": "roughly 5-9 physical / 4-7 ready across Marshall-side nodes by 11/23 as a working first-detachment allocation; high-utilization search/contact asset, not an independent strike unit"
+      },
+      "fatigue_11_23": "MODERATE in search/recon and selected alert units because activity rises during the US mobilization window; less operational depletion than historical Operation-RO-stripped force.",
+      "mission_system_rule": "Use broad search -> suspicious contact -> re-search -> fast confirmation -> track/handoff. Zuiun and D4Y improve contact freshness; Kyofu preserves a local air layer after runway suppression. Neither is a flat air-strength multiplier."
+    },
+    "night_surface_confidence": {
+      "status": "ACTIVE_CONDITIONAL",
+      "effect": "Selected trained cruiser/DD groups may be more willing and better prepared to attempt a one-pass Long-Lance ambush after passive ESM warning/bearing history.",
+      "limit": "This does not create confidence in a prolonged SG/CIC radar gun duel. US may still obtain the first weapon-quality track."
+    }
+  },
+  "mobilization_intelligence_sequence": [
+    {
+      "date_band": "1943-11-08..12",
+      "US": "Slow/assault echelons, oilers, escorts and carrier groups begin leaving/assembling in distributed fashion. Southern doglegs and at-sea rendezvous pay extra branch logistics cost.",
+      "Japan": "Traffic/DF/recon/submarine observation and missing-US-shipping indicators raise probability of a major operation, but target class remains broad. No high-grade US/Japanese magic decrypt is allowed."
+    },
+    {
+      "date_band": "1943-11-13..16",
+      "US": "Fast and escort carrier concentration becomes difficult to hide as an operation-scale signature; CAP/ASW/drills and refueling begin accumulating transit fatigue.",
+      "Japan": "Amphibious character becomes more likely than a pure carrier raid. Secondary carriers terminate nonessential routine tasks, perform maintenance/rest, and Pacific-priority movement begins where location permits. First-line core goes to higher readiness without automatic sortie."
+    },
+    {
+      "date_band": "1943-11-17..20",
+      "US": "Pre-assault suppression/recon geometry and fleet tracks increasingly point toward the Gilbert-Marshall axis, although exact landing objective need not be known instantly.",
+      "Japan": "Marshalls/Gilberts raise search/CAP/dispersion and submarine/light-surface readiness. The absence of a historical Operation-RO drain makes this alert more consequential and also raises Japanese pre-contact fuel/engine-hour/fatigue expenditure."
+    },
+    {
+      "date_band": "1943-11-21..23",
+      "US": "Assault force and carrier cover approach tactical operating areas; fast-deck strike power is split among suppression, fleet defense, search and support rather than one homogeneous carrier mass.",
+      "Japan": "Target inference tightens. Forward water aviation, submarines and light night forces enter the contact chain; carrier main body remains gated by contact freshness and US mission-state separation. 11/23 checkpoint is reached with paid alert fatigue rather than a fresh materialization."
+    }
+  ],
+  "first_contact_boundary": {
+    "state": "READY_FOR_NEXT_ADJUDICATION",
+    "next": "Resolve first Japanese external contact and the first light/night surface opportunity using the contact-quality ladder and the above paid prelude.",
+    "must_close_before_weapon_release": [
+      "exact local Marshall/Gilbert ready aircraft by base and type",
+      "submarine on-station hulls/patrol days",
+      "light surface group named hulls/readiness",
+      "US assault convoy screen/route geometry",
+      "weather/moon/visibility",
+      "ESM/radar actual-equipped units"
+    ]
+  },
+  "internal_sources": [
+    "05_WARTIME/CHECKPOINT_1943-11-23T00_BRANCH_B_GALVANIC_REAUDIT_v001.json",
+    "06_RUNTIME/CARRIER_CAPABILITY_LEDGER_1943-10-01_v001.json",
+    "06_RUNTIME/AIRCRAFT_FIELDING_LEDGER_1943-10-01_v001.json",
+    "06_RUNTIME/SEAPLANE_TACTICS_LEDGER_1943-10-01_v001.json",
+    "06_RUNTIME/PACIFIC_MIDWAY_CONTINUOUS_CAMPAIGN_REAUDIT_1943-07_10_v001.md",
+    "06_RUNTIME/ALEUTIANS_ATTU_KISKA_REAUDIT_1943-03_07_SETTLEMENT_v001.md",
+    "06_RUNTIME/BENGAL_ARAKAN_CHITTAGONG_1943-10_12_SETTLEMENT_v001.md",
+    "06_RUNTIME/INDIAN_OCEAN_BURMA_COASTAL_OPERATION_STUDY_1943-06_09_v001.md",
+    "06_RUNTIME/ELECTRONIC_WARFARE_OPERATIONAL_DERIVATIVES_1942-1944_v001.md",
+    "06_RUNTIME/SESSION_2026-08-27_GALVANIC_MANDATORY_FACTORS_MEMO_v001.md",
+    "99_LEGACY_UNTOUCHED/.../52_海軍航空機_艦攻・艦爆・陸攻・大艇.md (Zuiun fielding candidate only)",
+    "99_LEGACY_UNTOUCHED/.../53_海軍戦闘機・空冷発動機・噴進航空.md (Kyofu fielding candidate only)",
+    "99_LEGACY_UNTOUCHED/.../88_歴史考察_1943秋冬_第二次Midway・Wake・GALVANIC同期.md (local OOB candidate bands only; outcomes non-canon)"
+  ],
+  "historical_reference_notes": [
+    "NHHC Galvanic histories: Pearl departures around 10 Nov for several carrier/CVE elements; historical main fast-carrier and eight-CVE composition.",
+    "NHHC: historical Marshalls lost 27 aircraft to Operation RO on 12 Nov, leaving 46 in Gilberts/Marshalls; this drain is specifically guarded against automatic Branch inheritance.",
+    "CombinedFleet ship movement record: historical Junyo 5 Nov torpedo hit followed an Ultra-cued HALIBUT interception; Branch high-grade COMINT divergence changes this kill chain."
+  ]
+}

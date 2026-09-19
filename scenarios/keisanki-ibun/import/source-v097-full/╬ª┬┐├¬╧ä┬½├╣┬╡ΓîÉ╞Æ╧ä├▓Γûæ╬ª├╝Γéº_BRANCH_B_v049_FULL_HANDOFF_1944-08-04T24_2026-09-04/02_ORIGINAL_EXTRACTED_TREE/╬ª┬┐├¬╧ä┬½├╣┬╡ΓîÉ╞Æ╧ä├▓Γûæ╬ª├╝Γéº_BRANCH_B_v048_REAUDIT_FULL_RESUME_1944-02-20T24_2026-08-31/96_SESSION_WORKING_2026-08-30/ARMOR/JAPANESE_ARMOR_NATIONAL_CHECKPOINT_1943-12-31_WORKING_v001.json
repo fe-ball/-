@@ -1,0 +1,325 @@
+{
+  "revision": "v001",
+  "id": "JAPANESE_ARMOR_NATIONAL_CHECKPOINT_1943-12-31_WORKING_v001",
+  "status": "WORKING_BANDED_NATIONAL_CHECKPOINT_NOT_CURRENT",
+  "cutoff": "1943-12-31T24",
+  "parents": [
+    "JAPANESE_ARMOR_THEATER_PLACEMENT_1942-12-31_PARTIAL_WORKING_v002",
+    "JAPANESE_ARMOR_PRODUCTION_AND_ALLOCATION_1943_WORKING_v001",
+    "FIVEGO_1943_SYSTEMIC_ARMOR_ATTRITION_FIRST_PASS_WORKING_v001",
+    "SOUTH_PACIFIC_ARMOR_ALLOCATION_AND_NEW_CALEDONIA_REAUDIT_1942_WORKING_v001",
+    "BURMA_1942_SYSTEMIC_ARMOR_RETRO_AUDIT_WORKING_v001"
+  ],
+  "hard_losses_1943": {
+    "GALVANIC_Tarawa_Type95": 14,
+    "FiveGo_irrecoverable_center": 28,
+    "FiveGo_irrecoverable_band": [
+      20,
+      35
+    ],
+    "other_training_noncombat_and_small_theater_writeoff": "banded in family totals; not yet named hull-by-hull"
+  },
+  "1943_inflow_center": {
+    "Shinhoto_new_hulls": 400,
+    "HaGo_new_hulls": 220,
+    "KeNi_new_hulls": 12,
+    "ChiHe_pilot_pre_series": 6,
+    "HoNiII_new": 18,
+    "old_Type97_Shinhoto_retrofit": 70,
+    "note": "Retrofit does not add physical hulls."
+  },
+  "national_physical_by_family_working": {
+    "Type95_HaGo_and_KeNi": {
+      "physical_band": [
+        1940,
+        2150
+      ],
+      "combat_serviceable_band": [
+        1580,
+        1810
+      ]
+    },
+    "Type97_medium_family": {
+      "physical_band": [
+        1760,
+        1940
+      ],
+      "combat_serviceable_band": [
+        1460,
+        1660
+      ],
+      "model_mix_center": {
+        "Shinhoto_47mm": "about 1050-1200 physical",
+        "57mm_Type97": "about 700-820 physical"
+      }
+    },
+    "Type89_medium": {
+      "physical_band": [
+        135,
+        205
+      ],
+      "combat_serviceable_band": [
+        70,
+        125
+      ],
+      "trend": "rapidly moving to secondary/training/static use except selected garrisons"
+    },
+    "Type94_and_Type97_tankettes": {
+      "physical_band": [
+        720,
+        930
+      ],
+      "combat_serviceable_band": [
+        485,
+        660
+      ]
+    },
+    "SPG_ChiHe_pilot_and_small_series": {
+      "physical_band": [
+        65,
+        105
+      ],
+      "combat_serviceable_band": [
+        45,
+        78
+      ],
+      "note": "Ho-Ni I/II plus tiny Chi-He/Ke-Ni/etc. Does not imply combat-issued Chi-He."
+    },
+    "national_total_tracked_combat_vehicle_physical_band": [
+      4620,
+      5330
+    ],
+    "national_total_immediate_or_short_notice_serviceable_band": [
+      3640,
+      4330
+    ]
+  },
+  "major_formation_placement": {
+    "1st_Tank_Division_Manchuria": {
+      "physical_band": [
+        285,
+        325
+      ],
+      "ready_band": [
+        250,
+        290
+      ],
+      "model_mix_center": {
+        "Shinhoto": "100-130",
+        "Type97_57mm": "50-70",
+        "Type95": "70-85",
+        "Type89_or_other": "5-15"
+      },
+      "state": "high-priority formation; 1943 production used to re-equip rather than create a free national pool"
+    },
+    "2nd_Tank_Division_Manchuria": {
+      "physical_band": [
+        280,
+        320
+      ],
+      "ready_band": [
+        245,
+        285
+      ],
+      "model_mix_center": {
+        "Shinhoto": "95-125",
+        "Type97_57mm": "50-70",
+        "Type95": "70-85",
+        "other": "5-15"
+      }
+    },
+    "3rd_Tank_Division_China": {
+      "physical_band": [
+        175,
+        215
+      ],
+      "ready_band": [
+        150,
+        185
+      ],
+      "long_repair_band": [
+        10,
+        22
+      ],
+      "model_mix_center": {
+        "Shinhoto": "65-90",
+        "Type97_57mm": "45-65",
+        "Type95": "45-60",
+        "older_or_recon": "15-25"
+      },
+      "note": "Survives Five-Go in substantial physical strength because the medium main body is not sacrificed in Qinling mountain fighting."
+    },
+    "Armored_Operational_Training_Brigade_23rd_24th": {
+      "physical_band": [
+        95,
+        125
+      ],
+      "ready_training_band": [
+        75,
+        100
+      ]
+    },
+    "15th_16th_independent_Kwantung": {
+      "physical_band": [
+        55,
+        80
+      ],
+      "ready_band": [
+        45,
+        65
+      ]
+    }
+  },
+  "southern_and_Pacific_tied": {
+    "Rabaul_8th_Tank_Regiment": {
+      "physical_band": [
+        38,
+        48
+      ],
+      "ready_band": [
+        31,
+        40
+      ],
+      "availability_elsewhere": 0
+    },
+    "NEI_4th_Tank_Regiment": {
+      "Japanese_physical_band": [
+        34,
+        42
+      ],
+      "ready_band": [
+        30,
+        38
+      ],
+      "availability_elsewhere": 0
+    },
+    "Burma_14th_Tank_Regiment": {
+      "Japanese_physical_band": [
+        30,
+        39
+      ],
+      "ready_band": [
+        26,
+        34
+      ],
+      "captured_Stuart_serviceable_band": [
+        5,
+        9
+      ],
+      "availability_elsewhere": 0
+    },
+    "New_Caledonia": {
+      "Japanese_physical_survivor_band": [
+        13,
+        20
+      ],
+      "ready_band": [
+        9,
+        15
+      ],
+      "captured_US_light_serviceable_band": [
+        3,
+        6
+      ]
+    },
+    "Tarawa": {
+      "Type95_physical_after_30_Nov": 0,
+      "national_writeoff": 14
+    },
+    "other_branch_base_packets": {
+      "center": 0,
+      "physical_sensitivity_band": [
+        0,
+        35
+      ],
+      "guard": "requires dated trace"
+    }
+  },
+  "distributed_and_home_pool": {
+    "China_non_3rdDivision_recon_security_and_small_units": {
+      "physical_band": [
+        430,
+        620
+      ],
+      "ready_band": [
+        300,
+        450
+      ],
+      "note": "mostly tankettes/light tanks/small attached armor; not equivalent to 8-10 free tank regiments"
+    },
+    "Home_school_depot_replacement_modern_and_mixed": {
+      "physical_band": [
+        1100,
+        1450
+      ],
+      "short_notice_ready_band": [
+        650,
+        900
+      ],
+      "modern_medium_and_light_ready_subset_band": [
+        430,
+        620
+      ],
+      "role": "training, replacement, proving, line-conversion reserve and home defense; must be mobilized before overseas use"
+    },
+    "long_repair_factory_rebuild": {
+      "physical_band": [
+        230,
+        340
+      ],
+      "returnable_1_12_weeks_band": [
+        140,
+        230
+      ]
+    },
+    "obsolete_static_training_only": {
+      "physical_band": [
+        420,
+        620
+      ],
+      "note": "mainly old tankettes/Type89/worn hulls. Physical existence does not make them useful Marianas or China reinforcements."
+    }
+  },
+  "captured_Allied_vehicle_pool_separate": {
+    "Burma_Stuarts_serviceable": [
+      5,
+      9
+    ],
+    "NEI_Philippines_M3_and_other_serviceable": [
+      5,
+      10
+    ],
+    "New_Caledonia_US_light_serviceable": [
+      3,
+      6
+    ],
+    "total_serviceable_band": [
+      13,
+      25
+    ],
+    "guard": "ammunition/spares and crew training constrain operational use; not counted in Japanese-produced national family totals"
+  },
+  "strategic_interpretation": {
+    "modern_free_reserve": {
+      "serviceable_modern_medium_light_not_already_tied_to_named_field_formations_band": [
+        430,
+        650
+      ],
+      "center": 540,
+      "important": "This is distributed Home/depot/school/replacement stock, not an immediately deployable army group."
+    },
+    "why_not_more": [
+      "1st/2nd Tank Divisions consume large re-equipment flows in Manchuria.",
+      "3rd Tank Division remains China-committed after Five-Go.",
+      "8th Regiment/Rabaul, 4th/NEI, 14th/Burma and New Caledonia are theater-fixed.",
+      "hundreds of physically surviving old vehicles are obsolete, training/static or in repair."
+    ],
+    "why_more_than_historical_naive": "Branch recovery and reliability preserve some hulls and crews; the effect appears primarily as better-filled formations and depot depth rather than a huge deployable surplus."
+  },
+  "hard_hold_for_future": {
+    "Saipan": "Do not allocate from the 430-650 reserve directly. First trace 9th Tank Regiment re-equipment, March-1944 detachment, shipping and losses.",
+    "China_1944": "Do not double-count 3rd Tank Division and any separately attached tank regiment. Build named-regiment ledger.",
+    "Bengal": "No Japanese tank regiment is created from this reserve absent a dated transfer decision."
+  },
+  "next_gate": "January-February 1944 production + 1st/2nd Tank Division triangular reorganization + named 9th Tank Regiment issue/shipping ledger."
+}

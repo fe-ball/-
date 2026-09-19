@@ -1,0 +1,26 @@
+{
+  "revision": "v001",
+  "id": "PACIFIC_ISR_PALAU_MANIFEST_1944-03-31_v001",
+  "status": "WORKING_OVERLAY_MANIFEST",
+  "global_frontier": "1944-03-31T24",
+  "requires_prior_overlays": [
+    "計算機異聞_v048_PACIFIC_CARRIER_REGEN_1944-03-09_20_OVERLAY_2026-08-30.zip"
+  ],
+  "load_new_files_in_order": [
+    "PACIFIC_ISR_PALAU_1944-03-21_31/SENSORS/JAPAN_PACIFIC_ISR_SYSTEM_MATURITY_1944-03-20_31_WORKING_v001.json",
+    "PACIFIC_ISR_PALAU_1944-03-21_31/OPERATIONS/TF58_DESECRATE_APPROACH_WARNING_1944-03-22_29_WORKING_v001.json",
+    "PACIFIC_ISR_PALAU_1944-03-21_31/DECISIONS/JAPAN_CARRIER_RESPONSE_PALAU_1944-03-27_31_WORKING_v001.json",
+    "PACIFIC_ISR_PALAU_1944-03-21_31/HQ/COMBINED_FLEET_HQ_RELOCATION_AND_KOGA_SURVIVAL_1944-03-27_31_WORKING_v001.json",
+    "PACIFIC_ISR_PALAU_1944-03-21_31/OPERATIONS/PALAU_DESECRATE_I_1944-03-30_31_WORKING_v001.json",
+    "PACIFIC_ISR_PALAU_1944-03-21_31/FLEET/JAPAN_CARRIER_REGEN_AND_TAIHO_INTEGRATION_1944-03-21_31_WORKING_v001.json",
+    "PACIFIC_ISR_PALAU_1944-03-21_31/STATE/PARALLEL_THEATER_STATE_1944-03-31T24_WORKING_v001.json"
+  ],
+  "key_adjudications": [
+    "Model Japanese ISR as a layered warning-to-track system rather than a scalar detection bonus.",
+    "Give Palau 36-60h class persistent high warning and pre-dispersal without granting a weapon-quality TF58 fix.",
+    "Preserve established Palau raid settlement: fixed base is badly hit, mobile high-value assets escape, four-core does not sortie.",
+    "Break the historical Koga/Fukudome/Z-plan-capture chain because Branch HQ posture, warning lead and Hollandia logic differ.",
+    "Continue carrier-air regeneration and Taiho integration through 31 Mar without combat expenditure."
+  ],
+  "next_exact_action": "Advance 1-20 Apr with Pacific priority, first recalculating command/intelligence consequences of Koga survival and no captured Z-plan before applying any historical A-Go/Forager assumptions."
+}

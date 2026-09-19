@@ -1,0 +1,48 @@
+{
+  "id": "FLINTLOCK_1944-02-06_07_NIGHT_DPLUS1_INTEGRATED_RERUN_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-06T24 through 1944-02-07T24 Marshall local",
+  "source_checkpoint": "FLINTLOCK_1944-02-06T24_WORKING_CHECKPOINT_v001",
+  "method": "Namur/Roi and Kwajalein are adjudicated separately through night infiltration, US defensive-fire response, and 7-Feb daylight reduction; finite artillery, tank, engineer, CVE and beach-traffic capacity are then recombined. Historical night actions are behavior references only, not result scripts.",
+  "US_Dplus1_ground_casualties": {
+    "Roi_Namur_band": [
+      190,
+      290
+    ],
+    "Roi_Namur_center": 240,
+    "Kwajalein_band": [
+      390,
+      560
+    ],
+    "Kwajalein_center": 475,
+    "combined_band": [
+      580,
+      850
+    ],
+    "combined_center": 715,
+    "note": "Includes 6/7-Feb night and 7-Feb daylight ground/landing-area casualties; does not include the separate 5-Feb LST 30-65 personnel effect."
+  },
+  "cumulative_main_landing_battles_through_7Feb_T24": {
+    "Roi_Namur_band": [
+      480,
+      660
+    ],
+    "Kwajalein_band": [
+      780,
+      1080
+    ],
+    "combined_band": [
+      1260,
+      1740
+    ],
+    "combined_center": 1500,
+    "guard": "Do not compare this directly to theater-wide naval/air/LST losses; this is the two main ground assault sectors."
+  },
+  "operational_result_T24": {
+    "Roi": "Mopping essentially complete; only tiny isolated hideouts remain.",
+    "Namur": "Organized island defense collapses late afternoon/early evening centered 16:30-19:00. Small isolated groups remain at T24; secure declaration can follow once pockets are checked.",
+    "Kwajalein": "US controls or fire-dominates roughly 65-75 percent of the island, with the stronger axes another 0.8-1.1 km east of the D-Day evening line. Dense northeastern/cantonment strongpoints still retain organized resistance.",
+    "overall": "US victory remains structurally secure. Branch changes raise the D+1 price and preserve more organized Japanese resistance on Kwajalein, but do not recreate a beachhead crisis."
+  },
+  "next_frontier": "1944-02-07T24 Marshall local; resolve 7/8-Feb night, Namur final pocket clearance, and Kwajalein D+2 reduction from the surviving northeastern defense."
+}

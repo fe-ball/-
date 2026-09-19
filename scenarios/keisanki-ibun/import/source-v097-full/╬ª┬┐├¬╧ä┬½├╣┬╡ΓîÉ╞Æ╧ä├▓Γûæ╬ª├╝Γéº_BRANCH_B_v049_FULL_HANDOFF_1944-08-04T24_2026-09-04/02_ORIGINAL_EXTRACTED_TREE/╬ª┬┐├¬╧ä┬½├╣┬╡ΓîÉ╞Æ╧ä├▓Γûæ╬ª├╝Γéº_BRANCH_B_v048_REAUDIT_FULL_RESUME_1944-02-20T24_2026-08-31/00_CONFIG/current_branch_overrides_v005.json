@@ -1,0 +1,54 @@
+{
+  "revision": "v005",
+  "purpose": "2026-08-25 integrated Pacific/Midway continuous-campaign re-audit and provisional China-forward preservation, reconciled to the 2026-08-26 spring-1943 Aleutians/Efate coupled re-audit reopening.",
+  "protocol": "00_CONFIG/rule_override_protocol_v002.json",
+  "inherits": "00_CONFIG/current_branch_overrides_v004.json",
+  "overrides": [
+    {
+      "override_id": "OVR-MIDWAY-JAPAN-HELD-CONTINUOUS-NODE-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-07-01",
+      "impact_scope": "Central_Pacific_descendants",
+      "effective_rule": "Midway remains Japanese-held after the rollback. Treat it as a stocked ISR/submarine/air-warning node, not an automatically bypassed irrelevant island and not a free fortress. US sortie concealment, routing, suppression and ASW are re-adjudicated continuously.",
+      "source": "06_RUNTIME/PACIFIC_MIDWAY_CONTINUOUS_CAMPAIGN_REAUDIT_1943-07_10_v001.md"
+    },
+    {
+      "override_id": "OVR-US-BYPASS-NO-FREE-WALLET-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-07-01",
+      "impact_scope": "Allied_logistics_base_building_routing",
+      "effective_rule": "Any US bypass/base expansion/escort/ASW/patrol/AO/deception solution must be paid as reallocation, reserve-buffer draw, or time-lagged new construction/production. Do not create incremental resources from national-capacity labels alone.",
+      "source": "06_RUNTIME/PACIFIC_MIDWAY_CONTINUOUS_CAMPAIGN_REAUDIT_1943-07_10_v001.md"
+    },
+    {
+      "override_id": "OVR-PACIFIC-DESCENDANTS-PROVISIONAL-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "2026-08-25",
+      "impact_scope": "session_continuation",
+      "effective_rule": "GALVANIC and all later Central Pacific settlements from the prior re-audit are retained as provisional/reference until the reopened Aleutians/Efate coupled re-audit reaches them again. Current re-audit frontier is 1943-03-26T00:00.",
+      "source": "06_RUNTIME/CURRENT_BRANCH_STATE_v003.json"
+    },
+    {
+      "override_id": "OVR-CHINA-1944-FORWARD-PROVISIONAL-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1944-05-10",
+      "impact_scope": "China_1944_descendants",
+      "effective_rule": "Preserve the May-Oct 1944 China adjudication as provisional forward work. Do not promote it to synchronized global canon until Indian Ocean/Hump and Pacific naval re-audits close; allow targeted retro-adjustment rather than automatic deletion.",
+      "source": "06_RUNTIME/CHINA_ICHIGO_ANALOG_1944-05-10_10-20_PROVISIONAL_FORWARD_v001.md"
+    },
+    {
+      "override_id": "OVR-HUMP-CAPACITY-REALIZED-SEPARATION-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1944-05-01",
+      "impact_scope": "CBI_Hump_China_air_logistics",
+      "effective_rule": "Separate Hump installed/potential capacity from realized throughput. Summer 1944 growth cannot be fixed solely from historical values until Indian Ocean carrier/surface/submarine pressure, Burma threat, Assam LOC and Normandy/Home Fleet competition are audited.",
+      "source": "06_RUNTIME/CBI_HUMP_INDIAN_OCEAN_DEPENDENCY_REAUDIT_GATE_1944_v001.md"
+    }
+  ],
+  "edit_protocol": "v004 remains historical. For continuation, v005 is interpreted under CURRENT_BRANCH_STATE_v003 and SESSION_2026-08-26_ALEUTIANS_EFATE_COUPLED_REAUDIT_HANDOFF_v001; those current-state files take precedence over contrary frontier text in older records."
+}

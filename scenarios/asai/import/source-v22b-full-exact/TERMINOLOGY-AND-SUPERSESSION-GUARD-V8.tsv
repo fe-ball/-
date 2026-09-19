@@ -1,0 +1,29 @@
+old_or_ambiguous_item	AIRPOWER14_ruling	status
+V6 current clock 1939-09-01	furthest prior explored only; current revalidated checkpoint is 1939-05-10 24:00	SUPERSEDED-AS-CURRENT
+HOLD_FOR_AVIATION_AUDIT / READY_TO_RESUME_COMBAT_REPLAY	ACTIVE_COMBAT_REPLAY through 1939-05-10 24:00; technical audit ON_DEMAND_ONLY	SUPERSEDED
+Type97 Chi-Ha 180PS continuous/200PS max	200hp continuous/220hp short from later v27 tank parent for ordinary 1938-39 production calculations	SUPERSEDED
+post-Nomonhan dense-core AP FIELD VALIDATED	Apr20 proof/range qualified + limited controlled stock only; field validation must be replayed	FUTURE-ONLY
+post-Nomonhan flexible spall-liner fitted counts	Apr20 pre-field engineering-ready; fitted vehicle counts/effect must be replayed	FUTURE-ONLY
+E6 Twin/Single/HS-2 later first-flight result	REPLAY2 closes E6 Twin No.1 first airframe flight Apr29 and HS-2 first flight May4; E6 Single remains unflown at May10	PARTLY-SUPERSEDED
+historical dates as capability ceilings	forbidden under mandatory cheat/capability preflight	SUPERSEDED-METHOD
+Apr20 current checkpoint	Historical restart baseline only after REPLAY1/2; current clock 1939-05-10 24:00	SUPERSEDED-AS-CURRENT
+B5N2 historical individual exhaust / E1=0	EXHAUST1 treats historical B5N2 as collector-ring EX0; full ~+4-6 km/h collector-to-thrust-stack shadow restored when anchor is truly EX0	SUPERSEDED
+historical individual/thrust exhaust exists -> Asai exhaust delta always zero	use EX0/EX1/EX2/EX3 state differential; EX2 historical anchors retain only EX2->EX3 residual, thermal/life/QC benefits	SUPERSEDED-METHOD
+A6M5/J2M2-N1K-Ki84 production historical speed + full collector-to-stack exhaust card	full EX0->EX2 card already consumed in historical EX2 anchor; only residual EX2->EX3 plus other package effects may be added	FORBIDDEN-DOUBLE-COUNT
+D4Y/Ki61 + full collector-to-individual exhaust card	DB601-derived installations already start near EX2; only residual exhaust optimization plus separate radiator/heat-recovery card	FORBIDDEN-DOUBLE-COUNT
+historical designation/name implies identical worldline hardware	forbidden; resolve ID0-ID5/IDH in 50/50A before copying historical specification, lot mix or ready rate	SUPERSEDED-METHOD
+bare A7M / A7M2 interpreted as historical Reppu inside current V8	worldline A7M=Gaifu; historical A7M Reppu is an H-anchor whose worldline designation is A9M	FORBIDDEN-DESIGNATION-CONFLATION
+old B6A Aichi Tenzan	B6N Nakajima Tenzan historical lineage restored; B7A Ryusei remains independent Aichi design	SUPERSEDED
+old Ki-64 P-47-class single-engine turbo production concept	current Ki-64 is Kawasaki tandem-Ha-40 experimental heavy-fighter lineage; old production concept must not re-enter by name	SUPERSEDED
+historical OOB count -> historical configuration/ready-rate copy	retain count only unless replay changes it; resolve worldline lot/config -> serviceable -> forward -> combat separately	FORBIDDEN-METHOD
+Asai machinery/QC exists -> existing carrier gets generic shp/knot/range bonus	historical main-plant/hull headline remains anchor unless local ship audit closes redesign/installation; QC mostly changes repeatability/availability	FORBIDDEN-METHOD
+~21 kt converted/merchant carrier + GT boost -> fleet carrier	GT boost is only conditional short-duration WOD aid after full intake/exhaust/reducer/shaft/salt/fuel integration; deck/protection/seakeeping/cycle remain	FORBIDDEN-METHOD
+carrier historical aircraft capacity -> worldline serviceable/deck-ready/sortie count	separate physical stowage -> embarked -> serviceable -> spotted/deck-ready -> launch/recovery/rearm cycle	FORBIDDEN-METHOD
+same Navy aircraft designation -> automatic carrier compatibility	close elevator size/load, hangar clearance, deck strength, arresting loads, deck run and WOD for the actual worldline aircraft state	FORBIDDEN-METHOD
+aircraft electronics/radar progress -> automatic shipboard radar/director fit	ship fit, antenna, power, director integration, quantity and doctrine are local adoption gates	FORBIDDEN-METHOD
+better pumps/electrical/QC -> automatic USN-style carrier damage control	compartmentation, aviation-fuel layout, fire mains, redundancy, training and doctrine remain separate gates	FORBIDDEN-METHOD
+same aircraft/weapon designation -> copy historical hit rate / bombing CEP / fire effect	resolve FCS chain in 51/51A: observation -> sight -> calculation -> boresight/release -> ammo -> crew -> environment; same hardware name may have different realization	FORBIDDEN-METHOD
+Asai computation/optics capability -> automatic reflector/gyro sight or bombing computer retrofit	technical capability != adoption; 1939 Ki-27 remains Type89 telescopic in current replay; later/director states need type/lot procurement gate	FORBIDDEN-METHOD
+better boresight/QC -> generic projectile penetration or explosive-effect bonus	FCS1 changes alignment/repeatability/lot variance only; penetration/warhead effect belongs to gun/ammunition card	FORBIDDEN-METHOD
+better photo target folder + better bombsight workflow counted as one bonus twice	target-information and weapon-aim/release are separate stages; each may be credited once only	FORBIDDEN-DOUBLE-COUNT
+1939-06-27 Tamsag bombing workflow = fully historical	FIREOPTICS1 applies +5-8% effective target-area concentration to temporary ground/repair burden; no proportional permanent-aircraft kill bonus	SUPERSEDED-METHOD

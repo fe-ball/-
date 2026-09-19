@@ -1,0 +1,12 @@
+rank	status	authority	scope	note
+0	PACKAGE-CONTROL	00-START-HERE-2026-09-01-FULL-V7.md	whole package	read first
+1	CURRENT-HIGHEST	10-CURRENT-1937-1938/00-1938-01-17-RESTART-BASELINE-V7.md	current clock/carryover	resume here
+2	CURRENT-HIGH	10-CURRENT-1937-1938/01-METHOD-AND-CAUSAL-GUARD-V7.md	simulation method	no ghosts / operational audit / stock-flow
+3	CURRENT-HIGH	10-CURRENT-1937-1938/10-1937-CHINA-WAR-REBASE-CANON-V7.md	1937 China campaign	supersedes conflicting V5/V6 gates
+3	CURRENT-HIGH	20-AVIATION-1931-1938-REBASE/00-AVIATION-REBASE-CANON-1931-1938-V7.md	aviation chronology/canon	supersedes conflicting V6 aviation chronology
+3	CURRENT-HIGH	20-AVIATION-1931-1938-REBASE/03-GT-PRODUCTION-FACILITY-REBASE-V7.md	GT capacity/facility timing	supersedes conflicting V6 T-1 chronology
+4	CURRENT	10-CURRENT-1937-1938/12-FORCE-EQUIPMENT-STOCKFLOW-AND-RECOVERY-V7.md	equipment/personnel accounting	supersedes repeated retreat % penalties
+4	CURRENT	30-ASAI-1937-CLOSEOUT/00-ASAI-1937-11-19-STATE-AND-YEAREND-CARRYOVER-V7.md	Asai 1937 company	current 1937 closeout
+4	HARD-OPEN	40-RESEARCH-AND-OPEN-ISSUES/00-HARD-OPEN-RETREAT-AIR-INTERDICTION-V7.md	retreat air interdiction	must audit before closing early-1938 carryover
+20	BASE-PRESERVED	01-BASE-V6/00-START-HERE-2026-08-31-FULL-V6.md	full prior V6	use as baseline where not superseded; downstream on replay hold
+90	ARCHIVE	02-ORIGINAL-V6-ARCHIVE/ASAI-WORLDLINE-HANDOFF-2026-08-31-FULL-V6-AIRREBASE1.zip	original previous zip	verbatim preservation

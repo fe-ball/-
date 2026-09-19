@@ -1,0 +1,154 @@
+{
+  "id": "BRANCH_B_GLOBAL_NAVAL_PERSONNEL_AND_MI_LINEAGE_REAUDIT_1941_1944_v001",
+  "status": "WORKING_PROMOTED_GLOBAL_LINEAGE_OVERLAY",
+  "clock_advance": false,
+  "scope": "1941-current 1944 frontier",
+  "execution_spine": [
+    "WARSTART_1941-12-07_08_v004",
+    "CHECKPOINT_1942-04-10T24_v001",
+    "CHECKPOINT_1942-05-11T24_v001",
+    "CHECKPOINT_1942-06-02T24_v001",
+    "CHECKPOINT_1942-06-15T24_v001"
+  ],
+  "MI_US_named_surface": {
+    "sunk_CA": [
+      "Astoria CA-34",
+      "Pensacola CA-24",
+      "Northampton CA-26"
+    ],
+    "badly_damaged_repaired_CA": [
+      "Portland CA-33",
+      "Vincennes CA-44"
+    ],
+    "sunk_DD": [
+      "Hammann DD-412",
+      "Morris DD-417",
+      "Anderson DD-411",
+      "Balch DD-363",
+      "Benham DD-397",
+      "Phelps DD-360"
+    ],
+    "status": "WORKING_PROMOTED_CURRENT"
+  },
+  "MI_Japan_named_surface": {
+    "Chokai": "heavy damage",
+    "Hiei": "medium damage",
+    "Kongo": "light damage",
+    "Yudachi": "sunk",
+    "Natsugumo": "sunk",
+    "status": "retained/already propagated"
+  },
+  "collision_repairs": {
+    "Astoria": "MI loss; cannot be resurrected by absence of Savo",
+    "Northampton": "MI loss; cannot be resurrected by absence of historical Guadalcanal loss",
+    "Vincennes": "MI heavy damage then repair; later historical Savo death suppressed",
+    "Portland": "MI heavy damage then repair; later service valid",
+    "Quincy": "historical Savo death suppressed unless later Branch loss",
+    "Atlanta": "historical Naval Guadalcanal death suppressed unless later Branch loss",
+    "Juneau": "historical Naval Guadalcanal death suppressed unless later Branch loss"
+  },
+  "US_personnel": {
+    "Fletcher": {
+      "survival": "ALIVE_CENTER_HIGH",
+      "MI_flag_geometry": "Saratoga -> Astoria working",
+      "career": "rotate away from frontline carrier command; shore/area/training/advisory center"
+    },
+    "Spruance": {
+      "survival": "ALIVE_HIGH",
+      "career": "1943-44 senior fleet command plausible center, not automatic"
+    },
+    "Mitscher": {
+      "survival": "ALIVE_VERY_HIGH",
+      "career": "carrier-air regeneration/fast-carrier command strong plausible center"
+    },
+    "Kinkaid": {
+      "survival": "ALIVE_CENTER_MODERATE_HIGH",
+      "MI_flagship": "Pensacola",
+      "career": "later assignments branch-open"
+    },
+    "Fitch": {
+      "survival": "ALIVE_VERY_HIGH"
+    },
+    "William_W_Smith": {
+      "survival": "ALIVE_CENTER"
+    },
+    "Callaghan": {
+      "survival": "historical Nov-1942 death suppressed"
+    },
+    "Norman_Scott": {
+      "survival": "historical Nov-1942 death suppressed"
+    },
+    "Halsey": {
+      "career": "OPEN because historical Guadalcanal route absent"
+    }
+  },
+  "Japan_personnel": {
+    "Yamamoto": {
+      "survival": "ALIVE_HARD",
+      "role": "CINC Combined Fleet"
+    },
+    "Yamaguchi": {
+      "survival": "ALIVE_HIGH",
+      "rank": "Vice Admiral centered 1942-11-01 WORKING",
+      "role": "principal carrier tactical layer working center"
+    },
+    "Ozawa": {
+      "survival": "ALIVE_HIGH",
+      "role": "First Mobile Fleet CINC working center"
+    },
+    "Nagumo": {
+      "survival": "ALIVE_HIGH",
+      "role": "retained/restructured First Fleet night/surface command working center"
+    },
+    "Koga": {
+      "survival": "ALIVE",
+      "role": "full-admiral pool; Central Pacific Area Fleet plausible working"
+    },
+    "Toyoda": {
+      "role": "senior pool; no automatic May-1944 Combined Fleet accession"
+    },
+    "Ugaki": {
+      "survival": "ALIVE",
+      "role": "battle-line command plausible"
+    },
+    "Kurita": {
+      "survival": "ALIVE",
+      "role": "heavy surface strike"
+    },
+    "Tanaka_Raizo": {
+      "historical_Guadalcanal_disfavor": "suppressed unless branch-caused"
+    },
+    "Goto_Aritomo": {
+      "historical_Cape_Esperance_death": "suppressed unless branch-caused"
+    },
+    "Abe_Hiroaki": {
+      "historical_Guadalcanal_disgrace": "suppressed unless branch-caused"
+    }
+  },
+  "RN_personnel": {
+    "Somerville": {
+      "survival": "ALIVE_VERY_HIGH",
+      "career": "post-Operation-C OPEN"
+    },
+    "Boyd": {
+      "survival": "ALIVE_CENTER_HIGH",
+      "career": "post-Operation-C OPEN"
+    }
+  },
+  "carrier_personnel_planning": {
+    "Taiho": "independent work-up/cadre; do not hollow veteran four",
+    "Unryu_Amagi": "prospective HQ/cadre starts months before Jun-Jul completion targets",
+    "Katsuragi": "later-summer personnel generation required",
+    "guard": "completion != combat readiness"
+  },
+  "mandatory_rule": "No historical death/wound/relief/promotion/appointment auto-inherits by calendar date; require branch causal and personnel trace.",
+  "open_questions": [
+    "Fletcher/Kinkaid exact wound/convalescence timing",
+    "Callaghan/Scott/Goto/Abe/Tanaka 1942H2-43 assignments",
+    "Halsey 1942H2-44 path",
+    "Mitscher precise 1943 carrier-air career",
+    "Koga/Toyoda Central Pacific allocation",
+    "Taiho and Unryu-class named command/cadre teams",
+    "named senior carrier-aircrew survival ledger"
+  ]
+}

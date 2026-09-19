@@ -1,0 +1,98 @@
+{
+  "revision": "v001",
+  "id": "MARSHALL_SUBMARINE_CONTACT_LIAISON_1944-01-28_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-01-28",
+  "purpose": "Carry forward the already-accepted submarine information-age/contact-handoff rules into the Central Pacific mobilization warning, rather than treating submarines only as torpedo platforms.",
+  "authoritative_internal_rules": [
+    {
+      "rule": "TECH-SUB-INFO-AGE-001",
+      "content": "standard contact reports contain time/position/enemy type/course/speed/confidence/own state; reports age and submerged boats do not receive a modern continuous data link"
+    },
+    {
+      "rule": "command_fusion",
+      "content": "headquarters fuses multiple submarine reports with base air, traffic analysis and DF into enemy probability corridors and issues next patrol line/time"
+    },
+    {
+      "rule": "contact_value",
+      "content": "a boat may preserve/shadow/report a high-value carrier/battleship contact instead of taking a low-quality shot"
+    },
+    {
+      "rule": "silent_node_confidence",
+      "content": "Branch survival and status discipline reduce historical dead-node / silent-node / paper-roster ambiguity, making a missing report less likely to be an unknowable sunk-vs-radio-failure case"
+    },
+    {
+      "rule": "no_magic",
+      "content": "fresh external information improves intercept/recontact probability but never creates an automatic firing solution or wolfpack real-time data link"
+    }
+  ],
+  "jan28_assignment": {
+    "assigned_to_Marshall_approach_network_band": [
+      15,
+      17
+    ],
+    "assigned_center": 16,
+    "on_station_or_in_effective_patrol_box_band": [
+      11,
+      13
+    ],
+    "on_station_center": 12,
+    "relocating_or_reserve": 4,
+    "layers": [
+      {
+        "layer": "outer reporting/search",
+        "hulls_center": 4,
+        "type": "large I-class/cruiser-submarine/search capable",
+        "mission": "Hawaii/Gilberts/central-Pacific approach and oiler/transport traffic; report first, attack selectively"
+      },
+      {
+        "layer": "middle conventional intercept",
+        "hulls_center": 7,
+        "type": "I/Kaida/Ro conventional boats",
+        "mission": "probable carrier/assault/oiler transit corridors and Majuro/Kwajalein outer approaches"
+      },
+      {
+        "layer": "inner fast-reposition/recontact",
+        "hulls_center": 5,
+        "type": "first-generation Sentaka Ko-series",
+        "mission": "convert dated outer reports into 10-20 nmi intercept corrections; sprint then slow/relisten, not continuous 19-kt pursuit"
+      }
+    ],
+    "named_anchor": "I-175 repair return band closes by mid-Jan and it can re-enter Central Pacific patrol allocation; exact remaining conventional names are deliberately not invented without dated patrol traces.",
+    "opportunity_cost": "The 7-boat Indian Ocean active/outbound layer is preserved; Marshall concentration uses the much larger Pacific-ready pool and does not silently cancel the already-realized western response."
+  },
+  "realized_warning_effect_through_28Jan": [
+    {
+      "date": "1944-01-20..23",
+      "event": "Submarine/traffic/DF picture detects elevated escorted logistics and naval traffic toward the Gilbert-Central Pacific axis; no carrier identity.",
+      "Japan_confidence": "MEDIUM major operation"
+    },
+    {
+      "date": "1944-01-23..25",
+      "event": "At least one outer reporting boat obtains a timed visual/periscope or hydrophone-assisted surface contact on escorted auxiliary/transport traffic and transmits a structured report; attack is not required for the information to count.",
+      "Japan_confidence": "MEDIUM-HIGH amphibious/major fleet operation"
+    },
+    {
+      "date": "1944-01-25..27",
+      "event": "A second independent submarine-sector report plus US land-air suppression tempo and DF/traffic changes allow headquarters to shift Marshall air search arcs and inner submarine patrol lines.",
+      "Japan_confidence": "HIGH major Central-Pacific operation; MEDIUM-HIGH Marshalls target"
+    },
+    {
+      "date": "1944-01-27..28",
+      "event": "No weapon-quality carrier track is credited yet. The contact network nevertheless makes 'operation imminent in days, not weeks' HIGH confidence and reduces the risk that a missed air scout resets the picture to zero.",
+      "Japan_confidence": "HIGH imminent; exact Kwajalein vs outer-atoll objective remains MEDIUM"
+    }
+  ],
+  "quantified_operational_payoff": {
+    "warning": "moves the Japanese warning state up roughly one evidence rung before firm air visual contact when two independent dated reports correlate with DF/traffic/land-air indicators",
+    "search": "permits the 6-8 useful daily long-range searches to concentrate on probability corridors and reserves 1-2 faster confirmation sorties for suspicious contacts",
+    "intercept": "Sentaka receives time-stamped intercept geometry rather than a generic patrol box; usefulness collapses as report age grows",
+    "fleet_gate": "submarine warning can raise readiness/dispersal and start search/repositioning, but cannot by itself open the Japanese first-line-carrier strike gate"
+  },
+  "anti_double_count": [
+    "Do not add a generic submarine hit bonus on top of this information effect.",
+    "Do not count one contact report again as independent DF evidence.",
+    "Do not turn a non-attack report into an invisible torpedo opportunity.",
+    "Do not infer carrier identity from oiler/transport traffic alone."
+  ]
+}

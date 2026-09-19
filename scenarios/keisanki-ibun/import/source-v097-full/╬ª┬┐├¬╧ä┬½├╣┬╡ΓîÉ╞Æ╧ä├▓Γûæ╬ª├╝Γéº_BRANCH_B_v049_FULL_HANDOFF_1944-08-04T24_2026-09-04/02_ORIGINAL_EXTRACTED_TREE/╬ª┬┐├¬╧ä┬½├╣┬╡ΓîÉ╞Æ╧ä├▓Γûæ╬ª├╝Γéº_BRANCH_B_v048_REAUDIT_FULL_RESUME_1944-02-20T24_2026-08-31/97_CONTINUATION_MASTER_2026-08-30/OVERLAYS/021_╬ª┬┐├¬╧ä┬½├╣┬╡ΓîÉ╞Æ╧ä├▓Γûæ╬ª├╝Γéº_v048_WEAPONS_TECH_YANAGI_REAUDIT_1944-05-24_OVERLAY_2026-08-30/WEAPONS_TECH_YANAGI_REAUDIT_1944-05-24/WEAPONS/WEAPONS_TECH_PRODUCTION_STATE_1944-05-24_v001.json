@@ -1,0 +1,263 @@
+{
+  "revision": "v001",
+  "id": "WEAPONS_TECH_PRODUCTION_STATE_1944-05-24_v001",
+  "status": "WORKING_CURRENT_OVERLAY_AUDIT",
+  "as_of": "1944-05-24T24:00:00+09:00",
+  "purpose": "Reconcile the authoritative 1944-04-30 weapons audit, branch production/development ledgers, current 1944-05-24 campaign state, and Yanagi technology gates. Separate hard authority from dated interpolation and unresolved factory-accounting holes.",
+  "parent_authorities": [
+    "05_WARTIME/CHECKPOINT_1944-04-30T24_v004.json",
+    "06_RUNTIME/WEAPONS_AUDIT_1944-04-30_v001.md",
+    "02_TECH/TECH_INDEX_v009.json",
+    "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+    "06_RUNTIME/JAPAN_JET_DEVELOPMENT_REAUDIT_1944_1945_WORKING_v001.json",
+    "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+    "06_RUNTIME/1944SUMMER_JAPAN_US_FORCE_REGENERATION_WORKING_LEDGER_v002.md",
+    "96_SESSION_WORKING_2026-08-30/ARMOR/IJA_ARMOR_M4_LEE_RESPONSE_1943-07_1944-02-21_WORKING_v001.json"
+  ],
+  "current_campaign_parent": "PARALLEL_THEATER_STATE_1944-05-24T24_WORKING_v001",
+  "grading": {
+    "A": "ordinary first-line mission capable",
+    "B": "limited mission combat capable / incomplete integration",
+    "C": "prototype, trials, or unit-evaluation only",
+    "0": "no ordinary combat credit"
+  },
+  "aviation": {
+    "navy_fighters": {
+      "late_zui_sei_zero": {
+        "state": "A / mass first-line",
+        "5_24": "remains quantitative carrier/land backbone",
+        "note": "No need to replace it immediately merely because A7M prototype exists."
+      },
+      "kinsei_zero": {
+        "4_30_authority_ready_band": [
+          80,
+          110
+        ],
+        "5_24_working_ready_band": [
+          95,
+          130
+        ],
+        "status": "A",
+        "confidence": "MEDIUM",
+        "basis": "one additional partial month of allocation/acceptance; exact monthly engine/airframe factory ledger still open"
+      },
+      "raiden": {
+        "4_30_authority_ready_band": [
+          260,
+          300
+        ],
+        "5_24": "A; national pool continues to grow slowly but exact May total is intentionally not re-counted without monthly acceptance ledger",
+        "guard": "Do not convert national ready count into B-29-effective high-altitude interceptor count."
+      },
+      "n1k2j": {
+        "4_30_authority_ready_band": [
+          18,
+          28
+        ],
+        "5_24_working_ready_band": [
+          22,
+          36
+        ],
+        "status": "A-/B+",
+        "confidence": "MEDIUM-LOW",
+        "guard": "Early operational growth only; no mass miracle."
+      },
+      "a7m_reppu": {
+        "4_30_authority": "C / combat 0",
+        "5_24_state": "prototype flight-test phase; combat 0",
+        "branch_effect": "The branch keeps the successor-fighter program technically healthier, but engine, prototype correction, carrier qualification, production tooling and pilot conversion remain hard gates.",
+        "ordinary_unit_gate": "not summer 1944; late-1944 small operational possibility only unless separately re-audited",
+        "guard": "First flight or good handling does not equal fleet issue."
+      }
+    },
+    "navy_strike_recon": {
+      "d4y": "A; carrier/land standard",
+      "b6n": "A; standard; B5N remains where role/availability justifies",
+      "p1y_ginga": {
+        "4_30_authority_ready_class": [
+          18,
+          24
+        ],
+        "5_24_working_ready_class": [
+          24,
+          36
+        ],
+        "confidence": "MEDIUM-LOW",
+        "note": "first operational formations are expanding, not yet a theater-wide mass replacement"
+      },
+      "c6n_saiun": {
+        "state": "B+ small combat inventory",
+        "5_24_effect": "high-value fleet/base recontact and long-range reconnaissance asset; exact count not closed",
+        "allocation_priority": [
+          "Marianas/Western Carolines warning",
+          "fleet recontact",
+          "high-value base ISR"
+        ]
+      },
+      "zuiun": "A-special reconnaissance/observation; 4/30 20-30 class retained as baseline"
+    },
+    "army_air": {
+      "ki84": {
+        "4_30_authority": {
+          "cumulative_physical_band": [
+            380,
+            430
+          ],
+          "frontline_ready_band": [
+            250,
+            290
+          ]
+        },
+        "5_24_working": {
+          "cumulative_physical_band": [
+            445,
+            520
+          ],
+          "frontline_ready_band": [
+            285,
+            340
+          ]
+        },
+        "confidence": "MEDIUM",
+        "basis": "late-May partial-month production/acceptance interpolation, with ready growth smaller than factory output",
+        "allocation_guard": "Home defense, China and southern areas compete for new aircraft and trained crews."
+      },
+      "ki67": {
+        "state": "B/C",
+        "5_24": "production/conversion and service-evaluation ramp; ordinary combat credit remains 0",
+        "ordinary_combat_gate": "June-July 1944 working window",
+        "guard": "Do not spend it in May combat."
+      },
+      "ki44": "A mature interceptor",
+      "ki61": "A standard combat fighter",
+      "ki45": "A heavy-bomber/night-intercept role mature",
+      "ki100_equivalent": "C / combat 0"
+    }
+  },
+  "submarine_asw": {
+    "tokai_mad": {
+      "4_30_authority": {
+        "mad_capable_aircraft_band": [
+          25,
+          40
+        ],
+        "detachments_band": [
+          3,
+          5
+        ]
+      },
+      "5_24": "production/training continues; exact May national quantity not force-inflated without a monthly ledger",
+      "current_operational_effect": "6-10 class local Tokai/MAD allocation around Sulu/Tawi-Tawi reaction area already permitted by current progression; main benefit is attack denial, reattack denial and faster datum handoff, not mass submarine kills.",
+      "system": "broad fixed-wing search -> datum -> MAD local confirmation -> air/surface attack -> shore handoff"
+    },
+    "i400_family": {
+      "I400": "A for integrated three-Seiran strike",
+      "I401": "commissioned April; final May joint-integration phase",
+      "I402": "commissioning Jul-Aug; integrated Seiran readiness Sep-Oct",
+      "details": "see SPECIAL_STRIKE/I400_SEIRAN_STRIKE_GATE_1944-05-24_v002.json"
+    }
+  },
+  "electronics_and_control": {
+    "state": "MATURED_BRANCH_SYSTEM",
+    "effects": [
+      "I-30-delivered Würzburg/Metox/Bold/TDC/metrology package has had ~1.5 years to diffuse into research, calibration and selected field nodes.",
+      "I-8 Dec-1943 return adds tacit fault-diagnosis/calibration/acoustic-test practice.",
+      "A-grade warning/plot/CAP-vector nodes are materially better than historical Japanese median.",
+      "The system is good at sector warning and loss avoidance; still not equivalent to US SG/PPI/CIC multi-target continuous control."
+    ],
+    "5_24_newness": "Most May gain is doctrine, serviceability and network integration, not a magical new radar set."
+  },
+  "propulsion_jet": {
+    "state": "RESEARCH_ONLY / combat 0",
+    "5_24_centerline": [
+      "repeatable bench work",
+      "captive-carry or underwing airborne hot-run/thrust/combustion measurement in Q2",
+      "design pruning from early I-34 Europe technical summaries",
+      "selective hot-section material experiments"
+    ],
+    "not_realized": [
+      "self-propelled pure-jet first flight in Mar-May 1944",
+      "operational jet or rocket interceptor in 1944",
+      "physical Jumo 004B/HWK 509A in Japan by 24 May"
+    ],
+    "next_physical_gates": [
+      "I-34 return paper/small-hardware gate around June if the boat survives",
+      "I-29 Singapore information gate around July if the boat survives",
+      "late-1944 Ne20-like bench articles under favorable gates"
+    ]
+  },
+  "ships": {
+    "carrier_construction": {
+      "taiho": "operational and five-carrier first-strike integrated by current campaign; repeat-cycle robustness still slightly below core four",
+      "unryu": "completion Jun-Jul; completion is not combat readiness",
+      "amagi": "completion Jun-Jul; completion is not combat readiness",
+      "katsuragi": "completion Aug-Sep",
+      "kasagi_aso_ikoma": "1945 lines; no 1944 back-port"
+    },
+    "surface": {
+      "ibuki": "remains heavy cruiser, not carrier conversion; late Jun/early Jul completion/work-up window",
+      "fleet_destroyers": "branch advantage is primarily survival and availability; no large pre-1944 construction miracle",
+      "kaibokan_subchaser": "modest procurement/availability increase; strategic effect is freeing fleet destroyers and protecting shipping, not adding battleline torpedo strength"
+    }
+  },
+  "ground_weapons": {
+    "chihe": {
+      "state": "small production/acceptance line active",
+      "hard_known_by_2_21": "10-18 physical, 7-14 accepted serviceable",
+      "5_24_issue": "exact Mar-May monthly output remains one of the few unresolved production-book holes"
+    },
+    "75mm_turreted_stopgap": {
+      "lineage": "Chi-He-lineage turreted 75mm response to Allied medium tanks; historical Chi-Nu-like function but Branch designation/layout is not forced to equal historical paperwork",
+      "prior_clock": "first running/firing prototype band 1944-03-25..04-20, center 04-07; earliest low-rate late May, centered June",
+      "5_24_adjudication": "prototype existence and firing trials are REALIZED; debugging/tooling/acceptance trials ongoing; no regular combat unit yet",
+      "working_low_rate_decision_gate": "1944-05-28..06-10",
+      "guard": "No mass output, no automatic Marianas shipment, and no quantity until 75mm gun/turret/engine/armor-plate wallet is closed."
+    },
+    "chito": "high-priority 75mm-path prototype/research; no 1944H1 combat inventory",
+    "support_vehicle_priority": "trucks, tractors, recovery vehicles, workshops and spares remain more important to 1944 operational power than rushing an unproven heavy medium tank."
+  },
+  "near_term_materialization_calendar": [
+    {
+      "window": "1944-05-25..06-05",
+      "item": "I-400 + I-401 six-Seiran joint strike system",
+      "state": "readiness gate can close"
+    },
+    {
+      "window": "late May..early Jun",
+      "item": "75mm Chi-He-lineage stopgap",
+      "state": "low-rate production decision after prototype trials; no unit yet"
+    },
+    {
+      "window": "June-Jul",
+      "item": "Ki-67",
+      "state": "ordinary combat unit gate"
+    },
+    {
+      "window": "June-Jul",
+      "item": "Unryu/Amagi",
+      "state": "hull completion, followed by separate work-up/air-group clock"
+    },
+    {
+      "window": "late Jun..early Jul",
+      "item": "Ibuki",
+      "state": "heavy-cruiser completion/work-up gate"
+    },
+    {
+      "window": "July-Aug",
+      "item": "I-402",
+      "state": "commissioning; Seiran integration later Sep-Oct"
+    },
+    {
+      "window": "late 1944 best case",
+      "item": "A7M small operational availability / Ne20-like bench articles",
+      "state": "conditional, not May/June combat"
+    }
+  ],
+  "unclosed_ledgers": [
+    "Jan-Jun 1944 Chi-He / 75mm stopgap / Shinhoto monthly factory accounting",
+    "exact May national Tokai/MAD production count",
+    "exact May Raiden/N1K2/P1Y monthly acceptance totals",
+    "named conventional submarine national inventory integration",
+    "June US fast-carrier OOB branch rebuild before FORAGER combat"
+  ]
+}

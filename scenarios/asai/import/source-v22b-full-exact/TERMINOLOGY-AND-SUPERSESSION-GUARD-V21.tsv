@@ -1,0 +1,28 @@
+term	rule
+CURRENT-CLOSE	Current authority where explicitly listed
+CURRENT-REPLAY	Accepted replay event/state through the stated history clock; may be reopened only explicitly
+CURRENT-PLANNING	Accepted planning band; future realization remains replay-dependent
+WORKING-CLOSE	Accepted interpretation until dedicated closeout refines it
+WORKING	Current planning/result; may move with dedicated closeout
+GATED	Future condition/decision; not a completed event
+NEXT-GATE	Highest-priority next item; not yet closed
+OPEN	Unresolved; do not silently choose a branch
+ANALYSIS-ONLY	Never auto-import into canon/OOB/losses
+explicit_only_supersession	V21 supersedes older authority only where it explicitly closes/replays a subject
+replay_clock_guard	V21 main replay clock is 1944-12-31 24:00
+pacific_war_guard	No Pearl Harbor/Malaya/Philippines/DEI war through V21 clock
+us_war_guard	United States remains formally nonbelligerent toward Germany and Japan through V21 clock
+china_peace_guard	China peace effective 1941-05-20; no historical post-peace China campaign auto-import
+soviet_transfer_guard	Use unit/date/sector transfer logic; do not replace with popular Siberian-divisions shorthand
+perception_guard	Separate FACT / ESTIMATE / BELIEF / PLAN / PUBLIC-LINE
+north_south_gate_guard	HOLD, N-OPP, N-PREV, N-PREV-LONG and southern commerce/policy gates are distinct
+engineering_gate_guard	Studies/gates are not fleet equipment until procurement/qualification is explicitly replayed
+loss_band_guard	V21 German/Soviet manpower and loss values are broad strategic workbands unless dedicated ledger closes exact totals
+warsaw_guard	Historical 1944 Warsaw Uprising does not occur in V21 replay; do not auto-import destruction/casualties
+romania_guard	Historical 23 Aug 1944 Romanian coup/defection does not occur in V21 replay
+finland_guard	Historical Sept 1944 armistice/Lapland War not auto-imported
+us_bombing_guard	Historical US daylight strategic bombing / Big Week / Oil Campaign not auto-imported without US war trigger
+western_entry_guard	British/French Western Entry is planning, not executed; German punishment capacity and Vichy pro-German factions remain live
+pact_name_guard	Use Soviet-Japanese Neutrality Pact / 日ソ中立条約. Do not blur it into a generic non-aggression pact
+pact_deadline_guard	Pact entered force 1941-04-25; five-year term ends 1946-04-25; denunciation no later than 1945-04-25 prevents automatic five-year extension
+pact_denunciation_effect_guard	Denunciation prevents automatic extension; it does not by itself mean the pact instantly ceases to bind before term expiry

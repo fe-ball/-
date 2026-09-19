@@ -1,0 +1,10 @@
+errors=0 warnings=0
+NOTE: 3AB executable serviceable interval = [53,72]
+NOTE: 7AB executable serviceable interval = [93,149]
+NOTE: unknown pools remain unallocated; opening can execute as interval state
+NOTE: TECH-THRUST-EXHAUST opening state = TEST; no 1941 mass-standardization bonus
+validated events=9 errors=0 warnings=0
+PACKAGE_VALIDATION errors=0 warnings=0
+OPENING_GATE=PASS
+START=1941-11-15 southern concentration; synchronize global combat at 1941-12-07/08
+STATE_POLICY=bounded/UNKNOWN permitted; no invented point estimates

@@ -46,6 +46,6 @@ Current frontierは次に議論する対象を示す。V23では両者を意図�
 - [Source package](import/SOURCE-PACKAGE.md)
 - [Import status](import/IMPORT-STATUS.md)
 
-V22B source ZIPのprovenance/import scopeは変更しない。V23はこの会話で承認された日中和平ルート第二弾の追加authorityであり、元ZIPへ遡及的に含まれるものではない。
+V22B source ZIPのprovenanceは保持し、2026-09-20に原本ZIPと全展開ファイルの収録を完了した。V23はこの会話で承認された日中和平ルート第二弾の追加authorityであり、元ZIPへ遡及的に含まれるものではない。
 
-元ZIPに含まれる旧版・監査履歴・ネストした過去ZIP・XLSX等は、GitHubに存在しないことを理由に「存在しない」とは扱わない。
+元ZIPに含まれる旧版・監査履歴・ネストした過去ZIP・XLSX等は、import/source-v22b-full-exact/ に全件保存済み。収録によってcurrentへ自動昇格させない。

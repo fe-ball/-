@@ -1,0 +1,105 @@
+{
+  "id": "BRANCH_B_CENTRAL_PACIFIC_BROAD_SYNC_1944-02-24T1230_v001",
+  "status": "WORKING_CURRENT_BROAD_SYNC",
+  "frontier": "1944-02-24T12:30 Eniwetok local",
+  "corrections": {
+    "HAILSTONE_US_sub_escape_route": {
+      "center_sunk": 0,
+      "upper_branch_sunk": 1,
+      "size_GRT": [
+        4000,
+        7000
+      ],
+      "reason": "ASW audit supersedes former centered one-ship loss"
+    }
+  },
+  "Catchpole_local_sea": {
+    "Japanese_surface_intervention_center": 0,
+    "Japanese_sub_useful_close_nodes_center": 1,
+    "Japanese_sub_weapon_quality_attack_center": 0,
+    "Japanese_air_major_ship_hit_center": 0,
+    "US_major_ship_losses_23_24Feb": 0
+  },
+  "Eniwetok_Island": {
+    "H_hour": "1944-02-23T09:35",
+    "US_casualties": [
+      160,
+      265
+    ],
+    "US_center": 210,
+    "US_KIA_MIA": [
+      35,
+      60
+    ],
+    "Japan_start": [
+      790,
+      840
+    ],
+    "Japan_killed_irrecoverable": [
+      760,
+      820
+    ],
+    "Japan_prisoners": [
+      10,
+      25
+    ],
+    "Type95_lost": 3,
+    "meaningful_resistance_end_band": [
+      "1944-02-24T10:30",
+      "1944-02-24T12:00"
+    ],
+    "Marine_3_22_commitment": "one company centered; full battalion not automatically consumed"
+  },
+  "Parry_24Feb": {
+    "physical": [
+      1330,
+      1390
+    ],
+    "Type95": 3,
+    "behavioral_adaptation": [
+      "avoid automatic mass counterattack",
+      "preserve mortar/MG reappearance cells",
+      "separate tank short-range tasks",
+      "anti-engineer ambush/demolition",
+      "earlier document burn",
+      "packet night action"
+    ],
+    "new_fortification_layer": false,
+    "earliest_assault": "1944-02-25 morning"
+  },
+  "TF58": {
+    "main_carriers": [
+      "Wasp",
+      "Yorktown",
+      "Essex",
+      "Intrepid",
+      "Bunker Hill"
+    ],
+    "light_carriers": [
+      "Belleau Wood",
+      "Monterey",
+      "Cowpens"
+    ],
+    "Cabot": "campaign-out preexisting",
+    "Enterprise": "permanent Branch loss",
+    "Saratoga": "permanent Branch loss",
+    "new_campaign_out_after_HAILSTONE": 0,
+    "Marianas_strike_gate": [
+      "1944-02-25",
+      "1944-02-26"
+    ],
+    "Marianas_center": "1944-02-26",
+    "raid_result_resolved": false
+  },
+  "Japan_main_fleet": {
+    "Truk_main_fleet_base": false,
+    "major_surface_rescue_Eniwetok": false,
+    "priority": "preserve carrier aviation/logistics; westward regeneration; reinforce Palau-Marianas-Philippines by shipping clock"
+  },
+  "next_gates": [
+    "Parry assault",
+    "Marianas local air/warning OOB audit",
+    "TF58 first Marianas strike",
+    "Catchpole base-development and Japanese westward fortification clocks"
+  ]
+}

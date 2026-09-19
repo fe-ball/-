@@ -1,0 +1,7 @@
+technical_identity	protected_or_prior_label	working_alias	status	rule
+E5 Twin Army recon/command	E5 Twin; Ki-40 command/high-speed recon retained as historical evaluation/allocation label	九八式司令部偵察機	WORKING-ALIAS	formal Army service name may restore/select an older or different designation without changing hardware lineage
+E5 Twin Navy recon	E5 Twin; R1As pre-exists in current support	九八式高速陸上偵察機	WORKING-ALIAS-LONGFORM	R1As preserved as prior code referent; long-form name not yet formalized
+E6 Twin Navy recon	E6 Twin naval recon fit	R2As / 零式高速陸上偵察機	WORKING-ALIAS	technical branch closed; exact service code/name open
+E6 Twin Navy land attack	E6 Twin naval land-attack/torpedo derivative	G4As / G4As1 / 零式陸上攻撃機一一型	WORKING-ALIAS	technical branch closed; exact service code/name open
+E6 Single Navy land fighter	E6 Single naval land-fighter fit	J2As-style shorthand if used	WORKING-ALIAS	no formal service designation implied
+E7+ aircraft	engine generation + airframe family	future type-year/project names	OPEN	naming waits for adoption gate

@@ -1,0 +1,72 @@
+{
+  "revision": "v003",
+  "id": "JAPAN_FIRST_LINE_CARRIER_HOLDING_FORCE_1944-01-28_02-02_WORKING_v003",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-02-02T16:30:00+12:00",
+  "supersedes": "JAPAN_FIRST_LINE_CARRIER_HOLDING_FORCE_1944-01-28_02-02_WORKING_v002",
+  "core_force": {
+    "carriers": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu"
+    ],
+    "Soryu": "Excluded: operational trials/team-readiness return clock; not part of 3-Feb launch core.",
+    "ready_aircraft_band": [
+      210,
+      228
+    ],
+    "ready_aircraft_center": 219,
+    "air_group_guard": "Ready aircraft include CAP/search/reserve and are not a simultaneous strike count."
+  },
+  "ready_aircraft_working": {
+    "band": [
+      210,
+      228
+    ],
+    "center": 219
+  },
+  "position_state": "Shokaku/Zuikaku/Hiryu have continued conditional eastward closure behind the Marshalls under radio discipline, remaining outside routine US strike-search expectation and preserving a westward egress route. Exact coordinates are intentionally not fixed beyond the working distance gate.",
+  "decision_state_1630": "CONDITIONAL_GO_PREPARED_NO_LAUNCH",
+  "why_not_launch_yet": [
+    "The same TG58.2-class group was recontacted into early afternoon, but its track has begun aging again after US ASW broke submarine shadowing.",
+    "Other two US fast-carrier TG positions remain sector-level rather than fresh weapon-quality fixes.",
+    "A long-range afternoon launch would force recovery near dusk/night and expose the Japanese carriers to the still-unlocated majority of TF58.",
+    "The positive-EV opportunity is now a possible 3-Feb dawn attack if two-group geometry or a mission-split carrier fix is refreshed overnight, not a same-afternoon desperation strike."
+  ],
+  "orders_now": [
+    "Continue limited eastward closure without crossing the precomputed recovery/egress gate.",
+    "Prepare dawn strike packages and reserve CAP; do not count all 219 ready aircraft as strike aircraft.",
+    "Demand another submarine/water-air contact after dusk or before nautical dawn before launch authorization.",
+    "Soryu remains outside the first-line core on its trial/team-readiness clock."
+  ],
+  "GO_gate": "Fresh target track + evidence of US mission split/recovery state + acceptable other-TG uncertainty + safe Japanese recovery/egress. Failure of any one major gate returns posture to WITHHOLD/preserve.",
+  "repair_note": "v002 accidentally emitted an empty core_force object. v003 restores the already-adjudicated three-carrier core and closes the screen at hull level because the next gate is an actual carrier engagement.",
+  "screen_hull_level_working": {
+    "fast_battleships": [
+      "Hiei",
+      "Kirishima"
+    ],
+    "heavy_cruisers": [
+      "Tone",
+      "Chikuma"
+    ],
+    "light_cruiser": [
+      "Noshiro"
+    ],
+    "destroyers": [
+      "Akizuki",
+      "Hatsuzuki",
+      "Suzutsuki",
+      "Shimakaze",
+      "Yugumo",
+      "Makigumo",
+      "Onami",
+      "Fujinami",
+      "Hamakaze",
+      "Isokaze"
+    ],
+    "screen_count": 15,
+    "reason": "Reuses the surviving Pacific Hiei/Kirishima heavy group and mature scouting/AA screen; excludes Oyodo/Teruzuki/Takanami/Makinami/Kiyonami already debited to the Indian-Ocean release. All DD names are Branch survivors/ready candidates; no historical Solomon loss is reinserted.",
+    "anti_double_count": "This screen is an allocation from the Jan-1944 Pacific wallet, not extra hull creation."
+  }
+}

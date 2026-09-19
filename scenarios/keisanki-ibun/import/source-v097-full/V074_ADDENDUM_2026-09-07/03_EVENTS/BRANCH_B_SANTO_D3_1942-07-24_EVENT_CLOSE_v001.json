@@ -1,0 +1,22 @@
+{
+  "status": "CLOSED_CENTER_EVENT",
+  "cut": "1942-07-24 00:00/24:00",
+  "W2": {"status": "FIRED", "time_local": "1942-07-24 11:10"},
+  "Allied_search": {"PBY_sorties": 8, "B17_search_sorties": 4},
+  "Japanese_search": {"H6K_H8K": 4, "G3M_G4M": 5, "forward_water_air": 9, "ship_floatplanes": 11, "D4Y1C": 2, "useful_submarines_open": 5},
+  "contacts": [
+    {"time": "09:18", "actor": "Allied B-17", "result": "first assault-body physical contact"},
+    {"time": "10:47", "actor": "Allied B-17", "result": "reacquisition and course-speed confirmation"},
+    {"time": "14:35", "actor": "Allied PBY", "result": "updated convoy track; later damaged by local Japanese fighter interception"}
+  ],
+  "raider_fast_detachment": {"status": "UNDERWAY_NC_TO_SANTO", "physical_center": 520, "effective_center_if_clean_unload": 490, "sail_time": "1942-07-24 13:10", "eta_santo_center": "1942-07-25 04:35", "apds": ["Little", "Colhoun", "Gregory", "McKean"]},
+  "Efate_light_battalion": "ELIGIBLE_BUT_NOT_DISPATCHED_NO_CLOSED_LIFT",
+  "B17_strike": {"aircraft": 4, "result": "NO_JAPANESE_SHIP_HITS", "allied_damage": "1 B-17 repairable/non-MR"},
+  "PBY_damage": "1 repairable/non-MR",
+  "Japanese_detection": {"2d_Marines": false, "Wasp": false, "Raiders": false},
+  "Japanese_contingency_reserve": "ON_NOTICE_NOT_ACTIVATED",
+  "Japanese_assault_body_end_distance_to_Santo_nm": "~550-565",
+  "2d_Marines_end_distance_to_Santo_nm": "~586",
+  "irreversible_ship_losses": 0,
+  "aircraft_writeoffs": 0
+}

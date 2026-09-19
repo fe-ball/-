@@ -1,0 +1,30 @@
+{
+  "revision": "v001",
+  "id": "CHINA_IX_WAR_AREA_FORCE_PRESERVATION_1944-05-01_10_WORKING_v001",
+  "status": "WORKING_BRANCH_FORCE_POSTURE",
+  "as_of": "1944-05-10T24:00:00+09:00",
+  "parents": [
+    "CHINA_STATE_ECONOMY_FORCE_RECONSTRUCTION_1944-04-30_WORKING_v001",
+    "ICHIGO_HUNAN_PHASE_A_1944-05-01_10_WORKING_v001"
+  ],
+  "historical_sanity_anchor": "Japanese postwar estimates placed roughly forty Chinese divisions in IX War Area during the historical Changsha-Hengyang campaign; branch does not convert that nominal count directly into modern effective divisions.",
+  "wider_IX_war_area_working_band": {
+    "nominal_divisions_or_equivalents": [34, 42],
+    "sustained_defense_effective_division_equivalents": [18, 24],
+    "effective_combat_manpower_band": [145000, 195000]
+  },
+  "allocation_10May": {
+    "northern_rearguard_and_corridor_delay_effective_div_eq": [3.0, 4.5],
+    "Changsha_Liuyang_Ningxiang_inner_system_effective_div_eq": [5.5, 8.0],
+    "southward_Hengyang_Leiyang_operational_reserve_effective_div_eq": [7.0, 9.5],
+    "other_flank_local_security_effective_div_eq": [2.5, 3.5]
+  },
+  "command_logic": {
+    "main_rule": "Do not repeat a prestige defense that destroys the IX War Area command/heavy-weapons core inside Changsha.",
+    "Changsha_local_role": "Delay, demolition, urban denial and time purchase; not last-man fortress defense.",
+    "reserve_role": "Preserve forces south of Changsha so Japanese capture of one city does not automatically open Hengyang/Guangxi.",
+    "political_constraint": "Changsha cannot be abandoned without combat or demolition because of morale and symbolic value, but political value does not override preservation of the whole war area."
+  },
+  "Chongqing_reaction": "Release limited ammunition, signals, antitank and liaison support toward IX War Area, but no national all-in redeployment. North-Sichuan, Yunnan/Burma and internal-security claims remain binding.",
+  "next_gate": "Determine whether the inner-system defense can hold Liuyang/Ningxiang long enough to evacuate Changsha assets and whether the city is isolated before 18 May."
+}

@@ -1,0 +1,256 @@
+{
+  "revision": "v001",
+  "id": "PRE_ICHIGO_FINAL_FORCE_LOGISTICS_GATE_1944-04-25_v001",
+  "status": "AUTHORITATIVE_WORKING_LEDGER_DOES_NOT_ADVANCE_CLOCK",
+  "as_of": "1944-04-25T00:00",
+  "gate_result": "GO_STAGED_OPERATION",
+  "historical_baseline": {
+    "jan_1944_china_infantry_divisions": 24,
+    "jan_1944_armored_divisions": 1,
+    "jan_1944_independent_mixed_brigades": 11,
+    "historical_mid_may_hunan_11th_army_divisions": [
+      "3d",
+      "13th",
+      "27th",
+      "34th",
+      "40th",
+      "58th",
+      "64th",
+      "68th",
+      "116th"
+    ],
+    "historical_full_ichigo_personnel_approx": 400000,
+    "historical_full_ichigo_horses_approx": 70000,
+    "historical_full_ichigo_vehicles_approx": 12000
+  },
+  "branch_oob_divergence": {
+    "five_go_phase_ii_named_divisions": [
+      "36th",
+      "37th",
+      "41st",
+      "27th",
+      "17th"
+    ],
+    "historically_transferred_but_retained_in_branch": [
+      "36th",
+      "41st",
+      "17th"
+    ],
+    "anti_double_count_rule": "36th/41st/17th remain China-theater assets at 1944-04-25 absent explicit later transfer.",
+    "working_china_infantry_divisions": 26,
+    "working_china_armored_division_equivalents": 1
+  },
+  "western_active_front": {
+    "divisions": {
+      "36th": {
+        "role": "Guangyuan_Jianmen_forward",
+        "effective_div_eq": [
+          0.85,
+          0.95
+        ]
+      },
+      "41st": {
+        "role": "Guangyuan_Hanzhong_forward_support",
+        "effective_div_eq": [
+          0.8,
+          0.9
+        ]
+      },
+      "17th": {
+        "role": "Hanzhong_route_security_mobile_reserve",
+        "effective_div_eq": [
+          0.65,
+          0.8
+        ]
+      }
+    },
+    "total_division_equivalent": [
+      2.3,
+      2.8
+    ],
+    "all_arms_personnel": [
+      45000,
+      58000
+    ]
+  },
+  "hunan_d_day_divisions": [
+    "3d",
+    "13th",
+    "27th",
+    "34th",
+    "37th",
+    "40th",
+    "58th",
+    "64th",
+    "68th",
+    "116th"
+  ],
+  "hunan_division_count": 10,
+  "theater_reserve": {
+    "division": "60th",
+    "counted_in_d_day_assault": false
+  },
+  "fixed_not_stripped": {
+    "wuhan_yangtze_nucleus": [
+      "39th"
+    ],
+    "lower_yangtze": [
+      "61st",
+      "65th",
+      "70th"
+    ],
+    "south_china_core": [
+      "104th"
+    ],
+    "later_23d_army_transfer": [
+      "22d"
+    ],
+    "north_other_not_d_day": [
+      "62d",
+      "69th",
+      "59th",
+      "63d",
+      "110th",
+      "26th",
+      "3d Armored"
+    ]
+  },
+  "nanjing_associated_apparatus": {
+    "total_headcount": [
+      430000,
+      500000
+    ],
+    "central_china": [
+      245000,
+      285000
+    ],
+    "operationally_trustworthy_static_local": [
+      250000,
+      310000
+    ],
+    "japanese_static_workload_release_div_eq_theater": [
+      3.0,
+      3.8
+    ],
+    "japanese_static_workload_release_div_eq_central": [
+      1.8,
+      2.3
+    ],
+    "main_effect": "rear_security_administration_transport_conversion_not_assault_equivalence"
+  },
+  "hunan_manpower": {
+    "direct_field_operational": [
+      235000,
+      260000
+    ],
+    "additional_loc_rail_engineer_medical_aa_signal": [
+      85000,
+      110000
+    ],
+    "operation_related_central_china_total": [
+      320000,
+      370000
+    ]
+  },
+  "support_allocation": {
+    "motor_vehicles_assigned_or_rotational": [
+      6800,
+      8200
+    ],
+    "motor_vehicles_normally_serviceable": [
+      5400,
+      6500
+    ],
+    "horses_pack_draught": [
+      38000,
+      46000
+    ],
+    "independent_artillery_battalion_equivalents": [
+      10,
+      14
+    ],
+    "engineer_bridging_battalion_equivalents_above_divisional": [
+      8,
+      11
+    ],
+    "railway_repair_regimental_groups": [
+      2,
+      3
+    ],
+    "army_theater_motor_transport_company_equivalents": [
+      20,
+      26
+    ]
+  },
+  "shipping": {
+    "incremental_concurrent_gross_tonnage_equivalent": [
+      20000,
+      35000
+    ],
+    "short_peak_10_14_day_gross_tonnage_equivalent": [
+      40000,
+      55000
+    ],
+    "permanent_100k_plus_diversion_required": false,
+    "primary_limit": "inland_transport_support_arms"
+  },
+  "stocks_and_forward_gate": {
+    "wuhan_yueyang_system_campaign_stock_t": [
+      175000,
+      225000
+    ],
+    "immediately_forward_or_rapidly_drawable_t": [
+      55000,
+      75000
+    ],
+    "changsha_to_hengyang_continuation_required_flow_t_per_day": [
+      650,
+      850
+    ],
+    "minimum_truck_serviceability_pct": 70,
+    "all_ten_divisions_high_intensity_beyond_changsha_supported": false
+  },
+  "fifth_air_army": {
+    "china_total_physical": [
+      275,
+      325
+    ],
+    "china_total_mission_ready": [
+      205,
+      245
+    ],
+    "western_physical": [
+      90,
+      115
+    ],
+    "western_ready": [
+      68,
+      86
+    ],
+    "central_hunan_physical": [
+      175,
+      215
+    ],
+    "central_hunan_ready": [
+      130,
+      165
+    ],
+    "hunan_48_72h_surge_ready_aircraft_class": [
+      155,
+      190
+    ]
+  },
+  "operation_geometry": {
+    "phase_A": "Changsha_Xiangtan_airfield_denial_and_corridor_opening",
+    "phase_B": "Hengyang_conditional_on_logistics_and_enemy_response",
+    "phase_C": "Lingling_Kweilin_Liuchow_separate_decision_with_23d_Army_preparation",
+    "no_automatic_full_historical_ichigo": true
+  },
+  "launch_window": [
+    "1944-05-08",
+    "1944-05-12"
+  ],
+  "launch_center_local": "1944-05-10T05:00:00",
+  "clock_advanced": false,
+  "next_required_adjudication": "Late-April to D-day Chinese/Fourteenth Air Force detection and allocation reaction, then Changsha phase."
+}

@@ -1,0 +1,123 @@
+{
+  "revision": "v001",
+  "id": "TRUK_HAILSTONE_FIRST_FIGHTER_SWEEP_1944-02-20_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "date": "1944-02-20",
+  "scope": "Truk pre-raid air OOB, first ~70 F6F sweep, and immediate Avenger airfield-suppression follow-on only",
+  "pre_raid_truk_air_state": {
+    "physical_aircraft_band": [
+      118,
+      138
+    ],
+    "physical_center": 128,
+    "combat_serviceable_band": [
+      88,
+      104
+    ],
+    "combat_serviceable_center": 96,
+    "fighter_serviceable_band": [
+      58,
+      68
+    ],
+    "fighter_serviceable_center": 63,
+    "fighter_mix_working_center": {
+      "late_Zuisei_Zero_or_equivalent": 32,
+      "Raiden": 19,
+      "Kinsei_Zero": 6,
+      "Kyofu_or_other_low_alt_local_fighter": 6
+    },
+    "note": "Named-unit identity is not rewritten by the subtype overlay. Transit/nonessential aircraft were deliberately evacuated before the raid."
+  },
+  "readiness_at_dawn": {
+    "already_CAP_band": [
+      20,
+      24
+    ],
+    "five_minute_ready_band": [
+      14,
+      18
+    ],
+    "ten_to_fifteen_minute_ready_band": [
+      12,
+      16
+    ],
+    "fighters_engaged_during_first_sweep_band": [
+      48,
+      56
+    ],
+    "fighters_engaged_center": 52,
+    "usable_local_warning": "12-20 min after the raid becomes a local radar/visual track; strategic alert already active beforehand"
+  },
+  "US_first_sweep": {
+    "F6F_launch_band": [
+      68,
+      72
+    ],
+    "F6F_center": 70,
+    "source": "five fleet carriers; light carriers held mainly for CAP/reserve as in the historical concept",
+    "tactical_state": "organized high-speed sweep with superior radio/formation discipline, but without historical operational surprise"
+  },
+  "first_sweep_centered_losses": {
+    "Japan_airborne_irrecoverable_band": [
+      14,
+      18
+    ],
+    "Japan_airborne_irrecoverable_center": 16,
+    "Japan_airborne_damaged_recoverable_band": [
+      5,
+      8
+    ],
+    "Japan_ground_destroyed_band": [
+      5,
+      8
+    ],
+    "Japan_ground_destroyed_center": 6,
+    "US_F6F_irrecoverable_band": [
+      6,
+      9
+    ],
+    "US_F6F_irrecoverable_center": 7,
+    "US_F6F_damaged_band": [
+      8,
+      12
+    ],
+    "interpretation": "US tactical win, but no historical massacre. Japanese warning/height converts into a real exchange; US cohesion, F6F robustness and numbers still dominate."
+  },
+  "immediate_TBF_follow_on": {
+    "TBF_package": 18,
+    "US_TBF_irrecoverable_band": [
+      2,
+      3
+    ],
+    "US_TBF_damaged_band": [
+      2,
+      4
+    ],
+    "effects": [
+      "Eten/Param/Moen runway and dispersal areas receive meaningful cratering/fragmentation damage",
+      "one peripheral warning/communications or fire-direction element may be temporarily knocked out",
+      "core plot network and at least one precision AA fire-direction channel remain operational",
+      "additional Japanese parked-aircraft losses remain limited because dispersal was already ordered"
+    ]
+  },
+  "state_after_first_two_hours": {
+    "Japanese_fighters_serviceable_band": [
+      33,
+      41
+    ],
+    "Japanese_fighters_serviceable_center": 37,
+    "Japanese_immediately_turnable_after_refuel_rearm_band": [
+      18,
+      24
+    ],
+    "air_defense_system": "degraded but coherent; no longer fresh, not yet decapitated",
+    "US_irrecoverable_aircraft_cumulative_center": 9,
+    "operational_conclusion": "The first sweep clears enough space for the raid to continue, but does not erase Japanese fighter opposition. Subsequent US waves must now choose between shipping and deliberate suppression of the functioning Truk air-defense system."
+  },
+  "guards": [
+    "No US-style Japanese GCI is assumed.",
+    "No magical all-Raiden or all-Kinsei defense is created.",
+    "Raiden value is chiefly warning-enabled interception; it is not treated as a superior sustained dogfighter to the F6F.",
+    "The historical 40-aircraft ground massacre is not inherited because the Branch has already dispersed transit aircraft and maintained alert."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "package_revision": "v048",
+  "root_name": "計算機異聞_refactor_v048_2026-08-29_BRANCH_B_BENGAL_LAND_VEHICLE_ROLLBACK_WORKING_FULL",
+  "authority_time": "1944-01-01T00:00",
+  "authority_checkpoint": "CHECKPOINT_1943-12-31T24_BRANCH_B_v006",
+  "working_discussion_clock": "1944-02-06T18:00:00+12:00",
+  "clock_advance": false,
+  "authority_revision_advance": true,
+  "authority_change_scope": "Bengal/Arakan casualty, vehicle-loss classification, Chittagong entry-time and year-end regeneration correction; GALVANIC, naval/air allocation and authority timestamp unchanged",
+  "major_added_or_superseding_files": [
+    "06_RUNTIME/BENGAL_ARAKAN_CHITTAGONG_1943-10_12_SETTLEMENT_v002.md",
+    "06_RUNTIME/BENGAL_ARAKAN_LAND_VEHICLE_EVENT_LEDGER_1943-10_12_v001.json",
+    "06_RUNTIME/JAPANESE_LAND_COMBAT_INTEGRATED_SYNTHESIS_1932_1944_WORKING_v002.json",
+    "95_AUDIT/BENGAL_ARAKAN_LAND_VEHICLE_ROLLBACK_REAUDIT_2026-08-29_v001.md",
+    "06_RUNTIME/BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v005.md",
+    "06_RUNTIME/ALLIED_DEATH_TALLY_RETROACTIVE_LAND_HARDWARE_RESERVATION_1941_1944_WORKING_v003.json",
+    "05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v006.json",
+    "00_README/CURRENT_DISCUSSION_FRONTIER_v015.json",
+    "06_RUNTIME/PARALLEL_THEATER_STATE_1944-02-06T1800_WORKING_v002.json"
+  ],
+  "retro_accounting_policy": "GALVANIC Tarawa and Bengal/Arakan corrections executed independently; all other realized ground events remain reserved for event-local consolidated Allied death tally unless separately reopened.",
+  "file_count_pre_checksum": 933
+}

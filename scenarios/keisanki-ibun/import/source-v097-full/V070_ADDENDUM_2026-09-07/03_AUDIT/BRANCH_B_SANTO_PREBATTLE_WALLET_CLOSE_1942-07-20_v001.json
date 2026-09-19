@@ -1,0 +1,150 @@
+{
+  "status": "CLOSED_READY_FOR_D4",
+  "cut": "1942-07-20",
+  "D_day": "1942-07-27",
+  "japan": {
+    "submarines": {
+      "status": "CLOSED_PASS",
+      "core": [
+        "I-169",
+        "I-32",
+        "I-171",
+        "I-168",
+        "I-175"
+      ],
+      "late_reinforcement": [
+        "RO-33",
+        "RO-34"
+      ],
+      "D_day_effective_center": [
+        6,
+        7
+      ],
+      "rule": "Do not recall WIO boats merely to inflate Santo count."
+    },
+    "surface": {
+      "status": "CLOSED_PASS",
+      "battleship_core": [
+        "Kongo",
+        "Kirishima"
+      ],
+      "heavy_cruiser_core": [
+        "Atago",
+        "Takao",
+        "Maya",
+        "Suzuya",
+        "Kumano"
+      ],
+      "heavy_cruiser_reserve": [
+        "Myoko",
+        "Haguro"
+      ],
+      "light_cruiser_command_pool": [
+        "Nagara",
+        "Yura",
+        "Jintsu"
+      ],
+      "unique_DD_center": 20,
+      "DD_center": [
+        "Akigumo",
+        "Yugumo",
+        "Makigumo",
+        "Kazagumo",
+        "Urakaze",
+        "Isokaze",
+        "Tanikaze",
+        "Hamakaze",
+        "Hagikaze",
+        "Nowaki",
+        "Maikaze",
+        "Yukikaze",
+        "Tokitsukaze",
+        "Murasame",
+        "Samidare",
+        "Oyashio",
+        "Kuroshio",
+        "Asagumo",
+        "Minegumo",
+        "Hayashio"
+      ],
+      "excluded_from_center": {
+        "Yudachi": "MI sunk",
+        "Natsugumo": "MI sunk",
+        "Arashi": "MI repair uncertainty",
+        "Teruzuki": "not yet commissioned",
+        "Akizuki": "new/work-up; not required"
+      }
+    },
+    "oilers": {
+      "status": "CLOSED_PASS",
+      "named_hulls": [
+        "Nippon Maru",
+        "Kyokuto Maru",
+        "Shinkoku Maru",
+        "Toho Maru"
+      ],
+      "employment": "3 forward / 1 reserve",
+      "hull_equivalents": 4
+    },
+    "ground": {
+      "status": "CLOSED_PASS_FOR_PLANNING",
+      "booked_assault_center": 7200,
+      "booked_assault_band": [
+        6900,
+        7500
+      ],
+      "immediate_contingency_reserve_center": 1000,
+      "D_day_if_reserve_triggered_center": 8100,
+      "D_day_if_reserve_triggered_band": [
+        7800,
+        8400
+      ],
+      "assault_nucleus": "South Seas Detachment: 2-3 infantry battalion equivalents plus organic guns/support; do not assume zero PM casualties.",
+      "engineers": "15th Independent Engineer Regiment elements; RI/Buna requirement disappears in Branch after PM fall.",
+      "security_support": "SNLF/base-security + AA + communications + port/logistics + medical/sanitation.",
+      "contingency_reserve": "Yazawa/17th-Army FS battalion-equivalent pool; activate if Allied major reinforcement to Santo is confirmed.",
+      "PM_relief": "Aoba Detachment is assigned to PM relief/security role and is not counted in Santo assault headcount.",
+      "NC_reserve": "Kawaguchi main body remains a follow-on New Caledonia reserve; do not double-count in Santo."
+    },
+    "transports": {
+      "status": "CLOSED_PASS",
+      "main": [
+        "Kinryu Maru",
+        "Ryoyo Maru",
+        "Ayatosan Maru",
+        "Sasago Maru",
+        "Kazuura Maru",
+        "Myoko Maru"
+      ],
+      "reserve": [
+        "Yasukawa Maru"
+      ],
+      "note": "RI/Buna and superseded full-FS shipping demand is released; first-day lift benefits from accepted amphibious cargo/process improvements but no magical hull capacity is added."
+    }
+  },
+  "forward_nodes": {
+    "status": "CLOSED_FOR_D4_INPUT",
+    "model": "DISTRIBUTED_ISR_RECOVERY_CONCENTRATED_HEAVY_LOGISTICS",
+    "nodes": {
+      "Rabaul": "regional heavy logistics / repair / fuel / air-seaplane hub",
+      "Kavieng": "regional support hub; lighter than Rabaul",
+      "Port Moresby": "Branch-held land-air ISR/staging hub; not a substitute for Rabaul heavy naval logistics",
+      "Lae-Salamaua": "regional air/ISR node",
+      "Shortland-Faisi": "usable forward seaplane/anchorage node",
+      "Rekata Bay": "usable forward seaplane node",
+      "Tulagi-Gavutu": "usable but limited forward seaplane/anchorage node",
+      "Buka Passage": "construction/anchorage node; not a mature fighter base",
+      "Kieta": "light anchorage/construction/relay; immature",
+      "Gizo": "temporary anchorage/recon relay",
+      "Lunga": "airfield under construction; ISR/liaison/emergency utility only at cut date, not a mature combat airbase"
+    },
+    "suppression_tax": [
+      "reconnaissance sorties",
+      "strike sorties",
+      "CAP/escort sorties",
+      "ASW effort",
+      "route deviation",
+      "surface-ship days"
+    ]
+  }
+}

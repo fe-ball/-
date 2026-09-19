@@ -1,0 +1,46 @@
+{
+  "revision": "v001",
+  "purpose": "Generated event projection, not canonical truth.",
+  "inputs": [
+    "checkpoint_id",
+    "event_date",
+    "theater",
+    "event_type",
+    "participants/platforms",
+    "technical_baseline_revision"
+  ],
+  "required_domains": [
+    "AIR",
+    "AIRCREW",
+    "SURFACE",
+    "SUBMARINE",
+    "SENSOR_SEARCH",
+    "SIGINT_COMINT",
+    "BASE",
+    "MAINTENANCE_READINESS",
+    "LOGISTICS",
+    "DOCTRINE_LEARNING",
+    "INFORMATION_COMMAND"
+  ],
+  "domain_resolution_values": [
+    "ACTIVE",
+    "NO_RELEVANT_DELTA",
+    "NOT_YET_MATURE",
+    "UNKNOWN"
+  ],
+  "entry_fields": [
+    "tech_id",
+    "status_at_event",
+    "applicable_scope",
+    "what_changed",
+    "magnitude",
+    "causal_stage",
+    "combat_meaning",
+    "combines_with",
+    "nonlinear_effect",
+    "do_not_simplify_as",
+    "source_pointer"
+  ],
+  "block_condition": "Any required domain left UNKNOWN blocks final combat/event computation unless waiver_reason is recorded.",
+  "generation_rule": "Select TECH entries by date/domain/platform/theater; add checkpoint maturation deltas; never infer missing data as historical baseline silently."
+}

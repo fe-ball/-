@@ -1,0 +1,12 @@
+{
+  "version": "V19",
+  "base_zip": "ASAI-WORLDLINE-HANDOFF-2026-09-13-FULL-V18-WATER-SEAPLANE-SUBMARINE-SEIRAN-CONSOLIDATED.zip",
+  "inherited_files_in_source": 1030,
+  "pre_modification_extraction_hash_mismatches": [],
+  "intentionally_modified_inherited_files": [
+    "00-START-HERE-CURRENT.md"
+  ],
+  "new_current_layer": "87-CURRENT-2026-09-15-CHINA-PEACE-BARBAROSSA-HANDOFF-V19",
+  "history_clock": "1941-05-31 24:00",
+  "next_gate": "Barbarossa / Soviet Far East transfer audit"
+}

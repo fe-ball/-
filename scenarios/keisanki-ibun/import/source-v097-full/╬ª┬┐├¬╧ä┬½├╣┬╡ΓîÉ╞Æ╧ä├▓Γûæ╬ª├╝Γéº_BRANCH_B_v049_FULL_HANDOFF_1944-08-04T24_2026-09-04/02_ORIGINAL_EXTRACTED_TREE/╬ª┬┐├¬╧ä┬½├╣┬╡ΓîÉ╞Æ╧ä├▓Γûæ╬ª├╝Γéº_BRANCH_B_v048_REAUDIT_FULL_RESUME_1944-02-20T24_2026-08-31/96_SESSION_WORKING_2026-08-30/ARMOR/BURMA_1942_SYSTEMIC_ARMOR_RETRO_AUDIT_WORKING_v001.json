@@ -1,0 +1,92 @@
+{
+  "revision": "v001",
+  "id": "BURMA_1942_SYSTEMIC_ARMOR_RETRO_AUDIT_WORKING_v001",
+  "status": "WORKING_FIRST_PASS_NOT_CURRENT",
+  "method": "SYSTEMIC_COMBAT_EFFECT_ACCOUNTING_FOR_VEHICLE_RETRO_AUDITS_WORKING_v001",
+  "scope": "initial Thailand-Burma advance through Allied withdrawal across Chindwin, May 1942",
+  "historical_anchors": {
+    "early_detachment": "Before the March-April reinforcement, an understrength tank company from the 2nd Tank Regiment made the long overland approach; secondary OOB reconstructions say only a small reinforced platoon reached Pegu after heavy breakdown attrition.",
+    "Pegu_Payagyi": "7th Hussars records describe four Type95 destroyed plus another abandoned in one confused local action.",
+    "reinforcements": "US Army official history: 1st and 14th Tank Regiments arrived at Rangoon by sea during March-April.",
+    "14th_regiment_scale": "One contemporary-style OOB reconstruction gives 14th Tank Regiment 3 companies of 11 tanks + 3 HQ = 36 Type95 in 1942.",
+    "Allied_armor": "7th Armoured Brigade arrived with about 115 M3 Stuarts.",
+    "Allied_end_state": "Museum/regimental history: about 45 Stuarts were lost to enemy action/mechanical causes during the retreat; roughly 70 remaining were then destroyed/abandoned at the Chindwin, only one being taken across."
+  },
+  "early_overland_detachment_branch": {
+    "departure_physical_candidate_band": [
+      10,
+      15
+    ],
+    "hist_equivalent_reaching_Pegu_band": [
+      3,
+      5
+    ],
+    "branch_reaching_Pegu_band": [
+      6,
+      9
+    ],
+    "combat_result": "The extra reliability does not save this packet from Stuart overmatch; 4-7 are destroyed/abandoned/damaged in the Pegu phase. This is a canonical example of more sorties converting mechanical nonappearance into combat exposure."
+  },
+  "main_reinforcement_branch": {
+    "1st_plus_14th_physical_candidate_band": [
+      80,
+      95
+    ],
+    "serviceable_on_arrival_band": [
+      74,
+      88
+    ],
+    "note": "Exact 1st Regiment tank return remains open; 14th has the firmer ~36-tank anchor."
+  },
+  "first_pass_outcome": {
+    "combat_effective_tank_days_relative": "+12-22%",
+    "Japanese_irrecoverable_AFV_hist_equivalent_band": [
+      18,
+      30
+    ],
+    "Japanese_irrecoverable_AFV_branch_band": [
+      14,
+      24
+    ],
+    "Japanese_damaged_repairable_branch_band": [
+      28,
+      43
+    ],
+    "Japanese_personnel_KWM_delta": "-220 to -450",
+    "Allied_Chinese_personnel_KWM_delta": "+350 to +750",
+    "Allied_Stuart_final_national_loss_delta": "approximately 0; nearly the entire brigade tank park is lost/abandoned by campaign end anyway",
+    "Allied_Stuart_enemy_action_share_delta": "+5 to +9 tanks shifted from later abandonment/mechanical loss into earlier combat loss",
+    "additional_usable_captured_Stuarts_vs_hist_equivalent": "3-6"
+  },
+  "captured_Stuarts": {
+    "usable_pool_after_campaign_band": [
+      7,
+      12
+    ],
+    "center": 9,
+    "allocation": "Primarily Burma theater/14th Tank Regiment experiment and replacement use; not free national production."
+  },
+  "residual_by_mid_1942_working": {
+    "14th_Tank_Regiment_Japanese_tanks_physical_serviceable_band": [
+      28,
+      36
+    ],
+    "14th_captured_Stuart_serviceable_band": [
+      6,
+      10
+    ],
+    "1st_Tank_Regiment_Japanese_tanks_physical_serviceable_band": [
+      38,
+      48
+    ],
+    "1st_status": "Still tied to Burma/redeployment pipeline; historically reassigned to Kwantung Army roughly four months after the March assignment.",
+    "guard": "These are first-pass residual bands, not yet regiment-by-regiment archival returns."
+  },
+  "time_effect": "More consistent Japanese armored pressure clears some roadblocks a few hours faster cumulatively, but does not prevent the Allied strategic withdrawal pattern or change the Chindwin end-state.",
+  "Bengal_link": "The key downstream change is a somewhat healthier 14th Tank Regiment and a larger captured-Stuart pool in Burma. This does NOT automatically place a tank regiment at Chittagong; later theater allocation/terrain/road gates still apply.",
+  "confidence": {
+    "Allied_Stuart_end_state": "MEDIUM-HIGH",
+    "Japanese_regimental_residual": "LOW-MEDIUM",
+    "direction": "HIGH"
+  }
+}

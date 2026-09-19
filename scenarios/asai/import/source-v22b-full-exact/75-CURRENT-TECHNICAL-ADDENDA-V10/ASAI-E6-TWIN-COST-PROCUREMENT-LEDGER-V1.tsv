@@ -1,0 +1,26 @@
+item	variant/config	value_or_band	status	note
+engine_price_family_scale	E5 JF pair	66 kYen	COST-MODEL ANCHOR	33 kYen/engine aft-fan/JF analogue
+engine_price_family_scale	E6 JF pair	114 kYen	COST-MODEL ANCHOR	57 kYen/engine E6 aft-fan/JF
+engine_pair_delta	E6 JF vs E5 JF	+48 kYen; +72.7%	DERIVED	engine-only delta, not aircraft delta
+non_engine_twin_anchor	conventional twin	~98 kYen	COST-BRIDGE	158-60 or 170-72 from embedded airframe cost analogue
+E6_local_complexity_allowance	high-q/inlet/brake/QC	8-15 kYen	H->A COST ALLOWANCE	not an exact contract quote
+mission_equipment_allowance	common comparison	20-40 kYen	H->A COST ALLOWANCE	role dependent and substantially common
+mission_equipped_cost	E5 Twin JF	184-204 kYen; center ~194	H->A COST MODEL	family-scale comparison
+mission_equipped_cost	E6 Twin JF	240-267 kYen; center ~254	H->A COST MODEL	family-scale comparison
+whole_aircraft_premium	E6 JF vs E5 JF	~28-35%; center ~31%	DERIVED	correct procurement decision scale
+central_absolute_premium	E6 JF vs E5 JF	~60 kYen/aircraft	DERIVED	194 vs 254 kYen centers
+fuel_price	GT distillate	0.095 Yen/L	COST-MODEL ANCHOR	kerosene density ~0.8 kg/L
+fuel_value	E6 JF internal 0.90t	~107 Yen	DERIVED	~1125 L
+fuel_value	D320F usable pair	~58-60 Yen	DERIVED	490-505 kg usable
+fuel_value	internal + D320F	~165-167 Yen	DERIVED	logistics burden matters more than purchase money
+procurement_commitment	E6 Twin common airframe	144 firm-order class + 72 option	PLANNING REBASE	exact signing date/allocation remains replay-local
+1940_acceptance	E6 Twin J/JF combined	120-156; center ~144	PLANNING REBASE	actual monthly replay future
+1940_JF_share	E6 Twin	85-90%	PLANNING REBASE	main service block
+1940_J_share	E6 Twin	10-15%	PLANNING REBASE	specialized high-speed/high-altitude block
+1940_engine_packages	installed	240-312	DERIVED	2 per accepted aircraft
+1940_engine_packages	installed + 20-25% spares	~288-390	DERIVED	flight-grade package requirement
+Q1_acceptance	E6 Twin cumulative	18-24	PLANNING RAMP	lead service-production aircraft
+Q2_acceptance	E6 Twin cumulative	48-66	PLANNING RAMP	first normal service unit(s) possible after local gates
+Q3_acceptance	E6 Twin cumulative	84-114	PLANNING RAMP	production and unit conversion expanding
+Q4_acceptance	E6 Twin cumulative	120-156	PLANNING RAMP	1941 decision is expansion/mix, not first adoption
+E6_Single_1940	Single	service-production A/B under E6SINGLE1	SUPERSEDED-BY-E6SINGLE1	separate pure-J series; ~115-135kY / 96 firm+48 option / 84-108 accepted center ~96

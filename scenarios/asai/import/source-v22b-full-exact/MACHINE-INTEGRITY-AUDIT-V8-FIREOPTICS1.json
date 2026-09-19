@@ -1,0 +1,28 @@
+{
+  "package_state": "ACTIVE_COMBAT_REPLAY",
+  "current_checkpoint": "1939-06-27 24:00",
+  "next_gate": "1939-06-28 to 06-30 command restriction + Yasuoka readiness audit; then July opening attack",
+  "technical_overlay": "FIREOPTICS1",
+  "combat_overlay": "REPLAY3-NOMONHAN-A1",
+  "retains_overlay": [
+    "NAVAL1",
+    "IDENTITY1",
+    "EXHAUST1"
+  ],
+  "fire_control_chain_guard": true,
+  "fcs_states": [
+    "FCS0",
+    "FCS1",
+    "FCS2",
+    "FCS3",
+    "FCS4"
+  ],
+  "ki27_current_gunsight": "Type 89 telescopic / FCS1",
+  "ki27_reflector_retrofit_current": false,
+  "tamsag_bomb_concentration_delta": "5-8% effective target-area concentration; temporary ground/repair burden; no proportional permanent-kill bonus",
+  "total_files": 570,
+  "inventory_rows": 567,
+  "manifest_rows": 568,
+  "sha_targets": 568,
+  "manifest_verify_ok": true
+}

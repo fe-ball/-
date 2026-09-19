@@ -1,0 +1,37 @@
+topic	state	pointer_or_note
+history_clock	CLOSED	1942-08-31 24:00
+barbarossa	CLOSED	historical 1941-06-22 anchor retained
+continuation_war	CLOSED	war occurs; Finnish aims limited later
+south_indochina_1941	CLOSED	not occupied in branch
+matsuoka_konoe	CLOSED	Matsuoka removed Jul 1941; Konoe III continues past historical Oct crisis
+kantokuen	CLOSED/WORKING	continues and becomes reinforced standing posture
+kwantung_division_timeline	WORKING-CLOSE	13 -> 15 -> 17 -> 19; 21 target after Aug 1942 order
+kwantung_exact_1942_equipment	OPEN	new audit needed
+soviet_far_east_transfer_ledger	WORKING-CLOSE	unit-specific HOLD/GO logic established
+moscow_worldline_effect	WORKING-CLOSE	weaker Soviet density, Moscow still holds
+stalingrad_worldline_effect	WORKING	several historical Far-East reinforcements absent
+japan_us_war_1941	CLOSED	does not occur
+us_germany_war_1941	CLOSED	does not occur
+us_nonbelligerent_1942	CLOSED/current	formal nonbelligerency retained through current clock
+pacific_lend_lease	WORKING	monitor/assurances, no blockade
+japan_strategic_gates	CLOSED/PLANNING	HOLD active; N-OPP red; N-PREV yellow latent; N-ACC latent; S-COM active
+china_withdrawal	CURRENT	15-month center reached Aug 1942
+economy_peace_dividend	WORKING-CLOSE	fuel/shipping/imports improve before fiscal/labor/civilian relief
+carrier_force_1942	CURRENT	no historical Pacific losses; six large fleet carriers alive plus converted/light layer
+no800_carrier	CURRENT-PLANNING	Apr execution; detail design; keel date open
+additional_medium_carriers	GATED	Oct 1942 decision, not current history
+improved_taiho_801_802	CURRENT-PLANNING	separate armored-carrier line
+carrier_balance	WORKING-CLOSE	immediate 1942-43 adequate; 1944 risk
+catapult	GATED	CAT0/1/3 closed; CAT2/4/5/6 open
+marine_gt	WORKING-CLOSE	E6/E7 recuperation bands recorded
+combined_cycle	GATED	C0 closed; C1-C7 open
+high_pressure_steam	CURRENT-TECHNICAL	40/400 practical line; 50/450 advanced branch
+ideal_e7_leader	ANALYSIS-ONLY/design-study	no procurement
+africa	WORKING-REPLAY	Gazala Axis tactical success; Tobruk survives historical June rush
+madagascar	WORKING	not automatic
+operation_torch	CLOSED-at-clock	not available with US formal nonbelligerency
+eurasia_endstates	CURRENT-PLANNING	A-G outcome recognition framework
+leader_preferences	WORKING	political model, not objective truth
+german_postwar_spheres	NEXT-GATE	political audit
+us_uk_reaction_to_north	NEXT-GATE	political trigger audit
+chongqing_eurasia_balance	NEXT-GATE	political audit

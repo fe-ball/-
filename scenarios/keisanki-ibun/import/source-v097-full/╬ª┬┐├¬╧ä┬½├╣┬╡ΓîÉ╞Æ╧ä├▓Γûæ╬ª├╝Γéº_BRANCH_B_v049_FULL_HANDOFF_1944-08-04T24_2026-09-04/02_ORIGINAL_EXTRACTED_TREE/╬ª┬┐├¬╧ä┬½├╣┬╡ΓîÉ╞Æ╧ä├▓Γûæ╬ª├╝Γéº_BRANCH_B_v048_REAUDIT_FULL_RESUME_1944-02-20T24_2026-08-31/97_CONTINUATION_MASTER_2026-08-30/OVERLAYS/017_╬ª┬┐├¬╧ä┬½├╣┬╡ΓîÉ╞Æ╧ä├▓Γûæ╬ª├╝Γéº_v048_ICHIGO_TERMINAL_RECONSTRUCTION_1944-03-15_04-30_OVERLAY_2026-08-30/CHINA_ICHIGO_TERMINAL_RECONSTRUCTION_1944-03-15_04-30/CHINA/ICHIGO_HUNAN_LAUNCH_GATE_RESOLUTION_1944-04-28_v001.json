@@ -1,0 +1,34 @@
+{
+  "revision": "v001",
+  "id": "ICHIGO_HUNAN_LAUNCH_GATE_RESOLUTION_1944-04-28_v001",
+  "status": "AUTHORITATIVE_WORKING_BRANCH_DECISION_ADVANCES_CHINA_LOCAL_TIMELINE",
+  "decision_date": "1944-04-26..27",
+  "launch": "1944-04-28T05:00:00+09:00",
+  "global_frontier_after_merge": "1944-04-30T24:00:00+09:00",
+  "parents": [
+    "ICHIGO_HUNAN_TERMINAL_PREPARATION_WEEKLY_1944-03-15_04-28_WORKING_v001",
+    "CHINA_14AF_ICHIGO_DETECTION_INTERDICTION_1944-03-15_04-30_WORKING_v001",
+    "ICHIGO_DECISION_ORIGIN_AND_LAUNCH_GATE_REOPEN_1943-11_1944-04-30_v002"
+  ],
+  "supersedes_timing_authority": {
+    "old_may_08_12_window": "REVOKED",
+    "old_may_10_center": "REVOKED",
+    "old_1944-05-27_local_forward": "REFERENCE_ONLY"
+  },
+  "decision_gate": {
+    "physical_capability": "PASS: ten-division Hunan package exists; six division-equivalents can carry the first echelon while the rest follow/cover/flank.",
+    "command_release": "PASS: operation formally authorized since January-equivalent branch policy process; no full Honan phase must finish first.",
+    "operational_slack": "PASS WITH RESERVE: 60th Division remains theater reserve; western 36th/41st/17th commitment is not stripped.",
+    "logistics": "PASS 26 Apr: campaign stock 162-205kt, immediate 50-68kt, serviceable motor pool 5.4-6.5k, 8-11 engineer/bridging battalion-equivalents and 2-3 rail-repair groups positioned.",
+    "air": "PASS: central Hunan 145-180 ready with 175-205 short surge; western pressure remains credible.",
+    "information_security": "FAIL FOR STRATEGIC SURPRISE / PASS FOR TACTICAL_HOUR: enemy understands Changsha/Hunan danger but does not know exact H-hour or axis sequencing.",
+    "opportunity_cost": "ACCEPTABLE: China package is already assembled and delaying after detection adds interdiction exposure without materially improving the Pacific premium-resource position."
+  },
+  "why_28Apr_not_26Apr": "The terminal numbers robustly cross on 26 Apr; roughly 36-48 hours are retained for final artillery/engineer movement from dispersed holding areas, issue of H-hour orders, traffic sequencing and first-wave air preparation. No extra week is purchased merely for a round calendar date.",
+  "western_air_pressure_relation": "The existing late-April Chengdu/Matterhorn pressure is retained as a real western allocation tax. It may complicate Allied air allocation, but is not promoted into a fictional perfect diversion or required cause of Hunan success.",
+  "operation_identity": "STAGED_HUNAN_CENTRIC_NO1_EQUIVALENT",
+  "phase_A": "Yueyang/Pailiuchi -> northern Hunan -> Changsha/Xiangtan",
+  "phase_B": "Hengyang remains conditional on post-Changsha logistics/enemy response.",
+  "phase_C": "Lingling/Guilin/Liuzhou remains separate reauthorization.",
+  "sichuan": "NO_DEEP_PURSUIT"
+}

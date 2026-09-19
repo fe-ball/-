@@ -1,0 +1,21 @@
+{
+  "revision": "v001",
+  "id": "PACIFIC_FLEET_POSTURE_1944-03-08T24_WORKING_v001",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_CURRENT_OVERLAY",
+  "as_of": "1944-03-08T24:00:00+09:00",
+  "global_frontier": "1944-03-08T24",
+  "Japan": {
+    "carrier_core": "Shokaku/Zuikaku/Hiryu/Soryu all physically/deck operational; integrated combat-ready carrier air 230-260 working band, still cadre-constrained.",
+    "Taiho": "Feb-completed Branch hull, early work-up C-/C; no synchronized fleet-strike credit yet.",
+    "surface": "11 BB physical, about 18 CA center, 21 CL physical; modern fleet-DD line materially healthier than historical. Raw hull depth is not the limiting variable.",
+    "decision": "Concentrate/train on western Philippines-Davao/Borneo axis, preserve reaction geometry to Palau/Marianas, use land air/submarines/ISR for pressure, fight only on a favorable fixed-target/contact gate."
+  },
+  "US": {
+    "immediate_fast_carriers": "5 CV + 5 CVL combat decks centered on 8 Mar; Lexington/Cabot/Independence remain outside immediate pool.",
+    "repair_pipeline": "Lexington expected back mid/late Mar; Cabot early-May centered; Independence late-Jul centered.",
+    "new_build_pipeline": "Hornet CV-12 near-term; Bataan CVL-29, CV-18-equivalent (provisional Oriskany because CV-7 survives), and San Jacinto CVL-30 were omitted from branch ledger and are now restored as future—not 8-Mar combat—hulls.",
+    "surface": "eight fast battleships from the Jan/Feb TF58 structure remain operational; Feb3/HAILSTONE created no fast-BB mission kill."
+  },
+  "Indian_Ocean_Bengal": "Finish INITIAL on its existing clock, then background-freeze if no naval or land trigger opens.",
+  "next_active_question": "From 9 Mar onward, track US reinforcement arrivals and Japanese carrier-air/Taiho work-up weekly. Reopen a fleet combat decision when US operational geometry becomes fixed (major raid/amphibious movement) rather than advancing historical operations automatically."
+}

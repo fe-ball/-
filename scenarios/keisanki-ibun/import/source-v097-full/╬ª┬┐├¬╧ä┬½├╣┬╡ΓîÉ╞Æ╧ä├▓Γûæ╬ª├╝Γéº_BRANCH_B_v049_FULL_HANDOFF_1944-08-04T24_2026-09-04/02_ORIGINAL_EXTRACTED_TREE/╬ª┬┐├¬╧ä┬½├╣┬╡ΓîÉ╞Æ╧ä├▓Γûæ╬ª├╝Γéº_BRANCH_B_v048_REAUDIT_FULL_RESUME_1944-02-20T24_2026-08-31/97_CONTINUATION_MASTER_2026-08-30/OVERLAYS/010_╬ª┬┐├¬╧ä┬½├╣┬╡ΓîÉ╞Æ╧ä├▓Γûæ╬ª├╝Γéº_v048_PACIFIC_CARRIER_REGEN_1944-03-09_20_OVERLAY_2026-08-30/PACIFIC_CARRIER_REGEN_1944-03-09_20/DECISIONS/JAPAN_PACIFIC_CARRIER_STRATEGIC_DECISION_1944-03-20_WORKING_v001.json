@@ -1,0 +1,38 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_PACIFIC_CARRIER_STRATEGIC_DECISION_1944-03-20_WORKING_v001",
+  "status": "WORKING_BRANCH_DECISION",
+  "decision_time": "1944-03-20T24:00:00+09:00",
+  "parents": [
+    "JAPAN_PACIFIC_FLEET_STRATEGIC_DECISION_1944-03-08_WORKING_v001",
+    "JAPAN_CARRIER_AIR_REGENERATION_LEDGER_1944-03-08_20_WORKING_v001",
+    "TAIHO_WORKUP_AND_CARRIER_CADRE_ACCELERATION_1944-03-08_20_WORKING_v001",
+    "US_FAST_CARRIER_REINFORCEMENT_1944-03-09_20_WORKING_v001"
+  ],
+  "decision_gate": {
+    "four_core_recovery": "PASS_FOR_DEFENSIVE_COUNTERSTROKE; 250-278 ready, 150-184 synchronized one-cycle package centered.",
+    "Taiho": "PARTIAL; C+/B-, 40-52 ready and limited independent combat, but not fifth synchronized strike deck.",
+    "US_deck_window": "CLOSED; 7 CV + 5 CVL immediate pool by 20 Mar centered after Lexington/Hornet return.",
+    "surface_strength": "PASS; Japanese BB/CA/DD depth remains strong, but not enough to negate US air/radar/AA system in open water.",
+    "fuel_and_basing": "PASS_FOR_SOUTHERN_CONCENTRATION; FAIL_FOR_LONG_EASTWARD_HUNT.",
+    "information": "No fixed US amphibious target yet; searching east for TF58 remains negative-EV."
+  },
+  "main_decision": "CONTINUE_REGENERATION_AND_FORWARD_REACTION_POSTURE; DO_NOT_CHASE_TF58. Prepare to counter a fixed US raid/amphibious geometry in the western Carolines/Palau/Marianas system.",
+  "orders_20Mar": {
+    "four_core": "Keep Shokaku/Zuikaku/Hiryu/Soryu concentrated as one combat-training system on the Davao-Celebes Sea/Tarakan support axis, rotating anchorages and sea-training areas rather than fixing the whole force in one harbor.",
+    "Taiho": "Finish home-area work-up; prepare southward release after 21-25 Mar gate. Do not rush into an eastward combat sortie merely to exploit a US weakness that has now closed.",
+    "secondary_carriers": "Continue qualification/ferry/replacement-absorption role. Preserve a separate limited combat reserve but do not drain instructors to make every hull nominally full.",
+    "Palau": "Treat as forward ISR/air/repair node and tripwire, not a safe Combined-Fleet mass anchorage after the Truk lesson. Begin reducing nonessential high-value ship/tanker loiter time and maintain rapid-dispersal plans without pretending knowledge of a 30-Mar raid.",
+    "land_air_submarines": "Use K706/other land-based air, submarines, flying boats/seaplanes and pickets to detect TF58 movement. Their job is to create the fresh track that releases the fleet, not to win the campaign alone.",
+    "surface_reserve": "Keep heavy units on southern fuel axis for a fixed landing/fire-support target or a damaged/detached US group; no independent commerce raid and no blind eastward sweep."
+  },
+  "release_gate": [
+    "multi-source fresh US carrier/transport track",
+    "US mission geometry fixed by raid/landing/support requirement",
+    "four-core strike cohesion maintained after transit",
+    "Taiho integration credit counted separately unless its synchronization gate has passed",
+    "tanker/egress plan viable",
+    "expected gain includes high-value US carrier/transport/fire-support mission kills"
+  ],
+  "strategic_read": "Japan has used the early-March breathing space productively: the four-core is substantially healthier and Taiho is becoming useful. But the US reinforcement curve has caught up faster than Japan can create a fully integrated fifth deck, so the rational next move remains ambush/counterstroke rather than initiative-seeking fleet battle."
+}

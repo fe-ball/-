@@ -1,0 +1,9 @@
+GALVANIC 1943-11-27 WORKING RERUN — PROVENANCE / GUARDS
+
+Semantic base: Branch B v048 canonical package plus the current pre-GALVANIC fortification, airbase-hardening, secondary-carrier, Tarawa 11/24-25 and integrated 11/26 working rerun chain.
+
+Old GALVANIC v004 named outcomes are comparison/provenance only where causally reopened. In particular: Makin as automatic surface-raid target, USS Franks DD-554 sinking, USS Pierce APA-50 torpedo damage and I-175 heavy damage are NOT inherited automatically.
+
+Key correction this step: the four-destroyer immediate Type-93 first salvo is centered at 24 torpedoes based on actual ready launch tubes (Hatsuzuki 4 + Suzutsuki 4 + Hamakaze 8 + Fujinami 8). Branch reload/second-salvo improvement is real, but a stand-off group that turns away under SG contact does not have the time/geometry to earn the reload multiplier.
+
+Natural-US rule: US reacts to observed carrier/scout/surface-threat evidence with denser radar screens, emergency maneuver and ASW/CAP reallocations, but does not receive exact Japanese intent or perfect target identification.

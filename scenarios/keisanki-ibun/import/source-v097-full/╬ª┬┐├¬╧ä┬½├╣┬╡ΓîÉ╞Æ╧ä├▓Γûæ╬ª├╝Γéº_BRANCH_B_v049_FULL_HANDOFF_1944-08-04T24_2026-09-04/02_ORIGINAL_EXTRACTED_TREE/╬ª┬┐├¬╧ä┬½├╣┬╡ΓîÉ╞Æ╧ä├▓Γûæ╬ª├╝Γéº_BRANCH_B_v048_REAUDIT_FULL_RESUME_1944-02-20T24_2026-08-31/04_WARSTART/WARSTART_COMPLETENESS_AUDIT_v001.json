@@ -1,0 +1,109 @@
+{
+  "revision": "v001",
+  "checkpoint": "WARSTART_1941-12-07_08_v004",
+  "result": "PASS_READY_WITH_EXPLICIT_BOUNDS",
+  "principle": "Completeness means every battle-significant opening domain has an explicit state or explicit bounded/conditional/unknown field; it does not mean every field is forced to a point estimate.",
+  "domains": [
+    {
+      "domain": "AIR_FORCE_POOL",
+      "state": "BOUNDED",
+      "execution_blocking": false,
+      "closure": "state carried as documented"
+    },
+    {
+      "domain": "CARRIER_AIR",
+      "state": "BOUNDED",
+      "execution_blocking": false,
+      "closure": "state carried as documented"
+    },
+    {
+      "domain": "AIR_OPENING_TYPES",
+      "state": "BOUNDED",
+      "execution_blocking": false,
+      "closure": "state carried as documented"
+    },
+    {
+      "domain": "AIR_WEAPON_EFFECT",
+      "state": "BOUNDED",
+      "execution_blocking": false,
+      "closure": "state carried as documented"
+    },
+    {
+      "domain": "SURFACE_FLEET",
+      "state": "BOUNDED_EVENT_RESOLUTION_REQUIRED",
+      "execution_blocking": false,
+      "closure": "Global opening can run; any event requiring a named hull must resolve commissioned/location/mechanical/fuel/ammo/crew/assignment from individual evidence before use."
+    },
+    {
+      "domain": "SUBMARINE",
+      "state": "BOUNDED_DETAILED_OOB_AVAILABLE",
+      "execution_blocking": false,
+      "closure": "Formation/mission availability is indexed; unresolved individual fields stay explicit and are not converted to nominal-roster strength."
+    },
+    {
+      "domain": "LOGISTICS",
+      "state": "BOUNDED",
+      "execution_blocking": false,
+      "closure": "state carried as documented"
+    },
+    {
+      "domain": "AMPHIBIOUS",
+      "state": "CONDITIONAL",
+      "execution_blocking": false,
+      "closure": "state carried as documented"
+    },
+    {
+      "domain": "ASW",
+      "state": "CONDITIONAL",
+      "execution_blocking": false,
+      "closure": "state carried as documented"
+    },
+    {
+      "domain": "SENSOR_SEARCH",
+      "state": "CONDITIONAL",
+      "execution_blocking": false,
+      "closure": "state carried as documented"
+    },
+    {
+      "domain": "SIGINT_COMINT",
+      "state": "BOUNDED",
+      "execution_blocking": false,
+      "closure": "state carried as documented"
+    },
+    {
+      "domain": "PERSONNEL_AND_SOFT",
+      "state": "BOUNDED_TRACKING_CLOSED_COUNTS_PARTIAL",
+      "execution_blocking": false,
+      "closure": "Tracking dimensions are closed from opening. Exact cohort counts remain bounded where source data are absent; no point-estimate invention."
+    }
+  ],
+  "previous_priority_gaps_disposition": [
+    {
+      "gap": "surface individual availability",
+      "disposition": "closed procedurally: detailed hull resolution is mandatory per event; no fleet-wide nominal assumption"
+    },
+    {
+      "gap": "air weapon magnitudes",
+      "disposition": "retained as provisional_center sensitivity bands, not falsely promoted"
+    },
+    {
+      "gap": "ASW equipment-by-ship",
+      "disposition": "conditional fielding resolution required per host/date; no fleet-wide assumption"
+    },
+    {
+      "gap": "radar-by-ship",
+      "disposition": "conditional fielding resolution required per event/date; opening precursor does not imply fleet-wide radar"
+    },
+    {
+      "gap": "personnel/unit exact counts",
+      "disposition": "closed as explicit bounded uncertainty with mandatory cohort tracking; no point-estimate invention"
+    }
+  ],
+  "blocking_unknowns": [],
+  "event_specific_resolution_required": [
+    "named surface hull availability",
+    "host-by-host radar/ASW equipment fielding",
+    "unit-level personnel/serviceability where an event outcome is sensitive to it"
+  ],
+  "ledger": "WARSTART_STATE_LEDGER_v002.json"
+}

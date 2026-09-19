@@ -1,0 +1,5 @@
+date	program	event	result	current_state
+1939-04-29	E6 Twin No.1	first airframe flight on permitted interim/known propulsion	PASS basic airframe/gear/control; no E6-M performance claim	1 flying airframe; E6-M-J package still Jun-Jul target
+1939-05-04	HS-2	first flight on E6-S-J ~475 kgf standard point	PASS initial release; M<~0.45; calibration/trim corrections only	1 flying HS-2; M0.50-0.60 calibration/overlap next
+1939-05-10	E6 Single	build/integration update	no first flight	~90-95% integration; late-May/Jun target
+1939-05-10	E6 Twin No.2	build update	no completion	comparative airframe remains in assembly/fabrication

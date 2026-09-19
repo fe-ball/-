@@ -1,0 +1,28 @@
+{
+  "revision": "v001",
+  "id": "MARIANAS_FOCUS_1944-06-15_MANIFEST_v001",
+  "status": "OVERLAY_MANIFEST",
+  "load_after": [
+    "計算機異聞_v048_MARIANAS_1944-06-14_OVERLAY_2026-08-30.zip"
+  ],
+  "clock_from": "1944-06-14T24",
+  "clock_to": "1944-06-15T24",
+  "primary_theater": "MARIANAS",
+  "active_files": [
+    "PACIFIC/US_SUBMARINE_RECONTACT_AND_SPRUANCE_POSTURE_1944-06-15_WORKING_v001.json",
+    "PACIFIC/JAPAN_SIXTH_FLEET_SUBMARINE_ISR_1944-06-15_WORKING_v001.json",
+    "PACIFIC/US_TF58_AND_AMPHIBIOUS_POSTURE_1944-06-15_WORKING_v001.json",
+    "PACIFIC/SAIPAN_DDAY_GROUND_AND_ARMOR_1944-06-15_WORKING_v001.json",
+    "PACIFIC/JAPAN_MARIANAS_AIR_DDAY_REACTION_1944-06-15_WORKING_v001.json",
+    "PACIFIC/JAPAN_MOBILE_FLEET_MOVEMENT_AND_SEARCH_1944-06-15_WORKING_v001.json",
+    "STATE/MARIANAS_PRIMARY_STATE_1944-06-15T24_WORKING_v001.json"
+  ],
+  "guards": [
+    "US submarine reports are strategic/operational contact, not continuous weapon-quality shadowing; improved Japanese ASW reduces shadow time.",
+    "Branch high-grade Japanese COMSEC blocks the historical default of exact submarine patrol-line coordinates being read from high-grade traffic. US DF/traffic analysis/radar/air-ASW remain active.",
+    "Saipan opening armor uses the named 9th Tank Regiment re-audit: 57-64 ready armored vehicles including a materially larger Shinhoto Type 97 share; no Chi-He or 75mm stopgap appears.",
+    "No A7M is in combat. Five-carrier and secondary-carrier aircraft ledgers remain separate.",
+    "D-Day does not auto-trigger the 16/17 June regiment-scale tank counterattack; that command/doctrine gate remains for the next night.",
+    "One US fast-carrier task group may conduct Bonins suppression; the branch does not automatically send two task groups north after the 14-15 Jun submarine warning."
+  ]
+}

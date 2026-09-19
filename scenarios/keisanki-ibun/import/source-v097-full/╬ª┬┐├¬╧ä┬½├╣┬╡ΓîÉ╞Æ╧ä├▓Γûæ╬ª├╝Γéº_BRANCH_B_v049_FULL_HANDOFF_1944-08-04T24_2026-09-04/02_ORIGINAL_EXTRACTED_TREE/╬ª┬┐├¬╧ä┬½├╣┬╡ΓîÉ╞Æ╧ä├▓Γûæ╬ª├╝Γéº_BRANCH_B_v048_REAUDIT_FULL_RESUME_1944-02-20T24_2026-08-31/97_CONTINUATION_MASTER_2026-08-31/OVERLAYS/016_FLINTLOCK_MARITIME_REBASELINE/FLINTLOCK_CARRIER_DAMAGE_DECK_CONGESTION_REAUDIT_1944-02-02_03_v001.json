@@ -1,0 +1,29 @@
+{
+  "id": "FLINTLOCK_CARRIER_DAMAGE_DECK_CONGESTION_REAUDIT_1944-02-02_03_v001",
+  "status": "WORKING_DAMAGE_CLOCK_NOT_CANONICAL",
+  "rules": [
+    "damage geometry, ship mobility, deck function and air-group readiness are separate clocks",
+    "historical repair cases are analogues only"
+  ],
+  "Cabot_CVL28": {
+    "centered_damage": "One aerial torpedo; severe enough for campaign mission kill but not sinking.",
+    "2Feb_evening": "Flooding/fire controlled centered; withdrawal speed roughly 17-20 kt with 2-3 escort destroyer-class slots.",
+    "flight_deck": "No normal combat cycle. Airborne survivors cross-deck; remaining flyable aircraft are not assumed instantly transferable.",
+    "immediate_risk": "Probable eastward withdrawal corridor is a plausible Japanese submarine cripple-hunt target.",
+    "return_band": "late April to mid-May full fast-carrier service centered early May unless later survey changes damage geometry."
+  },
+  "Intrepid_CV11": {
+    "centered_damage": "One bomb plus splinter damage; propulsion/steering/major fuel systems intact centered.",
+    "limited_ops": "2-Feb late afternoon/evening",
+    "near_normal_cycle": "3-Feb 02:00-07:00 centered after night inspection/patching",
+    "constraint": "Air-group losses, crew fatigue and cross-deck congestion remain even after deck repair."
+  },
+  "Hiryu": {
+    "centered_damage": "One bomb plus damaging near miss; flight operations suspended, propulsion/waterline retained.",
+    "underway": "Stays with protected carrier formation through the daylight danger period; emergency deck clearing/shoring during withdrawal.",
+    "Truk_or_forward_repair_arrival_band": "4-Feb late through 5-Feb",
+    "emergency_recovery_or_ferry_band": "7-Feb through 10-Feb",
+    "limited_combat_deck_band": "10-Feb through 15-Feb",
+    "carrier_team_gate": "late Feb centered; lost attack leaders/navigators are not repaired with deck plate."
+  }
+}

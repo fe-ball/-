@@ -1,0 +1,43 @@
+{
+  "revision": "v001",
+  "id": "HUNAN_NODE_TRANSFER_STATE_1944-06-05_WORKING_v001",
+  "status": "WORKING_NODE_NETWORK_STATE",
+  "as_of": "1944-06-05T24:00:00+09:00",
+  "parents": [
+    "CHANGSHA_NODE_TRANSFER_1944-05-19_24_WORKING_v001",
+    "NANJING_CHANGSHA_ADMIN_SECURITY_TRANSFER_1944-05-19_24_WORKING_v001",
+    "ICHIGO_HENGYANG_APPROACH_1944-05-25_06-05_WORKING_v001"
+  ],
+  "nodes": {
+    "Changsha_Xiangtan": {
+      "physical_control": "JAPANESE/NANJING-ASSISTED",
+      "rail_road": "PARTIAL_TO_MODERATE through capacity; military trains/columns usable with recurring 14AF damage and repair windows",
+      "river": "usable mainly by staged/night movement; not frictionless",
+      "air": "fighter/recon tactical operations routine; medium/heavy sustained basing still below mature-node standard",
+      "administration": "municipal/police/registry/rail security increasingly transferred to Nanjing cadres under Japanese key-node control",
+      "economic_extraction": "LOW_TO_MODERATE; market/tax functions resume but sabotage, evacuation and requisition damage suppress immediate yield"
+    },
+    "Hengyang": {
+      "city_command_rail": "CHINESE_HELD",
+      "airfield": "JAPANESE_PHYSICAL_CONTROL_CENTERLINE_BY_4_5_JUN_BUT_DENIED/DAMAGED; no normal medium-bomber credit",
+      "Chinese_rewire": "IX War Area and Fourteenth Air Force support functions shift further to Leiyang/Lingling/Kweilin/Chenzhou depth; rail stores and communications are progressively pulled south",
+      "Japanese_use": "outer road/rail interdiction and artillery observation improve, but the decisive junction is not transferred until city defense is broken"
+    }
+  },
+  "Nanjing_rear_security": {
+    "Yueyang_north_Hunan_Changsha_Xiangtan_total_band": [
+      40000,
+      52000
+    ],
+    "Changsha_Xiangtan_direct_band": [
+      14000,
+      20000
+    ],
+    "Japanese_static_duty_released_division_equivalent_band": [
+      1.4,
+      1.8
+    ],
+    "limit": "Rear-security substitution enables the advance but does not eliminate Japanese responsibility for bridges, depots, airfields and mobile anti-guerrilla reserves."
+  },
+  "network_interpretation": "The campaign is transferring transport/air/admin/fiscal nodes in layers. Chinese loss of Changsha is now operationally real, but the southern network has been rewired rather than collapsed."
+}

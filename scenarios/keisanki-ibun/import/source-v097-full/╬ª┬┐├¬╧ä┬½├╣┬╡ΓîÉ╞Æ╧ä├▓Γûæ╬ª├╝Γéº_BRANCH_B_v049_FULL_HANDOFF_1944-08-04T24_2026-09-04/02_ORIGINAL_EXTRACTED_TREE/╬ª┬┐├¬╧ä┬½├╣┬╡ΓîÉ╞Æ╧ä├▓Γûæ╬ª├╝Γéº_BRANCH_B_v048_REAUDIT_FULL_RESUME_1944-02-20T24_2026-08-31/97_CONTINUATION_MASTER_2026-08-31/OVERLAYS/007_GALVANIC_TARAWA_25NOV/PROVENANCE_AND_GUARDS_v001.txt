@@ -1,0 +1,8 @@
+PRECEDENCE / BRANCH GUARDS
+- Semantic base: Branch B v048.
+- Direct predecessor: GALVANIC_PASS_A_B_DDAY_REAUDIT_1943-11-24_WORKING.
+- Old GALVANIC settlement v004 is comparison/provenance only for nodes reopened here.
+- No Second-Midway branch import.
+- No 1944 aircraft/fortification maturity back-port.
+- Bengal carrier hull commitment remains zero.
+- User direction: from Tarawa forward, natural US adaptation is mandatory; no fixed blind-US Pass A as canonical behavior.

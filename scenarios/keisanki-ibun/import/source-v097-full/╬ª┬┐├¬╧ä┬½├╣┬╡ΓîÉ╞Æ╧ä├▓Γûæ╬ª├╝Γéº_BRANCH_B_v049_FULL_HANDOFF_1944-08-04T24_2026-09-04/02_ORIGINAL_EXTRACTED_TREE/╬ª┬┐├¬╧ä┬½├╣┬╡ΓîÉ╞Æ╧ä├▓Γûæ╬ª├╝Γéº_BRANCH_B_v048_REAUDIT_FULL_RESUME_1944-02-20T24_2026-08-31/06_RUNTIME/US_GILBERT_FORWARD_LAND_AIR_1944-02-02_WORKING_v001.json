@@ -1,0 +1,85 @@
+{
+  "revision": "v001",
+  "id": "US_GILBERT_FORWARD_LAND_AIR_1944-02-02_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-02-02",
+  "purpose": "Close the Gilbert-based land-air and patrol contribution that v039 omitted from the first FLINTLOCK-equivalent suppression calculation.",
+  "historical_anchor": {
+    "end_Jan_total": 365,
+    "bombing_group": 137,
+    "fighter_group": 130,
+    "search_patrol_group": 98,
+    "composition": "B-24/B-25/A-24; P-39/P-40/F6F; PBY/PBM/PB4Y/PV respectively.",
+    "Tarawa_specific": "NHHC notes 44 Navy fighters, 7 Catalinas and 49 bombers at Tarawa, with B-24s staging there for Marshall strikes."
+  },
+  "branch_adjustment": {
+    "assigned_or_staging_band": [
+      350,
+      370
+    ],
+    "assigned_center": 365,
+    "mission_ready_band": [
+      300,
+      325
+    ],
+    "mission_ready_center": 312,
+    "reason": "Branch Gilbert capture is only days later than historical and FLINTLOCK-equivalent is also days later; by 2 Feb the construction clocks largely re-converge. GALVANIC fast-carrier losses do not erase Seabee/runway/base-force growth."
+  },
+  "range_role_split": [
+    {
+      "role": "northern/central heavy-medium bombing",
+      "types": "B-24 primarily, selected B-25",
+      "targets": "Maloelap/Taroa, Wotje, Kwajalein/Roi depending load, weather and base",
+      "first_morning_sorties_band": [
+        16,
+        24
+      ],
+      "center": 20
+    },
+    {
+      "role": "southern suppression",
+      "types": "A-24, P-39, P-40, selected B-25",
+      "targets": "Mili/Jaluit and southern staging nodes",
+      "first_morning_sorties_band": [
+        20,
+        28
+      ],
+      "center": 24
+    },
+    {
+      "role": "search/photo/ASW/Dumbo/contact confirmation",
+      "types": "PBY/PBM/PB4Y/PV",
+      "targets": "approach corridors, Japanese submarine lanes, base photography, rescue tracks",
+      "first_morning_sorties_band": [
+        10,
+        16
+      ],
+      "center": 13
+    },
+    {
+      "role": "base defense/standby",
+      "types": "many Gilbert F6F/P-39/P-40",
+      "rule": "Not projected to Roi/Taroa merely because physically present; northern distances and fuel reserve matter."
+    }
+  ],
+  "first_morning_total_relevant_sorties_band": [
+    48,
+    68
+  ],
+  "first_morning_center": 57,
+  "not_a_multiplier": [
+    "Do not add 365 to TF58 610.",
+    "Do not count patrol sorties as strike sorties.",
+    "Do not give Tarawa base-defense fighters a 580-nmi outbound northern-Marshall fighter sweep without a specific tank/range plan.",
+    "Land-air pressure can split Japanese attention and suppress outer bases, but TF58 still carries the decisive fighter-sweep/precision-airfield suppression against Taroa/Roi."
+  ],
+  "water_air_support": "See MARSHALL_WATER_AVIATION_NETWORK_1944-02-02_WORKING_v001; PBY/PBM/tenders improve search, rescue, ASW and sustained patrol availability rather than becoming another bombing group.",
+  "external_sources": {
+    "NHHC_HGram0261": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-026/h-026-1.html",
+    "NHHC_Assault_Kwajalein_Part1": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/a/the-assault-on-kwajalein-and-majuro-part-one.html",
+    "NHHC_Building_Bases_Central_Pacific": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/building-the-navys-bases/buidling-navys-bases-vol-2-chapter-26.html",
+    "NHHC_Curtiss_AV4": "https://www.history.navy.mil/research/histories/ship-histories/danfs/c/curtiss-av-4.html",
+    "NHHC_Mackinac_AVP13": "https://www.history.navy.mil/research/histories/ship-histories/danfs/m/mackinac-ii.html",
+    "NHHC_VP72": "https://www.history.navy.mil/content/dam/nhhc/research/histories/naval-aviation/dictionary-of-american-naval-aviation-squadrons-volume-2/pdfs/chap3-6.pdf"
+  }
+}

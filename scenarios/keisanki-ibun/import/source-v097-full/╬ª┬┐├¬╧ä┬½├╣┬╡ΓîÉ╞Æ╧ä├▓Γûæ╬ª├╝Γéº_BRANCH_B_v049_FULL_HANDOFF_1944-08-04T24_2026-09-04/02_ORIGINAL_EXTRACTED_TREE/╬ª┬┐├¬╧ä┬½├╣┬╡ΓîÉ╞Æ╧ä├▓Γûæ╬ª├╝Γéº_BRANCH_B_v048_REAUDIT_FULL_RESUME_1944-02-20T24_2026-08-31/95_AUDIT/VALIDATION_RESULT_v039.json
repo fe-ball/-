@@ -1,0 +1,9 @@
+{
+  "package_revision": "v039",
+  "ERRORS": 0,
+  "WARNINGS": 0,
+  "JSON_FILES": 394,
+  "errors": [],
+  "warnings": [],
+  "note": "Focused v039 validation: all JSON parse, authority unchanged, new recontact/night-strike/first-suppression/carrier-holding/post-air-state files present. Legacy validators retained unchanged."
+}

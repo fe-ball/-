@@ -1,0 +1,20 @@
+{
+  "revision": "v002",
+  "id": "PARALLEL_THEATER_STATE_1944-02-02T0930_WORKING_v002",
+  "status": "WORKING_NOT_CURRENT",
+  "as_of": "1944-02-02T09:30:00+12:00",
+  "supersedes": "PARALLEL_THEATER_STATE_1944-02-02T0930_WORKING_v001",
+  "Central_Pacific": {
+    "US": "TF58 first cycle + parallel Gilbert land-air/search system now re-audited. 2-Feb morning US irrecoverable center ~16 across carrier + land-based aircraft. Three TGs remain fully operational; outer-base suppression/ASW is stronger than v039 represented.",
+    "Japan": "Corrected poststate ~94 serviceable / 46 fighters / 10 Raiden; ~20 water-air aircraft remain serviceable as a subset, including Kyofu/float-recon/Zuiun. Eniwetok retains a meaningful land-attack reservoir. Fresh 08:05-08:25 three-carrier-TG visual remains; fleet-carrier GO withheld; submarines converge."
+  },
+  "Indian_Ocean": {
+    "state": "No new event in this re-audit; Eastern Fleet Ceylon workup continues and Japanese second surface reinforcement remains HOLD."
+  },
+  "Bengal": {
+    "state": "No new event; Chittagong-Feni/Comilla stalemate persists; first Kinsei-Zero quality detachment remains and second batch is held for Central-Pacific priority."
+  },
+  "Yanagi_Jet": {
+    "state": "No combat effect. I-34 early-Feb Europe-arrival gate remains unresolved and is not triggered merely because the discussion date is 2 Feb."
+  }
+}

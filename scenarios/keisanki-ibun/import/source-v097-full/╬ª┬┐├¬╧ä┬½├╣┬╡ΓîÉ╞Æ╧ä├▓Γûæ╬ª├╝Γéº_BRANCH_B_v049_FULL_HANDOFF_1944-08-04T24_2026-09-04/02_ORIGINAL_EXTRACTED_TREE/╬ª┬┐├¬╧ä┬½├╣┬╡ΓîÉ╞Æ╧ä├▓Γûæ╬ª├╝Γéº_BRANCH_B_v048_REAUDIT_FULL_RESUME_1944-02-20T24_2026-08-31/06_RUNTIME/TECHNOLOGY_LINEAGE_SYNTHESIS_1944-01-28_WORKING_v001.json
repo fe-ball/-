@@ -1,0 +1,430 @@
+{
+  "id": "TECHNOLOGY_LINEAGE_SYNTHESIS_1944-01-28_WORKING_v001",
+  "status": "WORKING_PROVENANCE_SYNTHESIS_NOT_CURRENT_AUTHORITY",
+  "package_revision": "v035",
+  "discussion_clock_center": "1944-01-28",
+  "scope": "All material/operational technology bands represented in TECH_INDEX_v009 plus class-level surface-ship and piston-engine source ledgers; separates pre-Europe domestic/compute causality from Europe/Yanagi direct and catalytic inputs.",
+  "authority_note": "TECH_INDEX_v009 remains execution-authority tech index. This file is a provenance/anti-double-count working overlay and does not promote future gates.",
+  "core_causal_architecture": [
+    "Domestic compute/measurement/process improvement creates a stronger receiver before the Europe missions.",
+    "That stronger receiver improves navigation/COMSEC/mission success and makes surviving Yanagi cargo more useful.",
+    "European artifacts/experts close specific missing implementation cards rather than raising one scalar technology level.",
+    "Closed cards then propagate into field service, doctrine, calibration, acoustic testing and liaison; never re-add the original domestic gain.",
+    "Recursive benefits must be stopped at each causal stage to prevent double counting."
+  ],
+  "provenance_classes": {
+    "DOMESTIC_COMPUTE_FOUNDATION": "exists before Europe missions; Europe not required for origin",
+    "STRONGLY_DOMESTIC_COMPUTE": "platform/system concept and most Jan-1944 performance from domestic line; Europe only minor/indirect",
+    "MIXED_DOMESTIC_STACK_GERMAN_CARD_COMPLETION": "domestic prerequisites exist; German artifact/tacit knowledge materially closes a missing implementation card",
+    "EUROPE_DIRECT_CARDS_ON_DOMESTIC_SUB_BASE": "specific German device/practice is direct, but operational value depends on pre-existing Japanese platform/process stack",
+    "DOMESTIC_PRE_I29_RESEARCH_FUTURE_GERMAN_CATALYST": "domestic research exists now; later German data is future catalyst only"
+  },
+  "bands": [
+    {
+      "key": "foundational_compute_measurement_production",
+      "label": "計算・測定・設計反復・量産中央値",
+      "dominant_origin": "DOMESTIC_COMPUTE_FOUNDATION",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "1932年以降、計算を所有物ではなく設計・軍需・輸送のサービスとして拡散。試験結果の統計処理、誤差分離、重量/強度/機関/航法/生産公差の反復を早め、最良試作品より量産中央値・再現性・稼働率へ利益を配分する。",
+      "europe_mission_direct_or_catalytic_input": "遣欧の精密工具・工業用ダイヤ・ドイツ測定器/試験手順は既存の計測文化を局所的に強化するが、国家全体の生産倍率にはしない。",
+      "combined_state_by_1944-01-28": "1944年1月には艦艇・航空・センサー・兵站の多くで「仕様上の最大値」より、予定性能の再現性、故障裾、較正復帰、整備日数を改善する共通基盤として定着。",
+      "operational_consequence": "同一装備を持つ部隊でもmission-ready率と予定どおり再出撃できる確率が史実より高い。複数段階の漏れを減らすため、単一の戦闘倍率以上に累積する場合がある。",
+      "not_granted_or_future": [
+        "資源制約の消滅",
+        "熟練工/工作機械/材料の無限増殖",
+        "試作値が全量産品の中央値になること"
+      ],
+      "tech_index_refs": [
+        "TECH-COMPUTE-AS-SERVICE-DIFFUSION-001",
+        "TECH-DESIGN-LEARNING-MATURITY-001",
+        "TECH-MISSION-CONVERSION-CHAIN-001",
+        "TECH-AIR-MEDIAN-RELIABILITY-001",
+        "TECH-LOG-ASSET-UPTIME-ACCOUNTING-001"
+      ]
+    },
+    {
+      "key": "crypto_comint_command",
+      "label": "暗号・通信情報・司令部処理",
+      "dominant_origin": "DOMESTIC_COMPUTE_WITH_EUROPE_LIAISON",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "Type 2級中央暗号計算、カード統計、鍵使用監査、交通解析/DFを開戦前から育成。高級海軍暗号の運用規律が強く、米側が史実JN-25相当の短期高精度内容情報を常用する前提を排除。日本側攻勢COMINTは低中級暗号、平文、交通解析、DF、運用ミスを主とする。",
+      "europe_mission_direct_or_catalytic_input": "I-30がT-Enigma級の対独専用通信参照を持ち帰り、日独海軍間の安全なliaisonを実務的に補強。これは日本高級暗号をもう一段強化する別倍率ではない。",
+      "combined_state_by_1944-01-28": "国内COMSEC/COMINT基盤＋対独専用liaisonが併存。情報取得→分析信頼度→司令部受容→命令→実施を別時計で管理する。",
+      "operational_consequence": "史実型の高級暗号内容による潜水艦待伏せ・空母奇襲を自動継承しにくい一方、交通・DF・潜水艦/航空報告を確率的warningへ融合しやすい。独側高価値視認情報も一日級で東京へ届き得る制度的経路がある。",
+      "not_granted_or_future": [
+        "SIGABAの常時解読",
+        "数学的に永久解読不能な日本暗号",
+        "日独リアルタイム共同戦術データリンク"
+      ],
+      "tech_index_refs": [
+        "TECH-COMSEC-CENTRAL-AUDIT-OPENING-001",
+        "TECH-COMINT-JP-HIGHGRADE-1942-001",
+        "TECH-COMINT-RESIDUAL-CHANNELS-1942-001",
+        "TECH-COMINT-JP-OFFENSE-001",
+        "TECH-INFO-TO-COMMAND-SEPARATION-001"
+      ]
+    },
+    {
+      "key": "radar_esm_ew_c2",
+      "label": "レーダー・ESM・電子戦・基地C2",
+      "dominant_origin": "MIXED_DOMESTIC_STACK_GERMAN_CARD_COMPLETION",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "国内側で1938-41にpulse timing/sweep/range calibration、沿岸試作、艦載試験、量産較正/故障統計が前倒し。1942年レーダーはなおhuman-loopで、接触→track→weapon-qualityを自動化しない。",
+      "europe_mission_direct_or_catalytic_input": "I-30のWürzburg級実物/資料がprecision tracking、servo、error measurement、radar-to-director interfaceを補完。Metox級RWRがmetric-band受信/方位警報を早期実用化。これらを核にfield-service、A級基地plot、ESM-cued recon、EMCON、周波数適合chaff運用が派生。",
+      "combined_state_by_1944-01-28": "1943Q2-Q3にA級固定基地で閉ループ化が進み、1943H2には選択艦/潜/基地でmetric ESM、較正ログ、共通予備部品、plot cell、受動cue→再捜索が実用。1944Q1はI-8帰還者のtacit knowledgeが故障診断・校正手順へ入り始める。",
+      "operational_consequence": "最初に誰が「放射を感じたか」と、誰が「武器射撃解を得たか」を分離できる。日本側は警報・戦闘準備・索敵絞込みで改善するが、米SG/CIC/centimetric airborne radarのCONTACT→TRACK→WEAPON-QUALITY優位は残る。",
+      "not_granted_or_future": [
+        "SG/PPI/CIC同等",
+        "10cm帯への万能RWR",
+        "一回のESM bearingから艦種/距離/射撃解を自動生成",
+        "全艦隊への一斉配備"
+      ],
+      "tech_index_refs": [
+        "TECH-RADAR-1942-HUMANLOOP-001",
+        "TECH-RADAR-PRODUCTION-MEDIAN-001",
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001",
+        "TECH-ESM-METRIC-RWR-1943-001",
+        "TECH-ESM-CUED-RECON-1943-001",
+        "TECH-RADAR-PRECISION-TRACK-WURZBURG-1943-001",
+        "TECH-RADAR-FIELD-SERVICE-1943-001",
+        "TECH-BASE-AIR-DEFENSE-PLOT-1943-001",
+        "TECH-EMCON-RADAR-SURVIVABILITY-1943-001",
+        "TECH-RCM-GIMANSHI-1943-001",
+        "TECH-SURFACE-NIGHT-ESM-TORPEDO-PREP-1943-001"
+      ]
+    },
+    {
+      "key": "optics_gunfire_firecontrol",
+      "label": "光学・射撃指揮・砲戦I/O",
+      "dominant_origin": "DOMESTIC_COMPUTE_EUROPE_METROLOGY_CATALYST",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "光学ガラスlot差、測距儀較正、弾道/気象入力、既存機械式射撃指揮へのI/Oを国内計算で改善。通常昼戦で命中率+2-5%相対、初回有効解5-10%早期、長距離非標準条件では初期systematic error -20-30%、first-straddle +8-15%の作業帯。",
+      "europe_mission_direct_or_catalytic_input": "Würzburg/ドイツAA・光学・火器管制実物はservo/精密測定/較正・故障切分けの参照になり、既存国内fire-control stackを補完。",
+      "combined_state_by_1944-01-28": "1944年1月の主効果は「機械式射撃盤を電子計算へ置換」ではなく、入力誤差・較正差・初回収束・一部AA trackingを改善すること。",
+      "operational_consequence": "良視界の通常砲戦では差は小さいが、初回salvo、長距離、夜間準備、非標準気象で早く正しい解へ寄りやすい。",
+      "not_granted_or_future": [
+        "主砲命中率の大幅倍率",
+        "レーダーだけの盲射万能化",
+        "機械式射撃盤の撤去"
+      ],
+      "tech_index_refs": [
+        "TECH-OPTICS-LOT-UNIFORMITY-001",
+        "TECH-OPTICS-RANGEFINDER-MEDIAN-001",
+        "TECH-GUNFIRE-SURFACE-1942-001",
+        "TECH-GUNFIRE-LONGRANGE-NONSTANDARD-001",
+        "TECH-RADAR-PRECISION-TRACK-WURZBURG-1943-001"
+      ]
+    },
+    {
+      "key": "surface_torpedo_night_fighting",
+      "label": "水上魚雷・夜戦・再装填",
+      "dominant_origin": "DOMESTIC_COMPUTE_WITH_GERMAN_REFERENCE_ONLY",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "九三/九五式の名目速力・射程・炸薬量は史実級のまま、straight-run/depth dispersion、lot差、発射管較正、故障裾、再装填信頼性を改善。4本再装填演習6-9分、戦闘時7-11分級、第一斉射から次の有効斉射まで12-20分級を戦術サイクルへ組込む。",
+      "europe_mission_direct_or_catalytic_input": "I-30/U-180-I-29経由の独魚雷/TDC/G7e実装資料は比較・確認材料。日本水雷戦の発想やType93級性能を外部から創設しない。ESMは夜戦開始前のtorpedo preparationを補助。",
+      "combined_state_by_1944-01-28": "1943末までに生残訓練部隊では第一斉射→離脱/再装填→別群接触維持→条件付き第二斉射を標準化可能。ESM warningがbattle-stations/tube orientation/sector lookoutの時間を買う。",
+      "operational_consequence": "改善の大きさは単発命中率より「第二波が実際に成立する確率」とformation coordinationに出る。米SG/CICがweapon-quality trackを先に得る危険は残る。",
+      "not_granted_or_future": [
+        "九三式の射程/速力の魔法的増加",
+        "次発32本を即時第一斉射へ加算",
+        "ESMを命中率bonusとして加算"
+      ],
+      "tech_index_refs": [
+        "TECH-TORPEDO-INTRINSIC-REPEATABILITY-001",
+        "TECH-TORPEDO-FAILURE-TAIL-001",
+        "TECH-TORPEDO-SURFACE-ACCURACY-001",
+        "TECH-TORPEDO-SECOND-SALVO-001",
+        "TECH-SURFACE-NIGHT-ESM-TORPEDO-PREP-1943-001"
+      ]
+    },
+    {
+      "key": "submarine_conventional_and_sentaka",
+      "label": "通常潜水艦・潜高（潜水艦ベースライン）",
+      "dominant_origin": "STRONGLY_DOMESTIC_COMPUTE",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "遣欧前に通常潜水艦でsurface speed +0.3-0.4kt、submerged +0.15-0.2kt、surface range +8-9%、submerged endurance +7-10%、dive time -10-15%級の運用中央値改善。さらに潜高第一世代は国内設計で1942末完成/1943実戦化、submerged 18.5-19kt、全速55-65分、潜航42-47秒、6200-6500nmi/14ktを中心とする。",
+      "europe_mission_direct_or_catalytic_input": "遣欧はこのplatform conceptを生まない。Metox/Bold、Type IX比較、ドイツ電池魚雷/TDC、振動/溶接/整備layoutが後から生残・診断・後続設計を補強する。",
+      "combined_state_by_1944-01-28": "1944年1月には「聞く/観測→誤差付き計算→短時間高速潜航移動→低速再聴取→射撃→高速離脱→再接触」という独自cycleが成立。通常艇もready/patrol-dayが史実より高い。",
+      "operational_consequence": "一部missionでは発見・射点・生還・再攻撃の段階積で史実世代艇のlife-cycle attack outputを大きく上回り得るが、対空レーダー/HFDF/escort carrier/前投兵器/浅海では効果が崩れる。",
+      "not_granted_or_future": [
+        "Type XXI由来の水中高速",
+        "schnorchel",
+        "連続19kt哨戒",
+        "高速潜航中の高精度聴音",
+        "潜高全艇が1942戦闘に存在"
+      ],
+      "tech_index_refs": [
+        "TECH-SUB-CONVENTIONAL-OPERABILITY-001",
+        "TECH-SUB-KOU-FIRSTGEN-001",
+        "TECH-SUB-INFO-AGE-001"
+      ]
+    },
+    {
+      "key": "submarine_europe_survivability_acoustics",
+      "label": "潜水艦への遣欧上乗せ：ESM・欺瞞・静粛/工作",
+      "dominant_origin": "EUROPE_DIRECT_CARDS_ON_DOMESTIC_SUB_BASE",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "国内潜水艦は既に機関信頼性、トリム、電池運用、自己雑音評価、構造設計の計算線を持つ。",
+      "europe_mission_direct_or_catalytic_input": "I-30: Metox級RWR、Bold/Pillenwerfer級音響欺瞞、TDC/電池魚雷比較。U-511/RO-500: 圧力殻溶接、section build、machinery mounting、vibration isolation、maintenance access、noise reference。I-8: 1943-12帰還の技術者によるacoustics/calibration/test/fault-diagnosis tacit knowledge。",
+      "combined_state_by_1944-01-28": "Boldは選択艇で1943Q2-Q3からsonar再捕捉を切る手段。metric RWRはcompatible emissionへの早期潜航機会。RO-500効果は1943Q4から測定/手順、1944に艤装/修理へ入り始め、構造新設計の大効果は1945就役級。I-8効果は1月28時点で一部手順へ入り始める程度。",
+      "operational_consequence": "潜水艦の大幅な生残・再出撃改善はCOMSEC/運用変更/国内信頼性を含む複合結果。遣欧分は初期探知への一部warning、sonar prosecution tail、振動/整備故障tailを追加で削る。",
+      "not_granted_or_future": [
+        "Ko-1..6の遡及的Type-IX再設計",
+        "全艇Bold/RWR装備",
+        "10cm radarへの防護",
+        "RO-500だけで潜高が成立"
+      ],
+      "tech_index_refs": [
+        "TECH-SUB-ACOUSTIC-DECOY-BOLD-1943-001",
+        "TECH-SUB-GERMAN-COMPARATIVE-1943-001",
+        "TECH-ESM-METRIC-RWR-1943-001"
+      ]
+    },
+    {
+      "key": "submarine_contact_liaison",
+      "label": "潜水艦連絡・接触維持・情報老化",
+      "dominant_origin": "DOMESTIC_COMPUTE_COMMAND_LINE_WITH_AXIS_LIAISON",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "標準化したtime/position/type/course/speed/confidence/own-state報告、HQでの複数艇/航空/DF/traffic融合、情報age管理、silent-node ambiguity低減は国内計算・通信・司令部処理の系譜。",
+      "europe_mission_direct_or_catalytic_input": "遣欧/T-Enigma/Axis liaisonは日独間のsector-level cue共有を安全・実務的にし、Monsun情報を日本側pictureへ足す。ただしGerman boatsを日本指揮下のwolfpackへしない。",
+      "combined_state_by_1944-01-28": "1944年1月Marshallで既に必須入力。報告艇は低品質魚雷射撃よりshadow/reportを優先でき、HQはprobability corridorを作り航空捜索と潜高recontactを絞る。",
+      "operational_consequence": "主効果は「何も分からない状態へ戻りにくい」こと。魚雷命中bonusでも、自動fresh fixでも、潜航中continuous linkでもない。",
+      "not_granted_or_future": [
+        "リアルタイム共同データリンク",
+        "一報でweapon-quality",
+        "German Monsunの統一戦術指揮"
+      ],
+      "tech_index_refs": [
+        "TECH-SUB-INFO-AGE-001",
+        "TECH-INFO-TO-COMMAND-SEPARATION-001",
+        "TECH-ESM-CUED-RECON-1943-001"
+      ]
+    },
+    {
+      "key": "asw",
+      "label": "対潜：探信・航空・MAD・handoff",
+      "dominant_origin": "DOMESTIC_COMPUTE_WITH_GERMAN_ACOUSTIC_REFERENCE",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "自己雑音速度帯、探信儀production median、depth setting/実現深度ばらつき、2艦contact handoff、航空→局地化→艦艇のlayered ASW、MAD datum localizationを国内で発達。優先coverage zoneでは検出~1.8x、datum/weapon-delivery機会~2.5-3x historical-Japanese-equivalent中心だが撃沈はもっと小さい。",
+      "europe_mission_direct_or_catalytic_input": "RO-500をcontrolled foreign acoustic targetとして測定でき、I-8のacoustic/test tacit knowledgeが1944Q1以降の診断/quieting/ASW手順を改善する。",
+      "combined_state_by_1944-01-28": "1944年1月には成熟priority sectorで発見→datum維持→再局地化→weapon deliveryへ変換する率が上昇。遣欧はrange bonusではなくtarget/reference/test qualityを改善。",
+      "operational_consequence": "撃沈数より、敵潜の攻撃中止・再攻撃阻止・護衛継続へ先に効く。",
+      "not_granted_or_future": [
+        "MADで広域海面を直接捜索",
+        "sonar探知距離の一律倍化",
+        "RO-500で即時ASW革命"
+      ],
+      "tech_index_refs": [
+        "TECH-ASW-SONAR-OWNNOISE-001",
+        "TECH-ASW-SONAR-MEDIAN-001",
+        "TECH-ASW-DEPTH-SETTING-001",
+        "TECH-ASW-DEPTHCHARGE-DISPERSION-001",
+        "TECH-ASW-CONTACT-HANDOFF-001",
+        "TECH-ASW-FOCUSED-CONVOY-1942-001",
+        "TECH-ASW-LAYERED-1943-001",
+        "TECH-ASW-MAD-DATUM-LOCALIZATION-1943-44-001"
+      ]
+    },
+    {
+      "key": "destroyers_surface_hulls",
+      "label": "駆逐艦・巡洋艦系船体/機関",
+      "dominant_origin": "STRONGLY_DOMESTIC_COMPUTE",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "友鶴/第四艦隊事件を消さず、実測feedbackを早く設計へ戻す。朝潮/陽炎で最高速の大幅増ではなく航続、復原、機関信頼性、planned-speed realizationを改善。陽炎trial 35.4-35.7kt、full-load 34.6-34.9kt、~5300nmi/18kt、initial machinery faults -15-25%、unplanned yard days -10-20%。最上/三隈を教師艦、鈴谷/熊野を成熟群として扱う。",
+      "europe_mission_direct_or_catalytic_input": "遣欧による直接船体性能増加はほぼなし。ドイツ精密工具/測定手順は局所工作・故障診断へ薄く寄与し得るが、既存数値に別bonusを加えない。",
+      "combined_state_by_1944-01-28": "1944年1月には新型DD/巡洋艦の部隊価値が「速い一回」より、所定速度で到着・離脱・再出撃する再現性とdamage-state transitionの改善に出る。",
+      "operational_consequence": "夜戦・水雷・ESM等の別段階改善と組み合わさるが、船体だけのflat combat multiplierにはしない。",
+      "not_granted_or_future": [
+        "ドイツ艦設計コピー",
+        "全巡洋艦/駆逐艦の一律速度増",
+        "装甲/水中防御の物理限界消滅"
+      ],
+      "tech_index_refs": [
+        "TECH-SURFACE-DD-ASASHIO-KAGERO-001",
+        "TECH-SURFACE-ASASHIO-OPENING-001",
+        "TECH-SURFACE-KAGERO-RELIABILITY-001",
+        "TECH-SURFACE-DC-MARGIN-001",
+        "TECH-SURFACE-SPEED-ROBUSTNESS-001"
+      ]
+    },
+    {
+      "key": "capital_ships_yamato_refits",
+      "label": "戦艦・大和型・大型艦改装",
+      "dominant_origin": "STRONGLY_DOMESTIC_COMPUTE",
+      "confidence": "HIGH_WITH_CLASS_SPECIFIC_WORKING_BANDS",
+      "pre_europe_compute_domestic_line": "金剛/扶桑/伊勢型は主砲・装甲配置を変えず、重量/機関/配電/消防/排水/操舵/将来上部重量余裕へ再投資。金剛型は30kt級を四隻戦隊として予定どおり使える頻度を上げる。大和型は46cm/27kt/集中防御構想を維持し、低価値重量145-230t中心約190tを局部支持・配電区画化・消防・操舵・将来AA/radar I/Oへ戻す作業線。武蔵は大和実測反映で就役時6-10か月分程度の技術成熟差を中心とする。",
+      "europe_mission_direct_or_catalytic_input": "遣欧が主船殻・46cm砲・主機を変える直接効果はない。Würzburg/電子技術は後期のAA tracking/radar-I/O/field serviceへ追加できる。",
+      "combined_state_by_1944-01-28": "1944年1月には大型艦の利得は「基本性能の魔法的増幅」ではなくavailability、機関制限の少なさ、損傷からmission-killへの遷移抑制、後期電子/対空装備を載せる余地として現れる。",
+      "operational_consequence": "同じ大口径命中・複数魚雷が装甲/水中防御能力を越えれば改善幅は小さい。",
+      "not_granted_or_future": [
+        "30kt大和",
+        "46cm砲性能増加",
+        "主装甲倍率",
+        "遣欧由来の大和基本設計"
+      ],
+      "tech_index_refs": [
+        "TECH-SURFACE-DC-MARGIN-001",
+        "TECH-SURFACE-TACTICAL-MATURATION-1942-43-001",
+        "TECH-GUNFIRE-SURFACE-1942-001",
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001"
+      ]
+    },
+    {
+      "key": "carrier_platform_deck_doctrine",
+      "label": "空母・甲板運用・空母戦術",
+      "dominant_origin": "DOMESTIC_COMPUTE_AND_SURVIVING_FORCE_LEARNING",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "低速艦上機handling、load/deck process、任務階級化で一部軽/改造空母をtransportからlimited combat supportへ引上げ。Ryujo deck processing +10-15%、Zuiho sortie turnover +8-15%等の個艦帯。1942-43には生残艦/航空隊がsearch/CAP/deck risk/strike timing/emergency recoveryを標準化し、search sector miss -20-35%、deck-cycle variance -15-25%、multi-carrier arrival dispersion -20-30%、CAP main-attack intercept +10-20% relativeの作業帯。",
+      "europe_mission_direct_or_catalytic_input": "遣欧の直接寄与は小さい。レーダー/ESM/field serviceが空母群の早期warningや偵察cueに間接接続するが、甲板物理や米式fighter directionをコピーするものではない。",
+      "combined_state_by_1944-01-28": "1944年1月の空母戦力は「搭載機数」だけでなく、search miss、deck blockage、recovery、編隊到着分散が史実日本より改善。ただし再編航空隊や新造/修理明け空母はevent-local readiness gateが残る。",
+      "operational_consequence": "GALVANIC/Marshallで日本側が米甲板数差を打ち消すものではなく、有限甲板をより破綻しにくく使う。",
+      "not_granted_or_future": [
+        "甲板spot数の増殖",
+        "米CIC/fighter-direction優位の消滅",
+        "全空母への一律bonus"
+      ],
+      "tech_index_refs": [
+        "TECH-CARRIER-MISSION-CLASS-001",
+        "TECH-CARRIER-AIR-OPENING-CAPACITY-001",
+        "TECH-CARRIER-DECK-CYCLE-LIGHT-001",
+        "TECH-CARRIER-TACTICAL-MATURATION-1942-43-001"
+      ]
+    },
+    {
+      "key": "piston_fighters_engines",
+      "label": "戦闘機・空冷発動機（零戦/金星/雷電/紫電改/烈風）",
+      "dominant_origin": "STRONGLY_DOMESTIC_COMPUTE_AND_ENGINE_PROGRAMS",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "瑞星零戦を開戦主力とし、金星/火星/誉/ハ43を別々の成熟時計で管理。計算の利益は最高馬力の魔法的増加より冷却・振動・公差・lot差・整備負担を試作値へ近づけること。金星零戦改は1942H1に瑞星成長限界を認識し、1942中盤設計、1943H1試験、同年9月先行量産。雷電は基地邀撃専用、紫電改は国内強風/自動空戦flap系、烈風は零戦限界予測から始まるハ43主線の次期艦上機。",
+      "europe_mission_direct_or_catalytic_input": "1944年1月までにドイツ航空技術を戦闘性能へ加算する直接根拠はない。遣欧精密測定/材料試験の一般的学習があっても、金星零戦・雷電・紫電改・烈風の成立原因ではない。",
+      "combined_state_by_1944-01-28": "1月28時点で金星零戦は限定量産・実戦配備、雷電は基地防空systemとして実用、紫電改は試験/初期運用直前、烈風は試作/艦上試験時計でまだ量的主力ではない。量産機の中央値・可動率が史実より高いことが本質。",
+      "operational_consequence": "Spitfire VIII/F6F等の高性能敵に対する絶対性能差を消さず、warning/高度/編隊/整備readyと組み合わせて使う。",
+      "not_granted_or_future": [
+        "ドイツDB/BMW/Jumo由来の金星零戦/雷電/烈風",
+        "誉の完全無故障化",
+        "1944年1月の烈風量産戦力",
+        "未来BMW003/Jumo004効果"
+      ],
+      "tech_index_refs": [
+        "TECH-AIR-A6M-ZUISEI-OPENING-001",
+        "TECH-AIR-J2M-FIELDING-1942-43-001",
+        "TECH-AIR-N1K1-KYOFU-FIELDING-1943-001",
+        "TECH-AIR-MEDIAN-RELIABILITY-001",
+        "TECH-AIR-GUN-FIGHTER-001"
+      ]
+    },
+    {
+      "key": "aviation_strike_recon_weapons",
+      "label": "艦攻・艦爆・偵察・航空兵器",
+      "dominant_origin": "DOMESTIC_COMPUTE",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "B5N/D3Aの開戦時完成度、D4Y偵察先行、B6N先行量産、飛行艇/水偵の任務分離を国内線で改善。固定銃/照準/爆撃/航空魚雷の technical dispersionを減らし、fighter gun +10-25%、moving-ship dive/air torpedo +10-25% relative等の同条件作業帯を置く。nav/report I/Oも標準化。",
+      "europe_mission_direct_or_catalytic_input": "ドイツとの交換では日本側Type91/95 dataがむしろGermany側へ価値を持つ。帰国する独航空兵器/射撃計算資料は比較参照だが、1944年1月の日本航空攻撃体系を根本変更しない。",
+      "combined_state_by_1944-01-28": "機体/兵器のbest-caseより、投下包絡線、lot差、abort、航法/接触報告、再攻撃に効く。",
+      "operational_consequence": "同一攻撃機会で必要機数を少し減らし、余剰をCAP/search/第二目標へ回せる場合があるが、天候/敵CAP/AAが主制約なら利得は縮む。",
+      "not_granted_or_future": [
+        "航空魚雷性能のドイツ由来増強",
+        "命中率のpercentage-point加算",
+        "敵回避/AA/CAPの無視"
+      ],
+      "tech_index_refs": [
+        "TECH-AIR-OPTICS-REPEATABILITY-001",
+        "TECH-AIR-NAV-REPORT-I-O-001",
+        "TECH-AIR-GUN-FIGHTER-001",
+        "TECH-AIR-GUN-BOMBER-GROUND-001",
+        "TECH-AIR-DIVE-FIXED-001",
+        "TECH-AIR-DIVE-MOVING-001",
+        "TECH-AIR-TORPEDO-ATTACK-001",
+        "TECH-AIR-D4Y-FIELDING-1942-43-001",
+        "TECH-AIR-B6N-FIELDING-1942-43-001"
+      ]
+    },
+    {
+      "key": "jet_rocket_future",
+      "label": "噴進/ジェット・高温材料",
+      "dominant_origin": "DOMESTIC_PRE_I29_RESEARCH_FUTURE_GERMAN_CATALYST",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "日本のturbojet研究は1941-42冬/1942年から国内で開始した扱い。Branchでは計測・高速回転体解析・priority materialsにより1943末の短いrepeatable self-sustaining bench runsを plausible gate とするが、20-30分耐久/flight reliability/生産寿命は未閉鎖。",
+      "europe_mission_direct_or_catalytic_input": "BMW003/Jumo004/HWK509の将来資料/実物が到達すれば、既存failure databaseに対するdesign-space pruning/答え合わせとして大きい。しかしI-29第二次missionのpeople/paper gateとphysical hardware gateは未来で未裁定。",
+      "combined_state_by_1944-01-28": "1944-01-28現在、戦闘へのGerman jet effectはゼロ。国内bench researchのみ。選択的Ni高温材20-40t級research allocationが試験回数を増やすが実用jet unitを作らない。",
+      "operational_consequence": "将来のドイツ技術が来た場合も「研究開始」ではなく、compact axial compressor/turbine/bearing/seal/fuel-control等の未閉鎖cardを絞る作用として扱う。",
+      "not_granted_or_future": [
+        "I-29帰還成功の自動継承",
+        "BMW/Jumo/HWK実物が1944-01-28に国内到着",
+        "Me262/Me163性能のbackport",
+        "Operational jet in FLINTLOCK"
+      ],
+      "tech_index_refs": [
+        "TECH-JET-DOMESTIC-BENCH-1943-001",
+        "TECH-NICKEL-SELECTIVE-HOTTEMP-1943-44-001"
+      ]
+    },
+    {
+      "key": "logistics_shipping_industry",
+      "label": "工業・輸送船・兵站・揚陸",
+      "dominant_origin": "STRONGLY_DOMESTIC_COMPUTE",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "loading/routing/turnaroundを既存船で開戦前から改善し、effective cargo/voyage +4-8%、port stay -8-15%、monthly turnaround +5-10%。1940以降の標準船processでlabor -10-18%、rework -20-35%、cargo +2-4%、fuel -3-6%の設計/工程帯。鉄鋼は採用工場process yield +5-10%局所、全国ingotは1941 +1.5-3%、1942 +2.5-4.5%程度に留める。揚陸はfirst-day total/heavy equipment +15-25%、ready 2-8h早期。",
+      "europe_mission_direct_or_catalytic_input": "遣欧のprecision tooling/industrial diamonds/特殊材料見本は研究/工具の局所bottleneckを緩和するが、船腹/鋼/石油/工員を全国倍率で増やさない。",
+      "combined_state_by_1944-01-28": "1944年の利得は「より多い資源」より同じ船腹・港・工廠を何日使えるか、修理/off-hireをどう減らすかに現れる。",
+      "operational_consequence": "戦場への転換はdelivery→allocation→unit readiness→eventを必ず通る。",
+      "not_granted_or_future": [
+        "資源無限化",
+        "merchant hull countの一律倍率",
+        "ドイツ工具だけで造船量が急増"
+      ],
+      "tech_index_refs": [
+        "TECH-LOG-OPENING-TURNAROUND-001",
+        "TECH-LOG-OPENING-CARGO-PROCESS-001",
+        "TECH-LOG-STANDARD-SHIP-I-001",
+        "TECH-LOG-ASSET-UPTIME-ACCOUNTING-001",
+        "TECH-INDUSTRIAL-STEEL-ADAPTATION-1940-42-001",
+        "TECH-LANDING-PACKAGE-001",
+        "TECH-AMPHIBIOUS-FIRSTDAY-001"
+      ]
+    },
+    {
+      "key": "seaplane_runway_independent_recon",
+      "label": "水偵・水上戦闘機・滑走路非依存ISR",
+      "dominant_origin": "DOMESTIC_COMPUTE",
+      "confidence": "HIGH",
+      "pre_europe_compute_domestic_line": "開戦時から水偵を単なる艦砲観測機でなくsearch/report/recontactの層として運用し、1942-43にmission-class化。強風は1943春から運用、瑞雲は1943秋から初期部隊へ。航法/報告I/Oと基地/潜水艦reportの融合が主効果。",
+      "europe_mission_direct_or_catalytic_input": "遣欧metric ESMは一部偵察をbearing cueへ向ける触媒になるが、水偵/強風/瑞雲の機体成立自体は国内。",
+      "combined_state_by_1944-01-28": "1944Q1には島嶼/lagoon/艦艇から、滑走路損傷後も限定search/recontactを残すレイヤーとして重要。",
+      "operational_consequence": "米長距離search/radar/CICに同等ではないが、Marshall/Andamanで単一飛行場壊滅=eyes blindを避ける。",
+      "not_granted_or_future": [
+        "水偵がcarrier search plane同等になること",
+        "ESMだけで目標位置が確定"
+      ],
+      "tech_index_refs": [
+        "TECH-AIR-SEAPLANE-OPENING-001",
+        "TECH-AIR-SEAPLANE-DOCTRINE-1942-43-001",
+        "TECH-AIR-N1K1-KYOFU-FIELDING-1943-001",
+        "TECH-AIR-E16A-ZUIUN-FIELDING-1943-001",
+        "TECH-ESM-CUED-RECON-1943-001"
+      ]
+    }
+  ],
+  "jan28_high_level_findings": {
+    "largest_domestic_platform_delta": "submarine baseline, especially conventional operability plus SenTaka, followed by production-median/reliability changes in surface ships and piston aircraft",
+    "largest_realized_Europe_delta": "precision radar tracking/calibration, metric ESM/RWR, acoustic decoy, acoustic/manufacturing comparison and secure bilateral naval liaison",
+    "largest_combined_system_delta": "sensor/command/maintenance closure: warning -> cue -> recontact -> track plus field-service recovery and information-age management",
+    "largest_future_guard": "no BMW003/Jumo004/HWK509/Naxos/Type XXI/schnorchel or I-29 second-mission physical-hardware effect before its future adjudication gate",
+    "combat_model_rule": "never convert the entire stack into one Japan-wide combat multiplier; apply at the causal stage and mission state where the card acts"
+  },
+  "stale_or_superseded_source_guard": [
+    {
+      "source_pattern": "99_LEGACY_UNTOUCHED/**/53_海軍戦闘機・空冷発動機・噴進航空.md",
+      "stale_statement": "I-29 return / BMW003-Jumo004-HWK509 physical arrival treated as centerline",
+      "current_control": "06_RUNTIME/JAPAN_JET_PRE_I29_TECH_GATE_v001.md and 06_RUNTIME/AXIS_SUBMARINE_TECH_TRANSFER_REAUDIT_1942-1944_v001.md",
+      "rule": "future unresolved; do not back-port into Jan-1944 combat"
+    }
+  ],
+  "mandatory_sources_internal": [
+    "02_TECH/TECH_INDEX_v009.json",
+    "06_RUNTIME/AXIS_SUBMARINE_TECH_TRANSFER_REAUDIT_1942-1944_v001.md",
+    "06_RUNTIME/ELECTRONIC_WARFARE_OPERATIONAL_DERIVATIVES_1942-1944_v001.md",
+    "06_RUNTIME/JAPAN_JET_PRE_I29_TECH_GATE_v001.md",
+    "06_RUNTIME/SESSION_2026-08-28_GALVANIC_TECH_REAUDIT_HANDOFF_v001.md"
+  ]
+}

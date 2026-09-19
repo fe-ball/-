@@ -1,0 +1,169 @@
+{
+  "revision": "v001",
+  "id": "SURFACE_COMBATANT_CAPABILITY_LEDGER_1943-10-01_v001",
+  "as_of": "1943-10-01T00:00:00",
+  "status": "CURRENT_RUNTIME_CAPABILITY_LEDGER",
+  "purpose": "Machine-readable 1943-10-01 surface-combatant capability and survival guard. It converts existing class/design/doctrine canon into runtime constraints without inventing exact event-local availability.",
+  "principles": [
+    "Hull survival, availability, readiness, assignment and combat capability are separate clocks.",
+    "Do not substitute historical loss dates for branch-authoritative survival evidence.",
+    "Do not score a ship only by nominal caliber/displacement; use practical speed, reliability, fire-control, torpedo cycle, damage-state continuity and formation role.",
+    "Working relative bands are task-specific sensitivity anchors, never universal fleet multipliers.",
+    "Exact individual-hull readiness at an event remains runtime input unless an authoritative settlement fixes it."
+  ],
+  "japan": {
+    "survival_anchors": {
+      "Kongo_class": [
+        "Kongo",
+        "Hiei",
+        "Kirishima",
+        "Haruna"
+      ],
+      "rule": "Four Kongo-class hulls survive into the 1943 branch. Hiei/Kirishima have June-Efate activity and Haruna May-Aleutians activity; historical Guadalcanal loss dates are forbidden defaults."
+    },
+    "class_profiles": {
+      "Kongo_class": {
+        "role": "30-knot-class fast battleship formation; carrier support, fast surface interception, cruiser/DD counterforce, reserve/raiding options",
+        "capability": "Primary branch gain is repeatable practical speed, machinery reliability, formation schedule robustness and state-transition resilience, not new-battleship armor.",
+        "task_sensitivity": {
+          "daylight_good_visibility": "1.04-1.08 review band",
+          "vs_modern_US_BB_daylight": "1.05-1.10 review band",
+          "optical_contact_fast_night_interception": "1.15-1.25 review band"
+        },
+        "limits": [
+          "Basic armor/waterline protection remains a major limiter against modern battleship gunfire.",
+          "No automatic commitment merely because four hulls survive."
+        ]
+      },
+      "Yamato_class": {
+        "confirmed_hulls": [
+          "Yamato",
+          "Musashi"
+        ],
+        "role": "strategic reserve/main battle force; enemy battleship fixation, landing-force breakthrough or major surface strike only when geometry/air cover/fuel justify it",
+        "capability": "46cm main battery and 27kt-class concept retained; branch gain is reliability, damage localization, steering/power/firefighting integration and confidence in sustained planned performance.",
+        "speed_anchor": "27kt-class practical planned speed; favorable trials may be ~27.6-27.8kt but this is not a universal tactical-speed bonus.",
+        "limits": [
+          "Do not model improvement as armor multiplier.",
+          "1943 Efate/Midway branch evidence favors strategic-reserve use under hostile air conditions."
+        ]
+      },
+      "Ise_Hyuga": {
+        "hulls": [
+          "Ise",
+          "Hyuga"
+        ],
+        "state": "battleships; no aviation-battleship conversion in current branch",
+        "role": "second-line battleship, base/convoy/landing support, reserve and test/training duties; frees fast battleships for forward use",
+        "speed_anchor": "~25kt class; do not mix into fast-carrier screen by default"
+      },
+      "Mogami_class": {
+        "survival": "Four hulls survive the branch MI collision/loss divergence; repaired-hull local availability is event-specific.",
+        "role": "night surface force / cruiser interception / torpedo threat / continued gun action after moderate damage",
+        "limits": [
+          "Do not assume all four simultaneously mission-ready without local OOB/readiness."
+        ]
+      },
+      "Asashio_class": {
+        "trial_speed": "34.7-34.9 kt center ~34.8",
+        "range": "4800-4900 nmi at 18kt",
+        "role": "fleet torpedo/night action and escort; improved stability/reliability rather than large universal speed jump"
+      },
+      "Kagero_Yugumo_line": {
+        "Kagero_trial_speed": "35.4-35.7 kt center ~35.5",
+        "Kagero_full_load_practical_max": "34.6-34.9 kt",
+        "Kagero_range": "~5300 nmi at 18kt",
+        "role": "mature high-speed fleet torpedo/escort system; Yugumo is maturation/standardization, not a radically faster class"
+      },
+      "Shimakaze": {
+        "state": "1943 branch service use permitted when local OOB/readiness confirms",
+        "role": "high-speed torpedo combat; individual mission assignment remains event-local"
+      }
+    },
+    "combat_systems": {
+      "surface_gunfire": {
+        "effect": "By 1942, better calculation/calibration/optics/I-O can shorten effective-solution convergence ~5-10%; normal daylight hit probability working change +2-5% relative under applicable equipment/training.",
+        "rule": "No generic 20-40% hit bonus; preserve weather, visibility, maneuver, radar and crew effects."
+      },
+      "torpedo_cycle": {
+        "effect": "Mature equipped Japanese cruiser/DD units can sometimes convert carried reloads into a second effective salvo roughly 12-20 minutes after first launch under suitable conditions.",
+        "rule": "Reload torpedoes are not instantaneous doubled first-salvo firepower; resolve 0/partial/full second-salvo availability by combat time, maneuver and damage."
+      },
+      "speed_reliability": {
+        "effect": "Improvement often appears as probability of making planned speed under load/fouling/fatigue, affecting interception, withdrawal and re-entry thresholds."
+      },
+      "damage_control": {
+        "effect": "Reinvested weight/power/structural margin can reduce transition from moderate damage to mission kill and preserve selected functions after non-catastrophic hits.",
+        "rule": "No double count as both generic survival and firing-continuity multipliers."
+      },
+      "radar_optical_integration": {
+        "state": "1943 equipment/training dependent",
+        "rule": "US radar early-contact advantage remains important, especially at night/poor visibility. Japanese optical/torpedo follow-up can be strong after contact, but early warning and fire-control stages are separate."
+      },
+      "formation_doctrine": {
+        "state": "1942-end through 1943 standardization",
+        "practices": [
+          "simultaneous turn planning",
+          "emergency dispersion/reassembly boundaries",
+          "time-phased multiple-destroyer torpedo employment",
+          "second torpedo salvo integration",
+          "battleship/cruiser follow-up fire"
+        ]
+      }
+    },
+    "event_runtime_required": [
+      "actual participating hulls",
+      "repair/maintenance state",
+      "fuel and ammunition",
+      "radar fit and operator maturity",
+      "crew median/fatigue",
+      "weather/visibility/sea state",
+      "formation and mission objective",
+      "damage at contact",
+      "distance and interception geometry"
+    ]
+  },
+  "allied_runtime_rule": {
+    "United_States": "Use branch OOB/survival first. US surface forces avoided some historical Guadalcanal attrition, but exact hull presence/readiness must be event-local. Historical hardware/doctrine may be fallback only where branch evidence does not diverge.",
+    "Britain": "Use branch Eastern Fleet losses/allocation and event-local availability; do not infer a historically scheduled surface response without paid shipping, air cover, maintenance and command conditions."
+  },
+  "sources": [
+    {
+      "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/10_水上艦_駆逐艦・戦艦改装・大和型.md",
+      "sections": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/29_水上艦_1943年Efate・第二次Midway個艦再注入監査.md",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/30_センサー射撃指揮_I-O連鎖.md"
+    },
+    {
+      "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/31_魚雷・水雷戦_魚雷本体・射撃指揮・再装填・運用.md"
+    },
+    {
+      "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/44_戦術研鑽_1942-44_空母指揮・艦隊回避・教範化.md",
+      "section": "4.2"
+    },
+    {
+      "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/62_艦艇戦力評価_任務係数・艦隊運用・戦史再監査v3.md",
+      "sections": [
+        "3",
+        "5",
+        "8",
+        "representative class calibration"
+      ]
+    }
+  ]
+}

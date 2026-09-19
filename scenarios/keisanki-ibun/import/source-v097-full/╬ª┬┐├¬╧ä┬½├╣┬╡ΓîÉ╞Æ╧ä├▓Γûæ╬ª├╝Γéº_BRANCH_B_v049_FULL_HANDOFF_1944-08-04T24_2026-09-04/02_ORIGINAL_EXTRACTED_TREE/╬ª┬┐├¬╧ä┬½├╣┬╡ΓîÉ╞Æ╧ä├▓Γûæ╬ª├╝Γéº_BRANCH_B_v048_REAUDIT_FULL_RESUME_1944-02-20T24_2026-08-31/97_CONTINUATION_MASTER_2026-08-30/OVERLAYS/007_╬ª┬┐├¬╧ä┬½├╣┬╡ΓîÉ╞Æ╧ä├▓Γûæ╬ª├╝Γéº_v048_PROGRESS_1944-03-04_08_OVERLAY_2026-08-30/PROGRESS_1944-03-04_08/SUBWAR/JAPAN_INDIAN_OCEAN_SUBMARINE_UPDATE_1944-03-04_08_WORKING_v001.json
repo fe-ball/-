@@ -1,0 +1,48 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_INDIAN_OCEAN_SUBMARINE_UPDATE_1944-03-04_08_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-03-04..08",
+  "global_frontier_after_merge": "1944-03-08T24",
+  "parents": [
+    "JAPAN_INDIAN_OCEAN_SUBMARINE_UPDATE_1944-02-28_03-03_WORKING_v001"
+  ],
+  "events": [
+    {
+      "date": "1944-03-04",
+      "boat": "I-162",
+      "event": "SW of the Maldives, torpedoes/shells and sinks British armed merchant FORT McCLOUD (7,127 tons) at about 02-01N 77-06E.",
+      "branch_result": "MERCHANT_SUNK",
+      "INITIAL_relevance": "None; far southwest of INITIAL route and four days earlier."
+    },
+    {
+      "date": "1944-03-04..08",
+      "boat": "I-166",
+      "event": "Continues twelfth Indian Ocean/Bay patrol; no named successful attack in this window.",
+      "branch_result": "ACTIVE_NO_NEW_CREDIT",
+      "INITIAL_relevance": "Potential intelligence asset in theater but exact position is not fixed closely enough to create contact."
+    },
+    {
+      "date": "1944-03-07",
+      "boat": "RO-111",
+      "event": "Departs Penang on fourth war patrol toward the Calcutta/upper-Bay traffic area.",
+      "branch_result": "OUTBOUND",
+      "branch_route_guard": "Because Branch Japan holds Chittagong, the later historical HC.44 Calcutta-to-Chittagong target chain cannot be auto-copied. The patrol instead hunts surviving Hooghly/Calcutta and Bay traffic until an event-local target is generated."
+    },
+    {
+      "date": "1944-03-04..08",
+      "boat": "I-37",
+      "event": "Continues western Indian Ocean reconnaissance/commerce patrol after Chagos reconnaissance.",
+      "branch_result": "ACTIVE_WEST",
+      "INITIAL_relevance": "Too far west for INITIAL."
+    }
+  ],
+  "INITIAL_contact_through_08T24": "NONE",
+  "Tokai_support": "Penang/Sumatra departure-lane ASW cover continues; it protects Japanese traffic/submarine movement probabilistically but earns no kill without a datum.",
+  "sources_external": [
+    "https://www.combinedfleet.com/I-162.htm",
+    "https://www.combinedfleet.com/I-166.htm",
+    "https://www.combinedfleet.com/RO-111.htm",
+    "https://www.combinedfleet.com/I-37.htm"
+  ]
+}

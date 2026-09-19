@@ -1,0 +1,5 @@
+Package: 計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18
+Purpose: next-session handoff + current executable opening package + full source snapshot
+Simulation hold point: 1942-05-06 24:00 (provisional; do not advance before index discussion)
+Critical known issue: COMINT core setting dropped from conversation summary and historical US COMINT was temporarily reintroduced.
+Next session first topic: design an execution/index scheme for broad scenario modifications.

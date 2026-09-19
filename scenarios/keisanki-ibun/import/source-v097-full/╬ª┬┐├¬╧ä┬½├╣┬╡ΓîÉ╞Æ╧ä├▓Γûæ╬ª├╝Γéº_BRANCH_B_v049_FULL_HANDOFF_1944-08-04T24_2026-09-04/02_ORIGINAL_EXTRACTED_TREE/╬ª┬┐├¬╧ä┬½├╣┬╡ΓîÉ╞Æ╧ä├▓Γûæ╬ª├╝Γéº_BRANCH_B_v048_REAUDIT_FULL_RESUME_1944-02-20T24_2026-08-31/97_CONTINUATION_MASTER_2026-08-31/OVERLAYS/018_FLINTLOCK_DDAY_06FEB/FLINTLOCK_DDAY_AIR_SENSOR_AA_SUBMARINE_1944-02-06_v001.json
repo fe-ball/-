@@ -1,0 +1,27 @@
+{
+  "id": "FLINTLOCK_DDAY_AIR_SENSOR_AA_SUBMARINE_1944-02-06_v001",
+  "status": "WORKING_SUPPORT_DOMAIN_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-06 through T24",
+  "air": {
+    "dawn_regional_serviceable": 27,
+    "Japanese_actions": "Small fighter interceptions, water/recon sorties and 1-2 tiny attack attempts continue from dispersed nodes; target-island runway mass strike is not credited.",
+    "major_US_ship_hits": 0,
+    "Japanese_irrecoverable_band": [5, 8],
+    "US_air_irrecoverable_from_air_to_air_AA_band": [3, 6],
+    "regional_serviceable_T24_band": [16, 21],
+    "regional_serviceable_T24_center": 18
+  },
+  "sensor_C2": {
+    "effect": "Surviving visual/DF/radio/telephone/water-air network gives general warning and remanning cues, but target-island primary radar loss prevents continuous high-grade fighter direction or a unified fire-control picture.",
+    "ground_link": "The benefit is already expressed through defenders being in shelters/assigned sectors and through the prelanding local-command/fire-ready fractions; no separate radar casualty multiplier is added."
+  },
+  "AA": {
+    "effect": "Surviving heavy/medium and light AA forces US aircraft to respect attack geometry and contributes to small aircraft losses/damage, but repeated gunfire/air suppression continues to reduce connected fire control during the day.",
+    "T24": "Target-island organized AA is fragmented; some guns remain locally dangerous but no coherent atoll-wide AA system remains around the main landing sectors."
+  },
+  "submarines": {
+    "useful_geometry": "Remaining boats retain reports and some transport-lane access, but 5-Feb attrition/damage and dense D-Day ASW prevent repeated weapon-quality attacks.",
+    "center_action": "One boat obtains a marginal firing opportunity against a screened support/transport group but either withholds or fires from poor geometry; no additional US ship hit centered on 6-Feb.",
+    "Japanese_loss": "No additional submarine sinking forced on D-Day centerline; at least one boat is driven off and loses the immediate attack window."
+  }
+}

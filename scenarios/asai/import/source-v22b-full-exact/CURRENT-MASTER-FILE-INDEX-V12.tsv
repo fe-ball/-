@@ -1,0 +1,80 @@
+authority_rank	status	role	pointer	supersession_note
+0	PACKAGE-CONTROL	start	00-START-HERE-CURRENT.md	V12 current pointer
+0.1	PACKAGE-CONTROL	machine current state	PACKAGE-STATE-V12.tsv	V12 machine-readable state
+0.2	CURRENT-HIGHEST	fixed-wing closeout handoff	79-CURRENT-2026-09-08-FIXED-WING-PROCUREMENT-CLOSE/00-FIXED-WING-CLOSEOUT-HANDOFF-V12.md	V12 highest fixed-wing authority
+0.3	CURRENT-HIGHEST	1941 fixed-wing procurement ledger	79-CURRENT-2026-09-08-FIXED-WING-PROCUREMENT-CLOSE/01-1941-FIXED-WING-PROCUREMENT-LEDGER-V1.tsv	serial/development procurement boundary
+0.4	CURRENT-HIGHEST	OOB counting boundary	79-CURRENT-2026-09-08-FIXED-WING-PROCUREMENT-CLOSE/02-OOB-COUNTING-BOUNDARY-V1.md	factory acceptance is not combat OOB
+0.5	CURRENT-HIGHEST	program/designation closeout	79-CURRENT-2026-09-08-FIXED-WING-PROCUREMENT-CLOSE/03-PROGRAM-AND-DESIGNATION-CLOSEOUT-V1.md	A7M/A8N/E6-B/Ki-76/Ki-40/J2N authority
+0.6	CURRENT-HIGHEST	STOL/powered-lift closeout	79-CURRENT-2026-09-08-FIXED-WING-PROCUREMENT-CLOSE/04-POWERED-LIFT-AND-STOL-CLOSEOUT-V1.md	P2 field performance and 1941 powered-lift gate
+0.7	CURRENT-HIGHEST	fixed-wing intentional opens	79-CURRENT-2026-09-08-FIXED-WING-PROCUREMENT-CLOSE/05-FIXED-WING-INTENTIONAL-OPEN-ITEMS-V1.tsv	non-blocking measurement/drawing/future gates
+0.8	NEXT	rotorcraft next handoff	79-CURRENT-2026-09-08-FIXED-WING-PROCUREMENT-CLOSE/06-ROTORCRAFT-HANDOFF-AFTER-FIXED-WING-CLOSE-V1.md	rotorcraft remains separately open
+1.2	CURRENT-HIGHEST	aircraft development handoff	78-CURRENT-2026-09-08-AIRCRAFT-DEVELOPMENT-CLOSE/00-AIRCRAFT-DEVELOPMENT-HANDOFF-V11.md	V11 aircraft-development authority
+1.3	CURRENT-HIGHEST	aircraft chronology	78-CURRENT-2026-09-08-AIRCRAFT-DEVELOPMENT-CLOSE/01-AIRCRAFT-DEVELOPMENT-CHRONOLOGY-1935-1941-V1.md	development history through 1941
+1.4	CURRENT-HIGHEST	aircraft performance master	78-CURRENT-2026-09-08-AIRCRAFT-DEVELOPMENT-CLOSE/02-AIRCRAFT-PERFORMANCE-MASTER-THROUGH-1941-V1.tsv	current/working status and no-close markers
+1.5	CURRENT-HIGHEST	designation gate ledger	78-CURRENT-2026-09-08-AIRCRAFT-DEVELOPMENT-CLOSE/04-AIRCRAFT-DESIGNATION-GATE-LEDGER-V1.tsv	name/number control
+1.6	CURRENT-HIGHEST	aircraft quarantine rules	78-CURRENT-2026-09-08-AIRCRAFT-DEVELOPMENT-CLOSE/05-AIRCRAFT-RESEARCH-QUARANTINE-RULES-V1.md	old branch no-auto-import rule
+1.7	CURRENT-HIGHEST	industrial feasibility	78-CURRENT-2026-09-08-AIRCRAFT-DEVELOPMENT-CLOSE/07-INDUSTRIAL-CAPACITY-AND-T-AUX-CLOSEOUT-1939-1941-V1.md	core/T-AUX/T5/prewar airframe resource closure
+1.8	NEXT	next rotorcraft audit	78-CURRENT-2026-09-08-AIRCRAFT-DEVELOPMENT-CLOSE/08-NEXT-TOPIC-HELICOPTER-AUDIT-V1.md	no rotorcraft conclusion pre-recorded
+3	CURRENT-HIGHEST	session handoff	77-CURRENT-2026-09-07-SESSION-CLOSE/00-SESSION-HANDOFF-V10.md	current session decisions
+4	CURRENT-HIGHEST	next gate	77-CURRENT-2026-09-07-SESSION-CLOSE/01-NEXT-GATE-1940-WEAPONS-REVIEW-V10.md	do not advance 1940 before review
+5	CURRENT-HIGHEST	correction register	77-CURRENT-2026-09-07-SESSION-CLOSE/02-CORRECTION-REGISTER-V10.tsv	post-V9 supersession/correction authority
+6	CURRENT-HIGHEST	current clocks	77-CURRENT-2026-09-07-SESSION-CLOSE/03-CURRENT-CLOCKS-V10.tsv	China Dec31 / Nomonhan Aug31 / 1940 not started
+7	CURRENT-HIGH	1938 retro airpower final	72-CURRENT-RETRO-AIRPOWER-1938-1939/ASAI-1938-RETRO-REPLAY-FINAL-CLOSEOUT-V2.md	supersedes post-V9 final V1
+8	CURRENT-HIGH	1939 opening air OOB reconciliation	72-CURRENT-RETRO-AIRPOWER-1938-1939/ASAI-1939-09-17-AIRPOWER-OPENING-RECONCILIATION-V1.md	E5/Ki42 pure-addition correction
+9	CURRENT-HIGH	Nomonhan final revision	73-CURRENT-NOMONHAN-REVISED-V10/ASAI-NOMONHAN-1939-08-24-31-FINAL-REVISION-V8.md	supersedes V9 terminal loss/outcome numbers where revised
+10	CURRENT-HIGH	China post-Jun20 chronological replay	74-CURRENT-CHINA-1939-REPLAY-V10/	chronological current authority through Dec31
+11	CURRENT-HIGH	post-Nomonhan China reallocation	74-CURRENT-CHINA-1939-REPLAY-V10/ASAI-1939-09-10-31-POST-NOMONHAN-CHINA-REALLOCATION-CLOSEOUT-V2.md	supersedes RETURN V1
+12	CURRENT-HIGH	First Changsha final	74-CURRENT-CHINA-1939-REPLAY-V10/ASAI-FIRST-CHANGSHA-1939-10-01-09-FINAL-CLOSEOUT-V4.md	campaign closed
+13	CURRENT-HIGH	1939 winter final	74-CURRENT-CHINA-1939-REPLAY-V10/ASAI-CHINA-1939-12-19-31-WINTER-OFFENSIVE-CENTRAL-NORTH-KUNLUN-V2.md	year-end checkpoint
+14	CURRENT-HIGH	aux fuel/drop tanks	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E5-KI42-AUX-FUEL-DROP-TANK-CLOSEOUT-1937-1939-V1.md	fuel hardware explicit; no retro range multiplier
+14.1	CURRENT-HIGH	E6 Twin performance/fuel/FRP rebase	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E6-TWIN-J-JF-PERFORMANCE-FUEL-FRP-REBASELINE-1939-1940-V1.md	supersedes stale Twin4/Single2 evaluation-only planning; no combat-clock advance
+14.1	CURRENT-HIGH	E6 Single performance/service-production	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E6-SINGLE-PERFORMANCE-SERVICE-PROCUREMENT-CLOSEOUT-1939-1940-V1.md	closes 1939 first-flight gap, service performance, cost and 1940 serial-production posture
+14.11	CURRENT-HIGH	E6 Single performance/procurement ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E6-SINGLE-PERFORMANCE-SERVICE-PROCUREMENT-LEDGER-V1.tsv	structured E6 Single 1939-40 values
+14.12	CURRENT-HIGH	E5/E6 Navy recon-land attack / Type91 lineage	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E5-E6-NAVAL-RECON-LAND-ATTACK-TORPEDO-LINEAGE-1938-1941-V1.md	closes Type98/Type0 naval naming, G4As torpedo derivative and 1941 Type91 high-speed qualification; no combat-clock advance
+14.13	CURRENT-HIGH	Navy carrier attack/dive-bomber delta summary	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-NAVY-CARRIER-ATTACK-DIVE-BOMBER-DELTA-SUMMARY-1939-1942-V1.md	B5N2/D3A1 existing changes; B6N/B7A inheritance
+13.13.21	CURRENT-HIGH	D3A1 piston/TP/dive-bombing closeout	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-D3A1-PISTON-TP-DIVE-BOMBING-COMPARATIVE-CLOSEOUT-1939-1941-V1.md	closes EX2 piston baseline, dive-bomb hit-realization bands, TP test-only decision and D4Y replacement opportunity gate
+14.22	CURRENT-HIGH	D3A1 comparative/dive-bombing ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-D3A1-PISTON-TP-DIVE-BOMBING-LEDGER-V1.tsv	structured airframe/performance/release/hit/TP/replacement values
+14.23	CURRENT-HIGH	G4M1 piston/TP/long-range attack closeout	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-G4M1-PISTON-TP-LONGRANGE-ATTACK-COMPARATIVE-CLOSEOUT-1939-1941-V1.md	closes EX2 piston baseline, long-range torpedo role, level-bombing guard, TP rejection and ramp opportunity
+14.24	CURRENT-HIGH	G4M1 comparative attack ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-G4M1-PISTON-TP-LONGRANGE-ATTACK-COMPARATIVE-LEDGER-V1.tsv	structured performance/radius/bombing/TP/replacement values
+15	CURRENT-HIGH	Navy aircraft/torpedo naming-inheritance ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-NAVAL-AIRCRAFT-TORPEDO-NAMING-INHERITANCE-LEDGER-V1.tsv	structured naming, torpedo-speed and inheritance closure
+14.15	CURRENT-HIGH	B5N2 piston/TP comparative closeout	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-B5N2-PISTON-TP-COMPARATIVE-CLOSEOUT-1939-1941-V1.md	closes worldline B5N2 performance baseline, test-only E5-S-T conversion and 1941 Type91 inheritance
+14.16	CURRENT-HIGH	B5N2 piston/TP comparative ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-B5N2-PISTON-TP-COMPARATIVE-LEDGER-V1.tsv	structured historical anchors, EX2 delta, TP H->A and procurement verdict
+14.17	CURRENT-HIGH	G3M2 piston/TP comparative closeout	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-G3M2-PISTON-TP-COMPARATIVE-CLOSEOUT-1939-1941-V1.md	closes G3M2 long-range gasoline baseline and rejects serial E5/E6-S-T G3M conversion
+14.18	CURRENT-HIGH	G3M2 piston/TP comparative ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-G3M2-PISTON-TP-COMPARATIVE-LEDGER-V1.tsv	structured G3M2 historical anchors, EX2 delta, torpedo-radius and TP comparisons
+14.2	CURRENT-HIGH	E6 Twin cost/procurement rebase	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E6-TWIN-COST-PROCUREMENT-REBASELINE-1939-1940-V1.md	supersedes E6REBASE1 36-60 pilot-production band; 144 firm-order class +72 option / 120-156 accepted planning
+14.3	CURRENT-HIGH	E6 Twin cost/procurement ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E6-TWIN-COST-PROCUREMENT-LEDGER-V1.tsv	structured cost and 1940 ramp values
+14.4	CURRENT-HIGH	E6 Twin mission/armament/high-speed release	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E6-TWIN-MISSION-ARMAMENT-HIGHSPEED-RELEASE-CLOSURE-1939-1940-V1.md	closes two-seat common mission architecture, ~0.40t internal bay, HSR/HSC service-release family; no combat-clock advance
+14.5	CURRENT-HIGH	E6 Twin mission/release ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E6-TWIN-MISSION-ARMAMENT-HIGHSPEED-RELEASE-LEDGER-V1.tsv	structured mission weights/load/release values
+14.6	CURRENT-HIGH	E6 FRP ordnance carriage/high-speed stores	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E6-FRP-ORDNANCE-CARRIAGE-HIGHSPEED-STORE-CLOSURE-1939-1940-V1.md	refines E6MISSION1 with S6/S4/M1 adapters, HSR 50/60/100/250 and FRP store architecture; no combat-clock advance
+14.7	CURRENT-HIGH	E6 FRP ordnance carriage ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E6-FRP-ORDNANCE-CARRIAGE-HIGHSPEED-STORE-LEDGER-V1.tsv	structured adapter/store/release/material values
+14.8	CURRENT-HIGH	E5/E6 1940 production transition / fleet accumulation	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E5-E6-1940-PRODUCTION-TRANSITION-FLEET-ACCUMULATION-CLOSEOUT-V1.md	closes residual 1939 E5 firm order and 1940 E5->E6 production-share transition; combat clock unchanged
+14.9	CURRENT-HIGH	E5/E6 monthly transition ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E5-E6-1940-PRODUCTION-TRANSITION-FLEET-LEDGER-V1.tsv	central 1940 acceptance/attrition-stock planning; losses are allowances not pre-recorded events
+14.19	CURRENT-HIGH	1941 year-end aerial torpedo effectiveness/employment	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-1941-YEAREND-NAVAL-AERIAL-TORPEDO-EFFECTIVENESS-EMPLOYMENT-CLOSEOUT-V1.md	closes Mod1/Mod2 power/reliability, valid-release hit bands, damage ladder and multi-axis employment; no combat-clock advance
+14.2	CURRENT-HIGH	1941 aerial torpedo effectiveness/employment ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-1941-YEAREND-NAVAL-AERIAL-TORPEDO-EFFECTIVENESS-EMPLOYMENT-LEDGER-V1.tsv	structured weapon/reliability/hit-band/platform/formation planning values
+14.21	CURRENT-HIGH	D3A1 piston/TP/dive-bombing closeout	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-D3A1-PISTON-TP-DIVE-BOMBING-COMPARATIVE-CLOSEOUT-1939-1941-V1.md	closes EX2 piston baseline, dive-bomb hit-realization bands, TP test-only decision and D4Y replacement opportunity gate
+14.22	CURRENT-HIGH	D3A1 comparative/dive-bombing ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-D3A1-PISTON-TP-DIVE-BOMBING-LEDGER-V1.tsv	structured airframe/performance/release/hit/TP/replacement values
+14.23	CURRENT-HIGH	G4M1 piston/TP/long-range attack closeout	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-G4M1-PISTON-TP-LONGRANGE-ATTACK-COMPARATIVE-CLOSEOUT-1939-1941-V1.md	closes EX2 piston baseline, long-range torpedo role, level-bombing guard, TP rejection and ramp opportunity
+14.24	CURRENT-HIGH	G4M1 comparative attack ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-G4M1-PISTON-TP-LONGRANGE-ATTACK-COMPARATIVE-LEDGER-V1.tsv	structured performance/radius/bombing/TP/replacement values
+15	CURRENT-HIGH	wet/heavy mobility/Chi-Ha	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-1939-WET-WEATHER-RIVER-CROSSING-HEAVY-MOBILITY-CHIHA-CLOSEOUT-V1.md	WET1 / 200-220hp / no deep wading
+16	CURRENT-HIGH	winter GT	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-1939-WINTER-GT-COLD-START-HEAT-SUPPORT-CLOSEOUT-V1.md	temperature-banded supported-cluster effect
+17	CURRENT-NEXT	1940 weapon appearance	76-CURRENT-1940-WEAPON-GATE-V10/ASAI-1940-WEAPON-APPEARANCE-FIELDING-LEDGER-V1.md	planning gate; combat clock not advanced
+17.1	CURRENT-HIGH	cross-theater V2 ledger	74-CURRENT-CHINA-1939-REPLAY-V10/ASAI-1939-POST-NOMONHAN-CHINA-CROSS-THEATER-LEDGER-V2.tsv	supersedes V1 return wording
+17.2	CURRENT-HIGH	cumulative audit through 1939	77-CURRENT-2026-09-07-SESSION-CLOSE/04-CUMULATIVE-AUDIT-THROUGH-1939-12-31-V10.md	aggregates only already-closed deltas
+18	CURRENT-BASE	V9 technical control	71-CURRENT-TECHNICAL-CONTROL-V9/	still mandatory unless V10 technical addendum overrides
+19	PROVENANCE	V9 session close	70-CURRENT-2026-09-05-SESSION-CLOSE/00-SESSION-HANDOFF-V9.md	baseline/provenance; Nomonhan/China clock superseded by V10
+100	PROVENANCE-SUPERSEDED	post-V9 stale drafts	90-PROVENANCE-SUPERSEDED-POST-V9/	not current authority
+14.25	CURRENT-HIGH	E7/E6 airframe retrofit prewar outlook	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E7-E6-AIRFRAME-RETROFIT-PREWAR-OUTLOOK-1940-1942-V1.md	1940-41 E7 research-close schedule, E6 Single/Twin retrofit H->A and future-aircraft engine-review rule
+14.26	CURRENT-HIGH	E7/E6 retrofit outlook ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E7-E6-AIRFRAME-RETROFIT-PREWAR-OUTLOOK-LEDGER-V1.tsv	structured schedule/capability/performance/design-target values
+14.27	CURRENT-HIGH	E7 turboprop/shaft prewar outlook	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E7-TURBOPROP-SHAFT-PRODUCT-PREWAR-OUTLOOK-1940-1942-V1.md	E7 scale-sensitive shaft/TP product bands, B6N comparator, AT-3 growth and propeller gates; no future combat advance
+14.28	CURRENT-HIGH	E7 turboprop/shaft outlook ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E7-TURBOPROP-SHAFT-PRODUCT-PREWAR-OUTLOOK-LEDGER-V1.tsv	structured E7 S/M/L shaft-product and aircraft-selection outlook values
+14.29	CURRENT-HIGH	B6N Tenzan piston/E6-S-T/E7-M-LF comparative outlook	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-B6N-TENZAN-PISTON-E6ST-E7M-TP-COMPARATIVE-OUTLOOK-1939-1942-V1.md	14-Shi carrier geometry; E7 lower-medium TP conditional main candidate; no future service pre-recorded
+14.3	CURRENT-HIGH	B6N Tenzan comparative ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-B6N-TENZAN-PISTON-E6ST-E7M-TP-COMPARATIVE-LEDGER-V1.tsv	structured piston/E6-S-T/E7-M-LF mass/performance/range/schedule outlook
+14.31	CURRENT-HIGH	D4Y Suisei piston/E7-S-T comparative outlook	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-D4Y-SUISEI-PISTON-E7ST-TP-COMPARATIVE-OUTLOOK-1940-1942-V1.md	clean Atsuta comparator; E7-S-T small-core recon/fast-strike conditional branch; structural/replacement timing
+14.32	CURRENT-HIGH	D4Y comparative ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-D4Y-SUISEI-PISTON-E7ST-TP-COMPARATIVE-LEDGER-V1.tsv	structured mass/speed/range/dive/schedule/procurement outlook
+14.33	CURRENT-HIGH	naval carrier TP D4Y/B6N application split	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-NAVY-CARRIER-TP-APPLICATION-SPLIT-D4Y-B6N-1941-1942-V1.md	E7-S vs E7-M scale split and shared naval bottlenecks
+14.34	CURRENT-HIGH	E5-derived E6 fast-heavy-bomber outlook	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E5-DERIVED-E6-FAST-HEAVY-BOMBER-OUTLOOK-1938-1941-V1.md	E5 attack-driven dedicated 1.0-1.2t internal fast-bomber branch; E7 growth outlook; no future service pre-recorded
+14.35	CURRENT-HIGH	E6 fast-heavy-bomber outlook ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-E5-DERIVED-E6-FAST-HEAVY-BOMBER-OUTLOOK-LEDGER-V1.tsv	structured requirement/mass/payload/performance/radius/E7-growth values
+14.36	CURRENT-HIGH	E5/E6/E7 aircraft-engine family Army/Navy matrix	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-AIRCRAFT-ENGINE-GENERATION-FAMILY-ARMY-NAVY-MATRIX-1937-1942-V1.md	generation/core-scale/backend/airframe/service hierarchy; same-engine multiple-airframe and same-generation cross-core closure
+14.37	CURRENT-HIGH	E5/E6/E7 aircraft-engine family structured ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-AIRCRAFT-ENGINE-GENERATION-FAMILY-ARMY-NAVY-LEDGER-1937-1942-V1.tsv	structured E5-E7 engine-product/airframe/service crosswalk
+14.38	CURRENT-HIGH	aircraft nomenclature alias/restoration guard	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-AIRCRAFT-NOMENCLATURE-ALIAS-RESTORATION-GUARD-V1.md	separates technical identity from provisional service naming; preserves old labels and permits formal restoration
+14.39	CURRENT-HIGH	aircraft nomenclature alias/restoration ledger	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-AIRCRAFT-NOMENCLATURE-ALIAS-RESTORATION-LEDGER-V1.tsv	structured protected/prior labels vs working aliases

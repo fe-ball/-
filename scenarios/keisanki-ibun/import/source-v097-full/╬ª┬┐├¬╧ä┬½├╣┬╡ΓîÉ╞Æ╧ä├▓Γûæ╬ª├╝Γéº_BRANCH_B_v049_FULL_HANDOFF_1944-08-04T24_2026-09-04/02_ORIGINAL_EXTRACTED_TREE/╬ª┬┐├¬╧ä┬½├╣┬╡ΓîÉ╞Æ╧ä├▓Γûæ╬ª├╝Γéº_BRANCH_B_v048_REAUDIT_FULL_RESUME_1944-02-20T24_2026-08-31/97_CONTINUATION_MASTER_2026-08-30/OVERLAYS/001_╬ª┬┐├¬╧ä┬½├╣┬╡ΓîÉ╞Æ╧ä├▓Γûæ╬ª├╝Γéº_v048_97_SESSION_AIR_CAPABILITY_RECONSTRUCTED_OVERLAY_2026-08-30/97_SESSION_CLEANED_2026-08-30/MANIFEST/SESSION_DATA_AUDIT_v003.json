@@ -1,0 +1,91 @@
+{
+  "revision": "v003",
+  "id": "SESSION_DATA_AUDIT_2026-08-30_v003",
+  "scope": "v048 base + 96_SESSION_WORKING_2026-08-30 continuation",
+  "result": "CLEANED_OVERLAY_AIR_CAPABILITY_RECONSTRUCTED_EVENT_LOCAL_ADJUDICATION_READY_NOT_PROMOTED",
+  "integrity_checks": {
+    "json_parse": "497 JSON files parsed successfully before adding cleaned overlay",
+    "base_validator": "validate_refactor_v029.py reported ERRORS=0 WARNINGS=0 JSON_FILES=497",
+    "session_checksum": "51/51 entries in SHA256SUMS_SESSION_v001.txt verify OK when run from package root",
+    "session_manifest_payload": "49/49 listed payload files exist; manifest/list agree",
+    "duplicate_session_ids": "none",
+    "revision_filename_mismatch": "none"
+  },
+  "fixed_in_97_overlay": [
+    {
+      "severity": "HIGH",
+      "issue": "2/21 national armor checkpoint did not explicitly fold the later Eniwetok nine-Type95 named posting.",
+      "fix": "v002 checkpoint adds exact 9 opening / 3 Engebi loss / 6 residual named accounting, while retaining broad national uncertainty bands to avoid false-precision double counting."
+    },
+    {
+      "severity": "MEDIUM",
+      "issue": "TRUK_HAILSTONE_WARNING_CHAIN v001 placed an explanatory COMINT rule phrase inside parents, making parent resolution non-machine-clean.",
+      "fix": "v002 keeps only resolvable artifact parents and moves accepted COMINT cards to rule_inputs sourced from TECH_INDEX_v009."
+    },
+    {
+      "severity": "MEDIUM",
+      "issue": "ASW guard v001 called two legacy documents canonical inputs even though 99_LEGACY_UNTOUCHED is empty in this package.",
+      "fix": "v002 separates loadable refactored canonical inputs from catalog-only legacy provenance and records expected SHA256 values."
+    },
+    {
+      "severity": "MEDIUM",
+      "issue": "Session manifest frontier text was stale: it said CATCHPOLE closeout in progress although future-local Parry/atoll closeout is already adjudicated through 27 Feb.",
+      "fix": "cleaned manifest distinguishes global frontier (21 Feb) from resolved future-local CATCHPOLE nodes (through 27 Feb) and keeps the Eastern Fleet merge gate blocking global advance."
+    },
+    {
+      "severity": "LOW",
+      "issue": "Session payload contains superseded v001/v002 pairs without a separate active-vs-history list.",
+      "fix": "cleaned manifest publishes active_overlay_files and retained_superseded_history explicitly."
+    }
+  ],
+  "documented_not_changed": [
+    {
+      "topic": "rounded national serviceable bands",
+      "details": [
+        "1942 family component serviceable sums are [3323,3979] while the published national band is [3320,3975].",
+        "1943 family component serviceable sums are [3640,4333] while the published national band is [3640,4330]."
+      ],
+      "decision": "Treat as presentation/banded rounding, not an arithmetic correction. Do not manufacture extra precision in a reconstructed national inventory."
+    },
+    {
+      "topic": "future Marianas/Saipan files",
+      "decision": "Retained as gates only; they do not advance the global clock beyond 1944-02-21."
+    },
+    {
+      "topic": "Bengal 25th Dragoons",
+      "decision": "v002 remains an explicit reopen gate. It is not silently folded into the v048 Bengal authority settlement until its transport/route and 2-15 Dec re-adjudication are closed."
+    }
+  ],
+  "resume_order": [
+    "Close the Indian Ocean aviation capability gate for 1944-02-19..22.",
+    "Adjudicate Eastern Fleet / Andaman / Bay of Bengal 1944-02-19..22 at the global 1944-02-21 frontier.",
+    "Merge already-resolved CATCHPOLE future-local results only after cross-theater allocation clocks are reconciled.",
+    "Then update Bengal residual force with the 25th Dragoons route-disruption gate.",
+    "Keep China/Five-Go national armor tightening and 1944 production/development wallet as parallel audit gates.",
+    "Do not activate June Marianas/Saipan results yet."
+  ],
+  "supersedes": "97_SESSION_CLEANED_2026-08-30/MANIFEST/SESSION_DATA_AUDIT_v002.json",
+  "additional_air_capability_audit": {
+    "finding": "Indian Ocean aviation is present only as fragmented qualitative/legacy anchors; no Feb19-22 integrated capability ledger exists at Central-Pacific normalization depth.",
+    "action": "Added explicit gap audit + no-combat-use ledger scaffold and made closure a prerequisite to Eastern Fleet/Andaman operational adjudication.",
+    "files": [
+      "97_SESSION_CLEANED_2026-08-30/AIR/INDIAN_OCEAN_AIR_CAPABILITY_GAP_AUDIT_1944-02-21_v001.json",
+      "97_SESSION_CLEANED_2026-08-30/AIR/INDIAN_OCEAN_AIR_CAPABILITY_LEDGER_1944-02-19_22_WORKING_v001.json"
+    ],
+    "status_after_v003": "SUPERSEDED_BY_RECONSTRUCTION_FILES"
+  },
+  "aviation_reconstruction_2026_08_30": {
+    "status": "CLOSED_AS_THEATER_LEVEL_BLOCKER",
+    "main_ledger": "97_SESSION_CLEANED_2026-08-30/AIR/INDIAN_OCEAN_AIR_CAPABILITY_LEDGER_1944-02-19_22_WORKING_v002.json",
+    "asw_ledger": "97_SESSION_CLEANED_2026-08-30/AIR/JAPAN_INDIAN_OCEAN_ASW_AIR_CAPABILITY_1944-02-19_22_WORKING_v001.json",
+    "gap_audit": "97_SESSION_CLEANED_2026-08-30/AIR/INDIAN_OCEAN_AIR_CAPABILITY_GAP_AUDIT_1944-02-21_v002.json",
+    "key_corrections": [
+      "551st NAG main B6N2 force not counted in Indian Ocean after Jan31 ferry to Truk",
+      "705th NAG remains creditable west during Feb19-22 event window subject to dated later transfer",
+      "331st NAG branch retention is explicit and cross-debited from Pacific",
+      "Tokai/MAD represented as dedicated ASW/datum capability rather than combat strike strength",
+      "Ka-go local Indian Ocean contribution is zero without dated Akitsu Maru/Ka-go presence"
+    ],
+    "precision_rule": "Exact historical serviceability was not fabricated. Bands are deliberately wide where only organization/location and branch attrition anchors exist."
+  }
+}

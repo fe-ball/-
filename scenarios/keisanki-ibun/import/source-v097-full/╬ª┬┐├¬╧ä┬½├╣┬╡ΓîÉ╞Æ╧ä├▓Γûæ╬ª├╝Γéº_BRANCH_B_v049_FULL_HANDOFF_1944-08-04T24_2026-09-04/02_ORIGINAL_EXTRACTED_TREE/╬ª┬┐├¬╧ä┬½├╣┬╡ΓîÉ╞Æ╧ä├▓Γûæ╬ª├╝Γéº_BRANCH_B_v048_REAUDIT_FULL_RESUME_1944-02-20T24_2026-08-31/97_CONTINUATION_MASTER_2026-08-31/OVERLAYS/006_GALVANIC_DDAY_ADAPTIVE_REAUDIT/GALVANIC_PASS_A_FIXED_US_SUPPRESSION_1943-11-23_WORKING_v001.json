@@ -1,0 +1,76 @@
+{
+  "id": "GALVANIC_PASS_A_FIXED_US_SUPPRESSION_1943-11-23_WORKING_v001",
+  "status": "WORKING_ADJUDICATION_NOT_AUTHORITY",
+  "scope": "Run the preplanned US 23-Nov suppression scheme unchanged against the corrected Branch-B hardened base network; stop before US adaptive reallocation.",
+  "rules": [
+    "US plan and target priorities are held fixed for Pass A.",
+    "Japanese D-1 warning/dispersion already earned by the contact chain is active.",
+    "Hardening is resolved by target layer; no flat base-survival multiplier.",
+    "No post-GALVANIC defensive hindsight.",
+    "Aircraft may evacuate/stage if warning, fuel, runway and destination permit; this costs sortie/maintenance state."
+  ],
+  "US_fixed_effort_working_bands": {
+    "Nauru_Wasp_Princeton": {
+      "offensive_sorties": "~100-125 across fighter sweep/escort and attack cycles",
+      "ordnance": "~80-100 tons class",
+      "note": "Historical Nauru all-day scale used only as workload sanity anchor; Branch carrier identity/date follow current v048."
+    },
+    "outer_Marshalls_fast_carrier_suppression": {
+      "offensive_sorties": "~150-190 distributed across Taroa/Mili/Wotje/Jaluit/Kwajalein approaches",
+      "priority": "Taroa first; Mili/Jaluit next; Wotje/Kwaj support/C2 as geometry permits"
+    },
+    "land_based_Dminus1": {
+      "effective_bomber_attack_sorties": "~24-36 against Tarawa/Makin and selected southern nodes",
+      "note": "separate from carrier CAP/search/ASW wallet"
+    }
+  },
+  "results_before_evening_Japanese_maritime_strike": {
+    "Nauru": {
+      "air_ready_end_day_before_repairs": "2-5 total; center ~3",
+      "runway": "daylight operations heavily suppressed; multiple craters; no normal-cycle sortie generation",
+      "fuel_ordnance": "45-65% functional/dispersed capacity survives",
+      "repair_workshop": "60-75% residual function",
+      "C2_radio": "55-70% residual local function",
+      "judgment": "HEAVY_SUPPRESSION_NOT_STERILIZATION",
+      "US_air_losses": "~1-3 irrecoverable, additional damaged possible",
+      "Japan_air_losses": "~4-6 irrecoverable/short-term unavailable combined air+ground"
+    },
+    "Maloelap_Taroa": {
+      "ready_center_band": "21-27 total after fixed suppression; fighters ~14-19, attack 3-5, recon/Zuiun 2-3",
+      "runway": "heavily cratered but repair parties preserve intermittent strip/taxi use by late day",
+      "base_system": "C2/fuel/workshop materially damaged but not collapsed; P2/P3 dispersion prevents several cluster kills",
+      "Raiden": "surviving detachment remains material but pays CAP/interception attrition"
+    },
+    "Mili": {
+      "ready_center_band": "18-23 total; attack aircraft ~9-11 remain the strongest dusk strike reservoir",
+      "runway": "degraded but usable in windows after repair",
+      "water_air": "Kyofu/Zuiun layer largely persists unless individually found"
+    },
+    "Wotje": {
+      "ready_center_band": "9-12 total",
+      "system": "suppressed but not closed; revetments/stores force repeat work"
+    },
+    "Jaluit": {
+      "ready_center_band": "11-14 total",
+      "system": "land strip damaged; lagoon search/intercept layer persists because ramp/fuel/comms are separate targets"
+    },
+    "Kwajalein_Roi_Ebeye": {
+      "ready_center_band": "17-20 total",
+      "system": "larger network and lower D-1 strike priority preserve command/search/logistics continuity"
+    },
+    "Tarawa_Betio_air": {
+      "decision": "evacuate a useful fraction of flyable nonessential aircraft once invasion scale is unmistakable; do not sacrifice every serviceable machine on Betio",
+      "evacuated_by_late_23": "~7-10 fighters plus 1-2 attack/recon aircraft to Mili/Jaluit/Marshall staging if individually serviceable",
+      "local_ready_after_Dminus1": "~2-5 fighters and 0-1 attack/recon in a severely suppressed runway environment",
+      "effect": "aircraft survival transfers to regional wallet; it does not make Betio an active D-Day airbase"
+    }
+  },
+  "regional_effect": {
+    "attack_aircraft_available_for_dusk_maritime_package": "~22-26 after fixed ground suppression and staging, consistent with but slightly more robust than old ~22-sortie line",
+    "fighter_search_water_air": "material residual network survives; US cannot treat first sweep as regional sterilization"
+  },
+  "historical_sanity_anchors": [
+    "Historical GALVANIC fast carriers attacked Marshalls while a separate carrier group struck Nauru; historical Nauru attack was an all-day multi-cycle effort.",
+    "Historical Tarawa pre-invasion week used repeated land-based bombing; fixed Pass A preserves equivalent operational intent, not exact Branch routing or ship identity."
+  ]
+}

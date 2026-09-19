@@ -1,0 +1,18 @@
+{
+  "revision": "v018",
+  "date": "2026-08-24",
+  "result": "PASS",
+  "checks": {
+    "all_json_parse": true,
+    "clock_remains_1944_04_25": true,
+    "transport_interdiction_audit_present": true,
+    "machine_ledger_present": true,
+    "nonlinear_logistics_multiplier_recorded": true,
+    "transport_target_set_not_limited_to_airfields": true,
+    "existing_western_sortie_budget_not_double_counted": true,
+    "operation_not_prematurely_settled": true,
+    "file_count_before_checksum": 470,
+    "json_file_count": 208
+  },
+  "note": "Working-band validation. v018 adds logistics-interdiction effects but does not launch or final-size the Ichigo-equivalent operation."
+}

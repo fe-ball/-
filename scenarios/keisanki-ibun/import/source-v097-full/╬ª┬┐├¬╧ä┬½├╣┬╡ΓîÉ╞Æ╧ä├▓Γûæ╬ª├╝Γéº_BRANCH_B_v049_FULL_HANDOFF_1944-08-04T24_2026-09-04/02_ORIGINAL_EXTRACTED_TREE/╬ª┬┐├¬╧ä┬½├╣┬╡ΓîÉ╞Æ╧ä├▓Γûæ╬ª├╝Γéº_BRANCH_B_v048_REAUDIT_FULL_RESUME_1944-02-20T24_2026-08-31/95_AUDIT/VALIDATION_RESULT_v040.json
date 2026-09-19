@@ -1,0 +1,9 @@
+{
+  "package_revision": "v040",
+  "ERRORS": 0,
+  "WARNINGS": 0,
+  "JSON_FILES": 405,
+  "errors": [],
+  "warnings": [],
+  "note": "Focused v040 validation: JSON parse, authority unchanged, Jan28 total remains 136, corrected poststate base sum verified, regional/water-air/US land-air files present. Legacy validators retained unchanged."
+}

@@ -1,0 +1,21 @@
+{
+  "revision": "v001",
+  "id": "CHINA_ICHIGO_STATE_DEEP_REAUDIT_MANIFEST_1944-04-30_v001",
+  "status": "OVERLAY_MANIFEST",
+  "clock_advanced": false,
+  "local_timeline_reopened": true,
+  "local_reopen_scope": "China planning/preparation; terminal launch window initially 1944-04-15..1944-04-30",
+  "load_after": [
+    "計算機異聞_v048_ICHIGO_BRANCH_REAUDIT_1944-04-30_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_AVIATION_REGEN_BENGAL_REBALANCE_1944-03-08_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_PACIFIC_1944-04-16_30_OVERLAY_2026-08-30.zip"
+  ],
+  "files": [
+    "CHINA_ICHIGO_STATE_DEEP_REAUDIT_1944-04-30/CHINA/ICHIGO_DECISION_ORIGIN_AND_LAUNCH_GATE_REOPEN_1943-11_1944-04-30_v002.json",
+    "CHINA_ICHIGO_STATE_DEEP_REAUDIT_1944-04-30/CHINA/NANJING_GOVERNMENT_SECURITY_MANPOWER_1944-04-30_WORKING_v001.json",
+    "CHINA_ICHIGO_STATE_DEEP_REAUDIT_1944-04-30/CHINA/CHONGQING_GOVERNMENT_ECONOMY_FORCE_1944-04-30_WORKING_v001.json",
+    "CHINA_ICHIGO_STATE_DEEP_REAUDIT_1944-04-30/CHINA/FIVE_GO_GROUND_EXCHANGE_HARDWARE_REAUDIT_1943_WORKING_v001.json"
+  ],
+  "effect": "Reopens Ichi-Go timing from data rather than calendar, quantifies Nanjing rear-security capacity, bounds Chongqing economy/effective force, and records a provisional Five-Go land-exchange correction. Does not launch combat or alter canonical Five-Go casualties yet.",
+  "next_required_adjudication": "Build dated Mar-15..Apr-30 Hunan terminal-preparation/detection ledger and reconstruct Five-Go Phase III-A Guangyuan casualties before assigning exact D-day or full 1943 China casualty total."
+}

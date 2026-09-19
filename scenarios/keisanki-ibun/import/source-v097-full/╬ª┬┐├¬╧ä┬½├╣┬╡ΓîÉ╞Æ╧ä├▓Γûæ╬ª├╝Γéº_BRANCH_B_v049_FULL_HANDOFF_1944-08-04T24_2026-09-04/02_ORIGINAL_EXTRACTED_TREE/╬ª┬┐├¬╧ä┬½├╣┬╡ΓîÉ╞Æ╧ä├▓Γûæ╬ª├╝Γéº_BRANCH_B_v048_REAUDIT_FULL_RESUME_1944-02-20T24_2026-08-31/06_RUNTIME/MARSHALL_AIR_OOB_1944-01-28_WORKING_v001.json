@@ -1,0 +1,156 @@
+{
+  "revision": "v001",
+  "id": "MARSHALL_AIR_OOB_1944-01-28_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-01-28T12:00:00+12:00",
+  "purpose": "Close the Japanese Marshall air baseline immediately before the Branch Flintlock-equivalent carrier approach, separating physical aircraft, combat-serviceable aircraft, search availability, named historical unit anchors and Branch-specific dispersal/readiness effects.",
+  "authority_note": "No CURRENT authority promotion. Counts are working bands/centers, not a claim that every historical inventory source used the same definition of operational aircraft.",
+  "historical_anchors": {
+    "official_US_Army": "Eastern Mandates history reports about 110 operational Japanese aircraft in the Marshalls on 25 Jan 1944.",
+    "NHHC": "H-Gram 026 gives about 150 operational aircraft around 27 Jan; this conflicts in definition/rounding with the Army figure and is not treated as a like-for-like count.",
+    "named_unit_compilation_29Jan": "252 AG fighters Taroa; 281 AG fighters Roi; 531 AG carrier-attack Wotje; 752 AG land-attack Roi/Taroa; 753 AG land-attack Roi; 952 AG recon seaplanes. Used for unit/location anchoring, not as an authoritative exact total.",
+    "historical_search_effort": "On 28 Jan historical Japanese search was very thin (about four daily search aircraft from Taroa in one major quadrant); Branch contact-fusion and healthier network permit somewhat more useful sorties, not blanket coverage."
+  },
+  "branch_deltas": [
+    "Historical Operation-RO 12-Nov drain is not inherited; the Branch Marshall network entered GALVANIC materially healthier.",
+    "GALVANIC caused real local land-air losses, including the 23-Nov torpedo strike, so the no-RO dividend is not retained one-for-one.",
+    "Historical mass 4-Dec Kwajalein/Roi carrier strike is not realized; only limited outer-Marshall pressure/recon occurred, preserving more aircraft/ground infrastructure into January.",
+    "Repeated Seventh Air Force attacks in Dec-Jan still impose losses, maintenance debt, runway repair and dispersal costs.",
+    "Branch C2/search doctrine favors dispersal, night staging, cue-to-confirm and preserving reconnaissance rather than parking the whole force at Roi."
+  ],
+  "theatre_total": {
+    "physical_present_band": [
+      155,
+      175
+    ],
+    "physical_center": 164,
+    "combat_serviceable_band": [
+      125,
+      145
+    ],
+    "combat_serviceable_center": 136,
+    "immediate_alert_or_search_capable_band": [
+      108,
+      128
+    ],
+    "warning": "Physical, serviceable and immediately launchable are separate layers. Do not compare the 136 center directly to historical single-number sources without matching definitions."
+  },
+  "base_layers": [
+    {
+      "base": "Maloelap/Taroa",
+      "physical_center": 54,
+      "serviceable_center": 46,
+      "role_center": "main eastern fighter/intercept base; 252 AG fighter core plus 752 AG attack detachment and search/confirmation assets",
+      "serviceable_role_center": {
+        "fighters": 30,
+        "attack_land_or_carrier_type": 10,
+        "recon_search_float_or_fast_confirm": 6
+      },
+      "named_anchors": [
+        "252nd Air Group",
+        "752nd Air Group detachment"
+      ],
+      "branch_note": "largest single forward air concentration, but kept below an all-network pile-up"
+    },
+    {
+      "base": "Kwajalein/Roi-Namur",
+      "physical_center": 42,
+      "serviceable_center": 34,
+      "role_center": "central fighter/land-attack command node and likely US high-value target",
+      "serviceable_role_center": {
+        "fighters": 24,
+        "land_attack": 8,
+        "recon_other": 2
+      },
+      "named_anchors": [
+        "281st Air Group",
+        "753rd Air Group",
+        "752nd Air Group detachment"
+      ],
+      "branch_note": "dispersal prevents historical-style 90+ aircraft ground concentration at one strike instant"
+    },
+    {
+      "base": "Wotje",
+      "physical_center": 19,
+      "serviceable_center": 16,
+      "role_center": "carrier-attack/light strike, fighter/recon staging",
+      "serviceable_role_center": {
+        "fighter_or_local_cover": 6,
+        "carrier_attack_or_night_strike": 8,
+        "recon_other": 2
+      },
+      "named_anchors": [
+        "531st Air Group"
+      ],
+      "branch_note": "useful outer-island staging; not a full independent fighter wing"
+    },
+    {
+      "base": "Mili",
+      "physical_center": 14,
+      "serviceable_center": 12,
+      "role_center": "fighter/recon/attack detachment and southern dispersal node",
+      "serviceable_role_center": {
+        "fighter_or_local_cover": 6,
+        "attack_or_night": 4,
+        "recon_other": 2
+      },
+      "named_anchors": [],
+      "branch_note": "detachment accounting only; no invented full named kokutai"
+    },
+    {
+      "base": "Jaluit",
+      "physical_center": 12,
+      "serviceable_center": 10,
+      "role_center": "southern search/night staging and logistics node",
+      "serviceable_role_center": {
+        "fighter_or_local_cover": 3,
+        "attack_or_night": 4,
+        "recon_float": 3
+      },
+      "named_anchors": [],
+      "branch_note": "detachment accounting only"
+    },
+    {
+      "base": "Eniwetok",
+      "physical_center": 15,
+      "serviceable_center": 12,
+      "role_center": "western fallback/rear staging and land-attack reserve",
+      "serviceable_role_center": {
+        "fighter_or_local_cover": 3,
+        "land_attack_or_transfer": 7,
+        "recon_other": 2
+      },
+      "named_anchors": [],
+      "branch_note": "rearward depth; not counted as instantly available over Kwajalein"
+    },
+    {
+      "base": "dispersed lagoon/seaplane nodes",
+      "physical_center": 8,
+      "serviceable_center": 6,
+      "role_center": "reconnaissance seaplane/observation and local warning",
+      "serviceable_role_center": {
+        "recon_seaplane": 6
+      },
+      "named_anchors": [
+        "952nd Air Group elements"
+      ],
+      "branch_note": "distributed, not six aircraft at one base"
+    }
+  ],
+  "search_contact_system": {
+    "useful_long_range_search_sorties_per_day_center_band": "6-8 across the Marshall network under high alert",
+    "fast_research_confirmation_sorties": "1-2 when a suspicious contact/submarine report exists",
+    "effect": "Submarine/DF/traffic reports narrow the arcs so limited aircraft can search probability corridors rather than the entire ocean.",
+    "limits": [
+      "No airborne search radar assumed on these scouts.",
+      "US CAP/radar can break shadowing after the initial report.",
+      "A search contact is not a weapon-quality carrier strike solution without recontact/freshness."
+    ]
+  },
+  "kinsei_zero": {
+    "dedicated_Marshall_combat_detachment_on_28Jan": "0 centered; 0-4 transient/evaluation aircraft possible but not credited",
+    "reason": "Post-GALVANIC priority remains Shokaku/Zuikaku then Hiryu mixed groups; the already-adjudicated Bengal quality detachment consumes another small allocation. Do not spawn scarce Kinsei aircraft into every threatened shore base.",
+    "new_order_after_Central_Pacific_warning": "6-8 later-production aircraft may be ordered forward via Truk from 27-28 Jan, but ETA/acceptance is after this ledger clock and they are not counted on 28 Jan."
+  },
+  "operational_conclusion": "Branch Marshalls are materially harder to decapitate than the historical one-morning parking concentration, but 136 serviceable aircraft spread across multiple atolls cannot mass against three US carrier groups simultaneously. The benefit is preserved search/night/attrition function, not local air superiority over TF58."
+}

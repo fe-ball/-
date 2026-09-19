@@ -1,0 +1,15 @@
+Branch B v090 delta summary — 2026-09-10
+
+Source: v089 full handoff dated 2026-09-09.
+Purpose: package the local Aleutians re-audit conducted 2026-09-10.
+Global clock remains 1943-11-05.
+Local North-Pacific frontier is 1943-05-20 evening.
+
+New authority:
+- continuous 1942 autumn/winter North-Pacific bulk-logistics model;
+- Attu/Kiska May-11 OOB/technology/carrier-air snapshot;
+- first counterlanding / naval-air-sea gate through 20 May evening;
+- explicit open-item register and resume frontier.
+
+Important dependency:
+- later 1943 Pacific settlements are not deleted, but require re-audit if open Attu continuation causes major fleet/aircrew losses.

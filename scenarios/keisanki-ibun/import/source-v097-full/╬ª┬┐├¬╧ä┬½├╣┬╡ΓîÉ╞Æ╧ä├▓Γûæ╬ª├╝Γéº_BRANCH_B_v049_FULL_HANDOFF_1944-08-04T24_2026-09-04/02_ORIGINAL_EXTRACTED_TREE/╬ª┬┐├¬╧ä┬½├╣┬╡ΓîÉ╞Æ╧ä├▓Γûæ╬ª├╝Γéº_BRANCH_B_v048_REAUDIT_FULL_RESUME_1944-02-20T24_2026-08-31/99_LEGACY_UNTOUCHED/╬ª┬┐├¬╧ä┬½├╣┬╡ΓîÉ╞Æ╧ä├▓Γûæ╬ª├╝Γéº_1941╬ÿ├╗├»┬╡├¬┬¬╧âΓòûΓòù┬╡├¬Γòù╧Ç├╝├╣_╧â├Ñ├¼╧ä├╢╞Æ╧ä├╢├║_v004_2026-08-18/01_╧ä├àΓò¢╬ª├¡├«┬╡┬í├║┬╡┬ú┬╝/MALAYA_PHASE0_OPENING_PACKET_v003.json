@@ -1,0 +1,100 @@
+{
+  "revision": "v0.03",
+  "period": [
+    "1941-11-15",
+    "1941-12-08T00:00"
+  ],
+  "purpose": "machine-readable handoff from Southern Air concentration to Malaya Phase 1 without double counting nominal strength, precombat loss, replacements, or known Dec-7 events",
+  "source_files": [
+    "malaya_opening_oob_baseline_v001.json",
+    "prewar_concentration_accounting_v001.json",
+    "malaya_dec8_lower_bound_constraints_v001.json",
+    "precombat_divergence_eligibility_v001.json",
+    "switch_registry_v010.json",
+    "opening_divergence_ledger_1941-12-07_08_v001.json",
+    "opening_state_1941-12-07_v006.json"
+  ],
+  "pools": {
+    "historical_precombat_concentration_loss_unallocated": 46,
+    "southern_army_replacement_shipment_1_unallocated": 148,
+    "note": "neither pool is directly applied to unit Dec-8 strength without dated allocation evidence"
+  },
+  "known_dec7_inner_events": [
+    {
+      "unit": "1st Sentai element",
+      "event": "missed anticipated convoy position; returned",
+      "loss": 0,
+      "cause": "navigation_positioning",
+      "membership_in_46": "possible"
+    },
+    {
+      "unit": "98th Sentai element",
+      "aircraft": 3,
+      "event": "sighted convoy but returned due weather",
+      "loss": 0,
+      "cause": "pure_weather_visibility",
+      "membership_in_46": "not_loss"
+    },
+    {
+      "unit": "64th Sentai/cover element",
+      "event": "returned due low clouds/squalls",
+      "missing": 2,
+      "forced_landing": 1,
+      "cause": "night_return_positioning_weather",
+      "membership_in_46": "possible"
+    },
+    {
+      "unit": "1st Sentai elements",
+      "seriously_damaged_forced_landing": 2,
+      "cause": "forced_landing_damage",
+      "membership_in_46": "possible"
+    }
+  ],
+  "opening_switches": {
+    "A-NATURAL-RETURN": "ON",
+    "A-PRECOMBAT-CONCENTRATION-STATE": "METHOD_ON",
+    "A-REPLACEMENT-QUALITY-TRACKING": "ON",
+    "IJA-AIR-BASE-MOBILITY": "OPERATIONAL_PARTIAL",
+    "IJA-AIR-GROUND-LIAISON": "PRESENT_LIMITED",
+    "IJA-AIR-MISSION-PRIORITY": "COUNTERAIR_FIRST",
+    "IJN-AIR-GROUND-SEPARATION": "LATENT",
+    "JOINT-BASE-STANDARDIZATION": "LATENT",
+    "A-SKILL-LEVELING": "LATENT",
+    "A-DELIBERATE-VETERAN-NUCLEUS-REALLOCATION": "LATENT",
+    "RERUN-START-STATE": "METHOD_ON",
+    "A-SOFT-HUMAN-STATE-DIVERGENCE": "ON",
+    "A-POSTOPENING-FIELDING-QUANTITY": "ON",
+    "COMSEC-CENTRAL-STATISTICAL-AUDIT": "OPERATIONAL_PARTIAL",
+    "ASW-ESCORT-STAFF": "PRESENT_LIMITED",
+    "LOG-WARTIME-STANDARD-SHIP-I": "DESIGN_FROZEN_PRODUCTION_TRANSITION",
+    "A-NO-TOPDOWN-OUTPUT-MULTIPLIER": "ON"
+  },
+  "lower_bounds": {
+    "3rd_Air_Brigade_59_75_90_serviceable_at_sortie_min": 53,
+    "7th_Air_Brigade_64_12_60_98_serviceable_at_sortie_min": 93
+  },
+  "alternate_mapping_working": {
+    "historical_Type1_slots_59th_64th": 56,
+    "map_to": "Type100 fighter candidate",
+    "warning": "working direct substitution of existing unit slots only; do not add national Type100 surplus to Malaya automatically"
+  },
+  "unresolved": [
+    "snapshot_date_semantics_of_primary_strength_table",
+    "allocation_of_46_precombat_losses_by_unit_and_cause",
+    "how_many_of_first_148_replacements_reached_3rd_Air_Group_before_Dec8",
+    "Dec7_eve_serviceability_by_unit",
+    "crew_loss_and_experienced_core_loss_in_concentration",
+    "12th_Air_Brigade_aircraft_count_actually_advanced_to_Singora",
+    "10th_Air_Brigade_primary_strength_and_Dec8_participant_mapping"
+  ],
+  "reopened_later_outputs": [
+    "1942 high-grade cryptographic outcome",
+    "post-MI soft/human divergence start",
+    "later aircraft fielding quantities",
+    "German liaison submarine voyage outcomes",
+    "second-generation wartime standard ship timing/form"
+  ],
+  "event_level_divergence_ledger": "opening_divergence_ledger_1941-12-07_08_v001.json",
+  "known_dec7_physical_incident_candidate_count": 5,
+  "known_dec7_physical_incident_candidate_warning": "candidate events, not assumed rescued aircraft"
+}

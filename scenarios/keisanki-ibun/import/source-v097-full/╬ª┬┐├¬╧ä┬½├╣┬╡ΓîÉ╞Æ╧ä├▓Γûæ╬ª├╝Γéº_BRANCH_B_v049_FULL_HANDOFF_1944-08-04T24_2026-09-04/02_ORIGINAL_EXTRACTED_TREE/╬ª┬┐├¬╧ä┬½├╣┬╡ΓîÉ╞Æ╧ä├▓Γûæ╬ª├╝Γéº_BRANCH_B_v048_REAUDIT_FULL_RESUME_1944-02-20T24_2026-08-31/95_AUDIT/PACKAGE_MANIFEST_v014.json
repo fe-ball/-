@@ -1,0 +1,26 @@
+{
+  "revision": "v014",
+  "package_root": "計算機異聞_refactor_v014_2026-08-24",
+  "generated": "2026-08-24",
+  "purpose": "Data-normalized continuation release derived from v013. Scenario content is unchanged; CURRENT/restart metadata and ZIP filename encoding are sanitized.",
+  "file_count_before_checksum": 440,
+  "base_package": "計算機異聞_refactor_v013_2026-08-24",
+  "current_branch_state_file": "06_RUNTIME/CURRENT_BRANCH_STATE_v001.json",
+  "current_branch_analysis_frontier": "1944-04-11T00:00",
+  "current_branch_frontier_file": "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SPRING_REAUDIT_v001.json",
+  "current_session_settlement": "06_RUNTIME/SESSION_2026-08-24_ROLLBACK_PACIFIC_CHINA_SETTLEMENT_v001.md",
+  "current_overrides": "00_CONFIG/current_branch_overrides_v004.json",
+  "retained_not_current": [
+    "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SUMMER_v001.json",
+    "06_RUNTIME/MARIANAS_SAIPAN_1944-06-11_07-14_SETTLEMENT_v001.md",
+    "06_RUNTIME/CHINA_ICHIGO_ANALOG_1944-05-27_08-06_FORWARD_ADJUDICATION_v001.md",
+    "06_RUNTIME/1944SUMMER_JAPAN_US_FORCE_REGENERATION_WORKING_LEDGER_v001.md"
+  ],
+  "active_restart_checkpoint": null,
+  "active_restart_time": "1944-04-11T00:00",
+  "legacy_v012_restart_checkpoint": "CHECKPOINT_1944-04-30T24_v004",
+  "validation": "95_AUDIT/VALIDATION_RESULT_v014.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v014.txt",
+  "historical_checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v013.txt",
+  "next_required_adjudication": "CATCHPOLE/Eniwetok Apr 18-22 working window."
+}

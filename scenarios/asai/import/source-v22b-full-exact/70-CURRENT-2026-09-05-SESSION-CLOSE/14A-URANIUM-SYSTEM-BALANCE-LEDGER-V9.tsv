@@ -1,0 +1,8 @@
+date	accounting_bin	range	center	unit	status	note
+1939-08-31	strategic_system_total	55-65	62	t-U	CLOSED-MACRO	Asai-linked/scenario-controlled retained system; not all geological resources
+1939-08-31	oxide_concentrate_unmetalized_feed		27	t-U	CLOSED-BIN	physical/accounting state bin
+1939-08-31	metal_billet_scrap_process_inventory		14	t-U	CLOSED-BIN	includes recoverable process inventory; do not double count feed
+1939-08-31	military_dense_core_completed_ammo_controlled_material		9	t-U	CLOSED-BIN	broader controlled military material bin, not only Nomonhan rounds
+1939-08-31	research_internal_special_parts_samples		4	t-U	CLOSED-BIN	research/internal controlled use
+1939-08-31	overseas_owned_contracted_in_transit		8	t-U	CLOSED-BIN	not Home-Islands physical stock
+1939-08-31	center_sum_check		62	t-U	PASS	27+14+9+4+8

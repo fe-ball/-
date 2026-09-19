@@ -1,0 +1,88 @@
+{
+  "revision": "v001",
+  "id": "INDIAN_OCEAN_AIR_CAPABILITY_LEDGER_1944-02-19_22_WORKING_v001",
+  "status": "WORKING_SCAFFOLD_DATA_REQUIRED_NO_COMBAT_USE",
+  "clock_window": "1944-02-19..22",
+  "global_frontier": "1944-02-21T24",
+  "purpose": "Single-source theater air-capability ledger. Unknowns are explicit and must not be silently treated as zero or historical exact values.",
+  "normalization_rule": "Use bands where exact branch values cannot be supported. Separate physical assigned, serviceable, mission-ready first-window, and sustainable sortie generation.",
+  "allied": {
+    "Eastern_Fleet_carrier_air": {
+      "Illustrious": {
+        "location": "Trincomalee baseline after 1944-01-28 arrival",
+        "air_group": "RECONSTRUCT_REQUIRED",
+        "serviceability": "RECONSTRUCT_REQUIRED",
+        "deck_readiness": "RECONSTRUCT_REQUIRED",
+        "sortie_generation": "RECONSTRUCT_REQUIRED"
+      },
+      "Unicorn": {
+        "location": "Cochin in 1944-01-28 working state",
+        "operational_role": "RECONSTRUCT_REQUIRED_OPERATIONAL_VS_SUPPORT",
+        "air_group": "RECONSTRUCT_REQUIRED",
+        "sortie_generation": "RECONSTRUCT_REQUIRED"
+      },
+      "Battler": {
+        "status": "EXISTING_EASTERN_FLEET_CVE_JAN_BASELINE",
+        "Feb19_22_location_readiness": "RECONSTRUCT_REQUIRED"
+      }
+    },
+    "Ceylon_land_air": {
+      "bases": [
+        "Trincomalee area",
+        "Colombo area",
+        "other Ceylon long-range maritime-air bases as source-supported"
+      ],
+      "assigned": "RECONSTRUCT_REQUIRED",
+      "serviceable": "RECONSTRUCT_REQUIRED",
+      "mission_ready": "RECONSTRUCT_REQUIRED",
+      "maritime_search": "RECONSTRUCT_REQUIRED",
+      "fighter_cover": "RECONSTRUCT_REQUIRED",
+      "strike": "RECONSTRUCT_REQUIRED"
+    },
+    "Bengal_Arakan_land_air": {
+      "known_branch_anchor": "Patenga regular fighter/recon presence 15-25 at late-Dec 1943; do not carry this point value to 19-22 Feb without regeneration/movement accounting.",
+      "bases": [
+        "Feni/Comilla/Agartala arc",
+        "surviving/rebased 224 Group and incoming units"
+      ],
+      "Feb19_22_state": "RECONSTRUCT_REQUIRED"
+    }
+  },
+  "japan": {
+    "Burma_5th_Air_Division_western_allocation": {
+      "year_end_anchor": "leaned west but not wholly committed",
+      "Feb19_22_assigned_serviceable_mission_ready": "RECONSTRUCT_REQUIRED"
+    },
+    "Andaman_Malaya_Sumatra_maritime_air": {
+      "nodes": [
+        "Port Blair",
+        "Mergui/Victoria Point sector",
+        "Sabang/Padang",
+        "Penang/Singapore support"
+      ],
+      "assigned": "RECONSTRUCT_REQUIRED",
+      "serviceable": "RECONSTRUCT_REQUIRED",
+      "mission_ready": "RECONSTRUCT_REQUIRED",
+      "search_sorties": "RECONSTRUCT_REQUIRED",
+      "strike_sorties": "RECONSTRUCT_REQUIRED"
+    },
+    "carrier_air_commitment": {
+      "first_line_carriers": 0,
+      "secondary_carriers": "NO_AUTOMATIC_COMMITMENT",
+      "note": "Any later commitment requires explicit gate and Pacific opportunity-cost debit."
+    },
+    "mobile_seaplane_support": {
+      "Chitose_or_Chiyoda": "OPTION_ONLY_NOT_REALIZED_WITHOUT_DATED_MOVEMENT"
+    }
+  },
+  "environment_and_C2": {
+    "weather": "EVENT_TIME_REQUIRED",
+    "radar_DF_visual_reporting": "Use ANDAMAN_ARAKAN_OBSERVATION_NETWORK; cue is not weapon-quality contact",
+    "contact_freshness": "EVENT_TIME_REQUIRED"
+  },
+  "cross_theater_debits": {
+    "Central_Pacific": "RECONCILE_BEFORE_NUMERIC_OOB",
+    "Burma_land_support": "RECONCILE_BEFORE_NUMERIC_OOB"
+  },
+  "combat_use_guard": "BLOCKED until all force packages used by the event have at minimum physical/serviceable/mission-ready and first-window sortie bands plus provenance."
+}

@@ -1,0 +1,5 @@
+flow_kg_s	flow_status	material_rating	TIT_C	bleed_pct	static_thrust_kgf	TSFC_kg_per_kgfh	status
+7.8	standard-design-flow	nonNi-870C	870	5.0	475.6	0.797	PRE-AUDIT SHADOW; same PR7 cycle/nozzle method as v46 E6-M, local S-core installation qualification still required
+7.8	standard-design-flow	Ni-920C	920	4.5	505.2	0.817	PRE-AUDIT SHADOW; same PR7 cycle/nozzle method as v46 E6-M, local S-core installation qualification still required
+8.2	high-flow-short-trim	nonNi-870C	870	5.0	500.0	0.797	PRE-AUDIT SHADOW; same PR7 cycle/nozzle method as v46 E6-M, local S-core installation qualification still required
+8.2	high-flow-short-trim	Ni-920C	920	4.5	531.1	0.817	PRE-AUDIT SHADOW; same PR7 cycle/nozzle method as v46 E6-M, local S-core installation qualification still required

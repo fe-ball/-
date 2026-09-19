@@ -1,0 +1,25 @@
+{
+  "revision": "v001",
+  "id": "US_FORAGER_STRATEGIC_RECONFIRMATION_1944-05-19_24_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_US_STRATEGIC_DECISION",
+  "as_of": "1944-05-24T24:00:00+09:00",
+  "historical_anchors": {
+    "JCS_12_March": "JCS directive called for Saipan/Tinian/Guam occupation by 15 June and neutralization/bypass of Truk.",
+    "Spruance_12_May": "Fifth Fleet FORAGER operation plan issued for capture/development of the Marianas and B-29/central-Pacific strategic control.",
+    "sources": [
+      "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-032/h-032-1.html",
+      "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/beans-bullets-black-oil.html"
+    ]
+  },
+  "branch_reassessment": {
+    "Hollandia_absent": "Removes one historical carrier-support commitment but does not remove FORAGER logistics, political momentum, or JCS authorization.",
+    "China_worse": "Japanese success in China makes secure Marianas B-29 basing at least as attractive, arguably more attractive, than relying on China-based heavy-bomber logistics.",
+    "US_carrier_state": "Fast-carrier force is strong and still expanding; no branch attrition shock large enough to force strategic pause.",
+    "Japanese_defense": "Marianas defenses are stronger than historical baseline, increasing preparatory-strike/cover requirements but not crossing a cancellation threshold.",
+    "political_institutional_inertia": "The operation is already a joint approved campaign with amphibious shipping, rehearsals and Army/Marine formations committed. Reversal in late May would require a major new strategic shock. None exists."
+  },
+  "decision": "FORAGER_GO; retain 15 June Saipan D-Day as planning center",
+  "acceleration": "NO. Do not pull D-Day materially earlier merely because Hollandia is absent; amphibious rehearsals, loading, intelligence, naval gunfire coordination and staging are hard schedule constraints.",
+  "stop_gate": "FAILED; there is no military/political basis for a late-May strategic pause.",
+  "future_guard": "Force composition must be rebuilt from branch carrier/damage state before D-Day; historical deck count cannot be copied blindly."
+}

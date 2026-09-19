@@ -1,0 +1,33 @@
+{
+  "id": "FLINTLOCK_KWAJALEIN_1944-02-07_08_NIGHT_DPLUS2_v001",
+  "status": "WORKING_SECTOR_ADJUDICATION_NOT_CANONICAL",
+  "sector": "Kwajalein Island",
+  "period": "1944-02-07T24 through 1944-02-08T24 Marshall local",
+  "night": {
+    "Japanese_action": "Five to seven local cells from the compressed northeastern defense conduct infiltration, mortar harassment and short counterattacks. Roughly 300-430 men participate over the night. Because several cells independently choose the same east-west road/support axis, the largest 120-170-man effect briefly looks like a coordinated counterattack even though no island-wide command created it.",
+    "local_success": "One support road and two forward-company seams are disrupted for roughly 30-60 minutes; several penetrations reach about 100-200 m. A small forward supply/aid node is temporarily overrun or abandoned. No durable cross-island break forms and the beach/logistics base remains intact.",
+    "US_response": "After the 6/7-Feb experience, defensive-fire zones, star-shell schedules, battalion mortars and tank stop-lines are shifted forward. Artillery and destroyer fire are metered to avoid friendly lines; local 5-12 minute request delays occur but no systemic C2 failure develops.",
+    "US_casualties_band": [70, 115],
+    "Japan_irrecoverable_band": [190, 280],
+    "dawn_state": {
+      "organized_local_fighters_band": [650, 850],
+      "scattered_support_band": [200, 320],
+      "command": "No island-wide command. Two to four local mutually supporting clusters remain, but ammunition, water and communications are increasingly local rather than networked."
+    }
+  },
+  "daylight_8Feb": {
+    "US_method": "The remaining northeastern belt is reduced by observed fires, tanks/direct-fire guns, engineers, demolition/flame where tactically required, and infantry verification. By D+2 beach traffic is no longer the dominant rate limit; identification and physical reduction of surviving shelters are the pacing constraints.",
+    "support_shift": "With Roi-Namur secure in the morning, some northern-sector CVE observation/direct-fire and destroyer support can be reassigned or replenished, but not all at once. Kwajalein receives a modest increase in available observed-fire capacity rather than an unlimited surge.",
+    "advance": "US forces compress and split the remaining northeastern defense through the afternoon. Organized island resistance collapses in a 16:00-19:30 window centered near 17:45, although isolated shelters and small groups remain after dark.",
+    "US_casualties_band": [190, 270],
+    "Japan_irrecoverable_band": [580, 760],
+    "Japan_T24": {
+      "isolated_local_fighters_band": [120, 220],
+      "scattered_support_band": [60, 120],
+      "command": "No coherent island defense remains. Residual groups can ambush, snipe or resist individual strongpoints but cannot alter operational control of the island."
+    }
+  },
+  "Dplus2_US_band": [260, 385],
+  "Dplus2_US_center": 320,
+  "assessment": "Compression temporarily increases local Japanese density and creates sharper night contacts, but US learning, intact heavy support and the island's lack of depth convert the remaining defense into isolated strongpoints during D+2."
+}

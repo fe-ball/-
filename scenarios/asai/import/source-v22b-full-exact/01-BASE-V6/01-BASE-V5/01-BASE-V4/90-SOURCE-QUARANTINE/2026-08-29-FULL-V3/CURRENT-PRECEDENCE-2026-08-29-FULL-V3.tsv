@@ -1,0 +1,13 @@
+rank	scope	file_or_pointer	authority	status	action	notes
+1	resume	CURRENT-STATE-2026-08-29-FULL-V3.json	late 8/29	CURRENT	KEEP	entry point
+2	resume	CURRENT-HANDOFF-NOTES-2026-08-29-FULL-V3.md	late 8/29	CURRENT-OVERLAY	KEEP	supersedes previous resume notes only; not v49
+3	naval+merchant	overlays/NAVAL-COMMERCIAL-INTEGRATION-OVERLAY-V1.md	late 8/29	CURRENT-OVERLAY	KEEP	integrated rules
+4	merchant	overlays/MERCHANT-CARRIER-REGISTER-2026-08-29-V1.tsv	late 8/29	WORKING	KEEP	candidate register, not selected history
+5	ground	overlays/GROUND-DUST-CLOSURE-DELTA-2026-08-29.tsv	8/29	CURRENT-OVERLAY	KEEP	ground closure
+6	GT	ASAI-GT-FRONT-SCALE-RATING-PRODUCTS-V14-COST.xlsx	8/29	CURRENT-OVERLAY	KEEP	quantitative capability
+7	materials	ASAI-EPOXY-FRP-CAPABILITY-LEDGER-V2-COST.xlsx	8/29	CURRENT-OVERLAY	KEEP	quantitative capability
+8	marine	nested zip V10 131 precedence + 133 process state	Marine V10	CURRENT-MARINE-OVERLAY	KEEP	technical authority
+9	naming	reference/ASAI-AIRCRAFT-DESIGNATION-POLICY-V48-SOURCE.md	v48 method	CURRENT-METHOD	KEEP	method only, ship name open
+10	base	nested zip CURRENT-CANONICAL-STATE.md + v48r3 machine	v48/v48r3	BASE	KEEP	controls unsuperseded topics
+90	previous resume	archive-previous-overlay/*	earlier 8/29	ARCHIVE	SUPERSEDE-AS-RESUME	provenance
+91	seaplane	reference/asai-works-seaplane-flyingboat-rebaseline-1940-44.md	older	REFERENCE-QUARANTINE	DO-NOT-AUTO-PROPAGATE	needs explicit promotion

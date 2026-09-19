@@ -1,0 +1,19 @@
+{
+  "revision": "v037",
+  "package_revision": "v037",
+  "generated": "2026-08-29",
+  "validator": "98_TOOLS/validate_refactor_v024.py",
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "json_files": 380,
+  "authority_status": "CURRENT authority unchanged at 1944-01-01; discussion clock remains 1944-01-28",
+  "specific_checks": [
+    "Raiden standard production median separated from good-aircraft/prototype climb tail",
+    "high-altitude mechanically-supercharged Raiden is a limited subset; turbo combat-ready count remains zero",
+    "GALVANIC losses locked; post-GALVANIC exchange transition is prospective and dated",
+    "Marshall v002 keeps theater/serviceable/fighter totals unchanged while decomposing Raiden subset",
+    "future 4/30 Raiden ready inventory explicitly blocked from automatic B-29-qualified interpretation",
+    "frontier/registry/latest-present references consistent"
+  ]
+}

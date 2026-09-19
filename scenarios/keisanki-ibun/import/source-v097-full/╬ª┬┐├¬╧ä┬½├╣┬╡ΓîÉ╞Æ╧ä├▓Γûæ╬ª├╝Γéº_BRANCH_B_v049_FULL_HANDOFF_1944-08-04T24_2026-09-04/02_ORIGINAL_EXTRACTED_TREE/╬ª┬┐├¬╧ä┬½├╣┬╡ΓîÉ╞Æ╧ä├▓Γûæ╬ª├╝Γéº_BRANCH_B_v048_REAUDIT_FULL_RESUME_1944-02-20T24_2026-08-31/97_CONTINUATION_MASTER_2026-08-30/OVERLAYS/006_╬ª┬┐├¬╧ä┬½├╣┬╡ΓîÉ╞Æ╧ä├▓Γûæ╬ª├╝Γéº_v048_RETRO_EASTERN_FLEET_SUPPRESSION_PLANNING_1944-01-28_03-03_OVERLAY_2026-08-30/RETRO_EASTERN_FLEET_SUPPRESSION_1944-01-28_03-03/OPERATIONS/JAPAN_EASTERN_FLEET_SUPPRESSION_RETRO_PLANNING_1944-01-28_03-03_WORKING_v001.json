@@ -1,0 +1,111 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_EASTERN_FLEET_SUPPRESSION_RETRO_PLANNING_1944-01-28_03-03_WORKING_v001",
+  "status": "WORKING_BRANCH_RETROACTIVE_PLANNING_NODE_NO_CLOCK_CHANGE",
+  "time_scope": "1944-01-28..1944-03-03T24",
+  "purpose": "Insert the Japanese response that should exist between passive awareness of the reinforced Eastern Fleet and the rejected historical SA No.1 surface commerce raid. This node changes planning/ISR/submarine priorities only unless a dated strike gate is met.",
+  "no_fictional_codename": true,
+  "branch_inputs": [
+    "Japan has high-confidence indication by mid-January that a British heavy group is moving east and by late January treats the group as arrived in Ceylon.",
+    "Oyodo plus four modern destroyers and additional submarines were already released westward as an observation/contact reserve; second major surface reinforcement remained blocked by Central-Pacific priority.",
+    "After the 3-Feb Branch carrier battle, first-line mobile-fleet scouting/screen assets and trained naval aircrew have increased opportunity cost.",
+    "SLEUTH itself is not a Japanese trigger because no fresh Japanese contact with that sortie was adjudicated."
+  ],
+  "historical_anchors": [
+    {
+      "date": "1944-02-07",
+      "event": "Eastern Fleet diary records two hostile armed reconnaissance aircraft near Ceylon; the diary considers Trincomalee reconnaissance possible but says faulty navigation apparently prevented it.",
+      "branch_use": "Supports an already-existing low-cost Japanese Ceylon surveillance impulse; does not prove target-quality port intelligence."
+    },
+    {
+      "date": "1943-12-05",
+      "event": "Ryu Ichi-go demonstrated that 331 fighters and 705 land-attack bombers could be coordinated with Army air forces for a long-range strike after deliberate staging and preparation.",
+      "branch_use": "Establishes planning competence and precedent, not automatic feasibility of a Trincomalee strike."
+    },
+    {
+      "period": "1944Q1",
+      "event": "Historical Japanese strategy did not favor a serious naval/air diversion to Southeast Asia at the expense of the threatened Pacific position while Eastern Fleet offensive capability was judged limited.",
+      "branch_use": "Caps the scale of a rational anti-Eastern-Fleet response unless fresh intelligence shows an imminent carrier/battle-fleet attack."
+    }
+  ],
+  "retro_decision_timeline": [
+    {
+      "window": "1944-01-28..02-06",
+      "assessment": "WATCH_AND_PREPARE",
+      "actions": [
+        "Maintain Ceylon/Bay reconnaissance tasking from Andaman/Sumatra network.",
+        "Keep submarine intelligence/attack emphasis on Ceylon approaches and Bay/Indian-Ocean lanes.",
+        "Retain Oyodo group as fresh-contact exploitation reserve rather than free-ranging raider."
+      ],
+      "strike_release": "NO"
+    },
+    {
+      "date": "1944-02-07",
+      "assessment": "RECON_PROBE_REALIZED",
+      "actions": [
+        "Accept the historical hostile armed-reconnaissance incident as a bounded Japanese probe in Branch unless contradicted by a later unit-origin audit.",
+        "Failure to obtain useful Trincomalee port picture prevents immediate strike release."
+      ],
+      "strike_release": "NO"
+    },
+    {
+      "window": "1944-02-08..02-17",
+      "assessment": "CONTINGENCY_STRIKE_WINDOW_EXISTS_BUT_NOT_RELEASED",
+      "candidate": "Night/low-light long-range land-based naval-air attack on Trincomalee shipping/air facilities, preferably after submarine or repeat-air reconnaissance confirms high-value fleet concentration.",
+      "available_tools": [
+        "705 land-attack bomber element before eastward crisis redeployment",
+        "331 fighter element for local/staging support; escort to Ceylon is range-constrained and not assumed",
+        "submarine reconnaissance/contact reporting",
+        "Andaman/Sumatra long-range search network"
+      ],
+      "major_fail_gates": [
+        "No fresh target-quality Trincomalee fleet plot after 7-Feb probe.",
+        "A daylight escorted mass strike is not attractive at Ceylon range; fighter escort margin is poor and British warning/fighter defenses are material.",
+        "After 3-Feb the opportunity cost of trained naval aircrew is high."
+      ],
+      "strike_release": "NO_CENTERED",
+      "note": "The proposal may exist at staff level; no retroactive bombs/torpedoes or losses are created."
+    },
+    {
+      "window": "1944-02-18..03-03",
+      "assessment": "SHIFT_TO_LOW_COST_SUPPRESSION",
+      "actions": [
+        "Central-Pacific emergency progressively closes the discretionary 705/331 strike window.",
+        "Continue submarine patrol/ambush, reconnaissance and port-exit watching as the preferred nuisance/suppression method.",
+        "Do not infer reaction to SLEUTH because Japan did not obtain a fresh track."
+      ],
+      "strike_release": "NO"
+    }
+  ],
+  "preferred_operation_concept": {
+    "descriptor": "Ceylon surveillance and submarine-ambush suppression package",
+    "not_a_historical_codename": true,
+    "priority_1": "Fresh reconnaissance of Trincomalee/Colombo approaches and departure lanes.",
+    "priority_2": "Submarine picket/ambush on likely heavy-ship exit routes, with intelligence reporting valued as highly as torpedo opportunity.",
+    "priority_3": "Land-based bomber strike only on a recent high-value fleet/airfield cue and only while west-area bomber readiness remains adequate.",
+    "surface_role": "Oyodo group exploits a fresh favorable contact or protects ISR/logistics; it does not conduct blind commerce raiding or seek battle-line combat."
+  },
+  "why_no_immediate_trincomalee_raid": {
+    "motive": "MODERATE: Eastern Fleet is strategically irritating and can constrain Bay/Andaman freedom, but is not yet conducting a sustained offensive against Sumatra/Malaya.",
+    "capability": "PARTIAL: long-range bombers and reconnaissance exist, but escort and target-acquisition quality are limiting.",
+    "slack": "DECLINING_FAST after 3-Feb and especially after HAILSTONE/CATCHPOLE.",
+    "payoff": "Potentially high only if Illustrious/capital ships are positively located in a vulnerable concentration; otherwise expected attrition dominates.",
+    "decision": "PLAN_AND_WATCH, DO_NOT_RETROACTIVELY_STRIKE."
+  },
+  "effects_on_existing_progress": {
+    "SA_No1": "No change: historical surface commerce raid remains cancelled.",
+    "SLEUTH": "No change: sortie remains undetected at weapon-quality level.",
+    "submarine_activity": "Interpret existing Ceylon/Indian-Ocean patrols partly as Eastern-Fleet suppression/intelligence effort, not only merchant interdiction.",
+    "705_331_redeployment": "No reversal solely for Eastern Fleet. A later fresh carrier/battlefleet threat could create a new retention gate before aircraft physically depart."
+  },
+  "future_trigger": {
+    "if": "Fresh credible information shows Illustrious plus heavy ships moving east/northeast toward Andaman/Sumatra, or repeated RN sweeps begin to interfere with Japanese bases/shipping.",
+    "then": "Reopen a NEW anti-fleet air/submarine operation decision using capability, command-release, slack, motive/payoff, information-quality and opportunity-cost gates.",
+    "do_not": "Auto-revive SA No.1 or invent a carrier/surface sortie from historical chronology."
+  },
+  "sources_external": [
+    "https://www.naval-history.net/xDKWD-EF1943Dec-Apr1944.htm",
+    "https://rldunn.com/japanese-air-raid-on-calcutta/",
+    "https://www.raf.mod.uk/what-we-do/our-history/air-historical-branch/second-world-war-campaign-narratives/raf-in-maritime-war-vol-vii-part-iii-the-indian-ocean-and-south-east-asia-operations-november-1943-august-1945/"
+  ]
+}

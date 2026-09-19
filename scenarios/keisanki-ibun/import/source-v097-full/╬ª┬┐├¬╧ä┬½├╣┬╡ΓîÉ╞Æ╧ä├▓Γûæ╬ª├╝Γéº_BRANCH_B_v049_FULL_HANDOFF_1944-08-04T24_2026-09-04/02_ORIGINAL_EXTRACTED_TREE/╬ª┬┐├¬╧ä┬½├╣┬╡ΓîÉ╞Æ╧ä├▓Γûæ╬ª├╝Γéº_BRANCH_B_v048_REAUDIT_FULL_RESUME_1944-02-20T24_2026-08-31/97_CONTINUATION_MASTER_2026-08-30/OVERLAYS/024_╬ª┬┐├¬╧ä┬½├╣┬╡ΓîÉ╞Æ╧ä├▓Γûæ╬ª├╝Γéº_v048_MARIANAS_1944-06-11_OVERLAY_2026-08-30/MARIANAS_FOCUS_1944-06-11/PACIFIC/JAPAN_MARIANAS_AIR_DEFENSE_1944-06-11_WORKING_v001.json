@@ -1,0 +1,83 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_MARIANAS_AIR_DEFENSE_1944-06-11_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_DAY_SETTLEMENT",
+  "clock_window": "1944-06-11T00:00..24:00+09:00",
+  "parents": [
+    "JAPAN_MOBILE_FLEET_MARIANAS_POSTURE_1944-05-25_06-05_WORKING_v001",
+    "JAPAN_A_GO_PRELIMINARY_GATE_1944-06-10_WORKING_v001"
+  ],
+  "prestrike_ready": {
+    "all_aircraft_band": [
+      285,
+      350
+    ],
+    "fighter_band": [
+      165,
+      210
+    ]
+  },
+  "warning_model": {
+    "strategic_warning": "VERY_HIGH before the raid; Marianas is already CRITICAL/PERSISTENT.",
+    "exact_strike_time": "LOW to MODERATE before launch.",
+    "first_coherent_sector_warning_minutes_before_main_merge_band": [
+      24,
+      32
+    ],
+    "local_radar_warning_minutes_band": [
+      16,
+      23
+    ],
+    "fighters_airborne_or_climbing_before_first_main_merge_band": [
+      62,
+      86
+    ],
+    "additional_fighters_joining_during_first_20_minutes_band": [
+      22,
+      36
+    ],
+    "interpretation": "Branch radar/visual/plot/radio network buys readiness and dispersal. It is not US-style GCI and does not provide perfect altitude/identity/weapon-quality control."
+  },
+  "defense_result": {
+    "air_to_air_and_AA": "Japanese fighter sections enter with materially better energy/readiness than historical surprise conditions, but are outnumbered by the F6F sweep and still lose the tactical air battle.",
+    "Japanese_irreversible_aircraft_loss_band": [
+      53,
+      70
+    ],
+    "of_which_fighter_irreversible_band": [
+      35,
+      47
+    ],
+    "repairable_or_short_term_unavailable_band": [
+      25,
+      42
+    ],
+    "westward_evacuated_or_rebased_during_evening_band": [
+      20,
+      34
+    ],
+    "note": "Evacuated/rebased aircraft are not losses. The branch deliberately preserves attack/recon cadres rather than keeping every aircraft onsite for a doomed second interception."
+  },
+  "base_system_end_11Jun": {
+    "onsite_immediate_ready_all_band": [
+      182,
+      229
+    ],
+    "onsite_immediate_ready_fighter_band": [
+      101,
+      133
+    ],
+    "C2_effective_percent_band": [
+      78,
+      88
+    ],
+    "runway_sustained_day_capacity_percent_band": [
+      60,
+      76
+    ],
+    "water_aviation_state": "Dispersed and still useful; vulnerable exposed moorings are reduced before follow-on raids.",
+    "repair_outlook": "Some short-term unavailable aircraft/runway capacity can return overnight; do not subtract repairable losses again on 12 Jun."
+  },
+  "offensive_response": "NO COORDINATED ANTI-CARRIER STRIKE on 11 Jun. Incoming-raid bearing is not a sufficiently fresh carrier track. Yamamoto/area air command prioritizes dispersal, recon preservation and night recontact attempts over a speculative long-range strike.",
+  "shipping": "High pre-raid warning starts staggered evacuation/dispersal of navigable Saipan shipping before and during 11 Jun. This reduces harbor target density but creates a moving-convoy gate for 12 Jun; do not auto-copy the historical convoy loss cluster before that adjudication."
+}

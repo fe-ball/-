@@ -1,0 +1,311 @@
+{
+  "id": "BRANCH_B_TRUK_SUPPORT_NETWORK_SECOND_SUPPRESSION_1944-04-25T24_v001",
+  "status": "WORKING_CURRENT_BROAD_SYNC",
+  "frontier": "1944-04-25T24:00",
+  "clock_advanced": true,
+  "quarantine": {
+    "old_29_30Apr_Truk_overlay": "sensitivity only; date/outcome not copied",
+    "reason": "Hollandia absent changes TF58 availability"
+  },
+  "Truk_support_nodes": {
+    "Puluwat": {
+      "distance_nm": 158,
+      "same_day_combat": "0 centered",
+      "role": "emergency/ferry/radio"
+    },
+    "Ponape": {
+      "distance_nm": 381,
+      "same_day_fighter": "0 centered",
+      "role": "recon/seaplane/radio"
+    },
+    "Woleai": {
+      "distance_nm": 473,
+      "role": "ferry/search/recovery; not sustained CAP"
+    },
+    "Guam": {
+      "distance_nm": 550,
+      "role": "long-range air/recon possible; no routine fighter CAP"
+    },
+    "Saipan": {
+      "distance_nm": 586,
+      "role": "long-range air/recon possible; no routine fighter CAP"
+    },
+    "Yap": {
+      "distance_nm": 824,
+      "role": "G4M/ferry/DF only"
+    },
+    "Palau": {
+      "distance_nm": 1032,
+      "role": "no tactical fighter contribution"
+    },
+    "Davao": {
+      "distance_nm": 1562,
+      "role": "command/rear support; zero same-day tactical contribution"
+    }
+  },
+  "Truk_air": {
+    "13Apr": {
+      "physical": [
+        72,
+        94
+      ],
+      "serviceable": [
+        55,
+        72
+      ],
+      "immediate_ready": [
+        42,
+        55
+      ],
+      "fighter_ready": [
+        30,
+        40
+      ],
+      "attack_recon_ready": [
+        12,
+        17
+      ]
+    },
+    "21Apr": {
+      "physical": [
+        67,
+        88
+      ],
+      "serviceable": [
+        49,
+        66
+      ],
+      "immediate_ready": [
+        36,
+        49
+      ]
+    },
+    "23Apr_after_dispersal": {
+      "physical": [
+        50,
+        69
+      ],
+      "serviceable": [
+        38,
+        51
+      ],
+      "immediate_ready": [
+        29,
+        39
+      ],
+      "fighter_ready": [
+        22,
+        30
+      ],
+      "attack_recon_ready": [
+        7,
+        10
+      ]
+    },
+    "25Apr_postraid": {
+      "physical_recovering": [
+        20,
+        32
+      ],
+      "serviceable": [
+        13,
+        23
+      ],
+      "immediate_ready": [
+        9,
+        16
+      ]
+    }
+  },
+  "Eniwetok_land_air": {
+    "first_heavy_stage_raid": "1944-04-14..15",
+    "first_B24_package": [
+      18,
+      23
+    ],
+    "first_US_irrecoverable": [
+      1,
+      2
+    ],
+    "second_heavy_pressure": "1944-04-19..20",
+    "second_package": [
+      12,
+      18
+    ]
+  },
+  "TF58": {
+    "available_pool": {
+      "CV": 7,
+      "CVL": 6,
+      "total": 13,
+      "ready_aircraft_22Apr": [
+        710,
+        800
+      ]
+    },
+    "Bataan_join": "1944-04-09",
+    "Truk_raid_force_decks": [
+      7,
+      8
+    ],
+    "Truk_raid_ready_aircraft": [
+      430,
+      515
+    ],
+    "raid_days": [
+      "1944-04-23",
+      "1944-04-24"
+    ]
+  },
+  "Truk_raid_result": {
+    "Japan_air_irrecoverable_writeoff": [
+      32,
+      43
+    ],
+    "Japan_air_repairable": [
+      8,
+      13
+    ],
+    "US_air_irrecoverable": [
+      13,
+      18
+    ],
+    "US_major_ship_mission_kill": 0,
+    "Japan_major_fleet_ship_loss": 0,
+    "night_attack_launch": [
+      10,
+      15
+    ],
+    "night_attack_credible_releases": [
+      2,
+      4
+    ],
+    "US_major_hit_center": 0,
+    "submarines_relevant": [
+      3,
+      5
+    ],
+    "sub_useful_reports": [
+      1,
+      2
+    ],
+    "sub_major_hit_center": 0
+  },
+  "Japan_five_carrier_25Apr": {
+    "four_core_ready": [
+      270,
+      296
+    ],
+    "four_core_one_cycle": [
+      170,
+      200
+    ],
+    "Taiho_readiness": "B+",
+    "Taiho_mission_ready": [
+      61,
+      72
+    ],
+    "Taiho_mass_strike_contribution": [
+      34,
+      43
+    ],
+    "five_deck_one_cycle": [
+      210,
+      245
+    ],
+    "status": "PASS one-cycle; PARTIAL repeat-cycle",
+    "location": "Lingga-Celebes/Davao southern training/reaction belt"
+  },
+  "14th_Division_Palau": {
+    "unload_main_complete": "1944-04-18",
+    "Palau_sector_commander": "Lt Gen Sadae Inoue working current",
+    "25Apr_maturity": [
+      2.8,
+      3.2
+    ],
+    "Peleliu_selected": [
+      3.3,
+      3.6
+    ]
+  },
+  "43d_Division": {
+    "first_echelon_load": "1944-04-16..20",
+    "first_echelon_depart": "1944-04-19..21",
+    "personnel": [
+      5500,
+      7000
+    ],
+    "25Apr": "en route",
+    "transport_sunk_center": 0,
+    "arrival_gate": "1944-04-27..05-01"
+  },
+  "Marianas_air_25Apr": {
+    "physical": [
+      158,
+      198
+    ],
+    "serviceable": [
+      124,
+      155
+    ],
+    "immediate_ready": [
+      96,
+      120
+    ],
+    "fighter_ready": [
+      58,
+      74
+    ],
+    "attack_recon_seaplane_ready": [
+      38,
+      50
+    ]
+  },
+  "9th_Tank_25Apr": {
+    "Saipan": {
+      "physical": [
+        50,
+        56
+      ],
+      "serviceable": [
+        46,
+        53
+      ],
+      "combat_ready": [
+        42,
+        49
+      ]
+    },
+    "Guam": {
+      "physical": [
+        26,
+        31
+      ],
+      "serviceable": [
+        23,
+        29
+      ],
+      "combat_ready": [
+        20,
+        26
+      ]
+    }
+  },
+  "extra_division": {
+    "status": "contingency earmark only; no loading",
+    "release_conditions": [
+      "new Marianas carrier strike/intel",
+      "43d lift progress",
+      "China/Ichi-Go support status"
+    ]
+  },
+  "next_gates": [
+    "43d first echelon arrival",
+    "43d second echelon",
+    "Palau sector fortification conversion",
+    "FORAGER planning/recon",
+    "Japanese five-deck forward basing",
+    "carrier repeat-cycle audit",
+    "Marianas unit-level air OOB"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "CLOSED_CENTER_EVENT",
+  "cut": "1942-07-28T00:00/24:00 South-Pacific local",
+  "japan": {
+    "pallikulo_pekoa": "captured",
+    "luganville_segond": "not_captured",
+    "ground_effective_24": {"low": 4650, "center": 4800, "high": 4950},
+    "carrier_mr_24": {"low": 87, "center": 90, "high": 92},
+    "dplus1_casualties": {"low": 410, "center": 455, "high": 510}
+  },
+  "allies": {
+    "luganville_segond": "held",
+    "ground_effective_24": {"low": 2050, "center": 2180, "high": 2300},
+    "dplus1_casualties": {"low": 520, "center": 590, "high": 660},
+    "efate_f4f_mr_equivalent": {"low": 6, "center": 7, "high": 8}
+  },
+  "second_echelon": {
+    "transport": "Yasukawa Maru",
+    "escort": ["Yura", "Minegumo"],
+    "distance_remaining_nm_1942_07_29_00": {"low": 200, "high": 245},
+    "arrival_center": "1942-07-29T20:30-22:00",
+    "ground_credit_center": "1942-07-30 early morning"
+  },
+  "next_resume": "1942-07-29T00:00"
+}

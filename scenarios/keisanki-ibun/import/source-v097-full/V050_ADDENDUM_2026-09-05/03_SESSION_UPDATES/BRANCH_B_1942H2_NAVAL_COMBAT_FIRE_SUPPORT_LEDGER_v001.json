@@ -1,0 +1,83 @@
+{
+  "id": "BRANCH_B_1942H2_NAVAL_COMBAT_FIRE_SUPPORT_LEDGER_v001",
+  "status": "WORKING_AUDIT_SUPPLEMENT_SEA_BATTLES_OPEN",
+  "checkpoints": ["1942-09-25_SANTO", "1942-11-08_NEW_CALEDONIA"],
+  "precedence": {
+    "stale_1942H2_survivor_prose": "superseded for named hull lineage",
+    "us_MI_sunk_CA": ["Astoria CA-34", "Pensacola CA-24", "Northampton CA-26"],
+    "us_MI_damaged_CA": ["Portland CA-33", "Vincennes CA-44"],
+    "us_MI_sunk_DD": ["Hammann DD-412", "Morris DD-417", "Anderson DD-411", "Balch DD-363", "Benham DD-397", "Phelps DD-360"],
+    "japan_MI": {
+      "Chokai": "heavy_damage_full_ready_late_Aug_1942",
+      "Hiei": "medium_damage_full_ready_late_Jul_1942",
+      "Kongo": "light_damage_full_ready_early_mid_Jul_1942",
+      "Yudachi": "sunk",
+      "Natsugumo": "sunk",
+      "Arashi": "moderate_damage_full_ready_Jul_1942",
+      "Hagikaze": "light_damage_full_ready_late_Jun_to_early_Jul_1942"
+    }
+  },
+  "santo": {
+    "japan": {
+      "CV_center": ["Shokaku", "Zuikaku"],
+      "support_decks_candidates": ["Junyo", "Ryujo", "Zuiho"],
+      "conditional": ["Hiryu"],
+      "not_center_without_closure": ["Soryu", "Shoho"],
+      "Kongo_class_physical_ready": ["Kongo", "Hiei", "Kirishima", "Haruna"],
+      "Kongo_employment": "2 close bombardment/night-cover + 2 reserve/rotation",
+      "DD_mission_slots": "12-16 across carrier/bombardment/transport groups; not total physical pool",
+      "sub_effective_battle_lines": "6-8 within broader 7-10 effective South-Pacific boats",
+      "oilers_support": "3-5"
+    },
+    "us": {
+      "CV": ["Wasp CV-7"],
+      "fast_BB_center": ["North Carolina BB-55", "Washington BB-56"],
+      "fast_BB_gate": {"South Dakota BB-57": "conservative center unavailable; branch-route grounding sensitivity"},
+      "unavailable": ["Indiana BB-58"],
+      "MI_repair_CA_rule": "count one of Portland/Vincennes ready center; second sensitivity",
+      "surface_group_cruiser_allocation": "4-6",
+      "DD_mission_slots": "10-14 across CV/BB/night/convoy groups"
+    }
+  },
+  "new_caledonia": {
+    "inheritance_rule": "start from Santo survivors/damage/air losses/ammunition/oiler state/command casualties; no reset",
+    "us_potential_if_Santo_clean": {
+      "CV": ["Wasp"],
+      "fast_BB": ["Washington", "North Carolina", "South Dakota"],
+      "not_available_DDay": ["Indiana"],
+      "MI_repair_CA": ["Portland", "Vincennes"]
+    },
+    "japan_potential_if_Santo_clean": {
+      "first_line_CV": ["Shokaku", "Zuikaku", "Hiryu", "Soryu"],
+      "first_line_operational_aircraft_working_band": "195-220 before detailed Santo recovery audit",
+      "Kongo_class": ["Kongo", "Hiei", "Kirishima", "Haruna"],
+      "Kongo_employment": "2 shore-fire + 2 night-interception/heavy-cover, rotate",
+      "oilers_support": "4-6"
+    }
+  },
+  "night_combat": {
+    "us": "SG first-contact advantage where fitted; Washington/Lee high-end cell; broader formation doctrine less battle-proven because historical Savo/Cape Esperance/Guadalcanal learning chain is absent",
+    "japan": "mature optical night detection and Type93 doctrine; no SG-equivalent blanket radar; surviving Tanaka/Goto/Abe pool",
+    "dynamic_learning": "Santo results change November doctrine for both sides"
+  },
+  "shore_fire_working_bands": {
+    "IJN_Kongo_pair_prelanding": "300-600 total 14in shells, center ~450; exceptional surge toward historical ~1000-shell physical ceiling only if surface threat suppressed",
+    "IJN_Kongo_pair_short_followup": "80-180 total 14in shells/night, normally 1-2 additional nights before rotation",
+    "US_fast_BB": "short night-biased conditional counter-bombardment/interdiction; do not station predictably under Japanese carrier cover"
+  },
+  "damage_calibration": {
+    "Kongo_vs_16in": "one solid hit can remove shore-fire mission; two solid hits strong center for campaign withdrawal/medium-heavy damage, not automatic sinking",
+    "US_fast_BB_vs_torpedo": "single hit usually survival-favored but substantial campaign mission-kill probability",
+    "cruiser_DD": "SG first fire does not cancel Long Lance counter-salvo risk",
+    "oiler": "track mission-kill separately from sinking"
+  },
+  "open_gates": [
+    "South Dakota Sep grounding branch",
+    "Portland/Vincennes alternate MI repair identities/dates for Santo",
+    "Crace damaged cruiser identity/return date",
+    "Santo Japanese support-deck choice",
+    "exact corrected U.S. cruiser/DD Santo OOB",
+    "exact Japanese Kongo bombardment/night-cover pair",
+    "ammunition mix and oiler geometry"
+  ]
+}
