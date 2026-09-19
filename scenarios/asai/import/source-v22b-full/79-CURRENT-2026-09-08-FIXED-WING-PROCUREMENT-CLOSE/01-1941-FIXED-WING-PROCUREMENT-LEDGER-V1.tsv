@@ -1,0 +1,14 @@
+aircraft_or_branch	1941_authority	prime_or_owner	1941_order_or_reservation	1941_factory_acceptance_or_physical_endpoint	ordinary_OOB_1941YE	counting_rule	status
+E6 Twin	serial production	shared contractor network / Asai propulsion-QA	240 firm-class +72 rolling option	216-240 accepted; center 228	YES	all R2/G4/high-cover/service fits draw from this same pool	CLOSED-PLANNING
+E6 Single	serial production	Asai + partner airframe cells	216 firm-class +48 option	180-210 accepted; center 195	YES	pure-J serial pool; exact unit/theater allocation replay-local	CLOSED-PLANNING
+E6 Twin Navy recon/high-speed attack fits	service fit	Navy/units	no separate aircraft order	subset of E6 Twin	YES-AS-SUBSET	never add to E6 Twin total	NO-DOUBLE-COUNT
+E6-B	service-development / pilot production	Kawasaki airframe; Asai propulsion/integration	24 firm +12 option after 1941Q2 gate	8-12 accepted in 1941	NO	evaluation detachment is not ordinary bomber-unit OOB	CLOSED-PLANNING
+Ki-76	pilot production / limited service	Nippon Koku Kogyo / successor	24 pilot production +24 option after service gate	18-24 production aircraft accepted; ~12-18 service-released possible	YES-LIMITED	prototype/rework/training reserve excluded from normal unit count	CLOSED-PLANNING
+A7M Gaifu	prototype/service evaluation	Mitsubishi	3 prototypes +6 service-evaluation	~6 flyable by 1941YE; balance WIP/rework possible	NO	test pilots/carrier evaluation do not equal ordinary carrier OOB	CLOSED-DEVELOPMENT
+A8N Sakufu	prototype	Nakajima	3 prototypes	~2 flying +1 structure/recovery/backup ground article class	NO	powered-lift No.2 remains development inventory	CLOSED-DEVELOPMENT
+Ki-40 TP recon	prototype/service evaluation	Mitsubishi	2 prototypes +4 military evaluation	6-aircraft development inventory class	NO	operational photo missions may be evaluation sorties only	CLOSED-DEVELOPMENT
+J2N Hekireki	requirement reserve	program identity protected	0 prototype order in 1941	0 aircraft	NO	re-open only on distinct heavy/night/all-weather requirement in 1942	CLOSED-NO-1941-AIRFRAME
+E7 -> E6 Single retrofit	flight development	existing E6 Single pool	no new procurement	2 existing airframes converted conditional on E7 gate	NO	remove from ordinary pool while in development status	CLOSED-DEVELOPMENT-ALLOCATION
+E7 -> E6 Twin retrofit	flight development	existing E6 Twin pool	no new procurement	1 existing airframe converted conditional on E7 gate	NO	remove from ordinary pool while in development status	CLOSED-DEVELOPMENT-ALLOCATION
+E6 powered-lift demonstrator	research conversion	existing E6 Twin pool	no new procurement	1 existing Twin converted	NO	do not add a new aircraft to production/OOB totals	CLOSED-RESEARCH-ALLOCATION
+P2 deck demonstrator	research conversion	existing P2 inventory	no new procurement	1 existing P2 modified	NO	do not count as new military aircraft	CLOSED-RESEARCH-ALLOCATION
