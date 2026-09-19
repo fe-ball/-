@@ -1,0 +1,7 @@
+branch	1939_state	physical_articles_allowed	integrated_product_status	main_open_gates
+multi-row VSV	component/rig development	actuator/stator/cascade rigs	NO series integrated core	actuation reliability; compressor map; control schedule; precision
+two-spool compressor	architecture + subsystem rigs	shaft/bearing/seal/rotor rigs	NO integrated qualified flight engine	rotordynamics; seals; starting; control; assembly
+reheat_variable_nozzle	rig/experimental	combustion/nozzle rigs	NO service product	thermal life; nozzle actuation; fuel control; installation
+front_low_bypass_fan	concept/rig	fan/cascade/spool rigs possible	NO service product	inlet; multi-spool integration; surge; weight/control
+advanced_turbine_cooling	component/material development	cooled blades/vanes/coupons	NO E8/E9 service hot section	process yield; coating; endurance; leakage/cooling debit
+higher_PR_compressor	component/cascade/rig	stage/cascade/full compressor experiments	NO automatic E8/E9 core	surge/start/off-design; precision; multi-spool or VSV control

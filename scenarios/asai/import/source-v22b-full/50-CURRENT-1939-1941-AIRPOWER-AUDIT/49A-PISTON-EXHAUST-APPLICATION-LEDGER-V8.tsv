@@ -1,0 +1,39 @@
+aircraft	period_or_variant	historical_exhaust_state	asai_worldline_state	full_EX0_to_EX2_delta_kmh	residual_EX2_to_EX3_delta_kmh	adoption_or_retrofit_semantics	confidence	double_count_guard
+Ki-27	late production / 1939 service	EX0 collector	EX2 late-production; overhaul retrofit	5-8	NA	1937 test; late-1938 production standard; REPLAY3 closes 24th Sentai current Nomonhan pool at EX2 x15 / EX0 x4; other units remain local gates	B+	full delta only for actual EX0 airframe; 24th unit mix authority=60/05-06
+Ki-15-II	1939 production	EX0	EX2/early EX3	6-9	NA	new production favored; reconnaissance mission high priority	B	use full delta only versus EX0 anchor
+C5M1	1938 small lot	EX0 probable	mixed EX0/EX2	5-8	NA	small lot; no forced fleet retrofit	C+	variant-specific engine/install required
+C5M2	1940	EX0 probable	EX2 standard likely	5-8	NA	new Sakae installation; separate from C5M1	C+	do not inherit Ki-15-II number blindly
+A5M4	late production	EX0 exhaust ring	EX2 selected new build/major overhaul	5-7	NA	legacy fleet retrofit low priority	B	remaining service life is adoption gate
+B5N2	1939-41	EX0 collector ring	progressive EX2	4-6	NA	old E1=0 ruling superseded	B+	full delta restored; no double count with later EX2 if separately anchored
+D3A1	1940+	EX0 collector ring	progressive EX2	4-6	NA	initial lots may remain EX0	B	fixed-gear drag limits tactical impact
+A6M2	1940	EX0	EX2/EX3 design standard	6.4-10.1	NA	existing Zero A0 rebaseline retained	A	A6M5 full-card repeat prohibited
+Ki-21-IIa	1940+	EX0	EX2 with redesign	6-9	NA	engine redesign is integration gate	B+	later historical IIb EX2 is catch-up evidence
+G3M2	1939-40+	EX0 collector ring	EX2 new build/major overhaul	4-6	NA	fleet retrofit selective	B	cruise/fuel margin may absorb gain
+Ki-43-I	1941	EX0	EX2/EX3 production	5.8-9.0	NA	A0 existing band retained	A	do not add full card to historical late EX2 Ki-43
+Ki-44-I	1941-42	EX0	EX2/EX3 production	6.5-11	NA	A0 existing band retained	A-	full shadow is design sensitivity not extra late-war card
+Ki-45 Kai	1941+	EX0 early	EX2/EX3 redesign	6-10	NA	historical late thrust exhaust proves suitability	B+	variant timing matters
+Ki-46-II	1941	EX0 historical II baseline	EX3 standard	7.6-12.4	NA	high-speed reconnaissance high priority	A-	later historical individual-exhaust speed is calibration not additive to an EX2 anchor
+Ki-48-I	1940+	EX0 probable	EX2 likely	5.7-8.7	NA	exact historical manifold hardware OPEN	C+	keep historical hardware confidence separate
+Ki-49-I/IIa	1941+	EX0	EX2/EX3 production	5-8	NA	historical late individual ejectors prove suitability	B	no full card on late EX2 anchor
+G4M1	early 1941 production	EX0	EX2/EX3 production	5.2-7.9	NA	later 1943 historical EX2 is catch-up	A-	state/weight condition must match speed anchor
+J1N1	1941+	EX0 historical early	EX2 then EX3 by production	6-9	NA	new nacelle design strongly favors adoption	B+	J1N1-S historical EX2 anchor gets residual only
+Ki-51	1939+	EX0	EX2/EX3	4.5-6.5	NA	reinvest margin into protection/cooling/rough-field life	B	maximum speed need not cash full physical shadow
+E13A	early production	EX0 early	EX2/EX3 early production	3.5-5.5	NA	historical late individual stacks prove suitability	B+	later EX2 anchor gets residual only
+F1M2	1940+	EX0/concentrated	EX2 later new build	3.5-5.5	NA	medium-low priority; no blanket retrofit	B-	float/airframe drag dominates
+H6K4	legacy fleet	EX0	selective/no retrofit	3-4.5	NA	retrofit economics weak	B	four engines do not quadruple percentage speed gain
+H6K5	engine-change variant	EX0	EX2 at engine-change gate	4-6	NA	new installation favored	B	use cruise/thermal benefit where appropriate
+H8K	production	EX1/EX2	EX3	NOT_APPLICABLE	1-3	optimize direction/backpressure/cooling/life	B+	full 5-8 collector-to-stack shadow prohibited
+D4Y	production	EX2 DB601/Atsuta-derived	EX3	NOT_APPLICABLE	1-3 (4 sensitivity)	exhaust residual plus separate radiator-recovery card	A-	collector-to-stack card prohibited
+Ki-61	production	EX2 DB601/Ha-40-derived	EX3	NOT_APPLICABLE	1-3 (4 sensitivity)	exhaust residual plus separate radiator-recovery card	A-	collector-to-stack card prohibited
+P1Y1	production	EX2 after early concentrated prototype	EX3	6-10 early-prototype shadow only	2-4	Asai starts mature integration earlier	B+	historical production EX2 gets residual only
+B6N1	prototype/early variant	EX0/EX1 concentrated	EX2	5-8	NA	worldline can adopt EX2 before B6N2	B+	variant-specific
+B6N2	production	EX2 multiple rearward stubs	EX3	NOT_APPLICABLE	2-4	mature nozzle/backpressure/cooling optimization	A-	full B6N1->EX2 card prohibited on B6N2 anchor
+B7A	production	EX1.5/EX2 probable	EX3	NOT_APPLICABLE	2-4	Homare realization larger lever	B	historical exhaust state still needs stronger hardware documentation
+J2M1	prototype	EX0/less-developed	EX2/EX3 comparison	7-11	NA	Asai can avoid late discovery cycle	B+	use only versus J2M1-like EX0 anchor
+J2M2/3	production	EX2 thrust augmentation	EX3	NOT_APPLICABLE	2-4	existing 600-605 worldline band retained	A	full 7-11 card prohibited
+N1K1-J	production	EX2 individual stacks	EX3	NOT_APPLICABLE	2-4	first-prototype maturity	A-	Homare/QC dominates worldline delta
+N1K2-J	production	mature EX2	EX3	NOT_APPLICABLE	1-3	existing 600-605 worldline band retained	A	full collector card prohibited
+Ki-84	earliest prototype	EX0 collector	EX2/EX3 from first worldline prototype	7-12	NA	historical early transition is comparison shadow	A-	do not add to production 631 km/h anchor
+Ki-84	production	EX2 individual stacks	EX3	NOT_APPLICABLE	2-4	existing 645-660 worldline band retained	A	631-class historical production anchor already includes EX2
+A6M5	production	EX2	EX3	NOT_APPLICABLE	1-3 typical	mature historical catch-up	A	A6M2 full 6.4-10.1 repeat prohibited
+historical A7M2 Reppu (worldline A9M)	late new design	EX2 expected	EX3	NOT_APPLICABLE	1-3 typical	historical Reppu anchor only; worldline A7M is Gaifu	B+	late-war full-card repeat prohibited; designation guard=50/50A

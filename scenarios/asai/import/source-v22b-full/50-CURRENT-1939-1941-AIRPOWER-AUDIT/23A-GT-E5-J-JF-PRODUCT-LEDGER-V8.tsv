@@ -1,0 +1,7 @@
+product	TIT_C	flow_kg_s	static_thrust_kgf	TSFC_kg_per_kgfh	dry_mass_kg	life_semantics	status
+E5-J-Q	765	8.4	425-430	~0.838	380-415	L_core 350-600h; product removal/OH target ~250-400h	CLOSED quantity/practical product
+E5-J-N	800	8.4	450-455	~0.827	380-415	L_core 150-300h non-Ni full; removal/OH target ~100-200h	CLOSED high-performance product
+E5-J-Ni	800	8.4	~451	~0.845	380-415	L_core 400-700h; OH target ~300-450h if Ni spent on life	CLOSED material/life variant
+E5-J-M selected	830	8.4	~471	~0.852	380-415	30-60 cumulative high-TIT minutes between special inspection/review initial budget	CLOSED engineering/short-rating shadow; not fleet normal rating
+E5-JF-Q	765	8.4 core + BPR 0.8-1.0	~515-525 installed practical	~0.68-0.71 static matched range	455-505	gas-generator inherits E5 core life; free-spool own bearing/cycle ledger	CLOSED practical mission product
+E5-JF-N	800	8.4 core + BPR 0.8-1.0	~535-545 installed usable	~0.69-0.72 class	455-505	backend qualification and life gate required	CLOSED selected high-performance product envelope

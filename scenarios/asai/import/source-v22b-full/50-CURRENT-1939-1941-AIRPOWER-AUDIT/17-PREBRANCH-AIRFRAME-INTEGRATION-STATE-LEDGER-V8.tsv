@@ -1,0 +1,13 @@
+engine_family	period	engine_grade	aircraft_integration_allowed	prop_cooling_state	service_semantics
+Homare	1941Q1-Q4	development bench/endurance	ground/mockup only except dedicated engine testbed late	PA/CI development	no squadron
+Homare	1942Q1	pilot/pre-series	ground + selected development installation	PA-D / CI-D	prototype only
+Homare	1942Q2	EA-D ~1800 hp class	priority prototype flight allowed	PA-D/Q; CI-D/Q local	development flight
+Homare	1942Q3	10/12 EA-Q emerging / EA-S release	multiple serious programs	PA-Q/S local; CI-Q local	service trials possible
+Homare	1942Q4	10/12 EA-S; 20/21 EA-D/Q selected	production aircraft for 10/12; prototypes for 20/21	program-specific	early series + advanced development
+Homare	1943Q1	20/21 good engines available	prototype/service trials depending allocation	program-specific	procurement branch open
+Ha-43	1940Q3-Q4	pre-study	paper envelope only	N/A	no hardware
+Ha-43	1941Q1-Q4	design/component/prototype assembly	mockup/ground envelope prep	prop/cooling rigs parallel	no flight engine until late window
+Ha-43	1942Q1	first-running development engine	ground installation/testbed	PA-D/CI-D	no series
+Ha-43	1942Q2	development map/endurance	selected ground/aircraft preparation	PA-D/CI-D	prototype prep
+Ha-43	1942Q3-Q4	selected EA-D plausible	priority prototype flight possible	PA-D/Q; CI-D/Q	development only
+Ha-43	1943Q1	strong development/qualification	prototype/service trial possible	program-specific	series allocation open
