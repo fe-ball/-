@@ -2,13 +2,13 @@
 
 Status: **active**
 
-Authority: **V22B**
+Authority: **V23**
 
-Canonical clock: **1944-12-31T24:00級**
+Canonical clock: **1946-06-30T24:00級**
 
-Clock state: **1945 strategic behavior OPEN**
+Clock state: **1946年一般休戦まで history working-close / 現在の議論frontierは1939–1940 retro-audit**
 
-Current frontier: **1945年初頭の独ソ作戦選択 → ソ連応答 → 日ソ中立条約1945-04-25ゲート**
+Current frontier: **1939–1940へ再遡行し、日中和平ルート第二弾の上流条件・技術・生産・外交・軍事状態を再検討する**
 
 ## Scenario rule
 
@@ -16,25 +16,36 @@ Current frontier: **1945年初頭の独ソ作戦選択 → ソ連応答 → 日�
 
 浅井側の先行知識・技術優位は、正本で認められた伝播経路を越えて他国・他組織へ自動コピーしない。
 
+また、1945–46年に閉じた結果を1939–40年の主体知識・物理在庫・制度成熟へ逆流させない。
+
 ## 読み順
 
-1. [00-START-HERE-2026-09-19-FULL-V22B.md](current/00-START-HERE-2026-09-19-FULL-V22B.md)
-2. [V22B session handoff](current/90-BRANCH-2026-09-19-CHINA-PEACE-GERMAN-JET-TRANSFER-V22B/00-SESSION-HANDOFF-V22B.md)
-3. V22B branch decision register / branch guard
-4. V21 year-end handoff for non-conflicting inherited state
-5. technical / essence parents as referenced by the V22B package
+1. [00-START-HERE-2026-09-19-FULL-V23.md](current/00-START-HERE-2026-09-19-FULL-V23.md)
+2. [V23 session handoff](current/91-CURRENT-2026-09-19-CHINA-PEACE-SECOND-CLOSE-V23/00-SESSION-HANDOFF-V23.md)
+3. V23 decision register / chronology / armistice stop-line / retro frontier
+4. V22B branch package for inherited 1940–44 German-jet-transfer state
+5. V21 year-end handoff for non-conflicting inherited state
+6. technical / essence parents referenced by V22B/V21
 
 ## Precedence
 
-V22B明示決定 > V21の非矛盾部分 > 参照される旧技術親。
+V23明示決定 > V22B明示決定 > V21の非矛盾部分 > 参照される旧技術親。
 
-GitHub 上のファイル配置やファイルの日付だけではauthorityを決めない。
+V23は、V22BでOPENだった1945年以降の中心枝を1946年一般休戦までworking-closeする。V23が明示していない技術値はV22B/V21/technical parentを継承する。
+
+GitHub 上のファイル配置、最大version、作成日、最も未来の記述だけではauthorityを決めない。
+
+## Clock semantics
+
+Canonical clockは歴史再演がworking-closeされた最終地点を示す。
+
+Current frontierは次に議論する対象を示す。V23では両者を意図的に分離し、**canonical clockは1946年、active discussionは1939–40年へ戻る**。
 
 ## Import status
 
 - [Source package](import/SOURCE-PACKAGE.md)
 - [Import status](import/IMPORT-STATUS.md)
 
-受領したV22BフルZIPから、現在の議論再開に必要なauthority / handoff / branch / technical parentをGitHub上でブラウズ可能にしている。
+V22B source ZIPのprovenance/import scopeは変更しない。V23はこの会話で承認された日中和平ルート第二弾の追加authorityであり、元ZIPへ遡及的に含まれるものではない。
 
 元ZIPに含まれる旧版・監査履歴・ネストした過去ZIP・XLSX等は、GitHubに存在しないことを理由に「存在しない」とは扱わない。

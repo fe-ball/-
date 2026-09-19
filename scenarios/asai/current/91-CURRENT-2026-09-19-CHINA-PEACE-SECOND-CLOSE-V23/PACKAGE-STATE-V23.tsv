@@ -1,0 +1,23 @@
+key	value
+authority_version	V23
+parent_authority	V22B
+route	CHINA-PEACE-SECOND-CLOSE
+canonical_clock	1946-06-30T24:00 class
+history_state	WORKING-CLOSED through General European Armistice
+armistice_timing	1946 May-Jun class; exact signing day OPEN
+japan_ussr_pact_1945	AUTO-EXTENDED; neither side denounces by 1945-04-25
+japan_ussr_war	NO through V23 stop line
+germany_state_1946	PRESERVED / not comprehensively occupied
+german_national_military_1946	PRESERVED but sharply limited; final ceiling OPEN
+romania_axis_status	EXITED during 1945 summer center
+ploiesti_german_system	LOST during 1945 Romania exit
+hungary_1945	German intervention prevents immediate full flip; cohesion/security cost high
+soviet_state_exhaustion	NOT CLOSE
+soviet_operational_quality_constraint	ACTIVE: cadre/crew/engineer/pilot/maintainer/second-echelon depth
+postwar_final_peace	OPEN
+france_reintegration	OPEN
+german_postwar_regime	OPEN
+east_prussia_final_status	OPEN
+china_civil_war	OPEN
+active_frontier	1939-1940 retro-audit
+retro_backflow	FORBIDDEN
