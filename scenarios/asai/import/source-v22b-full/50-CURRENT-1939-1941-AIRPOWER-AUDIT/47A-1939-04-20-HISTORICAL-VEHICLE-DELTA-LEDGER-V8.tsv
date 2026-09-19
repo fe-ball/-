@@ -1,0 +1,9 @@
+vehicle	current_apr20_delta	configuration_or_rating	replay_status	guard
+A6M1/12-Shi	visible propulsion/prop integration	Z-900N~900hp; 3-blade constant-speed from first flight; thrust exhaust design-origin	CURRENT	1940 production engine remains future decision; same-name historical datasheet guard=50/50A
+Ki-43 prototype	accelerated structured comparison loop	2/3-blade; governor/pitch; cooling; CG/handling	CURRENT	no 1939 mass-service backfill
+Ki-27	production/reliability dominant	historical-like airframe/armament; late-production EX2 path per 49/49A; better matching/QC/serviceability	CURRENT	no generic speed or hit-rate bonus; 24th current unit exhaust mix=15 EX2/4 EX0 per REPLAY3; gunnery chain per 51/51A
+G3M/Ki-15/Ki-21/Ki-30/B5N/H6K class	installed-system/QC/readiness	engine/prop/cooling/vibration/QC/workflow effects	CURRENT	local type/lot audit if headline delta matters; B5N2 exhaust use 49/49A; bombing/gunnery/photo realization use 51/51A
+Type97 Chi-Ha	powertrain visible/installed	200hp continuous; 220hp short; Mitsubishi V12 + Asai low-pressure turbo/intake	CURRENT	180/200 superseded; historical power/mobility not direct copy; sight/fire-effect chain per 51; gun penetration unchanged without ammunition card
+Type95 Ha-Go	mostly historical mass line	~120hp NA mass line; altitude-flat-rated turbo special branch	CURRENT	140-145hp remains test/limited
+heavy 6x4 trucks / artillery tractors	strong powertrain/support delta	selected low-pressure turbo-diesel + transmission/filter/cooling/QC	CURRENT	concentrate on heavy/high-value vehicles
+Type94/97 tankette/light armored class	mostly production/QC delta	near-historical power/headline capability	CURRENT	no blanket turbo conversion
