@@ -20,8 +20,8 @@
 
 | Scenario | Status | Authority | Canonical clock | Clock state | Current frontier |
 |---|---|---|---|---|---|
-| [浅井世界線](scenarios/asai/README.md) | active | V22B | 1944-12-31T24:00級 | 1945へOPEN | 独ソ作戦選択・ソ連応答・日ソ中立条約ゲート |
-| [計算機異聞](scenarios/keisanki-ibun/README.md) | active | Branch B v097 | 1944-04-30T24:00 | FROZEN | 航空機processing-history監査 → FORAGER |
+| [浅井世界線](scenarios/asai/README.md) | active | V23 | 1946-06-30T24:00 | history-working-closed-through-1946-armistice; retro-audit-1939-1940-open | 1939-1940遡及監査 |
+| [計算機異聞](scenarios/keisanki-ibun/README.md) | active | Branch B v098 | 1944-06-14T12:00 | OPEN / EVENT-SIMULATION | FORAGER: 14 Jun bombardment/submarines -> 15 Jun Bonins/D-day approach -> mobile-fleet contact |
 
 ## 読み方
 
