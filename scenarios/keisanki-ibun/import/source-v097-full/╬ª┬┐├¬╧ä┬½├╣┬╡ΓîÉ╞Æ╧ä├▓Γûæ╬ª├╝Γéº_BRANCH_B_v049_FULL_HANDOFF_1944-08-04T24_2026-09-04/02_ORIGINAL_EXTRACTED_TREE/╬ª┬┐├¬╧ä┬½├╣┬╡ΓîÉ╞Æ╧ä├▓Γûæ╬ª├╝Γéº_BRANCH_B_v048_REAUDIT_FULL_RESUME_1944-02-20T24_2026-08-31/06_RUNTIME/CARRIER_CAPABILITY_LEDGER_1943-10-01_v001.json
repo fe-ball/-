@@ -1,0 +1,153 @@
+{
+  "revision": "v001",
+  "id": "CARRIER_CAPABILITY_LEDGER_1943-10-01_v001",
+  "as_of": "1943-10-01T00:00:00",
+  "status": "CURRENT_RUNTIME_CAPABILITY_LEDGER",
+  "purpose": "Machine-readable carrier capability, tactical-maturation and hull-state guard for the 1943-10-01 restart. Nominal aircraft capacity is explicitly separated from ready air group and deck-cycle combat output.",
+  "principles": [
+    "Carrier combat power = hull/deck cycle + ready air group + pilot/crew median + search/strike/CAP coordination + geometry + damage/recovery state.",
+    "Nominal aircraft capacity is not combat-ready aircraft count and aircraft production does not create extra deck spots.",
+    "Hull survival does not prove current readiness, and aircraft type existence does not prove carrier-qualified unit conversion.",
+    "The 1942-43 Japanese tactical-learning effects are process improvements and variance reductions, not flat combat multipliers.",
+    "US old-carrier branch losses remain paid; late-1943 US power is new-build regeneration, not resurrection."
+  ],
+  "japan": {
+    "hull_state": {
+      "lost": [
+        "Akagi",
+        "Kaga"
+      ],
+      "first_line_core_alive": [
+        "Shokaku",
+        "Zuikaku",
+        "Hiryu",
+        "Soryu"
+      ],
+      "secondary_confirmed_1943": [
+        "Junyo",
+        "Hiyo",
+        "Ryujo",
+        "Zuiho"
+      ],
+      "allocation_at_restart": "First-line core remains Pacific; central India package receives zero first-line carriers.",
+      "policy_notes": [
+        "Chitose/Chiyoda remain seaplane tenders; no automatic carrier conversion.",
+        "Shinano is not converted to carrier under the current 1943 policy; Unryu-line quantity and Taiho-line quality remain separate construction policies."
+      ]
+    },
+    "tactical_maturation_1942_43": {
+      "state": "STANDARDIZATION_MATERIAL_BY_1943",
+      "drivers": [
+        "Hiryu survival and larger surviving carrier/aircrew/deck/maintenance cadre",
+        "reduced Guadalcanal-style emergency attrition",
+        "repeat training time and fuel",
+        "comparison of multiple carrier commands and deck crews"
+      ],
+      "practices": [
+        "overlapping/re-search search sectors with return margin",
+        "CAP altitude layers, relief timing, emergency launch and recovery schedule",
+        "avoid simultaneous maximization of fueled/armed/waiting aircraft on deck/hangar",
+        "reduce strike launch/recovery/rearm cycle variance",
+        "reduce multi-carrier strike arrival-time dispersion",
+        "pre-plan simultaneous evasive turns, local independent evasion and emergency dispersion/reassembly",
+        "cross-deck emergency recovery and aircraft redistribution after carrier damage"
+      ],
+      "working_effect_bands": {
+        "designated_search_sector_miss_rate": "20-35% relative reduction under trained/applicable conditions",
+        "launch_recovery_rearm_cycle_time_variance": "15-25% reduction",
+        "multi_carrier_strike_arrival_time_dispersion": "20-30% reduction",
+        "CAP_probability_of_meeting_enemy_main_attack": "10-20% relative improvement"
+      },
+      "rule": "These are sensitivity bands for applicable trained formations. Do not stack them as one carrier-strength multiplier or apply when local crew, weather, comms or deck state do not support them."
+    },
+    "deck_hull_profiles": {
+      "first_line_fleet_carriers": {
+        "ships": [
+          "Shokaku",
+          "Zuikaku",
+          "Hiryu",
+          "Soryu"
+        ],
+        "state": "alive; ship-specific 1943 deck-cycle and current air-group readiness must be resolved event-locally",
+        "rule": "Do not infer current ready aircraft from opening main-six total or nominal design capacity."
+      },
+      "Ryujo": {
+        "opening_deck_processing": "~10-15% improvement",
+        "mission_class": "small fleet carrier under suitable wind/load; ship-specific damage/readiness still required"
+      },
+      "Zuiho": {
+        "opening_sortie_turnover": "~8-15% improvement",
+        "mission_class": "light fleet carrier under suitable conditions"
+      },
+      "Shoho": {
+        "conversion_clock": "~2-3 months earlier in opening technical baseline; current 1943 presence must follow branch fate/OOB, not this design card"
+      },
+      "Junyo_Hiyo": {
+        "mission_class": "low-speed medium fleet carriers; wind/load/recovery limitations remain",
+        "rule": "Do not treat as equal to first-line fast fleet carriers in every mission."
+      }
+    },
+    "required_event_state": [
+      "participating carrier hulls",
+      "deck/flight-operations damage state",
+      "ready aircraft by role and variant",
+      "carrier-qualified pilot median and fatigue",
+      "maintenance and spare-aircraft state",
+      "fuel/ordnance state",
+      "search plan and information freshness",
+      "CAP plan and fighter direction",
+      "strike package timing/escort",
+      "wind/weather/sea state",
+      "distance/route/recovery geometry",
+      "escort formation and radar state"
+    ]
+  },
+  "united_states": {
+    "branch_losses": [
+      "Lexington",
+      "Yorktown",
+      "Enterprise",
+      "Hornet",
+      "Saratoga"
+    ],
+    "survivor": "Wasp survives and is active by June 1943",
+    "regeneration": "Multiple Essex/Independence-class fast-carrier groups with F6F-class aircraft are real combat factors by late Aug/Sep 1943.",
+    "rule": "Actual October groups, air groups, deck readiness and task-group direction are event inputs. Do not reinsert lost legacy fast carriers."
+  },
+  "britain": {
+    "branch_losses": [
+      "Indomitable",
+      "Formidable"
+    ],
+    "effect": "Eastern Fleet modern-carrier depth is below historical; any eastern reinforcement is conditional on current hull, air-group, shipping, air-cover and command state."
+  },
+  "sources": [
+    {
+      "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/44_戦術研鑽_1942-44_空母指揮・艦隊回避・教範化.md",
+      "sections": [
+        "3",
+        "4",
+        "5",
+        "8"
+      ]
+    },
+    {
+      "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/60_開戦戦力・輸送・空母・揚陸・砲計算.md",
+      "sections": [
+        "3",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/83_歴史考察_1942年艦政・空母建造史実基準.md"
+    },
+    {
+      "path": "06_RUNTIME/AIRCRAFT_FIELDING_LEDGER_1943-10-01_v001.json"
+    },
+    {
+      "path": "06_RUNTIME/SEAPLANE_TACTICS_LEDGER_1943-10-01_v001.json"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "revision": "v001",
+  "id": "RESUME_LOAD_ORDER_1944-03-08T24_PACIFIC_FLEET_AUDIT_v001",
+  "status": "WORKING_RESUME_POINTER",
+  "global_frontier": "1944-03-08T24",
+  "requires_prior_overlays": [
+    "計算機異聞_v048_PROGRESS_1944-02-19_22_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_PROGRESS_1944-02-23_27_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_CORRECTION_SA1_1944-02-27_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_PROGRESS_1944-02-28_03-03_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_RETRO_EASTERN_FLEET_SUPPRESSION_PLANNING_1944-01-28_03-03_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_PROGRESS_1944-03-04_08_OVERLAY_2026-08-30.zip"
+  ],
+  "load_new_files_in_order": [
+    "PACIFIC_FLEET_AUDIT_1944-03-08/FLEET/US_FAST_CARRIER_PIPELINE_CORRECTION_1944-03-08_WORKING_v001.json",
+    "PACIFIC_FLEET_AUDIT_1944-03-08/FLEET/JAPAN_CARRIER_SURFACE_FLEET_AUDIT_1944-03-08_WORKING_v001.json",
+    "PACIFIC_FLEET_AUDIT_1944-03-08/RULES/EASTERN_FLEET_BENGAL_DORMANCY_GATE_1944-03-08_WORKING_v001.json",
+    "PACIFIC_FLEET_AUDIT_1944-03-08/DECISIONS/JAPAN_PACIFIC_FLEET_STRATEGIC_DECISION_1944-03-08_WORKING_v001.json",
+    "PACIFIC_FLEET_AUDIT_1944-03-08/STATE/PACIFIC_FLEET_POSTURE_1944-03-08T24_WORKING_v001.json"
+  ],
+  "corrections": [
+    "Restore physical US CV-18-equivalent, Bataan CVL-29, and San Jacinto CVL-30 to the construction/reinforcement pipeline; none receives 8-Mar combat credit.",
+    "CV-18 branch name is provisional because surviving CV-7 blocks historical Wasp name inheritance.",
+    "Do not count Taiho hull completion as an immediately synchronized fifth fleet carrier.",
+    "Do not continue detailed Eastern Fleet/Bengal clock after INITIAL unless a reopen trigger fires."
+  ],
+  "future_knowledge_guard": [
+    "Japanese commanders do not know exact US repair/arrival dates. They may infer only a temporary reduction plus accelerating US construction.",
+    "Do not credit Bataan, San Jacinto or CV-18-equivalent to TF58 before their branch-valid forward deployment gates.",
+    "Do not credit Taiho with late-March/April training state on 8 Mar.",
+    "Do not import historical Palau raid or later fleet movements until their own motive/geometry gates are adjudicated."
+  ],
+  "next_exact_action": "Advance Pacific strategic clock from 9 Mar with weekly carrier readiness/reinforcement updates; permit INITIAL to close in background, then freeze Indian Ocean/Bengal unless a reopen trigger occurs."
+}

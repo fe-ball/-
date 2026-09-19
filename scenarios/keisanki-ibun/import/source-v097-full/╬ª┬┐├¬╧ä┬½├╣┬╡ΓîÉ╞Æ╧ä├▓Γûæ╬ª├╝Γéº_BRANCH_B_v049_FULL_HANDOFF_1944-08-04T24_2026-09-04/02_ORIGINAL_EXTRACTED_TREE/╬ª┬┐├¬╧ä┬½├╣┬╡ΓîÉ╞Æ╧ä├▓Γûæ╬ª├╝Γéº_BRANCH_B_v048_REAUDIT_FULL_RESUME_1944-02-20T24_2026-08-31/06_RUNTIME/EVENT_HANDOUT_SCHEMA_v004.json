@@ -1,0 +1,80 @@
+{
+  "revision": "v004",
+  "purpose": "Generated event projection with state/TECH, mandatory combat factors, platform-class capability review and novel/divergent weapon handling.",
+  "inputs": [
+    "checkpoint_id",
+    "event_date",
+    "event_profile",
+    "participants/platforms if known",
+    "optional combat_event_input"
+  ],
+  "baseline_resolution": "technical_baseline and branch overrides are read from the selected checkpoint, never hard-coded by the generator.",
+  "domain_resolution_values": [
+    "ACTIVE",
+    "NO_RELEVANT_DELTA",
+    "NOT_YET_MATURE",
+    "UNKNOWN"
+  ],
+  "state_resolution_values": [
+    "CHECKPOINT_LOCAL",
+    "WARSTART_BASELINE_FALLBACK",
+    "UNKNOWN"
+  ],
+  "required_output": [
+    "checkpoint",
+    "checkpoint_file",
+    "checkpoint_as_of",
+    "technical_baseline",
+    "prewar_baseline",
+    "event_profile_revision",
+    "domain_map_revision",
+    "runtime_contract",
+    "active_override_ids",
+    "domain_resolution",
+    "state_requirement_resolution",
+    "entries",
+    "execution_blocked",
+    "block_reasons",
+    "combat_factor_index",
+    "combat_factor_matrix",
+    "combat_factor_resolution",
+    "combat_resolution_ready",
+    "combat_ready_block_reasons",
+    "weapon_platform_index",
+    "combat_platform_matrix",
+    "platform_capability_resolution",
+    "novel_weapon_review",
+    "weapon_capability_ready",
+    "weapon_ready_block_reasons"
+  ],
+  "entry_fields": [
+    "id",
+    "domain",
+    "status",
+    "date_gate_state",
+    "date_gate_basis",
+    "valid_from",
+    "checkpoint_declared",
+    "what_changed",
+    "magnitude",
+    "causal_stage",
+    "combat_meaning",
+    "nonlinear_effect",
+    "do_not_simplify_as",
+    "sources"
+  ],
+  "block_condition": "UNKNOWN in a mandatory technical domain or semantic state requirement blocks final event computation unless a waiver is explicitly recorded downstream.",
+  "generation_rule": "Select TECH entries by profile/tag/domain, apply runtime/date gates, expose checkpoint-local state bindings and maturation deltas, and never substitute opening state for later checkpoint state silently.",
+  "combat_factor_resolution_values": [
+    "CHECKPOINT_EVIDENCE",
+    "TECH_EVIDENCE",
+    "MIXED_EVIDENCE",
+    "RUNTIME_INPUT",
+    "RUNTIME_AND_ARCHIVE_EVIDENCE",
+    "RUNTIME_INPUT_REQUIRED",
+    "UNKNOWN",
+    "NOT_APPLICABLE"
+  ],
+  "combat_rule": "Final combat/gate adjudication requires combat factors and weapon/platform capability review to be ready. combat_resolution_ready is the combined readiness flag.",
+  "weapon_platform_rule": "Mandatory platform classes are reviewed from the full current TECH baseline plus capability index even when normal event tags would omit them. Event-local novel/divergent systems require explicit capability/maturity/provenance."
+}

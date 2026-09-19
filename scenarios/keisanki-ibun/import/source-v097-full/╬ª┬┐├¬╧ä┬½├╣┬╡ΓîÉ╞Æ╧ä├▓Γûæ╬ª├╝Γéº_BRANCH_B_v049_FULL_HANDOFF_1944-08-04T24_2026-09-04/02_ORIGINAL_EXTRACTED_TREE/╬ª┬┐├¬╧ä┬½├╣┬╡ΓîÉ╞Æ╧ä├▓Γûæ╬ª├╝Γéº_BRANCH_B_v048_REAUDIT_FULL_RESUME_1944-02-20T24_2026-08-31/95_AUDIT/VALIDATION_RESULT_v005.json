@@ -1,0 +1,8 @@
+{
+  "revision": "v005",
+  "status": "PASS",
+  "json_errors": [],
+  "missing_required": [],
+  "current_restart": "CHECKPOINT_1942-06-15T24_v001",
+  "legacy_untouched_present": true
+}

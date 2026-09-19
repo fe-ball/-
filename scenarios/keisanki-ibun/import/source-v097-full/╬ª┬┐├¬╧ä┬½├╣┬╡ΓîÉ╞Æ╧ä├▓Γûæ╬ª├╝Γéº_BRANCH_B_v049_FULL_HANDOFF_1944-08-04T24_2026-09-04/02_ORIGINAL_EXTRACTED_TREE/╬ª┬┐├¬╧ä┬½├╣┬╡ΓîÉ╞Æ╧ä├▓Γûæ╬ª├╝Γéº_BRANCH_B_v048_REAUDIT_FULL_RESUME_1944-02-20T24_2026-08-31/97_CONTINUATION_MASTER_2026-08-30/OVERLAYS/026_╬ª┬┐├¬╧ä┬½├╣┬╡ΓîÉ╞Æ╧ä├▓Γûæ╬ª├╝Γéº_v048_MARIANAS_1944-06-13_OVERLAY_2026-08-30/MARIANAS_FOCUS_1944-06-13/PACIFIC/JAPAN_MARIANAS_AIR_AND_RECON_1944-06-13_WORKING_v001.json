@@ -1,0 +1,40 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_MARIANAS_AIR_AND_RECON_1944-06-13_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_DAY_SETTLEMENT",
+  "clock_window": "1944-06-13T00:00..24:00+09:00",
+  "parents": [
+    "JAPAN_MARIANAS_AIR_DEFENSE_1944-06-12_WORKING_v001",
+    "US_SAIPAN_BOMBARDMENT_AND_ASSAULT_PREP_1944-06-13_WORKING_v001"
+  ],
+  "opening_after_overnight_repair": {
+    "onsite_ready_all_band": [142, 186],
+    "onsite_ready_fighter_band": [78, 105],
+    "onsite_attack_recon_band": [43, 59]
+  },
+  "command_priority": "PRESERVE RECON AND STRIKE CADRE, BUT EXPLOIT FIXED BOMBARDMENT GEOMETRY. Unlike the invisible carrier task groups, the battleship/minesweeper force off Saipan presents a fresh local target that can be attacked without a blind ocean search.",
+  "reconnaissance_result": {
+    "morning": "Surviving land/float reconnaissance confirms heavy battleships shelling Saipan and reports minesweeping/reef activity. At least one snooper is lost to US CAP, consistent with the strong American screen.",
+    "information_quality": "AMPHIBIOUS-INTENT QUALITY for strategic decision; not weapon-quality against TF58 carrier groups."
+  },
+  "local_air_counterattack": {
+    "strike_aircraft_committed_band": [18, 27],
+    "fighter_escort_committed_band": [10, 16],
+    "target": "TG58.7/bombardment and nearby support screen, not a speculative anti-carrier search.",
+    "Japanese_irreversible_loss_in_counterattack_band": [9, 14],
+    "result": "Several attackers reach release geometry, but CAP and heavy AA break up the attack. No fast battleship receives a confirmed hit; a screening ship is lightly/moderately damaged by near miss/fragments. The attack forces the US to maintain substantial CAP and confirms that surviving Japanese aviation remains tactically relevant."
+  },
+  "other_13Jun_losses": {
+    "additional_irreversible_from_CAP_ground_suppression_band": [12, 18],
+    "repairable_or_short_term_unavailable_band": [15, 24],
+    "additional_westward_evacuated_or_rebased_band": [8, 14]
+  },
+  "end_13Jun": {
+    "onsite_immediate_ready_all_band": [103, 137],
+    "onsite_immediate_ready_fighter_band": [52, 72],
+    "onsite_attack_recon_immediate_ready_band": [29, 42],
+    "C2_effective_percent_band": [57, 70],
+    "runway_sustained_day_capacity_percent_band": [38, 53],
+    "interpretation": "Marianas aviation is now a damaged reconnaissance/local-strike system rather than a theater air-superiority force, but it remains capable of detecting close amphibious geometry and generating limited attacks."
+  }
+}

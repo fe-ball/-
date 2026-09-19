@@ -1,0 +1,16 @@
+item	status	value_or_state	note
+E6-M-J_dry_mass	CLOSED	500-555kg; center~525kg	derived coherently from accepted JF total minus aft module
+E6-M-J_max_OD	WORKING-CLOSED	~0.55-0.62m	all-axial core/combustor casing; aircraft inlet/fairing separate
+E6-M-JF_C	CLOSED-engineering	835C; ~984kgf	long-duration production-center coordinate
+E6-M-JF_N	CLOSED-engineering	850C; ~1003kgf	normal military candidate; qualification local
+E6-M-JF_H	CLOSED-engineering	870C; ~1028kgf	high-output nonNi candidate
+E6-M-JF_Ni890	CLOSED-engineering	890C; ~1052kgf	selected Ni high
+E6-M-JF_Ni920	CLOSED-engineering	920C; ~1087-1088kgf	selected upper rating coordinate
+E6-M-JF_freeLP_power	CLOSED	~406kW extraction / ~394kW fan	near-constant accepted FPR/BPR center
+E6-M-JF_freeLP_inlet_835	CLOSED	~604C	main turbine exit / free-LP inlet gas
+E6-M-JF_freeLP_inlet_870	CLOSED	~639C	high-output candidate
+E6-M-JF_freeLP_inlet_920	CLOSED	~689C	selected Ni upper; not 920C at free turbine
+E6-M-JF_1939_835	CLOSED-state	R3-R4 flight-development package	aircraft flight target later 1939
+E6-M-JF_1939_850	CLOSED-state	R3/R4 qualification branch	no new architecture
+E6-M-JF_1939_870_920	CLOSED-state	R3 selected ground/rating expansion	flight/service release OPEN
+E6-M-JF_TBO	OPEN	local product audit	file21 semantics

@@ -1,0 +1,20 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-04-30T24_WORKING_v001",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_CURRENT_OVERLAY",
+  "as_of": "1944-04-30T24:00:00+09:00",
+  "global_frontier": "1944-04-30T24",
+  "Pacific": {
+    "Japan_command": "Yamamoto remains Combined Fleet C-in-C.",
+    "Japan_carrier_core": "Shokaku/Zuikaku/Hiryu/Soryu 280-300 ready; one-cycle four-deck synchronized package 175-205.",
+    "Taiho": "B+; 61-72 ready working band. Five-deck one-cycle package approximately 210-250, but sustained repeat-cycle integration is not yet fully veteran-core grade.",
+    "secondary_carriers": "Existing 30-Apr authority retained: roughly 135-165 combat-usable aircraft across heterogeneous secondary carriers, heavily used for qualification/replacement/ferry/CAP functions.",
+    "Japan_posture": "Davao-Celebes/Tarakan southern reaction/training system retained; no Truk rescue sortie. Marianas warning and preparation are elevated. Main heavy surface reserve remains available without being sent on a blind carrier hunt.",
+    "US_fast_carriers": "13 immediate fast decks remain in the working pool. Hollandia absent; a limited 6-8 deck Truk refresh raid occurs 29-30 Apr while the remainder stays Majuro-centered. 30-Apr total immediate ready-air pool ~710-805.",
+    "Truk": "Limited US raid damages rebuilt local air/radar/support infrastructure again. Truk remains Japanese-held but reduced to reconnaissance/submarine/local-air node; no Japanese major fleet ship is caught.",
+    "Marianas": "Combined theater air ready pool rises toward 175-225 across Saipan/Tinian/Guam/Rota/Pagan; radar/plot, dispersal and ground defense preparation continue.",
+    "submarine_policy": "Historical Majuro special amphibious-tank raid concept is rejected; submarine value shifts toward warning/picket/recon/interdiction. Late-Apr air-search-radar submarine trials are treated as a real but limited ISR maturation input."
+  },
+  "Indian_Ocean_Bengal": "BACKGROUND_FREEZE remains active; no new fleet or ground release gate.",
+  "next_active_question": "Run the 1-May Pacific strategic gate: decide whether Yamamoto moves the Mobile Fleet reaction axis, how aggressively Marianas air is reinforced in May, and how the US uses new TG58.6/CV-18/San Jacinto while preparing FORAGER. Re-audit June US carrier OOB before combat."
+}

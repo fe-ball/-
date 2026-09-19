@@ -1,0 +1,16 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-03-20T24_WORKING_v001",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_CURRENT_OVERLAY",
+  "as_of": "1944-03-20T24:00:00+09:00",
+  "global_frontier": "1944-03-20T24",
+  "Pacific": {
+    "Japan_carrier_core": "Shokaku/Zuikaku/Hiryu/Soryu: 250-278 integrated ready, 150-184 one-cycle synchronized offensive package; recovery accelerated by surviving cadre but still not expendable.",
+    "Taiho": "C+/B- centered; 62-75 physical immediate ship pool, 52-66 serviceable, 40-52 mission-ready. Limited independent combat possible; no fifth-deck synchronized package yet.",
+    "US_fast_carriers": "Lexington branch return centered 19 Mar; Hornet joins 20 Mar. Immediate pool 7 CV + 5 CVL, 680-770 ready aircraft working band. Cabot/Independence still out; later new builds remain future.",
+    "K706": "9-Mar Eniwetok night raid completed with nuisance/light local damage and no centered Japanese loss; no strategic base suppression.",
+    "Japanese_posture": "Do not hunt east. Train/concentrate on southern fuel/reaction axis; Palau is a tripwire/forward node, not a mass fleet anchorage; prepare conditional counterstroke."
+  },
+  "Indian_Ocean_Bengal": "INITIAL returned 12 Mar; Eastern Fleet/Bengal background-freeze active. No ground offensive and no surface-fleet chase. Historical DIPLOMAT is not inherited because Branch Saratoga is lost.",
+  "next_active_question": "Advance toward the late-March US operational move. Determine whether Japanese ISR detects the approaching Palau raid early enough to disperse shipping/air, and whether the now-healthier carrier force should remain concealed, sortie defensively, or still refuse battle based on actual contact geometry."
+}

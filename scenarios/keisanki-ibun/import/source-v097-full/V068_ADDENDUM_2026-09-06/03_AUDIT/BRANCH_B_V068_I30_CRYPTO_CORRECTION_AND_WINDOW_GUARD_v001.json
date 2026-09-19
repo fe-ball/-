@@ -1,0 +1,67 @@
+{
+  "version": "v068",
+  "date": "2026-09-06",
+  "status": "CORRECTION_AND_CRYPTO_GUARD_ACTIVE",
+  "overrides": {
+    "v067_I30_loss": "VOID",
+    "I30_1942_10_13_center": "SURVIVES_SINGAPORE_MINE_EVENT",
+    "I30_late_oct_return": "RETURNS_TO_JAPAN_WITH_GERMAN_CARGO",
+    "I30_future_hull_immunity": false,
+    "v067_I30_YANAGI_TECHNOLOGY_LOSS_FUTURE_EFFECT_OPEN": "DELETE_TICKET"
+  },
+  "crypto_state": {
+    "Japanese_high_grade_COMSEC_origin": "DOMESTIC_PRE_EUROPE",
+    "US_historical_JN25_like_short_strategic_plaintext_precision": "NOT_AUTOMATICALLY_AVAILABLE",
+    "US_residual_sources": [
+      "traffic_analysis",
+      "DF",
+      "low_grade_or_plaintext",
+      "reconnaissance",
+      "operational_pattern_inference",
+      "logistics_and_geography_inference"
+    ],
+    "Japanese_offensive_COMINT": [
+      "low_mid_grade_codes",
+      "plaintext",
+      "traffic_analysis",
+      "DF",
+      "operational_mistakes"
+    ],
+    "not_granted": [
+      "routine_SIGABA_break",
+      "magic_exact_position_from_single_bearing",
+      "permanent_unbreakable_Japanese_ciphers",
+      "automatic_weapon_quality_solution"
+    ],
+    "I30_T_Enigma_effect": "SECURE_AXIS_BILATERAL_LIAISON_REFERENCE_NOT_DOMESTIC_COMSEC_MULTIPLIER",
+    "late_1942_I30_maturity": "DISASSEMBLY_MEASUREMENT_COMPARISON"
+  },
+  "crypto_window_gates": [
+    "PROTECTION_HIGH_GRADE_US_PRECISION_ABSENT_OR_STALE",
+    "ACQUISITION_REAL_RESIDUAL_SOURCE_EXISTS",
+    "FUSION_SECTOR_TIME_CORRIDOR",
+    "HANDOFF_REACHES_EXPLOITER_BEFORE_EXPIRY",
+    "CONTACT_NORMAL_TACTICAL_RESOLUTION"
+  ],
+  "WIO7A": {
+    "resume": "1942-10-25",
+    "close_target": "1942-11-20",
+    "rule": "REBUILD_INTELLIGENCE_CUE_CHAINS_EVENT_BY_EVENT",
+    "do_not_reopen": [
+      "MI",
+      "SANTO"
+    ],
+    "priority": [
+      "historically intelligence-cued submarine/contact events",
+      "FS withdrawal/redeployment concealment and warning",
+      "TORCH carrier deficit remains a British/Allied wallet issue, not an IJN SIGINT bonus"
+    ]
+  },
+  "legacy_source_refs": [
+    "00_CONFIG/current_branch_overrides_v014.json :: OVR-BRANCH-B-I30-SURVIVAL-TECH-CHAIN-001",
+    "06_RUNTIME/TECHNOLOGY_LINEAGE_SYNTHESIS_1944-01-28_WORKING_v005.json :: crypto/communications lineage",
+    "05_WARTIME/CHECKPOINT_1943-11-23T00_BRANCH_B_GALVANIC_REAUDIT_v001.json :: US information state / Japanese COMINT-ESM",
+    "06_RUNTIME/AXIS_SUBMARINE_LIAISON_TECH_TRANSFER_AUDIT_1942_1944_v001.md :: T-Enigma maturation",
+    "00_README/CURRENT_DISCUSSION_FRONTIER_v009.json :: Ultra-directed I-34/I-29 guard"
+  ]
+}

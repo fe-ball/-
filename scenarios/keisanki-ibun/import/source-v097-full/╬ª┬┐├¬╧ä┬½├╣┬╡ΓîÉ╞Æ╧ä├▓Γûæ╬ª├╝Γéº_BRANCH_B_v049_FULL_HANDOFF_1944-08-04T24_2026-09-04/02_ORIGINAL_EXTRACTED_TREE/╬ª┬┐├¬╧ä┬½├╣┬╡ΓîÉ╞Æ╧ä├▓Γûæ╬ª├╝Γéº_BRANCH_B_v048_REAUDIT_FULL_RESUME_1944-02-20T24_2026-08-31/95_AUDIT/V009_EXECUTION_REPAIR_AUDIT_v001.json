@@ -1,0 +1,59 @@
+{
+  "revision": "v001",
+  "package_revision": "v009",
+  "date": "2026-08-22",
+  "scope": "Execution-path repair following v008 data-structure/index review.",
+  "state_semantics": "CHECKPOINT_1944-04-30T24_v001 world state preserved; v002 is a same-state execution revalidation.",
+  "repairs": [
+    {
+      "area": "event generator",
+      "before": "build_event_handout_v004 hard-coded TECH_INDEX_v003 / WARSTART_STATE_LEDGER_v002 and treated --checkpoint as label-only",
+      "after": "build_event_handout_v005 resolves the requested checkpoint, consumes its TECH/PREWAR/override/state sources, uses current profile/map registry, blocks graph-invalid checkpoints and exposes checkpoint-local/fallback state provenance"
+    },
+    {
+      "area": "temporal TECH gates",
+      "before": "four v005 1943/44 additions lacked machine-readable runtime_gate",
+      "after": "TECH_INDEX_v006 adds explicit available_from gates; 1943/44 capabilities cannot be silently back-ported"
+    },
+    {
+      "area": "event relevance",
+      "before": "EVENT_RELEVANCE_PROFILES_v002 and DOMAIN_STATE_MAP_v001 did not integrate AIR_COMBAT / MATERIALS_PROPULSION / SUBMARINE_AVIATION",
+      "after": "profiles v003 + map v002 integrate those domains and add BASE_DEFENSE / FORAGER_GATE / SPECIAL_STRIKE / INDUSTRIAL_AIRCRAFT"
+    },
+    {
+      "area": "checkpoint state sources",
+      "before": "materials/nickel settlement absent from current checkpoint state_sources",
+      "after": "CHECKPOINT_1944-04-30T24_v002 includes it and advances TECH/override pointers without changing settled world state"
+    },
+    {
+      "area": "governance",
+      "before": "current_branch_overrides_v002 did not conform to rule_override_protocol_v001; dependency map omitted R-RULE-OVERRIDE-EXPLICIT",
+      "after": "override protocol v002 + normalized overrides v003 + dependency map v002 cover all base rules and active overrides"
+    },
+    {
+      "area": "current-version tracking",
+      "before": "generator/profile/map/runtime machinery not all tracked by current_version_families",
+      "after": "current_version_families_v006 tracks execution machinery, audit, manifest and validator revisions"
+    },
+    {
+      "area": "validation",
+      "before": "validate_refactor_v006 primarily checked existence/current checkpoint pointer",
+      "after": "validate_refactor_v007 checks JSON/source links, TECH/PREWAR links, checkpoint graph, state sources, profiles/maps, override/dependencies, generator behavior, current families, manifest and SHA-256 coverage"
+    }
+  ],
+  "verification_targets": [
+    "FORAGER_GATE 1944-05-01 -> current checkpoint v002 / TECH v006 / unblocked",
+    "legacy execution-valid checkpoints still resolve their own older TECH baseline",
+    "graph-invalid checkpoint is blocked",
+    "all current TECH sources exist",
+    "all current PREWAR tech links resolve",
+    "all active overrides and base rules have dependency-map entries",
+    "current coverage audit passes 11 representative profiles"
+  ],
+  "result": "PASS_FINAL_VALIDATED",
+  "legacy_byte_identity": {
+    "source_package": "計算機異聞_refactor_v008_2026-08-22",
+    "file_count": 188,
+    "result": "PASS_BYTE_IDENTICAL"
+  }
+}

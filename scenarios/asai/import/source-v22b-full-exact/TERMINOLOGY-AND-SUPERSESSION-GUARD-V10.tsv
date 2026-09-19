@@ -1,0 +1,20 @@
+term_or_issue	current_rule	supersedes_or_guard
+return vs reallocation	Use POST-CEASEFIRE REALLOCATION for E5/Ki42 Manchuria->China; existing China fleets never disappeared	supersedes RETURN-CLOSEOUT-V1 wording
+E5/Ki42 pure addition	Operational fleets are major near-pure OOB additions vs OLD; conventional historical aviation remains unless explicit substitution	prevents backgrounding/omission
+old Ki40 JF x2 recon	Replace duplicated narrow reconnaissance effect with persistent E5 system; do not stack	double-count guard
+fuel/range	Existing mission radii already include appropriate auxiliary-fuel configurations	no new range multiplier
+Chi-Ha WET1	wet/splash reliability only; routine ford ~1m; no deep wading	no amphibious magic
+GT winter effect	apply to supported clusters and morning readiness/launch timing/repair load	no all-day division multiplier
+1940 appearance ledger	planning gate only until actual combat date/allocation/serviceability closed	no prototype auto-fielding
+old V9 effects	carry forward unless explicitly replaced	no-backflow
+E6 Single research-only posture	E6 Single is service-production A/B after E6SINGLE1; pure-J standard, exact allocation/combat date replay-local	supersedes stale Single C / requirement-dependent-only wording
+E5 Army Ki-40 evaluation label	Use E5 Twin / 九八式司令部偵察機 for current E5 Army recon service identity; do not treat old E5 Ki-40 allocation label as formal current project code	avoids collision with later current turboprop Ki-40 lineage
+R1As	九八式高速陸上偵察機; Navy E5 JF-biased reconnaissance lineage	distinguishes from conventional C5M 九八式偵察機
+R2As	零式高速陸上偵察機; Navy E6 Twin JF main reconnaissance branch	NAVALJETTORP1 current naming
+G4As	零式陸上攻撃機; high-speed supplementary G4 branch parallel to G4M; not G4M hardware	do not import G4M range/payload or replace G4M automatically
+Type91 Mod2 high-speed	1941 service identity retained; worldline normal air-drop qualification ~400-430km/h, selected ~450km/h growth	do not back-port late-war 300/350-knot strengthened states
+B6N E6-S-T	E6-S-T remains a powerplant candidate only; torpedo interface ~400-430km/h is closed independently	do not force turboprop selection before corrected 1300/1400hp H->A
+B5N2 TP serial conversion	No serial E5-S-T B5N2 re-engine program; only 2-4 technical conversion/test aircraft are plausible under B5NAUDIT1	prevents turbine-availability = automatic fleet conversion
+B5N2 1941 torpedo-speed inheritance	1941 Type91 ~400-430km/h normal envelope improves margin/repeatability but does not make B5N a 400+km/h aircraft	no airframe-speed backflow from torpedo qualification
+G3M turboprop conversion	G3M2 remains gasoline piston long-range branch; E5-S-T is paper study only and E6-S-T does not open a serial G3M variant	prevents turbine availability from deleting long-range piston economics
+G3M 4400km range	Treat ~4400km as maximum/ferry historical anchor, not 800kg-torpedo combat radius	range semantics guard

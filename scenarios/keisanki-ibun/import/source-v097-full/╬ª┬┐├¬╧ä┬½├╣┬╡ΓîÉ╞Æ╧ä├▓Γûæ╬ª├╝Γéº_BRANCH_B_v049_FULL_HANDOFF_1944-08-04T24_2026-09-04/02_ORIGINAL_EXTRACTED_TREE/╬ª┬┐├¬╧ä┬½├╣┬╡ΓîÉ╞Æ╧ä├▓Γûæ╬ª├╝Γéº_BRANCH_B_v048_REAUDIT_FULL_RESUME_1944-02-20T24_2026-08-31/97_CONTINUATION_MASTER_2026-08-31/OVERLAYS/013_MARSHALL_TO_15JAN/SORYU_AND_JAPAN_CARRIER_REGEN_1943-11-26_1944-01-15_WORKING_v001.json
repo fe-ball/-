@@ -1,0 +1,55 @@
+{
+  "id": "SORYU_AND_JAPAN_CARRIER_REGEN_1943-11-26_1944-01-15_WORKING_v001",
+  "status": "WORKING_CLOSEOUT_ADJUDICATION_NOT_YET_CANONICAL",
+  "damage_basis": "26-Nov revised centered result: one bomb plus damaging near miss; propulsion and waterline integrity preserved; deck operations stopped 8-14 hours, no campaign mission-kill.",
+  "repair_clock": [
+    {
+      "date": "1943-11-27",
+      "state": "emergency deck/aviation-service work; limited CAP/recovery/ferry possible after local fires and debris are controlled"
+    },
+    {
+      "date_band": "1943-11-28..12-07",
+      "state": "Truk/Akashi-centered structural/deck/electrical repair and inspection; no home-yard requirement centered"
+    },
+    {
+      "date_band": "1943-12-08..12-15",
+      "state": "deck trials and first-line work-up; centered full first-line hull/deck return ~12 Dec, plausible band 8-15 Dec"
+    },
+    {
+      "date": "1944-01-15",
+      "state": "fully available hull/deck; air-group team quality still below pre-GALVANIC due experienced strike-leader/navigation/torpedo-crew losses"
+    }
+  ],
+  "carrier_force_1944_01_15": {
+    "first_line_hulls": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu"
+    ],
+    "first_line_ready_aircraft_band": [
+      250,
+      275
+    ],
+    "secondary_hulls": [
+      "Junyo",
+      "Hiyo",
+      "Ryujo",
+      "Zuiho"
+    ],
+    "secondary_combat_usable_aircraft_band": [
+      100,
+      120
+    ],
+    "fleet_carrier_combat_useful_total_band": [
+      350,
+      390
+    ],
+    "single_coherent_first_line_strike_band": [
+      185,
+      220
+    ],
+    "reason_strike_less_than_inventory": "CAP/search reserve, cross-deck organization, and experienced strike-cadre debt remain binding."
+  },
+  "strategic_effect": "US planners face four operational first-line Japanese decks by mid-Dec rather than three operational plus a long-repair Soryu. This strengthens fleet-in-being/CAP/search requirements even if Japan does not automatically seek a carrier battle."
+}

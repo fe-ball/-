@@ -1,0 +1,20 @@
+{
+  "id": "BRANCH_B_1942H2_GATE_MAP_v001",
+  "through": "1942-12-31T24:00",
+  "formal_limited_FS_close": "1942-11-20T00:00",
+  "gates": [
+    {"id":"WIO-3","start":"1942-07-09","end":"1942-08-04","status":"CENTER_CLOSED","notes":["direct Branch extra shipping loss 0","Illustrious westbound for Pedestal from ~9 Jul"]},
+    {"id":"WIO-4A","start":"1942-08-05","end":"1942-08-15","status":"OPEN","notes":["Pedestal","Operation B activation gate","replacement submarine departures"]},
+    {"id":"WIO-4B","start":"1942-08-16","end":"1942-09-09","status":"OPEN","notes":["Operation B effects if executed","replacement submarine attacks","Madagascar assembly"]},
+    {"id":"WIO-5","start":"1942-09-10","end":"1942-10-03","status":"OPEN","notes":["Stream-Line-Jane re-adjudication","Santo aftermath","New Caledonia buildup"]},
+    {"id":"WIO-6","start":"1942-10-04","end":"1942-10-24","status":"OPEN","notes":["New Caledonia main campaign","Torch buildup","Indian Ocean residual commitments"]},
+    {"id":"WIO-7A","start":"1942-10-25","end":"1942-11-20","status":"OPEN","notes":["limited-FS closeout","Torch","post-Madagascar reallocation"]},
+    {"id":"WIO-7B","start":"1942-11-21","end":"1942-12-31","status":"OPEN","notes":["FS formally closed","Wasp and US battleship counterweight recovery","residual IO/convoy bill"]}
+  ],
+  "accounting": {
+    "japan":"named hull/boat operational clocks",
+    "allied_gross":"full assigned burden before affordability test",
+    "counterfactual":"credits and cross-theater trades explicit; no silent netting",
+    "combat_effect":"only physically realized patrols/contacts/strikes alter outcomes"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "revision": "v015",
+  "date": "2026-08-24",
+  "result": "PASS",
+  "checks": {
+    "all_json_parse": true,
+    "json_error_count": 0,
+    "sole_current_session_frontier": true,
+    "active_restart_time_is_1944_04_25": true,
+    "active_restart_checkpoint_is_null": true,
+    "catchpole_settlement_is_current": true,
+    "next_required_adjudication_is_china": true,
+    "legacy_4_30_checkpoint_reference_only": true,
+    "file_count_before_checksum": 447
+  },
+  "json_errors": [],
+  "note": "Data-integrity and current-state validation for CATCHPOLE closeout release."
+}

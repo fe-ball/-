@@ -1,0 +1,28 @@
+{
+  "id": "GALVANIC_TARAWA_HHOUR_STATE_1943-11-24_FORTIFICATION_REAUDIT_v002",
+  "status": "WORKING_REOPENED_HHOUR_STATE_NOT_AUTHORITY",
+  "fixed": {
+    "D_day": "1943-11-24",
+    "Tarawa_total_personnel": "4900-5300",
+    "first_line_combat": "2600-2900",
+    "Type95_physical": 14,
+    "US_initial_LVT": 87,
+    "US_M4A2_physical": 14,
+    "tide_lane_plan": "v004 observed-depth/high-water logic retained"
+  },
+  "fortification_effect_after_PassB_and_prelanding_bombardment": {
+    "heavy_coastal_system": "many physical positions survive or remain repairable, but pre-GALVANIC south/west orientation limits direct utility against lagoon landing; no hindsight reorientation",
+    "Red_beach_direct_fire_positions": "~55-70% of pre-assigned weapon positions remain physically weapon-capable at H-hour; only ~45-60% can join a coordinated opening fire at once",
+    "tactical_comms": "~55-70% of critical local paths available through primary/alternate wire and runners at H-hour; degradation accelerates after firing reveals positions",
+    "forward_ammunition": "~70-85% of planned local ammunition remains accessible because small magazines/blast separation reduce chain loss",
+    "protected_personnel": "forward crews and command cadres suffer fewer prelanding losses than v004 baseline; gain is survival/organization, not extra manpower",
+    "Type95_post_bombardment_contact_capable": "7-10, center 8-9, up from reopened prior 6-9",
+    "engineer_plant": "some bombproof/revetment repair and debris-clearing capacity survives into D-day morning; tiny-island access remains severe ceiling"
+  },
+  "US_adaptive_prelanding_response": {
+    "targeted_extension": "~15-25 minutes equivalent extra/retasked destroyer-cruiser/carrier precision fire against observed active positions, not a wholesale new bombardment day",
+    "effect": "removes some newly surviving exposed firepoints, but cannot identify every covered weapon before it fires",
+    "cost": "ammunition/time/spotting aircraft and deck cycles charged to the assault-support wallet"
+  },
+  "net_assessment": "H-hour fire system is materially more coherent than v004, but still bounded by Betio geometry and wrong-side pre-GALVANIC defensive emphasis."
+}

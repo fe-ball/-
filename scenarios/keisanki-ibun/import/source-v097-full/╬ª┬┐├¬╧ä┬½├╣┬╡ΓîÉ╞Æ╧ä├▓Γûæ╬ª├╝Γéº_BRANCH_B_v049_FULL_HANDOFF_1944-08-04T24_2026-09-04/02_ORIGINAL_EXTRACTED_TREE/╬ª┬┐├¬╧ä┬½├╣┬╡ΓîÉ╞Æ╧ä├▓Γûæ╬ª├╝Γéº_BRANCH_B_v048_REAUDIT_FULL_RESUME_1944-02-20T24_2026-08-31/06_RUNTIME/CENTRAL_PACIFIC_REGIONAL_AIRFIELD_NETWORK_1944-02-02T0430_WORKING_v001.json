@@ -1,0 +1,157 @@
+{
+  "revision": "v001",
+  "id": "CENTRAL_PACIFIC_REGIONAL_AIRFIELD_NETWORK_1944-02-02T0430_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-02-02T04:30:00+12:00",
+  "purpose": "Re-audit the full airfield/staging depth around the Marshalls before re-running the first FLINTLOCK-equivalent suppression cycle. Separate resident combat strength, staging capacity, long-range search, water aviation, and same-day tactical contribution.",
+  "authority_note": "CURRENT authority remains 1944-01-01. This working audit does not create resident units where no dated trace exists and does not add aircraft already counted in the Marshall 136-serviceable baseline.",
+  "branch_geography_guards": [
+    "Midway remains Japanese-held and bypassed; historical US Midway-based PB2Y raids against Wake are not imported.",
+    "Tarawa and Makin are US-held after Branch GALVANIC; the settled phrase US secures Gilberts plus the historical operation baseline implies Abemama/Apamama is also US-held as the low-resistance adjunct. This closes an administrative omission without creating a new casualty event.",
+    "Historical Operation-RO drain and the historical 4-Dec mass Kwajalein/Roi carrier strike are not imported; local Japanese aircraft/infrastructure therefore remain healthier than historical where Branch losses do not replace them."
+  ],
+  "distance_nm_approx": {
+    "Ponape_to_Roi": 570,
+    "Kusaie_to_Roi": 361,
+    "Nauru_to_Roi": 596,
+    "Wake_to_Roi": 595,
+    "Truk_to_Roi": 935,
+    "Eniwetok_to_Roi": 330,
+    "Tarawa_to_Roi": 586,
+    "Makin_to_Roi": 494,
+    "Abemama_to_Roi": 656,
+    "Tarawa_to_Taroa": 454,
+    "Makin_to_Taroa": 349,
+    "Makin_to_Mili": 190
+  },
+  "japan_nodes": [
+    {
+      "node": "Marshall main network",
+      "resident_strength": "See MARSHALL_AIR_OOB_1944-01-28_WORKING_v003; 136 serviceable center before Jan31 night losses.",
+      "same_day_role": "primary local fighter/strike/search defense",
+      "note": "Only this layer can provide routine fighter interception over Roi/Taroa on short notice."
+    },
+    {
+      "node": "Eniwetok",
+      "historical_25Jan_anchor": "753 AG 9 land-attack + 752 AG 6 land-attack; no fighter unit listed.",
+      "branch_working": "12 serviceable center on Jan28, decomposed as 11 land-attack + 1 recon/liaison; no free resident fighter/Raiden.",
+      "same_day_role": "long-range/night maritime strike, west-side staging and fallback; cannot instantaneously reinforce Roi fighter CAP.",
+      "distance_to_Roi_nm": 330
+    },
+    {
+      "node": "Ponape",
+      "historical_state": "Intact airfield, harbor and seaplane base; no combat air group listed in the 25-Jan Japanese disposition.",
+      "branch_working": "0 resident combat aircraft credited. Facilities are intact and can receive a deliberate Truk transfer, but no retroactive squadron is spawned.",
+      "same_day_role": "latent staging/seaplane/repair depth; a pre-staged long-range detachment could operate, but none is credited at 04:30.",
+      "distance_to_Roi_nm": 570
+    },
+    {
+      "node": "Kusaie",
+      "historical_state": "Airfield never became operational; limited harbor/seaplane facilities.",
+      "branch_working": "0 land-air combat sortie contribution.",
+      "same_day_role": "weather/radio/anchorage/seaplane emergency support only.",
+      "distance_to_Roi_nm": 361
+    },
+    {
+      "node": "Nauru",
+      "branch_state": "Japanese-held; 23-Nov Branch carrier strike heavily suppressed runway/air function; only limited night-staging recovered by early Dec.",
+      "branch_working": "No resident combat squadron credited on 2 Feb. 2-4 long-range aircraft may stage transiently if ordered, but this is capacity not inventory.",
+      "same_day_role": "southern night/ferry relay and warning node, not a mass fighter base.",
+      "distance_to_Roi_nm": 596
+    },
+    {
+      "node": "Wake",
+      "branch_state": "Japanese-held; Oct carrier raid caused 60-75% immediate fixed-base function loss, followed by months of repair. Historical Jan-Feb Midway-based PB2Y pressure is absent because Branch Midway is Japanese-held.",
+      "branch_working": "Runway/base function materially healthier than historical by Feb; no resident bomber/fighter squadron is invented. A residual local Kyofu water-defense detachment 4-8 serviceable is carried only as Wake local defense, not Marshall OOB.",
+      "same_day_role": "attention-tax / staging / local defense; no direct Roi/Taroa CAP contribution.",
+      "distance_to_Roi_nm": 595
+    },
+    {
+      "node": "Truk",
+      "historical_25Jan_anchor": "204 AG about 50 fighters; 902 AG about 10 float reconnaissance; 755 AG about 8 land-attack.",
+      "branch_working": "Use as regional reserve/repair/staging anchor, not a same-day Marshall fighter pool. No exact additive Branch count is created here.",
+      "same_day_role": "fighters cannot contribute directly to Roi/Taroa on 2-Feb morning; land-attack/floats require staging or long-range mission planning.",
+      "distance_to_Roi_nm": 935
+    },
+    {
+      "node": "Saipan/Tinian",
+      "historical_25Jan_anchor": "Saipan 201 AG ~30 fighters, 802 AG ~5 flying boats, 902 AG ~4 float reconnaissance; Tinian 755 AG 18 land-attack.",
+      "branch_working": "Regional long-range reconnaissance/transport/strategic reserve only; not a same-day local fighter contribution to Kwajalein.",
+      "same_day_role": "H8K-class long-range search may feed strategic picture; do not add these aircraft to Marshall local serviceable total.",
+      "distance_to_Roi_nm": 1320
+    },
+    {
+      "node": "Midway",
+      "branch_state": "Japanese-held current settlement: 26-34 normally ready, including 4-6 long-range flying-boat/recon, with routine/elevated search clocks.",
+      "same_day_role": "strategic warning and route-observability already baked into Central-Pacific mobilization warning; too distant for 2-Feb Marshall tactical fighter defense.",
+      "anti_double_count": "Do not add a second Midway warning bonus to the already-realized submarine/DF/search chain."
+    }
+  ],
+  "us_nodes": [
+    {
+      "node": "Tarawa",
+      "historical_development": "Fighter strip usable 18 Dec and first planes 20 Dec; bomber strip ultimately 7,050 ft.",
+      "branch_adjustment": "Branch Tarawa organized resistance ends 28 Nov, close to the historical Seabee runway-work start, so by 2 Feb no material field-capacity penalty remains.",
+      "working_assigned_or_staging_band": [
+        135,
+        160
+      ],
+      "mission_ready_center_band": [
+        112,
+        135
+      ],
+      "roles": "B-24/B-25/A-24 staging, Navy fighter base defense, patrol/search/seaplane command and repair.",
+      "distance_to_Roi_nm": 586
+    },
+    {
+      "node": "Makin",
+      "historical_development": "New field accepted aircraft in December; by late Jan part of the 365-aircraft Gilbert network.",
+      "branch_adjustment": "Capture ends 27 Nov, only days behind historical; the operation itself is also shifted later, effectively cancelling most construction-date penalty by 2 Feb.",
+      "working_assigned_or_staging_band": [
+        95,
+        120
+      ],
+      "mission_ready_center_band": [
+        80,
+        100
+      ],
+      "roles": "southern fighter/attack staging, B-25/B-24 support, PBY/tender operations.",
+      "distance_to_Roi_nm": 494
+    },
+    {
+      "node": "Abemama/Apamama",
+      "historical_development": "O’Hare Field 4,000-ft fighter strip ready 10 Dec, first aircraft 13 Dec, extended to 6,000 ft for bombers by 21 Dec.",
+      "branch_adjustment": "Administrative omission closed: US-held as GALVANIC adjunct; by 2 Feb fully usable.",
+      "working_assigned_or_staging_band": [
+        80,
+        105
+      ],
+      "mission_ready_center_band": [
+        68,
+        90
+      ],
+      "roles": "fighter/attack and long-range patrol staging; important depth if Tarawa/Makin are congested.",
+      "distance_to_Roi_nm": 656
+    },
+    {
+      "node": "Funafuti/Nanumea/Nukufetau/Canton/Baker",
+      "working": "rear/outer staging, patrol and logistics depth. Not added to the 365 Gilbert count unless aircraft are explicitly staging through Gilbert bases.",
+      "same_day_role": "patrol, ferry, replacement and rescue depth; generally not direct Roi/Taroa tactical fighter contribution."
+    }
+  ],
+  "operational_conclusion": [
+    "The FLINTLOCK-equivalent air fight is not TF58-versus-136 aircraft. US land-based Gilbert air is a parallel suppression/search/ASW system, while Japanese outer nodes are mostly depth/staging/sensor assets rather than instant fighter reinforcements.",
+    "Japanese same-day local fighter defense remains overwhelmingly the Marshall resident network. Truk/Ponape/Wake/Nauru cannot be converted into free morning CAP.",
+    "US Gilbert land-air mainly suppresses Mili/Jaluit/Wotje, maintains reconnaissance/ASW, and adds selected heavy/medium-bomber pressure to Taroa/Kwajalein; it does not add all 365 aircraft to the TF58 first strike."
+  ],
+  "external_sources": {
+    "USSBS_Campaigns_Pacific_War": "https://www.ibiblio.org/hyperwar/NHC/NewPDFs/USAAF/United%20States%20Strategic%20Bombing%20Survey/USSBS%20Campaigns%20of%20Pacific%20War.pdf",
+    "NHHC_HGram0261": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-026/h-026-1.html",
+    "NHHC_Assault_Kwajalein_Part1": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/a/the-assault-on-kwajalein-and-majuro-part-one.html",
+    "NHHC_Building_Bases_Central_Pacific": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/building-the-navys-bases/buidling-navys-bases-vol-2-chapter-26.html",
+    "NHHC_Curtiss_AV4": "https://www.history.navy.mil/research/histories/ship-histories/danfs/c/curtiss-av-4.html",
+    "NHHC_Mackinac_AVP13": "https://www.history.navy.mil/research/histories/ship-histories/danfs/m/mackinac-ii.html",
+    "NHHC_VP72": "https://www.history.navy.mil/content/dam/nhhc/research/histories/naval-aviation/dictionary-of-american-naval-aviation-squadrons-volume-2/pdfs/chap3-6.pdf",
+    "USSBS_Seventh_AF": "https://www.ibiblio.org/hyperwar/AAF/AAFHS/AAFHS-38.pdf"
+  }
+}

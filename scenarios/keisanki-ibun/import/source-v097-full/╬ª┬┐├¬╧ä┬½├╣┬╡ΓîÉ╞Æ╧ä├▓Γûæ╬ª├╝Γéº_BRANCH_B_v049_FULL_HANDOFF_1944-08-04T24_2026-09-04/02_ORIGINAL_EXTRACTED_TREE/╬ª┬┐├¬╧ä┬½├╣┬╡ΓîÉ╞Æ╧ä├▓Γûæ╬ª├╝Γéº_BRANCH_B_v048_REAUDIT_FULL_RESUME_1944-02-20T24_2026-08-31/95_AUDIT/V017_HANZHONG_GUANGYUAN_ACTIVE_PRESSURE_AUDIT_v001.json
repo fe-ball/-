@@ -1,0 +1,17 @@
+{
+  "revision": "v001",
+  "id": "V017_HANZHONG_GUANGYUAN_ACTIVE_PRESSURE_AUDIT_v001",
+  "date": "2026-08-24",
+  "result": "PASS_WITH_WORKING_BANDS",
+  "clock_advanced": false,
+  "current_time": "1944-04-25T00:00",
+  "findings": {
+    "hanzhong_guangyuan_active_not_passive": true,
+    "historical_allied_sian_hanchung_forward_bases_denied_in_branch": true,
+    "japanese_western_air_allocation_quantified": true,
+    "allied_western_air_and_hump_tax_quantified": true,
+    "reciprocal_japanese_hunan_air_constraint_quantified": true,
+    "ichigo_scale_not_final": true,
+    "new_hunan_10_12_division_band_candidate_only": true
+  }
+}

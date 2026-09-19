@@ -1,0 +1,42 @@
+{
+  "id": "FLINTLOCK_1944-02-03T24_MARITIME_REBASELINE_CHECKPOINT_v001",
+  "status": "WORKING_FRONTIER_NOT_CANONICAL",
+  "as_of": "1944-02-03T24+12:00",
+  "Japan": {
+    "carrier_decision": "WITHDRAW/PRESERVE; no second fleet strike centered",
+    "surface_decision": "No Hiei/Kirishima cruiser-DD raid centered",
+    "Hiryu": "mobile westbound toward forward repair; flight ops suspended",
+    "three_operational_first_line_decks": "Shokaku/Zuikaku/Soryu",
+    "secondary_decks": "intact rear recovery/CAP depth",
+    "submarines": "transitioning from carrier-information mission to assault/support interdiction; not all on station yet"
+  },
+  "US": {
+    "Cabot": "campaign-out withdrawing",
+    "Intrepid": "near-normal deck cycle restored centered, air-group/crew friction remains",
+    "TF58": "ten physical fast decks; replenishment/reorganization limits 3-Feb offensive output",
+    "fast_battleships": "still primarily carrier screen/anti-surface reserve through 3-Feb",
+    "assault_force": "continues approach; exact 4-5 Feb submarine contacts and D-Day remain reopened"
+  },
+  "Marshall": {
+    "combat_serviceable_center": 44,
+    "band": [
+      39,
+      49
+    ]
+  },
+  "reopened": [
+    "4-5 Feb submarine and night-air attacks",
+    "Majuro exact seizure timing",
+    "fast-battleship detachment versus carrier-screen choice",
+    "4-5 Feb suppression tempo",
+    "D-Day 5/6/7 Feb decision",
+    "all old named submarine hits/losses"
+  ],
+  "guards": [
+    "Do not inherit old LST-224 hit",
+    "Do not inherit old Japanese submarine loss",
+    "Do not force 6-Feb D-Day",
+    "Do not give Cabot survivor aircraft free deck capacity",
+    "Do not detach Japanese surface combatants merely because the old carrier fight ended"
+  ]
+}

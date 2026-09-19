@@ -1,0 +1,332 @@
+{
+  "revision": "v020",
+  "purpose": "v032 registry: preserve v030-derived execution authority while exposing latest package/navigation and working-frontier artifacts explicitly.",
+  "families": [
+    {
+      "family": "README_refactor_vX.md",
+      "current": "README_refactor_v032.md",
+      "runtime_role": "package_navigation",
+      "latest_present": "README_refactor_v032.md",
+      "runtime_eligible": false
+    },
+    {
+      "family": "NEXT_SESSION_HANDOFF_REFACTOR_vX.md",
+      "current": "NEXT_SESSION_HANDOFF_REFACTOR_v032.md",
+      "runtime_role": "package_navigation",
+      "latest_present": "NEXT_SESSION_HANDOFF_REFACTOR_v032.md",
+      "runtime_eligible": false
+    },
+    {
+      "family": "CHECKPOINT_INDEX_vX.json",
+      "current": "CHECKPOINT_INDEX_v018.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "CHECKPOINT_INDEX_v018.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "CHECKPOINT_GRAPH_vX.json",
+      "current": "CHECKPOINT_GRAPH_v017.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "CHECKPOINT_GRAPH_v017.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "TECH_INDEX_vX.json",
+      "current": "TECH_INDEX_v009.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "TECH_INDEX_v009.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "current_branch_overrides_vX.json",
+      "current": "current_branch_overrides_v012.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "current_branch_overrides_v012.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "PREWAR_INDEX_vX.json",
+      "current": "PREWAR_INDEX_v004.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "PREWAR_INDEX_v004.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "WARSTART_CHECKPOINT_vX.json",
+      "current": "WARSTART_CHECKPOINT_v004.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "WARSTART_CHECKPOINT_v004.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "WARSTART_STATE_LEDGER_vX.json",
+      "current": "WARSTART_STATE_LEDGER_v003.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "WARSTART_STATE_LEDGER_v003.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "WARSTART_DOMAIN_AUDIT_vX.json",
+      "current": "WARSTART_DOMAIN_AUDIT_v004.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "WARSTART_DOMAIN_AUDIT_v004.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "validate_refactor_vX.py",
+      "current": "validate_refactor_v019.py",
+      "runtime_role": "tool",
+      "latest_present": "validate_refactor_v019.py",
+      "runtime_eligible": false
+    },
+    {
+      "family": "DOMAIN_STATE_MAP_vX.json",
+      "current": "DOMAIN_STATE_MAP_v002.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "DOMAIN_STATE_MAP_v002.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "rule_override_protocol_vX.json",
+      "current": "rule_override_protocol_v002.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "rule_override_protocol_v002.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "RULE_DEPENDENCY_MAP_vX.json",
+      "current": "RULE_DEPENDENCY_MAP_v002.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "RULE_DEPENDENCY_MAP_v002.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "EVENT_RELEVANCE_PROFILES_vX.json",
+      "current": "EVENT_RELEVANCE_PROFILES_v003.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "EVENT_RELEVANCE_PROFILES_v003.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "EVENT_HANDOUT_SCHEMA_vX.json",
+      "current": "EVENT_HANDOUT_SCHEMA_v004.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "EVENT_HANDOUT_SCHEMA_v004.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "RUNTIME_CONTRACT_vX.json",
+      "current": "RUNTIME_CONTRACT_v004.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "RUNTIME_CONTRACT_v004.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "build_event_handout_vX.py",
+      "current": "build_event_handout_v012.py",
+      "runtime_role": "execution_authority",
+      "latest_present": "build_event_handout_v012.py",
+      "runtime_eligible": true
+    },
+    {
+      "family": "TECH_COVERAGE_AUDIT_vX.json",
+      "current": "TECH_COVERAGE_AUDIT_v003.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "TECH_COVERAGE_AUDIT_v003.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "PACKAGE_MANIFEST_vX.json",
+      "current": "PACKAGE_MANIFEST_v032.json",
+      "runtime_role": "package_navigation",
+      "latest_present": "PACKAGE_MANIFEST_v032.json",
+      "runtime_eligible": false
+    },
+    {
+      "family": "VALIDATION_RESULT_vX.json",
+      "current": "VALIDATION_RESULT_v032.json",
+      "runtime_role": "package_navigation",
+      "latest_present": "VALIDATION_RESULT_v032.json",
+      "runtime_eligible": false
+    },
+    {
+      "family": "COMBAT_CAPABILITY_FACTOR_INDEX_vX.json",
+      "current": "COMBAT_CAPABILITY_FACTOR_INDEX_v001.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "COMBAT_CAPABILITY_FACTOR_INDEX_v001.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "COMBAT_EVENT_FACTOR_MATRIX_vX.json",
+      "current": "COMBAT_EVENT_FACTOR_MATRIX_v001.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "COMBAT_EVENT_FACTOR_MATRIX_v001.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "COMBAT_EVENT_INPUT_SCHEMA_vX.json",
+      "current": "COMBAT_EVENT_INPUT_SCHEMA_v002.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "COMBAT_EVENT_INPUT_SCHEMA_v002.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "COMBAT_ADJUDICATION_CONTEXT_vX.md",
+      "current": "COMBAT_ADJUDICATION_CONTEXT_v002.md",
+      "runtime_role": "execution_authority",
+      "latest_present": "COMBAT_ADJUDICATION_CONTEXT_v002.md",
+      "runtime_eligible": true
+    },
+    {
+      "family": "COMBAT_CAPABILITY_COVERAGE_AUDIT_vX.json",
+      "current": "COMBAT_CAPABILITY_COVERAGE_AUDIT_v001.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "COMBAT_CAPABILITY_COVERAGE_AUDIT_v001.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "build_combat_context_vX.py",
+      "current": "build_combat_context_v007.py",
+      "runtime_role": "execution_authority",
+      "latest_present": "build_combat_context_v007.py",
+      "runtime_eligible": true
+    },
+    {
+      "family": "WEAPON_PLATFORM_CAPABILITY_INDEX_vX.json",
+      "current": "WEAPON_PLATFORM_CAPABILITY_INDEX_v001.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "WEAPON_PLATFORM_CAPABILITY_INDEX_v001.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "COMBAT_PLATFORM_MATRIX_vX.json",
+      "current": "COMBAT_PLATFORM_MATRIX_v001.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "COMBAT_PLATFORM_MATRIX_v001.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "NOVEL_WEAPON_ADJUDICATION_POLICY_vX.json",
+      "current": "NOVEL_WEAPON_ADJUDICATION_POLICY_v001.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "NOVEL_WEAPON_ADJUDICATION_POLICY_v001.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "WEAPON_PLATFORM_COVERAGE_AUDIT_vX.json",
+      "current": "WEAPON_PLATFORM_COVERAGE_AUDIT_v001.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "WEAPON_PLATFORM_COVERAGE_AUDIT_v001.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "CURRENT_BRANCH_STATE_vX.json",
+      "current": "CURRENT_BRANCH_STATE_v012.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "CURRENT_BRANCH_STATE_v012.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "BRANCH_INVARIANT_GUARD_1943-10-01_vX.json",
+      "current": "BRANCH_INVARIANT_GUARD_1943-10-01_v002.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "BRANCH_INVARIANT_GUARD_1943-10-01_v002.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "AIRCRAFT_FIELDING_LEDGER_1943-10-01_vX.json",
+      "current": "AIRCRAFT_FIELDING_LEDGER_1943-10-01_v003.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "AIRCRAFT_FIELDING_LEDGER_1943-10-01_v003.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "SEAPLANE_TACTICS_LEDGER_1943-10-01_vX.json",
+      "current": "SEAPLANE_TACTICS_LEDGER_1943-10-01_v001.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "SEAPLANE_TACTICS_LEDGER_1943-10-01_v001.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "SURFACE_COMBATANT_CAPABILITY_LEDGER_1943-10-01_vX.json",
+      "current": "SURFACE_COMBATANT_CAPABILITY_LEDGER_1943-10-01_v001.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "SURFACE_COMBATANT_CAPABILITY_LEDGER_1943-10-01_v001.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "CARRIER_CAPABILITY_LEDGER_1943-10-01_vX.json",
+      "current": "CARRIER_CAPABILITY_LEDGER_1943-10-01_v001.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "CARRIER_CAPABILITY_LEDGER_1943-10-01_v001.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "BRANCH_B_ROLLBACK_GUARD_1943-08-01_vX.json",
+      "current": "BRANCH_B_ROLLBACK_GUARD_1943-08-01_v001.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "BRANCH_B_ROLLBACK_GUARD_1943-08-01_v001.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "BRANCH_B_YEAR_END_GUARD_1944-01-01_vX.json",
+      "current": "BRANCH_B_YEAR_END_GUARD_1944-01-01_v003.json",
+      "runtime_role": "execution_authority",
+      "latest_present": "BRANCH_B_YEAR_END_GUARD_1944-01-01_v003.json",
+      "runtime_eligible": true
+    },
+    {
+      "family": "CURRENT_DISCUSSION_FRONTIER_vX.json",
+      "current": "CURRENT_DISCUSSION_FRONTIER_v001.json",
+      "runtime_role": "package_navigation",
+      "latest_present": "CURRENT_DISCUSSION_FRONTIER_v001.json",
+      "runtime_eligible": false
+    },
+    {
+      "family": "JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_vX.json",
+      "current": "JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v004.json",
+      "runtime_role": "working_not_promoted",
+      "latest_present": "JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v004.json",
+      "runtime_eligible": false
+    },
+    {
+      "family": "JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_vX.json",
+      "current": "JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v005.json",
+      "runtime_role": "working_not_promoted",
+      "latest_present": "JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v005.json",
+      "runtime_eligible": false
+    },
+    {
+      "family": "EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_vX.json",
+      "current": "EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v001.json",
+      "runtime_role": "working_not_promoted",
+      "latest_present": "EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v001.json",
+      "runtime_eligible": false
+    },
+    {
+      "family": "ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_vX.json",
+      "current": "ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+      "runtime_role": "working_not_promoted",
+      "latest_present": "ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+      "runtime_eligible": false
+    },
+    {
+      "family": "FRONTIER_AND_EASTERN_FLEET_DATA_AUDIT_2026-08-29_vX.md",
+      "current": "FRONTIER_AND_EASTERN_FLEET_DATA_AUDIT_2026-08-29_v001.md",
+      "runtime_role": "audit_reference",
+      "latest_present": "FRONTIER_AND_EASTERN_FLEET_DATA_AUDIT_2026-08-29_v001.md",
+      "runtime_eligible": false
+    }
+  ],
+  "semantics": {
+    "current": "Selected file for the family's declared runtime_role. For execution_authority families this is authoritative and may intentionally be older than latest_present; for package_navigation/tool/working families it is the selected current package artifact.",
+    "latest_present": "Highest numbered file physically present in this package for the named family; recency alone is not scientific/authority precedence.",
+    "runtime_role_values": [
+      "execution_authority",
+      "package_navigation",
+      "tool",
+      "working_not_promoted",
+      "audit_reference"
+    ]
+  }
+}

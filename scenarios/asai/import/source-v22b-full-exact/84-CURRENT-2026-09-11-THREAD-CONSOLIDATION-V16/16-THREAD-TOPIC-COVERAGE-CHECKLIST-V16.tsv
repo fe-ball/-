@@ -1,0 +1,31 @@
+topic	status	primary_file	note
+pure-addition/substitution aircraft accounting	CURRENT/WORKING	00-SESSION-HANDOFF-V16.md	1941 pure-additive treatment retained; 1942 unlimited addition prohibited
+Ki-42 1940 continuation	CURRENT-CLOSE	01-CONSOLIDATED-DECISION-REGISTER-V16.tsv	69 opening extant + six tail, no new long-run order
+GT TBO / spares / T-AUX	WORKING-CLOSE	06-AIRPOWER-SUSTAINMENT-FUEL-TRAINING-AIRFIELD-CLOSEOUT-V1.md	525h JF center / 300h J center / 22.5% spare
+aviation GT fuel consumption	WORKING-CLOSE	07-MIDDLE-DISTILLATE-DIESEL-GT-FUEL-INDUSTRY-CLOSEOUT-V1.md	1940 24k kL; 1941 total 64k kL including training
+low-grade fuel / E5-E7 tolerance	WORKING-CLOSE	07-MIDDLE-DISTILLATE-DIESEL-GT-FUEL-INDUSTRY-CLOSEOUT-V1.md	distillate tolerance separated from residual contamination
+Palembang / source screening	WORKING-CLOSE	07-MIDDLE-DISTILLATE-DIESEL-GT-FUEL-INDUSTRY-CLOSEOUT-V1.md	straight-run middle-distillate value, wax/cold-flow gate
+HDS / dewax / FT capacity	WORKING-CLOSE	07-MIDDLE-DISTILLATE-DIESEL-GT-FUEL-INDUSTRY-CLOSEOUT-V1.md	1940/41 processing centers included
+diesel + GT common pool	WORKING-CLOSE	07-MIDDLE-DISTILLATE-DIESEL-GT-FUEL-INDUSTRY-CLOSEOUT-V1.md	Grades A/B/C
+pilot / observer / maintenance pipeline	WORKING-CLOSE	06-AIRPOWER-SUSTAINMENT-FUEL-TRAINING-AIRFIELD-CLOSEOUT-V1.md	1941 expansion and unit-conversion timing
+GT advanced trainer	WORKING-CLOSE	06-AIRPOWER-SUSTAINMENT-FUEL-TRAINING-AIRFIELD-CLOSEOUT-V1.md	40-50 aircraft / ~20k h mature 1941 state
+airfield / oxygen / warning network	WORKING-CLOSE	06-AIRPOWER-SUSTAINMENT-FUEL-TRAINING-AIRFIELD-CLOSEOUT-V1.md	selected-base system, not universal upgrade
+1940 theater E6 allocation	CURRENT-PLANNING	04-1940-REPLAY-CHRONOLOGY-THROUGH-1940-07-31-V1.md	Q1-Q2 replay assignments/anchors
+ground motorization / recovery / engineers	CURRENT/WORKING	08-GROUND-LOGISTICS-MERCHANT-NANJING-CLOSEOUT-V1.md	quality/readiness not mass motorization
+merchant / Yangtze / Nanjing logistics	WORKING-CLOSE	08-GROUND-LOGISTICS-MERCHANT-NANJING-CLOSEOUT-V1.md	end-to-end non-stacking rule
+national-resource / double-count audit	CURRENT	02-1940-OPENING-CONSOLIDATION-AUDIT-V2.md	local bottlenecks and one fuel-account correction
+1940 weapon fielding gates	CURRENT-CLOSE	03-1940-WEAPON-FIELDING-GATES-V2.tsv	mandatory pre-1940 review satisfied
+world situation 1940 / France / Burma / US controls	CURRENT-CONTEXT	04-1940-REPLAY-CHRONOLOGY-THROUGH-1940-07-31-V1.md	context events carried through replay
+Kwantung vs Soviet hardness	WORKING-GATE	09-NORTHERN-GATE-FINLAND-SIGINT-SOVIET-RETENTION-V1.md	stronger Japanese rebuild but Soviet overall superiority retained
+Finland arms / SIGINT cooperation	WORKING-GATE	09-NORTHERN-GATE-FINLAND-SIGINT-SOVIET-RETENTION-V1.md	covert cooperation stronger than history; exact ledger open
+Soviet cipher strength / cryptanalysis computers	WORKING-GATE	09-NORTHERN-GATE-FINLAND-SIGINT-SOVIET-RETENTION-V1.md	high-level ciphers remain hard; mid/low-level traffic exploitable
+Soviet 1941 Far-East retention effect	FUTURE-GATE	09-NORTHERN-GATE-FINLAND-SIGINT-SOVIET-RETENTION-V1.md	3-5 division-equivalent working future expectation
+1940 China replay Jan-Jul	CURRENT	04-1940-REPLAY-CHRONOLOGY-THROUGH-1940-07-31-V1.md	full chronological consolidation
+campaign cumulative deltas	CURRENT-WORKING	14-CHINA-CUMULATIVE-DELTA-THROUGH-1940-06-12-V1.tsv	absorb into state, never reapply as multiplier
+Yichang aviation base	CURRENT	04-1940-REPLAY-CHRONOLOGY-THROUGH-1940-07-31-V1.md	forward E6 base; Hankou remains deep hub
+foreign intelligence misread	ANALYSIS-ONLY	10-ANALYSIS-ONLY-FOREIGN-INTELLIGENCE-AIRPOWER-NOTES-V1.md	including laminar-aircraft hypothesis
+Yichang bombing / range calculations	ANALYSIS-ONLY	10-ANALYSIS-ONLY-FOREIGN-INTELLIGENCE-AIRPOWER-NOTES-V1.md	not replay events
+A6M vs E6 comparison	ANALYSIS-ONLY	10-ANALYSIS-ONLY-FOREIGN-INTELLIGENCE-AIRPOWER-NOTES-V1.md	older A6M technical comparator not promoted
+Nanjing summer effect	CURRENT-WORKING	08-GROUND-LOGISTICS-MERCHANT-NANJING-CLOSEOUT-V1.md	rear administration/security, no extra multiplier
+helicopter 1940 contribution	CURRENT-CLOSE	11-HUNDRED-REGIMENTS-PRE-GATE-LOGISTICS-NANJING-HELICOPTER-V1.md	combat OOB zero
+Hundred Regiments political/military pre-gate	NEXT	11-HUNDRED-REGIMENTS-PRE-GATE-LOGISTICS-NANJING-HELICOPTER-V1.md	physical sabotage largely retained; exchange ratio worsens for Eighth Route Army

@@ -1,0 +1,14 @@
+period	E5_accepted	E6_accepted	combined_accepted	E5_planning_writeoff	E6_planning_writeoff	E5_extant_center	E6_extant_center	combined_extant_center	status_note
+1940-01	8	6	14	1	0	137	6	143	planning center; losses not pre-recorded events
+1940-02	7	7	14	1	0	143	13	156	planning center
+1940-03	6	8	14	1	1	148	20	168	Q1 end; E6 lead-service proving
+1940-04	5	10	15	1	0	152	30	182	conversion ramp
+1940-05	4	12	16	1	1	155	41	196	conversion ramp
+1940-06	3	14	17	1	1	157	54	211	Q2 end; E5 new starts effectively stop
+1940-07	1	14	15	1	0	157	68	225	E5 tail/WIP only
+1940-08	1	14	15	1	1	157	81	238	E5 tail/WIP only
+1940-09	1	14	15	2	1	156	94	250	Q3 end; E5 line closed to new starts
+1940-10	0	15	15	1	1	155	108	263	E6 normal stream
+1940-11	0	15	15	2	1	153	122	275	E6 normal stream
+1940-12	0	15	15	1	1	152	136	288	Q4 end central planning stock
+1940_TOTAL	36	144	180	14	8	152	136	288	planning center; actual replay may differ

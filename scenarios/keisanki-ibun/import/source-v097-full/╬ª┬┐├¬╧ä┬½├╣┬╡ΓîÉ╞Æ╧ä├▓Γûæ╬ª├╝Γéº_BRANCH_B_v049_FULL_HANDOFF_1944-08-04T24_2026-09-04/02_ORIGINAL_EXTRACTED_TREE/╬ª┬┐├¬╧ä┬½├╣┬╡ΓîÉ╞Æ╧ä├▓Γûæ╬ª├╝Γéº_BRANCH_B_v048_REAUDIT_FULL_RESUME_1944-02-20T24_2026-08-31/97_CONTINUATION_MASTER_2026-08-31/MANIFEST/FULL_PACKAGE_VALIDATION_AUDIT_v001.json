@@ -1,0 +1,24 @@
+{
+  "id": "FULL_PACKAGE_VALIDATION_AUDIT_2026-08-31_v001",
+  "package_root": "計算機異聞_BRANCH_B_v048_REAUDIT_FULL_RESUME_1944-02-20T24_2026-08-31",
+  "semantic_base": "Branch B v048",
+  "frontier": "1944-02-20T24",
+  "base_zip_sha256": "7beb3a2bd35453cf24c640d29c32d3861d146b76b3f5b31a0762fcb69fa8562f",
+  "file_count_pre_master_checksum": 1437,
+  "json_file_count": 822,
+  "json_parse_errors": [],
+  "active_runtime_overlay_json_count": 97,
+  "active_top_level_id_count": 97,
+  "active_duplicate_ids": [],
+  "extension_counts": {
+    ".py": 60,
+    ".json": 822,
+    ".md": 379,
+    ".txt": 129,
+    ".tsv": 2,
+    ".zip": 41,
+    ".csv": 1,
+    ".sh": 3
+  },
+  "expected_status": "PASS"
+}

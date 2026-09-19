@@ -1,0 +1,43 @@
+{
+  "id": "US_GILBERTS_BUILDUP_AND_POST_TARAWA_LEARNING_1943-11-29_1944-01-15_WORKING_v001",
+  "status": "WORKING_CLOSEOUT_ADJUDICATION_NOT_YET_CANONICAL",
+  "period": "1943-11-29 through 1944-01-15",
+  "airfield_clock": {
+    "Tarawa": "Emergency/garrison fighter use begins about 1-2 Dec from repaired existing surfaces; major permanent fighter-strip/base work continues through Dec. Bomber/staging capability becomes materially useful around 19-23 Dec. Branch secure date does not create a month delay because historical Seabee construction itself largely started at the end of Nov.",
+    "Abemama": "Low-resistance development broadly historical: fighter strip useful ~10-13 Dec, bomber extension ~21 Dec. No GALVANIC battle-delay is imposed here.",
+    "Makin": "Construction start shifts only several days; fighters/light/medium aircraft become increasingly useful in late Dec and Jan. Heavy-bomber basing remains less attractive than Tarawa/Abemama because of foundation/field characteristics."
+  },
+  "Gilbert_forward_air_1944_01_15": {
+    "assigned_or_staging_band": [
+      240,
+      285
+    ],
+    "mission_ready_band": [
+      205,
+      245
+    ],
+    "roles": "fighters/base defense; B-24/B-25/A-24 Marshall pressure; PBY/PBM/PB4Y/PV reconnaissance, ASW and rescue. Not all are same-day strike aircraft.",
+    "pressure": "Mili/Jaluit receive frequent southern pressure; Taroa/Wotje/Kwajalein require selected long-range heavy/photo missions until carrier arrival."
+  },
+  "carrier_surface_regen": {
+    "Independence": "campaign-out; not a Dec/early-Jan offensive deck",
+    "Lexington_CV16": "heavy mission-kill/repair; not available for a historical automatic 4-Dec mass Marshall raid",
+    "Yorktown_CV10": "temporary damage repaired and operational",
+    "unnamed_DD_loss": "one outer-screen destroyer from 26/27 Nov remains removed; hull identity still open",
+    "4_Dec_rule": "Historical mass Kwajalein/Roi raid is not centered. Fast carriers prioritize recovery, cover and reorganization while land-based/photo pressure grows."
+  },
+  "post_Tarawa_learning": {
+    "accepted": "more photographic/submarine reconnaissance, more deliberate obstacle/reef intelligence, larger bombardment ammunition allowance, more close-support DD/landing craft/engineers, stronger beach traffic control, repeated reattack of supposedly neutralized positions",
+    "not_omniscient": "US cannot infer hidden Japan-wide productivity or exact next-island layout; damage assessment can still be optimistic and local C2 friction persists",
+    "bombardment_efficiency_rule": "More shells are useful mainly because targets can be re-engaged; 2-3x ammunition does not create 2-3x destructive effect. Smoke/dust, target identification, firing sectors and landing safety remain caps.",
+    "landing_craft_congestion": "More LVT/LST/engineer assets raise robustness but reef lanes, wave control, beach exits, refueling and wreck removal become throughput bottlenecks. Reserve grows faster than simultaneous useful frontage.",
+    "destroyer_tradeoff": "DD assigned to direct-fire reduction cannot simultaneously perform outer SG picket/ASW/transport screen; Japanese submarines and Type-93 raid make this trade real.",
+    "carrier_tradeoff": "Four Japanese first-line carrier decks and surviving submarines force a real CAP/search/anti-carrier reserve. Extra island-suppression sorties are not free."
+  },
+  "planning_state_1944_01_15": {
+    "Kwajalein_direct": "still the centered strategic option, roughly 55-65% planning weight",
+    "outer_island_first": "roughly 30-40%; Tarawa losses strengthen caution, but attacking Taroa/Wotje/Mili individually would expose the fleet longer to the same Japanese network",
+    "date": "No final D-Day is fixed in this closeout. Assault transport availability, fast-carrier repair/regeneration, reconnaissance and the late-Jan Japanese fleet picture remain gates.",
+    "resource_constraint": "Two-division direct assault plus heavier bombardment/support package strains assault transports, LVT maintenance, oiler/escort cycles and command bandwidth; this can delay or deconflict tasks rather than simply multiply combat power."
+  }
+}

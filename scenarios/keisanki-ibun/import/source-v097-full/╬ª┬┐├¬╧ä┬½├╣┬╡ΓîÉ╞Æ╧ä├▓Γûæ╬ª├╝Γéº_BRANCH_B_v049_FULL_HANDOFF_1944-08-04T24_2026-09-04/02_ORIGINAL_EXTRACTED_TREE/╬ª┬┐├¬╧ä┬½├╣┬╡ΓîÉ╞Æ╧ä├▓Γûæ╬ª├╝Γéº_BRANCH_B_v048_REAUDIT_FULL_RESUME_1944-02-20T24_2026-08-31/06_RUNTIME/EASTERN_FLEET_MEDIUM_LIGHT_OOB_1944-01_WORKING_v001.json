@@ -1,0 +1,376 @@
+{
+  "id": "EASTERN_FLEET_MEDIUM_LIGHT_OOB_1944-01_WORKING_v001",
+  "status": "WORKING_NAMED_OOB_BRANCH_ADJUDICATED_TRACE_LOCKED_NOT_CURRENT",
+  "discussion_clock_center": "1944-01-13",
+  "scope": "RN/RAN/RNN medium and lower naval hulls relevant to Eastern Fleet and the January 1944 reinforcement passage; separates existing station assets, true January arrivals, transient ferries and later reinforcements.",
+  "authority_note": "No CURRENT execution authority is changed. Dated future arrivals are trace-locked historical baselines only unless/until the discussion clock reaches them without a causal Branch interruption.",
+  "branch_rules_applied": [
+    "Preserve named historical movement unless a Branch divergence causally intersects it; do not delete a named arrival merely to satisfy a generic escort-shortage penalty.",
+    "Apply the Branch escort penalty to free availability, maintenance and convoy opportunity cost rather than inventing unnamed losses.",
+    "A Branch-saved hull is not automatically free, in-theatre, ready, or at Ceylon. Hermes/Vampire/Hollyhock require their own dated location/readiness trace before counting.",
+    "Historical later combat outcomes are not imported as proof of Branch outcomes."
+  ],
+  "source_anchors": [
+    {
+      "title": "Vice Admiral Eastern Fleet War Diary, 15 Dec 1943-31 Jan 1944",
+      "url": "https://www.naval-history.net/xDKWD-EF1943Dec-Apr1944.htm",
+      "use": "Group A destroyer handoffs, Aden reinforcement, Ceylon arrival, Feb destroyer shortage/training context"
+    },
+    {
+      "title": "Eastern Fleet War Diary, Jul-Dec 1943",
+      "url": "https://www.naval-history.net/xDKWD-EF1943b.htm",
+      "use": "late-1943 local destroyer/escort network and convoy dispersion"
+    },
+    {
+      "title": "uboat.net individual warship movement records",
+      "url": "https://uboat.net/allies/warships/",
+      "use": "named cruiser/submarine movement cross-checks"
+    },
+    {
+      "type": "internal_branch",
+      "path": "06_RUNTIME/ROYAL_NAVY_DIVERGENCE_AUDIT_1942-1943_v001.md"
+    }
+  ],
+  "true_January_reinforcements_medium_light": {
+    "cruiser": [
+      {
+        "ship": "HNMS Tromp",
+        "type": "light cruiser",
+        "departed": "Fremantle 1944-01-04",
+        "Colombo": "1944-01-13",
+        "Trincomalee": "1944-01-20",
+        "classification": "TRUE_NEW_EASTERN_FLEET_CRUISER_ARRIVAL"
+      }
+    ],
+    "destroyers_from_Suez_through_passage": [
+      {
+        "ship": "HMS Petard",
+        "type": "P-class destroyer",
+        "joins_through_screen": "Suez 1944-01-16",
+        "late_Jan_destination": "Ceylon group"
+      },
+      {
+        "ship": "HMS Paladin",
+        "type": "P-class destroyer",
+        "joins_through_screen": "Suez 1944-01-16",
+        "late_Jan_destination": "Ceylon group"
+      },
+      {
+        "ship": "HMS Pathfinder",
+        "type": "P-class destroyer",
+        "joins_through_screen": "Suez 1944-01-16",
+        "late_Jan_destination": "Ceylon group"
+      },
+      {
+        "ship": "HMS Rocket",
+        "type": "R-class destroyer",
+        "joins_through_screen": "Suez 1944-01-16",
+        "late_Jan_destination": "Ceylon group"
+      }
+    ],
+    "submarines": [
+      {
+        "ship": "HMS Stonehenge",
+        "class": "S-class",
+        "Aden": "1944-01-04",
+        "Colombo": "1944-01-16",
+        "Trincomalee": "1944-01-23",
+        "first_Far_East_patrol": "1944-02-01"
+      },
+      {
+        "ship": "HMS Truculent",
+        "class": "T-class",
+        "Aden": "1944-01-04",
+        "Colombo": "1944-01-19",
+        "Trincomalee": "1944-01-23",
+        "first_Far_East_patrol": "1944-02-08"
+      }
+    ]
+  },
+  "not_true_new_arrivals_but_local_escort_joiners": [
+    {
+      "ship": "HMS Rotherham",
+      "role": "Captain D11/local Eastern Fleet DD",
+      "action": "sent to Aden; reinforces Group A 19 Jan"
+    },
+    {
+      "ship": "HMS Roebuck",
+      "role": "local Eastern Fleet DD",
+      "action": "sent to Aden; reinforces Group A 19 Jan"
+    },
+    {
+      "ship": "HMS Racehorse",
+      "role": "local Eastern Fleet DD",
+      "action": "sent to Aden; reinforces Group A 19 Jan"
+    },
+    {
+      "ship": "HMS Rapid",
+      "role": "local Eastern Fleet DD",
+      "action": "sent to Aden; reinforces Group A 19 Jan; later escorts Unicorn to Cochin"
+    },
+    {
+      "ship": "HMAS Norman",
+      "role": "local Eastern Fleet DD",
+      "action": "sent to Aden; reinforces Group A 19 Jan; damaged while fueling 24 Jan and docks at Colombo"
+    },
+    {
+      "ship": "HMAS Napier",
+      "role": "local RAN Eastern Fleet DD",
+      "action": "joins Group A near Ceylon 27 Jan"
+    },
+    {
+      "ship": "HMAS Nizam",
+      "role": "local RAN Eastern Fleet DD",
+      "action": "joins Group A near Ceylon 27 Jan"
+    }
+  ],
+  "initial_UK_to_Port_Said_screen_not_retained_east_of_Suez": [
+    {
+      "ship": "HMS Termagant",
+      "note": "through from Clyde to Port Said, recalled there 12 Jan; not an Indian Ocean reinforcement arrival in this passage"
+    },
+    {
+      "ship": "HMS Tenacious",
+      "note": "same"
+    },
+    {
+      "ship": "HMS Kempenfelt",
+      "note": "same"
+    }
+  ],
+  "existing_Eastern_Fleet_cruiser_layer": [
+    {
+      "ship": "HMS Newcastle",
+      "type": "light cruiser",
+      "Jan_trace": "Ceylon early Jan; Colombo 13 Jan; departs with Kenya/Suffolk for Mauritius 14 Jan",
+      "late_Jan_Ceylon_immediate": false
+    },
+    {
+      "ship": "HMS Kenya",
+      "type": "light cruiser",
+      "Jan_trace": "with Newcastle; Colombo 13 Jan -> Mauritius 14/19 Jan; Operation Thwart area thereafter",
+      "late_Jan_Ceylon_immediate": false
+    },
+    {
+      "ship": "HMS Suffolk",
+      "type": "heavy cruiser",
+      "Jan_trace": "Ceylon early Jan; joins Newcastle/Kenya departure to Mauritius 14 Jan",
+      "late_Jan_Ceylon_immediate": false
+    },
+    {
+      "ship": "HMS Ceylon",
+      "type": "light cruiser",
+      "Jan_trace": "Trincomalee through mid-Jan; Colombo 19 Jan; departs for Addu 23 Jan then Australia-bound troopship escort",
+      "late_Jan_Ceylon_immediate": false
+    },
+    {
+      "ship": "HMS Emerald",
+      "type": "light cruiser",
+      "Jan_trace": "Trincomalee local exercises; with Tromp 25-26 Jan",
+      "late_Jan_Ceylon_immediate": true
+    },
+    {
+      "ship": "HMS Danae",
+      "type": "light cruiser",
+      "Jan_trace": "Bombay 5 Jan -> Trincomalee 9 Jan -> Colombo 20 Jan -> Cochin 28 Jan -> Aden 29 Jan",
+      "late_Jan_Ceylon_immediate": false
+    },
+    {
+      "ship": "HMS Frobisher",
+      "type": "heavy cruiser",
+      "Jan_trace": "Durban short refit; docked 18-28 Jan",
+      "late_Jan_Ceylon_immediate": false
+    }
+  ],
+  "other_Indian_Ocean_cruisers_not_in_late_Jan_Ceylon_core": [
+    {
+      "ship": "HMS Sussex",
+      "type": "heavy cruiser",
+      "Jan_trace": "Colombo 2 Jan; Trincomalee exercises; leaves 10 Jan for Fremantle, arrives 18 Jan"
+    },
+    {
+      "ship": "HMS Hawkins",
+      "type": "heavy cruiser",
+      "Jan_trace": "Simonstown refit ends 5 Jan; Durban 13 Jan; Kilindini 24 Jan"
+    }
+  ],
+  "late_Jan_near_Ceylon_cruiser_core": {
+    "center": [
+      "HMS Emerald",
+      "HNMS Tromp"
+    ],
+    "interpretation": "The arriving battle squadron is not simultaneously accompanied by a large concentrated cruiser screen. Most older station cruisers are dispersed on interception, convoy or refit clocks."
+  },
+  "existing_submarine_nucleus_before_new_Jan_arrivals": [
+    {
+      "ship": "HMS Tally-Ho",
+      "Jan_status": "patrol from 28 Dec; returns Trincomalee 18 Jan"
+    },
+    {
+      "ship": "HMS Tactician",
+      "Jan_status": "departs Trincomalee 5 Jan for North Sumatra; returns 26 Jan"
+    },
+    {
+      "ship": "HMS Templar",
+      "Jan_status": "returns Trincomalee 8 Jan after defects/patrol interruption"
+    },
+    {
+      "ship": "HMS Taurus",
+      "Jan_status": "Trincomalee late Dec; departs 19 Jan for west-Sumatra/Andaman-related patrol work"
+    },
+    {
+      "ship": "HMS Trespasser",
+      "Jan_status": "Tavoy/Mergui/Andaman-area patrol; returns Trincomalee 15 Jan; next departure 31 Jan"
+    }
+  ],
+  "submarine_late_Jan_physical_named_total": {
+    "ships": [
+      "HMS Tally-Ho",
+      "HMS Tactician",
+      "HMS Templar",
+      "HMS Taurus",
+      "HMS Trespasser",
+      "HMS Stonehenge",
+      "HMS Truculent"
+    ],
+    "count": 7,
+    "warning": "Physical assigned/named is not simultaneous in-port readiness. Patrol, defect and turnaround clocks remain separate."
+  },
+  "February_or_later_reinforcements_explicitly_excluded_from_January": [
+    {
+      "ship": "HMS Surf",
+      "type": "submarine",
+      "Trincomalee_arrival": "1944-02-10"
+    },
+    {
+      "ship": "HMS Sea Rover",
+      "type": "submarine",
+      "Trincomalee_arrival": "1944-02-10"
+    },
+    {
+      "ship": "HMS Gambia",
+      "type": "light cruiser",
+      "Trincomalee_arrival": "1944-02-20"
+    },
+    {
+      "ship": "HMS Maidstone",
+      "type": "submarine depot ship",
+      "Trincomalee_arrival": "1944-03-09"
+    },
+    {
+      "ship": "HMS London",
+      "type": "heavy cruiser",
+      "arrival_band": "March 1944"
+    },
+    {
+      "ship": "HMS Cumberland",
+      "type": "heavy cruiser",
+      "arrival_band": "March 1944"
+    },
+    {
+      "ship": "HMS Phoebe",
+      "type": "light cruiser",
+      "arrival_band": "May 1944"
+    }
+  ],
+  "escort_carriers_and_auxiliary_carriers": [
+    {
+      "ship": "HMS Battler",
+      "classification": "EXISTING_EASTERN_FLEET_CVE",
+      "Jan_trace": "used with Newcastle/Suffolk on Operation Thwart; not a new Group A arrival"
+    },
+    {
+      "ship": "HMS Patroller",
+      "classification": "TRANSIENT_AIRCRAFT_FERRY_NOT_COMBAT_CORE",
+      "Jan_trace": "escorted from Fremantle by Tromp; Indian Ocean/Ceylon passage but do not count as permanent January fleet combat-carrier reinforcement"
+    }
+  ],
+  "wider_destroyer_escort_pool_high_confidence_names": {
+    "fleet_destroyers": [
+      "Rotherham",
+      "Roebuck",
+      "Racehorse",
+      "Rapid",
+      "Norman",
+      "Napier",
+      "Nizam",
+      "Nepal",
+      "Quiberon",
+      "Quickmatch",
+      "Quality",
+      "Quadrant",
+      "Relentless",
+      "Raider",
+      "Redoubt"
+    ],
+    "note": "This is a high-confidence station/theatre pool, not an assertion that all are simultaneously at Ceylon or free for capital-ship screen. Individual convoy/refit clocks control availability."
+  },
+  "lower_escort_network": {
+    "role": "convoy ASW/minesweeping/local escort across Aden-Bombay-Ceylon-Calcutta-Kilindini routes; not interchangeable with fleet destroyer screen",
+    "representative_named_hulls_from_late_1943_station_records": [
+      "Falmouth",
+      "Shoreham",
+      "Jumna",
+      "Sutlej",
+      "Narbada",
+      "Bann",
+      "Derg",
+      "Kale",
+      "Plym",
+      "Trent",
+      "Lulworth",
+      "Genista",
+      "Jasmine",
+      "Rockrose",
+      "Tulip",
+      "Freesia",
+      "Snowflake"
+    ],
+    "count_policy": "Do not convert the representative list into a single Ceylon-ready count. Branch burden is tracked as escort-days/ship-days and free-reserve penalty.",
+    "Branch_effect": "Additional Indian Ocean burden leaves freely assignable destroyer/escort reserve roughly 2-4 hulls worse than historical, even if raw hull count is near historical/slightly higher."
+  },
+  "late_Jan_destroyer_screen_interpretation": {
+    "Group_A_associated_named_DD_cluster": [
+      "Rotherham",
+      "Roebuck",
+      "Racehorse",
+      "Rapid",
+      "Norman",
+      "Napier",
+      "Nizam",
+      "Petard",
+      "Paladin",
+      "Pathfinder",
+      "Rocket"
+    ],
+    "physical_named_cluster_count": 11,
+    "distribution_note": "Not one 11-DD tactical screen: Unicorn+Roebuck+Rapid go Cochin; Renown+Rotherham+Norman go Colombo; remaining units distribute with Trincomalee group; Norman requires repair.",
+    "working_free_screen_band": "5-7 uncommitted/short-notice center ~6; deliberate capital sortie can assemble about 7 and potentially 7-9 only by stripping convoy/ASW/training duties.",
+    "evidence_guard": "This is a Branch availability band, not a historical point count. Historical 10 Feb sortie with seven destroyers demonstrates seven can be assembled; diary later explicitly reports escort duties curtailing heavy-ship training."
+  },
+  "branch_saved_hulls_not_auto_counted": [
+    {
+      "ship": "HMS Hermes",
+      "reason": "survives Branch 1942 strike chain, but no dated 1943-44 location/readiness ledger yet; not auto-created at Ceylon"
+    },
+    {
+      "ship": "HMAS Vampire",
+      "reason": "same saved-chain logic; no dated Jan-1944 position/readiness audit"
+    },
+    {
+      "ship": "HMS Hollyhock",
+      "reason": "same; do not turn survival into free local escort"
+    }
+  ],
+  "net_January_medium_light_new_arrival_set": [
+    "HNMS Tromp",
+    "HMS Petard",
+    "HMS Paladin",
+    "HMS Pathfinder",
+    "HMS Rocket",
+    "HMS Stonehenge",
+    "HMS Truculent"
+  ],
+  "net_new_arrival_count": 7,
+  "working_conclusion": "January reinforcement is heavy-ship dominated. Medium/light new arrivals are real but narrow: one cruiser, four through destroyers, two submarines. Local destroyers reinforce the passage but are not new theatre arrivals; the cruiser layer remains dispersed and the escort reserve remains constrained."
+}

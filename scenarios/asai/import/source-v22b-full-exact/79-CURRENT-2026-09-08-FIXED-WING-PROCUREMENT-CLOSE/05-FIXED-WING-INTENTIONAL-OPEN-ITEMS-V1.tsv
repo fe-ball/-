@@ -1,0 +1,12 @@
+item	status	why_open	blocking_fixed_wing_close	future_gate
+E5 Twin JF measured maximum speed	INTENTIONAL-OPEN	requires high-speed fan-thrust lapse + installed rear-drag data	NO	measured aircraft/performance record
+Ki-42 exact production drawing dimensions	INTENTIONAL-OPEN	no authoritative drawing recovered; performance identity does not depend on invented geometry	NO	drawing/source recovery
+E6 Single exact production drawing length/span	INTENTIONAL-OPEN	H->A already closed on authoritative mass/wing/performance values	NO	drawing/source recovery
+E6 Twin exact production drawing length/span	INTENTIONAL-OPEN	mission/performance already closed; do not fabricate manufacturing dimensions	NO	drawing/source recovery
+E6-B Army Ki number	INTENTIONAL-OPEN	numbering sequence audit not completed; E6-B working development identifier is sufficient	NO	Army designation audit
+powered-lift measured CLmax/vector loss	INTENTIONAL-OPEN	must come from 1940-41 rig/flight test	NO	powered-lift test gate
+A7M mass production/service	FUTURE-GATE	1941 is prototype/service evaluation only	NO	1942 engine/carrier/procurement decision
+A8N carrier qualification/service	FUTURE-GATE	1941 is prototype/land-deck-system test	NO	1942 carrier qualification
+J2N prototype program	FUTURE-GATE	1941 order is zero pending distinct night/all-weather/heavy requirement	NO	1942 requirement review
+E7 retrofit flight completion	CONDITIONAL	depends on 1941H2 E7 ground/release gate	NO	E7 release gate
+1941 theater allocation/readiness/losses	REPLAY-LOCAL	procurement is not combat OOB	NO	1941 combat/OOB replay

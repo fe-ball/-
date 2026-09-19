@@ -1,0 +1,102 @@
+{
+  "revision": "v001",
+  "id": "SAIPAN_DDAY_GROUND_AND_ARMOR_1944-06-15_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_DDAY_GROUND_SETTLEMENT",
+  "clock_window": "1944-06-15T00:00..24:00+09:00",
+  "parents": [
+    "SAIPAN_GROUND_ARMOR_AND_NIGHT_WINDOW_REOPEN_GATE_1944-06-15_WORKING_v001",
+    "IJA_9TH_TANK_REGIMENT_TRANSFER_AND_EQUIPMENT_REAUDIT_1944-02-21_06-15_WORKING_v001",
+    "US_SAIPAN_CLOSE_BOMBARDMENT_1944-06-14_WORKING_v001"
+  ],
+  "opening_Japanese_armor": {
+    "physical_armored_vehicle_band": [
+      62,
+      70
+    ],
+    "ready_band": [
+      57,
+      64
+    ],
+    "Shinhoto_Type97_ready_band": [
+      18,
+      22
+    ],
+    "old_Type97_ready_band": [
+      16,
+      19
+    ],
+    "Type95_and_KaMi_ready_band": [
+      23,
+      27
+    ],
+    "guard": "This explicitly supersedes the old generic 52-55-ready opening line. No Chi-He, no 75mm stopgap and no extra tank regiment."
+  },
+  "US_landing": {
+    "first_assault_ashore": "about 0840-0845 local after close bombardment and carrier/CVE strikes",
+    "combat_troops_ashore_by_sunset_band": [
+      20000,
+      22500
+    ],
+    "beachhead_length_miles_band": [
+      5.5,
+      6.2
+    ],
+    "beachhead_depth_yards_band": [
+      450,
+      950
+    ],
+    "interpretation": "The lodgment is secure enough to survive but shallower and more disorganized than planning assumptions. Stronger Japanese warning/concealment keeps more artillery and enfilade positions alive; US close fire and 12 local fast-carrier decks prevent a beach defeat."
+  },
+  "Japanese_ground_tactics": {
+    "daytime": "Use tanks in 3-6-vehicle packets at road cuts, sugar-cane lanes and reverse slopes, with 47mm antitank guns/mines/infantry. Avoid centered frontal Sherman duels.",
+    "tank_committed_day_band": [
+      8,
+      13
+    ],
+    "tank_irrecoverable_day_band": [
+      4,
+      7
+    ],
+    "tank_repairable_day_band": [
+      2,
+      4
+    ],
+    "US_armored_vehicle_irrecoverable_band": [
+      3,
+      6
+    ],
+    "US_armored_vehicle_damaged_band": [
+      7,
+      13
+    ],
+    "note": "US armored-vehicle losses include LVT/LVT(A)/tank casualties. Shinhoto threatens sides, exposed Shermans and light armor but does not gain frontal parity with M4."
+  },
+  "casualties_15Jun": {
+    "US_combat_casualties_band": [
+      3300,
+      4100
+    ],
+    "Japan_combat_casualties_band": [
+      1600,
+      2300
+    ],
+    "US_center_note": "Historical first-24-hour losses were very high. Branch Japanese warning, C2/hardware and armor mix push toward the upper historical neighborhood, while strong US close support prevents a materially worse beach disaster."
+  },
+  "night_15_16": {
+    "Japanese_action": "Battalion-scale infantry infiltration/local counterattacks with 4-7 tanks used as mobile firepoints or short thrusts; no regiment-scale illuminated armored charge yet.",
+    "tanks_committed_band": [
+      4,
+      7
+    ],
+    "result": "Several beachhead seams are briefly penetrated or forced to call naval/artillery illumination, but the lodgment is not broken.",
+    "guard": "The direct Saito/Goto 9th Tank Regiment mass-counterattack decision is held for the 16/17 Jun night gate."
+  },
+  "end_day_armor_ready_band": [
+    48,
+    56
+  ],
+  "end_day_short_repair_band": [
+    4,
+    7
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "revision": "v001",
+  "id": "PACIFIC_APRIL_1944-04-16_30_MANIFEST_v001",
+  "status": "WORKING_OVERLAY_MANIFEST",
+  "global_frontier": "1944-04-30T24",
+  "apply_after": [
+    "計算機異聞_v048_PACIFIC_1944-04-01_15_OVERLAY_2026-08-30.zip"
+  ],
+  "load_new_files_in_order": [
+    "AIR/JAPAN_CARRIER_AIR_REGENERATION_1944-04-16_30_WORKING_v001.json",
+    "FLEET/TAIHO_FIVE_DECK_INTEGRATION_1944-04-16_30_WORKING_v001.json",
+    "FLEET/US_FAST_CARRIER_STATE_1944-04-16_30_WORKING_v001.json",
+    "SENSORS/JAPAN_ISR_RESPONSE_TRUK_RAID_1944-04-24_30_WORKING_v001.json",
+    "OPERATIONS/US_LIMITED_TRUK_REFRESH_RAID_1944-04-29_30_WORKING_v001.json",
+    "DECISIONS/YAMAMOTO_LATE_APRIL_POSTURE_AND_TATSUMAKI_1944-04-16_30_WORKING_v001.json",
+    "OPERATIONS/MARIANAS_AIR_DEFENSE_BUILDUP_1944-04-16_30_WORKING_v001.json",
+    "STATE/PARALLEL_THEATER_STATE_1944-04-30T24_WORKING_v001.json"
+  ],
+  "historical_non_autocopy": [
+    "Hollandia/Reckless/Persecution",
+    "full historical TF58 force package for 29-30 Apr Truk",
+    "historical Ponape/Satawan battleship bombardment package",
+    "Operation Tatsumaki execution",
+    "historical Koga/Toyoda chain"
+  ],
+  "authority_convergence": [
+    "30-Apr four-core carrier ready 280-300",
+    "Taiho B+ combat-capable but not fully veteran-core integrated",
+    "secondary carriers 135-165 combat-usable aircraft class",
+    "Truk remains reduced recon/sub/local-air node",
+    "Hollandia absent; Central Pacific/Marianas stronger concentration"
+  ],
+  "forward_constraints": [
+    "June US fast-carrier OOB remains reopen-guarded because Intrepid and CV-18-equivalent branch changes can alter deck count.",
+    "Do not infer exact FORAGER D-Day intelligence from late-Apr Central-Pacific warning."
+  ]
+}

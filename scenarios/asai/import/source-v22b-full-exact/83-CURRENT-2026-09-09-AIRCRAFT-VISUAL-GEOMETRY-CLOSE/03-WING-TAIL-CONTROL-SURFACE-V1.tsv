@@ -1,0 +1,35 @@
+id	component	span_range_halfwing	chord_fraction	hinge_or_axis	visual_deflection_states	construction_visual	notes
+P1	flap	y/b2 0.16-0.58	0.26 local chord	rear spar / simple slotted	0/15/35 deg	metal frame + fabric/metal skin	no automatic slats
+P1	aileron	0.60-0.96	0.24	rear spar	±22 deg	fabric-covered	rounded tip margin
+P2	fixed slat	0.08-0.96	~0.10	fixed slot	fixed	metal	continuous except root/strut details
+P2	Fowler flap	0.14-0.58	0.30	track aft/down	0/18/38 deg	metal	double/slotted visual; no powered-lift dependency
+P2	droop aileron	0.60-0.96	0.25	rear spar	aileron ±20; common droop 10-12	fabric/metal	mechanically linked low-speed droop
+Material-1	all controls	same as P2	same as P2	same as P2	same as P2	bonded sandwich skins where qualified	outer geometry exact P2 A/B match
+Material-2	plain/slotted flap	0.12-0.50	0.22	rear spar	0/20/35	bonded skin/control article	high-q test; no high-lift objective
+Material-2	aileron	0.52-0.94	0.22	rear spar	±18	bonded skin	mass-balance horns/internal weights as required
+E5-future	slotted flap	0.12-0.52	0.24	rear spar	0/15/35	metal	service/research conventional high-speed flap
+E5-future	aileron	0.54-0.94	0.23	rear spar	±20	fabric/metal	mass-balanced
+Ki-42	slotted flap	0.12-0.52	0.24	rear spar	0/15/35	metal	service/research conventional high-speed flap
+Ki-42	aileron	0.54-0.94	0.23	rear spar	±20	fabric/metal	mass-balanced
+HS-2	flap	0.12-0.45	0.20	rear spar	0/15/30	metal	small, instrumented
+HS-2	aileron	0.47-0.92	0.21	rear spar	±16	metal	high-speed mass balance emphasized
+E5-Twin	flap	0.12-0.50	0.24	rear spar	0/15/35	metal	nacelle interruptions handled with separate inner/outer flap panels
+E5-Twin	aileron	0.53-0.94	0.22	rear spar	±18	metal/fabric by block	mass balanced
+E6-Twin	flap	0.12-0.50	0.24	rear spar	0/15/35	metal	nacelle interruptions handled with separate inner/outer flap panels
+E6-Twin	aileron	0.53-0.94	0.22	rear spar	±18	metal/fabric by block	mass balanced
+E6-B	flap	0.12-0.50	0.24	rear spar	0/15/35	metal	nacelle interruptions handled with separate inner/outer flap panels
+E6-B	aileron	0.53-0.94	0.22	rear spar	±18	metal/fabric by block	mass balanced
+E6-Single	flap	0.12-0.50	0.23	rear spar	0/15/35	metal	high-speed service flap
+E6-Single	aileron	0.52-0.94	0.22	rear spar	±18	metal	mass-balanced
+X-TP	automatic slat	0.55-0.93	0.09	automatic tracks	deploy low-q/high-alpha	metal	carrier research only
+X-TP	Fowler/slotted flap	0.12-0.55	0.28	track	0/15/38	metal	research parent of Gaifu high-lift practice
+A7M-Gaifu	automatic slat	0.56-0.91	0.09	automatic tracks	automatic	metal	outer wing; fold tip begins at y=5.45 m
+A7M-Gaifu	Fowler/slotted flap	0.12-0.55	0.29	track	0/15/38	metal	carrier landing
+A7M-Gaifu	aileron	0.57-0.90	0.23	rear spar	±20	metal/fabric	folded tip outside major control
+A8N-Sakufu	leading-edge slat	0.08-0.94 except nacelle gaps	0.10	track	0/partial/full	metal	mechanically scheduled; not primary roll control
+A8N-Sakufu	Fowler flap	0.12-0.52	0.32	aft/down tracks	0/20/45	metal	blown by cold bypass cascade in powered-lift state
+A8N-Sakufu	droop aileron	0.54-0.91	0.24	rear spar	aileron ±18; common droop 10-15	metal	outer folding panel carries aileron disconnect at fold
+Ki-40	slotted flap	0.10-0.52	0.25	rear spar	0/15/35	metal	no slat in central visual configuration
+Ki-40	aileron	0.54-0.94	0.22	rear spar	±18	metal/fabric	mass balanced
+AT-3	double-slotted Fowler flap	0.12-0.58	0.32	tracks	0/15/35	metal	large transport high-lift; no reverse-pitch dependency
+AT-3	aileron	0.60-0.92	0.22	rear spar	±16	metal	boost tabs may be local detail

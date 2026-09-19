@@ -1,0 +1,18 @@
+category	item	1937_summer_status	quantity_working_per_year	quantity_confidence	service	current_branch_note
+material	特殊鋼・工具鋼	定常量産	別監査	SOURCE-ESTABLISHED	陸海	1918-19以後の古い官需
+material	金剛超硬・切削工具	定常量産	別監査	SOURCE-ESTABLISHED	陸海	1926以後工廠へ広く
+machine_tool	治具・限界ゲージ・工作機械	定常少量/貸与	別監査	SOURCE-ESTABLISHED	陸海	1928以後、主契約社/工廠
+computation	計算・事務機/保守	定常納入	別監査	SOURCE-ESTABLISHED	陸海	安全区画・技術計算工程まで
+exhaust_turbo	重車両用排気ターボ	定常量産	290-400	WORKING	陸軍	新造250-330+予備交換40-70
+GT	E4固定式非常/尖頭電源	定常少量	20-35	WORKING	陸海	1932初納入。新造+予備
+GT	小GT移動電源車	限定量産/軍評価	5-12	CURRENT-BRANCH-WORKING	陸軍中心	2026-08-30 current branchで1937夏までに実用化へ昇格
+GT	E4級大型可搬/牽引電源	限定試験	0-3	CURRENT-BRANCH-WORKING	陸海	小GT電源車とは別の特殊枝
+electromechanical	特殊印字・切替・暗号関連電気機械	定常少量	別監査	SOURCE-ESTABLISHED	海軍	方式/鍵は軍区画
+resin	エポキシ絶縁・封止・補修材	限定量産	別監査	SOURCE-ESTABLISHED	陸海	高価値部位限定
+exhaust_turbo	海軍/軍用4-cycleディーゼル用過給機	定常少量/艦級展開	20-40	WORKING	海軍	1920年代からの艦級展開を軍需分として仮計上。個別艦級は再監査
+exhaust_turbo	潜水艦2-cycle複合掃気	限定試験	5-10	WORKING	海軍	1937末でも艦隊標準ではない
+exhaust_turbo	航空高温ターボ	試験評価	8-15	WORKING	陸海航空	高高度用途限定
+GT	E4/E5航空GT・TP・jet/fan	共同試験/貸与	5-12 military-received	WORKING	陸海航空	量産軍用航空GTはまだゼロ
+GT	舶用GT増速	共同研究	0-5	WORKING	海軍	marine qualificationは1938+
+vehicle	チハ系過給ディーゼル	量産準備	1938+別監査	SOURCE+WORKING	陸軍	1937夏は近接需要
+aviation	E5 pure jet/aft-fan	提案/量産準備可能	0 delivery	CURRENT-BRANCH	陸海航空	主減速機不要の増産提案候補

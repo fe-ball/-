@@ -1,0 +1,37 @@
+{
+  "id": "FLINTLOCK_MARSHALL_AIR_SENSOR_AA_STATE_1944-02-06_DAWN_v001",
+  "status": "WORKING_PRELANDING_STATE_NOT_CANONICAL",
+  "as_of": "1944-02-06 05:30 Marshall local",
+  "starting_state": "3-Feb T24 regional combat-serviceable 39-49 centered 44 with fragmented C/C- eastern-node C2.",
+  "regional_air": {
+    "combat_serviceable_band": [24, 30],
+    "center": 27,
+    "fighters_band": [11, 14],
+    "attack_band": [3, 5],
+    "water_recon_other_band": [6, 8],
+    "interpretation": "Runway-based mass strike capability is nearly exhausted, but distributed water/recon assets and a few fighters still preserve warning/harassment functions."
+  },
+  "sensor_C2": {
+    "Roi_Kwajalein_primary_radar": "Primary exposed antennas are destroyed or intermittent centered after repeated 4-5 Feb reattack. Do not credit A-grade pre-battle warning performance at H-hour.",
+    "surviving_network": "Protected plot fragments, alternate power, buried/alternate telephone, visual posts, DF/radio and outer-atoll/water-air reports survive unevenly.",
+    "warning_effect": "General assault warning and shelter/manning orders survive; precise fighter vectoring and continuous island-wide picture do not.",
+    "local_command_connectivity_band": [0.40, 0.55],
+    "island_wide_command_effective_band": [0.30, 0.45]
+  },
+  "AA_and_fire_control": {
+    "heavy_medium_AA_physically_fireable_fraction_band": [0.42, 0.55],
+    "heavy_medium_AA_connected_to_useful_observation_fire_control_band": [0.28, 0.40],
+    "light_AA_physically_fireable_fraction_band": [0.55, 0.70],
+    "note": "Branch radar/AA gains appear mainly as crew survival, calibration, protected power/plot and faster remanning. Exposed guns and antennas are still vulnerable to repeated naval/air attack."
+  },
+  "base_system": {
+    "aircraft_revetment_effect": "Reduces correlated aircraft/mechanic/spares loss; does not protect from direct hits.",
+    "fuel_ammo": "Distributed stocks prevent total one-hit loss, but local access is increasingly fragmented by bombardment and crater/debris fields.",
+    "repair": "Night repair teams restore limited runway/taxi use repeatedly, but daytime reattack prevents return to high-output operations."
+  },
+  "anti_double_count": [
+    "Do not add a separate radar bonus to aircraft already preserved by the hardening/alert model.",
+    "Do not treat surviving water-air as extra land-based strike aircraft.",
+    "Do not interpret physically fireable AA as simultaneously controlled/observed AA."
+  ]
+}

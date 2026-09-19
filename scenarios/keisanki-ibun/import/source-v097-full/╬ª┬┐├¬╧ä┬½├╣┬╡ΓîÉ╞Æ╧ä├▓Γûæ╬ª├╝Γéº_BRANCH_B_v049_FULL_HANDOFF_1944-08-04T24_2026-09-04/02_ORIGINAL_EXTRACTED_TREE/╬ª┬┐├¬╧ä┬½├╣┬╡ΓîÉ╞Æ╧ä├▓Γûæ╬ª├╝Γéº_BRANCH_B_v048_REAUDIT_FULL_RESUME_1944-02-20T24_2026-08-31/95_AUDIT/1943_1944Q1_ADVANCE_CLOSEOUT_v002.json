@@ -1,0 +1,40 @@
+{
+  "revision": "v002",
+  "status": "PASS_VALIDATED_EXECUTION_REPAIRED",
+  "period": "1943-01-01 to 1944-04-30T24",
+  "parent_restart": "CHECKPOINT_1942-12-31T24_v001",
+  "new_restart": "CHECKPOINT_1944-04-30T24_v002",
+  "major_settlements": [
+    "Five-Go through Hanzhong; Sichuan Phase III hold",
+    "Second Midway/central Pacific progression through Palau/Truk spring 1944",
+    "Hollandia non-occurrence due missing SWPA base chain",
+    "Burma continuous pressure and deep U-Go NO-GO",
+    "Italy/Anzio/OVERLORD/ANVIL re-audit",
+    "Eastern Front cumulative loss/quality/reserve ledger",
+    "Spring-1944 aircraft/materials/ASW/I-400 weapons audit"
+  ],
+  "anti_inheritance_rules": [
+    "No automatic legacy 87/88/89 battle outcome inheritance",
+    "No nationality/year-label combat adjudication",
+    "No existence=readiness shortcut",
+    "No ASW weapon delivery=kill shortcut"
+  ],
+  "unfixed": [
+    "1944 Japanese total merchant GRT single universe",
+    "Kinsei Zero 1944 national production single number",
+    "1944 conventional submarine total fleet count",
+    "I-400 first strike target/date",
+    "BAGRATION outcome"
+  ],
+  "revalidation": {
+    "state": "unchanged from v001",
+    "execution_repairs": [
+      "TECH v006 date gates",
+      "generator v005 checkpoint consumption",
+      "profiles v003/domain map v002",
+      "override schema v003",
+      "expanded validator v007"
+    ],
+    "validation": "95_AUDIT/VALIDATION_RESULT_v009.json"
+  }
+}

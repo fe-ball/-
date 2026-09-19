@@ -1,0 +1,96 @@
+{
+  "id": "JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v001",
+  "status": "WORKING_RECONCILIATION_PENDING_PROMOTION",
+  "as_of": "1944-01-01T00:00:00",
+  "purpose": "Close named Japanese hull loss/damage slots left aggregate-only in current Branch-B settlements before rebuilding the 1944 Indian Ocean movable wallet.",
+  "rules": [
+    "Promote already-discussed provisional names where they fit authoritative event OOB and do not conflict with later current settlements.",
+    "Do not inherit historical Guadalcanal/Solomons losses unless the Branch event exists.",
+    "A 0-1 damage band is centered at 0 unless the settlement explicitly says one ship was damaged.",
+    "Named repair clocks separate propulsion survival, forward stabilization, yard repair, trials, and full combat readiness.",
+    "This ledger does not yet close every 1941-early-1942 minor destroyer/submarine loss; those remain a separate hull-by-hull audit requirement."
+  ],
+  "closures": [
+    {
+      "event": "MIDWAY_SURFACE_PURSUIT_1942-06",
+      "authority": "06_RUNTIME/MIDWAY_1942-06-10_15_SETTLEMENT_v001.json plus 06_RUNTIME/SESSION_2026-08-26_ALEUTIANS_EFATE_COUPLED_REAUDIT_HANDOFF_v001.md provisional patch candidates",
+      "center": {
+        "Chokai": {"state": "HEAVILY_DAMAGED", "repair": "forward stabilization mid-Jun; home-yard Jun-Jul/Aug; combat-ready late Aug 1942", "confidence": "medium-high"},
+        "Hiei": {"state": "MODERATE_DAMAGE", "repair": "repair through mid-Jul; full readiness late Jul 1942", "confidence": "medium-high"},
+        "Kongo": {"state": "LIGHT_DAMAGE", "repair": "short yard/maintenance; full readiness early-mid Jul 1942", "confidence": "medium-high"},
+        "Yudachi": {"state": "SUNK_PERMANENT", "confidence": "medium-high"},
+        "Natsugumo": {"state": "SUNK_PERMANENT", "confidence": "medium-high"},
+        "Arashi": {"state": "MODERATE_DAMAGE", "repair": "ready Jul 1942", "confidence": "medium"},
+        "Hagikaze": {"state": "LIGHT_DAMAGE", "repair": "ready late Jun/early Jul 1942", "confidence": "medium"}
+      },
+      "upper_band_third_DD_damage": {"Nowaki": "LIGHT_DAMAGE; no long-term 1942H2 availability effect"}
+    },
+    {
+      "event": "SANTO_1942-08",
+      "authority": "06_RUNTIME/SANTO_1942-08_TECH_STACK_REAUDIT_v001.md",
+      "center": {"destroyer_damage": 0},
+      "sensitivity": {"destroyer_damage": "1 light/medium slot only; do not book in center"}
+    },
+    {
+      "event": "NEW_CALEDONIA_NIGHT_ACTION_1942-10-10",
+      "authority": "06_RUNTIME/NEW_CALEDONIA_1942-10_SETTLEMENT_v001.md plus prior provisional patch candidate",
+      "center": {
+        "Haruna": {"state": "MEDIUM_HEAVY_DAMAGE_2x16IN", "repair": "forward stabilization Oct; home-yard Nov-Dec; trials late Dec/early Jan; full combat readiness 1943-01-05..15", "confidence": "high on damage, medium on exact repair band"},
+        "Fubuki": {"state": "SUNK_PERMANENT", "confidence": "medium-high"}
+      },
+      "minor_damage_bucket": "1-2 escorts/light combatants with <=7-10 day availability effect; no named permanent slot forced by authority"
+    },
+    {
+      "event": "ATTU_1943-05",
+      "authority": "legacy submarine canonical retained by current Aleutians logic: one submarine loss center, I-31-type close attack",
+      "center": {
+        "I-31": {"state": "SUNK_PERMANENT", "date_band": "1943-05-12..13", "confidence": "medium-high"}
+      }
+    },
+    {
+      "event": "MUTSU_INTERNAL_EXPLOSION_1943-06-08",
+      "authority": "current battleship wallet + canonical construction audit",
+      "center": {
+        "Mutsu": {"state": "SUNK_PERMANENT", "confidence": "high"}
+      }
+    },
+    {
+      "event": "EFATE_NIGHT_BOMBARDMENT_1943-06-08_09",
+      "authority": "06_RUNTIME/EFATE_LIMITED_NEUTRALIZATION_1943-06_SETTLEMENT_v001.md",
+      "center": {
+        "Japanese_CA_medium_damage": 0,
+        "Tanikaze": {"state": "MEDIUM_DAMAGE", "repair": "Truk/forward repair; combat-ready early Jul 1943", "confidence": "medium; name selected from plausible 14-16 DD screen and no downstream conflict"}
+      },
+      "sensitivity": {"Japanese_CA_medium_damage": "1 slot possible but not booked in center"}
+    },
+    {
+      "event": "BENGAL_ARAKAN_CHITTAGONG_1943-10_12",
+      "authority": "06_RUNTIME/BENGAL_ARAKAN_CHITTAGONG_1943-10_12_SETTLEMENT_v001.md",
+      "center": {
+        "Uranami": {"state": "TEMPORARY_LIGHT_MEDIUM_DAMAGE", "repair": "Singapore/local repair folded into late-Dec maintenance; ready by 1944-01-03", "confidence": "medium-high; local historical clock supports availability"},
+        "Shikinami": {"state": "TEMPORARY_LIGHT_DAMAGE", "repair": "Penang/Singapore short repair; ready early Jan 1944", "confidence": "medium-high; later Jan Andaman escort clock preserved"}
+      },
+      "upper_band_third_DD_damage": "unassigned sensitivity slot; do not reduce 1944-01-01 ready wallet unless event-local evidence requires"
+    },
+    {
+      "event": "GALVANIC_1943-11",
+      "authority": "06_RUNTIME/GALVANIC_DAMAGE_REPAIR_REGEN_LEDGER_1943-11_1944Q1_v002.json",
+      "already_closed": ["Soryu", "Fujinami", "I-175"],
+      "note": "No duplicate booking here."
+    }
+  ],
+  "explicit_open_items_before_hard_promotion": [
+    "Trace 1941 through early-1942 destroyer losses that were never re-adjudicated in current runtime; do not assume every historical Kagero-class loss vanished.",
+    "Build exact light-cruiser hull ledger; current runtime does not globally close every historical CL loss/divergence.",
+    "Trace I-30 after its Oct-1942 Branch survival; do not count it automatically alive on 1944-01-01.",
+    "I-34 Europe mission outcome remains open as of 1944-01-01.",
+    "Rebuild individual conventional submarine locations/patrol days before Indian Ocean assignment."
+  ],
+  "jan_1944_major_hull_anchors_after_this_working_close": {
+    "battleships_physical": 11,
+    "heavy_cruisers_physical": 18,
+    "Kongo_class": "4 alive and operational by 1943",
+    "major_known_unavailable": ["Soryu until Feb 1944 carrier-team recovery"],
+    "note": "CL/DD/sub exact totals remain hull-audit outputs, not inferred from historical totals."
+  }
+}

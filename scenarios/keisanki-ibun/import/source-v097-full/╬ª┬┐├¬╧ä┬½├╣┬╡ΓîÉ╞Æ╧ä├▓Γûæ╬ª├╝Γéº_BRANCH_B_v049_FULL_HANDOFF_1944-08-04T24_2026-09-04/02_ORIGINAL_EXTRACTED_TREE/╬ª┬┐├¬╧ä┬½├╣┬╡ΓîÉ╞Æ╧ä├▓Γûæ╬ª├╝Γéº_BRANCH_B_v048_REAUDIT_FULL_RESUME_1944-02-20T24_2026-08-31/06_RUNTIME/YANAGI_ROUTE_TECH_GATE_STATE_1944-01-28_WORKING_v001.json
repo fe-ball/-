@@ -1,0 +1,140 @@
+{
+  "id": "YANAGI_ROUTE_TECH_GATE_STATE_1944-01-28_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_THROUGH_DISCUSSION_DATE_NOT_CURRENT_AUTHORITY",
+  "package_revision": "v036",
+  "discussion_clock_center": "1944-01-28",
+  "purpose": "Re-adjudicate Yanagi submarine route survival, passenger/cargo substitution, and information-vs-physical-technology gates under Branch COMSEC, navigation, trim/stowage and submarine-operability changes. Only events on or before 1944-01-28 may be realized here; later arrivals are conditional projections.",
+  "authority_note": "CURRENT authority remains 1944-01-01. This file supersedes prior WORKING ambiguity only for Yanagi route/technology-gate interpretation through 1944-01-28.",
+  "core_rules": [
+    "Remove historical kills whose essential enabling condition was decrypted high-grade Axis/Japanese traffic when that traffic is protected by Branch COMSEC; do not remove ordinary ASW, mine, weather, machinery or navigation risk.",
+    "Survival of one mission changes the cargo and questions of the next mission; do not copy historical duplicate cargo manifests after an earlier Branch delivery succeeded.",
+    "Separate secure textual/people/paper information gates from bulky physical-hardware gates. A submarine need not reach Kure for every piece of information to reach Japan.",
+    "A route divergence is propagated into timing, passenger allocation, stowage/trim and Allied interception opportunity; historical dates after the divergence remain trace anchors, not automatic events.",
+    "No future Yanagi success is guaranteed. Only the I-34 historical Taurus gate is adjudicated through 1944-01-28; Europe arrival and return remain future gates."
+  ],
+  "historical_anchor_sources": [
+    {
+      "title": "NHHC H-033-1 Yanagi Missions",
+      "url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-033/h-033-1.html",
+      "uses": [
+        "I-30 cargo/loss",
+        "I-34/I-29 intelligence compromise",
+        "I-29 Jumo004B/HWK509A-1 cargo and Singapore information split"
+      ]
+    },
+    {
+      "title": "CombinedFleet I-30 TROM",
+      "url": "https://www.combinedfleet.com/I-30.htm",
+      "uses": [
+        "10 T-Enigma machines historically offloaded before I-30 mine loss",
+        "Wuerzburg/Metox/Bold/TDC cargo details"
+      ]
+    },
+    {
+      "title": "CombinedFleet I-34 TROM",
+      "url": "https://www.combinedfleet.com/I-34.htm",
+      "uses": [
+        "historical trim delay",
+        "Rear Adm Kojima and two Mitsubishi engineers",
+        "Ultra-directed Taurus ambush"
+      ]
+    },
+    {
+      "title": "CombinedFleet I-29 TROM",
+      "url": "https://www.combinedfleet.com/I-29.htm",
+      "uses": [
+        "historical passenger substitution after I-34 loss",
+        "outbound/return route",
+        "Lorient/Singapore chronology"
+      ]
+    }
+  ],
+  "realized_branch_chain_through_1944_01_28": [
+    {
+      "mission": "I-30 first Yanagi return",
+      "historical_problem": "After reaching Singapore, historical I-30 hit a British mine; the complete Wuerzburg set and much of the remaining cargo were lost/damaged, although ten T-Enigma machines had already been offloaded.",
+      "branch_state": "SURVIVED_TO_JAPAN_REALIZED_PRIOR_BRANCH",
+      "branch_effect": "Late-1942 Japan receives complete physical radar/ESM/acoustic-deception/metrology/torpedo-comparison cargo instead of damaged salvage. T-Enigma bilateral-liaison existence is not counted wholly as an I-30-survival bonus because ten machines historically reached Singapore before the loss; survival instead preserves the rest of the coding sets, spares, training continuity and especially the non-offloaded technical hardware.",
+      "downstream_manifest_effect": "The Apr-1943 U-180/I-29 exchange becomes second-pass documentation, small parts, tolerances and answers to Japanese measurement questions rather than a first replacement of the lost I-30 package."
+    },
+    {
+      "mission": "U-180 / I-29 first exchange",
+      "branch_state": "SUCCESS_RETAINED_PRIOR_BRANCH",
+      "branch_effect": "Second-pass implementation data can be selected against Japanese late-1942/early-1943 bench findings. This is refinement, not a duplicate technology multiplier."
+    },
+    {
+      "mission": "U-511 -> RO-500",
+      "branch_state": "HISTORICAL_ARRIVAL_RETAINED_PRIOR_BRANCH",
+      "branch_effect": "Comparative Type-IX reference for welding, machinery mounting, vibration/noise, maintenance access and measurement. Does not create SenTaka and does not retroactively redesign Ko-1..6."
+    },
+    {
+      "mission": "I-8 round trip",
+      "branch_state": "HISTORICAL_SUCCESS_RETAINED_PRIOR_BRANCH",
+      "branch_effect": "21 Dec 1943 return adds tacit fault-diagnosis/calibration/acoustic-test knowledge to hardware already studied for roughly a year. By 28 Jan 1944 procedures can begin moving into research yards and selected A-grade field-service nodes; no mass new hardware is credited."
+    },
+    {
+      "mission": "I-34 outbound Yanagi",
+      "historical_problem": "Cargo loading in Singapore upset trim, delayed departure about a week, sent passengers by train toward Penang, and placed I-34 in a 13 Nov Ultra-directed HMS Taurus ambush.",
+      "branch_adjudication": "HISTORICAL_TAURUS_KILL_REMOVED; OUTBOUND_MISSION_ALIVE_AS_OF_1944-01-28",
+      "causal_basis": [
+        "Branch high-grade COMSEC removes the specific Ultra vector that made HMS Taurus wait for I-34.",
+        "After the successful I-30 and established Yanagi procedures, cargo partitioning, fixed racks, weight-specific stowage diagrams and fuel-burn trim tables reduce the chance that the same cargo produces the same full one-week delay.",
+        "This does not eliminate ordinary trim risk or Malacca/Indian-Ocean/Atlantic ASW risk."
+      ],
+      "working_departure_band": "Singapore/Seletar 1943-11-07..10, center 1943-11-08/09; exact hour not fixed",
+      "passenger_consequence": "Rear Adm Kojima and the two Mitsubishi engineers are no longer displaced to I-29 by I-34's historical sinking. Centerline keeps the original technical passenger party with I-34; an exact Penang brief stop is not needed for the technology gate and is left non-critical.",
+      "state_at_1944_01_28": "ATLANTIC_INBOUND_TO_GERMAN_OCCUPIED_FRANCE; no Europe arrival realized yet",
+      "projected_europe_arrival_if_no_new_interruption": "1944-02-03..12, center about 7 Feb; projection only",
+      "why_this_matters": "The engineers can inspect German turbojet/rocket/radar/submarine production about a month before historical I-29's 11 Mar Lorient arrival, creating an early technical-observation gate even if no return cargo has yet reached Japan."
+    },
+    {
+      "mission": "I-29 second Yanagi outbound",
+      "historical_problem": "Historically inherited many I-34 passengers and was repeatedly located from decrypted traffic; later carried Jumo004B/HWK509A-1 and was sunk after an intercepted Singapore-to-Japan schedule.",
+      "branch_state_at_1944_01_28": "OUTBOUND_IN_TRANSIT; historical Dec-1943 departure retained but historical passenger list no longer valid",
+      "manifest_consequence": "Kojima and the original I-34 technical party are not duplicated. Spare berths/cargo margin can be used for complementary specialists, measurement gear or strategic cargo; exact replacement roster is intentionally unresolved.",
+      "route_consequence": "Allied generic patrol/air risks remain, but high-grade COMINT cueing cannot be copied automatically.",
+      "projected_europe_arrival_if_no_new_interruption": "early/mid Mar 1944; not realized",
+      "future_return_information_gate": "If I-29 reaches Singapore, passengers/blueprints/drawings can move by air to Japan even if the hull later fails to reach Kure.",
+      "future_return_physical_gate": "Historical high-confidence bulky cargo includes one Jumo 004B and one HWK 509A-1. BMW 003 photographs/general-arrangement information are high-confidence technology inputs, but a complete physical BMW 003 engine is not automatically granted.",
+      "post_singapore_survival_policy": "Historical Sawfish interception is not inherited because it depended on intercepted/decrypted itinerary traffic. A later Branch route-survival adjudication must still include generic US submarine patrol risk; no auto-success."
+    }
+  ],
+  "future_missions_not_realized": [
+    {
+      "mission": "RO-501",
+      "rule": "Future. Historical loss was a direct sonar/Hedgehog/depth-charge ASW engagement rather than a clean single COMINT ambush; Branch submarine improvements may help survival but do not erase the event automatically. No Me-163 blueprint benefit credited before its future route gate."
+    },
+    {
+      "mission": "I-52",
+      "rule": "Future. Rebuild mission/cargo only when discussion clock reaches it; prior successful deliveries may change what Germany/Japan choose to send. Do not copy historical manifest or loss automatically."
+    },
+    {
+      "mission": "I-34 Europe arrival/return",
+      "rule": "Future after 28 Jan. Outbound survival through the historical Taurus gate is realized; Europe arrival, technical visit, return cargo and return survival are conditional."
+    },
+    {
+      "mission": "I-29 Europe/return",
+      "rule": "Future after 28 Jan. Do not pre-credit German jet/rocket hardware."
+    }
+  ],
+  "information_gate_model_after_I34_if_future_arrival_occurs": {
+    "gate_A_low_bandwidth_secure_text": "After firsthand inspection in Europe, the I-34 party can send concise secure summaries: axial-vs-centrifugal architecture, stage counts/ranges, thrust/mass/diameter class, modular construction, short-life hot-section philosophy, major test failures and priority questions. This can prune Japanese design choices within days/weeks.",
+    "not_transmittable_reliably_at_gate_A": [
+      "exact blade profiles/stagger maps",
+      "full compressor/turbine drawings",
+      "detailed tolerances and surface finish maps",
+      "complete fuel-control schematics",
+      "production tooling geometry",
+      "full metallurgy/heat-treatment recipes"
+    ],
+    "gate_B_people_paper_small_hardware": "A returning submarine can carry microfilm/drawings/test reports/material samples, bearings/seals/fuel-control parts, selected compressor/turbine components and measurement instruments. These can support detailed redesign before a complete engine arrives.",
+    "gate_C_bulky_physical": "Complete Jumo/HWK/large artifacts require a surviving hull or alternate physical transport. This remains a later separate event."
+  },
+  "anti_double_count_guards": [
+    "Do not credit secure Germany-Japan liaison entirely to I-30 survival: some T-Enigmas historically reached Singapore before the mine loss.",
+    "Do not credit SenTaka, domestic high-grade COMSEC, Japanese turbojet research or piston fighter programs to Yanagi.",
+    "Do not use both 'I-34 engineers arrived early' and 'I-29 historically carried the same engineers' as two independent gains.",
+    "Do not assume a full BMW003 engine merely because BMW003 photos/general arrangement can reach Japan.",
+    "Do not convert removal of Ultra-directed ambushes into immunity from mines, visual patrols, radar aircraft, hunter-killer groups or mechanical failure."
+  ]
+}

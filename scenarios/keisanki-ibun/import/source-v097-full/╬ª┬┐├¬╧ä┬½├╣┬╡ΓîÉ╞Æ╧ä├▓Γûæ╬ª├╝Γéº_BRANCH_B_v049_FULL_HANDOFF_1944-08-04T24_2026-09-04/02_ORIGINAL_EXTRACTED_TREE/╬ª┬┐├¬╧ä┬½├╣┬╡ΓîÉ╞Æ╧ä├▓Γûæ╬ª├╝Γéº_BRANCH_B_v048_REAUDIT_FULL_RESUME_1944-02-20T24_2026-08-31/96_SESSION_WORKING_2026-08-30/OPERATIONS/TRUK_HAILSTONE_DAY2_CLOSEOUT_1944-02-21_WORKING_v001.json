@@ -1,0 +1,106 @@
+{
+  "revision": "v001",
+  "id": "TRUK_HAILSTONE_DAY2_CLOSEOUT_1944-02-21_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "parents": [
+    "TRUK_HAILSTONE_NIGHT_COUNTERSTRIKE_1944-02-20_21_WORKING_v001"
+  ],
+  "window": "1944-02-21 daylight and immediate post-raid withdrawal",
+  "US_day2_plan": {
+    "purpose": "Finish neutralization, not repeat historical merchant massacre.",
+    "priority": [
+      "remaining fighter/runway capability",
+      "radar/plot/communications and AA fire-direction",
+      "aviation fuel/ammunition and workshops",
+      "remaining seaworthy lagoon shipping",
+      "recon/night-strike aircraft and seaplane infrastructure"
+    ],
+    "fighter_sweep": "roughly 40-55 F6F in the first daylight suppression cycle, followed by mixed strike packages",
+    "decision": "No third full raid day centered once Truk can no longer intervene materially in Catchpole and high-value mobile shipping has already escaped."
+  },
+  "day2_air_outcome": {
+    "Japan_additional_irrecoverable_band": [
+      16,
+      22
+    ],
+    "Japan_additional_center": 19,
+    "US_additional_irrecoverable_band": [
+      7,
+      11
+    ],
+    "US_additional_center": 9,
+    "dusk_Japanese_serviceable_fighters": "3-7, mostly local/emergency use",
+    "dusk_Japanese_attack_recon": "4-7 serviceable, but sortie generation and command network are badly constrained"
+  },
+  "cumulative_air_losses_raid": {
+    "Japan_irrecoverable_band": [
+      62,
+      73
+    ],
+    "Japan_center": 67,
+    "US_irrecoverable_band": [
+      30,
+      37
+    ],
+    "US_center": 33,
+    "note": "Branch US losses are materially above historical HAILSTONE because Japanese warning/integration works, but the US retains overwhelming deck and replacement depth."
+  },
+  "shipping_closeout": {
+    "lagoon_additional_day2": "3-5 merchant/auxiliary hulls sunk/constructive-total-loss plus 1-2 small craft; one damaged destroyer may be finished only if unable to move.",
+    "raid_lagoon_total_large_medium_hulls": "7-10 merchant/auxiliary hulls sunk/CTL centered",
+    "raid_lagoon_GRT_band": [
+      30000,
+      50000
+    ],
+    "escape_route_loss": "plus one 4,000-7,000 GRT merchant/auxiliary lost to a US submarine during pre-raid evacuation",
+    "US_surface_gun_kills": "No historical Katori/Maikaze-scale surface massacre centered.",
+    "interpretation": "Japan saves most high-value mobile shipping by evacuating early, but not without submarine leakage and abandonment of Truk's fixed logistics base."
+  },
+  "fixed_base_damage": {
+    "airfields": "All principal strips repeatedly cratered; emergency operations possible within 24-48h, organized fighter cycles require several days.",
+    "radar_plot": "roughly 20-35% of pre-raid integrated throughput immediately usable at raid end; enough for local warning, not A-grade full defensive cycle.",
+    "precision_AA": "0-1 reliable fire-direction channel immediately after raid; repairable components survive.",
+    "aviation_fuel_loss_band_tons": [
+      8000,
+      12000
+    ],
+    "supply_immediate_destroyed_or_inaccessible": "about 35-50% centered rather than historical ~75-80%, reflecting dispersal and deliberate suppression tradeoffs",
+    "workshops_power": "major damage; forward carrier/fleet repair role sharply curtailed"
+  },
+  "human_losses_working": {
+    "Japan_killed_band": [
+      1700,
+      2600
+    ],
+    "US_aircrew_and_ship_killed_missing_band": [
+      55,
+      95
+    ],
+    "note": "Japanese total is much lower than historical mass-ship-loss casualty totals but remains severe due concentrated attacks on airfields, AA, fuel, workshops and remaining vessels."
+  },
+  "operational_recovery_clocks": {
+    "Truk_emergency_air_ops": "1944-02-22..23",
+    "limited_day_fighter_cycle": "1944-02-24..26",
+    "moderate_local_air_ops_if_reinforced": "1944-02-28..03-03",
+    "fleet_forward_base_function": "NO near-term restoration; high-value tenders/oilers/workshop capability evacuated and fixed infrastructure damaged",
+    "strategic_role_after_raid": "defended air/recon/submarine staging base, no longer a safe Combined Fleet concentration point"
+  },
+  "US_withdrawal": {
+    "start": "1944-02-21 afternoon/evening centered",
+    "reason": [
+      "Catchpole support objective achieved",
+      "Truk unable to mount a major immediate intervention",
+      "US aircraft losses now non-trivial",
+      "few high-value mobile targets remain",
+      "no need to trade a third day into recovering AA/radar for diminishing returns"
+    ],
+    "carrier_state": "No additional fleet carrier campaign-out centered; Cabot remains the only pre-existing fast-deck campaign-out casualty from the 3-Feb carrier battle.",
+    "next": "replenish/reorganize while Princeton/Langley/CVEs continue Catchpole support"
+  },
+  "strategic_judgment": {
+    "Japan": "Avoids historical HAILSTONE catastrophe in ships and transient aircraft, but loses Truk as a practical forward fleet hub and pays heavily in fixed infrastructure and trained local air defense.",
+    "US": "Fails to reproduce the historical destruction ratio, but still achieves the core operational purpose: Truk cannot interfere seriously with Eniwetok and no Combined Fleet concentration remains there.",
+    "important_branch_difference": "The survival of Japanese mobile assets means later Palau/Marianas force wallets are healthier; the absence of an Intrepid night torpedo casualty leaves the US fast-deck wallet healthier too. Both sides carry more mobile strength forward than in the historical HAILSTONE exchange."
+  },
+  "next_gate": "Close Catchpole/Eniwetok with the resources actually left there, then update Palau/Marianas and Eastern Fleet/Bengal allocation clocks."
+}

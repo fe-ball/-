@@ -1,0 +1,83 @@
+{
+  "revision": "v001",
+  "id": "NANJING_GOVERNMENT_SECURITY_MANPOWER_1944-04-30_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_BRANCH_SNAPSHOT_DOES_NOT_ADVANCE_CLOCK",
+  "as_of": "1944-04-30T24:00:00+09:00",
+  "purpose": "Separate gross Nanjing/associated armed headcount, troops actually dependable for static/local security, troops already consumed by existing occupation tasks, and the incremental guard pool that can follow a new Hunan advance.",
+  "branch_baseline": {
+    "total_military_security_headcount": [
+      430000,
+      500000
+    ],
+    "central_china_headcount": [
+      245000,
+      285000
+    ],
+    "north_associated_zones": [
+      105000,
+      125000
+    ],
+    "south_coastal_other": [
+      55000,
+      70000
+    ],
+    "operationally_trustworthy_static_local_theater": [
+      250000,
+      310000
+    ],
+    "japanese_static_workload_release_div_eq_theater": [
+      3.0,
+      3.8
+    ],
+    "japanese_static_workload_release_div_eq_central": [
+      1.8,
+      2.3
+    ],
+    "source": "PRE_ICHIGO_FINAL_FORCE_LOGISTICS_GATE_1944-04-25_v001"
+  },
+  "role_definition": "These forces are primarily rail/warehouse/city/police/tax/anti-guerrilla/secondary road and bridge security. Workload release is not assault-combat equivalence.",
+  "derived_incremental_pool": {
+    "note": "Derived working bands; lower confidence than gross headcount because no unit-by-unit Nanjing OOB is closed in the package.",
+    "already_committed_to_existing_static_local_tasks": [
+      200000,
+      245000
+    ],
+    "rotatable_guard_pool_without_materially_hollowing_existing_rear": [
+      40000,
+      65000
+    ],
+    "short_surge_guard_pool_if_lower_priority_districts_accept_added_risk": [
+      60000,
+      85000
+    ],
+    "initial_hunan_follow_on_security_package": [
+      30000,
+      45000
+    ],
+    "after_changsha_xiangtan_stabilization_possible_hunan_security_mass": [
+      45000,
+      65000
+    ],
+    "confidence": "MEDIUM_LOW"
+  },
+  "mobile_combat_limit": {
+    "independent_mobile_field_combat": "MINORITY_ONLY; do not treat 250k-310k as field army",
+    "with_japanese_cadres_qrf": "Selected formations can conduct local sweeps, LOC defense and bounded counterattacks; major offensive breakthrough remains Japanese responsibility.",
+    "strategic_nodes_rule": "Keep Japanese cadres/quick-reaction nuclei at important rail junctions, depots and cities."
+  },
+  "political_1944": {
+    "wang_jingwei_health": "SEVERELY_DEGRADED; historical early-1944 treatment/surgery in Japan remains the default absent a branch medical divergence",
+    "branch_effect": "Because administrative/security delegation has been institutionalized since Five-Go, Wang's illness reduces personal political control more than day-to-day rail/police/tax functionality.",
+    "practical_governance": "Greater weight shifts to Chen Gongbo and ministerial/security bureaucracy, while Tokyo still limits autonomous heavy field-army power.",
+    "implication": "The regime is more useful as an occupation-state/rear-area multiplier than as an independent operational army."
+  },
+  "historical_sanity_check": {
+    "1943_us_estimate_nanking_troops": 366000,
+    "central_china": 209000,
+    "historical_assessment": "garrison/internal-order role; Japanese nuclei required at strategic centers; potential to relieve several Japanese division-equivalents of static duties",
+    "sources": [
+      "https://history.state.gov/historicaldocuments/frus1943/d210",
+      "https://www.ibiblio.org/hyperwar/Dip/Conf/Quadrant/QUADRANT.PDF"
+    ]
+  }
+}

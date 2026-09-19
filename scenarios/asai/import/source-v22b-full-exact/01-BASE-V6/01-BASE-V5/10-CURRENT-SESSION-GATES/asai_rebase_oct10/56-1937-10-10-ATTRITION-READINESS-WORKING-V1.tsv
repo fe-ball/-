@@ -1,0 +1,14 @@
+side,theater,formation,date,P_low,P_high,F_low,F_high,M_low,M_high,S_low,S_high,mission_grade_hist,asai_delta_summary,mission_grade_asai,confidence,notes
+Japan,Shanghai,3rd Division,1937-10-10,60,70,75,85,68,78,72,82,B-/C+,P +1-2; F/M/S +2-4 in exposed systems,B-,LOW-MED,Long continuous fighting; Asai cannot erase infantry fatigue.
+Japan,Shanghai,11th Division,1937-10-10,60,70,74,84,68,78,72,82,B-/C+,P +1-2; F/M/S +2-4,B-,LOW-MED,Heavy cumulative combat; still requires rotation/rest.
+Japan,Shanghai,101st Division,1937-10-10,72,82,70,82,68,80,70,82,B,P +0-1; F/M/S +2-3,B,LOW-MED,Relatively fresh manpower but lower average formation quality/integration than regular divisions.
+Japan,Shanghai,9th Division,1937-10-10,80,89,80,89,77,87,78,87,A-/B+,P +1; F/M/S +2-4,A-,MED-LOW,Recent arrival but already entering heavy fighting.
+Japan,Shanghai,13th Division,1937-10-10,86,94,80,90,80,90,80,89,A-,P +0-1; F/M/S +2-3,A-,MED-LOW,Fresher; incomplete combat integration limits immediate exploitation.
+Japan,NorthChina,14th Division,1937-10-10,78,87,80,89,78,88,74,84,B+/A-,P +1; F/M/S +2-4,A-/B+,MED-LOW,Mechanized/rail pursuit elements make sustainment meaningful.
+Japan,NorthChina,20th Division,1937-10-10,74,84,77,87,70,82,70,82,B+,P +1; F/M/S +2-4,B+,MED-LOW,About to enter difficult mountain approach where mobility index will fall.
+Japan,NorthChina,6th Division,1937-10-10,78,87,82,90,76,86,76,86,B+/A-,P +1; F/M/S +2-4,A-,MED-LOW,Important transfer candidate; Asai chiefly improves reorganization/loading condition, not assignment date.
+Japan,Shanxi,5th Division,1937-10-10,64,75,70,82,48,64,58,72,B-/B,P +0-1; F/S +1-3; M little benefit in mountain/mule regime,B,MED-LOW,Human fatigue and terrain dominate; do not upgrade to A.
+China,Shanghai,87th Division,1937-10-10,50,64,44,58,38,52,43,58,C+,No direct Asai benefit; local Japanese fire consistency may accelerate attrition marginally,C,LOW-MED,Division identity persists but veteran cadre/battalion integrity badly eroded.
+China,Shanghai,88th Division,1937-10-10,48,63,43,58,38,52,42,58,C+,No direct Asai benefit,C,LOW-MED,Same caution: nominal division strength is not veteran combat strength.
+China,Shanghai,36th Division,1937-10-10,55,69,45,60,40,55,45,60,C+/B-,No direct Asai benefit,C+/B-,LOW-MED,Still usable in sector defense but heavily worn.
+China,Shanghai,new_reinforcement_pool,1937-10-10,78,90,50,68,45,62,50,66,B-/B+,No direct Asai benefit,B-/B+,LOW,Fresh manpower can plug line but equipment/staff coordination less favorable than elite prewar central formations.

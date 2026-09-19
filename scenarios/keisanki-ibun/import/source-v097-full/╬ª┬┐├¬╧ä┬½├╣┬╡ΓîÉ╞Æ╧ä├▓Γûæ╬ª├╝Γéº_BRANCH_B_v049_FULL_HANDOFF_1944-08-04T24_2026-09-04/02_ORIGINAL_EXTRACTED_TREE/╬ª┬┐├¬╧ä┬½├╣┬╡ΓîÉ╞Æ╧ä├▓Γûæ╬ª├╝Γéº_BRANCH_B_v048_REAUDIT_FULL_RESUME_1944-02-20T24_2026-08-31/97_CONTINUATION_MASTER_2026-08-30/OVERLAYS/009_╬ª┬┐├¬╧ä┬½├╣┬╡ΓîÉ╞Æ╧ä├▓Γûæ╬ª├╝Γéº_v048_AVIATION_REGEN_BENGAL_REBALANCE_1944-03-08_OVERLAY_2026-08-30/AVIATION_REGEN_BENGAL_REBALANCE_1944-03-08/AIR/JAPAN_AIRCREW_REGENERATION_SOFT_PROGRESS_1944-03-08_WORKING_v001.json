@@ -1,0 +1,63 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_AIRCREW_REGENERATION_SOFT_PROGRESS_1944-03-08_WORKING_v001",
+  "status": "WORKING_BRANCH_RULE",
+  "as_of": "1944-03-08T24:00:00+09:00",
+  "purpose": "Make the branch feedback from lower 1942-43 net aircrew losses explicit: surviving experienced crews return as instructors/cadres, increasing conversion quality and recovery slope without inventing extra aircraft or fuel.",
+  "core_rule": {
+    "do_not_model_as": "historical replacement graduation + static attrition only",
+    "model_as": "new graduates + recovered wounded + rotated veterans + cadres from reorganized/disbanded units - combat/noncombat permanent losses, with cadre allocation modifying conversion speed and ready fraction",
+    "nonlinearity": "Preserved leaders/navigation/multi-seat crews allow new personnel to be embedded into mixed-experience units instead of rebuilding whole units from novices."
+  },
+  "branch_effects_by_1944Q1": {
+    "IJN_carrier_air": {
+      "effective_conversion_training_speed_vs_static_v048_assumption": [
+        1.1,
+        1.22
+      ],
+      "qualification_latency_reduction_percent": [
+        8,
+        18
+      ],
+      "constraint": "carrier landing qualification, deck-team integration and multi-carrier strike coordination remain narrow bottlenecks; secondary carriers absorb training/ferry/rear-CAP load."
+    },
+    "IJN_land_based_air": {
+      "effective_ready_output_vs_static_replacement_model": [
+        1.12,
+        1.28
+      ],
+      "reasons": [
+        "surviving flight leaders/navigation/radio crews",
+        "natural rotation/recovery to home and rear training establishments",
+        "less need to rebuild units entirely from novice crews"
+      ],
+      "constraint": "fuel, type conversion, long-range navigation/torpedo specialization and airframe supply still cap output."
+    },
+    "IJA_land_based_air": {
+      "effective_ready_output_vs_static_replacement_model": [
+        1.15,
+        1.3
+      ],
+      "reasons": [
+        "large historical training establishment already exists",
+        "branch preserves more combat-experienced cadres",
+        "no U-Go avoids a major 1944 Burma aircrew/airframe sink and reduces emergency front absorption"
+      ],
+      "constraint": "fuel, serviceability, modern-type availability, maintenance and theater transport; this is not a 15-30% increase in factory production."
+    }
+  },
+  "allocation_rule": "The multiplier applies to the rate at which assigned aircraft become crewed/mission-ready and to replacement sustainability. It must not be applied again to raw aircraft production, physical OOB, or a theater band that already explicitly includes the same regeneration effect.",
+  "Bengal_implication": "The earlier 5th Air Division 135-180 whole-theater / 70-105 western-subset bands were too conservative once branch survival and no-U-Go retention are combined. Use the v003 Indian Ocean air ledger instead.",
+  "strategic_implication": "Time has higher option value for Japan than in a static historical replacement model. Two to four weeks of protected training/regeneration can materially improve unit cohesion even when nominal aircraft count changes little.",
+  "provenance": {
+    "internal": [
+      "06_RUNTIME/BENGAL_ARAKAN_CHITTAGONG_1943-10_12_SETTLEMENT_v002.md",
+      "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+      "PACIFIC_FLEET_AUDIT_1944-03-08/FLEET/JAPAN_CARRIER_SURFACE_FLEET_AUDIT_1944-03-08_WORKING_v001.json"
+    ],
+    "external": [
+      "https://rikukaigun.org/IJA/IJA%20aircraft%20data.html",
+      "https://history.army.mil/portals/143/Images/Publications/catalog/9-2.pdf"
+    ]
+  }
+}

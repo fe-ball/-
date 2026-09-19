@@ -1,0 +1,13 @@
+FLINTLOCK 1944-02-06/07 NIGHT + D+1 RE-RUN -- PROVENANCE AND GUARDS
+
+Source working frontier: FLINTLOCK_1944-02-06T24_WORKING_CHECKPOINT_v001.
+Historical behavior anchors consulted only as behavior references: official US Army/Marine histories describe a roughly 100-man Namur dawn counterattack and generally local/infiltration-style night action on Kwajalein; historical dates, loss totals, and outcomes are NOT inherited.
+
+Mandatory guards:
+- Branch Tarawa lessons apply to both sides only through information actually available.
+- Better Japanese communications do not restore fortress-wide C2 after repeated bombardment.
+- Better ammunition dispersion improves survivability but does not create new manpower, tanks, or depth.
+- US Tarawa learning improves registered fires, traffic control, and strongpoint reduction, but artillery/radio/road capacity remains finite.
+- No named US ship hit is fabricated on 7-Feb.
+- Regional surviving aircraft are not automatically available over Kwajalein/Roi-Namur.
+- Historical Namur magazine catastrophe remains excluded.

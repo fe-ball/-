@@ -1,0 +1,68 @@
+{
+  "revision": "v002",
+  "id": "I400_SEIRAN_STRIKE_GATE_1944-05-24_v002",
+  "status": "WORKING_CURRENT_OVERLAY_GATE",
+  "as_of": "1944-05-24T24:00:00+09:00",
+  "parent": "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+  "readiness": {
+    "I400": "combat ready with 3-aircraft integrated strike",
+    "I401": "commissioned April; final integrated work-up",
+    "seiran_pool_physical": 6,
+    "serviceable_band": [
+      5,
+      6
+    ],
+    "fully_mission_ready_band": [
+      4,
+      5
+    ],
+    "three_aircraft_launch": "best drills within 30-35 min; repeatability across both boats not yet formally signed off",
+    "gate_state": "AMBER / one final joint-workup step short of release",
+    "expected_release_if_no_defect": {
+      "band": "1944-05-28..06-02",
+      "center": "1944-05-30"
+    }
+  },
+  "why_not_launch_5_24": [
+    "The surprise itself is a one-time strategic asset.",
+    "The six-aircraft system is days from closing; a three-aircraft raid wastes surprise for much lower expected damage.",
+    "FORAGER logistics concentrations become more lucrative around the turn of May/June."
+  ],
+  "target_intelligence_priority": [
+    {
+      "target": "Majuro service/logistics anchorage",
+      "priority": 1,
+      "why": "highest short-window payoff if ammunition/oiler/repair concentration is confirmed before TF58 sortie",
+      "desired_window": "1944-06-01..04",
+      "required_confirmation": "fresh recon/submarine/traffic evidence of concentrated AO/AE/AR/fuel/ammunition; no broad search",
+      "risk": "stronger base defense and very short timing window"
+    },
+    {
+      "target": "Eniwetok forward logistics/staging complex",
+      "priority": 2,
+      "why": "more fixed and easier to pre-plan; FORAGER forward service/staging value rises in early June",
+      "desired_window": "1944-06-01..06",
+      "required_confirmation": "fuel/ammunition/support shipping or forward service concentration",
+      "risk": "lower single-target payoff than a confirmed Majuro ammunition/oiler cluster"
+    },
+    {
+      "target": "Kwajalein/Roi logistics/staging",
+      "priority": 3,
+      "why": "fixed fallback if higher-value packets cannot be confirmed",
+      "risk": "lower payoff; surprise may not be worth spending"
+    }
+  ],
+  "explicit_non_targets": [
+    "mobile TF58 carriers at sea without a fresh fixed track",
+    "small merchants or low-value local craft",
+    "a base with no identified logistics concentration"
+  ],
+  "recommended_centerline_on_5_24": "Do not launch yet. Complete joint drills and build a target packet. If Majuro concentration is confirmed around 29-31 May, prepare a dawn/night strike for 1-4 June; otherwise shift to confirmed Eniwetok fixed logistics. No strike result is pre-adjudicated in this file.",
+  "mission_design_questions_to_close_before_release": [
+    "recovery vs one-way/sea-recovery policy",
+    "bomb/torpedo load against specific depot/ship targets",
+    "night/twilight ingress and navigation",
+    "US radar/CAP/ASW density",
+    "submarine egress route after surprise is spent"
+  ]
+}

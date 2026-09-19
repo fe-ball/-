@@ -1,0 +1,17 @@
+field	value
+nominal_version	V18
+base_package	V17 naval/CRP consolidated full package
+build_date	2026-09-13
+current_technical_session_folder	86-CURRENT-2026-09-13-WATER-SEAPLANE-SUBMARINE-SEIRAN-V18
+current_replay_session_folder	84-CURRENT-2026-09-11-THREAD-CONSOLIDATION-V16
+china_clock	1940-07-31 24:00
+nomonhan_clock	1939-08-31 24:00 CLOSED
+next_replay_gate	Hundred Regiments Offensive lead-in / first phase
+next_water_aircraft_gate	E13A + F1M fleet reconnaissance/spotting system closeout
+next_shiun_gate	E15K initial-production one-sheet + Oyodo integration
+next_submarine_gate	Yamamoto 18-plan I-400 yard/resource release audit
+protagonist_guard	GT/engine/jet core = real expert answer/route knowledge; not ruler; industrial gates remain
+CRP_status	common technology; central for E15K/Kyofu, rejected/conditional elsewhere by mission trade
+Seiran_status	technical working closeout; E7-M-LF 4-blade central conditional, Atsuta32 schedule fallback
+I400_status	Yamamoto strategic branch restored; technical architecture working close; completion count open
+branch_guard	V18 explicit-only supersession; otherwise inherit V17/V16/V14/V10/V9/V8 current authority

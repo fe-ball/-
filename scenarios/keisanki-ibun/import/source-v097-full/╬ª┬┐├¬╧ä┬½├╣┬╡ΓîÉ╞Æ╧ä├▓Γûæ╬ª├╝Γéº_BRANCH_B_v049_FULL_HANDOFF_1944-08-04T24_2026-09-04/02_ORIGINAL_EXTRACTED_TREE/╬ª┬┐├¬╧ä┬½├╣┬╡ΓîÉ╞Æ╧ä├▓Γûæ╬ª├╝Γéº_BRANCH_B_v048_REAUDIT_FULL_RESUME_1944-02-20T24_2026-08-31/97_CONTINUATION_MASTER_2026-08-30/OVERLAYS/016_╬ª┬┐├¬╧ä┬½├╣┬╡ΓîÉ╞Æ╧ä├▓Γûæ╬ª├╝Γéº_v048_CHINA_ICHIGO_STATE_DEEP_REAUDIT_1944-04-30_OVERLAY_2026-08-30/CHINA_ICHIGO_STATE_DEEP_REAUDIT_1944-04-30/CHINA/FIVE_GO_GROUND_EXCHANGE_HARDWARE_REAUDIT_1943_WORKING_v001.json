@@ -1,0 +1,64 @@
+{
+  "revision": "v001",
+  "id": "FIVE_GO_GROUND_EXCHANGE_HARDWARE_REAUDIT_1943_WORKING_v001",
+  "status": "WORKING_ACCOUNTING_REAUDIT_NOT_YET_PROMOTED_TO_CANONICAL_CASUALTY_LEDGER",
+  "as_of_review": "1944-04-30T24:00:00+09:00",
+  "purpose": "Answer whether the current v048 land-hardware/process layer should improve Japanese ground exchange ratios in Five-Go, without applying a blanket multiplier or inventing Phase III-A casualties.",
+  "current_canonical_phase_I_II": {
+    "japanese_casualties": [
+      27000,
+      34000
+    ],
+    "chinese_casualties": [
+      79000,
+      102000
+    ],
+    "center_chinese_per_japanese": 2.967,
+    "source": "CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001"
+  },
+  "hardware_reservation_status": "The current land-hardware reservation explicitly leaves most prior ground events uncorrected event-by-event; Bengal/Arakan and Tarawa have been scoped exceptions. Five-Go has not yet received that event-local correction.",
+  "working_event_local_correction_if_applied": {
+    "phase_I": {
+      "japanese_casualties": [
+        16500,
+        20500
+      ],
+      "chinese_casualties": [
+        58000,
+        74000
+      ],
+      "reason": "Prepared artillery/ammunition QC, tactical communications, engineer/vehicle uptime and recovery are more useful on the North China/Guanzhong road-rail axes than a theater-wide scalar, but Chinese retreat preserves much of the field army."
+    },
+    "phase_II": {
+      "japanese_casualties": [
+        9500,
+        12500
+      ],
+      "chinese_casualties": [
+        25000,
+        34000
+      ],
+      "reason": "Mountain/Cinling terrain down-rates vehicle/direct-fire gains; artillery/communications/engineering still produce a modest exchange improvement."
+    },
+    "combined_phase_I_II": {
+      "japanese_casualties": [
+        26000,
+        33000
+      ],
+      "chinese_casualties": [
+        83000,
+        108000
+      ],
+      "center_chinese_per_japanese": 3.237,
+      "center_exchange_ratio_improvement_vs_current_pct": 9.1
+    },
+    "confidence": "LOW_MEDIUM; this is a bounded working correction pending phase-by-phase event reconstruction"
+  },
+  "phase_III_A_guangyuan": {
+    "status": "MISSING_EVENT_LOCAL_CASUALTY_BASELINE_IN_CURRENT_PACKAGE",
+    "rule": "Do not fabricate a casualty number. Reconstruct the late-Sep/Oct to late-Oct/early-Nov 1943 Hanzhong-Guangyuan fighting separately before producing a full 1943 China casualty total."
+  },
+  "strategic_interpretation": "Yes, v048-style land re-audit likely raises the Japanese ground exchange ratio modestly. The larger branch damage to Chongqing still comes from loss of equipment/stocks/nodes, degraded transport/fiscal base, western force fixation and recurring air/logistics taxes rather than a dramatic multiplication of Chinese bodies lost.",
+  "no_blanket_multiplier": true,
+  "canonical_casualties_changed": false
+}

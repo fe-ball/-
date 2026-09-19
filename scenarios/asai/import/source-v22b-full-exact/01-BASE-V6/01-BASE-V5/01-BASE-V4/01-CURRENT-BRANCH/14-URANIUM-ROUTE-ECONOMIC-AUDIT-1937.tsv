@@ -1,0 +1,8 @@
+record_id	domain	time	item	stage	cost_or_price	status	notes
+U-001	feedstock	1926-30	uranium-bearing residue/concentrate/oxide off-take	not bulk low-grade ore		CLOSED-METHOD	U content can have low marginal value; freight/process still matter
+U-002	chemistry	1930-33	technical-grade uranium chemistry/purification	lab-pilot		WORKING	separate chemistry line; no nuclear-grade purity requirement
+U-003	metal	1933-35	natural uranium metal	pilot	$20-50/lb cost	WORKING	research/special sales only
+U-004	metal	1936-37	natural uranium specialty metal	semi-commercial	$8-15/lb cost; $12-20/lb sale	WORKING	saleable versus tungsten-density roles, not commodity metals
+U-005	alloy	1937	U-0.75Ti-class alloy	research only		OPEN	Ti supply not mature enough for 1937 mass product
+U-006	market	1937	dense finished components	limited sale		WORKING	prefer finished/encapsulated parts over broad raw-billet commodity
+U-007	market	1937	ordinary ballast/shielding	not competitive		CLOSED-METHOD	lead/steel remain far cheaper

@@ -1,0 +1,12 @@
+Branch B v048 working overlay. Upstream working dependency: 計算機異聞_v048_FLINTLOCK_1944-02-04_05_DDAY_GO_RERUN_WORKING_2026-08-31.zip plus the 1944-02-03 maritime rebaseline and 1944-02-01_02 integrated rerun.
+
+This overlay reopens and replaces the old v003 D-Day casualty/result line prospectively from 1944-02-06 H-hour. It does not modify the canonical archive in place.
+
+Key guards:
+- No historical OOB/loss result is automatically inherited.
+- Physical/serviceable/mission-ready/committed remain separate.
+- Radar warning, hardening, and already-loaded alert survival are not double-counted.
+- No untraced Japanese armor is spawned.
+- 5-Feb LST cargo remains OPEN.
+- Roi, Namur, and Kwajalein are not assigned one generic defense multiplier.
+- US same-day adaptation is allowed from observed resistance; no omniscient preknowledge is granted.

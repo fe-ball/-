@@ -1,0 +1,37 @@
+{
+  "revision": "v023",
+  "date": "2026-08-26",
+  "result": "PASS",
+  "validator": "98_TOOLS/validate_refactor_v011.py",
+  "checks": {
+    "all_json_parse": true,
+    "current_frontier": "1943-10-01T00:00",
+    "current_restart": "CHECKPOINT_1943-09-30T24_v001",
+    "former_1944_restart_execution_valid": false,
+    "full_current_version_registry_restored": true,
+    "branch_invariant_guard_present": true,
+    "Midway_current_owner": "JAPANESE_HELD",
+    "New_Caledonia_control": "JAPANESE_MILITARY_CONTROL_VICHY_NOMINAL_SOVEREIGNTY",
+    "US_branch_carrier_losses": [
+      "Lexington",
+      "Yorktown",
+      "Enterprise",
+      "Hornet",
+      "Saratoga"
+    ],
+    "British_branch_carrier_losses": [
+      "Indomitable",
+      "Formidable"
+    ],
+    "Japanese_first_line_core_alive": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu"
+    ],
+    "COMINT_guard_active": true,
+    "China_Hanzhong_PhaseII_closed": true,
+    "Sichuan_PhaseIII": "HOLD",
+    "generator_smoke_current_checkpoint": true
+  }
+}

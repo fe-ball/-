@@ -1,0 +1,17 @@
+key	value
+branch_id	V22B-CHINA-PEACE-GERMAN-JET-TRANSFER
+parent_package	V21-1944-YEAREND-SOVIET-PACT-GATE
+branch_clock	1944-12-31 approximate strategic state
+china_peace	ACTIVE
+japan_us_uk_nl_war	NO through 1944 center branch
+japan_ussr_war	NO through 1944 center branch
+E5_full_transfer_to_germany	ACCEPTED
+E5D_operational_family	ACCEPTED
+E6_second_transfer	ACCEPTED branch working history
+E6D_hybrid_backcross	ACCEPTED
+German_jet_mass_operational_system_1944	WORKING-CLOSED
+Bagration_historical_AGC_destruction	AVOIDED in branch
+Warsaw_historical_Aug1_uprising_chain	NOT_AUTOMATIC / likely absent at that date
+Romania_historical_Aug1944_collapse	AVOIDED through 1944 center branch
+1945_German_offensive_option	OPEN
+1945_Japanese_entry_gate	OPEN

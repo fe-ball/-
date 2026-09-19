@@ -1,0 +1,20 @@
+{
+  "revision": "v002",
+  "current_execution_floor": {
+    "checkpoint": "WARSTART_1941-12-07_08_v002",
+    "later_local_restart": "1942-05-06T24:00",
+    "later_local_restart_status": "provisional state after COMINT correction; must regenerate 5/4-5/6 handout before 5/7 Coral Sea"
+  },
+  "checkpoint_rules": [
+    "Each checkpoint stores state delta and parent hash/baseline IDs, not a duplicate of all technical canon.",
+    "Changing a checkpoint invalidates descendants, not siblings/earlier ancestors.",
+    "Changing PREWAR/WARSTART upstream canon creates a new WARSTART baseline and invalidates all wartime descendants unless explicitly revalidated.",
+    "Changing only an evidence citation without changing runtime value does not invalidate descendants.",
+    "A technical index version change requires impact analysis by changed entry IDs and event relevance profiles; unaffected checkpoints may be revalidated rather than rerun."
+  ],
+  "blocked_legacy_branches": [
+    "85 MO/MI recalculation branch",
+    "86 and descendants that depend on 85 until explicit revalidation"
+  ],
+  "preservation_rule": "Blocked branches remain searchable comparison histories."
+}

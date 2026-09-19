@@ -1,0 +1,476 @@
+{
+  "revision": "v004",
+  "cutoff": "1941-12-07/08 opening boundary",
+  "status": "operational_realization_index",
+  "purpose": "Operational realization index; v004 adds compute-as-service provenance and partial steel-process realization while preserving opening OOB.",
+  "required_clocks": [
+    "technical",
+    "requirement",
+    "adoption",
+    "production",
+    "training",
+    "unit_median"
+  ],
+  "entry_count": 27,
+  "entries": [
+    {
+      "id": "PREWAR-AIR-CARRIER-TRIO",
+      "category": "HARD_FIELDING",
+      "opening_state": "REALIZED",
+      "summary": "First-line carrier composition is Zuisei Zero + Zuisei B5N + late-standard D3A; later D4Y/B6N not opening.",
+      "tech_links": [
+        "TECH-AIR-A6M-ZUISEI-OPENING-001",
+        "TECH-AIR-B5N-ZUISEI-OPENING-001",
+        "TECH-AIR-D3A-OPENING-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+        },
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/50_航空機研究_陸海軍総合正本.md",
+          "section": "5"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-IJA-FIGHTER-MIX",
+      "category": "HARD_FIELDING",
+      "opening_state": "REALIZED_BOUNDED",
+      "summary": "Type-100 fighter equivalent 280-380 available; Ki-44 15-25 trial-operational; later types remain outside opening.",
+      "tech_links": [
+        "TECH-AIR-KI43-OPENING-001",
+        "TECH-AIR-KI44-OPENING-TRIAL-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+        },
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/51_陸軍航空機_機種別設計・発動機・日程.md",
+          "section": "3.3-3.4"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-AIR-WEAPON-STANDARDIZATION",
+      "category": "TECH_TO_TRAINING",
+      "opening_state": "REALIZED_WITH_PROVISIONAL_MAGNITUDE",
+      "summary": "Prewar calibration/drop/dive/torpedo standardization exists; exact relative hit-rate bands remain provisional and event-specific.",
+      "tech_links": [
+        "TECH-AIR-GUN-FIGHTER-001",
+        "TECH-AIR-GUN-BOMBER-GROUND-001",
+        "TECH-AIR-BOMB-LEVEL-POINT-001",
+        "TECH-AIR-BOMB-LEVEL-AREA-001",
+        "TECH-AIR-DIVE-FIXED-001",
+        "TECH-AIR-DIVE-MOVING-001",
+        "TECH-AIR-TORPEDO-ATTACK-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md",
+          "section": "3.6"
+        },
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/31_魚雷・水雷戦_魚雷本体・射撃指揮・再装填・運用.md"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-TORPEDO-SECOND-SALVO",
+      "category": "TECH_TO_DOCTRINE",
+      "opening_state": "REALIZED_FIRST_LINE",
+      "summary": "Reload reliability has matured enough that second-salvo/re-entry tactics exist in appropriate first-line units before opening.",
+      "tech_links": [
+        "TECH-TORPEDO-SECOND-SALVO-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/31_魚雷・水雷戦_魚雷本体・射撃指揮・再装填・運用.md",
+          "section": "6"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-SUB-CONVENTIONAL",
+      "category": "HARD_FIELDING",
+      "opening_state": "REALIZED_CLASS_DEPENDENT",
+      "summary": "Conventional submarine reliability/range/dive/battery improvements exist by class; Sen-Taka remains under construction and non-operational.",
+      "tech_links": [
+        "TECH-SUB-CONVENTIONAL-OPERABILITY-001",
+        "TECH-SUB-OPENING-ALLOCATION-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+        },
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/20_潜水艦_世代別設計・就役日程.md"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-SENTAKA",
+      "category": "HARD_CLOCK",
+      "opening_state": "NOT_YET_MATURE",
+      "summary": "Two first-lot Sen-Taka are under construction; zero operational at opening.",
+      "tech_links": [
+        "TECH-SUB-KOU-FIRSTGEN-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-ASW-SURFACE",
+      "category": "TECH_TO_DOCTRINE",
+      "opening_state": "PARTIAL_REALIZATION",
+      "summary": "Ship-noise tables, depth-setting calculation and two-ship contact/attack concepts exist in trained/equipped formations; later radar/forward-throwing/layered ASW gaps remain.",
+      "tech_links": [
+        "TECH-ASW-SONAR-OWNNOISE-001",
+        "TECH-ASW-DEPTH-SETTING-001",
+        "TECH-ASW-CONTACT-HANDOFF-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/41_艦艇対潜_探信・爆雷・護衛運用.md"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-RADAR",
+      "category": "HARD_CLOCK",
+      "opening_state": "PRECURSOR_TRIAL",
+      "summary": "Fleet radar is precursor/trial at opening; do not inject mature 1942/43 closed-loop capabilities.",
+      "tech_links": [
+        "TECH-RADAR-1942-HUMANLOOP-001",
+        "TECH-RADAR-CLOSEDLOOP-1943PLUS-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+        },
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/switch_registry_v010.json"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-COMSEC",
+      "category": "SERVICE_CAPABILITY",
+      "opening_state": "OPERATIONAL_PARTIAL",
+      "summary": "Central statistical/cryptographic audit exists by opening; frontline key distribution/compliance remain constraints.",
+      "tech_links": [
+        "TECH-COMSEC-CENTRAL-AUDIT-OPENING-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+        },
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/70_暗号・通信情報_設計防御・攻撃・運用.md"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-CARRIER-MISSION-CLASS",
+      "category": "TECH_TO_MISSION",
+      "opening_state": "REALIZED_CONDITIONAL",
+      "summary": "Some light/converted carriers can execute higher mission classes under favorable wind/load conditions, creating additional support fronts.",
+      "tech_links": [
+        "TECH-CARRIER-MISSION-CLASS-001",
+        "TECH-CARRIER-AIR-OPENING-CAPACITY-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/60_開戦戦力・輸送・空母・揚陸・砲計算.md",
+          "section": "3"
+        },
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-LANDING-PACKAGE",
+      "category": "TECH_TO_DOCTRINE",
+      "opening_state": "REALIZED_PREPARED_OPERATIONS",
+      "summary": "Prepared amphibious operations can sequence combined-arms packages rather than only increasing first-wave headcount.",
+      "tech_links": [
+        "TECH-LANDING-PACKAGE-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/60_開戦戦力・輸送・空母・揚陸・砲計算.md",
+          "section": "4"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-SHIPPING",
+      "category": "LOGISTICS",
+      "opening_state": "LIMITED_REALIZED",
+      "summary": "Opening gain comes from existing-ship loading/turnaround and project-specific computation. Wartime-standard-ship design/process is frozen/transitioning, but mass completed-tonnage gain is post-opening and quantity remains wartime-resource dependent.",
+      "tech_links": [
+        "TECH-LOG-OPENING-TURNAROUND-001",
+        "TECH-LOG-STANDARD-SHIP-I-001",
+        "TECH-COMPUTE-AS-SERVICE-DIFFUSION-001",
+        "TECH-LOG-ASSET-UPTIME-ACCOUNTING-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+        },
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/switch_registry_v010.json"
+        },
+        {
+          "path": "02_TECH/INDUSTRIAL_LOGISTICS_BASELINE_1932_1942_v001.md",
+          "section": "1-2,4"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-IJA-BASE-MOBILITY",
+      "category": "SOFT_SERVICE",
+      "opening_state": "OPERATIONAL_PARTIAL",
+      "summary": "Army air-base mobility/support organization exists in part; runway, drainage, fuel, ammunition, spares, tools and transport remain explicit constraints.",
+      "switch_links": [
+        "IJA-AIR-BASE-MOBILITY"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/switch_registry_v010.json"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-IJA-AIRGROUND-LIAISON",
+      "category": "SOFT_SERVICE",
+      "opening_state": "PRESENT_LIMITED",
+      "summary": "Air-ground liaison exists in opening planning but is not frictionless real-time close-air-support control.",
+      "switch_links": [
+        "IJA-AIR-GROUND-LIAISON"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/switch_registry_v010.json"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-IJN-AIRGROUND-SEPARATION",
+      "category": "SOFT_TRIGGER",
+      "opening_state": "LATENT",
+      "summary": "Later navy air/ground separation institution is not pre-granted at opening; wartime friction/learning may trigger it.",
+      "switch_links": [
+        "IJN-AIR-GROUND-SEPARATION"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/switch_registry_v010.json"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-SKILL-LEVELING",
+      "category": "SOFT_TRIGGER",
+      "opening_state": "LATENT_WITH_NATURAL_RETURN_ON",
+      "summary": "Natural personnel movement is tracked from opening, but deliberate skill leveling/veteran redistribution remains latent.",
+      "switch_links": [
+        "A-NATURAL-RETURN",
+        "A-SKILL-LEVELING",
+        "A-DELIBERATE-VETERAN-NUCLEUS-REALLOCATION"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/switch_registry_v010.json"
+        },
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-THRUST-EXHAUST",
+      "category": "HARD_CLOCK",
+      "opening_state": "TEST_ONLY",
+      "summary": "Thrust exhaust is bench/limited flight-test at opening; no opening fleet-wide speed bonus.",
+      "switch_links": [
+        "TECH-THRUST-EXHAUST"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_technical_clock_guard_v001.json"
+        },
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/switch_registry_v010.json"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-TOKAI",
+      "category": "HARD_CLOCK",
+      "opening_state": "PRELIMINARY_REQUIREMENT",
+      "summary": "Tokai dedicated ASW aircraft is not opening combat capability.",
+      "switch_links": [
+        "TECH-TOKAI"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/switch_registry_v010.json"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-SURFACE-ASASHIO-KAGERO-MEDIAN",
+      "category": "HARD_FIELDING",
+      "opening_state": "REALIZED_CLASS_DEPENDENT",
+      "summary": "Asashio/Kagero-class opening units carry the improved operational speed/range/reliability median; effect is schedule/readiness plus performance, not just headline knots.",
+      "tech_links": [
+        "TECH-SURFACE-ASASHIO-OPENING-001",
+        "TECH-SURFACE-KAGERO-RELIABILITY-001",
+        "TECH-SURFACE-DC-MARGIN-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/10_水上艦_駆逐艦・戦艦改装・大和型.md",
+          "section": "5, 9"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-TORPEDO-LOT-CALIBRATION",
+      "category": "TECH_TO_TRAINING",
+      "opening_state": "REALIZED_FIRST_LINE_BOUNDED",
+      "summary": "First-line surface torpedo organizations have reduced technical/lot/calibration dispersion and handling failure tail; enemy maneuver remains dominant at long range.",
+      "tech_links": [
+        "TECH-TORPEDO-INTRINSIC-REPEATABILITY-001",
+        "TECH-TORPEDO-FAILURE-TAIL-001",
+        "TECH-TORPEDO-SURFACE-ACCURACY-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/31_魚雷・水雷戦_魚雷本体・射撃指揮・再装填・運用.md",
+          "section": "3-5"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-OPTICS-PRODUCTION-MEDIAN",
+      "category": "HARD_FIELDING",
+      "opening_state": "REALIZED_EQUIPMENT_DEPENDENT",
+      "summary": "Optical manufacturing/calibration has better lot uniformity and rangefinder/night-optic median before opening; no radar-like all-weather substitution.",
+      "tech_links": [
+        "TECH-OPTICS-RANGEFINDER-MEDIAN-001",
+        "TECH-OPTICS-LOT-UNIFORMITY-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/30_センサー射撃指揮_I-O連鎖.md",
+          "section": "2"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-ASW-SEARCH-ATTACK-TABLES",
+      "category": "TECH_TO_DOCTRINE",
+      "opening_state": "PARTIAL_REALIZATION",
+      "summary": "Trained surface ASW units use own-noise speed tables, depth-setting/attack tables and two-ship handoff concepts; equipment and unit coverage remain uneven.",
+      "tech_links": [
+        "TECH-ASW-SEARCH-SPEED-DOCTRINE-001",
+        "TECH-ASW-SONAR-MEDIAN-001",
+        "TECH-ASW-DEPTHCHARGE-DISPERSION-001",
+        "TECH-ASW-CONTACT-HANDOFF-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/41_艦艇対潜_探信・爆雷・護衛運用.md",
+          "section": "2-4"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-LOG-CARGO-PROCESS",
+      "category": "LOGISTICS",
+      "opening_state": "REALIZED_LIMITED",
+      "summary": "Existing shipping gains come from cargo/port/turnaround process before wartime-standard hull output arrives.",
+      "tech_links": [
+        "TECH-LOG-OPENING-CARGO-PROCESS-001",
+        "TECH-LOG-OPENING-TURNAROUND-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/60_開戦戦力・輸送・空母・揚陸・砲計算.md",
+          "section": "2.1"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-AMPHIBIOUS-FIRSTDAY-PACKAGE",
+      "category": "TECH_TO_DOCTRINE",
+      "opening_state": "REALIZED_PREPARED_OPERATIONS",
+      "summary": "Prepared landing forces can translate craft/process gains into faster first-day combined-arms readiness; effect depends on beach/weather/ship package.",
+      "tech_links": [
+        "TECH-AMPHIBIOUS-FIRSTDAY-001",
+        "TECH-LANDING-PACKAGE-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/60_開戦戦力・輸送・空母・揚陸・砲計算.md",
+          "section": "4"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-LIGHT-CARRIER-DECK-CYCLE",
+      "category": "HARD_FIELDING",
+      "opening_state": "REALIZED_NAMED_SHIPS",
+      "summary": "Named light/converted carriers have ship-specific deck-cycle/conversion gains at opening; main fleet carrier deck capacity remains physically bounded.",
+      "tech_links": [
+        "TECH-CARRIER-DECK-CYCLE-LIGHT-001",
+        "TECH-CARRIER-MISSION-CLASS-001",
+        "TECH-CARRIER-AIR-OPENING-CAPACITY-001"
+      ],
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/60_開戦戦力・輸送・空母・揚陸・砲計算.md",
+          "section": "3.2"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-COMPUTE-AS-SERVICE",
+      "category": "SERVICE_CAPABILITY",
+      "opening_state": "REALIZED_MATURE_PROJECT_ACCESS",
+      "summary": "By opening, military/designated industrial work can access computation through contracted/project-specific channels; this is not equivalent to universal computer ownership or all-industry optimization.",
+      "tech_links": [
+        "TECH-COMPUTE-AS-SERVICE-DIFFUSION-001"
+      ],
+      "sources": [
+        {
+          "path": "02_TECH/INDUSTRIAL_LOGISTICS_BASELINE_1932_1942_v001.md",
+          "section": "1"
+        }
+      ]
+    },
+    {
+      "id": "PREWAR-STEEL-PROCESS-ADAPTATION",
+      "category": "INDUSTRIAL_PROCESS",
+      "opening_state": "PARTIAL_REALIZATION",
+      "summary": "Selected steelworks have instrumentation/statistical-process gains and are adapting to the 1940 scrap embargo; national 1941 steel output is only modestly above historical, and no extra opening combat OOB is automatically credited.",
+      "tech_links": [
+        "TECH-INDUSTRIAL-STEEL-ADAPTATION-1940-42-001"
+      ],
+      "sources": [
+        {
+          "path": "02_TECH/INDUSTRIAL_LOGISTICS_BASELINE_1932_1942_v001.md",
+          "section": "3"
+        }
+      ]
+    }
+  ],
+  "rule": "No post-opening battle result may retroactively create a PREWAR realization. Upstream evidence correction may regenerate PREWAR and WARSTART with a new baseline version."
+}

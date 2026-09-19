@@ -1,0 +1,28 @@
+{
+  "id": "FLINTLOCK_JAPANESE_LESSON_PROPAGATION_1944-02-09_15_v001",
+  "status": "WORKING_DOCTRINE_ADJUDICATION_NOT_CANONICAL",
+  "inputs": [
+    "GALVANIC/Tarawa combat reports and surviving observations",
+    "Kwajalein/Roi-Namur radio reports before collapse",
+    "outer-Marshall visual/air/submarine observations",
+    "loss of the atoll and US operational behavior"
+  ],
+  "immediate_conclusions_8_11Feb": [
+    "A stronger beach/lagoon defense can impose cost but cannot survive repeated battleship/carrier/direct-fire reduction on a shallow atoll without depth.",
+    "Distributed ammunition, local C2, shelters and alternate firing points materially improve survival and delay and therefore should be retained.",
+    "Massed exposed airfield aircraft and support functions are unacceptable; dispersion, decoys, rapid repair and withdrawal/staging routes remain mandatory.",
+    "Local counterattack and mobile reserve are more useful than a single early mass suicide attack, but open movement under US observation is extremely dangerous."
+  ],
+  "directive_11_15Feb_center": [
+    "Beach positions become warning/delay/fire-control shells rather than the sole main battle line where terrain permits.",
+    "Main resistance should move deeper, reverse-slope, cave/tunnel or distributed strongpoint systems where geography allows.",
+    "Keep ammunition/water/C2 small and separated; provide alternate command posts, runners and redundant cable.",
+    "Pre-register inland blocking fires and anti-armor/anti-LVT lanes; hold small reserves under cover.",
+    "Preserve reconnaissance/water-air/sensor networks even when principal airfields are suppressed."
+  ],
+  "Eniwetok_short_warning_case": {
+    "if_assault_within_10_14_days": "Only field-expedient adaptation is possible: move/redisperse ammunition and water, designate local reserves, add alternate fighting positions, camouflage/decoys, relocate some command and crew shelters, re-register fires and abandon selected overly exposed beach positions. No deep cave/tunnel fortress can be created on a flat coral atoll in days.",
+    "guard": "Do not back-port Palau/Marianas spring-summer depth-defense maturity into February Eniwetok."
+  },
+  "longer_term_effect": "Palau and Marianas receive weeks-to-months of additional time to convert the lesson into materially deeper, more redundant defenses; downstream fortification states must be reopened accordingly."
+}

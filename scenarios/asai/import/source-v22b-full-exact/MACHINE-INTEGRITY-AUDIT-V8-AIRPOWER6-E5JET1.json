@@ -1,0 +1,11 @@
+{
+  "package": "ASAI-WORLDLINE-HANDOFF-2026-09-04-FULL-V8-1939AIRPOWER6-E5JET1",
+  "parent": "ASAI-WORLDLINE-HANDOFF-2026-09-04-FULL-V8-1939AIRPOWER5-GTCORE1",
+  "combat_checkpoint": "1939-04-20 24:00",
+  "combat_replay_status": "HOLD_FOR_AVIATION_AUDIT",
+  "scope": "E5-J/JF installed product closure and aircraft propulsion reverse audit",
+  "expected_total_files": 442,
+  "expected_inventory_rows": 439,
+  "expected_manifest_rows": 440,
+  "expected_sha_targets": 440
+}

@@ -1,0 +1,37 @@
+{
+  "id": "GALVANIC_TARAWA_DPLUS1_1943-11-25_REAUDIT_WORKING_v001",
+  "status": "WORKING_BRANCH_RERUN_NOT_YET_PROMOTED",
+  "time": "1943-11-25T05:30..24:00 local",
+  "US_plan_after_observed_night_attack": {
+    "priority_1": "restore and harden Red 2/3 connection and supply-command corridor",
+    "priority_2": "land remaining Shermans/engineers/ammunition through verified high-water lanes and repair LVT shuttle fleet",
+    "priority_3": "reduce observed strongpoints with tank + engineer + 75-mm + destroyer/CVE spotting cycle before broad advance",
+    "not_assumed": "perfect knowledge of every bunker, underground connection or Japanese local ammunition state"
+  },
+  "US_ground_state": {
+    "M4A2_ashore_by_late_day": "11-13 of 14 physical",
+    "M4A2_operational_late_day": "9-11",
+    "LVT": "some D-day damaged vehicles return to shuttle/casualty-evac duty; enough lift exists to improve logistics, but not all 87-wave vehicles are available",
+    "communications": "much better than historical 20-Nov Tarawa because dry radios/lanes were achieved, but night damage and congestion still require local rerouting"
+  },
+  "Japanese_ground_state": {
+    "organized_first_line_equivalent_at_dawn": "~1650-2050 across strongpoints/local reserves; not all mutually connected",
+    "armed_support_local_pool": "~450-650 useful for strongpoint security, ammunition, local fighting and runners; not equal to SNLF infantry",
+    "Type95_day_use": "2-4 vehicles appear in short-hop/local-firepoint actions; avoid a second mass charge",
+    "Type95_T24": "2-4 contact-capable centered, with 0-1 additional short-repair candidate; recovery ceiling deteriorates as US territory expands",
+    "C2": "islandwide command increasingly unreliable; strongpoint-level wire/runners remain materially better than historical baseline",
+    "ammunition": "no islandwide shortage yet, but local isolation creates uneven stocks; well-dispersed magazines delay catastrophic local collapse"
+  },
+  "terrain_progress": {
+    "morning": "Red 2/3 connection restored and armored by roughly 08:30-10:30 centered",
+    "afternoon": "US expands over much of the central lagoon-side/airfield sector; advance is deliberate because active south/west-oriented positions can still fire obliquely or counter local moves",
+    "Green_Beach_west": "not treated as fully open logistics beach by T24; western positions remain costly and require reduction",
+    "east_north": "organized Japanese pockets remain; no secure-island declaration is plausible"
+  },
+  "casualties": {
+    "US_Dplus1": "~540-760 additional total K/W/M class",
+    "US_cumulative_through_11_25_T24": "~2000-2550 total K/W/M class working band; final campaign tally remains open",
+    "Japan_Dplus1": "~650-900 additional casualties class, heavily concentrated in exposed strongpoints and the remnants of the night mobile reserve"
+  },
+  "T24_assessment": "US beachhead is operationally secure and increasingly well supplied, but Japanese organized defense remains coherent enough to require at least another multi-day reduction effort. The ground clock is now later than v004 and must feed back into naval-air mission state."
+}

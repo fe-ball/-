@@ -1,0 +1,31 @@
+term	rule
+CURRENT-CLOSE	Current authority where explicitly listed
+CURRENT-REPLAY	Accepted replay event/state through the stated history clock; may be reopened only explicitly
+CURRENT-PLANNING	Accepted planning band; future realization remains replay-dependent
+WORKING-CLOSE	Accepted interpretation until dedicated closeout refines it
+WORKING	Current planning/result; may move with dedicated closeout
+GATED	Future condition/decision; not a completed event
+NEXT-GATE	Highest-priority next item; not yet closed
+OPEN	Unresolved; do not silently choose a branch
+ANALYSIS-ONLY	Never auto-import into canon/OOB/losses
+physical	Physically exists; does not imply accepted/service-released/assigned/ready/combat-present
+accepted	Factory/arsenal accepted; does not imply service release
+service-released	Eligible for normal unit use; does not imply theater assignment
+assigned	Allocated to a unit/theater; does not imply ready
+ready	Mission-ready at the stated time
+combat-present	Actually present in a replayed combat event
+withdrawal_ordered	Ordered to withdraw; not yet concentrated/transported/reassigned
+withdrawal_concentrated	Moved into withdrawal concentration area; not theater-exited
+withdrawal_theater_exit	Left China theater; still may require rest/refit/reassignment
+returned_manchuria	Actually arrived in Manchuria/Kwantung area; does not imply Soviet-front ready
+workband	Engineering/planning range; not a direct combat multiplier or exact observed value
+future_technical_shadow	Engineering/design/qualification possibility after current replay date; not actual history until a later replay/procurement layer realizes it
+historical_anchor	Historical fact/measurement used as constraint; worldline result may differ only through explicit causal change
+replay_clock_guard	V19 main replay clock is 1941-05-31 24:00
+china_peace_guard	Formal branch peace is in force from 1941-05-20; historical post-May China campaigns do not auto-occur
+barbarossa_guard	1941-06-22 German invasion remains next historical anchor unless pre-22-Jun replay explicitly changes it
+siberian_divisions_guard	Never use popular aggregate shorthand instead of unit/date transfer data
+nomonhan_global_effect_guard	Raw 1939 casualty delta is modest; main global channel is 1941 eastern threat perception and force-transfer timing
+us_oil_guard	Ordinary petroleum/DEI trade, premium avgas/TEL controls, asset freeze and broader embargo are separate policy levers
+fuel_grade_guard	V16 Grade A/B/C doctrine retained; avgas shortage does not equal GT/diesel fuel absence
+explicit_only_supersession	Later layers supersede older current authority only on subjects they explicitly close/reopen

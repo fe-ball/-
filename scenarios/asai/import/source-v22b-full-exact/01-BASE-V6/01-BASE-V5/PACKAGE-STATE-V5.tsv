@@ -1,0 +1,9 @@
+package	ASAI-WORLDLINE-HANDOFF-2026-08-30-FULL-V5-MECHFIX1
+semantic_version	V5 (mechanical fix only)
+files_total	283
+restart_clock	1938-06-30 24:00
+highest_authority	10-CURRENT-SESSION-GATES/asai_gate76_june_restart/76-1938-06-30-RESTART-BASELINE.md
+inventory_rule	all files except PACKAGE-INVENTORY-V5.tsv, FULL-PACKAGE-MANIFEST-SHA256.tsv, SHA256SUMS-V5.txt
+manifest_rule	all files except FULL-PACKAGE-MANIFEST-SHA256.tsv and SHA256SUMS-V5.txt
+sha256sums_rule	all files except SHA256SUMS-V5.txt
+base_v4_policy	01-BASE-V4 byte-identical to original V4

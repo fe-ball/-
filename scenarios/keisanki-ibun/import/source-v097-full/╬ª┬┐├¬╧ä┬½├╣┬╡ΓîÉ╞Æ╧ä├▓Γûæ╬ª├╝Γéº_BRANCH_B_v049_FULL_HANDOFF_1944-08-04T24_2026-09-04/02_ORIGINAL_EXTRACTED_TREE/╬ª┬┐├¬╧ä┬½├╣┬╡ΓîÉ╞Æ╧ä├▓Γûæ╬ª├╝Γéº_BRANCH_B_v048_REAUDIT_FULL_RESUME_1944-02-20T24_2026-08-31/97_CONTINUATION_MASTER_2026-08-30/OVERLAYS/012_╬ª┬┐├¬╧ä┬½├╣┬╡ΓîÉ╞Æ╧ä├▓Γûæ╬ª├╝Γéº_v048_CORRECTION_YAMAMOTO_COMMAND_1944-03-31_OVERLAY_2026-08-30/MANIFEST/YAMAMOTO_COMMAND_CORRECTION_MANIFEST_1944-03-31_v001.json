@@ -1,0 +1,26 @@
+{
+  "revision": "v001",
+  "id": "YAMAMOTO_COMMAND_CORRECTION_MANIFEST_1944-03-31_v001",
+  "status": "WORKING_CORRECTION_OVERLAY_MANIFEST",
+  "global_frontier": "1944-03-31T24",
+  "apply_after": [
+    "計算機異聞_v048_PACIFIC_ISR_PALAU_1944-03-21_31_OVERLAY_2026-08-30.zip"
+  ],
+  "load_new_files_in_order": [
+    "COMMAND/COMBINED_FLEET_COMMAND_YAMAMOTO_CORRECTION_1944-03-31_v001.json",
+    "STATE/PARALLEL_THEATER_STATE_1944-03-31T24_WORKING_v002.json"
+  ],
+  "invalidates_or_supersedes": [
+    "COMBINED_FLEET_HQ_RELOCATION_AND_KOGA_SURVIVAL_1944-03-27_31_WORKING_v001",
+    "PARALLEL_THEATER_STATE_1944-03-31T24_WORKING_v001 command/HQ fields only"
+  ],
+  "preserved_from_prior_overlay": [
+    "Japanese ISR maturation",
+    "36-60h class Palau warning",
+    "high-value fleet/logistics dispersal",
+    "no four-carrier Palau sortie",
+    "Palau fixed-base attrition settlement",
+    "Taiho/carrier regeneration through 31 Mar"
+  ],
+  "critical_rule": "Yamamoto survival is a Branch invariant. Never auto-apply the historical Yamamoto-to-Koga-to-Toyoda Combined Fleet succession chain unless a new Branch event explicitly removes or relieves Yamamoto."
+}

@@ -1,0 +1,26 @@
+priority	status	topic	question_or_gate	guard
+1	NEXT-GATE	major_power_perceptions	How do Berlin, Moscow, London, Washington, Tokyo, Chongqing and other leaderships recognize/prefer/fear Eurasian end-states?	Separate FACT / ESTIMATE / BELIEF / PLAN-INPUT / PUBLIC-LINE
+2	OPEN	german_post_soviet_spheres	What concrete post-Soviet territorial/sphere arrangement will Berlin discuss with Japan?	Do not assume German victory automatically yields Japanese satisfaction
+3	OPEN	us_uk_northward_trigger	What do US/UK actually do if Japan attacks USSR: protest, sanctions, oil freeze, direct war?	Tokyo does not know the true trigger table
+4	OPEN	japanese_two_divisions_aug1942	Which two China-withdrawal divisions receive the 24 Aug 1942 northward transfer order?	Audit China withdrawal/readiness before naming
+5	OPEN	kwantung_oob_1942_08	Exact 1942-08-31 Japanese northern armor/AT/vehicle/air/E6/E7/logistics quantities	Do not extrapolate 1941 counts mechanically
+6	OPEN	soviet_far_east_oob_1942_08	Exact worldline Soviet Far-East/Transbaikal strength after all GO/HOLD transfer decisions	Unit/date ledger required
+7	OPEN	stalingrad_sep1942	How much do held 87/98/126/208/422 change September city/perimeter fighting?	German logistics and Soviet internal reserves remain constraints
+8	OPEN	caucasus_sep1942	Does Germany threaten Grozny/Baku or stall from logistics/terrain?	Maikop capture != usable oil
+9	OPEN	n_opportunity_war	Does N-OPP RED cross into actual Japanese Soviet-war decision?	Needs political-response audit plus military outcome assessment
+10	OPEN	n_preventive	If Soviet strategic recovery emerges, does N-PREV become stronger than N-OPP?	Different rationale and coalition reaction
+11	OPEN	n_accommodation	At what Soviet advantage does Japan pivot from war option toward durable northern settlement?	Not pro-Soviet alignment
+12	OPEN	s_resource_crisis	Do US/UK/NL impose broader restrictions for Japanese northern mobilization even without invasion?	Do not auto-import historical July 1941 embargo
+13	OPEN	s_war	Could sanctions from a northward war make southern seizure mandatory?	Model north->sanctions->south chain explicitly
+14	OPEN	carrier_800_keel	Actual No.800 keel date	Target Aug-Sep 1942, not yet replay-closed
+15	GATED	carrier_additional_two	October 1942 decision on two more No.800-family carriers	Review Essex/Lexington progress and yards first
+16	OPEN	carrier_801_802	Detailed improved-Taiho schedules/specification	Retain separate armored-carrier line
+17	OPEN	catapult_cat2	Full-scale land launcher qualification	Do not delay carriers automatically
+18	OPEN	combined_cycle_c1	E6 + 40/400 integrated land-rig result	C0 closed only
+19	OPEN	combined_cycle_c2_c7	E7 marine core through mass-production gates	No second experimental ship until gates justify it
+20	OPEN	africa_gazala_tobruk	Dedicated OOB/logistics audit of V20 Tobruk-survival branch	Current result is WORKING-REPLAY
+21	OPEN	malta_herkules	Does Axis attempt Malta operation in this altered Mediterranean balance?	No Japanese Indian Ocean diversion improves British position
+22	OPEN	us_germany_war	What future incident/policy could bring formally nonbelligerent US into war with Germany?	No historical 11 Dec trigger
+23	OPEN	pacific_lend_lease	Scale and Japanese tolerance of Vladivostok route in 1942	Monitoring/assurances currently preferred over blockade
+24	OPEN	china_postwithdrawal_politics	KMT/CCP/local power balance as Japanese withdrawal reaches 15-month center	No automatic immediate civil war
+25	OPEN	japan_economy_1942	Quantitative 1942 fiscal/shipping/oil/labor recovery audit	Current values are workbands

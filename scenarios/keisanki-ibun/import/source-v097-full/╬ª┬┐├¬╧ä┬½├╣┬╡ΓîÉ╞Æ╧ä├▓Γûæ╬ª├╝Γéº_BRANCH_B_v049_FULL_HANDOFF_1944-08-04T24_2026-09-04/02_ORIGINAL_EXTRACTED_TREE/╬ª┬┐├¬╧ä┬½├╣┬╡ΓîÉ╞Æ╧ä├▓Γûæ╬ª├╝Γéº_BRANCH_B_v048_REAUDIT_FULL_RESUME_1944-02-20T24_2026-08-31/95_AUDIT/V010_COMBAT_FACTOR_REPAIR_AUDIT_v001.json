@@ -1,0 +1,18 @@
+{
+  "revision": "v001",
+  "package_revision": "v010",
+  "date": "2026-08-23",
+  "purpose": "Repair recurrent combat-capability adjudication omissions by making a combat-factor completeness layer a first-class dependency of the current restart.",
+  "state_change": "none",
+  "new_current_restart": "CHECKPOINT_1944-04-30T24_v003",
+  "changes": [
+    "20-factor combat capability index with source discovery pointers",
+    "per-event mandatory/conditional/runtime-required factor matrix",
+    "compact adjudication context and optional event-input schema",
+    "generator v006 emits complete factor ledger and separate combat_resolution_ready flag",
+    "current checkpoint explicitly loads combat support",
+    "validator tests factor emission for every current event profile and readiness transition with supplied runtime input"
+  ],
+  "design_decision": "Do not treat missing event-local data as zero. Structural execution validity and combat-local completeness are separate states.",
+  "legacy_policy": "99_LEGACY_UNTOUCHED copied without modification."
+}

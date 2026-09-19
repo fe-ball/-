@@ -1,0 +1,78 @@
+{
+  "revision": "v001",
+  "id": "ICHIGO_HUNAN_PHASE_A_1944-05-01_10_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_LOCAL_COMBAT_ADJUDICATION_SYNCHRONIZED_TO_GLOBAL_1944-05-10",
+  "clock_window": "1944-05-01T00:00..1944-05-10T24:00+09:00",
+  "global_frontier_after_merge": "1944-05-10T24:00:00+09:00",
+  "parents": [
+    "ICHIGO_HUNAN_OPENING_1944-04-28_30_WORKING_v001",
+    "ICHIGO_HUNAN_LAUNCH_GATE_RESOLUTION_1944-04-28_v001",
+    "CHINA_14AF_ICHIGO_DETECTION_INTERDICTION_1944-03-15_04-30_WORKING_v001",
+    "FIVE_GO_GROUND_EXCHANGE_HARDWARE_REAUDIT_1943_WORKING_v001"
+  ],
+  "historical_sanity_anchor": {
+    "baseline": "Historical 11th Army began the Hunan-Kwangsi offensive on 27 May 1944; Changsha was isolated after the Liuyang/Ningxiang battles and captured 18 June. The branch launch is earlier and the logistics/process layer is better, but Chinese advance warning and force-preservation doctrine prevent a mechanical one-month date shift.",
+    "sources": [
+      "https://www.ibiblio.org/hyperwar/Japan/Monos/pdfs/JM-72/JM-72.PDF",
+      "https://history.army.mil/portals/143/Images/Publications/catalog/9-2.pdf"
+    ]
+  },
+  "daily_phase_outline": [
+    {
+      "date": "1944-05-01..03",
+      "result": "Japanese first echelon exploits the broken northern delay belt and forces/turns the next river-road positions. Miluo-sector crossings and demolitions produce local pauses but no campaign-level stop. The Chinese avoid feeding major reserves into the northern belt."
+    },
+    {
+      "date": "1944-05-04..06",
+      "result": "Miluo corridor is operationally breached and repair parties follow immediately. 34th/58th and remaining second-echelon elements close forward while the leading divisions fan toward the Changsha outer system instead of congesting one road. Fourteenth Air Force attacks exposed road/rail/river traffic and bridge work, imposing delays without breaking the Wuhan-Yueyang feed."
+    },
+    {
+      "date": "1944-05-07..08",
+      "result": "Eastern and western wings begin pressing toward the Liuyang and Ningxiang approach systems while central elements keep pressure on the Changsha axis. Chinese IX War Area moves additional heavy equipment, command nodes and ammunition south and prepares Changsha/Xiangtan demolitions."
+    },
+    {
+      "date": "1944-05-09..10",
+      "result": "Japanese leading formations reach the outer Liuyang/Ningxiang-Changsha operational belt. Changsha is not yet isolated and no immediate city storm is ordered. The operational aim becomes isolation/turning of the Changsha position while preserving the logistics clock."
+    }
+  ],
+  "position_state_10May": {
+    "Changsha": "CHINESE_HELD_PREPARED_FOR_ORDERLY_PARTIAL_EVACUATION_AND_DEMOLITION",
+    "Xiangtan": "CHINESE_HELD",
+    "Liuyang_outer_system": "CONTESTED_APPROACH_JAPANESE_PRESSURE_RISING",
+    "Ningxiang_outer_system": "CONTESTED_APPROACH_JAPANESE_PRESSURE_RISING",
+    "Miluo_northern_corridor": "JAPANESE_OPERATIONAL_CONTROL_WITH_ACTIVE_CHINESE_INTERDICTION_AND_REARGUARDS",
+    "Hengyang": "CHINESE_HELD_PHASE_B_CLOSED",
+    "Japanese_phase_A": "UNDERWAY_APPROACHING_CHANGSHA_ISOLATION_GATE",
+    "Chinese_main_force": "MATERIALLY_PRESERVED_AND_SHIFTING_SOUTH_EAST_WEST_OF_CITY"
+  },
+  "ground_losses_01_10May": {
+    "Japan": {
+      "KIA": [1250, 1750],
+      "WIA": [3700, 5200],
+      "illness_straggle_temporary": [1500, 2500]
+    },
+    "China": {
+      "KIA": [2800, 4000],
+      "WIA": [5500, 8000],
+      "POW_MIA_dropout": [4800, 7500]
+    },
+    "interpretation": "The exchange remains Japanese-favorable but less annihilative than a static Chinese defense. Japanese artillery/engineer/communications maturity improves local outcomes; Chinese Five-Go learning converts a meaningful share of potential catastrophic loss into controlled withdrawal and equipment evacuation."
+  },
+  "cumulative_ground_losses_28Apr_10May": {
+    "Japan_combat_KIA_WIA": [6550, 9250],
+    "China_KIA_WIA_POW_MIA_dropout": [17400, 25200],
+    "guard": "Ranges are arithmetic envelopes across the 28-30 Apr and 1-10 May adjudications, not exact accounting centers. Do not use as national death tally without later reconciliation."
+  },
+  "logistics_10May": {
+    "remaining_campaign_stock_wuhan_yueyang_forward_system_t": [137000, 177000],
+    "immediately_forward_or_rapidly_drawable_t": [41000, 57000],
+    "serviceable_motor_vehicles_band": [4950, 6050],
+    "engineer_bridge_rail_state": "COHERENT_BUT_WORKING_HARD; Miluo/road repairs consume reserve capacity and make an immediate Hengyang continuation decision premature.",
+    "assessment": "Phase A remains supportable. The stock/vehicle system is not collapsing, but it has begun paying the cost of sustained movement and Fourteenth Air Force interdiction."
+  },
+  "command_decision_10May": {
+    "Japan": "CONTINUE_CHANGSHA_ISOLATION; do not prestige-storm the city before Liuyang/Ningxiang approach geometry and Xiang River crossings are favorable.",
+    "China": "PRESERVE_FIELD_ARMIES; keep enough local force to delay/deny an effortless capture, but do not sacrifice the IX War Area main body inside Changsha.",
+    "next_window": "1944-05-11..18; resolve Liuyang/Ningxiang fights, Changsha isolation and the actual city-fall gate. Hengyang remains unopened."
+  }
+}

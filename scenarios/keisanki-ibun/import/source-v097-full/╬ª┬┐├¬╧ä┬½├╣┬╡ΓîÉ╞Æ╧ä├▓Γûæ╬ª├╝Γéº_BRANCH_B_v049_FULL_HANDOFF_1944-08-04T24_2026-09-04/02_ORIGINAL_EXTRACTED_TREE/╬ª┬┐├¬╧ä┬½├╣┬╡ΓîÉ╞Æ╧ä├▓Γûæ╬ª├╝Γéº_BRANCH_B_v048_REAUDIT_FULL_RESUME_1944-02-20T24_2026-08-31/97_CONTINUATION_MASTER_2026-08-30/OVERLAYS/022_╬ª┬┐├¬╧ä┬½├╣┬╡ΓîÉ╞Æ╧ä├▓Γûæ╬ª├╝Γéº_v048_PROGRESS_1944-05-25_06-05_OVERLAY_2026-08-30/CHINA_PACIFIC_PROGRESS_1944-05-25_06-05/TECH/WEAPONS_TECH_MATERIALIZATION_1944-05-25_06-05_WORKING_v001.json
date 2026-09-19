@@ -1,0 +1,25 @@
+{
+  "revision": "v001",
+  "id": "WEAPONS_TECH_MATERIALIZATION_1944-05-25_06-05_WORKING_v001",
+  "status": "WORKING_TECH_PRODUCTION_DELTA",
+  "as_of": "1944-06-05T24:00:00+09:00",
+  "parent": "WEAPONS_TECH_PRODUCTION_STATE_1944-05-24_v001",
+  "changes": {
+    "I400_Seiran": "Six-aircraft joint system crosses combat-release threshold and conducts its first operation; all six operational airframes are expended/lost in the Majuro mission, while surviving crews and submarine hulls remain a regeneration nucleus.",
+    "75mm_turreted_stopgap": {
+      "state": "prototype firing/mobility trials sufficiently positive for a small engineering/pre-series authorization on 2 Jun centerline",
+      "authorization": "LOW_RATE_PILOT_SERIES_GO",
+      "first_batch_planning_band": [
+        8,
+        14
+      ],
+      "combat_credit": "ZERO on 5 Jun",
+      "guard": "This is tooling/acceptance learning, not mass Chi-Nu-equivalent fielding; monthly gun/turret/engine/armor wallet still constrains any follow-on series."
+    },
+    "Ki67": "production/acceptance and crew conversion continue; ordinary combat employment gate remains later June-Jul, no 5 Jun combat credit.",
+    "A7M": "flight-test prototype line only; operational inventory remains zero.",
+    "Unryu_Amagi": "completion/work-up clock continues toward Jun-Jul; no combat deck credit.",
+    "Ibuki": "heavy-cruiser completion/work-up remains late-Jun/early-Jul gate.",
+    "jet": "I-34 information continues to prune test/design choices; physical Jumo/HWK hardware in Japan remains zero on 5 Jun."
+  }
+}

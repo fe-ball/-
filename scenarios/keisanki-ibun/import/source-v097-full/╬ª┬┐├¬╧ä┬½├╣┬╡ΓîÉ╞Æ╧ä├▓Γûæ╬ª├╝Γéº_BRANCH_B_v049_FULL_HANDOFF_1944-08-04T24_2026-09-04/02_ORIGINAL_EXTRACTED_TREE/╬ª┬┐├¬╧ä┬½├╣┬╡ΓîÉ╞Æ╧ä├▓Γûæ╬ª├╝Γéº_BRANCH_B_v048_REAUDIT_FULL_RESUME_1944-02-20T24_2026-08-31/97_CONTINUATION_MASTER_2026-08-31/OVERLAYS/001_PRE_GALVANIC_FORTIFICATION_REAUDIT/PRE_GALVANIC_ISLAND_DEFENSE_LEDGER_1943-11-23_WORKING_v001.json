@@ -1,0 +1,163 @@
+{
+  "id": "PRE_GALVANIC_ISLAND_DEFENSE_LEDGER_1943-11-23_WORKING_v001",
+  "status": "WORKING_NOT_AUTHORITY",
+  "as_of": "1943-11-23T00:00:00",
+  "rules": {
+    "no_flat_multiplier": true,
+    "no_future_galvanic_lessons": true,
+    "no_untraced_extra_weapon_counts": true,
+    "separate_physical_serviceable_ready": true,
+    "fortification_gate": [
+      "warning_time",
+      "labor",
+      "delivered_material",
+      "engineer_plant",
+      "terrain",
+      "enemy_suppression"
+    ],
+    "shipping_account": "ship-days/delivered-throughput; do not use unclosed total GRT",
+    "water_air": "runway suppression != water-air suppression"
+  },
+  "upstream_branch_anchors": {
+    "1942_forward_delivered_cargo_normal_t_per_month": "75000-95000",
+    "1942_forward_delivered_cargo_recovery_t_per_month": "90000-120000",
+    "continuous_cargo_ship_equivalent": "25-35 plus tankers/escorts",
+    "opening_war_effective_cargo_per_voyage_delta": "+4-8% (shared logistics family; not separately multiplied)",
+    "monthly_transport_turnaround_delta": "+5-10% (shared logistics family; not separately multiplied)",
+    "1942_national_steel_delta": "+2.5-4.5% center vs historical; not all construction",
+    "fortification_maturity_1943H2": "FULL_WORKING_BAND subject to time/material/terrain"
+  },
+  "islands": [
+    {
+      "node": "Tarawa/Betio",
+      "priority": "A",
+      "construction_delivery_delta": "+5-15% useful construction mass",
+      "earth_timber_protected_completion_delta": "+15-30%",
+      "concrete_heavy_completion_delta": "+5-15%",
+      "doctrine_guard": "south/west priority and lagoon-north relative weakness remain pre-GALVANIC",
+      "terrain_ceiling": "VERY_HIGH",
+      "weapon_count_guard": "no new tank/coast-gun count",
+      "reopen_effects": [
+        "fortress survival",
+        "ammo/comms survival",
+        "obstacle completion",
+        "Type95 bombardment survival within physical 14"
+      ]
+    },
+    {
+      "node": "Makin",
+      "priority": "B",
+      "construction_delivery_delta": "+5-10%",
+      "earth_timber_protected_completion_delta": "+10-20%",
+      "concrete_heavy_completion_delta": "0-10%",
+      "terrain_ceiling": "VERY_HIGH",
+      "manpower_bottleneck": "trained first-line garrison remains primary cap",
+      "reopen_effects": [
+        "base defense survival",
+        "obstacles",
+        "seaplane support"
+      ]
+    },
+    {
+      "node": "Nauru",
+      "priority": "A",
+      "construction_delivery_delta": "+10-20%",
+      "earth_timber_protected_completion_delta": "+15-30%",
+      "concrete_heavy_completion_delta": "+5-15%",
+      "terrain_ceiling": "MEDIUM",
+      "special": "raised island/natural excavations improve shelter conversion; poor harbor/unloading caps throughput",
+      "reopen_effects": [
+        "revetments",
+        "dispersed fuel",
+        "repair",
+        "communications",
+        "runway repair",
+        "residual sortie persistence"
+      ]
+    },
+    {
+      "node": "Mili",
+      "priority": "A",
+      "construction_delivery_delta": "+5-15%",
+      "protected_base_completion_delta": "+10-25%",
+      "special": "outer-Marshall airfield/search node",
+      "reopen_effects": [
+        "revetments",
+        "stores",
+        "C2",
+        "water-air support"
+      ]
+    },
+    {
+      "node": "Maloelap/Taroa",
+      "priority": "A",
+      "construction_delivery_delta": "+5-15%",
+      "protected_base_completion_delta": "+10-25%",
+      "special": "outer-Marshall airfield node",
+      "reopen_effects": [
+        "revetments",
+        "stores",
+        "C2"
+      ]
+    },
+    {
+      "node": "Wotje",
+      "priority": "A",
+      "construction_delivery_delta": "+5-15%",
+      "protected_base_completion_delta": "+10-25%",
+      "special": "outer-Marshall airfield/fortress node",
+      "reopen_effects": [
+        "revetments",
+        "stores",
+        "C2"
+      ]
+    },
+    {
+      "node": "Jaluit",
+      "priority": "A",
+      "construction_delivery_delta": "+5-15%",
+      "protected_base_completion_delta": "+10-20%",
+      "special": "lagoon/seaplane/logistics",
+      "reopen_effects": [
+        "ramps",
+        "fuel",
+        "support craft",
+        "cranes",
+        "dispersal"
+      ]
+    },
+    {
+      "node": "Kwajalein/Roi-Namur",
+      "priority": "A",
+      "construction_delivery_delta": "+5-15%",
+      "protected_base_completion_delta": "+10-20%",
+      "concrete_heavy_completion_delta": "+5-15%",
+      "special": "lagoon/logistics/air/submarine/command hub",
+      "doctrine_guard": "pre-GALVANIC base hardening does not equal post-GALVANIC all-round beach-depth doctrine"
+    },
+    {
+      "node": "Eniwetok",
+      "priority": "B",
+      "construction_delivery_delta": "0-10%",
+      "protected_base_completion_delta": "+5-15%",
+      "special": "not yet at later FLINTLOCK priority"
+    }
+  ],
+  "galvanic_nodes_reopened": [
+    "Nauru suppression",
+    "Marshall/Gilbert aircraft ground-loss and repair persistence",
+    "water-air suppression burden",
+    "Tarawa prelanding fortress survival",
+    "Makin fortification/base survival",
+    "Tarawa Type95 bombardment survival within fixed OOB"
+  ],
+  "held_fixed_until_new_evidence": [
+    "D-Day 1943-11-24",
+    "Tarawa Type95 physical 14",
+    "US M4A2 physical 14",
+    "Tarawa personnel accounting",
+    "no automatic extra coast guns",
+    "no automatic midget submarine/MTB allocation",
+    "no pre-GALVANIC tactical hindsight"
+  ]
+}

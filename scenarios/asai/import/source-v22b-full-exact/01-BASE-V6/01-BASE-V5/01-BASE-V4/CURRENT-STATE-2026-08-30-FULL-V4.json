@@ -1,0 +1,23 @@
+{
+  "schema": "asai-worldline-full-handoff-state-v4",
+  "package_id": "ASAI-WORLDLINE-HANDOFF-2026-08-30-FULL-V4",
+  "built_date": "2026-08-30",
+  "current_branch_time": "1937-07-27 ~04:30",
+  "latest_closed_gate": "01-CURRENT-BRANCH/35-1937-07-26-27-GUANGANMEN-CONVOY-DELAY-GATE.md",
+  "next_open_gate": "Q-035 — 1937-07-27 daytime → 1937-07-28 attack opening",
+  "current_claim_index": "01-CURRENT-BRANCH/03-CURRENT-BRANCH-INDEX.tsv",
+  "current_review_queue": "01-CURRENT-BRANCH/06-CONFLICT-AND-REVIEW-QUEUE.tsv",
+  "next_chat_handoff": "01-CURRENT-BRANCH/99-NEXT-CHAT-HANDOFF.md",
+  "terminology_guard": "TERMINOLOGY-AND-SUPERSESSION-GUARD.tsv",
+  "source_resolution_map": "SOURCE-RESOLUTION-MAP-2026-08-30-FULL-V4.tsv",
+  "quarantine_root": "90-SOURCE-QUARANTINE/",
+  "quarantine_policy": "source/provenance available; no automatic semantic promotion by filename, name reuse, or physical presence",
+  "authority_order": [
+    "SESSION-CLOSED/current claim",
+    "late-8/29 source authority",
+    "domain authority (e.g. Marine V10)",
+    "semantic v48 base",
+    "v48r3 machine support",
+    "archive/pre-v48"
+  ]
+}

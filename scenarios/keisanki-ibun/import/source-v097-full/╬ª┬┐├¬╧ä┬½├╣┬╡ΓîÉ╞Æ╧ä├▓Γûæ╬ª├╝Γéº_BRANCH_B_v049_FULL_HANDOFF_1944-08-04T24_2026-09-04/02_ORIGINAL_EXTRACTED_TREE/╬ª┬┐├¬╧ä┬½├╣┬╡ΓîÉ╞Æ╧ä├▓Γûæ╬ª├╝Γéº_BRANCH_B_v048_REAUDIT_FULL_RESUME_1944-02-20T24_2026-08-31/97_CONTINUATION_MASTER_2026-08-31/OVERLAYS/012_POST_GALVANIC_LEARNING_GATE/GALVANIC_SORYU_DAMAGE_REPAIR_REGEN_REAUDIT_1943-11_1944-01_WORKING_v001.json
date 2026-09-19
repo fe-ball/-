@@ -1,0 +1,20 @@
+{
+  "id": "GALVANIC_SORYU_DAMAGE_REPAIR_REGEN_REAUDIT_1943-11_1944-01_WORKING_v001",
+  "status": "WORKING_RERUN_NOT_PROMOTED",
+  "reopens": "GALVANIC_DAMAGE_REPAIR_REGEN_LEDGER_1943-11_1944Q1_v002 IJN_Soryu row",
+  "damage_date": "1943-11-26",
+  "new_center_damage": "1 bomb hit on flight-deck/hangar zone plus damaging near miss; local fire; propulsion/waterline not critically damaged",
+  "immediate_flight_ops_stop_hours": [
+    8,
+    14
+  ],
+  "repair_clock": {
+    "1943-11-27": "limited CAP/recovery/ferry possible after emergency deck/fire control; not normal mass-strike cycling",
+    "1943-11-29_to_12-04": "Truk/Akashi-centered permanent patching of flight deck/hangar services, wiring, firefighting and aircraft-handling damage; no home-yard requirement centered",
+    "1943-12-04_to_12-08": "restricted-to-near-normal deck trials and work-up",
+    "1943-12-08_to_12-15": "ship can rejoin first-line carrier maneuver/training; air-group effectiveness remains limited by fleetwide GALVANIC strike-cadre losses and cross-deck reorganization",
+    "1944-01-01": "operational carrier hull/deck centered; not unavailable in home-yard pipeline"
+  },
+  "strategic_effect": "Restores a fourth first-line Japanese carrier deck during December rather than leaving only Shokaku/Zuikaku/Hiryu. This changes US fleet-cover/search allocation and reopens all December/FLINTLOCK carrier-balance nodes.",
+  "guard": "Do not restore lost experienced torpedo/dive-bombing leaders merely because Soryu repairs quickly; hull/deck recovery and air-group regeneration are separate clocks."
+}

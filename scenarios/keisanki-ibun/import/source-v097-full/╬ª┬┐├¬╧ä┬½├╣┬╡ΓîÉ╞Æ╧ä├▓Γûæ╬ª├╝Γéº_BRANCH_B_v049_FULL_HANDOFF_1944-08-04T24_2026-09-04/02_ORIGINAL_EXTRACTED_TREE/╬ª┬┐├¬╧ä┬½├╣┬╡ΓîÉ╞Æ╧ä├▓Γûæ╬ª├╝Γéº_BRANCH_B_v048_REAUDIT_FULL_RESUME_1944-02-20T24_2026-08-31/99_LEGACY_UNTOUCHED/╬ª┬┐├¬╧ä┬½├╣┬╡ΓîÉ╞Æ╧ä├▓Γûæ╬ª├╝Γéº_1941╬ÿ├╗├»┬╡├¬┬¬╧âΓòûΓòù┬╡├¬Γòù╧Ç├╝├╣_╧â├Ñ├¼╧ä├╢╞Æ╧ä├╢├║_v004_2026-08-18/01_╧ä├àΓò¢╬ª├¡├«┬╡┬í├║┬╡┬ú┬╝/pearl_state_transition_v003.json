@@ -1,0 +1,49 @@
+{
+  "revision": "v0.03-bounded-causal-rerun",
+  "supersedes_executable": "pearl_state_transition_v002.json",
+  "local_date": "1941-12-07 Hawaii",
+  "fixed_historical_shell": {
+    "us_ship_and_airfield_dispositions": "HISTORICAL",
+    "us_warning_and_command_behavior": "HISTORICAL",
+    "weather_and_timing": "HISTORICAL",
+    "enterprise": {
+      "position_0615_nm_west_of_oahu": 215,
+      "initial_sbd_transfer_search_launch": 18,
+      "behavior": "HISTORICAL_UNLESS_CONTACT_OUTCOME_RESPONDS_TO_JAPANESE_DIFFERENCE",
+      "carrier_discovered_by_japanese": false
+    },
+    "japanese_target_selection": "HISTORICAL",
+    "third_wave": false
+  },
+  "scenario_inputs": {
+    "carrier_count": 6,
+    "deck_hangar_capacity_not_increased_for_pearl": true,
+    "fighter": "Zuisei Zero opening standard",
+    "torpedo_bomber": "Zuisei B5N 1941 late",
+    "dive_bomber": "D3A 1941 late standard",
+    "type91_torpedo_combat_hit_rate_relative_gain": [0.10,0.25],
+    "horizontal_point_target_hit_rate_relative_gain": [0.15,0.35],
+    "dive_fixed_target_hit_rate_relative_gain": [0.15,0.30],
+    "fighter_ground_target_gunnery_relative_gain": [0.20,0.40]
+  },
+  "execution": {
+    "effective_attack_aircraft": {"center":353,"range":[352,354]},
+    "irrecoverable_japanese_aircraft_loss": {"center":28,"range":[27,29]},
+    "japanese_aircrew_killed": {"center":53,"range":[50,55],"note":"airframe and crew outcomes are not one-to-one"},
+    "torpedo_hits_total": {"center":23,"range":[21,24],"historical_reference":"about half of 40 torpedoes hit"},
+    "heavy_ap_bomb_hits": {"center":9,"range":[9,10],"historical_reference":"about 7-8 of 49 high-level bombs hit"},
+    "additional_us_aircraft_complete_losses_from_improved_airfield_attack": {"center":9,"range":[6,12],"state":"MODELED_INFERENCE_NOT_PILOT_LOSS_EQUIVALENT"},
+    "enterprise_sbd_losses_in_oahu_contact": {"center":5,"range":[5,6],"note":"same route and timing; only Japanese-caused share may diverge"},
+    "marginal_ship_hit_allocation": "OPEN_BY_ATTACK_AXIS",
+    "strategic_result": "PEARL_FLEET_DAMAGE_SAME_CLASS_BUT_REPAIR_BURDEN_HIGHER"
+  },
+  "pipeline_effects": {
+    "us_aircraft_replacement_demand": "HIGHER_SMALL_INCREMENT",
+    "us_pilot_training_pipeline_damage": "SMALL_INCREMENT; ground aircraft loss is not pilot loss",
+    "us_ship_repair_and_salvage_queue": "HIGHER",
+    "us_fuel_storage": "HISTORICAL_UNTOUCHED",
+    "us_repair_shops_power_submarine_base": "HISTORICAL_UNTOUCHED",
+    "japanese_carrier_air_group_repair_burden": "TRACK_DAMAGED_RETURNS_SEPARATELY",
+    "japanese_replacement_aircrew_demand": "BASED_ON_ACTUAL_CREW_LOSS_NOT_AIRFRAME_COUNT"
+  }
+}

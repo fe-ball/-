@@ -1,0 +1,35 @@
+Domain	Item	1939-09 status	Authority	Current ruling	Main bottleneck	Next gate
+Corporate	Company scale	WORKING-AUDIT	new audit	~14.0-15.5k direct employees; sales run-rate ~¥38-44m/y; not fiscal-close	fiscal data / labor mix	1939 closeout
+Facilities	T-0 first/mixed works	MATURE	current	mixed turbo/GT/R&D base	aging equipment / allocation	ongoing
+Facilities	T-1 second works	MATURE	CLOSED	1938 Q4 ramp; spring 1939 mature; 600-750 cores/y sustainable	materials / test / accessories	1939 utilization
+Facilities	T-2 third wave	QUALIFICATION	current+derived	qualification Q2-Q3; first exact qualified-output date still open	+450-650/y mature increment	first qualified output
+Facilities	T-3 fourth wave	INSTALLATION	current	machine installation through 1939; 1940 qualification	+800-1200/y planning	1940 Q1-Q2
+Facilities	T-4 fifth wave	EARLY BUILD OPTION	current	site/planning H1; civil H2; no output	capital/materials/labor	1940-41
+Materials	High-Ni vs lower-TIT rating split	POLICY	CLOSED-DERIVED	reserve best hot-section lots for compact/high-end use	strategic alloy supply	allocation review
+Turbo	Heavy-duty diesel exhaust turbo	FIELD-VALIDATED	CLOSED	preferred standard fit for high-load categories	filters/service/spares	1940 procurement
+GT power	Mobile GT utility module	LIMITED STANDARD	CLOSED+derived	standardize module/interface rather than Asai complete vehicle	generator/switchgear/pump/cables/crew	1939 H2 orders
+GT vehicle	Direct GT traction demonstrator	TECH SUCCESS / NO SERIES	CLOSED	retain cold-weather/special research only	fuel/dust/part-load	winter trials
+Organization	Controls & Actuation Group	FORM 1939 H2	CLOSED-DERIVED	fuel control/wastegate/start/protection/governor interfaces	specialist engineers	organization gate
+Computation	Technical computation business	MATURE CROSS-DOMAIN	CLOSED	equipment+service+customer-secure computation	service staff/customer absorption	ongoing
+Organization	Field Reliability/Data Return Bureau	FORM 1939 H2	CLOSED-DERIVED	standard failure/operating cards with military anonymization	customer discipline/data quality	1940 statistics
+Service	Serial life-card / exchange-core	STANDARDIZE	CLOSED-DERIVED	field module exchange; central/regional overhaul	spares pool/logistics	1939 H2 rollout
+Service	Customer commissioning/maintenance school	EXPAND	CLOSED-DERIVED	train customer first-line maintainers	instructors/trainers	1940 capacity
+Electronics	Radio/electrical reliability support	ACTIVE	CLOSED	sealing/grounding/EMI/power/burn-in/fault cards; no radar invention	customer adoption/standardization	1940-41 package
+Electronics	Power/interface standard	DESIGN 1939 H2	CLOSED-DERIVED	internal standardized test points/connectors/power modules; customer variants allowed	Army/Navy incompatible specs	customer approvals
+Optics/data	Photo/intelligence workflow	ACTIVE/EXPAND	CLOSED-DERIVED	metadata/calibration/indexing/photogrammetry workflow; not camera manufacture	staff/process adoption	Army air HQ rollout
+Materials	Epoxy/electrical materials	LOW-VOLUME REAL PRODUCT	CLOSED	sealing/tooling/repair/friction/secondary structure	chemical scale/qualification	1940 expansion
+Materials	Flexible hemp/hair spall liner	LIMITED TRIAL	CLOSED-DERIVED	1939 flexible fragment catcher; distinct from 1942+ GFRP armor	ballistic validation/fire/moisture	post-Nomonhan tests
+Materials	Material No.1 aircraft	FLYING TEST ASSET	NEW CLOSURE	completed H2 1938; first flight late-1938/early-1939; secondary/semi-structural test only	moisture/fatigue/repair repeatability	1939-40 data
+Dense materials	37mm dense-core AP	FIELD-VALIDATED / SCARCE	CLOSED	limited special reserve; not universal ammunition answer	W/U supply / gun-caliber growth	47mm transition
+Aviation R&D	E5 Twin No.1 pure jet	RESEARCH BASELINE	CLOSED	pure-jet comparison/reference	aging hours / relevance	limited continuation
+Aviation R&D	E5 Twin No.2 aft-fan	A3+	CLOSED	principal endurance/mission demonstrator; ~145-160 h by 1939-06-30	TBO/controls/field support	E6 requirement
+Aviation R&D	E5 single future-form	RESEARCH TESTBED	NEW CLOSURE	architecture mission complete; retain for installation/controls; no production batch	E5 performance ceiling	E6 install work
+Aviation R&D	E6 core/installed engine	DEVELOPMENT	current	next credible service propulsion; no 1939 operational aircraft	operability/control/hot-section/TBO	service-rating gate
+Aviation R&D	Small TP/short-field	A3 TECH TRIAL	CLOSED+derived	Asai remains pilot/integration house; service series goes to partner if ordered	requirement/customer production	future requirement
+Aviation R&D	Small helicopter	RESEARCH ONLY	CLOSED	2 development airframes; no 1939 procurement	transmission/rotor/control/vibration	1940 practical trial
+Aero turbo	Gasoline exhaust-turbo pilot cell	A2 / PILOT	NEW CLOSURE	small installation cell for Ki-46/high-altitude trials; tens-class capability only	thermal/fire/control/ducting	Ki-46 comparison
+Propeller	Engine-propeller interface	SYSTEM SUPPORT	CLOSED-DERIVED	bench maps/reduction/governor/torsional reports; no vertical integration	specialist propeller supply	aircraft programs
+Industrial	Blowers/compressors/long-hour fleet	MATURE/STRATEGIC	CLOSED-DERIVED	protect civil maintenance and durability-data fleet	military allocation pressure	war allocation
+Fuel/lube	Fuel/lubricant specification	SYSTEM SUPPORT	CLOSED-DERIVED	Asai specifies/tests; bulk refining external	qualified supply/lot control	field-return data
+Manchuria	Dairen/Mukden service	REGIONAL SUPPORT	CLOSED-DERIVED	overhaul/spares/training/computation; no frontier hot-section plant	transport/security/staff	1939 branch audit
+Security	Technology secrecy boundary	REBASELINED	CLOSED-DERIVED	field turbo no longer crown jewel; protect hot section/maps/controls/process/data	capture/espionage	ongoing

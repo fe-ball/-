@@ -1,0 +1,25 @@
+item	value	status	authority_note
+common_crew	2 seats retained for J and JF common airframe	CLOSED	E6 Single remains the separate one-seat line; later service-production status controlled by E6SINGLE1
+mission_ready_zero_fuel_center	~3.50 t including crew/fixed gun ammo allowance/radio/oxygen/oil	H->A BOOKKEEPING CLOSED	not manufacturer placard empty weight
+normal_takeoff_band	~4.25-4.60 t	CLOSED WORKING	mission dependent
+heavy_service_takeoff_ceiling	~5.05 t	CLOSED WORKING	D320F and mixed loads require load sheet
+internal_mission_bay	~0.40 t mass class near CG	CLOSED	photo/strike/courier/test interchangeable modules
+fixed_armament_envelope	2x20mm-class + 4x7.7mm-class concentrated nose	CLOSED AIRFRAME ENVELOPE	exact service gun model/feed remains Army/Navy local
+fighter_escort_JF	~0.80-0.85 t internal fuel; ~4.30-4.35 t takeoff	WORKING CLOSED	clean combat block
+command_photo_recon_JF	~0.82-0.88 t fuel + 0.10-0.14 t camera; ~4.43-4.52 t	WORKING CLOSED	internal module
+light_strike_JF	~0.62-0.70 t fuel + 0.35-0.40 t internal ordnance; ~4.47-4.60 t	WORKING CLOSED	no routine D320F
+recon_nuisance_JF	~0.78-0.82 t fuel + camera + 0.08-0.12 t ordnance; ~4.48-4.58 t	WORKING CLOSED	internal harassment store
+long_recon_JF	~0.75-0.82 t internal + D320F + camera; ~4.88-5.02 t	WORKING CLOSED	650-800 km long-recon parent range
+long_recon_nuisance_JF	~0.68-0.74 t internal + D320F + camera + 0.08-0.10 t store; ~4.94-5.05 t	WORKING CLOSED	~550-700 km mission radius working band
+courier_JF	~0.70-0.80 t fuel + 0.20-0.30 t high-value cargo; ~4.40-4.60 t	WORKING CLOSED	prepared hubs
+HSR_50_100	former selected 50/100kg shorthand	SUPERSEDED BY E6FRPORD1	current family includes Army 50/100/250 and Navy 60/250 with 250 separate release ladder
+HSC_100F	~95-115kg total high-speed dispersal/harassment container; flax/hemp-epoxy aerodynamic shell + metal load spine	LATE-1939 TECH / 1940-Q1 SERVICE GATE	contents/fuze are arsenal responsibility
+high_alt_release	~700-760 km/h TAS class at ~7-9 km; transient internal-bay release	H->A SERVICE ENVELOPE	not a precision bombing claim
+low_alt_high_q_release	restricted / aircraft-specific lower limit	GUARD	do not copy high-alt TAS to sea level
+strike_radius_JF	~300-380 km working band with ~0.35-0.40t internal ordnance	H->A WORKING	dedicated flight map still test-local
+long_recon_nuisance_radius	~550-700 km working band	H->A WORKING	D320F + camera + ~0.1t store, reduced internal fuel
+full_fuel_full_D320F_full_0_4t_strike	NOT ROUTINE / prohibited stacking	CLOSED GUARD	payload/fuel/runway trade mandatory
+bay_adapter_family	S6 50/60kg x6; S4 100kg/HSC x4; M1 250kg x1, all under ~0.40t bay limit	CLOSED-E6FRPORD1	FRP/sandwich non-primary trays + metal concentrated-load fittings
+HSR_250	selected 250kg-class service bomb; initial ~650-720km/h TAS at ~6-8km	1940-Q1-Q2 SERVICE PATH	separate larger-store separation ladder
+FRP_ordnance_use	bay doors/cassette fairings/high-speed tail fairings/HSC/D320F; HE bomb body and lugs remain metal	CLOSED-E6FRPORD1	plant-FRP early-win application
+HSC_100F_rebase	~96-102kg total; ~12-18kg carrier overhead; S4 up to four under bay mass limit	CLOSED-E6FRPORD1	common recon nuisance and dedicated dispersal store

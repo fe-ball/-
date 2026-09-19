@@ -1,0 +1,78 @@
+{
+  "status": "historical_constraints_not_branch_outcomes",
+  "western_indian_ocean": {
+    "mixed_June_aggregate": {
+      "ships": 16,
+      "reported_tons": 76123,
+      "source": "S2 p.79",
+      "includes": [
+        "submarines",
+        "surface_raiders"
+      ],
+      "usable_as_submarine_only_rate": false
+    },
+    "submarine_only_reported_June": {
+      "ships": 14,
+      "source": "S3 p.185",
+      "status": "source_reported_aggregate_pending_ship_list"
+    },
+    "submarine_only_reported_early_July_addition": {
+      "ships": 5,
+      "reported_tons": 21477,
+      "source": "S3 p.185",
+      "status": "source_reported_aggregate_pending_ship_list"
+    },
+    "individual_patrol_denominator": null,
+    "Diego_Suarez": {
+      "date": "1942-05-30",
+      "midgets_confirmed_launched": 2,
+      "mother_boats": [
+        "I-16",
+        "I-20"
+      ],
+      "hit_targets": [
+        "Ramillies",
+        "British Loyalty"
+      ],
+      "source": "S2 pp.64–65",
+      "third_midget_failure_primary_revalidation": "OPEN; prior narrative lead not newly certified",
+      "warning": "Not a representative success probability. Do not infer exact launches=torpedoesfired."
+    }
+  },
+  "RN_DD_snapshot": {
+    "period": "early_July_1942_context",
+    "nominal_allocated": 26,
+    "detached_Mediterranean": 4,
+    "not_yet_arrived": 5,
+    "under_repair": 5,
+    "slow_battleship_screen": 5,
+    "battlefleet_screen": 5,
+    "available_local_escort": 2,
+    "source": "S3 p.185",
+    "warning": "Snapshot; no automatic diversion fromEurope and no fixed six-month tax."
+  },
+  "Australian_cargo_cycle": {
+    "cycle_days": 23,
+    "before_reported_tons": 404619,
+    "after_reported_tons": 373967,
+    "source": "S1 pp.206–207",
+    "kind": "Royle contemporaneous estimate, NOT controlled causal estimate",
+    "warning": "Do not apply to all maritime trade, add to historical baseline as a Branch premium, or mistake cargo tons forGRT. Other contemporary efficiency estimates differ."
+  },
+  "Advanced_Force_snapshot": {
+    "as_of": "1942-12-mid",
+    "total": 31,
+    "available_operations": 2,
+    "repair_maintenance": 11,
+    "earmarked_transport_derived": 18,
+    "source": "S1 p.203",
+    "warning": "Transport includesGuadalcanal ANDNewGuinea; not18combat-ready boats freed by deletingGuadalcanal, not applicable toJune."
+  },
+  "stage4_flags": [
+    "AnnualAustralia total / eastcoast subset / Noumea approaches must remain separate.",
+    "Recompute conveyance and alternative assignments in Branch geography before calculating added kills.",
+    "S2-17 legacy1318rounded1320 is not an independently reconstructed patrol-day observation.",
+    "Submarine attack numbers, torpedo outcomes, and losses toASW require separate rows.",
+    "US/UK submarine and JapaneseASW coefficients remainOPEN; this audit does not validate them."
+  ]
+}

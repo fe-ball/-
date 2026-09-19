@@ -1,0 +1,22 @@
+priority	scope	file_or_tree	note
+0	state-machine / rollback semantics	50-CURRENT-1939-1941-AIRPOWER-AUDIT/10-HANDOFF-STATE-MACHINE-CANON-V8.md	STATEFIX1 authority on clock semantics, rollback lineage, combat hold and active technical workfront
+1	Homare quarter-level development / qualification / availability	50-CURRENT-1939-1941-AIRPOWER-AUDIT/11-HOMARE-QUARTERLY-DEVELOPMENT-QUALIFICATION-CANON-V8.md	AIRPOWER3 authority through 1943Q1; supersedes file 07 where explicitly stated
+2	Ha-43 pre-branch development state	50-CURRENT-1939-1941-AIRPOWER-AUDIT/13-HA43-PREBRANCH-DEVELOPMENT-AUDIT-V8.md	AIRPOWER3 authority for branch-neutral early Ha-43 path through 1943Q1
+3	piston-engine pre-branch rollup	50-CURRENT-1939-1941-AIRPOWER-AUDIT/14-PISTON-ENGINE-PREBRANCH-ROLLUP-V8.md	handoff bridge; engine availability gates for aircraft work
+4	high-power propeller / governor / cooling availability	50-CURRENT-1939-1941-AIRPOWER-AUDIT/15-HIGH-POWER-PROPELLER-COOLING-INTEGRATION-CANON-V8.md	AIRPOWER4 canon for 1,800-2,200 hp propeller and cooling integration states through 1943Q1; supersedes file 08 section 3 chronology
+5	prebranch Homare/Ha-43 airframe integration	50-CURRENT-1939-1941-AIRPOWER-AUDIT/16-PREBRANCH-HOMARE-HA43-AIRFRAME-INTEGRATION-CANON-V8.md	AIRPOWER4 canon for branch-neutral J2M/B7A/N1K integration and guarded Reppu path through 1943Q1
+6	airframe integration machine ledger	50-CURRENT-1939-1941-AIRPOWER-AUDIT/17-PREBRANCH-AIRFRAME-INTEGRATION-STATE-LEDGER-V8.tsv	machine-readable EA/PA/CI and branch-sensitivity state
+7	1943Q1 piston-airframe technical snapshot	50-CURRENT-1939-1941-AIRPOWER-AUDIT/18-1943Q1-PISTON-AIRFRAME-TECHNICAL-SNAPSHOT-V8.md	compact forward technical boundary; does not advance combat clock
+8	1942 requirement/procurement replay boundary	50-CURRENT-1939-1941-AIRPOWER-AUDIT/19-1942-REQUIREMENT-PROCUREMENT-REPLAY-GATE-V8.md	AIRPOWER4 handoff gate separating closed engineering feasibility from combat-derived requirements/procurement
+10	1939-04-20 current revalidated combat checkpoint / replay-hold state	50-CURRENT-1939-1941-AIRPOWER-AUDIT/00-1939-04-20-RESTART-BASELINE-V8.md	V8 authority; distinguish from older furthest-explored 1939-09-01 post-Nomonhan V6 branch
+11	engine/requirements/team-release	50-CURRENT-1939-1941-AIRPOWER-AUDIT/01-ENGINE-REQUIREMENT-TEAM-RELEASE-CANON-V8.md	V8 authority
+12	E6/E7/core-family production	50-CURRENT-1939-1941-AIRPOWER-AUDIT/02-GT-E6-E7-CORE-FAMILY-PRODUCTION-CANON-V8.md	V8 authority
+13	water aircraft/flying boats	50-CURRENT-1939-1941-AIRPOWER-AUDIT/03-WATER-AIRCRAFT-FLYING-BOAT-LINEAGE-CANON-V8.md	V8 authority
+14	Shiden / automatic combat flap lineage	50-CURRENT-1939-1941-AIRPOWER-AUDIT/04-OPEN-SHIDEN-AUTO-COMBAT-FLAP-ASAI-AUTOMATION-V8.md	legacy filename; core question resolved in AIRPOWER2
+15	Asai high-altitude gasoline/turbo research and transfer mechanism	50-CURRENT-1939-1941-AIRPOWER-AUDIT/06-ASAI-HIGH-ALTITUDE-GASOLINE-ENGINE-TECH-TRANSFER-CANON-V8.md	V8 AIRPOWER2 authority
+16	Homare development/service realization	50-CURRENT-1939-1941-AIRPOWER-AUDIT/07-HOMARE-DEVELOPMENT-SERVICE-PERFORMANCE-AUDIT-V8.md	broad mechanism authoritative; exact service envelopes marked working
+17	fighter/material/powerplant quantitative envelope	50-CURRENT-1939-1941-AIRPOWER-AUDIT/08-FIGHTER-POWERPLANT-MATERIAL-INTEGRATION-WORKING-V8.md	WORKING numerical authority; not final measured canon
+18	2026-09-03 session delta	50-CURRENT-1939-1941-AIRPOWER-AUDIT/09-SESSION-DELTA-2026-09-03-V8.md	current rollover/guards
+19	1937-1938 canon	10-CURRENT-1937-1938/	V7 remains authority where not superseded
+20	1931-1938 aviation rebase	20-AVIATION-1931-1938-REBASE/	V7 remains authority where not superseded
+21	older V6/V5 material	01-BASE-V6/	reference/replay/comparator unless specifically promoted

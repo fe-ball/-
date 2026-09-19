@@ -1,0 +1,9 @@
+upstream cause	intermediate system	battlefield ledger where effect is already represented	double-count rule
+Turbo diesel + vehicle QC	heavy trucks/tractors/recovery vehicles	M/S; serviceable vehicles; casualty avoidance	Do not add vehicle turbo as an extra casualty percentage
+Tools/gauges/material/QC	gun/engine/weapon production and repair	F/M/S; usable artillery; aircraft/vehicle availability	Count as mechanism, not another independent combat bonus
+Mobile power + workshop tools	repair/HQ/airfield support	maintenance/logistics throughput; readiness	Only add local flood modifiers where the prior ledger did not include the new environment
+Aircraft computation/QC	piston-engine acceptance/reliability	mission-capable aircraft delta	No blanket speed or inventory bonus
+Artillery calibration/metrology	prepared fire / gun availability	F; immediately usable artillery	No second firepower multiplier
+Epoxy sealing/electrical waterproofing	flood-edge boats, pumps, communications	Not yet in pre-June ledgers; local H2 modifier only	May create local +5-10 pp mission-capable effect, not theater-wide mobility
+Dense-core AP	special anti-armor ammunition	Not materially represented in China battlefield deltas	Only count when an armored-target engagement actually uses it
+E5 aviation GT	experimental aircraft	No combat ledger effect	Research/industrial option only until operational adoption

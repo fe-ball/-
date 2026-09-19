@@ -1,0 +1,153 @@
+{
+  "id": "BRANCH_B_AIRCRAFT_TYPE_ARMOR_DEPLOYMENT_DOCTRINE_1944-04-25_v001",
+  "status": "WORKING_CURRENT_WEAPONS_DEPLOYMENT_OVERLAY",
+  "frontier": "1944-04-25T24:00",
+  "clock_advance": false,
+  "carrier_five_deck": {
+    "mission_ready": [
+      331,
+      368
+    ],
+    "working_type_envelope": {
+      "fighters_total": [
+        155,
+        175
+      ],
+      "late_Zuisei_Zero": [
+        105,
+        125
+      ],
+      "Kinsei_Zero_mod": [
+        40,
+        55
+      ],
+      "D4Y": [
+        78,
+        92
+      ],
+      "B6N": [
+        72,
+        86
+      ],
+      "legacy_utility_scarce_recon": [
+        15,
+        25
+      ]
+    },
+    "one_cycle": [
+      210,
+      245
+    ]
+  },
+  "Marianas_air": {
+    "immediate_ready": [
+      96,
+      120
+    ],
+    "fighters": [
+      58,
+      74
+    ],
+    "fighter_working_type_envelope": {
+      "late_Zuisei_Zero": [
+        32,
+        42
+      ],
+      "Kinsei_Zero_mod": [
+        9,
+        14
+      ],
+      "Raiden": [
+        10,
+        14
+      ],
+      "N1K2_J": [
+        3,
+        6
+      ],
+      "other_overlap": [
+        0,
+        4
+      ]
+    },
+    "guard": "working regional type envelope; final unit-level OOB not closed"
+  },
+  "9th_Tank_Regiment": {
+    "embark_center": {
+      "total": 81,
+      "Shinhoto": 27,
+      "old_Type97": 21,
+      "Type95": 33
+    },
+    "Saipan": {
+      "physical": [
+        50,
+        56
+      ],
+      "center_mix": {
+        "Shinhoto": 20,
+        "old_Type97": 18,
+        "Type95": 15
+      },
+      "serviceable": [
+        46,
+        53
+      ],
+      "combat_ready": [
+        42,
+        49
+      ]
+    },
+    "Guam": {
+      "physical": [
+        26,
+        31
+      ],
+      "center_mix": {
+        "Shinhoto": 7,
+        "old_Type97": 3,
+        "Type95": 18
+      },
+      "serviceable": [
+        23,
+        29
+      ],
+      "combat_ready": [
+        20,
+        26
+      ]
+    }
+  },
+  "other_armor": {
+    "29th_Division_Guam": "existence high; exact count/model OPEN; historical 9 light not copied",
+    "29th_Division_Tinian": "light-tank company plausible/high; exact count OPEN; historical 12 not copied",
+    "Saipan_IJN": "June audit has Type95 9 + KaMi 3-5, but Apr25 arrival-date OPEN",
+    "Palau_14th_Division": "tank unit presence highly plausible; likely Type95; exact count/island split OPEN",
+    "ChiHe_Marianas": 0,
+    "ChiNu_lineage_Marianas": 0,
+    "HoNi_Marianas": "0 unless dated shipment traced"
+  },
+  "tank_doctrine": {
+    "Shinhoto": "prepared flank/short-range AT lanes; shoot-displace; preserve",
+    "old_Type97": "HE/mobile strongpoint support; secondary close ambush",
+    "Type95": "local reserve/night movement/flank harassment/infantry support",
+    "fortification_system": [
+      "protected waiting revetment",
+      "multiple firing bays",
+      "concealed short routes",
+      "false positions",
+      "recovery pockets"
+    ],
+    "mass_counterattack": "not default",
+    "bounded_major_counterattack_tanks": [
+      18,
+      26
+    ]
+  },
+  "mandatory_reopen": [
+    "29th Division transport/armor survival chain",
+    "Saipan IJN armor arrival dates",
+    "Palau 14th Division tank-unit transport/island split",
+    "final Marianas aircraft unit-by-unit type OOB"
+  ]
+}

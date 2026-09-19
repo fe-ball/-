@@ -1,0 +1,14 @@
+{
+  "revision": "v001",
+  "id": "ICHIGO_BRANCH_REAUDIT_MANIFEST_1944-04-30_v001",
+  "status": "OVERLAY_MANIFEST",
+  "clock_advanced": false,
+  "load_after": [
+    "計算機異聞_v048_PACIFIC_1944-04-16_30_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_AVIATION_REGEN_BENGAL_REBALANCE_1944-03-08_OVERLAY_2026-08-30.zip"
+  ],
+  "files": [
+    "ICHIGO_BRANCH_REAUDIT_1944-04-30/CHINA/ICHIGO_BRANCH_QUALITATIVE_REAUDIT_1944-04-30_v001.json"
+  ],
+  "effect": "Re-audits Operation Ichi-Go-equivalent geometry and timing; does not launch the operation or advance the global clock."
+}

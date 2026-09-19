@@ -1,0 +1,252 @@
+{
+  "revision": "v0.01",
+  "date": "1941-12-08",
+  "semantics": {
+    "table_strength_is_not": "serviceable_on_eve",
+    "forbidden": [
+      "subtract_46_concentration_losses_directly_from_dec8_nominal_table",
+      "use_760_840_as_direct_malaya_serviceable_force"
+    ]
+  },
+  "units": [
+    {
+      "formation": "3rd Air Brigade",
+      "unit": "59th Sentai",
+      "mission": "fighter",
+      "primary": {
+        "type1": 21,
+        "type97": 3,
+        "total": 24
+      },
+      "secondary": {
+        "total": 24
+      },
+      "scenario_mapping": {
+        "type1": "Type100 fighter candidate",
+        "type97": "improved Ki-27"
+      },
+      "confidence": "high_working"
+    },
+    {
+      "formation": "3rd Air Brigade",
+      "unit": "27th Sentai",
+      "mission": "assault/light_bomber",
+      "primary": {
+        "total": 28
+      },
+      "secondary": {
+        "total": 23
+      },
+      "working_range": [
+        23,
+        28
+      ],
+      "confidence": "amber"
+    },
+    {
+      "formation": "3rd Air Brigade",
+      "unit": "75th Sentai",
+      "mission": "light_bomber",
+      "primary": {
+        "total": 25
+      },
+      "secondary": {
+        "total": 25
+      },
+      "confidence": "high"
+    },
+    {
+      "formation": "3rd Air Brigade",
+      "unit": "90th Sentai",
+      "mission": "light_bomber",
+      "primary": {
+        "total": 23
+      },
+      "secondary": {
+        "total": 30
+      },
+      "working_range": [
+        23,
+        30
+      ],
+      "confidence": "amber"
+    },
+    {
+      "formation": "7th Air Brigade",
+      "unit": "64th Sentai",
+      "mission": "fighter",
+      "primary": {
+        "type1": 35,
+        "type97": 6,
+        "total": 41
+      },
+      "secondary": {
+        "type1": 35,
+        "type97": 6,
+        "total": 41
+      },
+      "scenario_mapping": {
+        "type1": "Type100 fighter candidate",
+        "type97": "improved Ki-27"
+      },
+      "confidence": "high_working"
+    },
+    {
+      "formation": "7th Air Brigade",
+      "unit": "12th Sentai",
+      "mission": "heavy_bomber",
+      "primary": {
+        "total": 27
+      },
+      "secondary": {
+        "total": 21
+      },
+      "working_range": [
+        21,
+        27
+      ],
+      "confidence": "amber"
+    },
+    {
+      "formation": "7th Air Brigade",
+      "unit": "60th Sentai",
+      "mission": "heavy_bomber",
+      "primary": {
+        "total": null,
+        "note": "OCR omission"
+      },
+      "secondary": {
+        "total": 39
+      },
+      "confidence": "secondary_only"
+    },
+    {
+      "formation": "7th Air Brigade",
+      "unit": "98th Sentai",
+      "mission": "heavy_bomber",
+      "primary": {
+        "total": 42
+      },
+      "secondary": {
+        "total": 42
+      },
+      "confidence": "high"
+    },
+    {
+      "formation": "12th Air Brigade",
+      "unit": "1st Sentai",
+      "mission": "fighter",
+      "primary": {
+        "type97": 42,
+        "total": 42
+      },
+      "secondary": {
+        "total": 42
+      },
+      "scenario_mapping": {
+        "type97": "improved Ki-27"
+      },
+      "confidence": "high_working"
+    },
+    {
+      "formation": "12th Air Brigade",
+      "unit": "11th Sentai",
+      "mission": "fighter",
+      "primary": {
+        "type97": 39,
+        "total": 39
+      },
+      "secondary": {
+        "total": 39
+      },
+      "scenario_mapping": {
+        "type97": "improved Ki-27"
+      },
+      "confidence": "high_working"
+    },
+    {
+      "formation": "15th Independent Air Unit",
+      "unit": "50th Independent Chutai",
+      "mission": "recon",
+      "primary": {
+        "type100_recon": 2,
+        "type97_recon": 3,
+        "total": 5
+      },
+      "secondary": {
+        "total": 5
+      },
+      "confidence": "high"
+    },
+    {
+      "formation": "15th Independent Air Unit",
+      "unit": "51st Independent Chutai",
+      "mission": "recon",
+      "primary": {
+        "type100_recon": 2,
+        "type97_recon": 3,
+        "total": 5
+      },
+      "secondary": {
+        "total": 6
+      },
+      "working_range": [
+        5,
+        6
+      ],
+      "confidence": "amber"
+    }
+  ],
+  "secondary_only_additional": [
+    {
+      "formation": "10th Air Brigade",
+      "unit": "77th Sentai",
+      "aircraft": "Ki-27",
+      "nominal": 27
+    },
+    {
+      "formation": "10th Air Brigade",
+      "unit": "31st Sentai",
+      "aircraft": "Ki-30",
+      "nominal": 24
+    },
+    {
+      "formation": "10th Air Brigade",
+      "unit": "62nd Sentai",
+      "aircraft": "Ki-21",
+      "nominal": 22
+    },
+    {
+      "formation": "10th Air Brigade",
+      "unit": "70th Independent Chutai",
+      "aircraft": "Ki-15",
+      "nominal": 8
+    },
+    {
+      "formation": "Southern Army direct",
+      "unit": "47th Independent Chutai",
+      "aircraft": "Ki-44",
+      "nominal": 9
+    },
+    {
+      "formation": "Southern Army direct",
+      "unit": "84th Independent Chutai",
+      "aircraft": "Ki-27",
+      "nominal": 9
+    },
+    {
+      "formation": "Southern Army direct",
+      "unit": "82nd Independent Chutai",
+      "aircraft": "Ki-48",
+      "nominal": 12
+    }
+  ],
+  "campaign_nominal_secondary_scale": 434,
+  "alternate_type100_candidate_slots": 56,
+  "unresolved_pools": [
+    "precombat_concentration_loss_46_by_unit",
+    "replacement_first_shipment_arrived_by_1941-12-07",
+    "serviceability_by_unit",
+    "10th_air_brigade_precise_primary_strength"
+  ]
+}

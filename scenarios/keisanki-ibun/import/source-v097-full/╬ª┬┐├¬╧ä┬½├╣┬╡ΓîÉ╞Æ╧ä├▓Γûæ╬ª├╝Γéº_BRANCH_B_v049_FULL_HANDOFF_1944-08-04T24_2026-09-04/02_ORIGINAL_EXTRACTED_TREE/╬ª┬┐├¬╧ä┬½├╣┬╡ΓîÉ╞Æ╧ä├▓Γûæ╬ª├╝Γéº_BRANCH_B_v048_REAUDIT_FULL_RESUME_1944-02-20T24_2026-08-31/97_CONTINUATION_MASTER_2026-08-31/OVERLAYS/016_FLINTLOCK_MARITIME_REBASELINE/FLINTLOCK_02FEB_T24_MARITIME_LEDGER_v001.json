@@ -1,0 +1,90 @@
+{
+  "id": "FLINTLOCK_02FEB_T24_MARITIME_LEDGER_v001",
+  "status": "WORKING_REBASELINE_NOT_CANONICAL",
+  "as_of": "1944-02-02T24+12:00",
+  "bookkeeping_correction": {
+    "source": "FLINTLOCK_US_COUNTERSTRIKE_AND_02FEB_POSTSTATE_REAUDIT_v001.json",
+    "field": "carrier_air_cumulative_2Feb.Japan center",
+    "incorrect": 56,
+    "correct": 86,
+    "reason": "Band is [78,94] and offensive-loss center 60 plus CAP/recon center 26."
+  },
+  "Japan_first_line": {
+    "carriers": {
+      "Shokaku": "OPERATIONAL",
+      "Zuikaku": "OPERATIONAL",
+      "Soryu": "OPERATIONAL_LIGHT_DAMAGE",
+      "Hiryu": "MOBILE_FLIGHT_OPS_SUSPENDED"
+    },
+    "screen_center": [
+      "Hiei",
+      "Kirishima",
+      "Tone",
+      "Chikuma",
+      "Noshiro",
+      "10 destroyer-class screen slots"
+    ],
+    "surface_detachment": "NO-GO centered; protecting Hiryu and the three operational decks outranks a long unsupported dash toward Kwajalein.",
+    "carrier_air_irrecoverable_2Feb_center": 86,
+    "first_line_immediate_flyable_band": [
+      132,
+      152
+    ],
+    "first_line_coherent_offensive_package_3Feb_band": [
+      70,
+      100
+    ],
+    "note": "Coherent attack strength is lower than flyable-airframe count because losses are cadre/navigation/attack-crew heavy and cross-deck reorganization is incomplete."
+  },
+  "Japan_secondary": {
+    "carriers": [
+      "Junyo",
+      "Hiyo",
+      "Ryujo",
+      "Zuiho"
+    ],
+    "mission_ready_band_3Feb": [
+      88,
+      104
+    ],
+    "roles": [
+      "CAP relay",
+      "recovery/orphan absorption",
+      "ferry/reorganization",
+      "bounded search"
+    ],
+    "not_free_strike_pool": true
+  },
+  "US_TF58": {
+    "physical_fast_decks_after_hit": 10,
+    "Cabot": "CAMPAIGN_OUT_WITHDRAWING",
+    "Intrepid": "LIMITED_LATE_2FEB_NEAR_NORMAL_PREDAWN_3FEB_CENTER",
+    "other_decks": "OPERATIONAL",
+    "Cabot_withdrawal_escort_slots": [
+      2,
+      3
+    ],
+    "crossdeck_congestion": "Cabot airborne survivors and damaged-aircraft recovery reduce useful deck-cycle margin on receiving ships; do not add Cabot air group as free capacity.",
+    "fast_battleships": "Remain carrier-screen/anti-surface reserve through most of 3-Feb centered; no immediate mass detachment to bombardment."
+  },
+  "Marshall_local": {
+    "combat_serviceable_band": [
+      52,
+      62
+    ],
+    "center": 57,
+    "fighters_band": [
+      24,
+      30
+    ],
+    "attack_band": [
+      10,
+      14
+    ],
+    "water_recon_band": [
+      10,
+      14
+    ],
+    "C2": "C+/C intermittent warning; dispersed water-air and rear links persist."
+  }
+}

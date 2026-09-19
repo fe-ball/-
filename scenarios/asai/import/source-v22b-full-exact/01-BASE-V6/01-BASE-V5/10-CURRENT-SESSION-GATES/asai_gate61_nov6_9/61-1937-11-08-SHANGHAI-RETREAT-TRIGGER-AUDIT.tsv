@@ -1,0 +1,7 @@
+factor	weight_in_decision	baseline_effect	asai_effect	ruling
+Political/diplomatic decision	VERY HIGH	Delays full withdrawal until 8 Nov despite deteriorating geometry	No direct Asai effect	Dominant reason no 7 Nov general retreat
+Encirclement-risk perception	VERY HIGH	Hangchow Bay thrust makes Shanghai position untenable by 8 Nov	Japanese lead elements locally 3-8 h more ready/advanced	Can move order hour earlier within 8 Nov
+Route capacity / congestion	HIGH	Limits speed and causes losses/abandoned equipment	No direct infrastructure improvement	Hard cap on benefit
+Command communications	HIGH	Uneven dissemination creates piecemeal withdrawal	No Chinese-side Asai benefit	Limits synchronization
+Unit cohesion / fatigue	HIGH for execution; MEDIUM for decision	C/D units lose contact, abandon equipment, clog routes	Japanese pressure marginally higher; earlier order can offset some losses	Do not model retreat date as attrition-only
+Rear-guard ability	MEDIUM-HIGH	Allows main force to disengage	Chinese exhausted delaying units still fight	Earlier disengagement may preserve selected formations

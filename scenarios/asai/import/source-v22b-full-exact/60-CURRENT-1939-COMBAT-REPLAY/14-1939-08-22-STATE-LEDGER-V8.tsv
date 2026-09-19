@@ -1,0 +1,18 @@
+key	value	status
+war_clock	1939-08-22 24:00	CURRENT
+Soviet_offensive	in progress;full-division clean closure denied so far	CURRENT
+First_Tank_Group_immediate_ready	~29	CURRENT-center
+3rd_Tank_Regiment_ready	~16	CURRENT-center
+4th_Tank_Regiment_ready	~13	CURRENT-center
+ChiHa	3 ready/recoverable;1 Aug22 irreversible loss	CURRENT-center
+TANK37_usable	~20	CURRENT-center
+AT37_usable_theater	~215	CURRENT-center
+Type94_AT_operational_corridor	~9 operational +1 repairable center	CURRENT-center
+1_27_relief_group	outer shoulder established;1 reinforced battalion-group +4 Type94 AT guns	CURRENT-center
+1_27_special_AP	72 AT-37 allocated at arrival;included in theater stock	CLOSED
+south_center_withdrawal	majority of mobile remnants through/into eastern line;rear guards remain	CURRENT-center
+2_28_status	>80% of Aug21-night mobile remnant east of dangerous closure;~35-40% original combat-effective center	CURRENT-center
+Fui_Heights	phased withdrawal ordered for night Aug22-23	CURRENT
+Aug24_counterattack	canceled as practical operation	CLOSED
+east_corridor	connected inner/outer/outside shoulders;still under Soviet interdiction	CURRENT
+next_gate	1939-08-23 Fui withdrawal outcome / rear-guard extraction / Soviet pursuit adaptation	OPEN

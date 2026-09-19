@@ -1,0 +1,95 @@
+{
+  "revision": "v002",
+  "id": "ICHIGO_DECISION_ORIGIN_AND_LAUNCH_GATE_REOPEN_1943-11_1944-04-30_v002",
+  "status": "AUTHORITATIVE_WORKING_REAUDIT_REOPENS_LOCAL_PREPARATION_DOES_NOT_ADVANCE_GLOBAL_CLOCK",
+  "as_of_global": "1944-04-30T24:00:00+09:00",
+  "purpose": "Remove the circular May-10 launch assumption, backdate the branch Ichi-Go-equivalent decision/preparation process to where branch motives and geography actually create it, and require a fresh terminal logistics/detection reconstruction before assigning D-day.",
+  "supersedes_in_part": {
+    "ICHIGO_BRANCH_QUALITATIVE_REAUDIT_1944-04-30_v001": "Supersedes launch_window/center and the claim that April acceleration is excluded. Retains Hunan-centric geometry, no large Honan replay, conditional Hengyang, separate Guangxi authorization, and no Sichuan pursuit.",
+    "PRE_ICHIGO_FINAL_FORCE_LOGISTICS_GATE_1944-04-25_v001": "Retains OOB/support/Nanjing and structural GO result, but reclassifies early-May stock and May-08_12 timing as target-state estimates rather than proof of an exact launch date."
+  },
+  "historical_anchor": {
+    "planning_origin": "fall 1943",
+    "formal_approval": "late January 1944",
+    "order_date": "1944-01-24",
+    "historical_motives": [
+      "deny US air bases/B-29 potential",
+      "counter Fourteenth Air Force and south-China activity",
+      "restore north-south continental communications as sea transport deteriorated",
+      "weaken Chongqing government/field army"
+    ],
+    "sources": [
+      "https://www.ibiblio.org/hyperwar/Japan/Monos/JM-45/index.html",
+      "https://history.army.mil/portals/143/Images/Publications/catalog/9-2.pdf"
+    ]
+  },
+  "branch_decision_timeline": {
+    "1943-11_to_12": {
+      "state": "STAFF_STUDY_SHOULD_ALREADY_EXIST",
+      "reason": [
+        "Guangyuan main area secured late Oct/early Nov 1943",
+        "Five-Go has already removed the need to replay the historical full Honan/KOGO phase",
+        "Changsha-Hengyang-Guilin/Liuzhou remain high-value Fourteenth Air Force, rail, tax and political nodes",
+        "Hanzhong/Guangyuan can pressure Sichuan without a new Chengdu ground offensive"
+      ]
+    },
+    "1944-01": {
+      "state": "FORMAL_POLICY_AUTHORIZATION_PLAUSIBLE_AND_EXPECTED",
+      "reason": "B-29/Fourteenth Air Force threat is concrete enough to justify a Hunan-centric operation, while branch geography changes its scope rather than removing its motive."
+    },
+    "1944-02_to_03": {
+      "state": "FORCE_LOGISTICS_ENGINEER_CONCENTRATION",
+      "activities": [
+        "10-division Hunan package scheduling",
+        "rail/bridge/warehouse preparation Wuhan-Yueyang",
+        "vehicle overhaul and rotation",
+        "artillery/engineer concentration",
+        "Nanjing rear-security substitution",
+        "Fifth Air Army allocation and airfield preparation",
+        "concealment and stock dispersion"
+      ]
+    },
+    "1944-04": {
+      "state": "TERMINAL_PREPARATION_AND_LAUNCH_GATE",
+      "note": "By 1944-04-25 the branch structural gate is GO_STAGED_OPERATION, but the ledger's 175k-225k campaign stock is explicitly described as available 'by early May'. It cannot be used to prove a late-April or May-10 D-day without reconstructing accumulation by date."
+    }
+  },
+  "operation_geometry": {
+    "north_china": "NO_LARGE_HISTORICAL_HONAN_PHASE; local corridor clearing, rail/bridge repair, security and anti-guerrilla work only",
+    "phase_A": "Wuhan/Hankou -> Yueyang -> Changsha/Xiangtan; main operation",
+    "phase_B": "Hengyang only after logistics/enemy-response gate",
+    "phase_C": "Lingling/Guilin/Liuzhou requires separate strategic reauthorization",
+    "sichuan": "NO_DEEP_GROUND_PURSUIT; maintain Hanzhong-Guangyuan pressure"
+  },
+  "launch_gate_reopened": {
+    "exact_d_day": "UNRESOLVED",
+    "old_may_10_center": "REVOKED_AS_AUTHORITY",
+    "broad_plausibility_only": "late April through first half of May remains plausible, but is not canonical until dated stock/vehicle/bridge/concealment and Chinese detection are reconstructed",
+    "required_terminal_inputs": [
+      "dated Wuhan-Yueyang stock accumulation and immediately drawable stock, at least weekly from 1944-03-15",
+      "dated serviceable vehicle count and >=70% continuation threshold",
+      "first-echelon division arrival/concealment state",
+      "8-11 engineer/bridging battalion-equivalent positioning and bridge-material readiness",
+      "railway-repair group positions and line condition",
+      "Fifth Air Army normal and 48-72h surge readiness",
+      "Fourteenth Air Force/Chinese detection and interdiction reaction",
+      "weather/river condition only as an operational modifier, not a calendar fetish"
+    ],
+    "local_reopen_window": "1944-04-15..1944-04-30 initially; extend earlier if dated concentration records require it",
+    "rule": "If the reconstructed terminal gates cross before 1944-04-30, adjudicate the China local combat timeline retroactively before advancing the global clock further."
+  },
+  "why_branch_may_launch_earlier_than_historical_hunan_phase": [
+    "No full Honan opening campaign must be completed first.",
+    "Nanjing apparatus relieves 3.0-3.8 Japanese division-equivalents of static workload theater-wide.",
+    "U-Go is NO-GO, avoiding a major competing Army-air sink.",
+    "Branch land/vehicle/aircrew process improvements raise serviceability and preparation efficiency."
+  ],
+  "why_branch_does_not_launch_as_soon_as_the_idea_exists": [
+    "10 divisions still require physical rail, bridge, truck, engineer, ammunition and dispersed-stock preparation.",
+    "Five-Go western salient remains an active 2.3-2.8 division-equivalent commitment.",
+    "Premium aviation/communications/engineer resources also face Pacific/Marianas demand.",
+    "A premature launch increases Fourteenth Air Force interdiction exposure and can strand the advance before Hengyang."
+  ],
+  "global_clock_advanced": false,
+  "next_action": "Reconstruct the terminal China preparation/detection timeline rather than assume a calendar D-day."
+}

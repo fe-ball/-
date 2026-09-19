@@ -1,0 +1,29 @@
+id	status	topic	decision	guard
+V19-001	CURRENT-REPLAY	history_clock	1941-05-31 24:00	Supersedes V16 replay clock for chronology explicitly replayed in V19
+V19-002	CURRENT-CLOSE	china_peace	Formal branch peace signed 1941-05-15; effective 1941-05-20	Worldline event; not historical fact
+V19-003	CURRENT-CLOSE	china_ceasefire	Regular-army ceasefire expands from late 1940 and is formalized in Jan 1941	Local/third-force incidents do not automatically void it
+V19-004	CURRENT-CLOSE	central_hubei_1940	Late-Nov 1940 planned Japanese offensive not launched	Peace/ceasefire branch consequence
+V19-005	CURRENT-CLOSE	south_henan_1941	Historical early-1941 large Japanese offensive not launched	Peace/ceasefire branch consequence
+V19-006	CURRENT-CLOSE	shanggao_1941	Historical March 1941 large campaign not launched	Peace/ceasefire branch consequence
+V19-007	CURRENT-CLOSE	zhongyuan_1941	Historical May 1941 large campaign not launched	Peace/ceasefire branch consequence
+V19-008	CURRENT-CLOSE	wannan_new_fourth_army	Historical large-scale January destruction event avoided by negotiated movement/route control	Local frictions remain open
+V19-009	WORKING-CLOSE	japan_withdrawal_china_proper	End permanent Japanese military presence in China proper ~15 months after peace	Staged; exact unit schedule open
+V19-010	WORKING-CLOSE	hainan_withdrawal	Return/withdrawal ~18-month center	Exact implementation open
+V19-011	WORKING-CLOSE	yichang_return	Early symbolic/operational handover within first several months after peace	Exact day open
+V19-012	CURRENT-CLOSE	north_china_garrison_right	No permanent Japanese anti-communist garrison right	Temporary withdrawal security only
+V19-013	CURRENT-CLOSE	manchuria_peace_status	Not recognized by Chongqing as prerequisite; final status deferred	Do not silently resolve Manchuria
+V19-014	CURRENT-CLOSE	nanjing_regime	Dissolves as separate central government under peace process	Personnel/property treatment separated
+V19-015	CURRENT-CLOSE	state_reparations	Mutual state-war-reparations waiver	Private claims handled separately
+V19-016	WORKING-CLOSE	ccp_policy_1940_41	Preserve forces; avoid unauthorized major anti-Japanese offensives; do not disarm; compete for post-withdrawal administration	Do not assign clairvoyant peace-sabotage policy
+V19-017	CURRENT-CLOSE	japan_soviet_neutrality_pact	Historical 1941-04-13 treaty event retained	Does not kill future northward option
+V19-018	CURRENT-CLOSE	nomonhan_operational_result	Soviet/Mongolian territorial/operational objective succeeds; Japanese controlled withdrawal and force preservation improved	V10 revised close
+V19-019	CURRENT-CLOSE	nomonhan_japan_delta	~750-1250 fewer Japanese ground/tank-crew casualties; ~8-14 fewer irreversible aircraft losses; +7-10 physical/recoverable tanks; +9-12 ready tanks at close	Versus previous worldline replay, not raw history
+V19-020	CURRENT-CLOSE	nomonhan_soviet_delta	~1125-1905 additional Soviet/Mongolian ground casualties; +17-30 irreversible aircraft; +8-14 AFV-class irreversible/rear burden	Versus previous worldline replay, not raw history
+V19-021	WORKING-CLOSE	nomonhan_1941_psychology	USSR dangerous but fightable with preparation; Tokyo also enforces no local Kwantung creation of general war	Not an automatic northward-war decision
+V19-022	CURRENT-CLOSE	fuel_grades	Grade A aviation / Grade B common military middle distillate / Grade C tolerant lower grade	Inherited V16 fuel close
+V19-023	CURRENT-CLOSE	middle_distillate_stock_1941_03_31	~380k kL kerosene-family + ~400k kL light/gas-oil = ~780k kL center	Inherited V16 working close
+V19-024	CURRENT-CLOSE	gt_fuel_effect	High-octane avgas controls do not proportionally suppress E5/E6 GT aviation or diesel mobility	Do not claim zero effect on piston fleets
+V19-025	WORKING-CLOSE	us_oil_policy	Conditional/reversible normalization; normal oil/DEI commerce can continue with peaceful Japanese behavior, high-octane/TEL/premium military goods remain controlled	US choice remains a replay variable
+V19-026	OPEN	kwantung_oob_1941_06	Exact branch OOB/readiness and China-returning unit count	Highest next audit
+V19-027	OPEN	soviet_far_east_oob_1941_06	Historical Far East/Transbaikal OOB and actual westbound transfers	Highest next audit
+V19-028	NEXT-GATE	barbarossa	1941-06-01 to 06-22 posture; then German invasion of USSR	Do not pre-decide Japanese attack or Soviet transfers

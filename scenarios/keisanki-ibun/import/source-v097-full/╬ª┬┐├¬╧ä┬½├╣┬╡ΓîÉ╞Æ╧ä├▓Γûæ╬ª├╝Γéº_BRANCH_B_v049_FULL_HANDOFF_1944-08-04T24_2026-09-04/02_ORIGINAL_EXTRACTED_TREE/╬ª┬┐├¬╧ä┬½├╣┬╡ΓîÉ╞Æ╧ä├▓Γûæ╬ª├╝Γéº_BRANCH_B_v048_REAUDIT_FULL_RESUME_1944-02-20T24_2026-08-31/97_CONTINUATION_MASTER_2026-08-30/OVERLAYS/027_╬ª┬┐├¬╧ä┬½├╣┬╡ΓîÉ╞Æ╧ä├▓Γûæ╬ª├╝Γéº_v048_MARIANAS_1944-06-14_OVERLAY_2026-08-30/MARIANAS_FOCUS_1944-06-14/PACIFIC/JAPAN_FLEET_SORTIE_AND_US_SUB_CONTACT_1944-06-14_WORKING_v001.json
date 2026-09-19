@@ -1,0 +1,27 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_FLEET_SORTIE_AND_US_SUB_CONTACT_1944-06-14_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_MOVEMENT_AND_ISR_SETTLEMENT",
+  "clock_window": "1944-06-14T00:00..24:00+09:00",
+  "parents": [
+    "YAMAMOTO_A_GO_BATTLE_RELEASE_1944-06-13_WORKING_v001",
+    "JAPAN_MOBILE_FLEET_SURFACE_SCREEN_1944-06-14_WORKING_v001"
+  ],
+  "Japanese_movement": {
+    "refuel": "Protected Guimaras top-off closes during the morning; no rush that leaves the main carrier groups underfueled.",
+    "sortie": "Main carrier/surface echelons depart Guimaras/central-Philippines system during the morning-to-midday window and move east through the Visayan/San Bernardino route in staggered battle groups.",
+    "formation_policy": "The force does not move as one dense column. Carrier groups, heavy reserve and oilers use staggered sectors/intervals to reduce submarine and single-contact risk.",
+    "oilers": "Oilers remain outside the carrier tactical formation and proceed toward protected rendezvous/standby areas with dedicated escorts."
+  },
+  "Shiratsuyu_accident_gate": {
+    "historical_event": "Historical 14 Jun false-torpedo-warning collision with Seiyo Maru sank Shiratsuyu.",
+    "branch_result": "NO EVENT / SHIRATSUYU SURVIVES 14 JUN centerline.",
+    "reason": "The exact oiler escort timing, route and formation are changed by the branch's earlier concentration and staggered logistics posture. Improved contact classification reduces false-alarm maneuver risk but is not treated as accident immunity."
+  },
+  "US_submarine_contact": {
+    "result": "Late 14 Jun a US submarine obtains a credible major-fleet contact on an eastbound Japanese echelon near the Philippine exit approaches. Composition is incomplete: carriers are probable/strongly suspected, but eleven-deck total and exact battle-group split are not yet resolved.",
+    "quality": "MAJOR-FLEET-SORTIE QUALITY, not full OOB/weapon-quality track.",
+    "attack": "No successful torpedo attack on the main body on 14 Jun; Japanese ASW screen and geometry force the contact submarine to prioritize reporting/recontact.",
+    "effect": "Spruance/Mitscher receive warning that a major Japanese fleet is moving east, broadly preserving the historical strategic warning function even though the branch's departure and contact clock differ."
+  }
+}

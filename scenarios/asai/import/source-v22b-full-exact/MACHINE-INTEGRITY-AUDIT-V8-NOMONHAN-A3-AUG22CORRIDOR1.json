@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "total_files": 595,
+  "manifest_sha_targets": 591,
+  "manifest_errors": [],
+  "current_state_pointer": "PASS",
+  "current_clock": "PASS",
+  "note": "audit/control files are excluded from the content manifest to avoid self-hash recursion"
+}

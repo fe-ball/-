@@ -1,0 +1,9 @@
+{
+  "package": "ASAI-WORLDLINE-HANDOFF-2026-09-04-FULL-V8-1939AIRPOWER11-MATERIAL3",
+  "parent": "ASAI-WORLDLINE-HANDOFF-2026-09-04-FULL-V8-1939AIRPOWER10-CFRP1",
+  "checkpoint": "1939-04-20 24:00",
+  "expected_total_files": 497,
+  "expected_inventory_rows": 494,
+  "expected_manifest_rows": 495,
+  "expected_sha_targets": 495
+}

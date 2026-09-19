@@ -1,0 +1,73 @@
+{
+  "revision": "v0.01",
+  "local_date": "1941-12-08 Philippines",
+  "role": "first executable Philippines opening-air event shell",
+  "source": {
+    "title": "Louis Morton, The Fall of the Philippines, Chapter V: The First Days of War",
+    "publisher": "U.S. Army Center of Military History",
+    "cmh_publication": "5-2",
+    "web_verification_date": "2026-08-16"
+  },
+  "events": [
+    {
+      "id": "PI-19411208-FORMOSA-MAIN-01",
+      "approx_local_time": "takeoff 10:15; target period around noon",
+      "japanese": {
+        "naval_twin_engine_bombers_departed": 108,
+        "zeros_escort_departed": 84,
+        "total_departed": 192
+      },
+      "targets": [
+        "Clark Field",
+        "Iba Field"
+      ],
+      "scenario_execution": {
+        "weather_delay": "HISTORICAL",
+        "surprise_and_US_ground_exposure": "HISTORICAL_CLASS",
+        "reason": "no prior scenario divergence yet changes FEAF command/warning/dispersal state",
+        "japanese_loss_credit": "NONE_UNTIL_INDIVIDUAL_CAUSE_MODEL"
+      }
+    },
+    {
+      "id": "PI-19411208-IBA-01",
+      "japanese": {
+        "naval_twin_engine_bombers": 54,
+        "zeros_escort": 50
+      },
+      "US_state": {
+        "3rd_Pursuit_P40_remaining_after_attack": 2,
+        "radar_station": "DESTROYED"
+      },
+      "note": "P-40 action prevented the same low-level Zero attack pattern seen at Clark"
+    },
+    {
+      "id": "PI-19411208-ENDDAY-01",
+      "US_state": {
+        "B17_original_modern": 35,
+        "B17_remaining_modern": 17,
+        "P40_destroyed": 53,
+        "P35_destroyed": 3,
+        "misc_aircraft_destroyed_range": [
+          25,
+          30
+        ],
+        "many_remaining_aircraft": "HEAVILY_DAMAGED",
+        "Clark_and_Iba_installations": "BURNED_OUT_OR_BADLY_HIT",
+        "personnel_killed": 80,
+        "personnel_wounded": 150
+      },
+      "japanese_state": {
+        "fighters_lost": 7,
+        "loss_credit_scenario": 0,
+        "loss_state": "HISTORICAL_PENDING_CAUSE_DETAIL"
+      },
+      "result_class": "FEAF_EFFECTIVE_STRENGTH_APPROX_HALVED_FIRST_DAY"
+    }
+  ],
+  "scenario_rules": [
+    "fog/weather is not improved by Japanese aircraft performance",
+    "US warning/command/dispersal outcomes remain historical unless an earlier scenario event supplies a causal divergence",
+    "do not reduce seven Japanese fighter losses by a percentage without aircraft-level loss causes",
+    "carry US airfield, radar, ground-crew and aircraft damage forward as state, not only destroyed-aircraft totals"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "revision": "v032",
+  "generated": "2026-08-29",
+  "validator": "98_TOOLS/validate_refactor_v019.py",
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "json_file_count": 345,
+  "authoritative_frontier": "1944-01-01T00:00",
+  "current_checkpoint": "CHECKPOINT_1943-12-31T24_BRANCH_B_v004",
+  "authority_changed": false,
+  "discussion_frontier": "00_README/CURRENT_DISCUSSION_FRONTIER_v001.json",
+  "runtime_checks": {
+    "current_checkpoint_resolution": "PASS",
+    "registry_current_vs_latest_semantics": "PASS",
+    "frontier_reference_integrity": "PASS",
+    "stale_origin_route_open_item": "CLOSED",
+    "Eastern_Fleet_11_Jan_visual_gate": "PRESENT",
+    "Ceylon_arrival_vs_readiness_separation": "PASS",
+    "Andaman_Arakan_false_exact_station_count": "REJECTED_AND_REPLACED_WITH_BOUNDED_NODE_MODEL",
+    "no_1944_movement_realized": "PASS"
+  },
+  "notes": [
+    "v032 repairs navigation/frontier metadata without changing CURRENT authority.",
+    "Historical movement chronology is evidence only; Branch knowledge/order realization remains gated.",
+    "Exact Jan radar hardware count remains unknown; functional-node coverage is the working model."
+  ]
+}

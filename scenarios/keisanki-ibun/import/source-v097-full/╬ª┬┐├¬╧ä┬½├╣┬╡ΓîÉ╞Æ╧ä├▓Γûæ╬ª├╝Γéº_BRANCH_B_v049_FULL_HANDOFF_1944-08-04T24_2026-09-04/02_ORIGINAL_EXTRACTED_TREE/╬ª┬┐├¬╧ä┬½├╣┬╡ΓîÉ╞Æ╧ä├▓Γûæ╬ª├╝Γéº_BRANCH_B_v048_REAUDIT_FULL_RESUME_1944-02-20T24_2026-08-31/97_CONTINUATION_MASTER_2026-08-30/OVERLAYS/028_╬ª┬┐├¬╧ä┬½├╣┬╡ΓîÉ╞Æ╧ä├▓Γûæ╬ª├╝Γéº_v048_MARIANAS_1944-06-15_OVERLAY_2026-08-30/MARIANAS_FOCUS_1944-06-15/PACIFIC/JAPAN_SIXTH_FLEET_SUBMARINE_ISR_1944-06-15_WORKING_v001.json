@@ -1,0 +1,32 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_SIXTH_FLEET_SUBMARINE_ISR_1944-06-15_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_SUBMARINE_COMMAND_AND_ISR_SETTLEMENT",
+  "clock_window": "1944-06-15T00:00..24:00+09:00",
+  "historical_anchor": [
+    "Historically Takagi ordered 18 available Sixth Fleet submarines toward positions east of the Marianas after A-GO activation.",
+    "Historically the Saipan invasion disrupted Sixth Fleet communications and control shifted to Owada at Truk; subsequent radio orders and fixed patrol-line geometry were vulnerable to US intelligence and ASW.",
+    "I-10 had already reconnoitered an empty Majuro anchorage on 12 Jun, an important Japanese cue that the US fast carriers were at sea."
+  ],
+  "branch_command_change": {
+    "predelegation": "Because Japanese ISR had rated Marianas CRITICAL before D-Day, Combined Fleet requires a pre-planned alternate submarine-control handoff to Truk rather than improvising it after Saipan communications fail.",
+    "handoff": "As Saipan headquarters circuits degrade during 15 Jun, operational control passes to Owada/Truk on a prearranged schedule with acknowledgement windows. Takagi remains physically on Saipan but loss of his headquarters does not erase submarine tasking.",
+    "COMSEC_effect": "No broad message containing the full exact patrol-line coordinate set is transmitted in a form the branch treats as routinely decryptable high-grade traffic. Boats receive sector boxes, time gates and sparse update groups. US DF and traffic analysis still infer activity but not a ready-made kill map."
+  },
+  "working_force_state": {
+    "historical_available_reference": 18,
+    "branch_operational_interpretation": "Use roughly historical high-teens immediately available/converging strength as the hard center; branch extra submarine survivals are not automatically added until named-hull routing is closed.",
+    "sector_scheme": [
+      "E/SE Marianas carrier-approach reconnaissance",
+      "S of Guam/Tinian interception",
+      "outer eastward transport/support and recontact sectors"
+    ],
+    "not_yet_on_station": "Several long-range I/RO boats are still converging and cannot be credited as if already sitting on the US carrier track."
+  },
+  "15Jun_contacts": {
+    "amphibious_force": "At least one RO/I-boat obtains hydrophone/periscope-quality confirmation of dense amphibious/support traffic and the eastward night movement of vulnerable transports. This is useful operational confirmation but not a surprise discovery.",
+    "fast_carrier_force": "One outer-sector report produces a PROBABLE fast-carrier/support sector east of the Marianas, with roughly 80-140 nmi uncertainty and several-hour staleness. It is not good enough for a same-day mobile-fleet strike.",
+    "attack_result": "No confirmed Japanese submarine torpedo hit on a US capital ship/transport on 15 Jun. Heavy destroyer, CVE air-ASW and patrol-air density keep approach quality low."
+  },
+  "future_effect": "The branch enters 16-19 Jun with a more coherent Japanese submarine scouting net and without the historical automatic high-grade-code compromise of exact fixed patrol positions. US radar/air-ASW remains dangerous, so this is an ISR improvement, not submarine immunity."
+}

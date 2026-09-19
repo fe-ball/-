@@ -1,0 +1,19 @@
+{
+  "id": "GALVANIC_DMINUS1_JAPAN_MARITIME_STRIKE_REAUDIT_1943-11-23_WORKING_v001",
+  "status": "WORKING_ADJUDICATION_NOT_AUTHORITY",
+  "time": "1943-11-23 evening",
+  "input": "Pass-A hardened-base residual attack pool",
+  "launch": {
+    "attack_sorties": "24-26 centered, versus old ~22; extra two-to-four are mainly recovered/staged airframes, not extra elite crews",
+    "useful_torpedo_release_geometry": "8-10",
+    "crew_quality_constraint": "night/torpedo-qualified cadre remains the real bottleneck"
+  },
+  "centered_outcome": {
+    "USS_Independence_CVL22": "one Type-91-class torpedo hit; survives; campaign-out as in v004 centered line",
+    "additional_major_US_hit": "none centered",
+    "Japanese_irrecoverable_aircraft": "14-17; center ~16",
+    "Japanese_high_value_crew_loss": "material; night/torpedo-qualified multi-seat crews disproportionately affected",
+    "US_alert_effect": "substantial increase in CAP/AA/ASW and repeat-suppression priority for D-day morning"
+  },
+  "interpretation": "Hardening buys launch persistence but does not multiply torpedo accuracy. The old named hit remains centered; the gain is that the strike can still be generated after a harder US D-1 suppression day."
+}

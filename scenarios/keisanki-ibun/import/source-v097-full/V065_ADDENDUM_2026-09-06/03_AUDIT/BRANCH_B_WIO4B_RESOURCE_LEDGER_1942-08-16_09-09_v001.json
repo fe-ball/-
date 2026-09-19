@@ -1,0 +1,118 @@
+{
+  "id": "BRANCH_B_WIO4B_RESOURCE_LEDGER_1942-08-16_09-09_v001",
+  "status": "AUTHORITATIVE_CENTER_THROUGH_1942-09-09",
+  "depends_on": [
+    "v064 WIO-4A Operation B activation/payment",
+    "v063 Madagascar wallet",
+    "v050 Santo D-Day 1942-09-25 / modified-MI losses"
+  ],
+  "rules": {
+    "gross_first": true,
+    "full_cost_not_full_effect": true,
+    "unpaid_bill_must_appear_somewhere": true,
+    "same_hull_same_day_double_booking": false,
+    "no_invented_named_counterfactual_casualties": true
+  },
+  "operation_B_surface": {
+    "raid_window_center": ["1942-08-08", "1942-08-18"],
+    "center_direct_sinkings": {"ships": 0, "grt": 0},
+    "upper_tail_named_casualty": "OPEN_UNPOSTED",
+    "reason": "advance O-23 warning plus east-coast independent-shipping shelter order; no defensible named merchant/contact roster after shelter order",
+    "british_shipping_policy": {
+      "hard_threat_days_1942-08-05_18": 14,
+      "release_lag_days_1942-08-19_21": 3,
+      "total_policy_disturbance_days": 17,
+      "historical_at_sea_ceiling_ships": 18,
+      "hard_threat_capacity_day_ceiling": 252,
+      "release_lag_capacity_day_ceiling": 54,
+      "combined_capacity_day_ceiling": 306,
+      "calcutta_calls_per_month_reference": 50,
+      "calcutta_call_equivalents_over_17_days": 28.3333333333,
+      "exact_merchant_hull_days": "OPEN_NOT_ZERO",
+      "exact_merchant_grt_days": "OPEN_NOT_ZERO"
+    },
+    "japanese_cost": {
+      "Suzuya_Kumano_CA_sea_days": 22,
+      "destroyer_active_screen_search_sea_days_band": [44, 66],
+      "post_raid_replenishment_maintenance_days_band": [3, 5],
+      "forward_readiness_center_window": ["1942-09-05", "1942-09-09"],
+      "Santo_1942-09-25_hard_conflict": false,
+      "fuel_machinery_debt": "CARRY_FORWARD"
+    }
+  },
+  "submarine_wave": {
+    "I_166": {
+      "reported_claims": ["1942-08-16 Allied merchant", "1942-08-17 Allied merchant"],
+      "confirmed_losses_booked": 0,
+      "status": "CLAIMS_RETAINED_NOT_PROMOTED"
+    },
+    "I_165": {
+      "Harmonides_1942-08-25": {"ships": 1, "grt": 5237, "result": "RETAINED"},
+      "search_response": "flying boat + British destroyer retained",
+      "patrol_end": "1942-08-31 Penang after heavy-weather damage"
+    },
+    "I_162": {
+      "patrol_departure": "1942-08-23",
+      "confirmed_losses_through_1942-09-09": 0
+    },
+    "I_29": {
+      "Gazcon_1942-09-02": {"ships": 1, "grt": 4131, "result": "RETAINED"},
+      "British_Genius_1942-09-03": {"grt": 8553, "result_center": "SURVIVES", "sensitivity": "OPEN_UPPER_FAILURE_MECHANISM_UNRESOLVED"}
+    },
+    "cumulative_ordinary_submarines_1942-06-05_to_1942-09-09": {
+      "ships": 24,
+      "grt": 112864,
+      "branch_extra_center_ships": 0,
+      "branch_extra_center_grt": 0
+    }
+  },
+  "british_ASW_tradeoffs": {
+    "three_whalers": {
+      "Kilindini_departure": "1942-08-25",
+      "Hormuz_arrival_center": "about_1942-09-04",
+      "branch_delay": 0,
+      "effect": "Persian Gulf paid; Bay/Ceylon loses these hulls after departure"
+    },
+    "three_Cromer_minesweepers": {
+      "released_to_Gulf_of_Aden_through_1942-09-09": false,
+      "reason": "STREAMLINE_JANE commitment retained",
+      "effect": "Gulf of Aden carries surface ASW gap"
+    },
+    "Catalinas_from_Ceylon_to_Aden": {
+      "request": "1942-09-03",
+      "arrival": "1942-09-07",
+      "aircraft": 3,
+      "commitment_days_1942-09-03_09": 21,
+      "max_local_aircraft_days_1942-09-07_09_before_serviceability": 9,
+      "all_commitment_days_counted_as_flown": false
+    }
+  },
+  "madagascar_carrier_gap": {
+    "modern_fleet_carriers_available": 0,
+    "Formidable": "SUNK_1942-04-05",
+    "Indomitable": "SUNK_1942-04-05",
+    "Illustrious": "MISSION_KILL_PEDESTAL_1942-08-12",
+    "Admiralty_1942-08-18_request_send_Formidable_or_Illustrious_to_UK": "UNPAYABLE_AS_WRITTEN_OPEN_GLOBAL",
+    "Hermes": {
+      "role": "limited organic recon_ASW_spotting_light_strike; not modern fighter-deck substitute",
+      "working_air_group": "about 12 Swordfish / 814 NAS",
+      "Touchstone_carrier_days_1942-08-28_09-01": 5,
+      "main_force_preparation_transit_days_1942-09-06_09": 4,
+      "WIO4B_increment_carrier_days": 9
+    },
+    "missing_capabilities": [
+      "modern carrier fighter CAP",
+      "Illustrious-scale deck sortie mass",
+      "armoured modern carrier survivability",
+      "high-tempo carrier-air integration"
+    ],
+    "WIO5_landing_result": "OPEN"
+  },
+  "center_close_1942-09-09": {
+    "surface_Operation_B_direct_extra_kills": 0,
+    "merchant_delay_policy_disturbance_days": 17,
+    "ordinary_submarine_cumulative": "24 ships / 112,864 GRT",
+    "British_unpaid_global_bill": "modern fleet-carrier reinforcement requested for UK",
+    "next_boundary": "1942-09-10 STREAM landing at Majunga"
+  }
+}

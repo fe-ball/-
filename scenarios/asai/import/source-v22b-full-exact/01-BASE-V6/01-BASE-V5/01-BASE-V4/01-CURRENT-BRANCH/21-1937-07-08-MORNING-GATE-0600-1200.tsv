@@ -1,0 +1,8 @@
+event_id	time	event	historical_baseline	branch_delta	status	asai_relevance	next_gate
+E-19370708-12	1937-07-08 06:00-07:00	Ceasefire order does not fully propagate; scattered firing continues	Occurs despite 06:00 stop report	none material	CLOSED-SAME	mobile power does not solve local command dissemination	
+E-19370708-13	1937-07-08 07:00-09:00	Firing continues mainly between Japanese positions and Chinese forces around Changxindian	Occurs	none material	CLOSED-SAME-WITH-NOISE	no armor/dense-core relevance	
+E-19370708-14	1937-07-08 morning	Fengtai-Tianjin and Fengtai-Peiping military telephone service impaired; Peiping-Fengtai suspected leakage arrangement	Occurs	no established Asai ownership of line; generator truck irrelevant to line leakage	CLOSED-SAME	possible diagnostic improvement is non-branching	
+E-19370708-15	1937-07-08 10:00-12:00	Local withdrawal negotiations continue; deadline extends from 11:00 to 12:00	Occurs	none	CLOSED-SAME	no Asai political involvement	
+E-19370708-16	1937-07-08 around 12:00	Morita and Wang Qiyuan reach partial mutual-withdrawal arrangement	Occurs	none	CLOSED-SAME	no material equipment delta	
+E-19370708-17	1937-07-08 morning	Chinese forces around Changxindian are reinforced	Occurs	none	CLOSED-SAME	Japanese industrial differences not yet decision input	
+E-19370708-18	1937-07-08 11:40	Japanese troops in/from Tongzhou area depart toward the incident area	Occurs	departure time unchanged; exact echelon and transport mode unresolved	CLOSED-SAME-DEPARTURE	vehicle effect may begin after departure	1937-07-08 12:00-18:30

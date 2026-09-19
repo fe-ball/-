@@ -1,0 +1,103 @@
+{
+  "revision": "v002",
+  "id": "GALVANIC_DAMAGE_REPAIR_REGEN_LEDGER_1943-11_1944Q1_v002",
+  "status": "AUTHORITATIVE_BRANCH_REPAIR_AND_REGEN_SCHEDULE_NEGATIVE_DELTA_REVALIDATED",
+  "rule": "Historical repair durations are analogues, not automatic copies. Branch damage type, transit, emergency repair, yard capacity, parts and air-group regeneration are separate clocks.",
+  "ships": {
+    "USS_Independence_CVL22": {
+      "damage_date": "1943-11-23",
+      "damage": "1 aerial torpedo, aft machinery/shaft/flooding; campaign-out",
+      "emergency": "Funafuti/Vestal ~1943-11-26 through early Dec",
+      "temporary": "Pearl Harbor mid-Dec 1943",
+      "major_yard": "Hunters Point ~1944-01-05/07",
+      "return_to_full_service_band": "1944-07-18..1944-07-25",
+      "confidence": "MEDIUM-HIGH; shifted analogue of historical one-torpedo damage"
+    },
+    "USS_Lexington_CV16": {
+      "damage_date": "1943-11-26",
+      "damage": "1 aerial torpedo + 1-2 bomb hits; machinery/steering plus flight-deck/hangar damage; survives at ~18-22 kt after stabilization",
+      "emergency": "Pearl Harbor arrival center 1943-12-02..04; 1-2 weeks emergency/temporary work",
+      "major_yard": "Bremerton mid-Dec 1943",
+      "return_to_full_service_band": "1944-03-10..1944-03-25",
+      "confidence": "MEDIUM; branch estimate deliberately longer than historical 12/4 torpedo-only repair"
+    },
+    "USS_Yorktown_CV10": {
+      "damage_date": "1943-11-26",
+      "damage": "1 bomb + near-miss damage, temporary flight-deck interruption",
+      "emergency": "night 11/26-27 local patch",
+      "limited_ops": "1943-11-27",
+      "near_normal_deck_cycle": "1943-11-29",
+      "yard_note": "Short December Pearl availability if operational tempo permits; no strategic long-term absence",
+      "confidence": "MEDIUM"
+    },
+    "IJN_Soryu": {
+      "damage_date": "1943-11-26",
+      "damage": "2 bomb hits flight deck/hangar; local hangar fire; propulsion/waterline not critically damaged",
+      "emergency": "Truk/Akashi-centered emergency repair ~1943-11-29..12-06",
+      "depart_for_Japan": "1943-12-07..09",
+      "home_yard": "mid-Dec 1943 onward",
+      "operational_trials_band": "1944-01-25..1944-02-05",
+      "full_carrier_team_readiness_band": "1944-02-05..1944-02-15",
+      "year_end_state": "alive, not operational at 1944-01-01",
+      "confidence": "MEDIUM"
+    },
+    "IJN_Fujinami": {
+      "damage_date": "1943-11-26/27",
+      "damage": "light-moderate 5-inch/splinter damage during stand-off raid withdrawal; machinery remains usable",
+      "first_aid": "Mili/Kwajalein",
+      "repair": "Truk or forward tender/repair sequence",
+      "return_to_service_band": "1943-12-10..1943-12-18",
+      "confidence": "MEDIUM"
+    },
+    "USS_Franks_DD554": {
+      "damage_date": "1943-11-26/27",
+      "damage": "Type 93 hit, catastrophic stern/machinery flooding",
+      "result": "abandoned/sunk; permanent loss",
+      "confidence": "MEDIUM"
+    },
+    "USS_Pierce_APA50": {
+      "damage_date": "1943-11-27",
+      "damage": "1 submarine torpedo, aft/engine or hold damage; survives",
+      "emergency": "local/forward stabilization then Pearl",
+      "major_repair": "US west-coast or Pearl yard depending survey",
+      "return_to_service_band": "1944-02-15..1944-03-31",
+      "confidence": "LOW-MEDIUM branch estimate"
+    },
+    "I175": {
+      "damage_date": "1943-11-27",
+      "damage": "heavy depth-charge shock/leaks after Pierce attack, but propulsion/diving control retained enough to escape",
+      "withdrawal": "Marshall area -> Truk",
+      "repair_band": "1943-12-05..1944-01-05",
+      "return_to_patrol_band": "1944-01-05..1944-01-20",
+      "confidence": "LOW-MEDIUM"
+    }
+  },
+  "air_group_regeneration": {
+    "Japan": {
+      "late_Nov_carrier_capable_combat_useful_band": [
+        290,
+        325
+      ],
+      "note": "Includes first-line survivors plus secondary-carrier/rear pools; not all can be massed in one strike. Soryu survivors are cross-decked or ferried to Junyo/Hiyo/Ryujo/Zuiho and shore training/reconstitution nodes. The binding debt is experienced strike leadership/navigation/torpedo crew, not raw airframe count.",
+      "kinsei_policy_source": "06_RUNTIME/GALVANIC_AIRCRAFT_AFTER_ACTION_LESSONS_1943-12_v002.md",
+      "GALVANIC_irrecoverable_working_center": 67
+    },
+    "United_States": {
+      "note": "Independence/Lexington orphan aircraft are cross-decked or ferried to land bases/surviving decks. Material regeneration is faster than Japan; trained carrier-group integration and deck-space congestion still create short-term friction.",
+      "GALVANIC_irrecoverable_working_center": 44
+    }
+  },
+  "year_end_repair_state": {
+    "Independence": "long-term yard pipeline; unavailable",
+    "Lexington": "major yard repair; unavailable",
+    "Yorktown": "operational",
+    "Cowpens": "operational",
+    "Liscome_Bay": "operational",
+    "Soryu": "home-yard repair, unavailable",
+    "Shokaku": "operational",
+    "Zuikaku": "operational",
+    "Hiryu": "operational"
+  },
+  "supersedes": "06_RUNTIME/GALVANIC_DAMAGE_REPAIR_REGEN_LEDGER_1943-11_1944Q1_v001.json",
+  "negative_delta_note": "All centered ship hit states remain unchanged after fighter-microcombat threshold recheck; repair dates therefore remain unchanged by design, not by inertia."
+}

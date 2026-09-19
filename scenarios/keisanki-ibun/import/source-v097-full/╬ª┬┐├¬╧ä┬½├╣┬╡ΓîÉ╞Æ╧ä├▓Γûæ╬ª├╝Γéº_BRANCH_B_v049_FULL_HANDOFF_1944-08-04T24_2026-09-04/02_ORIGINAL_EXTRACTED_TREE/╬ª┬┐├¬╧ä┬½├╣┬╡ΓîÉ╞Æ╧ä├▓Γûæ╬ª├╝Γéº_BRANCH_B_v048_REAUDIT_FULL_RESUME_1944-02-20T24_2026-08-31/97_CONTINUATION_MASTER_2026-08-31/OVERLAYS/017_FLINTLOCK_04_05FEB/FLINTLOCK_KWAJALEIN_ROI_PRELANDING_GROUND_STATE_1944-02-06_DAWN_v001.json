@@ -1,0 +1,34 @@
+{
+  "id": "FLINTLOCK_KWAJALEIN_ROI_PRELANDING_GROUND_STATE_1944-02-06_DAWN_v001",
+  "status": "WORKING_PRELANDING_GROUND_LEDGER_NOT_CANONICAL",
+  "as_of": "1944-02-06 05:30 Marshall local",
+  "personnel_scale_guard": "Kwajalein/Roi-Namur total remains within the previously closed roughly 8,200-8,900 work band; no hidden extra regiment is spawned.",
+  "doctrine_loaded": [
+    "Tarawa-derived lagoon-side fire planning and anti-LVT choke-point preparation where geography permits",
+    "alternate command/succession and local reserve plans",
+    "pre-registered mortar/artillery lanes",
+    "distributed ammunition/water/telephone and smaller protected magazines",
+    "dummy positions and protected crew shelters",
+    "no post-Kwajalein deep-cave defense doctrine retrojected"
+  ],
+  "survival_state": {
+    "infantry_mortar_sheltered_positions_ready_when_fire_lifts_fraction_band": [0.55, 0.70],
+    "coastal_direct_fire_weapons_physically_fireable_fraction_band": [0.35, 0.50],
+    "coastal_direct_fire_weapons_with_observation_comms_fraction_band": [0.24, 0.36],
+    "key_wire_obstacle_routes_still_effective_fraction_band": [0.45, 0.60],
+    "forward_ammunition_usable_fraction_band": [0.60, 0.75],
+    "interpretation": "The defense is materially more coherent than a fully surprised historical-equivalent garrison, but repeated US fire has heavily reduced exposed guns, observation and island-wide coordination."
+  },
+  "vehicle_armor_trace": {
+    "Japan_Kwajalein": "No traced Japanese combat tank platoon credited.",
+    "Japan_Roi": "No traced Japanese combat tank platoon credited.",
+    "Japan_Namur": {
+      "Type94_tankette_physical": "minimum one previously traced hull",
+      "prelanding_contact_capable_band": [0, 1],
+      "role": "mobile/static machine-gun firepoint only; no meaningful anti-M4 capability"
+    },
+    "Japanese_vehicle_branch_effect": "Better running-gear/maintenance/recovery is loaded for actual traced vehicles and prime movers, but tiny bombarded islands cap reappearance; no generic tank-count bonus is applied.",
+    "US_vehicle_note": "US LVT/LVT(A), medium and light tank packages retain Tarawa-derived redundancy and traffic-control planning. The 5-Feb LST mission-kill reduces margin but does not delete a named tank company without cargo trace."
+  },
+  "ground_assessment": "Defense can impose higher first-day friction through prepared lagoon-side fires, surviving mortars, local reserves and remanning after bombardment. It lacks depth, armor and resupply to stop a sustained division-scale landing once US tanks/engineers/artillery are ashore."
+}

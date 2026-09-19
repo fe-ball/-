@@ -1,0 +1,136 @@
+{
+  "revision": "v002",
+  "purpose": "Map all registered base rules and current branch overrides to likely invalidation scope.",
+  "dependencies": [
+    {
+      "rule_id": "R-PRESERVE-LOSER",
+      "affects": "archive only",
+      "default_invalidation": "none"
+    },
+    {
+      "rule_id": "R-NEWER-NOT-TRUTH",
+      "affects": "adjudication decisions",
+      "default_invalidation": "only claims re-adjudicated under changed policy"
+    },
+    {
+      "rule_id": "R-SCIENCE-COMPARE-LIKE",
+      "affects": "technical adjudication",
+      "default_invalidation": "changed technical entries and dependent events"
+    },
+    {
+      "rule_id": "R-PHYSICS-FATAL",
+      "affects": "technical runtime eligibility",
+      "default_invalidation": "changed technical entries and dependent events"
+    },
+    {
+      "rule_id": "R-CLOCKS-SEPARATE",
+      "affects": "TECH/PREWAR fielding dates",
+      "default_invalidation": "from earliest changed fielding date"
+    },
+    {
+      "rule_id": "R-NO-DOWNSTREAM-PROOF",
+      "affects": "causal adjudication",
+      "default_invalidation": "claims that used forbidden reverse inference"
+    },
+    {
+      "rule_id": "R-BOUNDED-NOT-ABSENT",
+      "affects": "runtime uncertainty handling",
+      "default_invalidation": "events that collapsed/ignored bounded values"
+    },
+    {
+      "rule_id": "R-NO-DOUBLECOUNT",
+      "affects": "runtime integration",
+      "default_invalidation": "events containing shared-intermediate effects"
+    },
+    {
+      "rule_id": "R-CROSS-STAGE-COMPOUND",
+      "affects": "runtime integration",
+      "default_invalidation": "events containing multi-stage improvements"
+    },
+    {
+      "rule_id": "R-EVENT-DOMAIN-COMPLETE",
+      "affects": "event gating",
+      "default_invalidation": "events executed with unresolved mandatory domains"
+    },
+    {
+      "rule_id": "R-CHECKPOINT-DESCENDANTS",
+      "affects": "checkpoint invalidation",
+      "default_invalidation": "checkpoint graph semantics"
+    },
+    {
+      "rule_id": "R-UPSTREAM-BASELINE",
+      "affects": "baseline invalidation",
+      "default_invalidation": "wartime descendants"
+    },
+    {
+      "rule_id": "R-CITATION-ONLY-NO-RERUN",
+      "affects": "evidence-only edits",
+      "default_invalidation": "none unless runtime value changes"
+    },
+    {
+      "rule_id": "R-RULE-OVERRIDE-EXPLICIT",
+      "affects": "governance and override application",
+      "default_invalidation": "only outputs whose active override set or interpretation changes"
+    }
+  ],
+  "override_dependencies": [
+    {
+      "override_id": "OVR-COMINT-1942-HIGHGRADE-001",
+      "target_rule_ids": [],
+      "affects": "current branch runtime/adjudication behavior",
+      "default_invalidation": [
+        "CHECKPOINT_1942-05-06T24_v001 and all descendants where COMINT affected observation/decision"
+      ]
+    },
+    {
+      "override_id": "OVR-PEARL-SYNC-001",
+      "target_rule_ids": [],
+      "affects": "current branch runtime/adjudication behavior",
+      "default_invalidation": [
+        "all_descendants"
+      ]
+    },
+    {
+      "override_id": "OVR-NO-LABEL-ADJUDICATION-1943PLUS-001",
+      "target_rule_ids": [
+        "R-SCIENCE-COMPARE-LIKE"
+      ],
+      "affects": "current branch runtime/adjudication behavior",
+      "default_invalidation": [
+        "checkpoint_descendants"
+      ]
+    },
+    {
+      "override_id": "OVR-STATE-SEPARATION-001",
+      "target_rule_ids": [
+        "R-CLOCKS-SEPARATE"
+      ],
+      "affects": "current branch runtime/adjudication behavior",
+      "default_invalidation": [
+        "checkpoint_descendants"
+      ]
+    },
+    {
+      "override_id": "OVR-GLOBAL-EVENT-PROPAGATION-001",
+      "target_rule_ids": [
+        "R-CHECKPOINT-DESCENDANTS",
+        "R-UPSTREAM-BASELINE"
+      ],
+      "affects": "current branch runtime/adjudication behavior",
+      "default_invalidation": [
+        "checkpoint_descendants"
+      ]
+    },
+    {
+      "override_id": "OVR-ASW-WEAPON-DELIVERY-KPI-001",
+      "target_rule_ids": [
+        "R-NO-DOUBLECOUNT",
+        "R-CROSS-STAGE-COMPOUND"
+      ],
+      "affects": "current branch runtime/adjudication behavior",
+      "default_invalidation": [
+        "checkpoint_descendants"
+      ]
+    }
+  ]
+}

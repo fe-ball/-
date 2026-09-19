@@ -1,0 +1,33 @@
+{
+  "revision": "v001",
+  "id": "US_SAIPAN_BOMBARDMENT_AND_ASSAULT_PREP_1944-06-13_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_DAY_SETTLEMENT",
+  "clock_window": "1944-06-13T00:00..24:00+09:00",
+  "parents": [
+    "US_TF58_MARIANAS_SUPPRESSION_1944-06-12_WORKING_v001"
+  ],
+  "historical_anchor": [
+    "Historical 13 Jun: Vice Adm Lee's seven fast battleships began long-range shore bombardment of Saipan; roughly 2,400 16-inch rounds were fired, but concealment and limited shore-bombardment training reduced destructive effect.",
+    "Minesweeping and underwater-obstacle reconnaissance/clearance proceeded under naval gunfire, providing a strong observable indicator of imminent amphibious assault."
+  ],
+  "branch_execution": {
+    "fast_battleship_bombardment": "Seven-fast-battleship TG retained for the historical-style opening bombardment. The branch does not invent an eighth fast battleship in the firing line merely because another fast battleship is available elsewhere in the fleet system.",
+    "carrier_air": "TF58 continues runway, radar/C2, gun-position and shipping suppression while maintaining CAP over bombardment and approach forces.",
+    "minesweep_UDT": "Observable minesweeping and beach/reef reconnaissance begin under cover of the bombardment. Japanese shore observers and surviving reconnaissance assets can distinguish this from a pure carrier raid.",
+    "amphibious_indicators": "Approach traffic and support-force geometry become increasingly consistent with a Saipan landing, although the main transport mass is not yet sitting stationary off the beaches."
+  },
+  "bombardment_effect": {
+    "prepared_coastal_positions_permanently_destroyed_or_disabled_percent_band": [5, 10],
+    "additional_temporarily_suppressed_percent_band": [12, 20],
+    "interpretation": "The volume of fire is intimidating and useful for suppression, but branch Japanese prior warning, dispersion and concealment preserve most deeply prepared positions. The fast battleships are not yet the close-range precision bombardment system used by the old battleships on 14-15 Jun."
+  },
+  "US_air_losses_13Jun": {
+    "irreversible_band": [5, 9],
+    "repairable_band": [8, 14]
+  },
+  "US_surface_damage": {
+    "major_hull": "NONE",
+    "screening_ship": "One destroyer/small screening combatant receives light-to-moderate near-miss/fragment damage during Japanese local air reaction; no campaign-out is credited."
+  },
+  "operational_result": "Saipan defenses are further suppressed and amphibious preparation becomes unmistakable. FORAGER schedule remains intact."
+}

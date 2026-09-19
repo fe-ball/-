@@ -1,0 +1,60 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_INDIAN_OCEAN_SUBMARINE_UPDATE_1944-02-23_27_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_AUTHORITY",
+  "clock_window": "1944-02-23..27",
+  "global_frontier_after_merge": "1944-02-27T24",
+  "parents": [
+    "PROGRESS_1944-02-19_22/SUBWAR/JAPAN_INDIAN_OCEAN_SUBMARINE_CATCHUP_1944-02-11_22_WORKING_v001.json"
+  ],
+  "events": [
+    {
+      "date": "1944-02-23",
+      "boat": "RO-111",
+      "event": "Returns to Penang from Ceylon-area patrol.",
+      "branch_result": "IN_PORT",
+      "effect": "Remove from active/outbound patrol count after return."
+    },
+    {
+      "date": "1944-02-23..27",
+      "boat": "I-166",
+      "event": "Continues twelfth Indian Ocean/Bay patrol after 19 Feb miss; no additional named attack in this window.",
+      "branch_result": "ACTIVE_NO_NEW_CREDIT"
+    },
+    {
+      "date": "1944-02-23..27",
+      "boat": "I-162",
+      "event": "Continues outbound twelfth war patrol from Penang toward western Indian Ocean; no attack before 4 Mar.",
+      "branch_result": "ACTIVE_OUTBOUND_NO_CONTACT_WITH_SLEUTH"
+    },
+    {
+      "date": "1944-02-26",
+      "boat": "I-37",
+      "event": "Sinks British armed merchant Sutlej about 200 miles west of Diego Garcia, near 08S 70E.",
+      "branch_result": "MERCHANT_SUNK",
+      "effect": "Independent western Indian Ocean shipping loss; geometry too far west to create a useful SLEUTH datum."
+    }
+  ],
+  "effective_named_picture_at_1944-02-27T24": {
+    "active_or_outbound_relevant": [
+      "I-166",
+      "I-162",
+      "I-37"
+    ],
+    "in_port_or_returned": [
+      "RO-111"
+    ],
+    "confirmed_lost_before_window": [
+      "RO-110",
+      "I-27"
+    ],
+    "planning_rule": "Do not revive January 7-9 boat planning count; add other boats only from separately traced dated movement."
+  },
+  "SLEUTH_interaction": "NONE. No Japanese submarine obtains a fresh contact on Illustrious/Gambia through 27T24.",
+  "sources_external": [
+    "https://www.combinedfleet.com/RO-111.htm",
+    "https://www.combinedfleet.com/I-162.htm",
+    "https://www.combinedfleet.com/I-166.htm",
+    "https://www.combinedfleet.com/I-37.htm"
+  ]
+}

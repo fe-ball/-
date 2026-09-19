@@ -1,0 +1,35 @@
+{
+  "revision": "v001",
+  "purpose": "Editable mechanism for changing rules without contaminating technical/historical data.",
+  "precedence": [
+    "explicit user rule override",
+    "later version of same rule registry",
+    "base adjudication/refactor policy"
+  ],
+  "override_schema": {
+    "override_id": "string",
+    "rule_id": "R-*",
+    "action": [
+      "replace",
+      "disable",
+      "narrow_scope",
+      "expand_scope"
+    ],
+    "replacement_text": "required for replace",
+    "reason": "free text",
+    "effective_from": "package/checkpoint/date",
+    "impact_scope": [
+      "runtime_only",
+      "checkpoint_descendants",
+      "prewar_and_warstart",
+      "all_descendants"
+    ],
+    "status": [
+      "proposed",
+      "active",
+      "retired"
+    ]
+  },
+  "application_rule": "Never edit evidence to make it agree with a rule change. Re-evaluate only outputs whose dependency graph intersects the changed rule.",
+  "active_overrides": []
+}

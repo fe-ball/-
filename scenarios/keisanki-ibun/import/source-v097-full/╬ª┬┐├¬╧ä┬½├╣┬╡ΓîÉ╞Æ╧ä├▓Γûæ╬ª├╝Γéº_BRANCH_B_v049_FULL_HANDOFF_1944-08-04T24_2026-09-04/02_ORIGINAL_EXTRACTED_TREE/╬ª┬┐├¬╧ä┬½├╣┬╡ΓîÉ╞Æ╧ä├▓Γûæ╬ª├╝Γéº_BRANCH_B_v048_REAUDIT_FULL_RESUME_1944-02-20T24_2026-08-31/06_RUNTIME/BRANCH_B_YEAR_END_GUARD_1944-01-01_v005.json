@@ -1,0 +1,50 @@
+{
+  "revision": "v005",
+  "id": "BRANCH_B_YEAR_END_GUARD_1944-01-01_v005",
+  "status": "ACTIVE_CURRENT_BRANCH_B_YEAR_END_BENGAL_LAND_VEHICLE_ROLLBACK_REAUDITED",
+  "restart": "1944-01-01T00:00",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "settled_through": "1943-12-31T24:00",
+  "authoritative_settlement": "06_RUNTIME/BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v005.md",
+  "rules": [
+    "Treat the v005 1943H2 settlement, Bengal/Chittagong v002 land-vehicle rollback settlement, GALVANIC v004 ground-rollback settlement and Dodecanese withdrawal as realized current Branch B history.",
+    "Do not import any realized combat event after 1943-12-31 from retained/provisional descendants unless explicitly re-adjudicated from this frontier.",
+    "Late-December British Eastern Fleet eastbound movement/potential may be used only to the extent explicitly stated; January arrival/contact/combat remains open.",
+    "All 1944 capability must remain date-gated: hull existence, readiness, personnel, allocation, fuel, escort, route and local support are separate clocks.",
+    "No unit spawning and no fleet teleportation. Every cross-theater move requires origin, readiness, route, transit and arrival state.",
+    "Japanese destroyer/submarine/cruiser Indian Ocean reinforcement is NOT yet allocated; audit the movable wallet first.",
+    "German Monsun/U-boat cooperation requires actual boat availability and patrol days; no nominal-total shortcut.",
+    "No U-Go GO has been issued at this frontier; Ichigo and Central Pacific 1944 dates remain planning baselines, not realized fate.",
+    "GALVANIC v001 is comparison/provenance only. Never restore Liscome Bay sinking, Cowpens campaign-out, light-only Lexington damage, undamaged Soryu, or the historical 12/4 mass Kwajalein/Roi raid from retained descendants.",
+    "At 1944-01-01: Independence and Lexington are unavailable in major repair pipelines; Yorktown/Cowpens/Liscome Bay are operational; Soryu is alive but unavailable in home-yard repair; Shokaku/Zuikaku/Hiryu are operational.",
+    "Carrier-air strength and trained-strike-cadre strength are separate. Japan retains substantial aircraft/deck depth but has a real experienced attack-leadership/navigation debt after 11/26.",
+    "Kinsei Zero is date-gated through AIRCRAFT_FIELDING_LEDGER_1943-10-01_v003 plus the 1943-11 GALVANIC event fielding gate; do not freeze it at zero after 1943-10-01 and do not back-port full 1944 production.",
+    "GALVANIC naval/air/submarine no-change nodes remain valid only after the v047 dependency check. Tarawa ground values must come from v004/v003 final authorities, never v003/v002.",
+    "Bengal/Arakan values must come from BENGAL_ARAKAN_CHITTAGONG v002 and its event ledger. Do not restore v001 casualties, undifferentiated vehicle losses or 15-Dec-evening center.",
+    "Bengal has no independent Japanese tank regiment and no centered combat-tank credit. Apply vehicle gains through traced transport, prime movers, engineer plant, repair/recovery and road-axis delivery.",
+    "For every new land event, load JAPANESE_LAND_COMBAT_INTEGRATED_SYNTHESIS and trace vehicle type/count/serviceability/terrain/fuel/recovery before casualty calculation."
+  ],
+  "retained_reference_only_examples": [
+    "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SPRING_REAUDIT_v001.json",
+    "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SUMMER_v001.json",
+    "06_RUNTIME/CHINA_ICHIGO_ANALOG_1944-05-27_08-06_FORWARD_ADJUDICATION_v001.md",
+    "06_RUNTIME/MARIANAS_SAIPAN_1944-06-11_07-14_SETTLEMENT_v001.md"
+  ],
+  "galvanic_final_authorities": [
+    "06_RUNTIME/GALVANIC_BRANCH_B_1943-11_SETTLEMENT_v004.md",
+    "06_RUNTIME/GALVANIC_FINAL_OUTCOME_LEDGER_1943-11_12_v003.json",
+    "06_RUNTIME/GALVANIC_DAMAGE_REPAIR_REGEN_LEDGER_1943-11_1944Q1_v002.json",
+    "06_RUNTIME/GALVANIC_AIRCRAFT_AFTER_ACTION_LESSONS_1943-12_v002.md",
+    "06_RUNTIME/GALVANIC_KINSEI_ZERO_FIELDING_GATE_1943-11_v002.json",
+    "06_RUNTIME/GALVANIC_FIGHTER_MICROCOMBAT_RESULT_1943-11_v001.json",
+    "95_AUDIT/GALVANIC_NEGATIVE_DELTA_REVALIDATION_2026-08-29_v001.json",
+    "95_AUDIT/GALVANIC_GROUND_VEHICLE_ROLLBACK_REAUDIT_2026-08-29_v001.md",
+    "06_RUNTIME/JAPANESE_LAND_COMBAT_INTEGRATED_SYNTHESIS_1932_1944_WORKING_v002.json"
+  ],
+  "bengal_final_authorities": [
+    "06_RUNTIME/BENGAL_ARAKAN_CHITTAGONG_1943-10_12_SETTLEMENT_v002.md",
+    "06_RUNTIME/BENGAL_ARAKAN_LAND_VEHICLE_EVENT_LEDGER_1943-10_12_v001.json",
+    "95_AUDIT/BENGAL_ARAKAN_LAND_VEHICLE_ROLLBACK_REAUDIT_2026-08-29_v001.md",
+    "06_RUNTIME/ALLIED_DEATH_TALLY_RETROACTIVE_LAND_HARDWARE_RESERVATION_1941_1944_WORKING_v003.json"
+  ]
+}

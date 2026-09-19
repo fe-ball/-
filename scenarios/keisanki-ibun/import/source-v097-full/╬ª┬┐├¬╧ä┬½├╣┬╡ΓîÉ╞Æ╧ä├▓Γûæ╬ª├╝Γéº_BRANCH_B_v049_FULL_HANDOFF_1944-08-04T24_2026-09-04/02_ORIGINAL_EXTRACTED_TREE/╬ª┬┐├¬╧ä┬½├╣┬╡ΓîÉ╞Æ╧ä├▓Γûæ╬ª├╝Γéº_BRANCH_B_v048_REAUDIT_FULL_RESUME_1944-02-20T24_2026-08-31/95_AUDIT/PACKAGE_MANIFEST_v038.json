@@ -1,0 +1,14 @@
+{
+  "package_revision": "v038",
+  "root_name": "計算機異聞_refactor_v038_2026-08-29_BRANCH_B_MARSHALL_FIRST_CONTACT_WORKING_FULL",
+  "authority_time": "1944-01-01T00:00",
+  "working_discussion_clock": "1944-01-31T12:00:00+12:00",
+  "added_files": [
+    "06_RUNTIME/MARSHALL_FIRST_CONTACT_CHAIN_1944-01-28_31_WORKING_v001.json",
+    "06_RUNTIME/PARALLEL_THEATER_STATE_1944-01-31_WORKING_v001.json",
+    "95_AUDIT/MARSHALL_FIRST_CONTACT_ADVANCE_AUDIT_2026-08-29_v001.md",
+    "00_README/CURRENT_DISCUSSION_FRONTIER_v007.json",
+    "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v038.md"
+  ],
+  "file_count_pre_checksum": 800
+}

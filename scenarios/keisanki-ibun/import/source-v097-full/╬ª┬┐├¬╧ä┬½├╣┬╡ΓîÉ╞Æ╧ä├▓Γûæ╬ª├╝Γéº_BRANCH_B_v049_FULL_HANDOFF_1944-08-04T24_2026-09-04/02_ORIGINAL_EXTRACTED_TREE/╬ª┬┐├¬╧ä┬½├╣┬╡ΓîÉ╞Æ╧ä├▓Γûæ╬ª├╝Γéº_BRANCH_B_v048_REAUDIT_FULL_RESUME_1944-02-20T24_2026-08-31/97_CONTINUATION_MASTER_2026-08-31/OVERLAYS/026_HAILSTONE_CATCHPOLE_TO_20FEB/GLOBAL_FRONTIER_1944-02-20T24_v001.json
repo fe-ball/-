@@ -1,0 +1,19 @@
+{
+  "id": "GLOBAL_FRONTIER_1944-02-20T24_v001",
+  "status": "WORKING_FRONTIER",
+  "frontier": "1944-02-20T24 local-theater aligned",
+  "Truk": "First HAILSTONE daylight period complete; US daylight air superiority achieved but fixed air-defense/base system not fully neutralized. Japanese night counterstrike remains open.",
+  "Eniwetok": "Outer-islet/passage phase complete with schedule delay; Engebi assault remains planned for 21 Feb. Local defenders alerted and expediently improved, but no deep-defense transformation.",
+  "next_steps": [
+    "resolve Truk 20/21-Feb night counterstrike and submarine/ASW interaction",
+    "resolve HAILSTONE second daylight period conditional on fixed-system state",
+    "resolve Eniwetok 20/21 night air/submarine activity",
+    "simulate 21-Feb Engebi assault from actual preassault state and captured-intelligence results"
+  ],
+  "no_reopen_without_new_upstream_fact": [
+    "FLINTLOCK result",
+    "CATCHPOLE dedicated 106 amtrac + 17 amphibian-tank wallet",
+    "HAILSTONE 5 CV + 3 CVL main force split",
+    "four Japanese first-line carrier hulls survive but do not counter-sortie toward Truk"
+  ]
+}

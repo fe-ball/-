@@ -1,0 +1,47 @@
+{
+  "revision": "v001",
+  "purpose": "Map TECH/event domains to WARSTART state-ledger domains so a resolved opening state is not mistaken for missing merely because names differ.",
+  "map": {
+    "AIR_PLATFORM": [
+      "AIR_FORCE_POOL",
+      "AIR_OPENING_TYPES"
+    ],
+    "AIR_WEAPONS": [
+      "AIR_WEAPON_EFFECT"
+    ],
+    "CARRIER": [
+      "CARRIER_AIR"
+    ],
+    "SURFACE_PLATFORM": [
+      "SURFACE_FLEET"
+    ],
+    "SURFACE_TORPEDO": [
+      "SURFACE_FLEET"
+    ],
+    "SURFACE_GUNFIRE": [
+      "SURFACE_FLEET"
+    ],
+    "SUBMARINE": [
+      "SUBMARINE"
+    ],
+    "ASW": [
+      "ASW"
+    ],
+    "SENSOR_SEARCH": [
+      "SENSOR_SEARCH"
+    ],
+    "SIGINT_COMINT": [
+      "SIGINT_COMINT"
+    ],
+    "LOGISTICS": [
+      "LOGISTICS"
+    ],
+    "AMPHIBIOUS": [
+      "AMPHIBIOUS"
+    ],
+    "PERSONNEL_AND_SOFT": [
+      "PERSONNEL_AND_SOFT"
+    ]
+  },
+  "rule": "Missing alias mapping is a validation error; it may not silently mean NO_RELEVANT_DELTA."
+}

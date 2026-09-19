@@ -1,0 +1,152 @@
+{
+  "id": "BRANCH_B_PARRY_MARIANAS_FLEET_SYNC_1944-02-27T24_v001",
+  "status": "WORKING_CURRENT_BROAD_SYNC",
+  "frontier": "1944-02-27T24:00",
+  "Parry": {
+    "H_hour": "1944-02-25T09:10",
+    "US_casualties": [
+      290,
+      410
+    ],
+    "US_center": 350,
+    "US_KIA_MIA": [
+      65,
+      95
+    ],
+    "Japan_start": [
+      1330,
+      1390
+    ],
+    "Japan_killed_irrecoverable": [
+      1295,
+      1365
+    ],
+    "Japan_prisoners": [
+      10,
+      30
+    ],
+    "Type95_lost": 3,
+    "meaningful_resistance_end_band": [
+      "1944-02-26T06:30",
+      "1944-02-26T09:30"
+    ],
+    "atoll_secure_band": [
+      "1944-02-26T11:00",
+      "1944-02-26T14:00"
+    ],
+    "cleanup_through": "1944-02-27"
+  },
+  "Catchpole_current_aggregate": {
+    "US_ground_combat_casualties": [
+      720,
+      1085
+    ],
+    "US_center": [
+      880,
+      900
+    ],
+    "Japan_killed_irrecoverable": [
+      3245,
+      3470
+    ],
+    "Japan_prisoners": [
+      35,
+      90
+    ],
+    "Type95_lost": 9,
+    "US_major_ship_loss": 0
+  },
+  "Marianas_raid": {
+    "Japanese_contact": "1944-02-25 afternoon/evening",
+    "contact_range_nm": [
+      260,
+      350
+    ],
+    "local_air_physical": [
+      135,
+      175
+    ],
+    "local_air_serviceable": [
+      105,
+      135
+    ],
+    "local_air_immediate_ready": [
+      80,
+      105
+    ],
+    "night_attack_launch": [
+      16,
+      20
+    ],
+    "night_US_major_hit_center": 0,
+    "night_Japan_irrecoverable": [
+      4,
+      6
+    ],
+    "raid_date": "1944-02-26",
+    "US_sorties": [
+      320,
+      380
+    ],
+    "Japan_air_irrecoverable_total": [
+      55,
+      80
+    ],
+    "US_air_irrecoverable": [
+      10,
+      16
+    ],
+    "Japanese_small_medium_shipping_sunk_CTL": [
+      1,
+      2
+    ],
+    "Japanese_additional_shipping_damaged": [
+      2,
+      4
+    ],
+    "Japanese_major_combatant_loss": 0,
+    "US_carrier_mission_kill": 0,
+    "photo_coverage_useful_fraction": [
+      0.75,
+      0.9
+    ],
+    "second_full_day_center": false
+  },
+  "Japan_carrier_clock_27Feb": {
+    "Shokaku": "operational hull; air-group/cadre regeneration constraint",
+    "Zuikaku": "operational hull; air-group/cadre regeneration constraint",
+    "Soryu": "team gate passed; usable established deck",
+    "Hiryu": "physical deck usable; team-readiness gate still closing through about 2 Mar",
+    "four_core_immediate_combat_air": [
+      180,
+      220
+    ],
+    "four_core_synchronized_one_cycle": [
+      95,
+      125
+    ],
+    "Taiho": "completion/acceptance/early-work-up; no synchronized combat credit",
+    "posture": "preserve/regenerate/disperse; no eastward counter-sortie"
+  },
+  "Japan_surface_clock": {
+    "heavy_pool": "Yamato/Musashi/Nagato + four Kongo-class survive as strategic wallet",
+    "eastward_rescue_sortie_center": false,
+    "Truk_fleet_reconcentration": false,
+    "Akashi_oilers": "westward preserved centered",
+    "DD_CL_depth": "stronger than historical but mission/geography dispersed"
+  },
+  "fortification_clocks": {
+    "Marianas_immediate": "dispersal/camouflage/ammo-fuel subdivision/alternate positions/document destruction",
+    "Marianas_medium": "shipping-gated overhead cover/CP redundancy/terrain compartments/engineer material",
+    "Marianas_slow": "geology/material-gated multi-exit cave/gallery and distributed logistics",
+    "9th_Tank_Regiment_transfer_decision": "OPEN after HAILSTONE + first Marianas raid; no February arrival",
+    "Palau": "construction/dispersal priority increased; still not a safe permanent fleet concentration"
+  },
+  "next_gates": [
+    "1944-02-28..03-08 four-core carrier regeneration",
+    "Taiho work-up",
+    "Eniwetok base activation",
+    "Marianas engineer/tank/material shipping",
+    "US next fast-carrier operation after replenishment"
+  ]
+}

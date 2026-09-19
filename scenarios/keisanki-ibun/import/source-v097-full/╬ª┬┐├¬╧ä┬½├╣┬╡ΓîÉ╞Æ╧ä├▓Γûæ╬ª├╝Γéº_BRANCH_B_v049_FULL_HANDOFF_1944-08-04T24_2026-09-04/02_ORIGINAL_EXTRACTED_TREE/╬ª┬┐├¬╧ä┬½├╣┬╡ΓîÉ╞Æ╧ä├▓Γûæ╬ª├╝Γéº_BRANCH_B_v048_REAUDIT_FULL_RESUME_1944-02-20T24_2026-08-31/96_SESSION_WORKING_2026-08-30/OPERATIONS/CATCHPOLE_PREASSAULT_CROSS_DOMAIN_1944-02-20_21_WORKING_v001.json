@@ -1,0 +1,129 @@
+{
+  "revision": "v001",
+  "id": "CATCHPOLE_PREASSAULT_CROSS_DOMAIN_1944-02-20_21_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "local_clock": "1944-02-20T05:30..1944-02-21T08:40 Marshall local",
+  "global_clock_guard": "GLOBAL FRONTIER REMAINS 1944-02-21 until Eastern Fleet 19-22 Feb overlap is adjudicated.",
+  "US_force": {
+    "assault_pool": "about 8,000 Army/Marine assault personnel plus attached tanks, artillery, engineers and amphibious vehicles",
+    "fire_support": {
+      "old_battleships": [
+        "Pennsylvania",
+        "Colorado",
+        "Tennessee"
+      ],
+      "heavy_cruisers": [
+        "Indianapolis",
+        "Portland",
+        "Louisville"
+      ],
+      "destroyers": "about 15 in expeditionary/fire-support/ASW roles"
+    },
+    "air_support_branch": {
+      "fast_light_carriers": [
+        "Princeton",
+        "Langley"
+      ],
+      "escort_carriers": [
+        "Sangamon",
+        "Suwannee",
+        "Chenango"
+      ],
+      "Saratoga": "PERMANENT_BRANCH_LOSS / NOT PRESENT",
+      "ready_aircraft_band": [
+        145,
+        175
+      ],
+      "role": "CAP, CAS, pre-assault suppression, reconnaissance, ASW; HAILSTONE main carrier mass remains separate"
+    },
+    "amphibious_lift": "historical-equivalent transport group, LSD Ashland, about nine LSTs and six LCIs; LST-224 loss at Kwajalein already paid and replacement/reform delay embedded in 17-18 Feb sortie"
+  },
+  "Japan_force": {
+    "garrison_total_physical_band": [
+      3380,
+      3540
+    ],
+    "island_distribution": {
+      "Engebi_total": [
+        1240,
+        1320
+      ],
+      "Eniwetok_Island_total": [
+        790,
+        840
+      ],
+      "Parry_total": [
+        1330,
+        1390
+      ]
+    },
+    "Type95_tanks": {
+      "Engebi": 3,
+      "Eniwetok": 3,
+      "Parry": 3,
+      "total": 9
+    },
+    "air_local_19Feb": {
+      "physical_band": [
+        6,
+        10
+      ],
+      "serviceable_band": [
+        4,
+        7
+      ],
+      "mix": "surviving land-attack/recon plus a very small local float-recon element; no fighter/Raiden detachment spawned"
+    },
+    "radar": {
+      "confirmed_precision_tracking_channels": 0,
+      "confirmed_local_GCI": 0,
+      "warning": "visual lookout, radio reports and aircraft reconnaissance only centered",
+      "guard": "Do not back-port Truk Würzburg/precision-fire-direction hardware to Eniwetok without a physical shipment trace."
+    }
+  },
+  "20Feb_outer_islets_and_passages": {
+    "Wide_Passage": "existing minefield is detected; Branch fuze/QC/obstacle maintenance makes sweep slower and more cautious but does not create a hidden large field",
+    "Deep_Passage": "swept before main transit",
+    "delay_vs_clean_plan": "about 2.5-3.5 hours centered",
+    "mine_ship_hit_center": 0,
+    "mine_damage_upper": "one small minesweeper/LCI light-to-moderate damage sensitivity",
+    "outer_islets": "Canna/Camellia-equivalent artillery positions seized with little/no organized opposition",
+    "US_artillery": "75/105mm-class fires begin against Engebi and continue through the night"
+  },
+  "20_21Feb_Japanese_air": {
+    "fresh_contact": "YES; local visual/recon reports assault shipping",
+    "night_launch_band": [
+      3,
+      5
+    ],
+    "reaching_release_band": [
+      2,
+      4
+    ],
+    "US_ship_hit_center": 0,
+    "US_personnel_casualties_band": [
+      8,
+      22
+    ],
+    "US_material": "near-miss/splinter damage only centered; no transport mission-kill",
+    "Japanese_irrecoverable": 1,
+    "remaining_air": "1-3 aircraft escape west or are grounded/destroyed during 21 Feb suppression",
+    "radar_fire_control_note": "US shipborne radar and fighter-direction provide warning and vectoring, but night-CAP interception remains imperfect; mass surprise is denied."
+  },
+  "submarine_ASW": {
+    "Japanese_useful_approach_nodes": [
+      2,
+      3
+    ],
+    "fresh_contact_nodes": 1,
+    "credible_torpedo_approach": 1,
+    "US_ship_hit_center": 0,
+    "Japanese_cost": "one boat mission-damaged/forced off centered; no sinking center",
+    "reason": "CVE air + DD/DE + lagoon entrance patrols make repeated close approaches expensive. Branch submarine cueing buys a report/approach, not a free shot."
+  },
+  "preassault_fire_control": {
+    "US": "radar/optical directors give excellent area/point fire on mapped guns and beach sectors; spotting aircraft/forward artillery improve correction",
+    "limit": "radar cannot identify buried spider holes or perfectly discriminate own LCIs inside smoke/dust; danger-close fratricide remains possible later",
+    "Japan": "no confirmed local precision radar; coastal/mountain-gun fires rely optical observation, pre-registration and local communications"
+  }
+}

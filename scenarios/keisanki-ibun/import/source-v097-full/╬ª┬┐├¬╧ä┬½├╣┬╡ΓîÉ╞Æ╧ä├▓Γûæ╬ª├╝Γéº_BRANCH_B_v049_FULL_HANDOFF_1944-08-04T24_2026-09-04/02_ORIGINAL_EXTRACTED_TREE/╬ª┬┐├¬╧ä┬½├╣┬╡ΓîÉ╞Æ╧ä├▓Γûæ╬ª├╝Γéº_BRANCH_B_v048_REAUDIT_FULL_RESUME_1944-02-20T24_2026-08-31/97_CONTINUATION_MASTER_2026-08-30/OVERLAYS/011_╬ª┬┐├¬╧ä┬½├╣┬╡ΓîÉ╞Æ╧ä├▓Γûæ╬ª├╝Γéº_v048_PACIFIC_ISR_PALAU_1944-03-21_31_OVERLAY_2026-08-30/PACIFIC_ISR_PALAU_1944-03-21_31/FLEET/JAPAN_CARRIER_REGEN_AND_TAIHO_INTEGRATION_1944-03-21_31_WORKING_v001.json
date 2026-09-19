@@ -1,0 +1,56 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_CARRIER_REGEN_AND_TAIHO_INTEGRATION_1944-03-21_31_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-03-21..31",
+  "global_frontier_after_merge": "1944-03-31T24",
+  "parents": [
+    "JAPAN_CARRIER_AIR_REGENERATION_LEDGER_1944-03-08_20_WORKING_v001",
+    "TAIHO_WORKUP_AND_CARRIER_CADRE_ACCELERATION_1944-03-08_20_WORKING_v001",
+    "JAPAN_CARRIER_RESPONSE_PALAU_1944-03-27_31_WORKING_v001"
+  ],
+  "four_core": {
+    "as_of_20Mar": {
+      "integrated_ready_band": [
+        250,
+        278
+      ],
+      "one_cycle_synchronized_offensive_package_band": [
+        150,
+        184
+      ]
+    },
+    "as_of_31Mar": {
+      "integrated_ready_band": [
+        260,
+        286
+      ],
+      "one_cycle_synchronized_offensive_package_band": [
+        158,
+        190
+      ],
+      "qualitative": "B+/A- four-deck combat-system recovery; cadre depth improving, repeated-strike endurance still below late-1942/43 Branch peak."
+    },
+    "Palau_effect": "No combat loss from DESECRATE I because the four-core is not committed. Training tempo is briefly reduced while readiness rises, but regeneration continues."
+  },
+  "Taiho": {
+    "21_25Mar": "Passes southward-release gate after home-area work-up; conducts transit/deck training rather than combat sortie.",
+    "31Mar_readiness_class": "B-/B centered",
+    "31Mar_physical_or_immediate_air_pool_band": [
+      68,
+      78
+    ],
+    "31Mar_serviceable_band": [
+      58,
+      70
+    ],
+    "31Mar_mission_ready_band": [
+      48,
+      60
+    ],
+    "31Mar_combat_credit": "Useful as an independent/limited supporting carrier and for CAP/search/one-cycle strike; still not fully credited inside a five-deck synchronized mass strike.",
+    "integration_location": "Davao-Celebes/southern training axis by end-March centered; exact anchorage is rotated for security."
+  },
+  "five_carrier_gate": "Remains centered 10-20 Apr for full synchronized mass-strike credit, compatible with the existing 30-Apr B+ Taiho checkpoint.",
+  "guard": "Do not treat Palau survival as free training time: local aviation suffers heavily, but the mobile carrier-air cadre is intentionally preserved."
+}

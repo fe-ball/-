@@ -1,0 +1,93 @@
+{
+  "revision": "v001",
+  "id": "CROSS_DOMAIN_CAMPAIGN_REAUDIT_GUARD_1944Q1_WORKING_v001",
+  "status": "WORKING_MANDATORY_GUARD_NOT_CURRENT",
+  "purpose": "Prevent land-vehicle rollback from turning into a tank-only alternate history. Every campaign re-adjudication must account for naval, air, radar, fire-control, logistics and intelligence interactions on the same dated timeline.",
+  "mandatory_domains": {
+    "land": [
+      "infantry strength/training/fatigue",
+      "tanks/AFVs",
+      "AT guns",
+      "field/coast artillery",
+      "engineers/mines/demolitions",
+      "motor transport/recovery/maintenance"
+    ],
+    "naval": [
+      "amphibious lift and landing craft availability",
+      "naval gunfire support",
+      "surface interception/counter-sortie",
+      "minefields",
+      "submarine contact/attack",
+      "ASW escort, Tokai, Ka-go where physically present",
+      "damage control and ship availability"
+    ],
+    "air": [
+      "CAP and interception",
+      "reconnaissance/search",
+      "strike/close support",
+      "night attack",
+      "airfield serviceability",
+      "fuel/ordnance/maintenance"
+    ],
+    "sensors_C2": [
+      "early warning radar",
+      "precision tracking/fire-direction radar",
+      "visual observation posts",
+      "RI/DF/ESM",
+      "plotting/communications",
+      "radio-vectoring",
+      "night-fighter control",
+      "counterbattery spotting"
+    ],
+    "fire_control": [
+      "naval fire-control radar and optical directors",
+      "shore-coast-defense fire control",
+      "AA fire direction",
+      "artillery survey/registered fires",
+      "forward observers and air spotting",
+      "illumination/star-shell",
+      "ammunition type and fuze suitability"
+    ],
+    "logistics": [
+      "shipping/port throughput",
+      "fuel",
+      "ammunition",
+      "road/bridge capacity",
+      "engineer repair",
+      "workshop/spares",
+      "medical evacuation",
+      "recovery rights after battlefield possession changes"
+    ],
+    "intelligence": [
+      "historical contact cause",
+      "Branch COMINT inheritance",
+      "recon/photo interpretation",
+      "captured equipment/documents",
+      "survivor reports",
+      "warning latency and information quality"
+    ]
+  },
+  "interaction_rules": [
+    "Do not add a vehicle-quality bonus independently if the existing settlement already credited improved artillery, engineers, radar or logistics for the same tactical effect.",
+    "Naval gunfire can suppress or destroy armor/AT/artillery, but only if target acquisition, communications, ammunition and firing time exist.",
+    "Radar improves detection or fire-direction only within its actual frequency, geometry, operator skill and network throughput; do not turn fixed radar into omniscient CIC/GCI.",
+    "Better Japanese radar/fire control can increase US aircraft/ship losses while also making the radar itself a higher-priority suppression target.",
+    "A prolonged island battle that crosses another sunset automatically opens a separate night-action gate.",
+    "A longer campaign consumes more naval ammunition, aviation sorties, fuel, sleep and maintenance; do not grant time extension for free.",
+    "If battlefield possession changes, recompute recovery of tanks, guns, wounded, documents and wrecks for both sides.",
+    "If an amphibious assault timetable changes by hours, recheck tides, daylight, beach congestion, naval gunfire windows, CAP cycles and unloading rather than moving only infantry clocks."
+  ],
+  "CATCHPOLE_specific_checks": [
+    "US carrier and CVE/CVL allocation after HAILSTONE split",
+    "fast battleship/cruiser/destroyer gunfire availability and ammunition expenditure",
+    "pre-invasion bombardment effectiveness versus dispersed Japanese positions",
+    "Japanese coast-defense/artillery observation and fire-control quality",
+    "radar warning and any surviving precision AA/fire-direction assets",
+    "night infiltration windows if Engebi/Eniwetok/Parry resistance extends across sunset",
+    "submarine/ASW activity on transport and carrier-screen approaches",
+    "landing-craft losses/traffic jams and their effect on armor/artillery landing time",
+    "engineer crater/obstacle clearance and runway/road repair",
+    "airfield seizure timing and subsequent fighter/ASW operating availability"
+  ],
+  "promotion_rule": "No campaign closeout is promoted unless every materially relevant domain has either been adjudicated or explicitly marked NOT MATERIAL / NO PHYSICAL PRESENCE."
+}

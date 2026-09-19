@@ -1,0 +1,66 @@
+{
+  "revision": "v001",
+  "id": "PHILIPPINES_1941_42_SYSTEMIC_ARMOR_RETRO_AUDIT_WORKING_v001",
+  "status": "WORKING_FIRST_PASS_NOT_CURRENT",
+  "method": "SYSTEMIC_COMBAT_EFFECT_ACCOUNTING_FOR_VEHICLE_RETRO_AUDITS_WORKING_v001",
+  "scope": "Lingayen 22 Dec 1941 through Corregidor 6 May 1942",
+  "historical_anchors": {
+    "US_official": "US Army official history places 80-100 Japanese tanks in the Lingayen force.",
+    "regimental_OOB": "7th Tank Regiment: 34 Type89 + 14 Type95 (plus a very small Type97 reinforcement later); 4th Tank Regiment about 38 Type95.",
+    "US_tanks": "108 M3 Stuarts initially in 192nd/194th Tank Battalions.",
+    "captured_by_20_Feb": "14th Army reported 31 captured tanks by 20 Feb 1942.",
+    "Baliuag": "US claimed 8 Japanese tanks; Japanese record cited in secondary reconstruction admits 1 destroyed and 1 damaged.",
+    "late_Bataan": "7th Tank Regiment commander was killed 6 Apr during an attack in which US 37mm AT guns engaged a six-tank group.",
+    "Shinhoto": "Two Shinhoto are a hard historical Corregidor-era combat anchor."
+  },
+  "branch_vehicle_mix": {
+    "opening_Shinhoto": 0,
+    "late_Mar_Apr_Shinhoto_reinforcement_band": [
+      2,
+      6
+    ],
+    "center": 4,
+    "reason": "Branch prewar retrofit pool and faster acceptance permit a slightly larger urgent reinforcement, but shipping/training keeps it platoon-sized."
+  },
+  "first_pass_outcome": {
+    "combat_effective_tank_days_relative": "+10-18%",
+    "Japanese_irrecoverable_AFV_hist_equivalent_band": [
+      11,
+      17
+    ],
+    "Japanese_irrecoverable_AFV_branch_band": [
+      8,
+      13
+    ],
+    "Japanese_damaged_repairable_branch_band": [
+      15,
+      25
+    ],
+    "Japanese_personnel_KWM_delta": "-180 to -350",
+    "US_Philippine_personnel_KWM_delta": "+250 to +500",
+    "US_tanks_additionally_battle_disabled_before_final_surrender": "5-9",
+    "US_final_national_tank_loss_delta": "approximately 0; the force is ultimately destroyed/captured anyway",
+    "additional_serviceable_captured_M3s_vs_hist_equivalent": "2-5"
+  },
+  "captured_vehicle_effect": {
+    "usable_captured_M3_pool_after_campaign_band": [
+      6,
+      10
+    ],
+    "note": "Not all captured tanks are immediately serviceable or retained. Some can follow the 4th Tank Regiment/16th Army; others remain depot/training assets.",
+    "guard": "Captured Allied tanks are a separate pool and do not become Japanese-produced hulls."
+  },
+  "time_effect": {
+    "Bataan_final_assault": "0-12 hours earlier/less costly centered after the late Shinhoto reinforcement and better Japanese readiness",
+    "Corregidor": "strategic surrender result unchanged"
+  },
+  "post_campaign_allocation": {
+    "4th_Tank_Regiment": "Moves to 16th Army/NEI; do not leave its survivors in Philippine reserve.",
+    "7th_Tank_Regiment": "Remains until May then is reassigned toward Kwantung Army; not free until transport is completed."
+  },
+  "confidence": {
+    "loss_bands": "LOW-MEDIUM",
+    "OOB": "MEDIUM-HIGH",
+    "Shinhoto_reinforcement": "MEDIUM"
+  }
+}

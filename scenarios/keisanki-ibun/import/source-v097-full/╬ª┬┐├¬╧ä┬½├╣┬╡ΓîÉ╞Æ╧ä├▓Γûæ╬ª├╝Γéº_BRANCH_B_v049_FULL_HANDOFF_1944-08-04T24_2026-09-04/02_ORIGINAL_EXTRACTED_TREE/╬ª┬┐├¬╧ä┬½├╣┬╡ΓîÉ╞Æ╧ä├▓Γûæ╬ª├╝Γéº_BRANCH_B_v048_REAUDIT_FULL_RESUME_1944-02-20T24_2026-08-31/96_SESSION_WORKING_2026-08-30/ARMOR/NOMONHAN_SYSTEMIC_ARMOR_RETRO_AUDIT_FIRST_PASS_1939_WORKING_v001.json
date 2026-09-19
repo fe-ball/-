@@ -1,0 +1,130 @@
+{
+  "revision": "v001",
+  "id": "NOMONHAN_SYSTEMIC_ARMOR_RETRO_AUDIT_FIRST_PASS_1939_WORKING_v001",
+  "status": "WORKING_FIRST_PASS_NOT_CURRENT",
+  "scope": "1st Tank Corps / Yasuoka Detachment armored phase, late Jun-Jul 1939; broader Aug campaign unchanged pending later audit",
+  "historical_anchors": {
+    "armor_OOB": {
+      "3rd_Tank_Regiment": {
+        "Type89": 26,
+        "Type97_ChiHa": 4,
+        "Type94_tankette": 7,
+        "Type97_TeKe": 4,
+        "total_AFV": 41
+      },
+      "4th_Tank_Regiment": {
+        "Type95_HaGo": 35,
+        "Type89": 8,
+        "Type94_tankette": 3,
+        "total_AFV": 46
+      },
+      "total_AFV": 87
+    },
+    "operational": [
+      "Japanese armored regiments were committed hurriedly and without adequate combined-arms integration.",
+      "US Army historical study describes both Japanese regiments as failing to break Soviet defenses and losing roughly half their armor operationally in the early July fighting.",
+      "By 9 July the 3rd Tank Regiment had only about a half-dozen operational tanks associated with its supply/maintenance company.",
+      "Japanese primary battle reports explicitly include casualty, weapons/ammunition-loss and fuel-loss appendices and describe wet-ground movement delays and support problems."
+    ],
+    "loss_series_guard": {
+      "provisional_secondary_anchor": "42 Japanese tanks disabled, of which 29 were reportedly later repaired/redeployed; exact vehicle-class/regiment breakdown remains to be transcribed from primary appendices.",
+      "use": "sensitivity anchor only, not promoted archival truth"
+    }
+  },
+  "branch_vehicle_change": {
+    "scope": "running gear, cooling/lubrication, tolerance consistency, recovery/repair organization; gun/armor unchanged",
+    "important": "higher dispatchability increases exposure and combat contacts; it does not simply reduce all losses"
+  },
+  "first_pass_quantitative_effect": {
+    "historical_equivalent_early_July_combat_effective_tank_days_index": 100,
+    "branch_index_band": [
+      118,
+      135
+    ],
+    "center": 126,
+    "meaning": "roughly 18-35% more useful armored combat-days before withdrawal/dissolution, not 18-35% more tanks surviving the war",
+    "Japanese_AFV_damaged_disabled": {
+      "historical_anchor_band": [
+        38,
+        46
+      ],
+      "branch_band": [
+        40,
+        49
+      ],
+      "center": 44,
+      "reason": "more sorties/contact offsets improved mechanical reliability; total damaged can stay similar or rise"
+    },
+    "Japanese_AFV_irrecoverable": {
+      "historical_working_band": [
+        12,
+        17
+      ],
+      "branch_band": [
+        9,
+        14
+      ],
+      "center": 11,
+      "reason": "better recovery/repair saves a few hulls, but Soviet 45mm/artillery kills and captured vehicles remain irreversible"
+    },
+    "Japanese_AFV_repaired_returned_eventually": {
+      "branch_band": [
+        31,
+        38
+      ],
+      "center": 34
+    },
+    "operational_extension": {
+      "armored_useful_presence": "2-4 additional days of credible local armored support before withdrawal becomes the rational decision",
+      "guard": "not retained into the decisive August Soviet offensive; fuel/logistics/support and Soviet superiority still force withdrawal"
+    }
+  },
+  "systemic_effect_center": {
+    "Japanese_personnel": {
+      "tank_crew_KW_delta": "roughly -8 to -20 K/W/M",
+      "attached_infantry_engineer_artillery_KW_delta": "roughly -90 to -190 K/W/M during the early-July armored phase",
+      "mechanism": "more suppression, covered withdrawal/recovery, fewer Soviet armored penetrations into exposed supporting troops",
+      "not_claimed": "No large reduction in the total Nomonhan catastrophe; the decisive Aug battles occur after armor withdrawal."
+    },
+    "Japanese_other_equipment": {
+      "field_AT_artillery_saved": "1-3 guns/equivalent from overrun or abandonment",
+      "motor_transport_engineer_saved": "6-15 trucks/tractors/engineering vehicles equivalent",
+      "reason": "extra armored cover during local disengagement/recovery; very uncertain"
+    },
+    "Soviet_Mongolian_personnel": {
+      "additional_KW_delta": "roughly +90 to +200",
+      "mechanism": "additional firing cycles and local positions attacked before Japanese armor is withdrawn"
+    },
+    "Soviet_AFV": {
+      "additional_disabled_destroyed": "8-16 tanks/armored cars, center ~12",
+      "guard": "not all are permanent losses; Soviet recovery capability is substantial"
+    },
+    "Soviet_other_equipment": {
+      "AT_guns_artillery_MG_positions_additional_losses": "3-7 gun/position equivalents"
+    },
+    "Japanese_consumption": {
+      "tank_fuel": "+15-25% over historical-equivalent armored-phase use",
+      "tank_ammunition": "+18-30%",
+      "spares_workshop_hours": "+25-45%",
+      "recovery_engineer_commitment": "higher, not lower, because more damaged vehicles are worth recovering"
+    },
+    "time_space": {
+      "effect": "some Soviet local attacks delayed by hours to about one day; Japanese withdrawals somewhat better covered",
+      "strategic_result": "UNCHANGED: no Japanese breakthrough, armored detachment still dissolved/withdrawn, Nomonhan strategic defeat remains"
+    }
+  },
+  "institutional_effect": {
+    "branch_lesson": "Tanks are not dismissed as mechanically unreliable curiosities. The lesson becomes: armor is tactically valuable when serviceable, but under-gunned and crippled by poor combined-arms/logistics integration.",
+    "downstream": [
+      "stronger support for high-velocity 47mm program",
+      "more emphasis on recovery, fuel, engineers, radio and tank-infantry-artillery coordination",
+      "no evidence for an immediate heavy-tank leap"
+    ]
+  },
+  "confidence": {
+    "vehicle_residual": "MEDIUM",
+    "systemic_casualty_deltas": "LOW-MEDIUM",
+    "strategic_result": "HIGH",
+    "next_primary_source_task": "Transcribe 3rd/4th Tank Regiment loss appendices to replace the 42/29 secondary anchor and tighten crew/equipment effects."
+  }
+}

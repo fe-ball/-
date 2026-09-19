@@ -1,0 +1,38 @@
+{
+  "revision": "v0.01",
+  "scope": "Malaya/Southern Army air concentration accounting constraints before and during the opening campaign",
+  "role": "administrative calibration and anti-double-counting ledger; not a per-unit Dec-8 strength table",
+  "historical_constraints": {
+    "concentration_aircraft_losses_bad_weather": 46,
+    "campaign_post_outbreak_aircraft_losses_to_singapore_fall": 331,
+    "campaign_replacement_aircraft_total": 270,
+    "southern_army_replacement_first_shipment_from_mid_november": 148,
+    "campaign_personnel_losses": 582,
+    "campaign_officer_losses": 73
+  },
+  "opening_accounting": {
+    "precombat_concentration_loss_pool": {
+      "value": 46,
+      "allocation_state": "UNALLOCATED",
+      "direct_subtraction_from_dec8_nominal_oob": false
+    },
+    "replacement_shipment_1_pool": {
+      "value": 148,
+      "allocation_state": "UNALLOCATED",
+      "direct_addition_to_dec8_unit_strength": false
+    }
+  },
+  "semantics": [
+    "46 is kept separate from the 331 post-outbreak campaign loss total",
+    "270 is a campaign calibration total, not an opening inventory addition",
+    "148 is the first Southern Army replacement shipment beginning from mid-November; unit/date allocation before Dec 8 remains unknown",
+    "known Dec-7 incidents may be members of the 46 and therefore are not added on top of the pool without identity evidence"
+  ],
+  "sources_in_package": [
+    "MALAYA_PHASE1_1941-12-08_15_STATE_TRANSITION_v001.md",
+    "malaya_phase1_events_v001.json",
+    "PREWAR_SOUTHERN_AIR_CONCENTRATION_1941-11-15_12-07_v001.md",
+    "MALAYA_EVE_STATE_DERIVATION_v001.md"
+  ],
+  "source_note": "Values are normalized from the existing package's JM55-derived administrative totals; this file restores a missing machine-readable dependency and introduces no new historical estimate."
+}

@@ -1,0 +1,10 @@
+field	value
+package_version	V21
+package_root	ASAI-WORLDLINE-HANDOFF-2026-09-16-FULL-V21-1944-YEAREND-SOVIET-PACT-GATE
+current_router	00-START-HERE-CURRENT.md
+current_session	89-CURRENT-2026-09-16-1944-YEAREND-SOVIET-PACT-HANDOFF-V21
+current_clock	1944-12-31 24:00
+next_gate	Soviet-Japanese Neutrality Pact denunciation / automatic-extension deadline 1945-04-25
+inheritance	Full V20 package retained inside V21; explicit-only supersession
+checksum_file	SHA256SUMS-V21.txt
+validation_file	V21-VALIDATION-REPORT.md

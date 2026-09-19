@@ -1,0 +1,21 @@
+asset	physical_count_1939_04_20	propulsion	state	current_reading	AIRPOWER6_action
+E5 Single No.1	1	E5-J	flying military technical prototype	Ki-42 lineage; 445-460kgf flight band	PASS; pure-J retained
+E5 Single No.2	1	E5-J	flying military development prototype	Ki-42 fixes	PASS; pure-J retained
+Ki-42 evaluation batch	4	E5-J	service/development evaluation	physical technical population totals 6 singles	PASS; no JF aircraft counted
+Ki-42 JF derivative	0	E5-JF candidate	engineering/procurement option	mass/length/CG/control integration owed	OPEN; technically attractive, not current hardware
+E5 future-form single	1	E5-J	company architecture/reference testbed	late-1937 first-flight band; architecture substantially validated 1938	RE-PROMOTED physical research airframe
+HS-1 / E4 Single No.2 rebuild	1 same physical E4 No.2 airframe	E5-J after 1935-36 rebuild	high-speed air-data/compressibility calibration/reference	no added airframe count	CLOSED identity/progression
+E5 Twin No.1	1	2x E5-J	military technical prototype	pure-J clean/high-speed baseline	PASS
+E5 Twin No.2	1	2x E5-JF	military comparison prototype	first JF flight 1937Q4	PASS; frontal-area rationale corrected
+Ki-40 evaluation	3	2x E5-JF each	limited military evaluation	command/high-speed reconnaissance	CLOSED central propulsion allocation
+Ki-41 evaluation	2	1 aircraft 2xE5-J; 1 aircraft 2xE5-JF	limited military evaluation	twin fighter/interceptor comparison	CLOSED central split
+R1As evaluation	1	2x E5-JF	limited Navy evaluation	land reconnaissance	CLOSED central propulsion allocation
+J1As evaluation	2	1 aircraft 2xE5-J; 1 aircraft 2xE5-JF	limited Navy evaluation	land fighter comparison	CLOSED central split
+E5 twin total	10	3 pure-J aircraft / 7 JF aircraft	flight-evaluation capable; combat squadron 0	2 prototypes + 8 follow-ons	CLOSED central hardware allocation
+Known installed E5-J flight packages	14	E5-J	installed across current listed aircraft	excludes spares/ground/shaft products	CLOSED accounting center
+Known installed E5-JF flight packages	14	E5-JF	installed across current listed aircraft	excludes spares/ground engines	CLOSED accounting center
+P1/P2 practical-STOL family	current physical count still separate audit	E5-class shaft/TP	actual limited product	no forced E6 update	UNAFFECTED by J/JF closure
+HS-2	1	E6-S-J development (~420kg dry center)	completed/pre-flight ground-release band	first-flight target May 1939; ~475kgf initial standard; ~500kgf HF later expansion	CLOSED current technical state under file25; measured flight OPEN
+E6 Twin	military prototype build program	interim -> E6-M-J -> E6-M-JF	current target schedule retained	E5 flight school pays backend/control/integration learning	PASS inheritance
+E6 Single	1 research prototype build target	E6-M-J initial	company high-speed research	May-Jun 1939 first-flight target	PASS inheritance; JF derivative not automatic
+Material No.2	OPEN	E5-family jet candidate not reclosed here	material/high-q program	exact Apr20 build/flight/engine state missing	OPEN separate audit

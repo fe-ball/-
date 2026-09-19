@@ -1,0 +1,45 @@
+{
+  "revision": "v008",
+  "purpose": "Branch B rollback override: restart after Kiska/Hanzhong in summer 1943 and reopen all later strategic choices.",
+  "protocol": "00_CONFIG/rule_override_protocol_v002.json",
+  "inherits": "00_CONFIG/current_branch_overrides_v007.json",
+  "overrides": [
+    {
+      "override_id": "OVR-BRANCH-B-RESTART-1943-08-01-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "2026-08-27",
+      "impact_scope": "runtime_restart_selection",
+      "effective_rule": "Default restart is CHECKPOINT_1943-07-31T24_BRANCH_B_v001 at 1943-08-01T00:00. Later checkpoints and realized Q3/Q4 outcomes are not current.",
+      "source": "05_WARTIME/CHECKPOINT_1943-07-31T24_BRANCH_B_v001.json"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-ROLLBACK-GUARD-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-08-01",
+      "impact_scope": "all_downstream_adjudication",
+      "effective_rule": "Load BRANCH_B_ROLLBACK_GUARD_1943-08-01_v001 before any later settlement or historical default.",
+      "source": "06_RUNTIME/BRANCH_B_ROLLBACK_GUARD_1943-08-01_v001.json"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-GALVANIC-FORECAST-ONLY-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-08-01",
+      "impact_scope": "Central_Pacific_future",
+      "effective_rule": "GALVANIC is forecast-only. No date/OOB/outcome/casualty or Japanese response is fixed.",
+      "source": "06_RUNTIME/GALVANIC_FORECAST_BRANCH_B_1943SUMMER_v001.md"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-INDIA-NOT-CURRENT-PROGRAM-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-08-01",
+      "impact_scope": "India_Burma_future",
+      "effective_rule": "The later Indian Ocean/Arakan coastal-operation study is research-only. No landing preparation, hull allocation, GO gate, or Cox's objective is current until reselected and re-adjudicated.",
+      "source": "06_RUNTIME/BRANCH_B_ROLLBACK_GUARD_1943-08-01_v001.json"
+    }
+  ],
+  "edit_protocol": "v007 and earlier remain historical. v008 is Branch B precedence and intentionally overrides the later restart."
+}

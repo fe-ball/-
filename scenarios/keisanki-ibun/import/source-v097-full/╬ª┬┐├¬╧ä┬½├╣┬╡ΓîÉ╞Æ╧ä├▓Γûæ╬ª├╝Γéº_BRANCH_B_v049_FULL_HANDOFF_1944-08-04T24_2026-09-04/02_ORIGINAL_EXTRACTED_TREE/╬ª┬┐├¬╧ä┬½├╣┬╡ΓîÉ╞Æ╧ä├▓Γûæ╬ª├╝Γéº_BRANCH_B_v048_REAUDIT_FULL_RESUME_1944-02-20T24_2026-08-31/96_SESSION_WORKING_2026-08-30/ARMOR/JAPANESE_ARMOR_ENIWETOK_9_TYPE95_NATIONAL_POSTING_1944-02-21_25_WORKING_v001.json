@@ -1,0 +1,25 @@
+{
+  "revision": "v001",
+  "id": "JAPANESE_ARMOR_ENIWETOK_9_TYPE95_NATIONAL_POSTING_1944-02-21_25_WORKING_v001",
+  "status": "WORKING_NAMED_LOSS_POSTING_NOT_CURRENT",
+  "purpose": "Post the previously omitted nine Type95 tanks of the 1st Amphibious Brigade into the national armor ledger.",
+  "opening_physical": {
+    "Engebi": 3,
+    "Eniwetok_Island": 3,
+    "Parry": 3,
+    "total": 9
+  },
+  "loss_clock": {
+    "1944-02-21_Engebi": -3,
+    "1944-02-22_23_Eniwetok_Island": -3,
+    "1944-02-25_Parry": -3
+  },
+  "repair_recovery": 0,
+  "reason": "All three islands are lost; no Japanese recovery corridor remains.",
+  "systemic_value": "Branch vehicle reliability raises local tank-days, infantry support and US LVT/M4 mission-kills, but national residual is still zero after atoll conquest.",
+  "checkpoint_effect": {
+    "1944-02-21_end_of_day": "subtract 3 Type95 from the broad national physical/serviceable bands if the checkpoint is interpreted after Engebi combat",
+    "1944-02-26": "subtract all 9",
+    "note": "This is numerically small inside the national band but mandatory for named-unit accounting."
+  }
+}

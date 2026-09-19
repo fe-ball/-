@@ -1,0 +1,21 @@
+field	value
+nominal_version	V21
+base_package	V20 full package
+build_date	2026-09-16
+current_replay_session_folder	89-CURRENT-2026-09-16-1944-YEAREND-SOVIET-PACT-HANDOFF-V21
+current_technical_session_folder	V21 session closes plus inherited V18/V17/V16/V14/V10 technical authorities where V21 silent
+history_clock	1944-12-31 24:00
+china_clock	1944-12-31; peace effective 1941-05-20; principal withdrawal complete; cold peace/normalization active
+japan_us_uk_nl_war	not begun
+japan_soviet_war	not begun
+us_germany_formal_war	not begun
+japan_strategic_center	HOLD active armed neutrality / option preservation / economic compounding
+north_gates	N-OPP YELLOW/AMBER; N-PREV HIGH-YELLOW; N-PREV-LONG ACTIVE
+soviet_horizon	ACTIVE/HIGH
+western_entry	PLANNING; not triggered
+romania_state	Axis through 1944-12-31; no historical coup; Ploiesti intact
+finland_state	formal historical Sept armistice not closed; de facto quiet/peace contacts
+warsaw_state	German-held; historical 1944 uprising absent; AK substantially intact
+next_replay_gate	Soviet-Japanese Neutrality Pact denunciation/auto-extension decision by 1945-04-25
+pact_clock	entered force 1941-04-25; current term expires 1946-04-25; denunciation deadline 1945-04-25
+branch_guard	V21 explicit-only supersession; otherwise inherit prior current authority

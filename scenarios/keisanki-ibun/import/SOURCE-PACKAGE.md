@@ -1,5 +1,13 @@
 # Source Package
 
+## 完全保存の追記 — 2026-09-20
+
+原本ZIPは [archives/計算機異聞_BRANCH_B_v097_FULL_HANDOFF_1944-04-30T2400_AIRCRAFT_HISTORY_NEXT_2026-09-19(1).zip](archives/計算機異聞_BRANCH_B_v097_FULL_HANDOFF_1944-04-30T2400_AIRCRAFT_HISTORY_NEXT_2026-09-19(1).zip)、全展開ファイルは [source-v097-full/](source-v097-full/) に保存済み。
+全件のCRC・SHA-256照合を完了。詳細は [Import Status](IMPORT-STATUS.md) を参照。
+以下の初期取り込み範囲・版・時計の記述は、元パッケージと初期取り込み時点の記録です。
+現行authorityは **Branch B v098** です。
+
+
 Imported from the user-provided archive:
 
 `計算機異聞_BRANCH_B_v097_FULL_HANDOFF_1944-04-30T2400_AIRCRAFT_HISTORY_NEXT_2026-09-19(1).zip`

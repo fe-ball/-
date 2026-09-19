@@ -1,0 +1,73 @@
+{
+  "version": "v093",
+  "as_of": "1942-11-20",
+  "authority_date": "2026-09-14",
+  "operational_line": {
+    "santo_operational_capture": "1942-07-29 ~14:30 center",
+    "nc_d_day": "1942-09-01",
+    "tontouta_capture": "1942-09-06 evening center",
+    "noumea_operational_capture": "1942-09-14 morning-noon center",
+    "limited_fs": "success at Santo + NC strategic zone; Fiji/Samoa no automatic continuation"
+  },
+  "current_frontier": "Japanese secondary-carrier individual wallets at 1942-11-20",
+  "japan": {
+    "major_holdings": [
+      "Midway",
+      "Port Moresby",
+      "Espiritu Santo",
+      "New Caledonia strategic western zone",
+      "Kiska",
+      "Attu"
+    ],
+    "carrier_roles": {
+      "first_line": [
+        "Zuikaku",
+        "Shokaku",
+        "Hiryu"
+      ],
+      "return_gate": [
+        "Soryu"
+      ],
+      "large_second_echelon": [
+        "Junyo",
+        "Hiyo"
+      ],
+      "mobile_support": [
+        "Ryujo",
+        "Zuiho",
+        "Shoho"
+      ],
+      "workup": [
+        "Ryuho"
+      ],
+      "aviation_logistics": [
+        "Taiyo",
+        "Unyo",
+        "Chuyo"
+      ],
+      "training": [
+        "Hosho"
+      ]
+    },
+    "sargasso_rule": "No blanket bonus; subtract NC/Efate actual losses and other-theater commitments.",
+    "santo_air_rule": "fixed OOB / forward replacement / rear replacement / sea pipeline separate"
+  },
+  "allies": {
+    "south_pacific_depth": [
+      "Efate forward outpost",
+      "Fiji main defense/build-up",
+      "Tonga fleet staging",
+      "New Zealand regeneration"
+    ],
+    "east_coast_force_nc": "shrinking light-infantry/intelligence force; several thousand combat core by late Oct/Nov",
+    "us_carrier_condition": "Lexington/Yorktown/Enterprise/Hornet/Saratoga lost upstream; Wasp long repair after Santo",
+    "us_fast_bb": "Washington healthy; South Dakota returned after grounding; North Carolina return from NC damage; Indiana arriving"
+  },
+  "open_operational_options": {
+    "efate": "suppression center; occupation only if reinforcement/use threshold crossed",
+    "fiji": "study open, execution NO-GO center by Nov",
+    "aleutians": "Amchitka destructive counterlanding conditional; Attu counterlanding concept open",
+    "arakan_bengal": "limited pressure study open; no automatic Calcutta conquest",
+    "wio": "submarine/recon pressure; short CA raid conditional"
+  }
+}

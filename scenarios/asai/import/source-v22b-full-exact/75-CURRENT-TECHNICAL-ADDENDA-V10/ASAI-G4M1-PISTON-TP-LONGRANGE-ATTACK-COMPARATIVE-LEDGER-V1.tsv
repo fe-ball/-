@@ -1,0 +1,31 @@
+case	field	value	unit	status	note
+G4M1_HIST	length	~20.0	m	EXTERNAL-HISTORICAL	early Model11 class
+G4M1_HIST	span	~25.0	m	EXTERNAL-HISTORICAL	
+G4M1_HIST	wing_area	~78.1	m2	EXTERNAL-HISTORICAL	
+G4M1_HIST	empty_mass	~6.8	t	EXTERNAL-HISTORICAL	
+G4M1_HIST	max_takeoff	~12.5	t	EXTERNAL-HISTORICAL	class value
+G4M1_HIST	engine	2x Kasei11		EXTERNAL-HISTORICAL	
+G4M1_HIST	power_takeoff	2x1530	hp	EXTERNAL-HISTORICAL	
+G4M1_HIST	power_2000m	2x1410	hp	EXTERNAL-HISTORICAL	
+G4M1_HIST	power_4000m	2x1340	hp	EXTERNAL-HISTORICAL	
+G4M1_HIST	max_speed_4200m	~428	km/h	EXTERNAL-HISTORICAL	current EX0 comparison anchor
+G4M1_HIST	max_ferry_range	~6000	km	EXTERNAL-HISTORICAL	not combat radius
+G4M1_HIST	offensive_load	1x800kg torpedo or ~800kg bomb mission		EXTERNAL-HISTORICAL	
+G4M1_WORLDLINE_EX2	max_speed_4200m	~433-436	km/h	CURRENT-DERIVED	current 5.2-7.9 km/h early G4M exhaust delta
+G4M1_WORLDLINE_EX2	cruise	~320-330	km/h	H->A	some exhaust margin may be spent on fuel/thermal margin
+G4M1_WORLDLINE	torpedo_radius	900-1150	km	H->A	ordinary reserve/search/attack planning band
+G4M1_WORLDLINE	torpedo_radius_favorable	1200-1300	km	H->A-SENSITIVITY	favorable reserve/search/alternate-base condition only
+G4M1_WORLDLINE	protection	unprotected integral wing fuel; no generic self-sealing/armor		CLOSED-GUARD	QC/plumbing may improve but does not cure combat vulnerability
+G4M1_LEVEL_BOMB	fixed_area_target	+5-10% effective target-area concentration vs matched history		CURRENT-INHERITANCE	FCS1/FCS2; not direct hit multiplier
+G4M1_LEVEL_BOMB	moving_warship_direct_hit	low-single-digit ordinary	fraction	H->A-GUARD	not primary moving-ship kill method
+G4M1_TYPE91_1941	release	Mod2 400-430km/h normal envelope no longer torpedo-fragility limiter		CURRENT-INHERITANCE	airframe/geometry dominate ordinary release speed
+G4M1_E6ST	engine	2x E6-S-T 1300 standard / 1400 short	hp	CURRENT-ENGINE/H->A	
+G4M1_E6ST	parasite_drag_change	-4 to -7	percent	H->A	nacelle cleanup
+G4M1_E6ST	max_speed_low_alt	400-420	km/h	H->A	
+G4M1_E6ST	max_speed_4000m	390-425	km/h	H->A	altitude-power map bracket retained
+G4M1_E6ST	torpedo_radius	650-850	km	H->A	cruise SFC penalty
+G4M1_E6ST	serial_decision	REJECT		CLOSED	no physical conversion priority
+G4M1_E6MT	classification	new aircraft not G4M retrofit		CLOSED-GUARD	major structural/prop/gear/fuel redesign required
+G4M1_RAMP	effective_schedule_opportunity	2-4 months earlier		H->A-GATE	test/production health, not automatic combat date
+G4M1_RAMP	late1941_extra_acceptance_opportunity	20-50	airframes	H->A-PLANNING	if same mature monthly rate; not pre-recorded inventory
+NEXT_WASH	priority	B6N requirement/engine -> D4Y replacement -> B7A composition		CURRENT-NEXT	

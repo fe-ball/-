@@ -1,0 +1,51 @@
+{
+  "id": "FLINTLOCK_SUBMARINE_NIGHT_AIR_INTERDICTION_1944-02-04_05_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-04 through 1944-02-05T24 Marshall local",
+  "starting_rules": [
+    "No old LST-224 hit, named submarine loss or other legacy ship result is inherited.",
+    "Cabot cripple-hunt consumed 1-2 boat-days before the assault-lane network reached full density.",
+    "No real-time wolfpack control; contact/report/attack remain separate decisions.",
+    "Sentaka sprint is tactical geometry correction only.",
+    "US ASW is alert after GALVANIC, the 2-Feb carrier battle and repeated submarine reports."
+  ],
+  "4Feb_submarine_state": {
+    "useful_assault_support_geometry_band": [9, 11],
+    "still_relocating_or_outer_reporting_band": [1, 3],
+    "Cabot_hunt_or_recovery_cost_band": [1, 2],
+    "event": "One northern boat approaches a CVE/fire-support screen during 4-Feb but aircraft/escort handoff forces it deep before a satisfactory shot.",
+    "weapon_hits": 0
+  },
+  "4_5Feb_night_air": {
+    "package_band": [6, 8],
+    "source": "Already-counted surviving Marshall attack aircraft using water-recon/submarine cue; not a reinforcement package.",
+    "effective_weapon_runs_band": [2, 4],
+    "center_result": "No US ship hit. Radar pickets, CAP, maneuver and target-identification uncertainty break the attack.",
+    "Japanese_irrecoverable_band": [2, 3]
+  },
+  "5Feb_submarine_attack": {
+    "time_band": "roughly 02:10-03:10 local",
+    "geometry": "A conventional I/Ro-class boat uses the now-better-defined southern assault/tractor corridor and obtains a firing-quality solution against a dense landing echelon after the outer DD screen has been partially drawn into close-support/approach duties.",
+    "spread": "six-torpedo-class spread centered",
+    "center_result": "One torpedo hits an LST-class landing ship. The hull remains afloat but is mission-killed for the main assault and withdrawn/towed from the immediate landing package; exact hull identity remains OPEN.",
+    "cargo_guard": "Do not invent the exact embarked tank/LVT/company cargo. Some vehicles/stores become inaccessible or are lost, but no named tank company or regiment is deleted by fiat.",
+    "personnel_effect_band": [30, 65],
+    "operational_effect": "Reduces tractor/landing-ship reserve margin and adds local redistribution work. It does not stop a division-scale assault and is less severe than the superseded LST-224 constructive-total-loss line.",
+    "attacker": "Survives the immediate counterattack centered but is mission-damaged and withdraws; unavailable for another pre-D-Day shot."
+  },
+  "5Feb_ASW_attrition": {
+    "event": "A different conventional boat attempts to re-enter a central/northern support screen during daylight/early evening and is prosecuted by escort sonar plus aircraft.",
+    "center_result": "One conventional Japanese submarine sunk; exact hull identity remains OPEN because the branch patrol geometry no longer matches historical attribution.",
+    "note": "The count can resemble an older line, but the event path, target interaction and hull identity are independently rerun."
+  },
+  "5_6Feb_predawn_air": {
+    "package_band": [2, 4],
+    "role": "harassment/recon/last-chance transport cue rather than a coherent strike",
+    "center_result": "No ship hit; 1 aircraft irrecoverable centered."
+  },
+  "net_through_5FebT24": {
+    "US": "One unnamed LST-class hull mission-killed and removed from the assault package; no CVE/APA/battleship hit centered.",
+    "Japan": "One conventional submarine sunk, one mission-damaged/withdrawn from the successful LST attack, remaining network pushed outward but still reporting.",
+    "information": "Japanese command retains high confidence in 6-Feb-class assault timing/sector concentration; US ASW pressure prevents converting that knowledge into repeated weapon-quality attacks."
+  }
+}

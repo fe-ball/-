@@ -1,0 +1,316 @@
+{
+  "revision": "v002",
+  "purpose": "Resolve TECH domains against the actual selected checkpoint first; WARSTART aliases are fallback baseline only. Prevents a later wartime checkpoint from being silently replaced by opening-state data.",
+  "warstart_map": {
+    "AIR_PLATFORM": [
+      "AIR_FORCE_POOL",
+      "AIR_OPENING_TYPES"
+    ],
+    "AIR_WEAPONS": [
+      "AIR_WEAPON_EFFECT"
+    ],
+    "CARRIER": [
+      "CARRIER_AIR"
+    ],
+    "SURFACE_PLATFORM": [
+      "SURFACE_FLEET"
+    ],
+    "SURFACE_TORPEDO": [
+      "SURFACE_FLEET"
+    ],
+    "SURFACE_GUNFIRE": [
+      "SURFACE_FLEET"
+    ],
+    "SUBMARINE": [
+      "SUBMARINE"
+    ],
+    "ASW": [
+      "ASW"
+    ],
+    "SENSOR_SEARCH": [
+      "SENSOR_SEARCH"
+    ],
+    "SIGINT_COMINT": [
+      "SIGINT_COMINT"
+    ],
+    "LOGISTICS": [
+      "LOGISTICS"
+    ],
+    "AMPHIBIOUS": [
+      "AMPHIBIOUS"
+    ],
+    "PERSONNEL_AND_SOFT": [
+      "PERSONNEL_AND_SOFT"
+    ],
+    "AIR": [
+      "AIR_FORCE_POOL",
+      "AIR_OPENING_TYPES",
+      "PERSONNEL_AND_SOFT"
+    ],
+    "AIR_COMBAT": [
+      "AIR_FORCE_POOL",
+      "AIR_OPENING_TYPES",
+      "PERSONNEL_AND_SOFT",
+      "SENSOR_SEARCH"
+    ],
+    "MATERIALS_PROPULSION": [
+      "LOGISTICS"
+    ],
+    "SUBMARINE_AVIATION": [
+      "SUBMARINE",
+      "AIR_OPENING_TYPES"
+    ],
+    "SURFACE": [
+      "SURFACE_FLEET"
+    ],
+    "SENSOR_FIRECONTROL": [
+      "SENSOR_SEARCH"
+    ],
+    "CROSS_DOMAIN": [
+      "PERSONNEL_AND_SOFT"
+    ]
+  },
+  "checkpoint_state_paths": {
+    "AIR": [
+      "weapons",
+      "japan_naval_posture",
+      "carrier_state",
+      "japanese_operational_state",
+      "fixed_or_retained_state",
+      "maturation_deltas"
+    ],
+    "AIR_PLATFORM": [
+      "weapons",
+      "japan_naval_posture",
+      "carrier_state",
+      "japanese_operational_state",
+      "fixed_or_retained_state"
+    ],
+    "AIR_WEAPONS": [
+      "weapons",
+      "japan_naval_posture",
+      "japanese_operational_state",
+      "fixed_or_retained_state"
+    ],
+    "AIR_COMBAT": [
+      "weapons",
+      "japan_naval_posture",
+      "carrier_state",
+      "maturation_deltas"
+    ],
+    "CARRIER": [
+      "japan_naval_posture",
+      "carrier_state",
+      "carrier_ledger",
+      "japanese_operational_state"
+    ],
+    "SURFACE": [
+      "japan_naval_posture",
+      "naval_losses_damage",
+      "carrier_ledger",
+      "japanese_operational_state"
+    ],
+    "SURFACE_PLATFORM": [
+      "japan_naval_posture",
+      "naval_losses_damage",
+      "carrier_ledger",
+      "japanese_operational_state"
+    ],
+    "SURFACE_TORPEDO": [
+      "japan_naval_posture",
+      "naval_losses_damage",
+      "carrier_ledger"
+    ],
+    "SURFACE_GUNFIRE": [
+      "japan_naval_posture",
+      "naval_losses_damage",
+      "carrier_ledger"
+    ],
+    "SUBMARINE": [
+      "weapons",
+      "japan_naval_posture",
+      "allied_interdiction",
+      "maturation_deltas"
+    ],
+    "SUBMARINE_AVIATION": [
+      "weapons",
+      "japan_naval_posture",
+      "maturation_deltas"
+    ],
+    "ASW": [
+      "weapons",
+      "allied_interdiction",
+      "japan_naval_posture",
+      "maturation_deltas"
+    ],
+    "SENSOR_SEARCH": [
+      "weapons",
+      "japan_naval_posture",
+      "US_information_state",
+      "maturation_deltas"
+    ],
+    "SENSOR_FIRECONTROL": [
+      "weapons",
+      "japan_naval_posture",
+      "maturation_deltas"
+    ],
+    "SIGINT_COMINT": [
+      "US_information_state",
+      "japan_naval_posture",
+      "dependency_notes",
+      "maturation_deltas"
+    ],
+    "LOGISTICS": [
+      "china",
+      "burma",
+      "pacific_us",
+      "europe",
+      "shipping_scope_caveat",
+      "base_sustainment",
+      "allied_state",
+      "shipping_release"
+    ],
+    "AMPHIBIOUS": [
+      "territory",
+      "pacific_us",
+      "europe",
+      "ground_result",
+      "limited_FS_policy"
+    ],
+    "MATERIALS_PROPULSION": [
+      "weapons",
+      "shipping_scope_caveat",
+      "maturation_deltas"
+    ],
+    "CROSS_DOMAIN": [
+      "dependency_notes",
+      "maturation_deltas",
+      "next_actions"
+    ]
+  },
+  "state_requirements": {
+    "PERSONNEL_READINESS_STATE": {
+      "checkpoint_paths": [
+        "weapons",
+        "japan_naval_posture",
+        "burma",
+        "eastern_front",
+        "carrier_state",
+        "japanese_operational_state",
+        "fixed_or_retained_state"
+      ],
+      "warstart_domains": [
+        "PERSONNEL_AND_SOFT"
+      ]
+    },
+    "AIR_FORCE_STATE": {
+      "checkpoint_paths": [
+        "weapons",
+        "japan_naval_posture",
+        "carrier_state",
+        "japanese_operational_state",
+        "fixed_or_retained_state"
+      ],
+      "warstart_domains": [
+        "AIR_FORCE_POOL",
+        "AIR_OPENING_TYPES"
+      ]
+    },
+    "CARRIER_FORCE_STATE": {
+      "checkpoint_paths": [
+        "japan_naval_posture",
+        "carrier_state",
+        "carrier_ledger",
+        "japanese_operational_state"
+      ],
+      "warstart_domains": [
+        "CARRIER_AIR"
+      ]
+    },
+    "SURFACE_FORCE_STATE": {
+      "checkpoint_paths": [
+        "japan_naval_posture",
+        "naval_losses_damage",
+        "carrier_ledger",
+        "japanese_operational_state"
+      ],
+      "warstart_domains": [
+        "SURFACE_FLEET"
+      ]
+    },
+    "SUBMARINE_STATE": {
+      "checkpoint_paths": [
+        "weapons",
+        "japan_naval_posture",
+        "allied_interdiction"
+      ],
+      "warstart_domains": [
+        "SUBMARINE"
+      ]
+    },
+    "ASW_STATE": {
+      "checkpoint_paths": [
+        "weapons",
+        "allied_interdiction",
+        "maturation_deltas"
+      ],
+      "warstart_domains": [
+        "ASW"
+      ]
+    },
+    "LOGISTICS_STATE": {
+      "checkpoint_paths": [
+        "china",
+        "burma",
+        "pacific_us",
+        "europe",
+        "shipping_scope_caveat",
+        "base_sustainment",
+        "allied_state",
+        "shipping_release"
+      ],
+      "warstart_domains": [
+        "LOGISTICS"
+      ]
+    },
+    "AMPHIBIOUS_STATE": {
+      "checkpoint_paths": [
+        "territory",
+        "pacific_us",
+        "europe",
+        "ground_result",
+        "limited_FS_policy"
+      ],
+      "warstart_domains": [
+        "AMPHIBIOUS"
+      ]
+    },
+    "INFORMATION_STATE": {
+      "checkpoint_paths": [
+        "US_information_state",
+        "japan_naval_posture",
+        "dependency_notes",
+        "maturation_deltas"
+      ],
+      "warstart_domains": [
+        "SIGINT_COMINT",
+        "SENSOR_SEARCH"
+      ]
+    },
+    "MATERIALS_STATE": {
+      "checkpoint_paths": [
+        "weapons",
+        "shipping_scope_caveat",
+        "maturation_deltas"
+      ],
+      "warstart_domains": [
+        "LOGISTICS"
+      ]
+    }
+  },
+  "rules": [
+    "Checkpoint-local state wins over WARSTART baseline fallback.",
+    "Missing mandatory state requirement is UNKNOWN, never NO_RELEVANT_DELTA.",
+    "A TECH domain may resolve NOT_YET_MATURE from date gates without requiring an active current-state value."
+  ]
+}

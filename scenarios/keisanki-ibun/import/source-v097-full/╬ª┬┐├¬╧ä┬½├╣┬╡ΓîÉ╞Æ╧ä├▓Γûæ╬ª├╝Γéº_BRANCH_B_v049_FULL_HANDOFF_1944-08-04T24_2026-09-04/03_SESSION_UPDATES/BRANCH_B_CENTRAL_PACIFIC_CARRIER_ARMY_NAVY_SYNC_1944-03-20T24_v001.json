@@ -1,0 +1,240 @@
+{
+  "id": "BRANCH_B_CENTRAL_PACIFIC_CARRIER_ARMY_NAVY_SYNC_1944-03-20T24_v001",
+  "status": "WORKING_CURRENT_BROAD_SYNC",
+  "frontier": "1944-03-20T24:00",
+  "clock_advanced": true,
+  "fuel": {
+    "national_avgas": "not principal binding constraint centered",
+    "binding": [
+      "delivery",
+      "tanker/escort days",
+      "forward storage",
+      "allocation",
+      "bunker fuel/sea-room"
+    ],
+    "four_core_training_stop_due_avgas_center": false
+  },
+  "Eniwetok_raid_9Mar": {
+    "launch": [
+      9,
+      13
+    ],
+    "release": [
+      7,
+      11
+    ],
+    "Japan_irrecoverable": [
+      0,
+      1
+    ],
+    "US_aircraft_destroyed": [
+      0,
+      1
+    ],
+    "US_aircraft_damaged": [
+      1,
+      3
+    ],
+    "US_personnel_casualties": [
+      5,
+      12
+    ],
+    "construction_delay_hours": [
+      4,
+      10
+    ]
+  },
+  "Eniwetok_base": {
+    "Engebi_B25_staging_gate": "1944-03-09..11",
+    "Eniwetok_first_landing": "1944-03-14..16",
+    "Eniwetok_20Mar_useful_strip_ft": [
+      4800,
+      5600
+    ],
+    "Eniwetok_6000ft_gate": "1944-03-23..25",
+    "permanent_bomber_missions": "early Apr"
+  },
+  "command": {
+    "Combined_Fleet_CINC": "Yamamoto Isoroku",
+    "Central_Pacific_Area_Fleet_CINC": "Koga Mineichi WORKING CURRENT",
+    "Koga_practical_assumption": "1944-03-09..11",
+    "formal_Central_Agreement_center": "1944-03-20",
+    "formal_Central_Agreement_sensitivity": "1944-03-20..23",
+    "previous_10_15_formal_gate": "SUPERSEDED; provisional implementation only"
+  },
+  "8th_Expeditionary_Unit": {
+    "decision": "1944-03-13 divert Truk -> Saipan",
+    "physical_personnel": [
+      3800,
+      4200
+    ],
+    "arrival": "1944-03-18..19",
+    "ashore_by_20Mar": [
+      3500,
+      4000
+    ],
+    "tactically_organized_by_20Mar": [
+      2500,
+      3200
+    ],
+    "heavy_equipment_discharged_fraction": [
+      0.55,
+      0.75
+    ],
+    "debit": "Truk does not receive unit"
+  },
+  "shipping": {
+    "cumulative_useful_discharge_by_20Mar_t": [
+      64000,
+      79000
+    ],
+    "center_t": 71000,
+    "regional_t": {
+      "Marianas": [
+        29000,
+        35000
+      ],
+      "Palau": [
+        14000,
+        18000
+      ],
+      "Yap": [
+        4500,
+        6000
+      ],
+      "Woleai": [
+        3000,
+        4000
+      ],
+      "Truk": [
+        5500,
+        7500
+      ],
+      "Ponape": [
+        2000,
+        3000
+      ],
+      "Bonins": [
+        6000,
+        8000
+      ]
+    }
+  },
+  "defense_maturity_20Mar": {
+    "Saipan": [
+      2.1,
+      2.5
+    ],
+    "Saipan_selected_upper": 2.6,
+    "Guam": [
+      1.9,
+      2.3
+    ],
+    "Tinian_ground": [
+      1.7,
+      2.0
+    ],
+    "Palau": [
+      2.1,
+      2.5
+    ],
+    "Yap": [
+      1.6,
+      2.0
+    ],
+    "Woleai": [
+      1.3,
+      1.6
+    ]
+  },
+  "Marianas_air_20Mar": {
+    "physical": [
+      105,
+      135
+    ],
+    "serviceable": [
+      80,
+      105
+    ],
+    "immediate_ready": [
+      58,
+      80
+    ],
+    "guard": "regional planning band; unit-level trace required"
+  },
+  "Japan_four_core": {
+    "Lingga_full_concentration": "1944-03-14..15 centered",
+    "20Mar_integrated_ready": [
+      247,
+      277
+    ],
+    "20Mar_one_cycle_sync": [
+      145,
+      178
+    ],
+    "training_aircraft_irrecoverable": [
+      4,
+      7
+    ],
+    "qualified_aircrew_permanent_loss": [
+      1,
+      3
+    ]
+  },
+  "Taiho_20Mar": {
+    "readiness": "C+/B- centered",
+    "physical_immediate_air_pool": [
+      62,
+      75
+    ],
+    "serviceable": [
+      52,
+      66
+    ],
+    "mission_ready": [
+      40,
+      52
+    ],
+    "independent_one_cycle": [
+      26,
+      36
+    ],
+    "southward_release": "1944-03-22..25",
+    "five_carrier_sync_gate": "1944-04-10..20 conditional"
+  },
+  "Unryu_Amagi_shadow_cells": {
+    "command_specialist_seed": [
+      25,
+      40
+    ],
+    "intermediate_flying_maintenance_pipeline": [
+      80,
+      130
+    ],
+    "combat_credit": 0
+  },
+  "US_fast_carriers": {
+    "20Mar_CV": 6,
+    "20Mar_CVL": 5,
+    "20Mar_ready_aircraft": [
+      610,
+      700
+    ],
+    "Bunker_Hill_rejoin": "1944-03-23..24",
+    "23_24Mar_CV": 7,
+    "23_24Mar_CVL": 5,
+    "23_24Mar_ready_aircraft": [
+      690,
+      780
+    ],
+    "western_sortie": "1944-03-26..27",
+    "Palau_first_strike_gate": "1944-04-02..03 centered"
+  },
+  "next_gates": [
+    "Taiho southward release",
+    "TF58 sortie",
+    "14th Division Palau lift",
+    "9th Tank Regiment embarkation",
+    "Palau-Yap-Woleai raid 2-3 Apr"
+  ]
+}

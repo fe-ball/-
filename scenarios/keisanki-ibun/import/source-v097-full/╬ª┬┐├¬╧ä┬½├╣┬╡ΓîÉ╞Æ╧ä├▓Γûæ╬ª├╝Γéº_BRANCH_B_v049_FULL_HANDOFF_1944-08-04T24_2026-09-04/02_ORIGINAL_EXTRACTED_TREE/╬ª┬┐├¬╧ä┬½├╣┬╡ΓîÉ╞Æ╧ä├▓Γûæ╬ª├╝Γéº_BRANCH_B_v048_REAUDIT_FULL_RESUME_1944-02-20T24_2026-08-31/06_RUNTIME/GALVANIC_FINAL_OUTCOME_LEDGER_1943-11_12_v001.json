@@ -1,0 +1,136 @@
+{
+  "revision": "v001",
+  "id": "GALVANIC_FINAL_OUTCOME_LEDGER_1943-11_12_v001",
+  "status": "AUTHORITATIVE_CURRENT_BRANCH_GALVANIC_CLOSEOUT",
+  "operation_window": "1943-11-20 planning/repositioning through 1943-12-05 immediate aftermath; tactical landing D-Day 1943-11-24",
+  "supersedes": [
+    "06_RUNTIME/GALVANIC_BRANCH_B_1943-11_SETTLEMENT_v001.md",
+    "06_RUNTIME/GALVANIC_FIRST_CONTACT_LEDGER_1943-11-22_23_v001.json as tactical frontier only"
+  ],
+  "key_sequence": [
+    {
+      "time": "1943-11-23 dawn/day",
+      "event": "Wasp + Princeton suppress Nauru. Nauru is a real but lower-priority useful base; Japan does not divert Marshall main air to rescue it. Separate Japanese reconnaissance confirms another US carrier-cover group, establishing multi-TG invasion scale before D-Day."
+    },
+    {
+      "time": "1943-11-23 17:55-18:10",
+      "event": "Japanese land-based torpedo strike (~22 launched, ~7-9 effective releases) hits USS Independence (CVL-22) with one aerial torpedo. Independence survives but is campaign-out. Japanese loss center ~14 aircraft."
+    },
+    {
+      "time": "1943-11-24",
+      "event": "Makin landing begins in morning; Liscome Bay survives because D-Day alert/screen geometry differs from historical D+4 loss conditions. Tarawa landing is delayed into afternoon high-water window with measured-lane LVT/LCVP plan."
+    },
+    {
+      "time": "1943-11-24 13:20-14:20",
+      "event": "Limited Japanese daytime raid disrupts final support synchronization; LVT first waves encounter concentrated surviving beach fire. Later LCVP/LCM use verified lanes as tide rises."
+    },
+    {
+      "time": "1943-11-24/25 night",
+      "event": "Japanese organized 350-450-man counterattack with 3-4 Type 95 tanks gains local ground but fails to break the beachhead; later reverts to infiltration."
+    },
+    {
+      "time": "1943-11-26",
+      "event": "Major two-way carrier battle. Japanese four-carrier first strike (~160-165) mission-kills Lexington and temporarily damages Yorktown; US counterstrike mission-kills Soryu. Corrected event-local Kinsei Zero component ~20 aircraft is included."
+    },
+    {
+      "time": "1943-11-26/27 night",
+      "event": "Four-destroyer IJN stand-off Type 93 raid after staggered night-air cueing sinks USS Franks (DD-554); Fujinami takes light-moderate 5-inch damage but withdraws."
+    },
+    {
+      "time": "1943-11-27",
+      "event": "Makin organized resistance ends. I-175 torpedoes USS Pierce (APA-50), which survives but is campaign-out; I-175 is damaged by ASW and withdraws."
+    },
+    {
+      "time": "1943-11-28",
+      "event": "Tarawa organized resistance ends late morning/early afternoon. US secures Gilberts."
+    },
+    {
+      "time": "1943-12-04 approximate",
+      "event": "Historical mass Kwajalein/Roi raid is not auto-inherited. US conducts a more limited outer-Marshalls raid/recon while maintaining a large cover reserve against surviving Japanese fleet carriers; no centered major carrier hit."
+    }
+  ],
+  "territory": {
+    "Tarawa": "US-held from 1943-11-28 after organized resistance ends",
+    "Makin": "US-held from 1943-11-27 after organized resistance ends",
+    "Nauru": "Japanese-held; runway/air function heavily suppressed 11/23, limited night-staging capability partly restored by early December",
+    "Marshalls": "Japanese-held"
+  },
+  "US_naval": {
+    "Independence_CVL22": "one aerial torpedo 1943-11-23; campaign-out/long repair; survives",
+    "Lexington_CV16": "one aerial torpedo + 1-2 bomb hits 1943-11-26; campaign mission-kill; survives; major repair",
+    "Yorktown_CV10": "one bomb/near-miss damage 1943-11-26; temporary deck impairment; limited ops next day, near-normal by ~11/29",
+    "Cowpens_CVL25": "operational; old campaign-out result superseded",
+    "Liscome_Bay_CVE56": "survives; old sinking result superseded",
+    "Franks_DD554": "sunk/abandoned after one Type 93 hit during 1943-11-26/27 Makin outer-screen raid",
+    "Pierce_APA50": "one submarine torpedo 1943-11-27; survives, campaign-out/repair",
+    "aircraft_irrecoverable_band": [
+      40,
+      50
+    ],
+    "postbattle_note": "Carrier aircraft/orphan groups cross-deck and ferry to surviving carriers/land bases; US replacement and pilot-recovery depth remains superior."
+  },
+  "Japan_naval": {
+    "Shokaku": "operational after battle; withdraws",
+    "Zuikaku": "operational after battle; withdraws",
+    "Hiryu": "operational after battle; withdraws",
+    "Soryu": "two bomb hits flight deck/hangar; mission-kill but propulsion largely intact; withdraws for Truk emergency repair then Japan",
+    "secondary_carriers": "Junyo/Hiyo/Ryujo/Zuiho centered Bengal commitment 0 and retained as Pacific/rear-deck reserve; used after battle as cross-deck/ferry/regeneration shock absorbers rather than first-strike fifth/sixth fleet carriers.",
+    "night_surface_group": {
+      "ships": [
+        "Hatsuzuki",
+        "Suzutsuki",
+        "Hamakaze",
+        "Fujinami"
+      ],
+      "mission": "conditional Makin stand-off Type 93 raid; no prolonged gun battle",
+      "Fujinami": "light-moderate 5-inch damage, maintains withdrawal speed"
+    },
+    "Naka_Isuzu": "arrive Kwajalein with reinforcement role; no suicidal Tarawa run; personnel/cargo reallocated to Marshall defense after landing outcome becomes clear",
+    "CruDiv7_heavy_group": "Chokai/Suzuya/Kumano and associated cover remain reserve; no daylight-suicidal penetration into US carrier/CVE air umbrella",
+    "I175": "conducts 11/24 approach without historical Liscome Bay kill; later 11/27 torpedoes Pierce, suffers heavy depth-charge damage but escapes/withdraws",
+    "aircraft_irrecoverable_band": [
+      60,
+      75
+    ],
+    "aircrew_note": "Losses are disproportionately painful in strike leaders, torpedo navigators and experienced multi-seat crews; nominal carrier-capable aircraft depth remains far thicker than historical late-1943 Japan."
+  },
+  "Tarawa_ground": {
+    "japanese_total_personnel_band": [
+      4900,
+      5300
+    ],
+    "first_line_combat_band": [
+      2600,
+      2900
+    ],
+    "limited_armed_support_band": [
+      700,
+      1000
+    ],
+    "rule": "Construction/air-ground/labor/support personnel are not converted one-for-one into first-line SNLF infantry.",
+    "US_final_casualties": {
+      "KIA_MIA_band": [
+        550,
+        700
+      ],
+      "WIA_band": [
+        1350,
+        1650
+      ],
+      "total_band": [
+        1900,
+        2300
+      ]
+    },
+    "causal_note": "Initial landing is harsh due coordinated surviving beach fires and lower veteran density, but 11/24 tide/lane verification permits much better later-wave logistics, tanks, artillery, engineers and dry radios than historical 11/20."
+  },
+  "Makin_ground": {
+    "organized_resistance_end": "1943-11-27",
+    "Liscome_Bay_support": "retained; CVE support remains stable",
+    "note": "Do not scale Tarawa defender quality/fortification directly onto Makin."
+  },
+  "immediate_aftermath": {
+    "US": "Strategic victory in Gilberts but fast-carrier price is substantially higher. Avoid deep immediate pursuit; keep carrier cover split and conduct limited outer-Marshall pressure rather than historical mass 12/4 Kwajalein strike.",
+    "Japan": "Fails to hold Gilberts but preserves three operational first-line carriers, Soryu hull, secondary carrier depth and a still-material Marshall air network. Uses fleet-in-being, dispersed bases, small night raids and submarines rather than repeated all-out strikes."
+  }
+}

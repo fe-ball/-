@@ -1,0 +1,11 @@
+branch	airframe_or_asset	1937-11-12 physical count	flight-capable now	status	canon recommendation	notes
+Universal twin GT	E4 twin reusable systems testbed	1 surviving airframe	0-1 occasional	legacy / secondary test asset	CLOSE	Keep for nacelle/control/instrument tests; no longer the main performance aircraft
+Universal twin GT	E5 twin high-speed mission demonstrator	1 completed flying airframe	1	active flight-test lead aircraft	CLOSE	No second completed aircraft yet; an additional airframe may be authorized later
+Single-engine GT research	E4 clean single-engine jet demonstrator	1 surviving airframe	0-1 occasional	legacy demonstrator	CLOSE	Record/research machine, not a service fighter
+Single-engine GT research	E5 central/rear future-form demonstrator	1 research airframe	0-1; first-flight state WORKING	ground integration / near first-flight	WORKING-CLOSE	Physical airframe exists; do not call it a service interceptor prototype
+Materials/structure	Dedicated Material No.1 / No.2 flight aircraft	0	0	not yet built	CLOSE	Dedicated material aircraft begin 1938+; 1937 work is coupon/full-scale substructure testing
+Materials/structure	Full-scale composite structural articles	2-4 major articles	N/A	ground structural test	WORKING	Fuselage shell/wing-tail panels/joints; not counted as aircraft
+Small TP / short-field	Practical small TP aircraft	2-4 flyable; center 3	2-3	external evaluation / small-sale practical fleet	WORKING-CLOSE	Exact model/name/customer count stays open; at least one company prototype plus external-evaluation aircraft
+Rotorcraft	Small helicopter prototype series	2 airframes; center	1 active, 1 reserve/rebuild	free-flight development	WORKING-CLOSE	One early imported-engine lineage airframe and one improved Asai 180-200 hp configuration is the cleanest count
+Flight-test infrastructure	TP conversion test aircraft using existing donor airframes	1-2 available	1 typical	propulsion test infrastructure	CLOSE-DIRECTION	Not an Asai original-airframe family
+Flight-test infrastructure	Jet/pod carrier or instrumentation mother aircraft	1 typical	1 as needed	support asset	WORKING	Reuse existing aircraft; do not create a new aircraft family

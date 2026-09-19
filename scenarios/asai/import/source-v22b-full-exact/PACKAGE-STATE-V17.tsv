@@ -1,0 +1,14 @@
+field	value
+nominal_version	V17
+base_package	V16 thread-consolidated full package
+build_date	2026-09-12
+current_technical_session_folder	85-CURRENT-2026-09-12-NAVAL-CRP-CONSOLIDATION-V17
+current_replay_session_folder	84-CURRENT-2026-09-11-THREAD-CONSOLIDATION-V16
+china_clock	1940-07-31 24:00
+nomonhan_clock	1939-08-31 24:00 CLOSED
+next_replay_gate	Hundred Regiments Offensive lead-in / first phase
+next_technical_gate	E15K Shiun full reconciliation
+CRP_status	common technology closeout; E15K/N1K application test-gated
+carrier_GT_prewar	NO selected retrofit
+Yamato_plant	steam turbine retained
+branch_guard	V17 explicit-only supersession; otherwise inherit V16/V14/V10/V9/V8 current authority

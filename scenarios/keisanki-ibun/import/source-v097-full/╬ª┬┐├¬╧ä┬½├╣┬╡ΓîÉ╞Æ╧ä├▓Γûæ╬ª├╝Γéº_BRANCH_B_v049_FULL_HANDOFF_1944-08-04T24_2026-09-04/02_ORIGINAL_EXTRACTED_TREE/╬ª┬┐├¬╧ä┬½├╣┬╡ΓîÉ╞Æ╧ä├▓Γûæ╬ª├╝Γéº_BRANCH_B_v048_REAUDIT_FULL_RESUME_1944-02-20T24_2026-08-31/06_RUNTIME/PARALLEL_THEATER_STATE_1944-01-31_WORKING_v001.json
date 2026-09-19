@@ -1,0 +1,19 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-01-31_WORKING_v001",
+  "status": "WORKING_NOT_CURRENT",
+  "as_of": "1944-01-31T12:00:00+12:00",
+  "Central_Pacific": {
+    "US": "One fast-carrier TG has been firmly visually detected by Japan; 5 CV + 6 CVL total remains ground truth but not fully known to Japan. First suppression strike remains future, now biased to early 2-4 Feb window after compromise.",
+    "Japan": "Marshall carrier warning HIGH. Serviceable air total unchanged at 136 center; 72 fighter/local-cover slots include 16 Raiden center. Submarine network maintains dated intercept corridor. No first-line carrier GO yet."
+  },
+  "Indian_Ocean": {
+    "state": "No new event advanced by this clock step. Eastern Fleet Ceylon arrival/workup remains as previously adjudicated; Japanese second surface reinforcement remains HOLD."
+  },
+  "Bengal": {
+    "state": "No new event advanced by this clock step. Chittagong-Feni/Comilla stalemate and initial Kinsei-Zero quality detachment persist."
+  },
+  "Yanagi_Jet": {
+    "state": "No combat effect. I-34 Europe arrival remains future early-Feb gate; do not trigger before clock reaches its window."
+  }
+}

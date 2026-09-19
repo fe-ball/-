@@ -1,0 +1,11 @@
+topic	intent	current_authority
+retro aviation	reconstruct actual procurement/service fleets, not special-prototype scarcity	72-CURRENT-RETRO-AIRPOWER-1938-1939/
+enemy adaptation	staged understanding and paid implementation; no instant adaptation	77-CURRENT-2026-09-07-SESSION-CLOSE/00-SESSION-HANDOFF-V10.md
+better reconnaissance	also increases caution toward unobserved sectors	77-CURRENT-2026-09-07-SESSION-CLOSE/00-SESSION-HANDOFF-V10.md
+Nomonhan comparison	compute NEW as delta from OLD V9; preserve OLD effects	73-CURRENT-NOMONHAN-REVISED-V10/
+China cross-theater	historical drains baseline; only actual worldline-specific changes count	74-CURRENT-CHINA-1939-REPLAY-V10/ASAI-1939-09-10-31-POST-NOMONHAN-CHINA-REALLOCATION-CLOSEOUT-V2.md
+1940	review appearance/fielding gates before resuming combat	76-CURRENT-1940-WEAPON-GATE-V10/
+aerial torpedo effectiveness	count valid releases first; then run reliability + target geometry; no universal hit-rate scalar	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-1941-YEAREND-NAVAL-AERIAL-TORPEDO-EFFECTIVENESS-EMPLOYMENT-CLOSEOUT-V1.md
+dive bombing effectiveness	count target-area arrival / valid release before target-geometry hit band; no universal aircraft hit-rate scalar	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-D3A1-PISTON-TP-DIVE-BOMBING-COMPARATIVE-CLOSEOUT-1939-1941-V1.md
+long-range land attack	preserve range architecture when turbine conversion sacrifices mission radius; G3M/G4M/G4As are complementary rather than monotonic replacement	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-G4M1-PISTON-TP-LONGRANGE-ATTACK-COMPARATIVE-CLOSEOUT-1939-1941-V1.md
+E-generation aircraft families	separate generation/core scale/backend/airframe/service fit; do not read one E-number as one engine or one aircraft	75-CURRENT-TECHNICAL-ADDENDA-V10/ASAI-AIRCRAFT-ENGINE-GENERATION-FAMILY-ARMY-NAVY-MATRIX-1937-1942-V1.md

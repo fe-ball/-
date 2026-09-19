@@ -1,0 +1,22 @@
+{
+  "revision": "v001",
+  "required_fields": [
+    "checkpoint_id",
+    "parent_checkpoint",
+    "as_of",
+    "status",
+    "technical_baseline",
+    "state_sources",
+    "maturation_deltas",
+    "dependency_notes"
+  ],
+  "status_values": [
+    "authoritative",
+    "provisional",
+    "blocked_pending_rerun",
+    "blocked_by_upstream",
+    "archived_branch",
+    "reference_only"
+  ],
+  "invalidation_rule": "Editing/replacing checkpoint C invalidates descendants of C, not siblings/ancestors. Editing CORE/TECH/PREWAR that changes WARSTART creates new WARSTART revision and invalidates all old descendants unless revalidated."
+}

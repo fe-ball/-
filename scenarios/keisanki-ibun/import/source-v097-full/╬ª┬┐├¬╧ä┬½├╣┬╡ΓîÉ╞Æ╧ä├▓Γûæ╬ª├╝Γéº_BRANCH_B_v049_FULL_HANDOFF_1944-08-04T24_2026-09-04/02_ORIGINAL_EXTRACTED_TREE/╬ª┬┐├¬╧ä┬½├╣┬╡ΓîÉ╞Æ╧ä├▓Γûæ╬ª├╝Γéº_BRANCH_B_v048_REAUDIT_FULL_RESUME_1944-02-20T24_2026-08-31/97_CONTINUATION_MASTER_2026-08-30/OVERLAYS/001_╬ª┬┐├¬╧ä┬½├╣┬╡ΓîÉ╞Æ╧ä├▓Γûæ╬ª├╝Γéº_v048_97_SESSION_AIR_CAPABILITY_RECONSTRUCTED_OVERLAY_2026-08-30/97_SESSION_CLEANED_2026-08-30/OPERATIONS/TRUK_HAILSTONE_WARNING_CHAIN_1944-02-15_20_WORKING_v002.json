@@ -1,0 +1,76 @@
+{
+  "revision": "v002",
+  "id": "TRUK_HAILSTONE_WARNING_CHAIN_1944-02-15_20_WORKING_v002",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "period": "1944-02-15..1944-02-20 Truk local",
+  "purpose": "Resolve the Branch-B warning chain before the HAILSTONE-equivalent raid without copying the historical alert-standdown surprise or granting Japan a weapon-quality carrier track.",
+  "parents": [
+    "FLINTLOCK_POSTCAPTURE_AND_NEXT_OPS_1944-02-06_27_WORKING_v001",
+    "ELECTRONIC_WARFARE_OPERATIONAL_DERIVATIVES_1942-1944_v001",
+    "MARSHALL_SUBMARINE_CONTACT_LIAISON_1944-01-28_WORKING_v001",
+    "FLINTLOCK_ASSAULT_APPROACH_SUBMARINE_INTERDICTION_1944-02-03_06_WORKING_v001"
+  ],
+  "accepted_Truk_sensor_state": {
+    "warning_network": "A-grade-base integrated radar + visual posts + RI/DF + weather + plot cell + staged fighter/AA readiness, with electronics field-service and backup-power discipline.",
+    "precision_AA_fire_direction": "2 effective precision-tracking/fire-direction channels centered; 1-3 available band depending on serviceability. They serve priority heavy-AA sectors rather than every gun individually.",
+    "RWR_ESM": "Selected metric-band passive warning and emitter library are operational. Useful for cueing/search-sector narrowing; still substantially blind to US centimetric systems and cannot supply range/identity alone.",
+    "GCI_guard": "Not US-style mature CIC/GCI. Coarse fighter vector and staged readiness are credible; continuous precision multi-target control is not."
+  },
+  "submarine_allocation_after_Flintlock": {
+    "state": "The Marshall submarine network is no longer kept as one close-Kwajalein mass. Surviving boats split between CATCHPOLE/Eniwetok reporting lanes, withdrawal/refit, and the probable Truk-raid approach arc.",
+    "Truk_warning_arc_center": "5-7 useful boats/nodes by 18-19 Feb when local/route boats are included, of which only 2-4 are favorably placed for direct fast-carrier contact during the final approach.",
+    "Eniwetok_cost": "Keeping boats on the Truk arc reduces the submarine density available for close CATCHPOLE penetration; no free duplicate patrol network.",
+    "role": "report/recontact first; torpedo attack only if geometry becomes genuinely good."
+  },
+  "timeline": [
+    {
+      "time": "1944-02-10..14",
+      "evidence": "Kwajalein loss, US reconnaissance pattern, Majuro fast-fleet use and Japanese strategic geography make a Truk raid likely within roughly one to two weeks.",
+      "confidence": "HIGH Truk is a coming major target; LOW exact raid day.",
+      "action": "High-value mobile evacuation continues; Truk base does not stand down to peacetime readiness."
+    },
+    {
+      "time": "1944-02-15..16",
+      "evidence": "US fast-carrier sortie/replenishment traffic pattern changes around Majuro plus submarine/traffic/DF indications show a large carrier force has gone west. Simultaneous Eniwetok activity preserves target ambiguity.",
+      "confidence": "HIGH major fast-carrier operation underway; MEDIUM-HIGH Truk rather than only Eniwetok/Marianas.",
+      "action": "Truk search sectors shift NE/E; nonessential ferry/transit aircraft and high-value air cadres receive westward dispersal priority."
+    },
+    {
+      "time": "1944-02-17..18",
+      "evidence": "One outer submarine/route node obtains a dated fast-heavy-force contact or strong hydrophone/periscope classification east/northeast of the Eniwetok-Truk axis; Japanese RI/DF also recognizes US carrier-operational voice/traffic characteristics. Neither source alone provides an exact track.",
+      "confidence": "HIGH carrier force westbound; HIGH Truk is primary or co-primary raid objective within 2-3 days.",
+      "action": "No alert cancellation after a negative air search. Fighter and AA readiness shifts from precautionary to sustained high alert."
+    },
+    {
+      "time": "1944-02-19 daylight",
+      "evidence": "ESM/RI/submarine bearing history narrows the NE/E approach sector. Long-range air search is concentrated into the probability corridor rather than flown as a broad symmetric fan. A visual confirmation is possible but not required for the warning state to persist.",
+      "confidence": "HIGH attack in roughly 12-36 h; MEDIUM exact launch sector and task-group count.",
+      "action": "All-night alert is authorized despite fuel/engine-hour cost. Repairable/mobile aircraft disperse; airfields keep layered ready fighters instead of mass ground parking."
+    },
+    {
+      "time": "1944-02-19 evening..20 pre-dawn",
+      "evidence": "A second independent cue (submarine recontact, lost/search-aircraft interaction, or correlated RI/DF bearing shift) makes 'next dawn' the center estimate. Exact US carrier position remains too stale/uncertain for a large Japanese pre-emptive strike.",
+      "confidence": "HIGH attack next dawn; MEDIUM bearing sector; LOW weapon-quality carrier fix.",
+      "action": "Truk remains at full air-defense stations through dawn; no historical-style stand-down. Night attack assets are not thrown away on a blind search."
+    }
+  ],
+  "attack_dawn_state_center": {
+    "strategic_surprise": "NONE",
+    "operational_surprise": "LOW",
+    "tactical_surprise": "PARTIAL_ONLY",
+    "fighter_posture": "18-24 fighters airborne or launch-immediate before first US sweep is detected, with an additional 12-18 in roughly 5-minute readiness and 18-25 in 10-15-minute readiness, subject to the final Truk air-OOB audit.",
+    "warning_after_first_US_air_contact": "roughly 12-20 usable minutes centered for the threatened airfields because the base was already expecting the raid; local islands may vary materially.",
+    "AA_posture": "heavy and medium AA fully manned; two precision channels prioritize coherent inbound formations/low-level strafing corridors, with saturation and friendly-fighter deconfliction limiting throughput.",
+    "ground_aircraft_posture": "No historical nose-to-tail transit-aircraft mass on Eten as a centered condition. Noncombat/transit aircraft have been dispersed or ferried where range/serviceability permits.",
+    "US_knowledge_guard": "US reconnaissance still supports a major raid, but the absence of historical JN-25-like plaintext prevents exact knowledge of Japanese evacuation/readiness. TF58 may know individual scouts were intercepted but does not know the full Japanese warning fusion state."
+  },
+  "key_conclusion": "Branch changes do not create a pre-emptive Japanese strike on TF58. They principally convert HAILSTONE's first hour from a strategic/operational surprise massacre into a prepared but capacity-limited base-defense battle. The next adjudication must audit the exact Truk air and ship OOB before resolving the initial F6F sweep and subsequent strikes.",
+  "historical_anchor_summary": "Historically Truk detected ominous indicators on 15 Feb, performed a narrow 300-mile search on 16 Feb, found nothing and stood down. The first F6F sweep therefore achieved severe surprise despite warning evidence. Branch doctrine explicitly prevents one negative search from resetting multiple independent indicators to zero.",
+  "supersedes": "TRUK_HAILSTONE_WARNING_CHAIN_1944-02-15_20_WORKING_v001",
+  "rule_inputs": [
+    "TECH-COMINT-JP-HIGHGRADE-1942-001",
+    "TECH-COMINT-RESIDUAL-CHANNELS-1942-001"
+  ],
+  "rule_input_source": "02_TECH/TECH_INDEX_v009.json",
+  "reference_hygiene_note": "v001 mixed an explanatory rule phrase into parents. v002 keeps artifact parents resolvable and moves COMINT mechanics to explicit rule_inputs."
+}

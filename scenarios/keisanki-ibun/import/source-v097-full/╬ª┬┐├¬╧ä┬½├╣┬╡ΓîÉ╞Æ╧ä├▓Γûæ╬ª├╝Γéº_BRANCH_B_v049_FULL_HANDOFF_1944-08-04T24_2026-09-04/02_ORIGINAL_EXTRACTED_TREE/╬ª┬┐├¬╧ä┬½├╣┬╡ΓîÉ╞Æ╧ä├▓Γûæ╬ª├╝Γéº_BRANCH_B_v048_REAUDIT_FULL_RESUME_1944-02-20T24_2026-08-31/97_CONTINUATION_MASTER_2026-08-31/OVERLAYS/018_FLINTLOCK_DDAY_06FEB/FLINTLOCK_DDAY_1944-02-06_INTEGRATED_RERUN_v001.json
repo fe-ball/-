@@ -1,0 +1,33 @@
+{
+  "id": "FLINTLOCK_DDAY_1944-02-06_INTEGRATED_RERUN_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-06 04:30 through 1944-02-06T24 Marshall local",
+  "source_checkpoint": "FLINTLOCK_1944-02-05T24_WORKING_CHECKPOINT_v001",
+  "method": "Roi-Namur and Kwajalein are adjudicated separately from the 6-Feb dawn ground/sensor/AA state, then recombined through finite US gunfire/CVE/traffic and unloading wallets. No legacy D-Day casualty result is inherited.",
+  "US_first_day_ground_landing_KW": {
+    "Roi_Namur_band": [290, 370],
+    "Kwajalein_band": [390, 520],
+    "combined_band": [680, 890],
+    "combined_center": 785,
+    "note": "Killed+wounded+missing working combat/landing casualties through T24; the 5-Feb LST hit's 30-65 personnel effect remains separate. No KIA/WIA split is fabricated."
+  },
+  "operational_result_T24": {
+    "Roi": "Organized resistance broken by late afternoon/early evening; isolated pockets remain.",
+    "Namur": "US beachhead and most southern/central ground secure; coherent strongpoints remain in northern/eastern debris/vegetation belts. No island-secure declaration.",
+    "Kwajalein": "Western beachhead secure and sustainable; armor/engineers/artillery ashore in useful mass and roughly western 40-50 percent of the island is controlled or dominated. Organized defense remains ahead of the beachhead.",
+    "D_day": "Operationally successful but materially more costly and slower than the superseded v003 first-day line; no Tarawa-style landing failure."
+  },
+  "Japan_combined_state_T24": {
+    "northern_Roi_Namur": "About 650-900 organized/local fighters remain centered on Namur plus roughly 350-500 scattered/support personnel capable of bounded local resistance; Roi has only small isolated groups.",
+    "southern_Kwajalein": "About 1,900-2,300 organized/local fighters remain plus roughly 500-700 scattered/support personnel capable of local defense, carrying and observation tasks.",
+    "command": "Island-wide control is badly fragmented; local phone/radio/runner nets and pre-registered sectors continue to generate resistance below fortress-wide command level."
+  },
+  "guards": [
+    "No Japanese tank unit is added to Kwajalein or Roi. Namur Type 94 remains 0-1 and is not an anti-M4 system.",
+    "Do not inherit historical or legacy ammunition-magazine catastrophe as a fixed event; Branch ammunition dispersion/blast separation changes the secondary-explosion risk.",
+    "Do not multiply casualties by a generic fortification factor; higher Japanese survivability is partly offset by stronger US preparation and faster local combined-arms adaptation.",
+    "Do not count the 5-Feb LST mission-kill as removal of a named tank/LVT company without cargo trace.",
+    "Do not count regional surviving aircraft as target-island runway strike aircraft."
+  ],
+  "next_frontier": "1944-02-06T24 Marshall local; resolve 6/7-Feb night infiltration/local counterattack and 7-Feb daylight reduction from this state."
+}

@@ -1,0 +1,25 @@
+{
+  "revision": "v006",
+  "package_root": "計算機異聞_refactor_v006_2026-08-20",
+  "generated": "2026-08-20",
+  "purpose": "v005 1942Q2 branch plus industrial/logistics baseline re-audit, standard-ship provenance clarification, 1940-42 steel adaptation, and WARSTART pointer closure",
+  "current_restart": "CHECKPOINT_1942-06-15T24_v002",
+  "file_count": 302,
+  "new_revision_entrypoints": [
+    "00_README/README_refactor_v006.md",
+    "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v006.md",
+    "02_TECH/TECH_INDEX_v004.json",
+    "02_TECH/INDUSTRIAL_LOGISTICS_BASELINE_1932_1942_v001.md",
+    "03_PREWAR/PREWAR_INDEX_v004.json",
+    "04_WARSTART/WARSTART_CHECKPOINT_v004.json",
+    "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+    "04_WARSTART/WARSTART_DOMAIN_AUDIT_v004.json",
+    "05_WARTIME/CHECKPOINT_INDEX_v005.json",
+    "05_WARTIME/CHECKPOINT_GRAPH_v004.json",
+    "05_WARTIME/CHECKPOINT_1942-06-15T24_v002.json",
+    "06_RUNTIME/INDUSTRIAL_LOGISTICS_REVALIDATION_1941_1942Q2_v001.md",
+    "95_AUDIT/INDUSTRIAL_LOGISTICS_REBASE_CLOSEOUT_v001.json"
+  ],
+  "validation": "95_AUDIT/VALIDATION_RESULT_v006.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v006.txt"
+}

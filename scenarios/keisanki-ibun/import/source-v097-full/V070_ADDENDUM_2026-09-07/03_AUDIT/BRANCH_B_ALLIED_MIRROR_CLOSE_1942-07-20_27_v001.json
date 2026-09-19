@@ -1,0 +1,33 @@
+{
+  "status": "CLOSED_FOR_PREBATTLE_INPUT",
+  "1942_07_20": {
+    "carrier": "Wasp; only healthy fleet carrier in immediate Pacific/South-Pacific pool after current MI lineage.",
+    "surface_screen": [
+      "North Carolina",
+      "Quincy",
+      "San Juan",
+      "six destroyers"
+    ],
+    "2d_Marines_reinforced": {
+      "strength_center": 4840,
+      "location": "Tongatabu/Tonga area",
+      "shipping": "five transports; combat-loaded"
+    },
+    "Santo_resident_center_band": [
+      850,
+      1100
+    ],
+    "Santo_airfield": "Turtle Bay construction underway; not yet a mature combat airfield on 20 July.",
+    "Efate": "VMF-212 fighter element active; other local aviation/support present.",
+    "Noumea_PBY": "PBY patrol coverage active; VP transition around 20 July.",
+    "B17_reinforcement": "11th Bomb Group elements begin entering New Caledonia around 22-23 July; do not back-project full late-July strength to 20 July."
+  },
+  "warning_clock_center": {
+    "1942-07-20_21": "traffic/DF/logistics picture indicates major South-Pacific operation; target unresolved",
+    "1942-07-22_23": "multi-source reconnaissance can elevate Santo/New Hebrides to leading target candidate",
+    "1942-07-23_24": "if assault movement is reacquired, diversion of 2d Marines toward Santo becomes rational",
+    "1942-07-25_26": "first reinforcement combat-team elements can begin arriving/unloading if diversion was ordered promptly",
+    "1942-07-27_H_hour": "center effective Allied ground defense 3,500-4,400 including resident force plus partially unloaded 2d Marines; full 4,840-man RCT is not assumed fully combat-ready ashore"
+  },
+  "Wasp_policy_center": "remote cover/search/strike-of-opportunity; do not force Wasp into a suicidal close carrier duel against the Japanese multi-deck package."
+}

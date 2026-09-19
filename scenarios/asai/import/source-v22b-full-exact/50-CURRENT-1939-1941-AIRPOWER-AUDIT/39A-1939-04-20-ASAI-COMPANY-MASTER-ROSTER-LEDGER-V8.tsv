@@ -1,0 +1,28 @@
+domain	item	1939-04-20_state	quantity_or_rate	status	guard
+Corporate	Direct employment	large integrated precision/heavy-engineering company	13000-14200; center ~13600 persons	WORKING-AUDIT	not fiscal closeout
+Corporate	Sales run-rate	current annualized capability	~Y34-39m/year	WORKING-AUDIT	not booked 1939 sales
+Corporate	Assets/capital employed	ongoing expansion	~Y31-35m	WORKING-AUDIT	not fiscal closeout
+GT facilities	T-1	mature sustainable operation	600-750 cores/year	CLOSED	not all flight-grade
+GT facilities	T-2	qualification/hot-test ramp	series flight-grade output 0	CLOSED	first qualified-output gate future
+GT facilities	T-3	civil/machinery installation	output 0	CLOSED	qualification 1940 future
+GT facilities	T-4	land/layout + early civil	output 0	CLOSED	no machinery production
+GT facilities	T-AUX	early operation	300-450 direct staff	CLOSED	package/accessory unit, not formal Controls Group
+Computation	Computation & Office Machine Division	independent commercial business	active	CLOSED	not GT support office
+Computation	Central Technical Calculation Room	secret internal scientific computation	active	CLOSED	separate from commercial division
+Controls	Distributed control-engineering function	Powerplant + Research Institute + T-AUX	active	CLOSED-FUNCTIONAL	formal Controls & Actuation Group is future 1939H2
+Data/QC	Inspection/test/service data streams	independent inspection + product cards + overhaul/service returns	active	CLOSED-FUNCTIONAL	formal Field Reliability/Data Return Bureau is future 1939H2
+Dense materials	W-Ni-Cu heavy alloy	small commercial specialty product	ongoing small-batch	CLOSED	penetrator-grade lots remain test-specific
+Dense materials	U-base dense metal	separate specialty metalization line	18-25 t/year technical potential	WORKING-CAPACITY	not U-Ti mass product
+Dense ordnance	Natural-U ordnance allocation	strategically capped special-AP material	2-4 t/year working	WORKING-ALLOCATION	no mass ordinary-ammo substitution
+Dense ordnance	37 mm dense-core special AP	proof/range qualified limited stock	limited contingency/controlled issue	CLOSED-TECH	FIELD VALIDATED prohibited before Nomonhan
+Mobile power	Small mobile GT utility sets	operational/evaluation specialist equipment	~28-40 sets; center low/mid-30s	WORKING-CLOSED	not LIMITED STANDARD yet
+Mobile power	Large E4 mobile/towed sets	special engineering/test branch	~1-3 sets	WORKING-CARRYOVER	not forward routine equipment
+Ground support	Workshop/recovery packages	Asai-enhanced existing truck/tractor packages	~25-40 packages	WORKING-CLOSED	not new universal vehicle type
+Ground vehicle	Direct GT traction demonstrator	technically successful experimental branch	1 demonstrator lineage	CLOSED-TECH	general fleet adoption rejected
+Ground vehicle	Diesel exhaust turbo	mature product / priority heavy-duty fit	mass-product line	CLOSED	no blanket motorization
+Marine GT	Shore marine rig family	salt/intake/reducer/clutch/shaft/load simulation active	multiple rig/test articles; exact count not closed	CLOSED-FUNCTIONAL	sea adoption separate
+Marine GT	E5 one-GT qualification craft	architecture closed, execution history open	0 completed/commissioned craft asserted	OPEN-EVENT	no launch/trial invented
+Marine GT	Dedicated 700-1000t lab ship	not technical prerequisite	0 asserted	OPEN/CONDITIONAL	activate only if repeated large-module sea testing justifies it
+Rotorcraft	Small piston helicopter	single-main-rotor + tail-rotor research line	2 extant development airframes	CLOSED	exact diameter/blade count open; no later turboshaft back-port
+Materials protection	Flexible hemp/hair/silk spall liner	removable fragment-catching rear liner	pre-field engineering-ready; 0 fielded combat vehicles asserted	CLOSED-TECH / OPEN-EXECUTION	Nomonhan fit counts and FIELD VALIDATED are future
+Service	Dairen/Mukden support	regional spares/overhaul/training/computation support	active	CLOSED-DIRECTION	exact Apr20 staff/revenue open

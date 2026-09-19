@@ -1,0 +1,51 @@
+{
+  "id": "MARSHALL_WARNING_CONTACT_CHAIN_1944-01-16_31_REAUDIT_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-01-16 through 1944-01-31T24",
+  "events": [
+    {
+      "date": "1944-01-16..20",
+      "Japan": "Gilbert heavy/photo missions, traffic analysis and known US assault training sustain HIGH probability of a new Central-Pacific offensive, but Marshalls are only one of several plausible objective sets.",
+      "US": "Kwajalein/Roi-Namur + Majuro direct option becomes the operational centerline; outer-island-first remains contingency rather than main plan."
+    },
+    {
+      "date": "1944-01-21..24",
+      "Japan": "Submarine status reports, increased oiler/transport traffic and US reconnaissance move Marshalls to MEDIUM-HIGH likely objective. Air dispersal, radar/plot readiness, night repair and final construction priorities are raised.",
+      "carrier_effect": "Four first-line Japanese carriers enter radio-disciplined forward holding posture; secondary carriers remain rear-deck reserve."
+    },
+    {
+      "date": "1944-01-25..27",
+      "Japan": "Outer submarines obtain repeated logistics/escort cues. Kwajalein/Roi becomes the leading but not certain target. Search arcs are narrowed; useful long-range searches rise to roughly 8-10/day plus 2-3 confirmation sorties when weather permits.",
+      "US": "Assault/support echelons continue approach under EMCON and weather masking. Extra Tarawa-derived fire support does not erase oiler, ASW or deck-cycle constraints."
+    },
+    {
+      "date": "1944-01-28..29",
+      "Japan": "One or more support/assault contacts confirm a major amphibious operation and make Kwajalein/Roi HIGH-likelihood. Carrier centroid remains unknown. No Japanese carrier GO.",
+      "note": "Radar contributes local warning and sortie preservation; the oceanic approach cue still comes mainly from submarines, DF/traffic and aircraft."
+    },
+    {
+      "time": "1944-01-30 14:40-15:10 local",
+      "Japan": "A Taroa-centered long-range search aircraft, sent down a submarine/traffic-cued corridor, visually acquires one US fast-carrier TG roughly 330-410 nmi S/SSW of Maloelap/Taroa. At least two flight decks, heavy escorts and many destroyers are reported before CAP drives the scout off.",
+      "confidence": "HIGH one fast-carrier TG; MEDIUM-HIGH larger multi-TG operation; total deck count unresolved.",
+      "US_effect": "The scout's appearance/drive-off makes tactical compromise likely. Course and local CAP/ASW posture are adjusted; operation is not aborted."
+    },
+    {
+      "time": "1944-01-30 22:20 through 1944-01-31 01:10",
+      "Japan": "An inner submarine obtains a strong hydrophone/brief-visual recontact on the moving corridor. Position uncertainty remains roughly 15-25 nmi; enough for a limited land-based night opportunity but not a Japanese carrier mass strike solution.",
+      "action": "A bounded 8-10 aircraft G4M-class night torpedo package is released from the already-counted Marshall attack pool.",
+      "result": "US radar pickets, night CAP, maneuver and squalls defeat the attack. Centerline: no US ship hit; 3-5 Japanese aircraft irrecoverable. Opportunity is real; success is not awarded automatically."
+    },
+    {
+      "date": "1944-01-31 daytime",
+      "Japan": "Additional submarine/air reports confirm at least a second major carrier/support axis and the amphibious character of the operation, but there is no continuous all-TF58 track. The four-carrier force closes eastward conditionally and prepares dawn packages; launch remains withheld.",
+      "US": "Tactical surprise is considered compromised. First major suppression is biased to the earliest fuel/weather-feasible edge of the 1-2 Feb window rather than waiting passively."
+    }
+  ],
+  "state_at_31JanT24": {
+    "Japanese_knowledge": "HIGH major Marshall assault and one or more fast-carrier groups; HIGH Kwajalein/Roi as leading target; incomplete total TF58 geometry.",
+    "Japanese_land_air": "About high-130s/low-140s combat-serviceable after routine attrition and the failed night package; aircraft remain dispersed among multiple runway and water-air nodes.",
+    "Japanese_carriers": "Four first-line decks conditional-GO prepared, no launch; secondary four decks remain rear support.",
+    "US": "11 fast decks combat operational, tactical surprise degraded but operational initiative retained; first suppression expected 1-2 Feb.",
+    "next_gate": "Resolve first US suppression cycle against the newly hardened/sensor-networked Marshall system while simultaneously checking whether Japanese submarine/water-air recontact can create a four-carrier dawn-strike gate."
+  }
+}

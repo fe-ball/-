@@ -1,0 +1,97 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_CARRIER_SURFACE_FLEET_AUDIT_1944-03-08_WORKING_v001",
+  "status": "WORKING_BRANCH_AUDIT",
+  "as_of": "1944-03-08T24:00:00+09:00",
+  "purpose": "Separate Japanese hull recovery from carrier-air/team recovery and quantify the surface-fleet advantage that survives into early March without turning it into automatic offensive capability.",
+  "fleet_carriers": {
+    "established_core": {
+      "hulls": [
+        "Shokaku",
+        "Zuikaku",
+        "Hiryu",
+        "Soryu"
+      ],
+      "hull_deck_state": "ALL_FOUR_OPERATIONAL_OR_TEAM_GATE_PASSED_BY_8MAR",
+      "details": {
+        "Shokaku": "operational after 3-Feb battle; only light topside/splinter damage centered",
+        "Zuikaku": "operational after 3-Feb battle",
+        "Hiryu": "flight-deck physical recovery by late Feb; carrier-team combat-readiness gate 1944-02-23..03-02 now passed",
+        "Soryu": "GALVANIC repair/trials and carrier-team gate completed by mid-Feb"
+      },
+      "integrated_combat_ready_aircraft_working_band": [
+        230,
+        260
+      ],
+      "one_cycle_synchronized_offensive_package_band": [
+        130,
+        165
+      ],
+      "band_method": "Derived from pre-3Feb 219 ready on Shokaku/Zuikaku/Hiryu, 66-79 irrecoverable 3-Feb carrier-battle losses, repairable-aircraft return, Soryu restoration, and one month of replacement/training. It is intentionally below later 4/30 four-core 280-300 ready class.",
+      "main_constraint": "experienced strike leaders, navigation/observer teams, multi-seat attack crews and four-deck synchronization; airframes are easier to replace than the human system",
+      "judgment": "HULL_SYSTEM_RECOVERED; AIR_GROUP_SYSTEM_PARTIALLY_RECOVERED"
+    },
+    "Taiho": {
+      "branch_completion": "completed in Feb-1944 per branch construction clock",
+      "state_8Mar": "EARLY_WORKUP",
+      "readiness_class": "C-/C centered",
+      "combat_credit": "No synchronized fleet-strike deck credit on 8 Mar. May perform trials, deck qualification, ferry/local CAP/training tasks under emergency constraints.",
+      "integration_gate": "late-Mar/early-Apr C+/B- remains plausible; full fifth-carrier integrated use is later and depends on 601st-group/deck-team work-up, not hull completion alone",
+      "historical_sanity_anchor": "Historical Taiho commissioned 7 Mar, conducted trials through 19 Mar, embarked a full air group late Mar and reached Lingga 5 Apr. Branch hull completion is earlier, but crew/air-group integration is not automatically advanced by the full construction delta."
+    },
+    "second_line": {
+      "physical_hulls": [
+        "Junyo",
+        "Hiyo",
+        "Ryuho",
+        "Ryujo",
+        "Zuiho",
+        "Shoho"
+      ],
+      "count": 6,
+      "combat_usable_aircraft_working_band": [
+        115,
+        145
+      ],
+      "roles": "training/ferry/rear CAP/replacement absorption plus limited operational strike; not interchangeable with the four-core fast synchronized strike system",
+      "confidence": "LOW_MEDIUM until a dated 8-Mar hull-by-hull air-group ledger is built"
+    },
+    "physical_carrier_hulls_total": 11
+  },
+  "surface_fleet": {
+    "battleships": {
+      "physical_existing": 11,
+      "roster_logic": "Yamato, Musashi, Nagato, Kongo, Haruna, Hiei, Kirishima, Fuso, Yamashiro, Ise, Hyuga; Mutsu remains lost.",
+      "Pacific_mobile_heavy_fast_core": "Yamato/Musashi/Nagato + four Kongo-class are the meaningful Pacific heavy pool; speed/role differs by class.",
+      "western_old_battleship_pool": "Fuso/Yamashiro/Ise/Hyuga have been used in Bengal/Andaman rotation; if that theater becomes dormant their routine forward exposure can be reduced, but they do not become fast-carrier escorts."
+    },
+    "heavy_cruisers": {
+      "physical_center_about": 18,
+      "assessment": "materially healthier than historical Solomon attrition path; Tone/Chikuma retained in Mobile Fleet scout/screen pool"
+    },
+    "light_cruisers": {
+      "physical_combat_hulls_center": 21,
+      "Jan1_fully_or_near_ready_band": [
+        18,
+        20
+      ],
+      "assessment": "no branch-wide March collapse identified"
+    },
+    "fleet_destroyers": {
+      "Jan1_physical_hulls_center": 81,
+      "Jan1_mechanically_crew_ready_band": [
+        70,
+        75
+      ],
+      "March_concentration_guard": "No major Feb-Mar destroyer attrition erases the branch advantage, but carrier screens, tanker/convoy protection, local fleets and ASW consume many hulls. A one-operation concentratable pool should be treated as roughly mid-30s to mid-40s unless a fresh allocation audit says otherwise."
+    },
+    "judgment": "Japan has unusually strong surface and escort depth for 1944, but fuel, air cover, and information quality—not raw hull count—set offensive reach."
+  },
+  "system_assessment": {
+    "carrier_hulls": "RECOVERED_TO_FOUR_CORE_PLUS_TAIHO_PHYSICAL",
+    "carrier_aircrew": "NOT_FULLY_RECOVERED",
+    "surface_screen": "STRONGER_THAN_HISTORICAL",
+    "fuel_basing": "BINDING; Truk no longer suitable as fleet hub",
+    "open_ocean_offensive_balance": "UNFAVORABLE against even temporarily compressed TF58 because US aircraft mass, CIC/F6F/AA and eight intact fast battleships remain substantial"
+  }
+}

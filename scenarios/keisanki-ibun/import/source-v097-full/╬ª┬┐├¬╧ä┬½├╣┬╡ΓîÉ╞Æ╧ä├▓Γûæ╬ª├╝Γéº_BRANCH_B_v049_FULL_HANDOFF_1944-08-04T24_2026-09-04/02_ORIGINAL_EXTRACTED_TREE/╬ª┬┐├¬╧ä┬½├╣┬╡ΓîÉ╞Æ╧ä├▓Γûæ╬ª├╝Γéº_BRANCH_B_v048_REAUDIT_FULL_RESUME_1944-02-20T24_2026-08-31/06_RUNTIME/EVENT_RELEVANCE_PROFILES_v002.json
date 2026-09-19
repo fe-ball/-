@@ -1,0 +1,171 @@
+{
+  "revision": "v002",
+  "rule": "Profiles specify mandatory domains/tags. Every mandatory domain must resolve ACTIVE / NO_RELEVANT_DELTA / NOT_YET_MATURE / UNKNOWN before execution. State-ledger domains are separately mandatory; technical coverage never substitutes for personnel/OOB/readiness state.",
+  "profiles": {
+    "CARRIER_BATTLE": {
+      "mandatory_domains": [
+        "AIR_PLATFORM",
+        "AIR_WEAPONS",
+        "CARRIER",
+        "SENSOR_SEARCH",
+        "SIGINT_COMINT"
+      ],
+      "also_check": [
+        "SUBMARINE",
+        "SURFACE",
+        "LOGISTICS"
+      ],
+      "mandatory_entry_ids": [
+        "TECH-INTEGRATION-RULE-001",
+        "TECH-DAMAGE-STATE-TRANSITION-001",
+        "TECH-INFO-TO-COMMAND-SEPARATION-001"
+      ],
+      "include_tags": [
+        "CARRIER_BATTLE",
+        "NAVAL_STRIKE",
+        "SEARCH",
+        "ALL"
+      ],
+      "mandatory_state_domains": [
+        "PERSONNEL_AND_SOFT",
+        "AIR_FORCE_POOL",
+        "AIR_OPENING_TYPES",
+        "CARRIER_AIR"
+      ]
+    },
+    "SURFACE_NIGHT": {
+      "mandatory_domains": [
+        "SURFACE_PLATFORM",
+        "SURFACE_TORPEDO",
+        "SURFACE_GUNFIRE",
+        "SENSOR_SEARCH",
+        "SIGINT_COMINT"
+      ],
+      "also_check": [
+        "AIR_PLATFORM",
+        "SUBMARINE"
+      ],
+      "include_tags": [
+        "SURFACE_NIGHT",
+        "SURFACE",
+        "ALL"
+      ],
+      "mandatory_state_domains": [
+        "PERSONNEL_AND_SOFT",
+        "SURFACE_FLEET"
+      ]
+    },
+    "CONVOY": {
+      "mandatory_domains": [
+        "LOGISTICS",
+        "ASW",
+        "SUBMARINE",
+        "SIGINT_COMINT"
+      ],
+      "also_check": [
+        "AIR_PLATFORM",
+        "SENSOR_SEARCH"
+      ],
+      "include_tags": [
+        "CONVOY",
+        "ASW",
+        "SUBMARINE",
+        "LOGISTICS",
+        "ALL"
+      ],
+      "mandatory_state_domains": [
+        "PERSONNEL_AND_SOFT",
+        "SUBMARINE"
+      ]
+    },
+    "SUBMARINE": {
+      "mandatory_domains": [
+        "SUBMARINE",
+        "SIGINT_COMINT",
+        "ASW"
+      ],
+      "also_check": [
+        "SENSOR_SEARCH",
+        "LOGISTICS"
+      ],
+      "include_tags": [
+        "SUBMARINE",
+        "ASW",
+        "SIGINT_COMINT",
+        "ALL"
+      ],
+      "mandatory_state_domains": [
+        "PERSONNEL_AND_SOFT",
+        "SUBMARINE"
+      ]
+    },
+    "AMPHIBIOUS": {
+      "mandatory_domains": [
+        "AMPHIBIOUS",
+        "LOGISTICS",
+        "AIR_PLATFORM",
+        "CARRIER",
+        "SENSOR_SEARCH",
+        "SIGINT_COMINT"
+      ],
+      "also_check": [
+        "ASW",
+        "SUBMARINE"
+      ],
+      "include_tags": [
+        "AMPHIBIOUS",
+        "BASE_DEFENSE",
+        "LOGISTICS",
+        "ALL"
+      ],
+      "mandatory_state_domains": [
+        "PERSONNEL_AND_SOFT",
+        "AMPHIBIOUS",
+        "LOGISTICS"
+      ]
+    },
+    "LAND_AIR": {
+      "mandatory_domains": [
+        "AIR_PLATFORM",
+        "AIR_WEAPONS"
+      ],
+      "also_check": [
+        "LOGISTICS",
+        "SENSOR_SEARCH",
+        "SIGINT_COMINT"
+      ],
+      "include_tags": [
+        "LAND_AIR",
+        "MALAYA",
+        "PHILIPPINES",
+        "ALL"
+      ],
+      "mandatory_state_domains": [
+        "PERSONNEL_AND_SOFT",
+        "AIR_FORCE_POOL",
+        "AIR_OPENING_TYPES"
+      ]
+    },
+    "AIRFIELD_ATTACK": {
+      "mandatory_domains": [
+        "AIR_PLATFORM",
+        "AIR_WEAPONS",
+        "SENSOR_SEARCH"
+      ],
+      "also_check": [
+        "SIGINT_COMINT",
+        "LOGISTICS"
+      ],
+      "include_tags": [
+        "AIRFIELD_ATTACK",
+        "LAND_AIR",
+        "ALL"
+      ],
+      "mandatory_state_domains": [
+        "PERSONNEL_AND_SOFT",
+        "AIR_FORCE_POOL",
+        "AIR_OPENING_TYPES"
+      ]
+    }
+  }
+}

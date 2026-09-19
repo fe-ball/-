@@ -1,0 +1,34 @@
+{
+  "revision": "v001",
+  "id": "YAMAMOTO_LATE_APRIL_POSTURE_AND_TATSUMAKI_1944-04-16_30_WORKING_v001",
+  "status": "WORKING_BRANCH_DECISION",
+  "decision_window": "1944-04-16..30",
+  "global_frontier_after_merge": "1944-04-30T24",
+  "parents": [
+    "YAMAMOTO_PACIFIC_POSTURE_1944-04-15_WORKING_v001",
+    "TAIHO_FIVE_DECK_INTEGRATION_1944-04-16_30_WORKING_v001",
+    "US_LIMITED_TRUK_REFRESH_RAID_1944-04-29_30_WORKING_v001",
+    "JAPAN_ISR_RESPONSE_TRUK_RAID_1944-04-24_30_WORKING_v001"
+  ],
+  "Truk_response_gate": {
+    "physical_capability": "PASS; five-deck system can now mount a meaningful one-cycle battle strike.",
+    "command_release": "HOLD; Truk defense alone is not a release condition.",
+    "operational_slack": "IMPROVING but carrier-air cadre remains the strategic asset being rebuilt.",
+    "motive_payoff": "FAIL; no transports, no persistent landing geometry, and the US force is a short-duration raid package.",
+    "information_quality": "HIGH warning / LOCAL weapon quality only; no stable long-range track on withdrawal.",
+    "opportunity_cost": "VERY HIGH; sacrificing five-deck cohesion for Truk would exchange the principal Japanese 1944 recovery asset for a target that can disengage at will."
+  },
+  "carrier_decision": "NO-GO FOR MOBILE-FLEET INTERCEPT. Hold southern reaction/training system, raise readiness, use local air/submarines/recon to harass and learn from the raid.",
+  "Tatsumaki_review": {
+    "historical_concept": "April training for a Majuro attack using several submarines carrying torpedo-armed amphibious vehicles.",
+    "branch_decision": "NO-GO / CANCEL AS OPERATIONAL COMMITMENT",
+    "reasons": [
+      "low probability of undetected delivery and successful overland/water attack",
+      "ties several useful submarines to a gimmick mission during a period when carrier-warning pickets and reconnaissance are strategically valuable",
+      "poor extraction/recovery logic and weak expected damage against a dispersed US anchorage",
+      "branch information culture values repeatable cueing/ISR utility over one-shot novelty absent an exceptional target"
+    ],
+    "resource_reallocation": "Keep candidate submarines in training/readiness and redirect deployable boats toward Central-Pacific warning, reconnaissance and anti-logistics patrols rather than fixing them to the Majuro special attack."
+  },
+  "30Apr_main_decision": "PRESERVE_FIVE_DECK_CADRE; ELEVATE_MARIANAS_WARNING; DO_NOT_DEFEND_TRUK_WITH_MAIN_FLEET; USE_SUBMARINES_AS_INFORMATION_AND_INTERDICTION_ASSETS."
+}

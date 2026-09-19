@@ -1,0 +1,21 @@
+{
+  "revision": "v017",
+  "current_restart": "CHECKPOINT_1943-12-31T24_BRANCH_B_v003",
+  "opening_baseline": "WARSTART_1941-12-07_08_v004",
+  "graph": "CHECKPOINT_GRAPH_v016.json",
+  "execution_policy": "Branch B year-end current is 1944-01-01 using TECH_INDEX_v009/current_branch_overrides_v011. GALVANIC detailed dependency is closed under final v002 settlement; the 1943-11-23 checkpoint remains a settled ancestor only.",
+  "settlement_chain": [
+    "CHECKPOINT_1942-04-10T24_v001",
+    "CHECKPOINT_1942-05-11T24_v001",
+    "CHECKPOINT_1942-06-02T24_v001",
+    "CHECKPOINT_1942-06-15T24_v002",
+    "CHECKPOINT_1942-09-02T24_v001",
+    "CHECKPOINT_1942-10-24T24_v001",
+    "CHECKPOINT_1942-11-19T24_v001",
+    "CHECKPOINT_1942-12-31T24_v001",
+    "CHECKPOINT_1943-07-31T24_BRANCH_B_v001",
+    "CHECKPOINT_1943-12-31T24_BRANCH_B_v003"
+  ],
+  "next_action": "Open 1944 only from the year-end v003 state. Before Eastern Fleet or Central-Pacific action, rebuild actual movable Japanese naval/air wallet, repair clocks and dated US carrier availability; no retained 1944 combat is realized.",
+  "closed_analysis_checkpoint": "CHECKPOINT_1943-11-23T00_BRANCH_B_GALVANIC_REAUDIT_v001"
+}

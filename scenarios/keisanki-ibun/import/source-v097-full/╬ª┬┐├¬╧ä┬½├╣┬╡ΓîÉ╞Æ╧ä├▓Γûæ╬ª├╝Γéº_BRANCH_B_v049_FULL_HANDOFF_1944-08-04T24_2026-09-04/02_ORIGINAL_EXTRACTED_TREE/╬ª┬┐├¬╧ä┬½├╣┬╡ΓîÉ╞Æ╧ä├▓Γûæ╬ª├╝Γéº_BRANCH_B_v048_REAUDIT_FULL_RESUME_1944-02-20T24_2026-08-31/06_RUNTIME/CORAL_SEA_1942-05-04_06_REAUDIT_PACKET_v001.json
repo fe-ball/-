@@ -1,0 +1,50 @@
+{
+  "revision": "v001",
+  "checkpoint": "CHECKPOINT_1942-05-06T24_v001",
+  "scope": "5/4 through 5/6 pre-5/7 Coral Sea re-audit only",
+  "purpose": "Close the few state fields intentionally left provisional before executing 5/7. This packet is a checklist/data request, not a battle result.",
+  "inputs": [
+    "06_RUNTIME/EXAMPLE_HANDOUT_CORAL_SEA_1942-05-07_v003.json",
+    "04_WARSTART/WARSTART_STATE_LEDGER_v002.json",
+    "02_TECH/TECH_INDEX_v003.json",
+    "00_CONFIG/current_branch_overrides_v001.json"
+  ],
+  "queries": [
+    {
+      "id": "CS-SEARCH-JP-0504-06",
+      "need": "Japanese search aircraft/seaplanes by base/ship, availability, radius/endurance, actual sectors and report latency",
+      "resolution": "must close before 5/7 search roll"
+    },
+    {
+      "id": "CS-SEARCH-US-0504-06",
+      "need": "US carrier/land/recon search assets and information channels after removal of high-grade Japanese plaintext",
+      "resolution": "must close before 5/7 search roll"
+    },
+    {
+      "id": "CS-CARRIER-AIRGROUPS",
+      "need": "Shokaku/Zuikaku/Shoho and Lexington/Yorktown usable aircraft, crew qualification, fatigue, damaged/repair queue and mission allocation as of boundary",
+      "resolution": "bounded values allowed; no paper complement substitution"
+    },
+    {
+      "id": "CS-TULAGI-SEAPLANE",
+      "need": "audit provisional Japanese ready-equivalent +1 at Tulagi against survival/base/serviceability constraints",
+      "resolution": "retain/change/reject with source pointer"
+    },
+    {
+      "id": "CS-CONTACT-0506",
+      "need": "Japanese rough contact quality, position error, age, source and command acceptance on 5/6",
+      "resolution": "retain/change/reject; do not import old 85 5/5 timing automatically"
+    },
+    {
+      "id": "CS-SENSOR-FIELDING",
+      "need": "host-specific radar/search equipment only where a named platform participates",
+      "resolution": "no fleet-wide 1942 radar assumption"
+    },
+    {
+      "id": "CS-INFO-COMMAND",
+      "need": "separate acquisition, analysis, confidence, command acceptance, order transmission and execution on both sides",
+      "resolution": "mandatory due COMINT correction"
+    }
+  ],
+  "stop_rule": "Do not execute 1942-05-07 search/contact/strike until all MUST queries are resolved ACTIVE/BOUNDED/NO_RELEVANT_DELTA/UNKNOWN-with-explicit-effect."
+}

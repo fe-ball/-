@@ -1,0 +1,120 @@
+{
+  "revision": "v001",
+  "id": "CHECKPOINT_1944-04-30T24_v001",
+  "checkpoint_id": "CHECKPOINT_1944-04-30T24_v001",
+  "as_of": "1944-05-01T00:00:00",
+  "status": "authoritative",
+  "type": "SPRING_1944_GLOBAL_RESTART_CHECKPOINT",
+  "parent": "CHECKPOINT_1942-12-31T24_v001",
+  "parent_checkpoint": "CHECKPOINT_1942-12-31T24_v001",
+  "technical_baseline": "TECH_INDEX_v005",
+  "prewar_baseline": "PREWAR_INDEX_v004",
+  "current_branch_overrides": "00_CONFIG/current_branch_overrides_v002.json",
+  "state_sources": [
+    "06_RUNTIME/1943_1944Q1_STRATEGIC_SETTLEMENT_v001.md",
+    "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+    "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+    "06_RUNTIME/EUROPE_ITALY_OVERLORD_ANVIL_REAUDIT_1943_1944Q1_v001.md",
+    "06_RUNTIME/EASTERN_FRONT_1941_1944Q1_DIFFERENTIAL_LEDGER_v001.md",
+    "06_RUNTIME/WEAPONS_AUDIT_1944-04-30_v001.md",
+    "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+    "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+    "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+    "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md"
+  ],
+  "territory": {
+    "Midway": "US-held after Sep 1943 recapture",
+    "Port_Moresby": "Japanese-held",
+    "Lunga_Tulagi": "Japanese-held",
+    "Espiritu_Santo": "Japanese-held",
+    "New_Caledonia": "Japanese military control of main corridor with Vichy nominal civil framework",
+    "Wake": "Japanese-held as of last settled 1943-10 audit",
+    "Tarawa_Makin": "US-held",
+    "Kwajalein_Roi": "US-held",
+    "Eniwetok": "US-held",
+    "Truk": "Japanese-held but reduced from fleet home to reconnaissance/submarine/local-air node",
+    "Palau": "Japanese-held, recovering from 1944-03-30/31 carrier raid"
+  },
+  "japan_naval_posture": {
+    "carrier_core": "Shokaku, Zuikaku, Hiryu, Soryu; 280-300 ready aircraft class",
+    "taiho": "B+ workup; combat-capable small formation, not yet fully integrated with core",
+    "secondary_carriers": "Junyo, Hiyo, Ryujo, Zuiho, Shoho, Ryuho; 135-165 combat-usable aircraft class, heterogeneous roles",
+    "doctrine": "do not sortie main carriers merely to save an island; require fresh positive-EV contact/mission-state gate",
+    "i400": "I-400 single-boat 3-Seiran combat capable; I-401 commissioned Apr, six-aircraft joint readiness expected late May-Jun"
+  },
+  "china": {
+    "five_go": "Phase I and II complete through Hanzhong; Phase III Sichuan HOLD",
+    "hanzhong": "forward logistics/air/recon node; road 600-750 t/day normal, favorable near 800; onward Guangyuan lower",
+    "chengdu_b29": "initial B-29 present; Japanese joint air pressure creates defense/logistics tax but does not stop Matterhorn",
+    "ichigo_equivalent": "5月下旬発起準備; 5/1 Pacific gate determines final air/engineer/fuel allocation; Sichuan pursuit prohibited"
+  },
+  "burma": {
+    "posture": "continuous logistics pressure; deep Imphal/Kohima gate NO-GO",
+    "supply": "forward achievement 68-75% late Apr; monsoon withdrawal-route preparations prioritized",
+    "myitkyina": "Japanese defense materially stronger than historical; 4-5k class posture plus warning/fighter support"
+  },
+  "pacific_us": {
+    "hollandia": "historical 1944-04-22 operation does not occur in current branch",
+    "main_axis": "Central Pacific/Marianas stronger concentration",
+    "forager": "D-Day center 1944-06-15; no major acceleration, but extra April time improves readiness/training"
+  },
+  "europe": {
+    "italy": "SHINGLE/Anzio canceled center; Rome expected mid-late Jun",
+    "overlord": "1944-06-06, five beaches, historical-class first wave preserved; later buildup/logistics buffer thinner",
+    "anvil": "July mid-month provisional planning survives",
+    "germany": "II SS Panzer Corps east; 715 ID South France, 114 Jager Balkans; HG Panzer remains Italy mobile reserve through Apr"
+  },
+  "eastern_front": {
+    "soviet_extra_irrecoverable_to_1944_04_07": 75000,
+    "soviet_extra_wounded": 152000,
+    "soviet_extra_tank_spg_losses": 940,
+    "soviet_extra_aircraft_losses": 305,
+    "axis_current_personnel_preserved_delta_center": 29000,
+    "soviet_quality_note": "headcount partly refilled by consuming trained reserve/reconstitution time; replacement reserve 85-92 and one-month regeneration 88-94 vs historical=100 work bands",
+    "far_east_extra_constraint_late_apr": "about 50-55k above historical branch baseline after limited westward release"
+  },
+  "weapons": {
+    "ki84": "A; cumulative 380-430, frontline ready 250-290 center band",
+    "raiden": "A; frontline ready 260-300 band",
+    "kinsei_zero": "A; allocatable ready 80-110 provisional band",
+    "n1k2j": "A-/B+; 18-28 ready class",
+    "a7m": "C; combat 0",
+    "ki67": "B/C; ordinary combat 0",
+    "jets": "combat 0",
+    "mad_aircraft": "25-40 capable in 3-5 detachments"
+  },
+  "shipping_scope_caveat": "No authoritative fixed 1944 Japanese total merchant GRT single value. Use ship-days, delivered cargo, mission availability and route-specific losses until a single statistical universe is rebuilt.",
+  "next_actions": [
+    "Run 1944-05-01 Pacific gate and finalize China operation allocation.",
+    "Advance May 1-15 only, checking Myitkyina, Sevastopol, FORAGER preparation, ANVIL/OVERLORD, Soviet Far East transfers.",
+    "Track Tokai/MAD ASW by detection-datum-weapon delivery-damage-mission kill-kill, not sinkings alone.",
+    "Do not commit I-400 surprise before late-May/early-Jun six-aircraft gate unless an exceptional target creates higher expected value."
+  ],
+  "technical_entries": [
+    "TECH-COMINT-JP-HIGHGRADE-1942-001",
+    "TECH-COMINT-RESIDUAL-CHANNELS-1942-001",
+    "TECH-INFO-TO-COMMAND-SEPARATION-001",
+    "TECH-RADAR-CLOSEDLOOP-1943PLUS-001",
+    "TECH-RADAR-PRODUCTION-MEDIAN-001",
+    "TECH-SUB-INFO-AGE-001",
+    "TECH-AIR-COMBAT-MISSION-MATRIX-1944-001",
+    "TECH-NICKEL-SELECTIVE-HOTTEMP-1943-44-001",
+    "TECH-ASW-MAD-DATUM-LOCALIZATION-1943-44-001",
+    "TECH-I400-SEIRAN-INTEGRATED-READINESS-1944-001",
+    "TECH-LOG-ASSET-UPTIME-ACCOUNTING-001"
+  ],
+  "maturation_deltas": [
+    "1943-44 radar plotting/CAP loop matures at selected A bases but remains below US CIC multi-target battle management.",
+    "Air-personnel circulation and ground/air role separation reduce lower-tail unit weakness and ferry burden; not a blanket ace multiplier.",
+    "Tokai/MAD grows from early unit use to 25-40 MAD-capable aircraft by Apr 1944 in priority lanes.",
+    "Selective nickel allocation increases high-temperature test repetitions without removing material/process bottlenecks."
+  ],
+  "dependency_notes": [
+    "Any revision to 1943-44 carrier loss ledger invalidates Pacific allocations and FORAGER gate.",
+    "Any revision to Five-Go Hanzhong capture invalidates China/Matterhorn and Soviet/Allied CBI allocations downstream.",
+    "Any revision to RN carrier losses invalidates Italy/Indian Ocean/Sabang/Victorious pathways.",
+    "Legacy 87/88/89 battle outcomes are not parents of this checkpoint."
+  ],
+  "execution_valid": true,
+  "current_restart": true
+}

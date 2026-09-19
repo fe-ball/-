@@ -1,0 +1,81 @@
+{
+  "id": "MARSHALL_FORTIFICATION_SENSOR_C2_STATE_1944-01-15_WORKING_v001",
+  "status": "WORKING_CLOSEOUT_ADJUDICATION_NOT_YET_CANONICAL",
+  "as_of": "1944-01-15",
+  "doctrine_clock": "Tarawa lessons are partially absorbed: obvious lessons in days, procedural lessons in 1-3 weeks, physical changes only where material/plant/terrain permit. No later Kwajalein/Peleliu cave-defense doctrine is retrojected.",
+  "common_changes": [
+    "more complete open-top aircraft revetments and fragmentation separation rather than bomb-proof aircraft hangars",
+    "smaller distributed ammunition/fuel stores and protected pump/generator points",
+    "more redundant buried/alternate telephone routes and messenger plans",
+    "radar/DF/visual-warning plot separated from exposed antennas where practical",
+    "spare tubes/modules, calibration cards and dispersed power support at priority nodes",
+    "more lagoon-side and alternate-beach fire plans after Tarawa, but beach defense remains substantial",
+    "local reserve positions, night routes, dummy positions and pre-registered mortar/artillery zones",
+    "no invented deep tunnel network on flat coral atolls"
+  ],
+  "sensor_rule": "Radar antennas remain vulnerable. Branch gain is availability, protected power/plot/spares and cue-to-CAP procedure. A-grade nodes can often turn an intact warning into roughly 20-35 minutes of useful fighter/AA preparation; B-grade nodes roughly 10-25 minutes. This is not US precision GCI.",
+  "nodes": [
+    {
+      "node": "Maloelap/Taroa",
+      "grade": "A",
+      "aircraft_fragmentation_protected_parking_fraction": "~70-80% of routine resident aircraft",
+      "fuel_ammo_distribution": "~60-75% of critical stocks in separated/protected lots",
+      "sensor_C2": "primary early-warning/plot node with protected power, DF/visual backup and field-service depth; no guaranteed duplicate full radar set",
+      "ground": "strong outer-base construction, still terrain-limited and not a deep defense island"
+    },
+    {
+      "node": "Kwajalein/Roi/Ebeye",
+      "grade": "A-/B+",
+      "aircraft_fragmentation_protected_parking_fraction": "~55-70%",
+      "fuel_ammo_distribution": "~55-70%",
+      "sensor_C2": "HQ/air/water-air plot redundancy materially improved; lagoon-side warning and fire plans strengthened",
+      "ground": "lagoon-facing positions, command shelters, distributed magazines and fallback firing points improved; depth still limited by flat narrow islands"
+    },
+    {
+      "node": "Wotje",
+      "grade": "B+/A-",
+      "aircraft_fragmentation_protected_parking_fraction": "~55-70%",
+      "sensor_C2": "reliable warning/DF node, less fighter-direction depth than Taroa",
+      "ground": "heavily worked likely-US-target strongpoint; much investment may be bypassed"
+    },
+    {
+      "node": "Mili",
+      "grade": "B+/A-",
+      "aircraft_fragmentation_protected_parking_fraction": "~50-65%",
+      "sensor_C2": "southern warning/local CAP and lagoon-water-air cue",
+      "ground": "good construction completion but small-island ceiling remains"
+    },
+    {
+      "node": "Jaluit",
+      "grade": "B+",
+      "aircraft_fragmentation_protected_parking_fraction": "~40-55% runway layer; water-air support more dispersed",
+      "sensor_C2": "seaplane/DF/radio network remains valuable even if runway is cratered",
+      "ground": "port/seaplane support hardening more valuable than trying to create a Taroa-equivalent fighter fortress"
+    },
+    {
+      "node": "Eniwetok",
+      "grade": "B",
+      "aircraft_fragmentation_protected_parking_fraction": "~45-60%",
+      "sensor_C2": "western warning/staging and land-attack support; garrison/construction still late relative to eastern outer bases",
+      "ground": "improving but incomplete across dispersed islands"
+    },
+    {
+      "node": "Kusaie",
+      "grade": "B staging node",
+      "airfield": "limited fighter/light-aircraft staging/emergency strip becomes usable centered 5-10 Jan; no resident combat squadron is spawned",
+      "throughput": "roughly 8-12 ferry/turnaround aircraft per good-weather day when not under attack",
+      "sensor_C2": "warning/radio/weather/DF plus protected support; larger volcanic terrain gives better passive shelter than atolls"
+    },
+    {
+      "node": "Ponape",
+      "grade": "B+/rear staging",
+      "airfield": "intact rear staging/repair field; no free combat unit created",
+      "role": "Truk-Ponape-Kusaie-Marshall ferry/repair ladder, long-range air/water-air staging, reserve sensor/communications depth"
+    }
+  ],
+  "ground_OOB_guards": [
+    "No untraced Japanese tank platoon on Kwajalein/Roi; tank ditches do not imply tanks.",
+    "Keep Marshall total personnel broadly historical/previous-Branch scale; material completion and C2 are the main delta.",
+    "Tarawa experience improves anti-LVT/beach-lane preparation but does not instantly create post-Kwajalein deep inland defense doctrine."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-02-22T24_WORKING_v001",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_NOT_AUTHORITY",
+  "as_of": "1944-02-22T24:00:00+09:00",
+  "global_frontier": "1944-02-22T24",
+  "merge_policy": "Only results whose event clock is at or before 22T24 are merged. Later resolved future-local outcomes remain escrowed and may not leak backward.",
+  "Indian_Ocean": {
+    "Eastern_Fleet": "Heavy battle squadron remains Ceylon-based and escort-constrained. Illustrious/Gambia/Rotherham/Tjerk Hiddes are now at sea on SLEUTH toward the Cocos-area search zone.",
+    "Japan_surface": "Oyodo + Teruzuki + Takanami + Makinami + Kiyonami remain Singapore/Lingga mobile reserve; no second reinforcement release.",
+    "Japan_air": "331st western retention and 705th Sumatra/Andaman search allocation remain active; no 22 Feb weapon-quality carrier contact and no strike.",
+    "Japan_ASW": "Tokai/MAD western detachment active in bounded routine coverage; Ka-go absent locally.",
+    "Japan_submarines": "RO-110 and I-27 are now explicitly removed as Feb losses. I-166/I-37/I-162/RO-111 are named relevant active/outbound boats at this clock, with I-37 credited the British Chivalry sinking.",
+    "operational_assessment": "No Eastern Fleet thrust into the Bay/Andamans. Japanese western reinforcement posture remains defensive/reactive, not escalatory."
+  },
+  "Central_Pacific": {
+    "merge_through_22T24": [
+      "HAILSTONE closeout remains merged.",
+      "CATCHPOLE Engebi 21 Feb result may now be merged globally: organized resistance ended 21 Feb, mop-up into 22 morning; all three local Type 95 are irrecoverable.",
+      "CATCHPOLE Eniwetok Island assault begins 22 Feb 09:15; only 22 Feb beachhead/counterattack state is globally visible at this frontier. Full 23 Feb closeout remains future-local escrow."
+    ],
+    "Catchpole_22T24_state": "Eniwetok beachhead held; Japanese afternoon counterattack repulsed; 22/23 night infiltration is beginning/ongoing. Do not import the known 23 Feb organized-resistance end yet."
+  },
+  "Bengal": "No new local ground re-adjudication. Chittagong-Feni/Comilla stalemate state carries forward; 25th Dragoons gate remains later.",
+  "global_allocation_posting": {
+    "Japanese_Central_Pacific_debit_from_western_surface_group": "unchanged: Oyodo + four modern DD remain west-assigned",
+    "new_western_surface_debit_19_22Feb": 0,
+    "new_first_line_carrier_debit_to_Indian_Ocean": 0,
+    "new_5th_Air_Division_emergency_debit": 0
+  },
+  "next_exact_action": "Advance 23-27 Feb with two synchronized strands: SLEUTH southward search/contact evolution and CATCHPOLE Eniwetok/Parry closeout. Merge only day-reached portions, then update global logistics/allocation clock at 27 Feb."
+}

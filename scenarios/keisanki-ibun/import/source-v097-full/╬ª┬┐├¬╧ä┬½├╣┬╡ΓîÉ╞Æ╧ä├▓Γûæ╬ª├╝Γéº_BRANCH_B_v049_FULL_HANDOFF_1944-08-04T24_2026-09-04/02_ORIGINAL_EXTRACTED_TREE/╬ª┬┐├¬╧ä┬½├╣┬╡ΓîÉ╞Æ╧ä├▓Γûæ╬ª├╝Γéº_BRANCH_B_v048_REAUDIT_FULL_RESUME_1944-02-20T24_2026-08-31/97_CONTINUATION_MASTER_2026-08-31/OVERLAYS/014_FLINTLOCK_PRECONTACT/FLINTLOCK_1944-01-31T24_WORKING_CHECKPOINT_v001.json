@@ -1,0 +1,26 @@
+{
+  "id": "FLINTLOCK_1944-01-31T24_WORKING_CHECKPOINT_v001",
+  "status": "WORKING_FRONTIER_CHECKPOINT_NOT_CANONICAL",
+  "as_of": "1944-01-31T24+12:00",
+  "US": {
+    "operation": "Kwajalein/Roi-Namur + Majuro direct assault remains centerline",
+    "provisional_D_day": "1944-02-06, sensitivity 5-7 Feb",
+    "fast_carriers": "11 decks, roughly 595-625 ready aircraft before combat losses",
+    "surprise": "Strategic/tactical approach compromised enough to raise Japanese alert; exact US disposition still protected",
+    "next": "First major suppression at earliest fuel/weather-feasible point 1-2 Feb"
+  },
+  "Japan": {
+    "Marshall_air": "roughly 136-146 combat-serviceable centered around ~141 after late-Jan pressure and the failed night package; distributed, not a single strike mass",
+    "defense": "Late construction continues through Jan; radar/DF/plot/power/telephone and water-air nodes remain part of the defense system",
+    "first_line_carriers": "Shokaku/Zuikaku/Hiryu/Soryu, 250-272 ready aircraft, coherent strike roughly 188-216; CONDITIONAL_GO_PREPARED_NO_LAUNCH",
+    "secondary_carriers": "Junyo/Hiyo/Ryujo/Zuiho 98-116 combat-useful as rear-deck reserve",
+    "submarines": "17 assigned center, 13-14 effective on station by late Jan including five Sentaka-class inner recontact boats centered"
+  },
+  "reopened": [
+    "1-2 Feb first Marshall suppression",
+    "Japanese four-carrier launch gate",
+    "suppression attrition of radar/plot/water-air as component systems",
+    "final D-Day confirmation after any carrier exchange",
+    "Kwajalein/Roi ground-survival calculation with new fortification/sensor state"
+  ]
+}

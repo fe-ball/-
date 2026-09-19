@@ -1,0 +1,29 @@
+{
+  "revision": "v001",
+  "id": "US_SUBMARINE_RECONTACT_AND_SPRUANCE_POSTURE_1944-06-15_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_DAY_ISR_SETTLEMENT",
+  "clock_window": "1944-06-15T00:00..24:00+09:00",
+  "parents": [
+    "JAPAN_FLEET_SORTIE_AND_US_SUB_CONTACT_1944-06-14_WORKING_v001"
+  ],
+  "historical_anchor": [
+    "Historically USS Flying Fish sighted Ozawa force in/near San Bernardino Strait on 15 Jun and reported it; USS Seahorse separately sighted a battleship/cruiser force, giving Fifth Fleet strategic warning.",
+    "Historical US submarines were normally ordered to report major fleet sightings before pressing an attack when the strategic value of contact outweighed a low-percentage shot."
+  ],
+  "branch_contacts": {
+    "morning_recontact": "A US submarine reacquires a carrier/heavy-ship echelon east of the Philippine exit approaches. Visual/radar fragments support at least several carriers plus major surface escorts, but staggered Japanese formations prevent a single complete count.",
+    "afternoon_independent_contact": "A second submarine obtains a separate heavy-unit contact on a more southerly/trailing echelon. Large battleship silhouettes and cruiser/destroyer screen are reported.",
+    "combined_assessment": "By evening Spruance/Mitscher can treat a major Japanese carrier-battleship sortie as CONFIRMED. Working estimate is multiple fleet carriers plus numerous secondary carriers and at least five-to-seven battleships; exact eleven-carrier branch total remains unresolved.",
+    "track_freshness": "Best directional/speed solution is normally 4-8 hours stale by the time it is fused at fleet headquarters. There is no continuous submarine shadow track suitable for immediate carrier strike launch."
+  },
+  "attack_gate": {
+    "main_body_torpedo_attack": "NO successful attack on 15 Jun.",
+    "reason": "Reporting/recontact is prioritized; deeper Japanese destroyer/air ASW screen and staggered formations make prolonged periscope shadowing costly. No free historical shot is invented."
+  },
+  "Spruance_effect": {
+    "threat_confidence": "VERY_HIGH / MAJOR FLEET ACTION IMMINENT",
+    "carrier_disposition": "Keep three fast-carrier task groups, about twelve fast decks, in the Saipan/Philippine-Sea protection system. Only one roughly four-deck group is permitted to continue the Bonins suppression mission, with an early-return instruction after the 15 Jun contact sharpens.",
+    "transport_policy": "Amphibious transports and vulnerable logistics begin eastward night withdrawal/dispersion once unloading priorities permit.",
+    "operational_choice": "Do not dash TF58 west on a stale submarine bearing. Primary mission remains covering the Saipan lodgment and preventing a Japanese surface/carrier breakthrough."
+  }
+}

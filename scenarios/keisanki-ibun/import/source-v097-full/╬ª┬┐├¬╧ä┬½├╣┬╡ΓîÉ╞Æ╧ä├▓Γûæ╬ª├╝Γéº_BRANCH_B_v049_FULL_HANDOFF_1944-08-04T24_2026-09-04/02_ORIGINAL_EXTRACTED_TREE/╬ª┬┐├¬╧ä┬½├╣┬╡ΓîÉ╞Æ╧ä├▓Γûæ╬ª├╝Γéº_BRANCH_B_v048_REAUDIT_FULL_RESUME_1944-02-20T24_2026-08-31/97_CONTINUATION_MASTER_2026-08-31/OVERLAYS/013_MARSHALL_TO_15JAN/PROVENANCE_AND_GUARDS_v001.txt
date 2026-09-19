@@ -1,0 +1,5 @@
+WORKING provenance / precedence
+1. Start from revised GALVANIC closeout at 1943-11-29, not canonical old GALVANIC settlement.
+2. Use current technical/process baselines for cargo utilization, construction, sensors, C2, aircraft fielding and post-GALVANIC learning.
+3. Old Marshall/FLINTLOCK files are reference-only for structure and historical anchors; their realized dates/damage/OOB are reopened.
+4. Web historical sources support historical movement/planning/construction anchors only. Branch quantities are adjudicated working bands.

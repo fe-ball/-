@@ -1,0 +1,144 @@
+{
+  "revision": "v001",
+  "id": "CHECKPOINT_1942-06-02T24_v001",
+  "checkpoint_id": "CHECKPOINT_1942-06-02T24_v001",
+  "as_of": "1942-06-03T00:00:00",
+  "status": "authoritative",
+  "type": "FORMAL_PRE_MI_SORTIE_CHECKPOINT",
+  "parent": "CHECKPOINT_1942-05-11T24_v001",
+  "parent_checkpoint": "CHECKPOINT_1942-05-11T24_v001",
+  "technical_baseline": "TECH_INDEX_v003",
+  "prewar_baseline": "PREWAR_INDEX_v003",
+  "current_branch_overrides": "00_CONFIG/current_branch_overrides_v001.json",
+  "state_sources": [
+    "06_RUNTIME/1942Q2_OPERATION_C_MO_MI_REAUDIT_SETTLEMENT_v001.md",
+    "06_RUNTIME/MIDWAY_1942-06-10_15_SETTLEMENT_v001.json"
+  ],
+  "maturation_deltas": [
+    "Search/report doctrine incorporates Operation C and Coral Sea experience. Weather utilization is a bounded operational improvement in collecting/plotting wind/cloud/front reports; no independent modern weather-forecast technology is created.",
+    "Tone scout launch reliability is not forced to repeat the historical late-launch accident; no specific catapult super-technology is asserted."
+  ],
+  "dependency_notes": [
+    "AL is detached from MI. FS preparation continues in parallel but is not the first main operation.",
+    "MI target attack date moved to 1942-06-10; landing planned 1942-06-13."
+  ],
+  "japanese_plan": {
+    "mission_priority": [
+      "Destroy remaining US carriers",
+      "Neutralize Midway air power",
+      "Occupy Midway if conditions permit"
+    ],
+    "first_carrier_striking_force": {
+      "carriers": [
+        "Akagi",
+        "Kaga",
+        "Soryu",
+        "Hiryu",
+        "Zuikaku"
+      ],
+      "fast_battleships": [
+        "Haruna",
+        "Kirishima"
+      ],
+      "heavy_cruisers": [
+        "Tone",
+        "Chikuma"
+      ],
+      "destroyers": "about 12",
+      "ready_aircraft_center": "about 315-323; total aboard about 328-335",
+      "first_midway_strike": "about 114-120 aircraft; substantial anti-ship reserve retained"
+    },
+    "second_air_echelon": {
+      "carriers": [
+        "Ryujo",
+        "Junyo"
+      ],
+      "heavy_cruisers": [
+        "Takao",
+        "Maya"
+      ],
+      "role": "independent support/search/convoy CAP/second strike; not merged into first carrier formation"
+    },
+    "fast_surface_pursuit": {
+      "battleships": [
+        "Kongo",
+        "Hiei"
+      ],
+      "heavy_cruisers": "Atago/Chokai/Myoko/Haguro class set; exact named split may be finalized at event resolution",
+      "destroyers": "about 6-8",
+      "role": "night pursuit after carrier-air mission kills"
+    },
+    "main_body": {
+      "battleships": [
+        "Yamato",
+        "Nagato",
+        "Mutsu",
+        "Ise",
+        "Hyuga",
+        "Fuso",
+        "Yamashiro"
+      ],
+      "distance_policy": "roughly 200-250 nmi behind the first carrier force, materially closer than historical",
+      "reason": "thicker carrier cover + improved surface combat/speed robustness + reduced operational-risk premium"
+    },
+    "invasion": {
+      "carrier": "Zuiho",
+      "heavy_cruisers": [
+        "Kumano",
+        "Suzuya",
+        "Mikuma",
+        "Mogami"
+      ],
+      "landing_strength": "about 5800 assault troops plus construction/survey/base personnel",
+      "logistics_priority": "AA, artillery ammunition, tractors, engineers, radios, fuel, runway repair rather than extra infantry headcount"
+    },
+    "submarines": {
+      "total_central_pacific": "about 19",
+      "doctrine_change": "Forward anti-carrier patrol line is deliberately ordered earlier; delay alone is not treated as sufficient. Multiple sparse layers are used, with K-operation/recon support detached as needed."
+    },
+    "base_air": {
+      "Wake": "G3M/G4M about 50-56 ready; A6M about 18-24 ready by eve of attack",
+      "Marshalls_Wotje": "flying-boat long-range patrol including small H8K component",
+      "Southeast": "25th Air Flotilla main body remains Rabaul/PM/Solomons to hold MO gains"
+    },
+    "AL": "Deferred/separated.",
+    "Indian_Ocean": "Exploit RN weakness with submarines/cruisers/base air; no main carrier commitment.",
+    "FS": "Prepare bases/logistics in parallel; not operationally ready to replace MI in May."
+  },
+  "US_information_state": {
+    "high_grade_plaintext": "Unavailable under OVR-COMINT-1942-HIGHGRADE-001.",
+    "residual_channels": [
+      "traffic analysis",
+      "DF",
+      "low-grade/plaintext",
+      "air reconnaissance",
+      "submarine reports",
+      "geographic/logistic inference"
+    ],
+    "assessment_as_of_boundary": "Midway roughly 60-65% main-target probability; other Central Pacific 10-15%; South Pacific 15-20%; north about 5%. Attack date/carrier count unknown.",
+    "carriers": "Enterprise/Hornet scheduled to sortie 1942-06-02 night to 06-03; Saratoga accelerated and expected Pearl about 06-03/04; Wasp cannot reach in time.",
+    "midway_air": "about 75-90 aircraft at boundary, with continued reinforcement possible."
+  },
+  "event_adjudications": {
+    "Tone_scout": "No forced historical 25-30 minute launch delay; launch is treated as on-time within normal small operational variance.",
+    "weather": "Historical 1942-06-02/03 fog is not copied because dates differ. Weather remains stochastic. Japanese advantage is bounded to somewhat better collection/plotting and route/search-sector use of broad cloud/front/wind information; local squalls and cloud holes remain unpredictable.",
+    "second_K_operation": "French Frigate Shoals refueling method still likely blocked from prior US learning. Alternative submarine floatplane reconnaissance is attempted/considered; success gives only coarse carrier-presence information, not perfect identification/continuous tracking."
+  },
+  "technical_entries": [
+    "TECH-DAMAGE-STATE-TRANSITION-001",
+    "TECH-AIR-NAV-REPORT-I-O-001",
+    "TECH-SEARCH-MULTILAYER-001",
+    "TECH-SURFACE-SPEED-ROBUSTNESS-001",
+    "TECH-GUNFIRE-SURFACE-1942-001",
+    "TECH-GUNFIRE-LONGRANGE-NONSTANDARD-001",
+    "TECH-TORPEDO-SURFACE-ACCURACY-001",
+    "TECH-TORPEDO-SECOND-SALVO-001",
+    "TECH-ASW-CONTACT-HANDOFF-001",
+    "TECH-ASW-FOCUSED-CONVOY-1942-001",
+    "TECH-AMPHIBIOUS-FIRSTDAY-001",
+    "TECH-CARRIER-MISSION-CLASS-001",
+    "TECH-COMINT-RESIDUAL-CHANNELS-1942-001",
+    "TECH-SUB-INFO-AGE-001"
+  ],
+  "next_boundary": "CHECKPOINT_1942-06-15T24_v001"
+}

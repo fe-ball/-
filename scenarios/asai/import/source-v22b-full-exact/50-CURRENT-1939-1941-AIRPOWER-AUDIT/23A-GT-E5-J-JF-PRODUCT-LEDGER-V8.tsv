@@ -1,0 +1,27 @@
+item	state	central_or_band	meaning
+E5-J-Q thrust	CLOSED	425-430 kgf	8.4kg/s jet trim; non-Ni 765C quantity line
+E5-J-N thrust	CLOSED	450-455 kgf	non-Ni 800C full/high-performance line
+E5-J selected short	CONDITIONAL CLOSED SHADOW	~470 kgf	selected Ni 820-830C short use; emergency-minute ledger required
+E5-J static TSFC	CLOSED	~0.84 Q / ~0.83 N kg/(kgf h)	installed static audit; mission average separate
+E5-J dry mass	CLOSED WORKING PRODUCT	380-415 kg; center~395	finished engine, excludes aircraft intake/mount/fairing
+E5-J max OD	CLOSED WORKING PRODUCT	0.69-0.76 m	centrifugal compressor/diffuser dominated
+E5-J length	CLOSED WORKING PRODUCT	1.80-2.05 m	accessory/nozzle dependent
+E5-JF architecture	CLOSED	E5 GG + one-stage free-LP turbine + direct aft fan	independent added spool, not two-spool compressor
+E5-JF installed thrust	RETAIN/CLOSED	515-545 kgf	Q practical ~515-525; selected N ~535-545
+E5-JF static TSFC delta	CLOSED	~15-18% below same-TIT E5-J	static/matched point; do not auto-map to range
+E5-JF BPR	CLOSED	0.8-1.0	production/evaluation band
+E5-JF FPR	CLOSED	1.25-1.30	production/evaluation band
+E5-JF fan tip	CLOSED	0.36-0.41 m	central BPR0.9 ~0.385m
+E5-JF fan speed	CLOSED	11.5-13.2 krpm	central BPR0.9 ~12.3krpm
+E5-JF fan/free-turbine power	CLOSED	~0.20-0.24 MW	FPR1.30 principal band
+E5-JF aft module mass	CLOSED WORKING PRODUCT	70-95 kg; center~85	scaled component ledger consistent with retained total mass
+E5-JF total dry	RETAIN/CLOSED	455-505 kg; center~480	mature 1938 anchor
+E5-JF max OD consequence	CORRECTED	no large new max-frontal-area increase	fan casing below existing E5 centrifugal-core max OD; length/wetted/CG are taxes
+E5-Q L_core	RETAIN	350-600 h	non-Ni 760-770C v39 rated-core hot-section coordinate
+E5-N nonNi L_core	RETAIN	150-300 h	non-Ni 800C v39 coordinate
+E5 Ni800 L_core	RETAIN	400-700 h	v39 coordinate
+E5-Q scheduled OH target	WORKING PRODUCT	250-400 h	separate from L_core; starts/duty dependent; not fleet-history claim
+E5-N nonNi scheduled OH target	WORKING PRODUCT	100-200 h	separate from L_core
+E5 Ni800 life-spent scheduled OH target	WORKING PRODUCT	300-450 h	when Ni margin is spent on life, not higher rating
+E5 selected-short emergency budget	WORKING RELEASE	30-60 cumulative min before special review/inspection	no generic TBO extrapolation
+E5-JF first flight chronology	CLOSED	1937 Q4	1938 Sep-Oct first-flight wording superseded; later 1938 measured anchors retained

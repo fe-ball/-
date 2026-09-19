@@ -1,0 +1,26 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_MOBILE_FLEET_SURFACE_SCREEN_1944-06-14_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_SURFACE_BATTLE_SYSTEM_AUDIT",
+  "as_of": "1944-06-14T24:00:00+09:00",
+  "parents": ["JAPAN_MOBILE_FLEET_ORDER_1944-06-13_WORKING_v001"],
+  "battleline_available": {
+    "heavy": ["YAMATO", "MUSASHI", "NAGATO"],
+    "fast_battleships": ["KONGO", "HARUNA", "HIEI", "KIRISHIMA"],
+    "note": "MUTSU remains lost. Historical KON/Biak detachment does not exist, so Yamato/Musashi are already inside the Marianas battle system rather than requiring a later recombination. Hiei/Kirishima survival gives the branch a four-ship Kongo-class fast-battleship layer."
+  },
+  "cruiser_pool_centerline": {
+    "scout_fast_heavy": ["TONE", "CHIKUMA"],
+    "heavy_cruiser_fast_surface_layer": ["TAKAO", "ATAGO", "MAYA", "CHOKAI"],
+    "additional_heavy_cruiser_layer": ["MOGAMI", "SUZUYA", "KUMANO"],
+    "light_cruiser_command_screen": "YAHAGI/NOSHIRO-class command-screen layer; exact final split remains tactical until 15-16 Jun formation closure.",
+    "guard": "Names are a battle-system availability roster; no ship is double-counted into two simultaneously firing formations. Exact task-group assignment remains fluid on 14 Jun."
+  },
+  "destroyer_screen_delta_vs_historical_mid_June": {
+    "still_lost": ["HAYANAMI"],
+    "branch_survivors_available_or_not_historically_lost_on_schedule": ["INAZUMA", "MINAZUKI", "TANIKAZE", "HARUSAME"],
+    "14Jun_centerline_additional_survivor": "SHIRATSUYU survives 14 Jun; the historical Seiyo Maru collision is not inherited because branch refueling/escort timing and route geometry are different.",
+    "effect": "The battle force enters the Philippine Sea with a materially deeper destroyer screen, allowing more ASW sectors, carrier plane-guard stations and torpedo-capable night detachments without stripping every carrier group."
+  },
+  "employment_policy": "No independent battleship dash to Saipan. Surface power remains carrier screen/AA concentration, submarine defense, night-battle contingency and exploitation force unless US transport/fire-support geometry presents a favorable lane."
+}

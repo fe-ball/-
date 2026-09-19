@@ -1,0 +1,168 @@
+{
+  "title": "BRANCH B Santo TF64 Arrival Reconciliation + D+3 Settlement v009",
+  "status": "WORKING-PROMOTED CURRENT",
+  "retroactive_correction": {
+    "reason": "Historical TF64 formed 23 Sep and headed to New Hebrides 24 Sep; prior late-arrival assumption undercounted U.S. Santo surface reinforcement.",
+    "wasp_withdrawal_group_center": [
+      "Wasp",
+      "North Carolina",
+      "San Francisco",
+      "Salt Lake City",
+      "Juneau"
+    ],
+    "santo_surface_group_by_25_26_sep": {
+      "capital": [
+        "Washington"
+      ],
+      "cruisers": [
+        "Helena",
+        "Atlanta",
+        "Boise",
+        "Minneapolis",
+        "Chester"
+      ],
+      "destroyers": [
+        "Walke",
+        "Gwin",
+        "O'Brien",
+        "Aaron Ward",
+        "Laffey",
+        "Duncan",
+        "Farenholt"
+      ]
+    },
+    "excluded": [
+      "Astoria",
+      "Pensacola",
+      "Northampton",
+      "Benham",
+      "Portland",
+      "Vincennes",
+      "Fletcher",
+      "McCalla"
+    ]
+  },
+  "corrected_25_sep_night": {
+    "us_loss": {
+      "Duncan": "Type 93 hit; lost/abandoned"
+    },
+    "japan_damage": {
+      "Murasame": "medium-heavy; campaign mission kill",
+      "additional_dd": "light"
+    },
+    "us_cruiser_torpedo_hit": null,
+    "japanese_14in_rounds": {
+      "band": [
+        140,
+        190
+      ],
+      "center": 165
+    },
+    "santo_dawn_26_sortie_pct": {
+      "band": [
+        60,
+        70
+      ],
+      "center": 65
+    }
+  },
+  "corrected_dplus1": {
+    "turtle_bay_capture_window": "16:00-19:00 26 Sep",
+    "heavy_equipment_ashore_pct": [
+      55,
+      65
+    ],
+    "ground_losses": {
+      "japan": [
+        900,
+        1200
+      ],
+      "us": [
+        650,
+        900
+      ]
+    },
+    "air_losses": {
+      "japan": [
+        7,
+        10
+      ],
+      "us": [
+        8,
+        12
+      ]
+    }
+  },
+  "corrected_dplus2": {
+    "pallikulo_fall_window": "17:00-20:00 27 Sep",
+    "evacuation_total": [
+      2500,
+      3400
+    ],
+    "us_remaining_28_0430": [
+      4500,
+      5800
+    ],
+    "us_combat_remaining": [
+      3400,
+      4300
+    ],
+    "japan_ground_effectives": [
+      16800,
+      18000
+    ]
+  },
+  "dplus3_28_sep": {
+    "fighter1_japanese_staging_zero": [
+      6,
+      8
+    ],
+    "air_losses": {
+      "japan": [
+        3,
+        5
+      ],
+      "us": [
+        4,
+        7
+      ]
+    },
+    "ground_losses": {
+      "japan": [
+        600,
+        900
+      ],
+      "us": [
+        600,
+        900
+      ]
+    },
+    "daylight_evacuation": [
+      400,
+      700
+    ],
+    "night_evacuation": [
+      2800,
+      3600
+    ],
+    "us_remaining_29_dawn": [
+      900,
+      1700
+    ],
+    "captured_surrendered_29_sep": [
+      700,
+      1300
+    ],
+    "luganville_segond_fall": "morning 29 Sep"
+  },
+  "campaign_center": {
+    "japan_ground_losses": [
+      3400,
+      4800
+    ],
+    "japan_holds_santo": true,
+    "washington_combat_capable": true,
+    "atlanta_corrected_status": "combat capable; prior v006 torpedo mission kill removed",
+    "duncan_status": "lost 25 Sep corrected night action"
+  }
+}

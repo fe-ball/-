@@ -1,0 +1,21 @@
+family_or_item	1941_accepted_or_physical	new_hull_accounting	ordinary_OOB_eligibility	V14_status	notes
+Type 95 Ha-Go	680-710; center ~695	outside Chi-Ha budget	YES	CLOSED-PLANNING	~120 hp NA main line; selected turbo flat-rating not separately mass-counted
+Chi-Ha 57 mm new-build	335	inside 500	YES	CLOSED-PLANNING	200 hp continuous / 220 short worldline vehicle baseline
+New-turret Chi-Ha 47 mm new-build	145	inside 500	YES	CLOSED-PLANNING	first serious series fielding in 1941
+Existing Chi-Ha converted to 47 mm	48	NO new hull	YES after acceptance	CLOSED-PLANNING	conversion flow separate from new-hull budget
+75 mm Chi-Ha-family SPG	12	inside 500	NO normal OOB	CLOSED-PILOT	6-8 may be in troop/training trial at a time
+Chi-Ha-family ARV / Se-Ri-family	8	inside 500	LIMITED support	CLOSED-PILOT	support vehicles are not counted as tanks
+Chi-Ho	2 complete test vehicles	separate test accounting	NO	CLOSED-TEST	structural/alternative branch only
+Chi-He	2 complete + 2 running chassis	development accounting	NO	CLOSED-DEVELOPMENT	1942 production gate; no ordinary 1941 OOB
+20-22 t next-medium technical test vehicles	2 research vehicles	research only	NO	CLOSED-RESEARCH	24-25 t ballast / 1.70 m ring / 75 mm integration / 300 hp drivetrain margin
+Type 98 So-Da	48-72; center 60	not tank-hull budget	YES-LIMITED	CLOSED-PLANNING	36-48 service released working band
+Type 100 Te-Re	30-42; center 36	not tank-hull budget	YES	CLOSED-PLANNING	1940 output remains separate prior inventory
+Ho-Ha	8 physical (~3 prototype +5 troop-test)	development	NO	CLOSED-TEST	half-track technology exists; doctrine/procurement remains the main gate
+Mechanized engineer packages	24-36 packages	existing tractors/trailers	YES support	CLOSED-PLANNING	bridge trailers, girders/pontoon, winches, pumps, generators
+Enhanced workshop/recovery packages	60-80 additional	existing vehicle packages	YES support	CLOSED-PLANNING	not a new vehicle type
+Heavy-vehicle turbo component packages	1200-1450; center ~1350	components only	N/A	CLOSED-COMPONENT	~650-750 heavy 6x4; ~400-500 artillery tractor; ~150-200 special/replacement
+Early amphibious tracked cargo / F-B growth trial	2 prior prototypes + 8 trial vehicles = 10 physical	special trial	NO	REBASED-TRIAL	cargo/soft-ground specialist; no automatic Ka-Tsu designation
+Heavy Daihatsu growth craft	2 prior prototypes +4-6 pilot =6-8 total	craft ledger	NO standard flotilla	CLOSED-PILOT	18-19 m / 20-22 t payload / NA diesel main line
+Ka-Mi development	1 complete prototype +1 flotation/automotive test article	special development	NO	CLOSED-DEVELOPMENT	production remains 1942 gate
+Amphibious Chi-Ha	0	N/A	NO	CLOSED-ZERO	do not revive old swimmer branch
+Deep-wading Chi-Ha	0	N/A	NO	CLOSED-ZERO	WET1 is ~1 m ford/post-ford reliability only

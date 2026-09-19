@@ -1,0 +1,23 @@
+{
+  "revision": "v024",
+  "date": "2026-08-26",
+  "result": "PASS",
+  "validator": "98_TOOLS/validate_refactor_v012.py",
+  "checks": {
+    "all_json_parse": true,
+    "current_frontier": "1943-10-01T00:00",
+    "current_restart": "CHECKPOINT_1943-09-30T24_v002",
+    "TECH_baseline": "TECH_INDEX_v007",
+    "aircraft_fielding_ledger_bound": true,
+    "seaplane_tactics_ledger_bound": true,
+    "D4Y_B6N_fielding_clocks": true,
+    "Raiden_1943_material": true,
+    "Kyofu_october_clock": true,
+    "Zuiun_restart_not_auto_ready": true,
+    "US_F6F_June_excluded_lateAugSep_active": true,
+    "multilayer_seaplane_search_doctrine": true,
+    "night_seaplane_generic_bonus": false,
+    "existing_branch_geography_carrier_COMINT_China_guards_retained": true,
+    "generator_smoke_current_checkpoint": true
+  }
+}

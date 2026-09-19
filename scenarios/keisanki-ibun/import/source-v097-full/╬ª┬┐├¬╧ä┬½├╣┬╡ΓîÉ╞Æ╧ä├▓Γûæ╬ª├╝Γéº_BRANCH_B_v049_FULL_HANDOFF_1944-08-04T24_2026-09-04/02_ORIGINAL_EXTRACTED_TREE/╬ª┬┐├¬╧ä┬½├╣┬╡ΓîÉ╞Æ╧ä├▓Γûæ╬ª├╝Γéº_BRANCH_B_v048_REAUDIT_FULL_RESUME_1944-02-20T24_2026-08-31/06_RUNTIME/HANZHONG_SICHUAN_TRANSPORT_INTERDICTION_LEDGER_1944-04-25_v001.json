@@ -1,0 +1,161 @@
+{
+  "revision": "v001",
+  "id": "HANZHONG_SICHUAN_TRANSPORT_INTERDICTION_LEDGER_1944-04-25_v001",
+  "status": "AUTHORITATIVE_WORKING_LEDGER_DOES_NOT_ADVANCE_CLOCK",
+  "as_of": "1944-04-25T00:00",
+  "parent": "06_RUNTIME/HANZHONG_GUANGYUAN_ACTIVE_PRESSURE_LEDGER_1944-04-25_v001.json",
+  "western_air_package_retained": {
+    "physical_aircraft": [
+      90,
+      115
+    ],
+    "normal_mission_ready": [
+      68,
+      86
+    ],
+    "sustainable_total_sorties_per_day": [
+      35,
+      50
+    ],
+    "one_day_surge_sorties": [
+      60,
+      80
+    ]
+  },
+  "transport_interdiction_allocation": {
+    "route_recon_sorties_per_day_equivalent": [
+      3,
+      6
+    ],
+    "attack_interdiction_sorties_per_day_average": [
+      4,
+      8
+    ],
+    "concentrated_logistics_strike_aircraft_every_7_10_days": [
+      12,
+      22
+    ],
+    "deep_chongqing_small_packages_per_month": [
+      0,
+      2
+    ],
+    "inside_existing_sortie_budget": true
+  },
+  "target_priority": [
+    "truck_parks_and_repair_garages",
+    "POL_transfer_and_storage",
+    "ferries_bridge_approaches_crossing_equipment",
+    "warehouses_and_transshipment_nodes",
+    "Jiange_Zitong_Mianyang_route_nodes",
+    "Mianyang_Chengdu_peripheral_junctions_and_dispatch",
+    "river_craft_and_loading_points",
+    "traffic_control_and_communications",
+    "occasional_Chongqing_river_port_warehouse_truck_transfer"
+  ],
+  "low_payoff_not_default": [
+    "random_road_surface_bombing",
+    "indiscriminate_urban_bombing_as_logistics_effect",
+    "weeks_long_bridge_closure_without_repair_adjudication",
+    "strategic_rail_blockade_of_Chengdu",
+    "continuous_European_density_road_strafing"
+  ],
+  "monthly_physical_attrition_sensitivity": {
+    "trucks_irrecoverable": [
+      12,
+      25
+    ],
+    "trucks_long_repair": [
+      25,
+      45
+    ],
+    "ferry_river_crossing_assets_destroyed_or_long_repair": [
+      3,
+      8
+    ],
+    "crossing_disruption_events_over_24h": [
+      2,
+      5
+    ],
+    "direct_high_value_cargo_POL_loss_t_equivalent": [
+      50,
+      110
+    ]
+  },
+  "network_effect": {
+    "local_strike_day_throughput_penalty_pct": [
+      10,
+      25
+    ],
+    "monthly_average_affected_corridor_capacity_penalty_pct": [
+      4,
+      8
+    ],
+    "required_vehicle_days_driver_hours_local_fuel_increase_pct": [
+      10,
+      18
+    ],
+    "severe_week_local_vehicle_day_requirement_increase_pct": [
+      15,
+      25
+    ],
+    "illustrative_multiplier_case": {
+      "availability_factor": 0.94,
+      "turnaround_factor": 1.08,
+      "throughput_factor": 0.8704,
+      "extra_vehicle_days_needed_pct": 14.9
+    }
+  },
+  "hump_high_priority_tax": {
+    "v017_existing_airfield_defense_pressure_t_per_month": [
+      450,
+      700
+    ],
+    "gross_transport_interdiction_increment_t_per_month": [
+      195,
+      350
+    ],
+    "overlap_adjustment_t_per_month": [
+      15,
+      50
+    ],
+    "net_new_increment_t_per_month": [
+      180,
+      320
+    ],
+    "revised_combined_pressure_t_per_month": [
+      650,
+      1000
+    ],
+    "center_t_per_month": 820,
+    "early_1944_gross_hump_share_pct_approx": [
+      6,
+      9
+    ]
+  },
+  "allied_operational_effect": {
+    "matterhorn_stockpile_growth_below_no_pressure_pct": [
+      12,
+      18
+    ],
+    "one_day_hunan_air_output_vs_historical_potential_pct": [
+      90,
+      95
+    ],
+    "three_five_day_hunan_sustained_output_pct": [
+      80,
+      85
+    ],
+    "instantaneous_air_strength_not_primary_effect": true,
+    "endurance_recovery_allocation_is_primary_effect": true
+  },
+  "cross_domain_competition": [
+    "Fourteenth_Air_Force_eastern_fuel_ammunition",
+    "Y_Force_and_Salween_air_support",
+    "Matterhorn",
+    "north_Sichuan_ground_force_supply",
+    "China_truck_spares_modernization",
+    "emergency_evacuation_redeployment"
+  ],
+  "clock_advanced": false,
+  "next_required_adjudication": "China Expeditionary Army fixed-vs-mobile OOB, Nanjing substitution, and Japanese inland transport/support-arms ledger before final No.1-equivalent scale."
+}

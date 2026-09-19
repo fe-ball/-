@@ -1,0 +1,104 @@
+{
+  "revision": "v001",
+  "event": "Modified MI / Battle and Capture of Midway",
+  "period": "1942-06-02 through 1942-06-15",
+  "status": "CURRENT_BRANCH_SETTLED_WITH_BOUNDED_LEDGER",
+  "source_checkpoint": "CHECKPOINT_1942-06-02T24_v001",
+  "result_checkpoint": "CHECKPOINT_1942-06-15T24_v001",
+  "information_phase": {
+    "US_first_carrier_force_sighting": "center 1942-06-10 05:20-05:50 by Midway PBY; Japanese force assessed as at least 4, probably 5 carriers.",
+    "Japanese_US_carrier_sighting": "center 1942-06-10 06:00-06:30 by overlapping D4Y/B5N/E13A search and recontact; 2 carriers initially, about 3 within 20-30 minutes.",
+    "relative_information": "US has about 20-40 minute first-sighting edge; Japan nevertheless obtains an actionable three-carrier track much earlier/more reliably than historical Midway.",
+    "why": "on-time scout launches + more search legs + layered recontact + better report structure + bounded weather-aware sector overlap; not clairvoyance or perfect forecast."
+  },
+  "carrier_air_battle": {
+    "US_first_wave": "about 135-145 aircraft from Enterprise/Hornet/Saratoga, 1942-06-10 06:35-07:20 launch window.",
+    "Japanese_first_anti_ship_wave": "about 95-102 aircraft, 1942-06-10 06:40-07:10; anti-ship reserve already armed/organized, so historical rearm trap is largely absent.",
+    "US_carrier_damage_after_first_exchange": {
+      "Enterprise": "center 1 torpedo + 2 bombs; flight operations stopped, speed reduced.",
+      "Saratoga": "center 2 torpedoes + 1 bomb; flight operations stopped, speed roughly 10-13 kt.",
+      "Hornet": "center 1 torpedo + 1 bomb initially; later additional 2 torpedoes + 1 bomb, flight operations fully stopped."
+    },
+    "Japanese_carrier_damage_after_US_strikes": {
+      "Kaga": "about 3 bomb hits; catastrophic fires; eventual loss.",
+      "Akagi": "initial about 1 bomb hit/near miss damage, then about 2 additional bomb hits; catastrophic fires; eventual loss.",
+      "Soryu": "about 2 bomb hits plus near-miss effects; flight-deck mission kill and heavy damage, but fire controlled and ship survives on current most-likely line.",
+      "Hiryu": "about 1 bomb hit + near-miss effects; flight-deck mission kill/heavy damage, ship survives.",
+      "Zuikaku": "no direct hit on current most-likely line; remains operational."
+    },
+    "US_TBD": "about 34-39 committed; about 25-32 lost; center no torpedo hit on Japanese carriers.",
+    "airgroup_survival_rule": "Because many Japanese anti-ship aircraft were airborne before carrier damage, carrier hull loss does not equal aircrew/aircraft loss. Surviving aircraft divert to Zuikaku, Ryujo/Junyo, other decks where feasible, Midway/land bases for US aircraft, or ditch with rescue. Reorganization still costs time/cohesion."
+  },
+  "surface_pursuit": {
+    "US_decision": "Abandon/tow-attempt Hornet only briefly; split Enterprise and Saratoga on divergent escape routes rather than bind all ships to the slowest carrier.",
+    "Japanese_decision": "Use fast surface forces as planned second-stage kill mechanism; avoid wasting main force on already-stopped Hornet. Air contact from surviving decks narrows escape corridors.",
+    "combat_effects": "Improved practical speed maintenance, night contact/formation handling, surface-torpedo accuracy and 12-20 minute class second-salvo cycle are treated as system effects, not a small generic hit-rate bonus.",
+    "US_carrier_fates": {
+      "Hornet": "Abandoned after failed/aborted towing effort; short Japanese boarding/inspection if safe, then scuttled/sunk.",
+      "Saratoga": "Caught at night after slowed by air damage; screen suffers heavy torpedo/gunfire damage; additional 2-3 Type 93 torpedo hits plus gunfire make loss unavoidable.",
+      "Enterprise": "Best escape chance, but re-found around dawn; additional carrier-air attack slows/stops her and second pursuing surface group finishes the ship."
+    },
+    "US_surface_loss_bound": "About 3 heavy cruisers sunk, about 2 cruisers heavily damaged, about 5-6 destroyers lost, several additional ships damaged. Exact named assignments remain pending roster-level adjudication.",
+    "Japanese_surface_loss_bound": "About 1 heavy cruiser heavily damaged, about 2 destroyers lost, about 2-3 destroyers damaged, 1-2 Kongo-class ships light-to-moderately damaged. Exact named assignments remain pending roster-level adjudication."
+  },
+  "tow_capture_salvage": {
+    "Hornet": "US towing is attempted or prepared but abandoned when speed/contact geometry makes it a trap. Japanese capture interest is real but limited to a short feasibility/technical inspection; trans-Pacific tow/capture is rejected. Portable equipment/observations may modestly accelerate later radar/CIC/damage-control learning, never an instant tech jump.",
+    "Saratoga_Enterprise": "No practical tow/capture window once stopped; battle pressure and Midway air/submarine threat make immediate rescue or enemy capture infeasible.",
+    "Japanese_damaged_carriers": "Soryu and Hiryu retain self-propulsion and withdraw under escort; no tow required on center line. Akagi/Kaga are beyond useful tow transition and are evacuated/then disposed of."
+  },
+  "midway_reduction_and_landing": {
+    "1942-06-11": "Japanese carrier air attacks reduce sortie rate, fuel/maintenance/communications; US carrier aircraft that diverted to Midway keep the base dangerous but over-crowded and hard to sustain.",
+    "1942-06-11_12_gunfire": "Yamato/other battleships and cruisers conduct stand-off bombardment. Computing benefits mainly reduce systematic error and solution-convergence time; they do not create laser-like dispersion. Fixed batteries, fuel, communications, runway sectors and command points are progressively suppressed.",
+    "1942-06-12_US_last_air_counterstrike": "Remaining SBD/F4F/B-17 force attacks carriers/cruisers/transports; center Japanese additional aircraft losses about 8-12 and one cruiser/transport-class target may take a bomb hit. US loses/damages about 20-30 additional aircraft.",
+    "landing_1942-06-13": "Reef and beach defenses remain real. Improved loading/landing reliability accelerates heavy-equipment/engineer/artillery availability but does not erase terrain. Eastern Island falls first; Sand Island requires repeated waves and night reinforcement.",
+    "capture": "Organized US defense collapses about 1942-06-14 night to 06-15; Midway captured by Japan.",
+    "Japanese_ground_loss_bound": "KIA/MIA about 500-750; WIA about 800-1100; total casualties roughly 1300-1800.",
+    "Allied_ground_loss_bound": "KIA about 600-900; WIA about 700-1000; POW about 1500-2500. Some priority aircrew/personnel escape by PBY/other means before final collapse."
+  },
+  "final_carrier_ledger_1942-06-15": {
+    "Japan": {
+      "lost": [
+        "Akagi",
+        "Kaga"
+      ],
+      "heavy_damage_survive": [
+        "Soryu",
+        "Hiryu"
+      ],
+      "under_repair_from_MO": [
+        "Shokaku"
+      ],
+      "operational": [
+        "Zuikaku",
+        "Ryujo",
+        "Junyo",
+        "Zuiho",
+        "Shoho"
+      ],
+      "near_term_additions": [
+        "Hiyo nearing completion",
+        "Ryuho conversion/completion path continues"
+      ]
+    },
+    "United_States": {
+      "lost_by_1942-05": [
+        "Lexington",
+        "Yorktown"
+      ],
+      "lost_in_MI": [
+        "Enterprise",
+        "Hornet",
+        "Saratoga"
+      ],
+      "Pacific_fast_carrier_state": "temporary zero before Wasp transfer; Ranger remains Atlantic unless strategic emergency forces reconsideration",
+      "aircrew_note": "Hull losses are much larger than personnel losses; many experienced carrier aviators/deck/support personnel survive for later Essex/CVL force generation."
+    }
+  },
+  "branch_implications": [
+    "Historical WATCHTOWER/Guadalcanal timetable is invalid and must be rerun.",
+    "FS becomes much more attractive but cannot ignore 8-12 week Japanese carrier-airgroup rebuild and logistics/base preparation.",
+    "Midway should be operated as a relatively lean forward search/flying-boat/submarine-support and warning node, not as a giant permanent fleet base.",
+    "US immediate counter is submarine/air interdiction and Hawaii/Johnston/Palmyra defense, not rapid amphibious recapture.",
+    "Japan gains a large summer-autumn 1942 carrier-operational window, but also acquires long exposed logistics tails at Port Moresby/Solomons/Midway."
+  ]
+}

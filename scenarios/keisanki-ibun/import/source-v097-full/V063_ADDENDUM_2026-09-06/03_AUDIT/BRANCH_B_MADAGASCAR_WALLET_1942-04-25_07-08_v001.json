@@ -1,0 +1,132 @@
+{
+  "id": "BRANCH_B_MADAGASCAR_WALLET_1942-04-25_07-08_v001",
+  "status": "AUTHORITATIVE_CONSOLIDATION_THROUGH_1942-07-08_CENTER",
+  "cutoff": "1942-07-08T24:00_local_working_clock",
+  "rules": {
+    "gross_first": true,
+    "same_hull_same_day_double_booking": false,
+    "whole_eastbound_convoy_as_Madagascar_cost": false,
+    "full_cost_not_full_effect": true,
+    "branch_delta_and_gross_burden_separate": true,
+    "counterfactual_credits_explicit_not_silently_netted": true
+  },
+  "structural_branch_delta": {
+    "operation_c_1942-04-05": {
+      "same_as_history_losses": ["Cornwall", "Dorsetshire"],
+      "branch_extra_major_losses": ["Indomitable", "Formidable"],
+      "branch_damage_open_clock": ["Warspite"],
+      "saved_from_historical_1942-04-09_chain": ["Hermes", "Vampire", "Hollyhock", "Athelstane", "British Sergeant"],
+      "saved_shipping_grt_working_combined": 11000,
+      "interpretation": "raw-hull credits exist, but modern fleet-carrier combat quality is sharply worse"
+    }
+  },
+  "ironclad_direct_known_minimum": {
+    "carrier_days": {
+      "Illustrious": {"start":"1942-04-28","end":"1942-05-19","days":22},
+      "Hermes_branch_substitution": {"start":"1942-05-03","end":"1942-05-19","days":17,"status":"CENTER_WORKING_CLOCK"},
+      "subtotal": 39
+    },
+    "capital_ship_deployment_days": {
+      "Ramillies": {"start":"1942-04-28","end":"1942-05-29","days":32,"note":"30 May transitions to damage/unavailability ledger"}
+    },
+    "cruiser_days": {
+      "Devonshire": 16,
+      "Hermione": 22,
+      "subtotal": 38
+    },
+    "destroyer_days_known_minimum": {
+      "Duncan":13,
+      "Active":25,
+      "Anthony":25,
+      "Pakenham":22,
+      "Laforey":34,
+      "Lightning":34,
+      "Lookout":34,
+      "Javelin":22,
+      "Inconstant":10,
+      "Paladin":17,
+      "Panther":5,
+      "subtotal":241,
+      "qualification":"conservative named-hull minimum; some post-assault continuity remains open"
+    },
+    "corvette_days_assault_minimum": 100,
+    "minesweeper_days": 100,
+    "specialized_landing_hull_days_minimum": 28,
+    "assault_transport_days_minimum": 55,
+    "ordinary_transport_rule":"do not charge whole voyages; add only Madagascar-specific diversion/delay when reconstructed",
+    "air":"Branch exact Illustrious+Hermes sortie/maintenance bill OPEN; historical two-carrier 309-sortie figure is benchmark only"
+  },
+  "land_force_commitment_through_cutoff": {
+    "brigade_days": {
+      "29th_Independent_Infantry_Brigade":65,
+      "13th_Infantry_Brigade":14,
+      "17th_Infantry_Brigade":37,
+      "22nd_East_Africa_Brigade_Group":31,
+      "7th_South_African_Motorised_Brigade":15,
+      "subtotal":162
+    },
+    "No5_Commando_unit_days":65
+  },
+  "wio_response_inherited_through_cutoff": {
+    "destroyer_days":98,
+    "cruiser_days":119,
+    "armed_merchant_cruiser_days":26,
+    "corvette_days":6,
+    "Hermes_response_carrier_days":7,
+    "Ramillies_dockyard_days":30,
+    "Ramillies_unavailable_days":40,
+    "British_Loyalty_tanker_unavailable_days":40,
+    "British_Loyalty_grt_days_unavailable":279720,
+    "Catalina_redeployment_commitments":3,
+    "Catalina_planned_standby_slot_days":7,
+    "Catalina_planned_search_slot_days":7
+  },
+  "consolidated_known_minimum": {
+    "destroyer_days":339,
+    "cruiser_days":157,
+    "carrier_days":46,
+    "corvette_days":106,
+    "minesweeper_days":100,
+    "armed_merchant_cruiser_days":26,
+    "Ramillies_pre_damage_deployment_days":32,
+    "Ramillies_unavailable_days":40,
+    "Ramillies_dockyard_days":30,
+    "British_Loyalty_tanker_unavailable_days":40,
+    "British_Loyalty_grt_days_unavailable":279720,
+    "specialized_landing_hull_days_minimum":28,
+    "assault_transport_days_minimum":55,
+    "brigade_days":162,
+    "commando_unit_days":65,
+    "qualification":"gross minimum; not a Branch-vs-history delta; open debts can only increase"
+  },
+  "cross_theater_hard_claims": {
+    "Vigorous_Julius_Eastern_Fleet_transfer": {
+      "group1_1942-05-25": ["Birmingham", "Pakenham", "Fortune", "Nizam", "Norman"],
+      "group2_1942-05-27": ["Newcastle", "Inconstant", "Paladin", "Hotspur", "Griffin", "Napier", "Nestor"],
+      "headline_removed_from_Eastern_Fleet": {"cruisers":2,"destroyers":10},
+      "Nestor":"HISTORICAL_LOSS_RETAINED",
+      "returned_Kilindini_1942-07-08": ["Birmingham", "Nizam", "Norman", "Inconstant", "Hotspur", "Griffin", "Fortune"],
+      "double_booking_guard":"1-8 Jul return/redeployment days already used in WIO ledger where booked"
+    }
+  },
+  "shipping_comparison_through_cutoff": {
+    "regular_submarine_losses": {"ships":22,"grt":103496,"branch_delta_vs_history_center":{"ships":0,"grt":0}},
+    "operation_c_cancelled_9Apr_chain_shipping_credit_grt_working":11000,
+    "interpretation":"direct merchant tonnage slightly better than history through cutoff, while RN combat power is much worse"
+  },
+  "affordability": {
+    "ruling":"PAYABLE_THROUGH_CUTOFF_BUT_MARGIN_SEVERELY_COMPRESSED",
+    "forced_European_schedule_slip_through_1942-07-08":false,
+    "next_rule":"from WIO-4A forward, test new demands against named hull/air/yard clocks and force shortages into some theater when simultaneous payment fails"
+  },
+  "open_debts": [
+    "Warspite Branch damage repair/unavailability clock",
+    "Hermes pre-3 May transit/preparation and Ironclad air-group maintenance/sorties",
+    "post-7 May Diego Suarez corvette-by-corvette clock",
+    "SAAF/RAF Madagascar aircraft-days",
+    "net/boom/minefield/marine-craft/shore-engineering days",
+    "Ramillies/British Loyalty salvage/tug/diver/pump labour",
+    "merchant diversion/waiting/extra-sea-days",
+    "exact return/repair clocks for all Vigorous-loaned Eastern Fleet hulls"
+  ]
+}

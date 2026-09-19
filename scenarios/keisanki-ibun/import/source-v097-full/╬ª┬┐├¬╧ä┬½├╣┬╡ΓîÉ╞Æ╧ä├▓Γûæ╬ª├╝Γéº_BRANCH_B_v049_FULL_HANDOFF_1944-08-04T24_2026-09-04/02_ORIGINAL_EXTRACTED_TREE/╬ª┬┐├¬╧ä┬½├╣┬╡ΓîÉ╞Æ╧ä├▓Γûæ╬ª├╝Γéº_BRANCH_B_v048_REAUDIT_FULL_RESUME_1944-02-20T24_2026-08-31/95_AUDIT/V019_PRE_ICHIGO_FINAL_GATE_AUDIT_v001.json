@@ -1,0 +1,19 @@
+{
+  "revision": "v001",
+  "id": "V019_PRE_ICHIGO_FINAL_GATE_AUDIT_v001",
+  "date": "2026-08-25",
+  "result": "PASS",
+  "clock_advanced": false,
+  "current_time": "1944-04-25T00:00",
+  "findings": {
+    "five_go_retained_divisions_anti_double_counted": true,
+    "western_divisional_identities_fixed": true,
+    "hunan_ten_division_oob_fixed": true,
+    "named_theater_reserve_fixed": true,
+    "nanjing_static_substitution_quantified": true,
+    "support_arms_and_transport_gate_quantified": true,
+    "shipping_not_treated_as_unlimited": true,
+    "hengyang_and_guangxi_not_pre_awarded": true,
+    "launch_window_fixed": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "FLINTLOCK_KWAJALEIN_DDAY_1944-02-06_v001",
+  "status": "WORKING_SECTOR_ADJUDICATION_NOT_CANONICAL",
+  "sector": "Kwajalein Island",
+  "period": "1944-02-06 D-Day through T24",
+  "starting_conditions": {
+    "defense": "Tarawa-derived lagoon-side fires, local reserves, registered mortar/artillery lanes, distributed ammunition/water and protected local communications survive in fragments after repeated bombardment.",
+    "armor": "No traced Japanese combat tank platoon.",
+    "US": "7th Infantry Division with LVT/LVT(A), artillery from flanking islets, old-battleship/cruiser/DD gunfire, CVE support and medium/light tank packages. One LST-class hull was mission-killed on 5-Feb, reducing reserve/unloading margin without deleting an untraced cargo unit."
+  },
+  "landing_cycle": [
+    {
+      "window": "H-hour to H+2",
+      "result": "First waves land successfully but encounter more immediate lagoon-side direct fire and pre-registered mortar fire than a surprised historical-equivalent defense. LVT(A), destroyer direct fire and supporting artillery suppress firing points quickly enough to prevent a beach denial event.",
+      "traffic": "Additional LVT/LST/engineer reserve creates intermittent beach-exit and wave-control congestion. Local 20-40 minute delays occur at specific exits; commanders meter later waves rather than feeding the queue blindly."
+    },
+    {
+      "window": "H+2 to 18:00",
+      "result": "US infantry expands a sustainable western beachhead while engineers clear exits and tanks begin systematic strongpoint reduction. Japanese local reserves counterattack or reoccupy positions in small packets rather than a mass daylight charge.",
+      "geometry": "US penetration is centered around 1.5-2.0 km from the western landing area in the more successful axes by evening, with bypassed positions and local dead ground preventing a clean straight front."
+    },
+    {
+      "window": "18:00 to T24",
+      "result": "Beachhead remains secure. Japanese defenders shift to infiltration, mortar fires and bounded local attacks against road/artillery/command nodes; a larger 6/7-Feb night effort is not yet fully resolved at T24."
+    }
+  ],
+  "US_vehicle_state": {
+    "LVT_LVTA_irrecoverable_band": [8, 12],
+    "LVT_LVTA_short_repair_or_temporary_mission_kill_band": [11, 17],
+    "note": "These are D-Day working loss/temporary-out bands across the southern assault system, not cargo lost on the 5-Feb LST hit.",
+    "medium_tanks_ashore_or_locally_available_by_evening_band": [40, 44],
+    "medium_tanks_immediately_ready_band": [37, 42],
+    "light_tanks_ashore_or_locally_available_band": [16, 18],
+    "light_tanks_immediately_ready_band": [14, 17]
+  },
+  "US_Dday_KW_band": [390, 520],
+  "US_center": 455,
+  "Japan_T24": {
+    "organized_local_fighters_band": [1900, 2300],
+    "scattered_support_local_defense_band": [500, 700],
+    "command": "Local command cells and registered fires remain useful in pockets; island-wide coordination is too fragmented for a coherent beachhead-ejection attack."
+  },
+  "assessment": "This is the sector where the new fortification/sensor/C2 audit most visibly raises D-Day friction. The gain is time and local casualties, not strategic denial: flat terrain, lack of armor/depth and US division-scale tanks/engineers/gunfire remain decisive."
+}

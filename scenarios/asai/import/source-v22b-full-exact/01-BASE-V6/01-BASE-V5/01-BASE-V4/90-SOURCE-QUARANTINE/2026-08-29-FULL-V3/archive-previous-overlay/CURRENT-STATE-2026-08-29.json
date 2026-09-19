@@ -1,0 +1,43 @@
+{
+  "schema": "asai-worldline-handoff-current-state-v1",
+  "date": "2026-08-29",
+  "package_role": "resume-state overlay; not a semantic v49 promotion",
+  "base": {
+    "semantic_version": "v48",
+    "machine_version": "v48r3",
+    "container": "asai-worldline-20260828-v48r3-marine-gt-processed-handoff-v10.zip",
+    "container_sha256": "cb70a4324b6a635135548643835e4eede7e23abccfceba899cb9c212d053fefd",
+    "canonical_state_inside": "asai-worldline-v48r3-source-restored/CURRENT-CANONICAL-STATE.md",
+    "machine_index_inside": "asai-worldline-v48r3-source-restored/CANONICAL-MAIN-INDEX-V48R3.tsv"
+  },
+  "marine_overlay": {
+    "version": "V10",
+    "start_here_inside": "asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/132-PROCESSED-START-HERE-V10.md",
+    "process_state_inside": "asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/133-PROCESS-STATE-V10.json",
+    "precedence_inside": "asai-worldline-v48r3-source-restored/2026-08-27-marine-gt-handoff/131-MARINE-GT-PRECEDENCE-OVERLAY-V10.tsv",
+    "status": "technical overlay; test-platform selection/history remains open",
+    "stale_root_pointer_inside": "asai-worldline-v48r3-source-restored/MARINE-GT-PROCESSED-START-HERE-2026-08-28.md",
+    "stale_root_pointer_action": "do not use for current resume; it points to V5"
+  },
+  "current_overlay": {
+    "source": "CURRENT-HANDOFF-NOTES-2026-08-29.md",
+    "aviation": "first act closed through summer 1937 for discussion continuity; not promoted into v48r3 machine chronology",
+    "marine": "E5-S approximately 1000 hp class; AB main line diesel; E6 large/LL20 demand-gated",
+    "ground_diesel": "three-track model: Asai own diesel / retrofit turbo package / OEM co-design; D-A through D-D are OVERLAY-WORKING",
+    "next_topic": "Manchuria highland/desert dust protection comparison: D-A through D-D versus contemporary GT"
+  },
+  "machine_additions": {
+    "diesel_family_ledger": "GROUND-DIESEL-FAMILY-D-A-D-D-V1.tsv",
+    "dust_comparison_inputs": "GROUND-DUST-COMPARISON-INPUTS-V1.tsv",
+    "precedence": "CURRENT-PRECEDENCE-2026-08-29.tsv",
+    "data_issue_register": "DATA-ISSUE-REGISTER-2026-08-29.tsv",
+    "inventory": "PACKAGE-INVENTORY-2026-08-29.tsv"
+  },
+  "quarantine": [
+    {
+      "file": "asai-works-seaplane-flyingboat-rebaseline-1940-44.md",
+      "reason": "self-identifies as v24 canonical; precedence against v48/8-29 overlay is not established",
+      "action": "reference only until explicitly re-promoted"
+    }
+  ]
+}

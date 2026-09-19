@@ -1,0 +1,41 @@
+{
+  "revision": "v001",
+  "id": "V011_WEAPON_PLATFORM_REPAIR_AUDIT_v001",
+  "date": "2026-08-23",
+  "result": "PASS",
+  "purpose": "Audit of v011 platform-class capability and ahistorical/divergent weapon anti-omission repair.",
+  "world_state_change": "none; CHECKPOINT_1944-04-30T24_v004 is same settled 1944-05-01 state as v003, with execution-support pointers extended.",
+  "repairs": [
+    "Added WEAPON_PLATFORM_CAPABILITY_INDEX_v001 with submarine, surface-combatant, carrier, aircraft, ASW, land and special/novel capability dimensions and anti-underestimate rules.",
+    "Added COMBAT_PLATFORM_MATRIX_v001 so platform-class review is independent of normal EVENT_RELEVANCE TECH tag selection.",
+    "Added NOVEL_WEAPON_ADJUDICATION_POLICY_v001 and runtime weapon_systems registration for historical divergences and future ahistorical systems.",
+    "FORAGER_GATE now mandates CARRIER, AIRCRAFT, SURFACE_COMBATANT and SUBMARINE review; submarine/surface capability cannot disappear merely because ordinary event tags omit their TECH domains.",
+    "Generator v007 combines combat-factor readiness and weapon/platform readiness into combat_resolution_ready.",
+    "Compact context v002 surfaces anti-underestimate rules and branch-specific/novel system review."
+  ],
+  "verified_examples": {
+    "FORAGER_GATE_1944-05-01": {
+      "checkpoint": "CHECKPOINT_1944-04-30T24_v004",
+      "execution_blocked": false,
+      "weapon_capability_ready": true,
+      "mandatory_platform_classes": [
+        "CARRIER",
+        "AIRCRAFT",
+        "SURFACE_COMBATANT",
+        "SUBMARINE"
+      ],
+      "must_surface_tech": [
+        "TECH-SUB-KOU-FIRSTGEN-001",
+        "TECH-TORPEDO-SECOND-SALVO-001"
+      ],
+      "must_surface_branch_systems": [
+        "SYS-JP-KOU-FIRSTGEN",
+        "SYS-JP-SURFACE-SECOND-SALVO",
+        "SYS-JP-I400-SEIRAN-INTEGRATED"
+      ]
+    },
+    "unindexed_ahistorical_weapon_negative_test": "incomplete capability/readiness/provenance keeps weapon_capability_ready=false",
+    "unindexed_ahistorical_weapon_positive_test": "complete capability/readiness/provenance allows readiness when all ordinary runtime-required factors are supplied"
+  },
+  "legacy_policy": "99_LEGACY_UNTOUCHED has 188 files; SHA-256 content multiset matches v010 archive exactly. ZIP filename encoding prevents reliable path-string comparison against the old archive, but no legacy file content changed."
+}

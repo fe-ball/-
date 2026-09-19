@@ -1,0 +1,145 @@
+{
+  "revision": "v001",
+  "id": "FLINTLOCK_POSTCAPTURE_AND_NEXT_OPS_1944-02-06_27_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "discussion_clock_start": "1944-02-06T18:00:00+12:00",
+  "purpose": "Close post-D-Day Kwajalein/Roi-Namur combat, test whether the longer ground reduction creates a Japanese re-attack window, close immediate post-capture airfield/logistics/submarine effects, and set—not resolve—the next US/Japanese Central-Pacific schedules before returning to Bengal.",
+  "parents": [
+    "FLINTLOCK_DDAY_DECISION_AND_LANDING_1944-02-06_WORKING_v003",
+    "MARSHALL_AIR_OOB_1944-02-06T1800_WORKING_v001",
+    "FLINTLOCK_ASSAULT_APPROACH_SUBMARINE_INTERDICTION_1944-02-03_06_WORKING_v001",
+    "JAPAN_FIRST_LINE_CARRIER_BATTLE_STATE_1944-02-03T1530_WORKING_v001",
+    "CARRIER_DAMAGE_REPAIR_CLOCK_1944-02-03_WORKING_v001",
+    "FLINTLOCK_GROUND_REDUCTION_1944-02-06_10_WORKING_v001"
+  ],
+  "ground_closeout": {
+    "Roi": "Already effectively secured by 6-Feb 18:00; debris clearance and base-party work begin while Namur fighting continues.",
+    "Namur_organized_resistance_end_center": "1944-02-07T19:30:00+12:00",
+    "Namur_band": "1944-02-07T17:00..22:00 +12",
+    "Kwajalein_organized_resistance_end_center": "1944-02-10T04:00:00+12:00",
+    "Kwajalein_band": "1944-02-09 late..1944-02-10 morning",
+    "atoll_cleanup": "Outer-islet/security/sweep activity continues into 10-11 Feb but no longer requires division-scale assault combat.",
+    "US_main_ground_KW_band": [1740, 2150],
+    "US_main_ground_KW_center": 1940,
+    "LST224_separate_KMW_band": [70, 110],
+    "note": "Death/wounded split remains reserved for consolidated Allied death tally."
+  },
+  "attack_window_test": {
+    "carrier_surface": {
+      "window_exists": false,
+      "reason": [
+        "Shokaku/Zuikaku are already withdrawing west after the 3-Feb exchange.",
+        "Hiryu is at/approaching Truk repair and cannot provide a third combat deck.",
+        "A reversal would face roughly ten surviving US fast decks plus CVE/fire-support forces without a fresh carrier-quality track.",
+        "Longer ground fighting fixes US amphibious/support forces geographically but does not recreate the 3-Feb positive-EV mission-split carrier geometry."
+      ]
+    },
+    "land_air": {
+      "window_exists": true,
+      "best_window": "1944-02-08 night to 1944-02-09 pre-dawn",
+      "mission": "Fixed-target night harassment of Roi airfield/construction/logistics rather than another moving-ship torpedo search.",
+      "package_center": 6,
+      "package_band": [5, 7],
+      "source": "Surviving/repaired Eniwetok-centered land-attack reserve with one cue/search element; no new squadron spawned.",
+      "outcome_center": {
+        "aircraft_irrecoverable": 1,
+        "aircraft_additional_damaged_or_diverted": "1-2",
+        "aircraft_reaching_bomb_release": "3-5",
+        "US_personnel_casualties_band": [35, 75],
+        "US_personnel_casualties_center": 55,
+        "material_effect": "Localized engineer/store/fuel/ammunition-area damage; no runway denial longer than about one day centered.",
+        "construction_delay": "about 12-24 hours centered"
+      },
+      "upper_branch_guard": "A historical-style bomb-dump chain reaction can produce 100+ casualties and larger material loss, but it is not centered."
+    },
+    "submarine": {
+      "window_exists": true,
+      "period": "1944-02-07..10",
+      "centered_result": "Remaining boats obtain reports and one poor/medium-quality approach, but no second US ship hit is centered after LST-224.",
+      "Japan_cost": "One additional boat mission-damaged or forced into early withdrawal centered; another sinking is sensitivity, not center.",
+      "reason": "Target density remains attractive while unloading/support continues, but US CVE/land-air/DD-DE ASW concentration is now at maximum and known submarine corridors are heavily prosecuted."
+    }
+  },
+  "marshall_air_after_closeout": {
+    "by_1944-02-10": "Roi/Kwajalein aviation nodes are lost. Surviving Japanese Marshall aviation is fragmented among Wotje/Mili/Jaluit/Eniwetok/outer water nodes and is primarily harassment/recon/local defense.",
+    "coordinated_strike_capacity": "No second mass strike centered after the 8/9-Feb harassment; surviving night-attack crews are preserved or withdrawn west where possible.",
+    "Kinsei_forward_order": "The late-Jan 6-8 aircraft order remains stopped west of the Marshall battle area; it is not automatically released to Bengal because Truk/Palau/Marianas cover now becomes the next Central-Pacific demand."
+  },
+  "US_postcapture_activation": {
+    "Majuro": {
+      "state": "Already secured and functioning as the independent fast-fleet replenishment/logistics node.",
+      "fast_carrier_rotation_center": "First elements 8-Feb; main TF58 replenishment concentration 9-10 Feb.",
+      "replenishment_window": "1944-02-09..15"
+    },
+    "Roi_airfield": {
+      "debris_clearance_start": "1944-02-07",
+      "main_reconstruction_start_center": "1944-02-08",
+      "emergency_transport_liaison_use": "1944-02-12..14",
+      "first_regular_fighter_squadron_ops_center": "1944-02-16",
+      "fighter_ops_band": "1944-02-15..17",
+      "delay_drivers": [
+        "Branch D-Day +5 days versus history",
+        "construction overlaps with residual Namur fighting, so not all five days propagate",
+        "8/9-Feb Japanese harassment adds about one day centered"
+      ]
+    },
+    "Kwajalein_lagoon": "By 10-12 Feb it is a secure assault/logistics anchorage, but Majuro remains the better immediate fast-fleet service hub."
+  },
+  "US_next_operation_schedule_working": {
+    "TF58_decks": "Cabot remains campaign-out; Intrepid is near-normal from 4-Feb. Ten fast decks are physically available before detachments, subject to aircraft/crew replenishment.",
+    "HAILSTONE_equivalent": {
+      "status": "SCHEDULE_GATE_ONLY_NOT_YET_RESOLVED",
+      "sortie_from_Majuro_center": "1944-02-15..16",
+      "attack_window_center": "1944-02-20..21",
+      "attack_window_band": "1944-02-19..22",
+      "logic": "Historical TF58 required roughly a week between Majuro replenishment and Truk attack. Branch local fighting and 3-Feb carrier losses shift the sortie several days, but Majuro and the CVE/old-BB support split prevent a multi-week delay.",
+      "force_note": "A portion of the light-carrier/CVE force can support Eniwetok while the main fast-carrier mass attacks Truk; do not assume all ten fast decks strike Truk."
+    },
+    "CATCHPOLE_equivalent": {
+      "status": "SCHEDULE_GATE_ONLY_NOT_YET_RESOLVED",
+      "expeditionary_reform": "1944-02-11..13",
+      "sortie_from_Kwajalein_center": "1944-02-17..18",
+      "outer_islets_entry_center": "1944-02-20",
+      "Engebi_main_assault_center": "1944-02-21",
+      "Eniwetok_Island_center": "1944-02-22..23",
+      "Parry_center": "1944-02-25..26",
+      "secure_center": "1944-02-27",
+      "band": "Atoll secure about 26-28 Feb if no new major fleet/submarine shock occurs.",
+      "logic": "Most Eniwetok assault troops are not the units finishing Kwajalein, so the extra ground-combat days do not propagate one-for-one. LST-224 loss, support-ship turnaround and longer Kwajalein unloading impose a smaller 3-5 day net shift from historical Catchpole."
+    }
+  },
+  "Japan_next_schedule_working": {
+    "carrier_force": {
+      "Shokaku_Zuikaku": "Continue westward preservation after 3-Feb; no Marshall return.",
+      "Hiryu": "Truk emergency repair 5-15 Feb; limited deck 12-16 Feb; preferred westward evacuation once ferry/recovery safe, around 14-17 Feb, before the centered US Truk window.",
+      "Soryu": "Separate 5-15 Feb trial/team-readiness gate; not retroactively inserted into Flintlock.",
+      "first_line_team_reconstitution": "Three-deck-class first-line availability may reappear late Feb, but carrier-air cadre debt persists into March."
+    },
+    "Truk": {
+      "evacuation_trigger": "Kwajalein loss + US reconnaissance/contact evidence makes a Truk raid highly probable.",
+      "high_value_mobile_asset_departure_center": "1944-02-10..17",
+      "priority": [
+        "operational carriers and carrier aircraft/cadres",
+        "repair ship/mobile repair specialists after Hiryu emergency work",
+        "fleet oilers/tenders/high-value reconnaissance and logistics assets",
+        "major combatants not needed for local evacuation cover"
+      ],
+      "destination_logic": "Palau/western Carolines/Philippines/home waters rather than re-concentrating the Combined Fleet at Truk."
+    },
+    "Marshall_submarines": "Remaining local boats transition from close Kwajalein penetration to outer reporting/withdrawal and future Eniwetok approach lanes; repeated close attacks without fresh cue are NO-GO."
+  },
+  "strategic_effect_before_return_to_Bengal": {
+    "Central_Pacific_priority": "Remains HIGH through at least the HAILSTONE/CATCHPOLE gate. Flintlock victory does not free Japanese new fighters westward immediately; it shifts the demand from the lost Marshalls to Truk/Palau/Marianas.",
+    "Bengal_Kinsei": "Existing Chittagong quality detachment remains; the additional 6-8 aircraft previously held for Central Pacific are still not released to Bengal at the 10-Feb closeout.",
+    "Bengal_Raiden": "A full 18-30-aircraft priority Raiden detachment to Patenga remains a discretionary tradeoff, not an automatic post-Flintlock release. Reconsider only after the Truk/Eniwetok disposition is known or if Eastern Fleet pressure forces a western allocation change.",
+    "Bengal_resume_clock": "Return to Bengal at approximately 1944-02-10/11 with the next 10-17 days explicitly shadowed by Central-Pacific and Eastern-Fleet schedule gates."
+  },
+  "historical_sanity_anchors": [
+    "Historically Roi/Namur were secured 2-Feb, Roi reconstruction was ordered 5-Feb, and the first fighter squadron operated from Roi on 13-Feb.",
+    "Historically Japanese aircraft successfully raided Roi on 12/13-Feb, causing substantial personnel/material damage without destroying the runway, proving a post-capture fixed-target night attack window existed.",
+    "Historically fast carriers replenished at Majuro and departed 12/13-Feb for the 17-18-Feb Truk raid while Eniwetok was attacked in parallel.",
+    "Historically the Eniwetok expeditionary group sortied from Kwajalein on 15-Feb and the operation ran 17-23 Feb.",
+    "Historical timing is used only as a process/turnaround anchor; Branch dates are shifted by the 3-Feb carrier exchange, 6-Feb D-Day, longer ground reduction and LST-224 loss."
+  ],
+  "next_exact_action": "Resume Bengal/Arakan from the late-Jan/early-Feb stalemate clock. Build RAF/IAF fighter OOB and fielding schedule against the Japanese Chittagong/Patenga fighter allocation, while carrying Central-Pacific HAILSTONE/CATCHPOLE and Eastern-Fleet readiness as explicit future gates rather than resolved outcomes."
+}

@@ -1,0 +1,44 @@
+{
+  "revision": "v0.02-strict-event-level",
+  "supersedes": "pearl_state_transition_v001.json for executable state; v001 retained as diagnostic sensitivity only",
+  "local_date": "1941-12-07 Hawaii",
+  "role": "executable Pearl opening state under A-NO-TOPDOWN-OUTPUT-MULTIPLIER",
+  "historical_baseline": {
+    "planned_total": 360,
+    "attacking_aircraft": 350,
+    "irrecoverable_aircraft_loss": 29,
+    "aircrew_killed_approx": 55,
+    "composition_first": {
+      "torpedo_attack": 40,
+      "level_bomber": 49,
+      "dive_bomber": 51,
+      "fighter": 43
+    },
+    "composition_second": {
+      "level_attack": 54,
+      "dive_bomber": 78,
+      "fighter": 35
+    }
+  },
+  "executable_scenario_state": {
+    "planned_total": 360,
+    "attacking_aircraft": 350,
+    "additional_mission_recovery_credit": 0,
+    "additional_mission_recovery_state": "UNKNOWN_NOT_CREDITED",
+    "irrecoverable_aircraft_loss": 29,
+    "loss_reduction_credit": 0,
+    "loss_reduction_state": "UNKNOWN_NOT_CREDITED",
+    "aircrew_killed_approx": 55,
+    "strategic_result_class": "HISTORICAL_CLASS_PENDING_SHIP_LEVEL_DAMAGE_RECALC",
+    "ship_level_damage_state": "OPEN",
+    "carrier_poststrike_serviceability_state": "OPEN_DAMAGED_RETURN_DETAIL"
+  },
+  "rules": [
+    "do not promote v001 350/352/353 attack-count sensitivities to state truth",
+    "do not promote v001 29/27/25 loss sensitivities to state truth",
+    "credit a recovered launch or recovered aircraft only after an identified historical failure/loss has a scenario-responsive cause",
+    "Type 91 torpedo reliability effects are evaluated at ship-hit/damage threshold level, not as an aircraft-count multiplier",
+    "airframe and aircrew outcomes remain separate"
+  ],
+  "diagnostic_only_source": "pearl_state_transition_v001.json"
+}

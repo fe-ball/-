@@ -1,0 +1,285 @@
+{
+  "revision": "v002",
+  "id": "JAPANESE_ARMOR_NATIONAL_CHECKPOINT_1944-02-21_WORKING_v002",
+  "status": "WORKING_BANDED_CURRENT_CHECKPOINT_NOT_CURRENT",
+  "cutoff": "1944-02-21T24",
+  "parents": [
+    "JAPANESE_ARMOR_NATIONAL_CHECKPOINT_1943-12-31_WORKING_v001",
+    "IJA_ARMOR_M4_LEE_RESPONSE_1943-07_1944-02-21_WORKING_v001",
+    "CATCHPOLE_ENGEBI_1944-02-21_WORKING_v001",
+    "JAPANESE_ARMOR_ENIWETOK_9_TYPE95_NATIONAL_POSTING_1944-02-21_25_WORKING_v001"
+  ],
+  "Jan_Feb_1944_inflow_working": {
+    "ChiHe_physical_by_21_Feb": [
+      10,
+      18
+    ],
+    "ChiHe_accepted_serviceable_by_21_Feb": [
+      7,
+      14
+    ],
+    "Shinhoto_residual_contract_new_or_completion_by_21_Feb": [
+      6,
+      15
+    ],
+    "HaGo_or_light_tail_completion": [
+      0,
+      8
+    ],
+    "75mm_HoNi_restart_or_new_complete": [
+      0,
+      4
+    ],
+    "75mm_turreted_stopgap_complete": 0,
+    "note": "Small inflow. The strategically important change is development direction, not dozens of new combat vehicles."
+  },
+  "Jan_Feb_1944_hard_movements": {
+    "11th_Tank_Regiment": {
+      "order_date": "1944-02-10",
+      "from": "2nd Tank Division / Kwantung",
+      "to": "Northern Army / Hokkaido-Kuriles pipeline",
+      "physical_band": [
+        65,
+        82
+      ],
+      "ready_on_departure_band": [
+        56,
+        72
+      ],
+      "national_loss": 0,
+      "effect": "2nd Tank Division ceases to be a four-regiment physical formation by 21 Feb."
+    },
+    "9th_Tank_Regiment": {
+      "state": "still physically with/under 1st Tank Division centered on 21 Feb",
+      "future": "Marianas transfer gate opens in March historically; Branch decision not pre-booked.",
+      "important": "Do not subtract from Manchuria or add to Saipan yet."
+    }
+  },
+  "national_totals_working": {
+    "tracked_combat_vehicle_physical_band": [
+      4640,
+      5360
+    ],
+    "immediate_or_short_notice_serviceable_band": [
+      3650,
+      4360
+    ],
+    "modern_medium_light_serviceable_band": [
+      2820,
+      3340
+    ],
+    "captured_Allied_serviceable_separate_band": [
+      12,
+      24
+    ],
+    "confidence": "MEDIUM-LOW for national total, MEDIUM-HIGH for major named-formation placement",
+    "named_posting_note": "Broad bands are unchanged from v001; named Type95 residual accounting is carried in named_loss_postings_through_cutoff to avoid false-precision double counting."
+  },
+  "major_formations": {
+    "1st_Tank_Division_Manchuria": {
+      "physical_band": [
+        288,
+        328
+      ],
+      "ready_band": [
+        252,
+        292
+      ],
+      "regiments_centered": [
+        "1st",
+        "3rd",
+        "5th",
+        "9th"
+      ],
+      "9th_transfer": "NOT YET"
+    },
+    "2nd_Tank_Division_after_11th_departure": {
+      "physical_remaining_band": [
+        210,
+        250
+      ],
+      "ready_remaining_band": [
+        184,
+        220
+      ],
+      "regiments_centered": [
+        "6th",
+        "7th",
+        "10th"
+      ],
+      "11th": "in northern transfer pipeline",
+      "note": "This is the first hard 1944 triangularization effect actually realized by the cutoff."
+    },
+    "11th_Tank_Regiment_northern_pipeline": {
+      "physical_band": [
+        65,
+        82
+      ],
+      "ready_band": [
+        56,
+        72
+      ]
+    },
+    "3rd_Tank_Division_China": {
+      "physical_band": [
+        178,
+        218
+      ],
+      "ready_band": [
+        153,
+        188
+      ],
+      "state": "China committed; repairs/re-equipment continue"
+    },
+    "Armored_Operational_Training_Brigade_23rd_24th": {
+      "physical_band": [
+        95,
+        125
+      ],
+      "ready_training_band": [
+        75,
+        100
+      ]
+    },
+    "15th_16th_independent_Kwantung": {
+      "physical_band": [
+        55,
+        80
+      ],
+      "ready_band": [
+        45,
+        65
+      ]
+    }
+  },
+  "southern_Pacific_tied": {
+    "Rabaul_8th_Tank_Regiment": {
+      "physical_band": [
+        38,
+        48
+      ],
+      "ready_band": [
+        31,
+        40
+      ]
+    },
+    "NEI_4th_Tank_Regiment": {
+      "physical_band": [
+        34,
+        42
+      ],
+      "ready_band": [
+        30,
+        38
+      ]
+    },
+    "Burma_14th_Tank_Regiment": {
+      "Japanese_physical_band": [
+        30,
+        39
+      ],
+      "ready_band": [
+        26,
+        34
+      ],
+      "captured_Stuart_serviceable": [
+        5,
+        9
+      ]
+    },
+    "New_Caledonia": {
+      "Japanese_physical_band": [
+        13,
+        20
+      ],
+      "ready_band": [
+        9,
+        15
+      ],
+      "captured_US_light": [
+        3,
+        6
+      ]
+    },
+    "Bengal": {
+      "Japanese_tank_regiment": 0,
+      "centered_combat_tank": 0
+    },
+    "Kwajalein_RoiNamur": {
+      "Type94_tankette_irrecoverable": 1,
+      "note": "Nationally trivial but posted to prevent ghost survival."
+    },
+    "Eniwetok_1st_Amphibious_Brigade_at_1944_02_21T24": {
+      "Type95_opening_physical": 9,
+      "Engebi_irrecoverable": 3,
+      "remaining_named_physical": 6,
+      "remaining_location": "Eniwetok Island + Parry",
+      "availability_elsewhere": 0
+    }
+  },
+  "home_depot_school_replacement": {
+    "physical_band": [
+      1120,
+      1480
+    ],
+    "short_notice_ready_band": [
+      670,
+      930
+    ],
+    "modern_medium_light_ready_subset_band": [
+      440,
+      640
+    ],
+    "ChiHe_current_location": "inside this system: school/proving/depot/selected conversion units, not overseas",
+    "75mm_stopgap": "design/mockup/bench-test stage, zero running combat vehicle"
+  },
+  "free_reserve_definition": {
+    "wrong": "national physical minus named field divisions",
+    "correct": "serviceable modern vehicles + crews + unit HQ + maintenance + trucks + shipping that can be released without breaking an existing assignment",
+    "1944_02_21_actual_immediate_free_regiment_equivalents_center": "roughly 1-2 tank-regiment equivalents can be assembled on short notice without stripping named field formations; more requires weeks of depot/school conversion and political prioritization.",
+    "vehicles_equivalent_band": [
+      80,
+      150
+    ],
+    "note": "The larger 440-640 modern Home/depot stock is fragmented and supports replacement/training. It is not 6-8 ready regiments."
+  },
+  "development_state": {
+    "ChiHe": "small production/acceptance line active",
+    "Shinhoto": "mature standard medium tank; residual production/completions only",
+    "75mm_HoNi_response": "immediate-field solution being reprioritized",
+    "75mm_turreted_stopgap": "requirement frozen; mockup/recoil integration under test; prototype 0",
+    "ChiTo": "long-term 75mm-path research, not 1944H1 combat inventory"
+  },
+  "strategic_gates_opened_after_21_Feb": [
+    "Post-HAILSTONE assessment can decide whether 9th Tank Regiment is released west/south as historically.",
+    "Marianas OOB must be built from the named 9th Tank Regiment issue list, not from national stock.",
+    "China 1944 allocation must distinguish 3rd Tank Division from any separate regiment detached from 1st Tank Division.",
+    "Bengal cannot receive a tank regiment merely because Home/depot inventory exists; transfer time, rail/ship capacity and theater priority are required."
+  ],
+  "remaining_uncertainty": [
+    "China 1939-41 small-unit attrition/retirement is still cumulative-band rather than hull-level.",
+    "Home/school/depot model mix is reconstructed, not archival inventory.",
+    "Port Moresby/Santo/Lunga small armor packets remain zero-centered until traced.",
+    "Exact 9th Tank Regiment model mix on 21 Feb remains to be reconstructed."
+  ],
+  "supersedes": "JAPANESE_ARMOR_NATIONAL_CHECKPOINT_1944-02-21_WORKING_v001",
+  "cutoff_semantics": {
+    "time": "1944-02-21T24",
+    "included_local_events": [
+      "Engebi combat and loss of 3 Type95 on 1944-02-21"
+    ],
+    "not_yet_included_local_events": [
+      "Eniwetok Island 1944-02-22/23 loss posting",
+      "Parry 1944-02-25 loss posting"
+    ],
+    "global_clock_guard": "This checkpoint remains a WORKING national overlay; future-local Catchpole nodes do not advance the global simulation clock."
+  },
+  "named_loss_postings_through_cutoff": {
+    "Kwajalein_RoiNamur_Type94_tankette_irrecoverable": 1,
+    "Eniwetok_1st_Amphibious_Brigade_Type95_opening_physical": 9,
+    "Engebi_Type95_irrecoverable_on_1944_02_21": 3,
+    "Type95_named_residual_on_Eniwetok_and_Parry_after_21_Feb": 6,
+    "broad_band_reconciliation": "Retain the v001 broad national bands unchanged. The source chain proves the named 9/3/6 posting but does not prove whether those nine hulls were absent from the reconstructed family totals or merely unnamed inside them. Mechanical +/-3 adjustment would create false precision.",
+    "double_count_guard": "Do not add the nine Type95 to broad national totals again. Treat 6 as the named residual allocation inside the existing uncertainty band until the family/theater inventory is rebaselined hull-by-hull."
+  }
+}

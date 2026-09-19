@@ -1,0 +1,5 @@
+platform	date/theater	baseline	worldline	realization	guard	status
+Type97 Chi-Ha	1939 Nomonhan	170 hp historical-lineage NA reference	15.3-15.6t;200hp continuous;220hp short; turbo altitude retention	road max ~39-40; rough +8-15%; grade +12-18%; soft +3-10%; transient +15-25%	no top-speed multiplier; recompute geometry before historical kill copy	CLOSED
+Yoshimaru C-1	1939-07-02/03	historical wire destruction	recomputed altered approach/timing but wire mechanical bind survives	destroyed; Yoshimaru KIA center	medium-confidence; sensitivity survival branch exists	CLOSED-center
+Chi-Ha C-2	1939-07-02/03	vehicle path not copied	mobility damage then recovery	repairable	workshop/recovery separate from armor resistance	CLOSED
+Chi-Ha C-3/C-4	1939-07-02/03	vehicle path not copied	mobile fire support	self-return	57mm remains poor tank-vs-tank weapon	CLOSED

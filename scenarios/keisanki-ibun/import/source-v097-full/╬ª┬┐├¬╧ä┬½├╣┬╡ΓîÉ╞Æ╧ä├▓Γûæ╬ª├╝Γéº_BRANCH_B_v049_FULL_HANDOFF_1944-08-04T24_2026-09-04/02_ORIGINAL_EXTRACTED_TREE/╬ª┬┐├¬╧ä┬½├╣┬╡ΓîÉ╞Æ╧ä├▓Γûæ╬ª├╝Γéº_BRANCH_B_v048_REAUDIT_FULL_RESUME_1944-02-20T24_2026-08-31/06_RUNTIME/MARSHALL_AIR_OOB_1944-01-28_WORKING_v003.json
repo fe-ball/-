@@ -1,0 +1,154 @@
+{
+  "revision": "v003",
+  "id": "MARSHALL_AIR_OOB_1944-01-28_WORKING_v003",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-01-28T12:00:00+12:00",
+  "purpose": "Re-decompose the unchanged Jan-28 Marshall total after regional-airfield/water-air re-audit. Correct Eniwetok fighter over-credit, expose 952 AG float reconnaissance at Kwajalein/Ebeye, and carry Kyofu/Zuiun as subsets rather than additive aircraft.",
+  "authority_note": "No CURRENT authority promotion. Counts are working bands/centers, not a claim that every historical inventory source used the same definition of operational aircraft.",
+  "supersedes": "MARSHALL_AIR_OOB_1944-01-28_WORKING_v002",
+  "historical_anchors": {
+    "USSBS_25Jan": "Roi: 20 fighters + 15 land-attack; Taroa: 50 fighters + 9 land-attack; Wotje: 9 Tenzan; Kwajalein: 952 AG 10 float reconnaissance; Eniwetok: 15 land-attack. Used as location/type anchor, not a like-for-like serviceability total.",
+    "branch_delta": "No Operation-RO drain and no historical 4-Dec mass carrier strike; repeated Seventh AF pressure and GALVANIC losses still apply."
+  },
+  "theatre_total": {
+    "physical_present_band": [
+      155,
+      175
+    ],
+    "physical_center": 164,
+    "combat_serviceable_band": [
+      125,
+      145
+    ],
+    "combat_serviceable_center": 136,
+    "immediate_alert_or_search_capable_band": [
+      108,
+      128
+    ],
+    "warning": "Physical, serviceable and immediately launchable are separate layers. Do not compare the 136 center directly to historical single-number sources without matching definitions."
+  },
+  "base_layers": [
+    {
+      "base": "Maloelap/Taroa",
+      "physical_center": 54,
+      "serviceable_center": 46,
+      "roles": {
+        "land_fighters": 32,
+        "land_attack": 9,
+        "recon_search": 5
+      },
+      "Raiden_center": 10,
+      "water_air_subset": "~1 Zuiun + 1-2 legacy float/recon within recon_search; not additive",
+      "note": "main eastern interceptor/search base"
+    },
+    {
+      "base": "Roi-Namur",
+      "physical_center": 36,
+      "serviceable_center": 30,
+      "roles": {
+        "land_fighters": 21,
+        "land_attack": 9
+      },
+      "Raiden_center": 6,
+      "note": "fighter/land-attack high-value target; no separate water aircraft forced into this node"
+    },
+    {
+      "base": "Kwajalein/Ebeye water-air node",
+      "physical_center": 12,
+      "serviceable_center": 10,
+      "roles": {
+        "legacy_float_recon": 8,
+        "Zuiun_fast_confirm": 2
+      },
+      "named_anchor": "952nd Air Group",
+      "note": "separate lagoon/seaplane system; historical 25-Jan 10-float-recon anchor restored explicitly"
+    },
+    {
+      "base": "Wotje",
+      "physical_center": 17,
+      "serviceable_center": 14,
+      "roles": {
+        "fighter_or_local_cover": 6,
+        "carrier_attack_Tenzan": 7,
+        "recon_or_Zuiun": 1
+      },
+      "note": "Branch survival/dispersal leaves more than the historical 9 Tenzan assignment, but total remains bounded."
+    },
+    {
+      "base": "Mili",
+      "physical_center": 12,
+      "serviceable_center": 10,
+      "roles": {
+        "fighter_or_local_cover": 6,
+        "attack": 2,
+        "recon": 2
+      },
+      "Kyofu_subset_center": 4,
+      "note": "southern airfield + lagoon defense; Kyofu subset is inside fighter slots."
+    },
+    {
+      "base": "Jaluit",
+      "physical_center": 10,
+      "serviceable_center": 8,
+      "roles": {
+        "fighter_or_local_cover": 3,
+        "attack_or_night": 2,
+        "water_recon_or_Zuiun": 3
+      },
+      "Kyofu_subset_center": 2,
+      "note": "seaplane/lagoon infrastructure is a separate suppression target from the runway."
+    },
+    {
+      "base": "Eniwetok",
+      "physical_center": 15,
+      "serviceable_center": 12,
+      "roles": {
+        "land_attack": 11,
+        "recon_liaison": 1
+      },
+      "fighter_credit": 0,
+      "note": "Corrects v002: USSBS 25-Jan anchor is 15 land-attack and no fighter unit. No free Raiden/fighter is carried here."
+    },
+    {
+      "base": "other dispersed lagoon/water nodes",
+      "physical_center": 8,
+      "serviceable_center": 6,
+      "roles": {
+        "Kyofu_local_cover": 4,
+        "legacy_float_recon": 2
+      },
+      "note": "distributed support points, not a single invented air group."
+    }
+  ],
+  "role_total_center": {
+    "fighter_or_local_cover": 72,
+    "land_or_carrier_attack": 40,
+    "recon_water_other": 24,
+    "sum": 136
+  },
+  "water_air_subsets": {
+    "Kyofu_serviceable_center": 9,
+    "Zuiun_serviceable_center": 6,
+    "legacy_float_recon_serviceable_center": 14,
+    "accounting": "all subsets of the 136 center"
+  },
+  "search_contact_system": {
+    "useful_long_range_search_sorties_per_day_center_band": "6-8 across the Marshall network under high alert",
+    "fast_research_confirmation_sorties": "1-2 when a suspicious contact/submarine report exists",
+    "effect": "Submarine/DF/traffic reports narrow the arcs so limited aircraft can search probability corridors rather than the entire ocean.",
+    "limits": [
+      "No airborne search radar assumed on these scouts.",
+      "US CAP/radar can break shadowing after the initial report.",
+      "A search contact is not a weapon-quality carrier strike solution without recontact/freshness."
+    ]
+  },
+  "kinsei_zero": {
+    "dedicated_Marshall_combat_detachment_on_28Jan": "0 centered; 0-4 transient/evaluation aircraft possible but not credited",
+    "reason": "Post-GALVANIC priority remains Shokaku/Zuikaku then Hiryu mixed groups; the already-adjudicated Bengal quality detachment consumes another small allocation. Do not spawn scarce Kinsei aircraft into every threatened shore base.",
+    "new_order_after_Central_Pacific_warning": "6-8 later-production aircraft may be ordered forward via Truk from 27-28 Jan, but ETA/acceptance is after this ledger clock and they are not counted on 28 Jan."
+  },
+  "operational_conclusion": "Total combat-serviceable center remains 136. The correction changes composition and resilience: Eniwetok is a land-attack reservoir, Ebeye/Kwaj is a real float-recon node, and 8-10 Kyofu plus 5-7 Zuiun are already inside existing fighter/recon slots. Water aviation preserves some search/local defense after runway cratering but depends on support infrastructure.",
+  "external_sources": {
+    "USSBS_Campaigns_Pacific_War": "https://www.ibiblio.org/hyperwar/NHC/NewPDFs/USAAF/United%20States%20Strategic%20Bombing%20Survey/USSBS%20Campaigns%20of%20Pacific%20War.pdf"
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "id": "GALVANIC_BASE_AIR_OOB_AND_HARDENING_1943-11-23_WORKING_v001",
+  "status": "WORKING_CENTERED_REAUDIT_NOT_AUTHORITY",
+  "as_of": "1943-11-23T00:00:00+12:00",
+  "semantic_base": "Branch B v048",
+  "purpose": "Close a centered base-by-base pre-suppression air allocation and hardening model before re-running Nauru/Marshall/Tarawa suppression. Does not yet supersede GALVANIC v004 outcomes.",
+  "precedence_guards": [
+    "No Second-Midway branch import.",
+    "No post-GALVANIC/FLINTLOCK defensive doctrine imported before 24 Nov 1943.",
+    "No 1944 Kinsei/aircraft maturity back-port; shore Kinsei detachment centered zero.",
+    "No historical Operation-RO 12-Nov Marshall drain unless a Branch-equivalent transfer is proven.",
+    "Aircraft existence, local allocation, serviceable and immediate sortie-ready are separate.",
+    "Kyofu/Zuiun are separate physical aircraft classes here and are not also hidden inside land-fighter/recon counts.",
+    "Hardening changes ground-loss coupling and repair persistence; it is not an air-combat multiplier."
+  ],
+  "regional_totals_center": {
+    "land_fighters_physical": 88,
+    "land_fighters_serviceable": 73,
+    "attack_aircraft_physical": 39,
+    "attack_aircraft_serviceable": 30,
+    "legacy_recon_flyingboat_float_physical": 19,
+    "legacy_recon_flyingboat_float_serviceable": 15,
+    "Kyofu_physical": 15,
+    "Kyofu_serviceable": 11,
+    "Zuiun_physical": 5,
+    "Zuiun_serviceable": 5,
+    "all_physical_center": 166,
+    "all_serviceable_center": 134,
+    "immediate_alert_search_strike_capable_working_band": [
+      116,
+      126
+    ],
+    "note": "Centers intentionally sit inside the pre-existing v048 bands: land fighters 80-95 physical, attack 35-45, legacy recon/water 15-20, Kyofu 12-20, Zuiun 5-9. Exact unit names remain partially unresolved."
+  },
+  "fighter_type_guard": {
+    "late_Zuisei_Zero": "dominant shore fighter family",
+    "Raiden": "centered physical 12 / serviceable 10, all within Taroa land-fighter slots as a priority-base interceptor detachment; no second shore Raiden unit credited before further trace",
+    "Kinsei_Zero": "0 centered shore-combat allocation; scarce event-ready pool remains carrier-priority"
+  },
+  "attack_type_family_center": {
+    "G4M_G3M_land_attack": "roughly 18-22 physical across Taroa/Wotje/Kwaj/Nauru/Tarawa/Jaluit family; night/torpedo-qualified fraction separately constrained",
+    "D4Y_D3A": "roughly 10-14 physical, Mili-heavy with small Taroa/other detachments",
+    "B6N": "roughly 5-8 physical in the network, not a mass shore force; use only where local tools/spares/crew trace permits",
+    "rule": "The 11/23 ~22-aircraft torpedo strike must be regenerated from actual serviceable/night-qualified aircraft; do not simply consume all 30 serviceable attack aircraft."
+  },
+  "bases": [
+    {
+      "node": "Tarawa/Betio",
+      "air_physical": {
+        "land_fighters": 17,
+        "attack": 4,
+        "legacy_recon": 1,
+        "Kyofu": 0,
+        "Zuiun": 0
+      },
+      "air_serviceable": {
+        "land_fighters": 14,
+        "attack": 3,
+        "legacy_recon": 1,
+        "Kyofu": 0,
+        "Zuiun": 0
+      },
+      "type_note": "late-Zuisei fighter majority; no centered Raiden/Kinsei. Direct invasion warning encourages dispersion/evacuation of nonessential aircraft once the threat becomes legible.",
+      "hardening": {
+        "aircraft_revetments": "P2 dominant: coral/earth/log open-top dispersal pens; some more completely finished than historical",
+        "personnel_ammo": "S1-S2 mix; historically reinforced-concrete/coconut-log bombproof shelters and magazines existed; Branch improves completion/dispersion rather than creating underground aircraft hangars",
+        "branch_completion_delta": "earth/timber/protected works +15-30%; concrete-heavy +5-15% integrated output"
+      },
+      "protection_assessment": {
+        "fragment_nearmiss": "MODERATE",
+        "strafing": "LOW_TO_MODERATE",
+        "direct_500lb_plus": "LOW for aircraft pens; key S2 shelters much better for people/stores",
+        "repeated_carrier_naval_saturation": "LOW_TO_MODERATE due tiny island and known geometry"
+      },
+      "operational_effect": "Fewer cluster/chain ground losses and better survival of crews/ammo/comms; runway and aircraft still suppressible by repeated attack. Main GALVANIC effect is surviving beach-fire/C2 and some aircraft/crew preservation, not an unsuppressible air base."
+    },
+    {
+      "node": "Maloelap/Taroa",
+      "air_physical": {
+        "land_fighters": 27,
+        "attack": 6,
+        "legacy_recon": 2,
+        "Kyofu": 0,
+        "Zuiun": 1
+      },
+      "air_serviceable": {
+        "land_fighters": 23,
+        "attack": 5,
+        "legacy_recon": 2,
+        "Kyofu": 0,
+        "Zuiun": 1
+      },
+      "subsets": {
+        "Raiden_physical": 12,
+        "Raiden_serviceable": 10
+      },
+      "hardening": {
+        "aircraft_revetments": "P2/P3 mix; historically extensive aircraft dispersal/revetments, fuel, workshops and multiple runways; some Marshall airbases used concreted revetments",
+        "support": "multiple power/workshop/ammunition/fuel/C2 nodes; Branch adds dispersal, blast separation and plant uptime",
+        "branch_completion_delta": "protected base works +10-25%; concrete-heavy roughly +5-15% where material/time allow"
+      },
+      "protection_assessment": {
+        "fragment_nearmiss": "MODERATE_TO_HIGH laterally",
+        "strafing": "LOW_TO_MODERATE open-top",
+        "direct_bomb": "LOW_TO_MODERATE; direct hit remains lethal",
+        "system_persistence": "MODERATE_TO_HIGH by atoll standards",
+        "geometry_ceiling": "HIGH: flat, finite island remains mappable and repeat-strikeable"
+      },
+      "operational_effect": "The most important hardened Marshall air node. Same US sortie plan destroys fewer aircraft/support functions in one cycle; repeat strikes are still capable of systematic suppression."
+    },
+    {
+      "node": "Mili",
+      "air_physical": {
+        "land_fighters": 11,
+        "attack": 14,
+        "legacy_recon": 1,
+        "Kyofu": 3,
+        "Zuiun": 1
+      },
+      "air_serviceable": {
+        "land_fighters": 9,
+        "attack": 11,
+        "legacy_recon": 1,
+        "Kyofu": 2,
+        "Zuiun": 1
+      },
+      "type_note": "attack-heavy node, using historical Mili dive-bomber role as placement anchor while Branch allows a more mature D4Y/B6N fraction without replacing every legacy type.",
+      "hardening": {
+        "aircraft_revetments": "P2/P3 dispersal pens around major airfield; stores/C2/AA positions separately dispersed",
+        "branch_completion_delta": "protected base works +10-25%"
+      },
+      "protection_assessment": {
+        "fragment_nearmiss": "MODERATE",
+        "strafing": "LOW_TO_MODERATE",
+        "direct_bomb": "LOW",
+        "system_persistence": "MODERATE",
+        "geometry_ceiling": "HIGH atoll ceiling"
+      },
+      "operational_effect": "Attack aircraft are less likely to be destroyed in one ground sweep, but Mili can still be neutralized by sustained carrier/land-based suppression."
+    },
+    {
+      "node": "Wotje",
+      "air_physical": {
+        "land_fighters": 10,
+        "attack": 4,
+        "legacy_recon": 1,
+        "Kyofu": 0,
+        "Zuiun": 1
+      },
+      "air_serviceable": {
+        "land_fighters": 8,
+        "attack": 3,
+        "legacy_recon": 1,
+        "Kyofu": 0,
+        "Zuiun": 1
+      },
+      "hardening": {
+        "aircraft_revetments": "P2/P3; historical airfield/seaplane infrastructure and concrete military revetments provide real lateral blast separation",
+        "branch_completion_delta": "protected base works +10-25%"
+      },
+      "protection_assessment": {
+        "fragment_nearmiss": "MODERATE_TO_HIGH",
+        "strafing": "LOW_TO_MODERATE",
+        "direct_bomb": "LOW_TO_MODERATE",
+        "system_persistence": "MODERATE"
+      },
+      "operational_effect": "Hard target by 1943 atoll standards, but still an open-air base rather than a bombproof aircraft fortress."
+    },
+    {
+      "node": "Jaluit",
+      "air_physical": {
+        "land_fighters": 4,
+        "attack": 3,
+        "legacy_recon": 4,
+        "Kyofu": 6,
+        "Zuiun": 1
+      },
+      "air_serviceable": {
+        "land_fighters": 3,
+        "attack": 2,
+        "legacy_recon": 3,
+        "Kyofu": 5,
+        "Zuiun": 1
+      },
+      "hardening": {
+        "runway": "limited compared with main fighter nodes",
+        "water_air": "ramp/fuel/radio/maintenance/support craft are separate targets; lagoon permits physical dispersal but not concealment from sustained search",
+        "branch_completion_delta": "water-air/logistics protected works +10-20%"
+      },
+      "protection_assessment": {
+        "aircraft_afloat": "LOW if visually located and strafed/bombed",
+        "support_system": "MODERATE with dispersal/hardening",
+        "runway_independence": "HIGHER than land-only bases because Kyofu/float search can persist after runway damage"
+      },
+      "operational_effect": "A suppression nuisance: US must attack ramp/fuel/support craft/communications separately. Hardening helps persistence more than individual-aircraft survivability."
+    },
+    {
+      "node": "Kwajalein/Roi-Ebeye network",
+      "air_physical": {
+        "land_fighters": 13,
+        "attack": 4,
+        "legacy_recon": 6,
+        "Kyofu": 0,
+        "Zuiun": 2
+      },
+      "air_serviceable": {
+        "land_fighters": 11,
+        "attack": 3,
+        "legacy_recon": 5,
+        "Kyofu": 0,
+        "Zuiun": 2
+      },
+      "hardening": {
+        "airfield_base": "P2/P3 revetments, command/logistics/submarine support and lagoon water-air facilities treated as multiple systems",
+        "branch_completion_delta": "protected base works +10-20%; concrete-heavy +5-15%"
+      },
+      "protection_assessment": {
+        "fragment_nearmiss": "MODERATE",
+        "direct_bomb": "LOW_TO_MODERATE",
+        "system_persistence": "MODERATE_TO_HIGH due larger atoll/logistics depth",
+        "beach_defense_hindsight": "NOT CREDITED"
+      },
+      "operational_effect": "Hardening mainly protects command/logistics/search continuity. It does not imply the later Kwajalein landing beaches are already correctly oriented or deeply fortified."
+    },
+    {
+      "node": "Nauru",
+      "air_physical": {
+        "land_fighters": 6,
+        "attack": 4,
+        "legacy_recon": 1,
+        "Kyofu": 0,
+        "Zuiun": 0
+      },
+      "air_serviceable": {
+        "land_fighters": 5,
+        "attack": 3,
+        "legacy_recon": 1,
+        "Kyofu": 0,
+        "Zuiun": 0
+      },
+      "hardening": {
+        "aircraft_revetments": "P2/P3 around airfield; still open-top",
+        "natural_shelter": "N1: raised terrain/excavations can protect personnel, small stores, repair/communications better than an atoll",
+        "branch_completion_delta": "delivery +10-20%; protected works +15-30%; concrete-heavy +5-15%"
+      },
+      "protection_assessment": {
+        "aircraft_direct_hit": "LOW",
+        "support_personnel_stores": "MODERATE_TO_HIGH if moved into natural/engineered shelter",
+        "runway": "still readily cratered",
+        "repair_persistence": "HIGHER than old runway-only model"
+      },
+      "operational_effect": "Wasp/Princeton can still heavily suppress the node, but one strike day should not equal physical sterilization. Emergency recon/night staging can return after repair if follow-up pressure relaxes."
+    },
+    {
+      "node": "Makin/Butaritari",
+      "air_physical": {
+        "land_fighters": 0,
+        "attack": 0,
+        "legacy_recon": 0,
+        "Kyofu": 0,
+        "Zuiun": 0
+      },
+      "air_serviceable": {
+        "land_fighters": 0,
+        "attack": 0,
+        "legacy_recon": 0,
+        "Kyofu": 0,
+        "Zuiun": 0
+      },
+      "center_rule": "No resident combat-aircraft credit at T00 without a dated trace; seaplane/base infrastructure remains a target and can support transient aircraft before final alert evacuation.",
+      "hardening": {
+        "branch_completion_delta": "earth/timber/protected +10-20%; concrete 0-10%",
+        "manpower_cap": "trained combat manpower remains dominant limit"
+      },
+      "protection_assessment": {
+        "system_persistence": "LOW_TO_MODERATE",
+        "terrain_ceiling": "VERY_HIGH"
+      }
+    },
+    {
+      "node": "other dispersed lagoon/water nodes",
+      "air_physical": {
+        "land_fighters": 0,
+        "attack": 0,
+        "legacy_recon": 3,
+        "Kyofu": 6,
+        "Zuiun": 0
+      },
+      "air_serviceable": {
+        "land_fighters": 0,
+        "attack": 0,
+        "legacy_recon": 2,
+        "Kyofu": 4,
+        "Zuiun": 0
+      },
+      "center_rule": "Distributed, not a fictional single air group. Provides local cover/recon/staging only."
+    }
+  ],
+  "suppression_model_changes": {
+    "aircraft_revetment_rule": "Open-top revetments primarily prevent fragment/blast chain losses between dispersed aircraft; they do not make aircraft immune to direct bombs or effective strafing.",
+    "runway_rule": "Hardening does little to prevent crater creation. Branch advantage appears in rapid assessment, plant uptime, fill/repair, parallel taxi/dispersal use and keeping fuel/comms/maintenance from dying with the runway.",
+    "target_sets": [
+      "runway/taxiway",
+      "aircraft dispersal/revetments",
+      "fuel/ordnance",
+      "maintenance/workshop",
+      "C2/radar/radio",
+      "AA",
+      "water-air ramp/crane/support craft/anchorage"
+    ],
+    "same_plan_expected_direction": "At equal US sortie count, fewer Japanese aircraft/support assets are destroyed on the ground and more bases require a repeat cycle. The effect is moderate, not immunity.",
+    "no_flat_percentage": "Exact ground-loss deltas must be generated target-by-target in the Nauru/Marshall suppression rerun."
+  },
+  "reopen_implications": [
+    "Nauru 11/23 remains heavily suppressed but residual support/repair survives more often.",
+    "Mili/Taroa/Wotje/Jaluit suppression consumes more target-identification/repeat-strike work.",
+    "Tarawa prelanding fire/C2/ammo/tank survival moves upward within existing OOB bands, especially if protected revetments and bombproof shelters survive.",
+    "If ground resistance or regional air persistence materially changes US CVE/fast-carrier deck state by 11/25-26, carrier battle mission-state must reopen; nominal carrier OOB alone cannot be held fixed."
+  ]
+}

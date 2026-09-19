@@ -1,0 +1,28 @@
+{
+  "id": "GALVANIC_TARAWA_DDAY_1943-11-24_REAUDIT_WORKING_v001",
+  "status": "WORKING_DAY1_ADJUDICATION_NOT_AUTHORITY",
+  "time": "1943-11-24T00:00..24:00 local",
+  "landing": {
+    "first_87_LVT_destroyed_or_mission_killed": "14-19, center ~17 (v004 12-16)",
+    "additional_LVT_damaged": "~18-26, many remain usable for partial shuttle/evacuation after local repair",
+    "first_hours": "Red 1 suffers the greatest disruption; Red 2/3 footholds form but are more fragmented and command/supply links take longer to stabilize",
+    "why_not_historical_disaster": "the 11/24 observed-depth/high-water plan still opens verified LCVP/LCM lanes later in the day; no mass historical reef-wading replication"
+  },
+  "heavy_support_ashore_by_first_night": {
+    "M4A2_ashore": "7-10 of 14 physical",
+    "M4A2_operational_stop_line": "5-7",
+    "comparison": "slightly below v004 8-11 ashore / 6-8 operational because surviving direct fire delays lane marking and damages craft, not because the tide logic is removed",
+    "engineers_artillery_water_radios": "still arrive much earlier and drier than historical 20-Nov conditions, but with ~30-60 minutes additional friction in the most exposed lanes"
+  },
+  "Japan_ground_state_at_evening": {
+    "Type95_contact_capable_after_daylight_attrition": "5-8",
+    "organized_counterattack_available": "~430-530 first-line troops with 5-6 Type95 centered, plus 1-3 mobile/local-firepoint vehicles held back or temporarily unavailable",
+    "C2": "better than historical but increasingly local after daytime naval/direct-fire attrition",
+    "tactic": "limited attack on Red2/3 connection/supply-command nodes; no all-garrison banzai"
+  },
+  "casualty_accounting": {
+    "US_Dday_before_night_attack_close": "provisional ~1200-1500 total killed/wounded/missing class; do not final-book until 24/25 night counterattack closes",
+    "Japan": "heavy forward-zone losses but materially more crews/strongpoints survive into first night than v004; final day count held open"
+  },
+  "T24": "Japanese first-night counterattack is beginning/underway; do not book its full losses or success before 25-Nov dawn."
+}

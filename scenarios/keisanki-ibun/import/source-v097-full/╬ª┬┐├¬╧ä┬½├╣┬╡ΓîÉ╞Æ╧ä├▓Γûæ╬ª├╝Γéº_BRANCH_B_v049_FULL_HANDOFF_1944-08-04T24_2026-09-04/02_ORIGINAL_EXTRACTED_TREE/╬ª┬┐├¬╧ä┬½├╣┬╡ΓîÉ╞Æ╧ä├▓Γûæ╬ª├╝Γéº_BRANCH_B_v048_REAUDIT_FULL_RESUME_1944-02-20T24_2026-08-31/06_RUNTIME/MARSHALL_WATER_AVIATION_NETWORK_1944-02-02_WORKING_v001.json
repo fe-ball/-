@@ -1,0 +1,115 @@
+{
+  "revision": "v001",
+  "id": "MARSHALL_WATER_AVIATION_NETWORK_1944-02-02_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-02-02T04:30:00+12:00",
+  "purpose": "Make water aviation explicit on both sides: float reconnaissance, flying boats, water fighters, Zuiun fast-confirmation, seaplane tenders/base support, and shipborne spotting. Preserve the authoritative rule that water aviation is a mission system, not free aircraft totals.",
+  "doctrine_anchor": "06_RUNTIME/SEAPLANE_TACTICS_LEDGER_1943-10-01_v001.json",
+  "japan_local_marshall": {
+    "accounting_guard": "All numbers below are subsets of the re-audited Marshall local aircraft total; they are not additive to 136/133.",
+    "legacy_952_Ebeye_Kwaj_float_recon": {
+      "physical_band": [
+        10,
+        12
+      ],
+      "serviceable_band": [
+        8,
+        10
+      ],
+      "center": 9,
+      "type_family": "E13A/F1M-class legacy float reconnaissance/observation",
+      "historical_anchor": "USSBS 25-Jan disposition gives 952 AG 10 float reconnaissance at Kwajalein."
+    },
+    "other_legacy_float_recon": {
+      "serviceable_band": [
+        4,
+        6
+      ],
+      "center": 5,
+      "distribution": "Taroa/Jaluit/outer lagoon detachments; no invented full extra kokutai."
+    },
+    "Zuiun": {
+      "serviceable_band": [
+        5,
+        7
+      ],
+      "center": 6,
+      "state": "first-detachment system now mature enough for local use; subset of recon/attack slots",
+      "role_priority": [
+        "fast confirmation / contact refresh",
+        "spotting/liaison",
+        "opportunistic light attack"
+      ],
+      "distribution_center": "Ebeye/Kwaj 2; Taroa 1; Wotje 1; Jaluit 1; one flexible/maintenance slot"
+    },
+    "Kyofu": {
+      "serviceable_band": [
+        8,
+        10
+      ],
+      "center": 9,
+      "state": "subset of local fighter/local-cover slots, not additional fighters",
+      "distribution_center": "Mili 4; Jaluit 2; outer lagoon/dispersed 3",
+      "role": "low/medium local interception, scout/torpedo-bomber denial, runway-suppression bridge; not a sustained F6F sweep fighter"
+    },
+    "unique_water_air_serviceable_center": "about 29 including Kyofu; 20 are reconnaissance/observation/Zuiun class and 9 are water fighters. Some mission categories overlap but individual aircraft are counted once.",
+    "H8K_guard": "No resident H8K squadron is credited in the Marshall local total on 2 Feb. Historical 25-Jan disposition puts the small 802 AG flying-boat element at Saipan; H8K may contribute long-range regional search only."
+  },
+  "japan_regional_water_air": [
+    {
+      "node": "Truk",
+      "historical_anchor": "902 AG about 10 float reconnaissance on 25 Jan",
+      "effect": "regional search/staging/repair; not direct local CAP over Kwajalein."
+    },
+    {
+      "node": "Saipan",
+      "historical_anchor": "802 AG about 5 flying boats + 902 AG about 4 float reconnaissance",
+      "effect": "very-long-range strategic search and communications; sortie rate to Marshall approaches is low and weather/fuel expensive."
+    },
+    {
+      "node": "Wake",
+      "branch": "residual Kyofu local defense 4-8 serviceable working band after Oct damage/repair; not included in Marshall total and cannot directly defend Roi."
+    },
+    {
+      "node": "Kusaie/Ponape",
+      "effect": "seaplane anchorage/staging potential; no untraced resident combat aircraft created."
+    }
+  ],
+  "japan_survivability_rule": [
+    "Runway cratering does not automatically suppress floatplanes/Kyofu/Zuiun operating from lagoon/anchorage.",
+    "US must separately damage ramps, cranes, tenders/support craft, fuel/ammunition points, radio and anchorages.",
+    "Sea state, recovery time, corrosion/maintenance and exposed anchorage cap sortie generation; do not turn surviving water into unlimited operations."
+  ],
+  "united_states_forward_water_air": {
+    "historical_98_group_guard": "The 98-aircraft search/patrol group includes both seaplanes (PBY/PBM) and land patrol aircraft (PB4Y/PV); do not call all 98 seaplanes.",
+    "forward_water_patrol_serviceable_band": [
+      12,
+      20
+    ],
+    "center": 16,
+    "support_ships": [
+      "Curtiss AV-4: Commander Air Central Pacific flagship at Tarawa from 31 Dec 1943.",
+      "Mackinac AVP-13: tended aircraft at Tarawa through Jan, then moved to Makin with VP-72 for around-the-clock tending during Marshalls campaign."
+    ],
+    "VP72_role": "Distributed PBY detachments used Dumbo/rescue, sector work and January minelaying; rescue flights often coordinated with surface ships/submarines.",
+    "operational_effect": [
+      "broad search/contact confirmation",
+      "ASW pressure on Japanese submarines",
+      "Dumbo aircrew recovery, reducing personnel attrition after aircraft loss",
+      "night/minelaying and local reconnaissance"
+    ],
+    "not_a_strike_bonus": "These aircraft do not become 16 extra dive/torpedo bombers against Taroa."
+  },
+  "shipborne_floatplanes": {
+    "US": "Battleship/cruiser OS2U/other shipboard floatplanes are separate from the 365 Gilbert land-air count and mainly support gunfire spotting, local reconnaissance and rescue. They do not materially change the first TF58 airfield-suppression sortie count.",
+    "Japan": "No forward Japanese surface-fleet floatplane pool is credited to Marshall morning defense unless the parent cruiser/battleship is actually present. Chitose/Chiyoda are not teleported forward."
+  },
+  "first_strike_implication": "Water aviation makes the Japanese warning/search network harder to decapitate than runway-only accounting suggests, but the US Gilbert patrol/tender system simultaneously raises ASW/search persistence. Net effect is information persistence on both sides, not a flat aircraft-strength increase.",
+  "external_sources": {
+    "USSBS_Campaigns_Pacific_War": "https://www.ibiblio.org/hyperwar/NHC/NewPDFs/USAAF/United%20States%20Strategic%20Bombing%20Survey/USSBS%20Campaigns%20of%20Pacific%20War.pdf",
+    "NHHC_HGram0261": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-026/h-026-1.html",
+    "NHHC_Curtiss_AV4": "https://www.history.navy.mil/research/histories/ship-histories/danfs/c/curtiss-av-4.html",
+    "NHHC_Mackinac_AVP13": "https://www.history.navy.mil/research/histories/ship-histories/danfs/m/mackinac-ii.html",
+    "NHHC_VP72": "https://www.history.navy.mil/content/dam/nhhc/research/histories/naval-aviation/dictionary-of-american-naval-aviation-squadrons-volume-2/pdfs/chap3-6.pdf"
+  }
+}

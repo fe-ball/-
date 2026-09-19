@@ -1,0 +1,18 @@
+{
+  "scenario": "keisanki-ibun",
+  "archive": "計算機異聞_BRANCH_B_v097_FULL_HANDOFF_1944-04-30T2400_AIRCRAFT_HISTORY_NEXT_2026-09-19(1).zip",
+  "archive_bytes": 27078890,
+  "archive_sha256": "29e2d71e234cfdfab108b15054c3ad1014c6f68ad7778d67d591d110950e40fb",
+  "zip_entries": 2520,
+  "file_entries": 2071,
+  "payload_bytes": 51813460,
+  "existing_exact_source_files": 0,
+  "added_source_files": 2071,
+  "extracted_directory": "source-v097-full",
+  "removed_zip_prefix": "",
+  "crc_verified": true,
+  "all_extracted_sha256_verified": true,
+  "filename_policy": "Preserve ZIP-decoded filenames exactly, including inherited mojibake; original ZIP bytes retained.",
+  "nested_archives": "Preserved byte-for-byte without recursive extraction.",
+  "current_authority": "Branch B v098"
+}

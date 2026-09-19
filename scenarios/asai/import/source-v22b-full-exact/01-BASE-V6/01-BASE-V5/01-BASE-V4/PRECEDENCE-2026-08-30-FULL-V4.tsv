@@ -1,0 +1,8 @@
+rank	scope	pointer	authority	status	rule
+1	current-claim	01-CURRENT-BRANCH/03-CURRENT-BRANCH-INDEX.tsv	2026-08-30 current reconstruction	CURRENT	claim-level authority; status and source pointer control
+2	session	01-CURRENT-BRANCH/07-SESSION-DELTA-2026-08-30.md	SESSION-CLOSED / current-session	CURRENT	newest explicitly closed/revised content
+3	late-8/29-source	90-SOURCE-QUARANTINE/2026-08-29-FULL-V3/CURRENT-STATE-2026-08-29-FULL-V3.json + handoff/overlays	late 8/29	SOURCE-AUTHORITY	valid where not superseded; quarantine prevents namespace bleed
+4	marine-domain	90-SOURCE-QUARANTINE/... nested Marine V10	Marine V10	DOMAIN-AUTHORITY	technical authority where current index points to it
+5	semantic-base	90-SOURCE-QUARANTINE/... nested semantic v48 main	semantic v48	BASE-SOURCE	controls unsuperseded base topics only
+6	machine-layer	90-SOURCE-QUARANTINE/... nested v48r3 machine	v48r3	SUPPORT	index/chronology/integrity support; not semantic parent
+90	archive	all archive/pre-v48 materials inside source quarantine	older	ARCHIVE	provenance / candidate recovery only; never auto-promote

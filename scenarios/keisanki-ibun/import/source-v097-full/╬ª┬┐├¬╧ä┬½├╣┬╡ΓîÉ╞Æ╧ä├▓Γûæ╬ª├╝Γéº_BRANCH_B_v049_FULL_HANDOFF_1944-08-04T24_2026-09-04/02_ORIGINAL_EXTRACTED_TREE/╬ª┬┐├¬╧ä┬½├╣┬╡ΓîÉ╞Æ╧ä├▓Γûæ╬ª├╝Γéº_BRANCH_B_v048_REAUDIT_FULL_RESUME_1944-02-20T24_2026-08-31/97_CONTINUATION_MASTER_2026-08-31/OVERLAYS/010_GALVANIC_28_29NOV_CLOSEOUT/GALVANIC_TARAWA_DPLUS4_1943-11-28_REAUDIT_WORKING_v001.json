@@ -1,0 +1,45 @@
+{
+  "id": "GALVANIC_TARAWA_DPLUS4_1943-11-28_REAUDIT_WORKING_v001",
+  "status": "WORKING_RERUN",
+  "time": "1943-11-28T00..24 local",
+  "input_state": {
+    "organized_Japanese_pockets_equivalent": [220, 400],
+    "locally_useful_armed_support": [60, 130],
+    "mission_capable_Type95": 0,
+    "US_cumulative_ground_casualties_through_11_27_T24": [2685, 3585],
+    "terrain": "US controls all bulk landing/logistics nodes and the great majority of useful maneuver terrain; several eastern/northern and bombproof strongpoints remain coherent."
+  },
+  "US_adaptation": {
+    "method": "Continue tank-engineer-75mm reduction teams with observed destroyer/CVE fires; avoid unsupported infantry rushes. Damage assessment remains imperfect and some supposedly neutralized positions reopen locally.",
+    "Makin_release": "Makin organized resistance ended 27 Nov afternoon. Three-CVE-class support is not teleported; one deck-equivalent remains tied to Makin/transport-ASW reorganization through much of the morning while roughly two deck-equivalents become available to reinforce Tarawa support from late morning through afternoon.",
+    "additional_effective_Tarawa_air_work": {
+      "CAS_and_spotting_sorties": [28, 42],
+      "additional_ASW_local_recon_sorties": [12, 18]
+    },
+    "naval_fire": "Close destroyer/cruiser fires remain available, but seaward pickets stay reinforced after the 26/27 Type-93 raid; not every destroyer can be simultaneously used as a shore-fire platform."
+  },
+  "timeline": [
+    {"time": "00:00-06:00", "event": "Japanese pockets conduct small infiltration, sniper and local grenade/mortar actions only; no coherent mass counterattack can be generated. US holds reduction positions and prepares registered fires."},
+    {"time": "06:00-11:00", "event": "US armor-engineer teams reduce several reopened/previously bypassed strongpoints. Japanese local wire/ammunition separation keeps individual positions active longer than US damage reports initially assume."},
+    {"time": "10:30-13:30", "event": "First meaningful Makin-released CVE support begins augmenting Tarawa CAS/spotting/ASW. This increases tempo but does not instantly erase hardpoints."},
+    {"time": "13:00-18:30", "event": "Eastern/northern coherent pockets are compressed and split. Japanese local C2 ceases to function beyond small strongpoint groups; ammunition and water shortage become decisive in several positions."},
+    {"time": "18:30-23:30", "event": "Last mutually supporting strongpoint clusters are isolated. Centered coherent organized resistance collapses around 21:30-23:30; several bombproof/isolated groups continue firing into the night."}
+  ],
+  "losses_11_28": {
+    "US_ground_casualties": [150, 240],
+    "Japanese_combat_losses_and_incapacitation": [240, 420],
+    "note": "Japanese loss band includes locally armed support caught in final reductions; it is not a claim that all remaining support personnel were first-line infantry."
+  },
+  "T24_state": {
+    "coherent_organized_resistance": [20, 60],
+    "isolated_armed_stragglers_and_bombproof_groups": [35, 85],
+    "territory": "US controls essentially all operationally useful Betio terrain; remaining Japanese action is isolated strongpoint/straggler resistance rather than a mutually supporting island defense system.",
+    "secure_declaration": "NOT_YET at 11/28T24. Centered formal secure declaration after dawn sweep on 29 Nov."
+  },
+  "guards": [
+    "No historical 20-Nov reef catastrophe is restored; 24-Nov tide/lane advantages remain paid.",
+    "No post-GALVANIC cave/defense doctrine is retrojected into Betio.",
+    "No mission-capable Japanese tank is restored after the 27-Nov closeout.",
+    "US adaptation is competent but not omniscient; reopened positions and false suppression assessments remain possible."
+  ]
+}

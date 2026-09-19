@@ -1,0 +1,55 @@
+{
+  "id": "JAPAN_TRUK_ENIWETOK_PREOP_CLOSEOUT_1944-02-10_20_v001",
+  "status": "WORKING_PREOP_STATE_CLOSED_FOR_NEXT_SIMULATION",
+  "Eniwetok": {
+    "garrison_total_physical_band": [3380, 3540],
+    "island_distribution": {
+      "Engebi": [1240, 1320],
+      "Eniwetok_Island": [790, 840],
+      "Parry": [1330, 1390]
+    },
+    "Type95_tanks": {"Engebi": 3, "Eniwetok_Island": 3, "Parry": 3, "total": 9},
+    "local_air_preassault": {
+      "physical_band": [6, 10],
+      "serviceable_band": [4, 7],
+      "mix": "small land-attack/recon element plus very small float-recon/water-air element",
+      "no_spawn": "No fighter/Raiden detachment is created without a traceable allocation."
+    },
+    "sensor_C2": {
+      "local_radar": "No confirmed operational local radar shipment; centerline warning relies on visual lookouts, radio/DF reports and aircraft/water-air reconnaissance.",
+      "precision_GCI": 0,
+      "communications": "Branch-standardized radio/telephone discipline, backup power where physically supplied, runners and local command cells are better maintained than historical-equivalent but remain vulnerable to bombardment.",
+      "external_warning": "Truk/Ponape/submarine/outer-island reports can raise strategic alert before local visual contact."
+    },
+    "short_warning_fortification_11_20Feb": [
+      "redisperse ammunition, water and medical stores",
+      "move selected command posts and crew shelters away from obvious beach/airfield targets",
+      "prepare alternate foxholes/strongpoints and camouflage/decoys",
+      "re-register mortar/artillery fires and anti-LVT/anti-armor lanes",
+      "hide tanks as local mobile reserves rather than expose them at the waterline",
+      "improve local reserve instructions and fallback routes"
+    ],
+    "hard_limit": "Flat coral geography and 6-10 days of effective lesson-implementation time cannot create Palau/Saipan-style cave or deep reverse-slope fortress systems.",
+    "extra_reinforcement_center": 0,
+    "reinforcement_reason": "After Kwajalein falls, eastbound loaded transports face poor expected value. Surviving mobile personnel/shipping are preserved toward Ponape/Palau/western reserve rather than fed into an atoll likely to be assaulted next."
+  },
+  "Truk": {
+    "warning_system": "A-grade integrated radar + visual posts + RI/DF + weather + plot + staged fighter/AA readiness with backup-power and field-service discipline.",
+    "precision_AA_fire_direction": "2 effective precision tracking/fire-direction channels centered; 1-3 serviceable band.",
+    "RWR_ESM": "Selected metric-band passive warning/emitter-library capability supports cueing and search-sector narrowing, not range/identity and not centimetric-radar awareness.",
+    "warning_timeline": {
+      "10_14Feb": "Truk raid judged likely within roughly one-to-two weeks; high-value evacuation continues.",
+      "15_16Feb": "US fast-carrier sortie/replenishment signature raises major-operation confidence; search sectors shift east/northeast.",
+      "17_19Feb": "submarine/traffic/DF/ESM cues make Truk primary/co-primary target highly probable; sustained high alert, no stand-down after a negative search.",
+      "19_20Feb": "next-dawn attack becomes center estimate, but exact carrier track remains too poor for a large preemptive strike."
+    },
+    "mobile_evacuation": {
+      "Shokaku_Zuikaku_Soryu": "Already continuing westward regeneration/preservation after the 2-Feb carrier battle; not returned to Truk defense.",
+      "Hiryu": "Propulsion-capable; emergency Truk deck/air-group repair and ferry/recovery-safe work, then westward evacuation centered about 13-16 Feb rather than waiting for full combat restoration.",
+      "Akashi_and_mobile_repair": "Remain only as long as needed for priority emergency work, then evacuate before centered HAILSTONE window.",
+      "fleet_oilers_tenders_high_value_shipping": "priority withdrawal 10-18 Feb; most high-speed/high-value mobile assets are not centered in lagoon at HAILSTONE dawn."
+    },
+    "carrier_counter_sortie": "NO-GO centered. Four Japanese hulls survive strategically, but Feb-2 carrier-air cadre losses and lack of fresh positive-EV TF58 geometry make a return toward Truk/Eniwetok irrational.",
+    "HAILSTONE_consequence": "First US sweep faces a prepared capacity-limited defense rather than historical strategic surprise; lagoon target density is lower because evacuation has occurred."
+  }
+}

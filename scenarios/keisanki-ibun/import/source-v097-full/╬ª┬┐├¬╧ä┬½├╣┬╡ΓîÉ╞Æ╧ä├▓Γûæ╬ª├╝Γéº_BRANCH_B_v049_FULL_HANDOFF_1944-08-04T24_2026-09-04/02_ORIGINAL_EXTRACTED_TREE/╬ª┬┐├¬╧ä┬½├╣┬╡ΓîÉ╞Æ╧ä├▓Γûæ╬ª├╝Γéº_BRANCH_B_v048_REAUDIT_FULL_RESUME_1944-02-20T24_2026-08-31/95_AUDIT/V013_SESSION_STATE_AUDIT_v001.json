@@ -1,0 +1,35 @@
+{
+  "revision": "v001",
+  "id": "V013_SESSION_STATE_AUDIT_v001",
+  "date": "2026-08-24",
+  "result": "PASS_WITH_ROLLBACK_MARKER",
+  "purpose": "Preserve the complete v012 package while safely recording the 2026-08-24 upstream rollback/re-audit and preventing accidental continuation from superseded summer-state files.",
+  "base_package": "refactor v012",
+  "current_branch_analysis_frontier": "1944-04-11T00:00",
+  "canonical_checkpoint_note": "CHECKPOINT_1944-04-30T24_v004 remains physically present and historically part of the v012 execution stack, but must not be used to skip the current spring re-audit narrative sequence.",
+  "new_current_files": [
+    "00_README/README_refactor_v013.md",
+    "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v013.md",
+    "00_CONFIG/current_branch_overrides_v004.json",
+    "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SPRING_REAUDIT_v001.json",
+    "06_RUNTIME/SESSION_2026-08-24_ROLLBACK_PACIFIC_CHINA_SETTLEMENT_v001.md"
+  ],
+  "superseded_as_current_but_retained": [
+    "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SUMMER_v001.json",
+    "06_RUNTIME/MARIANAS_SAIPAN_1944-06-11_07-14_SETTLEMENT_v001.md",
+    "06_RUNTIME/CHINA_ICHIGO_ANALOG_1944-05-27_08-06_FORWARD_ADJUDICATION_v001.md",
+    "06_RUNTIME/1944SUMMER_JAPAN_US_FORCE_REGENERATION_WORKING_LEDGER_v001.md"
+  ],
+  "critical_corrections": [
+    "Remove old Sep-1943 Second Midway invasion/result chain",
+    "Restore Soryu to Japanese fleet-carrier core",
+    "Carrier physical total after Taiho completion is 11 before later re-adjudicated losses",
+    "Delay GALVANIC to Feb 1944",
+    "Delay Marshall campaign to late Mar 1944",
+    "Downgrade Truk after Kwajalein and evacuate high-value mobile assets before HAILSTONE equivalent",
+    "Close Five-Go at Guangyuan limited objective; no default Chengdu pursuit",
+    "Retain Burma no-U-Go main line with stronger North Burma importance"
+  ],
+  "next_required_adjudication": "Re-audited CATCHPOLE/Eniwetok in the Apr 18–22 working window, then late-Apr Pacific checkpoint, then early-May China No.1/Ichigo-equivalent launch.",
+  "execution_layer": "v011 combat/platform/novel-weapon execution behavior remains authoritative unless current_branch_overrides_v004 explicitly changes branch state."
+}

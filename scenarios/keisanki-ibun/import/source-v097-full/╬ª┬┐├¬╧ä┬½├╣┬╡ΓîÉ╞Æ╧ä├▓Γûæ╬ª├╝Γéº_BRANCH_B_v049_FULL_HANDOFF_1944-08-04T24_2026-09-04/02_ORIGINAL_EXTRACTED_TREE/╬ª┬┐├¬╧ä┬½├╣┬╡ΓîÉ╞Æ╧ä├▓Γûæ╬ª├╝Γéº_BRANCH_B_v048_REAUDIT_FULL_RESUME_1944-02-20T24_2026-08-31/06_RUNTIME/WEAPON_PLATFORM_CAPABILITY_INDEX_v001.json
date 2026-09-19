@@ -1,0 +1,393 @@
+{
+  "revision": "v001",
+  "id": "WEAPON_PLATFORM_CAPABILITY_INDEX_v001",
+  "purpose": "Platform/weapon capability routing layer that prevents historical-baseline bias, platform-class underestimation, and omission of branch-specific or ahistorical systems. It is a review index, not an OOB: actual presence/readiness still comes from checkpoint/event-local state.",
+  "historical_relation_values": [
+    "HISTORICAL_BASELINE",
+    "DIVERGENT_VARIANT",
+    "AHISTORICAL_TIMING",
+    "AHISTORICAL_NEW",
+    "COMPOSITE_DOCTRINAL_SYSTEM",
+    "UNKNOWN"
+  ],
+  "principles": [
+    "Historical reputation or historical combat outcome is never a substitute for current-branch capability evidence.",
+    "A new or divergent system is assessed from its declared engineering/operational properties, maturity, availability, crew/training and mission fit; do not snap it back to the nearest historical weapon.",
+    "Platform capability is multi-stage. Submarines are not reduced to torpedo hit rate; surface combatants are not reduced to gun caliber or first-salvo firepower.",
+    "An indexed capability is a candidate capability, not proof that every participating unit possesses it. Match class/configuration and actual committed units before applying.",
+    "Unknown novelty is explicit. A runtime-declared AHISTORICAL_NEW/DIVERGENT/UNKNOWN system without a capability record and provenance keeps final combat adjudication unready."
+  ],
+  "platform_classes": [
+    {
+      "id": "SUBMARINE",
+      "label": "Submarine force and underwater combat system",
+      "tech_domains": [
+        "SUBMARINE",
+        "SUBMARINE_AVIATION"
+      ],
+      "capability_dimensions": [
+        "sortie_availability",
+        "transit_range",
+        "on_station_days",
+        "dive_trim_repeatability",
+        "submerged_mobility",
+        "quiet_listening",
+        "contact_information_age",
+        "firing_position_conversion",
+        "torpedo_delivery",
+        "evasion_survivability",
+        "re-sortie_rate",
+        "enemy_escort_and_route_diversion"
+      ],
+      "anti_underestimate_rules": [
+        "Do not score submarines only by sinkings or torpedo hit probability.",
+        "Count the probability chain sortie→station→contact→position→attack→survive→re-sortie and the value of reconnaissance/contact reporting.",
+        "For 潜高/high-speed submerged boats, evaluate threshold crossing from stale contact to firing position; never treat 18–20 kt as continuous silent patrol speed.",
+        "Operational patrol power and enemy diversion can be materially stronger even when individual torpedo performance is unchanged."
+      ],
+      "source_paths": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/20_潜水艦_世代別設計・就役日程.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/21_潜水艦_任務体系・量産配備・潜高実戦運用.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/22_潜水艦_1941-43建造台帳・潜高船台割当.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/23_潜水艦_1942後半再配置・戦果台帳.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/24_潜水艦_1943年1-5月再配置・潜高初期実戦・北方配分.md"
+      ],
+      "strength_anchors": [
+        "Conventional mature classes: typical +8–9% surface range, +7–10% submerged endurance, reduced dive/maintenance variance; apply through mission-state probabilities, not one multiplier.",
+        "First-generation 潜高: 18.5–19.0 kt submerged maximum with about 55–65 min full-speed budget; main combat value is deliberate underwater repositioning.",
+        "Settled 1943-spring source evaluates effective patrol power around 1.4–1.6× historical branch baseline; this is an operational ledger anchor, not an automatic future combat multiplier."
+      ]
+    },
+    {
+      "id": "SURFACE_COMBATANT",
+      "label": "Surface combatant force",
+      "tech_domains": [
+        "SURFACE_PLATFORM",
+        "SURFACE_TORPEDO",
+        "SURFACE_GUNFIRE",
+        "SENSOR_SEARCH"
+      ],
+      "capability_dimensions": [
+        "actual_serviceable_strength",
+        "practical_full_load_speed",
+        "endurance_and_fuel_margin",
+        "machinery_reliability",
+        "damage_control_margin",
+        "sensor_contact",
+        "optical_tracking",
+        "gunfire_solution",
+        "torpedo_solution",
+        "reload_second_salvo_cycle",
+        "formation_mutual_support",
+        "withdrawal_reentry",
+        "post_damage_fighting_continuity"
+      ],
+      "anti_underestimate_rules": [
+        "Do not score a surface ship only by nominal displacement, gun caliber or historical reputation.",
+        "Use practical speed/range, reliability, damage-state transitions, tracking/fire-control and formation tactics.",
+        "Japanese first-line destroyer/cruiser torpedo capability includes the probability of converting carried reloads into a second effective salvo in prolonged actions; it is not merely first-salvo tubes.",
+        "Radar early contact and optical/torpedo follow-up are separate causal stages; one does not erase the other."
+      ],
+      "source_paths": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/10_水上艦_駆逐艦・戦艦改装・大和型.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/31_魚雷・水雷戦_魚雷本体・射撃指揮・再装填・運用.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/62_艦艇戦力評価_任務係数・艦隊運用・戦史再監査v3.md"
+      ],
+      "strength_anchors": [
+        "Asashio/Kagero lineage has higher practical schedule reliability and range; Kagero full-load practical maximum around 34.6–34.9 kt and ~5,300 nmi/18 kt in the technical baseline.",
+        "Mature equipped units can reach a first-launch→second-effective-salvo cycle in roughly 12–20 min under suitable conditions; never convert this into double instantaneous firepower.",
+        "Damage-control/reserve-margin improvements can preserve mission function after non-catastrophic hits and must be modeled as state-transition effects."
+      ]
+    },
+    {
+      "id": "CARRIER",
+      "label": "Carrier hull/deck/air-group system",
+      "tech_domains": [
+        "CARRIER",
+        "AIR_PLATFORM",
+        "AIR_WEAPONS",
+        "AIR_COMBAT"
+      ],
+      "capability_dimensions": [
+        "deck_cycle",
+        "air_group_ready_strength",
+        "aircraft_role_mix",
+        "range_payload",
+        "pilot_quality",
+        "search_strike_coordination",
+        "damage_control",
+        "recovery_regeneration"
+      ],
+      "anti_underestimate_rules": [
+        "Treat carrier capability as hull+deck cycle+ready air group+crew+mission geometry, not nominal aircraft capacity."
+      ],
+      "source_paths": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/47_航空機技術監査_1938-44_史実技術採用・時系列・再計算ゲート.md"
+      ]
+    },
+    {
+      "id": "AIRCRAFT",
+      "label": "Aircraft and air weapon system",
+      "tech_domains": [
+        "AIR_PLATFORM",
+        "AIR_WEAPONS",
+        "AIR_COMBAT",
+        "MATERIALS_PROPULSION"
+      ],
+      "capability_dimensions": [
+        "actual_variant",
+        "engine_and_airframe",
+        "altitude_speed_climb",
+        "range_payload",
+        "weapon_effect",
+        "protection_reliability",
+        "pilot_training",
+        "sortie_generation",
+        "mission_role_fit"
+      ],
+      "anti_underestimate_rules": [
+        "Branch-specific engine/airframe variants must use their indexed performance, not the historical type-name baseline.",
+        "Existence does not imply frontline readiness or crew conversion."
+      ],
+      "source_paths": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/47_航空機技術監査_1938-44_史実技術採用・時系列・再計算ゲート.md"
+      ]
+    },
+    {
+      "id": "ASW_ESCORT",
+      "label": "ASW/escort combat system",
+      "tech_domains": [
+        "ASW",
+        "SENSOR_SEARCH",
+        "LOGISTICS"
+      ],
+      "capability_dimensions": [
+        "search_coverage",
+        "datum_localization",
+        "contact_maintenance",
+        "weapon_delivery",
+        "escort_density",
+        "air_surface_coordination",
+        "convoy_routing",
+        "submarine_suppression"
+      ],
+      "anti_underestimate_rules": [
+        "ASW improvement acts first through search→datum→delivery opportunities; do not multiply sinkings directly by detection gain."
+      ],
+      "source_paths": [
+        "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md"
+      ]
+    },
+    {
+      "id": "LAND_COMBAT_SYSTEM",
+      "label": "Land weapon/formation system",
+      "tech_domains": [
+        "AMPHIBIOUS",
+        "LOGISTICS"
+      ],
+      "capability_dimensions": [
+        "weapon_effect",
+        "mobility",
+        "protection",
+        "artillery_support",
+        "engineer_support",
+        "supply",
+        "terrain_fit",
+        "unit_training"
+      ],
+      "anti_underestimate_rules": [
+        "New land weapons require explicit capability and maturity records; do not inherit historical unit effectiveness automatically."
+      ],
+      "source_paths": []
+    },
+    {
+      "id": "SPECIAL_NOVEL_SYSTEM",
+      "label": "Special or branch-original weapon system",
+      "tech_domains": [
+        "SUBMARINE_AVIATION",
+        "MATERIALS_PROPULSION",
+        "CROSS_DOMAIN"
+      ],
+      "capability_dimensions": [
+        "engineering_capability",
+        "maturity",
+        "production_quantity",
+        "ready_quantity",
+        "crew_training",
+        "integration",
+        "mission_envelope",
+        "countermeasures",
+        "failure_modes"
+      ],
+      "anti_underestimate_rules": [
+        "A historically absent system has no historical combat-result prior. Resolve from mechanism and current-branch evidence.",
+        "A prototype or paper design is not a combat unit; availability/readiness gates are mandatory."
+      ],
+      "source_paths": []
+    }
+  ],
+  "systems": [
+    {
+      "id": "SYS-JP-A6M-ZUISEI-OPENING",
+      "designation": "Zuisei-powered Zero opening line",
+      "platform_classes": [
+        "AIRCRAFT"
+      ],
+      "historical_relation": "DIVERGENT_VARIANT",
+      "linked_tech_ids": [
+        "TECH-AIR-A6M-ZUISEI-OPENING-001"
+      ],
+      "event_profiles": [
+        "CARRIER_BATTLE",
+        "LAND_AIR",
+        "AIRFIELD_ATTACK",
+        "BASE_DEFENSE",
+        "FORAGER_GATE"
+      ],
+      "rule": "Use branch variant performance/configuration when the participating unit is this line; do not silently substitute historical Sakae-Zero data."
+    },
+    {
+      "id": "SYS-JP-B5N-ZUISEI-PROTECTED",
+      "designation": "Zuisei/commonality protected B5N opening line",
+      "platform_classes": [
+        "AIRCRAFT",
+        "CARRIER"
+      ],
+      "historical_relation": "DIVERGENT_VARIANT",
+      "linked_tech_ids": [
+        "TECH-AIR-B5N-ZUISEI-OPENING-001"
+      ],
+      "event_profiles": [
+        "CARRIER_BATTLE",
+        "FORAGER_GATE"
+      ],
+      "rule": "Treat as a divergent carrier attack-aircraft configuration subject to actual surviving units and replacement state."
+    },
+    {
+      "id": "SYS-JP-KOU-FIRSTGEN",
+      "designation": "潜高 first-generation high-speed submerged submarine",
+      "platform_classes": [
+        "SUBMARINE",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "historical_relation": "AHISTORICAL_TIMING",
+      "linked_tech_ids": [
+        "TECH-SUB-KOU-FIRSTGEN-001"
+      ],
+      "event_profiles": [
+        "SUBMARINE",
+        "CONVOY",
+        "CARRIER_BATTLE",
+        "FORAGER_GATE",
+        "SPECIAL_STRIKE"
+      ],
+      "rule": "Evaluate underwater repositioning, battery budget, information age and readiness. Never downgrade it to historical 8-kt-class submarine movement or upgrade it to continuous silent 19-kt pursuit."
+    },
+    {
+      "id": "SYS-JP-KOU-KAI",
+      "designation": "潜高改 1943–44 branch development",
+      "platform_classes": [
+        "SUBMARINE",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "historical_relation": "AHISTORICAL_NEW",
+      "linked_tech_ids": [],
+      "event_profiles": [
+        "SUBMARINE",
+        "CONVOY",
+        "FORAGER_GATE",
+        "SPECIAL_STRIKE"
+      ],
+      "runtime_gate": {
+        "available_from": "1943-01-01",
+        "availability_requires_checkpoint_or_event_confirmation": true
+      },
+      "sources": [
+        {
+          "path": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/20_潜水艦_世代別設計・就役日程.md",
+          "section": "8 潜高改"
+        }
+      ],
+      "rule": "This branch-original development is reviewable when encountered but must not be counted as present/ready solely because the design exists. Require OOB/readiness evidence."
+    },
+    {
+      "id": "SYS-JP-SURFACE-SECOND-SALVO",
+      "designation": "Mature surface torpedo reload/re-entry system",
+      "platform_classes": [
+        "SURFACE_COMBATANT"
+      ],
+      "historical_relation": "COMPOSITE_DOCTRINAL_SYSTEM",
+      "linked_tech_ids": [
+        "TECH-TORPEDO-SECOND-SALVO-001",
+        "TECH-TORPEDO-SURFACE-ACCURACY-001",
+        "TECH-TORPEDO-INTRINSIC-REPEATABILITY-001"
+      ],
+      "event_profiles": [
+        "SURFACE_NIGHT",
+        "AMPHIBIOUS",
+        "FORAGER_GATE",
+        "CARRIER_BATTLE"
+      ],
+      "rule": "Review first salvo, reload, recontact and re-entry as a cycle. Do not cap Japanese destroyer/cruiser threat at initial tube count."
+    },
+    {
+      "id": "SYS-JP-DD-COMPUTATION-AIDED",
+      "designation": "Computation-aided Asashio/Kagero operational profile",
+      "platform_classes": [
+        "SURFACE_COMBATANT"
+      ],
+      "historical_relation": "DIVERGENT_VARIANT",
+      "linked_tech_ids": [
+        "TECH-SURFACE-DD-ASASHIO-KAGERO-001",
+        "TECH-SURFACE-ASASHIO-OPENING-001",
+        "TECH-SURFACE-KAGERO-RELIABILITY-001",
+        "TECH-SURFACE-DC-MARGIN-001"
+      ],
+      "event_profiles": [
+        "SURFACE_NIGHT",
+        "CONVOY",
+        "AMPHIBIOUS",
+        "CARRIER_BATTLE",
+        "FORAGER_GATE"
+      ],
+      "rule": "Apply practical speed/range/reliability/damage-state effects to matching ships; do not infer a generic fleetwide bonus."
+    },
+    {
+      "id": "SYS-JP-I400-SEIRAN-INTEGRATED",
+      "designation": "I-400/Seiran integrated special-strike system",
+      "platform_classes": [
+        "SUBMARINE",
+        "AIRCRAFT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "historical_relation": "AHISTORICAL_TIMING",
+      "linked_tech_ids": [
+        "TECH-I400-SEIRAN-INTEGRATED-READINESS-1944-001"
+      ],
+      "event_profiles": [
+        "SPECIAL_STRIKE",
+        "FORAGER_GATE"
+      ],
+      "rule": "Resolve boat+aircraft+crew+launch/recovery+mission package as one readiness chain; count only the checkpoint-confirmed ready subset."
+    },
+    {
+      "id": "SYS-JP-TOKAI-MAD-INTEGRATION",
+      "designation": "Tokai/MAD focused ASW integration",
+      "platform_classes": [
+        "ASW_ESCORT",
+        "SPECIAL_NOVEL_SYSTEM"
+      ],
+      "historical_relation": "DIVERGENT_VARIANT",
+      "linked_tech_ids": [
+        "TECH-ASW-MAD-DATUM-LOCALIZATION-1943-44-001"
+      ],
+      "event_profiles": [
+        "CONVOY",
+        "SUBMARINE",
+        "FORAGER_GATE"
+      ],
+      "rule": "Apply as increased datum localization/weapon-delivery opportunities in covered lanes, not as a direct sink-rate multiplier."
+    }
+  ],
+  "runtime_registration_rule": "Any event-local weapon/platform not safely represented by a listed system may be supplied under combat input weapon_systems. If historical_relation is AHISTORICAL_NEW, DIVERGENT_VARIANT, AHISTORICAL_TIMING or UNKNOWN, capability_record and provenance are mandatory before final combat adjudication."
+}

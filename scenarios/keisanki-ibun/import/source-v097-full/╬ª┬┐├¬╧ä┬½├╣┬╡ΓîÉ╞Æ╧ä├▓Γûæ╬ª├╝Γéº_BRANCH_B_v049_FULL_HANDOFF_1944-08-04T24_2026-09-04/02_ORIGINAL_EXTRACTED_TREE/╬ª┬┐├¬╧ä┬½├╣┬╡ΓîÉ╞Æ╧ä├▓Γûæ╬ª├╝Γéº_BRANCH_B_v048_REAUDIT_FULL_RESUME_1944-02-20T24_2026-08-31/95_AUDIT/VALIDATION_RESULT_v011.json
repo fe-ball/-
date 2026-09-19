@@ -1,0 +1,27 @@
+{
+  "revision": "v011",
+  "result": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "date": "2026-08-23",
+  "validator": "98_TOOLS/validate_refactor_v009.py",
+  "current_restart": "CHECKPOINT_1944-04-30T24_v004",
+  "technical_baseline": "TECH_INDEX_v006",
+  "checks_passed": [
+    "all JSON parses",
+    "current-version family targets resolve",
+    "TECH source pointers exist",
+    "current checkpoint/graph supersession valid",
+    "20-factor combat completeness layer remains valid",
+    "platform matrix covers every event profile and all referenced classes exist",
+    "FORAGER_GATE mandatory platform output includes SUBMARINE and SURFACE_COMBATANT",
+    "FORAGER_GATE independently surfaces TECH-SUB-KOU-FIRSTGEN-001 and TECH-TORPEDO-SECOND-SALVO-001",
+    "branch-specific/novel review surfaces 潜高, surface second-salvo and I-400/Seiran candidates",
+    "all ordinary runtime-required factor inputs produce combat_resolution_ready=true when no novel-system defect exists",
+    "unindexed ahistorical weapon missing capability/readiness/provenance blocks readiness",
+    "complete unindexed ahistorical weapon record passes readiness",
+    "every profile emits exactly its mandatory combat factors and mandatory platform classes",
+    "legacy subtree retained with 188-file SHA-256 content multiset identical to v010 archive"
+  ],
+  "note": "World state is unchanged from v010; v011 changes execution/read-through behavior so platform capability and branch-original weapons cannot be silently omitted or replaced by historical reputation."
+}

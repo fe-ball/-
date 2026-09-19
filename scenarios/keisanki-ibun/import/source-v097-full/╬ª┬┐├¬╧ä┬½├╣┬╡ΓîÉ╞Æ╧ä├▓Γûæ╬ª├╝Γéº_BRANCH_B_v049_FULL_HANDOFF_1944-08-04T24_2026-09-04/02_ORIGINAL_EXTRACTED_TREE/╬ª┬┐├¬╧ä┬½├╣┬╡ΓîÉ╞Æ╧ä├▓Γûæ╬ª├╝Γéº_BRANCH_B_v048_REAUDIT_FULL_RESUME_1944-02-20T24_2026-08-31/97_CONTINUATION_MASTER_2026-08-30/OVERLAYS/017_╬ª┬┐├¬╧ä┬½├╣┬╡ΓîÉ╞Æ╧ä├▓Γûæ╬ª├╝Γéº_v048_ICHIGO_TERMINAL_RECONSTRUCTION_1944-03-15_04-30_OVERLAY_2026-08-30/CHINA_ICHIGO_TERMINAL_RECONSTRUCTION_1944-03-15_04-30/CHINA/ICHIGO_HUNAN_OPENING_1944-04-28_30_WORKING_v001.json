@@ -1,0 +1,108 @@
+{
+  "revision": "v001",
+  "id": "ICHIGO_HUNAN_OPENING_1944-04-28_30_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_LOCAL_COMBAT_ADJUDICATION_SYNCHRONIZED_TO_GLOBAL_1944-04-30",
+  "clock_window": "1944-04-28T05:00..1944-04-30T24:00+09:00",
+  "global_frontier_after_merge": "1944-04-30T24:00:00+09:00",
+  "parents": [
+    "ICHIGO_HUNAN_LAUNCH_GATE_RESOLUTION_1944-04-28_v001",
+    "FIVE_GO_GROUND_EXCHANGE_HARDWARE_REAUDIT_1943_WORKING_v001",
+    "CHINA_14AF_ICHIGO_DETECTION_INTERDICTION_1944-03-15_04-30_WORKING_v001"
+  ],
+  "initial_japanese_execution": {
+    "first_echelon": "approximately six division-equivalents: 3d/13th/40th/68th/116th plus selected 27th/37th elements by axis",
+    "second_echelon": "34th/58th/64th and remaining 27th/37th elements move behind, secure flanks/roads and preserve the ammunition/bridge clock rather than all ten divisions consuming the same routes at once.",
+    "60th": "theater reserve; not committed in opening 72 hours.",
+    "39th_and_fixed_rear": "remain fixed; no rear stripping.",
+    "doctrine": "Use artillery/engineer preparation, bypass or turn selected strongpoints, keep road/river repair close behind, and do not turn every Chinese rearguard into a prestige frontal battle."
+  },
+  "daily_outline": [
+    {
+      "date": "1944-04-28",
+      "result": "Main axes break into the first northern-Hunan delay belt. Local crossings and demolitions slow some columns, but Japanese engineer/artillery package keeps multiple axes moving. Working main-axis depth 10-22 km from start positions by night."
+    },
+    {
+      "date": "1944-04-29",
+      "result": "Chinese main formations continue planned elastic withdrawal while rearguards fight bridge/river/hill positions. 14AF/CACW attacks exposed movement and Yueyang-area logistics; Japanese fighter/AA cover prevents a transport collapse. Main-axis depth 18-34 km."
+    },
+    {
+      "date": "1944-04-30",
+      "result": "First belt is being unhinged rather than annihilated. Main Chinese field formations preserve most heavy-command core southward. Japanese leading axes reach roughly 28-48 km from opening line; Changsha is not captured or directly stormed. Forward logistics remain coherent."
+    }
+  ],
+  "ground_losses_28_30Apr": {
+    "Japan": {
+      "KIA": [
+        400,
+        600
+      ],
+      "WIA": [
+        1200,
+        1700
+      ],
+      "illness_straggle_temporary": [
+        500,
+        900
+      ]
+    },
+    "China": {
+      "KIA": [
+        900,
+        1300
+      ],
+      "WIA": [
+        1800,
+        2700
+      ],
+      "POW_MIA_dropout": [
+        1500,
+        2400
+      ]
+    },
+    "interpretation": "Initial exchange favors Japan but is not an annihilation. Chinese Five-Go learning converts part of the expected loss into orderly space-for-time withdrawal; Japanese v048 hardware/process gains improve local exchange without producing magical breakthrough speed."
+  },
+  "air_opening": {
+    "Japanese_hunan_mission_ready_used_band": [
+      165,
+      195
+    ],
+    "Allied_Chinese_Hunan_response_ready_band": [
+      85,
+      115
+    ],
+    "Japan_irrecoverable_aircraft_band": [
+      8,
+      12
+    ],
+    "Allied_Chinese_irrecoverable_aircraft_band": [
+      8,
+      13
+    ],
+    "primary_effect": "Counterair, airfield pressure and LOC interdiction shape movement and repair tempo. No side destroys the opposing air arm in the opening three days."
+  },
+  "logistics_30Apr": {
+    "remaining_campaign_stock_in_wuhan_yueyang_system_t": [
+      151000,
+      193000
+    ],
+    "immediately_forward_or_rapidly_drawable_t": [
+      47000,
+      64000
+    ],
+    "serviceable_motor_vehicles_band": [
+      5250,
+      6350
+    ],
+    "note": "Opening consumption, losses and temporary vehicle damage are charged; nightly rear feed continues. Stock remains above the minimum for continuation of Phase A but is not sufficient proof for automatic Hengyang continuation."
+  },
+  "30Apr_position_state": {
+    "Changsha": "CHINESE_HELD",
+    "Xiangtan": "CHINESE_HELD",
+    "Hengyang": "CHINESE_HELD",
+    "northern_Hunan_first_belt": "PARTIALLY_BROKEN_WITH_ORDERLY_CHINESE_WITHDRAWAL",
+    "Japanese_phase_A": "UNDERWAY",
+    "Chinese_main_force": "MATERIALLY_PRESERVED",
+    "Fourteenth_Air_Force": "ACTIVE_INTERDICTION_CAPABLE"
+  },
+  "next_gate": "Continue early-May northern-Hunan/Miluo-Liuyang approach. Recompute Chinese reserve placement, Japanese daily supply and 14AF sortie/fuel cost before assigning Changsha fall date. Hengyang remains closed."
+}

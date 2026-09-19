@@ -1,0 +1,64 @@
+{
+  "revision": "v001",
+  "id": "FLINTLOCK_ASSAULT_APPROACH_SUBMARINE_INTERDICTION_1944-02-03_06_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "period": "1944-02-03T15:30..1944-02-06T18:00 Marshall local",
+  "purpose": "Shift the surviving Japanese Marshall submarine information/intercept network from fast-carrier tracking toward the assault/support echelons and resolve attacks without converting Branch liaison into a magic hit bonus.",
+  "starting_network": {
+    "assigned_center": 16,
+    "effective_before_3Feb_battle_center": "about 12",
+    "3Feb_post_contact_effective_center": "about 10-11",
+    "notes": [
+      "One SenTaka contact boat from 2-Feb is mission-damaged and leaves same-day shadow duty but survives.",
+      "Indian-Ocean seven-boat layer remains separate and unchanged.",
+      "Boats are redistributed toward transport, CVE/fire-support and logistics corridors once Japanese carriers break contact."
+    ]
+  },
+  "US_ASW_context": [
+    "TF57/Gilberts PBY/PB4Y/PV search and ASW",
+    "CVE aircraft around amphibious groups",
+    "DD/DE sonar and radar screens",
+    "Hedgehog-capable escorts in theater",
+    "high readiness after repeated submarine reports and GALVANIC experience"
+  ],
+  "events": [
+    {
+      "time": "1944-02-03 evening..02-04",
+      "event": "HQ uses carrier-contact tracks, transport reports and landing timetable inference to shift outer/middle boats toward Kwajalein approaches; several contacts are escorts/auxiliaries only.",
+      "result": "No credited weapon hit; reporting narrows the main assault corridors and confirms that the amphibious force continues despite the 3-Feb carrier exchange."
+    },
+    {
+      "time": "1944-02-04 night",
+      "event": "One northern-sector boat approaches a CVE/fire-support screen but is forced deep by air/escort search before a satisfactory shot.",
+      "result": "No launch centered; preserves boat rather than firing a very low-quality long-range spread."
+    },
+    {
+      "time": "1944-02-05 01:20..02:10",
+      "event": "A middle-layer conventional I/Ro-class boat gets a firing solution on the southern tractor/transport echelon. Six-torpedo-class spread centered against the transport mass.",
+      "centered_hit": "One torpedo hits LST-224, one of the historical Southern Tractor Unit LSTs. Severe flooding/fire; constructive total loss/sinks after abandonment centered.",
+      "personnel_and_cargo_effect": "About 70-110 total killed/missing/wounded centered ~90 plus loss of embarked vehicles/stores; exact unit cargo not invented. Assault craft/vehicle allocations are redistributed across surviving LST/LCI/APA lift.",
+      "operational_effect": "Southern assault organization loses roughly one of eight tractor-unit LST hulls; local boat/vehicle density and unloading margin fall, but the division-scale landing is not stopped."
+    },
+    {
+      "time": "1944-02-05 02:00..06:00",
+      "event": "US escorts counterattack the firing sector. The attacker uses disciplined withdrawal and acoustic-deception procedures but receives depth-charge shock/leaks.",
+      "result": "Attacker survives centered but becomes MISSION_DAMAGED_WITHDRAW, not available for another pre-D-Day attack."
+    },
+    {
+      "time": "1944-02-05 afternoon-night",
+      "event": "A separate middle/inner Japanese boat attempts to penetrate the northern/central screen. Radar/sonar handoff followed by depth-charge/Hedgehog prosecution produces a centered submarine loss.",
+      "result": "One Japanese conventional submarine sunk centered; exact historical hull identity deliberately not forced because 1944 Marshall submarine-loss attributions are disputed and Branch patrol geometry differs."
+    },
+    {
+      "time": "1944-02-06 pre-dawn",
+      "event": "Remaining boats report transport concentration and fire-support movement but heavy ASW prevents another weapon-quality shot before the main landings.",
+      "result": "No second ship hit centered."
+    }
+  ],
+  "net_result_through_6Feb": {
+    "US_ships": "LST-224 constructive total loss centered; no APA/CVE/battleship hit centered.",
+    "Japan_submarines": "1 conventional boat sunk centered; 2 boats mission-damaged/withdrawn including the prior SenTaka contact boat; remaining local network still reports but is increasingly pushed outward.",
+    "information_effect": "Japanese command receives reliable confirmation of landing timing/sector concentration; this improves local readiness but cannot compensate for suppressed airfields and overwhelming naval gunfire.",
+    "anti_double_count": "Do not separately add a generic submarine hit/survival bonus. The LST hit is the realized payoff of the same contact/fusion system already modeled."
+  }
+}

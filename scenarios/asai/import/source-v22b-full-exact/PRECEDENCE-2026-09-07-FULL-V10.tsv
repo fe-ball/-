@@ -1,0 +1,13 @@
+rank	scope	authority	note
+0	package	00-START-HERE-CURRENT.md	entry point
+1	current state	PACKAGE-STATE-V10.tsv	machine state
+2	session	77-CURRENT-2026-09-07-SESSION-CLOSE/00-SESSION-HANDOFF-V10.md	highest narrative current
+3	corrections	77-CURRENT-2026-09-07-SESSION-CLOSE/02-CORRECTION-REGISTER-V10.tsv	post-V9 correction
+4	1938-39 retro air	72-CURRENT-RETRO-AIRPOWER-1938-1939/	current over old small E5/Ki42 fleet assumptions
+5	Nomonhan	73-CURRENT-NOMONHAN-REVISED-V10/	current revised branch over V9 terminal figures
+6	China post-Jun20	74-CURRENT-CHINA-1939-REPLAY-V10/	current chronological replay
+7	technical addenda	75-CURRENT-TECHNICAL-ADDENDA-V10/	current local technical authority
+8	1940 gate	76-CURRENT-1940-WEAPON-GATE-V10/	planning only
+20	V9 technical control	71-CURRENT-TECHNICAL-CONTROL-V9/	retained base unless overridden
+90	old V9/V8/V7/V6	all prior directories	provenance/comparator unless current chain points there
+99	quarantined post-V9 drafts	90-PROVENANCE-SUPERSEDED-POST-V9/	not current

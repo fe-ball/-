@@ -1,0 +1,60 @@
+{
+  "revision": "v001",
+  "id": "EASTERN_FLEET_RAMREE_FEINT_RETRO_ADJUDICATION_1944-02-10_14_WORKING_v001",
+  "status": "WORKING_BRANCH_RETROACTIVE_EVENT_ADJUDICATION_NO_GLOBAL_CLOCK_ROLLBACK",
+  "event_window": "1944-02-10..14",
+  "purpose": "Close a previously omitted Eastern Fleet sortie that materially affects Japanese motive/ISR posture before SLEUTH: the Renown/Illustrious Ramree feint.",
+  "branch_launch_decision": {
+    "decision": "GO_CENTERED",
+    "why": "Branch loss of Chittagong makes Army demand for pressure on the Arakan coast at least as strong as historical, but the value/risk ratio still favors a feint and training sortie over actually driving the only modern fleet carrier into the Japanese Akyab/Andaman land-air envelope.",
+    "force": [
+      "Renown",
+      "Illustrious",
+      "Emerald",
+      "Tromp",
+      "seven destroyers"
+    ],
+    "actual_bombardment_of_Ramree": "NO"
+  },
+  "historical_execution_anchor": [
+    {
+      "date": "1944-02-10T17:00",
+      "event": "Force sails from Trincomalee northeastward, intending to simulate arrival off Ramree at dawn 13 Feb."
+    },
+    {
+      "date": "1944-02-11T12:00",
+      "position": "13-32N 82-41E",
+      "event": "Fleet continues northeast; Illustrious flies ASW patrols."
+    },
+    {
+      "date": "1944-02-11T18:00..21:00",
+      "event": "W/T deception is deliberately emitted; force turns south at 2100."
+    },
+    {
+      "date": "1944-02-12 dawn",
+      "event": "An aircraft transmits from the projected false onward position to sustain the deception while the fleet is already retiring south."
+    },
+    {
+      "date": "1944-02-14T10:00",
+      "event": "Force returns to Trincomalee after further training."
+    }
+  ],
+  "Japanese_branch_detection": {
+    "cue": "LIKELY_CUE_LEVEL_ONLY_CENTERED. Branch Japanese passive DF/traffic-analysis network is allowed to notice the deliberate 11-12 Feb emissions as evidence of an RN sortie toward the Bay/Arakan direction.",
+    "track": "NOT_MAINTAINED. The deliberate false continuation and RN turn south prevent a fresh visual/air track.",
+    "weapon_quality": "NO",
+    "why_no_visual_contact": "At the 11-Feb noon position the force is still roughly 600 nm from Port Blair and over 700 nm from Akyab/Patenga; even the 705 long-range search system needs sector cueing. The RN deception points search effort toward the false northeast continuation while the ships retire south."
+  },
+  "Japanese_reaction_11_14Feb": [
+    "Shift a bounded share of 705 long-range sea-search sorties toward the projected northeast track/Arakan approach for about 24-36 hours; no contact is credited.",
+    "Raise Oyodo-group and submarine-contact-fusion readiness, but do not order a blind surface sortie.",
+    "Treat RO-111/I-166 and other surviving patrol boats as Ceylon/Bay intelligence assets as well as merchant raiders; no teleportation to the false track.",
+    "Keep a 705 contingency strike concept ready only if air/submarine recontact produces a recent fleet position; no such recontact occurs.",
+    "Do not release Suzuya/Kumano or a second Combined-Fleet surface package: the cue is deliberately ambiguous and the 3-Feb Central-Pacific carrier battle has already raised opportunity cost."
+  ],
+  "outcome": "The feint succeeds operationally: Japan is induced to take the possibility of an Arakan/Bay sortie more seriously and spends some reconnaissance/readiness effort, but Britain does not expose Illustrious to a Japanese strike and Japan gains no firing solution.",
+  "downstream_effect": "This is the strongest pre-SLEUTH trigger for the Japanese Eastern-Fleet suppression concept. It raises the standing surveillance/submarine priority through mid-February, but is not strong enough to prevent the later Central-Pacific emergency transfer of 705/331 elements.",
+  "sources_external": [
+    "https://www.naval-history.net/xDKWD-EF1943Dec-Apr1944.htm"
+  ]
+}

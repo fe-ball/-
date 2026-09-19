@@ -1,0 +1,22 @@
+{
+  "revision": "v001",
+  "id": "RESUME_LOAD_ORDER_1944-02-27T24_PROGRESS_v001",
+  "status": "WORKING_RESUME_POINTER",
+  "global_frontier": "1944-02-27T24",
+  "requires_prior_overlay": "計算機異聞_v048_PROGRESS_1944-02-19_22_OVERLAY_2026-08-30.zip",
+  "load_new_files_in_order": [
+    "PROGRESS_1944-02-23_27/OPERATIONS/EASTERN_FLEET_SLEUTH_ADJUDICATION_1944-02-23_27_WORKING_v001.json",
+    "PROGRESS_1944-02-23_27/SUBWAR/JAPAN_INDIAN_OCEAN_SUBMARINE_UPDATE_1944-02-23_27_WORKING_v001.json",
+    "PROGRESS_1944-02-23_27/AIR/JAPAN_INDIAN_OCEAN_AIR_POSTURE_1944-02-23_27_WORKING_v001.json",
+    "PROGRESS_1944-02-23_27/OPERATIONS/JAPAN_OPERATION_SA1_MOBILIZATION_1944-02-25_27_WORKING_v001.json",
+    "PROGRESS_1944-02-23_27/OPERATIONS/CATCHPOLE_GLOBAL_MERGE_1944-02-23_27_WORKING_v001.json",
+    "PROGRESS_1944-02-23_27/STATE/PARALLEL_THEATER_STATE_1944-02-27T24_WORKING_v001.json"
+  ],
+  "future_knowledge_guard": [
+    "Do not import Sussex joining before 28 Feb.",
+    "Do not import SA No.1 1 Mar+ commerce-raiding results.",
+    "Do not physically debit 705 west before a dated 28 Feb+ departure posting.",
+    "Do not grant Eniwetok bomber-strip service before its later development clock."
+  ],
+  "next_exact_action": "Run 1944-02-28..03-03 synchronized Indian Ocean and Central-Pacific allocation clocks."
+}

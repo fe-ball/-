@@ -1,0 +1,36 @@
+Domain	Weapon/System	1939-09 status	Worldline closure	Immediate action	Next gate
+Infantry	Type 38 rifle	BULK STANDARD	Keep	Maintain existing units	No forced conversion
+Infantry	Type 99 rifle	INITIAL SERIES	Formation-block 7.7mm transition	Low-rate ramp; new/replacement formations first	1940 ramp
+Infantry	Type 96 LMG	STANDARD 6.5mm	Keep with Type38 formations	QC/accepted output	Ongoing
+Infantry	Type 99 LMG	INITIAL SERIES	Pair with Type99 rifle blocks	Low-rate ramp	1940 ramp
+Infantry	Type 92 HMG	STANDARD	Keep; can use Type99 rimless when strip-loaded	Ammo/spares/sights	Ongoing
+Infantry	Type 89 50mm grenade discharger	STANDARD/HIGH VALUE	Keep	Ammo/fuze QC	Ongoing
+Infantry support	Type 92 70mm battalion gun	STANDARD	Keep	Ammo/sights	Ongoing
+Mortar	Type 97 81mm	RAMP/STANDARDIZING	Modest priority increase	Ammo/crew/sights + QC	1940 allocation
+Mortar	Type 94/97 90mm	LIMITED	Keep limited	Favor lighter production path	Allocation
+AT	Type 94 37mm	STANDARD	Keep + special AP reserve; future margin insufficient	Ammo/crew + 47mm successor	Immediate
+AT	Type 97 20mm automatic AT	TRIAL/NICHE	No mass priority	Special trials only	Later review
+AT	Experimental Type97 47mm	PRIORITY DEV BASE	Finish mechanized practical test; small Q4 engineering lot if passes	Develop 800+ m/s successor	1939 Q4/1940
+Tank gun	47mm new-turret Chi-Ha	HIGH PRIORITY DEV	1939 rigs/mockups; no field issue	Ballistics/recoil/turret human factors	1940 technical
+Field artillery	Type95 75mm	GENERAL STANDARD	Keep	Routine production	Ongoing
+Field artillery	Type90 75mm	MOTORIZED PRIORITY	Increase Manchuria/mechanized priority	Prime movers/ammo	1939 H2
+Field artillery	Type91 10cm howitzer	STANDARD	Keep	Routine	Ongoing
+Field artillery	Type92 10cm cannon	HIGH PRIORITY	Increase guns/ammo/prime movers/survey support	Counter-battery capability	1939 H2-1940
+Heavy artillery	Type96 15cm howitzer	STANDARD HEAVY	Keep	Balanced increase	1940
+Heavy artillery	Type89 15cm cannon	HIGH VALUE LIMITED	Improve readiness/traction/ammo	Limited increase	1940
+Heavy artillery	Type96 24cm howitzer	HOLD	No broad series	Technical diagnosis	Later
+SPG	Chi-Ha + Type90 75mm fixed casemate	DESIGN START	Prototype 1940; limited troop trial 1941	Design/recoil/layout	1940
+AA	Type98 20mm AA	FIELD-VALIDATED	Expand	Production/QC/ammo	1939 H2-1940
+AA	Type88 75mm AA	STANDARD MEDIUM AA	Keep; improve fire control	Optics/power/fuze/QC	1940
+Navy AA	Type96 25mm	STANDARD	Reliability package only	Firing pin/QC; retain tracking limits	Ongoing
+Tank	Type95 Ha-Go	LIGHT STANDARD	Keep role-limited	No universal turbo	Ongoing
+Tank	Type97 Chi-Ha	MAIN MEDIUM	Correct baseline 200/220hp; 57mm remains limit	Production/allocation + 47mm program	1940 turret
+Tank	Type97 Te-Ke	RECON/SECURITY	Keep	No tank-fighting mission	Ongoing
+Vehicle	Turbo heavy prime movers/6x4	PROCUREMENT-GRADE POSITIVE	Preferred high-load fit	Expand fitment	1940 plans
+Support	Recovery/workshop vehicle package	STANDARDIZE	Defined recovery/workshop system	Procurement/specification	1939 H2
+Support	Mobile GT utility set	LIMITED STANDARD	Army/corps/artillery/airfield/workshop level	Packaging/filters/generator interfaces	1939 H2-1940
+Support	Command/radio vehicle	PRIORITY INCREASE	Improve mobile command power/install/reliability	Procurement	1940
+Support	Engineer/bridging vehicle	PRIORITY STUDY	Mechanization support integral	Trials/specification	1940
+Air weapon	Army 7.7mm fighter guns	CURRENT	Keep until replacement available	No retroactive rearm	1939-40
+Air weapon	Ho-103-class 12.7mm program	PROTOTYPE PROGRAM	Open 1939 comparative development	Feed/spring/sync/ammo testing	1940-41
+Air weapon	Navy Type99 20mm cannon	INITIAL PRODUCTION	High value; manufacturing/QC improvements only	Ramp accepted output	1939 H2-1940

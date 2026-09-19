@@ -1,0 +1,9 @@
+{
+  "package_revision": "v048",
+  "ERRORS": 0,
+  "WARNINGS": 0,
+  "JSON_FILES": 474,
+  "errors": [],
+  "warnings": [],
+  "note": "validate_refactor_v029: 1944-01-01 v006 authority linkage, unchanged 1944-02-06 18:00 discussion clock, integrated land+vehicle synthesis v002, scoped Bengal/Arakan rollback, physical vehicle OOB, damage/reappearance classification, revised casualty/timing results, separately booked Allied death-tally delta, GALVANIC independence, unchanged Flintlock first-day result and event-generator restart all validated."
+}

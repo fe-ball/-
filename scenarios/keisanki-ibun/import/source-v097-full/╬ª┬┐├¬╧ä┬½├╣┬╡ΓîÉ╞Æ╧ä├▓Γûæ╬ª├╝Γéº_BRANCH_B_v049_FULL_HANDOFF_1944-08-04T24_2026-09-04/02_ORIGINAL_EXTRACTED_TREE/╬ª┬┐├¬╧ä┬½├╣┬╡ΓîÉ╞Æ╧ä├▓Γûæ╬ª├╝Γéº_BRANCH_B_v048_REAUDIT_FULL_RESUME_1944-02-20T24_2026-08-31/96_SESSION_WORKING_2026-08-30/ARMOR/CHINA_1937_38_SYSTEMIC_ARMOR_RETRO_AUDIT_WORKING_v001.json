@@ -1,0 +1,40 @@
+{
+  "revision": "v001",
+  "id": "CHINA_1937_38_SYSTEMIC_ARMOR_RETRO_AUDIT_WORKING_v001",
+  "status": "WORKING_FIRST_PASS_NOT_CURRENT",
+  "method": "SYSTEMIC_COMBAT_EFFECT_ACCOUNTING_FOR_VEHICLE_RETRO_AUDITS_WORKING_v001",
+  "scope": "1937 Marco Polo Bridge through end-1938 major China campaigns; vehicle-layer incremental effect only",
+  "historical_anchors": {
+    "Shanghai_5th_Tank_Battalion": "32 Type89 + 15 Type94 tankettes = 47 AFVs in one documented Shanghai tank battalion.",
+    "early_China_armored_scale": "A commonly cited deployment anchor gives 78 Type89 + 41 Type94 tankettes in the initial China advance; other battalions/light-armor companies were also used at different dates.",
+    "campaign_character": "Japanese armor was principally infantry-support/exploitation armor; Chinese armored opposition was sparse, while urban fighting, AT guns, roads, bridges and maintenance were important.",
+    "guard": "Do not sum all dated OOB snapshots as unique national vehicles; units and hulls can overlap between operations."
+  },
+  "branch_effect": {
+    "combat_effective_AFV_days_relative": "+8-15%",
+    "main_source": "lower mechanical dropout + better parts/recovery; gun/armor unchanged",
+    "contact_effect": "slightly more assault/exploitation cycles; also slightly more exposure"
+  },
+  "first_pass_cumulative_delta_1937_38": {
+    "Japanese_AFV_irrecoverable_loss_delta": "-7 to -15 hulls versus historical-equivalent vehicle quality",
+    "Japanese_AFV_damaged_contacts": "roughly unchanged to +5% because additional sorties offset reliability improvement",
+    "Japanese_personnel_KWM_delta": "-300 to -650",
+    "Japanese_other_equipment_saved": "2-5 guns and 15-35 trucks/tractors/equivalent from fewer local collapses/abandonments",
+    "Chinese_personnel_KWM_delta": "+500 to +1,100",
+    "Chinese_guns_MG_positions_additional_loss": "10-25 gun/strongpoint equivalents",
+    "Japanese_fuel_delta": "+6-12%",
+    "Japanese_tank_ammunition_delta": "+8-15%",
+    "workshop_recovery_hours_delta": "+15-25%"
+  },
+  "operational_effect": {
+    "local": "Some strongpoints/road axes fail hours earlier; Japanese local exploitation reaches the next line more consistently.",
+    "strategic": "No new major city/campaign outcome is created solely by vehicles. Existing Branch assumption that 1937-38 China is somewhat weaker can retain this as one incremental contributor, not a second full multiplier.",
+    "long_term": "A few more rebuildable hulls and trained crews survive into 1939-41; institutional confidence in reliable armor is modestly stronger."
+  },
+  "confidence": {
+    "vehicle_residual": "LOW-MEDIUM",
+    "personnel_deltas": "LOW",
+    "strategic_direction": "MEDIUM-HIGH"
+  },
+  "next": "Use regiment/battalion archival loss returns if found; otherwise keep this as a cumulative band rather than fake campaign-by-campaign precision."
+}

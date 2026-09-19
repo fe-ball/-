@@ -1,0 +1,29 @@
+{
+  "id": "GALVANIC_1943-11-26T24_CROSS_DOMAIN_STATE_WORKING_v001",
+  "status": "WORKING_BRANCH_RERUN_NOT_YET_PROMOTED",
+  "time": "1943-11-26T24 local",
+  "US": {
+    "strategic": "Gilberts assault remains on track; Tarawa not yet secure, Makin remains a separate near-closeout problem",
+    "carrier_damage": "Independence campaign-out; Lexington heavy mission-kill; Yorktown temporary damage recovering; Cowpens light damage; other fast decks operational with sortie/fatigue debt",
+    "CVE": "five-deck Tarawa / three-deck Makin support split centered through much of 26 Nov; do not add CVE aircraft to fast-carrier pursuit wallet",
+    "behavior_after_carrier_battle": "raise western search/CAP/ASW and protect damaged carriers; do not deep-pursue west at night while amphibious forces remain exposed and Japanese surface/submarine forces are unlocated"
+  },
+  "Japan": {
+    "carriers": "Shokaku/Zuikaku/Hiryu operational; Soryu mobile but deck-degraded 8-14 h class, using cross-deck/rear-deck recovery; secondary four-carrier system materially proves its shock-absorber role",
+    "carrier_air": "heavy experienced-strike loss paid; raw surviving airframe/deck depth remains much thicker than historical late-1943 Japan",
+    "regional_air": "search/recontact network degraded but still nonzero; use primarily for night/surface/submarine cueing rather than another major daylight raid",
+    "surface": "Tarawa support/transport concentration now has higher target value than the old automatic Makin nuisance-raid choice. Any 26/27-night Type-93 raid must be re-generated from fresh contact, fuel and US SG/radar screen state; old Franks result is void.",
+    "submarines": "prolonged assault-force dwell increases patrol opportunity, but no extra hit is booked on 26 Nov. I-175/Pierce and all old named 27 Nov results remain reopened."
+  },
+  "reopened_downstream": [
+    "26/27 night surface-raid target and result",
+    "27 Nov Makin/Tarawa ground closeout",
+    "I-175 and other submarine named hits",
+    "Soryu repair/return clock and 1944-01-01 carrier roster",
+    "US Lexington/Yorktown/Cowpens repair clocks",
+    "early-Dec Marshall raid geometry"
+  ],
+  "not_reopened_without_causal_path": [
+    "unrelated China/Bengal/Indian Ocean events outside existing resource-wallet consequences"
+  ]
+}

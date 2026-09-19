@@ -1,0 +1,34 @@
+{
+  "revision": "v001",
+  "id": "MARIANAS_9TH_TANK_REGIMENT_TRANSFER_1944-04-01_13_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-04-01..13",
+  "global_frontier_after_merge": "1944-04-15T24",
+  "parents": [
+    "IJA_9TH_TANK_REGIMENT_TRANSFER_AND_EQUIPMENT_REAUDIT_1944-02-21_06-15_WORKING_v001"
+  ],
+  "execution": {
+    "convoy_departure_center": "1944-04-01",
+    "Saipan_arrival": "1944-04-09..10",
+    "Guam_forwarding": "1944-04-10..13",
+    "shipping_irrecoverable_tank_band": [
+      0,
+      3
+    ],
+    "center": 0,
+    "Saipan_physical_band": [
+      50,
+      56
+    ],
+    "Guam_physical_band": [
+      26,
+      31
+    ],
+    "interpretation": "Submarine threat is real, but current Branch ASW and the historical lift outcome do not justify inventing a tank-cargo catastrophe. Vehicles require post-unload maintenance before full readiness."
+  },
+  "15Apr_state": {
+    "Saipan": "main regiment elements unloaded; serviceability climbing toward 90-96% 5-10 days after unload; defensive training/position preparation begins.",
+    "Guam": "forwarded companies unloaded or completing unload/maintenance; not instant full readiness."
+  },
+  "strategic_effect": "Marianas ground defense becomes materially harder without consuming the carrier core. This strengthens Yamamoto's rationale for preserving mobile naval power for a fixed US amphibious geometry rather than raiding east blindly."
+}

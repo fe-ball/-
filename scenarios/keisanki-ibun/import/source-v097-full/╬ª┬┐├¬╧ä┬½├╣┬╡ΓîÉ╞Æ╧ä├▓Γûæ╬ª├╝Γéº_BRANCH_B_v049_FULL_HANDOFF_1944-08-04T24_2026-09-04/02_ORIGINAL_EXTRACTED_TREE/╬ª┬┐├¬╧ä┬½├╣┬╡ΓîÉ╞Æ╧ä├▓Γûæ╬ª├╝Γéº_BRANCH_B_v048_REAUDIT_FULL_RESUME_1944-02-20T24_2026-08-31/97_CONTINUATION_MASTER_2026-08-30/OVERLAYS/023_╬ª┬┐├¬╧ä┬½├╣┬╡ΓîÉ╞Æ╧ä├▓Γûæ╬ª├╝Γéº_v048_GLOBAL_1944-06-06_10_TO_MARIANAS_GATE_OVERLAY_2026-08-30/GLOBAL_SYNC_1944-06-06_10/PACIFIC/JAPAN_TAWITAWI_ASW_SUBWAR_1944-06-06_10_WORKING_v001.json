@@ -1,0 +1,41 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_TAWITAWI_ASW_SUBWAR_1944-06-06_10_WORKING_v001",
+  "status": "WORKING_BRANCH_SUBWAR_SETTLEMENT",
+  "clock_window": "1944-06-06..06-10",
+  "parents": [
+    "JAPAN_MOBILE_FLEET_MARIANAS_POSTURE_1944-05-25_06-05_WORKING_v001"
+  ],
+  "historical_anchor": "Historical USS Harder sank Minazuki 6 Jun, Hayanami 7 Jun and Tanikaze 9 Jun around Tawi Tawi; this cluster is not auto-inherited because branch Tokai/MAD/patrol/escort integration is materially better.",
+  "branch_centerline": [
+    {
+      "date": "1944-06-06",
+      "result": "Harder closes the oiler/escort traffic but is localized earlier by the layered patrol picture and cannot reproduce the historical Minazuki kill. Minazuki survives; escorts and aircraft expend time/depth charges."
+    },
+    {
+      "date": "1944-06-07",
+      "result": "Harder shifts outside the strongest patrol box and still obtains one high-quality attack opportunity. Hayanami is sunk. This preserves the ability of an exceptional US submarine to break the screen despite branch ASW improvement."
+    },
+    {
+      "date": "1944-06-08_09",
+      "result": "Route changes, denser search and rapid warning dissemination reduce repeated attack geometry. The historical Tanikaze kill is not inherited; Tanikaze survives the window."
+    },
+    {
+      "date": "1944-06-10",
+      "result": "The mobile fleet remains under real submarine pressure: training windows are shortened/rotated and escort fuel/sonar/depth-charge expenditure rises, but the historical three-destroyer catastrophe is reduced to one destroyer loss."
+    }
+  ],
+  "destroyer_delta_vs_history": {
+    "historical_losses_in_cluster": 3,
+    "branch_centerline_losses": 1,
+    "branch_lost": [
+      "Hayanami"
+    ],
+    "branch_survive_this_cluster": [
+      "Minazuki",
+      "Tanikaze"
+    ]
+  },
+  "ASW_interpretation": "Improvement reduces repeated exposure and increases datum-to-escort handoff; it does not make US submarines harmless or prevent a skilled boat from scoring.",
+  "guard": "Do not apply the historical Minazuki and Tanikaze June losses later unless a new branch event creates them."
+}

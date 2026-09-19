@@ -1,0 +1,17 @@
+{
+  "revision": "v020",
+  "package_root": "計算機異聞_refactor_v020_2026-08-25",
+  "generated": "2026-08-25",
+  "purpose": "Preserve the May-Oct 1944 China forward adjudication provisionally while reopening the Central Pacific as a continuous Midway-inclusive campaign from 1943, with explicit US/Japan resource costs and Hump/Indian Ocean naval dependency.",
+  "file_count_before_checksum": 492,
+  "base_package": "計算機異聞_refactor_v019_2026-08-25",
+  "current_branch_state_file": "06_RUNTIME/CURRENT_BRANCH_STATE_v002.json",
+  "current_branch_analysis_frontier": "1943-10-10T00:00",
+  "current_working_audit": "06_RUNTIME/PACIFIC_MIDWAY_CONTINUOUS_CAMPAIGN_REAUDIT_1943-07_10_v001.md",
+  "clock_advanced": false,
+  "clock_reopened": true,
+  "validation": "95_AUDIT/VALIDATION_RESULT_v020.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v020.txt",
+  "historical_checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v019.txt",
+  "next_required_adjudication": "GALVANIC preparation/detection and resource wallet from 1943-10-10, then continuous Marshalls/CATCHPOLE replay before FORAGER/Indian Ocean/Hump sync."
+}

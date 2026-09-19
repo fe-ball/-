@@ -1,0 +1,59 @@
+{
+  "revision": "v0.01",
+  "scope": "Malaya Phase 1 1941-12-08 to 1941-12-15",
+  "aircraft_state_layers": [
+    "SOUTHERN_AIR_POOL",
+    "MALAYA_TASKED",
+    "BASE_PRESENT",
+    "SERVICEABLE",
+    "LAUNCHED",
+    "MISSION_REACHED",
+    "MISSION_EFFECTIVE",
+    "RETURNED_SERVICEABLE",
+    "RETURNED_DAMAGED_SHORT",
+    "RETURNED_DAMAGED_LONG",
+    "FORCED_LANDING",
+    "TRANSFER_TRANSIT",
+    "LOST"
+  ],
+  "crew_states": [
+    "SURVIVING_IN_UNIT",
+    "FATIGUED_REST",
+    "WOUNDED_CONVALESCENT",
+    "REPAIR_REORGANIZATION_RETURN",
+    "REPLACEMENT_AIRCRAFT_FERRY_RETURN",
+    "TRANSFER_POOL",
+    "KIA_MIA",
+    "REPLACEMENT_LOW_SKILL"
+  ],
+  "base_support_dimensions": [
+    "runway_capacity",
+    "drainage_factor",
+    "weather_factor",
+    "ground_crew_capacity",
+    "fuel_stock_factor",
+    "ammo_stock_factor",
+    "drop_tank_factor",
+    "spares_tools_factor",
+    "repair_depot_access",
+    "transport_capacity"
+  ],
+  "mission_conservation_rules": [
+    "LAUNCHED <= SERVICEABLE at launch gate unless explicit same-day repair completion is recorded",
+    "MISSION_REACHED <= LAUNCHED",
+    "MISSION_EFFECTIVE <= MISSION_REACHED",
+    "RETURNED_SERVICEABLE + RETURNED_DAMAGED_SHORT + RETURNED_DAMAGED_LONG + FORCED_LANDING + LOST <= LAUNCHED for a closed mission event",
+    "weather aborts consume sortie/fuel/fatigue but do not count as MISSION_EFFECTIVE"
+  ],
+  "switch_observation_tokens": [
+    "base_transfer_delay",
+    "support_arrival_lag",
+    "weather_abort",
+    "forced_landing",
+    "repair_turnaround",
+    "crew_loss",
+    "veteran_survival",
+    "replacement_low_skill_share",
+    "cross_service_observation"
+  ]
+}

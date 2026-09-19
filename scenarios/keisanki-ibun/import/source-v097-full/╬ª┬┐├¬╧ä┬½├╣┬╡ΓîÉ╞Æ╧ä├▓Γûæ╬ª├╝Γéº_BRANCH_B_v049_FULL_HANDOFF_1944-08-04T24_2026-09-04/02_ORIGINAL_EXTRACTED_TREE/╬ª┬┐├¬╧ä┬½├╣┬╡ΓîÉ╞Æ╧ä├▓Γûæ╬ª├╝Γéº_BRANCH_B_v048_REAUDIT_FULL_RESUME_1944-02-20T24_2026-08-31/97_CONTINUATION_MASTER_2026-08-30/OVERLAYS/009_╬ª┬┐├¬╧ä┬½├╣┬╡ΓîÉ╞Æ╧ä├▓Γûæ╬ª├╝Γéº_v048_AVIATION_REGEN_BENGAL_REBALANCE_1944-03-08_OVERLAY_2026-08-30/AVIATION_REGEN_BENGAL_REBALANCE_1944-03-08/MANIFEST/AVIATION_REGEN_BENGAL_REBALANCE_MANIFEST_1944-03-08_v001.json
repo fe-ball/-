@@ -1,0 +1,21 @@
+{
+  "revision": "v001",
+  "id": "AVIATION_REGEN_BENGAL_REBALANCE_MANIFEST_1944-03-08_v001",
+  "status": "WORKING_OVERLAY_MANIFEST",
+  "global_frontier": "1944-03-08T24",
+  "requires_prior_overlays": [
+    "計算機異聞_v048_PACIFIC_FLEET_AUDIT_1944-03-08_OVERLAY_2026-08-30.zip"
+  ],
+  "load_new_files_in_order": [
+    "AVIATION_REGEN_BENGAL_REBALANCE_1944-03-08/AIR/JAPAN_AIRCREW_REGENERATION_SOFT_PROGRESS_1944-03-08_WORKING_v001.json",
+    "AVIATION_REGEN_BENGAL_REBALANCE_1944-03-08/AIR/INDIAN_OCEAN_AIR_CAPABILITY_LEDGER_1944-02-19_22_WORKING_v003.json",
+    "AVIATION_REGEN_BENGAL_REBALANCE_1944-03-08/STATE/BENGAL_ARAKAN_AIR_POSTURE_REBALANCE_1944-03-08_WORKING_v001.json"
+  ],
+  "corrections": [
+    "Make lower-net-loss/cadre-return regeneration an explicit rate effect, not just a one-time stock bonus.",
+    "Raise Japanese 5th Air Division/Bengal western bands; no-U-Go prevents the historical late-Feb wholesale pull toward Imphal.",
+    "Raise Allied No.224 Group branch-reconstituted band because Chittagong displacement did not destroy the group and Jan/Mar OOB depth exceeds the old band.",
+    "Do not infer a Bengal land offensive or Eastern Fleet chase from the larger air pools."
+  ],
+  "next_exact_action": "Continue Pacific weekly strategic clock; keep Bengal/Indian Ocean dormant unless a land/naval reopen trigger fires. If reopened, load v003 air ledger and the 3/8 posture rebalance."
+}

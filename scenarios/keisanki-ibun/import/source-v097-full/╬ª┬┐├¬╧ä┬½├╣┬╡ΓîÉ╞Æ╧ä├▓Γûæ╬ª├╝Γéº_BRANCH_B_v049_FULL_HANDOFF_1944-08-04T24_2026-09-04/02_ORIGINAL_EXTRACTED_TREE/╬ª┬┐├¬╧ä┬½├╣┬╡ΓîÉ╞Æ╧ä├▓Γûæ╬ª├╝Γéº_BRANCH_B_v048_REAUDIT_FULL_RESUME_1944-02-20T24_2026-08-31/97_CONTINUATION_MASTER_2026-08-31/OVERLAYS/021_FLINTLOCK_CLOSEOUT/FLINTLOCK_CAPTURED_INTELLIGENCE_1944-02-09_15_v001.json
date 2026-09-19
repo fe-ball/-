@@ -1,0 +1,21 @@
+{
+  "id": "FLINTLOCK_CAPTURED_INTELLIGENCE_1944-02-09_15_v001",
+  "status": "WORKING_INTELLIGENCE_ADJUDICATION_NOT_CANONICAL",
+  "capture_window": "1944-02-09 onward",
+  "physical_evidence": {
+    "fortification": "Multiple mutually supporting small positions, lagoon-oriented fire planning added after GALVANIC, alternate local command posts, dispersed ammunition/water stores, vehicle/tankette shelters where traced, decoys and repaired/bypassed positions.",
+    "sensor_C2": "Damaged radar transmitter/receiver components, plot-room equipment, separated generator/power arrangements, telephone switchboards/cable routes, common spares/test/calibration material and DF/radio equipment. Main antennas/directors are mostly destroyed or badly damaged.",
+    "airbase_system": "Revetment patterns, dispersed fuel/ammunition/workshop functions, repair tools and evidence that aircraft/support-system losses were intentionally decorrelated.",
+    "possible_ESM": "One or more damaged metric-band warning/DF receiver items and associated maintenance material are plausible in the captured technical pool. Immediate field identification is incomplete; no evidence supports Japanese centimetric-SG awareness."
+  },
+  "US_understanding_clock": {
+    "9_10Feb_field": "Combat engineers and G-2 conclude that destroying the visible radar/airfield or suppressing a firing point did not necessarily destroy the underlying warning, communications or ammunition system.",
+    "11_15Feb_theater": "Technical teams can identify deliberate separation of antenna/transmitter/plot/power functions, modular repair/spares, redundant local telephone routing, and ammunition/blast separation. This reinforces multi-component target lists and post-strike verification.",
+    "2_4_weeks": "Passive metric-warning/ESM function may be identified from equipment/documents and correlated with prior Japanese warning behavior. Operational response is likely tighter emission discipline, deception/frequency awareness and more attention to secondary sensor nodes, not a belief that SG/centimetric radar is compromised."
+  },
+  "guards": [
+    "US forces do not infer exact Branch-wide production advantages or future island layouts from one captured atoll.",
+    "Captured hardware does not instantly reveal Japanese doctrine or all emitter libraries.",
+    "Do not treat damaged Japanese radar as evidence of US-style precision GCI/CIC."
+  ]
+}

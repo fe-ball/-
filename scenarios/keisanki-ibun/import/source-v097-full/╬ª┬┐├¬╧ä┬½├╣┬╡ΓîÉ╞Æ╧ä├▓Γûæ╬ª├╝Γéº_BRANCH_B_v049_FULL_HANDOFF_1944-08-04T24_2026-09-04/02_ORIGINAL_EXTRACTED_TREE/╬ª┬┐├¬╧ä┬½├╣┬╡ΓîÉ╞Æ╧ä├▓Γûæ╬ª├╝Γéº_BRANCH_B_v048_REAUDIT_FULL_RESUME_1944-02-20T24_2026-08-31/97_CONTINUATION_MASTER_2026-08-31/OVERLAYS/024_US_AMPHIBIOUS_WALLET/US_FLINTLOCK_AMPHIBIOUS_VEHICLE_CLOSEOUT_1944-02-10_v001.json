@@ -1,0 +1,43 @@
+{
+  "id": "US_FLINTLOCK_AMPHIBIOUS_VEHICLE_CLOSEOUT_1944-02-10_v001",
+  "status": "WORKING_LEDGER_NOT_CANONICAL",
+  "southern_7th_Infantry_package": {
+    "physical_start": 174,
+    "historical_anchor": "174 amphibian vehicles including 79 armored amphibians; 21-vehicle reserve; four LSTs configured for LVT repair support.",
+    "existing_Branch_Dday_losses": {
+      "irrecoverable_band": [8, 12],
+      "temporary_or_short_repair_band": [11, 17],
+      "Dplus1_returns_from_temporary_band": [7, 10]
+    },
+    "10Feb_centered_ledger": {
+      "irrecoverable_band": [11, 16],
+      "irrecoverable_center": 13,
+      "depot_or_long_repair_band": [6, 10],
+      "depot_center": 8,
+      "short_turnaround_or_maintenance_band": [8, 14],
+      "short_center": 11,
+      "mission_ready_band": [137, 149],
+      "mission_ready_center": 142,
+      "center_sum_check": 174
+    },
+    "transfer_guard": "These vehicles remain tied to 7th Infantry/V Amphibious Corps recovery and are not the primary CATCHPOLE assault vehicle pool."
+  },
+  "northern_4th_Marine_package": {
+    "physical_start_working_band": [345, 355],
+    "physical_center": 350,
+    "basis": "Historical 4th Marine Division assault system contained almost 350 LVT(2)/LVT(A)(1)-class tractors across 4th/10th amtrac and armored-amphibian elements. Current Branch has not yet closed individual hull serials.",
+    "10Feb_centered_ledger": {
+      "irrecoverable_band": [13, 21],
+      "irrecoverable_center": 17,
+      "depot_or_long_repair_band": [17, 27],
+      "depot_center": 22,
+      "short_turnaround_or_maintenance_band": [27, 40],
+      "short_center": 33,
+      "mission_ready_band": [270, 292],
+      "mission_ready_center": 278,
+      "center_sum_check": 350
+    },
+    "branch_note": "The rerun does not inherit the historical extreme 10th Amtrac D-Day/D+1 control-fuel breakdown. Tarawa-derived traffic control and closer LST launch geometry reduce operational nonavailability, while Namur fire still produces real combat loss."
+  },
+  "strategic_interpretation": "FLINTLOCK leaves large numbers of assault LVTs recoverable, but their repair is not the main CATCHPOLE schedule gate because the reserve force has a distinct vehicle wallet."
+}

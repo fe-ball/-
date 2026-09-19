@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "package": "ASAI-WORLDLINE-HANDOFF-2026-09-05-FULL-V9-NOMONHAN-CLOSED-CHINA-JUN20",
+  "datafix": "V9-TECHCLOSE4",
+  "total_files": 662,
+  "manifest_sha_targets": 658,
+  "manifest_errors": [],
+  "current_state_pointer": "PASS",
+  "index_pointer_validation": "PASS",
+  "tsv_rectangularity": "PASS",
+  "inventory_membership": "PASS",
+  "session_issue_rows": 12,
+  "session_issue_status_counts": {
+    "OPEN": 4,
+    "CLOSED-CONTROL": 1,
+    "CLOSED-LOWER-BOUND-FLOW": 1,
+    "CLOSED-CAMPAIGN-SUFFICIENT": 1,
+    "WORKING": 1,
+    "CLOSED-SCENARIO-MACRO": 1,
+    "CLOSED-THROUGH-AUG1939": 1,
+    "DEFERRED": 2
+  },
+  "active_session_queue_rows": 7,
+  "technical_issue_rows": 26,
+  "technical_issue_status_counts": {
+    "CLOSED": 4,
+    "CLOSED-METHOD": 3,
+    "CLOSED-DATA": 1,
+    "CLOSED-TECH": 3,
+    "CLOSED-BASELINE / EVENT-GATED": 1,
+    "CLOSED-INSTITUTIONAL": 1,
+    "CLOSED-GUARD": 1,
+    "CLOSED-TAXONOMY": 1,
+    "CLOSED-CLASS-BASELINE / EVENT-GATED": 1,
+    "CLOSED-GUARD / EVENT-GATED": 1,
+    "CLOSED-TECH / PROCUREMENT CONDITIONAL": 1,
+    "CLOSED-ROUTING": 1,
+    "CLOSED-STATE": 1,
+    "CLOSED-DATA/ROUTING": 1,
+    "CLOSED-METHOD / EQUIPMENT-LOCAL": 1,
+    "CLOSED-CONTROL / EQUIPMENT-LOCAL": 1,
+    "CLOSED-METHOD / EVENT-GATED": 1,
+    "CLOSED-CONTROL": 2
+  },
+  "cheat_rule_rows": 32,
+  "technical_stage_rows": 53,
+  "techclose4_closures": {
+    "g3m_chongqing_ex": "CLOSED-CONTROL",
+    "nomonhan_special_ammo": "CLOSED-LOWER-BOUND-FLOW",
+    "nomonhan_aviation_stockflow": "CLOSED-CAMPAIGN-SUFFICIENT",
+    "uranium_system_balance": "CLOSED-SCENARIO-MACRO",
+    "riken_isotope_research": "CLOSED-THROUGH-AUG1939"
+  },
+  "china_current_clock": "1939-06-20 24:00",
+  "nomonhan_status": "CLOSED through 1939-08-31 stabilization/central stop",
+  "next_gate": "1939-06-21 Shantou/Swatow",
+  "control_files_excluded_from_manifest": [
+    "FULL-PACKAGE-MANIFEST-SHA256-V9.tsv",
+    "MACHINE-INTEGRITY-AUDIT-V9.json",
+    "MACHINE-INTEGRITY-AUDIT-V9.md",
+    "SHA256SUMS-V9.txt"
+  ]
+}

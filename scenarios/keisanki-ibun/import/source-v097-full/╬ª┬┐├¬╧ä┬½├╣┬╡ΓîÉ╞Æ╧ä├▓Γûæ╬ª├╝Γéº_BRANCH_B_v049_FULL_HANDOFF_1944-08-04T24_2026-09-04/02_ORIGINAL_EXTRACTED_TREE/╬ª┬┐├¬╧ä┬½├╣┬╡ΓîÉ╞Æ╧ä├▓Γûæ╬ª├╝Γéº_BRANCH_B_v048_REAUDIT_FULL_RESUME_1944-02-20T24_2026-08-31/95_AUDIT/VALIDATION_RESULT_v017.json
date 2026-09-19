@@ -1,0 +1,17 @@
+{
+  "revision": "v017",
+  "date": "2026-08-24",
+  "result": "PASS",
+  "checks": {
+    "all_json_parse": true,
+    "clock_remains_1944_04_25": true,
+    "hanzhong_guangyuan_active_pressure_audit_present": true,
+    "machine_ledger_present": true,
+    "historical_allied_forward_base_difference_recorded": true,
+    "reciprocal_japanese_allied_air_allocation_recorded": true,
+    "operation_not_prematurely_settled": true,
+    "file_count_before_checksum": 462,
+    "json_file_count": 204
+  },
+  "note": "Working-band validation. v017 narrows the operational-scale question but does not launch the Ichigo-equivalent operation."
+}

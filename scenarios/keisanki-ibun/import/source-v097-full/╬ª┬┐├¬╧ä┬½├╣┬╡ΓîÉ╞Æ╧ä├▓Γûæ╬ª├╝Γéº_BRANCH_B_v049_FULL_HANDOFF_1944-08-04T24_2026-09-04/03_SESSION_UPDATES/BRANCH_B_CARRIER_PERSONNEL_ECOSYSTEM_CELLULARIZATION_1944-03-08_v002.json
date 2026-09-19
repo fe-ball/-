@@ -1,0 +1,123 @@
+{
+  "id": "BRANCH_B_CARRIER_PERSONNEL_ECOSYSTEM_CELLULARIZATION_v002",
+  "status": "WORKING_CURRENT_INSTITUTIONAL_OVERLAY",
+  "as_of": "1944-03-08T24:00",
+  "clock_advance": false,
+  "supersedes": "BRANCH_B_CARRIER_AIR_PERSONNEL_CELLULARIZATION_1942_1944_v001",
+  "revision_reason": "v001 600-800 broad flying-personnel estimate undercounted audited six-deck second-line system",
+  "physical_carrier_hulls": {
+    "established_first_line": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu"
+    ],
+    "new_workup": [
+      "Taiho"
+    ],
+    "second_line": [
+      "Junyo",
+      "Hiyo",
+      "Ryuho",
+      "Ryujo",
+      "Zuiho",
+      "Shoho"
+    ],
+    "total": 11
+  },
+  "flying_personnel_8Mar": {
+    "four_core_ready_aircraft": [
+      230,
+      260
+    ],
+    "four_core_flying_personnel": [
+      420,
+      500
+    ],
+    "second_line_combat_usable_aircraft": [
+      115,
+      145
+    ],
+    "second_line_active_flying_personnel": [
+      200,
+      280
+    ],
+    "Taiho_workup_flying_personnel": [
+      30,
+      60
+    ],
+    "reserve_recovery_instructor_future_pool": [
+      100,
+      180
+    ],
+    "currently_fit_full_or_limited_carrier_employment": [
+      650,
+      850
+    ],
+    "broad_carrier_compatible_system": [
+      750,
+      1000
+    ],
+    "definition_guard": "includes pilots + observers/navigators/radio-gunners and multiple qualification levels"
+  },
+  "cellularization": {
+    "experienced_nucleus_bottleneck_billet_fraction": [
+      0.15,
+      0.3
+    ],
+    "substantial_new_nucleus_cadence_weeks": [
+      4,
+      8
+    ],
+    "guard": "cadre replication rate, not complete air-group production rate"
+  },
+  "Taiho_conditional": {
+    "8Mar": "C-/C; no synchronized fleet strike credit",
+    "20Mar_mission_ready_aircraft": [
+      40,
+      52
+    ],
+    "20Mar_independent_one_cycle": [
+      26,
+      36
+    ],
+    "five_deck_one_cycle_gate": "1944-04-10..20 conditional"
+  },
+  "Unryu_Amagi": {
+    "branch_hull_completion": "Jun-Jul 1944",
+    "March": "prospective command/deck/air cadre formation only",
+    "Apr_May": "shore-based shadow cells and secondary-deck qualification",
+    "post_completion_C_Cplus_weeks": [
+      2,
+      3
+    ],
+    "post_completion_Bminus_weeks": [
+      4,
+      6
+    ],
+    "post_completion_B_Bplus_weeks": [
+      6,
+      10
+    ],
+    "June_Marianas_combat_credit": 0
+  },
+  "Katsuragi": {
+    "branch_hull_completion": "Aug-Sep 1944",
+    "March_significance": "forces second-generation cadre planning"
+  },
+  "three_clocks": {
+    "cadre_command": "weeks",
+    "flying_unit_maturation": "weeks-to-months",
+    "hull_specific_team": "months around completion/work-up"
+  },
+  "binding_constraints": [
+    "training fuel",
+    "usable carrier decks",
+    "strike leaders",
+    "navigation/observer specialists",
+    "multi-seat crew synchronization",
+    "senior maintenance/deck supervisors",
+    "hull-specific deck-team work-up",
+    "combat loss of seed cadres"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "status": "canonical-provisional-overlay",
+  "effective_date": "1942-11-09",
+  "yamato": {
+    "speed_trial_equivalent_kt": [
+      27.6,
+      27.8
+    ],
+    "speed_sustained_battle_kt": 27.0,
+    "radar": {
+      "type": "Type 21 early air/surface warning",
+      "installed": "1942-08 pre-Truk fitting window",
+      "fire_control_closed_loop": false,
+      "role": [
+        "warning",
+        "bearing-sector cue",
+        "optical search cue"
+      ]
+    },
+    "command": {
+      "yamamoto_and_combined_fleet_staff_aboard": true,
+      "role": "Main Body decisive-battle flagship",
+      "vanguard_default": false
+    }
+  },
+  "mutsu": {
+    "reconstruction_1934_1936": "Branch computational/process assisted realization of historical reconstruction skeleton",
+    "speed_good_condition_kt": [
+      25.3,
+      25.4
+    ],
+    "speed_sustained_wartime_kt": [
+      24.7,
+      25.0
+    ],
+    "cruise_fuel_improvement_pct": [
+      2,
+      4
+    ],
+    "modernization_rework_tail_reduction_pct": [
+      10,
+      20
+    ],
+    "radar": null,
+    "electronic_ballistic_aid_integrated": false
+  },
+  "formation": {
+    "yamato_mutsu_close_support_sustained_ceiling_kt": 25.0,
+    "yamato_detach_27kt_requires_support_tradeoff": true
+  },
+  "later_history_guard": "Mutsu 1943-06-08 explosion remains center-line unless separately reopened"
+}

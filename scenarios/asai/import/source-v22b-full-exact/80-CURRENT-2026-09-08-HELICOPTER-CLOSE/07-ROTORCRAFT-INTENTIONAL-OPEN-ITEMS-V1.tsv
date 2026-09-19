@@ -1,0 +1,10 @@
+item	status	reason	no_backflow_rule
+H1 exact serial drawing dimensions	INTENTIONAL OPEN	working geometry/performance is sufficient for prewar close	do not invent exact blueprint values
+H1/H2 individual serial first-flight days	INTENTIONAL OPEN	quarter/half-year development clock is closed; exact day unsupported	do not convert a development band into a fabricated date
+H1 complete height-velocity diagram	INTENTIONAL OPEN	requires flight mapping	autorotation capability does not imply a completed safe-envelope chart
+H2 measured hot/high OGE hover map	INTENTIONAL OPEN	requires real test atmosphere/weight data	do not treat 330 shp as unlimited hover margin
+H2 main-transmission service TBO	INTENTIONAL OPEN	major 1941 maturity gate; exact service TBO not demonstrated	do not upgrade mission test to service release
+H2 exact field maintenance man-hours	INTENTIONAL OPEN	requires unit trial data	do not infer conventional-aircraft maintenance burden
+Kayaba 1938-41 exact procurement/OOB	OUTSIDE V13 ASAI CLOSE	independent branch intentionally not fabricated	old support mass-service counts do not auto-return
+H3 1942 prototype date/procurement	FUTURE GATE	1941 closes design/rig stage only	no 1941 flight airframe or OOB
+helicopter military service designation	OPEN NAMING GATE	H1/H2 are audit labels, not service names	do not invent Ki/A/Navy designation from research status

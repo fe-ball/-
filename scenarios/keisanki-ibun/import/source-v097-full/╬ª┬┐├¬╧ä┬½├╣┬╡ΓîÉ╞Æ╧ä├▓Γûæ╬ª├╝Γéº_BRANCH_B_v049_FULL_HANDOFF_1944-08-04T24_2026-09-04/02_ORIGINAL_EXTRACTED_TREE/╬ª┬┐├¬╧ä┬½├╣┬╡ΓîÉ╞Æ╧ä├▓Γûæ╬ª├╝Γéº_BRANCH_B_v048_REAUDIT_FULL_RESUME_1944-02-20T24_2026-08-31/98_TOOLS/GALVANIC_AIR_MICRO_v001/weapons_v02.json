@@ -1,0 +1,187 @@
+{
+  "model_version": "air-microcombat-v0.2",
+  "note": "Weapon ballistic values are working inputs. US .50 is primary-source anchored; Japanese aircraft-gun values are mixed primary/postwar technical-source anchors and explicit priors pending captured-ammunition-table closure.",
+  "weapons": {
+    "US50_M2": {
+      "name": "Browning AN-M2 .50",
+      "caliber_mm": 12.7,
+      "projectile_g": 45.9,
+      "muzzle_mps": 884,
+      "rpm": 800,
+      "rpm_sigma": 35,
+      "base_pen_mm_250": 18.0,
+      "blast": 0.05,
+      "incendiary": 0.58,
+      "ammo_mix": {
+        "AP": 0.28,
+        "API": 0.42,
+        "I": 0.15,
+        "T": 0.1,
+        "BALL": 0.05
+      },
+      "source_grade": "A"
+    },
+    "US20_ANM2": {
+      "name": "20mm AN-M2",
+      "caliber_mm": 20.0,
+      "projectile_g": 132.0,
+      "muzzle_mps": 884,
+      "rpm": 650,
+      "rpm_sigma": 70,
+      "base_pen_mm_250": 27.0,
+      "blast": 1.05,
+      "incendiary": 0.62,
+      "ammo_mix": {
+        "HEI": 0.55,
+        "AP": 0.25,
+        "T": 0.1,
+        "BALL": 0.1
+      },
+      "source_grade": "A/B"
+    },
+    "JP77_T97": {
+      "name": "Type 97 7.7mm",
+      "caliber_mm": 7.7,
+      "projectile_g": 11.3,
+      "muzzle_mps": 750,
+      "rpm": 900,
+      "rpm_sigma": 60,
+      "base_pen_mm_250": 7.0,
+      "blast": 0.0,
+      "incendiary": 0.18,
+      "ammo_mix": {
+        "BALL": 0.55,
+        "AP": 0.2,
+        "I": 0.15,
+        "T": 0.1
+      },
+      "source_grade": "B-prior"
+    },
+    "JP127_HO103": {
+      "name": "Ho-103 12.7mm",
+      "caliber_mm": 12.7,
+      "projectile_g": 38.5,
+      "muzzle_mps": 767,
+      "rpm": 980,
+      "rpm_sigma": 35,
+      "base_pen_mm_250": 13.0,
+      "blast": 0.25,
+      "incendiary": 0.52,
+      "ammo_mix": {
+        "AP": 0.25,
+        "HEI": 0.35,
+        "I": 0.25,
+        "T": 0.1,
+        "BALL": 0.05
+      },
+      "source_grade": "A-rate/velocity; B-prior projectile/penetration"
+    },
+    "JP132_T3": {
+      "name": "Type 3 13.2mm",
+      "caliber_mm": 13.2,
+      "projectile_g": 51.5,
+      "muzzle_mps": 790,
+      "rpm": 800,
+      "rpm_sigma": 50,
+      "base_pen_mm_250": 16.0,
+      "blast": 0.08,
+      "incendiary": 0.58,
+      "ammo_mix": {
+        "AP": 0.3,
+        "API": 0.35,
+        "I": 0.2,
+        "T": 0.1,
+        "BALL": 0.05
+      },
+      "source_grade": "B-prior"
+    },
+    "JP20_T99_2": {
+      "name": "Type 99 No.2 20mm",
+      "caliber_mm": 20.0,
+      "projectile_g": 128.0,
+      "muzzle_mps": 750,
+      "rpm": 540,
+      "rpm_sigma": 45,
+      "base_pen_mm_250": 19.0,
+      "blast": 0.92,
+      "incendiary": 0.66,
+      "ammo_mix": {
+        "HEI": 0.58,
+        "AP": 0.2,
+        "I": 0.1,
+        "T": 0.07,
+        "BALL": 0.05
+      },
+      "source_grade": "B-prior"
+    },
+    "JP20_HO5": {
+      "name": "Ho-5 20mm",
+      "caliber_mm": 20.0,
+      "projectile_g": 84.0,
+      "muzzle_mps": 750,
+      "rpm": 900,
+      "rpm_sigma": 60,
+      "base_pen_mm_250": 18.0,
+      "blast": 0.74,
+      "incendiary": 0.62,
+      "ammo_mix": {
+        "HEI": 0.55,
+        "AP": 0.22,
+        "I": 0.1,
+        "T": 0.08,
+        "BALL": 0.05
+      },
+      "source_grade": "A-rate/B-ballistics"
+    },
+    "US30_ANM2": {
+      "name": "Browning AN-M2 .30 (rear flexible, B-prior)",
+      "caliber_mm": 7.62,
+      "projectile_g": 9.7,
+      "muzzle_mps": 835,
+      "rpm": 1000,
+      "rpm_sigma": 80,
+      "base_pen_mm_250": 7.0,
+      "blast": 0.018,
+      "incendiary": 0.24,
+      "ammo_mix": {
+        "AP": 0.3,
+        "I": 0.2,
+        "T": 0.15,
+        "BALL": 0.35
+      },
+      "source_grade": "B-prior"
+    }
+  },
+  "ammo_effects": {
+    "AP": {
+      "pen_scale": 1.0,
+      "blast_scale": 0.05,
+      "inc_scale": 0.05
+    },
+    "API": {
+      "pen_scale": 0.92,
+      "blast_scale": 0.06,
+      "inc_scale": 1.0
+    },
+    "I": {
+      "pen_scale": 0.42,
+      "blast_scale": 0.05,
+      "inc_scale": 1.12
+    },
+    "HEI": {
+      "pen_scale": 0.3,
+      "blast_scale": 1.0,
+      "inc_scale": 0.95
+    },
+    "T": {
+      "pen_scale": 0.48,
+      "blast_scale": 0.02,
+      "inc_scale": 0.3
+    },
+    "BALL": {
+      "pen_scale": 0.62,
+      "blast_scale": 0.0,
+      "inc_scale": 0.0
+    }
+  }
+}

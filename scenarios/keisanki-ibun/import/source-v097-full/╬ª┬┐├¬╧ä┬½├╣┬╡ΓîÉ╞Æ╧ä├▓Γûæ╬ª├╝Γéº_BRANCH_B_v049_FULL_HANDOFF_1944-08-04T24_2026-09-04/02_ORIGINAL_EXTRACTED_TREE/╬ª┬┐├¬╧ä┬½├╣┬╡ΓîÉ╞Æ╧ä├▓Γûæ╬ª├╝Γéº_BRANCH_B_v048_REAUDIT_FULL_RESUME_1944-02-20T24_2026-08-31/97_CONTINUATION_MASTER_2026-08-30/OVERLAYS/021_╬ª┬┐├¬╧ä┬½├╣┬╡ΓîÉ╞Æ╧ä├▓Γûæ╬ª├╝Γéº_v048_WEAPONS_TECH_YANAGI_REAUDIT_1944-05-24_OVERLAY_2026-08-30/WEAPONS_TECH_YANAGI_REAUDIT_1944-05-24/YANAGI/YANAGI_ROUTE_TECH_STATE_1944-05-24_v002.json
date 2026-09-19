@@ -1,0 +1,121 @@
+{
+  "revision": "v002",
+  "id": "YANAGI_ROUTE_TECH_STATE_1944-05-24_v002",
+  "status": "WORKING_CURRENT_OVERLAY_ADJUDICATION",
+  "as_of": "1944-05-24T24:00:00+09:00",
+  "parent": "06_RUNTIME/YANAGI_ROUTE_TECH_GATE_STATE_1944-01-28_WORKING_v001.json",
+  "core_rule": "Protected high-grade COMSEC removes historical interceptions that critically depended on decrypted itinerary/rendezvous traffic; ordinary sonar, radar, visual patrol, mines, weather, machinery and HFDF/traffic-analysis risk remain.",
+  "missions": [
+    {
+      "mission": "I-30 first Yanagi",
+      "state": "SUCCESS_REALIZED_PRIOR_BRANCH",
+      "result": "survived historical Singapore mine loss and delivered complete remaining technical cargo to Japan in late 1942",
+      "important_technology": [
+        "Würzburg-class radar hardware/data",
+        "Metox-class RWR",
+        "Bold-class acoustic decoy",
+        "TDC/torpedo comparison",
+        "metrology/calibration equipment"
+      ],
+      "1944_effect": "already absorbed into radar/ESM/ASW/calibration/service practice; do not count again as a May 1944 bonus"
+    },
+    {
+      "mission": "U-180 / I-29 first exchange 1943",
+      "state": "SUCCESS_RETAINED",
+      "result": "second-pass documentation, small parts and answers to Japanese implementation questions",
+      "1944_effect": "refinement of I-30-derived lines, not duplicate technology multiplication"
+    },
+    {
+      "mission": "U-511 -> RO-500",
+      "state": "SUCCESS_RETAINED",
+      "result": "Type IX comparative reference for welding, machinery mounting, vibration/noise, maintenance access and measurement",
+      "guard": "does not create a Sen-Taka fleet by itself"
+    },
+    {
+      "mission": "I-8 round trip",
+      "state": "SUCCESS_RETAINED",
+      "return_date": "1943-12-21",
+      "result": "tacit troubleshooting, calibration, acoustic-test and production/service knowledge",
+      "1944_effect": "research-yard and selected A-grade service-node practice improves during Q1-Q2"
+    },
+    {
+      "mission": "I-34 outbound/return",
+      "state": "ALIVE_EASTBOUND_CENTERLINE_AS_OF_1944-05-24",
+      "historical_Taurus_loss": "REMOVED because the decisive Ultra vector is absent in Branch",
+      "branch_europe_arrival": {
+        "adjudicated_band": "1944-02-03..12",
+        "center": "1944-02-08",
+        "state": "REALIZED"
+      },
+      "europe_visit_result": [
+        "Rear Adm Kojima and the original Mitsubishi technical party remain on I-34 rather than being duplicated on I-29.",
+        "Direct observation of German axial-flow turbojet/rocket/radar/submarine production and test practice.",
+        "Secure low-bandwidth summaries in late Feb-Mar prune Japanese compressor, hot-section, fuel-control and test-program choices.",
+        "No complete German jet engine is credited to Japan from radio text."
+      ],
+      "return_departure_working": {
+        "band": "1944-03-12..20",
+        "center": "1944-03-16",
+        "state": "REALIZED_WORKING"
+      },
+      "return_cargo_centerline": [
+        "drawings/microfilm/test reports",
+        "materials and heat-treatment samples",
+        "bearings/seals/fuel-control components",
+        "selected compressor/turbine pieces",
+        "measurement/calibration instruments",
+        "additional radar/submarine production documentation"
+      ],
+      "not_carried_as_duplicate": "no automatic second complete Jumo 004B/HWK 509 package",
+      "projected_singapore_if_survives": {
+        "band": "1944-06-05..20",
+        "center": "1944-06-12",
+        "status": "FUTURE_CONDITIONAL"
+      }
+    },
+    {
+      "mission": "I-29 second Yanagi",
+      "state": "ALIVE_EASTBOUND_AS_OF_1944-05-24",
+      "europe_arrival": "1944-03-11 retained",
+      "return_departure": "1944-04-16 retained",
+      "passenger_guard": "Kojima/I-34 technical party is not duplicated; complementary specialists replace that historical duplication",
+      "high_confidence_physical_cargo": [
+        "Jumo 004B jet engine",
+        "HWK 509A-1 rocket motor",
+        "technical drawings/small equipment"
+      ],
+      "BMW003": "photos/general-arrangement information yes; full physical BMW003 not auto-granted",
+      "current_effect_in_Japan": "physical engine/rocket hardware = 0 as of 24 May",
+      "future": "Singapore arrival remains a later gate; historical post-Singapore Sawfish interception cannot be inherited from decrypted schedule traffic."
+    },
+    {
+      "mission": "RO-501",
+      "state": "LOST_1944-05-13_CENTERLINE",
+      "why_retained": "historical destruction was a close direct sonar/Hedgehog/depth-charge ASW engagement rather than a clean decrypted-itinerary ambush; Branch RWR/decoy/procedural gains are insufficient to erase the centerline contact",
+      "cargo_result": "Type IX drawings / Me 163 blueprint material aboard this route is lost",
+      "branch_damage_limit": "loss is less technologically catastrophic than history because I-30/I-8 knowledge is established and I-34/I-29 provide redundant/complementary channels"
+    },
+    {
+      "mission": "I-52",
+      "state": "ALIVE_OUTBOUND_AS_OF_1944-05-24",
+      "departure": "Kure 1944-03-10; Singapore 03-21; departed Singapore 03-23",
+      "current_position_gate": "passed Cape of Good Hope around 1944-05-15; Atlantic approach phase",
+      "cargo_direction": "strategic materials/gold/technicians TO Europe; no German return hardware benefit yet",
+      "historical_future_loss_policy": "DO NOT AUTO-INHERIT June Bogue interception because historical tracking/rendezvous vector depended heavily on intercepted and decoded traffic; ordinary HFDF, patrol and hunter-killer risk still applies",
+      "next_gate": "rendezvous / Europe arrival / possible return cargo after discussion clock reaches June"
+    }
+  ],
+  "net_branch_technology_effect_by_1944-05-24": {
+    "already_physical_in_Japan": [
+      "I-30 complete technical cargo",
+      "I-8-return tacit knowledge",
+      "RO-500 comparative submarine reference"
+    ],
+    "information_only_new_1944": [
+      "I-34 Europe observations and low-bandwidth summaries"
+    ],
+    "physical_German_jet_rocket_hardware_in_Japan": 0,
+    "pending_major_physical_gate": "I-29 Jumo004B/HWK509A-1, if return route survives",
+    "strategic_assessment": "Yanagi has improved Japanese test/calibration and design-pruning speed, but has not created 1944 operational jets or removed manufacturing-material bottlenecks."
+  }
+}

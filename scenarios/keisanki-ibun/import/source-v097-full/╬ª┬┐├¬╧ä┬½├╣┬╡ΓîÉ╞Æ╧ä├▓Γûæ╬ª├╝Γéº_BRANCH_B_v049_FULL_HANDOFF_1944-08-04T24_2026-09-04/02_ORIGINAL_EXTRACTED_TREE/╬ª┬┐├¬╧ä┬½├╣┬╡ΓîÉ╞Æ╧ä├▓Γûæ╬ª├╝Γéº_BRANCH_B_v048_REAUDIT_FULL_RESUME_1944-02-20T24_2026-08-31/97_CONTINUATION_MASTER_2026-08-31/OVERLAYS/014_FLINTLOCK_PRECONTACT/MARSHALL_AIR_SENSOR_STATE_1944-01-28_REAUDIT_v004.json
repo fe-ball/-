@@ -1,0 +1,37 @@
+{
+  "id": "MARSHALL_AIR_SENSOR_STATE_1944-01-28_REAUDIT_v004",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "as_of": "1944-01-28T12:00:00+12:00",
+  "basis": "Carries the 15-Jan hardened/dispersed regional pool forward through continued US Gilbert pressure, repair/replacement flow and late defense cargo. Does not import the old Jan-28 OOB unchanged.",
+  "theatre_total": {
+    "physical_present_band": [162, 178],
+    "physical_center": 170,
+    "combat_serviceable_band": [136, 150],
+    "combat_serviceable_center": 143,
+    "immediate_alert_or_search_capable_band": [116, 132],
+    "immediate_center": 124
+  },
+  "serviceable_center_by_node": {
+    "Maloelap_Taroa": 47,
+    "Roi_Namur_land_air": 30,
+    "Kwajalein_Ebeye_water_recon": 10,
+    "Wotje": 15,
+    "Mili": 11,
+    "Jaluit": 9,
+    "Eniwetok": 14,
+    "other_dispersed_water_or_staging_nodes": 7
+  },
+  "subsets_not_additive": {
+    "Raiden_serviceable_center": 15,
+    "Kyofu_serviceable_center": 10,
+    "Zuiun_serviceable_center": 7,
+    "Kinsei_Zero_Marshall_detachment": 0
+  },
+  "sensor_C2": {
+    "Taroa": "A-grade warning/plot node; intact chain commonly yields about 20-35 min useful preparation, not precision GCI.",
+    "Kwajalein_Roi": "A-/B+ HQ/air/water-air plot with improved lagoon warning, alternate power and telephone routing.",
+    "Wotje_Mili_Jaluit": "B+/B distributed warning/DF/radio/water-air nodes; valuable for sector cue and persistence more than fine fighter control.",
+    "Kusaie_Ponape": "Rear warning/weather/DF/staging depth; does not create same-morning free Marshall CAP."
+  },
+  "operational_note": "US land air is steadily suppressing southern/eastern bases, but hardening turns the campaign into repeated runway, fuel, repair and sensor reattack rather than a one-pass aircraft parking-lot kill."
+}

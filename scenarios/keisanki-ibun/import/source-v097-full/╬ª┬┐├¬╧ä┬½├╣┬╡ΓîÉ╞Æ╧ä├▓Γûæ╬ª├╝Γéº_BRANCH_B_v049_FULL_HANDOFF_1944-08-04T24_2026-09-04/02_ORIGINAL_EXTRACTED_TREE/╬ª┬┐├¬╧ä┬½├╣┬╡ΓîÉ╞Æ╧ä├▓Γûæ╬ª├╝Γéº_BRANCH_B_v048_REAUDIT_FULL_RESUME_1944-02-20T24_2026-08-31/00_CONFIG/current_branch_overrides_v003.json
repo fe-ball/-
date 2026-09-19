@@ -1,0 +1,98 @@
+{
+  "revision": "v003",
+  "purpose": "Schema-normalized current-branch overrides through 1944-04-30; behavior is unchanged from v002.",
+  "protocol": "00_CONFIG/rule_override_protocol_v002.json",
+  "overrides": [
+    {
+      "override_id": "OVR-COMINT-1942-HIGHGRADE-001",
+      "target_rule_ids": [],
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "CHECKPOINT_1942-04-10T24_v001",
+      "impact_scope": "checkpoint_descendants",
+      "effective_rule": "In 1942 Japanese high-grade naval plaintext is not available to US forces at strategically useful time/precision under normal conditions. Low-grade/plaintext/traffic/DF/recon/submarine/geographic-logistic inference remain active.",
+      "replaces_runtime_behavior": [
+        "RERUN_GATE_MATRIX_v005 K1 final sentence",
+        "COMSEC-1942-HIGH-GRADE-OUTCOME=OPEN as an automatic runtime reopen"
+      ],
+      "sources": [
+        "70_暗号・通信情報_設計防御・攻撃・運用.md",
+        "SESSION_HANDOFF_2026-08-18_v001.md"
+      ],
+      "invalidation_if_changed": [
+        "CHECKPOINT_1942-05-06T24_v001 and all descendants where COMINT affected observation/decision"
+      ]
+    },
+    {
+      "override_id": "OVR-PEARL-SYNC-001",
+      "target_rule_ids": [],
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "WARSTART_1941-12-07_08_v004",
+      "impact_scope": "all_descendants",
+      "effective_rule": "Pearl opening sync uses pearl_state_transition_v003 for execution; v001/v002 remain diagnostic/archive.",
+      "replaces_runtime_behavior": [
+        "opening_sync_state legacy Pearl pointer to v002"
+      ],
+      "source": "AUTHORITATIVE_MANIFEST_v004.json"
+    },
+    {
+      "override_id": "OVR-NO-LABEL-ADJUDICATION-1943PLUS-001",
+      "target_rule_ids": [
+        "R-SCIENCE-COMPARE-LIKE"
+      ],
+      "action": "expand_scope",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-01-01",
+      "impact_scope": "checkpoint_descendants",
+      "effective_rule": "Do not infer combat strength from nationality/year labels. Adjudicate actual present weapons, immediate readiness, crew/pilot median, information loop, maintenance regeneration, doctrine/training, enemy countertechnology, and allocation.",
+      "reason": "Prevents silent historical under/over-performance inheritance when branch technology, losses and institutions diverge.",
+      "watch_variables": [
+        "existence_vs_readiness",
+        "mission_state",
+        "search_freshness",
+        "repair_regeneration",
+        "crew_median"
+      ]
+    },
+    {
+      "override_id": "OVR-STATE-SEPARATION-001",
+      "target_rule_ids": [
+        "R-CLOCKS-SEPARATE"
+      ],
+      "action": "expand_scope",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-01-01",
+      "impact_scope": "checkpoint_descendants",
+      "effective_rule": "Separate existence, availability, readiness, mission set, mission effectiveness and allocation. A completed hull/prototype/airframe is not automatically a first-line combat asset.",
+      "reason": "Critical from 1943-44 as Taiho, N1K2-J, A7M, Ki-67, turbojet, I-400/Seiran and other systems overlap in different maturity states."
+    },
+    {
+      "override_id": "OVR-GLOBAL-EVENT-PROPAGATION-001",
+      "target_rule_ids": [
+        "R-CHECKPOINT-DESCENDANTS",
+        "R-UPSTREAM-BASELINE"
+      ],
+      "action": "expand_scope",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-01-01",
+      "impact_scope": "checkpoint_descendants",
+      "effective_rule": "Remote events may retain historical skeleton with bounded timing/loss changes; indirectly connected events must recalc dates/allocations/decisions; directly connected events must be fully recalculated. Check other theaters every 10-14 days before advancing.",
+      "reason": "Avoids freezing Europe/China/Burma while Pacific changes consume the same ships, aircraft, landing craft, reserves and political attention."
+    },
+    {
+      "override_id": "OVR-ASW-WEAPON-DELIVERY-KPI-001",
+      "target_rule_ids": [
+        "R-NO-DOUBLECOUNT",
+        "R-CROSS-STAGE-COMPOUND"
+      ],
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-10-01",
+      "impact_scope": "checkpoint_descendants",
+      "effective_rule": "For ASW track detection, datum maintenance, weapon delivery, damage, mission kill and kill separately. MAD/radar improvements primarily increase datum maintenance and weapon-delivery opportunities; do not multiply confirmed sinkings by the same factor.",
+      "reason": "Prevents over-crediting Tokai/MAD while preserving their large effect on denied attacks and hunter-killer trial count."
+    }
+  ],
+  "edit_protocol": "Create a new override revision; do not rewrite old evidence. Re-run only checkpoints listed by dependency/invalidation maps."
+}

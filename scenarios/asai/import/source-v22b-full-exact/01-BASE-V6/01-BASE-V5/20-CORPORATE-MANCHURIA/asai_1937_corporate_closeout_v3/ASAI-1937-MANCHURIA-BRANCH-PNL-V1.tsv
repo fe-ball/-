@@ -1,0 +1,19 @@
+line_item	central_million_yen	status	notes
+Special steels / tools / carbide	0.45	WORKING-AUDIT	Railway, mine, steel and repair-shop customers.
+Machine tools / gauges / general precision supplies	0.18	WORKING-AUDIT	Primarily support/lease/fixture style, not mass standalone machine-tool sales.
+Exhaust turbo / diesel auxiliaries / spares	0.27	WORKING-AUDIT	~100 annual Greater-Manchurian flow; product mix weighted to industrial/mine/rail/support use.
+Independent GT / power sets	0.26	WORKING-AUDIT	~10 Greater-Manchurian deliveries central.
+Computation lease / refurbishment / bureau / maintenance	0.20	RESTORE-CANDIDATE	~34 FSE Greater-Manchurian capacity with cheaper used-machine mix.
+Industrial machinery / field engineering	0.15	WORKING-AUDIT	Pumps, power/process support and engineering.
+Resident technical service / code-standardization / other	0.16	RESTORE-CANDIDATE	Important network externality, modest direct billing.
+Resins / miscellaneous supplies	0.05	WORKING-AUDIT	Small.
+TOTAL GREATER MANCHURIAN REVENUE	1.72	DERIVED	~6.8% of central company sales; includes Dairen/Kwantung.
+Dairen/Kwantung direct revenue estimate	0.45	DERIVED	Excluded from Manchukuo national-income denominator.
+MANCHUKUO-PROPER DIRECT REVENUE	1.27	DERIVED	~5.0% of central company sales.
+Branch gross profit	0.46	DERIVED	~26.7% blended; tool/service margins offset distribution-heavy sales.
+Branch payroll / local operations / depots	0.28	DERIVED	~400 staff, expatriate allowances and warehouse/service cost.
+Branch other operating expense	0.07	DERIVED	Travel, communications, rent, losses/refurbishment.
+Branch EBIT	0.11	DERIVED	~6.4% margin; strategically expanding rather than harvesting maximum margin.
+Greater-Manchurian headcount	400	WORKING-AUDIT	Approx. 140 Japanese/expatriate technical-admin and 260 local hires as a useful central split.
+Greater-Manchurian capital employed	1.25	DERIVED	Lease machines, spares/tools inventory, receivables, depots and cash.
+Branch ROCE	8.8	DERIVED	percent; EBIT / capital employed; deliberately not exceptional.

@@ -1,0 +1,53 @@
+{
+  "id": "FLINTLOCK_US_03FEB_REPLENISHMENT_AND_SUPPRESSION_WALLET_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-03",
+  "reason": "Two heavy island-suppression days plus 2-Feb carrier battle force a finite recovery/refuel/maintenance cycle.",
+  "priority_order": [
+    "CAP against possible Japanese reattack",
+    "carrier search/recontact",
+    "ASW and damaged-Cabot route cover",
+    "fuel/ammunition/maintenance recovery",
+    "bounded Marshall suppression"
+  ],
+  "TF58_offensive_suppression_sorties_band": [
+    105,
+    145
+  ],
+  "center_TF58": 125,
+  "Gilbert_relevant_sorties_band": [
+    48,
+    62
+  ],
+  "center_Gilbert": 55,
+  "non_strike_sorties_note": "Large CAP/search/ASW counts occur in addition; they must not be counted as island suppression.",
+  "fast_BB_detachment": "NO centered on 3-Feb morning; reassess only after Japanese carrier/surface withdrawal confidence increases.",
+  "Japanese_local_loss_band": [
+    10,
+    16
+  ],
+  "US_local_loss_band": [
+    5,
+    8
+  ],
+  "Marshall_3Feb_T24": {
+    "combat_serviceable_band": [
+      39,
+      49
+    ],
+    "center": 44,
+    "fighters_band": [
+      18,
+      23
+    ],
+    "attack_band": [
+      7,
+      10
+    ],
+    "water_recon_band": [
+      8,
+      11
+    ],
+    "C2": "fragmented C/C- at main eastern nodes; local warning survives in pockets and rear/water-air links."
+  }
+}

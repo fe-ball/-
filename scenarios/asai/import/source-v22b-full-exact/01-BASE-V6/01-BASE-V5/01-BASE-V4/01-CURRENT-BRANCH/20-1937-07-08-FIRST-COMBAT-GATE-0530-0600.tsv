@@ -1,0 +1,5 @@
+event_id	time	event	historical_baseline	branch_delta	status	asai_relevance	next_gate
+E-19370708-08	1937-07-08 05:30	Chinese fire as Japanese troops advance near Longwangmiao; full combat begins	Occurs	none material	CLOSED-SAME	none	
+E-19370708-09	1937-07-08 05:30-06:00	First short firefight	Short local firefight with casualties	possible minor weapon-quality noise only	CLOSED-SAME-WITH-NOISE	non-branching	
+E-19370708-10	1937-07-08 06:00	Local firing is temporarily stopped through investigation/negotiation activity	Occurs	none	CLOSED-SAME	none	
+E-19370708-11	1937-07-08 06:00	Japanese battalion HQ falls back toward railway bridge foot; detachment remains on river island	Occurs	none material	CLOSED-DIRECTION	none	1937-07-08 06:00-12:00

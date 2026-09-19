@@ -1,0 +1,74 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_PACIFIC_ISR_SYSTEM_MATURITY_1944-03-20_31_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-03-21..31",
+  "global_frontier_after_merge": "1944-03-31T24",
+  "parents": [
+    "JAPAN_PACIFIC_CARRIER_STRATEGIC_DECISION_1944-03-20_WORKING_v001",
+    "TRUK_HAILSTONE_WARNING_CHAIN_1944-02-15_20_WORKING_v002",
+    "TECH-SEARCH-MULTILAYER-001",
+    "TECH-RADAR-CLOSEDLOOP-1943PLUS-001",
+    "TECH-ESM-CUED-RECON-1943-001",
+    "TECH-COMINT-JP-OFFENSE-001"
+  ],
+  "purpose": "Convert the accumulated 1942-44 search/radar/ESM/RI-DF/COMINT and HAILSTONE lessons into a theater-level Pacific ISR maturity model. The system is mature for warning, sector narrowing and dispersal, not for automatic long-range weapon-quality carrier fixes.",
+  "contact_quality_ladder": [
+    "EM_WARNING",
+    "BEARING_HISTORY_OR_BATTLE_PREP",
+    "SENSOR_OR_VISUAL_CONTACT",
+    "TRACK",
+    "WEAPON_QUALITY_TRACK"
+  ],
+  "late_March_maturity": {
+    "traffic_analysis_RI_DF_and_COMINT": {
+      "grade": "B+/A- PRIORITY_AXIS",
+      "effect": "Can recognize unusual US fast-carrier traffic/logistics patterns and narrow likely operational sectors. Cannot routinely read highest-grade US operational content or identify exact carrier coordinates."
+    },
+    "fixed_base_warning_plot_priority_nodes": {
+      "grade": "A-GRADE_LOCAL",
+      "effect": "Palau-class priority nodes can combine radar, visual posts, DF, weather, plot, fighter readiness and AA alert into a useful local warning/defense loop."
+    },
+    "wide_area_maritime_search": {
+      "grade": "B+",
+      "effect": "Flying boats, seaplanes, land reconnaissance and selected submarines/pickets can cover likely approach sectors efficiently when cued; still constrained by weather, aircraft availability, navigation and enemy CAP."
+    },
+    "recontact_and_track_maintenance": {
+      "grade": "B/B+",
+      "effect": "Suspicious contacts are revisited and multiple reports are correlated. Long-range fast-carrier tracks still expire often because the target moves quickly and reconnaissance aircraft are vulnerable."
+    },
+    "long_range_weapon_quality_cueing": {
+      "grade": "C+/B-",
+      "effect": "Insufficient by itself for a coordinated Japanese carrier strike. Normally requires a recent visual/submarine contact plus predicted movement and favorable weather/communications."
+    },
+    "command_acceptance_and_alert_persistence": {
+      "grade": "A- FOR PRIORITY THREATS",
+      "effect": "Post-HAILSTONE doctrine no longer treats one negative search as reason to stand down when traffic/DF/visual cues remain convergent. This is a major soft-progress gain."
+    },
+    "fleet_CIC_equivalence": {
+      "grade": "BELOW_US_STANDARD",
+      "effect": "Selected ships have better radar/plot/ESM integration, but there is no fleet-wide US-style CIC/centimetric-radar equivalence. Tactical fighter direction and mobile recontact remain uneven."
+    }
+  },
+  "system_logic": [
+    "Use traffic/DF/passive cues to narrow the ocean sector.",
+    "Send scarce long-range reconnaissance, submarines or pickets into the narrowed sector.",
+    "Demand a confirmation/recontact cycle before releasing mobile carriers.",
+    "If confirmation is stale but threat probability is high, disperse fixed high-value assets and raise base readiness rather than sortie blindly.",
+    "Keep warning and weapon-quality targeting as separate thresholds."
+  ],
+  "soft_learning_inputs": [
+    "1942 carrier-search lessons",
+    "1943 layered-search and fixed-base plotting maturation",
+    "GALVANIC radar/plot/air-defense exchange feedback",
+    "HAILSTONE persistent-warning and pre-dispersal lesson",
+    "routine ESM-cued reconnaissance and electronics field-service practice"
+  ],
+  "guardrails": [
+    "Do not turn one RWR/DF bearing into a carrier position.",
+    "Do not grant fleet-wide US CIC performance.",
+    "Do not let strategic warning automatically release the four-carrier core.",
+    "Do not reset alert to normal merely because one reconnaissance sweep is negative."
+  ],
+  "strategic_conclusion": "By late March 1944 the Branch Japanese system is credible at theater warning and asset preservation. Its weakest remaining link is persistent mobile-ocean tracking to a fresh strike-quality solution."
+}

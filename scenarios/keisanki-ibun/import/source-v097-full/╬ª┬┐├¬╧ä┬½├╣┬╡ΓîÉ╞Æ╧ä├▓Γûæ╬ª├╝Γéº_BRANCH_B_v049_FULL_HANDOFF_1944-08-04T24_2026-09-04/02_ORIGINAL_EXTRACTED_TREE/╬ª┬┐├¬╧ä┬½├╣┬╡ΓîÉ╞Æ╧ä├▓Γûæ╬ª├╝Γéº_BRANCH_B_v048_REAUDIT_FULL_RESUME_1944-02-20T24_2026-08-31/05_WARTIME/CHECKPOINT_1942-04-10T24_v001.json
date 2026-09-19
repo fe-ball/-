@@ -1,0 +1,74 @@
+{
+  "revision": "v001",
+  "id": "CHECKPOINT_1942-04-10T24_v001",
+  "checkpoint_id": "CHECKPOINT_1942-04-10T24_v001",
+  "as_of": "1942-04-11T00:00:00",
+  "status": "authoritative",
+  "type": "FORMAL_POST_OPERATION_C_CHECKPOINT",
+  "parent": "WARSTART_1941-12-07_08_v004",
+  "parent_checkpoint": "WARSTART_1941-12-07_08_v004",
+  "technical_baseline": "TECH_INDEX_v003",
+  "prewar_baseline": "PREWAR_INDEX_v003",
+  "warstart_state": "WARSTART_STATE_LEDGER_v002.json",
+  "current_branch_overrides": "00_CONFIG/current_branch_overrides_v001.json",
+  "state_sources": [
+    "06_RUNTIME/1942Q2_OPERATION_C_MO_MI_REAUDIT_SETTLEMENT_v001.md"
+  ],
+  "maturation_deltas": [
+    "Carrier search/report doctrine has additional live-combat evidence from Operation C; treat this as experience/maturation of existing TECH-AIR-NAV-REPORT-I-O-001 and TECH-SEARCH-MULTILAYER-001, not a new technology."
+  ],
+  "dependency_notes": [
+    "All Coral Sea/MO/MI descendants on the old 80/85 branch are invalid as execution state."
+  ],
+  "operation_c": {
+    "qualitative_branch": "Japanese search/recontact after Cornwall/Dorsetshire contact finds Somerville Force A on 1942-04-05.",
+    "royal_navy": {
+      "sunk": [
+        "HMS Cornwall",
+        "HMS Dorsetshire",
+        "HMS Indomitable",
+        "HMS Formidable"
+      ],
+      "damaged_survives": [
+        "HMS Warspite"
+      ],
+      "historical_1942-04-09_losses_now_survive": [
+        "HMS Hermes",
+        "HMAS Vampire",
+        "HMS Hollyhock",
+        "Athelstane",
+        "British Sergeant"
+      ],
+      "carrier_personnel_loss_bound": "Indomitable/Formidable combined aboard about 280-480 dead; center about 380, plus FAA airborne losses about 20-40."
+    },
+    "japanese": {
+      "carrier_hulls": "No carrier hull damage in Operation C.",
+      "carDiv5_additional_aircraft_loss": "about 7-9 aircraft lost, 6-10 repairable damaged",
+      "carDiv5_aircrew_loss": "about 15-20 dead/MIA",
+      "whole_kido_butai_extra_aircraft_loss": "low double digits beyond the historical raid line"
+    },
+    "1942-04-09_trincomalee": "Cancelled; main fleet begins return earlier after Force A destruction.",
+    "strategic_state": [
+      "British 1942 fast modern fleet-carrier scarcity becomes severe.",
+      "Eastern Fleet must avoid carrier battle and rely more on Ceylon land air, radar, submarines and retreat depth.",
+      "Japan can exploit Indian Ocean sea denial/commerce pressure more cheaply, but Ceylon conquest/permanent control is not automatic."
+    ]
+  },
+  "technical_entries": [
+    "TECH-DAMAGE-STATE-TRANSITION-001",
+    "TECH-AIR-NAV-REPORT-I-O-001",
+    "TECH-SEARCH-MULTILAYER-001",
+    "TECH-SURFACE-SPEED-ROBUSTNESS-001",
+    "TECH-GUNFIRE-SURFACE-1942-001",
+    "TECH-GUNFIRE-LONGRANGE-NONSTANDARD-001",
+    "TECH-TORPEDO-SURFACE-ACCURACY-001",
+    "TECH-TORPEDO-SECOND-SALVO-001",
+    "TECH-ASW-CONTACT-HANDOFF-001",
+    "TECH-ASW-FOCUSED-CONVOY-1942-001",
+    "TECH-AMPHIBIOUS-FIRSTDAY-001",
+    "TECH-CARRIER-MISSION-CLASS-001",
+    "TECH-COMINT-RESIDUAL-CHANNELS-1942-001",
+    "TECH-SUB-INFO-AGE-001"
+  ],
+  "next_boundary": "CHECKPOINT_1942-05-11T24_v001"
+}

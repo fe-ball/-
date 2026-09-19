@@ -1,0 +1,26 @@
+{
+  "id": "FLINTLOCK_1944-02-08_INTEGRATED_RERUN_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-07T24 through 1944-02-08T24 Marshall local",
+  "source_checkpoint": "FLINTLOCK_1944-02-07T24_WORKING_CHECKPOINT_v001",
+  "operational_result": {
+    "Roi_Namur": "Secure declared morning 8-Feb after pocket checks; only isolated hidden individuals remain.",
+    "Kwajalein": "Organized island resistance collapses late afternoon/early evening 8-Feb. Operational control is US, but isolated shelters/groups remain and a formal secure declaration should follow after night/morning verification.",
+    "air": "Regional Japanese coherent strike capability is effectively gone; 6-9 serviceable aircraft remain, largely reconnaissance/water/local-defense types.",
+    "sea": "No additional major US ship hit centered. Japanese submarines continue to impose ASW and escort cost but their effective geometry is thinning."
+  },
+  "US_Dplus2_ground_casualties": {
+    "Roi_Namur_band": [15, 30],
+    "Kwajalein_band": [260, 385],
+    "combined_band": [275, 415],
+    "combined_center": 340,
+    "note": "Ground/landing-area fighting only; separate 5-Feb LST personnel losses remain outside this total."
+  },
+  "cumulative_main_landing_battles_through_8Feb_T24": {
+    "previous_band": [1260, 1740],
+    "new_band": [1535, 2155],
+    "center": 1840,
+    "guard": "Main Roi-Namur and Kwajalein ground battles only; do not mix in carrier-air, submarine, naval or LST personnel losses."
+  },
+  "next_frontier": "1944-02-08T24 Marshall local; resolve 8/9-Feb isolated pocket clearance, Kwajalein secure declaration, prisoner/intelligence capture, and post-assault support/airfield transition."
+}

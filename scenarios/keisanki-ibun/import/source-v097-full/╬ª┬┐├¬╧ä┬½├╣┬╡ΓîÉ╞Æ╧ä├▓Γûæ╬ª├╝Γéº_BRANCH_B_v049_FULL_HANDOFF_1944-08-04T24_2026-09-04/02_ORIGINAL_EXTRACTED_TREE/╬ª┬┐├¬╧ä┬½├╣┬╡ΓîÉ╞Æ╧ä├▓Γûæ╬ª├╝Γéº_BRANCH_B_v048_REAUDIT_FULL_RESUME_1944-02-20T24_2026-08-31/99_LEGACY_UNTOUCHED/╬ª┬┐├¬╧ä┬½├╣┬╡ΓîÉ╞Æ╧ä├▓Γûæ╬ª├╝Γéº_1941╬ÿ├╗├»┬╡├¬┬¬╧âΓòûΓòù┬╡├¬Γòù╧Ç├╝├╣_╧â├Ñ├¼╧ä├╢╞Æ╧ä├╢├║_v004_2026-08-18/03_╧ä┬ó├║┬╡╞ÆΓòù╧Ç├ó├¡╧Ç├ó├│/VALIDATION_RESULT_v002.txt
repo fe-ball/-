@@ -1,0 +1,3 @@
+OPENING_SYNC_VALIDATION errors=0 warnings=0
+OPENING_SYNC_GATE=PASS
+NEXT=1941-12-08..15 Malaya daily; Pearl ship-level and Philippines return/serviceability parallel ledgers

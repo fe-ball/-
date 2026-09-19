@@ -1,0 +1,55 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_FIRST_LINE_CARRIER_BATTLE_STATE_1944-02-03T1530_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-02-03T15:30:00+12:00",
+  "prebattle_ref": "06_RUNTIME/JAPAN_FIRST_LINE_CARRIER_HOLDING_FORCE_1944-01-28_02-02_WORKING_v003.json",
+  "ships": {
+    "Shokaku": "OPERATIONAL_WITH_LIGHT_TOPSIDE_DAMAGE",
+    "Zuikaku": "OPERATIONAL",
+    "Hiryu": "MOBILE_FLIGHT_OPS_SUSPENDED_PENDING_REPAIR",
+    "Soryu": "NOT_IN_BATTLE; trial/team-readiness clock continues"
+  },
+  "air_group": {
+    "prebattle_ready_center": 219,
+    "3Feb_irrecoverable_center": 73,
+    "additional_damaged_or_repair_queue_center": "about 18-26 after both offensive and defensive cycles",
+    "immediate_serviceable_center_band": [
+      118,
+      132
+    ],
+    "immediate_serviceable_center": 125,
+    "cadre_note": "Losses again fall disproportionately on strike leaders, navigators and multi-seat attack crews; raw replacement airframes do not erase this debt."
+  },
+  "screen": [
+    "Hiei",
+    "Kirishima",
+    "Tone",
+    "Chikuma",
+    "Noshiro",
+    "Akizuki",
+    "Hatsuzuki",
+    "Suzutsuki",
+    "Shimakaze",
+    "Yugumo",
+    "Makigumo",
+    "Onami",
+    "Fujinami",
+    "Hamakaze",
+    "Isokaze"
+  ],
+  "posture": "WITHDRAW_WEST_PRESERVE_TWO_OPERATIONAL_DECKS_AND_DAMAGED_HIRYU",
+  "no_second_strike_reason": [
+    "target benefit already obtained: one US CVL campaign-out and one CV temporary interruption",
+    "air-group attrition severe",
+    "US other TGs now know the Japanese return bearing",
+    "Hiryu deck unavailable",
+    "positive-EV condition for a second exchange is gone"
+  ],
+  "repair_gates": [
+    "Hiryu flight-deck/hangar repair clock",
+    "Cabot repair analogue on US side",
+    "Intrepid deck repair/local availability",
+    "carrier-air-group regeneration before next Central-Pacific sortie"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "revision": "v001",
+  "id": "RETRO_EASTERN_FLEET_SUPPRESSION_1944-01-28_03-03_MANIFEST_v001",
+  "status": "LOAD_AFTER_1944-03-03_PROGRESS_NO_CLOCK_CHANGE",
+  "purpose": "Retroactive planning interpretation only; no combat result or global time advance.",
+  "load_after": [
+    "計算機異聞_v048_PROGRESS_1944-02-28_03-03_OVERLAY_2026-08-30.zip"
+  ],
+  "files": [
+    "OPERATIONS/JAPAN_EASTERN_FLEET_SUPPRESSION_RETRO_PLANNING_1944-01-28_03-03_WORKING_v001.json"
+  ],
+  "global_frontier_unchanged": "1944-03-03T24"
+}

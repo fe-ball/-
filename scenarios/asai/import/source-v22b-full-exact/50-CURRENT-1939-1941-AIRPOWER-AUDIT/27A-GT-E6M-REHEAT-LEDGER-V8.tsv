@@ -1,0 +1,12 @@
+item	status	value_or_state	note
+E6-M-JR_baseline	CLOSED	E6-M-J 14kg/s PR7 870C ~850-854kgf	accepted parent
+reheat_1000C	CLOSED-engineering	~985kgf; +15.4%; throat~0.0644m2	first useful installed coordinate
+reheat_1100C	CLOSED-engineering	~1025kgf; +20.1%; throat~0.0670m2	first flight-development central candidate
+reheat_1200C	CLOSED-engineering	~1065kgf; +24.8%; throat~0.0696m2	mature research target
+reheat_1300C	RIG-CEILING	~1103kgf; +29.3%; throat~0.0721m2	selected short rig ceiling, not service rating
+wet_nozzle_area_ratio	CLOSED	~1.25-1.36 for 1000-1200C	vs dry throat ~0.0513m2
+afterburner_add_mass	WORKING-CLOSED	55-85kg; center~70kg	no extra high-power spool
+afterburner_add_length	WORKING-CLOSED	0.45-0.65m	tailpipe burner + variable nozzle
+E6-M-JR_dry_mass	WORKING-CLOSED	570-625kg; center~595kg	based on E6-M-J 500-555 plus backend
+reheat_1939_state	CLOSED-state	R2 active	static rear-end/variable-nozzle rig; no flight release
+reheat_flight_gate	OPEN	1940-41 local qualification	endurance + relight + stability + flight/nozzle schedule

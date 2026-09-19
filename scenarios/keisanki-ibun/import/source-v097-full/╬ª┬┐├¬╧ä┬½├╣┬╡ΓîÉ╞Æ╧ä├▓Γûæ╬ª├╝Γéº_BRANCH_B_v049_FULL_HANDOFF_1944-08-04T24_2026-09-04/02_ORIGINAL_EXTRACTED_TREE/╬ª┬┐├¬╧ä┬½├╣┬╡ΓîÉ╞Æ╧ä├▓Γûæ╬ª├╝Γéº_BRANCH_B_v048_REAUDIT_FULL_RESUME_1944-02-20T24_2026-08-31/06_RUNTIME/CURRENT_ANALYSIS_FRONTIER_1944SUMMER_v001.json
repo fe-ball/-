@@ -1,0 +1,41 @@
+{
+  "id": "CURRENT_ANALYSIS_FRONTIER_1944SUMMER_v001",
+  "status": "RETAINED_REFERENCE_NOT_CURRENT",
+  "canonical_restart_time": "1944-05-01T00:00",
+  "current_global_analysis_frontier": "1944-07-14T24:00",
+  "frontier_reason": "Saipan organized defense settlement is closed through 1944-07-14; global advancement beyond this date is paused until Japan/US summer force-regeneration and Guam/Tinian planning are audited.",
+  "authoritative_local_settlements": [
+    "06_RUNTIME/MARIANAS_SAIPAN_1944-06-11_07-14_SETTLEMENT_v001.md"
+  ],
+  "bounded_working_settlements": [
+    "06_RUNTIME/CBI_AIR_LOGISTICS_TAX_1944-04_06_WORKING_SETTLEMENT_v001.md",
+    "06_RUNTIME/1944SUMMER_JAPAN_US_FORCE_REGENERATION_WORKING_LEDGER_v001.md"
+  ],
+  "forward_local_adjudications_not_global_clock": [
+    {
+      "path": "06_RUNTIME/CHINA_ICHIGO_ANALOG_1944-05-27_08-06_FORWARD_ADJUDICATION_v001.md",
+      "local_end": "1944-08-06T06:00",
+      "rule": "Do not infer that Pacific, Europe, Burma or global production state has automatically advanced to 1944-08-06. This is a frozen local forward branch used to preserve the China discussion."
+    }
+  ],
+  "settled_global_skeleton_since_1944-05-01": {
+    "china": "Ichi-Go analog begins 1944-05-27; detailed China-only forward adjudication exists through 1944-08-06 but is not the global current time.",
+    "burma": "Myitkyina local branch: May17 coup de main fails to secure usable airfield immediately; airfield captured May20, emergency runway repaired May22, normal-ish airlift May23; Japan avoids Imphal disaster and retains phased withdrawal options.",
+    "europe": "Overlord launches 1944-06-06 on five beaches; direct D-Day capability ~100-103 historical, D+8-30 buildup 92-98 and logistics buffer 85-93 working skeleton. Detailed Normandy campaign after landing remains unprocessed.",
+    "marianas": "Saipan settlement authoritative through 1944-07-14. Guam/Tinian branch not yet closed."
+  },
+  "next_task": "Close the 1944-07-14 to 1944-10 monthly Japan/US force-regeneration ledger, especially fleet destroyers, kaibokan, carrier work-up, repair returns, airframes, carrier aircrew, trucks/AFV and US parallel recovery; then adjudicate Guam/Tinian and Yamamoto strategy.",
+  "anti_error_rules": [
+    "US radar detection is not instant classification/fire solution; US CIC/CAP/AA and sortie cycles are finite systems.",
+    "Do not apply nationality labels as capability multipliers. Both sides pay fatigue, task saturation, repair, information-age and logistics costs.",
+    "Completed hull or produced airframe is not automatically combat-ready; separate completion, acceptance, work-up, readiness, allocation and mission effectiveness.",
+    "A lower-casualty choice must normally pay in geography, tempo, objectives or simultaneous-task coverage somewhere else.",
+    "Do not convert local forward adjudications into global time without checking all linked theaters every 10-14 days."
+  ],
+  "is_current": false,
+  "historical_status_in_v012": "CURRENT_SESSION_FRONTIER",
+  "superseded_as_current_by": "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SPRING_REAUDIT_v001.json",
+  "continuation_prohibited": true,
+  "continuation_note": "Retained for comparison/evidence only. Do not use as the current synchronized branch until the corrected spring-1944 sequence is re-adjudicated to this date.",
+  "legacy_v012_restart_checkpoint": "CHECKPOINT_1944-04-30T24_v004"
+}

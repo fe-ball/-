@@ -1,0 +1,74 @@
+{
+  "id": "BRANCH_B_CATCHPOLE_ENGEBI_ASSAULT_1944-02-21T1230_v001",
+  "status": "WORKING_CURRENT_CATCHPOLE_LOCAL_THREAD",
+  "local_clock": "1944-02-21T12:30 Eniwetok operational clock",
+  "source": "BRANCH_B_CATCHPOLE_PREASSAULT_REAUDIT_1944-02-21T0820_v001",
+  "H_hour": {
+    "touchdown_band": "09:18..09:32",
+    "center": "09:25",
+    "exact_tide_harmonic": "OPEN"
+  },
+  "US": {
+    "casualties_Hminus10_to_1230": {
+      "total": [
+        118,
+        175
+      ],
+      "center": 145,
+      "KIA_MIA": [
+        26,
+        39
+      ]
+    },
+    "vehicles": {
+      "LVTA1_irrecoverable_center": 1,
+      "troop_LVT_irrecoverable_center": 1,
+      "additional_LVT_LVTA_repairable": [
+        2,
+        4
+      ],
+      "M4_irrecoverable_center": 0,
+      "M4_temp_mobility_damage": [
+        0,
+        1
+      ]
+    },
+    "2_22": {
+      "runway_near_edge": "10:05..10:20",
+      "runway_crossing_mass": "10:40..11:05",
+      "ocean_side_elements": "11:20..11:50",
+      "airfield_dominated": "11:35..11:55"
+    },
+    "1_22": "beach secure; coconut-grove/Skunk reduction active at 12:30",
+    "3_22": "lead reserve ashore 10:45..11:05; one fresh rifle company available to 1/22 11:25..11:45"
+  },
+  "Japan": {
+    "postH_additional_serious_casualties": [
+      240,
+      340
+    ],
+    "organized_local_fighters_1230": [
+      300,
+      410
+    ],
+    "weapons_1230": {
+      "120mm": "none meaningful centered",
+      "75mm": "not reliable continuing asset",
+      "37mm": "initial/direct positions largely silenced",
+      "81mm_mortars": "2-3 useful intermittent; +1 hidden/suppressed possible",
+      "Type95": "2 destroyed/mission-killed centered; 1 unresolved"
+    },
+    "C2": {
+      "islandwide_useful_fraction": [
+        0.15,
+        0.25
+      ],
+      "best_local_cells_fraction": [
+        0.35,
+        0.5
+      ]
+    }
+  },
+  "interpretation": "Branch Japanese gains appear mainly as reappearing mortar/MG fire and stronger local C2 after beach suppression; US FLINTLOCK process learning meters traffic and rapidly re-suppresses observed nodes, preventing landing-system failure.",
+  "next_frontier": "1944-02-21 12:30 to dusk reduction and night mop-up; captured-intelligence/next-target decision remains OPEN"
+}

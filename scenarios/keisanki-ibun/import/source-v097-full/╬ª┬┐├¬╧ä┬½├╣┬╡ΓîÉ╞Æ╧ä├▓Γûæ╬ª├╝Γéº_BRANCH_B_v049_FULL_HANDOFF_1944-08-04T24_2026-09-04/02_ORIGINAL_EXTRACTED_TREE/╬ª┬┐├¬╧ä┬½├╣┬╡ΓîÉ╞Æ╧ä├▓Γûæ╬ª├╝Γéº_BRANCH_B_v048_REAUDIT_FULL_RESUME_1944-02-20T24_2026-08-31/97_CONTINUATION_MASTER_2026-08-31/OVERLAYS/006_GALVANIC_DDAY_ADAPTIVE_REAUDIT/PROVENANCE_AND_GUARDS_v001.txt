@@ -1,0 +1,7 @@
+Upstream working inputs used:
+- pre_galvanic_reaudit_work/PRE_GALVANIC_ISLAND_DEFENSE_LEDGER_1943-11-23_WORKING_v001.json
+- galvanic_air_hardening_2026-08-31/GALVANIC_BASE_AIR_OOB_AND_HARDENING_1943-11-23_WORKING_v001.json
+- galvanic_secondary_carrier_trace_closed_2026-08-31/GALVANIC_SECONDARY_CARRIER_INDIVIDUAL_TRACE_1943-11-23_v001.json
+- canonical v048 GALVANIC v004 + first-contact/sortie ledgers as comparison/causal anchors.
+
+Historical sanity anchors consulted during this rerun: NHHC Operation Galvanic/Tarawa histories and USAAF pre-invasion bombing schedule. These do not override Branch chronology/OOB.

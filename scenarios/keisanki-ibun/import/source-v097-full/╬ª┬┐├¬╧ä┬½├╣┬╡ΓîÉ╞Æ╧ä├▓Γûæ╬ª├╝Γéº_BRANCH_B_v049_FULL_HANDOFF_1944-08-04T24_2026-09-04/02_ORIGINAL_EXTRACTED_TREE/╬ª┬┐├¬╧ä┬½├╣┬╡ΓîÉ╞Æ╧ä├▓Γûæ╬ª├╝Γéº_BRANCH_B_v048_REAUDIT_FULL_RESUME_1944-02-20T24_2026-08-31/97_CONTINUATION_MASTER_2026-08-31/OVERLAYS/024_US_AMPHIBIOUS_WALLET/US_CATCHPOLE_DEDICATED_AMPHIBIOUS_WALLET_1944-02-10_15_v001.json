@@ -1,0 +1,63 @@
+{
+  "id": "US_CATCHPOLE_DEDICATED_AMPHIBIOUS_WALLET_1944-02-10_15_v001",
+  "status": "WORKING_FORCE_WALLET_NOT_OPERATION_RESULT",
+  "historical_structural_anchor": {
+    "assault_personnel": "22nd Marines plus 1st/3rd Battalions 106th Infantry, reinforced; about 8,000-10,000 depending attached elements/accounting.",
+    "amtracs": 106,
+    "amphibian_tanks": 17,
+    "attack_transports": 9,
+    "LST": 9,
+    "LCI": 6,
+    "LSD": 1,
+    "APD": 2,
+    "fire_support": "3 old battleships, 3 heavy cruisers, about 15 destroyers in the historical structural package"
+  },
+  "branch_separation_rule": "Do not debit the 106+17 vehicle pool for FLINTLOCK 4th Marine/7th Infantry LVT losses. It is a separate Expeditionary Reserve Force wallet unless a later hull/unit trace proves cross-allocation.",
+  "vehicle_readiness": {
+    "10Feb": {
+      "amtrac_physical": 106,
+      "amtrac_mission_ready_band": [93, 100],
+      "amphibian_tank_physical": 17,
+      "amphibian_tank_mission_ready_band": [15, 17]
+    },
+    "14_15Feb_after_maintenance": {
+      "amtrac_mission_ready_band": [101, 105],
+      "amtrac_center": 103,
+      "amphibian_tank_mission_ready_band": [16, 17],
+      "amphibian_tank_center": 17
+    }
+  },
+  "shipping_readiness": {
+    "10Feb": {
+      "attack_transports_ready_band": [8, 9],
+      "LST_ready_band": [8, 9],
+      "LCI_ready_band": [5, 6],
+      "LSD_ready": 1,
+      "APD_ready": 2
+    },
+    "14_15Feb_center": {
+      "attack_transports": 9,
+      "LST": 9,
+      "LCI": 6,
+      "LSD": 1,
+      "APD": 2
+    }
+  },
+  "5Feb_LST_hit_guard": "The unnamed 5-Feb LST mission-kill occurred in the FLINTLOCK southern tractor/landing echelon. It is NOT subtracted from the dedicated nine-LST CATCHPOLE package without an individual-hull trace. It still consumes tug/repair/escort attention in the wider theater wallet.",
+  "remaining_schedule_gates": [
+    "fire-support BB/CA/DD rearm and fuel turnaround",
+    "CVE availability and aircraft/crew regeneration",
+    "hydrography/mines/intelligence update using captured Kwajalein charts",
+    "assault-plan rewrite against newly discovered/updated Eniwetok defenses",
+    "boat/LVT crew rehearsal and command/control training",
+    "HAILSTONE/CATCHPOLE escort and air-cover deconfliction"
+  ],
+  "provisional_time_gate": {
+    "planning_can_begin": "8-10 Feb",
+    "dedicated_vehicle_shipping_wallet_ready": "13-15 Feb centered",
+    "full_support_package_ready_earliest_credible": "16-18 Feb",
+    "sortie_window_if_approved": "17-19 Feb",
+    "Engebi_assault_not_before_center": "21-22 Feb",
+    "guard": "This is a readiness gate, not yet a resolved CATCHPOLE event date."
+  }
+}

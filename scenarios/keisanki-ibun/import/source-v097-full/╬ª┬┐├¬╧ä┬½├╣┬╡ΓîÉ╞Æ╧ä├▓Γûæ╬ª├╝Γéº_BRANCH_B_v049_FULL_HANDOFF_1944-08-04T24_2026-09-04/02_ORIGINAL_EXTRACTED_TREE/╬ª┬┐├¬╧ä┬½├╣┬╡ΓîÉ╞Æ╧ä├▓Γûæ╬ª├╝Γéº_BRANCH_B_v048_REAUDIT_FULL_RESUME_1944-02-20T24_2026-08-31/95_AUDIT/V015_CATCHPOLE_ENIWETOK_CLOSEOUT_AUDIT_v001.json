@@ -1,0 +1,18 @@
+{
+  "revision": "v001",
+  "id": "V015_CATCHPOLE_ENIWETOK_CLOSEOUT_AUDIT_v001",
+  "date": "2026-08-24",
+  "result": "PASS",
+  "checks": {
+    "catchpole_settlement_present": true,
+    "water_aviation_national_to_onsite_accounting_present": true,
+    "seaplane_tender_forward_magic_prohibited": true,
+    "us_time_value_explicitly_adjudicated": true,
+    "main_landing_center_1944_04_19": true,
+    "eniwetok_closeout_by_1944_04_24": true,
+    "frontier_advanced_to_1944_04_25": true,
+    "next_theater_is_early_may_china": true,
+    "legacy_v012_checkpoint_reference_only": true
+  },
+  "note": "Scenario closeout audit for the corrected spring branch; exact individual hull/airframe names remain bounded unless previously canonical."
+}

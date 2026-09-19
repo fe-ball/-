@@ -1,0 +1,49 @@
+{
+  "revision": "v003",
+  "families": [
+    {
+      "family": "README_refactor_vX.md",
+      "current": "README_refactor_v006.md"
+    },
+    {
+      "family": "NEXT_SESSION_HANDOFF_REFACTOR_vX.md",
+      "current": "NEXT_SESSION_HANDOFF_REFACTOR_v006.md"
+    },
+    {
+      "family": "CHECKPOINT_INDEX_vX.json",
+      "current": "CHECKPOINT_INDEX_v005.json"
+    },
+    {
+      "family": "CHECKPOINT_GRAPH_vX.json",
+      "current": "CHECKPOINT_GRAPH_v004.json"
+    },
+    {
+      "family": "TECH_INDEX_vX.json",
+      "current": "TECH_INDEX_v004.json"
+    },
+    {
+      "family": "current_branch_overrides_vX.json",
+      "current": "current_branch_overrides_v001.json"
+    },
+    {
+      "family": "PREWAR_INDEX_vX.json",
+      "current": "PREWAR_INDEX_v004.json"
+    },
+    {
+      "family": "WARSTART_CHECKPOINT_vX.json",
+      "current": "WARSTART_CHECKPOINT_v004.json"
+    },
+    {
+      "family": "WARSTART_STATE_LEDGER_vX.json",
+      "current": "WARSTART_STATE_LEDGER_v003.json"
+    },
+    {
+      "family": "WARSTART_DOMAIN_AUDIT_vX.json",
+      "current": "WARSTART_DOMAIN_AUDIT_v004.json"
+    },
+    {
+      "family": "validate_refactor_vX.py",
+      "current": "validate_refactor_v004.py"
+    }
+  ]
+}

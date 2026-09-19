@@ -1,0 +1,14 @@
+{
+  "revision": "v001",
+  "id": "MARIANAS_PRIMARY_STATE_1944-06-14T24_WORKING_v001",
+  "status": "CURRENT_OVERLAY_FRONTIER",
+  "as_of": "1944-06-14T24:00:00+09:00",
+  "global_frontier": "1944-06-14T24",
+  "primary_theater": "MARIANAS",
+  "US": "Oldendorf's close bombardment force materially improves suppression and damages visible coastal/AA positions, but deep defenses remain. TF58 has 16 fast carrier decks in the battle system, with roughly 905-990 carrier aircraft ready after the 11-13 Jun attrition/repairs; carrier groups rotate through refueling rather than all launching over Saipan at once.",
+  "Japan_land_air": "End-day onsite ready 78-105, including 38-54 fighters and 22-32 attack/recon. Air superiority is lost, but a reconnaissance/local-strike skeleton remains for D-Day.",
+  "Japan_mobile": "Five-carrier core 358-380 ready plus six secondary carriers 145-180 combat-usable. Taiho is first-cycle integrated; A7M remains combat zero. Yamato/Musashi/Nagato and all four surviving Kongo-class fast battleships remain in the A-GO battle system.",
+  "Japan_surface_delta": "Historical KON debit is absent; Hiei/Kirishima survive; Inazuma/Minazuki/Tanikaze/Harusame are additional surviving destroyer assets relative to the historical mid-June screen, and Shiratsuyu survives 14 Jun centerline.",
+  "ISR": "A US submarine now has a credible major-fleet eastbound contact, though not a complete Japanese OOB. Japanese fleet ISR still lacks a fresh TF58 task-group fix.",
+  "next_focus": "15 Jun D-Day: Saipan landing, local Japanese air/shore/tank reaction, US carrier disposition after submarine warning, and Japanese main-force movement through the Philippine Sea."
+}

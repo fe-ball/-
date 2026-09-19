@@ -1,0 +1,19 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-02-03T1530_WORKING_v001",
+  "status": "WORKING_NOT_CURRENT",
+  "as_of": "1944-02-03T15:30:00+12:00",
+  "Central_Pacific": {
+    "US": "Japanese dawn carrier strike hits TG58.2: Cabot campaign-out pending repair audit; Intrepid temporarily flight-deck interrupted, later limited. US counterstrike damages Hiryu flight operations. Carrier-battle 3-Feb irrecoverable aircraft center ~46 US / ~73 Japan. TF58 retains decisive deck depth; amphibious D-Day is not yet realized and planning biases about one day later inside the existing 4-7 Feb window.",
+    "Japan": "Shokaku/Zuikaku withdraw operational; Hiryu mobile but flight-ops suspended. Immediate carrier-air serviceable center ~125 after heavy cadre loss. Marshall local air center ~47 serviceable / 21 fighters / 4 Raiden / 9 unique water-air / 9 attack. No second carrier strike."
+  },
+  "Indian_Ocean": {
+    "state": "No new event advanced in this Central-Pacific step. Eastern Fleet Ceylon workup continues; Japanese second surface reinforcement remains HOLD."
+  },
+  "Bengal": {
+    "state": "No new event advanced. Chittagong-Feni/Comilla stalemate persists; first Kinsei detachment remains, further batch held under Central-Pacific priority."
+  },
+  "Yanagi_Jet": {
+    "state": "No automatic event realized. I-34 remains inside its early-Feb projected Europe-arrival window, but arrival has not yet been adjudicated in this Pacific-focused step."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "US_JAPAN_NEXTOPS_CLOSEOUT_1944-02-10_v001",
+  "status": "WORKING_CLOSEOUT_GATE_NOT_CANONICAL",
+  "as_of": "1944-02-10T24 Marshall local",
+  "purpose": "Close force-generation and scheduling questions before simulating HAILSTONE and CATCHPOLE from the re-run FLINTLOCK state.",
+  "closed_conclusions": {
+    "US_ground_force_delta": "No theater-level manpower or armor delta large enough to reopen FLINTLOCK or cancel/rewrite CATCHPOLE. Replacement/cadre differences remain unit-quality effects, not division-count effects.",
+    "US_amphibious_vehicle_delta": "CATCHPOLE has a dedicated reserve assault wallet. FLINTLOCK LVT losses do not automatically debit the 106 amtracs + 17 amphibian tanks assigned to the reserve force.",
+    "5Feb_LST_hit": "The unnamed FLINTLOCK southern-echelons LST mission-kill is a theater tug/repair/escort burden, not an automatic -1 from the dedicated CATCHPOLE nine-LST wallet.",
+    "HAILSTONE_CATCHPOLE_parallelism": "The two operations can proceed in parallel because their principal air/fire-support wallets are separable, but DD/ASW, tanker, replacement-aircraft and command-attention competition remains real.",
+    "Japan_Eniwetok_reinforcement": "No additional large reinforcement convoy is centered after Kwajalein falls. Existing garrison adapts in place; mobile personnel and high-value shipping are preserved westward instead of being fed into a nearly isolated atoll.",
+    "Japan_carrier_counterattack": "No first-line carrier reversal toward Truk/Eniwetok is centered. Four hulls survive, but Feb-2 aircrew/cadre debt and the absence of a positive-EV fresh TF58 geometry make preservation westward dominant."
+  },
+  "schedule": {
+    "TF58_Majuro_replenishment": "1944-02-09..15",
+    "TF58_HAILSTONE_sortie": "1944-02-15..16 centered",
+    "HAILSTONE_first_strike": "1944-02-20 dawn centered; 19-21 sensitivity only",
+    "HAILSTONE_second_day": "1944-02-21 expected if Truk fixed air-defense/base system remains operational enough to require continued neutralization; not a scripted result",
+    "CATCHPOLE_force_reform_and_rehearsal": "1944-02-10..16",
+    "CATCHPOLE_sortie": "1944-02-17..18 centered",
+    "Eniwetok_outer_islets_passage_operation": "1944-02-20 centered",
+    "Engebi_assault": "1944-02-21 centered",
+    "Eniwetok_and_Parry_follow_on": "OPEN after Engebi/captured-intelligence state; do not pre-script simultaneous or historical sequencing"
+  },
+  "historical_process_anchors": [
+    "Historical HAILSTONE attacked Truk 17-18 Feb after TF58 replenishment at Majuro and sortie on 12-13 Feb.",
+    "Historical HAILSTONE main strike used nine fast-carrier decks while TG58.4 supported Eniwetok.",
+    "Historical CATCHPOLE used a separate reserve assault formation and proceeded in parallel with HAILSTONE.",
+    "Historical Eniwetok planning was revised after captured documents showed more defenders than expected; follow-on island sequencing therefore remains a live decision variable."
+  ],
+  "branch_guards": [
+    "Enterprise CV-6 and Saratoga CV-3 are permanent Branch Midway losses; never reinsert them.",
+    "Cabot CVL-28 remains campaign-out from the 2-Feb carrier battle.",
+    "Do not turn dedicated CATCHPOLE reserve gear into free reinforcement for other operations.",
+    "Do not back-port Palau/Marianas deep-defense maturity into February Eniwetok.",
+    "Do not force HAILSTONE historical surprise or historical Truk shipping massacre; Branch warning and evacuation are active."
+  ]
+}

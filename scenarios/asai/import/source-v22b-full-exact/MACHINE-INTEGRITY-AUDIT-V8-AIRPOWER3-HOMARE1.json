@@ -1,0 +1,29 @@
+{
+  "package": "ASAI-WORLDLINE-HANDOFF-2026-09-03-FULL-V8-1939AIRPOWER3-HOMARE1",
+  "source_package": "ASAI-WORLDLINE-HANDOFF-2026-09-03-FULL-V8-1939AIRPOWER2-STATEFIX1.zip",
+  "source_sha256_entries_verified": 387,
+  "source_sha256_mismatches": 0,
+  "combat_clock_advanced": false,
+  "current_revalidated_combat_checkpoint": "1939-04-20 24:00",
+  "furthest_prior_explored_clock": "1939-09-01 00:00 / post-Nomonhan older V6 branch",
+  "combat_replay_status": "HOLD_FOR_AVIATION_AUDIT",
+  "active_technical_domain": "PISTON_AVIATION",
+  "technical_closure_added": [
+    "Homare quarter-level branch-neutral development/qualification through 1943Q1",
+    "Homare EA-D/EA-Q/EA-S availability-state semantics",
+    "Homare multi-fuel/lubricant qualification sequencing",
+    "Ha-43 branch-neutral early development through 1943Q1",
+    "base Ha-43 separated from remote-turbo/Ru branch"
+  ],
+  "post_1943_branch_dependent": [
+    "monthly production quantities",
+    "fleet-wide TBO and reliability",
+    "theater fuel and lubricant availability",
+    "procurement priorities and quantities",
+    "combat-driven requirement changes"
+  ],
+  "final_file_count": 396,
+  "inventory_entries_expected": 393,
+  "sha256_entries_expected": 394,
+  "final_validation": "pending metadata rebuild then zip round-trip verification"
+}

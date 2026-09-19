@@ -1,0 +1,45 @@
+{
+  "revision": "v001",
+  "id": "K706_ENIWETOK_NIGHT_RAID_1944-03-09_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "event_time": "1944-03-09 night",
+  "parents": [
+    "JAPAN_705_706_331_REORGANIZATION_1944-03-04_08_WORKING_v001",
+    "CATCHPOLE_PARRY_CLOSEOUT_1944-02-23_27_WORKING_v001"
+  ],
+  "purpose": "Close the outstanding 9-Mar Central-Pacific K706 action after the 705th G4M element has been debited from the Indian-Ocean ledger.",
+  "historical_anchor": "K-706 is reported to have executed a successful long-range night raid on the Eniwetok base on 9 Mar without loss.",
+  "branch_force_state_before_sortie": {
+    "physical_assigned_band": [
+      35,
+      39
+    ],
+    "serviceable_band": [
+      22,
+      30
+    ],
+    "mission_ready_band": [
+      14,
+      22
+    ]
+  },
+  "adjudication": {
+    "launch_band": [
+      10,
+      14
+    ],
+    "reach_target_release_band": [
+      8,
+      12
+    ],
+    "Japanese_irrecoverable_losses_band": [
+      0,
+      1
+    ],
+    "centered_loss": "0 aircraft",
+    "US_effect": "minor airfield/parking-area disruption; 1-3 aircraft destroyed/damaged centered across parked/staging aircraft, light personnel/material casualties, no runway mission-kill beyond the local night/next-morning repair cycle",
+    "operational_disruption": "hours, not days"
+  },
+  "strategic_effect": "Confirms that surviving Japanese land-based aviation can still impose nuisance/attrition pressure at long range. It does not reverse Eniwetok operationalization and does not justify exposing the carrier cadre in a search battle.",
+  "source_external": "https://naval-aviation.com/ww2/japan/Mitsubishi-G4M.php"
+}

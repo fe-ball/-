@@ -1,0 +1,41 @@
+{
+  "id": "US_TARAWA_LVT_CLOSEOUT_REAUDIT_1943-11-29_v001",
+  "status": "WORKING_LEDGER_NOT_CANONICAL",
+  "basis": [
+    "Branch Tarawa assault begins 24 Nov under favorable observed-depth/high-water plan; later LCVP/LCM use is materially earlier than historical 20 Nov reef-wading case.",
+    "Current Branch D-Day ledger already fixes first 87 LVT destroyed-or-mission-killed at 14-19 and an additional 18-26 damaged, many locally repairable.",
+    "Historical sanity anchor: 125 LVT committed; only 35 operational at battle end, with 90 out/lost. Historical attrition is not copied because Branch exposure geometry and shuttle demand differ."
+  ],
+  "starting_physical": 125,
+  "Dday_existing_gate": {
+    "first_87_destroyed_or_mission_killed_band": [14, 19],
+    "additional_damaged_band": [18, 26]
+  },
+  "closeout_29Nov_centered_ledger": {
+    "irrecoverable_or_written_off_band": [18, 24],
+    "irrecoverable_center": 21,
+    "depot_or_long_repair_band": [14, 20],
+    "depot_or_long_repair_center": 17,
+    "short_repair_or_maintenance_not_immediately_ready_band": [8, 13],
+    "short_repair_center": 10,
+    "mission_ready_or_useful_shuttle_band": [71, 85],
+    "mission_ready_center": 77,
+    "center_sum_check": 125
+  },
+  "December_recovery_gate": {
+    "surviving_hulls_center": 104,
+    "serviceable_by_10Dec_band": [88, 98],
+    "note": "This does not transfer these vehicles into FLINTLOCK/CATCHPOLE by fiat. Unit ownership, refit and shipping remain separate gates."
+  },
+  "why_branch_is_better_than_historical": [
+    "Verified channels and rising tide reduce prolonged exposed reef shuttle work.",
+    "LCVP/LCM assume a larger share of later-day supply movement.",
+    "Many D-Day damage cases are mission-kill/repairable rather than deep-water disappearance.",
+    "US recovery/maintenance learns rapidly during a longer battle."
+  ],
+  "why_not_near_zero_losses": [
+    "Japanese surviving direct fire is denser than the old branch line.",
+    "LVTs still make repeated exposed movements on D-Day and early D+1.",
+    "Coral, salt water, mechanical wear and enemy fire continue after the beachhead is formed."
+  ]
+}

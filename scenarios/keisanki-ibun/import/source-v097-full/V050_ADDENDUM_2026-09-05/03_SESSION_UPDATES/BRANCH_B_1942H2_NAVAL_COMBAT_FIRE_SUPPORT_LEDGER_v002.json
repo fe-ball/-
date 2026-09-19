@@ -1,0 +1,105 @@
+{
+  "version": "v002",
+  "status": "WORKING_CLOSED_PREBATTLE_FORCE_GENERATION",
+  "santo_center": {
+    "japan": {
+      "carriers": [
+        "Shokaku",
+        "Zuikaku",
+        "Ryujo_support"
+      ],
+      "bombardment_BB": [
+        "Kongo",
+        "Haruna"
+      ],
+      "heavy_cover_BB": [
+        "Hiei",
+        "Kirishima"
+      ],
+      "carrier_CAs": [
+        "Tone",
+        "Chikuma"
+      ],
+      "bombardment_CAs": [
+        "Atago",
+        "Takao",
+        "Maya"
+      ],
+      "carrier_air_ready": [
+        135,
+        150
+      ],
+      "bombardment_14in_total_first_night": [
+        350,
+        550
+      ],
+      "submarines_effective_outer": [
+        6,
+        8
+      ]
+    },
+    "usa": {
+      "carrier": [
+        "Wasp"
+      ],
+      "BB": [
+        "Washington",
+        "North Carolina"
+      ],
+      "BB_unavailable_center": [
+        "South Dakota"
+      ],
+      "wasp_screen": [
+        "San Francisco",
+        "Salt Lake City",
+        "Juneau"
+      ],
+      "night_group": [
+        "Washington",
+        "North Carolina",
+        "Quincy",
+        "Atlanta"
+      ],
+      "Portland": "ready_reserve_late_Sep",
+      "Vincennes": "repair_workup_until_Oct",
+      "base_air": {
+        "fighters": [
+          36,
+          46
+        ],
+        "SBD": [
+          20,
+          30
+        ],
+        "TBF": [
+          6,
+          10
+        ],
+        "B17": [
+          8,
+          12
+        ],
+        "PBY": [
+          10,
+          14
+        ]
+      },
+      "Wasp_air_ready": [
+        55,
+        65
+      ]
+    }
+  },
+  "closed_gates": {
+    "South_Dakota_grounding": "retain_center",
+    "support_deck": "Ryujo",
+    "bombardment_pair": "Kongo_Haruna",
+    "heavy_cover_pair": "Hiei_Kirishima"
+  },
+  "open_gates": [
+    "Crace_damaged_cruiser_exact_identity",
+    "named_US_DD_night_group",
+    "exact_Japanese_DD_transport_group",
+    "battle_results"
+  ]
+}

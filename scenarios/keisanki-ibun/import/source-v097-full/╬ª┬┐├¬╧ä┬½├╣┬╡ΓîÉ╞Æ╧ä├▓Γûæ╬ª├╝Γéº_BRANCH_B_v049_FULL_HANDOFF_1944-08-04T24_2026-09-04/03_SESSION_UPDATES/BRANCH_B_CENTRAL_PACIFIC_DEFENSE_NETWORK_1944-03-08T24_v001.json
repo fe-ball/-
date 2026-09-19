@@ -1,0 +1,224 @@
+{
+  "id": "BRANCH_B_CENTRAL_PACIFIC_DEFENSE_NETWORK_1944-03-08T24_v001",
+  "status": "WORKING_CURRENT_BROAD_SYNC",
+  "frontier": "1944-03-08T24:00",
+  "capacity": {
+    "march_attempted_useful_military_cargo_t": [
+      125000,
+      155000
+    ],
+    "march_delivered_if_no_major_interdiction_t": [
+      105000,
+      132000
+    ],
+    "march_center_t": 118000,
+    "delivered_by_8mar_t": [
+      24000,
+      31000
+    ],
+    "center_by_8mar_t": 27000,
+    "main_fleet_bunker_fuel_excluded": true,
+    "march_center_by_function_t": {
+      "construction_bulk": 35000,
+      "ammo_mines_wire_demolition": 20000,
+      "engineer_plant_vehicles_tools_spares": 10000,
+      "aviation_ground_POL": 16000,
+      "aviation_spares_workshop": 11000,
+      "C2_power_comms": 7000,
+      "food_water_medical": 13000,
+      "other_route_reserve": 6000
+    },
+    "march_center_by_region_t": {
+      "Marianas": 50000,
+      "Palau": 25000,
+      "Yap": 8000,
+      "Woleai": 5000,
+      "Truk": 10000,
+      "Ponape": 4000,
+      "Bonins": 11000,
+      "route_reserve": 5000
+    }
+  },
+  "engineers": {
+    "additional_engineer_battalion_equivalents_authorized_mar_apr": [
+      2,
+      3
+    ],
+    "specialist_company_equivalents_authorized_mar_apr": [
+      5,
+      8
+    ],
+    "earth_timber_same_input_output_gain_relative": [
+      0.15,
+      0.3
+    ],
+    "concrete_same_input_output_gain_relative": [
+      0.05,
+      0.15
+    ],
+    "guard": "actual gain dominated by delivered material; no national fortification multiplier"
+  },
+  "maturity_scale": {
+    "D0": "exposed beach/base",
+    "D1": "dispersal/basic survival",
+    "D2": "layered local cells/post-suppression reappearance",
+    "D3": "terrain depth/multiple exits/anti-engineer/night mobility",
+    "D4": "mature late-war network where terrain permits"
+  },
+  "islands": {
+    "Saipan": {
+      "8Mar": [
+        1.8,
+        2.2
+      ],
+      "MayEnd": [
+        2.9,
+        3.4
+      ],
+      "key_terrain_upper": 3.5,
+      "role": "decisive command/ground/air"
+    },
+    "Guam": {
+      "8Mar": [
+        1.7,
+        2.0
+      ],
+      "MayEnd": [
+        2.8,
+        3.3
+      ],
+      "role": "depth/depot/second decisive ground node"
+    },
+    "Tinian": {
+      "8Mar": [
+        1.5,
+        1.8
+      ],
+      "MayEnd": [
+        2.2,
+        2.6
+      ],
+      "role": "airfield redundancy/dispersal"
+    },
+    "Rota_Pagan": {
+      "8Mar": [
+        1.2,
+        1.5
+      ],
+      "MayEnd": [
+        1.8,
+        2.2
+      ],
+      "role": "warning/dispersal/emergency relay"
+    },
+    "Palau": {
+      "8Mar": [
+        1.8,
+        2.2
+      ],
+      "MayEnd": [
+        3.0,
+        3.5
+      ],
+      "Peleliu_key_terrain_upper": 4.0,
+      "role": "western logistics/air relay and high-ceiling fortress"
+    },
+    "Yap": {
+      "8Mar": [
+        1.4,
+        1.7
+      ],
+      "MayEnd": [
+        2.2,
+        2.7
+      ],
+      "role": "warning/air/submarine relay"
+    },
+    "Woleai": {
+      "8Mar": [
+        1.1,
+        1.4
+      ],
+      "MayEnd": [
+        1.6,
+        2.0
+      ],
+      "role": "forward warning/staging"
+    },
+    "Truk": {
+      "8Mar": [
+        1.5,
+        1.8
+      ],
+      "MayEnd": [
+        1.8,
+        2.2
+      ],
+      "role": "resilient recon/sub/air support; no fleet concentration"
+    },
+    "Ponape": {
+      "MayEnd": [
+        1.5,
+        1.9
+      ],
+      "role": "sacrificial eastern relay"
+    }
+  },
+  "Army_clocks": {
+    "31st_Army_activation": "1944-02-25 center",
+    "9th_Tank_Regiment": {
+      "decision": "1944-02-27",
+      "embark": "1944-04-01 center",
+      "Saipan_arrival": "1944-04-09..10",
+      "Guam_forward": "1944-04-10..13"
+    },
+    "29th_Division_Guam": "movement late Mar-early Apr; main concentration early Apr",
+    "43d_Division_Saipan": {
+      "priority_packing": "1944-03-03..08",
+      "first_depart": "1944-04-15..22",
+      "first_arrive": "1944-04-25..05-02",
+      "second_depart": "1944-04-25..05-03",
+      "second_arrive": "1944-05-05..12",
+      "guaranteed": false
+    },
+    "14th_Division_Palau": {
+      "commit": "1944-03-03..06",
+      "embark": "1944-03-25..04-01",
+      "arrive": "1944-04-12..18",
+      "guaranteed": false
+    },
+    "extra_full_division": "HOLD; mid-March decision gate"
+  },
+  "IJN_8Mar": {
+    "First_Mobile_Fleet_formed": "1944-03-01",
+    "four_core_carriers": [
+      "Shokaku",
+      "Zuikaku",
+      "Soryu",
+      "Hiryu"
+    ],
+    "four_core_integrated_ready_air": [
+      225,
+      255
+    ],
+    "four_core_one_cycle_sync_strike": [
+      125,
+      155
+    ],
+    "Taiho": "trials/deck qualification; no synchronized combat credit",
+    "posture": "regenerate and train; no eastward rescue sortie"
+  },
+  "US_8Mar": {
+    "TF58": "replenishment/repair after HAILSTONE+Marianas",
+    "next_likely_axis": "Palau-Yap-Woleai late March",
+    "Eniwetok_limited_air_staging": "mid-March gate",
+    "intel": "26-Feb photos useful but rapidly aging"
+  },
+  "next_gates": [
+    "10-15 Mar formal Army-Navy defense agreement",
+    "mid-Mar extra Army formation decision",
+    "mid-Mar Eniwetok air staging",
+    "late-Mar Palau-Yap-Woleai raid",
+    "Apr-May reinforcement/material convoy survival"
+  ]
+}

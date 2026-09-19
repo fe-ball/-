@@ -1,0 +1,29 @@
+{
+  "revision": "v032",
+  "package_root": "計算機異聞_refactor_v032_2026-08-29_BRANCH_B_INDIAN_OCEAN_FRONTIER_REPAIR_WORKING_FULL",
+  "generated": "2026-08-29",
+  "purpose": "Frontier/index repair and data normalization package: preserve v030-derived CURRENT authority; expose v031/v032 working frontier; close stale origin-route flag; date Eastern Fleet movement evidence; replace false Andaman-Arakan single-station count with bounded functional-node model.",
+  "base_package": "計算機異聞_refactor_v031_2026-08-29_BRANCH_B_INDIAN_OCEAN_WALLET_WORKING_FULL",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "authority_status": "CURRENT AUTHORITIES UNCHANGED; ALL NEW 1944 INDIAN-OCEAN MATERIAL REMAINS WORKING/PENDING PROMOTION",
+  "current_branch_state_file": "06_RUNTIME/CURRENT_BRANCH_STATE_v012.json",
+  "current_restart_checkpoint": "05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v004.json",
+  "current_overrides": "00_CONFIG/current_branch_overrides_v012.json",
+  "discussion_frontier": "00_README/CURRENT_DISCUSSION_FRONTIER_v001.json",
+  "next_session_handoff": "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v032.md",
+  "working_authorities_not_promoted": [
+    "06_RUNTIME/JAPAN_HULL_RECONCILIATION_1944-01-01_WORKING_v004.json",
+    "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v005.json",
+    "06_RUNTIME/EASTERN_FLEET_INDICATION_TIMELINE_1943-12_1944-01_WORKING_v001.json",
+    "06_RUNTIME/ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json"
+  ],
+  "historical_timeline_key": "1944-01-11 German aircraft visual sighting is the first robust source-grounded Axis visual confirmation gate; Japanese receipt remains un-realized.",
+  "observation_network_key": "4 forward functional reporting nodes + 2 rear support nodes; exact physical Jan radar-site count UNKNOWN and not point-estimated.",
+  "next_required_adjudication": "Adjudicate Axis-to-Japan delivery of the 11 Jan German visual report; then issue/withhold actual Japanese movement orders with Pacific opportunity-cost debit. If not timely, continue to Suez/Aden evidence gates.",
+  "validator": "98_TOOLS/validate_refactor_v019.py",
+  "validation": "95_AUDIT/VALIDATION_RESULT_v032.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v032.txt",
+  "file_count_before_checksum": 733,
+  "file_count_total": 734,
+  "json_file_count": 345
+}

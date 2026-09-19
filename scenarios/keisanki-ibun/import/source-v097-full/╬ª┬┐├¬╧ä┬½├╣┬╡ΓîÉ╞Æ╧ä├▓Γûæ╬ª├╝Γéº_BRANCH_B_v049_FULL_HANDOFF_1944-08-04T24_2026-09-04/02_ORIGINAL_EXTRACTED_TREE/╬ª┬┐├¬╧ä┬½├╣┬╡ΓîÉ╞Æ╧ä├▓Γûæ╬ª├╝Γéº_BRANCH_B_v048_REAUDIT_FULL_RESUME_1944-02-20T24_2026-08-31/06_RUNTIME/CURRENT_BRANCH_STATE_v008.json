@@ -1,0 +1,21 @@
+{
+  "revision": "v008",
+  "id": "CURRENT_BRANCH_STATE_v008",
+  "date_created": "2026-08-27",
+  "package_revision": "v025",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "status": "CURRENT",
+  "current_analysis_time": "1943-08-01T00:00",
+  "current_frontier_event": "Late-July Kiska evacuation and Hanzhong Phase-II endpoint are closed. August-September strategic allocation is reopened before India coastal-operation integration and before any GALVANIC realization.",
+  "active_restart": {
+    "mode": "BRANCH_B_SUMMER_ROLLBACK_EXPLORATION",
+    "time": "1943-08-01T00:00",
+    "checkpoint": "CHECKPOINT_1943-07-31T24_BRANCH_B_v001"
+  },
+  "current_overrides": "00_CONFIG/current_branch_overrides_v008.json",
+  "rollback_guard": "06_RUNTIME/BRANCH_B_ROLLBACK_GUARD_1943-08-01_v001.json",
+  "current_session_settlement": "06_RUNTIME/SESSION_2026-08-27_BRANCH_B_1943SUMMER_EXPLORATION_HANDOFF_v001.md",
+  "forecast": "06_RUNTIME/GALVANIC_FORECAST_BRANCH_B_1943SUMMER_v001.md",
+  "next_required_adjudication": "Build Aug-Sep 1943 strategic option set and allocate carriers/surface/submarine/air/logistics across Central Pacific, South Pacific, China/Burma/Indian Ocean and commerce-interdiction possibilities. Then allow Allied reactions to generate the late-1943 path.",
+  "precedence_rule": "CURRENT_BRANCH_STATE_v008 + CHECKPOINT_1943-07-31T24_BRANCH_B_v001 + BRANCH_B_ROLLBACK_GUARD + current_branch_overrides_v008 supersede all later current-state pointers and retained/provisional downstream results."
+}

@@ -1,0 +1,155 @@
+{
+  "revision": "v002",
+  "id": "FLINTLOCK_SECOND_SUPPRESSION_CYCLE_1944-02-02_WORKING_v002",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "discussion_clock_end": "1944-02-02T16:30:00+12:00",
+  "purpose": "Resolve the late-morning/afternoon second US suppression cycle against the corrected 09:30 Marshall air/water-air state while submarine recontact forces limited TG58.2 schedule disruption.",
+  "derived_from": [
+    "06_RUNTIME/FLINTLOCK_FIRST_SUPPRESSION_STRIKE_1944-02-02_WORKING_v002.json",
+    "06_RUNTIME/MARSHALL_AIR_OOB_1944-02-02T0930_WORKING_v002.json",
+    "06_RUNTIME/MARSHALL_SUBMARINE_RECONTACT_1944-02-02_0930_1430_WORKING_v001.json",
+    "06_RUNTIME/US_GILBERT_FORWARD_LAND_AIR_1944-02-02_WORKING_v001.json"
+  ],
+  "historical_sanity": "Historical FLINTLOCK used repeated carrier strikes through the day plus land-based support and later surface bombardment to keep Roi/Taroa/Wotje unusable. Branch defenders are warned, dispersed and more resilient, so the second cycle further degrades rather than instantly erases the network.",
+  "US_second_cycle": {
+    "launch_and_attack_window": "10:45-14:40 local, staggered by recovery, refuel and submarine alarm rather than one simultaneous wave",
+    "TF58_strike_sweep_sorties_band": [
+      184,
+      204
+    ],
+    "center": 194,
+    "Gilbert_relevant_sorties_band": [
+      42,
+      58
+    ],
+    "target_split_center": [
+      {
+        "target": "Taroa/Maloelap",
+        "sorties": "55-65",
+        "mission": "fighter sweep, radar/radio, runway repair parties, dispersed aircraft"
+      },
+      {
+        "target": "Roi-Namur/Kwajalein",
+        "sorties": "55-65",
+        "mission": "fighter suppression, communications, runway, AA/aircraft dispersal"
+      },
+      {
+        "target": "Ebeye/Wotje/Mili/Jaluit",
+        "sorties": "45-55 combined carrier + land-air",
+        "mission": "water-air ramps/fuel/radio plus outer-field suppression"
+      },
+      {
+        "target": "Eniwetok/Engebi",
+        "sorties": "28-36 carrier-heavy plus long-range support",
+        "mission": "reduce the still-intact land-attack/night-strike reservoir before dusk"
+      }
+    ],
+    "submarine_forcing": "TG58.2 launch/recovery rhythm is delayed about 15-25 minutes and locally desynchronized by the recontact/ASW maneuver. This modestly reduces simultaneous fighter-sweep mass but does not cancel the strike."
+  },
+  "Japanese_defense": {
+    "starting_serviceable_center": 94,
+    "starting_fighters_center": 46,
+    "starting_Raiden_center": 10,
+    "starting_water_air_center": 20,
+    "starting_attack_center": 21,
+    "fighters_airborne_or_committed_band": [
+      30,
+      38
+    ],
+    "center": 34,
+    "Raiden_airborne_or_committed_band": [
+      6,
+      8
+    ],
+    "Kyofu_low_medium_local_intercepts": "2-4 centered across southern/water nodes; subset of fighter total.",
+    "C2_state": "Taroa/Roi begin the second cycle at degraded B/B+ and B states. Repeated radar/radio hits, fatigue and runway cratering reduce the Jan-28 exchange advantage; surviving plot/radio fragments still prevent total blindness at the start of the cycle."
+  },
+  "losses_second_cycle_only": {
+    "US_TF58_irrecoverable_band": [
+      7,
+      10
+    ],
+    "US_Gilbert_land_air_irrecoverable_band": [
+      2,
+      4
+    ],
+    "US_total_irrecoverable_band": [
+      9,
+      14
+    ],
+    "US_additional_damaged_recoverable_band": [
+      15,
+      23
+    ],
+    "Japan_irrecoverable_band": [
+      24,
+      30
+    ],
+    "Japan_additional_temporarily_damaged_or_grounded_band": [
+      15,
+      22
+    ],
+    "Raiden_irrecoverable_or_nonserviceable_band": [
+      3,
+      5
+    ],
+    "water_air_irrecoverable_or_nonserviceable_band": [
+      5,
+      8
+    ],
+    "US_TF58_irrecoverable_center": 8,
+    "US_Gilbert_land_air_irrecoverable_center": 3,
+    "US_total_irrecoverable_center": 11,
+    "Japan_irrecoverable_center": 27,
+    "Raiden_irrecoverable_or_nonserviceable_center": 4,
+    "water_air_irrecoverable_or_nonserviceable_center": 6
+  },
+  "cumulative_2Feb": {
+    "US_irrecoverable_morning_plus_second_cycle_center": 27,
+    "Japan_irrecoverable_morning_plus_second_cycle_center": 66,
+    "Japan_cumulative_since_31Jan_night_center": 70,
+    "guard": "The 4 Japanese losses in the Jan31/Feb1 night attack are included only in the last figure."
+  },
+  "base_effects": [
+    {
+      "base": "Taroa",
+      "state_1630": "Runway usable only in emergency windows; main radar/plot repeatedly interrupted; local visual/radio warning remains.",
+      "C2": "C+/B- centered",
+      "repair": "Night repair possible but daylight sustained sortie generation is badly reduced."
+    },
+    {
+      "base": "Roi-Namur",
+      "state_1630": "Primary fighter-direction and runway system heavily suppressed; small dispersed fighter remnant survives.",
+      "C2": "C+/B- centered"
+    },
+    {
+      "base": "Kwajalein/Ebeye water-air",
+      "state_1630": "Ramps/fuel/maintenance points hit again; a small float-recon/Zuiun remnant remains usable from alternate lagoon points.",
+      "water_ops": "3-5 serviceable centered"
+    },
+    {
+      "base": "Wotje",
+      "state_1630": "Runway and attack-aircraft support repeatedly hit; limited emergency/night use.",
+      "C2": "remote/C+"
+    },
+    {
+      "base": "Mili/Jaluit",
+      "state_1630": "Gilbert land-air keeps pressure on runway and water support; local defense remains but high sortie rate is gone.",
+      "C2": "remote degraded"
+    },
+    {
+      "base": "Eniwetok",
+      "state_1630": "First serious same-day suppression reaches the land-attack reservoir. Runway cratered but patchable; dispersed bombers not annihilated.",
+      "land_attack_serviceable_center": "about 6",
+      "night_use": "4-6 aircraft could still be generated after repair if a fresh target track exists."
+    }
+  ],
+  "surface_followup": "US cruisers/destroyers begin or prepare intermittent afternoon/evening bombardment of Taroa/Wotje runway and gun positions once air suppression allows, making runway repair a continuing contest rather than a one-time damage state.",
+  "operational_assessment": {
+    "US": "Second cycle succeeds in pushing Roi/Taroa below reliable fighter-direction quality and cuts the Eniwetok night-strike reservoir, at the cost of another roughly eleven irrecoverable aircraft centered. All three fast-carrier TGs remain combat operational.",
+    "Japan": "Marshall air system is no longer capable of meeting another full carrier cycle on equal warning terms, but it still retains scattered fighters, water reconnaissance and a small night-strike capability. Most importantly, the carrier-TG track remained fresh enough into early afternoon to preserve an operational decision rather than total blindness."
+  },
+  "next_gate": "Resolve late-afternoon/evening track freshness. If submarine/water-air contact can be refreshed again, decide a reduced land-based night strike and whether Shokaku/Zuikaku/Hiryu convert conditional closure into a 3-Feb dawn strike. If track ages, preserve the carrier force and prepare for amphibious approach.",
+  "supersedes": "FLINTLOCK_SECOND_SUPPRESSION_CYCLE_1944-02-02_WORKING_v001",
+  "machine_correction_note": "v001 contained three center-field transcription errors only: TF58 sortie center, Japanese fighter-commit center, and TF58 loss center. Bands, cumulative totals, base effects and narrative adjudication were already correct; no combat event is rerolled."
+}

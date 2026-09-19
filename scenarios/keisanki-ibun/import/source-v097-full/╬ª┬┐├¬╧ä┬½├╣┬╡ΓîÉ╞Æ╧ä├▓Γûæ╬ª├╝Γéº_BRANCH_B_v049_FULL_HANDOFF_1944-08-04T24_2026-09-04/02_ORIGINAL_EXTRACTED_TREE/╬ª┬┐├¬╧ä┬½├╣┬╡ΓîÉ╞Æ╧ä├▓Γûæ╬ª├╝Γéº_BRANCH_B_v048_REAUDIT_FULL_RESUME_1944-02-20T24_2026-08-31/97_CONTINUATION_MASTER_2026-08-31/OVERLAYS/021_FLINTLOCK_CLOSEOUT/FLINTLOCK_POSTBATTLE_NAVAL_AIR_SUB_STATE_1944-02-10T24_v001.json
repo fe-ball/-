@@ -1,0 +1,20 @@
+{
+  "id": "FLINTLOCK_POSTBATTLE_NAVAL_AIR_SUB_STATE_1944-02-10T24_v001",
+  "status": "WORKING_CROSS_DOMAIN_CHECKPOINT_NOT_CANONICAL",
+  "as_of": "1944-02-10T24 Marshall local",
+  "Japan": {
+    "Marshall_air": "Coherent local strike capacity is effectively gone. A handful of dispersed reconnaissance/water/local-defense aircraft remain at outer nodes; some westward evacuation/ferry attempts occur, but no new mass attack package is generated.",
+    "outer_sensor_net": "Maloelap/Wotje/Mili/Jaluit and westward relay nodes remain able to observe/report at operational level, though repeated US suppression degrades sortie and transmitter availability.",
+    "submarines": {
+      "decision": "Close Kwajalein penetration is terminated as target density falls and ASW remains maximal.",
+      "disposition": "Roughly three-to-four still-useful boats shift toward outer reporting/withdrawal and possible Eniwetok approach lanes; damaged/fatigued boats withdraw west. No automatic final compensation hit is created.",
+      "last_8_10Feb_center": "No additional major US ship hit."
+    },
+    "carrier_force": "Shokaku, Zuikaku and Soryu continue westward regeneration. Hiryu remains propulsion-capable but requires deck/air-group repair and reorganization; no Marshall return is centered. The four-deck hull advantage survives, but carrier-air cadre debt sharply limits immediate renewed strike generation."
+  },
+  "US": {
+    "TF58": "Cabot remains campaign-out. Other fast decks are physically available subject to aircraft replacement, maintenance, fuel and aircrew regeneration. Majuro remains the main immediate replenishment node.",
+    "amphibious_force": "Ground victory begins releasing heavy support, CVE and DD wallets, but shipping/landing-craft turnaround and ASW prevent instantaneous follow-on assault.",
+    "next_operations": "HAILSTONE- and CATCHPOLE-equivalent dates remain OPEN and must be recomputed from replenishment, air-group replacement, assault-shipping turnaround, Japanese warning/evacuation and Eniwetok adaptation rather than inherited historical dates."
+  }
+}

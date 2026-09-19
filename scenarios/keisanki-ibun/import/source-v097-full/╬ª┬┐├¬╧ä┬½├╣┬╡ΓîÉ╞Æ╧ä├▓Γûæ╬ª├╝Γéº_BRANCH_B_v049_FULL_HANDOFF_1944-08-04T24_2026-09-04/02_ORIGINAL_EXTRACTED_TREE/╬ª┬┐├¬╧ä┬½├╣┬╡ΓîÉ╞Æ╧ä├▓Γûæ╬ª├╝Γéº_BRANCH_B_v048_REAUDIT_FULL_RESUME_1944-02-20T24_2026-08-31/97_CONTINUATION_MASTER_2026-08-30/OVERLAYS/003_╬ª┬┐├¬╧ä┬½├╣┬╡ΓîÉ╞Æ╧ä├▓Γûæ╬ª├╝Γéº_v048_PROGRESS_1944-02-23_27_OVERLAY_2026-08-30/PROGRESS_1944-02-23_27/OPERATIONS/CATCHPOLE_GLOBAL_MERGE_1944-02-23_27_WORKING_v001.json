@@ -1,0 +1,74 @@
+{
+  "revision": "v001",
+  "id": "CATCHPOLE_GLOBAL_MERGE_1944-02-23_27_WORKING_v001",
+  "status": "WORKING_BRANCH_MERGE_OF_PREVIOUSLY_RESOLVED_FUTURE_LOCAL_NODE",
+  "clock_window": "1944-02-23..27",
+  "global_frontier_after_merge": "1944-02-27T24",
+  "source_future_local_nodes": [
+    "96_SESSION_WORKING_2026-08-30/OPERATIONS/CATCHPOLE_ENIWETOK_ISLAND_1944-02-22_23_WORKING_v001.json",
+    "96_SESSION_WORKING_2026-08-30/OPERATIONS/CATCHPOLE_PARRY_CLOSEOUT_1944-02-23_27_WORKING_v001.json",
+    "96_SESSION_WORKING_2026-08-30/ARMOR/JAPANESE_ARMOR_ENIWETOK_9_TYPE95_NATIONAL_POSTING_1944-02-21_25_WORKING_v001.json"
+  ],
+  "merge_rule": "No reroll. Merge the already adjudicated local result only as the global clock reaches each day.",
+  "chronology": [
+    {
+      "date": "1944-02-23",
+      "Eniwetok_Island": "Organized resistance ends center 19:20 (band 16:30..24 Feb 02:00); only fragmented infiltration remains.",
+      "Parry": "22d Marines reorganize/reembark while saturation preparation begins.",
+      "armor": "Second group of three Type 95 becomes irrecoverable; six of nine named Eniwetok tanks now lost."
+    },
+    {
+      "date": "1944-02-24",
+      "Parry": "Naval/field-artillery/carrier preparation intensifies; fixed guns/C2 increasingly suppressed while small covered positions survive.",
+      "Engebi_base": "Emergency recovery/liaison activity begins; not yet regular multi-squadron operation."
+    },
+    {
+      "date": "1944-02-25",
+      "Parry": "Assault H-hour 09:00. Three Type 95 counterattack 09:45..10:30 and are destroyed. One danger-close friendly-fire episode causes bounded US casualties and light/moderate LCI damage. Organized resistance ends center 21:40.",
+      "armor": "All nine named Type 95 at Engebi/Eniwetok/Parry are now irrecoverable and fully posted out of the local/national residual."
+    },
+    {
+      "date": "1944-02-26",
+      "Parry": "Night remnants are cleared center 07:00; atoll secure declaration center 10:00.",
+      "security": "Outer-islet/lagoon cleanup continues; lagoon logistics usable in assault sense but not a mature fleet base."
+    },
+    {
+      "date": "1944-02-27",
+      "security": "Outer-islet and lagoon security cleanup reaches logistics closeout.",
+      "Engebi_base": "Limited fighter/search staging may begin within 27 Feb..1 Mar band; this is not yet regular multi-squadron base capability.",
+      "Eniwetok_strip": "Bomber-strip construction remains an engineering project; no immediate bomber-base credit."
+    }
+  ],
+  "merged_closeout": {
+    "atoll_major_organized_resistance_end": "1944-02-25 late",
+    "atoll_secure_declaration_center": "1944-02-26T10:00",
+    "security_logistics_closeout": "1944-02-27",
+    "Japanese_Type95_irrecoverable_total": 9,
+    "Japanese_dead_band": [
+      3260,
+      3450
+    ],
+    "Japanese_captured_band": [
+      100,
+      190
+    ],
+    "combined_US_ground_plus_air_sea_KWM_band": [
+      1050,
+      1390
+    ],
+    "combined_US_center": 1200,
+    "US_aircraft_irrecoverable_operation_total_band": [
+      3,
+      6
+    ],
+    "US_aircraft_damaged_band": [
+      7,
+      13
+    ],
+    "Japanese_local_air_irrecoverable_total_band": [
+      3,
+      5
+    ]
+  },
+  "future_guard": "Base-development dates after 27 Feb remain future; do not grant mid-March bomber-strip capability early."
+}

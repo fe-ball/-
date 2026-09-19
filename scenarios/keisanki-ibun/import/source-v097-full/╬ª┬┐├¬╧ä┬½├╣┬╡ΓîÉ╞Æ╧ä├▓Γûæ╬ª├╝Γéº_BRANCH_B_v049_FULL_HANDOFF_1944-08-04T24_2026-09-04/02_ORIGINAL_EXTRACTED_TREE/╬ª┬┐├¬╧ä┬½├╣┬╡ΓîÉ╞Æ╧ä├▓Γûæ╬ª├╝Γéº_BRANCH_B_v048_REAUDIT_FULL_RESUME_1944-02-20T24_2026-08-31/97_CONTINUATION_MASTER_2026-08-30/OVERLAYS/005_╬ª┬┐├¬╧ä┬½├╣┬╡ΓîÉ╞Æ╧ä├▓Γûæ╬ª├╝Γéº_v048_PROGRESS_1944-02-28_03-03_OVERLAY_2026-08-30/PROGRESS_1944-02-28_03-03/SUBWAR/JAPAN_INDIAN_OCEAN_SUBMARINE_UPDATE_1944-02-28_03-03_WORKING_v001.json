@@ -1,0 +1,65 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_INDIAN_OCEAN_SUBMARINE_UPDATE_1944-02-28_03-03_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-02-28..03-03",
+  "global_frontier_after_merge": "1944-03-03T24",
+  "parents": [
+    "JAPAN_INDIAN_OCEAN_SUBMARINE_UPDATE_1944-02-23_27_WORKING_v001"
+  ],
+  "events": [
+    {
+      "date": "1944-02-28..03-03",
+      "boat": "I-166",
+      "event": "Continues twelfth Indian Ocean/Bay patrol after 19-Feb miss; no new named attack through 3 Mar.",
+      "branch_result": "ACTIVE_NO_NEW_CREDIT"
+    },
+    {
+      "date": "1944-02-28..03-03",
+      "boat": "I-162",
+      "event": "Continues outbound patrol southwest of Ceylon/Maldive approaches; on 4 Mar she will historically attack Fort McCloud, which remains outside this window.",
+      "branch_result": "ACTIVE_OUTBOUND"
+    },
+    {
+      "date": "1944-03-01..02",
+      "boat": "I-162?",
+      "event": "Eastern Fleet reports a submarine periscope/practice-area threat and sends destroyers hunting southwest of Ceylon. Geometry makes I-162 plausible but not proven.",
+      "branch_result": "POSSIBLE_UNCONFIRMED_PRESENCE",
+      "effect": "RN exercises curtailed; no depth-charge damage or contact is credited."
+    },
+    {
+      "date": "1944-02-29",
+      "boat": "I-37",
+      "event": "Sinks British cargo ship Ascot around 05S 63E while continuing western Indian Ocean patrol.",
+      "branch_result": "MERCHANT_SUNK",
+      "effect": "Commerce pressure continues without requiring a surface-raider sortie."
+    },
+    {
+      "date": "1944-03-03",
+      "boat": "I-37",
+      "event": "Glen reconnaissance flight over the Chagos Archipelago; no ships found.",
+      "branch_result": "RECON_NO_TARGET"
+    }
+  ],
+  "SLEUTH_interaction": "No submarine obtains a weapon-quality contact on Illustrious during the return. I-37 is far west; I-162 possible Ceylon-area presence remains uncorrelated.",
+  "03Mar_picture": {
+    "active_or_outbound": [
+      "I-166",
+      "I-162",
+      "I-37"
+    ],
+    "returned_or_in_port": [
+      "RO-111"
+    ],
+    "confirmed_lost": [
+      "RO-110",
+      "I-27"
+    ]
+  },
+  "sources_external": [
+    "https://www.combinedfleet.com/I-162.htm",
+    "https://www.combinedfleet.com/I-166.htm",
+    "https://www.combinedfleet.com/I-37.htm",
+    "https://www.naval-history.net/xDKWD-EF1943Dec-Apr1944.htm"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "revision": "v001",
+  "id": "GALVANIC_SECONDARY_CARRIER_INDIVIDUAL_TRACE_1943-11-23_v001",
+  "status": "CENTERED_REAUDIT_CLOSED_FOR_CARRIER_LOCATION_AND_DECK_READINESS",
+  "as_of": "1943-11-23T00:00:00+10:00",
+  "semantic_base": "Branch B v048",
+  "purpose": "Close Junyo/Hiyo/Ryujo/Zuiho hull location, air-group attachment, deck readiness and 11/26 rear-support reach without importing Bengal combat deployment or later-1944 maturity.",
+  "precedence": [
+    "Current Branch-B checkpoints/runtime ledgers",
+    "Branch-B rollback/reaudit guards",
+    "Historical movement only as fallback when no Branch causal chain contradicts it",
+    "Legacy settlements comparison-only"
+  ],
+  "hard_guards": [
+    "Centered Bengal carrier hull commitment is zero.",
+    "No Bengal combat fatigue is charged to Junyo/Hiyo/Ryujo/Zuiho.",
+    "Historical Junyo 1943-11-05 HALIBUT torpedo damage is not inherited on the centered line because the Ultra-cued interception chain is broken.",
+    "Hull location, air-group location, deck readiness and aircraft count are separate clocks.",
+    "Secondary carriers are not equivalent to Shokaku/Zuikaku/Hiryu/Soryu fast first-line decks.",
+    "Kinsei Zero is not assigned to these secondary decks as a default pre-GALVANIC fighter type; late Zuisei remains the main fighter pending event-specific trial/allocation."
+  ],
+  "mobilization_trigger": {
+    "warning_window": "1943-11-13..16",
+    "centered_order": "1943-11-14..15 Pacific-priority release of secondary carrier reserve after the large US amphibious signature becomes credible",
+    "interpretation": "This is not foreknowledge of Tarawa. It is a response to a large Central-Pacific amphibious operation signature."
+  },
+  "ships": {
+    "Zuiho": {
+      "confidence": "HIGH_CENTERED",
+      "branch_path": [
+        "Survives Branch divergence and remains a secondary/light carrier.",
+        "No Bengal combat commitment.",
+        "Historical fallback Yokosuka departure 16 Nov / Truk arrival 21 Nov has no identified Branch contradiction."
+      ],
+      "position_1943_11_23T00": "Truk lagoon / Combined Fleet rear-deck concentration",
+      "air_group_position": "aboard / Truk-linked; no separate southern combat deployment",
+      "deck_state": "OPERATIONAL; low-to-moderate transit fatigue; refueled/replenishing but usable",
+      "combat_usable_aircraft_centered_band": [24, 28],
+      "primary_roles": ["CAP relief", "search", "ferry", "emergency recovery", "limited strike"],
+      "11_23_immediate_use": "YES",
+      "11_26_rear_support_geometry": "YES"
+    },
+    "Junyo": {
+      "confidence": "MEDIUM_HIGH_CENTERED",
+      "branch_path": [
+        "Participates in May Attu limited-relief force and is released afterward.",
+        "Spends summer/autumn as mobile reserve/ferry-patrol-training asset; no Bengal combat charge.",
+        "Historical 31 Oct Truk-to-home movement is usable as a fallback.",
+        "Historical 5 Nov HALIBUT torpedo damage is removed on centered Branch line; Junyo therefore reaches home waters serviceable instead of entering battle-damage repair.",
+        "Pacific-priority order around 14-15 Nov permits an eastbound redeployment from Inland Sea/Saeki around 15-16 Nov."
+      ],
+      "position_1943_11_23T00": "Truk lagoon, centered arrival 20-22 Nov",
+      "air_group_position": "aboard/reconstituted with ship; no historical Solomons emergency-rebuild location automatically inherited",
+      "deck_state": "OPERATIONAL; routine-maintenance and transit fatigue only",
+      "combat_usable_aircraft_centered_band": [32, 38],
+      "primary_roles": ["rear CAP", "search", "ferry", "emergency recovery", "limited follow-on strike"],
+      "11_23_immediate_use": "YES",
+      "11_26_rear_support_geometry": "YES"
+    },
+    "Ryujo": {
+      "confidence": "MEDIUM_CENTERED_BRANCH_INFERENCE",
+      "branch_path": [
+        "Survives Branch divergence and participates in May Attu limited-relief force.",
+        "Released after Attu and not permanently tied to the Aleutians.",
+        "No historical TROM is usable after 1942; autumn position must be constructed from Branch mission policy.",
+        "Centered autumn duty is home/central-Pacific reserve, ferry, patrol and deck-training rather than Bengal combat.",
+        "Because Ryujo is the most useful small forward deck for search/CAP/ferry under the Branch mission-class doctrine, October US carrier pressure gives a positive reason to keep her in the home-to-Truk rotation rather than west of Singapore."
+      ],
+      "centered_autumn_anchor": "Saeki/Inland Sea <-> Truk reserve rotation",
+      "position_1943_11_23T00": "Truk lagoon / immediate vicinity; centered arrival 19-21 Nov after Pacific-priority release",
+      "air_group_position": "aboard/Truk-linked; late-Zuisei-heavy mixed group",
+      "deck_state": "OPERATIONAL; small-deck limitations remain; Branch deck-processing improvement applies only to suitable wind/load",
+      "combat_usable_aircraft_centered_band": [24, 30],
+      "primary_roles": ["forward/rear CAP relay", "search", "ferry", "emergency recovery", "small limited strike"],
+      "11_23_immediate_use": "YES",
+      "11_26_rear_support_geometry": "YES",
+      "sensitivity": "If autumn rotation left Ryujo in home waters as late as 15 Nov, arrival can slip to 21-23 Nov; this changes 11/23 immediate CAP/search by roughly one light-deck wallet but not 11/26 availability."
+    },
+    "Hiyo": {
+      "confidence": "MEDIUM_HIGH_CENTERED",
+      "branch_path": [
+        "Available after earlier repair/workup; Branch does not copy Solomons emergency attrition/rebuild state wholesale.",
+        "No Bengal combat commitment.",
+        "Historical fallback has Hiyo still in Inland Sea and departing south only on 25 Nov with Ryuho; that southbound ferry/transport movement is not realized once Branch Pacific-priority is issued around 14-15 Nov.",
+        "Centered Branch response advances departure to about 17-18 Nov for Truk rather than waiting for the historical 25 Nov southbound movement."
+      ],
+      "position_1943_11_23T00": "Inbound to Truk, roughly final 0.5-1.0 day of transit; centered Truk arrival during 23 Nov",
+      "air_group_position": "aboard/ship-linked; no Bengal combat detachment",
+      "deck_state": "TRANSIT-OPERATIONAL at T00; becomes full rear-deck operational after arrival, refuel and handling reset later 23-24 Nov",
+      "combat_usable_aircraft_centered_band": [26, 32],
+      "primary_roles": ["rear CAP", "ferry", "emergency recovery", "limited follow-on strike after replenishment"],
+      "11_23_immediate_use": "NOT_FOR_EARLY_DAWN_GILBERT_MARSHALL_COMBAT; available after Truk arrival for local/rear tasks",
+      "11_26_rear_support_geometry": "YES"
+    }
+  },
+  "aggregate": {
+    "strategic_combat_usable_pool_if_all_four_released": [106, 128],
+    "11_23T00_immediate_Truk_deck_pool_excluding_inbound_Hiyo": [80, 96],
+    "11_23_after_Hiyo_arrival_total_deck_pool": [106, 128],
+    "11_26_centered_rear_support_pool": [106, 128],
+    "rule": "These are combat-usable aircraft across heterogeneous rear decks, not one synchronized strike package. CAP/search/recovery/ferry reservations reduce any offensive follow-on sortie substantially."
+  },
+  "geometry": {
+    "home_to_Truk": "about five days-class at operational transit speed, weather/escort dependent",
+    "Truk_to_Eniwetok_rear_area": "about two-to-three days-class at operational transit speed",
+    "consequence": "A carrier at Truk by 23 Nov can plausibly enter rear-support geometry by 25-26 Nov without becoming part of the first-line four-carrier strike core."
+  },
+  "operational_closure": {
+    "11_23": "Junyo/Ryujo/Zuiho may already relieve local/rear CAP/search and prepare eastward movement. Hiyo is not credited to the dawn 23 Nov tactical wallet.",
+    "11_24_25": "All four can be refueled/reorganized and move east in staggered rear echelons if Yamamoto keeps the carrier-commitment gate open.",
+    "11_26": "All four are available as rear-deck shock absorbers/CAP-search-recovery support; they are not automatically added to the first-line 160-class strike. A limited second strike must be separately generated from remaining aircraft, fuel, escort, distance and deck cycle."
+  },
+  "reopened_dependencies": [
+    "Exact escort/DD hulls assigned to eastward carrier transit must be paid when surface-force OOB is closed.",
+    "Per-ship aircraft role mix must be closed after the 11/23 Marshall/Nauru local-air OOB so airframes are not double allocated.",
+    "Whether Ryujo is placed one echelon farther east than Junyo/Hiyo is an operational deployment decision, not a location fact at 11/23T00."
+  ]
+}

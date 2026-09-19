@@ -1,0 +1,94 @@
+{
+  "revision": "v001",
+  "id": "EASTERN_FLEET_INITIAL_BRANCH_DECISION_AND_SORTIE_1944-03-04_08_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-03-04..08",
+  "global_frontier_after_merge": "1944-03-08T24",
+  "purpose": "Decide whether Operation INITIAL still occurs in Branch B, and if so with what risk posture, rather than inheriting the historical sortie automatically.",
+  "historical_anchors": [
+    {
+      "date": "1944-03-04",
+      "event": "Eastern Fleet remains in harbour training at Trincomalee."
+    },
+    {
+      "date": "1944-03-05",
+      "event": "Commander-in-Chief Eastern Fleet holds a flag/commanding-officer conference on future operations at Trincomalee."
+    },
+    {
+      "date": "1944-03-06",
+      "event": "Queen Elizabeth with Nizam, Quickmatch and Quality sails to Colombo to store to full capacity; Valiant/Ceylon carry out harbour gunnery practice."
+    },
+    {
+      "date": "1944-03-08",
+      "event": "Renown, Valiant, Ceylon, Emerald, Illustrious and eight destroyers sail for INITIAL; Illustrious lands 847 Sqn 9 Barracudas and embarks 1830 Sqn, giving 12 Barracudas and 27 Corsairs; fleet forms at 1630 and heads north under W/T silence."
+    }
+  ],
+  "branch_decision_gate": {
+    "physical_capability": "PASS. The ships used are available in the Branch and SLEUTH caused no combat damage. Queen Elizabeth can be omitted while replenishing at Colombo without collapsing the exercise force.",
+    "command_release": "PASS. The 5-Mar conference gives a plausible current command decision point rather than a historical-date autopilot.",
+    "operational_slack": "PASS_BUT_ESCORT_CONSTRAINED. Eight destroyers can be assembled only by cycling the Queen Elizabeth screen back early on 8 Mar; this is enough for a short fleet sweep but not evidence of abundant escort reserve.",
+    "motive_and_payoff": "PASS_STRONGER_THAN_HISTORICAL_CENTER. Training and show-of-force remain useful, and Branch loss of Chittagong increases the value of demonstrating that the Bay of Bengal is not conceded to Japan. The operation is not intended to seek a fleet battle.",
+    "information_quality": "NOT_TARGET_DEPENDENT. No Japanese fleet target is required because INITIAL is a training/demonstration sweep.",
+    "opportunity_cost": "ACCEPTABLE_ONLY_WITH_RISK_LIMITS. Illustrious is the locally irreplaceable modern flight deck, so the force should not deliberately penetrate the Andaman/Chittagong land-air envelope merely to create contact."
+  },
+  "decision": "GO_1944-03-08",
+  "force": {
+    "heavy": [
+      "Renown",
+      "Valiant"
+    ],
+    "cruisers": [
+      "Ceylon",
+      "Emerald"
+    ],
+    "carrier": [
+      "Illustrious"
+    ],
+    "destroyers": [
+      "Rotherham",
+      "Relentless",
+      "Norman",
+      "Napier",
+      "Nepal",
+      "Nizam",
+      "Quickmatch",
+      "Quality"
+    ],
+    "Queen_Elizabeth": "AT_COLOMBO_REPLENISHING_NOT_IN_INITIAL"
+  },
+  "Illustrious_air_group_08Mar": {
+    "Barracuda": 12,
+    "Corsair": 27,
+    "nominal_total": 39,
+    "interpretation": "Fighter-heavy carrier posture is historically exact and is especially rational in Branch B because Japanese land-air threat from the Andaman/Bengal system is more credible. It is not evidence that Britain intends an offensive carrier strike on Port Blair or Chittagong."
+  },
+  "branch_route_posture": {
+    "center": "Keep the historical west/central Bay sweep concept toward the Vizagapatam axis; do not deliberately swing east toward the Andamans without a new target/mission decision.",
+    "reason": "Shows force to India/Bengal and provides sea room for fleet training while limiting exposure of Illustrious to Japanese land-based aviation.",
+    "abort_or_turn_south_triggers": [
+      "confirmed maintained Japanese air shadow with strike follow-up",
+      "credible submarine datum inside fleet manoeuvre box that cannot be cleared",
+      "fresh evidence of a prepared Japanese surface ambush east of the sweep axis"
+    ]
+  },
+  "08Mar_progress": [
+    {
+      "time": "noon",
+      "position": "08-50N 81-47E",
+      "state": "Fleet assembling/operating off Ceylon; no enemy contact."
+    },
+    {
+      "time": "1630",
+      "state": "Fleet forms as a unit, W/T silence enforced, course northward."
+    },
+    {
+      "time": "T24",
+      "state": "INITIAL underway north in west-central Bay corridor; no Japanese weapon-quality contact adjudicated."
+    }
+  ],
+  "losses_04_08": "NONE_COMBAT",
+  "sources_external": [
+    "https://www.naval-history.net/xDKWD-EF1943Dec-Apr1944.htm",
+    "https://www.uboat.net/allies/warships/ship/3258.html"
+  ]
+}

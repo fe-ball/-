@@ -1,0 +1,107 @@
+{
+  "revision": "v002",
+  "id": "CHECKPOINT_1943-12-31T24_BRANCH_B_v002",
+  "checkpoint_id": "CHECKPOINT_1943-12-31T24_BRANCH_B_v002",
+  "as_of": "1944-01-01T00:00:00",
+  "status": "CURRENT_AUTHORITATIVE_YEAR_END_WITH_GALVANIC_DEPENDENCY_REOPEN",
+  "type": "YEAR_END_FRONTIER_CHECKPOINT",
+  "parent": "CHECKPOINT_1943-12-31T24_BRANCH_B_v001",
+  "technical_baseline": "TECH_INDEX_v009",
+  "current_branch_overrides": "00_CONFIG/current_branch_overrides_v010.json",
+  "rollback_guard": "06_RUNTIME/BRANCH_B_YEAR_END_GUARD_1944-01-01_v001.json",
+  "state_sources": [
+    "06_RUNTIME/BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v001.md",
+    "06_RUNTIME/BENGAL_ARAKAN_CHITTAGONG_1943-10_12_SETTLEMENT_v001.md",
+    "06_RUNTIME/GALVANIC_BRANCH_B_1943-11_SETTLEMENT_v001.md",
+    "06_RUNTIME/DODECANESE_WITHDRAWAL_BRANCH_B_1943-11_SETTLEMENT_v001.md",
+    "06_RUNTIME/ROYAL_NAVY_DIVERGENCE_AUDIT_1942-1943_v001.md",
+    "06_RUNTIME/GALVANIC_BRANCH_B_1943-11_REAUDIT_GATE_v001.md",
+    "06_RUNTIME/ELECTRONIC_WARFARE_OPERATIONAL_DERIVATIVES_1942-1944_v001.md",
+    "06_RUNTIME/AXIS_SUBMARINE_TECH_TRANSFER_REAUDIT_1942-1944_v001.md",
+    "06_RUNTIME/SESSION_2026-08-28_MASTER_AUDIT_DELTA_v001.md"
+  ],
+  "territory": {
+    "Midway": "Japanese-held",
+    "Wake": "Japanese-held",
+    "Port_Moresby": "Japanese-held",
+    "Lunga_Tulagi": "Japanese-held",
+    "Espiritu_Santo": "Japanese-held",
+    "New_Caledonia": "Japanese military control under Vichy nominal sovereignty",
+    "Efate": "US-held",
+    "Tarawa": "US-held after Branch GALVANIC, 1943-11-28",
+    "Makin": "US-held after Branch GALVANIC, 1943-11-27",
+    "Marshalls": "Japanese-held; US next-operation planning open",
+    "Hanzhong": "Japanese-held; Sichuan Phase III HOLD",
+    "Kiska": "Japan evacuated late July; no Japanese garrison; Allied reoccupation thereafter",
+    "Chittagong": "Japanese-held since 1943-12-15; port/airfield/rail heavily damaged and under repair",
+    "Cox_Bazar": "Japanese-held",
+    "Feni_Comilla_Agartala": "British/Commonwealth defensive and air-support arc"
+  },
+  "carrier_ledger": {
+    "Japan": {
+      "lost": [
+        "Akagi",
+        "Kaga"
+      ],
+      "first_line_core_alive": [
+        "Shokaku",
+        "Zuikaku",
+        "Hiryu",
+        "Soryu"
+      ],
+      "GALVANIC_state": "first-line four-carrier core survives and withdraws; Ryujo/Zuiho survive",
+      "secondary_carrier_audit_required": [
+        "Junyo",
+        "Hiyo",
+        "Ryujo",
+        "Zuiho"
+      ]
+    },
+    "United_States": {
+      "branch_losses": [
+        "Lexington",
+        "Yorktown",
+        "Enterprise",
+        "Hornet",
+        "Saratoga"
+      ],
+      "survivor": "Wasp survives",
+      "GALVANIC_damage": [
+        "Liscome Bay sunk",
+        "Independence campaign-out",
+        "Cowpens campaign-out",
+        "Lexington temporary/light-moderate damage"
+      ],
+      "new_build_state": "Essex/Independence-class regeneration underway; exact 1944 pool must be date-gated"
+    },
+    "Britain": {
+      "branch_losses": [
+        "Indomitable",
+        "Formidable"
+      ],
+      "survivors_and_constraints": [
+        "Hermes survives Operation C chain",
+        "Illustrious active after emergency repair; modernization debt",
+        "Victorious US-loan/return/refit clock displaced later than historical",
+        "Unicorn available as operational/support carrier"
+      ],
+      "1944H1_note": "surface-heavy, carrier-thin Eastern Fleet potential; Saratoga unavailable"
+    }
+  },
+  "burma_india": {
+    "chittagong_capture": "1943-12-15 evening",
+    "japanese_main_force": "55th Division exhausted/reconstituting; 54th advance/rear/logistics elements increasingly relieve security",
+    "british_state": "5th/26th withdraw north; 7th escapes with personnel but heavy-equipment loss; 81st West African main body relatively fresh north/Hill Tracts",
+    "u_go": "NO_GO; 15th Army intact and threatening Chindwin/Imphal axis"
+  },
+  "royal_navy": {
+    "reserve_elasticity": "worse than historical; modern fleet-carrier depth thin; escort reserve constrained",
+    "dodecanese": "planned early-Nov withdrawal realized; later Leros endgame losses partly avoided",
+    "eastern_fleet_year_end": "late-Dec eastbound heavy reinforcement is working movement baseline; Jan arrival/combat open"
+  },
+  "future_boundary": "No realized combat after 1943-12-31. Additionally, GALVANIC detailed tactical dependencies are reopened under v028; do not finalize 1944 Central Pacific operations until that re-audit is closed and any year-end deltas propagated.",
+  "dependency_reopen": {
+    "GALVANIC_1943_11": "Detailed tactical sequence/OOB/fatigue/damage reopened from 1943-11-23; year-end Central Pacific state is inherited as presumed baseline pending closure. Qualitative threshold changes may propagate to this checkpoint.",
+    "analysis_checkpoint": "CHECKPOINT_1943-11-23T00_BRANCH_B_GALVANIC_REAUDIT_v001"
+  }
+}

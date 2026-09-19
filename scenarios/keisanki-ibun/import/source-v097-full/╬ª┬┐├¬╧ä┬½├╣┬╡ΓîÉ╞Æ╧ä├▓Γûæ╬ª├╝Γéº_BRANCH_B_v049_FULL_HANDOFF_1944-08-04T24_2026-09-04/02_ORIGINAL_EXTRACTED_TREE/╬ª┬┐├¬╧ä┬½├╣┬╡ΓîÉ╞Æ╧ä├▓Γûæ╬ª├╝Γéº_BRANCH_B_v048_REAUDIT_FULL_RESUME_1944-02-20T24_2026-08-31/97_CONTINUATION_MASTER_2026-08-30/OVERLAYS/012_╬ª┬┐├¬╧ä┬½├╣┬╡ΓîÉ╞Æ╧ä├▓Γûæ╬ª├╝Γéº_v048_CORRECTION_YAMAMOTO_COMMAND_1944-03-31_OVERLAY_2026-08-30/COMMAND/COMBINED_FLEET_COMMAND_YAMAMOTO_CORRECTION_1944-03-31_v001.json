@@ -1,0 +1,29 @@
+{
+  "revision": "v001",
+  "id": "COMBINED_FLEET_COMMAND_YAMAMOTO_CORRECTION_1944-03-31_v001",
+  "status": "WORKING_BRANCH_CORRECTION",
+  "effective_as_of": "1944-03-31T24",
+  "supersedes": [
+    "COMBINED_FLEET_HQ_RELOCATION_AND_KOGA_SURVIVAL_1944-03-27_31_WORKING_v001"
+  ],
+  "branch_authority": [
+    "CURRENT_BRANCH_STATE_v007: Yamamoto survives Apr 18; Japanese command survival is branch-derived, not historical-date-derived.",
+    "ALEUTIANS_ATTU_KISKA_REAUDIT_1943-03_07_SETTLEMENT_v001: Combined Fleet remains under Yamamoto in May-June.",
+    "EFATE_LIMITED_NEUTRALIZATION_1943-06_SETTLEMENT_v001: Yamamoto remains Combined Fleet commander.",
+    "MARIANAS_SAIPAN_1944-06-11_07-14_SETTLEMENT_v001: Yamamoto personally adjudicates the June 1944 fleet-battle termination, proving continuity through this date unless an intervening branch event is created."
+  ],
+  "correction": {
+    "combined_fleet_cinc": "Admiral Isoroku Yamamoto",
+    "koga_status": "NOT Combined Fleet C-in-C on the historical post-18-Apr-1943 succession clock. His exact Branch assignment is not established by the current authority and must not be invented here.",
+    "historical_koga_chain": "INAPPLICABLE. Do not instantiate Koga-at-Palau, the 31-Mar Koga emergency H8K evacuation, Koga death, Fukudome crash/capture, or Toyoda succession from historical dates.",
+    "historical_z_plan_capture": "INAPPLICABLE as a historical document-capture chain. Any Yamamoto-era operational plan must be modeled from Branch decisions; the historical Koga Z-plan papers are not automatically present or captured.",
+    "hq_location": "REQUIRES BRANCH-SPECIFIC ADJUDICATION. The previous file incorrectly inferred a Koga-centered Palau HQ posture. Preserve the established early warning/dispersal logic, but do not assert Yamamoto's personal location or an HQ air evacuation without a dated Branch movement record.",
+    "palau_operational_result": "UNCHANGED unless later HQ-location evidence creates a concrete exposure. Four-carrier no-sortie, high-value fleet dispersal, fixed-base attrition, and lack of weapon-quality TF58 track remain valid.",
+    "command_style": "Use the established Branch Yamamoto: personality not rewritten, but operating with improved staff calculation culture, stronger surviving fleet, and demonstrated willingness to preserve fleet-in-being when expected-value gates are unfavorable."
+  },
+  "staff_note": "Matome Ugaki historically served as Yamamoto's chief of staff and survived the second bomber on 18-Apr-1943. Because the Branch Vengeance kill-chain never occurs, later staff succession cannot be auto-inherited either. Current Branch files do not settle Ugaki's exact 1944 post; leave it open until explicitly adjudicated.",
+  "external_historical_context": [
+    "NHHC H-018-2 confirms Yamamoto was Combined Fleet C-in-C and Ugaki his chief of staff at the historical 18-Apr-1943 Vengeance event.",
+    "NHHC H-032-1 describes the historical Koga death/Fukudome Z-plan chain; this chain is excluded here because Koga never reaches Combined Fleet command on the historical clock."
+  ]
+}

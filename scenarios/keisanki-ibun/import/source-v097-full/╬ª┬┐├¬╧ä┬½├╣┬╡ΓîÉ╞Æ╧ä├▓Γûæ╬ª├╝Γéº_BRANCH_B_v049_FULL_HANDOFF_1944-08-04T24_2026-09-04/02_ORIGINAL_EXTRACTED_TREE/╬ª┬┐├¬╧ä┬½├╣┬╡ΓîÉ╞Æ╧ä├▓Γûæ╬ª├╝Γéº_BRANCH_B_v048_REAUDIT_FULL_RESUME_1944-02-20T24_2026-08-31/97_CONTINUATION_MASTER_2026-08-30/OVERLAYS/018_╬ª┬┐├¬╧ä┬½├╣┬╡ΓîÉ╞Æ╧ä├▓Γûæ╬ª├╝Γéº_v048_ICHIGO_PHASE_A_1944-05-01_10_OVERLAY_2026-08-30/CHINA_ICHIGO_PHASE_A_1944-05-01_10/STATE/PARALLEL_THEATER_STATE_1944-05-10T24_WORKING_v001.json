@@ -1,0 +1,22 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-05-10T24_WORKING_v001",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_CURRENT_OVERLAY",
+  "as_of": "1944-05-10T24:00:00+09:00",
+  "global_frontier": "1944-05-10T24",
+  "China": {
+    "Ichigo_Hunan": "Phase A underway since 28 Apr. By 10 May Japanese forces have breached the Miluo corridor and reached the outer Liuyang/Ningxiang-Changsha operational belt; Changsha remains Chinese-held.",
+    "Japan": "Ten-division package remains coherent; campaign stock 137-177kt and 4.95-6.05k serviceable motor vehicles. No Hengyang release.",
+    "China_IX_War_Area": "Main body materially preserved; local Changsha defense is a delay/demolition mission rather than a prestige annihilation defense.",
+    "Fourteenth_Air_Force": "Active interdiction materially delays repair and movement but does not close the Wuhan-Yueyang-Miluo feed.",
+    "Nanjing": "18-28k rear-security personnel have followed secured corridors, releasing roughly 0.6-0.9 Japanese division-equivalent of static workload without receiving breakthrough credit."
+  },
+  "Pacific": {
+    "Japan_carriers": "Five-deck system continues maturation; no combat. Four-core near deck/airframe ceiling and Taiho reaches 65-75 mission-ready working band.",
+    "Japan_posture": "Yamamoto prepares a forward reaction-axis shift toward Tawi-Tawi/Basilan-Sulu Sea after 10 May rather than launching a blind eastward offensive.",
+    "US": "No major 1-10 May carrier combat assigned; 13-deck main pool maintained while CV-18-equivalent/San Jacinto integration continues.",
+    "Marianas": "Reinforcement/dispersal continues; no exact invasion-date intelligence."
+  },
+  "Indian_Ocean_Bengal": "BACKGROUND_FREEZE remains active; no new fleet or ground release gate.",
+  "next_active_question": "11-18 May Hunan: resolve Liuyang/Ningxiang, Changsha isolation/fall gate. In parallel, resolve the Japanese Mobile Fleet forward move and US May carrier-training/raid activity."
+}

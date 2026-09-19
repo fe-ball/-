@@ -1,0 +1,278 @@
+{
+  "revision": "v001",
+  "checkpoint": "WARSTART_1941-12-07_08_v003",
+  "as_of": "1941-12-07T23:59:00+09:00",
+  "purpose": "Compact executable opening-state ledger. It points to bounded source states instead of replacing detailed OOBs.",
+  "baseline_links": {
+    "tech": "TECH_INDEX_v003",
+    "prewar": "PREWAR_INDEX_v003",
+    "legacy_opening_state": "opening_state_1941-12-07_v006.json"
+  },
+  "state_semantics": {
+    "FIXED": "direct opening input within scope",
+    "BOUNDED": "use interval, no silent midpoint",
+    "CONDITIONAL": "activate only when host/date/fielding condition resolves",
+    "LATENT": "not opening capability; wartime trigger only",
+    "UNKNOWN": "explicit unresolved field; historical baseline substitution forbidden unless adjudicated"
+  },
+  "domains": [
+    {
+      "domain": "AIR_FORCE_POOL",
+      "state": "BOUNDED",
+      "values": {
+        "army_tactical_aircraft": [
+          1475,
+          1600
+        ],
+        "navy_tactical_aircraft": [
+          1375,
+          1450
+        ],
+        "total_tactical_aircraft": [
+          2850,
+          3050
+        ],
+        "net_increase_vs_historical_equivalent": [
+          225,
+          425
+        ],
+        "reserve_aircraft_increase": [
+          100,
+          200
+        ]
+      },
+      "notes": [
+        "old aggregate output multipliers are diagnostic only; derive output through readiness/mission/base/crew/logistics"
+      ],
+      "source": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+    },
+    {
+      "domain": "CARRIER_AIR",
+      "state": "BOUNDED",
+      "values": {
+        "main_six": [
+          390,
+          410
+        ],
+        "Ryujo": [
+          36,
+          40
+        ],
+        "Zuiho": [
+          27,
+          30
+        ],
+        "Shoho": [
+          18,
+          24
+        ],
+        "Taiyo_if_combat_used": [
+          18,
+          24
+        ],
+        "combat_usable_excluding_Hosho": [
+          490,
+          525
+        ]
+      },
+      "constraints": [
+        "Taiyo combat use trades against replacement-aircraft ferry capacity ~20-30 aircraft/voyage",
+        "main-deck slots remain physical constraints"
+      ],
+      "tech_links": [
+        "TECH-CARRIER-DECK-CYCLE-LIGHT-001"
+      ],
+      "source": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+    },
+    {
+      "domain": "AIR_OPENING_TYPES",
+      "state": "BOUNDED",
+      "values": {
+        "army_type100_fighter_I_available": [
+          280,
+          380
+        ],
+        "ki44_trial_operational": [
+          15,
+          25
+        ],
+        "ki49_I_small_force": [
+          50,
+          90
+        ],
+        "later_types_not_opening": [
+          "Ki-45 kai",
+          "D4Y",
+          "B6N",
+          "operational H8K force"
+        ]
+      },
+      "tech_links": [
+        "TECH-AIR-A6M-ZUISEI-OPENING-001",
+        "TECH-AIR-B5N-ZUISEI-OPENING-001",
+        "TECH-AIR-D3A-OPENING-001",
+        "TECH-AIR-KI43-OPENING-001",
+        "TECH-AIR-KI44-OPENING-TRIAL-001"
+      ],
+      "source": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+    },
+    {
+      "domain": "AIR_WEAPON_EFFECT",
+      "state": "BOUNDED",
+      "values": "per TECH_INDEX_v003 provisional relative bands; never convert to fixed percentage points",
+      "tech_links": [
+        "TECH-AIR-GUN-FIGHTER-001",
+        "TECH-AIR-GUN-BOMBER-GROUND-001",
+        "TECH-AIR-BOMB-LEVEL-POINT-001",
+        "TECH-AIR-BOMB-LEVEL-AREA-001",
+        "TECH-AIR-DIVE-FIXED-001",
+        "TECH-AIR-DIVE-MOVING-001",
+        "TECH-AIR-TORPEDO-ATTACK-001"
+      ]
+    },
+    {
+      "domain": "SURFACE_FLEET",
+      "state": "BOUNDED",
+      "values": "individual availability/OOB source remains authoritative; compact index carries class deltas",
+      "must_check": [
+        "Hull",
+        "Availability",
+        "Mission set",
+        "Mission effectiveness",
+        "Allocation",
+        "second torpedo attack state"
+      ],
+      "tech_links": [
+        "TECH-SURFACE-ASASHIO-OPENING-001",
+        "TECH-SURFACE-KAGERO-RELIABILITY-001",
+        "TECH-SURFACE-DC-MARGIN-001",
+        "TECH-TORPEDO-INTRINSIC-REPEATABILITY-001",
+        "TECH-TORPEDO-SECOND-SALVO-001"
+      ],
+      "source": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/SURFACE_OPENING_BASELINE_v001.md"
+    },
+    {
+      "domain": "SUBMARINE",
+      "state": "BOUNDED",
+      "values": {
+        "sen_taka_first_lot_under_construction": 2,
+        "sen_taka_operational": 0,
+        "candidate_hulls": 60
+      },
+      "must_track": [
+        "sortie readiness",
+        "arrival",
+        "on-station time",
+        "contact",
+        "firing-position conversion",
+        "reacquisition",
+        "escape",
+        "reattack",
+        "information value",
+        "enemy diversion"
+      ],
+      "source": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/submarine_opening_oob_1941-12-08_v001.json"
+    },
+    {
+      "domain": "LOGISTICS",
+      "state": "BOUNDED",
+      "values": {
+        "effective_cargo_per_voyage_gain": [
+          0.04,
+          0.08
+        ],
+        "monthly_turnaround_gain": [
+          0.05,
+          0.1
+        ],
+        "selected_frontline_convoy_gain_possible": [
+          0.1,
+          0.15
+        ],
+        "wartime_standard_ship_mass_effect_opening": false,
+        "wartime_standard_ship_mass_effect_start": "1942 spring-summer onward"
+      },
+      "tech_links": [
+        "TECH-LOG-OPENING-CARGO-PROCESS-001",
+        "TECH-LOG-STANDARD-SHIP-I-001"
+      ],
+      "source": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+    },
+    {
+      "domain": "AMPHIBIOUS",
+      "state": "CONDITIONAL",
+      "values": "prepared-operation first-day package gains only when craft/shipping/beach/weather package qualifies",
+      "tech_links": [
+        "TECH-AMPHIBIOUS-FIRSTDAY-001",
+        "TECH-LANDING-PACKAGE-001"
+      ]
+    },
+    {
+      "domain": "ASW",
+      "state": "CONDITIONAL",
+      "values": "surface own-noise/depth/2-ship doctrine partial at opening; no mature radar/forward thrower; Tokai not operational",
+      "tech_links": [
+        "TECH-ASW-SEARCH-SPEED-DOCTRINE-001",
+        "TECH-ASW-SONAR-MEDIAN-001",
+        "TECH-ASW-DEPTHCHARGE-DISPERSION-001",
+        "TECH-ASW-CONTACT-HANDOFF-001"
+      ]
+    },
+    {
+      "domain": "SENSOR_SEARCH",
+      "state": "CONDITIONAL",
+      "values": "optical median improvements present; radar precursor/trial only at opening",
+      "tech_links": [
+        "TECH-OPTICS-RANGEFINDER-MEDIAN-001",
+        "TECH-SEARCH-MULTILAYER-001",
+        "TECH-RADAR-1942-HUMANLOOP-001",
+        "TECH-RADAR-PRODUCTION-MEDIAN-001"
+      ]
+    },
+    {
+      "domain": "SIGINT_COMINT",
+      "state": "BOUNDED",
+      "values": {
+        "central_comsec_audit": "OPERATIONAL_PARTIAL",
+        "1942_highgrade_result": "high-grade Japanese operational cryptosystem largely denies US short-strategy-time reconstruction; residual low-grade/plaintext/traffic/DF/recon remain"
+      },
+      "tech_links": [
+        "TECH-COMSEC-CENTRAL-AUDIT-OPENING-001",
+        "TECH-COMINT-JP-HIGHGRADE-1942-001",
+        "TECH-COMINT-RESIDUAL-CHANNELS-1942-001",
+        "TECH-COMINT-JP-OFFENSE-001",
+        "TECH-INFO-TO-COMMAND-SEPARATION-001"
+      ],
+      "note": "legacy opening switch says OPEN for later outcome; runtime scenario result is resolved by dedicated canon/handoff, not that stale gate."
+    },
+    {
+      "domain": "PERSONNEL_AND_SOFT",
+      "state": "BOUNDED",
+      "values": {
+        "natural_movement": "ON",
+        "deliberate_skill_leveling": "LATENT",
+        "deliberate_veteran_nucleus_reallocation": "LATENT",
+        "IJN_air_ground_separation": "LATENT",
+        "IJA_air_base_mobility": "OPERATIONAL_PARTIAL",
+        "IJA_air_ground_liaison": "PRESENT_LIMITED"
+      },
+      "must_track": [
+        "unit",
+        "role qualification",
+        "carrier qualification",
+        "experience band",
+        "fatigue",
+        "wound/medical state",
+        "transfer state",
+        "maintenance experience nucleus"
+      ],
+      "source": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_state_1941-12-07_v006.json"
+    }
+  ],
+  "hard_stops": [
+    "Do not use postwar/late-war doctrine retroactively.",
+    "Do not activate Sen-Taka, Tokai, mature fleet radar or mass wartime-standard shipping at opening.",
+    "Do not use aggregate historical-comparison output bands as direct battle multipliers.",
+    "Do not treat missing unit-level exact counts as permission to invent point estimates."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "revision": "v001",
+  "id": "US_TG58_6_MARCUS_WAKE_1944-05-19_24_WORKING_v001",
+  "status": "WORKING_PARALLEL_OPERATIONAL_ADJUDICATION",
+  "clock_window": "1944-05-19..24",
+  "parents": ["US_TG58_6_AND_FAST_DECK_PIPELINE_1944-05-14_18_WORKING_v001"],
+  "historical_anchor": {
+    "baseline": "Essex, CV-18-equivalent (historical Wasp; branch provisional Oriskany naming unresolved) and San Jacinto conduct Marcus strikes 19-20 May and Wake strikes 23-24 May as combat work-up and FORAGER neutralization.",
+    "sources": [
+      "https://www.history.navy.mil/research/histories/ship-histories/danfs/e/essex-iv.html",
+      "https://www.history.navy.mil/research/histories/ship-histories/danfs/w/wasp-ix.html",
+      "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/b/beans-bullets-black-oil.html"
+    ]
+  },
+  "branch_execution": {
+    "19_20May_Marcus": "GO. New air groups receive real combat work-up; shore installations/air capability are suppressed enough that Marcus cannot materially interfere with the immediate Marianas approach.",
+    "21May": "Weather/operational pause retained as a sanity anchor; no invented extra strike day.",
+    "23_24May_Wake": "GO. Wake is hit and re-neutralized for FORAGER preparation. No landing attempt.",
+    "training_result": "Target preassignment concept is judged less effective than hoped; tactical air-group direction remains preferred. This soft lesson improves June strike planning modestly without granting a blanket combat scalar.",
+    "Japanese_fleet_reaction": "NONE. No high-value Japanese fleet target is present and branch ISR does not create a weapon-quality track against TG58.6 for the Mobile Fleet."
+  },
+  "strategic_meaning": "These raids are not an alternative to FORAGER; they are part of the approach-shaping and new-air-group integration process."
+}

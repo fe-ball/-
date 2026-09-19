@@ -1,0 +1,19 @@
+{
+  "revision": "v002",
+  "id": "FULL_RESUME_MASTER_MANIFEST_1944-06-15T24_v002_CANONICAL_RECONCILED",
+  "status": "FULL_RESUME_WORKING_PACKAGE_NOT_PROMOTED_TO_NEW_CORE_AUTHORITY__CANONICAL_RECONCILIATION",
+  "created": "2026-08-30 Asia/Tokyo",
+  "semantic_base_revision": "v048",
+  "base_authority_package": "v048 2026-08-29 BRANCH_B_BENGAL_LAND_VEHICLE_ROLLBACK_WORKING_FULL",
+  "session_provenance": "96_SESSION_WORKING_2026-08-30 is retained as unpromoted working provenance",
+  "continuation_authority": "97_CONTINUATION_MASTER_2026-08-30 overlays, in MASTER_LOAD_ORDER_v001 sequence",
+  "global_frontier": "1944-06-15T24",
+  "primary_theater": "MARIANAS",
+  "source_overlay_count": 28,
+  "legacy_99_policy": "Restored from v048 Bengal base for archival completeness; never load into current authority/runtime state.",
+  "legacy_path_encoding_note": "188 legacy paths were normalized from CP437-decoded mojibake to their intended UTF-8 Japanese names; payload bytes are unchanged.",
+  "supersedes_manifest_for_lineage_clarity": "97_CONTINUATION_MASTER_2026-08-30/MANIFEST/FULL_RESUME_MASTER_MANIFEST_v001.json",
+  "master_load_order_ref": "97_CONTINUATION_MASTER_2026-08-30/MANIFEST/MASTER_LOAD_ORDER_v001.json",
+  "handoff_ref": "97_CONTINUATION_MASTER_2026-08-30/HANDOFF/NEXT_SESSION_HANDOFF_1944-06-15T24.md",
+  "version_reconciliation_ref": "95_AUDIT/VERSION_LINEAGE_RECONCILIATION_2026-08-30_v001.json"
+}

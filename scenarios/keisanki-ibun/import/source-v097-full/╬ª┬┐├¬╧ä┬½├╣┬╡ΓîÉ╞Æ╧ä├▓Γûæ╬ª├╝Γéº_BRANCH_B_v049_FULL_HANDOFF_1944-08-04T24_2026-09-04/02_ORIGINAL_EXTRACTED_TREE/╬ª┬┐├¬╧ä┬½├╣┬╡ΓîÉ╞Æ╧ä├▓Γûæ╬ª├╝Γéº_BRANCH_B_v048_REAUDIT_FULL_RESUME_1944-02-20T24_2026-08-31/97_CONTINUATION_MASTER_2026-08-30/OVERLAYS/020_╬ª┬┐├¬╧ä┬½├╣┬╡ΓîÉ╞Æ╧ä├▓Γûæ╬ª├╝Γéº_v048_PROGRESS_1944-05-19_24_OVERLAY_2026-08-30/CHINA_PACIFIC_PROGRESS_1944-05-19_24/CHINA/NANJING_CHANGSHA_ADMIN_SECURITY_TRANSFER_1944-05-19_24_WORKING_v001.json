@@ -1,0 +1,26 @@
+{
+  "revision": "v001",
+  "id": "NANJING_CHANGSHA_ADMIN_SECURITY_TRANSFER_1944-05-19_24_WORKING_v001",
+  "status": "WORKING_REAR_AREA_TRANSFER_LEDGER",
+  "as_of": "1944-05-24T24:00:00+09:00",
+  "parents": ["NANJING_HUNAN_REAR_SECURITY_1944-05-11_18_WORKING_v001"],
+  "personnel": {
+    "total_Nanjing_security_admin_in_Yueyang_north_Hunan_Changsha_Xiangtan_system_band": [32000, 44000],
+    "Changsha_Xiangtan_directly_committed_band": [9000, 14000],
+    "functions": [
+      "railway and bridge guard",
+      "warehouse/market security",
+      "municipal/police reopening",
+      "prisoner and displaced-person control",
+      "tax and registry reconstitution",
+      "anti-sabotage patrol",
+      "minor route security"
+    ],
+    "Japanese_static_duty_released_equivalent_divisions_band": [1.1, 1.5]
+  },
+  "guards": [
+    "Do not count Nanjing personnel as assault divisions.",
+    "Japanese cadres, military police, engineers and mobile reserves remain at decisive transport/air/command nodes.",
+    "Economic extraction lags physical control; no immediate occupation-finance windfall."
+  ]
+}

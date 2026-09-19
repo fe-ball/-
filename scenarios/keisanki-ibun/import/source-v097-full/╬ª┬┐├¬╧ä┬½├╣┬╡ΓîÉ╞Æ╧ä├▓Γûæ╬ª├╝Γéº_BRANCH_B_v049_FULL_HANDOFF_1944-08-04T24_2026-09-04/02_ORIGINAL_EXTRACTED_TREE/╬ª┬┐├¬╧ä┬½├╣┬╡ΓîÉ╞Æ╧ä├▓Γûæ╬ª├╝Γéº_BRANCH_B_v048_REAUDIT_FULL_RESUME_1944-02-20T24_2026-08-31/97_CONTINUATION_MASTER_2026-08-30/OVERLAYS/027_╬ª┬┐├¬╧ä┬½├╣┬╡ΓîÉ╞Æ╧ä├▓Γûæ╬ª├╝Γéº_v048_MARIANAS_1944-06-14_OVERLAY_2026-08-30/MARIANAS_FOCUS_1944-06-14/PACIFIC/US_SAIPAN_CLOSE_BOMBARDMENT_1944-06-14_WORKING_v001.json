@@ -1,0 +1,26 @@
+{
+  "revision": "v001",
+  "id": "US_SAIPAN_CLOSE_BOMBARDMENT_1944-06-14_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_DAY_SETTLEMENT",
+  "clock_window": "1944-06-14T00:00..24:00+09:00",
+  "historical_anchor": [
+    "On 14 Jun Oldendorf's older battleships/cruisers/destroyers moved close to Saipan/Tinian and delivered more methodical shore bombardment than Lee's fast battleships had on 13 Jun.",
+    "Historical coastal batteries damaged California and Tennessee and a destroyer; most deep beach defenses nevertheless survived into D-Day."
+  ],
+  "branch_execution": {
+    "close_fire_support": "Seven old battleships with cruisers/destroyers conduct methodical target-by-target fire. Branch Japanese prior warning/concealment reduces target exposure but cannot prevent close-range suppression and destruction of visible guns/AA positions.",
+    "UDT_minesweep": "Beach/reef reconnaissance, minesweeping and obstacle work continue and make the 15 Jun landing geometry unambiguous.",
+    "carrier_air": "TF58 maintains rotating runway/C2/gun/aircraft suppression while part of the carrier force refuels/rearms."
+  },
+  "additional_defense_effect": {
+    "prepared_positions_permanently_destroyed_or_disabled_percent_band": [8, 14],
+    "additional_temporarily_suppressed_percent_band": [18, 28],
+    "interpretation": "This is additional 14 Jun damage/suppression, not cumulative destruction of all defenses. Deep caves, reverse-slope positions and many beach weapons survive."
+  },
+  "US_surface_damage": {
+    "CALIFORNIA": "Moderate local damage from coastal fire; air-search/radar function temporarily degraded but no campaign-out.",
+    "TENNESSEE": "Light-to-moderate coastal-fire damage; remains in fire-support mission.",
+    "destroyer_screen": "One destroyer receives light/moderate coastal-fire damage; remains operational or short local repair only.",
+    "major_campaign_out": "NONE"
+  }
+}

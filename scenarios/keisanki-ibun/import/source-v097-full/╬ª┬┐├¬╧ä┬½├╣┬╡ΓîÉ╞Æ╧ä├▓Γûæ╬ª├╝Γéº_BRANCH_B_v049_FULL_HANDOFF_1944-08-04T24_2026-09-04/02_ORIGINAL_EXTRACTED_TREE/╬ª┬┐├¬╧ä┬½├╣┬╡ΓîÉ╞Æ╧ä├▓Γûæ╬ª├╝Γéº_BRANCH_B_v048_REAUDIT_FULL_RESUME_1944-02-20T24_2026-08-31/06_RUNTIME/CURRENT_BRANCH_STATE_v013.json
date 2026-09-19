@@ -1,0 +1,33 @@
+{
+  "revision": "v013",
+  "id": "CURRENT_BRANCH_STATE_v013",
+  "date_created": "2026-08-29",
+  "package_revision": "v047",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "status": "CURRENT_AUTHORITATIVE_1944_YEAR_END_GALVANIC_GROUND_ROLLBACK_REAUDITED",
+  "current_analysis_time": "1944-01-01T00:00",
+  "current_frontier_event": "1944-01-01 strategic year-end frontier; GALVANIC closed after scoped Tarawa ground vehicle/hardware rollback and downstream propagation.",
+  "active_restart": {
+    "mode": "BRANCH_B_1943_YEAR_END_RESTART",
+    "time": "1944-01-01T00:00",
+    "checkpoint": "CHECKPOINT_1943-12-31T24_BRANCH_B_v005"
+  },
+  "current_overrides": "00_CONFIG/current_branch_overrides_v013.json",
+  "rollback_guard": "06_RUNTIME/BRANCH_B_YEAR_END_GUARD_1944-01-01_v004.json",
+  "current_session_settlement": "95_AUDIT/GALVANIC_GROUND_VEHICLE_ROLLBACK_REAUDIT_2026-08-29_v001.md",
+  "year_end_settlement": "06_RUNTIME/BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v004.md",
+  "next_required_adjudication": "1944 combat remains unopened at authority. Ground events must load the integrated land/vehicle synthesis and actual dated OOB/readiness/recovery inputs before adjudication.",
+  "precedence_rule": "CURRENT_BRANCH_STATE_v013 + current_branch_overrides_v013 + TECH_INDEX_v009 + BRANCH_B_YEAR_END_GUARD_v004 + GALVANIC v004/v003 final authorities supersede all earlier GALVANIC ground closeout assumptions.",
+  "master_audit_delta": "06_RUNTIME/SESSION_2026-08-28_MASTER_AUDIT_DELTA_v001.md",
+  "closed_galvanic_dependency": {
+    "analysis_checkpoint": "CHECKPOINT_1943-11-23T00_BRANCH_B_GALVANIC_REAUDIT_v001",
+    "final_settlement": "06_RUNTIME/GALVANIC_BRANCH_B_1943-11_SETTLEMENT_v004.md",
+    "final_outcome": "06_RUNTIME/GALVANIC_FINAL_OUTCOME_LEDGER_1943-11_12_v003.json",
+    "repair_ledger": "06_RUNTIME/GALVANIC_DAMAGE_REPAIR_REGEN_LEDGER_1943-11_1944Q1_v002.json",
+    "aircraft_lessons": "06_RUNTIME/GALVANIC_AIRCRAFT_AFTER_ACTION_LESSONS_1943-12_v002.md",
+    "fighter_microcombat": "06_RUNTIME/GALVANIC_FIGHTER_MICROCOMBAT_RESULT_1943-11_v001.json",
+    "negative_delta_audit": "95_AUDIT/GALVANIC_NEGATIVE_DELTA_REVALIDATION_2026-08-29_v001.json",
+    "ground_vehicle_rollback_audit": "95_AUDIT/GALVANIC_GROUND_VEHICLE_ROLLBACK_REAUDIT_2026-08-29_v001.md",
+    "land_system": "06_RUNTIME/JAPANESE_LAND_COMBAT_INTEGRATED_SYNTHESIS_1932_1944_WORKING_v001.json"
+  }
+}

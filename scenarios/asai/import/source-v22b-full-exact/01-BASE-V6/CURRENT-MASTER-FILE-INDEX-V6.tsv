@@ -1,0 +1,13 @@
+authority_rank	status	role	pointer	supersession_note
+0	PACKAGE-CONTROL	start	00-START-HERE-2026-08-31-FULL-V6.md	
+1	CURRENT-HIGHEST	restart	10-CURRENT-1938-1939/00-1939-09-01-RESTART-BASELINE-V6.md	
+2	CURRENT-HIGH	aviation decision method	20-AVIATION-CURRENT-REBASELINE/ASAI-AVIATION-DECISION-INTENT-GUARD-V1.md	Controls interpretation and productization
+3	CURRENT-HIGH	aviation causal lineage	20-AVIATION-CURRENT-REBASELINE/ASAI-AVIATION-INTENT-LINEAGE-PRODUCTIZATION-REBASELINE-1931-1939-V1.md	Supersedes historical-year-driven aircraft progression
+3	CURRENT-HIGH	military twin canon	20-AVIATION-CURRENT-REBASELINE/ASAI-1931-1939-TWIN-AIRCRAFT-CANON-REBASELINE-V1.md	Supersedes Gate64/68/69/76 conflicting status/timing
+3	CURRENT-HIGH	Sep1939 Asai aviation roster	20-AVIATION-CURRENT-REBASELINE/ASAI-1939-09-01-ASAI-AVIATION-CURRENT-ROSTER-V3.md	Supersedes V1/V2 rosters
+4	CURRENT	Nomonhan current closures	10-CURRENT-1938-1939/20-NOMONHAN-1939	
+4	CURRENT	industry/weapons current closures	10-CURRENT-1938-1939/30-INDUSTRY-WEAPONS	
+4	CURRENT-SUBORDINATE	general aviation audit	20-AVIATION-CURRENT-REBASELINE/ASAI-1939-09-01-AVIATION-SYSTEM-AUDIT-V1.md	Asai-specific twin chronology subordinate to current rebaseline
+5	CURRENT-SUBORDINATE	Asai state audit	30-ASAI-CURRENT-AUDITS/ASAI-1939-09-01-ASAI-ONLY-STATE-AUDIT-V1.md	Aviation details subordinate to current aviation rebaseline
+20	BASE	FULL V5 preserved	01-BASE-V5/00-START-HERE-2026-08-30-FULL-V5.md	Use where not superseded
+90	SUPERSEDED	session drafts	90-SUPERSEDED-SESSION-DRAFTS	Provenance only

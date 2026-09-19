@@ -1,0 +1,15 @@
+key	value	status
+war_clock	1939-08-21 24:00	CURRENT
+Soviet_envelopment	in progress;closure not completed	CURRENT
+First_Tank_Group_immediate_ready	~37	CURRENT-center
+3rd_Tank_Regiment_ready	~20	CURRENT-center
+4th_Tank_Regiment_ready	~17	CURRENT-center
+ChiHa	3 ready +1 repairable	CURRENT-center
+TANK37_usable	~52	CURRENT-center
+AT37_usable_theater	~320	CURRENT-center
+east_corridor	narrow truck-capable corridor + foot routes still open	CURRENT
+Aug24_counterattack	operationally abandoned	CLOSED
+line_shortening	underway from ~18:00	CURRENT
+2_28_combat_effective	~45-50% of original strength center	CURRENT-center
+7th_Division_early_relief	outside battlefield;arrival in eastern relief zone expected Aug22	CURRENT-working
+next_gate	1939-08-22 inside-outside corridor link / Soviet blocking force / Fui decision	OPEN

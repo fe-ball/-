@@ -1,0 +1,49 @@
+{
+  "revision": "v001",
+  "id": "PACIFIC_MOBILE_FLEET_SULU_SHIFT_1944-05-11_18_WORKING_v001",
+  "status": "WORKING_PARALLEL_OPERATIONAL_ADJUDICATION",
+  "clock_window": "1944-05-11..18",
+  "global_frontier_after_merge": "1944-05-18T24:00:00+09:00",
+  "parents": [
+    "PACIFIC_PARALLEL_1944-05-01_10_WORKING_v001",
+    "TAIHO_FIVE_DECK_INTEGRATION_1944-04-16_30_WORKING_v001",
+    "TECH-ASW-LAYERED-1943-001",
+    "TECH-ASW-MAD-DATUM-LOCALIZATION-1943-44-001"
+  ],
+  "historical_sanity_anchor": {
+    "baseline": "Historical Mobile Fleet shifted from Lingga to Tawi Tawi beginning 11-12 May; Taiho arrived 15 May. Historical Tawi Tawi training was increasingly constrained by US submarines.",
+    "sources": [
+      "https://www.combinedfleet.com/nagatrom.htm",
+      "https://www.combinedfleet.com/Taiho.htm"
+    ]
+  },
+  "branch_execution": {
+    "11_14May": "Five-deck core and major surface screen shift from the existing Davao-Celebes-Tarakan training/fuel axis into a distributed Sulu Sea reaction posture. The branch does NOT concentrate every high-value hull permanently in one Tawi Tawi anchorage.",
+    "basing_geometry": "Tawi Tawi/Basilan-Sulu Sea with Davao/Tarakan/Borneo support retained; stagger anchor, fueling and flight-training groups to reduce submarine target density and preserve access to southern fuel.",
+    "five_deck_core": "Shokaku/Zuikaku/Hiryu/Soryu/Taiho reach the forward reaction system without combat loss.",
+    "surface_screen": "Tone/Chikuma and high-quality cruiser/DD screen remain Mobile-Fleet assets. Heavy surface reserve can use the same southern support system but is not welded to carrier formation at all times."
+  },
+  "carrier_air_18May": {
+    "four_core_mission_ready_band": [
+      284,
+      300
+    ],
+    "Taiho_mission_ready_band": [
+      67,
+      76
+    ],
+    "Taiho_integration_class": "A- for one-cycle fleet work; still slightly behind established core in damaged-deck/night/adverse-weather recovery and repeated-cycle resilience",
+    "five_deck_one_cycle_synchronized_package_band": [
+      225,
+      265
+    ],
+    "training_effect": "Forward movement interrupts some deck training days, but distributed local sorties resume. Improved ASW coverage prevents a historical-scale near-total curtailment of flying in this first week."
+  },
+  "ASW_submarine_interaction": {
+    "priority": "Sulu/Tawi approaches become a top-tier protected lane because the carrier force itself is present.",
+    "Tokai_MAD_and_search_allocation": "Allocate a bounded 6-10 Tokai/MAD-capable aircraft plus conventional search/escort aviation and DD/kaibokan patrols to approach/datum response; do not treat MAD as broad-ocean search.",
+    "historical_Inazuma_guard": "Do not automatically inherit the historical 14-May destroyer loss. Branch convoy routes, escorts and layered ASW are different. A US submarine obtains intermittent attack opportunities but no confirmed Japanese major warship or oiler sinking is credited in 11-18 May.",
+    "US_submarine_effect": "Still strategically serious: forces zigzag, escort expenditure, local no-fly/launch restrictions after sightings, and some training-day loss. It does not make the anchorage safe."
+  },
+  "Yamamoto_decision": "FORWARD_REACTION_POSTURE_GO; OFFENSIVE_HUNT_NO-GO. Use the shorter Marianas/Philippines reaction geometry while preserving the five-deck cadre and continuing ISR/submarine warning work."
+}

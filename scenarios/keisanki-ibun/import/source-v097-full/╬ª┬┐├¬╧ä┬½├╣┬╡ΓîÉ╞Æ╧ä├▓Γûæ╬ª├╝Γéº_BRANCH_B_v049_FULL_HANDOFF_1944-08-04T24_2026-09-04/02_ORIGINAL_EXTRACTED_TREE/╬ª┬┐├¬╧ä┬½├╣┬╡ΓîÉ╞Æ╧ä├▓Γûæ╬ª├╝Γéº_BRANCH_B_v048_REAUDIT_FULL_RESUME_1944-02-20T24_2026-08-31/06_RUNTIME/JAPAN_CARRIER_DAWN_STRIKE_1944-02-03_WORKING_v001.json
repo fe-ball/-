@@ -1,0 +1,84 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_CARRIER_DAWN_STRIKE_1944-02-03_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "discussion_clock_end": "1944-02-03T09:15:00+12:00",
+  "purpose": "Resolve the first-line Shokaku/Zuikaku/Hiryu dawn strike after the overnight/pre-dawn GO gate opens, using the surviving post-GALVANIC carrier cadre, Kinsei mix, US CIC/F6F/AA superiority and explicit mission-split geometry.",
+  "japanese_force": {
+    "carriers": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu"
+    ],
+    "screen_ref": "06_RUNTIME/JAPAN_FIRST_LINE_CARRIER_HOLDING_FORCE_1944-01-28_02-02_WORKING_v003.json",
+    "ready_aircraft_prelaunch_center": 219,
+    "search_aircraft_separate": 8,
+    "strike_launch_band": [
+      118,
+      124
+    ],
+    "strike_launch_center": 121,
+    "package_center": {
+      "fighters": 42,
+      "Kinsei_Zero_subset": 20,
+      "late_Zuisei_Zero": 22,
+      "D4Y_dive_bombers": 45,
+      "B6N_torpedo_bombers": 34
+    },
+    "reserve_rule": "Remainder is CAP, recovery reserve, maintenance/spares and local search; 219 is not a 219-plane strike."
+  },
+  "target_ground_truth": {
+    "group": "TG58.2",
+    "ships": [
+      "Essex",
+      "Intrepid",
+      "Cabot",
+      "South Dakota",
+      "Alabama",
+      "North Carolina"
+    ],
+    "state": "Early-morning land-strike launch/recovery cycle with heavy CAP/ASW because Japanese carriers remain unlocated."
+  },
+  "timeline": [
+    {
+      "time": "05:42-06:05",
+      "event": "Japanese strike launches and forms under radio discipline; carrier force turns westward after launch to preserve egress."
+    },
+    {
+      "time": "07:08-07:24",
+      "event": "US radar/CIC detects the incoming raid roughly 85-105 nmi out and vectors staged F6F CAP. Neighboring-group fighters can only reinforce at the edge of the engagement because groups remain separated."
+    },
+    {
+      "time": "07:45-08:18",
+      "event": "F6F interception breaks formations and destroys many attack aircraft, but Kinsei/late-Zuisei escorts preserve several release groups. Surviving D4Y/B6N attack through very heavy battleship/cruiser/destroyer AA."
+    }
+  ],
+  "centered_damage": {
+    "Cabot_CVL28": "One aerial torpedo hit centered, aft/machinery-shaft flooding and local fires. Survives but loses useful fast-carrier operations for the current Marshall battle and requires rearward repair assessment.",
+    "Intrepid_CV11": "One bomb hit centered near flight-deck/elevator-side working area plus splinter damage; flight operations interrupted for several hours but propulsion retained and limited deck operations recover later in the day.",
+    "other_major_US_ships": "Near-miss/splinter damage only centered; no fast battleship mission kill."
+  },
+  "air_losses": {
+    "Japan_irrecoverable_band": [
+      44,
+      54
+    ],
+    "Japan_irrecoverable_center": 49,
+    "Japan_additional_damaged_recoverable_band": [
+      18,
+      26
+    ],
+    "US_aircraft_irrecoverable_band": [
+      19,
+      26
+    ],
+    "US_aircraft_irrecoverable_center": 22,
+    "US_note": "Includes F6F combat losses plus several aircraft destroyed/damaged aboard the hit carriers; not all are air-to-air kills."
+  },
+  "assessment": "Japan achieves a real operational hit on one CVL and temporary disruption of one fleet carrier, but pays a severe attack-aircraft/cadre cost. The target group remains afloat and its battleship/AA screen remains intact.",
+  "anti_overreach": [
+    "No US carrier sunk centered",
+    "Kinsei narrows local fighter losses but does not defeat US CIC/F6F system",
+    "No second Japanese strike is launched before recovery and counterstrike risk are resolved"
+  ]
+}

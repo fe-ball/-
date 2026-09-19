@@ -1,0 +1,9 @@
+{
+  "package_revision": "v047",
+  "ERRORS": 0,
+  "WARNINGS": 0,
+  "JSON_FILES": 460,
+  "errors": [],
+  "warnings": [],
+  "note": "validate_refactor_v028: 1944-01-01 v005 authority linkage, unchanged 1944-02-06 18:00 discussion clock, integrated land+vehicle layers, GALVANIC Type 95/M4A2 OOB, casualty/end-time rollback, partial retro reservation, unchanged Flintlock first-day result and event-generator restart all validated."
+}

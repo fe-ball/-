@@ -1,0 +1,28 @@
+section	coordinate	piston_D4Y_worldline	E7_ST_TP_D4Y	status	note
+airframe	length_m	~10.2	~10.2	HISTORICAL-ANCHOR	carrier envelope retained
+airframe	span_m	~11.5	~11.5	HISTORICAL-ANCHOR	no enlargement
+airframe	wing_area_m2	23.6 main / 22.8 source sensitivity	same	HISTORICAL-ANCHOR	source variance guarded
+airframe	bomb_load	250kg normal / ~500kg internal max	same	CLOSED-ARCHITECTURE	internal bay retained
+engine	power_normal	1200-1400hp stage dependent	1425-1500shp	H->A	E7-S small TP
+engine	power_short	~1400hp late Atsuta class	1525-1575shp	H->A	conditional short rating
+engine	installed_mass_t	~0.80-0.92 incl cooling/prop local estimate	~0.62-0.70	H->A	TP saves cooling system but has reducer/prop
+engine	cowling_width_m	Atsuta physical width ~0.71 plus radiator installation	~0.88-0.98 aero package	H->A	TP NOT automatically narrower
+mass	empty_t	~2.58-2.68 late 1.4khp class	~2.43-2.55	H->A	same reinforced dive-bomber structure
+mass	ordinary_attack_gross_t	~3.8-4.2	~3.7-4.1	H->A	mission dependent
+performance	max_speed_4_5km_kmh	583-592	585-598 normal / 595-607 short	H->A	clean inline piston keeps comparison close
+performance	high_cruise_kmh	420-440	435-455	H->A	not economy cruise
+performance	time_to_3km_min	4.2-4.6	3.9-4.3	H->A	
+performance	time_to_5km_min	7.3-8.2	6.6-7.4	H->A	
+range	250kg_attack_km	1450-1650	1350-1550	H->A	TP part-load fuel penalty guarded
+range	500kg_attack_km	1150-1350	1050-1300	H->A	
+range	recon_light_km	2150-2450	2000-2300	H->A	mission-bay fuel/camera can recover some margin
+dive	angle_deg	50-65	50-65	PLANNING-CLOSED	after structural qualification
+dive	controlled_speed_kmh	430-480	430-480	PLANNING-CLOSED	engine does not set dive speed
+dive	release_altitude_m	450-650 ordinary	450-650 ordinary	PLANNING-CLOSED	large-ship attack
+accuracy	moving_large_ship_hit_per_valid_release	18-30%	18-30%	H->A-CLOSED-BAND	aircraft changes arrival/survival more than ballistics
+recon	first_E7_role	n/a	limited fast carrier recon plausible	OUTLOOK	low vibration + cooling simplification
+schedule	first_piston_flight	late 1940 class	n/a	OUTLOOK	do not move unrealistically early
+schedule	E7_ST_flight	n/a	1941Q4-1942Q1 earliest	OUTLOOK	conditional E7/reducer/TBO
+schedule	dive_service_development	1941H2-1942H1 opportunity	1942H1 opportunity if E7 passes	OUTLOOK	no service date pre-recorded
+procurement	verdict	A schedule baseline	B+ to A- conditional	CLOSED-OUTLOOK	TP strongest as small-core recon/fast-strike candidate first
+relation	B6N_core_competition	E7-S-T	E7-M-LF for B6N	CLOSED-SEMANTIC	different core scales; shared naval auxiliaries are bottleneck

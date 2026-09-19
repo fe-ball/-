@@ -1,0 +1,77 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_MOBILE_FLEET_MARIANAS_POSTURE_1944-05-25_06-05_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_JAPANESE_PREBATTLE_STATE",
+  "as_of": "1944-06-05T24:00:00+09:00",
+  "parents": [
+    "JAPAN_ISR_FORAGER_WARNING_1944-05-19_24_WORKING_v001",
+    "PACIFIC_MOBILE_FLEET_SULU_SHIFT_1944-05-11_18_WORKING_v001"
+  ],
+  "Yamamoto_intent": "Preserve the fleet until an amphibious commitment fixes US operational geometry; improve reaction time and warning, but do not chase shaping raids or Majuro itself.",
+  "five_carrier_core": {
+    "ships": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu",
+      "Taiho"
+    ],
+    "core_four_ready_aircraft_band": [
+      288,
+      300
+    ],
+    "Taiho_ready_aircraft_band": [
+      70,
+      78
+    ],
+    "five_deck_ready_aircraft_band": [
+      358,
+      378
+    ],
+    "five_deck_one_cycle_synchronized_package_band": [
+      235,
+      275
+    ],
+    "Taiho_integration": "A-/A for normal first-cycle fleet operation; repeat-cycle/night/adverse-weather resilience now close to core standard but not assumed identical under battle damage."
+  },
+  "secondary_carrier_pool": {
+    "ships": [
+      "Junyo",
+      "Hiyo",
+      "Ryuho",
+      "Ryujo",
+      "Zuiho",
+      "Shoho"
+    ],
+    "combat_usable_aircraft_class_band": [
+      140,
+      175
+    ],
+    "use": "qualification/replacement/rear CAP/ferry plus contingency second-line battle support; not automatically merged into the five fast-core strike cycle."
+  },
+  "Sulu_ASW_and_training": {
+    "state": "Improved Tokai/MAD + routine patrol + escorts keep training possible but not safe. US submarines still force zigzag, exercise cancellations and tanker/escort friction.",
+    "late_24May_Tatekawa_audit": "Historical Gurnard attack is not copied as a clean sinking. Centerline: Tatekawa Maru is torpedo-damaged/campaign-out and reaches/receives assistance near Davao; some fuel handling capacity is lost for roughly 2-3 weeks, but the tanker is not written off. This pays submarine risk without erasing the branch ASW improvement.",
+    "training_result": "Five-core deck flying continues on reduced/rotated days instead of the historical near-total curtailment."
+  },
+  "Marianas_land_air_5Jun": {
+    "physical_band": [
+      350,
+      430
+    ],
+    "serviceable_band": [
+      310,
+      380
+    ],
+    "mission_ready_band": [
+      285,
+      350
+    ],
+    "fighter_ready_band": [
+      165,
+      210
+    ],
+    "note": "This is a pre-US-strike state, not the 11 Jun battle result. Reinforcement is accelerated by persistent CRITICAL warning, but dispersal, maintenance and convoy/air-transfer friction prevent counting every assigned airframe as ready."
+  },
+  "ISR": "Marianas remains CRITICAL/PERSISTENT. Pickets/submarines/recon are weighted toward finding the US sortie rather than generating an offensive Majuro carrier hunt."
+}

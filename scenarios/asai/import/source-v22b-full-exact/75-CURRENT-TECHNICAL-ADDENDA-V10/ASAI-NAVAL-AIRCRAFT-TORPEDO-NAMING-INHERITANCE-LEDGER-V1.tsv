@@ -1,0 +1,12 @@
+item	period	service_name_or_identity	project_code	closure	key_value	status
+E5 Army recon	1938+	九八式司令部偵察機	E5 Twin	service naming	1938 adoption identity; old Ki-40 E5 evaluation label not current formal code; technical branch remains closed while exact service nomenclature is open	WORKING-ALIAS-NAMEGUARD1
+E5 Navy recon	1938+	九八式高速陸上偵察機	R1As	service naming	JF-biased naval land-recon branch; R1As code itself pre-exists in current support	WORKING-ALIAS-NAMEGUARD1
+E6 Navy recon	1940+	零式高速陸上偵察機	R2As	service naming	JF Model 11 main service block; technical branch remains closed while exact service nomenclature is open	WORKING-ALIAS-NAMEGUARD1
+E6 Navy land attack	1940+	零式陸上攻撃機一一型	G4As1	service naming / structural derivative	one Type91-class torpedo OR ~0.35-0.40t bomb mission; short/medium radius high-speed land attack; technical branch remains closed while exact service nomenclature is open	WORKING-ALIAS-NAMEGUARD1
+G4As torpedo radius	1940	G4As1	G4As	mission planning	~300-400km initial; ~350-450km favorable growth after drag/fuel closure	H->A BAND
+Type91 early fast drop	1940	Type91 air-drop development	--	high-speed qualification	~390-430km/h target band	TECH DEVELOPMENT
+Type91 Mod2 worldline	1941	九一式航空魚雷二型	--	service qualification	~400-430km/h normal high-speed air-drop; ~450km/h selected development growth	CLOSED REQUIREMENT / 1941 SERVICE GATE
+B5N2	1939-41	九七式艦上攻撃機	B5N2	current delta	progressive EX2 + FCS1/FCS2 torpedo setting/QC; no major airframe rewrite	CURRENT
+B6N	1939 requirement onward	天山	B6N	requirement inheritance	Type91 release target ~400-430km/h design-origin; E6-S-T remains engine candidate pending corrected performance	CLOSED INTERFACE / ENGINE OPEN
+D3A1	1940+	九九式艦上爆撃機	D3A1	current delta	progressive EX2; dive-brake/release-table/QC convergence; no torpedo role	CURRENT
+B7A	1941-42 development	流星	B7A	integration inheritance	inherits high-speed torpedo + dive-release schools for true mission unification	FUTURE TECH INHERITANCE

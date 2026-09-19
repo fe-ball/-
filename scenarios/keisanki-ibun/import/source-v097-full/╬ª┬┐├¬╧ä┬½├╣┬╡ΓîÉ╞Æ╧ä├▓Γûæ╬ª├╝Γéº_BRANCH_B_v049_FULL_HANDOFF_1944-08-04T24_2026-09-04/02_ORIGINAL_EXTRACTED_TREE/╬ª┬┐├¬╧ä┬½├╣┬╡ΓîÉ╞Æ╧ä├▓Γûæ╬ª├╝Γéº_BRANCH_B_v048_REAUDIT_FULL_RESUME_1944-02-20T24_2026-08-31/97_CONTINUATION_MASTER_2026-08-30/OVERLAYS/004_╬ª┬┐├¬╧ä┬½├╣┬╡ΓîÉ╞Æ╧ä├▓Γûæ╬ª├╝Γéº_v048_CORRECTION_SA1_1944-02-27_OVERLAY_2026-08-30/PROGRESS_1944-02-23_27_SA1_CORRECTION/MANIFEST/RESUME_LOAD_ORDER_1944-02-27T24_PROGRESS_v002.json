@@ -1,0 +1,27 @@
+{
+  "revision": "v002",
+  "id": "RESUME_LOAD_ORDER_1944-02-27T24_PROGRESS_v002",
+  "status": "CURRENT_CORRECTION_OVERLAY",
+  "as_of": "1944-02-27T24:00:00+09:00",
+  "supersedes": "RESUME_LOAD_ORDER_1944-02-27T24_PROGRESS_v001",
+  "load_after": [
+    "計算機異聞_v048_PROGRESS_1944-02-23_27_OVERLAY_2026-08-30.zip"
+  ],
+  "active_correction_files": [
+    "OPERATIONS/JAPAN_OPERATION_SA1_DECISION_REAUDIT_1944-02-25_27_WORKING_v002.json",
+    "STATE/PARALLEL_THEATER_STATE_1944-02-27T24_WORKING_v002.json"
+  ],
+  "do_not_inherit": [
+    "JAPAN_OPERATION_SA1_MOBILIZATION_1944-02-25_27_WORKING_v001 as an executed 27-Feb sortie",
+    "historical Tone 1-Feb Truk evacuation -> 21-Feb Lingga chain",
+    "historical Chikuma Kure -> 13-Feb Lingga chain",
+    "historical 1-Mar Banka departure or 9-Mar Behar result"
+  ],
+  "next_order": [
+    "Reconstruct Tone/Chikuma post-3-Feb westward route and readiness",
+    "Adjudicate Combined Fleet release/retention gate for those scout cruisers",
+    "Resolve SLEUTH 28-Feb onward return/search arc",
+    "Post actual 705 transfer only when movement occurs",
+    "Only then decide whether a delayed/scaled/cancelled SA-type commerce operation exists"
+  ]
+}

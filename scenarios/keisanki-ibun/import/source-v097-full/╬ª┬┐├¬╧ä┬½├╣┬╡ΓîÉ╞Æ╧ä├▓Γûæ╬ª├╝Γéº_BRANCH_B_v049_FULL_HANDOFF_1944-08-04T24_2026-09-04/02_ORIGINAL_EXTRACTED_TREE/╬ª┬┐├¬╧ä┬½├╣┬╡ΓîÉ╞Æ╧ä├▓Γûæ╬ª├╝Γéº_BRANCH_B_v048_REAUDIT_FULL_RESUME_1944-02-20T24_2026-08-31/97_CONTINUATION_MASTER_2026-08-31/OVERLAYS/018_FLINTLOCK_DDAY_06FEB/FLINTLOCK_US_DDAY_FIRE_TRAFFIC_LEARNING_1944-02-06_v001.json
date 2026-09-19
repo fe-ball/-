@@ -1,0 +1,20 @@
+{
+  "id": "FLINTLOCK_US_DDAY_FIRE_TRAFFIC_LEARNING_1944-02-06_v001",
+  "status": "WORKING_PROCESS_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-06 D-Day",
+  "principle": "Tarawa lessons improve US preparation and local response, but added vehicles, landing craft, fire-support missions and engineering teams share finite lagoon, beach-exit, radio, observation and escort capacity.",
+  "observed_problem": [
+    "Suppressed Japanese positions reman after naval fire lifts.",
+    "Lagoon-side direct fire is better oriented than the historical surprise case.",
+    "More LVT/LST/LCI reserve causes local wave and exit queues if launched without metering.",
+    "Smoke/dust and repeated direct-fire calls compete for observation and safe-fire sectors."
+  ],
+  "US_adaptation_same_day": [
+    "Hold or meter later waves rather than filling blocked beach exits.",
+    "Use destroyers/LVT(A)/artillery for rapid re-suppression of remanned firing points.",
+    "Keep tanks behind engineer-cleared lanes instead of forcing armor through crater/debris bottlenecks.",
+    "Shift close-support sorties from broad area attack toward observed strongpoints and mortar/communication nodes.",
+    "Do not interpret one suppression report as permanent destruction."
+  ],
+  "net": "US material superiority converts to effective combat power with short local delays rather than unlimited simultaneity. This caps Japanese gains from better preparation while preserving a visibly higher D-Day casualty/friction level than the superseded v003 line."
+}

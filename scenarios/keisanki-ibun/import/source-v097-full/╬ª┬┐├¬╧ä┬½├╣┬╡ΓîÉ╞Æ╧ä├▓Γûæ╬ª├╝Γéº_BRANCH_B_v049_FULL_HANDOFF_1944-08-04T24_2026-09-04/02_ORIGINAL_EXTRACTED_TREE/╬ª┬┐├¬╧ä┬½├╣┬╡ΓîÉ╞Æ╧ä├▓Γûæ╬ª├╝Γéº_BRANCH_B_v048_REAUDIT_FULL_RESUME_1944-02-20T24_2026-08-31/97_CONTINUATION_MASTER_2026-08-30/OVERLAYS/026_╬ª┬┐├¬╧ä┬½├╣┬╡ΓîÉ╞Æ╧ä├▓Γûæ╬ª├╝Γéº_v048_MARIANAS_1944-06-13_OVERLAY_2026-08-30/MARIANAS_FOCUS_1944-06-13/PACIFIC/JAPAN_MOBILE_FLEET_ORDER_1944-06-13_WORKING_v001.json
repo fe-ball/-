@@ -1,0 +1,31 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_MOBILE_FLEET_ORDER_1944-06-13_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_OOB_AND_MOVEMENT",
+  "as_of": "1944-06-13T24:00:00+09:00",
+  "parents": [
+    "YAMAMOTO_A_GO_BATTLE_RELEASE_1944-06-13_WORKING_v001"
+  ],
+  "five_carrier_core": {
+    "ships": ["SHOKAKU", "ZUIKAKU", "HIRYU", "SORYU", "TAIHO"],
+    "mission_ready_aircraft_band": [360, 382],
+    "synchronized_first_strike_band": [238, 278],
+    "role": "Primary coherent strike system. Taiho is now usable in first-cycle coordinated operations, though repeat-cycle resilience remains slightly below the four veteran fleet carriers."
+  },
+  "secondary_carrier_group": {
+    "ships": ["JUNYO", "HIYO", "RYUHO", "RYUJO", "ZUIHO", "SHOHO"],
+    "combat_usable_aircraft_band": [145, 180],
+    "role": "Separate rear/cover and second-echelon carrier group. Supplies CAP, reconnaissance and a bounded follow-on strike; not merged into the first five-carrier launch cycle because speed, deck practice and air-group quality are less homogeneous.",
+    "guard": "Do not count the secondary group's aircraft again in the five-carrier ready band."
+  },
+  "heavy_surface": {
+    "core": "YAMATO, MUSASHI and the available fast-battleship/heavy-cruiser screen remain within the A-GO battle system. No KON debit.",
+    "employment": "Surface units are not ordered on an independent Saipan dash. They support carrier protection, flak concentration, night-surface contingency and exploitation if US transport/fire-support geometry becomes favorable."
+  },
+  "movement_state": "By 13T24 the dispersed Sulu/Tawi-Tawi elements have converged into the Guimaras/central-Philippines refuel and sortie system. Main eastward movement is scheduled for 14 Jun after topping off.",
+  "ASW_and_US_submarine_contact": {
+    "branch_effect": "Tokai/MAD, destroyer handoff, staggered movement and inside-archipelago routing make the historical 13 Jun Redfin-style full-force contact less reliable.",
+    "13Jun_centerline": "No high-confidence US submarine report identifies the complete Japanese carrier force by 13T24. Fragmentary sightings/noise/contact indicators may exist but do not yet give Spruance a dependable composition/track.",
+    "future_guard": "This does not grant invisibility. Once the fleet exits the Philippine archipelago, US submarine contact probability rises sharply."
+  }
+}

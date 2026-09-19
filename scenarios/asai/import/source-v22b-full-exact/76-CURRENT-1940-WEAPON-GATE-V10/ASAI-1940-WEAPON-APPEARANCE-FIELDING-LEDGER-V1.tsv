@@ -1,0 +1,27 @@
+system	category	Q1_1940	Q2_1940	Q3_1940	Q4_1940	1940_combat_status
+47mm towed AT	B	8-12 eval	HV qualification	expanded service test	24-36 cumulative pilot/service class	limited, allocation-gated
+47mm new-turret Chi-Ha	B/C	~2 prototypes	firing/durability	4-6 troop-test vehicles	8-12 cumulative eval/pilot	very limited, not mass
+Chi-He	D/C	requirements/layout	component/chassis rigs	development	test articles	no combat unit
+75mm SPG	C	prototype build	firing prototype	follow-on tests	few vehicles	no operational battery
+fragment liner	B	8-12 vehicle eval	environment/maint test	limited kits if pass	few-dozen kit class possible	selective only
+A6M	A	production prep	production/operational prep	China combat Q3	established service	yes
+Ki-46	A/B	turbo comparison	initial service	selected fielding	wider selected service	yes, selected recon
+E5 Twin	existing / transition	21 bridge accepted planning	33 cumulative bridge accepted / new starts taper	36 cumulative tail-WIP / no normal new starts	36 cumulative bridge; extant center ~152 after planning attrition	yes; mature routine fleet, E6 takes premium missions
+E6 Twin	A/B	lead service-production proving / conversion	48-66 cumulative accepted planning / unit conversion	84-114 cumulative / operational allocation possible	120-156 cumulative accepted planning; further scale decision	yes after unit/allocation/mission release gates; JF main, J specialist
+E6 Single	A/B	12-18 cumulative lead service-production / conversion	30-44 cumulative / first service unit gate	56-76 cumulative / operational allocation possible	84-108 cumulative accepted planning; center ~96	yes after training/allocation gate; pure-J land interceptor/high-cover, no automatic Jan1 wing
+Ki-43	B/C	configuration	production config	service trials	adoption gate	trial only
+Ki-44	C			first flight/prototypes	flight maturation	no routine combat
+Ho-103-family 12.7mm	C	bench/install tests	flight/endurance	comparison tests	selected prototype mounts	no broad fielding
+Type98 20mm AA	existing expansion	serial expansion	serial expansion	serial expansion	serial expansion	yes, already service
+E5/E6 HSR-HSC high-speed release	A/B	E6 S6/S4/HSC small-store qualification; Army 50/100 and Navy 60kg HSR service gate	lead-unit release; M1/250kg larger-store ladder continues	normal high-speed recon/harassment option where allocated	broader issue with E6 units	yes; S6 six small stores / S4 four 100kg-HSC / M1 one 250kg; area/harassment internal release, not precision
+Type99 rifle/LMG	existing expansion	block issue	block issue	block issue	broader block issue	yes, selected formations
+E7	D	component rigs	component rigs	integrated demonstrator work	integrated gas-generator	no
+R2As Type0 high-speed land recon	A/B	lead conversion/service proving	service acceptance / first allocation	normal selected service	broader selected service	yes after Navy allocation/training gate; E6 JF recon branch
+G4As Type0 land attack	A/B	torpedo carriage/release/deceleration service trials	service acceptance technically credible / first serial allocation	serial Navy allocation possible inside E6 Twin share	broader allocation / torpedo doctrine maturation	yes after Navy allocation + Type91 release gate; one torpedo, short/medium-range high-speed land attack
+Type91 aerial torpedo high-speed	B	~390-430km/h development/qualification trials	selected service release-envelope maturation	1941 Mod2 prep	1941 Mod2 ~400-430km/h normal qualification follows	1940 technical release only; 1941 service standard separately gated
+D4Y 13-Shi carrier bomber/recon	C	1940 design/prototype; late-year piston first-flight class	dense structural/dive qualification	1941H2-42H1 service-development opportunity if gates pass	no 1940 fielding	D4YAUDIT1: piston baseline; E7-S-T 1941Q4-42Q1 conditional competitor / limited recon-first use plausible
+B6N Tenzan interface	C	14-Shi design studies; high-speed torpedo interface inherited	prototype design/manufacture	1941 flight gate future	1941 service-development future	no 1940 fielding; B6NAUDIT1: E7-M-LF ~1.75-1.85k shp becomes main TP production candidate at 1941H2-42Q1 gate; piston remains schedule hedge
+B5N2 E5-S-T test conversion	C	2-4 technical conversions / naval TP qualification	carrier/turbine/torpedo qualification	data feeds B6N/naval TP	no serial conversion	test only; piston B5N2 remains serial fleet
+G3M turboprop conversion study	D	paper comparison only	no conversion priority	no serial branch	data retained for future TP land-attack studies	piston G3M remains current long-range fleet
+D3A1 E5-S-T test conversion	C	2 technical conversions (+ optional third) / dive-carrier TP qualification	carrier/dive/store-separation data	data feeds D4Y/later naval TP	no serial conversion	test only; piston D3A1 remains serial fleet
+G4M1 Type1 land attack	C	production tooling / service acceptance / conversion training	series-ramp preparation	1941 operational ramp gate	long-range conventional gasoline branch	no automatic 1940 combat fielding; G4MAUDIT1 gives ~2-4 month ramp opportunity

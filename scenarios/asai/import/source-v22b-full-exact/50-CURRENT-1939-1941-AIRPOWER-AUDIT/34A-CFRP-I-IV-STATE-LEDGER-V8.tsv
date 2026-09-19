@@ -1,0 +1,5 @@
+series	primary question	flight architecture	propulsion	1939-04-20 state	future technical gate
+I	CFRP skin/bond/galvanic isolation	common metal mother airframe + conservative CFRP skin/sandwich wing	E5-J	full-size panels/wing twins + exposure active; mother airframe/wing design-jig work; 0 completed flight articles	1939H2/1940H1 first-flight candidate after ground gates
+II	primary CFRP spar/torsion member	common mother airframe + thick safe wing + CFRP D-spar/torsion member	E5-J	defined next hardware; component/mandrel/joint studies may overlap Series I	1940H2-1941H1 flight-wing candidate
+III	thin-wing CFRP aeroelasticity	common mother airframe + exchangeable thin ~9-9.5% CFRP wings	E5-J baseline; later local re-engine only if justified	objective defined; HS-1/2 load maps becoming available	1941H2-1942 flight qualification candidate
+IV	transonic CFRP wing / shock-aeroelastic coupling	separate HS/CFRP joint vehicle	E6-M-J / later qualified reheat as needed	objective defined; no physical flight article	1942H2-1943 candidate after HS-3 and Series III evidence

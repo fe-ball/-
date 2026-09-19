@@ -1,0 +1,49 @@
+{
+  "revision": "v001",
+  "id": "US_LIMITED_TRUK_REFRESH_RAID_1944-04-29_30_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_DIVERGENCE",
+  "clock_window": "1944-04-24..30",
+  "global_frontier_after_merge": "1944-04-30T24",
+  "parents": [
+    "US_FAST_CARRIER_STATE_1944-04-16_30_WORKING_v001",
+    "JAPAN_PACIFIC_ISR_SYSTEM_MATURITY_1944-03-20_31_WORKING_v001"
+  ],
+  "historical_anchor": "Historically TF58 struck Truk on 29-30 Apr after Hollandia; official histories state the strike objective was maximum damage to shore installations. Branch does not copy the Hollandia route, but retains an independent Central-Pacific rationale for a smaller suppression/training raid on roughly the same late-April planning clock.",
+  "US_decision": {
+    "status": "GO_LIMITED_FORCE_NOT_FULL_TF58",
+    "force_band": "6-8 fast-carrier decks / approximately 370-470 ready aircraft; remaining decks stay Majuro-centered for reserve, maintenance and training.",
+    "no_amphibious_force": true,
+    "no_major_surface_bombardment": "No need to expose a battleship bombardment body merely to reproduce the historical return-route package.",
+    "payoff": "Re-suppress Truk as a reconnaissance/submarine/local-air node, collect radar/defense information, and give newer groups controlled combat experience before FORAGER."
+  },
+  "Truk_pre_raid_working_air_state": {
+    "physical_band": [
+      60,
+      85
+    ],
+    "serviceable_band": [
+      45,
+      65
+    ],
+    "mission_ready_band": [
+      35,
+      50
+    ],
+    "interpretation": "Japan has rebuilt a useful local node after HAILSTONE but deliberately has not re-created a fleet-scale air concentration at a known vulnerable base."
+  },
+  "raid_result": {
+    "Japanese_aircraft_irrecoverable_or_abandoned_band": [
+      35,
+      50
+    ],
+    "US_aircraft_irrecoverable_band": [
+      8,
+      13
+    ],
+    "US_major_ship_damage": "NONE",
+    "Japanese_major_ship_loss": "NONE; high-value fleet ships are not based at Truk.",
+    "shore_effect": "Radar/plot, airfield support, stores and repaired facilities are hit again. Truk remains usable for submarine/recon/local-air work after repair but is pushed back to a reduced node rather than restored fleet base.",
+    "Japanese_local_counterattack": "A small local torpedo/bomber effort is launched after tactical contact; it is broken up or misses, with no carrier hit. This is not a long-range main-fleet strike."
+  },
+  "strategic_result": "US operational success at low strategic risk, but no opportunity to destroy the Japanese Mobile Fleet. Japan loses local aviation/facilities, not its regenerated carrier cadre."
+}

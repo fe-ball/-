@@ -1,0 +1,8 @@
+date,front,event,worldline_decision,asai_effect,status
+1937-08-31,North_China,North China Area Army OOB published,SAME,none_on_organization_date,CLOSED
+1937-09-03,North_China,14th Division advance echelons land Tangku,SAME,no_full_division_credit,CLOSED
+1937-09-04,North_China,Terauchi reaches Tientsin and frames Central Hopei plan,SAME,minor_depot_repair_readiness,CLOSED
+1937-09-01,Shanghai,broader Japanese air pressure preparation,SAME,air_serviceability_small_positive,CLOSED
+1937-09-03,Shanghai,Liuho-Woosung offensive still waiting on troops/artillery,SAME_STALL,maintenance_debt_lower_but_no_calendar_shift,CLOSED
+1937-09-03,Shanghai,Pudong artillery duel and long naval bombardment,SAME_EVENT,naval_fire_cycle_5_to_10pct_faster_on_influenced_ships,CLOSED
+1937-09-04,Shanghai,front remains pre-next-offensive,SAME,minor_sustainment,CLOSED

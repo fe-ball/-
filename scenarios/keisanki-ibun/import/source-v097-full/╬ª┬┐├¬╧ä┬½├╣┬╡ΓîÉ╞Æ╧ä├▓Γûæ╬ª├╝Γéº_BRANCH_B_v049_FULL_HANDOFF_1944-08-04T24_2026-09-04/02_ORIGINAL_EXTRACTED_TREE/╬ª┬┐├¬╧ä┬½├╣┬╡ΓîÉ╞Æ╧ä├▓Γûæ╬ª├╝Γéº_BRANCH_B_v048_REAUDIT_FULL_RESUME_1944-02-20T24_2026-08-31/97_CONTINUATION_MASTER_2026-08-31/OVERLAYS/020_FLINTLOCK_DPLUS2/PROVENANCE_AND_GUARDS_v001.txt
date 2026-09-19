@@ -1,0 +1,12 @@
+WORKING OVERLAY. NOT CANONICAL.
+Semantic base: v048 Branch B.
+Immediate source frontier: FLINTLOCK 1944-02-07T24 working checkpoint.
+Method guards:
+- Do not restore historical/old-v003 secure dates or casualties by script.
+- Treat compressed Japanese cells as locally denser but not centrally coordinated.
+- Keep US night-learning/adaptation active without omniscience.
+- Keep aircraft physical/serviceable/mission-ready/local-use separate.
+- Keep radar/visual/DF/local telephone/runner functions componentized; no single 'radar HP'.
+- Do not create Japanese tanks where no traced vehicles exist.
+- Do not compensate missing prior submarine hits with automatic later hits.
+- Support 'release' means task-capacity becomes available after transit/replenishment; it is not teleportation.

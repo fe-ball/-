@@ -1,0 +1,22 @@
+{
+  "revision": "v003",
+  "created": "2026-08-18",
+  "base_package": "refactor_v002",
+  "active_baselines": {
+    "tech": "02_TECH/TECH_INDEX_v003.json",
+    "prewar": "03_PREWAR/PREWAR_INDEX_v003.json",
+    "warstart": "04_WARSTART/WARSTART_CHECKPOINT_v003.json",
+    "warstart_state": "04_WARSTART/WARSTART_STATE_LEDGER_v001.json",
+    "checkpoint_graph": "05_WARTIME/CHECKPOINT_GRAPH_v001.json",
+    "runtime_contract": "06_RUNTIME/RUNTIME_CONTRACT_v001.json",
+    "rules": "00_CONFIG/rule_registry_v001.json"
+  },
+  "preservation": "99_LEGACY_UNTOUCHED unchanged from v002 copy",
+  "json_files_checked": 67,
+  "json_parse_errors": [],
+  "adjudication_cases": "95_AUDIT/adjudication_cases_v002.json",
+  "judgment_registry": "95_AUDIT/judgment_registry_v003.json",
+  "residual_collision_ledger": "95_AUDIT/residual_collision_ledger_v003.json",
+  "validation": "95_AUDIT/VALIDATION_RESULT_v003.json",
+  "legacy_byte_identity_vs_v002": true
+}

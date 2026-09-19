@@ -1,0 +1,237 @@
+{
+  "version": "v096",
+  "status": "current-authority-overlay",
+  "as_of": "1944-04-30T24:00:00",
+  "next_frontier": "ground_deployment_and_effects",
+  "mobile_fleet": {
+    "first_line_carriers": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu"
+    ],
+    "four_carrier_air_ready_band": [
+      280,
+      300
+    ],
+    "taiho": {
+      "status": "B+ limited combat capable / integration training",
+      "full_A_candidate": "after May joint exercises"
+    },
+    "five_carrier_mission_ready_band": [
+      331,
+      368
+    ],
+    "five_carrier_air_breakdown": {
+      "fighters": [
+        155,
+        175
+      ],
+      "D4Y": [
+        78,
+        92
+      ],
+      "B6N": [
+        72,
+        86
+      ],
+      "other": [
+        15,
+        25
+      ]
+    },
+    "B7A_Taiho_ready_band": [
+      8,
+      14
+    ],
+    "operating_axis": "South Philippines / Tawi-Tawi, independent from fixed-base survival"
+  },
+  "marianas": {
+    "regional_air_ready_band": [
+      142,
+      175
+    ],
+    "fighter_ready_band": [
+      104,
+      129
+    ],
+    "navy_fighter_ready_band": [
+      58,
+      74
+    ],
+    "army_units": {
+      "59th_Sentai_Ki44_ready": [
+        24,
+        28
+      ],
+      "11th_Sentai_Ki84_ready": [
+        22,
+        27
+      ]
+    },
+    "joint_C2": "Navy radar/plot provides sector-altitude-track; Army liaison retransmits to Army nets; tactical control remains with sentai after contact",
+    "ninth_tank_regiment": {
+      "physical_total": 81,
+      "Saipan": {
+        "physical_center": 53,
+        "breakdown": {
+          "Type97Kai": 20,
+          "Type97_old": 18,
+          "Type95": 15
+        },
+        "combat_ready_band": [
+          42,
+          49
+        ]
+      },
+      "Guam": {
+        "physical_center": 28,
+        "breakdown": {
+          "Type97Kai": 7,
+          "Type97_old": 3,
+          "Type95": 18
+        },
+        "combat_ready_band": [
+          20,
+          26
+        ]
+      }
+    },
+    "fortification": "old distributed/C2 doctrine mature; deep tunnel/reverse-slope system under active construction, not complete"
+  },
+  "palau": {
+    "14th_Division_arrival": "by 1944-04-18",
+    "tank_allocation": "OPEN",
+    "post_Desecrate": "air and port damaged; key fleet assets evacuated before raid; hardening accelerates"
+  },
+  "truk": {
+    "role": "ISR/submarine/air relay/repair/communications, no longer fleet anchorage",
+    "HAILSTONE_branch": {
+      "US_aircraft_irrecoverable": [
+        28,
+        36
+      ],
+      "Japan_aircraft_irrecoverable": [
+        100,
+        125
+      ],
+      "transport_aux_sunk": [
+        10,
+        14
+      ],
+      "transport_aux_damaged": [
+        10,
+        18
+      ],
+      "fuel_lost_tonnes": [
+        6000,
+        9000
+      ]
+    }
+  },
+  "china_west": {
+    "ground_division_equivalent": [
+      2.3,
+      2.8
+    ],
+    "ground_personnel_band": [
+      45000,
+      58000
+    ],
+    "air_ready_band": [
+      68,
+      86
+    ],
+    "Hump_high_priority_tax_t_per_month": [
+      450,
+      700
+    ],
+    "purpose": "high-value Hump endpoint destruction + 14AF fixation; no Chengdu deep pursuit"
+  },
+  "ichigo": {
+    "Hunan_new_divisions_center_band": [
+      10,
+      12
+    ],
+    "combined_active_pressure_division_equivalent": [
+      12,
+      15
+    ],
+    "status": "physical concentration / rail allocation / engineers / bridging / vehicles / ammo stockpile",
+    "no_automatic_Sichuan_pursuit": true
+  },
+  "submarine_ASW": {
+    "Penang": "joint operations and technical test hub; procedure/maintenance/I-O gains",
+    "SenTaka_combat_submarines": 6,
+    "I400": "single-boat combat ready but held",
+    "I401": "commissioned Apr; readiness gate May-Jun",
+    "MAD_aircraft_band": [
+      25,
+      40
+    ]
+  },
+  "technology": {
+    "radar_range_delta": "+5-15% practical, not fantasy",
+    "integration": "track smoothing / range-rate / target numbering / radar-optical fusion / CAP vectoring / handoff",
+    "US_CIC_advantage": "preserved",
+    "future_weapons_not_counted": [
+      "Retsufu as regular combat type",
+      "Ki-67 regular combat force",
+      "Ki-100 regular combat force",
+      "jets"
+    ]
+  },
+  "allied_global_tax": {
+    "permanent_branch_carrier_losses": {
+      "RN": [
+        "Indomitable",
+        "Formidable"
+      ],
+      "USN": [
+        "Enterprise",
+        "Hornet",
+        "Saratoga"
+      ]
+    },
+    "historical_loss_avoided_branch": [
+      "Wasp CV-7 historical Sep 1942 loss avoided"
+    ],
+    "Indian_Ocean_branch_only_1942_09_to_1943_11": {
+      "merchant_sunk_GRT": [
+        20000,
+        55000
+      ],
+      "merchant_long_repair_GRT": [
+        10000,
+        25000
+      ],
+      "ship_months": [
+        36,
+        65
+      ],
+      "escort_ASW_hull_months": [
+        37,
+        64
+      ],
+      "patrol_squadron_months": [
+        6,
+        12
+      ],
+      "heavy_unit_months": [
+        7,
+        13
+      ]
+    },
+    "Europe_Soviet_effect": "reserve erosion / route delay / escort rotation compression; no automatic strategic reversal"
+  },
+  "open_items": [
+    "full ground OOB by island/theater at 1944-04-30",
+    "Palau 14th Division sub-island distribution and tanks",
+    "Truk/Ponape/Kusaie Army-Navy ground role split",
+    "Oceania garrisons and Allied reserve fixation",
+    "India/Burma ground deployment under no-deep-U-Go but healthy Indian Ocean threat",
+    "Hunan Ichi-Go named divisions and garrison substitution",
+    "Free Strategic Reserve ledger for US Army, British-Indian Army, RN, USN, merchant shipping, air transport",
+    "Soviet Lend-Lease delay/ton-month audit and Europe casualty spillover"
+  ]
+}

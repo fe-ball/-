@@ -1,0 +1,226 @@
+{
+  "date": "1941-12-07T23:59:00+09:00",
+  "role": "rerun_initial_state",
+  "rules": {
+    "carry_state_forward": true,
+    "enemy_future_knowledge": false,
+    "damage_binary": false,
+    "personnel_cohort_tracking_from_opening": true,
+    "later_doctrine_retroactive": false
+  },
+  "air": {
+    "status": "AMBER",
+    "army_tactical_aircraft": [
+      1475,
+      1600
+    ],
+    "navy_tactical_aircraft": [
+      1375,
+      1450
+    ],
+    "total_tactical_aircraft": [
+      2850,
+      3050
+    ],
+    "net_increase_vs_historical_equivalent": [
+      225,
+      425
+    ],
+    "reserve_aircraft_increase": [
+      100,
+      200
+    ],
+    "army_type100_fighter_I_available": [
+      280,
+      380
+    ],
+    "ki44_trial_operational": [
+      15,
+      25
+    ],
+    "ki49_I_small_force": [
+      50,
+      90
+    ],
+    "later_types_not_opening": [
+      "Ki-45 kai",
+      "D4Y",
+      "B6N",
+      "operational H8K force"
+    ],
+    "old_output_bands_diagnostic_only": {
+      "first_line_effective_output_relative_gain": [
+        0.15,
+        0.25
+      ],
+      "land_repetitive_campaign_relative_gain": [
+        0.2,
+        0.35
+      ],
+      "input_allowed": false,
+      "rule": "derive from aircraft/serviceability/mission reach/return/crew/base/logistics states"
+    }
+  },
+  "carrier_air": {
+    "status": "CLOSED",
+    "main_six": [
+      390,
+      410
+    ],
+    "Ryujo": [
+      36,
+      40
+    ],
+    "Zuiho": [
+      27,
+      30
+    ],
+    "Shoho": [
+      18,
+      24
+    ],
+    "Taiyo_if_combat_used": [
+      18,
+      24
+    ],
+    "Hosho_training_ferry": [
+      12,
+      18
+    ],
+    "combat_usable_excluding_Hosho": [
+      490,
+      525
+    ],
+    "Taiyo_tradeoff": "combat use sacrifices ~20-30 replacement-aircraft ferry capacity per voyage"
+  },
+  "logistics": {
+    "status": "AMBER",
+    "effective_cargo_per_voyage_gain": [
+      0.04,
+      0.08
+    ],
+    "monthly_turnaround_gain": [
+      0.05,
+      0.1
+    ],
+    "selected_frontline_convoy_gain_possible": [
+      0.1,
+      0.15
+    ],
+    "wartime_standard_ship_mass_effect_opening": false,
+    "wartime_standard_ship_mass_effect_start": "1942 spring-summer onward"
+  },
+  "switches_opening": {
+    "A-NATURAL-RETURN": "ON",
+    "A-PRECOMBAT-CONCENTRATION-STATE": "METHOD_ON",
+    "A-REPLACEMENT-QUALITY-TRACKING": "ON",
+    "A-NO-TOPDOWN-OUTPUT-MULTIPLIER": "ON",
+    "IJA-AIR-BASE-MOBILITY": "OPERATIONAL_PARTIAL",
+    "IJA-AIR-GROUND-LIAISON": "PRESENT_LIMITED",
+    "IJA-AIR-MISSION-PRIORITY": "COUNTERAIR_FIRST",
+    "IJN-AIR-GROUND-SEPARATION": "LATENT",
+    "JOINT-BASE-STANDARDIZATION": "LATENT",
+    "A-SKILL-LEVELING": "LATENT",
+    "A-DELIBERATE-VETERAN-NUCLEUS-REALLOCATION": "LATENT",
+    "TECH-THRUST-EXHAUST": "TEST",
+    "TECH-RADAR-FLEET-TRIAL": "PRECURSOR",
+    "COMSEC-CENTRAL-STATISTICAL-AUDIT": "OPERATIONAL_PARTIAL",
+    "COMSEC-1942-HIGH-GRADE-OUTCOME": "OPEN",
+    "LOG-WARTIME-STANDARD-SHIP-I": "DESIGN_FROZEN_PRODUCTION_TRANSITION",
+    "LOG-WARTIME-STANDARD-SHIP-II": "OPEN",
+    "ASW-ESCORT-STAFF": "PRESENT_LIMITED",
+    "ASW-LOCAL-COMMAND": "LATENT",
+    "ASW-NATIONAL-COMMAND": "LATENT"
+  },
+  "personnel": {
+    "status": "OPEN_COUNTS_CLOSED_TRACKING_RULES",
+    "track_from_opening": [
+      "unit",
+      "role qualification",
+      "carrier qualification",
+      "experience band",
+      "fatigue",
+      "wound/medical state",
+      "transfer state",
+      "maintenance experience nucleus"
+    ],
+    "natural_movement_from_opening": true,
+    "deliberate_leveling_from_opening": false
+  },
+  "surface_fleet": {
+    "status": "OPEN_INDIVIDUAL_AVAILABILITY_OOB_FIRST_PASS_BASELINE_CREATED",
+    "carrier_subledger": "CLOSED",
+    "evaluation_chain": [
+      "Hull",
+      "Availability",
+      "Mission set",
+      "Mission effectiveness",
+      "Allocation"
+    ],
+    "second_torpedo_attack_must_be_checked": true,
+    "source_audit": "FLEET_ROSTER_SOURCE_AUDIT_v001.md"
+  },
+  "submarines": {
+    "status": "FIRST_PASS_INDIVIDUAL_OOB_CREATED_AMBER",
+    "sen_taka_first_lot_under_construction": 2,
+    "sen_taka_operational": 0,
+    "first_generation_battery": "~100-cycle high-output",
+    "snorkel_1942_43": false,
+    "mission_metrics": [
+      "sortie readiness",
+      "arrival",
+      "on-station time",
+      "contact",
+      "firing-position conversion",
+      "reacquisition",
+      "escape",
+      "reattack",
+      "information value",
+      "enemy diversion"
+    ],
+    "oob_file": "submarine_opening_oob_1941-12-08_v001.json",
+    "candidate_hulls": 60,
+    "known_opening_availability_examples": {
+      "I-59": "OVERHAUL_OR_NOT_OPERATIONAL_OPENING",
+      "I-60": "MODERNIZATION",
+      "I-62": "AT_SEA_PATROL",
+      "I-64": "AT_SEA_PATROL",
+      "I-65": "AT_SEA_PATROL",
+      "I-66": "AT_SEA_PATROL",
+      "I-123": "FOREPLANE_FAILURE_MINE_MISSION_THEN_REPAIR"
+    }
+  },
+  "revision": "v0.06-clean",
+  "rerun_start_by_theater": {
+    "southern_air_concentration": "1941-11-15",
+    "global_war_opening": "1941-12-07/08"
+  },
+  "later_outcomes_reopened": [
+    "1942-44 safe continuation line",
+    "post-MI human divergence date",
+    "carrier build/conversion decisions",
+    "1942-43 surface build policy",
+    "Sen-Taka lot3",
+    "Guadalcanal submarine transport bind",
+    "ASW command maturity",
+    "1942 high-grade COMSEC outcome",
+    "later aircraft fielding quantities"
+  ],
+  "source_files_current": [
+    "50_航空機研究_陸海軍総合正本.md",
+    "60_開戦戦力・輸送・空母・揚陸・砲計算.md",
+    "31_魚雷・水雷戦_魚雷本体・射撃指揮・再装填・運用.md",
+    "41_艦艇対潜_探信・爆雷・護衛運用.md",
+    "44_戦術研鑽_1942-44_空母指揮・艦隊回避・教範化.md",
+    "45_航空運用制度_1942-44_空地分離・攻防火器管制破綻研究.md",
+    "46_航空人事_1942-44_自然還流・空地分離・練度平準化.md",
+    "61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md",
+    "70_暗号・通信情報_設計防御・攻撃・運用.md",
+    "97_資料庫_2026-08-14_潜高建造台帳確定・潜水艦再配置開始.md",
+    "switch_registry_v010.json",
+    "MASTER_SWITCH_AUDIT_v010.md",
+    "MALAYA_PHASE0_OPENING_PACKET_v002.json",
+    "submarine_opening_oob_1941-12-08_v001.json",
+    "SURFACE_OPENING_BASELINE_v001.md"
+  ]
+}

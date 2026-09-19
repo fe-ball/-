@@ -1,0 +1,16 @@
+{
+  "revision": "v001",
+  "id": "WEAPONS_TECH_BACKGROUND_STATE_1944-06-10_WORKING_v001",
+  "status": "WORKING_BACKGROUND_TECH_DELTA",
+  "as_of": "1944-06-10T24:00:00+09:00",
+  "parent": "WEAPONS_TECH_MATERIALIZATION_1944-05-25_06-05_WORKING_v001",
+  "changes": {
+    "75mm_turreted_stopgap": "Pilot-series tooling/fixture and acceptance learning begins under the 8-14 vehicle authorization; combat credit remains ZERO.",
+    "Ki67": "Conversion/acceptance continues; no automatic ordinary-combat credit before the later-June/July gate.",
+    "A7M": "Prototype flight-test only; operational inventory zero.",
+    "Unryu_Amagi": "Completion/work-up clock continues; no combat deck credit by 10 Jun.",
+    "Ibuki": "Heavy-cruiser completion clock continues; no combat credit.",
+    "jet": "No physical Jumo/HWK hardware in Japan by 10 Jun."
+  },
+  "focus_rule_after_11Jun": "Surface only if a weapon crosses a real service/production/arrival threshold during the Marianas battle."
+}

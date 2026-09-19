@@ -1,0 +1,36 @@
+{
+  "revision": "v001",
+  "id": "RESUME_LOAD_ORDER_1944-03-08T24_PROGRESS_v001",
+  "status": "WORKING_RESUME_POINTER",
+  "global_frontier": "1944-03-08T24",
+  "requires_prior_overlays": [
+    "計算機異聞_v048_PROGRESS_1944-02-19_22_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_PROGRESS_1944-02-23_27_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_CORRECTION_SA1_1944-02-27_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_PROGRESS_1944-02-28_03-03_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_RETRO_EASTERN_FLEET_SUPPRESSION_PLANNING_1944-01-28_03-03_OVERLAY_2026-08-30.zip"
+  ],
+  "load_new_files_in_order": [
+    "PROGRESS_1944-03-04_08/RETRO/EASTERN_FLEET_RAMREE_FEINT_RETRO_ADJUDICATION_1944-02-10_14_WORKING_v001.json",
+    "PROGRESS_1944-03-04_08/RETRO/JAPAN_EASTERN_FLEET_SUPPRESSION_RETRO_PLANNING_1944-01-28_03-03_WORKING_v002.json",
+    "PROGRESS_1944-03-04_08/RULES/JAPAN_BAY_ENTRY_ESCALATION_GATE_REBASELINE_1944-03-08_WORKING_v001.json",
+    "PROGRESS_1944-03-04_08/AIR/JAPAN_705_706_331_REORGANIZATION_1944-03-04_08_WORKING_v001.json",
+    "PROGRESS_1944-03-04_08/SUBWAR/JAPAN_INDIAN_OCEAN_SUBMARINE_UPDATE_1944-03-04_08_WORKING_v001.json",
+    "PROGRESS_1944-03-04_08/OPERATIONS/JAPAN_FIRST_MOBILE_FLEET_SOUTHWARD_CONCENTRATION_DECISION_1944-03-04_08_WORKING_v001.json",
+    "PROGRESS_1944-03-04_08/OPERATIONS/EASTERN_FLEET_INITIAL_BRANCH_DECISION_AND_SORTIE_1944-03-04_08_WORKING_v001.json",
+    "PROGRESS_1944-03-04_08/OPERATIONS/JAPAN_EASTERN_FLEET_SUPPRESSION_RESPONSE_1944-03-04_08_WORKING_v002.json",
+    "PROGRESS_1944-03-04_08/STATE/PARALLEL_THEATER_STATE_1944-03-08T24_WORKING_v001.json"
+  ],
+  "supersession_notes": [
+    "Suppression retro-planning v002 supersedes the prior v001 by adding the omitted 10-14 Feb Ramree feint; it does not rewrite already posted combat losses."
+  ],
+  "future_knowledge_guard": [
+    "Do not credit INITIAL 9-12 Mar positions/events before their clock times.",
+    "Do not give Japan the RN deliberate W/T advertisement before it occurs.",
+    "Do not auto-release Suzuya/Kumano merely because INITIAL is in the Bay.",
+    "Do not restore former 705 G4M long-range capability to Sumatra after it has been booked into K706.",
+    "Do not auto-copy RO-111 historical 16-Mar HC.44 target because Branch Chittagong is Japanese-held.",
+    "Do not credit a K706 strike on Eniwetok before 9 Mar or without separate event adjudication."
+  ],
+  "next_exact_action": "Run 1944-03-09..12 synchronized clock, with INITIAL detection/reaction first and Central-Pacific K706 action separately."
+}

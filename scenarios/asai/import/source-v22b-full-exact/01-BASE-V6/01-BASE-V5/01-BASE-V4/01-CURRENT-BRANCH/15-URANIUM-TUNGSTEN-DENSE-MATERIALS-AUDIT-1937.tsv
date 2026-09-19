@@ -1,0 +1,10 @@
+item_id	material	1937_status	integrated_cost_usd_per_lb	sale_usd_per_lb	density_g_cc	primary_role	current_branch_treatment
+D-001	engineering natural-U metal	SEMI-COMMERCIAL	4.5-7	7-11	19.1	sealed high-density components	WORKING-CENTRAL
+D-002	controlled U-base dense billet/simple alloy	SMALL-LOT	6-10	9-14	18-19	precision dense components; military evaluation	WORKING-CENTRAL
+D-003	high-spec U military/research billet	QUALIFICATION	9-14	12-18	18-19	material qualification	WORKING
+D-004	uranium carbide hardmetal	REJECTED-TECH	N/A	N/A	13.6	cutting/wear hardmetal	REJECTED
+D-005	uranium-added HSS/tool steel	RESEARCH-DEAD-END	N/A	N/A	N/A	W-saving tool steel	REJECTED-CENTRAL
+D-006	early W-Ni-Cu heavy alloy	SMALL-COMMERCIAL	6.5-9	8-12	16-17	counterweight/shield/dense component	WORKING-CENTRAL
+D-007	tight-spec W heavy alloy component	SMALL-LOT	8-12	11-16	16-18	precision/military dense component	WORKING
+D-008	uranium dense ordnance core	EVALUATION	component-dependent	component-dependent	18-19	dense-core trial	OPEN-ADOPTION
+D-009	tungsten heavy-alloy ordnance core	EVALUATION	component-dependent	component-dependent	16-18	dense-core trial	OPEN-ADOPTION

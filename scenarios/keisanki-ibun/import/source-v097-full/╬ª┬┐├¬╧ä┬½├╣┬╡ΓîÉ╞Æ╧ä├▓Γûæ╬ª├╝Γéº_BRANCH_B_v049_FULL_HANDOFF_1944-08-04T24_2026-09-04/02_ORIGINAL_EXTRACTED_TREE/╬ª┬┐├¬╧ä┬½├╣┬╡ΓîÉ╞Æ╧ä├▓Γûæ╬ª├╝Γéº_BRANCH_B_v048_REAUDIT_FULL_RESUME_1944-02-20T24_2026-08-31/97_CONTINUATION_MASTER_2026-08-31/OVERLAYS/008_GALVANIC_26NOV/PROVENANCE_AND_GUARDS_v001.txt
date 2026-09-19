@@ -1,0 +1,8 @@
+PRECEDENCE / BRANCH GUARDS
+- Semantic base: Branch B v048.
+- Direct predecessor: GALVANIC_TARAWA_1943-11-25_REAUDIT_WORKING + SECONDARY_CARRIER_TRACE_CLOSED.
+- Old GALVANIC v004 and FINAL_OUTCOME v003 are comparison/provenance only for reopened 11/26 nodes.
+- No Second-Midway branch import.
+- No Bengal carrier combat-hull commitment.
+- No 1944 aircraft/CAP/fortification maturity back-port.
+- Natural US adaptation is mandatory; neither blindness nor omniscience.

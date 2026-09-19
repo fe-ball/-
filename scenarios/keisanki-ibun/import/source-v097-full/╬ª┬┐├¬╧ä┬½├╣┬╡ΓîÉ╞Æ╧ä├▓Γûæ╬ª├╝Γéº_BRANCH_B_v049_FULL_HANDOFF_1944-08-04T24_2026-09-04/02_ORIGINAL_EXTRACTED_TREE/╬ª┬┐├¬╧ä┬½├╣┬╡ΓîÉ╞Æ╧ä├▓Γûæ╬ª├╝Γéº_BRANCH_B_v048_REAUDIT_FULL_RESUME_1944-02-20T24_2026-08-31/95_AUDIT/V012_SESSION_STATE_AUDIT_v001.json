@@ -1,0 +1,22 @@
+{
+  "revision": "v001",
+  "id": "V012_SESSION_STATE_AUDIT_v001",
+  "date": "2026-08-23",
+  "result": "PASS",
+  "purpose": "Audit the v012 1944-summer session-state capture without promoting incomplete local forward adjudications into a global checkpoint.",
+  "canonical_restart": "CHECKPOINT_1944-04-30T24_v004",
+  "current_global_analysis_frontier": "1944-07-14T24:00",
+  "world_state_policy": "No new full global checkpoint. Saipan is authoritative through 1944-07-14; China Hengyang through 1944-08-06 is explicitly frozen as a local forward adjudication only.",
+  "added_runtime_state": [
+    "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SUMMER_v001.json",
+    "06_RUNTIME/MARIANAS_SAIPAN_1944-06-11_07-14_SETTLEMENT_v001.md",
+    "06_RUNTIME/CBI_AIR_LOGISTICS_TAX_1944-04_06_WORKING_SETTLEMENT_v001.md",
+    "06_RUNTIME/CHINA_ICHIGO_ANALOG_1944-05-27_08-06_FORWARD_ADJUDICATION_v001.md",
+    "06_RUNTIME/1944SUMMER_JAPAN_US_FORCE_REGENERATION_WORKING_LEDGER_v001.md"
+  ],
+  "next_required_adjudication": "Close the 1944-07 to 1944-10 Japan/US monthly force-regeneration ledger before Guam/Tinian or a new Yamamoto fleet intervention is settled.",
+  "execution_layer": "v011 combat/platform/novel-weapon execution behavior preserved; no capability index or combat schema removed.",
+  "legacy_file_count": 188,
+  "legacy_hash_multiset_sha256": "f35a02536fa690266b4f7b379edfd8fb1a74f0e690c634222fadb319f92ea293",
+  "legacy_policy": "99_LEGACY_UNTOUCHED copied byte-for-byte from v011 working tree."
+}

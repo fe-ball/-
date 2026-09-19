@@ -1,0 +1,53 @@
+{
+  "revision": "v001",
+  "id": "CHECKPOINT_1942-10-24T24_v001",
+  "checkpoint_id": "CHECKPOINT_1942-10-24T24_v001",
+  "as_of": "1942-10-25T00:00:00",
+  "status": "authoritative",
+  "type": "POST_NOUMEA_CAPTURE_CHECKPOINT",
+  "parent": "CHECKPOINT_1942-09-02T24_v001",
+  "parent_checkpoint": "CHECKPOINT_1942-09-02T24_v001",
+  "technical_baseline": "TECH_INDEX_v004",
+  "prewar_baseline": "PREWAR_INDEX_v004",
+  "current_branch_overrides": "00_CONFIG/current_branch_overrides_v001.json",
+  "state_sources": [
+    "06_RUNTIME/NEW_CALEDONIA_1942-10_SETTLEMENT_v001.md",
+    "06_RUNTIME/1942H2_STRATEGIC_SETTLEMENT_v001.md"
+  ],
+  "territory": {
+    "New_Caledonia_south": "Japanese-held Noumea/Tontouta/La Foa axis",
+    "New_Caledonia_north": "organized Allied force remains around Bourail/Plaines des Gaiacs and north",
+    "Espiritu_Santo": "Japanese-held"
+  },
+  "naval_losses_damage": {
+    "Japan": "Haruna medium-heavy damage; 1 DD sunk; 3 transports sunk and 4-6 damaged in campaign; no major carrier hull damage",
+    "United_States": "Wasp medium damage and withdrawn; Washington survives night action"
+  },
+  "ground_result": {
+    "Japan": "10000-13000 casualties, 3000-3800 KIA/MIA through main battle",
+    "Allies": "8500-11000 combat casualties; 10000-13000 POW; 18000-21000 northward; 5000-7000 sea/air evacuation"
+  },
+  "next_gate": "Clear the New Caledonia military corridor, then close limited FS; Fiji/Samoa require new national decision.",
+  "technical_entries": [
+    "TECH-AIR-NAV-REPORT-I-O-001",
+    "TECH-SEARCH-MULTILAYER-001",
+    "TECH-AIR-MEDIAN-RELIABILITY-001",
+    "TECH-AIR-GUN-FIGHTER-001",
+    "TECH-AIR-BOMB-LEVEL-POINT-001",
+    "TECH-AIR-BOMB-LEVEL-AREA-001",
+    "TECH-AIR-DIVE-FIXED-001",
+    "TECH-RADAR-1942-HUMANLOOP-001",
+    "TECH-LANDING-PACKAGE-001",
+    "TECH-AMPHIBIOUS-FIRSTDAY-001",
+    "TECH-ASW-CONTACT-HANDOFF-001",
+    "TECH-ASW-FOCUSED-CONVOY-1942-001",
+    "TECH-LOG-ASSET-UPTIME-ACCOUNTING-001",
+    "TECH-LOG-STANDARD-SHIP-I-001",
+    "TECH-INDUSTRIAL-STEEL-ADAPTATION-1940-42-001",
+    "TECH-GUNFIRE-SURFACE-1942-001",
+    "TECH-TORPEDO-SURFACE-ACCURACY-001",
+    "TECH-SURFACE-SPEED-ROBUSTNESS-001"
+  ],
+  "execution_valid": true,
+  "current_restart": false
+}

@@ -1,0 +1,23 @@
+{
+  "revision": "v001",
+  "id": "FUTURE_US_CARRIER_OOB_REOPEN_GUARD_1944-06_WORKING_v001",
+  "status": "WORKING_FUTURE_REOPEN_GUARD",
+  "effective_as_of": "1944-04-15T24",
+  "purpose": "Prevent stale June TF58 deck counts from being reused after the March carrier-pipeline audit.",
+  "trigger": "Before any June FORAGER carrier OOB or combat calculation.",
+  "issue": "Current Branch keeps Intrepid CV-11 in service after Feb and also restores the CV-18 Essex-class hull under a provisional non-Wasp name because CV-7 Wasp survives. A legacy June settlement states 7 CV / 8 CVL and therefore may be one fleet carrier short unless an intervening Branch absence is explicitly created.",
+  "required_reaudit": [
+    "Wasp CV-7",
+    "Essex CV-9",
+    "Yorktown CV-10",
+    "Intrepid CV-11",
+    "Hornet CV-12",
+    "Lexington CV-16",
+    "Bunker Hill CV-17",
+    "CV-18 equivalent",
+    "Cabot CVL-28",
+    "Bataan CVL-29",
+    "San Jacinto CVL-30"
+  ],
+  "guard": "Do not alter the settled June battle result yet. Reopen the June OOB when the global clock approaches FORAGER and either identify a paid absence or recalculate with the extra deck."
+}

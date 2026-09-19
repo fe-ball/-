@@ -1,0 +1,47 @@
+{
+  "status": "WORKING_CENTER_ADJUDICATION",
+  "date": "1942-09-24",
+  "supersedes_prior_provisional_night_result": true,
+  "center_result": {
+    "ijn": {
+      "kongo": "1x16in_hit_medium_damage_shore_bombardment_mission_kill",
+      "hagikaze": "medium_heavy_gun_damage_reload_disabled_campaign_mission_kill",
+      "tokitsukaze": "light_medium_gun_damage_no_useful_follow_on_attack",
+      "sunk": []
+    },
+    "usn": {
+      "preston": "sunk_type93_hit",
+      "quincy": "heavy_type93_damage_campaign_mission_kill_survives",
+      "washington": "combat_capable_no_hit",
+      "other_major_center_damage": []
+    },
+    "shore_bombardment_14in_shells_total_band": [120, 150],
+    "santo_dawn_sortie_generation_fraction_band": [0.65, 0.75]
+  },
+  "torpedo_group_A_first_salvo": {
+    "arashi": 8,
+    "hagikaze": 8,
+    "nowaki": 4,
+    "maikaze": 4,
+    "total": 24
+  },
+  "torpedo_group_B_first_salvo": {
+    "yukikaze": 8,
+    "tokitsukaze": 4,
+    "amatsukaze": 4,
+    "hatsukaze": 4,
+    "total": 20
+  },
+  "limited_second_covering_attack": {
+    "total_band": [12, 16],
+    "center_hits": 0,
+    "purpose": "pursuit_denial_and_extraction_cover"
+  },
+  "total_type93_expenditure_band": [56, 60],
+  "sensitivity_gates": [
+    "WASHINGTON_TORPEDO_HIT",
+    "HAGIKAZE_CATASTROPHIC_RELOAD_FIRE",
+    "KONGO_NO_16IN_HIT",
+    "GROUP_B_SINGLE_HIT"
+  ]
+}

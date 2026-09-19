@@ -1,0 +1,17 @@
+date	unit	equipment	metric	value	status	note
+1939-05-12	24th Sentai	Ki-27	pool	19	CLOSED	initial Nomonhan response
+1939-05-12	24th Sentai	Ki-27 EX2	configuration	15	CLOSED	plus EX0 x4
+1939-05-24/27	11th Sentai	Ki-27	reinforcement_input	56	CLOSED-HIST-SCALE	exact EX mix at arrival not inferred
+1939-06-22	24th Sentai	Ki-27	mission_capable	18	CLOSED-CENTER	15 EX2 +3 EX0
+1939-06-22	24th Sentai	Ki-27	irreversible_loss	4	CLOSED-CENTER	major air battle
+1939-06-22	24th Sentai	Ki-27	repairable_forced_landing	1	CLOSED-CENTER	major air battle
+1939-08-04	24th Sentai	Ki-27	posture	REST_HAILAR	CLOSED-HIST-ANCHOR	not full-front Aug20
+1939-08-17	64th Sentai	Ki-27	posture	COMBAT_PATROL_ACTIVE	CLOSED-HIST-ANCHOR	Hailar Aug7; forward Aug15
+1939-08-19	24th Sentai	Ki-27	working_pool	~19	CLOSED-WORKING	EX2 center 18; 17-19 band
+1939-08-21	11th Sentai	Ki-27	working_pool	~32	CLOSED-WORKING	EX2 center ~26; 24-28 band
+1939-08-19	64th Sentai	Ki-27	working_pool	~36	CLOSED-WORKING	EX2 center ~32; 30-34 band
+1939-08-19	1st Sentai	Ki-27	working_pool	~20	CLOSED-WORKING	EX2 center ~17; 15-18 band
+1939-08-19	frontline aggregate	Ki-27 EX2	fraction_pct	82	CLOSED-WORKING	80-88 band; not national ratio
+1939-08-20_next_morning	frontline aggregate	Ki-27	usable	100	CLOSED-WORKING	98-103 band
+1939-08-21	Operation S	fighters	attack_escort	88	CLOSED-WORKING	85-90 band; additional 10-15 retained CAP/defense
+1939-08-22	frontline aggregate	Ki-27	serviceable	100	CLOSED-WORKING	98-102 band; crew-ready about95

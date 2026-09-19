@@ -1,0 +1,134 @@
+{
+  "id": "BRANCH_B_WIO5_RESOURCE_LEDGER_1942-09-10_10-03_v001",
+  "status": "AUTHORITATIVE_CENTER_THROUGH_1942-10-03",
+  "period": ["1942-09-10", "1942-10-03"],
+  "depends_on": [
+    "v065 WIO-4B Operation B close/submarine/payment",
+    "v063 Madagascar wallet",
+    "v050 Santo authoritative D-Day 1942-09-25 and combat result"
+  ],
+  "rules": {
+    "gross_first": true,
+    "full_cost_not_full_effect": true,
+    "unpaid_bill_must_appear_somewhere": true,
+    "same_hull_same_day_double_booking": false,
+    "no_invented_named_counterfactual_casualties": true,
+    "exposed_gap_requires_exploitation_mechanism": true
+  },
+  "madagascar": {
+    "Stream_Majunga_1942-09-10": {
+      "result_center": "HISTORICAL_DAY_CAPTURE_RETAINED",
+      "branch_extra_ship_losses": 0,
+      "branch_extra_named_casualties": 0,
+      "modern_carrier_gap": true,
+      "gap_exploited_at_center": false,
+      "reason": "historical carrier strike demand low; Vichy air too weak/ineffective to convert missing modern CAP into a defensible named Branch casualty"
+    },
+    "campaign_clock_center": {
+      "Majunga": "1942-09-10",
+      "armistice_requested": "1942-09-16",
+      "terms_rejected": "1942-09-17",
+      "Tamatave": "1942-09-18",
+      "Tananarive": "1942-09-23",
+      "additional_ports_positions": "1942-09-29",
+      "Antsirabe": "1942-10-02",
+      "final_capitulation": "OUTSIDE_WIO5_NOVEMBER"
+    },
+    "Hermes": {
+      "role": "limited recon_ASW_spotting_light_strike; no modern fighter-deck equivalence",
+      "working_air_group": "about 12 Swordfish / 814 NAS scale",
+      "operational_days_1942-09-10_18": 9,
+      "post_Jane_transit_unavailable_days_1942-09-19_22": 4,
+      "WIO5_increment_carrier_days": 13
+    }
+  },
+  "submarine_wave": {
+    "I_29": {
+      "Haresfield_1942-09-10": {"ships": 1, "grt": 5299, "result": "RETAINED"},
+      "Ocean_Honour_1942-09-16": {"ships": 1, "grt": 7147, "result": "RETAINED", "historical_dead": 20},
+      "Paul_Luckenbach_1942-09-22": {"ships": 1, "grt": 6579, "result": "RETAINED", "cargo_note": "18 tanks and 10 B-25 bombers"}
+    },
+    "I_165": {
+      "Losmar_1942-09-24": {"ships": 1, "grt": 5549, "result": "RETAINED", "historical_sailors_lost": 27},
+      "claim_1942-09-25": {"result": "CLAIM_ONLY_NOT_PROMOTED"},
+      "failed_attack_1942-09-27": {"result_center": "TARGET_SURVIVES", "sensitivity": "OPEN_UPPER_FAILURE_MECHANISM_UNRESOLVED"},
+      "INA_landing_1942-09-28": "RETAINED"
+    },
+    "I_162": {
+      "sixth_patrol_departure": "1942-09-28",
+      "Mikoyan_1942-10-03": {"ships": 1, "grt": 2332, "result": "RETAINED"}
+    },
+    "WIO5_confirmed_increment": {"ships": 5, "grt": 26906},
+    "cumulative_ordinary_submarines_1942-06-05_to_1942-10-03": {
+      "ships": 29,
+      "grt": 139770,
+      "branch_extra_center_ships": 0,
+      "branch_extra_center_grt": 0
+    }
+  },
+  "british_ASW_tradeoffs": {
+    "Cromer_Cromarty_Romney": {
+      "Madagascar_commitment_1942-09-10_26_days_each": 17,
+      "Madagascar_commitment_hull_days": 51,
+      "transfer_to_Aden_1942-09-27_10-03_days_each": 7,
+      "transfer_hull_days": 21,
+      "WIO5_total_minesweeper_hull_days_not_Aden_on_station": 72,
+      "Aden_arrival": "1942-10-05"
+    },
+    "Hero_Tetcott_from_Mediterranean": {
+      "transfer_order_departure": "1942-09-05",
+      "WIO5_window_days_each_1942-09-10_10-03": 24,
+      "WIO5_Mediterranean_destroyer_days_removed": 48,
+      "classification": "GROSS_HISTORICAL_BURDEN_NOT_BRANCH_EXTRA"
+    },
+    "Catalinas_Ceylon_to_Aden": {
+      "aircraft": 3,
+      "request": "1942-09-03",
+      "arrival_Aden": "1942-09-07",
+      "WIO5_increment_commitment_days": 72,
+      "cumulative_commitment_days_1942-09-03_10-03": 93,
+      "all_commitment_days_counted_as_flown": false
+    }
+  },
+  "carrier_deficit": {
+    "Formidable": "SUNK_1942-04-05",
+    "Indomitable": "SUNK_1942-04-05",
+    "Illustrious": "MISSION_KILL_PEDESTAL_1942-08-12",
+    "Admiralty_1942-08-18_modern_carrier_request": "UNPAYABLE_AS_WRITTEN",
+    "unfilled_requested_capability_days_1942-08-18_10-03": 47,
+    "Torch": {
+      "ticket": "TORCH_FLEET_CARRIER_DEFICIT_OPEN_GLOBAL",
+      "historical_Formidable_air_group_scale": 42,
+      "free_substitution_available": false,
+      "Torch_casualty_adjudicated_through_1942-10-03": false
+    }
+  },
+  "Santo_sync": {
+    "authoritative_D_day": "1942-09-25",
+    "Operation_B_surface_force_forward_ready_center": ["1942-09-05", "1942-09-09"],
+    "rewrite_v050_center_result": false,
+    "reason": "no hard timing conflict; fuel/machinery debt retained without double-counting combat damage"
+  },
+  "center_close_1942-10-03": {
+    "branch_extra_confirmed_direct_merchant_losses": {"ships": 0, "grt": 0},
+    "branch_extra_Majunga_named_casualties": 0,
+    "ordinary_submarine_cumulative": "29 ships / 139,770 GRT",
+    "British_cross_theatre_pressure": [
+      "Hermes substitutes incompletely for modern Madagascar carrier",
+      "Cromer group held by Madagascar then transits to Aden",
+      "Hero and Tetcott removed from Mediterranean for Aden ASW",
+      "three Catalinas removed from Ceylon/Bay availability",
+      "modern carrier request remains unpaid and maps toward Torch"
+    ],
+    "next_boundary": "1942-10-04 WIO-6"
+  },
+  "open_tickets": [
+    "I_165_1942-09-27_FAILED_ATTACK_OPEN_UPPER_FAILURE_MECHANISM_UNRESOLVED",
+    "BRITISH_GENIUS_1942-09-03_OPEN_UPPER_FAILURE_MECHANISM_UNRESOLVED",
+    "TORCH_FLEET_CARRIER_DEFICIT_OPEN_GLOBAL",
+    "HERMES_POST_MADAGASCAR_AVAILABILITY_CARRY_FORWARD",
+    "CROMER_GROUP_ADEN_ARRIVAL_1942-10-05_NEXT_BLOCK",
+    "I_162_POST_1942-10-03_ATTACKS_WIO6",
+    "MADAGASCAR_GROUND_CAMPAIGN_RESIDUAL_COSTS_TO_NOVEMBER"
+  ]
+}

@@ -1,0 +1,15 @@
+event_id	time	claim	branch_result	status	asai_reason	next_effect
+E-19370727-01	1937-07-27 morning	Civilian evacuation to legation quarter continues	Same	CLOSED-SAME	Political/civilian constraint, not industrial readiness	Attack cannot be advanced merely by readiness
+E-19370727-02	1937-07-27 noon	Lugouqiao/Babaoshan 37th Division withdrawal deadline	Incomplete as historical	CLOSED-SAME	Chinese command/implementation outside Asai network	Contributes to breakdown of settlement
+E-19370727-03	1937-07-27 morning	Tongzhou and north-Peiping fighting widens	Same event-level	CLOSED-SAME	No Asai trigger removes confrontation	Raises operational urgency
+E-19370727-04	1937-07-27 ~13:00	37th/security elements remain at Babaoshan after deadline	Same	CLOSED-SAME	No portable-radio revolution on Chinese side	Ultimatum considered unmet
+E-19370727-05	1937-07-27 ~14:00-16:00	Tuanhe fighting grows into artillery battle	Same trigger and broad timing	CLOSED-SAME	Existing forces already in position; readiness not trigger	First substantial arena for Asai artillery/vehicle margin
+E-19370727-06	1937-07-27 15:00	Jicha authorities publicly reject final ultimatum	Same	CLOSED-SAME	Political decision	Local negotiations terminate
+E-19370727-07	1937-07-27 11:50	Japanese central renewed dispatch/mobilization and operational mission	Same	CLOSED-SAME	Industrial readiness does not reverse strategic decision	Full offensive authorized
+E-19370728-01	1937-07-28 00:00	Tientsin Army issues independent-action notice and recommends Peiping troop withdrawal	Same	CLOSED-SAME	Political/operational notice	Delivered ~02:00
+E-19370728-02	1937-07-28 ~02:00	Notice conveyed through special-service channel	Same	CLOSED-SAME	Communications sufficient historically; Asai does not alter meaning	Final pre-attack communication
+E-19370728-03	1937-07-28 dawn ~05:00-06:00	Full offensive opening around Peiping/Nanyuan	Same day/phase; exact minute open	CLOSED-SAME/OPEN-DETAIL	Asai raises readiness but not order timing	Q-036 Nanyuan battle
+A-19370728-MOTOR	1937-07-28 H-hour	Asai-exposed heavy motor subfleet readiness	+3 to +7 percentage points working; whole motor pool +1 to +3 pp	WORKING-CLOSED-DIRECTION	Selected heavy trucks/tractors only	Fewer dropouts / slightly more heavy support ready
+A-19370728-ARTY	1937-07-28 H-hour	Artillery fire-preparation advantage	~10-20% faster data/registration in best-prepared batteries; single-digit-percent concentration gain	WORKING-CLOSED-DIRECTION	Mature computation/survey/QC	Potentially faster suppression, lower rounds per effect
+A-19370728-AIR	1937-07-28 H-hour	Aviation serviceability margin	Few percentage points; typically ~1-2 aircraft equivalent on few-dozen-aircraft package	WORKING-CLOSED-DIRECTION	Maintenance/QC, not GT aviation	Fewer aborts / slightly denser support
+A-19370728-MANCH	1937-07-28 H-hour	Newly released Manchurian 20-40 vehicle pool	Not available in time	REJECTED-FOR-GATE	Cannot release, transport and integrate overnight	May affect 29-31 Jul onward

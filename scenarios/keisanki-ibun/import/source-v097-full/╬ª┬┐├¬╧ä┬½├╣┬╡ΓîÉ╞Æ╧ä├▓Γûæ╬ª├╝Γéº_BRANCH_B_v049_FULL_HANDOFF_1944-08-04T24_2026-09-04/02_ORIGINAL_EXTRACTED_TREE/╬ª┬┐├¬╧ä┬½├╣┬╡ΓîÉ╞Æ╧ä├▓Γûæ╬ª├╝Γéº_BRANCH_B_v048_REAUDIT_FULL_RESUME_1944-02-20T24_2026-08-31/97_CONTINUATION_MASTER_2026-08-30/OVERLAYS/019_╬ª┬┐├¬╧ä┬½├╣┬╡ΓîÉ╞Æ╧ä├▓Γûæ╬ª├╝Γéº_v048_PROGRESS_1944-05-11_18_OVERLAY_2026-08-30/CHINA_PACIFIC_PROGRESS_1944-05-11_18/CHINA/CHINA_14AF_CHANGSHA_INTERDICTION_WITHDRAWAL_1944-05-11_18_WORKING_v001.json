@@ -1,0 +1,59 @@
+{
+  "revision": "v001",
+  "id": "CHINA_14AF_CHANGSHA_INTERDICTION_WITHDRAWAL_1944-05-11_18_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_BRANCH_RESPONSE",
+  "clock_window": "1944-05-11..18",
+  "global_frontier_after_merge": "1944-05-18T24:00:00+09:00",
+  "parents": [
+    "CHINA_14AF_HUNAN_INTERDICTION_1944-05-01_10_WORKING_v001",
+    "ICHIGO_HUNAN_PHASE_A_CLOSEOUT_1944-05-11_18_WORKING_v001"
+  ],
+  "mission_ready_available_hunan_east_southeast_band": [
+    78,
+    108
+  ],
+  "sustainable_daily_committed_band": [
+    50,
+    73
+  ],
+  "short_surge_band": [
+    85,
+    112
+  ],
+  "priority_targets": [
+    "Xiang/Miluo bridge and ferry repair",
+    "Japanese artillery/vehicle columns converging on Changsha",
+    "rail/river transshipment nodes",
+    "forward fighter fields and fuel parks",
+    "support of Chinese evacuation/rearguards when fresh target data exists"
+  ],
+  "effects_11_18May": {
+    "Japanese_supply_equivalent_irrecoverable_or_consumed_due_air_interdiction_t": [
+      2200,
+      3800
+    ],
+    "cargo_delayed_rerouted_temporarily_unavailable_t": [
+      6000,
+      11000
+    ],
+    "Japanese_motor_vehicles_irrecoverable_band": [
+      18,
+      34
+    ],
+    "Japanese_motor_vehicles_repairable_temporarily_out_band": [
+      50,
+      85
+    ],
+    "Japanese_theater_irrecoverable_aircraft_band": [
+      8,
+      13
+    ],
+    "Allied_Chinese_theater_irrecoverable_aircraft_band": [
+      7,
+      11
+    ]
+  },
+  "Changsha_Xiangtan_airfield_action": "Aircraft and high-value maintenance/signals assets rotate south/west before ground capture. Runways, fuel points and selected workshops receive planned demolition. Japan captures geography, not an immediately functioning heavy-air base.",
+  "post_capture_forecast_guard": "Limited fighter/recon staging can become plausible only after repair in the next window; medium/heavy sustained operation requires a later gate. Do not credit captured Changsha/Xiangtan airfields on 18 May as instant full-capacity bases.",
+  "net_assessment": "14AF/CACW helps preserve IX War Area and makes Japanese logistics pay a continuing vehicle/bridge/POL tax, but cannot prevent the operational isolation and evacuation of Changsha."
+}

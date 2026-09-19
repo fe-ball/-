@@ -1,0 +1,86 @@
+{
+  "title": "BRANCH B Santo 1942-09-26 D+1 Combined-Air-Ground Adjudication v007",
+  "status": "WORKING-PROMOTED CURRENT",
+  "clock": "1942-09-26T04:30/1942-09-27T04:30",
+  "dawn": {
+    "japan_personnel_ashore": [
+      17000,
+      18500
+    ],
+    "japan_guns_ready_or_near_ready": [
+      30,
+      38
+    ],
+    "us_effective_ground_combat": [
+      6500,
+      7800
+    ],
+    "santo_sortie_generation_pct": [
+      45,
+      60
+    ],
+    "santo_sortie_center_pct": 52
+  },
+  "daylight_center": {
+    "turtle_bay": "captured 1300-1500; airfield not immediately usable",
+    "japan_personnel_ashore_dusk": [
+      18500,
+      20000
+    ],
+    "japan_guns_ashore": [
+      36,
+      46
+    ],
+    "heavy_equipment_plan_completed_pct": [
+      60,
+      70
+    ],
+    "ground_losses": {
+      "japan": [
+        800,
+        1100
+      ],
+      "us": [
+        650,
+        900
+      ]
+    },
+    "air_losses": {
+      "japan": [
+        6,
+        9
+      ],
+      "us": [
+        8,
+        12
+      ]
+    },
+    "shipping": {
+      "new_transport_sinkings": 0,
+      "new_transport_damage": "1 medium/near-miss class center",
+      "oiler_hits": 0
+    }
+  },
+  "night_26_27": {
+    "major_battleship_bombardment": false,
+    "major_surface_battle": false,
+    "japan_policy": "cover staged transport withdrawal; torpedo screens; limited harassment",
+    "us_policy": "Washington interdiction without aggressive closure"
+  },
+  "end_state": {
+    "japan_personnel_ashore": [
+      19000,
+      20500
+    ],
+    "us_holds": [
+      "Pallikulo/Pekoa southern base belt",
+      "Luganville/Segond Channel"
+    ],
+    "japan_holds": [
+      "Turtle Bay/Fighter 1",
+      "eastern coastal lodgment"
+    ],
+    "washington": "combat capable",
+    "efate": "intact"
+  }
+}

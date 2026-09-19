@@ -1,0 +1,13 @@
+{
+  "revision": "v001",
+  "id": "MARIANAS_PRIMARY_STATE_1944-06-12T24_WORKING_v001",
+  "status": "CURRENT_OVERLAY_FRONTIER",
+  "as_of": "1944-06-12T24:00:00+09:00",
+  "global_frontier": "1944-06-12T24",
+  "primary_theater": "MARIANAS",
+  "US": "TF58 deepens airfield/air-defense suppression. 12 Jun irreversible aircraft losses 8-13. Saipan evacuation shipping is heavily hit but less catastrophically than the historical dense-convoy geometry.",
+  "Japan_land_air": "Selective interception and dispersal preserve more cadres; 29-41 additional irreversible aircraft losses. End-day onsite ready 134-174, fighter 73-98; C2/runway network remains functional but increasingly degraded.",
+  "Japan_fleet": "Yamamoto orders full operational concentration toward Guimaras/central Philippines. Main battle release east remains conditional through 12T24 because landing/bombardment geometry is not yet confirmed.",
+  "Yanagi": "I-34 reaches Singapore with technical party and high-density paper/small-hardware cargo; onward courier to Japan begins next. No complete German jet engine is credited.",
+  "next_focus": "13 Jun: fast-battleship shore bombardment/minesweeping and approaching amphibious forces should close or fail the final A-GO battle-release gate; reassess Marianas land-air survival and US reconnaissance of the Japanese sortie."
+}

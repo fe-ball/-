@@ -1,0 +1,77 @@
+{
+  "revision": "v001",
+  "id": "TAIHO_FIVE_DECK_INTEGRATION_1944-04-01_15_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-04-01..15",
+  "global_frontier_after_merge": "1944-04-15T24",
+  "parents": [
+    "TAIHO_WORKUP_AND_CARRIER_CADRE_ACCELERATION_1944-03-08_20_WORKING_v001",
+    "JAPAN_CARRIER_REGEN_AND_TAIHO_INTEGRATION_1944-03-21_31_WORKING_v001"
+  ],
+  "historical_sanity_anchor": "Historical Taiho reached Singapore 4 Apr, Lingga 6 Apr, Ozawa hoisted his flag 15 Apr, and aircrew conducted takeoff/landing exercises 6 Apr-12 May. Branch hull completion is earlier, but ship/air-group/deck-team integration remains a separate clock.",
+  "01Apr": {
+    "class": "B- / B",
+    "physical_or_immediate_air_pool_band": [
+      68,
+      78
+    ],
+    "serviceable_band": [
+      59,
+      70
+    ],
+    "mission_ready_band": [
+      49,
+      60
+    ]
+  },
+  "08Apr": {
+    "class": "B centered",
+    "physical_or_immediate_air_pool_band": [
+      70,
+      80
+    ],
+    "serviceable_band": [
+      61,
+      72
+    ],
+    "mission_ready_band": [
+      53,
+      64
+    ]
+  },
+  "15Apr": {
+    "class": "B / B+",
+    "physical_or_immediate_air_pool_band": [
+      72,
+      82
+    ],
+    "serviceable_band": [
+      63,
+      74
+    ],
+    "mission_ready_band": [
+      57,
+      68
+    ]
+  },
+  "five_deck_gate": {
+    "status_15Apr": "LIMITED_PASS_FOR_ONE_CYCLE_COORDINATED_OPERATION",
+    "Taiho_contribution_to_mass_strike_band": [
+      28,
+      38
+    ],
+    "five_deck_one_cycle_synchronized_package_band": [
+      195,
+      230
+    ],
+    "not_yet_A_grade": [
+      "repeat-cycle endurance at high tempo",
+      "night/bad-weather five-deck recovery",
+      "full interchangeability of Taiho deck rhythm with veteran four-core",
+      "deep reserve of D4Y/B6N leaders and observers"
+    ],
+    "checkpoint_compatibility": "This is compatible with the 30-Apr B+ authority: Taiho can participate in a coordinated one-cycle operation before she is fully equal to the veteran core. A-grade fifth-deck status remains a later gate."
+  },
+  "basing": "Integrate on the Davao-Celebes/Tarakan southern training axis with rotated anchorages; no requirement to mass every carrier at Lingga.",
+  "guard": "Do not strip the four-core of enough veteran cadres to make Taiho look mature. Acceleration is paid primarily from natural return, secondary-carrier qualification capacity and small veteran seed cadres."
+}

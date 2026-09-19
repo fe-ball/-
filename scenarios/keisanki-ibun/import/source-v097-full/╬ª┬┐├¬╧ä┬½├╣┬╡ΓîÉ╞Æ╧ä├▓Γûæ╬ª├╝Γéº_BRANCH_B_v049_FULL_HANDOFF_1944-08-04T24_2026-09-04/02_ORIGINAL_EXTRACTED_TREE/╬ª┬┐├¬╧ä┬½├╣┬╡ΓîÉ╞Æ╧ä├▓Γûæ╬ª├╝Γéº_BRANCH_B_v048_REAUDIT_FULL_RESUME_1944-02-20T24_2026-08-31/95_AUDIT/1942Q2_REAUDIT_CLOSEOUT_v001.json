@@ -1,0 +1,25 @@
+{
+  "revision": "v001",
+  "scope": "1942Q2 current-branch execution extension through 1942-06-15",
+  "status": "PASS_WITH_OPEN_BOUNDED_LEDGERS",
+  "new_authoritative_files": [
+    "05_WARTIME/CHECKPOINT_1942-04-10T24_v001.json",
+    "05_WARTIME/CHECKPOINT_1942-05-11T24_v001.json",
+    "05_WARTIME/CHECKPOINT_1942-06-02T24_v001.json",
+    "05_WARTIME/CHECKPOINT_1942-06-15T24_v001.json",
+    "05_WARTIME/CHECKPOINT_INDEX_v004.json",
+    "05_WARTIME/CHECKPOINT_GRAPH_v003.json",
+    "06_RUNTIME/MIDWAY_1942-06-10_15_SETTLEMENT_v001.json",
+    "06_RUNTIME/1942Q2_OPERATION_C_MO_MI_REAUDIT_SETTLEMENT_v001.md"
+  ],
+  "superseded_execution_boundary": "CHECKPOINT_1942-05-06T24_v001",
+  "current_execution_boundary": "CHECKPOINT_1942-06-15T24_v001",
+  "open_bounded_ledgers": [
+    "Exact named US/Japanese cruiser and destroyer losses in MI surface pursuit",
+    "Exact carrier-aircraft/aircrew/personnel loss ledger",
+    "Midway summer convoy losses and ship-day tax",
+    "Repair-yard completion dates by hull",
+    "Captured-equipment exploitation timing"
+  ],
+  "legacy_preservation": "99_LEGACY_UNTOUCHED unchanged."
+}

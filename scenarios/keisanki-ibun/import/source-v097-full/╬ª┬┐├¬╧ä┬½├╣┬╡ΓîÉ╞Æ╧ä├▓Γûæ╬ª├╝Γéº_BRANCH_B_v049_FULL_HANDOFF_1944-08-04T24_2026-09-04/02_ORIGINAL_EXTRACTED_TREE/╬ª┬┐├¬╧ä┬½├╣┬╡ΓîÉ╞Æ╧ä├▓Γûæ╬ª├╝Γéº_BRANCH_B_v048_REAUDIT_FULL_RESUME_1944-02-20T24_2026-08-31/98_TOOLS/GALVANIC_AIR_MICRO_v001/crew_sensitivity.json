@@ -1,0 +1,101 @@
+{
+  "note": "Crew proxy uses small initial positional prior only; no blanket kill-rate multiplier. Center +0.08 reflects higher surviving IJN carrier-fighter leader density, while US has strong standardized training.",
+  "rows": [
+    {
+      "jp": "JP01",
+      "crew_proxy": "equal_crew_proxy",
+      "z0": 0,
+      "A_kill": 0.018125,
+      "B_kill": 0.063,
+      "A_firstshot": 0.37075,
+      "B_firstshot": 0.6162083333333334,
+      "A_diseng": 0.008583333333333333,
+      "B_diseng": 0.007166666666666667,
+      "timeout": 0.903125
+    },
+    {
+      "jp": "JP01",
+      "crew_proxy": "JP_experience_edge_center",
+      "z0": 0.08,
+      "A_kill": 0.018583333333333334,
+      "B_kill": 0.061625,
+      "A_firstshot": 0.3892083333333333,
+      "B_firstshot": 0.597,
+      "A_diseng": 0.009125,
+      "B_diseng": 0.008208333333333333,
+      "timeout": 0.9024583333333334
+    },
+    {
+      "jp": "JP01",
+      "crew_proxy": "JP_experience_edge_high",
+      "z0": 0.15,
+      "A_kill": 0.018958333333333334,
+      "B_kill": 0.06383333333333334,
+      "A_firstshot": 0.39929166666666666,
+      "B_firstshot": 0.5884583333333333,
+      "A_diseng": 0.007875,
+      "B_diseng": 0.007875,
+      "timeout": 0.9014583333333334
+    },
+    {
+      "jp": "JP01",
+      "crew_proxy": "US_individual_edge",
+      "z0": -0.08,
+      "A_kill": 0.01925,
+      "B_kill": 0.065875,
+      "A_firstshot": 0.36233333333333334,
+      "B_firstshot": 0.6256666666666667,
+      "A_diseng": 0.009375,
+      "B_diseng": 0.006291666666666667,
+      "timeout": 0.8992083333333334
+    },
+    {
+      "jp": "JP02",
+      "crew_proxy": "equal_crew_proxy",
+      "z0": 0,
+      "A_kill": 0.024041666666666666,
+      "B_kill": 0.043125,
+      "A_firstshot": 0.4354166666666667,
+      "B_firstshot": 0.55075,
+      "A_diseng": 4.1666666666666665e-05,
+      "B_diseng": 0.027791666666666666,
+      "timeout": 0.905
+    },
+    {
+      "jp": "JP02",
+      "crew_proxy": "JP_experience_edge_center",
+      "z0": 0.08,
+      "A_kill": 0.024875,
+      "B_kill": 0.04058333333333333,
+      "A_firstshot": 0.4539166666666667,
+      "B_firstshot": 0.5339583333333333,
+      "A_diseng": 0.0002916666666666667,
+      "B_diseng": 0.027,
+      "timeout": 0.90725
+    },
+    {
+      "jp": "JP02",
+      "crew_proxy": "JP_experience_edge_high",
+      "z0": 0.15,
+      "A_kill": 0.023791666666666666,
+      "B_kill": 0.042916666666666665,
+      "A_firstshot": 0.4695416666666667,
+      "B_firstshot": 0.5187083333333333,
+      "A_diseng": 0.00016666666666666666,
+      "B_diseng": 0.025125,
+      "timeout": 0.908
+    },
+    {
+      "jp": "JP02",
+      "crew_proxy": "US_individual_edge",
+      "z0": -0.08,
+      "A_kill": 0.024833333333333332,
+      "B_kill": 0.042208333333333334,
+      "A_firstshot": 0.42633333333333334,
+      "B_firstshot": 0.56175,
+      "A_diseng": 0.000125,
+      "B_diseng": 0.026416666666666668,
+      "timeout": 0.9064166666666666
+    }
+  ]
+}

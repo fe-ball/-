@@ -1,0 +1,124 @@
+{
+  "id": "BRANCH_B_WIO4A_RESOURCE_LEDGER_1942-08-05_15_v001",
+  "status": "AUTHORITATIVE_CENTER_THROUGH_1942-08-15_FOR_OPERATION_B_PAYMENT_GATE",
+  "depends_on": [
+    "v063 Madagascar wallet through 1942-07-08",
+    "v050 Santo D-Day 1942-09-25 and modified-MI hull losses"
+  ],
+  "corrections": {
+    "v062_stale_santo_clock": {
+      "old": "Santo operation window centered on 1942-08-23",
+      "new": "Santo D-Day 1942-09-25",
+      "effect": "Operation B no longer requires cancellation/truncation solely to make Santo calendar"
+    }
+  },
+  "rules": {
+    "gross_first": true,
+    "full_cost_not_full_effect": true,
+    "unpaid_bill_must_appear_somewhere": true,
+    "same_hull_same_day_double_booking": false,
+    "do_not_invent_named_counterfactual_casualties_without_contact_roster": true
+  },
+  "operation_B": {
+    "activation": "CLOSED_CENTER_EXECUTES",
+    "historical_cancel_trigger": "WATCHTOWER_1942-08-07",
+    "branch_cancel_trigger_present": false,
+    "working_sortie": "1942-08-08_evening",
+    "working_raid_window": ["1942-08-08", "1942-08-18"],
+    "available_named_major_hulls": {
+      "heavy_cruisers": ["Suzuya", "Kumano"],
+      "light_cruisers_command_reserve": ["Sendai", "Kinu", "Isuzu"],
+      "destroyer_pool": "DesRon3 and attached divisions staged for Operation B, minus Branch-loss Yudachi",
+      "oilers": ["Nippon Maru", "Kyokuto Maru"]
+    },
+    "carrier_added": false,
+    "search_group_exact_membership": "OPEN_WIO4B",
+    "japanese_cost": {
+      "fuel": "NONZERO_OPEN",
+      "machinery_wear": "NONZERO_OPEN",
+      "post_raid_replenishment_maintenance": "OPEN_CARRY_TO_SANTO_READINESS",
+      "hard_santo_schedule_conflict": false
+    }
+  },
+  "british_warning": {
+    "O23_contact_carry_in": "RETAINED_CENTER",
+    "independent_east_coast_shipping_to_nearest_ports": "RETAINED_AND_EXTENDED_WHILE_RAID_LIVE",
+    "historical_recovery_envelope": {
+      "ships_allowed_at_sea_by_end_May": 18,
+      "Calcutta_ship_calls_per_month_by_end_May": 50,
+      "use": "constraint / scale only; not a direct conversion to losses"
+    }
+  },
+  "british_force_tradeoff": {
+    "historical_mobile_cover": "Warspite + Illustrious + Formidable + cruisers + destroyers",
+    "branch_modern_carriers_in_Indian_Ocean_at_cutoff": 0,
+    "Hermes": "SURVIVES_BUT_NOT_FLEET_CARRIER_EQUIVALENT",
+    "interception_ruling": "NO_HISTORICAL_FORCE_A_EQUIVALENT",
+    "priority_stack": [
+      "Pedestal retained with Illustrious",
+      "Madagascar completion retained",
+      "Bay pays via shipping restriction / shore-air reconnaissance / surface gap"
+    ]
+  },
+  "branch_policy_burden_1942-08-05_15": {
+    "east_coast_independent_shipping_restriction_policy_days": 11,
+    "merchant_hull_days": "OPEN_NOT_ZERO",
+    "merchant_grt_days": "OPEN_NOT_ZERO",
+    "long_range_search_requirement_days": 11,
+    "actual_Catalina_sortie_days": "OPEN_SERVICEABILITY_DEPENDENT",
+    "note": "policy/search requirement is booked; tactical suppression credited only for patrols actually flown/contacts actually made"
+  },
+  "pedestal": {
+    "status": "GO_EXISTING_BRANCH_CANON",
+    "Illustrious_1942-08-12": {
+      "result": "MISSION_KILL_SURVIVES",
+      "direct_hits": 2,
+      "serious_near_misses": true,
+      "killed_working_band": [40, 55],
+      "wounded_working_band": [55, 80],
+      "limited_combat_ready_center": "around_1943-02"
+    },
+    "interpretation": "blood paid in Mediterranean while Indian Ocean bill remains active"
+  },
+  "madagascar": {
+    "Birmingham_Manxman_Norman_Nizam_preparation_movement": "RETAINED_CENTER",
+    "Formidable_slot": "UNFILLED_PERMANENT_LOSS",
+    "Hermes_future_role": "ONLY_SURVIVING_CARRIER_OPTION_IN_THEATER_BUT_NOT_MODERN_EQUIVALENT",
+    "September_redesign": "OPEN_WIO5"
+  },
+  "persian_gulf_gulf_of_aden": {
+    "historical_7Aug_plan_three_AS_craft_to_Persian_Gulf": true,
+    "historical_actual_three_whaler_departure_Kilindini": "1942-08-25",
+    "branch_delay_through_15Aug": "NOT_YET_BOOKED",
+    "status": "LIVE_ZERO_SUM_GATE_WIO4B",
+    "threat_seed": "Japanese submarine D/F interest near Gulf of Aden from 1942-07-23; kinetic pressure later",
+    "extra_sinking_through_cutoff": 0
+  },
+  "surface_raider_direct_loss_ledger_through_15Aug": {
+    "status": "OPEN_UNPOSTED",
+    "official_added_ships": 0,
+    "official_added_grt": 0,
+    "qualification": "zero means no casualty posted yet, not proof that the completed 8-18 Aug raid produces zero losses"
+  },
+  "center_state_1942-08-15": {
+    "British_payment_form": [
+      "Illustrious blood/mission-kill at Pedestal",
+      "continued Bay merchant delay and port shelter",
+      "no modern carrier mobile shield in Indian Ocean",
+      "unfilled modern-carrier slot for Madagascar"
+    ],
+    "Japanese_gain_form": [
+      "Operation B actually executes rather than being cancelled",
+      "forces British to maintain trade-denial posture",
+      "creates live east-vs-west ASW allocation gate"
+    ],
+    "Japanese_direct_extra_merchant_blood_posted": false
+  },
+  "next": [
+    "reconstruct 8-18 Aug Bay merchant movement/contact opportunities",
+    "close Operation B withdrawal and replenishment clock",
+    "run I-165/I-166 replacement submarine wave",
+    "adjudicate 25 Aug three-whaler Persian Gulf transfer gate",
+    "carry no-modern-carrier state into Streamline Jane preparation"
+  ]
+}

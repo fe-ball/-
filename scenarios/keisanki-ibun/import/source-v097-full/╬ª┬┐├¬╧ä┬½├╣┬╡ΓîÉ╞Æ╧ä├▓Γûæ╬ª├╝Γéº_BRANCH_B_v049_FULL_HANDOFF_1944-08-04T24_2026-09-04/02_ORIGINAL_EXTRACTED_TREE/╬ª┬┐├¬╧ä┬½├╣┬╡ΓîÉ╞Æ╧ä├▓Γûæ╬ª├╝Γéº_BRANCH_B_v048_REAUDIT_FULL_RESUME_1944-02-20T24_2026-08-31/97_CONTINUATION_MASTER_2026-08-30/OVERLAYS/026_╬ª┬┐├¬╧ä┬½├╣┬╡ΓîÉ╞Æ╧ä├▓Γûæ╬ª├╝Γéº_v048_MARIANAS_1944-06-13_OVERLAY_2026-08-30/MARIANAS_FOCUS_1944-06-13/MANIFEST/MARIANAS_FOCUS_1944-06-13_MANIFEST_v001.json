@@ -1,0 +1,25 @@
+{
+  "revision": "v001",
+  "id": "MARIANAS_FOCUS_1944-06-13_MANIFEST_v001",
+  "status": "OVERLAY_MANIFEST",
+  "load_after": [
+    "計算機異聞_v048_MARIANAS_1944-06-12_OVERLAY_2026-08-30.zip"
+  ],
+  "clock_from": "1944-06-12T24",
+  "clock_to": "1944-06-13T24",
+  "primary_theater": "MARIANAS",
+  "active_files": [
+    "PACIFIC/US_SAIPAN_BOMBARDMENT_AND_ASSAULT_PREP_1944-06-13_WORKING_v001.json",
+    "PACIFIC/JAPAN_MARIANAS_AIR_AND_RECON_1944-06-13_WORKING_v001.json",
+    "PACIFIC/YAMAMOTO_A_GO_BATTLE_RELEASE_1944-06-13_WORKING_v001.json",
+    "PACIFIC/JAPAN_MOBILE_FLEET_ORDER_1944-06-13_WORKING_v001.json",
+    "STATE/MARIANAS_PRIMARY_STATE_1944-06-13T24_WORKING_v001.json"
+  ],
+  "guards": [
+    "13 Jun shore bombardment/minesweeping confirms invasion intent but does not reveal precise TF58 carrier coordinates.",
+    "Do not turn the branch's earlier warning into perfect tactical tracking; Japanese fleet movement east begins from strategic geometry, not a weapon-quality carrier fix.",
+    "Secondary carriers are a separate second-echelon group and must not be double-counted inside the five-carrier core aircraft band.",
+    "No KON operation exists, so Yamato/Musashi are not debited from the Marianas battle system.",
+    "Improved Japanese ASW can delay a historical Redfin-style contact but cannot guarantee secrecy after the fleet enters the Philippine Sea."
+  ]
+}

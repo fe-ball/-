@@ -1,0 +1,24 @@
+item	value	status	note
+propulsion	1x E6-M-J; 850 kgf normal / 900 kgf selected short	CLOSED	E6-S-J belongs HS-2, not E6 Single
+first_flight	1939-05-31	CLOSED	company test; no combat backflow
+normal_loaded_mass	2.75-2.95 t; center 2.85 t	H->A CLOSED	service fighter/recon module included
+wing_area	17-18 m2; center 17.5	H->A CLOSED	supersedes visual-draft 14.2 m2 when later merged
+internal_fuel	0.68-0.76 t; center 0.73 t	H->A CLOSED	~0.91 m3 kerosene center
+nose_module	0.22-0.28 t; center 0.25 t	H->A CLOSED	guns/ammo/sight/radio or recon package
+vmax_SL_normal	~645 km/h	H->A CLOSED	850 kgf service point
+vmax_6km_normal	~750 km/h	H->A CLOSED	working 740-755
+vmax_8km_normal	~772 km/h	H->A CLOSED	working 760-780
+vmax_10km_normal	~783 km/h	H->A CLOSED	working 775-790
+vmax_6km_selected	~765 km/h	H->A CLOSED	900 kgf selected short
+climb_6km_normal	~5.6-6.0 min	H->A CLOSED	service loaded
+climb_6km_selected	~5.2-5.5 min	H->A CLOSED	selected short
+service_ceiling_normal	~12.8-13.5 km	H->A CLOSED	theoretical service ceiling; practical fighting altitude lower
+internal_radius	~400-500 km	H->A CLOSED	intercept/high-cover/recon mission planning
+external_fuel	~300-400 L jettisonable	H->A CLOSED	centerline or equivalent paired installation
+external_radius	~550-700 km	H->A CLOSED	mission-dependent after drag/reserve/jettison costs
+prepared_field_ground_roll	~0.45-0.65 km clean/normal	H->A CLOSED	operational planning ~0.55-0.75 km
+flyaway_cost	~115-135 kYen; center ~125	H->A COST	mission-equipped planning value
+procurement_posture	96 firm-order class + 48 option	PLANNING CLOSED	exact service split replay-local
+1940_acceptance	84-108; center ~96	PLANNING CLOSED	Q1 12-18; Q2 30-44; Q3 56-76 cumulative
+production_backend	pure-J standard	CLOSED	JF Single not normal 1940 series
+combat_1940	allocation/training gated	REPLAY LOCAL	no automatic Jan 1 combat wing

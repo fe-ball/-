@@ -1,0 +1,67 @@
+{
+  "revision": "v001",
+  "id": "MARSHALL_RECONTACT_NIGHT_STRIKE_1944-01-31_02-01_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "discussion_clock_start": "1944-01-31T12:00:00+12:00",
+  "discussion_clock_end": "1944-02-01T18:00:00+12:00",
+  "purpose": "Resolve the first post-visual recontact attempt, execute the first Branch land-based night maritime strike, and update Japanese knowledge of the multi-group US approach without granting automatic carrier hits.",
+  "authority_note": "CURRENT authority remains 1944-01-01. This is a working event chain only.",
+  "historical_sanity_anchors": [
+    "Historical GALVANIC saw trained Japanese Betty night-torpedo attacks from the Marshalls; US forces also began developing radar/night-fighter countermeasures after those attacks.",
+    "Historical FLINTLOCK fast carriers approached through squalls and overcast and achieved near-complete tactical surprise; Branch submarine/contact fusion removes complete surprise but does not remove weather or US radar/CAP.",
+    "Historical late-Jan Marshall OOB contained 752nd/753rd land-attack aircraft at Roi/Taroa and 531st carrier-attack aircraft at Wotje; Branch uses these only as type/location anchors and retains its already-closed serviceable totals."
+  ],
+  "events": [
+    {
+      "time": "1944-01-31 12:00-17:30",
+      "event": "Two follow-up air searches probe the 10:25-10:45 visual contact motion cone. Weather, US CAP and local course changes deny a second firm visual.",
+      "effect": "Track uncertainty expands, but submarine/DF fusion prevents the operational picture from resetting to zero."
+    },
+    {
+      "time": "1944-01-31 20:40-22:20",
+      "event": "An inner fast-reposition submarine, moved onto the time-stamped corridor, obtains a strong multi-shaft hydrophone picture and a brief surface/periscope-assisted night observation through squall gaps.",
+      "report": "Large fast formation; heavy escort; course broadly N/NE with tactical zig-zag; speed about 20-23 kt; position error roughly 12-20 nmi; carrier identity not visually re-confirmed.",
+      "confidence": "MEDIUM-HIGH same fast-carrier-group track; fresh enough for an area-search night strike, not a precision firing solution.",
+      "submarine_action": "Report/shadow priority is retained over a poor torpedo shot. US ASW later forces the boat deep and breaks continuous contact; no submarine weapon release is credited."
+    },
+    {
+      "time": "1944-01-31 22:35-23:35",
+      "event": "Marshall air command authorizes a limited night maritime strike from the already-counted Roi/Taroa land-attack pool.",
+      "package": "8 G4M-class land-attack aircraft launch centered, with torpedo load and one aircraft performing pathfinder/illumination/search-lead duties within the formation. No new aircraft are spawned.",
+      "guard": "This is a limited attack by crews judged night-capable after GALVANIC experience, not the entire land-attack inventory."
+    },
+    {
+      "time": "1944-02-01 00:55-01:35",
+      "event": "The Japanese raid enters the predicted search box. US radar pickets and post-GALVANIC night-defense procedures detect the approach early enough to vector an ad-hoc night CAP and maneuver the carrier formation.",
+      "outcome": {
+        "Japanese_launched": 8,
+        "Japanese_early_abort": 1,
+        "Japanese_reached_search_or_attack_box": 7,
+        "Japanese_irrecoverable": 4,
+        "Japanese_returned": 3,
+        "US_ship_hits": 0,
+        "US_aircraft_losses": 0,
+        "near_result": "Several torpedoes are released against outer-screen/large-ship silhouettes; no carrier or escort hit is centered. One close pass forces radical maneuver but causes no structural damage."
+      },
+      "meaning": "The Branch information system is good enough to create a real pre-strike attack opportunity, but US radar/night defense and weather still make night torpedo conversion difficult."
+    },
+    {
+      "time": "1944-02-01 daylight",
+      "event": "Japanese searches continue on narrowed arcs. A Roi-centered fast reconnaissance sortie obtains a short visual on a second US carrier task group during the afternoon and transmits before being driven off.",
+      "report": "Probable three flight decks with heavy battleship/escort screen; separate from the group seen on 31 Jan. Exact total TF58 remains unknown.",
+      "parallel_submarine_picture": "A separate submarine/logistics report confirms major assault/transport echelons converging on the Kwajalein axis.",
+      "Japan_knowledge": "HIGH multi-TG carrier operation; HIGH amphibious operation; HIGH Kwajalein/Roi primary objective; total US fast decks still underestimated/uncertain."
+    }
+  ],
+  "US_adaptation": [
+    "Carrier groups treat tactical surprise as compromised and maintain high CAP/radar/ASW readiness.",
+    "Night-defense doctrine learned after GALVANIC is spread task-force-wide; it is not treated as an Enterprise-only capability in Branch B.",
+    "First suppression strike remains scheduled for the early edge of the 2-4 Feb window rather than being delayed by the failed Japanese raid."
+  ],
+  "Japan_adaptation": [
+    "Do not repeat the 31-Jan night attack without a fresh contact; preserve remaining night-qualified crews.",
+    "Keep Taroa/Roi aircraft dispersed and staged; radar/plot/radio teams remain at full battle stations.",
+    "Use the second carrier-group visual and assault-force reports to update submarine corridors and first-line-carrier threat posture, not to infer the full 11-deck US OOB."
+  ],
+  "supersedes_none": "Extends MARSHALL_FIRST_CONTACT_CHAIN_1944-01-28_31_WORKING_v001 without changing its events."
+}

@@ -1,0 +1,71 @@
+{
+  "revision": "v001",
+  "id": "US_FAST_CARRIER_REINFORCEMENT_1944-03-09_20_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-03-09..20",
+  "global_frontier_after_merge": "1944-03-20T24",
+  "parents": [
+    "US_FAST_CARRIER_PIPELINE_CORRECTION_1944-03-08_WORKING_v001"
+  ],
+  "purpose": "Close the temporary early-March US fast-deck compression by adjudicating Lexington CV-16 branch repair return and Hornet CV-12 arrival while retaining long-repair/new-build guards.",
+  "08Mar_baseline": {
+    "CV": 5,
+    "CVL": 5,
+    "total_fast_decks": 10,
+    "ready_aircraft_band": [
+      520,
+      580
+    ]
+  },
+  "Lexington_CV16": {
+    "branch_damage_clock": "GALVANIC branch repair band 1944-03-10..25 due torpedo plus bomb/flight-deck damage, deliberately slower than historical torpedo-only case.",
+    "adjudicated_forward_return": "1944-03-19 centered",
+    "state_20Mar": "FULL_FAST_CARRIER_SERVICE",
+    "reason": "Use mid-band repair completion plus Pacific transit/reintegration; no reason to hold to the late edge absent a new yard complication.",
+    "historical_sanity_anchor": "Historical Lexington repairs were completed 20 Feb and she was at Majuro by 8 Mar; Branch return is therefore intentionally later because Branch damage was heavier."
+  },
+  "Hornet_CV12": {
+    "adjudicated_forward_join": "1944-03-20",
+    "state_20Mar": "FULL_FAST_CARRIER_SERVICE",
+    "historical_anchor": "Historical Hornet joined the Fast Carrier Task Force at Majuro on 20 Mar 1944; no Branch event delays her construction/shakedown/transit."
+  },
+  "20Mar_immediate_fast_deck_pool": {
+    "CV": [
+      "Wasp CV-7",
+      "Essex CV-9",
+      "Yorktown CV-10",
+      "Intrepid CV-11",
+      "Bunker Hill CV-17",
+      "Lexington CV-16",
+      "Hornet CV-12"
+    ],
+    "CVL": [
+      "Princeton CVL-23",
+      "Belleau Wood CVL-24",
+      "Cowpens CVL-25",
+      "Monterey CVL-26",
+      "Langley CVL-27"
+    ],
+    "count": {
+      "CV": 7,
+      "CVL": 5,
+      "total": 12
+    },
+    "working_total_ready_aircraft_band": [
+      680,
+      770
+    ]
+  },
+  "still_out_or_not_yet_forward": {
+    "Cabot_CVL28": "campaign-out until late Apr-May band",
+    "Independence_CVL22": "long repair; no spring credit",
+    "Bataan_CVL29": "Pacific transit/qualification; no 20-Mar combat credit",
+    "CV18_equivalent": "Pacific transfer/training; no 20-Mar combat credit",
+    "San_Jacinto_CVL30": "training/transit; no 20-Mar combat credit"
+  },
+  "strategic_effect": "The Japanese early-March temporary deck-count window is effectively closed by 20 Mar. US fast-battleship/radar/CIC advantages were never absent, so this is reinforcement of an already dangerous fleet system rather than recovery from collapse.",
+  "sources_external": [
+    "https://www.history.navy.mil/research/histories/ship-histories/danfs/l/lexington-cv-16-v.html",
+    "https://www.history.navy.mil/research/histories/ship-histories/danfs/h/hornet-viii.html"
+  ]
+}

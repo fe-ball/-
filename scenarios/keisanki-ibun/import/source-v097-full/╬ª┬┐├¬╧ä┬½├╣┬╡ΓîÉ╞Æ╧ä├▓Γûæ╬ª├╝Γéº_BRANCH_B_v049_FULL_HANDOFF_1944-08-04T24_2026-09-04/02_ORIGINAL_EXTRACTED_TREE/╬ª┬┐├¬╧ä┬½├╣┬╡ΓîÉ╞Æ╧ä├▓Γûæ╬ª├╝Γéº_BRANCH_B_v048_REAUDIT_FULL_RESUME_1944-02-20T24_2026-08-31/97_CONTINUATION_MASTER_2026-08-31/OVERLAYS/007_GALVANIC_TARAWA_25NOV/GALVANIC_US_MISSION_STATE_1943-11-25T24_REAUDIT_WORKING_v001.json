@@ -1,0 +1,21 @@
+{
+  "id": "GALVANIC_US_MISSION_STATE_1943-11-25T24_REAUDIT_WORKING_v001",
+  "status": "WORKING_CROSS_DOMAIN_DEPENDENCY_STATE",
+  "time": "1943-11-25T24 local",
+  "assault_air_wallet": {
+    "eight_CVE_pool": "still intact as a system; ~185-215 aircraft-class pre-event pool remains split between Tarawa/Makin CAP, CAS, ASW, spotting and recovery",
+    "Tarawa_effect": "stronger resistance forces an additional day of high-intensity CAS/spotting/ASW and makes CVE sortie flexibility lower than v004 at the start of 11/26",
+    "Makin": "kept on separate support wallet; no Tarawa-derived free transfer of all CVEs"
+  },
+  "surface_support": {
+    "destroyer_cruiser_fire": "higher ammunition expenditure and longer close station-keeping than v004; direct-fire spotting remains a priority",
+    "transports_landing_craft": "valuable hulls remain in the assault area longer because unloading and casualty evacuation continue under active fire",
+    "risk": "longer target dwell improves Japanese submarine/night-air/surface recontact opportunity even without any scripted hit"
+  },
+  "fast_carrier_state": {
+    "Independence": "campaign-out from 11/23 torpedo",
+    "remaining_fast_decks": "numerically strong, but 11/23-24 repeat Marshall suppression plus CAP/search/ASW reserve means mission state is not a clean historical reset",
+    "11_25_priority": "cover amphibious forces, search for Japanese fleet movement, maintain enough Marshall suppression to prevent land-air reconstitution; no unlimited offensive-sortie pool"
+  },
+  "Japan_information_effect": "Tarawa reports of a real first-night penetration followed by continued organized resistance encourage higher Japanese command to treat the battle area as still tactically alive, but reports do not prove the US beachhead is collapsing."
+}

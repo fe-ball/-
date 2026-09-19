@@ -1,0 +1,129 @@
+{
+  "revision": "v011",
+  "purpose": "Branch B year-end precedence with GALVANIC detailed re-audit closed and propagated; TECH/EW audit retained.",
+  "protocol": "00_CONFIG/rule_override_protocol_v002.json",
+  "inherits": "00_CONFIG/current_branch_overrides_v009.json",
+  "overrides": [
+    {
+      "override_id": "OVR-BRANCH-B-RESTART-1944-01-01-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "2026-08-28",
+      "impact_scope": "runtime_restart_selection",
+      "effective_rule": "Default restart is CHECKPOINT_1943-12-31T24_BRANCH_B_v003 at 1944-01-01T00:00. GALVANIC detailed re-audit is closed and propagated; v002 is superseded.",
+      "source": "05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v003.json"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-1943H2-REALIZED-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-08-01",
+      "impact_scope": "1943H2_realized_history",
+      "effective_rule": "Use BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v002 and its Bengal/GALVANIC-v002/Dodecanese companions as current realized 1943H2 history. Old v001 GALVANIC/central-Pacific outcomes are provenance only.",
+      "source": "06_RUNTIME/BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v002.md"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-RN-AUDIT-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1942-04-05",
+      "impact_scope": "Royal_Navy_1942_1944",
+      "effective_rule": "Apply ROYAL_NAVY_DIVERGENCE_AUDIT_1942-1943_v001 before using historical RN carrier, escort, Mediterranean or Eastern Fleet availability.",
+      "source": "06_RUNTIME/ROYAL_NAVY_DIVERGENCE_AUDIT_1942-1943_v001.md"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-1944-YEAREND-GUARD-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1944-01-01",
+      "impact_scope": "all_1944_downstream_adjudication",
+      "effective_rule": "Load BRANCH_B_YEAR_END_GUARD_1944-01-01_v002 and do not inherit retained 1944 outcomes or superseded GALVANIC v001 facts as realized.",
+      "source": "06_RUNTIME/BRANCH_B_YEAR_END_GUARD_1944-01-01_v002.json"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-JAPAN-NAVAL-WALLET-FIRST-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1944-01-01",
+      "impact_scope": "Indian_Ocean_and_Central_Pacific_naval_allocation",
+      "effective_rule": "Before 1944 Eastern Fleet contact or Japanese reinforcement, rebuild actual movable Japanese destroyer/submarine/cruiser wallet and transfer times.",
+      "source": "06_RUNTIME/JAPAN_NAVAL_FORCE_REOPEN_GATE_1944_v002.md"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-I30-SURVIVAL-TECH-CHAIN-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1942-10-13",
+      "impact_scope": "I30_hull_history_and_Axis_tech_exchange",
+      "effective_rule": "Historical I-30 Singapore mine loss is not current centered outcome. I-30 returns to Japan in late Oct 1942 with German cargo. Subsequent 1943 hull fate is not auto-survival and must be traced; technology effects follow AXIS_SUBMARINE_TECH_TRANSFER_REAUDIT_1942-1944_v001.",
+      "source": "06_RUNTIME/AXIS_SUBMARINE_TECH_TRANSFER_REAUDIT_1942-1944_v001.md"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-EW-1943-STAGED-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-01-01",
+      "impact_scope": "radar_ESM_RCM_base_defense_surface_night_ASW",
+      "effective_rule": "Use TECH_INDEX_v009 and ELECTRONIC_WARFARE_OPERATIONAL_DERIVATIVES. Separate EM warning, battle preparation, contact, track and weapon-quality solution. Do not use a generic radar range multiplier or assume unchanged organization after tool fielding.",
+      "source": "02_TECH/TECH_INDEX_v009.json"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-CARRIER-ALL-CLASSES-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-11-23",
+      "impact_scope": "carrier_operations_and_force_wallets",
+      "effective_rule": "Carrier audits must explicitly trace secondary/light/slow carriers, not only first-line fleet carriers. For GALVANIC at minimum trace Junyo/Hiyo/Ryujo/Zuiho and analogous US CV/CVL readiness/location/air groups before resolving sortie strength.",
+      "source": "06_RUNTIME/GALVANIC_BRANCH_B_1943-11_SETTLEMENT_v002.md"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-GERMAN-FUTURE-TECH-GATES-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1944-01-01",
+      "impact_scope": "I34_I29_RO501_I52_and_future_German_technology",
+      "effective_rule": "Do not pre-resolve I-34 return, I-29 Singapore-to-Japan hardware survival, RO-501 arrival or I-52. Open each only at its dated route/war-state gate; no future German jet/submarine/centimetric-ESM hardware may back-port into earlier combat.",
+      "source": "06_RUNTIME/AXIS_SUBMARINE_TECH_TRANSFER_REAUDIT_1942-1944_v001.md"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-MASTER-AUDIT-DELTA-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "2026-08-28",
+      "impact_scope": "1943H2_reaudit_and_1944_foundational_adjudication",
+      "effective_rule": "Apply SESSION_2026-08-28_MASTER_AUDIT_DELTA_v001 before reusing historical aircraft-production, materials, shipping, damage-control, atoll-defense or Feb-1944 working assumptions. These are causal guards, not flat Japan buffs.",
+      "source": "06_RUNTIME/SESSION_2026-08-28_MASTER_AUDIT_DELTA_v001.md"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-GALVANIC-FINAL-CLOSEOUT-002",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "2026-08-29",
+      "impact_scope": "GALVANIC_1943_11_and_downstream_Central_Pacific",
+      "effective_rule": "Close the v028 GALVANIC dependency. GALVANIC_BRANCH_B_1943-11_SETTLEMENT_v002 and its final outcome/repair/aircraft-lesson ledgers are current realized history. GALVANIC v001 and the re-audit gate/frontier are provenance only; no GALVANIC dependency remains open at the 1944-01-01 restart.",
+      "supersedes_override_ids": [
+        "OVR-BRANCH-B-GALVANIC-REAUDIT-001"
+      ],
+      "source": "06_RUNTIME/GALVANIC_BRANCH_B_1943-11_SETTLEMENT_v002.md"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-KINSEI-ZERO-DATE-GATE-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-10-01",
+      "impact_scope": "Japanese_carrier_fighter_fielding",
+      "effective_rule": "1943-10-01 has no assumed frontline Kinsei Zero unit, but Sep-1943 pilot production is real. Post-cutoff events must use dated production/acceptance/carrier-trial/unit-conversion/allocation gates. GALVANIC 11/26 uses 18-22 carrier-ready Kinsei Zero, center 20; do not freeze the type at zero and do not inject raw production totals directly.",
+      "source": "06_RUNTIME/GALVANIC_KINSEI_ZERO_FIELDING_GATE_1943-11_v001.json"
+    },
+    {
+      "override_id": "OVR-BRANCH-B-GALVANIC-OLD-RESULTS-BLOCK-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-11-23",
+      "impact_scope": "retained_descendant_imports",
+      "effective_rule": "Block downstream restoration of old GALVANIC facts: Liscome Bay sunk, Cowpens campaign-out, Lexington light-only damage, Soryu undamaged, no US counterstrike, old early-Dec oiler hit, and historical mass 12/4 Kwajalein/Roi raid.",
+      "source": "06_RUNTIME/GALVANIC_FINAL_OUTCOME_LEDGER_1943-11_12_v001.json"
+    }
+  ],
+  "supersession_note": "v011 closes the GALVANIC dependency reopened by v010. v010 remains provenance; where inherited v010 rules conflict with v011 closeout overrides, the v011 replacement wins."
+}

@@ -1,0 +1,2829 @@
+{
+  "revision": "v001",
+  "id": "COMBAT_CAPABILITY_FACTOR_INDEX_v001",
+  "purpose": "Mandatory combat-capability adjudication index to reduce omission of non-platform variables. It links each factor to checkpoint paths, TECH domains, event-runtime keys, and current-source candidates.",
+  "resolution_values": [
+    "CHECKPOINT_EVIDENCE",
+    "TECH_EVIDENCE",
+    "MIXED_EVIDENCE",
+    "RUNTIME_INPUT",
+    "RUNTIME_AND_ARCHIVE_EVIDENCE",
+    "RUNTIME_INPUT_REQUIRED",
+    "UNKNOWN",
+    "NOT_APPLICABLE"
+  ],
+  "principles": [
+    "Existence is not availability/readiness/effectiveness.",
+    "Every mandatory factor must receive a resolution; omission is not neutral.",
+    "Checkpoint-local state and mature TECH are archival evidence, not substitutes for event-local weather, contact age, fatigue, geometry or actual committed strength.",
+    "NOT_APPLICABLE requires a reason.",
+    "UNKNOWN is carried explicitly and may block final combat adjudication according to profile matrix."
+  ],
+  "factors": [
+    {
+      "id": "CCF-01",
+      "label": "Force availability and committed strength",
+      "group": "FORCE",
+      "assessment": "MIXED",
+      "question": "What force is actually present, serviceable, allocated, and committed to this event rather than merely existing on paper?",
+      "checkpoint_paths": [
+        "japan_naval_posture",
+        "weapons",
+        "carrier_state",
+        "carrier_ledger",
+        "japanese_operational_state",
+        "eastern_front",
+        "burma",
+        "pacific_us"
+      ],
+      "tech_domains": [
+        "AIR_PLATFORM",
+        "CARRIER",
+        "SURFACE_PLATFORM",
+        "SUBMARINE",
+        "AMPHIBIOUS"
+      ],
+      "runtime_keys": [
+        "participants",
+        "committed_strength",
+        "ready_strength",
+        "reserve_or_detached"
+      ],
+      "keywords": [
+        "ready",
+        "combat-usable",
+        "frontline",
+        "strength",
+        "force",
+        "available",
+        "allocated",
+        "機",
+        "隻",
+        "兵力",
+        "戦力",
+        "即応",
+        "配備",
+        "定数"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 310,
+          "matched_terms": [
+            "機",
+            "available",
+            "force",
+            "戦力",
+            "ready",
+            "strength",
+            "frontline",
+            "配備"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 217,
+          "matched_terms": [
+            "機",
+            "戦力",
+            "配備"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 65,
+          "matched_terms": [
+            "機",
+            "戦力",
+            "available",
+            "force",
+            "frontline"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 18,
+          "matched_terms": [
+            "機",
+            "force",
+            "available",
+            "frontline",
+            "ready",
+            "strength"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+          "hit_count": 17,
+          "matched_terms": [
+            "機",
+            "即応",
+            "ready",
+            "隻"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/WEAPONS_AUDIT_1944-04-30_v001.md",
+          "hit_count": 17,
+          "matched_terms": [
+            "即応",
+            "機",
+            "戦力",
+            "隻",
+            "ready"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 14,
+          "matched_terms": [
+            "機"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 10,
+          "matched_terms": [
+            "機",
+            "隻"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 9,
+          "matched_terms": [
+            "ready",
+            "frontline",
+            "combat-usable",
+            "force"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 8,
+          "matched_terms": [
+            "機",
+            "隻",
+            "ready"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/MATERIALS_NICKEL_TURBO_JET_1944SPRING_v001.md",
+          "hit_count": 5,
+          "matched_terms": [
+            "機"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EUROPE_ITALY_OVERLORD_ANVIL_REAUDIT_1943_1944Q1_v001.md",
+          "hit_count": 4,
+          "matched_terms": [
+            "機"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-02",
+      "label": "Training, experience, crew/pilot quality",
+      "group": "PERSONNEL",
+      "assessment": "MIXED",
+      "question": "What is the median training/experience of the participating crews and units, including recent replacement dilution or specialist scarcity?",
+      "checkpoint_paths": [
+        "maturation_deltas",
+        "eastern_front",
+        "japan_naval_posture",
+        "burma",
+        "weapons"
+      ],
+      "tech_domains": [
+        "PERSONNEL_AND_SOFT",
+        "AIR_COMBAT",
+        "CROSS_DOMAIN"
+      ],
+      "runtime_keys": [
+        "training_level",
+        "combat_experience",
+        "crew_quality",
+        "replacement_dilution"
+      ],
+      "keywords": [
+        "training",
+        "experience",
+        "crew",
+        "pilot",
+        "aircrew",
+        "veteran",
+        "quality",
+        "訓練",
+        "練度",
+        "熟練",
+        "搭乗員",
+        "乗員",
+        "補充"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 60,
+          "matched_terms": [
+            "quality",
+            "crew",
+            "aircrew",
+            "training"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 5,
+          "matched_terms": [
+            "training",
+            "veteran"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 5,
+          "matched_terms": [
+            "crew",
+            "experience",
+            "veteran"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 4,
+          "matched_terms": [
+            "crew",
+            "pilot",
+            "training"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 4,
+          "matched_terms": [
+            "乗員",
+            "搭乗員"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 4,
+          "matched_terms": [
+            "訓練",
+            "乗員",
+            "搭乗員"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "crew",
+            "補充",
+            "訓練"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EASTERN_FRONT_1941_1944Q1_DIFFERENTIAL_LEDGER_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "補充",
+            "訓練"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "quality",
+            "training"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EUROPE_ITALY_OVERLORD_ANVIL_REAUDIT_1943_1944Q1_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "補充",
+            "訓練"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "training"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/1943_1944Q1_STRATEGIC_SETTLEMENT_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "訓練"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-03",
+      "label": "Fatigue, morale, cohesion and recent tempo",
+      "group": "PERSONNEL",
+      "assessment": "EVENT_DYNAMIC",
+      "question": "How tired, disrupted, cohesive, and psychologically effective are the actual participants at the event start?",
+      "checkpoint_paths": [
+        "eastern_front",
+        "burma",
+        "japan_naval_posture",
+        "maturation_deltas"
+      ],
+      "tech_domains": [
+        "PERSONNEL_AND_SOFT",
+        "CROSS_DOMAIN"
+      ],
+      "runtime_keys": [
+        "fatigue",
+        "sleep_or_rest",
+        "morale",
+        "cohesion",
+        "recent_sortie_or_march_tempo"
+      ],
+      "keywords": [
+        "fatigue",
+        "morale",
+        "cohesion",
+        "exhaust",
+        "rest",
+        "疲労",
+        "士気",
+        "結束",
+        "休養",
+        "連戦"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 4,
+          "matched_terms": [
+            "rest",
+            "exhaust",
+            "fatigue"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 4,
+          "matched_terms": [
+            "exhaust",
+            "rest"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "exhaust"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "rest"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 1,
+          "matched_terms": [
+            "fatigue"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-04",
+      "label": "Replacement, rotation and regeneration quality",
+      "group": "PERSONNEL",
+      "assessment": "MIXED",
+      "question": "Can losses be replaced with comparable people/equipment, and at what quality/time cost?",
+      "checkpoint_paths": [
+        "eastern_front",
+        "maturation_deltas",
+        "pacific_us",
+        "japan_naval_posture"
+      ],
+      "tech_domains": [
+        "PERSONNEL_AND_SOFT",
+        "LOGISTICS",
+        "CROSS_DOMAIN"
+      ],
+      "runtime_keys": [
+        "replacement_flow",
+        "rotation_state",
+        "regeneration_time"
+      ],
+      "keywords": [
+        "replacement",
+        "rotation",
+        "reconstitution",
+        "regeneration",
+        "reserve",
+        "補充",
+        "交代",
+        "再建",
+        "予備",
+        "再生"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 115,
+          "matched_terms": [
+            "再生",
+            "reserve",
+            "replacement"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 96,
+          "matched_terms": [
+            "再生",
+            "reserve"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 35,
+          "matched_terms": [
+            "再生"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 13,
+          "matched_terms": [
+            "reserve"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 12,
+          "matched_terms": [
+            "再生",
+            "replacement",
+            "reserve"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EASTERN_FRONT_1941_1944Q1_DIFFERENTIAL_LEDGER_v001.md",
+          "hit_count": 12,
+          "matched_terms": [
+            "予備",
+            "再建",
+            "再生",
+            "補充",
+            "regeneration",
+            "reserve"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 8,
+          "matched_terms": [
+            "reserve",
+            "reconstitution",
+            "regeneration",
+            "replacement"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+          "hit_count": 7,
+          "matched_terms": [
+            "reserve",
+            "replacement",
+            "予備",
+            "再建",
+            "補充"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EUROPE_ITALY_OVERLORD_ANVIL_REAUDIT_1943_1944Q1_v001.md",
+          "hit_count": 6,
+          "matched_terms": [
+            "予備",
+            "再建",
+            "補充"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "regeneration",
+            "reserve"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "再生"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/1943_1944Q1_STRATEGIC_SETTLEMENT_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "reserve",
+            "再建"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-05",
+      "label": "Platform performance in the actual mission",
+      "group": "PLATFORM_WEAPON",
+      "assessment": "MIXED",
+      "question": "What performance can the participating platforms deliver in this mission/configuration, not brochure or prototype performance?",
+      "checkpoint_paths": [
+        "weapons",
+        "japan_naval_posture",
+        "maturation_deltas"
+      ],
+      "tech_domains": [
+        "AIR_PLATFORM",
+        "SURFACE_PLATFORM",
+        "SUBMARINE",
+        "CARRIER",
+        "SUBMARINE_AVIATION",
+        "MATERIALS_PROPULSION"
+      ],
+      "runtime_keys": [
+        "platform_types",
+        "configuration",
+        "loadout",
+        "actual_performance_limits"
+      ],
+      "keywords": [
+        "performance",
+        "speed",
+        "range",
+        "climb",
+        "armor",
+        "engine",
+        "platform",
+        "航続",
+        "速度",
+        "上昇",
+        "装甲",
+        "機体",
+        "艦",
+        "性能"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 267,
+          "matched_terms": [
+            "range",
+            "艦",
+            "speed",
+            "platform",
+            "performance",
+            "engine",
+            "armor",
+            "climb"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 112,
+          "matched_terms": [
+            "艦",
+            "engine",
+            "range",
+            "speed"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 18,
+          "matched_terms": [
+            "艦",
+            "range",
+            "speed",
+            "performance"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 12,
+          "matched_terms": [
+            "艦"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 11,
+          "matched_terms": [
+            "速度",
+            "上昇",
+            "航続",
+            "性能",
+            "機体",
+            "艦"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+          "hit_count": 9,
+          "matched_terms": [
+            "艦",
+            "航続"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/WEAPONS_AUDIT_1944-04-30_v001.md",
+          "hit_count": 7,
+          "matched_terms": [
+            "艦"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 4,
+          "matched_terms": [
+            "艦",
+            "性能"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 4,
+          "matched_terms": [
+            "platform",
+            "speed"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "range",
+            "speed"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/1943_1944Q1_STRATEGIC_SETTLEMENT_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "艦"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "上昇",
+            "速度"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-06",
+      "label": "Weapon suitability, ammunition and terminal effect",
+      "group": "PLATFORM_WEAPON",
+      "assessment": "MIXED",
+      "question": "Are the available weapons/ammunition suitable for the target and geometry, and what is their real hit/damage/mission-kill effect?",
+      "checkpoint_paths": [
+        "weapons",
+        "maturation_deltas"
+      ],
+      "tech_domains": [
+        "AIR_WEAPONS",
+        "SURFACE_TORPEDO",
+        "SURFACE_GUNFIRE",
+        "ASW",
+        "AMPHIBIOUS",
+        "CROSS_DOMAIN"
+      ],
+      "runtime_keys": [
+        "weapons_loadout",
+        "ammunition_type",
+        "target_type",
+        "engagement_geometry"
+      ],
+      "keywords": [
+        "weapon",
+        "torpedo",
+        "gunfire",
+        "bomb",
+        "ammunition",
+        "damage",
+        "爆弾",
+        "魚雷",
+        "砲",
+        "弾薬",
+        "命中",
+        "損傷"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 104,
+          "matched_terms": [
+            "torpedo",
+            "weapon",
+            "bomb",
+            "damage",
+            "砲",
+            "gunfire",
+            "魚雷",
+            "ammunition"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 27,
+          "matched_terms": [
+            "砲",
+            "魚雷",
+            "torpedo",
+            "bomb",
+            "gunfire",
+            "damage"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 25,
+          "matched_terms": [
+            "torpedo",
+            "魚雷",
+            "砲",
+            "bomb",
+            "ammunition",
+            "weapon"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 11,
+          "matched_terms": [
+            "weapon",
+            "損傷",
+            "damage",
+            "爆弾",
+            "魚雷"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 8,
+          "matched_terms": [
+            "torpedo",
+            "bomb",
+            "weapon"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 5,
+          "matched_terms": [
+            "weapon",
+            "damage"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 4,
+          "matched_terms": [
+            "weapon",
+            "damage"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+          "hit_count": 4,
+          "matched_terms": [
+            "弾薬",
+            "爆弾"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 4,
+          "matched_terms": [
+            "損傷",
+            "命中",
+            "砲"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 4,
+          "matched_terms": [
+            "weapon",
+            "damage"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EASTERN_FRONT_1941_1944Q1_DIFFERENTIAL_LEDGER_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "砲"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/WEAPONS_AUDIT_1944-04-30_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "weapon"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-07",
+      "label": "Current damage state, repair and hidden degradation",
+      "group": "PLATFORM_WEAPON",
+      "assessment": "EVENT_DYNAMIC",
+      "question": "What prior damage, temporary repair, machinery/airframe degradation or combat-system loss is present before this event?",
+      "checkpoint_paths": [
+        "naval_losses_damage",
+        "carrier_state",
+        "carrier_ledger",
+        "weapons",
+        "japan_naval_posture"
+      ],
+      "tech_domains": [
+        "CROSS_DOMAIN",
+        "SURFACE_PLATFORM",
+        "CARRIER",
+        "AIR_PLATFORM"
+      ],
+      "runtime_keys": [
+        "current_damage",
+        "temporary_repairs",
+        "system_degradation"
+      ],
+      "keywords": [
+        "damage",
+        "repair",
+        "loss",
+        "degraded",
+        "mission kill",
+        "損傷",
+        "修理",
+        "被害",
+        "喪失",
+        "故障"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 27,
+          "matched_terms": [
+            "damage",
+            "repair",
+            "loss",
+            "mission kill",
+            "degraded"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 9,
+          "matched_terms": [
+            "loss",
+            "repair",
+            "damage",
+            "mission kill"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 6,
+          "matched_terms": [
+            "損傷",
+            "damage",
+            "mission kill"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 5,
+          "matched_terms": [
+            "loss",
+            "damage",
+            "mission kill",
+            "repair"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 5,
+          "matched_terms": [
+            "loss",
+            "喪失",
+            "修理"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/1943_1944Q1_STRATEGIC_SETTLEMENT_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "repair",
+            "修理",
+            "喪失"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "損傷",
+            "修理"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "damage",
+            "loss",
+            "repair"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EASTERN_FRONT_1941_1944Q1_DIFFERENTIAL_LEDGER_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "修理",
+            "喪失"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 1,
+          "matched_terms": [
+            "repair"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "mission kill"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 1,
+          "matched_terms": [
+            "damage"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-08",
+      "label": "Maintenance, reliability and serviceability",
+      "group": "SUSTAINMENT",
+      "assessment": "MIXED",
+      "question": "How many platforms can generate repeated missions after maintenance/reliability attrition, and what fails between nominal readiness and sustained use?",
+      "checkpoint_paths": [
+        "weapons",
+        "japan_naval_posture",
+        "pacific_us",
+        "maturation_deltas"
+      ],
+      "tech_domains": [
+        "AIR_PLATFORM",
+        "CARRIER",
+        "LOGISTICS",
+        "MATERIALS_PROPULSION",
+        "CROSS_DOMAIN"
+      ],
+      "runtime_keys": [
+        "serviceability",
+        "maintenance_backlog",
+        "reliability",
+        "turnaround_constraints"
+      ],
+      "keywords": [
+        "maintenance",
+        "serviceability",
+        "availability",
+        "uptime",
+        "reliability",
+        "整備",
+        "稼働",
+        "可動",
+        "信頼性",
+        "故障"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 42,
+          "matched_terms": [
+            "availability",
+            "reliability",
+            "maintenance",
+            "uptime"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 7,
+          "matched_terms": [
+            "availability",
+            "uptime",
+            "maintenance",
+            "reliability"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 5,
+          "matched_terms": [
+            "reliability",
+            "uptime"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 4,
+          "matched_terms": [
+            "maintenance",
+            "availability"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "availability",
+            "uptime"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "整備"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "整備"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "reliability"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "maintenance"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "整備"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 1,
+          "matched_terms": [
+            "serviceability"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-09",
+      "label": "Sensors, search, tracking and fire-control chain",
+      "group": "INFORMATION_C2",
+      "assessment": "MIXED",
+      "question": "Can the force detect, classify, maintain track, pass a usable datum and convert it into fire/strike control under current conditions?",
+      "checkpoint_paths": [
+        "US_information_state",
+        "japan_naval_posture",
+        "maturation_deltas",
+        "weapons"
+      ],
+      "tech_domains": [
+        "SENSOR_SEARCH",
+        "SENSOR_FIRECONTROL",
+        "ASW",
+        "AIR_COMBAT"
+      ],
+      "runtime_keys": [
+        "sensor_state",
+        "search_plan",
+        "track_quality",
+        "fire_control_quality"
+      ],
+      "keywords": [
+        "radar",
+        "search",
+        "detection",
+        "track",
+        "datum",
+        "fire control",
+        "索敵",
+        "探知",
+        "追尾",
+        "電探",
+        "レーダ",
+        "射撃管制"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 102,
+          "matched_terms": [
+            "search",
+            "radar",
+            "track",
+            "detection",
+            "datum",
+            "fire control"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 12,
+          "matched_terms": [
+            "radar",
+            "track",
+            "search"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 9,
+          "matched_terms": [
+            "radar",
+            "search",
+            "track"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 8,
+          "matched_terms": [
+            "radar",
+            "datum",
+            "detection",
+            "search",
+            "track"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 6,
+          "matched_terms": [
+            "datum",
+            "detection",
+            "radar",
+            "search",
+            "track"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 5,
+          "matched_terms": [
+            "datum",
+            "detection",
+            "レーダ"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 5,
+          "matched_terms": [
+            "radar",
+            "search"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "電探",
+            "索敵"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "radar",
+            "search",
+            "track"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "search",
+            "レーダ"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "datum",
+            "radar"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/WEAPONS_AUDIT_1944-04-30_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "datum",
+            "レーダ"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-10",
+      "label": "Intelligence, information age, surprise and deception",
+      "group": "INFORMATION_C2",
+      "assessment": "EVENT_DYNAMIC",
+      "question": "What does each side actually know, how old/confident is it, and who has initiative or deception advantage?",
+      "checkpoint_paths": [
+        "US_information_state",
+        "japan_naval_posture",
+        "dependency_notes",
+        "maturation_deltas"
+      ],
+      "tech_domains": [
+        "SIGINT_COMINT",
+        "SENSOR_SEARCH",
+        "CROSS_DOMAIN"
+      ],
+      "runtime_keys": [
+        "intelligence_state",
+        "contact_age",
+        "confidence",
+        "surprise",
+        "deception"
+      ],
+      "keywords": [
+        "intelligence",
+        "comint",
+        "sigint",
+        "warning",
+        "recon",
+        "surprise",
+        "deception",
+        "情報",
+        "通信解析",
+        "警戒",
+        "偵察",
+        "奇襲",
+        "欺瞞"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 51,
+          "matched_terms": [
+            "comint",
+            "recon",
+            "sigint",
+            "warning",
+            "情報",
+            "surprise"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 9,
+          "matched_terms": [
+            "comint",
+            "recon",
+            "intelligence",
+            "sigint"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 9,
+          "matched_terms": [
+            "情報",
+            "comint"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 7,
+          "matched_terms": [
+            "recon",
+            "comint",
+            "surprise",
+            "warning"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+          "hit_count": 6,
+          "matched_terms": [
+            "奇襲",
+            "情報",
+            "偵察",
+            "警戒"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 5,
+          "matched_terms": [
+            "偵察",
+            "奇襲",
+            "警戒"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 5,
+          "matched_terms": [
+            "comint",
+            "intelligence",
+            "recon"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 4,
+          "matched_terms": [
+            "comint",
+            "recon",
+            "情報"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "情報",
+            "偵察"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/WEAPONS_AUDIT_1944-04-30_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "偵察",
+            "奇襲"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "偵察",
+            "警戒"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "情報",
+            "警戒"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-11",
+      "label": "Command, control, communications and coordination",
+      "group": "INFORMATION_C2",
+      "assessment": "MIXED",
+      "question": "Can decisions, orders and target information move through the formation quickly enough, and can multiple arms/units coordinate?",
+      "checkpoint_paths": [
+        "japan_naval_posture",
+        "dependency_notes",
+        "maturation_deltas"
+      ],
+      "tech_domains": [
+        "SIGINT_COMINT",
+        "SENSOR_FIRECONTROL",
+        "CROSS_DOMAIN",
+        "AIR_COMBAT"
+      ],
+      "runtime_keys": [
+        "command_structure",
+        "communications",
+        "coordination",
+        "decision_latency"
+      ],
+      "keywords": [
+        "command",
+        "control",
+        "communication",
+        "coordination",
+        "cic",
+        "指揮",
+        "統制",
+        "通信",
+        "連携",
+        "管制"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 61,
+          "matched_terms": [
+            "control",
+            "command",
+            "指揮",
+            "coordination",
+            "通信",
+            "communication",
+            "cic"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 18,
+          "matched_terms": [
+            "指揮",
+            "通信",
+            "command"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 6,
+          "matched_terms": [
+            "指揮",
+            "control",
+            "通信"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 5,
+          "matched_terms": [
+            "管制",
+            "cic"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 4,
+          "matched_terms": [
+            "通信",
+            "管制"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "cic",
+            "command",
+            "control"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/WEAPONS_AUDIT_1944-04-30_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "cic",
+            "通信"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 1,
+          "matched_terms": [
+            "通信"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 1,
+          "matched_terms": [
+            "command"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "通信"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "通信"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "通信"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-12",
+      "label": "Doctrine, tactics, ROE and mission discipline",
+      "group": "INFORMATION_C2",
+      "assessment": "MIXED",
+      "question": "What tactics/ROE are actually used, including mission constraints, disengagement doctrine and inappropriate doctrinal carryover?",
+      "checkpoint_paths": [
+        "japan_naval_posture.doctrine",
+        "japan_naval_posture",
+        "maturation_deltas",
+        "next_actions"
+      ],
+      "tech_domains": [
+        "AIR_COMBAT",
+        "CROSS_DOMAIN",
+        "CARRIER",
+        "ASW"
+      ],
+      "runtime_keys": [
+        "doctrine",
+        "tactics",
+        "roe",
+        "mission_constraints"
+      ],
+      "keywords": [
+        "doctrine",
+        "tactic",
+        "mission",
+        "roe",
+        "intercept",
+        "escort",
+        "教義",
+        "ドクトリン",
+        "戦術",
+        "任務",
+        "邀撃",
+        "護衛"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 133,
+          "matched_terms": [
+            "mission",
+            "任務",
+            "戦術",
+            "intercept",
+            "escort",
+            "護衛",
+            "doctrine",
+            "tactic"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 56,
+          "matched_terms": [
+            "任務",
+            "戦術",
+            "護衛",
+            "mission",
+            "doctrine"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 14,
+          "matched_terms": [
+            "doctrine",
+            "mission",
+            "護衛",
+            "tactic"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 13,
+          "matched_terms": [
+            "mission",
+            "doctrine",
+            "tactic"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 10,
+          "matched_terms": [
+            "任務",
+            "邀撃",
+            "護衛"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 6,
+          "matched_terms": [
+            "mission",
+            "doctrine"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 6,
+          "matched_terms": [
+            "mission",
+            "任務",
+            "doctrine"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 5,
+          "matched_terms": [
+            "mission",
+            "doctrine"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/WEAPONS_AUDIT_1944-04-30_v001.md",
+          "hit_count": 5,
+          "matched_terms": [
+            "任務",
+            "邀撃"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "任務",
+            "mission"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "邀撃",
+            "護衛"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "mission",
+            "escort"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-13",
+      "label": "Fuel, ammunition, stores and logistics throughput",
+      "group": "SUSTAINMENT",
+      "assessment": "MIXED",
+      "question": "Are fuel, ammunition, spares and delivered tonnage sufficient at the correct place/time, including route losses and handling limits?",
+      "checkpoint_paths": [
+        "china",
+        "burma",
+        "pacific_us",
+        "shipping_scope_caveat",
+        "base_sustainment",
+        "allied_state",
+        "shipping_release"
+      ],
+      "tech_domains": [
+        "LOGISTICS",
+        "MATERIALS_PROPULSION"
+      ],
+      "runtime_keys": [
+        "fuel_state",
+        "ammo_state",
+        "stores",
+        "supply_throughput",
+        "route_loss"
+      ],
+      "keywords": [
+        "fuel",
+        "ammunition",
+        "supply",
+        "logistics",
+        "cargo",
+        "shipping",
+        "燃料",
+        "弾薬",
+        "補給",
+        "輸送",
+        "船腹",
+        "物資"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 64,
+          "matched_terms": [
+            "logistics",
+            "shipping",
+            "輸送",
+            "cargo",
+            "fuel",
+            "ammunition",
+            "supply"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 17,
+          "matched_terms": [
+            "logistics",
+            "輸送",
+            "cargo",
+            "shipping",
+            "ammunition",
+            "fuel"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 9,
+          "matched_terms": [
+            "輸送",
+            "cargo"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 8,
+          "matched_terms": [
+            "logistics",
+            "cargo",
+            "shipping",
+            "fuel"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 8,
+          "matched_terms": [
+            "logistics",
+            "cargo",
+            "fuel",
+            "shipping",
+            "supply"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 7,
+          "matched_terms": [
+            "燃料",
+            "補給",
+            "物資"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+          "hit_count": 7,
+          "matched_terms": [
+            "弾薬",
+            "燃料",
+            "輸送"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/1943_1944Q1_STRATEGIC_SETTLEMENT_v001.md",
+          "hit_count": 5,
+          "matched_terms": [
+            "船腹",
+            "cargo",
+            "燃料"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "輸送",
+            "fuel"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "cargo",
+            "logistics"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "燃料",
+            "補給"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EUROPE_ITALY_OVERLORD_ANVIL_REAUDIT_1943_1944Q1_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "輸送"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-14",
+      "label": "Sortie/attack cycle, turnaround and sustained tempo",
+      "group": "SUSTAINMENT",
+      "assessment": "EVENT_DYNAMIC",
+      "question": "How quickly can the force launch, recover/rearm/refuel, reform and repeat effective attacks after the first cycle?",
+      "checkpoint_paths": [
+        "japan_naval_posture",
+        "weapons",
+        "pacific_us",
+        "maturation_deltas"
+      ],
+      "tech_domains": [
+        "CARRIER",
+        "AIR_PLATFORM",
+        "LOGISTICS",
+        "AIR_COMBAT"
+      ],
+      "runtime_keys": [
+        "sortie_cycle",
+        "turnaround_time",
+        "deck_or_base_cycle",
+        "sustained_tempo"
+      ],
+      "keywords": [
+        "sortie",
+        "turnaround",
+        "cycle",
+        "launch",
+        "recover",
+        "rearm",
+        "出撃",
+        "再出撃",
+        "発艦",
+        "着艦",
+        "再武装",
+        "回転"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 56,
+          "matched_terms": [
+            "cycle",
+            "turnaround",
+            "recover",
+            "sortie",
+            "launch"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 7,
+          "matched_terms": [
+            "turnaround",
+            "cycle"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "cycle",
+            "sortie",
+            "turnaround"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "recover",
+            "sortie"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "recover",
+            "出撃"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "cycle",
+            "turnaround"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "recover"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/MATERIALS_NICKEL_TURBO_JET_1944SPRING_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "回転"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 1,
+          "matched_terms": [
+            "cycle"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-15",
+      "label": "Range, payload, endurance and mission geometry",
+      "group": "ENVIRONMENT_GEOMETRY",
+      "assessment": "EVENT_DYNAMIC",
+      "question": "Do distance, altitude, route, payload, loiter/endurance and recovery requirements change combat effectiveness or available tactics?",
+      "checkpoint_paths": [
+        "japan_naval_posture",
+        "weapons",
+        "territory"
+      ],
+      "tech_domains": [
+        "AIR_PLATFORM",
+        "AIR_WEAPONS",
+        "SUBMARINE_AVIATION",
+        "CARRIER"
+      ],
+      "runtime_keys": [
+        "distance",
+        "altitude",
+        "route",
+        "payload",
+        "loiter",
+        "endurance",
+        "recovery_base"
+      ],
+      "keywords": [
+        "range",
+        "radius",
+        "payload",
+        "altitude",
+        "endurance",
+        "distance",
+        "航続",
+        "半径",
+        "搭載",
+        "高度",
+        "距離",
+        "滞空"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 115,
+          "matched_terms": [
+            "range",
+            "radius",
+            "altitude",
+            "distance",
+            "endurance"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 9,
+          "matched_terms": [
+            "高度",
+            "航続"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 5,
+          "matched_terms": [
+            "range"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/MATERIALS_NICKEL_TURBO_JET_1944SPRING_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "搭載",
+            "高度"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "range"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 1,
+          "matched_terms": [
+            "range"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "距離"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "距離"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "distance"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EUROPE_ITALY_OVERLORD_ANVIL_REAUDIT_1943_1944Q1_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "range"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "航続"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-16",
+      "label": "Weather, visibility, sea state and illumination",
+      "group": "ENVIRONMENT_GEOMETRY",
+      "assessment": "EVENT_DYNAMIC",
+      "question": "What weather, visibility, cloud, wind, sea state and light conditions affect detection, launch/recovery, movement and weapon employment?",
+      "checkpoint_paths": [
+        "burma",
+        "eastern_front",
+        "pacific_us"
+      ],
+      "tech_domains": [
+        "SENSOR_SEARCH",
+        "AIR_COMBAT",
+        "ASW"
+      ],
+      "runtime_keys": [
+        "weather",
+        "visibility",
+        "cloud",
+        "wind",
+        "sea_state",
+        "illumination"
+      ],
+      "keywords": [
+        "weather",
+        "visibility",
+        "cloud",
+        "rain",
+        "monsoon",
+        "sea state",
+        "wind",
+        "天候",
+        "視界",
+        "雲",
+        "雨",
+        "季節風",
+        "海象",
+        "風"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 38,
+          "matched_terms": [
+            "rain",
+            "visibility",
+            "weather",
+            "wind"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 11,
+          "matched_terms": [
+            "rain",
+            "weather",
+            "wind"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/WEAPONS_AUDIT_1944-04-30_v001.md",
+          "hit_count": 5,
+          "matched_terms": [
+            "風",
+            "雲"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 4,
+          "matched_terms": [
+            "rain",
+            "monsoon"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+          "hit_count": 4,
+          "matched_terms": [
+            "monsoon",
+            "rain",
+            "weather",
+            "天候"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EASTERN_FRONT_1941_1944Q1_DIFFERENTIAL_LEDGER_v001.md",
+          "hit_count": 4,
+          "matched_terms": [
+            "rain"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "rain",
+            "weather"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "rain"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EUROPE_ITALY_OVERLORD_ANVIL_REAUDIT_1943_1944Q1_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "rain",
+            "天候"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 1,
+          "matched_terms": [
+            "rain"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "風"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "天候"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-17",
+      "label": "Terrain, fortification and base/field condition",
+      "group": "ENVIRONMENT_GEOMETRY",
+      "assessment": "EVENT_DYNAMIC",
+      "question": "How do terrain, fortification, runway/port condition, dispersal, cover and local infrastructure alter attack/defense?",
+      "checkpoint_paths": [
+        "territory",
+        "burma",
+        "china",
+        "pacific_us",
+        "europe"
+      ],
+      "tech_domains": [
+        "AMPHIBIOUS",
+        "LOGISTICS",
+        "AIR_COMBAT"
+      ],
+      "runtime_keys": [
+        "terrain",
+        "fortification",
+        "base_condition",
+        "runway_or_port_state",
+        "dispersal_cover"
+      ],
+      "keywords": [
+        "terrain",
+        "fortification",
+        "airfield",
+        "runway",
+        "port",
+        "base",
+        "地形",
+        "要塞",
+        "飛行場",
+        "滑走路",
+        "港",
+        "基地"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 58,
+          "matched_terms": [
+            "port",
+            "base",
+            "airfield"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 13,
+          "matched_terms": [
+            "base",
+            "port",
+            "runway"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 8,
+          "matched_terms": [
+            "base",
+            "port"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 8,
+          "matched_terms": [
+            "基地",
+            "port",
+            "滑走路",
+            "要塞"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 7,
+          "matched_terms": [
+            "base",
+            "port"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+          "hit_count": 6,
+          "matched_terms": [
+            "port",
+            "基地",
+            "airfield"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/1943_1944Q1_STRATEGIC_SETTLEMENT_v001.md",
+          "hit_count": 4,
+          "matched_terms": [
+            "基地"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 4,
+          "matched_terms": [
+            "基地",
+            "飛行場"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "base",
+            "port"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "基地",
+            "滑走路"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "基地"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EUROPE_ITALY_OVERLORD_ANVIL_REAUDIT_1943_1944Q1_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "港"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-18",
+      "label": "Concentration, dispersion, formation and mutual support",
+      "group": "INTERACTION",
+      "assessment": "EVENT_DYNAMIC",
+      "question": "Are forces concentrated enough for mutual support without creating congestion/vulnerability, and what is actually in formation at contact?",
+      "checkpoint_paths": [
+        "japan_naval_posture",
+        "carrier_state",
+        "carrier_ledger",
+        "pacific_us"
+      ],
+      "tech_domains": [
+        "CARRIER",
+        "AIR_COMBAT",
+        "SURFACE_PLATFORM",
+        "CROSS_DOMAIN"
+      ],
+      "runtime_keys": [
+        "formation",
+        "concentration",
+        "dispersion",
+        "mutual_support",
+        "separation"
+      ],
+      "keywords": [
+        "formation",
+        "concentration",
+        "dispersion",
+        "coordination",
+        "separation",
+        "編隊",
+        "集中",
+        "分散",
+        "隊形",
+        "間隔",
+        "支援"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 52,
+          "matched_terms": [
+            "formation",
+            "dispersion",
+            "coordination",
+            "separation"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 6,
+          "matched_terms": [
+            "separation",
+            "dispersion",
+            "formation"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 5,
+          "matched_terms": [
+            "formation",
+            "separation",
+            "dispersion"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 4,
+          "matched_terms": [
+            "separation",
+            "concentration",
+            "formation"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "formation",
+            "separation"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "編隊"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "集中"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "dispersion",
+            "separation"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "集中"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "分散"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "formation"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/MATERIALS_NICKEL_TURBO_JET_1944SPRING_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "集中"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-19",
+      "label": "Enemy countermeasures, adaptation and interaction effects",
+      "group": "INTERACTION",
+      "assessment": "MIXED",
+      "question": "What enemy systems/tactics specifically counter this force, and has either side adapted since the last comparable engagement?",
+      "checkpoint_paths": [
+        "maturation_deltas",
+        "dependency_notes",
+        "japan_naval_posture"
+      ],
+      "tech_domains": [
+        "AIR_COMBAT",
+        "ASW",
+        "SENSOR_SEARCH",
+        "SENSOR_FIRECONTROL",
+        "CROSS_DOMAIN"
+      ],
+      "runtime_keys": [
+        "enemy_countermeasures",
+        "recent_adaptation",
+        "interaction_effects"
+      ],
+      "keywords": [
+        "countermeasure",
+        "adaptation",
+        "enemy",
+        "jam",
+        "intercept",
+        "対抗",
+        "適応",
+        "敵",
+        "妨害",
+        "邀撃"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 40,
+          "matched_terms": [
+            "enemy",
+            "intercept",
+            "adaptation"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 11,
+          "matched_terms": [
+            "敵",
+            "邀撃"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 5,
+          "matched_terms": [
+            "敵"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "adaptation",
+            "enemy"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/WEAPONS_AUDIT_1944-04-30_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "邀撃",
+            "敵"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "adaptation",
+            "enemy"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "敵",
+            "適応"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "邀撃"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "adaptation",
+            "enemy"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 1,
+          "matched_terms": [
+            "enemy"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "敵"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EUROPE_ITALY_OVERLORD_ANVIL_REAUDIT_1943_1944Q1_v001.md",
+          "hit_count": 1,
+          "matched_terms": [
+            "敵"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    },
+    {
+      "id": "CCF-20",
+      "label": "Objective, thresholds, withdrawal and post-contact regeneration",
+      "group": "INTERACTION",
+      "assessment": "EVENT_DYNAMIC",
+      "question": "What counts as success, when does either side abort/withdraw, and what damage or expenditure makes continued action irrational?",
+      "checkpoint_paths": [
+        "next_actions",
+        "japan_naval_posture.doctrine",
+        "dependency_notes"
+      ],
+      "tech_domains": [
+        "CROSS_DOMAIN",
+        "CARRIER",
+        "AMPHIBIOUS",
+        "LOGISTICS"
+      ],
+      "runtime_keys": [
+        "objective",
+        "success_threshold",
+        "abort_threshold",
+        "withdrawal_rule",
+        "post_contact_regeneration"
+      ],
+      "keywords": [
+        "threshold",
+        "withdraw",
+        "abort",
+        "objective",
+        "mission kill",
+        "regeneration",
+        "閾値",
+        "撤退",
+        "中止",
+        "目標",
+        "任務撃破",
+        "再生"
+      ],
+      "source_candidates": [
+        {
+          "path": "02_TECH/TECH_INDEX_v006.json",
+          "hit_count": 150,
+          "matched_terms": [
+            "再生",
+            "threshold",
+            "withdraw",
+            "abort",
+            "mission kill"
+          ]
+        },
+        {
+          "path": "95_AUDIT/judgment_registry_v003.json",
+          "hit_count": 97,
+          "matched_terms": [
+            "再生",
+            "withdraw"
+          ]
+        },
+        {
+          "path": "03_PREWAR/PREWAR_INDEX_v004.json",
+          "hit_count": 35,
+          "matched_terms": [
+            "再生"
+          ]
+        },
+        {
+          "path": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+          "hit_count": 10,
+          "matched_terms": [
+            "再生"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/EASTERN_FRONT_1941_1944Q1_DIFFERENTIAL_LEDGER_v001.md",
+          "hit_count": 5,
+          "matched_terms": [
+            "再生",
+            "撤退",
+            "regeneration"
+          ]
+        },
+        {
+          "path": "00_CONFIG/current_branch_overrides_v003.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "regeneration",
+            "mission kill"
+          ]
+        },
+        {
+          "path": "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+          "hit_count": 3,
+          "matched_terms": [
+            "mission kill",
+            "regeneration",
+            "withdraw"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "再生"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+          "hit_count": 3,
+          "matched_terms": [
+            "mission kill",
+            "中止",
+            "目標"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "目標"
+          ]
+        },
+        {
+          "path": "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+          "hit_count": 2,
+          "matched_terms": [
+            "再生",
+            "目標"
+          ]
+        },
+        {
+          "path": "95_AUDIT/adjudication_cases_v002.json",
+          "hit_count": 2,
+          "matched_terms": [
+            "withdraw"
+          ]
+        }
+      ],
+      "unresolved_rule": "If evidence is absent or event-local values are unknown, record UNKNOWN or RUNTIME_INPUT_REQUIRED. Never silently substitute neutral/zero."
+    }
+  ],
+  "source_pool": [
+    "00_CONFIG/current_branch_overrides_v003.json",
+    "02_TECH/TECH_INDEX_v006.json",
+    "03_PREWAR/PREWAR_INDEX_v004.json",
+    "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+    "05_WARTIME/CHECKPOINT_1944-04-30T24_v002.json",
+    "06_RUNTIME/1943_1944Q1_STRATEGIC_SETTLEMENT_v001.md",
+    "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+    "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+    "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+    "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+    "06_RUNTIME/EASTERN_FRONT_1941_1944Q1_DIFFERENTIAL_LEDGER_v001.md",
+    "06_RUNTIME/EUROPE_ITALY_OVERLORD_ANVIL_REAUDIT_1943_1944Q1_v001.md",
+    "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+    "06_RUNTIME/MATERIALS_NICKEL_TURBO_JET_1944SPRING_v001.md",
+    "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+    "06_RUNTIME/WEAPONS_AUDIT_1944-04-30_v001.md",
+    "95_AUDIT/adjudication_cases_v002.json",
+    "95_AUDIT/judgment_registry_v003.json"
+  ]
+}

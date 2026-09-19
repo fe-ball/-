@@ -1,0 +1,12 @@
+{
+  "revision": "v003",
+  "json_files_checked": 73,
+  "json_parse_errors": [],
+  "legacy_file_count": 188,
+  "legacy_byte_identity_vs_v002": true,
+  "tech_entries": 62,
+  "prewar_entries": 25,
+  "notes": [
+    "crosslink validator separately returns zero errors/warnings"
+  ]
+}

@@ -1,0 +1,11 @@
+WORKING OVERLAY. NOT CANONICAL.
+Semantic base: v048 Branch B.
+Immediate source frontier: FLINTLOCK 1944-02-08T24 working checkpoint.
+Guards:
+- Do not restore historical or old-v003/v001 closeout dates by script.
+- Do not treat captured radar components as instant US omniscience about Japanese ESM/C2.
+- Keep emergency runway use separate from regular squadron throughput and mature base capacity.
+- Keep support-task release separate from physical ship availability after replenishment/transit.
+- Keep Japanese depth-defense doctrine propagation time- and terrain-limited; Eniwetok cannot receive Palau/Marianas maturity in days.
+- Do not invent a final submarine hit as compensation for earlier misses.
+- Recompute HAILSTONE/CATCHPOLE from this frontier.

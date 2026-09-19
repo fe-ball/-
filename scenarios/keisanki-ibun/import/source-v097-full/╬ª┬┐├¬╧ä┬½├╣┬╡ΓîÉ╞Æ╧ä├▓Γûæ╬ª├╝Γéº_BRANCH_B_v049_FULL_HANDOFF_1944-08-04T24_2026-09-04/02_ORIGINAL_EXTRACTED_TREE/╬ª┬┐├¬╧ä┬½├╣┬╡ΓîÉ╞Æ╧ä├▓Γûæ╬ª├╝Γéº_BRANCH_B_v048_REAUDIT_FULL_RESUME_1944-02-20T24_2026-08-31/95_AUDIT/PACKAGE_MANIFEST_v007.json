@@ -1,0 +1,27 @@
+{
+  "revision": "v007",
+  "package_root": "計算機異聞_refactor_v007_2026-08-20",
+  "generated": "2026-08-20",
+  "purpose": "Advance v006 post-MI branch through 1942H2 limited FS and year-end Five-Go strategic settlement, with explicit change rationales and continuation restart.",
+  "current_restart": "CHECKPOINT_1942-12-31T24_v001",
+  "file_count": 321,
+  "new_revision_entrypoints": [
+    "00_README/README_refactor_v007.md",
+    "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v007.md",
+    "05_WARTIME/CHECKPOINT_INDEX_v006.json",
+    "05_WARTIME/CHECKPOINT_GRAPH_v005.json",
+    "05_WARTIME/CHECKPOINT_1942-09-02T24_v001.json",
+    "05_WARTIME/CHECKPOINT_1942-10-24T24_v001.json",
+    "05_WARTIME/CHECKPOINT_1942-11-19T24_v001.json",
+    "05_WARTIME/CHECKPOINT_1942-12-31T24_v001.json",
+    "06_RUNTIME/1942H2_STRATEGIC_SETTLEMENT_v001.md",
+    "06_RUNTIME/SANTO_1942-08_TECH_STACK_REAUDIT_v001.md",
+    "06_RUNTIME/NEW_CALEDONIA_1942-10_SETTLEMENT_v001.md",
+    "06_RUNTIME/ALLIED_LOGISTICS_FLEET_AXIS_EFFECTS_1942H2_v001.md",
+    "06_RUNTIME/CHINA_FIVEGO_POLITICAL_IMPLEMENTATION_1942Q4_v001.md",
+    "95_AUDIT/1942H2_ADVANCE_CLOSEOUT_v001.json"
+  ],
+  "validation": "95_AUDIT/VALIDATION_RESULT_v007.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v007.txt",
+  "legacy_path_encoding": "normalized to intended UTF-8 Japanese names; file bytes unchanged"
+}

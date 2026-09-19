@@ -1,0 +1,46 @@
+{
+  "id": "FLINTLOCK_ROI_NAMUR_DDAY_1944-02-06_v001",
+  "status": "WORKING_SECTOR_ADJUDICATION_NOT_CANONICAL",
+  "sector": "Roi-Namur",
+  "period": "1944-02-06 D-Day through T24",
+  "starting_conditions": {
+    "defense": "Warned, Tarawa-informed lagoon-side/local-sector defense with distributed ammunition, alternate command and surviving local mortar/direct-fire positions, but heavily suppressed and without meaningful depth.",
+    "armor": "Roi 0 traced Japanese combat tanks; Namur 0-1 contact-capable Type 94 tankette at dawn.",
+    "terrain": "Roi remains open/airfield-dominated; Namur remains more obstructed by vegetation, structures, debris and prepared strongpoints.",
+    "US": "4th Marine Division assault supported by LVT/LVT(A), close destroyer/fire-support craft, artillery from preliminary islets, CVE support and tank elements."
+  },
+  "landing_and_reduction": [
+    {
+      "window": "pre-H-hour through first-wave landing",
+      "Roi": "Repeated bombardment suppresses most exposed guns. A limited set of remanned weapons and mortars fires after lift, causing real LVT/infantry losses, but open terrain permits rapid spotting and direct suppression.",
+      "Namur": "More surviving protected positions reopen after the fire lifts. Lagoon-side fires and pre-registered mortar lanes produce greater friction than on Roi; LVT waves remain intact enough to establish a beachhead.",
+      "traffic": "Extra tractor/fire-support redundancy prevents a Tarawa-like failure, but lagoon/LST/LCI sequencing produces local 15-30 minute delays and wave intermixing rather than linear benefit from added craft."
+    },
+    {
+      "window": "midday to 18:00",
+      "Roi": "Tank/direct-fire/engineer reduction advances quickly across the exposed airfield. Organized resistance collapses late afternoon centered; isolated shelters continue firing intermittently.",
+      "Namur": "Advance is slower. Marine tanks, armored amtracs, engineers and direct gunfire reduce strongpoints sequentially; defenders use local sectors rather than a single mass counterattack.",
+      "Type94": "If the high case hull is operational, it functions briefly as a mobile/static machine-gun point and is destroyed/abandoned by early-to-mid afternoon centered. Contact-capable at T24 = 0."
+    },
+    {
+      "window": "18:00 to T24",
+      "Roi": "Mopping and isolation of small pockets.",
+      "Namur": "US line stabilizes before the remaining northern/eastern strongpoints. Small infiltration/local counterattack groups probe gaps; main 6/7-Feb night outcome remains open for next adjudication."
+    }
+  ],
+  "munition_secondary_explosion": {
+    "historical_event_not_inherited": true,
+    "branch_reason": "Distributed ammunition, smaller protected magazines and blast separation reduce the probability that one demolition charge reaches a single bulk torpedo-warhead/aviation-ordnance concentration.",
+    "centerline": "One or more local ammunition secondary explosions occur, but no island-shaking magazine catastrophe comparable to the historical 20 killed/100 wounded event is centered.",
+    "US_personnel_effect_center_band": [8, 25],
+    "delay": "Localized 15-35 minute disruption rather than a sector-wide long pause."
+  },
+  "US_Dday_KW_band": [290, 370],
+  "US_center": 330,
+  "Japan_T24": {
+    "Roi": "Organized resistance broken; roughly 80-160 isolated/local fighters remain in pockets at T24.",
+    "Namur_organized_local_fighters_band": [650, 900],
+    "Namur_scattered_support_band": [350, 500]
+  },
+  "assessment": "Branch defense is visibly harder on Namur, but Roi's openness and US firepower cap the gain. Ammunition-dispersion improvements also remove a major historical correlated-loss mechanism for the Marines, preventing a one-directional casualty multiplier."
+}

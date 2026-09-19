@@ -1,0 +1,52 @@
+{
+  "document": "BRANCH_B_JAPAN_POST_MI_FS_CONVERGENCE_CLOSE_1942-06-15_07-27_v001",
+  "status": "JAPAN_SIDE_CLOSED_ALLIED_MIRROR_OPEN",
+  "revision_date": "2026-09-07",
+  "start_checkpoint": "1942-06-15T24 post-MI current branch checkpoint",
+  "limited_FS_center": {
+    "sequence": [
+      "Santo",
+      "New Caledonia",
+      "stop/reassess"
+    ],
+    "Santo_D_day_center": "1942-07-27",
+    "execution_band": [
+      "1942-07-25",
+      "1942-07-29"
+    ],
+    "earliest_credible_noncenter": [
+      "1942-07-23",
+      "1942-07-24"
+    ],
+    "deliberate_late_rational": [
+      "1942-07-30",
+      "1942-08-02"
+    ]
+  },
+  "Operation_B_heavy_surface_raid": "CENTER_NOT_ACTIVATED",
+  "Madagascar_support": "FINITE_PARALLEL_PRESSURE_NOT_MAIN_EFFORT",
+  "Santo_planning_requirements": {
+    "campaign_ground_personnel_center": [
+      7000,
+      9000
+    ],
+    "unique_DD_center": [
+      18,
+      22
+    ],
+    "oiler_tanker_hull_equivalents_center": [
+      3,
+      4
+    ],
+    "submarine_effective_planning_minimum": [
+      5,
+      6
+    ],
+    "submarine_effective_desired": [
+      7,
+      8
+    ],
+    "submarine_count_authority": "REQUIREMENT_ONLY_PENDING_1942_07_20_NAMED_WALLET"
+  },
+  "next_audit_cut": "1942-07-20"
+}

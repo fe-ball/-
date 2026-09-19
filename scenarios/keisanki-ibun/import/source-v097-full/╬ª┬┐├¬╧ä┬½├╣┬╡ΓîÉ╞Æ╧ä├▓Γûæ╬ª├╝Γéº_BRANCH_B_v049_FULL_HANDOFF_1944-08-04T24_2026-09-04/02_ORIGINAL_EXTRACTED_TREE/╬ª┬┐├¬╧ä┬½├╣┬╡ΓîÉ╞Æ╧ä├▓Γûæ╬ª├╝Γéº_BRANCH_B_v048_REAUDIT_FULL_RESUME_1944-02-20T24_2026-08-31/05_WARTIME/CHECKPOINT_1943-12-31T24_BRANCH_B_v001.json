@@ -1,0 +1,93 @@
+{
+  "revision": "v001",
+  "id": "CHECKPOINT_1943-12-31T24_BRANCH_B_v001",
+  "checkpoint_id": "CHECKPOINT_1943-12-31T24_BRANCH_B_v001",
+  "as_of": "1944-01-01T00:00:00",
+  "status": "CURRENT_AUTHORITATIVE_BRANCH_B_RESTART",
+  "type": "YEAR_END_FRONTIER_CHECKPOINT",
+  "parent": "CHECKPOINT_1943-07-31T24_BRANCH_B_v001",
+  "technical_baseline": "TECH_INDEX_v008",
+  "current_branch_overrides": "00_CONFIG/current_branch_overrides_v009.json",
+  "rollback_guard": "06_RUNTIME/BRANCH_B_YEAR_END_GUARD_1944-01-01_v001.json",
+  "state_sources": [
+    "06_RUNTIME/BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v001.md",
+    "06_RUNTIME/BENGAL_ARAKAN_CHITTAGONG_1943-10_12_SETTLEMENT_v001.md",
+    "06_RUNTIME/GALVANIC_BRANCH_B_1943-11_SETTLEMENT_v001.md",
+    "06_RUNTIME/DODECANESE_WITHDRAWAL_BRANCH_B_1943-11_SETTLEMENT_v001.md",
+    "06_RUNTIME/ROYAL_NAVY_DIVERGENCE_AUDIT_1942-1943_v001.md"
+  ],
+  "territory": {
+    "Midway": "Japanese-held",
+    "Wake": "Japanese-held",
+    "Port_Moresby": "Japanese-held",
+    "Lunga_Tulagi": "Japanese-held",
+    "Espiritu_Santo": "Japanese-held",
+    "New_Caledonia": "Japanese military control under Vichy nominal sovereignty",
+    "Efate": "US-held",
+    "Tarawa": "US-held after Branch GALVANIC, 1943-11-28",
+    "Makin": "US-held after Branch GALVANIC, 1943-11-27",
+    "Marshalls": "Japanese-held; US next-operation planning open",
+    "Hanzhong": "Japanese-held; Sichuan Phase III HOLD",
+    "Kiska": "Japan evacuated late July; no Japanese garrison; Allied reoccupation thereafter",
+    "Chittagong": "Japanese-held since 1943-12-15; port/airfield/rail heavily damaged and under repair",
+    "Cox_Bazar": "Japanese-held",
+    "Feni_Comilla_Agartala": "British/Commonwealth defensive and air-support arc"
+  },
+  "carrier_ledger": {
+    "Japan": {
+      "lost": [
+        "Akagi",
+        "Kaga"
+      ],
+      "first_line_core_alive": [
+        "Shokaku",
+        "Zuikaku",
+        "Hiryu",
+        "Soryu"
+      ],
+      "GALVANIC_state": "first-line four-carrier core survives and withdraws; Ryujo/Zuiho survive"
+    },
+    "United_States": {
+      "branch_losses": [
+        "Lexington",
+        "Yorktown",
+        "Enterprise",
+        "Hornet",
+        "Saratoga"
+      ],
+      "survivor": "Wasp survives",
+      "GALVANIC_damage": [
+        "Liscome Bay sunk",
+        "Independence campaign-out",
+        "Cowpens campaign-out",
+        "Lexington temporary/light-moderate damage"
+      ],
+      "new_build_state": "Essex/Independence-class regeneration underway; exact 1944 pool must be date-gated"
+    },
+    "Britain": {
+      "branch_losses": [
+        "Indomitable",
+        "Formidable"
+      ],
+      "survivors_and_constraints": [
+        "Hermes survives Operation C chain",
+        "Illustrious active after emergency repair; modernization debt",
+        "Victorious US-loan/return/refit clock displaced later than historical",
+        "Unicorn available as operational/support carrier"
+      ],
+      "1944H1_note": "surface-heavy, carrier-thin Eastern Fleet potential; Saratoga unavailable"
+    }
+  },
+  "burma_india": {
+    "chittagong_capture": "1943-12-15 evening",
+    "japanese_main_force": "55th Division exhausted/reconstituting; 54th advance/rear/logistics elements increasingly relieve security",
+    "british_state": "5th/26th withdraw north; 7th escapes with personnel but heavy-equipment loss; 81st West African main body relatively fresh north/Hill Tracts",
+    "u_go": "NO_GO; 15th Army intact and threatening Chindwin/Imphal axis"
+  },
+  "royal_navy": {
+    "reserve_elasticity": "worse than historical; modern fleet-carrier depth thin; escort reserve constrained",
+    "dodecanese": "planned early-Nov withdrawal realized; later Leros endgame losses partly avoided",
+    "eastern_fleet_year_end": "late-Dec eastbound heavy reinforcement is working movement baseline; Jan arrival/combat open"
+  },
+  "future_boundary": "No realized combat after 1943-12-31. 1944 Eastern Fleet arrival, Japanese fleet allocation, Kwajalein/Truk/Marianas, U-Go, Ichigo and other retained descendants require new adjudication."
+}

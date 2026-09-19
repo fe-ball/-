@@ -1,0 +1,20 @@
+{
+  "version": "v052",
+  "date": "2026-09-05",
+  "campaign_frontier": "1944-08-04T24:00",
+  "scenario_focus": "New Caledonia 1942-11-09 second-night preparation",
+  "closed_gates": [
+    "Yamato early Type21 present",
+    "Mutsu no radar",
+    "Mutsu 1934-36 Branch-assisted reconstruction",
+    "Yamato+Mutsu close formation ~25kt sustained ceiling",
+    "Yamamoto aboard Yamato Main Body",
+    "heavy gun/projectile physical-realization layer"
+  ],
+  "open_or_future_gates": [
+    "alternate short-delay AP fuze / direct-hit optimized projectile family",
+    "lot-specific 41cm ammunition inventory",
+    "post-NC second-night battle result"
+  ],
+  "supersedes": "only the strict no-physical-change shorthand for heavy guns/projectiles; preserves nominal design guards"
+}

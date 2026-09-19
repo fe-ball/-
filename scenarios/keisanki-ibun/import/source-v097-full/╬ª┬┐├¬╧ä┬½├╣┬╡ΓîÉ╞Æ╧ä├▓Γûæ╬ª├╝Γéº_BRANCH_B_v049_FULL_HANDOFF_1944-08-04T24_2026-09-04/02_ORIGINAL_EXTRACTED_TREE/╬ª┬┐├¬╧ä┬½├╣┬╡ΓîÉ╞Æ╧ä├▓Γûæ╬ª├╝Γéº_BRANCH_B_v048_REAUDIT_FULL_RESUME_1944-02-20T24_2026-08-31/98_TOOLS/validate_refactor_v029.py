@@ -1,0 +1,94 @@
+#!/usr/bin/env python3
+import json,pathlib,sys,subprocess,tempfile,os,re
+ROOT=pathlib.Path(__file__).resolve().parents[1]; errs=[]; warns=[]
+def err(x): errs.append(x)
+def load(r):
+ try:return json.loads((ROOT/r).read_text(encoding='utf-8'))
+ except Exception as e:err(f'load failed {r}: {e}');return {}
+json_files=list(ROOT.rglob('*.json'))
+for p in json_files:
+ try:json.loads(p.read_text(encoding='utf-8'))
+ except Exception as e:err(f'invalid json {p.relative_to(ROOT)}: {e}')
+state=load('06_RUNTIME/CURRENT_BRANCH_STATE_v014.json'); cp=load('05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v006.json'); idx=load('05_WARTIME/CHECKPOINT_INDEX_v020.json')
+front=load('00_README/CURRENT_DISCUSSION_FRONTIER_v015.json'); reg=load('95_AUDIT/current_version_families_v033.json'); tech=load('02_TECH/TECH_INDEX_v009.json')
+if state.get('active_restart',{}).get('checkpoint')!='CHECKPOINT_1943-12-31T24_BRANCH_B_v006':err('authority restart mismatch')
+if idx.get('current_restart')!='CHECKPOINT_1943-12-31T24_BRANCH_B_v006':err('checkpoint index mismatch')
+if cp.get('current_branch_overrides')!='00_CONFIG/current_branch_overrides_v014.json':err('override mismatch')
+if front.get('authority_frontier',{}).get('changed_by_v048') is not True:err('v048 Bengal rollback authority promotion missing')
+if front.get('discussion_frontier',{}).get('discussion_clock_center')!='1944-02-06T18:00:00+12:00':err('discussion clock changed')
+if tech.get('revision')!='v009':err('TECH_INDEX authority changed')
+for rel in front.get('mandatory_load_order',[]):
+ if not (ROOT/rel).exists():err('missing frontier ref '+rel)
+land=load('06_RUNTIME/JAPANESE_LAND_COMBAT_HARDWARE_LINEAGE_1932_1944_WORKING_v001.json')
+if len(land.get('bands',[]))<9:err('land hardware bands incomplete')
+if len(land.get('maturity_by_period',[]))<4:err('land maturity clock incomplete')
+if 'No global Army-artillery hit-rate scalar.' not in json.dumps(land,ensure_ascii=False):err('artillery scalar guard missing')
+veh=load('06_RUNTIME/JAPANESE_LAND_VEHICLE_ARMOR_LINEAGE_1932_1944_WORKING_v001.json')
+if len(veh.get('platform_families',[]))<6:err('vehicle families incomplete')
+if '1.1-1.3x' not in json.dumps(veh,ensure_ascii=False):err('atoll vehicle reappearance guard missing')
+integ=load('06_RUNTIME/JAPANESE_LAND_COMBAT_INTEGRATED_SYNTHESIS_1932_1944_WORKING_v002.json')
+if len(integ.get('land_system_layers',[]))<7:err('integrated land layers incomplete')
+if integ.get('retroactive_policy',{}).get('BENGAL_ARAKAN')!='EXECUTED_IN_v048_FROM_1943_10_28_PRE_NAF_CROSSING':err('integrated Bengal execution state missing')
+retro=load('06_RUNTIME/ALLIED_DEATH_TALLY_RETROACTIVE_LAND_HARDWARE_RESERVATION_1941_1944_WORKING_v003.json')
+if retro.get('status')!='WORKING_ACCOUNTING_RESERVATION_PARTIALLY_APPLIED_GALVANIC_AND_BENGAL':err('retro reservation state wrong')
+if retro.get('ledger_label_ja')!='連合死者出納表':err('Japanese tally label missing')
+if retro.get('method',{}).get('no_blanket_multiplier') is not True:err('retro no-multiplier guard missing')
+if retro.get('method',{}).get('no_1944_backport_to_1941') is not True:err('maturity backport guard missing')
+dd2=load('06_RUNTIME/FLINTLOCK_DDAY_DECISION_AND_LANDING_1944-02-06_WORKING_v002.json'); dd3=load('06_RUNTIME/FLINTLOCK_DDAY_DECISION_AND_LANDING_1944-02-06_WORKING_v003.json')
+if dd3.get('decision')!=dd2.get('decision'):err('D-Day decision changed in v048')
+if dd3.get('landing_execution')!=dd2.get('landing_execution'):err('D-Day geography/execution changed in v048')
+if dd3.get('centered_first_day_costs')!=dd2.get('centered_first_day_costs'):err('D-Day casualty numbers changed despite remaining reservation')
+if dd3.get('land_hardware_accounting_status',{}).get('no_reroll_in_v047') is not True:err('D-Day v047 no-reroll guard missing')
+syn=load('06_RUNTIME/TECHNOLOGY_LINEAGE_SYNTHESIS_1944-01-28_WORKING_v005.json')
+if not any(x.get('key')=='land_combat_hardware_engineering' for x in syn.get('bands',[])):err('all-band synthesis missing land hardware')
+gal=load('06_RUNTIME/GALVANIC_FINAL_OUTCOME_LEDGER_1943-11_12_v003.json')
+tg=gal.get('Tarawa_ground',{}); vc=tg.get('vehicle_OOB_and_serviceability',{}); cas=tg.get('US_final_casualties',{})
+if vc.get('Japan_Type95_physical')!=14 or vc.get('Japan_post_suppression_contact_capable_band')!=[6,9]:err('GALVANIC Japanese vehicle OOB wrong')
+if vc.get('US_M4A2_operational_first_night_band')!=[6,8]:err('GALVANIC M4 first-night band wrong')
+if cas.get('total_band')!=[2150,2550] or cas.get('working_center_delta')!=250:err('GALVANIC casualty correction wrong')
+if '1943-11-29' not in tg.get('organized_resistance_end',''):err('GALVANIC end-time correction missing')
+# Bengal rollback/reclose
+beng=load('06_RUNTIME/BENGAL_ARAKAN_LAND_VEHICLE_EVENT_LEDGER_1943-10_12_v001.json')
+oob=beng.get('land_vehicle_OOB',{}); dmg=beng.get('damage_classification',{}); bc=beng.get('revised_casualties',{}); bo=beng.get('operational_outcome',{})
+if oob.get('physical_motor_vehicle_prime_mover_engineer_plant_band')!=[430,560]:err('Bengal physical vehicle OOB wrong')
+if oob.get('operation_start_serviceable_crewed_fueled_band')!=[355,465]:err('Bengal start serviceability wrong')
+if beng.get('fixed_operational_inputs',{}).get('armored_force',{}).get('independent_tank_regiment')!=0:err('Bengal tank-regiment guard missing')
+if dmg.get('new_permanent_writeoff_destroyed_abandoned_band')!=[55,95] or dmg.get('returned_within_24_72h_band')!=[25,50]:err('Bengal damage-class/reappearance wrong')
+if bc.get('Japan',{}).get('combat_total_center')!=6300 or bc.get('British_Commonwealth',{}).get('combat_total_center')!=9300:err('Bengal casualty centers wrong')
+if '1943-12-14' not in bo.get('Chittagong_capture',''):err('Bengal Chittagong timing wrong')
+if beng.get('causal_independence_from_GALVANIC',{}).get('carrier_allocation_change') is not False:err('Bengal/GALVANIC independence guard missing')
+if not any(x.get('event')=='Bengal / Arakan / Chittagong campaign' for x in retro.get('executed_adjustments',[])):err('Bengal tally booking missing')
+# preserve v043 carrier/sub/D-day states
+rep=load('06_RUNTIME/CARRIER_DAMAGE_REPAIR_CLOCK_1944-02-03_WORKING_v001.json')
+if '1944-04-28..1944-05-20' not in json.dumps(rep,ensure_ascii=False):err('Cabot return band missing')
+sub=load('06_RUNTIME/FLINTLOCK_ASSAULT_APPROACH_SUBMARINE_INTERDICTION_1944-02-03_06_WORKING_v001.json')
+if 'LST-224' not in json.dumps(sub,ensure_ascii=False):err('LST-224 result lost')
+air=load('06_RUNTIME/MARSHALL_AIR_OOB_1944-02-06T1800_WORKING_v001.json')
+if air.get('theatre_1800',{}).get('combat_serviceable_center')!=21:err('Feb6 Marshall air center changed')
+# registry latest/current
+fams={x['family']:x for x in reg.get('families',[])}
+exp={'README_refactor_vX.md':'README_refactor_v048.md','NEXT_SESSION_HANDOFF_REFACTOR_vX.md':'NEXT_SESSION_HANDOFF_REFACTOR_v048.md','PACKAGE_MANIFEST_vX.json':'PACKAGE_MANIFEST_v048.json','VALIDATION_RESULT_vX.json':'VALIDATION_RESULT_v048.json','validate_refactor_vX.py':'validate_refactor_v029.py','CURRENT_DISCUSSION_FRONTIER_vX.json':'CURRENT_DISCUSSION_FRONTIER_v015.json','current_version_families_vX.json':'current_version_families_v033.json','FLINTLOCK_DDAY_DECISION_AND_LANDING_1944-02-06_WORKING_vX.json':'FLINTLOCK_DDAY_DECISION_AND_LANDING_1944-02-06_WORKING_v003.json','CHECKPOINT_INDEX_vX.json':'CHECKPOINT_INDEX_v020.json','CHECKPOINT_GRAPH_vX.json':'CHECKPOINT_GRAPH_v019.json','CURRENT_BRANCH_STATE_vX.json':'CURRENT_BRANCH_STATE_v014.json','current_branch_overrides_vX.json':'current_branch_overrides_v014.json','BRANCH_B_YEAR_END_GUARD_1944-01-01_vX.json':'BRANCH_B_YEAR_END_GUARD_1944-01-01_v005.json','CHECKPOINT_1943-12-31T24_BRANCH_B_vX.json':'CHECKPOINT_1943-12-31T24_BRANCH_B_v006.json','BRANCH_B_1943H2_YEAR_END_SETTLEMENT_vX.md':'BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v005.md','BENGAL_ARAKAN_CHITTAGONG_1943-10_12_SETTLEMENT_vX.md':'BENGAL_ARAKAN_CHITTAGONG_1943-10_12_SETTLEMENT_v002.md','BENGAL_ARAKAN_LAND_VEHICLE_EVENT_LEDGER_1943-10_12_vX.json':'BENGAL_ARAKAN_LAND_VEHICLE_EVENT_LEDGER_1943-10_12_v001.json','JAPANESE_LAND_COMBAT_INTEGRATED_SYNTHESIS_1932_1944_WORKING_vX.json':'JAPANESE_LAND_COMBAT_INTEGRATED_SYNTHESIS_1932_1944_WORKING_v002.json','PARALLEL_THEATER_STATE_1944-02-06T1800_WORKING_vX.json':'PARALLEL_THEATER_STATE_1944-02-06T1800_WORKING_v002.json','ALLIED_DEATH_TALLY_RETROACTIVE_LAND_HARDWARE_RESERVATION_1941_1944_WORKING_vX.json':'ALLIED_DEATH_TALLY_RETROACTIVE_LAND_HARDWARE_RESERVATION_1941_1944_WORKING_v003.json'}
+for k,v in exp.items():
+ if fams.get(k,{}).get('current')!=v:err('registry mismatch '+k)
+def vn(n):
+ m=re.search(r'_v(\d+)(?:\.|$)',n);return int(m.group(1)) if m else -1
+for fam,x in fams.items():
+ ms=[p for p in ROOT.rglob(fam.replace('vX','v*')) if '99_LEGACY_UNTOUCHED' not in p.parts]
+ if ms:
+  latest=max(ms,key=lambda p:vn(p.name)).name
+  if x.get('latest_present')!=latest:err(f'latest_present mismatch {fam}: {x.get("latest_present")} != {latest}')
+# authority generator still resolves same checkpoint
+fd,tmp=tempfile.mkstemp(suffix='.json');os.close(fd)
+try:
+ p=subprocess.run([sys.executable,str(ROOT/'98_TOOLS/build_event_handout_v012.py'),'CARRIER_BATTLE','--date','1944-01-01','--out',tmp],capture_output=True,text=True,timeout=30)
+ if p.returncode:err('generator failed '+p.stderr.strip())
+ else:
+  h=json.loads(pathlib.Path(tmp).read_text(encoding='utf-8'))
+  if h.get('checkpoint')!='CHECKPOINT_1943-12-31T24_BRANCH_B_v006':err('generator checkpoint mismatch')
+finally:
+ try:os.unlink(tmp)
+ except:pass
+print(f'ERRORS={len(errs)} WARNINGS={len(warns)} JSON_FILES={len(json_files)}')
+for x in errs:print('ERROR',x)
+for x in warns:print('WARN',x)
+sys.exit(1 if errs else 0)

@@ -1,0 +1,9 @@
+priority	scope	file_or_tree	note
+1	1939-04-20 restart/current state	50-CURRENT-1939-1941-AIRPOWER-AUDIT/00-1939-04-20-RESTART-BASELINE-V8.md	V8 authority
+2	engine/requirements/team-release	50-CURRENT-1939-1941-AIRPOWER-AUDIT/01-ENGINE-REQUIREMENT-TEAM-RELEASE-CANON-V8.md	V8 authority
+3	E6/E7/core-family production	50-CURRENT-1939-1941-AIRPOWER-AUDIT/02-GT-E6-E7-CORE-FAMILY-PRODUCTION-CANON-V8.md	V8 authority
+4	water aircraft/flying boats	50-CURRENT-1939-1941-AIRPOWER-AUDIT/03-WATER-AIRCRAFT-FLYING-BOAT-LINEAGE-CANON-V8.md	V8 authority
+5	open rollover	50-CURRENT-1939-1941-AIRPOWER-AUDIT/04-OPEN-SHIDEN-AUTO-COMBAT-FLAP-ASAI-AUTOMATION-V8.md	HARD OPEN
+10	1937-1938 canon	10-CURRENT-1937-1938/	V7 remains authority where not superseded
+20	1931-1938 aviation rebase	20-AVIATION-1931-1938-REBASE/	V7 remains authority where not superseded
+30	older V6/V5 material	01-BASE-V6/	reference/replay/comparator unless specifically promoted

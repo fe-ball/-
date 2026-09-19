@@ -1,0 +1,13 @@
+{
+  "revision": "v001",
+  "id": "MARIANAS_PRIMARY_STATE_1944-06-11T24_WORKING_v001",
+  "status": "CURRENT_OVERLAY_FRONTIER",
+  "as_of": "1944-06-11T24:00:00+09:00",
+  "global_frontier": "1944-06-11T24",
+  "primary_theater": "MARIANAS",
+  "US": "TF58 wins the first-day air-superiority fight with 16 fast decks intact. 11 Jun irreversible aircraft losses 14-20; FORAGER schedule remains intact.",
+  "Japan_land_air": "Strategic warning prevents historical-style mass ground surprise, but F6F numerical/quality superiority still inflicts 53-70 irreversible aircraft losses. Onsite immediate ready at day end 182-229, fighter 101-133; C2 and runways remain functional but degraded.",
+  "Japan_fleet": "Yamamoto moves from preliminary A-GO posture to operational concentration. Five-carrier/heavy-force blind eastward commitment remains conditional on amphibious geometry/fresh contact.",
+  "China_Europe_Yanagi": "Background only on major node/technology/loss trigger; no new global event is advanced in this 11 Jun focused overlay.",
+  "next_focus": "12 Jun: continued Marianas suppression, dispersing Saipan convoy, amphibious-force detection, and whether Yamamoto crosses the full sortie/release gate."
+}

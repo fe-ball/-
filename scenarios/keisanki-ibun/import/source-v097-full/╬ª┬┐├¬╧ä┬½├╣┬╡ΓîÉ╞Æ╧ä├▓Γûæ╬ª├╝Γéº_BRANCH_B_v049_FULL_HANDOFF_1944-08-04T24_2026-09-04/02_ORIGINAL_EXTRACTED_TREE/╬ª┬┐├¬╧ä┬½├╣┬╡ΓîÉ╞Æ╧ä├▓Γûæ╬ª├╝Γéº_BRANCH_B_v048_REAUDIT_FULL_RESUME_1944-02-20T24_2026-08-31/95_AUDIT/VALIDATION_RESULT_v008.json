@@ -1,0 +1,17 @@
+{
+  "revision": "v008",
+  "status": "PASS",
+  "validator_stdout": [
+    "ERRORS=0 WARNINGS=0"
+  ],
+  "validator_stderr": [],
+  "current_restart": "CHECKPOINT_1944-04-30T24_v001",
+  "opening_baseline": "WARSTART_1941-12-07_08_v004",
+  "technical_baseline": "TECH_INDEX_v005",
+  "prewar_baseline": "PREWAR_INDEX_v004",
+  "legacy_untouched_present": true,
+  "legacy_content_hash_identical": true,
+  "legacy_file_count": 188,
+  "history_advanced": true,
+  "validation_script": "98_TOOLS/validate_refactor_v006.py"
+}

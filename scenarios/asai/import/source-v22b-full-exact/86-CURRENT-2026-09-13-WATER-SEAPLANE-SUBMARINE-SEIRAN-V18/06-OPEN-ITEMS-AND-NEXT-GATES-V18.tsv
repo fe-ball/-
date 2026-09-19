@@ -1,0 +1,21 @@
+priority	item	status	next_action
+1	E13A_F1M_fleet_recon_spotting	NEXT-GATE	Audit photo/nav/radio/report latency/spotting/catapult-recovery workflow; keep headline speed broadly historical
+2	E15K_initial_production_one_sheet	NEXT-GATE	Select 1941 initial engine/CRP/aux-float/main-float configuration and explicit fallback; separate later Homare/E7 developments
+3	Oyodo_E15K_integration	OPEN	Reconcile actual aircraft requirement, catapult/hangar/handling after E15K one-sheet
+4	ship_side_water_air_system	NEXT-GATE	Audit catapult capacity, crane recovery, aviation fuel/oxygen, photo processing, spares, tender tempo by ship/date
+5	H10H_procurement	OPEN	Decide prototype-only vs limited high-speed patrol/recon production after resource comparison
+6	H8K3_quantity	OPEN	Decide limited fast-recon quantity vs H8K2 late-block low-drag backfit
+7	H6K_phase_down	OPEN	Set new-build stop/second-line/transport/patrol transition relative to H8K availability
+8	H9A_training_scale	OPEN	Translate test/training role into unit/airframe requirement without overproduction
+9	I400_yard_release_audit	NEXT-GATE	Start from Yamamoto 18-plan; calculate lot releases by yard, engine, battery, hangar, catapult, crew and competing submarine/ship programs
+10	AM_common_Seiran_branch	OPEN	Define supporting two-aircraft role and actual procurement only after I400 release audit
+11	Seiran_production_count	OPEN	Derive from I400/AM hull release + training/spares; do not auto-canonize 28 or any other historical number
+12	Seiran_engine_1942Q3_gate	GATED	E7-M only if reducer/prop/naval salt/TBO/start/fuel-handling pass; otherwise freeze Atsuta32
+13	Seiran_attack_replay_model	WORKING	Use common-error + individual-error accuracy model when a concrete mission is replayed
+14	N1K1J_procurement	OPEN	Resolve only with actual 1942 threat, A6M bridge, J2M, Homare allocation, Reppu schedule
+15	N1K2J_procurement	OPEN	Resolve with 1943 history/production; technical performance mostly closed
+16	J2M_high_altitude_branch	OPEN	Gate by actual high-altitude threat and E6 availability; no automatic mass production
+17	Hundred_Regiments_absolute_losses	OPEN	Replay/history item unchanged from V17/V16
+18	Taiho_fuel_ventilation_DC	OPEN	Unrelated naval item retained from V17
+19	Nisshin_completion_date	OPEN	Retained from V17; machinery improvement != automatic date
+20	auxiliary_fleet_full_OOB	OPEN	Retained from V17

@@ -1,0 +1,64 @@
+{
+  "revision": "v001",
+  "id": "JAPANESE_ARMOR_SOURCE_BASIS_MATRIX_1938_1944_WORKING_v001",
+  "status": "WORKING_SOURCE_AUTHORITY_MATRIX_NOT_CURRENT",
+  "purpose": "Classify armor-production numbers before they are used in dated Branch events.",
+  "tiers": {
+    "A": "dated wartime Japanese production/completion/order document or clearly identified arsenal/HQ table with accounting basis",
+    "B": "postwar official arsenal/Ordnance Administrative/USSBS table with accounting basis understood",
+    "C": "modern official institutional history or high-quality synthesis for development chronology",
+    "D": "secondary production summary useful as a cross-check, not sufficient alone for dated allocation",
+    "E": "tertiary/forum/wiki-style lead only"
+  },
+  "sources": [
+    {
+      "name": "Sagami Army Arsenal / Army Ordnance monthly production tables",
+      "tier": "A/B",
+      "basis": "Japanese fiscal year Apr-Mar; categories may include repair/acceptance and are not automatically national new-build totals",
+      "use": "primary accounting gate; model-by-model transcription needed"
+    },
+    {
+      "name": "1944-02-04 Complete Vehicles Production Status Table",
+      "tier": "A",
+      "basis": "dated completion/order status late FY1943",
+      "use": "strong check against postwar bookkeeping; currently particularly useful for Ke-Ni"
+    },
+    {
+      "name": "JGSDF 7th Division tank-history chronology",
+      "tier": "C",
+      "basis": "development chronology, not factory ledger",
+      "use": "Chi-He completion Jun1943, production spring1944; Chi-Nu decision May1944/prototype Sep/production Oct; Chi-To line from 1942H2"
+    },
+    {
+      "name": "Zaloga/Osprey annual family production table",
+      "tier": "D",
+      "basis": "widely repeated annual family totals; calendar-vs-fiscal/new-build-vs-acceptance basis not safe enough for dated simulation without cross-check",
+      "use": "national-envelope and family-total scaffold only"
+    },
+    {
+      "name": "Karyu primary-document reconstructions",
+      "tier": "C_with_A_underlay",
+      "basis": "modern analysis reproducing named wartime/postwar Japanese documents",
+      "use": "valuable for identifying accounting errors and exact source tables; original document remains preferred when readable"
+    }
+  ],
+  "resolved_examples": {
+    "KeNi": {
+      "old_common_claim": "1 + 24 + 79/89, about 104-113 vehicles",
+      "revised": "FY1942 24; FY1943 about 15 actual completions; postwar 89 figure appears to include a 74-unit tractor bookkeeping error",
+      "confidence": "HIGH",
+      "branch_effect": "No Ke-Ni mass-production wallet exists to raid for hundreds of extra mediums."
+    },
+    "ChiHe": {
+      "old_common_claim": "15 produced in 1943",
+      "revised": "15 can be an FY1943 tail in Feb-Mar 1944; JGSDF places mass production in spring 1944",
+      "confidence": "HIGH on no routine calendar-1943 mass issue; exact pilot/pre-series count OPEN"
+    },
+    "Shinhoto": {
+      "common_claim": "503 in 1942 + 427 in 1943, plus ~300 old hull conversions",
+      "revised": "use as family-total scaffold; dated monthly distribution and accounting basis remain OPEN",
+      "confidence": "MEDIUM"
+    }
+  },
+  "mandatory_rule": "Every number entering a dated OOB must carry source tier, accounting basis, physical-new/retrofit/repair classification, acceptance date, and unit/shipping gate."
+}

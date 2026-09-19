@@ -1,0 +1,16 @@
+{
+  "revision": "v001",
+  "id": "V018_HANZHONG_SICHUAN_TRANSPORT_INTERDICTION_AUDIT_v001",
+  "date": "2026-08-24",
+  "result": "PASS_WITH_WORKING_BANDS",
+  "clock_advanced": false,
+  "current_time": "1944-04-25T00:00",
+  "findings": {
+    "non_airfield_transport_targets_added": true,
+    "transport_interdiction_inside_existing_western_sortie_budget": true,
+    "nonlinear_vehicle_day_multiplier_quantified": true,
+    "hump_high_priority_tax_revised_without_double_counting": true,
+    "matterhorn_not_stopped": true,
+    "ichigo_scale_not_final": true
+  }
+}

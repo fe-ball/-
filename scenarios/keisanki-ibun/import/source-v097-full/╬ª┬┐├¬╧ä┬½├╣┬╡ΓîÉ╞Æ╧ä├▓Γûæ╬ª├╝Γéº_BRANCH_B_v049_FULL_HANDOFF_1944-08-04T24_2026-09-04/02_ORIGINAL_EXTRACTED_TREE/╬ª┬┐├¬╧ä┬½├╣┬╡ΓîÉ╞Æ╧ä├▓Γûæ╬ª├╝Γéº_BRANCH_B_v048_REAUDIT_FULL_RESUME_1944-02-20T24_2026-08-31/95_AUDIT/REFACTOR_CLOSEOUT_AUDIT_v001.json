@@ -1,0 +1,31 @@
+{
+  "revision": "v001",
+  "status": "REFACTOR_CLOSEOUT_COMPLETE",
+  "tasks": [
+    {
+      "task": "full legacy residual audit",
+      "result": "PASS",
+      "artifact": "95_AUDIT/FULL_LEGACY_RESIDUAL_AUDIT_v001.json"
+    },
+    {
+      "task": "WARSTART completeness/hole closure",
+      "result": "PASS_READY_WITH_EXPLICIT_BOUNDS",
+      "artifact": "04_WARSTART/WARSTART_COMPLETENESS_AUDIT_v001.json"
+    },
+    {
+      "task": "TECH INDEX representative-event coverage test",
+      "result": "PASS",
+      "artifact": "95_AUDIT/TECH_COVERAGE_AUDIT_v002.json"
+    },
+    {
+      "task": "formal 1942-05-06 24:00 checkpoint",
+      "result": "CREATED",
+      "artifact": "05_WARTIME/CHECKPOINT_1942-05-06T24_v001.json"
+    }
+  ],
+  "legacy_integrity": {
+    "file_count": 188,
+    "policy": "untouched"
+  },
+  "next_phase": "history rerun, beginning with 5/4-6 re-audit and then 1942-05-07 Coral Sea. No further refactor design is required before rerun unless a rule override is intentionally changed."
+}

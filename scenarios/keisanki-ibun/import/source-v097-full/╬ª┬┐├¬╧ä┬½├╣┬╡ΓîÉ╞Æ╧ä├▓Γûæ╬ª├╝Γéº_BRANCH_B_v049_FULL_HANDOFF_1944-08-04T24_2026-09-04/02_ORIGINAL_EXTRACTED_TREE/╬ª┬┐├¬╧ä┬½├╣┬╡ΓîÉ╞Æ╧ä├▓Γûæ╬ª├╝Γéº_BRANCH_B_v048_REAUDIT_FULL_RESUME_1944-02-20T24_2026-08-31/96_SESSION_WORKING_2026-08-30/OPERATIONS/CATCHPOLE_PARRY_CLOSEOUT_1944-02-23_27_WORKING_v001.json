@@ -1,0 +1,135 @@
+{
+  "revision": "v001",
+  "id": "CATCHPOLE_PARRY_CLOSEOUT_1944-02-23_27_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "preparation": "1944-02-23..25",
+  "Japanese_defense": {
+    "physical_band": [
+      1330,
+      1390
+    ],
+    "Type95": 3,
+    "role": "brigade HQ and strongest surviving defensive concentration",
+    "branch_change": "extra preparation days and improved alternate positions/communication/ammo dispersion increase survival of small positions under bombardment but cannot create depth on the narrow island"
+  },
+  "US_preassault_fire": {
+    "naval_gunfire_tons_band": [
+      900,
+      1050
+    ],
+    "field_artillery_tons_band": [
+      190,
+      255
+    ],
+    "air_delivered_tons_band": [
+      70,
+      100
+    ],
+    "ships": "Pennsylvania, Tennessee, Colorado; Indianapolis, Louisville and supporting destroyers/cruisers",
+    "air": "Princeton/Langley + Sangamon/Suwannee/Chenango",
+    "result": "most fixed guns and C2 nodes suppressed; many spider holes survive; combat power is fragmented rather than annihilated"
+  },
+  "assault": {
+    "H_hour": "1944-02-25T09:00",
+    "Type95_counterattack": {
+      "tanks": 3,
+      "timing": "09:45..10:30",
+      "result": "all destroyed by M4/75mm/direct fire after a short local shock; one LVT damaged centered, no M4 permanent loss"
+    },
+    "friendly_fire": {
+      "center": "one danger-close short/overshoot episode damages an LCI gunboat or nearby assault element",
+      "US_KW_band": [
+        18,
+        38
+      ],
+      "ship": "one LCI light/moderate damage centered, no sinking",
+      "why_radar_does_not_eliminate_it": "close-range own-force geometry, smoke/dust and communications/location error dominate; ship fire-control radar solves range/bearing to aimpoint, not exact identification of every friendly craft."
+    },
+    "organized_resistance_end_center": "1944-02-25T21:40",
+    "organized_end_band": "19:30..1944-02-26T02:30",
+    "night_gate": {
+      "opens": true,
+      "result": "no brigade-scale final charge; 30-70 isolated defenders emerge/use grenades and rifles overnight, producing small additional casualties and forcing full perimeter alert",
+      "mop_up_end_center": "1944-02-26T07:00"
+    }
+  },
+  "casualties_working": {
+    "US_KWM_band": [
+      365,
+      475
+    ],
+    "US_center": 420,
+    "Japan_dead_band": [
+      1250,
+      1340
+    ],
+    "Japan_captured_band": [
+      65,
+      125
+    ]
+  },
+  "air_sea_closeout": {
+    "US_aircraft_irrecoverable_operation_total_band": [
+      3,
+      6
+    ],
+    "US_aircraft_damaged_band": [
+      7,
+      13
+    ],
+    "Japanese_local_air_irrecoverable_total_band": [
+      3,
+      5
+    ],
+    "Japanese_air_escape_band": [
+      1,
+      3
+    ],
+    "US_major_ship_loss": 0,
+    "US_LST_mission_kill": 0,
+    "US_LCI_damaged_center": 1,
+    "Japanese_submarine_sunk_center": 0,
+    "Japanese_submarine_mission_damaged_or_forced_off_center": 1
+  },
+  "atoll_closeout": {
+    "major_organized_resistance_end": "1944-02-25 late",
+    "atoll_secure_declaration_center": "1944-02-26T10:00",
+    "outer_islet_lagoon_security_cleanup": "through 1944-02-27",
+    "previous_schedule_comparison": "falls inside prior 26-28 Feb secure band; local combat closes about one day earlier than old 27-Feb center, but cleanup keeps 27 Feb as the logistics/security closeout date."
+  },
+  "combined_US_casualties": {
+    "ground_plus_air_sea_KWM_band": [
+      1050,
+      1390
+    ],
+    "center": 1200,
+    "note": "Includes Engebi, Eniwetok Island, Parry, small night-air/sea events and friendly fire. Death/wounded split is reserved for the consolidated Allied casualty ledger."
+  },
+  "Japanese_total": {
+    "dead_band": [
+      3260,
+      3450
+    ],
+    "captured_band": [
+      100,
+      190
+    ],
+    "Type95_irrecoverable": 9,
+    "local_air_irrecoverable_band": [
+      3,
+      5
+    ]
+  },
+  "base_activation": {
+    "Engebi_emergency_recovery_liaison": "1944-02-24..26",
+    "Engebi_limited_fighter_search_staging": "1944-02-27..03-01",
+    "Engebi_regular_multi_squadron_development": "March, with Army engineers first and Seabee takeover later",
+    "Eniwetok_bomber_strip": "construction begins after 23-24 Feb; first-plane clock centered mid-March, not immediately after capture",
+    "anchorage": "lagoon usable for assault/logistics immediately after mines/entrances are secured, but full fleet-base services take weeks"
+  },
+  "strategic": {
+    "HAILSTONE_interlock": "Truk cannot rescue Eniwetok; main Japanese fleet remains westward.",
+    "fast_carrier_recovery": "Most HAILSTONE carriers are free to replenish/repair after 21 Feb; Catchpole did not consume them.",
+    "next_global_clock": "DO NOT advance globally beyond 21 Feb until Eastern Fleet/Andaman 19-22 Feb is adjudicated. Catchpole result is a resolved future-local node to be merged later."
+  }
+}

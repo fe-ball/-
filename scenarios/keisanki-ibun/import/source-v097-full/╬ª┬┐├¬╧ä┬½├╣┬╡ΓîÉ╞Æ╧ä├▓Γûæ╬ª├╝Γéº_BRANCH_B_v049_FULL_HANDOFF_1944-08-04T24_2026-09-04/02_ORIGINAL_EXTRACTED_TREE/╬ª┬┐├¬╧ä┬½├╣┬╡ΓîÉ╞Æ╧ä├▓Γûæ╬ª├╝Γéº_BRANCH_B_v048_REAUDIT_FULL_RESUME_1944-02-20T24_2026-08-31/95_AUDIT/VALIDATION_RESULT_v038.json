@@ -1,0 +1,9 @@
+{
+  "package_revision": "v038",
+  "ERRORS": 0,
+  "WARNINGS": 0,
+  "JSON_FILES": 384,
+  "errors": [],
+  "warnings": [],
+  "note": "Focused v038 validation: all JSON parse, authority unchanged, new first-contact frontier files present. Legacy validators are retained but not rewritten for this working-only step."
+}

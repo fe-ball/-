@@ -1,0 +1,19 @@
+{
+  "revision": "v022",
+  "package_root": "計算機異聞_refactor_v022_2026-08-26",
+  "generated": "2026-08-26",
+  "purpose": "Close the v021 spring-1943 rollback through Sep 30: Attu/Kiska, June Efate, Five-Go Phase II, Jul-Sep India/Burma coastal-operation research, naval/amphibious wallet, and global Q3 synchronization; open Oct 1943 as the next synchronized frontier.",
+  "base_package": "計算機異聞_refactor_v021_2026-08-26_FULL_REPAIRED",
+  "current_branch_state_file": "06_RUNTIME/CURRENT_BRANCH_STATE_v004.json",
+  "current_branch_analysis_frontier": "1943-10-01T00:00",
+  "current_working_audit": "06_RUNTIME/SESSION_2026-08-26_1943Q3_SYNCHRONIZED_HANDOFF_v001.md",
+  "next_session_handoff": "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v022.md",
+  "clock_advanced": true,
+  "clock_reopened": false,
+  "downstream_results_retained_provisional": true,
+  "validation": "95_AUDIT/VALIDATION_RESULT_v022.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v022.txt",
+  "historical_checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v021.txt",
+  "next_required_adjudication": "October 1943 synchronized advance: US Pacific carrier pressure -> Japanese fleet allocation -> SEAC/Bengal air response -> individual amphibious/naval hull readiness -> late-Oct/early-Nov India coastal-operation GO/NO-GO.",
+  "file_count_before_checksum": 512
+}

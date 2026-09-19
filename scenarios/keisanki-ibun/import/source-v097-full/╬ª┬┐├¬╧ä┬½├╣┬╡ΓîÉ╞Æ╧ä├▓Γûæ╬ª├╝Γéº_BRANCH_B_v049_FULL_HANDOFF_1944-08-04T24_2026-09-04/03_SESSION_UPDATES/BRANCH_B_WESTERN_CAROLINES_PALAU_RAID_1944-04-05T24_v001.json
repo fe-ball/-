@@ -1,0 +1,233 @@
+{
+  "id": "BRANCH_B_WESTERN_CAROLINES_PALAU_RAID_1944-04-05T24_v001",
+  "status": "WORKING_CURRENT_BROAD_SYNC",
+  "frontier": "1944-04-05T24:00",
+  "clock_advanced": true,
+  "TF58": {
+    "CV": [
+      "Wasp",
+      "Essex",
+      "Yorktown",
+      "Intrepid",
+      "Lexington",
+      "Hornet",
+      "Bunker Hill"
+    ],
+    "CVL": [
+      "Princeton",
+      "Belleau Wood",
+      "Cowpens",
+      "Monterey",
+      "Langley"
+    ],
+    "count": {
+      "CV": 7,
+      "CVL": 5,
+      "total": 12
+    },
+    "ready_aircraft_sortie": [
+      690,
+      780
+    ],
+    "sortie": "1944-03-26..27",
+    "Palau": "1944-04-02..03",
+    "Yap": "1944-04-03",
+    "Woleai": "1944-04-04",
+    "withdrawal_refuel": "1944-04-05"
+  },
+  "Japan_warning": {
+    "effective_lead_hours": [
+      36,
+      60
+    ],
+    "best_quality": "sector/course track; no stable <=90-min weapon-quality multi-TG fix"
+  },
+  "western_carolines_air_pre_raid": {
+    "physical": [
+      125,
+      155
+    ],
+    "serviceable": [
+      95,
+      120
+    ],
+    "immediate_ready": [
+      70,
+      90
+    ],
+    "prestrike_shifted_or_dispersed": [
+      25,
+      40
+    ]
+  },
+  "raid_result": {
+    "Japan_air_irrecoverable_abandoned": [
+      62,
+      78
+    ],
+    "Japan_air_repairable": [
+      20,
+      32
+    ],
+    "US_air_irrecoverable": [
+      26,
+      35
+    ],
+    "US_major_ship_mission_kill": 0,
+    "Japan_merchant_aux_sunk_CTL_ships": [
+      2,
+      4
+    ],
+    "Japan_merchant_aux_sunk_GRT": [
+      8000,
+      16000
+    ],
+    "Japan_additional_merchant_aux_damaged": [
+      2,
+      4
+    ],
+    "Japan_small_escort_patrol_sunk_CTL": [
+      1,
+      2
+    ],
+    "Japan_major_warship_loss": 0,
+    "Japan_major_AO_loss": 0,
+    "Akashi_loss": 0,
+    "fixed_fuel_lost_unavailable_t": [
+      2500,
+      4500
+    ],
+    "Palau_base_output_percent": [
+      45,
+      55
+    ],
+    "major_channel_severe_restriction_hours": [
+      48,
+      96
+    ],
+    "residual_route_sweep_friction_days": [
+      7,
+      14
+    ]
+  },
+  "Japan_counteraction": {
+    "night_attack_launch": [
+      18,
+      28
+    ],
+    "night_attack_reach": [
+      11,
+      18
+    ],
+    "credible_releases": [
+      3,
+      6
+    ],
+    "US_major_hit_center": 0,
+    "Japan_night_air_irrecoverable": [
+      7,
+      12
+    ],
+    "submarine_useful_reports": [
+      1,
+      2
+    ],
+    "submarine_major_hit_center": 0,
+    "mobile_carrier_sortie": false,
+    "Nagumo_surface_sortie": false
+  },
+  "Japan_carriers_5Apr": {
+    "four_core_ready": [
+      258,
+      286
+    ],
+    "four_core_one_cycle": [
+      158,
+      190
+    ],
+    "Taiho": {
+      "readiness": "B-/B",
+      "arrival_southern_axis": "1944-03-29..04-02",
+      "physical_immediate": [
+        68,
+        78
+      ],
+      "serviceable": [
+        59,
+        70
+      ],
+      "mission_ready": [
+        50,
+        62
+      ],
+      "independent_one_cycle": [
+        31,
+        41
+      ]
+    },
+    "five_deck_full_sync": "future mid-Apr gate"
+  },
+  "Unryu_Amagi_shadow": {
+    "command_specialist_seed": [
+      30,
+      45
+    ],
+    "intermediate_pipeline": [
+      95,
+      145
+    ],
+    "combat_credit": 0
+  },
+  "9th_Tank_Regiment": {
+    "departure": "1944-04-01 center",
+    "physical_tanks": [
+      78,
+      85
+    ],
+    "center_mix": {
+      "Shinhoto_Type97": 27,
+      "old_Type97": 21,
+      "Type95": 33
+    },
+    "state_5Apr": "en route",
+    "Saipan_arrival": "1944-04-09..10",
+    "Guam_forward": "1944-04-10..13"
+  },
+  "14th_Division": {
+    "pre_raid_departure_target": "late Mar..1 Apr SUPERSEDED",
+    "raid_hold": "1944-04-01..04",
+    "new_departure": "1944-04-06..08",
+    "new_arrival": "1944-04-14..17",
+    "reason": "do not sail troop lift into known fast-carrier target/mined-channel window"
+  },
+  "maturity_5Apr": {
+    "Saipan": [
+      2.4,
+      2.8
+    ],
+    "Saipan_selected_upper": 2.9,
+    "Guam": [
+      2.1,
+      2.5
+    ],
+    "Tinian_ground": [
+      1.9,
+      2.2
+    ],
+    "Palau_physical_postraid": [
+      2.3,
+      2.7
+    ],
+    "Yap": [
+      1.8,
+      2.1
+    ]
+  },
+  "next_gates": [
+    "9th Tank Regiment arrival Saipan/Guam",
+    "14th Division Palau convoy/unloading",
+    "Taiho five-deck integration",
+    "US submarine warning of southern Japanese concentration",
+    "Branch-specific TF58 follow-on choice; no auto-copy Hollandia"
+  ]
+}

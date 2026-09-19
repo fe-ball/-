@@ -1,0 +1,36 @@
+{
+  "revision": "v001",
+  "id": "CHINA_PACIFIC_PROGRESS_1944-05-25_06-05_MANIFEST_v001",
+  "status": "OVERLAY_MANIFEST_ADVANCES_GLOBAL_FRONTIER",
+  "global_frontier": "1944-06-05T24:00:00+09:00",
+  "apply_after": [
+    "計算機異聞_v048_PROGRESS_1944-05-19_24_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_WEAPONS_TECH_YANAGI_REAUDIT_1944-05-24_OVERLAY_2026-08-30.zip"
+  ],
+  "load_new_files_in_order": [
+    "CHINA/ICHIGO_HENGYANG_APPROACH_1944-05-25_06-05_WORKING_v001.json",
+    "CHINA/HUNAN_NODE_TRANSFER_STATE_1944-06-05_WORKING_v001.json",
+    "PACIFIC/US_FORAGER_FORCE_LOGISTICS_1944-05-25_06-05_WORKING_v001.json",
+    "PACIFIC/JAPAN_MOBILE_FLEET_MARIANAS_POSTURE_1944-05-25_06-05_WORKING_v001.json",
+    "SPECIAL_STRIKE/I400_I401_SEIRAN_MAJURO_STRIKE_1944-06-03_WORKING_v001.json",
+    "TECH/WEAPONS_TECH_MATERIALIZATION_1944-05-25_06-05_WORKING_v001.json",
+    "YANAGI/YANAGI_ROUTE_STATE_1944-06-05_WORKING_v001.json",
+    "STATE/PARALLEL_THEATER_STATE_1944-06-05T24_WORKING_v001.json"
+  ],
+  "major_resolutions": [
+    "Hengyang airfield/outer node is reached and physically denied/captured by early June, but Hengyang city remains Chinese and becomes a methodical siege/reduction problem.",
+    "China progression is recorded as layered transfer of rail/river/air/admin functions, not map color alone.",
+    "US June fast-carrier OOB is rebuilt to 8 CV + 8 CVL in the Branch before FORAGER combat.",
+    "I-400/I-401 six-Seiran system passes readiness and spends its first-strike surprise against Majuro logistics on 3 Jun.",
+    "Majuro strike creates real ammunition/service friction and slight sortie staggering but does not cancel FORAGER or move the 15 Jun D-Day.",
+    "Yamamoto retains the five-carrier main force for amphibious-triggered counterstroke rather than reacting to the logistics raid result.",
+    "75mm turreted stopgap receives low-rate pilot-series authorization; no combat fielding yet."
+  ],
+  "forward_constraints": [
+    "Do not mark Hengyang city captured before a new siege/assault adjudication.",
+    "Do not count the captured Hengyang airfield as operational until repair/transfer closes.",
+    "Do not restore historical 7-CV/8-CVL TF58 count.",
+    "Do not give the Seiran raid a strategic kill beyond the specified logistics friction.",
+    "Do not credit German jet/rocket hardware in Japan before I-29 physically returns."
+  ]
+}

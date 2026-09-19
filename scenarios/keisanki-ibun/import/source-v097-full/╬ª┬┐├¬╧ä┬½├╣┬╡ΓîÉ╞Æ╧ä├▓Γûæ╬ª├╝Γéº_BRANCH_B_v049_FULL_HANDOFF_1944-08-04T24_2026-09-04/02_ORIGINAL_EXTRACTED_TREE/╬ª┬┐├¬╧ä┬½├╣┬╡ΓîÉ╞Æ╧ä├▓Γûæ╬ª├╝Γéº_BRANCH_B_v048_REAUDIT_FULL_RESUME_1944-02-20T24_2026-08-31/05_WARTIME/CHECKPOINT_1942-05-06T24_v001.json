@@ -1,0 +1,88 @@
+{
+  "revision": "v001",
+  "id": "CHECKPOINT_1942-05-06T24_v001",
+  "as_of": "1942-05-07T00:00:00",
+  "time_note": "Normalized to next-day 00:00 for machine use; source handoff label remains 1942-05-06 24:00. Time zone intentionally not inferred beyond the source operational boundary.",
+  "type": "FORMAL_RESTART_BOUNDARY",
+  "parent": "WARSTART_1941-12-07_08_v004",
+  "technical_baseline": "TECH_INDEX_v003",
+  "prewar_baseline": "PREWAR_INDEX_v003",
+  "warstart_state": "WARSTART_STATE_LEDGER_v002.json",
+  "current_branch_overrides": "00_CONFIG/current_branch_overrides_v001.json",
+  "execution_status": "READY_FOR_REAUDIT_THEN_1942-05-07; 5/7 combat not yet executed",
+  "authority": {
+    "primary": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/00_次回まず読む/SESSION_HANDOFF_2026-08-18_v001.md",
+    "comparison_only": [
+      "80_歴史考察_1942年MO・MI・中部太平洋.md",
+      "85_歴史考察_2026-08-10_MO・MI再監査_暫定作業線.md"
+    ]
+  },
+  "fixed_or_retained_state": [
+    {
+      "item": "1942-03-10 Lae-Salamaua raid",
+      "state": "OCCURRED"
+    },
+    {
+      "item": "Japanese assessment after Lae-Salamaua",
+      "state": "MO requires carrier support remains retained"
+    },
+    {
+      "item": "US high-grade Japanese naval plaintext intelligence for MO",
+      "state": "DENIED as historical JN-25-equivalent short-term input on current branch"
+    },
+    {
+      "item": "US residual intelligence channels",
+      "state": "ACTIVE: low-grade/plaintext/traffic/callsign/frequency/DF/recon/submarine/geographic-logistic inference"
+    },
+    {
+      "item": "Yorktown South Pacific departure",
+      "state": "provisional 1942-04-29 line retained"
+    },
+    {
+      "item": "1942-05-04 Tulagi carrier strike",
+      "state": "OCCURRED on current provisional line"
+    },
+    {
+      "item": "Tulagi local Japanese seaplane ready-equivalent",
+      "state": "provisional +1 ready-equivalent from survival margin; must be re-audited if tactically material"
+    },
+    {
+      "item": "1942-05-06 Japanese rough contact on US carrier group",
+      "state": "provisional retained contact; quality/age/location confidence require re-audit"
+    }
+  ],
+  "explicitly_not_inherited": [
+    "Old 80/85 Coral Sea battle result",
+    "Old 85 5-May contact timing if inconsistent with handoff",
+    "Lexington/Yorktown battle damage from old Coral Sea branches",
+    "Shoho survival/loss result",
+    "Port Moresby landing outcome",
+    "MI and all downstream results"
+  ],
+  "mandatory_reaudit_before_5_7_execution": [
+    "5/4-5/6 Japanese and US search assets by type/base/availability",
+    "aircraft pure capability and serviceability deltas for involved carrier/seaplane units",
+    "carrier air-group allocation, crew/qualification and fatigue state",
+    "information age/quality and command acceptance on both sides",
+    "ship/radar/ASW fielding only if relevant to the specific contact/strike sequence"
+  ],
+  "event_handout_required": {
+    "profile": "CARRIER_BATTLE",
+    "date": "1942-05-07",
+    "must_include": [
+      "AIR_PLATFORM",
+      "AIR_WEAPONS",
+      "CARRIER",
+      "SENSOR_SEARCH",
+      "SIGINT_COMINT",
+      "PERSONNEL_AND_SOFT"
+    ]
+  },
+  "invalidation_rules": [
+    "Changing PREWAR/WARSTART technical realization invalidates this checkpoint.",
+    "Changing OVR-COMINT-1942-HIGHGRADE-001 invalidates information/decision state from the first affected operation and this checkpoint.",
+    "Changes limited to evidence pointers with no state/value change do not invalidate."
+  ],
+  "preservation_rule": "Archived 80/85/86+ branches remain evidence/comparison branches only; they are not execution parents of this checkpoint.",
+  "source_boundary_label": "1942-05-06 24:00"
+}

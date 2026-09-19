@@ -1,0 +1,26 @@
+{
+  "revision": "v001",
+  "id": "CHINA_STATE_1944-04-30T24_POST_ICHIGO_LAUNCH_WORKING_v001",
+  "status": "WORKING_CURRENT_CHINA_SNAPSHOT",
+  "as_of": "1944-04-30T24:00:00+09:00",
+  "global_frontier": "1944-04-30T24:00:00+09:00",
+  "operation": "Hunan-centric No.1 equivalent launched 1944-04-28 05:00 local/project clock.",
+  "Japan": {
+    "phase_A": "UNDERWAY",
+    "assault_package": "10 divisions staged; ~6 division-equivalents first echelon; 60th reserve retained.",
+    "rear_security": "Nanjing apparatus continues to absorb static workload; no conversion into an independent heavy assault army.",
+    "western_front": "36th/41st/17th Hanzhong-Guangyuan pressure retained; no Sichuan pursuit.",
+    "air": "Fifth Air Army central Hunan surge active while western pressure remains credible."
+  },
+  "Chongqing": {
+    "strategic_warning": "Had high-confidence warning before D-day; no strategic surprise.",
+    "ground": "Northern Hunan defense trades space to preserve main formations and heavy-command core; Changsha still held.",
+    "air": "Fourteenth Air Force/CACW attacks LOC and supports rearguards but cannot close Wuhan-Yueyang system.",
+    "economy_force": "Prior severe fiscal/transport stress and effective-vs-nominal manpower distinction remain in force."
+  },
+  "Nanjing": {
+    "initial_hunan_follow_on_security_package": "30,000-45,000 working band begins phased movement only behind secured Japanese corridors; no front-line breakthrough credit."
+  },
+  "legacy_timing": "May-10 and May-27 starts are superseded/reference-only for current branch.",
+  "next_active_window": "1944-05-01 onward Hunan Phase A, synchronized with Pacific 1-May strategic gate."
+}

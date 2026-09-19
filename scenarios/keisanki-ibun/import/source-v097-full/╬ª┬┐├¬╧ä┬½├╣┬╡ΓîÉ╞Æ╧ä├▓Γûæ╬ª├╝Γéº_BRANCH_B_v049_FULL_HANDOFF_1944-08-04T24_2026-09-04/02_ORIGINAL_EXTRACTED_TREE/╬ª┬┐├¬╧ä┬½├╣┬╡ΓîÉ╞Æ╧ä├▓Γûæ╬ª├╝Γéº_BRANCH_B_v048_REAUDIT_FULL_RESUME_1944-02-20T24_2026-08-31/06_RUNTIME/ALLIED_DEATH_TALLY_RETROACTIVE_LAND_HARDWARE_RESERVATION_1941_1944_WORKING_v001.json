@@ -1,0 +1,66 @@
+{
+  "revision": "v001",
+  "id": "ALLIED_DEATH_TALLY_RETROACTIVE_LAND_HARDWARE_RESERVATION_1941_1944_WORKING_v001",
+  "status": "WORKING_ACCOUNTING_RESERVATION_NOT_YET_APPLIED",
+  "created_at_working_clock": "1944-02-06T18:00:00+12:00",
+  "ledger_label_ja": "連合死者出納表",
+  "purpose": "Reserve a later event-by-event correction for Allied ground-combat deaths/casualties caused by the newly closed Japanese non-software land-hardware layer, without reopening every past battle now.",
+  "trigger": {
+    "when": "At the next consolidated Allied death tally / casualty reconciliation that covers realized 1941-1944 Branch ground combat.",
+    "not_now": "No numerical retroactive delta is booked in v046. Existing event outcomes and casualty ledgers remain the operative working numbers until the trigger is executed.",
+    "mandatory_output_at_trigger": [
+      "event",
+      "date",
+      "theater",
+      "old Allied KIA/deaths",
+      "new Allied KIA/deaths",
+      "delta",
+      "wounded/MIA/POW consistency check",
+      "Japanese casualty consistency check",
+      "hardware domains actually applied",
+      "maturity period",
+      "reason/no-change reason"
+    ]
+  },
+  "scope": {
+    "include": "Only realized CURRENT or WORKING-not-promoted ground engagements on the active Branch path through 1944-02-06 18:00 for which Japanese land-combat hardware/process could have affected fire, protection, communications, engineering or ammunition reliability.",
+    "exclude": [
+      "air-to-air/naval-air losses",
+      "ship sinkings and naval personnel losses except where a ground-combat ledger explicitly combines them",
+      "purely hypothetical/future or superseded legacy battles",
+      "losses already adjudicated with the v046 land-hardware layer"
+    ],
+    "discovery_rule": "At ledger-build time scan the active frontier/current event family, not 99_LEGACY_UNTOUCHED and not stale future handouts. Candidate examples include GALVANIC Tarawa/Makin ground losses, Bengal/Arakan ground events, other active-branch Japanese-vs-Allied ground actions, and 6-Feb Kwajalein/Roi-Namur first-day losses; inclusion requires an active-path dated ledger."
+  },
+  "method": {
+    "no_blanket_multiplier": true,
+    "no_1944_backport_to_1941": true,
+    "maturity_source": "06_RUNTIME/JAPANESE_LAND_COMBAT_HARDWARE_LINEAGE_1932_1944_WORKING_v001.json#maturity_by_period",
+    "event_stage_gates": [
+      "Was the Japanese weapon/position/equipment physically present and not already destroyed/suppressed?",
+      "Was the target lane preregistered or observed with functioning wire/radio/visual control?",
+      "Did ammunition/fuzes survive storage and issue?",
+      "Did preparation time/material permit protected positions or obstacles?",
+      "Was the fight static/prepared, mobile/jungle, urban, amphibious, pursuit, or collapse/retreat?",
+      "Were Allied combined-arms suppression, armor, engineers, naval gunfire or artillery strong enough to erase the technical advantage before effective fire?"
+    ],
+    "death_vs_total_casualties": "Primary accounting target is Allied KIA/deaths for the consolidated death tally. If an old event provides only total killed+wounded or a broad casualty band, do not fabricate a KIA split; first reconstruct or bound the fatality share from event-local evidence.",
+    "outcome_guard": "Default to casualty-accounting correction only. Do not retroactively change geography, capture dates, strategic decisions or order of battle unless the event-local hardware re-audit demonstrates that the prior operational outcome becomes internally inconsistent.",
+    "double_count_guards": [
+      "Do not add hardware uptime as a second soft-C2 bonus when command succession/preregistered fire was already modeled.",
+      "Do not add landing-package availability gains again as weapon lethality after equipment is ashore/in position.",
+      "Do not convert artillery prepared-fire technical bands into a theater-wide hit-rate or casualty scalar.",
+      "Do not count fortification survivability twice if the old event already explicitly credited dispersed magazines/revetments."
+    ]
+  },
+  "expected_direction_not_amount": {
+    "prepared_amphibious_defense": "Usually modest upward Allied ground-death pressure if surviving registered weapons/crews were previously treated at historical technical reliability; can be near zero under overwhelming pre-landing suppression.",
+    "burma_bengal_sustained_ground_fighting": "Potentially more material than sealed-atoll cases because artillery/mortar/engineer/comms hardware can persist for days or weeks; requires separate event audit.",
+    "mobile_or_collapsing_battles": "Often small or ambiguous because observation, supply and prepared positions are absent.",
+    "net_total": "UNKNOWN until the consolidated ledger is rebuilt; v046 deliberately books no aggregate number."
+  },
+  "current_event_hold": {
+    "Kwajalein_Roi_Namur_6Feb": "Keep v043 first-day US ground/landing figure 430-620 killed+wounded plus separate LST-224 personnel loss as the current working figure. Mark it provisional for the later consolidated ledger; do not silently replace it in v046.",
+    "GALVANIC": "Keep closed GALVANIC outcome/casualty ledgers unchanged until the consolidated death-tally trigger. The land-hardware omission is a reserved accounting delta, not permission to reroll carrier/air/naval events."
+  }
+}

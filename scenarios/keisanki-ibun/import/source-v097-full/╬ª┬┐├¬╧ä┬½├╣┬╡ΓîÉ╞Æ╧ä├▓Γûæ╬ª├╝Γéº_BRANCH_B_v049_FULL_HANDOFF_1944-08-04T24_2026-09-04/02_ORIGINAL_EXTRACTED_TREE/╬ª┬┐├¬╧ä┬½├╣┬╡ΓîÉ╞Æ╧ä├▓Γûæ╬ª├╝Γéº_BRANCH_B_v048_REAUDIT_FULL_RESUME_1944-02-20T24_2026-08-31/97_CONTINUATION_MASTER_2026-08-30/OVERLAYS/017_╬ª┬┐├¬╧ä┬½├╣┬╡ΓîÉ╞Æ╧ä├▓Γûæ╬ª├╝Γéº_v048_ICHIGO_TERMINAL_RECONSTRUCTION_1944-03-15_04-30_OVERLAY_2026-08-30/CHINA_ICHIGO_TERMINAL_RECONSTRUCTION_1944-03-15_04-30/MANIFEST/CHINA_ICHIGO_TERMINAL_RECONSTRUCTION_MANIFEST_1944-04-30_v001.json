@@ -1,0 +1,25 @@
+{
+  "revision": "v001",
+  "id": "CHINA_ICHIGO_TERMINAL_RECONSTRUCTION_MANIFEST_1944-04-30_v001",
+  "status": "OVERLAY_MANIFEST_ADVANCES_CHINA_LOCAL_TIMELINE_WITHIN_EXISTING_GLOBAL_4_30_FRONTIER",
+  "global_frontier": "1944-04-30T24:00:00+09:00",
+  "apply_after": [
+    "計算機異聞_v048_CHINA_ICHIGO_STATE_DEEP_REAUDIT_1944-04-30_OVERLAY_2026-08-30.zip",
+    "計算機異聞_v048_PACIFIC_1944-04-16_30_OVERLAY_2026-08-30.zip"
+  ],
+  "load_new_files_in_order": [
+    "CHINA/ICHIGO_HUNAN_TERMINAL_PREPARATION_WEEKLY_1944-03-15_04-28_WORKING_v001.json",
+    "CHINA/CHINA_14AF_ICHIGO_DETECTION_INTERDICTION_1944-03-15_04-30_WORKING_v001.json",
+    "CHINA/ICHIGO_HUNAN_LAUNCH_GATE_RESOLUTION_1944-04-28_v001.json",
+    "CHINA/ICHIGO_HUNAN_OPENING_1944-04-28_30_WORKING_v001.json",
+    "CHINA/CHINA_STATE_1944-04-30T24_POST_ICHIGO_LAUNCH_WORKING_v001.json"
+  ],
+  "timing_change": "Resolves the reopened D-day as 1944-04-28 05:00 working center. Old 5/8-12 and 5/27 starts are no longer current authority.",
+  "clock_note": "Global frontier was already 1944-04-30; this overlay backfills synchronized China events through that same date rather than moving the world beyond 4/30.",
+  "forward_constraints": [
+    "Do not pre-award Changsha, Hengyang, Guilin or Liuzhou.",
+    "Do not debit prelaunch 14AF interdiction charges twice; they are embedded in weekly net stock/serviceability.",
+    "Do not treat Nanjing static workload release as assault-combat equivalence.",
+    "Keep Hengyang continuation conditional on post-Changsha transport and air-interdiction gate."
+  ]
+}

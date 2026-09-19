@@ -1,0 +1,108 @@
+{
+  "revision": "v001",
+  "id": "MARSHALL_AIR_OOB_1944-02-02T1630_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-02-02T16:30:00+12:00",
+  "derived_from": [
+    "06_RUNTIME/MARSHALL_AIR_OOB_1944-02-02T0930_WORKING_v002.json",
+    "06_RUNTIME/FLINTLOCK_SECOND_SUPPRESSION_CYCLE_1944-02-02_WORKING_v001.json"
+  ],
+  "theatre": {
+    "combat_serviceable_band": [
+      58,
+      67
+    ],
+    "combat_serviceable_center": 62,
+    "immediate_alert_or_search_capable_band": [
+      43,
+      53
+    ],
+    "fighter_serviceable_band": [
+      27,
+      32
+    ],
+    "fighter_serviceable_center": 29,
+    "Raiden_serviceable_band": [
+      5,
+      7
+    ],
+    "Raiden_center": 6,
+    "water_air_unique_serviceable_band": [
+      11,
+      15
+    ],
+    "water_air_center": 13,
+    "land_or_carrier_attack_serviceable_band": [
+      12,
+      16
+    ],
+    "land_or_carrier_attack_center": 14
+  },
+  "base_working_centers": [
+    {
+      "base": "Taroa",
+      "serviceable_center": 17,
+      "fighters_center": 10,
+      "Raiden_center": 4,
+      "C2": "C+/B-",
+      "runway": "emergency/intermittent"
+    },
+    {
+      "base": "Roi-Namur",
+      "serviceable_center": 12,
+      "fighters_center": 8,
+      "Raiden_center": 2,
+      "C2": "C+/B-",
+      "runway": "emergency/intermittent"
+    },
+    {
+      "base": "Kwajalein/Ebeye water-air",
+      "serviceable_center": 4,
+      "water_air_center": 4,
+      "C2": "local/fragmentary",
+      "water_support": "alternate lagoon points only"
+    },
+    {
+      "base": "Wotje",
+      "serviceable_center": 6,
+      "fighters_center": 2,
+      "attack_center": 2,
+      "C2": "remote/C+",
+      "runway": "limited/night-emergency"
+    },
+    {
+      "base": "Mili",
+      "serviceable_center": 6,
+      "fighters_center": 4,
+      "Kyofu_center": 2,
+      "C2": "remote degraded",
+      "runway": "intermittent"
+    },
+    {
+      "base": "Jaluit",
+      "serviceable_center": 4,
+      "fighters_center": 2,
+      "Kyofu_center": 1,
+      "C2": "remote degraded",
+      "water_support": "reduced"
+    },
+    {
+      "base": "Eniwetok",
+      "serviceable_center": 7,
+      "fighters_center": 0,
+      "land_attack_center": 6,
+      "C2": "B-/rear degraded",
+      "runway": "cratered but repairable for limited night use"
+    },
+    {
+      "base": "other dispersed water nodes",
+      "serviceable_center": 6,
+      "Kyofu_or_float_center": 5,
+      "C2": "local warning/recon"
+    }
+  ],
+  "sum_guard": "Base centers sum to 62. Fighter and water-air categories overlap where Kyofu is involved; do not sum role categories independently.",
+  "search_capacity": "3-4 useful search/confirmation sorties per day centered; one additional emergency confirmation may be surged only by consuming scarce water/recon readiness. Track quality now depends strongly on submarine cues because fixed-base radar/plot is degraded.",
+  "night_strike_capacity": "Across surviving land-attack fields, a 8-12 aircraft package is physically conceivable after repair/concentration, but 4-8 is the prudent launchable band without stripping all remaining reconnaissance/defense. Eniwetok contributes the largest intact share.",
+  "same_day_external_reinforcement": "Still zero fighter reinforcement credited from Truk/Ponape/Wake/Nauru. Future ferry orders pay transit and acceptance time."
+}

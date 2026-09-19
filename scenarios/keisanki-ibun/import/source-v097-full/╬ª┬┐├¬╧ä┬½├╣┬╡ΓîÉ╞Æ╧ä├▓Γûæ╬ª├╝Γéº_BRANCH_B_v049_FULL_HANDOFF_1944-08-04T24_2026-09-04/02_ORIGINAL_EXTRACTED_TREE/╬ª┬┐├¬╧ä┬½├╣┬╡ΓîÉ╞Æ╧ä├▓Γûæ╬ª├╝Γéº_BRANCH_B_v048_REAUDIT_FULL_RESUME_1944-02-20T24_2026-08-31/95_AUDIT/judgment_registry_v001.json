@@ -1,0 +1,158 @@
+{
+  "revision": "v001",
+  "claims": [
+    {
+      "claim_id": "TECH-AIR-ATTACK-ACCURACY-001",
+      "class": "engineering_derivation",
+      "runtime_status": "provisional_center",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "claim_id": "TECH-AIR-MEDIAN-RELIABILITY-001",
+      "class": "engineering_derivation",
+      "runtime_status": "conditional",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/53_海軍戦闘機・空冷発動機・噴進航空.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/47_航空機技術監査_1938-44_史実技術採用・時系列・再計算ゲート.md"
+      ]
+    },
+    {
+      "claim_id": "TECH-TORPEDO-SURFACE-ACCURACY-001",
+      "class": "engineering_derivation",
+      "runtime_status": "conditional",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/31_魚雷・水雷戦_魚雷本体・射撃指揮・再装填・運用.md"
+      ]
+    },
+    {
+      "claim_id": "TECH-TORPEDO-SECOND-SALVO-001",
+      "class": "engineering_derivation",
+      "runtime_status": "accepted",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/31_魚雷・水雷戦_魚雷本体・射撃指揮・再装填・運用.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "claim_id": "TECH-SUB-CONVENTIONAL-OPERABILITY-001",
+      "class": "engineering_derivation",
+      "runtime_status": "conditional",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/20_潜水艦_世代別設計・就役日程.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/21_潜水艦_任務体系・量産配備・潜高実戦運用.md"
+      ]
+    },
+    {
+      "claim_id": "TECH-SUB-KOU-FIRSTGEN-001",
+      "class": "engineering_derivation",
+      "runtime_status": "conditional",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/20_潜水艦_世代別設計・就役日程.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/21_潜水艦_任務体系・量産配備・潜高実戦運用.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "claim_id": "TECH-ASW-CONTACT-HANDOFF-001",
+      "class": "engineering_derivation",
+      "runtime_status": "accepted",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/41_艦艇対潜_探信・爆雷・護衛運用.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "claim_id": "TECH-SEARCH-MULTILAYER-001",
+      "class": "engineering_derivation",
+      "runtime_status": "conditional",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md"
+      ]
+    },
+    {
+      "claim_id": "TECH-RADAR-1942-HUMANLOOP-001",
+      "class": "engineering_derivation",
+      "runtime_status": "accepted",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/30_センサー射撃指揮_I-O連鎖.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "claim_id": "TECH-GUNFIRE-SURFACE-1942-001",
+      "class": "engineering_derivation",
+      "runtime_status": "accepted",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/30_センサー射撃指揮_I-O連鎖.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "claim_id": "TECH-COMINT-JP-HIGHGRADE-1942-001",
+      "class": "scenario_realization",
+      "runtime_status": "accepted",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/70_暗号・通信情報_設計防御・攻撃・運用.md"
+      ]
+    },
+    {
+      "claim_id": "TECH-COMINT-RESIDUAL-CHANNELS-1942-001",
+      "class": "scenario_realization",
+      "runtime_status": "accepted",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/70_暗号・通信情報_設計防御・攻撃・運用.md"
+      ]
+    },
+    {
+      "claim_id": "TECH-SURFACE-SPEED-ROBUSTNESS-001",
+      "class": "engineering_derivation",
+      "runtime_status": "conditional",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/10_水上艦_駆逐艦・戦艦改装・大和型.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    },
+    {
+      "claim_id": "TECH-INTEGRATION-RULE-001",
+      "class": "policy_rule",
+      "runtime_status": "accepted",
+      "survives_v001": true,
+      "reason": "Imported with source-stated maturity; no silent promotion of provisional values.",
+      "sources": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/61_技術からの自然な軍事的派生_戦術サイクル・任務階級・戦史再監査.md"
+      ]
+    }
+  ]
+}

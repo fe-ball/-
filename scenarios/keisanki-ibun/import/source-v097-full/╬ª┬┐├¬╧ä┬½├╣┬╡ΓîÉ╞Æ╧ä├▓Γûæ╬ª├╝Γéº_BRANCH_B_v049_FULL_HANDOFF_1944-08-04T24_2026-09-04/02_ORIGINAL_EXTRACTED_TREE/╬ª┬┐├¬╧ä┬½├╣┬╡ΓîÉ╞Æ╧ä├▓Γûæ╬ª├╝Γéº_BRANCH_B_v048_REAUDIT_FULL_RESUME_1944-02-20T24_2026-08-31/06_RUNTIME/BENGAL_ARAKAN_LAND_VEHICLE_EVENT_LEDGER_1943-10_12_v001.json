@@ -1,0 +1,143 @@
+{
+  "revision": "v001",
+  "id": "BENGAL_ARAKAN_LAND_VEHICLE_EVENT_LEDGER_1943-10_12_v001",
+  "status": "AUTHORITATIVE_EVENT_INPUT_AND_RESULT_LEDGER",
+  "period": "1943-10-28..1943-12-31",
+  "rollback_node": "1943-10-28 operation start before the Naf crossing",
+  "purpose": "Reconstruct the Bengal/Arakan land campaign with the v047 integrated Japanese land+vehicle system. Separate physical vehicles, serviceability, terrain, damage class and repair/reappearance before changing casualties or timing.",
+  "causal_independence_from_GALVANIC": {
+    "direct_US_personnel_or_vehicle_transfer": false,
+    "direct_Japanese_ground_unit_transfer": false,
+    "carrier_allocation_change": false,
+    "reason_for_reaudit": "The same missing Japanese land-hardware/vehicle layer found at Tarawa was also absent from the Bengal event ledger. Tarawa's numeric casualty delta is not copied to Bengal."
+  },
+  "fixed_operational_inputs": {
+    "main_formation": "Japanese 55th Division with traced engineer, mountain-artillery, communications and theater transport support",
+    "late_reinforcement": "54th Division advance/rear/logistics elements increase only in mid/late December; no full early-November combat division",
+    "armored_force": {
+      "independent_tank_regiment": 0,
+      "centered_combat_tank_count": 0,
+      "unverified_light_recon_sensitivity": "0-4 tankette/armored-car class vehicles may exist in rear/security roles, but they receive zero centered combat credit without a dated unit trace"
+    },
+    "allied_AFVs": "Retain the old 5-10 loss band. British/Commonwealth local armor is limited and terrain/bridge constrained; no new tank duel is created.",
+    "coastal_LOC": "Akyab -> small coastal ship/barge -> Naf/Teknaf/Cox's -> Daihatsu/small craft final delivery",
+    "front_supply_band_tpd": {
+      "contested_air_night_heavy": [150, 220],
+      "rule": "Vehicle reliability improves last-mile continuity inside the established band; it does not add tonnage to the sea spine or erase zero-output nights."
+    }
+  },
+  "land_vehicle_OOB": {
+    "scope": "55th Division organic motor transport plus specifically attached engineer/communications/Army-area road transport available to the operation; excludes landing craft, coastal vessels, animals and late 54th Division elements",
+    "physical_motor_vehicle_prime_mover_engineer_plant_band": [430, 560],
+    "operation_start_serviceable_crewed_fueled_band": [355, 465],
+    "forward_distribution_artillery_engineer_slice_band": [150, 225],
+    "rear_coastal_distribution_workshop_slice_band": [205, 285],
+    "interpretation": "The broad physical band is consistent with a standard Japanese division's roughly 500 organic-vehicle order of magnitude, then bounded for theater loss, attachments and the mixed motor/draft character of division transport. It is not an exact archival vehicle return.",
+    "branch_process_effect_already_inside_serviceable_band": {
+      "dispatchability_relative": "+5-12% where roads, fuel, drivers and spares exist",
+      "common_repair_time_relative": "-10-25%",
+      "average_extra_dispatchable_vs_historical_equivalent": "about 20-45 vehicles across the campaign, concentrated in trucks, light tractors, prime movers and engineer plant"
+    }
+  },
+  "terrain_and_reappearance": {
+    "Naf_Teknaf_Ukhia": "river crossings, weak tracks, residual wet-season mud and fragmented unloading constrain wheels; repair access is intermittent",
+    "Cox_Chakaria_Chiringa": "best road-axis interval; workshops and coastal resupply make 24-72h recovery most credible",
+    "Dohazari_Sangu_Karnaphuli": "bridges, ferries, demolitions, artillery and air interdiction again dominate; vehicles support guns/engineers and rear distribution rather than off-road maneuver",
+    "allowed_24_72h_reappearance_relative": "1.20-1.40x historical-equivalent for reachable repairable wheeled/prime-mover faults on the road axis",
+    "blocked_upper_band": "Do not use 1.6x: broken bridges, rivers, mud, Allied air activity and workshop displacement prevent a maintained open-road formation ceiling.",
+    "combat_role": "transport artillery ammunition and engineer stores, move observation/communications parties, tow or reposition guns, evacuate wounded, restore roads/bridges and keep the coastal-to-road handoff continuous"
+  },
+  "damage_classification": {
+    "old_undifferentiated_working_vehicle_loss_band": [80, 150],
+    "new_permanent_writeoff_destroyed_abandoned_band": [55, 95],
+    "new_campaign_temporary_mission_kill_band": [45, 80],
+    "returned_within_24_72h_band": [25, 50],
+    "year_end_long_repair_or_cannibalization_band": [15, 30],
+    "rule": "Temporary mission-kills and repaired vehicles are not added to permanent losses. Destroyed, drowned, captured or abandoned-behind-front vehicles never reappear."
+  },
+  "phase_results": [
+    {
+      "phase": "Naf-Teknaf-Ukhia",
+      "dates": "1943-10-28..1943-11-14",
+      "change_vs_v001": "Teknaf center moves from 5 Nov to late 4 Nov; Ukhia center remains 14 Nov but its upper tail contracts by about one day.",
+      "mechanism": "Fewer common transport/tractor dropouts and more reliable engineer/communications equipment; river and terrain limits remain."
+    },
+    {
+      "phase": "Cox's Bazar and logistics conversion",
+      "dates": "1943-11-15..1943-11-30",
+      "change_vs_v001": "Cox's Bazar capture centers late 20 Nov instead of 21 Nov. The following conversion pause remains necessary.",
+      "mechanism": "Improved road-axis dispatchability keeps artillery/ammunition/engineer packages together; the coastal tonnage ceiling is unchanged."
+    },
+    {
+      "phase": "Dohazari-Sangu-Patiya",
+      "dates": "1943-12-01..1943-12-08",
+      "change_vs_v001": "Dohazari attack begins 2 Dec and capture centers early 5 Dec, about 12-24 hours earlier.",
+      "mechanism": "Registered/corrected fire, tactical communications, prime movers, engineer plant and short coastal insertion form one cycle. Landing-package gains were already counted and are not added again."
+    },
+    {
+      "phase": "Karnaphuli crossing and Chittagong",
+      "dates": "1943-12-09..1943-12-15",
+      "change_vs_v001": "Crossing loss falls modestly and the city-entry window shifts to late 14 Dec-early 15 Dec, centered late 14 Dec.",
+      "mechanism": "Better engineer plant uptime, wire/radio reliability, ammunition issue and repairable vehicle return improve execution. British demolition begins in time and prevents a clean port seizure."
+    }
+  ],
+  "revised_casualties": {
+    "Japan": {
+      "combat_total_band": [5300, 7600],
+      "combat_total_center": 6300,
+      "KIA_MIA_band": [1550, 2150],
+      "WIA_other_combat_band": [3750, 5450],
+      "center_delta_vs_v001": -600,
+      "disease_episode_band": [4300, 6800],
+      "still_hospital_or_rest_year_end_band": [1100, 1650]
+    },
+    "British_Commonwealth": {
+      "combat_total_band": [7700, 11100],
+      "combat_total_center": 9300,
+      "KIA_band": [1700, 2350],
+      "WIA_band": [4500, 6100],
+      "POW_MIA_band": [1400, 2200],
+      "center_delta_vs_v001": 600,
+      "disease_nonbattle_episode_band": [3500, 5500]
+    },
+    "interpretation": "The exchange shifts toward Japan but not by the Tarawa ratio. Most Bengal fighting is moving, visibility-limited and supply-constrained, so only traced prepared-fire, artillery movement, communications, engineering and pursuit windows receive the branch effect."
+  },
+  "revised_equipment_losses": {
+    "Japan": {
+      "artillery_permanent_loss_band": [7, 13],
+      "vehicles_permanent_writeoff_band": [55, 95],
+      "vehicles_temporary_mission_kill_band": [45, 80],
+      "landing_craft_lost_band": [20, 30],
+      "landing_craft_heavily_damaged_band": [15, 25],
+      "small_coastal_ships_lost_band": [3, 6],
+      "aircraft_writeoff_band": [45, 60],
+      "note": "Landing-craft and aircraft bands are unchanged because the old settlement already used the dated amphibious/air allocation layers; the v047 vehicle correction is not stacked onto them."
+    },
+    "British_Commonwealth": {
+      "artillery_AT_AA_loss_band": [38, 60],
+      "AFV_loss_band": [5, 10],
+      "vehicle_loss_band": [390, 660],
+      "pack_animal_loss_band": [900, 1550],
+      "river_coastal_craft_loss_band": [20, 40],
+      "aircraft_writeoff_band": [40, 55]
+    }
+  },
+  "operational_outcome": {
+    "Chittagong_capture": "late 1943-12-14 to early 1943-12-15; centered late 14 Dec",
+    "British_field_army": "not annihilated; 5th and 26th withdraw, 7th escapes with most personnel but slightly fewer stragglers and more heavy equipment lost",
+    "7th_Indian_saved_personnel_working_band": [7700, 9100],
+    "port_condition": "heavy demolition still succeeds; no immediate high-throughput Japanese port",
+    "year_end_japanese_state": "55th Division remains exhausted but has about 300-600 more effective personnel available and 20-45 more dispatchable vehicles than implied by v001; defensive regeneration is modestly earlier, not an automatic Feni offensive",
+    "late_Dec_Chittagong_throughput_tpd": [320, 520],
+    "1944_front": "Feni-Comilla-Agartala stalemate hardens. No realized Japanese drive beyond Chittagong before or after year-end without a new supply/air/force gate."
+  },
+  "unchanged_dependencies": [
+    "GALVANIC carrier, surface, submarine and ground results",
+    "Bengal first-line/secondary carrier centered commitment zero",
+    "Fuso/Yamashiro and Ise/Hyuga old-battleship rotation method",
+    "54th Division transfer clock",
+    "British port/rail/bridge demolition success",
+    "1944 U-Go NO-GO",
+    "late-January/early-February Feni-Comilla stalemate and Central-Pacific priority for further Kinsei fighter allocation"
+  ]
+}

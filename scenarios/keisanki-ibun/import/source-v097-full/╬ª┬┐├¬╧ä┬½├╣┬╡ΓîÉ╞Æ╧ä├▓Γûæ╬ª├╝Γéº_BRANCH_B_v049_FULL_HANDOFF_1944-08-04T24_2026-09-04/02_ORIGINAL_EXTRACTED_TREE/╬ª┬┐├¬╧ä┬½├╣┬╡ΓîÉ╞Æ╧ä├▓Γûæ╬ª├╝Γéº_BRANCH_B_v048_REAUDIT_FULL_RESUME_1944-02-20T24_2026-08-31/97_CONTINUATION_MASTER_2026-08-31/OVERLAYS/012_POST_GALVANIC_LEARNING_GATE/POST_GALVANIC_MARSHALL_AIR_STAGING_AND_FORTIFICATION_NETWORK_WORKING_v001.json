@@ -1,0 +1,92 @@
+{
+  "id": "POST_GALVANIC_MARSHALL_AIR_STAGING_AND_FORTIFICATION_NETWORK_WORKING_v001",
+  "status": "WORKING_GATE_NOT_PROMOTED",
+  "time_window": "1943-11-29 through 1944-01 planning window",
+  "core_rule": "Treat Marshalls as a network of defended air/lagoon/logistics nodes plus rear staging islands. Post-GALVANIC lessons change placement, survival and repair; they do not create untraced aircraft or concrete fortresses.",
+  "lesson_latency": {
+    "0_7_days": "Observable/simple lessons: lagoon-side assault, LVT reef crossing, protected stores/comms survive bombardment, massed exposed assets die, support shipping remains vulnerable.",
+    "1_3_weeks": "Procedural lessons: all-around fire plans, alternate command posts/wire, dispersed ammunition/water, tank concealment/mobile-firepoint use, pre-registered anti-LVT lanes, runway/water-air recovery teams.",
+    "3_8_weeks": "Physical conversion where shipping/material/terrain allow: additional secondary positions, revetments, protected stores, alternate ramps/taxiways, local reserve routes and deeper use of available terrain. No automatic cave network or major new concrete fortress."
+  },
+  "nodes": [
+    {
+      "node": "Maloelap/Taroa",
+      "role": "eastern interceptor/search/attack base",
+      "post_Tarawa_change": "Already strong; emphasize alternate revetments, dispersed fuel/ammunition, runway repair, secondary local positions and deception. Construction increasingly contested by US bombing from December."
+    },
+    {
+      "node": "Wotje",
+      "role": "northeastern air/seaplane strongpoint",
+      "post_Tarawa_change": "Same outer-island expectation remains, so substantial reinforcement is rational; stronger fire-plan/secondary positions but atoll depth ceiling remains."
+    },
+    {
+      "node": "Mili",
+      "role": "southern attack/staging base",
+      "post_Tarawa_change": "Hardening improves aircraft survival/repair and coastal/lagoon defense; close to new US Gilbert airfields, so repeated suppression becomes a major construction tax."
+    },
+    {
+      "node": "Jaluit",
+      "role": "southern lagoon/water-air/logistics node",
+      "post_Tarawa_change": "Separate runway and water-air facilities; alternate ramps, fuel, crane/support craft dispersal and local defense become high-value."
+    },
+    {
+      "node": "Kwajalein/Roi/Ebeye",
+      "role": "central command/logistics/air/water-air hub",
+      "post_Tarawa_change": "Largest qualitative ground-defense correction: lagoon-side assault is no longer abstract. Add all-around registered fires, local fallback positions, reserve routes, redundant C2/stores. Do not assume Japan correctly predicts direct Kwajalein leapfrog."
+    },
+    {
+      "node": "Eniwetok",
+      "role": "western Marshall staging/reserve node",
+      "post_Tarawa_change": "Prioritize dispersal, staging, fuel/repair and warning more than beach-fortress construction until threat sharpens."
+    },
+    {
+      "node": "Kusaie/Kosrae",
+      "distance_nm_to_Kwajalein": 366,
+      "role": "rear staging/repair/ferry node",
+      "post_Tarawa_change": "Historical field was incomplete; Branch construction/logistics makes completion to useful staging status a major open gate. Do not credit large combat fighter force without a delivery/OOB ledger."
+    },
+    {
+      "node": "Ponape/Pohnpei",
+      "distance_nm_to_Kwajalein": 582,
+      "role": "second-echelon ferry/repair/logistics node",
+      "post_Tarawa_change": "Useful in Truk->Ponape->Kusaie->Marshall chain; direct sustained fighter defense of Kwajalein is not centered."
+    },
+    {
+      "node": "Wake",
+      "distance_nm_to_Kwajalein": 609,
+      "role": "northern warning/medium-bomber/recon node",
+      "post_Tarawa_change": "Can threaten Kwajalein approaches with medium/long-range aircraft but is not a free fighter-CAP reservoir."
+    },
+    {
+      "node": "Nauru",
+      "distance_nm_to_Kwajalein": 585,
+      "distance_nm_to_Jaluit": 420,
+      "distance_nm_to_Mili": 490,
+      "role": "southern long-range attack/recon/staging node",
+      "post_Tarawa_change": "Raised-island hardening helps support system survival; supply and repeated US bombing limit sustained output."
+    },
+    {
+      "node": "Truk",
+      "distance_nm_to_Kwajalein": 949,
+      "role": "strategic depot/carrier/air-group regeneration base",
+      "post_Tarawa_change": "Too far to behave as direct fighter base; feeds Marshalls through Eniwetok or Ponape/Kusaie staging chains and carries mobile fleet reserve."
+    }
+  ],
+  "air_bridge_geometry_nm": {
+    "Truk_to_Ponape": 379,
+    "Ponape_to_Kusaie": 302,
+    "Kusaie_to_Kwajalein": 366,
+    "Truk_to_Eniwetok": 665,
+    "Eniwetok_to_Kwajalein": 349,
+    "Wake_to_Kwajalein": 609,
+    "Nauru_to_Jaluit": 420,
+    "Nauru_to_Mili": 490
+  },
+  "shipping_reopen": "Absolute Nov-1943 to Jan-1944 cargo/ship-day allocation is NOT closed here. Next gate must ledger bulk construction cargo, engineer plant, ammunition, communications, aviation support and garrison movements by route and arrival date.",
+  "guards": [
+    "No Second Midway learning chain.",
+    "Do not use 1944 Marianas cave doctrine retroactively.",
+    "Do not turn staging range into simultaneous combat concentration.",
+    "Repeated US bombing reduces net construction output from mid-December onward."
+  ]
+}

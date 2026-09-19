@@ -1,0 +1,13 @@
+rank	scope	file_or_pointer	authority	status	action_on_conflict	notes
+1	resume/global	CURRENT-STATE-2026-08-29.json	current resume control	CURRENT	KEEP	Machine-readable entry point for this handoff.
+2	resume/global	CURRENT-HANDOFF-NOTES-2026-08-29.md	2026-08-29 discussion overlay	CURRENT-OVERLAY	KEEP	Latest substantive resume state; not semantic v49 promotion.
+3	ground diesel	GROUND-DIESEL-FAMILY-D-A-D-D-V1.tsv	8/29 overlay normalized against v48 military diesel family bands	OVERLAY-WORKING	KEEP	Independent lineage ledger; exact rating mapping remains partly OPEN.
+4	ground dust	GROUND-DUST-COMPARISON-INPUTS-V1.tsv	mechanically extractable comparison inputs	WORKING	KEEP	Unknown diesel airflow/filter parameters remain explicit OPEN inputs.
+5	GT capability	ASAI-GT-FRONT-SCALE-RATING-PRODUCTS-V14-COST.xlsx	current 8/29 GT capability ledger	CURRENT-OVERLAY	KEEP	Internal README title normalized from V13 to V14-COST; quantitative content unchanged.
+6	epoxy/FRP	ASAI-EPOXY-FRP-CAPABILITY-LEDGER-V2-COST.xlsx	current 8/29 materials/cost ledger	CURRENT-OVERLAY	KEEP	Version metadata normalized from V1 to V2-COST; quantitative content unchanged.
+7	aviation jet origins	ASAI-E3-E4-JET-FLIGHT-ORIGIN-V12.md; ASAI-E3-E4-JET-FLIGHT-ORIGIN-V12.tsv	current 8/29 technical overlay	CURRENT-OVERLAY	KEEP	Separates fixed/derived/open flight-origin claims.
+8	aviation single rear jet	ASAI-SINGLE-REAR-JET-SIZING-V11.md; ASAI-SINGLE-REAR-JET-SIZING-V11.tsv	current 8/29 sizing overlay	CURRENT-OVERLAY	KEEP	Not a canonical aircraft adoption.
+9	marine	inside zip: 2026-08-27-marine-gt-handoff/132-PROCESSED-START-HERE-V10.md	Marine processed V10	CURRENT-MARINE-OVERLAY	KEEP	Use with 133 process-state and 131 precedence overlay.
+10	base all topics	inside zip: CURRENT-CANONICAL-STATE.md + v48r3 machine layer	semantic v48 / machine v48r3	BASE	KEEP	Controls topics not superseded by an explicit overlay.
+90	marine stale entry	inside zip: MARINE-GT-PROCESSED-START-HERE-2026-08-28.md	old root pointer	STALE-ENTRY	SUPERSEDE-AS-ENTRY	Points to V5 although V10 exists. Preserve as history only.
+91	seaplane/flying boat	asai-works-seaplane-flyingboat-rebaseline-1940-44.md	self-described v24 canonical	REFERENCE-QUARANTINE	DO-NOT-AUTO-PROPAGATE	Needs explicit precedence/re-promotion before changing current state.

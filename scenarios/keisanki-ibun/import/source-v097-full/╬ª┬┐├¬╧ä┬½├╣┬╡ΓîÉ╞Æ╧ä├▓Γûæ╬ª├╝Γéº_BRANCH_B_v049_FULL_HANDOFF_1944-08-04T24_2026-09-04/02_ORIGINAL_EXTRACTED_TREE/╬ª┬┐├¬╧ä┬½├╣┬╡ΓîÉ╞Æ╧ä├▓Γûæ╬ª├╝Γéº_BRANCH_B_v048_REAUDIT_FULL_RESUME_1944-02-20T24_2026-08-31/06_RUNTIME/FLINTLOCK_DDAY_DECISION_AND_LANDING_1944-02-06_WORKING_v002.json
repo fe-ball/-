@@ -1,0 +1,56 @@
+{
+  "revision": "v002",
+  "id": "FLINTLOCK_DDAY_DECISION_AND_LANDING_1944-02-06_WORKING_v002",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "discussion_clock_end": "1944-02-06T18:00:00+12:00",
+  "purpose": "v043 D-Day result preserved exactly for geography/timing and current casualty numbers; v046 adds only the missing land-hardware provenance and a deferred casualty-reconciliation flag.",
+  "decision": {
+    "main_assault_D_day": "1944-02-06",
+    "why_not_5Feb": [
+      "3-Feb carrier exchange consumes a suppression/air-superiority day and temporarily interrupts Intrepid while removing Cabot.",
+      "Marshall local aviation remains nonzero and water-air/submarine reconnaissance continues.",
+      "An extra day permits old-battleship/CVE/TF57 suppression, channel-islet work and redistribution after LST-224 loss."
+    ],
+    "why_not_later": [
+      "Intrepid is back near normal by 4-Feb; ten US fast decks remain.",
+      "Assault troops and shipping are already on station; waiting longer increases submarine/night-air exposure.",
+      "US fire-support and CVE forces remain largely intact and can compensate for the one lost LST."
+    ]
+  },
+  "prelanding_4_5Feb": {
+    "Majuro": "Occupied by the small US Majuro group on 4-Feb centered with no organized resistance; anchorage immediately useful for security/logistics, full base development still future.",
+    "air_and_naval_suppression": "4-5 Feb use TF58, TF57/Gilberts, six CVE close-support groups and old battleships/cruisers to continue Taroa/Roi/Kwajalein/Wotje suppression and detailed beach/fire-plan preparation. 3-Feb carrier battle prevents a perfectly uninterrupted historical-style schedule but does not remove overwhelming US local firepower.",
+    "Japanese_air_before_main_landing": "Marshall serviceable combat aircraft fall from ~47 at 3-Feb 15:30 to about 24-30 at 6-Feb dawn centered ~27; only about 10-13 are serviceable fighters and 4-6 attack aircraft. Water-air/recon retains a few useful aircraft, so warning survives longer than runway-based strike strength.",
+    "Kinsei_forward_order": "The late-Jan 6-8 Kinsei forward-order is stopped/retained at Truk/Ponape staging after the 2-3 Feb suppression picture; no late magical reinforcement into Taroa/Roi is credited."
+  },
+  "landing_execution": {
+    "preliminary_islets": "5-Feb late/6-Feb pre-dawn: channel/flanking islets are seized to open lagoon approaches and establish artillery/observation; resistance is light-to-moderate and cannot deny the passes.",
+    "Roi_Namur": "4th Marine Division main assault 6-Feb morning after heavy naval/air preparation. Roi beachhead and much of the airfield are secured by evening; organized resistance remains on/around Namur and debris/strongpoints. The alerted defenders inflict more local casualties than a completely surprised garrison but cannot form a coherent beach denial system under the bombardment.",
+    "Kwajalein": "7th Infantry Division main assault 6-Feb morning. LVT/LVT(A), artillery from flanking islets, destroyer/old-battleship gunfire and CVE support put the first waves ashore successfully. The loss of one tractor-unit LST reduces equipment/unloading margin but does not strand a regiment. By evening a secure western beachhead and meaningful inland advance are established; island not yet declared secure.",
+    "air_interference": "Remaining Japanese aircraft mount scattered interception/recon/harassment, not a coordinated mass strike. US CAP and repeated runway/lagoon-node suppression prevent them from disrupting the landing timetable."
+  },
+  "centered_first_day_costs": {
+    "US_ground_and_landing_force": "Not a full-campaign total. 6-Feb landing/ashore combat centered roughly 430-620 killed+wounded across northern and southern sectors, excluding the LST-224 submarine casualties; higher than the extremely smooth historical first landing hours but far below Tarawa-level failure.",
+    "US_submarine_interdiction": "LST-224 loss adds about 70-110 killed/missing/wounded and material/vehicle loss before D-Day.",
+    "Japan": "Several thousand garrison troops remain fighting at 18:00; no centered surrender/collapse on the first main-assault day. Air component is nearly combat-exhausted but not literally zero."
+  },
+  "state_at_1800": {
+    "US": "Both main beachheads secure enough to sustain unloading. Roi largely overrun; Namur and Kwajalein continue. D-Day succeeds operationally.",
+    "Japan": "Kwajalein/Roi-Namur cannot be reinforced at scale. Remaining submarines and water-air give warning/reporting but no operational mechanism exists to eject the landing force.",
+    "next": "Resolve 7-9 Feb ground reduction, remaining submarine attrition/withdrawal and post-capture airfield/logistics activation; then re-evaluate Eniwetok/Truk timing with Cabot out and Japanese carrier-air cadre debt."
+  },
+  "historical_sanity_anchors": [
+    "Historical Flintlock used about 54,000 assault troops and nearly 300 amphibious/support ships, with 4th Marine Division at Roi-Namur and 7th Infantry Division at Kwajalein.",
+    "Historical US amphibious improvements after Tarawa included LVT(A), improved LVT-2 and gun/rocket LCIs; Branch retains these lessons.",
+    "Historical Kwajalein was decided by overwhelming naval gunfire/air support and division-scale amphibious lift; Branch Japanese warning changes the cost and timing, not this force ratio."
+  ],
+  "land_hardware_accounting_status": {
+    "hardware_layer_ref": "06_RUNTIME/JAPANESE_LAND_COMBAT_HARDWARE_LINEAGE_1932_1944_WORKING_v001.json",
+    "retro_reservation_ref": "06_RUNTIME/ALLIED_DEATH_TALLY_RETROACTIVE_LAND_HARDWARE_RESERVATION_1941_1944_WORKING_v001.json",
+    "casualty_numbers": "PROVISIONAL_HELD_UNCHANGED_UNTIL_CONSOLIDATED_ALLIED_DEATH_TALLY",
+    "no_reroll_in_v046": true,
+    "geography_and_Dday": "LOCKED_AS_v001",
+    "note": "The newly noticed non-software land-hardware layer may modestly change the eventual Allied death/casualty accounting. Per user direction, v046 books no numerical correction now."
+  },
+  "supersedes": "FLINTLOCK_DDAY_DECISION_AND_LANDING_1944-02-06_WORKING_v001"
+}

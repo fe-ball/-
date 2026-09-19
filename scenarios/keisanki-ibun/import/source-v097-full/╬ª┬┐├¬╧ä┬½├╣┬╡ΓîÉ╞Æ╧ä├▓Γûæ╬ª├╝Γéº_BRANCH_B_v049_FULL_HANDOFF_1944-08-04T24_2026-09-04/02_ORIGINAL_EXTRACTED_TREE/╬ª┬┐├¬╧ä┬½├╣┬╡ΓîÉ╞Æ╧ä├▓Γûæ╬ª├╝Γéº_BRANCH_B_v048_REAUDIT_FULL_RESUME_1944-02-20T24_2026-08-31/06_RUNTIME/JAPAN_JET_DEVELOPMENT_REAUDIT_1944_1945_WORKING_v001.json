@@ -1,0 +1,163 @@
+{
+  "id": "JAPAN_JET_DEVELOPMENT_REAUDIT_1944_1945_WORKING_v001",
+  "status": "WORKING_MULTI_GATE_TECH_SCHEDULE_NOT_CURRENT_AUTHORITY",
+  "package_revision": "v036",
+  "discussion_clock_center": "1944-01-28",
+  "scope": "Rebuild Japanese jet/rocket development from domestic pre-I-29 research plus the revised Yanagi route/information cascade. Separates bench, captive airborne test, self-propelled flight, flight-rated engine, airframe integration and operational evaluation.",
+  "authority_note": "No 1944 jet combat unit is realized. Later dates are conditional development windows, not guaranteed future history.",
+  "source_state_at_1944_01_28": {
+    "navy_domestic_line": "First Air Technical Arsenal TR family began in 1942. Branch metrology/rotor-analysis/process control permits repeatable short self-sustaining bench runs on selected domestic centrifugal/hybrid demonstrators by late 1943, but not durable flight-rated engines.",
+    "army_domestic_line": "Army/Kawasaki Ne-0..4 research exists independently. Historical Ne-0 achieved an airborne test; Ne-3/Ne-4 designs were 1943 work with spring-1944 ground-test plans. Keep Army nomenclature and Navy TR/Ne lines separate.",
+    "materials": "Selective 20-40 t Ni-equivalent high-temperature research allocation supports multiple prototype material/heat-treatment lots, not mass-production turbine life.",
+    "german_direct_effect_by_date": "ZERO physical BMW/Jumo/HWK effect in Japan on 28 Jan 1944. I-30/I-8/RO-500 contribute measurement/fault-diagnosis culture and exchange infrastructure, not a hidden jet engine."
+  },
+  "revision_of_old_schedule": {
+    "old_line": "Legacy material used a Mar-May 1944 'Ne-4 pure turbojet first flight' centerline.",
+    "new_adjudication": "REJECT_AS_TOO_COMPRESSED_FOR_SELF_PROPELLED_PURE_JET_FLIGHT",
+    "reasoning": [
+      "Historical Japanese Army Ne-0 had airborne auxiliary/ramjet testing and Ne-3/Ne-4 spring-1944 ground-test plans, showing airborne test culture existed, but this is not equivalent to a reliable self-propelled turbojet aircraft.",
+      "A self-propelled jet requires engine endurance, throttle/transient control, restart/reliability, inlet/nacelle integration, fuel system, airframe sizing and safe takeoff/landing margins beyond a short bench run.",
+      "Branch compute/metrology can advance diagnosis and reduce failed iterations, but does not remove hot-section materials, bearing/seal, balance and control-system bottlenecks."
+    ],
+    "replacement_1944_H1_gate": "Q2 1944 captive-carry / underwing airborne hot-run and thrust/combustion measurement is strongly plausible on domestic lines; self-propelled pure-jet airframe is not centered in Mar-May."
+  },
+  "bottleneck_matrix": [
+    {
+      "card": "compressor architecture",
+      "domestic_28Jan": "centrifugal/hybrid experience; axial theory available but compact high-pressure multistage practical design not closed",
+      "I34_text_if_future": "large pruning value",
+      "I34_paper_small_hw": "large",
+      "I29_BMW_photos": "large",
+      "physical_Jumo": "medium comparison"
+    },
+    {
+      "card": "turbine hot section / blade life",
+      "domestic_28Jan": "major open bottleneck; selected Ni research lots only",
+      "I34_text_if_future": "medium-high philosophy/failure information",
+      "I34_paper_small_hw": "high if samples/test reports",
+      "I29_BMW_photos": "low-medium",
+      "physical_Jumo": "very high"
+    },
+    {
+      "card": "bearings, seals, high-speed balance",
+      "domestic_28Jan": "open but improving from precision measurement",
+      "I34_text_if_future": "medium",
+      "I34_paper_small_hw": "high",
+      "I29_BMW_photos": "medium",
+      "physical_Jumo": "very high"
+    },
+    {
+      "card": "combustor/sheet metal/welding",
+      "domestic_28Jan": "working prototypes but life/uniformity open",
+      "I34_text_if_future": "medium",
+      "I34_paper_small_hw": "high",
+      "I29_BMW_photos": "medium",
+      "physical_Jumo": "high"
+    },
+    {
+      "card": "fuel control/throttle/restart",
+      "domestic_28Jan": "major open operational bottleneck",
+      "I34_text_if_future": "medium",
+      "I34_paper_small_hw": "high",
+      "I29_BMW_photos": "medium",
+      "physical_Jumo": "very high"
+    },
+    {
+      "card": "airframe integration/inlet/nacelle",
+      "domestic_28Jan": "not closed; domestic high-speed airframe knowledge exists",
+      "I34_text_if_future": "medium via Me262 observations",
+      "I34_paper_small_hw": "medium-high",
+      "I29_BMW_photos": "medium-high",
+      "physical_Jumo": "medium"
+    },
+    {
+      "card": "production philosophy / short-life replaceable engine",
+      "domestic_28Jan": "Japanese programs tend to chase life/precision without German combat-production reference",
+      "I34_text_if_future": "high organizational value",
+      "I34_paper_small_hw": "high",
+      "I29_BMW_photos": "medium",
+      "physical_Jumo": "high"
+    }
+  ],
+  "conditional_development_timeline_centerline": [
+    {
+      "window": "1944-01-28",
+      "state": "Domestic TR/Army Ne research only. Short repeatable bench runs exist on selected demonstrators; no flight-rated turbojet, no operational jet airframe, no German physical jet hardware in Japan."
+    },
+    {
+      "window": "1944-Feb-Mar",
+      "state": "Domestic bench endurance/throttle-band work continues. Army Ne-3/Ne-4 and Navy TR lines remain separate. If I-34 reaches Europe in early Feb, Mitsubishi engineers/technical party inspect BMW003/Jumo004/Me262/Me163 and German production/test practice. Low-bandwidth secure technical summaries can reach Japan in late Feb/Mar without waiting for the hull return.",
+      "organizational_effect_if_gate_opens": "Create an inter-service axial-reference/test conference around Mar-Apr: common measurement terms, requested German measurements and a parallel axial study. It does not merge Army/Navy production programs or eliminate rivalry."
+    },
+    {
+      "window": "1944-Apr-Jun",
+      "state": "Domestic centrifugal/hybrid engines attempt longer selected bench runs and captive airborne hot-run/thrust measurements. A low-value rush to a dedicated pure-jet flight is not preferred. If I-34 Europe-information gate opened, an axial preliminary layout is already being worked from textual dimensions/stage architecture while exact profiles remain unknown."
+    },
+    {
+      "window": "1944-Jun-Jul",
+      "state": "Conditional I-34 return information/small-hardware gate may deliver drawings, measurements, samples and control/bearing parts to Southeast Asia/Japan before or near I-29's historical July Singapore information gate. Center cargo is precision information/small hardware rather than a duplicate full engine. If I-34 fails on return, the earlier secure textual summaries are still retained."
+    },
+    {
+      "window": "1944-Jul-Aug",
+      "state": "Conditional I-29 Singapore information gate delivers fuller Me262/Me163/BMW003-related blueprints/photos and personnel notes by air. If I-29 then survives the separate Japan hardware gate, Jumo004B/HWK509A-1 physical artifacts can reach Japan around late Jul/Aug. Do not assume a physical BMW003 engine."
+    },
+    {
+      "window": "1944-Aug-Oct",
+      "state": "Detailed practical axial engine design freezes only after enough exact paper/measurement input exists. Domestic TR/Ne test data are used as a failure database; German data prune architecture rather than starting the program from zero. Twin-jet experimental airframe work can proceed in parallel, preferably podded engines for interchange/maintenance."
+    },
+    {
+      "window": "1944-Oct-Dec",
+      "state": "Best-case conditional window for first integrated Ne-20-like axial bench articles to make short runs if I-34 early observation plus later paper/hardware gates all succeed. This is an experimental engine, not a service engine. Without those gates, move this to Dec 1944-Feb 1945."
+    },
+    {
+      "window": "1945-Jan-Mar",
+      "state": "Conditional window for selected 20-30 minute damage-controlled bench endurance, fuel-control stabilization and flight-rated pairs. Hot-section life remains measured in short operational hours, not peacetime overhaul life."
+    },
+    {
+      "window": "1945-Feb-Apr",
+      "state": "Earliest centered window for a purpose-built twin-jet experimental aircraft first flight if the favorable I-34/I-29 information chain and engine bench gates both succeed. Center around Mar 1945; no 1944 combat jet."
+    },
+    {
+      "window": "1945-mid/late",
+      "state": "Limited operational evaluation may be possible in reconnaissance/light-strike/point-intercept roles if production, fuel, pilot conversion and engine-life gates survive wartime disruption. Piston fighters remain the mass combat force."
+    }
+  ],
+  "airframe_and_mission_reaudit": {
+    "why_not_copy_historical_Kikka_schedule": "Historical Kikka was ordered in Sep 1944 under deteriorating-war pressure and Me262 influence. Branch has earlier domestic jet work and potentially earlier German information, but also less desperation to rush a one-way/short-life combat aircraft. Earlier engineering study does not automatically mean earlier operational deployment.",
+    "working_airframe_policy": "Authorize an experimental twin-jet high-speed research/recon/light-attack airframe in mid-1944 only after thrust/mass envelopes become credible. Podded engines are favored for interchange, access and parallel domestic/German-derived engine testing.",
+    "fighter_role_limit": "Early thrust-to-weight and engine life make a true high-performance fleet fighter harder than a research/recon/light-strike aircraft. Do not assume a 1944 'jet interceptor' solution to F6F/F4U/Spitfire performance."
+  },
+  "rocket_Me163_HWK_branch": {
+    "state_28Jan": "No HWK509 physical motor or complete Me163 package in Japan.",
+    "I34_future_text_effect": "Can transmit concept, performance and broad propulsion/handling cautions after inspection but cannot replace drawings/pump/injector/control hardware.",
+    "RO501_future": "Potential blueprint route remains unresolved because its historical loss was direct ASW; Branch COMSEC does not erase it automatically.",
+    "I29_future": "Blueprints/personnel information can move from Singapore by air; physical HWK509A-1 requires the hardware gate.",
+    "operational_limit": "Peroxide/methanol-hydrazine handling, pump/injector seals, material compatibility, pilot training and ground-safety infrastructure remain major bottlenecks. No 1944 operational rocket interceptor."
+  },
+  "industrial_and_organizational_constraints": [
+    "20-40 t Ni-equivalent priority research allocation supports prototype hot-section trials but not broad jet mass production.",
+    "Precision bearings, high-speed balancing, seals, compressor blade repeatability, thin-sheet combustor fabrication, turbine blade life, fuel controls and test-cell capacity remain scarce skills/equipment.",
+    "Army-Navy duplication is reduced by shared measurements/reports if I-34 opens the early information gate, but institutional rivalry and separate requirement chains remain.",
+    "Every jet-engine priority competes with Homare/Ha-43/Kinsei piston-engine production, supercharger research, radar/electronics, ship machinery and skilled tool-room labor.",
+    "More time and better information can rationally be spent on robust piston-aircraft production rather than forcing an immature jet into combat."
+  ],
+  "scenario_branches": {
+    "A_favorable_I34_and_I29": "I-34 Europe arrival + early text + return paper/small hardware + I-29 Singapore information + I-29 Japan bulky hardware. Ne20-like short bench Oct-Dec44, flight-rated pair Jan-Mar45, experimental twin-jet flight Feb-Apr45.",
+    "B_I34_information_only_I29_information_no_bulky_hardware": "Early axial pruning still occurs; exact hot-section/control replication slower. Ne20-like bench Dec44-Feb45; flight Mar-May45; aircraft flight Apr-Jun45.",
+    "C_I34_fails_before_Europe_I29_historical_information_gate_only": "Reverts toward a corrected historical-like path: July44 photos/drawings become the first exact axial architecture input; Branch domestic baseline still shortens iteration, but first practical engine and aircraft remain 1945.",
+    "D_no_German_jet_input": "Domestic TR/Ne work continues as centrifugal/hybrid research and captive flight-test program. It may achieve experimental self-propelled flight later, but no credible 1944 operational jet and no automatic Ne20 architecture."
+  },
+  "combat_relevance_by_year": {
+    "1944": "Engineering/test benefit only. No operational jet fighter, no Marianas jet CAP, no jet replacement for Kinsei-Zero/Raiden/Shiden-Kai/Reppu/Ki-84.",
+    "1945": "Potential limited experimental/operational evaluation if route and industrial gates succeed; quantities small and mission-specific.",
+    "strategic_rule": "The greatest 1944 value of the Yanagi jet cascade is reducing wrong design branches and building test/measurement capability, not battlefield aircraft count."
+  },
+  "future_adjudication_triggers": [
+    "When discussion clock reaches projected I-34 Europe-arrival window, adjudicate actual arrival/inspection and exact information transmitted.",
+    "When I-34 return begins, adjudicate manifest and return-route survival separately.",
+    "At I-29 Europe/Singapore gates, separate paper/personnel from Jumo/HWK physical cargo and do not invent BMW003 physical hardware.",
+    "At RO-501/I-52 dates, adjudicate direct ASW/COMINT mechanisms individually rather than granting automatic survival.",
+    "Recalculate jet dates after any major industrial bombing/resource shock rather than treating this schedule as guaranteed."
+  ],
+  "hard_guard": "No 1944 operational jet or rocket combat unit is credited."
+}

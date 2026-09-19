@@ -1,0 +1,35 @@
+{
+  "id": "FLINTLOCK_1944-02-05T24_WORKING_CHECKPOINT_v001",
+  "status": "WORKING_FRONTIER_CHECKPOINT_NOT_CANONICAL",
+  "as_of": "1944-02-05T24+12:00",
+  "US": {
+    "D_day": "1944-02-06 FIRM_WORKING_GO",
+    "fast_carriers": "10 physical operational decks; Cabot campaign-out, Intrepid near-normal deck function but fleet air-group fatigue/attrition persists",
+    "surface": "old-battleship/CVE/close-fire package in assault geometry; most fast-BB strength remains fleet/anti-surface cover with limited intermediate redistribution",
+    "amphibious": "one unnamed LST-class hull mission-killed by submarine on 5-Feb; lift/tractor package redistributed, not aborted",
+    "Majuro": "occupied 4-Feb centered without organized resistance"
+  },
+  "Japan": {
+    "carriers": "first-line force withdrawing/preserving after 2-Feb battle; no second fleet strike centered",
+    "Marshall_air_dawn6": "24-30 combat-serviceable centered 27",
+    "sensor": "primary target-island radar mostly destroyed/intermittent; distributed visual/DF/radio/telephone/water-air warning persists",
+    "ground": "lagoon-side fire plans, local reserves, distributed ammunition and protected comms loaded; no deep-defense miracle",
+    "armor": "no Japanese tank platoon credited on Kwajalein/Roi; Namur has only the previously traced 0-1 contact-capable Type 94 tankette"
+  },
+  "submarines": {
+    "US_loss_or_damage": "one unnamed LST-class mission-killed; no CVE/APA/battleship hit centered",
+    "Japan": "one conventional submarine sunk, one mission-damaged/withdrawn after successful attack; remaining boats report from less favorable geometry"
+  },
+  "reopened_next": [
+    "6-Feb main landings at Roi-Namur and Kwajalein from this exact prelanding state",
+    "first-day LVT/tank/engineer/gunfire traffic and congestion",
+    "local Japanese remanning/counterattack behavior after bombardment lifts",
+    "remaining Japanese air/submarine interference during unloading"
+  ],
+  "guards": [
+    "Do not inherit old LST-224 identity or constructive-total-loss result.",
+    "Do not inherit old first-day casualty bands without re-running the strengthened ground/sensor/AA and changed lift state.",
+    "Do not add untraced Japanese tanks.",
+    "Do not treat surviving radar/AA components as intact system-wide control."
+  ]
+}

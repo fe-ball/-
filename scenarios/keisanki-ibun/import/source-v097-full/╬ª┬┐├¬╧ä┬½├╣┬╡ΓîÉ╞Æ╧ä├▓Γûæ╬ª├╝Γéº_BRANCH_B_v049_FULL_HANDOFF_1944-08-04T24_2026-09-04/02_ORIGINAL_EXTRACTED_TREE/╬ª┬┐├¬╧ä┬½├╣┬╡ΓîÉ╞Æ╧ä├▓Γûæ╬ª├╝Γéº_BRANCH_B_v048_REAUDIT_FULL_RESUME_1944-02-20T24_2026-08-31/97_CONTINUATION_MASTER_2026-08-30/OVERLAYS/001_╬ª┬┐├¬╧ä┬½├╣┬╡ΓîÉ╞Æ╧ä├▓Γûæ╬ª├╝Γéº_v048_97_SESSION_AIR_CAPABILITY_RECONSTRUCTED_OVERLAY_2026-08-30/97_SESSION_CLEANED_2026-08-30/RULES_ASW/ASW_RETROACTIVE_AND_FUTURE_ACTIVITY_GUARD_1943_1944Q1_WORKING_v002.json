@@ -1,0 +1,159 @@
+{
+  "revision": "v002",
+  "id": "ASW_RETROACTIVE_AND_FUTURE_ACTIVITY_GUARD_1943_1944Q1_WORKING_v002",
+  "status": "WORKING_BRANCH_AUDIT_OVERLAY_NOT_CURRENT",
+  "as_of": "1944-02-21",
+  "purpose": [
+    "Prevent historical US/British submarine sinkings from being inherited one-for-one where Branch Tokai/Ka-go/escort/COMSEC coverage exists.",
+    "Carry Japanese ASW effects into US submarine physical and effective-patrol wallets.",
+    "Require an explicit local ASW sortie/coverage check whenever future Allied submarine activity is adjudicated."
+  ],
+  "canonical_inputs": [
+    "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+    "02_TECH/TECH_INDEX_v009.json"
+  ],
+  "merchant_loss_reaudit": {
+    "principle": "Do not add a second blanket merchant-fleet bonus. Current Branch early-1944 merchant/tanker afloat bands are already substantially healthier than historical. Reallocate part of that preservation to ASW and re-adjudicate individual submarine attacks instead.",
+    "historical_anchor": "US submarines sank about 1.342 million tons of Japanese merchant shipping >=1000 tons in 1943 in the US Navy official report.",
+    "branch_incremental_ASW_saved_GRT_working": {
+      "1943_full_year": [
+        80000,
+        130000
+      ],
+      "1944_Jan_Apr_additional": [
+        50000,
+        90000
+      ],
+      "cumulative_to_1944_04_30": [
+        130000,
+        220000
+      ]
+    },
+    "global_US_submarine_caused_merchant_loss_reduction_vs_historical_equivalent": {
+      "1942H2": "2-5%",
+      "1943H1": "4-8%",
+      "1943H2": "7-12%",
+      "1944_Jan_Feb": "8-13%",
+      "1944_Mar_Apr": "10-15%"
+    },
+    "priority_covered_lane_reduction": {
+      "1943H1": "10-20%",
+      "1943H2": "15-25%",
+      "1944Q1": "20-30%"
+    },
+    "guards": [
+      "These percentages apply to US-submarine-caused merchant losses or attack realization, not to all Japanese shipping losses from all causes.",
+      "Do not apply both the global and priority-lane reductions to the same event.",
+      "Higher Japanese target density from preserved shipping partly offsets the ASW improvement; do not convert attack-opportunity reduction directly into the same percentage of GRT saved.",
+      "COMSEC benefit enters as fewer well-cued ambushes, not as a sensor bonus."
+    ]
+  },
+  "US_submarine_wallet_working": {
+    "historical_equivalent_estimate_note": "Exact date-specific Pacific US submarine hull roster remains to be rebuilt; use a band until a hull-by-hull ledger is made.",
+    "1944_02_physical_theater_pool_estimate": [
+      105,
+      120
+    ],
+    "1944_02_simultaneous_effective_patrol_special_mission_pool_estimate": [
+      40,
+      52
+    ],
+    "branch_delta_1944_02": {
+      "additional_permanent_losses_vs_historical_equivalent": [
+        0,
+        1
+      ],
+      "additional_repair_or_early_return_unavailable_equivalents": [
+        2,
+        4
+      ],
+      "effective_pool_net_delta": [
+        -4,
+        -2
+      ]
+    },
+    "branch_delta_1944_04_30": {
+      "additional_permanent_losses_vs_historical_equivalent": [
+        1,
+        2
+      ],
+      "additional_repair_or_early_return_unavailable_equivalents": [
+        2,
+        4
+      ],
+      "effective_pool_net_delta": [
+        -6,
+        -3
+      ]
+    },
+    "interpretation": "The Branch does not cripple US submarine force generation. It trims local simultaneous coverage and patrol-days enough to matter at operational gates."
+  },
+  "Tokai": {
+    "clock": {
+      "1942_summer_autumn": "first flight",
+      "1942_late_1943_H1": "radar-centered initial unit trials",
+      "1943": "MAD-capable trial/initial deployment",
+      "1943_late_1944_H1": "radar+MAD integrated standard production"
+    },
+    "future_event_gate": [
+      "Was a Tokai detachment physically based within useful radius on the date?",
+      "How many serviceable aircraft and trained crews were available?",
+      "Weather/day-night state and runway/fuel/serviceability?",
+      "Was the mission convoy-front sweep, harbor/strait barrier, datum localization, or open-ocean search?",
+      "Was there a radar/visual/DF datum to hand to MAD?",
+      "Did surface escorts/shore plot receive the contact in time?"
+    ]
+  },
+  "Ka_go": {
+    "clock": {
+      "1942": "trial operation",
+      "1943": "practical Akitsu Maru air unit centered; land artillery-observation use also exists"
+    },
+    "maritime_role": "Short-range convoy-near contact holding, marking and handoff; not a Tokai substitute and not a helicopter.",
+    "typical_Akitsu_Maru_load": "4-6 Ka-go if retaining amphibious function; 6-8 in convoy-escort emphasis; 8-10 only with strong ASW-carrier specialization cost.",
+    "MAD_state": "1944 lightweight MAD is trial-level; normal maritime ASW uses visual/radio/marker and cueing from mother ship/other aircraft.",
+    "future_event_gate": [
+      "Was Akitsu Maru or another physically valid Ka-go unit actually assigned to this convoy/area?",
+      "Was weather/deck motion/wind suitable?",
+      "Was continuous daylight coverage generated or only short sorties?",
+      "Did Ka-go hold/mark a datum long enough for fixed-wing aircraft or escorts to attack?"
+    ]
+  },
+  "generic_Allied_submarine_event_rule": {
+    "mandatory_checks_before_adjudication": [
+      "historical contact cause: routine patrol, COMINT cue, reconnaissance cue, or special operation",
+      "Branch high-grade COMINT inheritance allowed or forbidden",
+      "Tokai sortie/coverage",
+      "Ka-go/Akitsu Maru local presence if relevant",
+      "other patrol aircraft/seaplanes",
+      "escort sonar/depth-charge readiness and escort count",
+      "shore radar/DF/plot or convoy reporting network",
+      "weather, daylight, sea state",
+      "submarine radar warning/night-surface adaptation",
+      "attack denial, reattack denial, damage, mission kill, kill as separate outputs"
+    ],
+    "default": "No Allied submarine sinking is inherited solely because it occurred historically."
+  },
+  "HAILSTONE_escape_route_correction": {
+    "previous_center": "one 4,000-7,000 GRT merchant/auxiliary sunk by US submarine during final Truk evacuation",
+    "revised_center": "0 sunk centered; one credible attack opportunity remains, with 1 ship sunk/CTL as a substantial upper branch",
+    "reason": "Truk is a priority base and 1944-Feb Tokai local sortie/sweep is plausible; exit-barrier US submarines remain dangerous but are less likely to hold an undisturbed firing position."
+  },
+  "next_ledger_task": "When convenient, rebuild named US submarine loss/repair roster through 1944-02/04. Until then use the effective-patrol-equivalent delta above rather than inventing named sunk boats.",
+  "supersedes": "ASW_RETROACTIVE_AND_FUTURE_ACTIVITY_GUARD_1943_1944Q1_WORKING_v001",
+  "legacy_provenance_catalog_only": [
+    {
+      "file": "40_対潜航空_東海・カ号・秋津丸.md",
+      "catalog": "95_AUDIT/legacy_file_responsibility_map_v001.json",
+      "sha256": "beaa9541885e5b5e1cdf125fa78214f1dc6a6d52ee8764c75acc122057182127",
+      "content_present_in_package": false
+    },
+    {
+      "file": "41_艦艇対潜_探信・爆雷・護衛運用.md",
+      "catalog": "95_AUDIT/legacy_file_responsibility_map_v001.json",
+      "sha256": "7dd04bea14ea2c14a0722831c9d7ce54bf1ec866450c16f3d8f611287575df27",
+      "content_present_in_package": false
+    }
+  ],
+  "source_loading_guard": "Do not treat catalog-only legacy provenance as loadable session evidence. Use the refactored runtime/TECH inputs above unless the legacy source bytes are restored and hash-verified."
+}

@@ -1,0 +1,121 @@
+{
+  "revision": "v001",
+  "id": "FLINTLOCK_FIRST_SUPPRESSION_STRIKE_1944-02-02_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "discussion_clock_end": "1944-02-02T09:30:00+12:00",
+  "purpose": "Realize the first Branch FLINTLOCK-equivalent fast-carrier suppression cycle against an alerted/dispersed Marshall air network, carrying forward Raiden/C2 and post-GALVANIC exchange maturation without granting either side magic detection or kill bonuses.",
+  "historical_baseline": "Historical FLINTLOCK achieved launch-point surprise in squally/overcast weather and rapidly neutralized Roi/Taroa/Wotje/Kwajalein air power. Branch shifts the date and removes complete surprise while retaining US numerical/CIC/AA superiority.",
+  "US_first_cycle": {
+    "launch_window": "1944-02-02 04:55-05:30 local",
+    "strike_and_sweep_sorties_band": [
+      205,
+      225
+    ],
+    "center": 215,
+    "target_split": [
+      {
+        "target": "Maloelap/Taroa",
+        "sorties_center_band": "75-80",
+        "priority": "fighter sweep, runway, radar/radio/plot, dispersed aircraft"
+      },
+      {
+        "target": "Roi-Namur / north Kwajalein",
+        "sorties_center_band": "75-85",
+        "priority": "fighter sweep, runway, radar/communications, land-attack parking/dispersal"
+      },
+      {
+        "target": "Kwajalein/Wotje secondary suppression",
+        "sorties_center_band": "55-65",
+        "priority": "runways, radio/radar, shipping/AA opportunity targets; Eniwetok remains a later/secondary cycle target"
+      }
+    ],
+    "reservation_guard": "The 610 ready-aircraft TF58 center is not a 610-plane simultaneous strike. Large CAP/ASW/search/recovery reserves remain because Japanese fleet carriers are still unlocated."
+  },
+  "Japanese_warning_and_launch": {
+    "usable_warning": "roughly 18-26 minutes at the best Taroa/Roi nodes before first major arrivals; shorter at damaged/outer nodes",
+    "fighters_airborne_or_committed_first_cycle_band": [
+      48,
+      55
+    ],
+    "Raiden_airborne_or_committed_band": [
+      12,
+      14
+    ],
+    "effect": "Dispersal and staged readiness prevent a historical-style mass parking loss. A-grade/B+ warning creates favorable initial altitude/beam geometry for part of the defense, but US F6F/CIC escort mass still dominates prolonged combat."
+  },
+  "centered_losses_through_09_00": {
+    "US_aircraft_irrecoverable_band": [
+      12,
+      15
+    ],
+    "US_aircraft_irrecoverable_center": 13,
+    "US_additional_damaged_recoverable_band": [
+      16,
+      24
+    ],
+    "Japan_aircraft_irrecoverable_band": [
+      34,
+      40
+    ],
+    "Japan_aircraft_irrecoverable_center": 37,
+    "Japan_additional_temporarily_damaged_or_grounded_band": [
+      12,
+      18
+    ],
+    "Raiden_irrecoverable_or_nonserviceable_after_cycle_band": [
+      5,
+      7
+    ],
+    "loss_guard": "These are first-cycle Branch working losses only. They do not rewrite GALVANIC or become a universal fixed-base exchange ratio."
+  },
+  "base_effects": [
+    {
+      "base": "Taroa",
+      "state_09_00": "Radar/plot chain degraded but not erased; runway heavily cratered with emergency-use strip/sections recoverable on an hours-scale; dispersed aircraft and alternate revetments preserve a meaningful remnant.",
+      "C2_grade_after": "B/B+ until radar/plot repair restores A-/A function."
+    },
+    {
+      "base": "Roi-Namur",
+      "state_09_00": "Primary radar/communications node badly suppressed and runway intermittently usable; visual/DF/radio fragments still pass warning but fighter direction quality falls.",
+      "C2_grade_after": "B centered, locally lower during outages."
+    },
+    {
+      "base": "Wotje",
+      "state_09_00": "Moderate runway/radio damage; still useful as a dispersed/staging node but not a full-strength independent fighter base.",
+      "C2_grade_after": "B-/remote depending circuit state."
+    }
+  ],
+  "post_cycle_marshall_air_state": {
+    "physical_present_center_estimate": 151,
+    "combat_serviceable_band": [
+      98,
+      104
+    ],
+    "combat_serviceable_center": 101,
+    "immediate_alert_or_search_capable_band": [
+      74,
+      84
+    ],
+    "fighter_serviceable_band": [
+      45,
+      50
+    ],
+    "fighter_serviceable_center": 47,
+    "Raiden_serviceable_band": [
+      10,
+      12
+    ],
+    "Raiden_serviceable_center": 11,
+    "accounting_note": "Physical hull/airframe presence falls less than serviceability because several damaged aircraft remain repairable. Night-strike losses are included where applicable; do not subtract them twice."
+  },
+  "reverse_bearing_contact": {
+    "time": "1944-02-02 08:05-08:25",
+    "event": "A surviving fast Japanese reconnaissance aircraft follows the reverse bearing of the first US strike stream and obtains a short visual on one US TG during recovery/reorganization.",
+    "report": "Three carrier decks strongly identified with three fast battleships/heavy screen; position roughly 120-160 nmi from the Kwajalein battle area; recovery/launch activity visible. Report transmitted before scout loss/forced disengagement.",
+    "confidence": "HIGH fresh contact on one US TG; other two TG positions remain insufficiently fresh.",
+    "carrier_gate_result": "Japanese first-line carrier GO remains WITHHELD. The holding force is still several hundred nautical miles west; a same-morning strike would be a long-margin launch, and the locations/mission state of the other US groups are not known well enough. The fresh report instead drives submarine convergence and conditional eastward carrier closure."
+  },
+  "US_operational_assessment": "First cycle succeeds in suppressing and degrading the Marshall air network but does not annihilate it. US commanders recognize materially stronger warning/dispersal and higher first-cycle losses than historical FLINTLOCK, reinforcing continued radar/communications/runway suppression before amphibious commitment.",
+  "Japan_operational_assessment": "The warning system pays off by preventing decapitation and inflicting meaningful cost, but the numerical/system disparity remains decisive. Preserve scouts, submarines and remaining night-strike crews for mission-split opportunities rather than committing the three fleet carriers merely to defend fixed islands.",
+  "next_exact_action": "Run 2 Feb late-morning/afternoon second suppression cycle and submarine convergence on the freshly reported TG. Resolve whether a CVL/AO/escort opportunity emerges and whether repeated US strikes collapse Taroa/Roi C2 before night."
+}

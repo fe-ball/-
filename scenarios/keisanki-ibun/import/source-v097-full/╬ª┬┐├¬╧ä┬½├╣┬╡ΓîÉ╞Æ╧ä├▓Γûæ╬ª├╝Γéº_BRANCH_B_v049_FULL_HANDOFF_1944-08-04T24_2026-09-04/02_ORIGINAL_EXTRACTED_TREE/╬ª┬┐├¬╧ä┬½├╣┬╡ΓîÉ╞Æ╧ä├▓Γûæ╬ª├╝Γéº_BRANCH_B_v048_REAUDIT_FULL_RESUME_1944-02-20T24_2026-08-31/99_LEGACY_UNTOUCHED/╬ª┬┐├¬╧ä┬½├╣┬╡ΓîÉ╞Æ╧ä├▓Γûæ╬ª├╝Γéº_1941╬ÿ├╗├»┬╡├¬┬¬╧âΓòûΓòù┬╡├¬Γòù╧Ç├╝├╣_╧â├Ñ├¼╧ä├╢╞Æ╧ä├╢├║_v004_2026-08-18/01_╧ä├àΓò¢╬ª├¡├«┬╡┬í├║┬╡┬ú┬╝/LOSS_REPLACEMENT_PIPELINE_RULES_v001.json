@@ -1,0 +1,17 @@
+{
+  "revision": "v0.01",
+  "scope": "symmetric_all_belligerents",
+  "rules": {
+    "loss_creates_replacement_demand": true,
+    "replacement_source_conservation": true,
+    "source_opportunity_cost_propagates": true,
+    "pilot_specialist_training_pipeline_finite": true,
+    "transport_substitutability_by_type": true,
+    "transport_capacity_components": ["hull","crew","escort","port","handling","fuel","route_time","cargo_type"],
+    "combat_power_bottleneck_rule": true,
+    "unknown_loss_historical_lock": false,
+    "unknown_with_responsive_mechanism": "PROBABILISTIC_OR_INTERVAL_REEVALUATION",
+    "scenario_world_setting_not_erased_by_methodological_conservatism": true,
+    "production_has_industrial_and_delivery_clock": true
+  }
+}

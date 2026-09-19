@@ -1,0 +1,146 @@
+{
+  "revision": "v013",
+  "purpose": "v024 registry: v023 repaired runtime plus explicit aircraft-fielding and seaplane-doctrine ledgers.",
+  "families": [
+    {
+      "family": "README_refactor_vX.md",
+      "current": "README_refactor_v024.md"
+    },
+    {
+      "family": "NEXT_SESSION_HANDOFF_REFACTOR_vX.md",
+      "current": "NEXT_SESSION_HANDOFF_REFACTOR_v024.md"
+    },
+    {
+      "family": "CHECKPOINT_INDEX_vX.json",
+      "current": "CHECKPOINT_INDEX_v012.json"
+    },
+    {
+      "family": "CHECKPOINT_GRAPH_vX.json",
+      "current": "CHECKPOINT_GRAPH_v011.json"
+    },
+    {
+      "family": "TECH_INDEX_vX.json",
+      "current": "TECH_INDEX_v007.json"
+    },
+    {
+      "family": "current_branch_overrides_vX.json",
+      "current": "current_branch_overrides_v007.json"
+    },
+    {
+      "family": "PREWAR_INDEX_vX.json",
+      "current": "PREWAR_INDEX_v004.json"
+    },
+    {
+      "family": "WARSTART_CHECKPOINT_vX.json",
+      "current": "WARSTART_CHECKPOINT_v004.json"
+    },
+    {
+      "family": "WARSTART_STATE_LEDGER_vX.json",
+      "current": "WARSTART_STATE_LEDGER_v003.json"
+    },
+    {
+      "family": "WARSTART_DOMAIN_AUDIT_vX.json",
+      "current": "WARSTART_DOMAIN_AUDIT_v004.json"
+    },
+    {
+      "family": "validate_refactor_vX.py",
+      "current": "validate_refactor_v012.py"
+    },
+    {
+      "family": "DOMAIN_STATE_MAP_vX.json",
+      "current": "DOMAIN_STATE_MAP_v002.json"
+    },
+    {
+      "family": "rule_override_protocol_vX.json",
+      "current": "rule_override_protocol_v002.json"
+    },
+    {
+      "family": "RULE_DEPENDENCY_MAP_vX.json",
+      "current": "RULE_DEPENDENCY_MAP_v002.json"
+    },
+    {
+      "family": "EVENT_RELEVANCE_PROFILES_vX.json",
+      "current": "EVENT_RELEVANCE_PROFILES_v003.json"
+    },
+    {
+      "family": "EVENT_HANDOUT_SCHEMA_vX.json",
+      "current": "EVENT_HANDOUT_SCHEMA_v004.json"
+    },
+    {
+      "family": "RUNTIME_CONTRACT_vX.json",
+      "current": "RUNTIME_CONTRACT_v004.json"
+    },
+    {
+      "family": "build_event_handout_vX.py",
+      "current": "build_event_handout_v009.py"
+    },
+    {
+      "family": "TECH_COVERAGE_AUDIT_vX.json",
+      "current": "TECH_COVERAGE_AUDIT_v003.json"
+    },
+    {
+      "family": "PACKAGE_MANIFEST_vX.json",
+      "current": "PACKAGE_MANIFEST_v024.json"
+    },
+    {
+      "family": "VALIDATION_RESULT_vX.json",
+      "current": "VALIDATION_RESULT_v024.json"
+    },
+    {
+      "family": "COMBAT_CAPABILITY_FACTOR_INDEX_vX.json",
+      "current": "COMBAT_CAPABILITY_FACTOR_INDEX_v001.json"
+    },
+    {
+      "family": "COMBAT_EVENT_FACTOR_MATRIX_vX.json",
+      "current": "COMBAT_EVENT_FACTOR_MATRIX_v001.json"
+    },
+    {
+      "family": "COMBAT_EVENT_INPUT_SCHEMA_vX.json",
+      "current": "COMBAT_EVENT_INPUT_SCHEMA_v002.json"
+    },
+    {
+      "family": "COMBAT_ADJUDICATION_CONTEXT_vX.md",
+      "current": "COMBAT_ADJUDICATION_CONTEXT_v002.md"
+    },
+    {
+      "family": "COMBAT_CAPABILITY_COVERAGE_AUDIT_vX.json",
+      "current": "COMBAT_CAPABILITY_COVERAGE_AUDIT_v001.json"
+    },
+    {
+      "family": "build_combat_context_vX.py",
+      "current": "build_combat_context_v004.py"
+    },
+    {
+      "family": "WEAPON_PLATFORM_CAPABILITY_INDEX_vX.json",
+      "current": "WEAPON_PLATFORM_CAPABILITY_INDEX_v001.json"
+    },
+    {
+      "family": "COMBAT_PLATFORM_MATRIX_vX.json",
+      "current": "COMBAT_PLATFORM_MATRIX_v001.json"
+    },
+    {
+      "family": "NOVEL_WEAPON_ADJUDICATION_POLICY_vX.json",
+      "current": "NOVEL_WEAPON_ADJUDICATION_POLICY_v001.json"
+    },
+    {
+      "family": "WEAPON_PLATFORM_COVERAGE_AUDIT_vX.json",
+      "current": "WEAPON_PLATFORM_COVERAGE_AUDIT_v001.json"
+    },
+    {
+      "family": "CURRENT_BRANCH_STATE_vX.json",
+      "current": "CURRENT_BRANCH_STATE_v006.json"
+    },
+    {
+      "family": "BRANCH_INVARIANT_GUARD_1943-10-01_vX.json",
+      "current": "BRANCH_INVARIANT_GUARD_1943-10-01_v002.json"
+    },
+    {
+      "family": "AIRCRAFT_FIELDING_LEDGER_1943-10-01_vX.json",
+      "current": "AIRCRAFT_FIELDING_LEDGER_1943-10-01_v001.json"
+    },
+    {
+      "family": "SEAPLANE_TACTICS_LEDGER_1943-10-01_vX.json",
+      "current": "SEAPLANE_TACTICS_LEDGER_1943-10-01_v001.json"
+    }
+  ]
+}

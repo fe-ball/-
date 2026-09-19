@@ -1,0 +1,11 @@
+item	state/dependency	current ruling
+vehicle identity	HS/CFRP joint research vehicle, not Hakkou/Firen service prototype	CLOSED concept
+initial fuselage	metal high-speed research fuselage	CLOSED concept
+initial propulsion	E6-M-J; reheat only after local qualification	CLOSED concept
+Wing M	metal baseline	PLANNED future
+Wing C1	7-8% CFRP primary wing, 0-15deg sweep	PLANNED future
+Wing C2	modest 20-25deg sweep CFRP comparison	CONDITIONAL after C1
+initial test region	below M0.75 -> 0.80-0.85 -> 0.88-0.92	DEPENDENCY SHADOW
+M0.95+/M1-near	requires HS-3 controls + CFRP correlation + local propulsion margin	OPEN future gate
+earliest flight band	1942H2-1943H1 if gates pass	TECHNICAL SHADOW not achieved history
+practical successor mission	multirole vs high-altitude/long-range vs light high-Mach vs partial-composite	OPEN

@@ -1,0 +1,20 @@
+{
+  "package_state": "ACTIVE_COMBAT_REPLAY",
+  "current_checkpoint": "1939-05-10 24:00",
+  "next_gate": "1939-05-11 Nomonhan opening clash",
+  "technical_overlay": "NAVAL1",
+  "retains_overlay": [
+    "IDENTITY1",
+    "EXHAUST1"
+  ],
+  "historical_identity_guard": true,
+  "naval_ship_carrier_guard": true,
+  "carrier_headline_chain_separated": true,
+  "converted_carrier_gt_not_fleet_carrier": true,
+  "large_surface_ship_gt_current_automatic_installation": false,
+  "total_files": 560,
+  "inventory_rows": 557,
+  "manifest_rows": 558,
+  "sha_targets": 558,
+  "manifest_verify_ok": true
+}

@@ -1,0 +1,56 @@
+{
+  "revision": "v001",
+  "id": "MARSHALL_NIGHT_DAWN_CONTACT_CHAIN_1944-02-02_03_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "period": "1944-02-02T16:30:00+12:00..1944-02-03T05:40:00+12:00",
+  "purpose": "Resolve dusk/night track decay, Japanese land-based night-strike restraint, US runway-denial maneuver, and the pre-dawn carrier-scout contact that opens the first-line carrier GO gate.",
+  "events": [
+    {
+      "time": "02-02 16:30-18:40",
+      "event": "US cruisers/destroyers continue intermittent runway/radar denial at Taroa/Wotje while carrier TGs move their night stations and strengthen CAP/ASW after repeated submarine contact. Japanese water-air scouts attempt one dusk refresh but cannot hold a carrier visual through CAP/weather.",
+      "result": "The 13:00 carrier track ages; no dusk weapon solution."
+    },
+    {
+      "time": "02-02 18:40-22:30",
+      "event": "Combined Fleet declines a second mass land-based night torpedo attack. Eniwetok and scattered attack aircraft are retained primarily as emergency search/harassment reserve; two low-signature reconnaissance/area-check sorties generate no firm carrier visual.",
+      "reason": "With only ~62 local serviceable aircraft at 16:30, another 4-8 aircraft torpedo raid has lower expected value than preserving the cue/confirm chain for the three fleet carriers."
+    },
+    {
+      "time": "02-02 20:10-23:20",
+      "event": "Two submarine nodes produce intermittent hydrophone/escort contacts on the predicted carrier/support corridor. Neither can classify a carrier or maintain shadow under US patrol pressure.",
+      "knowledge": "MEDIUM same operational axis; position uncertainty expands to roughly 60-90 nmi by midnight."
+    },
+    {
+      "time": "02-03 00:00-03:20",
+      "event": "US TG58.2 executes high-speed night displacement with zig-zag and limited course change while TG58.1/58.3 remain separated by their target/support responsibilities. Japanese HQ treats the old track as a search corridor, not a firing solution.",
+      "guard": "No continuous night track granted."
+    },
+    {
+      "time": "02-03 03:35-04:05",
+      "event": "Shokaku/Zuikaku/Hiryu launch an eight-aircraft pre-dawn carrier reconnaissance fan while closing to the precomputed launch/recovery gate. Scouts are separate from the later strike count.",
+      "assets": "D4Y/B6N reconnaissance mix; no magical radar search."
+    },
+    {
+      "time": "02-03 05:12-05:28",
+      "event": "One scout reacquires the same three-deck/three-fast-battleship group about 220-250 nmi east-southeast of the Japanese carrier force. Launch/recovery activity is visible.",
+      "confidence": "HIGH TG58.2-class fresh target; position error about 10-15 nmi at report time."
+    },
+    {
+      "time": "02-03 05:25-05:38",
+      "event": "A second scout obtains a shorter visual on another US carrier group roughly 140-180 nmi north/northeast of the primary target. The third group remains sector-level only.",
+      "effect": "Japan now has enough two-group geometry to know the primary group is not physically merged with the other fast decks, while still accepting counterstrike risk."
+    },
+    {
+      "time": "02-03 05:38",
+      "event": "GO gate opens. The primary TG is fresh, visibly mission-split by launch activity, launch/recovery range is acceptable, and the Japanese force has a westward egress.",
+      "decision": "SHOKAKU_ZUIKAKU_HIRYU_DAWN_STRIKE_GO"
+    }
+  ],
+  "night_strike_decision": "NO_SECOND_MASS_LAND_BASED_NIGHT_STRIKE; reconnaissance/search is prioritized.",
+  "anti_overreach": [
+    "No all-night carrier shadow",
+    "No shore-water aircraft magically guides the carrier strike continuously",
+    "Second US TG visual is enough for separation geometry, not a full 11-deck OOB",
+    "GO is an informed risk decision, not knowledge that the other US groups cannot counterstrike"
+  ]
+}

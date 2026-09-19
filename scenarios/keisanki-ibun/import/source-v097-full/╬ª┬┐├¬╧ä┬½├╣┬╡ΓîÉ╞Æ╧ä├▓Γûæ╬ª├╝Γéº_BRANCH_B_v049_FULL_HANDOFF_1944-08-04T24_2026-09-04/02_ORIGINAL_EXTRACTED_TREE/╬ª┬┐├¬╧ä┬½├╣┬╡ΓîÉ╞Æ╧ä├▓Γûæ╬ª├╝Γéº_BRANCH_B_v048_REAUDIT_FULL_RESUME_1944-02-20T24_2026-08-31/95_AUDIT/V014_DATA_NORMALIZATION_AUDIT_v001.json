@@ -1,0 +1,32 @@
+{
+  "revision": "v001",
+  "id": "V014_DATA_NORMALIZATION_AUDIT_v001",
+  "date": "2026-08-24",
+  "result": "PASS",
+  "base_package": "計算機異聞_refactor_v013_2026-08-24",
+  "scenario_adjudication_changed": false,
+  "changes": [
+    {
+      "path": "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SPRING_REAUDIT_v001.json",
+      "change": "Promoted to sole CURRENT_SESSION_FRONTIER; active restart explicitly 1944-04-11 with no active checkpoint; v012 4/30 checkpoint demoted to legacy reference."
+    },
+    {
+      "path": "06_RUNTIME/CURRENT_ANALYSIS_FRONTIER_1944SUMMER_v001.json",
+      "change": "Changed status from CURRENT_SESSION_FRONTIER to RETAINED_REFERENCE_NOT_CURRENT; removed active-sounding canonical restart key in favor of legacy_v012_restart_checkpoint; added explicit supersession and continuation prohibition."
+    },
+    {
+      "path": "06_RUNTIME/CURRENT_BRANCH_STATE_v001.json",
+      "change": "Added canonical machine-readable current-state pointer with precedence rule."
+    },
+    {
+      "path": "00_README/README_refactor_v014.md",
+      "change": "Added v014 normalized package entrypoint."
+    },
+    {
+      "path": "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v014.md",
+      "change": "Added v014 continuation handoff."
+    }
+  ],
+  "zip_filename_policy": "UTF-8 filename encoding with UTF-8 general-purpose bit flag required for all non-ASCII paths.",
+  "historical_checksum_note": "SHA256SUMS_REFACTOR_v013.txt is retained as evidence for the base v013 package and is not the checksum authority for v014."
+}

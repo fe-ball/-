@@ -1,0 +1,14 @@
+{
+  "revision": "v004",
+  "current_restart": "CHECKPOINT_1942-06-15T24_v001",
+  "opening_baseline": "WARSTART_1941-12-07_08_v004",
+  "graph": "CHECKPOINT_GRAPH_v003.json",
+  "execution_policy": "Use current_restart. Older restart nodes and legacy branches are evidence/comparison only unless explicitly revalidated.",
+  "settlement_chain": [
+    "CHECKPOINT_1942-04-10T24_v001",
+    "CHECKPOINT_1942-05-11T24_v001",
+    "CHECKPOINT_1942-06-02T24_v001",
+    "CHECKPOINT_1942-06-15T24_v001"
+  ],
+  "next_action": "Rerun 1942-06 through 1942-09 strategic choice and force regeneration from post-MI state. Do not inherit historical WATCHTOWER or legacy 81/82/86+ outcomes."
+}

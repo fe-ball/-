@@ -1,0 +1,7 @@
+WORKING overlay only; not canonical authority.
+Semantic base: v048 Branch B.
+Immediate predecessor: 計算機異聞_v048_FLINTLOCK_MARITIME_REBASELINE_1944-02-03T24_WORKING_2026-08-31.zip
+This package reruns 4-5 Feb from the 3-Feb maritime state. It does not inherit legacy named submarine hits or D-Day casualty outcomes.
+Land/vehicle guards: no untraced Japanese tank platoon; Type 94 Namur trace only; serviceability/recovery effects require actual hulls and survive only within terrain/workshop/suppression limits.
+Sensor/fortification guards: radar/DF/plot/telephone/water-air are components of base defense; primary antennas remain vulnerable; no precision US-style GCI or deep-cave retrojection.
+US learning guard: historical FLINTLOCK already embodies major Tarawa lessons; Branch effect is stronger persistence/redundancy/re-attack and finite-resource tradeoffs, not a second multiplicative 3x bombardment bonus.

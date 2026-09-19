@@ -1,0 +1,27 @@
+{
+  "id": "FLINTLOCK_1944-02-02T24_REAUDIT_CHECKPOINT_v001",
+  "status": "WORKING_FRONTIER_CHECKPOINT_NOT_CANONICAL",
+  "as_of": "1944-02-02T24+12:00",
+  "headline": "First Marshall suppression moved to 1 Feb; four-carrier Japanese GO opens at dawn 2 Feb. Carrier exchange occurs one day earlier than superseded line.",
+  "locked_working_events": [
+    "1 Feb two US Marshall suppression cycles",
+    "2 Feb Japanese four-carrier strike on TG58.2",
+    "Cabot heavy mission kill centered",
+    "Intrepid temporary deck disruption centered",
+    "US counterstrike mission-degrades Hiryu for the day",
+    "No second Japanese strike; Japanese carrier force withdraws west",
+    "Marshall air/sensor network degraded but not erased"
+  ],
+  "reopened_next": [
+    "Cabot/Intrepid/Hiryu exact repair clocks",
+    "3-5 Feb suppression and assault-approach submarine interdiction",
+    "6 Feb D-day confirmation",
+    "Kwajalein/Roi-Namur ground-survival calculation using revised fortification/AA/sensor/vehicle layer"
+  ],
+  "guards": [
+    "No old Soryu long-repair line.",
+    "No historical complete surprise.",
+    "No free secondary-carrier first-wave aircraft.",
+    "No compensatory submarine or land-air hit because carrier battle timing changed."
+  ]
+}

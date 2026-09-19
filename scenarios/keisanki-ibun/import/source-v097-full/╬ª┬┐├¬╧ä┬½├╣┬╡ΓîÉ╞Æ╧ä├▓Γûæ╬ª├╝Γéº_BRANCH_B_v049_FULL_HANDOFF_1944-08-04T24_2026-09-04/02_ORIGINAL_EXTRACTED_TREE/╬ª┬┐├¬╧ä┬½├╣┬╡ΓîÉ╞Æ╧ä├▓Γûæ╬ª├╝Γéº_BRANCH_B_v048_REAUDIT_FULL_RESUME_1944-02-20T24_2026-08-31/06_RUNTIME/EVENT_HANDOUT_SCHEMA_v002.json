@@ -1,0 +1,56 @@
+{
+  "revision": "v002",
+  "purpose": "Generated event projection from the selected checkpoint; not canonical truth.",
+  "inputs": [
+    "checkpoint_id",
+    "event_date",
+    "event_profile",
+    "participants/platforms if known"
+  ],
+  "baseline_resolution": "technical_baseline and branch overrides are read from the selected checkpoint, never hard-coded by the generator.",
+  "domain_resolution_values": [
+    "ACTIVE",
+    "NO_RELEVANT_DELTA",
+    "NOT_YET_MATURE",
+    "UNKNOWN"
+  ],
+  "state_resolution_values": [
+    "CHECKPOINT_LOCAL",
+    "WARSTART_BASELINE_FALLBACK",
+    "UNKNOWN"
+  ],
+  "required_output": [
+    "checkpoint",
+    "checkpoint_file",
+    "checkpoint_as_of",
+    "technical_baseline",
+    "prewar_baseline",
+    "event_profile_revision",
+    "domain_map_revision",
+    "runtime_contract",
+    "active_override_ids",
+    "domain_resolution",
+    "state_requirement_resolution",
+    "entries",
+    "execution_blocked",
+    "block_reasons"
+  ],
+  "entry_fields": [
+    "id",
+    "domain",
+    "status",
+    "date_gate_state",
+    "date_gate_basis",
+    "valid_from",
+    "checkpoint_declared",
+    "what_changed",
+    "magnitude",
+    "causal_stage",
+    "combat_meaning",
+    "nonlinear_effect",
+    "do_not_simplify_as",
+    "sources"
+  ],
+  "block_condition": "UNKNOWN in a mandatory technical domain or semantic state requirement blocks final event computation unless a waiver is explicitly recorded downstream.",
+  "generation_rule": "Select TECH entries by profile/tag/domain, apply runtime/date gates, expose checkpoint-local state bindings and maturation deltas, and never substitute opening state for later checkpoint state silently."
+}

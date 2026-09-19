@@ -1,0 +1,14 @@
+{
+  "revision": "v004",
+  "role": "refactor closeout package",
+  "created_date": "2026-08-18",
+  "legacy_file_count": 188,
+  "legacy_byte_identical_to_v003": true,
+  "json_file_count": 87,
+  "json_errors": [],
+  "current_restart": "05_WARTIME/CHECKPOINT_1942-05-06T24_v001.json",
+  "read_first": "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v004.md",
+  "json_file_count_postclose": 91,
+  "current_reaudit_packet": "06_RUNTIME/CORAL_SEA_1942-05-04_06_REAUDIT_PACKET_v001.json",
+  "current_event_handout": "06_RUNTIME/EXAMPLE_HANDOUT_CORAL_SEA_1942-05-07_v003.json"
+}

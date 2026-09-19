@@ -1,0 +1,17 @@
+{
+  "revision": "v001",
+  "scope": "industrial/logistics baseline re-audit through 1942-06-16",
+  "status": "PASS_NO_HISTORY_ADVANCE",
+  "findings": [
+    "Compute-as-service/project access was already canonical; v006 makes its diffusion chain explicit rather than inventing a new 1940 origin.",
+    "First wartime standard ship physical clock remains 1940 process/design preparation -> mid/late 1941 freeze -> spring/summer 1942 main completions; actual 1942 completed GRT is reopened to monthly resource allocation.",
+    "1940-42 steel adaptation is inserted conservatively: adopting-plant process yield gains are not national multipliers; 1941 national delta +1.5-3%, 1942 +2.5-4.5% working bands.",
+    "Shipping asset preservation is recorded as repair/off-hire/wait/ship-days and cannot be multiplied again on top of opening turnaround gains.",
+    "Mixed-scope conversational 1942 year-end GRT estimate is quarantined pending a single-population ledger.",
+    "Existing v005 dangling WARSTART v004 pointer is closed with an actual revalidated WARSTART_CHECKPOINT_v004.json."
+  ],
+  "battle_state_change": "none",
+  "current_restart": "CHECKPOINT_1942-06-15T24_v002",
+  "next_required_ledger": "monthly shipping/steel/shipbuilding from 1942-06-16 before history advance",
+  "legacy_policy": "99_LEGACY_UNTOUCHED must remain byte-identical to v005 copy."
+}

@@ -1,0 +1,26 @@
+item	configuration	value_or_band	status	note
+requirement_origin	E5 attack record	178 attack sorties/~71t by 1938-10-31; ~135t 1938 total; 345 sorties/~138t 1939Q1	SOURCE-CLOSED	drives dedicated fast-bomber demand
+working_identity	E6-B Twin	dedicated fast heavy-bomber derivative; exact service designation OPEN	H->A OUTLOOK	not common E6 Twin overload
+crew	baseline	3	H->A DESIGN	pilot+navigator/bombardier+radio/observer
+engines	baseline	2x E6-M-JF @~984kgf each	PARENT-CLOSED	long-life production point
+wing_area	baseline	27-29m2; center ~28	H->A DESIGN	larger than common E6 Twin
+normal_loaded_mass	baseline	6.5-6.9t; center ~6.7	H->A DESIGN	standard strike
+heavy_ceiling	baseline	7.1-7.3t	H->A TARGET	local gear/brake/wing-root qualification required
+mission_ready_zero_fuel	baseline	4.15-4.35t	H->A BOOKKEEPING	crew/systems included; fuel/bombs excluded
+internal_fuel	normal	1.3-1.6t kerosene	H->A DESIGN	payload/radius trade
+bomb_load	standard	1.0-1.2t internal	H->A DESIGN	Army heavy-bomber-class functional load
+bomb_load	structural max	~1.5t internal	H->A TARGET	reduced fuel / explicit load sheet
+vmax_SL	E6-M-JF	620-655km/h	H->A DERIVED	normal mission
+vmax_5_7km	E6-M-JF	680-710km/h	H->A DERIVED	normal mission
+vmax_light	E6-M-JF	700-720km/h class	H->A DERIVED	light/clean development condition
+climb_6km	E6-M-JF	7.0-8.5min	H->A DERIVED	weight/temperature dependent
+radius	1.0-1.2t standard strike	550-700km	H->A PLANNING	reserve/search/weather included class
+radius	0.8-1.0t long strike	700-850km	H->A PLANNING	more internal fuel
+radius	1.5t heavy overload	400-550km	H->A PLANNING	reduced fuel
+ferry_range	light load	1800-2200km class	H->A PLANNING	not combat radius
+prototype_posture	late-1939	2-4 engineering/prototype airframes	OUTLOOK	no future acceptance pre-recorded
+earliest_first_flight	healthy program	1940Q2-Q3 opportunity	OUTLOOK-GATE	not pre-recorded event
+E7_retrofit_thrust	inherited aft-fan	1100-1150kgf/engine	PARENT-OUTLOOK	E7OUTLOOK1
+E7_same_airframe_vmax	5-7km	715-740km/h class	H->A FUTURE	or spend thrust on weight
+E7_heavy_growth_mass	local strengthened	7.3-7.6t	H->A FUTURE	1.3-1.5t standard bomb + fuel/protection growth
+combat_clock	package	1939-12-31 24:00	CLOSED	not advanced

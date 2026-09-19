@@ -1,0 +1,91 @@
+{
+  "revision": "v001",
+  "id": "ICHIGO_HENGYANG_APPROACH_1944-05-25_06-05_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_PHASE_B_PROGRESS",
+  "clock_window": "1944-05-25..06-05",
+  "parents": [
+    "ICHIGO_HENGYANG_PHASE_B_GATE_1944-05-19_24_WORKING_v001",
+    "CHANGSHA_NODE_TRANSFER_1944-05-19_24_WORKING_v001"
+  ],
+  "historical_sanity_anchors": [
+    "Historical 11th Army captured Changsha 18 Jun, Hengyang airfield 26 Jun, then failed in initial city assaults; supply, heavy-weapons concentration and Fourteenth Air Force interdiction were major constraints.",
+    "Historical principal assault divisions at Hengyang were 68th and 116th Divisions."
+  ],
+  "progress": [
+    {
+      "window": "25-28 May",
+      "result": "68th/116th lead the southward rail-river axis while 13th/40th and other elements protect flanks, repair routes and keep the first-echelon traffic from congesting one corridor. Chinese rear guards trade ground for time rather than commit the IX War Area main body."
+    },
+    {
+      "window": "29-31 May",
+      "result": "Japanese leading elements enter the northern/eastern Hengyang operational belt. Chinese 10th-Army-centered defense, reinforced by preserved IX War Area formations, shifts from mobile delay to prepared local defense. High-value stores and air-service equipment begin displacement south."
+    },
+    {
+      "window": "1-5 Jun",
+      "result": "Methodical fighting reaches the Hengyang airfield/outer-communications system. Japanese forces physically seize most of the airfield complex by 4-5 Jun centerline, but demolition/cratering prevents immediate medium/heavy-air use. Hengyang city and the decisive rail/command node remain Chinese-held."
+    }
+  ],
+  "force_use": {
+    "Japanese_main_reduction_force": "68th and 116th Divisions centered for the Hengyang reduction problem; supporting divisions secure approaches, flank crossings and LOC rather than all ten divisions entering the city fight.",
+    "Chinese_posture": "Preserve the IX War Area field army while making Hengyang a prepared strongpoint. The city garrison is not treated as the entire regional reserve.",
+    "no_bypass_assumption": "Hengyang cannot simply be ignored because it is the rail/air/command junction needed for a reliable continuation toward Lingling/Guangxi."
+  },
+  "losses_25May_5Jun_working_band": {
+    "Japan": {
+      "KIA": [
+        1200,
+        1800
+      ],
+      "WIA": [
+        3600,
+        5200
+      ]
+    },
+    "China": {
+      "KIA": [
+        2400,
+        3600
+      ],
+      "WIA": [
+        4800,
+        7000
+      ],
+      "POW_MIA_disorganized": [
+        1800,
+        3000
+      ]
+    },
+    "interpretation": "Fighting is materially heavier than the Changsha rearguard phase but has not yet become the full urban siege. Chinese force-preservation prevents a large encirclement haul."
+  },
+  "logistics_5Jun": {
+    "campaign_stock_t_band": [
+      90000,
+      124000
+    ],
+    "immediately_forward_or_rapidly_drawable_t_band": [
+      25000,
+      37000
+    ],
+    "serviceable_motor_vehicles_band": [
+      4000,
+      5000
+    ],
+    "Fourteenth_AF_25May_5Jun_effect": {
+      "irreversible_supply_loss_t_band": [
+        4000,
+        7000
+      ],
+      "delayed_or_rerouted_t_band": [
+        10000,
+        17000
+      ],
+      "effect": "Meaningful bridge/rail/river and column interdiction; insufficient to starve the campaign, but enough to make a hasty Hengyang storm materially worse."
+    }
+  },
+  "decision_5Jun": "NO_IMMEDIATE_CITY_STORM. Hengyang is now a methodical reduction/siege problem. Concentrate artillery, engineers and air support, close the local node ring, and reassess after several days rather than extrapolate Changsha tempo.",
+  "guards": [
+    "Hengyang city remains Chinese-held at 5 Jun T24.",
+    "Airfield physical seizure is not equal to operational air-base transfer.",
+    "No automatic release toward Guilin/Liuzhou."
+  ]
+}

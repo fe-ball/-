@@ -1,0 +1,172 @@
+{
+  "revision": "v001",
+  "id": "CHECKPOINT_1943-09-30T24_v001",
+  "checkpoint_id": "CHECKPOINT_1943-09-30T24_v001",
+  "as_of": "1943-10-01T00:00:00",
+  "status": "CURRENT_AUTHORITATIVE_SYNCHRONIZED_RESTART",
+  "type": "SYNCHRONIZED_FRONTIER_CHECKPOINT",
+  "parent": "CHECKPOINT_1942-12-31T24_v001",
+  "parent_checkpoint": "CHECKPOINT_1942-12-31T24_v001",
+  "technical_baseline": "TECH_INDEX_v006",
+  "prewar_baseline": "PREWAR_INDEX_v004",
+  "current_branch_overrides": "00_CONFIG/current_branch_overrides_v007.json",
+  "branch_invariants": "06_RUNTIME/BRANCH_INVARIANT_GUARD_1943-10-01_v001.json",
+  "state_sources": [
+    "06_RUNTIME/MIDWAY_1942-06-10_15_SETTLEMENT_v001.json",
+    "06_RUNTIME/NEW_CALEDONIA_1942-10_SETTLEMENT_v001.md",
+    "06_RUNTIME/ALEUTIANS_ATTU_KISKA_REAUDIT_1943-03_07_SETTLEMENT_v001.md",
+    "06_RUNTIME/EFATE_LIMITED_NEUTRALIZATION_1943-06_SETTLEMENT_v001.md",
+    "06_RUNTIME/INDIAN_OCEAN_BURMA_COASTAL_OPERATION_STUDY_1943-06_09_v001.md",
+    "06_RUNTIME/JAPAN_AMPHIBIOUS_NAVAL_WALLET_1943-07_09_v001.json",
+    "06_RUNTIME/GLOBAL_1943Q3_SYNCHRONIZATION_LEDGER_v001.md",
+    "06_RUNTIME/BRANCH_INVARIANT_GUARD_1943-10-01_v001.json"
+  ],
+  "territory": {
+    "Midway": "Japanese-held lean forward base; no current-authoritative Sep-1943 recapture",
+    "Port_Moresby": "Japanese-held",
+    "Lunga_Tulagi": "Japanese-held",
+    "Espiritu_Santo": "Japanese-held",
+    "New_Caledonia": "Japanese military control of main corridor/ports/airfields/external traffic; Vichy nominal sovereignty/civil framework",
+    "Efate": "US-held; June limited neutralization did not occupy it",
+    "Hanzhong": "Japanese-held after Five-Go Phase II; Sichuan Phase III HOLD",
+    "Maungdaw_Teknaf_Coxs_Bazar": "not Japanese-held at current cutoff"
+  },
+  "carrier_ledger": {
+    "Japan": {
+      "lost": [
+        "Akagi",
+        "Kaga"
+      ],
+      "first_line_core_alive": [
+        "Shokaku",
+        "Zuikaku",
+        "Hiryu",
+        "Soryu"
+      ],
+      "secondary_confirmed_1943": [
+        "Junyo",
+        "Hiyo",
+        "Ryujo",
+        "Zuiho"
+      ],
+      "allocation": "first-line core remains Pacific; central India package gets zero first-line carriers"
+    },
+    "United_States": {
+      "branch_losses": [
+        "Lexington",
+        "Yorktown",
+        "Enterprise",
+        "Hornet",
+        "Saratoga"
+      ],
+      "survivor": "Wasp survives and is active by June 1943",
+      "regeneration": "multiple Essex/Independence-class fast-carrier groups with F6F-class aircraft become real by late Aug/Sep"
+    },
+    "Britain": {
+      "branch_losses": [
+        "Indomitable",
+        "Formidable"
+      ],
+      "effect": "Eastern Fleet modern-carrier depth below historical; eastern reinforcement remains conditional"
+    }
+  },
+  "japan_naval_posture": {
+    "first_line_carriers": "Shokaku/Zuikaku/Hiryu/Soryu alive and Pacific-bound as fleet-in-being under rising US new-carrier pressure",
+    "surface_survival_markers": "Hiei/Kirishima active in Jun Efate; Haruna active in May Aleutians; do not apply historical Guadalcanal loss dates",
+    "command": "Yamamoto alive; historical 1943-04-18 Vengeance kill-chain unavailable",
+    "india_design": "secondary carriers/base air/old BB/CA/DD/submarines/special landing shipping; first-line carrier count central=0",
+    "individual_hull_gate": "Shinshu Maru repair/readiness and Nisshin survival/availability remain explicit October closure items"
+  },
+  "china": {
+    "Five_Go_Phase_II": "completed: Jun 10 start, Fengxian Jun 19-20, Lueyang about Jul 7, Hanzhong Jul 21, cleanup Jul 22-23",
+    "Sichuan_Phase_III": "HOLD",
+    "autumn_posture": "consolidation, repair, storage, airfield/road pressure and next-operation study",
+    "Burma_transfer_rule": "engineering/transport/air support moved to Burma must be charged against China consolidation"
+  },
+  "burma": {
+    "India_coastal_operation": "ADVANCED_OPERATIONAL_STUDY / PREPARATION_AUTHORIZED; NO EXECUTION GO",
+    "minimum_success": "Cox's Bazar land-sea link; Chittagong conditional exploit",
+    "political": "INA/verified contacts count; generalized uprising zero in base plan",
+    "local_threat": "Bengal land-air reaction AMBER and primary local threat",
+    "allied_counter": "British rash counteroffensive low-probability, not central assumption"
+  },
+  "pacific_us": {
+    "carrier_clock": "late Aug/Sep multiple new Essex/Independence-class groups with F6F-class aircraft are combat factors",
+    "geography_rule": "do not auto-copy Marcus/Tarawa/Makin dates; branch Midway/Santo/New Caledonia geometry changes routing and targets",
+    "next_gate": "October actual US carrier pressure/raiding direction and Japanese allocation"
+  },
+  "allied_state": {
+    "United_States": "Old fast-carrier losses remain paid; Wasp survives; new-build carrier power is rising rapidly. Surface fleet avoids historical Guadalcanal attrition but Pacific commitments remain heavy.",
+    "Britain": "Indomitable/Formidable absent. Britain is hurt but not broken; internal India defense via fighters/AA/army/engineering more likely than immediate strong Bay carrier-amphibious rescue.",
+    "India_Burma": "historical reinforcement/offensive schedules are not axioms; shipping, crews, air cover, maintenance and command pressure must be paid."
+  },
+  "US_information_state": {
+    "high_grade_Japanese_crypto": "historical JN-25-like short-strategic plaintext precision unavailable",
+    "residual": "traffic analysis, DF, low-grade/plaintext, reconnaissance and logistics/geography inference remain",
+    "Japanese_COMINT": "probabilistic exploitation of low/mid-grade traffic, DF, plaintext and mistakes; no routine SIGABA break"
+  },
+  "weapons": {
+    "Japanese_air_1943_anchor": "Use event-specific branch readiness; June Efate included Zuisei-late A6M5-ish fighters, D4Y1-C/limited D4Y bomber trial and B6N elements; no Kinsei Zero/A7M back-port.",
+    "surface": "Improved practical speed robustness, surface fire-control convergence, torpedo repeatability/second-salvo and DC margin are TECH-driven candidates, not generic historical baselines.",
+    "radar": "1943 closed-loop tendency is equipment/training dependent and remains below mature US-style CIC multi-target battle management.",
+    "asw": "Layered 1943 ASW may apply where actual equipment/training/air-sea handoff exists."
+  },
+  "shipping_scope_caveat": "Use explicit ship-days, hull readiness, delivered throughput and assigned lift. Do not use a broad historical shipping total to erase branch-specific attrition/survival or availability constraints.",
+  "dependency_notes": [
+    "Historical-default data is fallback only where no branch-authoritative state exists.",
+    "Retained-provisional Q4/1944 files are non-authoritative until synchronized re-adjudication reaches them.",
+    "Individual hull fate and ownership changes require an authoritative event/settlement; absence of a historical loss/recapture is not permission to assume it."
+  ],
+  "maturation_deltas": [
+    "Japanese high-grade COMSEC and offensive COMINT divergence remains active into 1943.",
+    "Japanese surface/torpedo/radar/ASW improvements are modeled through TECH v006 and event-specific readiness, not as a blanket multiplier.",
+    "US new carrier regeneration is real by late Aug/Sep, but does not resurrect lost Lexington/Yorktown/Enterprise/Hornet/Saratoga.",
+    "Branch geography—especially Japanese Midway/Santo and Japanese military control in New Caledonia—changes US routing, reconnaissance and strike geometry."
+  ],
+  "next_actions": [
+    "Adjudicate October 1943 US Pacific carrier pressure using current branch geography and carrier ledgers.",
+    "Update Japanese carrier/surface allocation without historical hull-loss defaults.",
+    "Close SEAC/Bengal air concentration and Cox's/Teknaf contested throughput.",
+    "Close Shinshu Maru, Nisshin and actual DD/CA/kaibokan individual readiness/assignments.",
+    "Charge any Burma support transfer against Hanzhong/China consolidation.",
+    "Only then decide late-Oct/early-Nov India GO/NO-GO."
+  ],
+  "technical_entries": [
+    "TECH-COMSEC-CENTRAL-AUDIT-OPENING-001",
+    "TECH-COMINT-JP-HIGHGRADE-1942-001",
+    "TECH-COMINT-RESIDUAL-CHANNELS-1942-001",
+    "TECH-COMINT-JP-OFFENSE-001",
+    "TECH-INFO-TO-COMMAND-SEPARATION-001",
+    "TECH-AIR-A6M-ZUISEI-OPENING-001",
+    "TECH-AIR-B5N-ZUISEI-OPENING-001",
+    "TECH-AIR-D3A-OPENING-001",
+    "TECH-CARRIER-MISSION-CLASS-001",
+    "TECH-LANDING-PACKAGE-001",
+    "TECH-AMPHIBIOUS-FIRSTDAY-001",
+    "TECH-TORPEDO-SURFACE-ACCURACY-001",
+    "TECH-TORPEDO-SECOND-SALVO-001",
+    "TECH-TORPEDO-INTRINSIC-REPEATABILITY-001",
+    "TECH-TORPEDO-FAILURE-TAIL-001",
+    "TECH-SURFACE-SPEED-ROBUSTNESS-001",
+    "TECH-SURFACE-DC-MARGIN-001",
+    "TECH-GUNFIRE-SURFACE-1942-001",
+    "TECH-SEARCH-MULTILAYER-001",
+    "TECH-RADAR-1942-HUMANLOOP-001",
+    "TECH-RADAR-CLOSEDLOOP-1943PLUS-001",
+    "TECH-RADAR-PRODUCTION-MEDIAN-001",
+    "TECH-ASW-FOCUSED-CONVOY-1942-001",
+    "TECH-ASW-LAYERED-1943-001"
+  ],
+  "execution_valid": true,
+  "current_restart": true,
+  "combat_resolution_support": {
+    "factor_index": "06_RUNTIME/COMBAT_CAPABILITY_FACTOR_INDEX_v001.json",
+    "event_factor_matrix": "06_RUNTIME/COMBAT_EVENT_FACTOR_MATRIX_v001.json",
+    "event_input_schema": "06_RUNTIME/COMBAT_EVENT_INPUT_SCHEMA_v002.json",
+    "adjudication_context": "06_RUNTIME/COMBAT_ADJUDICATION_CONTEXT_v002.md",
+    "load_policy": "mandatory_before combat/gate adjudication; branch invariants and current checkpoint state take precedence over historical defaults and retained-provisional descendants",
+    "weapon_platform_index": "06_RUNTIME/WEAPON_PLATFORM_CAPABILITY_INDEX_v001.json",
+    "platform_matrix": "06_RUNTIME/COMBAT_PLATFORM_MATRIX_v001.json",
+    "novel_weapon_policy": "06_RUNTIME/NOVEL_WEAPON_ADJUDICATION_POLICY_v001.json"
+  }
+}

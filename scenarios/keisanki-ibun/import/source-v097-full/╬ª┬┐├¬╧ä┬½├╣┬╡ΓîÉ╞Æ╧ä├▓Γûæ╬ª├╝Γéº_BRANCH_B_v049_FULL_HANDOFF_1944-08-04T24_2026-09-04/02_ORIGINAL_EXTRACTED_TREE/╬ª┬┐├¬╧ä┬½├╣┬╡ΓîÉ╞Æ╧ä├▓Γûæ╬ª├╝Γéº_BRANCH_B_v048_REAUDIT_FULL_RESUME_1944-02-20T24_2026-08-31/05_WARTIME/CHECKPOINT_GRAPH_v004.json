@@ -1,0 +1,143 @@
+{
+  "revision": "v004",
+  "purpose": "v003 Q2 branch plus TECH/PREWAR v004 industrial-logistics revalidation and actual WARSTART v004 file closure.",
+  "nodes": [
+    {
+      "id": "WARSTART_1941-12-07_08_v003",
+      "date": "1941-12-07/08",
+      "status": "SUPERSEDED_BY_REFACTOR_V004_BASELINE",
+      "parent": null,
+      "kind": "major_floor",
+      "execution_valid": false
+    },
+    {
+      "id": "WARSTART_1941-12-07_08_v004",
+      "date": "1941-12-07/08",
+      "status": "EXECUTION_VALID_REVALIDATED",
+      "execution_valid": true,
+      "parent": null,
+      "kind": "major_floor",
+      "state_ledger": "04_WARSTART/WARSTART_STATE_LEDGER_v003.json",
+      "checkpoint_file": "04_WARSTART/WARSTART_CHECKPOINT_v004.json"
+    },
+    {
+      "id": "LEGACY_80_MO_MI",
+      "date": "1942 MO/MI",
+      "status": "ARCHIVAL_COMPARISON_ONLY",
+      "parent": "WARSTART_1941-12-07_08_v003",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LEGACY_85_MO_MI_REAUDIT",
+      "date": "1942 MO/MI",
+      "status": "BLOCKED_PENDING_COMINT_RERUN",
+      "parent": "WARSTART_1941-12-07_08_v003",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LOCAL_RESTART_1942-05-06T24",
+      "date": "1942-05-06T24:00",
+      "status": "SUPERSEDED_BY_FORMAL_CHECKPOINT",
+      "parent": "WARSTART_1941-12-07_08_v003",
+      "kind": "local_floor",
+      "requirements": [
+        "regenerate 1942-05-04..05-06 information-state handout with restored COMINT",
+        "then execute 1942-05-07 Coral Sea"
+      ],
+      "execution_valid": false,
+      "superseded_by": "CHECKPOINT_1942-05-06T24_v001"
+    },
+    {
+      "id": "LEGACY_86_AL_FS",
+      "date": "1942 AL/South Pacific/FS",
+      "status": "BLOCKED_BY_PARENT",
+      "parent": "LEGACY_85_MO_MI_REAUDIT",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LEGACY_87_1942FALL_1943SUMMER",
+      "date": "1942 fall-1943 summer",
+      "status": "BLOCKED_BY_ANCESTRY_UNTIL_REVALIDATED",
+      "parent": "LEGACY_86_AL_FS",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LEGACY_88_1943FALL_WINTER",
+      "date": "1943 fall-winter",
+      "status": "BLOCKED_BY_ANCESTRY_UNTIL_REVALIDATED",
+      "parent": "LEGACY_87_1942FALL_1943SUMMER",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LEGACY_89_1943WINTER_1944EARLYSUMMER",
+      "date": "1943 winter-1944 early summer",
+      "status": "BLOCKED_BY_ANCESTRY_UNTIL_REVALIDATED",
+      "parent": "LEGACY_88_1943FALL_WINTER",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "CHECKPOINT_1942-05-06T24_v001",
+      "parent": "WARSTART_1941-12-07_08_v004",
+      "status": "SUPERSEDED_BY_1942Q2_REAUDIT",
+      "execution_valid": false,
+      "note": "Preserved as former restart boundary; current-branch Operation C/MO rerun produces a different ancestor state.",
+      "superseded_by": "CHECKPOINT_1942-05-11T24_v001"
+    },
+    {
+      "id": "CHECKPOINT_1942-04-10T24_v001",
+      "date": "1942-04-10/11",
+      "status": "EXECUTION_VALID_SETTLED",
+      "execution_valid": true,
+      "parent": "WARSTART_1941-12-07_08_v004",
+      "kind": "formal_checkpoint",
+      "note": "Operation C qualitative branch settled; Force A modern carriers lost."
+    },
+    {
+      "id": "CHECKPOINT_1942-05-11T24_v001",
+      "date": "1942-05-11/12",
+      "status": "EXECUTION_VALID_SETTLED",
+      "execution_valid": true,
+      "parent": "CHECKPOINT_1942-04-10T24_v001",
+      "kind": "formal_checkpoint",
+      "note": "Doolittle + Coral Sea + Port Moresby settlement; Yorktown/Lexington lost, PM Japanese-held."
+    },
+    {
+      "id": "CHECKPOINT_1942-06-02T24_v001",
+      "date": "1942-06-02/03",
+      "status": "EXECUTION_VALID_SETTLED",
+      "execution_valid": true,
+      "parent": "CHECKPOINT_1942-05-11T24_v001",
+      "kind": "formal_checkpoint",
+      "note": "Modified MI sortie state: 5 fleet carriers, AL detached, attack 6/10, US intelligence bounded without high-grade plaintext."
+    },
+    {
+      "id": "CHECKPOINT_1942-06-15T24_v001",
+      "date": "1942-06-15/16",
+      "status": "SUPERSEDED_BY_BASELINE_REVALIDATION",
+      "execution_valid": false,
+      "parent": "CHECKPOINT_1942-06-02T24_v001",
+      "kind": "formal_checkpoint",
+      "note": "Post-MI settlement: Midway Japanese-held; Akagi/Kaga lost, Soryu/Hiryu damaged survive; US Enterprise/Hornet/Saratoga lost.",
+      "superseded_by": "CHECKPOINT_1942-06-15T24_v002"
+    },
+    {
+      "id": "CHECKPOINT_1942-06-15T24_v002",
+      "date": "1942-06-15/16",
+      "status": "CURRENT_FORMAL_RESTART_BOUNDARY",
+      "execution_valid": true,
+      "parent": "CHECKPOINT_1942-06-15T24_v001",
+      "kind": "same_state_baseline_revalidation",
+      "note": "Same battle state as v001, revalidated against TECH/PREWAR v004 industrial-logistics baseline; opens monthly shipping/steel ledger without advancing history.",
+      "checkpoint_file": "05_WARTIME/CHECKPOINT_1942-06-15T24_v002.json"
+    }
+  ],
+  "invalidation_classes": {
+    "EVIDENCE_POINTER_ONLY": "no rerun if runtime value/status unchanged",
+    "TECH_ENTRY_VALUE_CHANGE": "find checkpoints/events whose handouts include changed tech entry or dependent intermediate state; revalidate/rerun descendants from earliest affected event",
+    "PREWAR_REALIZATION_CHANGE": "new WARSTART baseline; all wartime descendants require impact review",
+    "WARSTART_STATE_CHANGE": "new WARSTART baseline; all descendants require impact review",
+    "CHECKPOINT_STATE_CHANGE": "invalidate descendants of that checkpoint only",
+    "RULE_RUNTIME_CHANGE": "use rule dependency mapping; rerun from earliest event whose calculation used affected rule"
+  },
+  "principle": "Archived/old restart branches are never deleted. Current execution authority is CHECKPOINT_1942-06-15T24_v002; legacy 81/82/85/86+ outcomes require rerun. Industrial/logistics quantities after 1942-06-16 are open monthly ledgers."
+}

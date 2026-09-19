@@ -1,0 +1,30 @@
+field	value	status
+current_revalidated_combat_checkpoint	1939-06-27 24:00	CURRENT
+combat_replay_status	ACTIVE_COMBAT_REPLAY	CURRENT
+last_closed_combat_gate	1939-05-11 to 1939-06-27 Nomonhan opening phase	CLOSED
+next_chronological_combat_gate	1939-06-28 to 06-30 command restriction + Yasuoka readiness audit; then July opening attack	NEXT
+old_V6_post_Nomonhan_results	comparison/provenance only; no backflow	BLOCKED
+Azuma_force_initial_strength	~220	CLOSED
+Azuma_force_losses	78 total =42 KIA/MIA +36 WIA; 35.5%	CLOSED
+LtCol_Azuma	survives current branch	CLOSED
+24th_Sentai_Ki27_config	15 EX2 / 4 EX0	CLOSED
+24th_Sentai_Ki27_sight	Type 89 telescopic; FCS1 calibration/boresight/QC; no blanket reflector	CLOSED
+Ki15I_recon_pool	6 total; 2 EX2 retrofit / 4 EX0 working closure	CLOSED
+11th_Sentai_Ki27_EX_mix	OPEN; do not invent	OPEN
+AT37_special_AP	48 rounds forward; Type94 infantry 37mm rapid-fire gun; 4x12; combat validation not yet	CURRENT
+TANK37_special_AP	48 rounds; Type94 37mm tank gun; 8 Ha-Go x6; combat validation not yet	CURRENT
+AT37_TANK37_interchangeability	NO; different complete rounds	CLOSED
+ChiHa_3rd_Tank_Regiment	4 combat-designated operational in theater; rear replacement 1 remains Kungchuling	CLOSED
+ChiHa_power	200 hp continuous / 220 hp short; 57mm/armor historical lineage	CURRENT
+HaGo_mass_power	~120 hp naturally aspirated; no blanket turbo	CURRENT
+Nomonhan_workshop_recovery_packages	3 allocated/in theater by Jun27	CURRENT
+Nomonhan_mobile_GT	2 allocated/in theater by Jun27; support power only	CURRENT
+spall_liner_combat_fit	0	CLOSED
+Zhukov	present since Jun5	CURRENT
+Tamsag_recon_19390624	~135 aircraft incl 4 TB-3 anchor; Ki-15-I EX2 retrofit used	CLOSED
+Tamsag_attack_19390627	~104 aircraft-class main package; attack occurs	CLOSED
+Tamsag_bombing_FCS_effect	+5-8% effective target-area concentration; no proportional permanent-kill bonus	CLOSED
+Soviet_aircraft_loss_center_19390627	~22-aircraft class retained pending stronger split	WORKING CLOSED
+Japanese_aircraft_out_19390627	6 out of action; 5 irreversible +1 repair candidate center	WORKING CLOSED
+fire_control_current_authority	50-CURRENT-1939-1941-AIRPOWER-AUDIT/51-FIRE-CONTROL-SIGHTING-BOMBING-INTEGRATION-CANON-V8.md	CURRENT
+fire_control_core_rule	same weapon/designation does not imply same historical fire effect; resolve full observation-to-effect chain	CURRENT

@@ -1,0 +1,28 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_ISR_FORAGER_WARNING_1944-05-19_24_WORKING_v001",
+  "status": "WORKING_OPERATIONAL_INTELLIGENCE_STATE",
+  "as_of": "1944-05-24T24:00:00+09:00",
+  "parents": [
+    "PACIFIC_MOBILE_FLEET_SULU_SHIFT_1944-05-11_18_WORKING_v001",
+    "PACIFIC_ISR_MATURITY_MODEL_1944-03-21_v001"
+  ],
+  "observations": [
+    "Repeated US carrier activity against Palau/Truk followed by Marcus/Wake cannot be treated as isolated raids.",
+    "Japanese communications/route analysis and base reports indicate a broad Central-Pacific preparation cycle, although exact target and D-Day remain unknown.",
+    "Marcus/Wake neutralization increases the posterior probability of Marianas/Bonins-related operations more than a renewed Marshall-only campaign."
+  ],
+  "threat_state": {
+    "Marianas": "CRITICAL/PERSISTENT",
+    "Palau_Western_Carolines": "HIGH",
+    "exact_D_Day": "UNKNOWN",
+    "exact_primary_island": "UNKNOWN; Saipan/Tinian/Guam family recognized as plausible"
+  },
+  "Yamamoto_response": [
+    "Keep five-carrier force in Sulu reaction geometry; do not sortie merely to chase TG58.6.",
+    "Increase submarine/picket emphasis east and northeast of the Marianas and along likely US carrier approach corridors.",
+    "Accelerate dispersion, airfield repair redundancy, fuel/ammunition dispersal and fighter/recon readiness in Marianas.",
+    "Preserve carrier air cadre for a landing-triggered fleet battle rather than trade it against shaping raids."
+  ],
+  "interservice_effect": "Army aviation requests for China continue, but Central-Pacific warning now places a harder ceiling on additional first-line fighter/recon transfers away from Marianas/home-defense preparation."
+}

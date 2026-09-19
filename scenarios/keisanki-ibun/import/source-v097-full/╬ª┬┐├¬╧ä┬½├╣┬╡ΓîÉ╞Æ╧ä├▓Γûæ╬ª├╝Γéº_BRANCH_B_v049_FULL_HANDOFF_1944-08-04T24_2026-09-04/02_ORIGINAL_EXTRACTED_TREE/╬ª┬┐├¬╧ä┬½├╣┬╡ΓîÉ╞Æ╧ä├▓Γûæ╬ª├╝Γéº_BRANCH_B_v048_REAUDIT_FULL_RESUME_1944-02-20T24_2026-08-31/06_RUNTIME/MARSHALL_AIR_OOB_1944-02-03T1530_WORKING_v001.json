@@ -1,0 +1,62 @@
+{
+  "revision": "v001",
+  "id": "MARSHALL_AIR_OOB_1944-02-03T1530_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-02-03T15:30:00+12:00",
+  "purpose": "Update local Marshall aviation while the fast-carrier battle diverts part of TF58 from a full third suppression cycle.",
+  "starting_2Feb_1630_center": 62,
+  "overnight": {
+    "repair_recovery_center": 8,
+    "bombardment_or_breakdown_serviceability_loss_center": 4,
+    "dawn_center_before_new_air_attack": 66
+  },
+  "US_3Feb_local_pressure": {
+    "carrier_and_Gilbert_relevant_sorties_band": [
+      92,
+      116
+    ],
+    "center": 104,
+    "reason": "A planned heavier third suppression cycle is truncated/diverted once the Japanese carrier raid and counterstrike demand dominate TF58 operations."
+  },
+  "3Feb_local_losses": {
+    "Japan_irrecoverable_band": [
+      12,
+      18
+    ],
+    "center": 5,
+    "US_irrecoverable_band": [
+      4,
+      7
+    ]
+  },
+  "theatre_1530": {
+    "combat_serviceable_band": [
+      44,
+      51
+    ],
+    "combat_serviceable_center": 47,
+    "fighter_serviceable_band": [
+      19,
+      24
+    ],
+    "fighter_center": 21,
+    "Raiden_band": [
+      3,
+      5
+    ],
+    "Raiden_center": 4,
+    "water_air_unique_band": [
+      8,
+      11
+    ],
+    "water_air_center": 9,
+    "land_or_carrier_attack_band": [
+      7,
+      11
+    ],
+    "attack_center": 9
+  },
+  "C2": "Taroa/Roi remain C+/B- or worse in intermittent windows. Water-air alternates preserve limited cue-to-confirm capability even when main runways are cratered.",
+  "search_capacity": "2-3 useful local confirmation/search sorties per day centered after 3-Feb losses; strategic search increasingly depends on submarines/regional assets.",
+  "assessment": "The Japanese fleet-carrier intervention buys the Marshall air network a partial breathing interval but does not restore local air superiority or repair the damaged radar/runway system."
+}

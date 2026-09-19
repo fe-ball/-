@@ -1,0 +1,167 @@
+{
+  "version": "v095",
+  "cutoff": "1943-11-24T18:00",
+  "status": "current_authority_working_close",
+  "theater": "GALVANIC / Gilbert-Marshall",
+  "japan": {
+    "fast_carriers": {
+      "ships": [
+        "Shokaku",
+        "Zuikaku",
+        "Hiryu",
+        "Soryu"
+      ],
+      "hull_state": "all intact; withdrawing west after 21 Nov strike",
+      "first_strike": {
+        "launched": 140,
+        "aircraft_irreversible": 38,
+        "damaged_return_band": [
+          17,
+          23
+        ],
+        "flying_personnel_irreversible_or_MIA_band": [
+          55,
+          70
+        ]
+      },
+      "regeneration": "active; air-group capability regenerates via repair, cross-deck, replacement crews and experienced cadre; exact 24 Nov ready wallet OPEN"
+    },
+    "surface_reserve": {
+      "center": "Kongo-class x2 + CA 4-5 + CL1 + DD10-12",
+      "doctrine": "threat/conditional strike; avoid prolonged SG/CIC gunfight"
+    },
+    "kaibokan": {
+      "physical": 19,
+      "routine_ready_band": [
+        15,
+        16
+      ]
+    },
+    "modern_fleet_dd": {
+      "physical": 85,
+      "routine_ready_band": [
+        75,
+        78
+      ],
+      "center_ready": 76
+    },
+    "tokai": {
+      "assigned_band": [
+        48,
+        50
+      ],
+      "ready_band": [
+        39,
+        42
+      ],
+      "radar_ready_band": [
+        33,
+        36
+      ],
+      "MAD_fitted_band": [
+        16,
+        18
+      ],
+      "MAD_ready_band": [
+        12,
+        15
+      ]
+    },
+    "kyofu": {
+      "existing_center": 81,
+      "ready_center": 53,
+      "gilbert_marshall_existing_center": 17,
+      "gilbert_marshall_ready_center": 12
+    }
+  },
+  "us": {
+    "fast_carriers": {
+      "mission_kill": {
+        "Essex": "campaign mission-kill",
+        "Belleau Wood": "heavy mission-kill"
+      },
+      "temporary": {
+        "Monterey": "temporary mission limitation; substantial flight ops recover 22-23 Nov"
+      },
+      "healthy": [
+        "Yorktown CV-10",
+        "Lexington CV-16",
+        "Bunker Hill CV-17",
+        "Independence CVL-22",
+        "Princeton CVL-23",
+        "Cowpens CVL-25"
+      ],
+      "aircraft_loss": {
+        "permanent_band": [
+          23,
+          30
+        ],
+        "repairable_band": [
+          18,
+          28
+        ],
+        "immediate_host_unavailable_band": [
+          25,
+          40
+        ]
+      },
+      "21_nov_counterstrike": "NO-GO after countersearch; no weapon-quality contact"
+    },
+    "oiler": {
+      "identified_working": "Cimarron AO-22",
+      "state": "heavy mission-kill; local replenishment geometry disrupted, no theater-wide fuel crisis"
+    },
+    "Liscome_Bay": "survives; historical sinking not inherited"
+  },
+  "ground": {
+    "Makin": {
+      "organized_C2_end": "1943-11-23T13:30/15:00 band",
+      "20_21_relief": "R3 success",
+      "21_22_relief": "R2 aborted",
+      "post_C2": "isolated small groups only"
+    },
+    "Tarawa": {
+      "C2_end": "1943-11-24T13:00/14:00 band",
+      "organized_resistance_end": "1943-11-24T16:00/17:30 band",
+      "isolated_holdouts_band": [
+        80,
+        150
+      ],
+      "23_24_relief": "R1 air-drop partial success; 0.8-1.4t recovered"
+    }
+  },
+  "submarine": {
+    "I_175": "23/24 Nov Makin-area attack, no hit, escapes",
+    "note": "historical Liscome Bay kill superseded by adapted US ASW/zigzag"
+  },
+  "shipbuilding": {
+    "Shinano": {
+      "state": "laid-up incomplete / conversion reserve",
+      "float_out": "1942-11 to 1943-01; center 1942-12",
+      "No6_dock_release": "1942-12 to 1943-02; center 1943-01",
+      "BB_completion": "HOLD",
+      "fleet_CV_conversion": "HOLD",
+      "aviation_support_conversion": "HOLD preferred future conversion if gate reopens"
+    },
+    "No5002": {
+      "laid_down_center": "1943-04",
+      "hull_progress_1943_11_21": "35-45% working",
+      "machinery": "GO",
+      "physical_completion_center": "1945-04/05"
+    },
+    "No5005": {
+      "laid_down_center": "1943-05",
+      "hull_progress_1943_11_21": "25-35% working",
+      "machinery": "OPEN GATE",
+      "physical_completion": "1945H2 working"
+    }
+  },
+  "open_items": [
+    "exact 24 Nov carrier-air ready/replacement wallet both sides",
+    "24-26 Nov CVE/BB/DD release and regrouping after Gilbert ground fight",
+    "Japanese four-carrier and surface-force fuel/rendezvous/next-operation decision",
+    "US damaged-carrier withdrawal escort and repair clocks exact",
+    "5005 machinery decision 1944Q1",
+    "P2 technology and strategy audit"
+  ]
+}

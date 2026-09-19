@@ -1,0 +1,119 @@
+{
+  "revision": "v003",
+  "principle": "This ledger records possible residual collisions. It never deletes the losing text; runtime eligibility is separate from preservation.",
+  "items": [
+    {
+      "id": "RESID-EXEC-PEARL-001",
+      "type": "execution_version_family",
+      "scope": "Pearl state transition",
+      "candidates": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/pearl_state_transition_v001.json",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/pearl_state_transition_v002.json",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/pearl_state_transition_v003.json"
+      ],
+      "survivor_for_execution": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/pearl_state_transition_v003.json",
+      "status": "resolved",
+      "basis": "AUTHORITATIVE_MANIFEST_v004 explicitly lists v001/v002 as superseded_for_execution and v003 in priority.",
+      "scientific_claim_resolution": "not_applicable; artifact precedence only"
+    },
+    {
+      "id": "RESID-HIST-MO-001",
+      "type": "history_authority_collision",
+      "scope": "1942 MO/MI history",
+      "candidates": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/80_歴史考察_1942年MO・MI・中部太平洋.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/85_歴史考察_2026-08-10_MO・MI再監査_暫定作業線.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/00_次回まず読む/SESSION_HANDOFF_2026-08-18_v001.md"
+      ],
+      "survivor_for_execution": null,
+      "status": "blocked_pending_rerun",
+      "basis": "Older source index preferred 85 over 80, but the later session handoff records COMINT runtime dropout and stops simulation at 1942-05-06 before Coral Sea execution. Therefore neither old MO result nor 85 downstream result is an execution checkpoint until rerun under restored inputs.",
+      "preserve": [
+        "80 as comparison branch",
+        "85 as prior recalculation branch"
+      ]
+    },
+    {
+      "id": "RESID-HIST-FS-001",
+      "type": "downstream_dependency_invalidated",
+      "scope": "AL/South Pacific/FS and later branches",
+      "candidates": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/86_歴史考察_2026-08-11_AL・南太平洋・FS再監査_暫定作業線.md"
+      ],
+      "survivor_for_execution": null,
+      "status": "blocked_by_upstream",
+      "basis": "86 depends on 85; 85 is not currently execution-valid after the COMINT-context failure. Preserve branch, but do not use as restart state without explicit revalidation."
+    },
+    {
+      "id": "RESID-AIR-HARD-001",
+      "type": "technical_maturity_collision",
+      "scope": "Aircraft performance 50-53 versus later aircraft HARD audit gate",
+      "candidates": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/50_航空機研究_陸海軍総合正本.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/51_陸軍航空機_機種別設計・発動機・日程.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/52_海軍航空機_艦攻・艦爆・陸攻・大艇.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/53_海軍戦闘機・空冷発動機・噴進航空.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/47_航空機技術監査_1938-44_史実技術採用・時系列・再計算ゲート.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/118_資料庫_2026-08-15_航空機HARD監査_戦闘機・B6N中間統合.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/119_資料庫_2026-08-15_航空機技術監査_作業停止点_D4Y前.md"
+      ],
+      "survivor_for_execution": "entry-specific; 47/118/119 gate maturity and 50-53 remain evidence/calculation sources",
+      "status": "partially_resolved",
+      "basis": "00 context r28/r30 explicitly says not to flow provisional 50-53 values directly into major battles before the historical occurrence/adoption/production/retrofit/unit-median clocks are closed."
+    },
+    {
+      "id": "RESID-SWITCH-001",
+      "type": "model_coverage_gap",
+      "scope": "switch_registry_v010 versus complete scenario deltas",
+      "candidates": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/switch_registry_v010.json",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/00_次回まず読む/NEXT_SESSION_INDEX_DISCUSSION_SEED_v001.md"
+      ],
+      "survivor_for_execution": "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/switch_registry_v010.json",
+      "status": "retained_compatibility_not_complete_index",
+      "basis": "The session seed explicitly identifies the need for a broader execution index because compressed summaries and the existing switch approach can omit core technical/contextual deltas."
+    },
+    {
+      "id": "RESID-OPENING-SYNC-001",
+      "type": "stale_execution_reference",
+      "scope": "opening_sync_state Pearl pointer",
+      "candidates": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/opening_sync_state_1941-12-07_08_v001.json",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/pearl_state_transition_v003.json",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/AUTHORITATIVE_MANIFEST_v004.json"
+      ],
+      "survivor_for_execution": "04_WARSTART/opening_sync_state_1941-12-07_08_refactor_v002.json",
+      "status": "resolved_in_refactor",
+      "basis": "legacy sync points to v002 while manifest supersedes it; normalized runtime sync points to v003."
+    },
+    {
+      "id": "RESID-COMINT-SWITCH-002",
+      "type": "stale_model_gate",
+      "scope": "COMSEC-1942-HIGH-GRADE-OUTCOME",
+      "candidates": [
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/01_現行正本/switch_registry_v010.json",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/90_完全一式_原典スナップショット/計算機異聞_1941開戦巻戻し_完全一式_2026-08-16/03_検討資料_設定正本/70_暗号・通信情報_設計防御・攻撃・運用.md",
+        "99_LEGACY_UNTOUCHED/計算機異聞_1941開戦巻戻し_再生産_v004_2026-08-18/00_次回まず読む/SESSION_HANDOFF_2026-08-18_v001.md"
+      ],
+      "survivor_for_execution": "TECH-COMINT-JP-HIGHGRADE-1942-001 in TECH_INDEX_v002",
+      "status": "resolved_current_scenario_keep_legacy",
+      "basis": "dedicated canon plus later handoff explicitly restore the high-grade defense condition; switch OPEN gate is retained as stale historical layer for traceability."
+    },
+    {
+      "id": "RESID-GUN-OLD-AGG-001",
+      "type": "withdrawn_aggregate",
+      "scope": "old army artillery/high-angle 10-30% practical hit summaries",
+      "survivor_for_execution": "decomposed system-specific entries only; no broad multiplier",
+      "status": "resolved_rejected_for_runtime",
+      "basis": "60 explicitly withdraws old broad values; preserve legacy text."
+    },
+    {
+      "id": "RESID-ASW-OUTCOME-001",
+      "type": "system_outcome_not_technical_input",
+      "scope": "ASW/Tokai convoy-loss and submarine-opportunity percentages",
+      "survivor_for_execution": "component causal chain plus coverage/adaptation; outcome bands diagnostic after fielding",
+      "status": "resolved_semantics",
+      "basis": "40/41 distinguish covered-area outcomes from technical component effects."
+    }
+  ]
+}

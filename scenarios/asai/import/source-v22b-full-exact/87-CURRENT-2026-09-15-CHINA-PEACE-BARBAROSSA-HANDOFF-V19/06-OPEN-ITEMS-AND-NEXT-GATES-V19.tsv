@@ -1,0 +1,15 @@
+id	priority	item	status	guard
+G19-001	HIGHEST	1941-06-22 Soviet Far East/Transbaikal historical OOB	OPEN	Build unit-by-unit baseline before worldline changes
+G19-002	HIGHEST	Historical Far East/Transbaikal westbound transfer ledger 1941	OPEN	Order/departure/arrival/first-combat dates; no Siberian-divisions myth
+G19-003	HIGHEST	Kwantung/Manchurian worldline OOB 1941-05-31 and 1941-06-21	OPEN	Include 4th Division, Nomonhan survivors, China-returning formations, readiness
+G19-004	HIGH	China withdrawal -> Manchuria/Japan force-flow ledger	OPEN	Do not count in-transit/refit units as combat-ready
+G19-005	HIGH	Soviet intelligence timeline on Japanese concentration	OPEN	Physical rail/OOB intelligence vs intent reporting
+G19-006	HIGH	Japanese northern decision process 1941-06-22 onward	OPEN	IGHQ/Kwantung/Matsuoka/Army/Navy; Neutrality Pact remains real
+G19-007	HIGH	Worldline Kwantung Special Maneuvers / mobilization scale	OPEN	Historical anchor first, then branch delta
+G19-008	HIGH	First Western Front battle affected by altered eastern transfers	OPEN	Derive after transfer ledger; do not assume Moscow
+G19-009	MEDIUM	US conditional oil normalization May-July 1941	WORKING	Test normal oil/DEI trade vs high-octane controls
+G19-010	MEDIUM	US intelligence recognition of GT middle-distillate value	OPEN	Do not make instantaneous perfect knowledge
+G19-011	MEDIUM	Yichang handover exact date and units	OPEN	Peace term implementation detail
+G19-012	MEDIUM	Exact Japanese China withdrawal schedule by division	OPEN	Needed for Manchuria and shipping calculations
+G19-013	MEDIUM	Post-peace KMT/CCP administrative competition map	OPEN	Avoid automatic immediate nationwide civil war
+G19-014	LOW	Nanjing top leadership final individual disposition	OPEN	Broad structure closed; individuals can be replayed later

@@ -1,0 +1,93 @@
+{
+  "id": "GALVANIC_CARRIER_BATTLE_1943-11-26_REAUDIT_WORKING_v001",
+  "status": "WORKING_BRANCH_RERUN_NOT_YET_PROMOTED",
+  "time": "1943-11-26 local",
+  "geometry": {
+    "Japan_first_line": "centered about 285-330 nmi W/WNW of the northern US fast-carrier group at launch decision; moving to preserve westward recovery margin rather than closing blindly on Tarawa",
+    "Japan_secondary": "rear-echelon depth as in dawn ledger; close enough for scheduled CAP/search relay and emergency recovery, not close enough to be treated as one synchronized eight-carrier strike system",
+    "US_northern_TG": "carrier-cover group centered on Lexington/Yorktown/Cowpens-class target set, roughly 180-230 nmi north-to-northwest of Tarawa support area; exact screen ships remain to close if needed for later surface action",
+    "weather": "favorable trade-weather band with broken cloud; no invented storm or perfect clear-sky omniscience"
+  },
+  "contact_chain": [
+    {
+      "time": "05:30-06:20",
+      "event": "Marshall water-air/legacy search plus passive bearing history narrows the northern carrier-cover sector. Rear-deck Japanese searches add coverage without replacing land/water-air backbone."
+    },
+    {
+      "time": "06:20-06:50",
+      "event": "Japanese long-range scout obtains direct carrier-group sighting and transmits approximate position/course; US CAP detects/chases the scout, so the US knows reconnaissance is active."
+    },
+    {
+      "time": "06:45-07:05",
+      "event": "D4Y/Zuiun/re-search refreshes the contact. Centered command-use contact age 15-30 min with about 15-30 nmi position uncertainty. This is good enough for a positive-EV first-line carrier strike."
+    },
+    {
+      "time": "07:05-07:35",
+      "event": "Japanese first-line four carriers launch before US locates their carrier center."
+    },
+    {
+      "time": "07:50-08:25",
+      "event": "US westward search, strengthened because Japanese scouts are known to be active, finds the first-line Japanese carrier system; contact is useful but later than the Japanese fix."
+    },
+    {
+      "time": "08:45-09:25",
+      "event": "US reachable fast decks launch counterstrike while the northern target TG is already at high CAP/AA readiness."
+    }
+  ],
+  "Japan_first_strike": {
+    "size": [
+      178,
+      188
+    ],
+    "center": 183,
+    "centered_mix": {
+      "fighters": 52,
+      "D4Y_dive_bombers": 68,
+      "B6N_torpedo_aircraft": 63
+    },
+    "Kinsei_in_escort": 13,
+    "why_larger_than_old_v004": "secondary decks absorb part of planned CAP/search/recovery burden, allowing the four first-line decks to commit roughly 15-20 more aircraft without stripping their own immediate defense",
+    "US_defense": "about 64-74 F6F-class CAP engaged over/near the target group over the raid window, with radar/CIC vectoring and heavy fleet AA; high vigilance is a real US adaptation to the 23 Nov Independence hit and continuing Japanese reconnaissance",
+    "effective_release": "roughly 52-66 Japanese attack aircraft reach useful weapon-release geometry across dispersed approaches; the raid remains costly"
+  },
+  "Japan_strike_results": {
+    "Lexington_CV16": "1 aerial torpedo plus 1-2 bomb hits centered; heavy mission-kill, flight operations stopped, propulsion/steering damage stabilized around 18-22 kt class; survives",
+    "Yorktown_CV10": "1 bomb/serious near-miss class centered; deck cycle interrupted roughly 5-9 h, later limited operations; survives",
+    "Cowpens_CVL25": "light splinter/near-miss damage centered; short local deck interruption only, no campaign mission-kill",
+    "escorts": "1-2 escorts take light-to-moderate near-miss/splinter damage centered; no additional major hull loss",
+    "note": "The larger raid does not erase F6F/CIC/AA. Its main centered change is a little more terminal mass, not a new sinking threshold."
+  },
+  "US_counterstrike": {
+    "size": [
+      130,
+      146
+    ],
+    "center": 138,
+    "generation": "two reachable fast-carrier groupings plus aircraft launched before damage from the threatened northern group; Tarawa/Marshall mission reservations prevent every operational US deck from contributing one homogeneous strike",
+    "Japanese_defense": "63-78 effective CAP over the raid window, combining first-line CAP and 18-26 rear-deck relief/relay fighters; 22-35 min centered warning from outer scouts/pickets/radio-radar cues",
+    "terminal_release": "roughly 48-64 US attack aircraft reach useful release geometry after CAP/route disruption; US dive/torpedo crews and F6F escort remain dangerous"
+  },
+  "US_strike_results": {
+    "Soryu": "1 bomb hit plus one damaging near-miss centered; localized flight-deck/hangar damage and fire, flight operations stopped roughly 8-14 h, propulsion intact. Mission-degraded but NOT centered as a campaign mission-kill; emergency recovery/cross-deck begins later 26 Nov.",
+    "Hiryu": "near-miss/splinter/light topside damage centered; no sustained flight-deck mission-kill",
+    "Shokaku": "operational",
+    "Zuikaku": "operational",
+    "reason_old_two_bomb_Soryu_threshold_moves": "rear-deck CAP/search support raises Japanese effective defensive fighters and warning without increasing fighter performance; the old two-bomb centered route is no longer the most-likely integer outcome, though it remains a serious sensitivity branch"
+  },
+  "air_losses_irrecoverable": {
+    "Japan": [
+      64,
+      79
+    ],
+    "US": [
+      45,
+      58
+    ],
+    "interpretation": "Japan launches more aircraft than old v004 and still pays heavily in experienced strike leaders/navigators/multi-seat crews. Rear-deck recovery trims fuel/landing/orphan losses but cannot recover aircraft or crews lost over the US formation."
+  },
+  "afternoon": {
+    "Japan": "No centered second all-out strike. First-line decks are recovering a heavily attrited raid and handling Soryu spillover; rear decks prioritize CAP/recovery. A 30-45 aircraft secondary-deck follow-on is physically conceivable but negative-EV at the now-aging contact/range and is not centered.",
+    "US": "No centered second all-out strike. Lexington is crippled, Yorktown temporarily impaired, strike groups are recovering and Japanese location is moving west under thicker CAP. US retains superior depth but does not convert depth into omniscient pursuit.",
+    "result": "mutual disengagement after one major cross-strike cycle; US remains strategically dominant around the Gilberts, but the Japanese four-carrier core leaves the day with all four hulls still mobile and Soryu repairable in-theater before home-yard decisions."
+  }
+}

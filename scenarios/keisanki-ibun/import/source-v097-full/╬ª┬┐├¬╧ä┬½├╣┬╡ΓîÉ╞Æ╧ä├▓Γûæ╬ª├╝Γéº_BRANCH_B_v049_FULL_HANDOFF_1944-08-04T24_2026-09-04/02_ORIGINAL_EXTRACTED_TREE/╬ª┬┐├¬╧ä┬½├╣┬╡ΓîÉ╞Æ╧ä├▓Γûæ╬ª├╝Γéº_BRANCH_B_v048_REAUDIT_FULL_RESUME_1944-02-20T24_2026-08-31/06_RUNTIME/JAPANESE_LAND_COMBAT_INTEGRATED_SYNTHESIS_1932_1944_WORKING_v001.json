@@ -1,0 +1,73 @@
+{
+  "revision": "v001",
+  "id": "JAPANESE_LAND_COMBAT_INTEGRATED_SYNTHESIS_1932_1944_WORKING_v001",
+  "status": "WORKING_INTEGRATED_LAND_SYSTEM_NOT_CURRENT_AUTHORITY",
+  "as_of": "1944-02-06T18:00:00+12:00",
+  "purpose": "Single load point for the Branch-B Japanese land system after the v047 vehicle/armor correction.",
+  "load_components": [
+    "06_RUNTIME/JAPANESE_LAND_COMBAT_HARDWARE_LINEAGE_1932_1944_WORKING_v001.json",
+    "06_RUNTIME/JAPANESE_LAND_VEHICLE_ARMOR_LINEAGE_1932_1944_WORKING_v001.json",
+    "02_TECH/TECH_INDEX_v009.json#TECH-LANDING-PACKAGE-001",
+    "02_TECH/TECH_INDEX_v009.json#TECH-AMPHIBIOUS-FIRSTDAY-001",
+    "06_RUNTIME/SESSION_2026-08-27_GALVANIC_MANDATORY_FACTORS_MEMO_v001.md"
+  ],
+  "land_system_layers": [
+    {
+      "layer": "personnel_and_command",
+      "rule": "Trace first-line combat fraction, cadre, fatigue, command succession, reserves and medical support. Construction/support personnel are not infantry."
+    },
+    {
+      "layer": "firepower_and_ammunition",
+      "rule": "Trace weapon presence, crew, observation, registration, ammunition survival, lot/QC and suppression. No global artillery multiplier."
+    },
+    {
+      "layer": "protection_and_fortification",
+      "rule": "Trace warning time, labor, material, engineer plant, dispersion, protected magazines and physical survival under bombardment."
+    },
+    {
+      "layer": "communications",
+      "rule": "Trace wire/radio/battery/spares/test gear and physical survival; better hardware serviceability does not create more sets."
+    },
+    {
+      "layer": "vehicles_and_mobility",
+      "rule": "Trace type/count/serviceability/terrain/fuel/recovery. Branch vehicles can differ in reliability and return-to-service without changing gun/armor class."
+    },
+    {
+      "layer": "engineer_and_logistics",
+      "rule": "Trace trucks, tractors, landing craft, pumps, generators, stores, water and routes. Throughput acts before combat readiness, not as lethality."
+    },
+    {
+      "layer": "enemy_combined_arms_suppression",
+      "rule": "All gains remain vulnerable to air/naval/artillery suppression, armor, engineers, isolation and loss of observation."
+    }
+  ],
+  "vehicle_correction_to_v046": {
+    "old_compression": "v046 represented local armor mainly as +5-10% vehicle serviceability and left historically trace-valid hardware otherwise unchanged.",
+    "new_rule": "Vehicle families remain historically recognizable but are Branch-specific production/service variants. Use type-specific running-gear, powertrain, maintenance, recovery and reappearance deltas; never collapse them into one uptime number.",
+    "quantity_guard": "No new vehicle count is created. Quantity and allocation require a dated OOB/ledger.",
+    "performance_guard": "No armor, gun energy, crew ergonomics or radio quantity improves without its own design and fielding trace."
+  },
+  "event_sequence": [
+    "fix physical OOB",
+    "fix serviceable/crewed state",
+    "apply date-specific technical maturity",
+    "apply terrain/supply/suppression gates",
+    "resolve contact and damage",
+    "classify vehicle and weapon losses",
+    "resolve 24-72h repair/reappearance",
+    "only then calculate personnel casualties and operational timing"
+  ],
+  "retroactive_policy": {
+    "GALVANIC": "EXECUTED_IN_v047_GROUND_NODE_ROLLBACK",
+    "other_pre_1944_02_06_events": "RESERVED_FOR_CONSOLIDATED_ALLIED_DEATH_TALLY_UNLESS_SEPARATELY_REOPENED",
+    "future_from_1944_02_06T1800": "MANDATORY_PROSPECTIVE_LOAD"
+  },
+  "hard_guards": [
+    "No universal land-combat multiplier.",
+    "No universal armor or tank survivability multiplier.",
+    "No automatic increase in tank, truck, tractor, radio, gun or manpower count.",
+    "No Jan-1944 maturity back-port to 1941.",
+    "No 72h reappearance after catastrophic destruction, drowning, abandonment or workshop loss.",
+    "Do not double-count process improvements already embedded in an event's serviceable starting state."
+  ]
+}

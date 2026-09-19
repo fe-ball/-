@@ -1,0 +1,75 @@
+{
+  "revision": "v001",
+  "purpose": "Make wartime rewind segments explicit and distinguish archival branches from execution-valid restart nodes.",
+  "nodes": [
+    {
+      "id": "WARSTART_1941-12-07_08_v003",
+      "date": "1941-12-07/08",
+      "status": "EXECUTION_VALID_BOUNDED",
+      "parent": null,
+      "kind": "major_floor"
+    },
+    {
+      "id": "LEGACY_80_MO_MI",
+      "date": "1942 MO/MI",
+      "status": "ARCHIVAL_COMPARISON_ONLY",
+      "parent": "WARSTART_1941-12-07_08_v003",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LEGACY_85_MO_MI_REAUDIT",
+      "date": "1942 MO/MI",
+      "status": "BLOCKED_PENDING_COMINT_RERUN",
+      "parent": "WARSTART_1941-12-07_08_v003",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LOCAL_RESTART_1942-05-06T24",
+      "date": "1942-05-06T24:00",
+      "status": "PROVISIONAL_RESTART",
+      "parent": "WARSTART_1941-12-07_08_v003",
+      "kind": "local_floor",
+      "requirements": [
+        "regenerate 1942-05-04..05-06 information-state handout with restored COMINT",
+        "then execute 1942-05-07 Coral Sea"
+      ]
+    },
+    {
+      "id": "LEGACY_86_AL_FS",
+      "date": "1942 AL/South Pacific/FS",
+      "status": "BLOCKED_BY_PARENT",
+      "parent": "LEGACY_85_MO_MI_REAUDIT",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LEGACY_87_1942FALL_1943SUMMER",
+      "date": "1942 fall-1943 summer",
+      "status": "BLOCKED_BY_ANCESTRY_UNTIL_REVALIDATED",
+      "parent": "LEGACY_86_AL_FS",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LEGACY_88_1943FALL_WINTER",
+      "date": "1943 fall-winter",
+      "status": "BLOCKED_BY_ANCESTRY_UNTIL_REVALIDATED",
+      "parent": "LEGACY_87_1942FALL_1943SUMMER",
+      "kind": "legacy_branch"
+    },
+    {
+      "id": "LEGACY_89_1943WINTER_1944EARLYSUMMER",
+      "date": "1943 winter-1944 early summer",
+      "status": "BLOCKED_BY_ANCESTRY_UNTIL_REVALIDATED",
+      "parent": "LEGACY_88_1943FALL_WINTER",
+      "kind": "legacy_branch"
+    }
+  ],
+  "invalidation_classes": {
+    "EVIDENCE_POINTER_ONLY": "no rerun if runtime value/status unchanged",
+    "TECH_ENTRY_VALUE_CHANGE": "find checkpoints/events whose handouts include changed tech entry or dependent intermediate state; revalidate/rerun descendants from earliest affected event",
+    "PREWAR_REALIZATION_CHANGE": "new WARSTART baseline; all wartime descendants require impact review",
+    "WARSTART_STATE_CHANGE": "new WARSTART baseline; all descendants require impact review",
+    "CHECKPOINT_STATE_CHANGE": "invalidate descendants of that checkpoint only",
+    "RULE_RUNTIME_CHANGE": "use rule dependency mapping; rerun from earliest event whose calculation used affected rule"
+  },
+  "principle": "Archived branches are never deleted. Execution validity is a separate property."
+}

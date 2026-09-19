@@ -1,0 +1,24 @@
+{
+  "id": "FLINTLOCK_US_BASE_TRANSITION_1944-02-09_15_v001",
+  "status": "WORKING_PROCESS_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-09 through 1944-02-15",
+  "Roi": {
+    "debris_clearance": "Limited clearance begins under local security on 7-8 Feb and accelerates after 9-Feb secure closeout.",
+    "emergency_liaison_fighter_use": "11-13 Feb centered; individual liaison, emergency and limited fighter landings are possible before full squadron throughput.",
+    "limited_CAP_ferry_recon_detachment": "13-15 Feb centered, constrained by debris, UXO, fuel handling, maintenance space and traffic control.",
+    "regular_fighter_squadron_level_ops": "16-18 Feb working gate; not yet a mature high-throughput bomber base.",
+    "longer_term": "Major reconstruction, parking, supply and sustained multi-type base expansion continue for weeks/months."
+  },
+  "Kwajalein_Island": {
+    "clearance_start": "9 Feb after formal secure declaration; selected engineer work starts earlier where locally safe.",
+    "emergency_transport_liaison": "11-13 Feb centered.",
+    "limited_staging": "15-19 Feb centered for transport/recon/light-medium staging as surfaces, fuel and traffic control permit.",
+    "guard": "Do not treat the captured strip as a mature bomber base immediately after repair of a usable landing surface."
+  },
+  "Ebeye_water_air": {
+    "state": "Seaplane ramps/piers/support facilities are damaged but lagoon geography remains useful.",
+    "limited_PBY_tender_ASW_recon_use": "11-14 Feb centered using mobile/tender support plus repaired local facilities.",
+    "effect": "Improves local ASW/recon persistence and logistics liaison without requiring a fully reconstructed permanent seaplane base."
+  },
+  "Majuro": "Remains the preferred immediate fast-fleet replenishment/assembly node; Kwajalein does not instantly replace it."
+}

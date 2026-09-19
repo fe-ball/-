@@ -1,0 +1,109 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_CARRIER_AIR_REGENERATION_LEDGER_1944-03-08_20_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-03-09..20",
+  "global_frontier_after_merge": "1944-03-20T24",
+  "parents": [
+    "JAPAN_CARRIER_SURFACE_FLEET_AUDIT_1944-03-08_WORKING_v001",
+    "JAPAN_AIRCREW_REGENERATION_SOFT_PROGRESS_1944-03-08_WORKING_v001"
+  ],
+  "purpose": "Apply the Branch lower-net-loss/cadre-return feedback to the four established fleet-carrier air groups as a recovery-rate effect, while charging high-tempo deck-training accidents and preserving airframe/deck capacity limits.",
+  "baseline_08Mar": {
+    "carriers": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu"
+    ],
+    "integrated_combat_ready_aircraft_band": [
+      230,
+      260
+    ],
+    "one_cycle_synchronized_offensive_package_band": [
+      130,
+      165
+    ],
+    "qualitative_state": "HULL_SYSTEM_RECOVERED; AIR_GROUP_SYSTEM_PARTIALLY_RECOVERED"
+  },
+  "weekly_curve": [
+    {
+      "as_of": "1944-03-12T24",
+      "integrated_ready_band": [
+        237,
+        266
+      ],
+      "one_cycle_synchronized_offensive_package_band": [
+        137,
+        172
+      ],
+      "state": "cadre holes still visible; deck-cycle and mixed-experience formation work improving"
+    },
+    {
+      "as_of": "1944-03-16T24",
+      "integrated_ready_band": [
+        244,
+        272
+      ],
+      "one_cycle_synchronized_offensive_package_band": [
+        145,
+        178
+      ],
+      "state": "four-deck coordination materially better; attack-leader/navigation debt now moderate rather than acute"
+    },
+    {
+      "as_of": "1944-03-20T24",
+      "integrated_ready_band": [
+        250,
+        278
+      ],
+      "one_cycle_synchronized_offensive_package_band": [
+        150,
+        184
+      ],
+      "state": "four-carrier combat system substantially regenerated, but repeated long-range strike endurance remains below the mature 1942-43 Branch peak"
+    }
+  ],
+  "rate_effect": {
+    "carrier_conversion_training_speed_multiplier": [
+      1.1,
+      1.22
+    ],
+    "qualification_latency_reduction_percent": [
+      8,
+      18
+    ],
+    "application": "applies to crewed/mission-ready conversion and cohesion recovery, not raw factory production; values are inherited from JAPAN_AIRCREW_REGENERATION_SOFT_PROGRESS_1944-03-08_WORKING_v001"
+  },
+  "regeneration_sources": [
+    "new carrier-air graduates",
+    "wounded/recovered aircrew",
+    "rotated veterans and surviving flight leaders",
+    "orphan/reorganized-unit cadres",
+    "secondary-carrier qualification pipeline",
+    "repairable aircraft returning to service"
+  ],
+  "training_cost_09_20Mar": {
+    "aircraft_irrecoverable_writeoff_band": [
+      4,
+      7
+    ],
+    "fatal_or_permanently_lost_carrier_aircrew_band": [
+      1,
+      3
+    ],
+    "damaged_recoverable_aircraft_band": [
+      8,
+      14
+    ],
+    "accounting_note": "These losses are already netted into the dated ready bands above; do not subtract them again."
+  },
+  "remaining_bottlenecks": [
+    "D4Y/B6N strike leaders and multi-seat crew synchronization",
+    "long-range over-water navigation leaders",
+    "night/bad-weather deck qualification",
+    "four-deck strike marshaling under radio discipline",
+    "fuel and safe sea-room for repeated high-tempo training"
+  ],
+  "guard": "Do not interpret 250-278 ready as a license for a voluntary search-duel against TF58. Crew depth is recovering faster, but another 3-Feb-scale cadre loss would still be strategically expensive."
+}

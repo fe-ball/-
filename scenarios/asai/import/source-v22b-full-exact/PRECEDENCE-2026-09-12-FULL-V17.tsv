@@ -1,0 +1,11 @@
+rank	layer	path	rule
+1	V17 technical/session	85-CURRENT-2026-09-12-NAVAL-CRP-CONSOLIDATION-V17/	Highest only for explicitly closed/reopened V17 subjects
+2	V16 replay/session	84-CURRENT-2026-09-11-THREAD-CONSOLIDATION-V16/	Highest replay-state authority; clock 1940-07-31 24:00
+3	V15 visual geometry	83-CURRENT-2026-09-09-AIRCRAFT-VISUAL-GEOMETRY-CLOSE/	Retained where V17 silent
+4	V14 naval/marine/ground	81-CURRENT-2026-09-09-GROUND-VEHICLE-CLOSE/ ; 82-CURRENT-2026-09-09-NAVAL-MARINE-CLOSE/	Retained except explicit V17 overrides/reopens
+5	V13 rotorcraft	80-CURRENT-2026-09-08-HELICOPTER-CLOSE/	Retained
+6	V12 fixed-wing procurement	79-CURRENT-2026-09-08-FIXED-WING-PROCUREMENT-CLOSE/	Retained
+7	V11 aircraft development	78-CURRENT-2026-09-08-AIRCRAFT-DEVELOPMENT-CLOSE/	Retained
+8	V10 technical/replay	72-77 CURRENT trees	Retained where not overridden
+9	V9 technical control	71-CURRENT-TECHNICAL-CONTROL-V9/	Mandatory fallback control
+100	provenance/quarantine	90-94 provenance trees	Never override current automatically

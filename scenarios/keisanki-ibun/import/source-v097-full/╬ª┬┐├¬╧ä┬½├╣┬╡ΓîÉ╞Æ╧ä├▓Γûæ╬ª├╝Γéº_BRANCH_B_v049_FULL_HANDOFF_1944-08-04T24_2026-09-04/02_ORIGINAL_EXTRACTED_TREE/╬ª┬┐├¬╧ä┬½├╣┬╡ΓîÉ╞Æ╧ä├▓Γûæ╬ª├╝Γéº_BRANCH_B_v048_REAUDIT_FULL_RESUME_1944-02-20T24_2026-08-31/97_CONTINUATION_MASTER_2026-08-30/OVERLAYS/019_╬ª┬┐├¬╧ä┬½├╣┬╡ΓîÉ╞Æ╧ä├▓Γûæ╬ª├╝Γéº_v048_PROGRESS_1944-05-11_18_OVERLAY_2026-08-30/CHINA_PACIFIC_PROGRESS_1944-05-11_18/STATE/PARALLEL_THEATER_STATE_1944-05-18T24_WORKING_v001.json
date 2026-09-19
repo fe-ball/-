@@ -1,0 +1,22 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-05-18T24_WORKING_v001",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_CURRENT_OVERLAY",
+  "as_of": "1944-05-18T24:00:00+09:00",
+  "global_frontier": "1944-05-18T24",
+  "China": {
+    "Ichigo_Hunan": "Phase A closes with Changsha under Japanese operational control late 18 May after Liuyang/Ningxiang/Xiangtan isolation sequence. IX War Area main body survives southward.",
+    "Japan": "Campaign remains logistically coherent but must repair Xiang crossings/rail/airfields. Hengyang release is HOLD pending 21-23 May gate.",
+    "China_IX_War_Area": "Political defeat, operational preservation. Hengyang-Leiyang reserve remains meaningful.",
+    "Fourteenth_Air_Force": "Active interdiction/evacuation cover; captured airfields are demolished and not immediately usable at full capacity.",
+    "Nanjing": "26-38k rear-security personnel in secured rear system; Japanese cadres remain at key Changsha/Xiangtan nodes."
+  },
+  "Pacific": {
+    "Japan_carriers": "Five-deck core shifts into distributed Tawi Tawi/Basilan-Sulu reaction system by mid-May; no offensive hunt. Taiho A- one-cycle integration.",
+    "Japan_ASW": "Sulu approaches receive priority layered ASW/Tokai-MAD allocation. US submarines remain dangerous but do not shut down all training or score a confirmed major fleet/oiler kill in this window.",
+    "US": "TG58.6 with Essex, CV-18-equivalent and San Jacinto has sortied for Marcus/Wake work-up/neutralization. Fast-deck immediate pool rises to roughly 15 usable decks by 18 May working center.",
+    "Marianas": "Japanese threat assessment remains high but exact D-Day/target schedule not known."
+  },
+  "Indian_Ocean_Bengal": "BACKGROUND_FREEZE remains active; no new fleet or ground release gate.",
+  "next_active_question": "19-23 May: resolve Marcus/Wake strikes, Japanese ISR interpretation, Changsha logistics repair, and the Hengyang Phase-B release gate. Do not assume immediate southward pursuit."
+}

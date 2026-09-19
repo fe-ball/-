@@ -1,0 +1,8 @@
+date	front	event	historical_anchor	asai_delta	decision	status
+1937-10-06	North China	1st Army divisions advance toward Chengting/Huto Ho	JM178	readiness small positive	calendar unchanged	CLOSED
+1937-10-08	North China	6th Division deploys siege/heavy artillery, ~100 guns total support	JM178	artillery prep -5 to -10%; tractor readiness +3 to +6pp	assault geometry unchanged	CLOSED
+1937-10-09	North China	Chengting resistance substantially cleared by dawn	JM178	clearance potentially 1-3h earlier	date unchanged	CLOSED-MINOR-HOUR-SHIFT
+1937-10-09	North China	14th Division advances river crossing and spearhead reaches Shihchiachuang afternoon	JM178	entry potentially 1-3h earlier	still 9 Oct spearhead	CLOSED-MINOR-HOUR-SHIFT
+1937-10-10	North China	Shihchiachuang formal/secure occupation	local chronology	no robust one-day shift	10 Oct retained	CLOSED-SAME-CALENDAR
+1937-10-05/10	Shanghai	Wusong/Yunzaobin-Dachang positional battle	West Point/FRUS	naval/artillery cycle -5 to -10%; aircraft +3 to +5pp	no breakthrough	CLOSED-SAME-CALENDAR
+1937-10-05/10	Shanghai	attritional fighting and heavy casualties	FRUS/secondary operational history	Japanese casualties -5 to -8% sensitivity; Chinese 0 to +3%	no strategic result change	WORKING-SENSITIVITY

@@ -1,0 +1,13 @@
+{
+  "revision": "v001",
+  "id": "MARIANAS_PRIMARY_STATE_1944-06-13T24_WORKING_v001",
+  "status": "CURRENT_OVERLAY_FRONTIER",
+  "as_of": "1944-06-13T24:00:00+09:00",
+  "global_frontier": "1944-06-13T24",
+  "primary_theater": "MARIANAS",
+  "US": "Fast-battleship bombardment, minesweeping/reef work and continuing carrier suppression make the Saipan invasion unmistakable. Fast-battleship fire causes meaningful suppression but does not systematically destroy concealed Japanese defenses. FORAGER remains on schedule.",
+  "Japan_land_air": "Marianas air power conducts one bounded attack on the fixed bombardment geometry while continuing cadre preservation. End-day onsite ready 103-137, fighters 52-72, attack/recon 29-42. Local air superiority is lost, but reconnaissance and local strike capability remain.",
+  "Japan_fleet": "Yamamoto closes the final A-GO gate and releases the battle force. Five-carrier core and secondary carrier group finish Guimaras concentration/refuel; eastward sortie is centered on 14 Jun. Yamato/Musashi remain fully available because KON is absent.",
+  "US_ISR": "No dependable full-order-of-battle submarine contact on the Japanese main body is credited by 13T24; this advantage is temporary as the fleet prepares to enter the Philippine Sea.",
+  "next_focus": "14 Jun: old-battleship/close bombardment and final amphibious preparation around Saipan; Japanese fleet sortie east, first serious US submarine/air-search contact opportunities, and the changing carrier geometry before D-day."
+}

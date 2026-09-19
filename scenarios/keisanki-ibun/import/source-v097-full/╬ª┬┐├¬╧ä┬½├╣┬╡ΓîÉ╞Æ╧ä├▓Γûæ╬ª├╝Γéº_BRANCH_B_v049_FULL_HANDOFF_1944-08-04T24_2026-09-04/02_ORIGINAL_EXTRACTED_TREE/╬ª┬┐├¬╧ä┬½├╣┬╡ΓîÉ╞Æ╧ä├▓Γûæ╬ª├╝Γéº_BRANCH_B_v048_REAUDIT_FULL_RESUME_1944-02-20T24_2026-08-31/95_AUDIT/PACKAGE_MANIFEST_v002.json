@@ -1,0 +1,22 @@
+{
+  "revision": "v002",
+  "generated": "2026-08-18",
+  "technical_index_entries": 49,
+  "prewar_entries": 18,
+  "adjudication_cases": 7,
+  "legacy_file_count": 188,
+  "legacy_tree_digest": "6295782e9dd6dba329c36e998ce2df3a89767d82201b0754e6b4ac912c7a4f90",
+  "json_validation": "PASS",
+  "coral_sea_handout_regression": "PASS",
+  "runtime_baselines": {
+    "TECH": "02_TECH/TECH_INDEX_v002.json",
+    "PREWAR": "03_PREWAR/PREWAR_INDEX_v002.json",
+    "WARSTART": "04_WARSTART/WARSTART_CHECKPOINT_v002.json",
+    "EVENT_PROFILES": "06_RUNTIME/EVENT_RELEVANCE_PROFILES_v001.json"
+  },
+  "json_file_count": 56,
+  "legacy_byte_identity_vs_v001": true,
+  "coral_sea_handout_entry_count": 23,
+  "coral_sea_required_cards": true,
+  "pearl_sync_normalized_to_v003": true
+}

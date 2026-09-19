@@ -1,0 +1,14 @@
+{
+  "revision": "v001",
+  "id": "MARIANAS_PRIMARY_STATE_1944-06-15T24_WORKING_v001",
+  "status": "CURRENT_OVERLAY_FRONTIER",
+  "as_of": "1944-06-15T24:00:00+09:00",
+  "global_frontier": "1944-06-15T24",
+  "primary_theater": "MARIANAS",
+  "US": "Saipan lodgment survives D-Day with about 20-22.5k combat troops ashore but a shallow/disorganized beachhead and 3.3-4.1k combat casualties. TF58 retains 16 fast decks; submarine warning keeps about 12 decks local while one 4-deck group handles short Bonins suppression.",
+  "Japan_ground": "Saipan opens with 57-64 ready armored vehicles, including 18-22 Shinhoto Type 97. Daytime packet tactics preserve much of the regiment; end-day 48-56 armored vehicles remain ready and the 16/17 Jun mass-counterattack gate is still open.",
+  "Japan_land_air": "End-day onsite ready 58-78, fighters 27-39, attack/recon 18-27. Local air cannot restore air superiority but can still scout and strike small targets.",
+  "Japan_mobile": "Five-carrier core remains 356-379 ready; six secondary carriers 143-179 combat-usable; seven available battleships in the battle system. Main force is roughly 700-850 nmi WSW of Saipan by late day.",
+  "ISR": "US submarine fusion confirms a major Japanese carrier-battleship sortie but lacks continuous weapon-quality shadowing. Japanese predelegated Sixth Fleet control avoids a full Saipan-HQ command collapse; a probable US fast-carrier sector is obtained but remains too broad/stale for a 15 Jun fleet strike.",
+  "next_focus": "16 Jun: Bonins suppression/return, Japanese fleet refueling/search geometry, US submarine recontact, Japanese submarine patrol-line contacts, Saipan beachhead consolidation, and whether local/mobilized Japanese air can produce a useful carrier or fire-support target fix."
+}

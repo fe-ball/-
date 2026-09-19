@@ -1,0 +1,50 @@
+{
+  "revision": "v005",
+  "id": "CURRENT_BRANCH_STATE_v005",
+  "date_created": "2026-08-26",
+  "package_revision": "v023",
+  "status": "CURRENT",
+  "current_analysis_time": "1943-10-01T00:00",
+  "current_frontier_event": "1943Q3 synchronized line closed through Sep 30; next adjudication is October Pacific pressure, SEAC/Bengal reaction, and late-Oct/early-Nov India coastal-operation GO/NO-GO.",
+  "active_restart": {
+    "mode": "GLOBAL_1943_AUTUMN_SYNCHRONIZED_ADVANCE",
+    "time": "1943-10-01T00:00",
+    "checkpoint": "CHECKPOINT_1943-09-30T24_v001"
+  },
+  "current_overrides": "00_CONFIG/current_branch_overrides_v007.json",
+  "current_session_settlement": "06_RUNTIME/SESSION_2026-08-26_1943Q3_SYNCHRONIZED_HANDOFF_v001.md",
+  "current_authoritative_1943_settlements": [
+    "06_RUNTIME/ALEUTIANS_ATTU_KISKA_REAUDIT_1943-03_07_SETTLEMENT_v001.md",
+    "06_RUNTIME/EFATE_LIMITED_NEUTRALIZATION_1943-06_SETTLEMENT_v001.md",
+    "06_RUNTIME/INDIAN_OCEAN_BURMA_COASTAL_OPERATION_STUDY_1943-06_09_v001.md",
+    "06_RUNTIME/JAPAN_AMPHIBIOUS_NAVAL_WALLET_1943-07_09_v001.json",
+    "06_RUNTIME/GLOBAL_1943Q3_SYNCHRONIZATION_LEDGER_v001.md"
+  ],
+  "retained_provisional": [
+    "06_RUNTIME/PACIFIC_MIDWAY_CONTINUOUS_CAMPAIGN_REAUDIT_1943-07_10_v001.md",
+    "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+    "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+    "06_RUNTIME/CBI_HUMP_INDIAN_OCEAN_DEPENDENCY_REAUDIT_GATE_1944_v001.md",
+    "06_RUNTIME/CATCHPOLE_ENIWETOK_1944-04-18_24_SETTLEMENT_v001.md",
+    "06_RUNTIME/PRE_ICHIGO_FINAL_FORCE_LOGISTICS_GATE_1944-04-25_v001.md",
+    "06_RUNTIME/CHINA_ICHIGO_ANALOG_1944-05-10_10-20_PROVISIONAL_FORWARD_v001.md"
+  ],
+  "settled_key_points": [
+    "No historical Komandorski battle central; fast Attu convoy reaches Mar 27-28.",
+    "Yamamoto survives Apr 18; one limited late-May Attu extraction; Attu ends around Jun 4; Kiska evacuated late July.",
+    "Efate limited neutralization Jun 8-9; Wasp survives; no carrier duel; severe base suppression measured in days, not weeks.",
+    "Five-Go Phase II ends at Hanzhong Jul 21-23; Sichuan Phase III HOLD.",
+    "India/Burma coastal operation is advanced study/preparation authorized but not GO.",
+    "First-line Japanese carrier core remains Pacific as US new carrier groups become combat-ready.",
+    "British historical Burma offensive schedule is not an axiom; capability and global competition must be paid.",
+    "Mediterranean historical strategic outcomes broadly remain, but Britain pays extra Q2-Q3 casualties/buffer to preserve schedule.",
+    "Current restart ownership guard: Midway remains Japanese-held; New Caledonia is Japanese military control under Vichy nominal sovereignty; Efate remains US-held.",
+    "Allied branch carrier losses remain paid: US Lexington/Yorktown/Enterprise/Hornet/Saratoga; Britain Indomitable/Formidable. Wasp survives; US new-build fast-carrier groups rise by late Aug/Sep.",
+    "Japanese hull/command survival is branch-derived, not historical-date-derived: four-carrier core alive; Hiei/Kirishima/Haruna have later branch activity; Yamamoto survives.",
+    "Japanese combat capability and COMINT divergence are loaded from TECH v006; historical median/JN-25 assumptions are forbidden defaults.",
+    "China at cutoff: Hanzhong Phase-II endpoint held; Sichuan Phase III HOLD and Burma transfers must pay China-consolidation cost."
+  ],
+  "next_required_adjudication": "October 1943 synchronized advance: US Pacific carrier action -> Japanese carrier/surface allocation -> SEAC/Bengal air concentration -> individual Japanese amphibious/naval hull readiness -> India late-Oct/early-Nov GO/NO-GO; retain low-probability British rash-counteroffensive branch without forcing it.",
+  "precedence_rule": "CURRENT_BRANCH_STATE_v005 + CHECKPOINT_1943-09-30T24_v001 + BRANCH_INVARIANT_GUARD_1943-10-01_v001 + current_branch_overrides_v007 supersede contrary historical-default, stale checkpoint, and retained-provisional downstream text.",
+  "branch_invariant_guard": "06_RUNTIME/BRANCH_INVARIANT_GUARD_1943-10-01_v001.json"
+}

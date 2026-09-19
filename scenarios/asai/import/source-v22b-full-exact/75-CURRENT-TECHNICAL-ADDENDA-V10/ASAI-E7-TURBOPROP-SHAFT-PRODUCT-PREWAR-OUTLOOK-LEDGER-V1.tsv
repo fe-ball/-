@@ -1,0 +1,17 @@
+item	flow_or_scale	normal_or_target	short_or_capability	status	note
+E7_S_T	7.5-8.0 kg/s	1425-1500 shp	1525-1575 shp	H->A OUTLOOK	small-core ceiling; modest E6-S growth
+E7_M_lower_T	10-11 kg/s	1750-1850 shp	1900-2000 shp	H->A OUTLOOK	lower-medium carrier/tactical sweet spot; B6N candidate
+E7_M_central_T	12.5-14 kg/s	2250-2450 shp	2500-2650 shp capability-dependent	H->A OUTLOOK	prop/reducer become primary gate
+E7_L_T	~24 kg/s	3500-4000 shp first-product flat-rate	4560-4780 hp core capability neighborhood	H->A OUTLOOK	heavy transport/patrol; very-large prop gate
+E7_TP_BSFC_full	all scales	0.34-0.36 kg/kWh	-	H->A SCREEN	not an exact product map
+E7_TP_BSFC_partload	all scales	0.39-0.46 kg/kWh	-	OPEN-BANDED	installation/control dependent; does not auto-beat mature piston cruise
+B6N_engine_review	carrier attack	include E7-M lower-flow at detail freeze/pre-first-flight	1750-1850 normal / 1900-2000 short	CLOSED PLANNING RULE	E6-S-T no longer sole TP comparator
+B5N_E7_retrofit	carrier attack	no serial retrofit	-	NOT RECOMMENDED	new-aircraft-level integration burden
+D3A_E7_retrofit	carrier bomber	no serial retrofit	-	NOT RECOMMENDED	fixed-gear drag; successor path preferred
+G3M_G4M_E7_retrofit	land attack	no serial retrofit	-	NOT RECOMMENDED	long-range piston value remains; purpose-built TP only
+AT3_E7_growth	4-engine heavy transport	4x2300-2450 shp	9200-9800 shp aggregate	H->A PREFERRED GROWTH	retain four-engine architecture; hot/high/payload growth
+AT3_2xE7L	large transport	2x3500-4000 shp class	-	NOT PREFERRED FIRST STEP	engine-out/prop diameter/ground-clearance penalties
+P2_E7_upgrade	utility/STOL	retain E5-S-T service-class power	-	NO AUTOMATIC UPGRADE	E7-equivalent production may later improve cost/life
+E7_TP_schedule_1940H2	gas-generator	shaft/reducer/prop layout parallel design	-	TARGET OUTLOOK	no flight claim
+E7_TP_schedule_1941H2	ground-qualified core	shaft bench/endurance + airframe ground run	-	TARGET OUTLOOK	flight release depends reducer/prop/TBO
+E7_TP_schedule_1942Q1	flight release	limited aircraft TP flight candidate	-	FUTURE OUTLOOK	serial adoption remains program-local

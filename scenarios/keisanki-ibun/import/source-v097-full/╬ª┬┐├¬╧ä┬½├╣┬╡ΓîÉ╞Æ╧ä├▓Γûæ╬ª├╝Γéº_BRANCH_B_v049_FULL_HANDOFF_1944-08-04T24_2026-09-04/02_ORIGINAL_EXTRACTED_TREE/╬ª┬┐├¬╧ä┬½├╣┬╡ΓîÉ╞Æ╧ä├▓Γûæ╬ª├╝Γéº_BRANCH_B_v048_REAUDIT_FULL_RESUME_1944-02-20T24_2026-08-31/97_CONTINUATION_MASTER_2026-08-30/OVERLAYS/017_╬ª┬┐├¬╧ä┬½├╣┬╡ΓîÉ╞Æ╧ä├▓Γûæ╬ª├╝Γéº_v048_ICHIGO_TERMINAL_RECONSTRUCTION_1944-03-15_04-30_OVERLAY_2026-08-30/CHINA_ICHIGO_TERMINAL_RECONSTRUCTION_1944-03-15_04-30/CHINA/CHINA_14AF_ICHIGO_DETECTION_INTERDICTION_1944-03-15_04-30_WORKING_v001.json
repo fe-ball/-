@@ -1,0 +1,86 @@
+{
+  "revision": "v001",
+  "id": "CHINA_14AF_ICHIGO_DETECTION_INTERDICTION_1944-03-15_04-30_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_BRANCH_RESPONSE",
+  "as_of": "1944-04-30T24:00:00+09:00",
+  "purpose": "Resolve how much the Chungking/Chinese intelligence system and Fourteenth Air Force know before the branch Hunan launch, and quantify why interdiction hurts but does not prevent the Japanese terminal buildup.",
+  "historical_anchor": {
+    "chennault_1944-04-19": "Chennault wrote that Japanese troop/equipment movement up the Yangtze had never been so heavy, judged two major offensives virtually certain, and specifically expected a Yochow/Nanchang-based movement to take Changsha.",
+    "interdiction_sanity": "Postwar USAAF analysis judged that attacks on Yangtze shipping did not prevent the Japanese from accumulating troops and supplies at Hankow; movement used night traffic and defended ports.",
+    "sources": [
+      "https://history.state.gov/historicaldocuments/frus1944v06/d53",
+      "https://www.ibiblio.org/hyperwar/AAF/AAFHS/AAFHS-132.pdf"
+    ]
+  },
+  "branch_detection_timeline": [
+    {
+      "date": "1944-03-20..31",
+      "assessment": "SUSPICION",
+      "confidence": "MEDIUM",
+      "basis": [
+        "increased Yangtze traffic",
+        "support-unit and vehicle movement",
+        "Yueyang/Pailiuchi preparation"
+      ]
+    },
+    {
+      "date": "1944-04-05..12",
+      "assessment": "MAJOR_HUNAN_OPERATION_LIKELY",
+      "confidence": "HIGH",
+      "basis": [
+        "ten-division system taking shape",
+        "engineer/bridge material movement",
+        "forward dump dispersal and airfield activity"
+      ]
+    },
+    {
+      "date": "1944-04-19",
+      "assessment": "HUNAN_CHANGSHA_OFFENSIVE_VIRTUALLY_CERTAIN",
+      "confidence": "VERY_HIGH",
+      "basis": [
+        "historical-grade visible movement signal plus branch-specific absence of a full Honan opening campaign"
+      ]
+    },
+    {
+      "date": "1944-04-26..27",
+      "assessment": "ATTACK_IMMINENT_WITHIN_DAYS",
+      "confidence": "HIGH",
+      "basis": [
+        "forward artillery/engineer closure",
+        "traffic discipline change",
+        "air activity rise"
+      ],
+      "limitation": "Exact H-hour and exact axis ordering remain unresolved."
+    }
+  ],
+  "fourteenth_air_force_branch_allocation": {
+    "constraint": "Five-Go/Hanzhong-Guangyuan and Chengdu/Matterhorn defense retain a larger northwest/Sichuan tax than history, while absence of U-Go reduces one competing CBI emergency. Net Hunan availability is significant but not unlimited.",
+    "late_April_east_southeast_mission_ready_pool_band": [
+      90,
+      125
+    ],
+    "sustainable_hunan_loc_interdiction_and_ground_support_allocation_band": [
+      60,
+      85
+    ],
+    "one_day_emergency_surge_band": [
+      95,
+      125
+    ],
+    "primary_assets": "P-40/P-51/CACW fighters with B-25 medium-bomber support; B-24 use remains selective because of fuel and higher-priority commitments.",
+    "priority": "Attack Yangtze/rail/road movement, Yueyang/Pailiuchi depots/airfields, bridges and exposed columns; avoid wasting the force in repeated low-payoff attacks against dispersed infantry."
+  },
+  "chinese_ground_response": {
+    "decision": "DO_NOT_PACK_MAIN_ARMIES_INTO_FORWARD_CITIES_OR_A_SINGLE_STATIC_LINE",
+    "reason": "Five-Go taught that preserving heavy weapons, communications and mobile cadres is more important than trading entire armies for a northern Hunan line.",
+    "actions_by_1944-04-20_27": [
+      "move selected heavy guns/vehicles/ammunition south before the attack",
+      "prepare demolitions on bridges/rail/river facilities",
+      "strengthen rearguard hills/river crossings while retaining operational reserves southward",
+      "increase reconnaissance and local intelligence around Yueyang and lake approaches",
+      "prepare Changsha/Hengyang airfield evacuation/demolition packages without abandoning them prematurely"
+    ],
+    "strategic_constraint": "Chungking still cannot mass all nominal national manpower in Hunan; north-Sichuan, Yunnan/Burma, internal security and other war areas retain claims."
+  },
+  "net_effect": "The defenders know the direction of danger and improve force preservation. They do not obtain enough air mass or transport destruction to prevent the Japanese launch once the terminal gate passes."
+}

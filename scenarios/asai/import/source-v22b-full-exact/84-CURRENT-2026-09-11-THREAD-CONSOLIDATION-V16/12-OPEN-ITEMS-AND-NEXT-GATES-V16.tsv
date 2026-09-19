@@ -1,0 +1,11 @@
+id	status	item	next_required_decision
+OPEN-01	NEXT	Hundred Regiments Offensive	Resolve August 1940 preparation, first sabotage wave, freight-class disruption, repair tempo, Japanese counteraction and exchange ratio
+OPEN-02	GATE	A6M current technical baseline	Create dedicated current A6M1/A6M2 worldline closeout before promoting older/quarantined 543-550 km/h comparator
+OPEN-03	GATE	Finland peace map	Fix exact 1940 Moscow peace territorial line only when European/Nordic replay needs it
+OPEN-04	GATE	Japan-Finland arms ledger	Fix delivered weapon types/quantities only when required for European or Soviet loss accounting
+OPEN-05	GATE	Soviet 1941 Far-East transfer ledger	Resolve only after Barbarossa-era Japanese posture is replayed
+OPEN-06	GATE	E6-B fast bomber	No service pre-recorded; practical demand increased by Yichang/Chongqing experience but prototype/procurement gate remains future
+OPEN-07	GATE	Yichang permanent E6 base growth	Future assignment must pay security, runway/FOD, fuel, spare-core and 13th Division holding costs
+OPEN-08	GATE	1940 autumn Central-China offensive budget	One extra medium operation is possible in principle, but North-China crisis / southern policy may consume the same regeneration budget
+OPEN-09	OPEN	Foreign intelligence exact estimates	Only analytical hypotheses exist; do not pre-record exact US/UK/USSR estimates
+OPEN-10	OPEN	Nanjing-regime quantitative manpower relief	Treat qualitatively / inside logistics until a dedicated occupation-administration audit fixes numbers

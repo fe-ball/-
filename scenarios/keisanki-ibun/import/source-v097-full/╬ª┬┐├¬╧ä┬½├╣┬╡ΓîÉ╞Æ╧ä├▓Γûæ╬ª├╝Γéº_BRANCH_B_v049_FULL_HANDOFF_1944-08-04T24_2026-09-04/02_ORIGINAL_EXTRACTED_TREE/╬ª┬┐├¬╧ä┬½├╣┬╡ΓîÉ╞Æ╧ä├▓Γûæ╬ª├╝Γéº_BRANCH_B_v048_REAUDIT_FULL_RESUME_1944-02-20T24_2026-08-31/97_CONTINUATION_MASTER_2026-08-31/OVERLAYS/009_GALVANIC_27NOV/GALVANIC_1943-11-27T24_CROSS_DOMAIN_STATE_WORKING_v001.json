@@ -1,0 +1,32 @@
+{
+  "id": "GALVANIC_1943-11-27T24_CROSS_DOMAIN_STATE_WORKING_v001",
+  "status": "WORKING_BRANCH_RERUN_NOT_YET_PROMOTED",
+  "time": "1943-11-27T24 local",
+  "US": {
+    "Tarawa": "victory structurally certain but island not yet declared secure; cumulative ground casualties 2685-3585 working band",
+    "Makin": "organized resistance ended 27 Nov afternoon centered",
+    "naval": "Independence campaign-out; Lexington heavy mission-kill withdrawing; Yorktown returning toward useful operations; one unnamed Tarawa outer-screen DD lost to Type 93; Pierce hit removed from centered line; CVE/support shipping remain concentrated until Tarawa closeout",
+    "adaptation": "night surface screens remain at maximum alert; additional SG pickets and seaward destroyer allocation make a repeated 27/28 stand-off raid negative-EV. Makin support begins staged release after ground closeout."
+  },
+  "Japan": {
+    "Tarawa": "220-400 organized-pocket equivalent plus 60-130 locally useful armed support remain; no mission-capable Type 95 tanks centered",
+    "carriers": "first-line and secondary carrier systems withdraw/reorganize west after the 26 Nov cross-strike; Soryu remains mobile and repairable, not campaign-mission-killed centered",
+    "surface": "Hatsuzuki/Suzutsuki/Hamakaze/Fujinami withdraw after one Tarawa stand-off raid; Fujinami light-moderate damage, no repeat raid centered next night",
+    "submarines": "I-175 old Pierce hit reopened and not centered; submarine pressure continues because Tarawa assault shipping remains exposed longer",
+    "regional_air": "degraded Marshall air/water-air network continues search/night cueing but no new mass strike wallet is created"
+  },
+  "reopened_downstream": [
+    "exact identity of US destroyer lost in 26/27 Tarawa outer-screen raid",
+    "USS Franks and USS Pierce individual damage histories",
+    "I-175 repair/patrol clock",
+    "28 Nov Tarawa closeout and submarine opportunity",
+    "post-GALVANIC US surface/CVE release clock and Marshall follow-on timing"
+  ],
+  "guards": [
+    "No old Makin raid target is restored automatically.",
+    "No 28-32 immediate Type 93 launch is used for the four-destroyer stand-off group; centered first salvo is 24.",
+    "No second torpedo salvo is credited when the group disengages immediately under SG contact.",
+    "No named US DD is assigned until Tarawa night-screen OOB is closed.",
+    "No compensating submarine hit is invented after reopening Pierce."
+  ]
+}

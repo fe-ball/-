@@ -1,0 +1,559 @@
+{
+  "revision": "v0.10",
+  "start_state": "1941-12-07T23:59:59+09:00",
+  "state_machine": [
+    "LATENT",
+    "OBSERVED",
+    "TRIAL",
+    "STANDARD",
+    "INSTITUTIONAL"
+  ],
+  "special_states": [
+    "ON",
+    "PRESENT",
+    "OPERATIONAL_PARTIAL",
+    "METHOD_ON",
+    "OPEN",
+    "COUNTERAIR_FIRST",
+    "PRESENT_LIMITED"
+  ],
+  "classes": {
+    "METHOD": "retroactive evaluation/state-tracking rule",
+    "HARD_CLOCK": "technical/prewar physical clock kept unless resource allocation changes fielding",
+    "SOFT_TRIGGER": "maturity date recalculated from observed evidence, need and capacity",
+    "POLICY": "decision reopened at the relevant strategic/industrial gate",
+    "SERVICE_CAPABILITY": "capability already partially present in one service; do not model as a universal future switch",
+    "OPERATIONAL_DOCTRINE": "scenario-level mission allocation preference; changes only from observed enemy/own state and command demand",
+    "OUTCOME_GATE": "later historical result explicitly reopened; not a capability switch"
+  },
+  "demoted_hypotheses": [
+    "Malaya direct force = 760-840 aircraft",
+    "Malaya/Philippines/DEI effective output +20-35%",
+    "Malaya RAF exhaustion several days to one week earlier",
+    "mission abort/navigation failure -15-30%",
+    "non-combat aircraft loss -15-25%",
+    "opening four-month Japanese aircraft loss -10-18%",
+    "spring 1942 veteran surplus dozens to low hundreds",
+    "1942 Japanese high-grade ciphers are automatically unusable to US cryptanalysis in strategically useful time",
+    "German liaison submarine technical cargo arrival is fixed before per-voyage rerun",
+    "second-generation wartime standard ship form and timing are fixed regardless of observed wartime shipping pressure",
+    "soft/human aviation divergence begins only after Midway",
+    "post-Midway June 1942 is the default earliest rerun point for aviation history",
+    "later 1943-44 aircraft fielding quantities can be carried backward as fixed production outcomes",
+    "1942-43 rerun outputs can be carried forward unchanged to 1944-06-10",
+    "1942-43 construction policy conditioned on no Guadalcanal-type losses is a fixed future input",
+    "opening first-line effective output +15-25% as direct multiplier"
+  ],
+  "switches": [
+    {
+      "id": "A-NATURAL-RETURN",
+      "class": "METHOD",
+      "state_at_start": "ON",
+      "rule": "track survivor cohorts and natural personnel movement from opening day",
+      "substates": [
+        "surviving_in_unit",
+        "wounded_convalescent",
+        "repair_reorganization_return",
+        "replacement_aircraft_ferry_return",
+        "transfer_pool",
+        "kia_mia",
+        "replacement_low_skill"
+      ]
+    },
+    {
+      "id": "IJA-AIR-BASE-MOBILITY",
+      "class": "SERVICE_CAPABILITY",
+      "state_at_start": "OPERATIONAL_PARTIAL",
+      "evidence": "Malaya opening organization already uses air sector units, airfield battalions, repair/supply depots, transport, signal, intelligence and navigation aid units",
+      "constraints": [
+        "runway_condition",
+        "drainage",
+        "fuel",
+        "ammunition",
+        "drop_tank_stock",
+        "spares",
+        "tools",
+        "repair_depot_distance",
+        "ground_crew_transport"
+      ]
+    },
+    {
+      "id": "IJN-AIR-GROUND-SEPARATION",
+      "class": "SOFT_TRIGGER",
+      "state_at_start": "LATENT",
+      "trigger_metrics": [
+        "base_transfer_delay",
+        "support_transport_mass",
+        "tool_parts_mismatch",
+        "unit_immobilization",
+        "carrier_repair_airgroup_idle_time"
+      ]
+    },
+    {
+      "id": "JOINT-BASE-STANDARDIZATION",
+      "class": "SOFT_TRIGGER",
+      "state_at_start": "LATENT",
+      "trigger_metrics": [
+        "cross_unit_tool_mismatch",
+        "fuel_ammo_incompatibility",
+        "repair_handoff_delay",
+        "receiving_base_activation_time"
+      ]
+    },
+    {
+      "id": "A-SKILL-LEVELING",
+      "class": "SOFT_TRIGGER",
+      "state_at_start": "LATENT",
+      "trigger_metrics": [
+        "unit_skill_variance",
+        "formation_failure_by_unit",
+        "available_veteran_nuclei",
+        "replacement_low_skill_share"
+      ]
+    },
+    {
+      "id": "A-DELIBERATE-VETERAN-NUCLEUS-REALLOCATION",
+      "class": "SOFT_TRIGGER",
+      "state_at_start": "LATENT",
+      "note": "natural experienced nuclei exist at opening; deliberate cross-unit redistribution is the later switch",
+      "trigger_metrics": [
+        "new_unit_failure_rate",
+        "leader_navigation_gap",
+        "veteran_surplus_in_transfer_pool",
+        "frontline_availability"
+      ]
+    },
+    {
+      "id": "A-DEDICATED-FERRY",
+      "class": "SOFT_TRIGGER",
+      "state_at_start": "LATENT",
+      "trigger_metrics": [
+        "combat_pilot_ferry_hours",
+        "ferry_accidents",
+        "delivery_delay",
+        "base_mobility_maturity"
+      ]
+    },
+    {
+      "id": "A-CARRIER-TACTICAL-RETRAINING",
+      "class": "SOFT_TRIGGER",
+      "state_at_start": "LATENT",
+      "trigger_metrics": [
+        "carrier_battle_lessons",
+        "surviving_staff",
+        "training_fuel",
+        "weeks_available_before_next_operation"
+      ]
+    },
+    {
+      "id": "C-POST-BATTLE-CARRIER-BUILD",
+      "class": "POLICY",
+      "state_at_start": "OPEN",
+      "gate": "after first major carrier-loss event",
+      "decision_inputs": [
+        "IJN_carrier_losses",
+        "US_carrier_strength_and_build_intel",
+        "shipyard_capacity",
+        "air_group_training_capacity"
+      ]
+    },
+    {
+      "id": "C-EMERGENCY-CONVERSIONS",
+      "class": "POLICY",
+      "state_at_start": "OPEN",
+      "gate": "carrier_shortage review",
+      "decision_inputs": [
+        "carrier_shortage",
+        "conversion_completion_time",
+        "opportunity_cost",
+        "air_group_supply"
+      ]
+    },
+    {
+      "id": "C-UNRYU-DAMAGE-CONTROL-LESSONS",
+      "class": "SOFT_TRIGGER",
+      "state_at_start": "LATENT",
+      "trigger_metrics": [
+        "carrier_fire_events",
+        "fuel_system_cascade_events",
+        "hangar_ordnance_events",
+        "test_program_results"
+      ]
+    },
+    {
+      "id": "SF-WARTIME-DD",
+      "class": "POLICY",
+      "state_at_start": "OPEN",
+      "gate": "destroyer/escort pressure review",
+      "decision_inputs": [
+        "destroyer_losses",
+        "escort_bind",
+        "transport_missions",
+        "shipyard_hours"
+      ]
+    },
+    {
+      "id": "SS-SENTAKA-LOT3",
+      "class": "SOFT_TRIGGER",
+      "state_at_start": "LATENT",
+      "trigger_metrics": [
+        "first_boat_launch",
+        "land_electrical_endurance",
+        "construction_defect_rate",
+        "submarine_demand",
+        "electrical_supply"
+      ]
+    },
+    {
+      "id": "SS-GUADALCANAL-TRANSPORT-BIND",
+      "class": "POLICY",
+      "state_at_start": "OPEN",
+      "gate": "if isolated garrison supply crisis develops",
+      "decision_inputs": [
+        "surface_transport_access",
+        "air_superiority",
+        "garrison_supply_deficit",
+        "submarine_availability"
+      ],
+      "note": "do not assume submarine days are freed because old branch lacked Guadalcanal-type transport"
+    },
+    {
+      "id": "ASW-LOCAL-COMMAND",
+      "class": "SOFT_TRIGGER",
+      "state_at_start": "LATENT",
+      "trigger_metrics": [
+        "submarine_contacts",
+        "shipping_losses",
+        "escort_reallocation_cost",
+        "route_density"
+      ]
+    },
+    {
+      "id": "ASW-NATIONAL-COMMAND",
+      "class": "SOFT_TRIGGER",
+      "state_at_start": "LATENT",
+      "trigger_metrics": [
+        "multi_theater_shipping_loss",
+        "command_conflict",
+        "escort_shortage",
+        "national_shipping_pressure"
+      ]
+    },
+    {
+      "id": "TECH-RADAR-FLEET-TRIAL",
+      "class": "HARD_CLOCK",
+      "state_at_start": "PRECURSOR",
+      "nominal_clock": "1941-12_to_1942-01",
+      "fielding_quantity_policy": "RESET_BY_RESOURCE_AND_NEED"
+    },
+    {
+      "id": "TECH-THRUST-EXHAUST",
+      "class": "HARD_CLOCK",
+      "state_at_start": "TEST",
+      "nominal_clock": "1942H1 comparison; 1942H2 new-build/major-refit standardization",
+      "note": "do not restore withdrawn 1941 mass-standardization line"
+    },
+    {
+      "id": "TECH-TOKAI",
+      "class": "HARD_CLOCK",
+      "state_at_start": "PRELIMINARY_REQUIREMENT",
+      "nominal_clock": "1942 summer-autumn first flight",
+      "fielding_quantity_policy": "RESET_BY_ASW_PRESSURE"
+    },
+    {
+      "id": "ENEMY-MARK14-FIX",
+      "class": "SOFT_TRIGGER",
+      "state_at_start": "HISTORICAL_BASELINE_PROCESS",
+      "trigger_metrics": [
+        "US_torpedo_failure_samples",
+        "combat_opportunities",
+        "test_pressure"
+      ]
+    },
+    {
+      "id": "A-PRECOMBAT-CONCENTRATION-STATE",
+      "class": "METHOD",
+      "state_at_start": "METHOD_ON",
+      "rule": "campaign state begins at mobilization/concentration, not first combat; track transit loss, forced landing, late arrival, leader loss and replacement arrival before D-day",
+      "metrics": [
+        "planned_concentration",
+        "departed_origin",
+        "arrived_staging",
+        "arrived_forward_area",
+        "serviceable_on_eve",
+        "precombat_crew_loss"
+      ]
+    },
+    {
+      "id": "A-REPLACEMENT-QUALITY-TRACKING",
+      "class": "METHOD",
+      "state_at_start": "ON",
+      "rule": "replacement aircraft and replacement personnel are separate cohorts; never restore nominal strength by assuming equal skill/maintenance state",
+      "metrics": [
+        "replacement_airframes",
+        "replacement_crew_skill_band",
+        "experienced_core_share",
+        "low_skill_tail_share"
+      ]
+    },
+    {
+      "id": "IJA-AIR-GROUND-LIAISON",
+      "class": "SERVICE_CAPABILITY",
+      "state_at_start": "PRESENT_LIMITED",
+      "evidence": "Malaya planning explicitly used 15th Army air-ground liaison regulations between army HQ and 10th Air Brigade",
+      "constraints": [
+        "radio_network",
+        "liaison_staff",
+        "target_update_latency",
+        "forward_ground_command_contact",
+        "weather"
+      ]
+    },
+    {
+      "id": "IJA-AIR-MISSION-PRIORITY",
+      "class": "OPERATIONAL_DOCTRINE",
+      "state_at_start": "COUNTERAIR_FIRST",
+      "evidence": "opening operational instructions made destruction of British air power the primary mission while also protecting landings and supporting army advance",
+      "decision_metrics": [
+        "enemy_air_resistance",
+        "enemy_airfield_serviceability",
+        "army_ground_support_request",
+        "retreat_interdiction_opportunity",
+        "forward_base_capacity",
+        "fuel_ammo_stock",
+        "sortie_surplus"
+      ],
+      "allowed_transitions": [
+        "COUNTERAIR_FIRST",
+        "COUNTERAIR_PLUS_DIRECT_SUPPORT",
+        "DIRECT_SUPPORT_HEAVY",
+        "INTERDICTION_HEAVY"
+      ],
+      "note": "do not optimize automatically; command doctrine and observed results constrain reallocations"
+    },
+    {
+      "id": "LOG-WARTIME-STANDARD-SHIP-I",
+      "class": "HARD_CLOCK",
+      "state_at_start": "DESIGN_FROZEN_PRODUCTION_TRANSITION",
+      "nominal_clock": "secret preparation from 1940; type fixed mid-late 1941; main completions spring-summer 1942",
+      "fielding_quantity_policy": "RECALCULATE_BY_YARD_ENGINE_STEEL_AND_SHIPPING_PRESSURE",
+      "note": "opening Dec 1941 shipping does not receive the later completed-tonnage gain; only existing-ship loading/turnaround improvements apply"
+    },
+    {
+      "id": "LOG-WARTIME-STANDARD-SHIP-II",
+      "class": "POLICY",
+      "state_at_start": "OPEN",
+      "gate": "after first-generation operating data and wartime shipping/repair pressure are observed",
+      "decision_inputs": [
+        "ship_loss_rate",
+        "turnaround_time",
+        "machinery_reliability",
+        "steel_supply",
+        "engine_supply",
+        "yard_hours",
+        "repair_backlog"
+      ],
+      "note": "later second-generation form is not automatically selected on the old calendar"
+    },
+    {
+      "id": "COMSEC-CENTRAL-STATISTICAL-AUDIT",
+      "class": "SERVICE_CAPABILITY",
+      "state_at_start": "OPERATIONAL_PARTIAL",
+      "evidence": "opening scenario already has Type 2 central cryptographic computation and card/statistical auditing capability",
+      "constraints": [
+        "key_distribution",
+        "frontline_compliance",
+        "communications_volume",
+        "capture_compromise",
+        "operator_error",
+        "radio_direction_finding"
+      ],
+      "note": "capability is retained; actual enemy usable intelligence is an outcome, not fixed here"
+    },
+    {
+      "id": "COMSEC-1942-HIGH-GRADE-OUTCOME",
+      "class": "OUTCOME_GATE",
+      "state_at_start": "OPEN",
+      "gate": "evaluate continuously by cipher system and operation; especially before MO/MI and shipping/submarine operations",
+      "decision_inputs": [
+        "cipher_design_state",
+        "key_change_rate",
+        "additive_usage",
+        "key_distribution_latency",
+        "operator_errors",
+        "captured_material",
+        "traffic_analysis",
+        "enemy_cryptanalytic_effort",
+        "information_expiry"
+      ],
+      "note": "withdraws later blanket statement that 1942 Japanese high-grade traffic is automatically unusable to US cryptanalysis in strategic time"
+    },
+    {
+      "id": "ASW-ESCORT-STAFF",
+      "class": "SERVICE_CAPABILITY",
+      "state_at_start": "PRESENT_LIMITED",
+      "evidence": "existing doctrine assumes late-1941/early-1942 strengthening of naval district/fleet escort staffs before dedicated local commands",
+      "constraints": [
+        "escort_hull_availability",
+        "contact_reporting",
+        "route_data",
+        "air_patrol_capacity",
+        "communications"
+      ],
+      "note": "do not confuse with later local escort command or national escort command"
+    },
+    {
+      "id": "TECH-TYPE2-DEPTH-CHARGE",
+      "class": "HARD_CLOCK",
+      "state_at_start": "PRE_ADOPTION",
+      "nominal_clock": "historical adoption during 1942; no year-scale pre-invention",
+      "fielding_quantity_policy": "RECALCULATE_BY_ASW_PRESSURE_PRODUCTION_AND_TRAINING"
+    },
+    {
+      "id": "ASW-DEDICATED-ESCORT-PRIORITY",
+      "class": "POLICY",
+      "state_at_start": "OPEN",
+      "gate": "review when submarine pressure and fleet-destroyer escort bind become observable",
+      "decision_inputs": [
+        "shipping_losses",
+        "submarine_contacts",
+        "fleet_destroyer_bind",
+        "convoy_days",
+        "yard_capacity",
+        "small_engine_supply",
+        "radar_sonar_supply"
+      ],
+      "note": "later Kaibokan/simple escort build priority must be regenerated from the rerun"
+    },
+    {
+      "id": "SUB-GERMANY-LIAISON-VOYAGE-OUTCOME",
+      "class": "OUTCOME_GATE",
+      "state_at_start": "OPEN",
+      "gate": "evaluate each voyage at its historical/alternate departure time",
+      "decision_inputs": [
+        "available_submarine",
+        "mechanical_state",
+        "cargo",
+        "route_asw",
+        "communications_discipline",
+        "cryptographic_exposure",
+        "Malacca_Indian_Atlantic_threat",
+        "fuel_endurance"
+      ],
+      "note": "resolves cross-document conflict: submarine technology canon says individual voyage success belongs to historical analysis; later crypto text must not fix cargo arrival in advance"
+    },
+    {
+      "id": "RERUN-START-STATE",
+      "class": "METHOD",
+      "state_at_start": "METHOD_ON",
+      "rule": "rerun state begins with mobilization/concentration before opening combat; for Malaya use 1941-11-15 concentration, while global synchronization reaches 1941-12-07/08 opening",
+      "supersedes": "47 aviation audit suggestion to begin soft/human rerun at post-MI 1942-06",
+      "note": "does not require micro-dogfight recalculation before opening; it requires state, readiness, personnel and logistics propagation"
+    },
+    {
+      "id": "A-SOFT-HUMAN-STATE-DIVERGENCE",
+      "class": "METHOD",
+      "state_at_start": "ON",
+      "rule": "survivor, fatigue, injury, noncombat loss, veteran-core, base-transfer friction and replacement-quality states may diverge from concentration/opening onward; later institutions remain latent until their gates",
+      "supersedes": "47 statement that soft/human divergence self-generates only after MI"
+    },
+    {
+      "id": "A-POSTOPENING-FIELDING-QUANTITY",
+      "class": "METHOD",
+      "state_at_start": "ON",
+      "rule": "post-opening aircraft/engine/equipment fielding quantities are outputs of production, attrition, repair, engine allocation, spares and deployment; retain physical development clocks but do not inherit later fixed quantities from FORAGER-era ledgers",
+      "metrics": [
+        "factory_output",
+        "engine_output",
+        "special_parts",
+        "replacement_demand",
+        "repair_backlog",
+        "training_conversion_capacity",
+        "theater_allocation",
+        "reserve_ratio"
+      ]
+    },
+    {
+      "id": "SUB-OPENING-MISSION-ALLOCATION",
+      "class": "OPERATIONAL_DOCTRINE",
+      "state_at_start": "MULTI_MISSION",
+      "rule": "allocate individual boats among fleet interception, reconnaissance, minelaying, midget support, commerce raiding and invasion screening; allocation is a scenario state, not a fixed national trait"
+    },
+    {
+      "id": "SUB-INDIVIDUAL-AVAILABILITY",
+      "class": "METHOD",
+      "state_at_start": "ON",
+      "rule": "nominal roster never equals operational strength; track repair, modernization, mechanical failure, patrol transit, on-station and next-ready times by hull"
+    },
+    {
+      "id": "SURFACE-INDIVIDUAL-AVAILABILITY",
+      "class": "METHOD",
+      "state_at_start": "ON",
+      "rule": "apply Hull→Availability→Mission from opening to all surface combatants; do not wait until later carrier-era audits"
+    },
+    {
+      "id": "SUB-COMMERCE-RAID-ALLOCATION",
+      "class": "POLICY",
+      "state_at_start": "OPEN",
+      "rule": "commerce raiding is an available opening mission but its fraction of submarine effort is recalculated from observed fleet targets, shipping opportunities, intelligence and command priorities"
+    },
+    {
+      "id": "MARITIME-REPAIR-CARRYFORWARD",
+      "class": "METHOD",
+      "state_at_start": "ON",
+      "rule": "carry repair clocks, ammunition/fuel and crew state across sequential and parallel operations"
+    },
+    {
+      "id": "RERUN-1942-44-SAFE-LINE",
+      "class": "OUTCOME_GATE",
+      "state_at_start": "OPEN",
+      "rule": "withdraw former assumption that 1942-43 rerun remains fixed and 1944-06-10 is a safe continuation point; recompute sequentially from opening"
+    },
+    {
+      "id": "SF-1942-43-BUILD-POLICY",
+      "class": "POLICY",
+      "state_at_start": "OPEN",
+      "rule": "destroyer/carrier/cruiser build and conversion decisions formerly conditioned on no Guadalcanal-style losses are reopened and triggered by actual rerun losses, escort burden, air-group survival and industrial capacity"
+    },
+    {
+      "id": "SF-SURVIVING-OLD-HULL-CONVERSION",
+      "class": "POLICY",
+      "state_at_start": "OPEN",
+      "rule": "do not auto-apply historical or former-branch conversions to surviving old hulls; compare active, minor refit, mission conversion, reserve, training/test and retirement"
+    },
+    {
+      "id": "SF-MUTSU-ACCIDENT",
+      "class": "OUTCOME_GATE",
+      "state_at_start": "HISTORICAL_SHOCK_WITH_SENSITIVITY",
+      "rule": "retain 1943 Mutsu accident as exogenous centerline unless a relevant causal change is established; keep survival sensitivity branch and do not treat as policy switch"
+    },
+    {
+      "id": "FLEET-ROSTER-SNAPSHOT-PROVENANCE",
+      "class": "METHOD",
+      "state_at_start": "ON",
+      "rule": "monthly fleet roster is an index, not an exact Dec 7/8 operational snapshot; verify commissioning, location, repair and actual task per hull"
+    },
+    {
+      "id": "A-NO-TOPDOWN-OUTPUT-MULTIPLIER",
+      "class": "METHOD",
+      "state_at_start": "ON",
+      "rule": "do not apply old +15-25% first-line effective output or +20-35% repetitive land-air output as scenario input; derive sortie/reach/return/serviceability from component states and use old bands only as external diagnostic priors",
+      "demoted_values": [
+        "first_line_effective_output_relative_gain_15_25pct",
+        "land_repetitive_campaign_relative_gain_20_35pct"
+      ]
+    }
+  ],
+  "notes": [
+    "IJA and IJN air-ground separation clocks are service-specific.",
+    "natural return is a continuous state transition from opening, not a 1942 switch.",
+    "old calendar dates for later organizational maturity remain reset until evidence/capacity/need/time gates are satisfied.",
+    "Malaya mission allocation is tracked as operational doctrine, not dogfight micro-tactics.",
+    "First-generation wartime standard ship is an opening committed pipeline, not an opening completed-tonnage bonus.",
+    "Cryptographic design/audit capability is separated from the historical outcome of what the enemy learns in time.",
+    "Dedicated escort construction priority is reopened; pre-existing escort staff capacity is retained separately.",
+    "Doc47 remains useful as a HARD technology audit format, but its MI-start historical rerun gate is superseded by the opening-state rerun.",
+    "v0.08: opening submarine/surface availability and mission-allocation states added; nominal fleet lists are not operational strength.",
+    "v0.09: former 1944-06-10 safe-line and old no-Guadalcanal construction branch are reopened; opening fleet roster provenance rule added."
+  ]
+}

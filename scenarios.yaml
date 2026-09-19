@@ -1,5 +1,5 @@
 registry_version: 1
-updated: "2026-09-19"
+updated: "2026-09-20"
 
 scenarios:
   asai:
@@ -16,8 +16,8 @@ scenarios:
     authority_entrypoint: "scenarios/asai/current/00-START-HERE-2026-09-19-FULL-V23.md"
     import_status: "scenarios/asai/import/IMPORT-STATUS.md"
     epistemic_rule: "future-knowledge-individual"
-    source_import: "current-authority-plus-required-parents"
-    source_archive_status: "external-source-package-provenance"
+    source_import: "current-v23-plus-complete-v22b-source-snapshot"
+    source_archive_status: "original-zip-and-all-files-sha256-verified-in-repository"
 
   keisanki-ibun:
     title: "計算機異聞"
@@ -33,5 +33,5 @@ scenarios:
     authority_entrypoint: "scenarios/keisanki-ibun/current/00_CURRENT_AUTHORITY/00_READ_FIRST_CURRENT_V098_2026-09-19.md"
     import_status: "scenarios/keisanki-ibun/import/IMPORT-STATUS.md"
     epistemic_rule: "no-future-knowledge-computation-accelerated"
-    source_import: "current-v098-plus-retained-v097-v096-and-aviation-canon"
-    source_archive_status: "external-source-package-provenance"
+    source_import: "current-v098-plus-complete-v097-source-snapshot"
+    source_archive_status: "original-zip-and-all-files-sha256-verified-in-repository"

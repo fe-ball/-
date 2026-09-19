@@ -1,0 +1,104 @@
+{
+  "status": "CLOSED_COMMAND_DECISION_GATES",
+  "time": "1942-07-25 00:00",
+  "clock_advanced": false,
+  "principle": "personality selects among physically and doctrinally plausible actions; no combat multiplier and no omniscience",
+  "Japanese": {
+    "Yamamoto": {
+      "role": "Combined Fleet strategic intent",
+      "carrier_target_priority": "VERY_HIGH_ON_FRESH_PHYSICAL_CONTACT",
+      "blind_carrier_chase": false
+    },
+    "Nagumo": {
+      "role": "BRANCH_WORKING_CLOSED on-scene carrier commander",
+      "carrier_contact_fresh_minutes_max": 90,
+      "carrier_contact_aging_minutes_max": 150,
+      "full_strike_on_stale_unrefreshed_contact": false,
+      "carrier_over_transports_if_both_fresh": true,
+      "preserve_CAP_search_reserve_when_enemy_carrier_unknown": true
+    },
+    "Yamaguchi": {
+      "survives_branch_MI": true,
+      "on_scene_Santo_commander": false,
+      "effect": "regeneration_training_staff_lessons_only"
+    },
+    "Kondo": {
+      "role": "BRANCH_WORKING_CLOSED heavy/advance cover",
+      "night_surface_bias": "HIGH",
+      "daylight_pursuit_into_unresolved_carrier_air": "LOW"
+    },
+    "Tanaka": {
+      "role": "transport direct-cover tactical commander",
+      "transport_mission_priority": "HIGH",
+      "destroyer_risk_tolerance_to_save_transports": "HIGH",
+      "night_torpedo_counterattack_bias": "HIGH"
+    },
+    "Mikawa": {
+      "role": "Eighth Fleet/local coordinator; authority transitional on 25 Jul",
+      "supersedes_Nagumo_Kondo_Tanaka": false,
+      "night_opportunity_bias": "HIGH",
+      "daylight_carrier_exposure_after_local_objective": "AVOID"
+    },
+    "Tsukahara": {
+      "role": "Eleventh Air Fleet / land-based naval air",
+      "handoff_to_Nagumo_minutes_center_band": [10, 30],
+      "perfectly_fused_with_carrier_air": false
+    },
+    "contingency_reserve": {
+      "physical_center": 1000,
+      "status_at_open": "ON_NOTICE_NOT_ACTIVATED",
+      "release_trigger": "PHYSICAL_CONFIRMATION_OF_MEANINGFUL_ALLIED_REINFORCEMENT"
+    }
+  },
+  "Allied": {
+    "Nimitz": {
+      "role": "CINCPAC strategic calculated-risk intent",
+      "Wasp_expendability": "LOW",
+      "firm_first_strike_opportunity_may_justify_risk": true
+    },
+    "Ghormley": {
+      "role": "COMSOPAC",
+      "baseline_Wasp_policy": "REMOTE_COVER",
+      "blind_hunt_for_Japanese_carriers": false,
+      "standing_tactical_opportunity_authority_to_Noyes": true
+    },
+    "Noyes": {
+      "role": "Wasp task-group tactical commander",
+      "carrier_contact_fresh_minutes_max": 75,
+      "carrier_contact_aging_minutes_max": 120,
+      "transport_strike_with_carriers_unlocated": "CONDITIONAL_OFFSET_GEOMETRY_ONLY",
+      "if_Wasp_detected": "RAISE_CAP_MANEUVER_REEVALUATE_STRIKE"
+    },
+    "Sherman": {
+      "role": "Wasp commanding officer / flight-deck and ship execution",
+      "independent_theater_strike_release": false
+    },
+    "McCain": {
+      "role": "ComAirSoPac shore-based air",
+      "shore_air_fused_with_Wasp": false,
+      "handoff_to_Wasp_minutes_center_band": [15, 45]
+    },
+    "Arthur": {
+      "role": "2d Marines commander",
+      "arrival_policy": "COMBAT_PRIORITY_UNLOAD_THEN_COHERENT_PERIMETER"
+    },
+    "Edson": {
+      "role": "1st Raider commander; WORKING CLOSED with fast detachment",
+      "fast_detachment_physical_center": 520,
+      "vehicles": 0,
+      "post_arrival_policy": "FORWARD_RECON_OUTPOSTS_MOBILE_LOCAL_RESERVE"
+    },
+    "Rose": {
+      "role": "Santo fixed-base command",
+      "priority": "AIRFIELD_HARBOR_C2_ENGINEERS_AA_AND_BASE_FUNCTION"
+    }
+  },
+  "belief_locks": {
+    "Japan_knows_Wasp_is_last_healthy_US_carrier": false,
+    "Allies_know_Japanese_carrier_exact_position": false,
+    "Japan_knows_2d_Marines_inbound": false,
+    "Japan_knows_Raiders_inbound": false,
+    "Allies_assume_Hiryu_Soryu_combat_ready": false
+  },
+  "next_event": "1942-07-25 04:00-07:00 Raider approach/unload plus dawn detection race"
+}

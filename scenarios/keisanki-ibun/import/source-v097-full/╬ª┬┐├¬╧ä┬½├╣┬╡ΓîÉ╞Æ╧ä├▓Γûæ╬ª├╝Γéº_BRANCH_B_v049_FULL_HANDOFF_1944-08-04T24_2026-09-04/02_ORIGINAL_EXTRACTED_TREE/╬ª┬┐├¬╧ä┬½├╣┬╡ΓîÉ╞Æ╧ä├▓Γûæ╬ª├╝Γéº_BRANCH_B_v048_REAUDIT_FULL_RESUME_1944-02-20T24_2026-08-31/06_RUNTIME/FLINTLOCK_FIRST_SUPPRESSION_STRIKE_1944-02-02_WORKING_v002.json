@@ -1,0 +1,183 @@
+{
+  "revision": "v002",
+  "id": "FLINTLOCK_FIRST_SUPPRESSION_STRIKE_1944-02-02_WORKING_v002",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "discussion_clock_end": "1944-02-02T09:30:00+12:00",
+  "purpose": "Re-run the first Branch FLINTLOCK-equivalent suppression cycle with the previously omitted Gilbert land-air/search system and corrected Japanese water-air/Eniwetok composition.",
+  "supersedes": "FLINTLOCK_FIRST_SUPPRESSION_STRIKE_1944-02-02_WORKING_v001",
+  "rollback_boundary": "Only the 2-Feb 04:30 onward local-air calculation is replaced. Jan31 carrier visual, Jan31-night submarine recontact, 8-aircraft Japanese night strike, 1-Feb second-TG recognition and the Japanese fleet-carrier holding posture remain realized working events.",
+  "US_TF58_first_cycle": {
+    "launch_window": "1944-02-02 04:55-05:30 local",
+    "strike_and_sweep_sorties_band": [
+      205,
+      225
+    ],
+    "center": 215,
+    "target_split_center": [
+      "Taroa 75-80",
+      "Roi/Namur and north Kwajalein 75-85",
+      "Kwajalein/Ebeye/Wotje secondary suppression 55-65"
+    ],
+    "role": "decisive fighter sweep + radar/radio/runway + dispersed-aircraft suppression; large CAP/ASW/search reserve retained because Japanese fleet carriers remain unlocated."
+  },
+  "US_Gilbert_land_air_parallel": {
+    "source_ref": "06_RUNTIME/US_GILBERT_FORWARD_LAND_AIR_1944-02-02_WORKING_v001.json",
+    "relevant_morning_sorties_band": [
+      48,
+      68
+    ],
+    "center": 57,
+    "northern_heavy_medium_center": 20,
+    "southern_suppression_center": 24,
+    "search_photo_ASW_Dumbo_center": 13,
+    "effect": "Adds staggered B-24/B-25 pressure to northern/central bases, stronger Mili/Jaluit suppression and persistent search/ASW. It does not become a second 365-aircraft carrier wave."
+  },
+  "Japanese_warning_and_launch": {
+    "usable_warning": "18-26 min at best surviving Taroa/Roi nodes; outer nodes vary. Pre-existing alert and water/shore search prevent complete surprise.",
+    "land_fighters_airborne_or_committed_band": [
+      45,
+      52
+    ],
+    "Raiden_airborne_or_committed_band": [
+      12,
+      14
+    ],
+    "Kyofu_local_intercepts": "4-6 aircraft may contest low/medium attacks over Mili/Jaluit/Wotje water/shore zones; subset of fighter total and not mixed into high-altitude main CAP.",
+    "water_recon_effect": "Float/Zuiun detachments preserve contact/confirmation capacity and some warning after runway damage, but cannot replace radar/plot or sustain fighter sweeps."
+  },
+  "losses_2Feb_morning_only": {
+    "US_TF58_irrecoverable_band": [
+      11,
+      14
+    ],
+    "US_TF58_center": 12,
+    "US_Gilbert_land_air_irrecoverable_band": [
+      3,
+      5
+    ],
+    "US_Gilbert_center": 4,
+    "US_total_irrecoverable_band": [
+      14,
+      19
+    ],
+    "US_total_center": 16,
+    "US_additional_damaged_recoverable_band": [
+      18,
+      28
+    ],
+    "Japan_irrecoverable_band": [
+      36,
+      42
+    ],
+    "Japan_center": 39,
+    "Japan_additional_temporarily_damaged_or_grounded_band": [
+      14,
+      21
+    ],
+    "Raiden_irrecoverable_or_nonserviceable_band": [
+      5,
+      7
+    ],
+    "water_air_irrecoverable_or_nonserviceable_band": [
+      7,
+      10
+    ],
+    "guard": "US loss total includes carrier and Gilbert land-air aircraft only for the 2-Feb morning. It does not include the earlier Japanese night raid, which caused no US aircraft/ship loss."
+  },
+  "cumulative_from_31Jan_night_through_2Feb_0930": {
+    "Japan_aircraft_irrecoverable_band": [
+      40,
+      46
+    ],
+    "center": 43,
+    "note": "Includes the 4 G4M-class losses in the Jan31/1Feb night strike plus the 2-Feb morning losses; do not subtract twice."
+  },
+  "base_effects": [
+    {
+      "base": "Taroa",
+      "state": "Main radar/plot/runway hit hard; dispersed aircraft and some water/recon support survive.",
+      "C2": "B/B+ degraded",
+      "runway": "intermittent/emergency strips with repair parties active"
+    },
+    {
+      "base": "Roi-Namur",
+      "state": "Primary communications/radar and runway heavily suppressed; fighter direction degraded.",
+      "C2": "B centered, locally lower during outages"
+    },
+    {
+      "base": "Kwajalein/Ebeye water-air",
+      "state": "Seaplane ramp/fuel/anchorage/support points deliberately attacked in addition to runway-area targets. 952/Zuiun layer takes losses but is not erased.",
+      "water_ops": "5-7 serviceable float/fast-recon aircraft centered remain in the Ebeye/Kwaj system immediately after first cycle."
+    },
+    {
+      "base": "Wotje",
+      "state": "Carrier attack field and water/recon support receive combined carrier + land-air pressure.",
+      "C2": "B-/remote",
+      "runway": "damaged, intermittent use"
+    },
+    {
+      "base": "Mili",
+      "state": "Gilbert A-24/P-39/P-40/B-25 pressure materially stronger than v039 modeled; local fighter/Kyofu layer remains but sortie generation falls.",
+      "C2": "remote/B-",
+      "runway": "suppressed/intermittent"
+    },
+    {
+      "base": "Jaluit",
+      "state": "Runway plus seaplane/anchorage infrastructure pressured separately; water layer survives in reduced form.",
+      "C2": "remote degraded"
+    },
+    {
+      "base": "Eniwetok",
+      "state": "Not a primary first-morning target in the corrected centerline; most of the 11-land-attack serviceable reservoir survives for later-day/night threat.",
+      "C2": "B-/rear",
+      "runway": "usable"
+    }
+  ],
+  "post_cycle_marshall_air_state": {
+    "combat_serviceable_band": [
+      90,
+      98
+    ],
+    "combat_serviceable_center": 94,
+    "immediate_alert_or_search_capable_band": [
+      70,
+      82
+    ],
+    "fighter_serviceable_band": [
+      43,
+      49
+    ],
+    "fighter_serviceable_center": 46,
+    "Raiden_serviceable_band": [
+      9,
+      11
+    ],
+    "Raiden_center": 10,
+    "water_air_unique_serviceable_band": [
+      18,
+      23
+    ],
+    "water_air_center": 20,
+    "land_or_carrier_attack_serviceable_band": [
+      18,
+      24
+    ],
+    "land_or_carrier_attack_center": 21,
+    "search_capacity": "4-6 useful long-range/search-confirmation sorties per day remain plausible through surviving water/recon aircraft and alternate communications; one extra fast confirmation sortie may be surged on a high-value cue. This is more resilient than runway-only accounting but less than Jan28 6-8 + 1-2 surge."
+  },
+  "reverse_bearing_contact": {
+    "time": "1944-02-02 08:05-08:25",
+    "status": "RETAINED_FROM_v039",
+    "event": "A surviving fast Japanese reconnaissance aircraft uses the returning strike stream/recovery axis and obtains a short visual on one US TG: three carrier decks strongly identified with three fast battleships/heavy screen, about 120-160 nmi from the Kwajalein battle area.",
+    "carrier_gate": "First-line Japanese carrier GO remains WITHHELD; contact is valuable enough for submarine convergence and eastward conditional closure, but other US TG geometry and recovery/egress remain insufficient."
+  },
+  "US_operational_assessment": "The corrected network makes the US operation more systemically powerful than v039 because Gilbert land-air suppresses outer bases and maintains reconnaissance/ASW. It does not make first-cycle losses vanish: warned Taroa/Roi defenders and Raiden still inflict meaningful cost.",
+  "Japan_operational_assessment": "Local air strength is somewhat lower after the corrected morning than v039, but the water-air and Eniwetok depth means the Marshall system is still not decapitated. Surviving search/night-strike capability remains enough to matter if submarine/air contact freshness is maintained.",
+  "next_exact_action": "Run 2-Feb late morning/afternoon with the corrected poststate: TF58 second suppression cycle, Gilbert land-air outer-base pressure, and submarine convergence against the fresh three-carrier TG. Resolve whether a CV/CVL/AO/escort weapon-quality opportunity occurs before the remaining Marshall network is further suppressed.",
+  "external_sources": {
+    "USSBS_Campaigns_Pacific_War": "https://www.ibiblio.org/hyperwar/NHC/NewPDFs/USAAF/United%20States%20Strategic%20Bombing%20Survey/USSBS%20Campaigns%20of%20Pacific%20War.pdf",
+    "NHHC_HGram0261": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-026/h-026-1.html",
+    "NHHC_Assault_Kwajalein_Part1": "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/a/the-assault-on-kwajalein-and-majuro-part-one.html",
+    "USSBS_Seventh_AF": "https://www.ibiblio.org/hyperwar/AAF/AAFHS/AAFHS-38.pdf"
+  }
+}

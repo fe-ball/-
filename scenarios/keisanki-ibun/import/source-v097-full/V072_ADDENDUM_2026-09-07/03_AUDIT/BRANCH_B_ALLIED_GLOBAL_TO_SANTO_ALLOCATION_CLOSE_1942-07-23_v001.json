@@ -1,0 +1,159 @@
+{
+  "version": "v001",
+  "cut": "1942-07-23",
+  "status": "CLOSED_FOR_D4_STRATEGIC_ALLOCATION_EVENTS_OPEN",
+  "authority_labels": [
+    "HARD",
+    "DERIVED_CLOSED",
+    "WORKING_CLOSED",
+    "CONDITIONAL"
+  ],
+  "global_release_to_Santo_by_1942_07_27": {
+    "UK_new_major_naval": 0,
+    "UK_new_ground_brigade": 0,
+    "Hawaii_fixed_ground": 0,
+    "North_Pacific": 0,
+    "SWPA_division_ground": 0,
+    "Americal_Division": 0,
+    "37th_Infantry_Division": 0,
+    "7th_Marines_Samoa": 0,
+    "147th_Infantry_Tonga": 0,
+    "1st_Marine_Division_NZ": 0,
+    "3d_Marine_Defense_Bn_Hawaii": 0
+  },
+  "South_Pacific_fixed_and_mobile": {
+    "New_Caledonia": {
+      "Americal": "FIXED",
+      "1st_Raider_physical_band": [
+        820,
+        900
+      ],
+      "1st_Raider_effective_band": [
+        780,
+        850
+      ],
+      "Raider_default_commitment": 0,
+      "APD_equivalent_conditional_band": [
+        3,
+        4
+      ]
+    },
+    "Fiji": {
+      "37th_Infantry_Division": "FIXED"
+    },
+    "Samoa": {
+      "7th_Marines": "FIXED",
+      "historical_Marine_ground_order_of_magnitude": ">10000"
+    },
+    "Tonga": {
+      "147th_Infantry": "FIXED",
+      "2d_Marines_reinforced_physical_center": 4840,
+      "2d_Marines_transports": 5,
+      "2d_Marines_combat_loaded": true
+    },
+    "Efate": {
+      "physical_base_population_working_band": [
+        5500,
+        6500
+      ],
+      "immediate_combat_security_band": [
+        3300,
+        4200
+      ],
+      "VMF212_MR_center": 16,
+      "VMF212_MR_band": [
+        14,
+        18
+      ],
+      "strategic_release_without_W2_center_band": [
+        0,
+        150
+      ],
+      "W2_conditional_light_battalion_physical_band": [
+        500,
+        800
+      ],
+      "W2_conditional_light_battalion_effective_band": [
+        400,
+        650
+      ]
+    },
+    "Santo": {
+      "resident_physical_band": [
+        850,
+        1100
+      ],
+      "resident_effective_band": [
+        650,
+        850
+      ],
+      "mature_airfield": false
+    },
+    "New_Zealand": {
+      "1st_Marine_Division_Dday_contribution": 0,
+      "first_RCT_earliest_arrival_band": [
+        "1942-07-31",
+        "1942-08-03"
+      ],
+      "1st_Parachute_Bn_Dday_contribution": 0,
+      "1st_Parachute_Bn_TO_ceiling_not_actual_PFD": 583
+    }
+  },
+  "air": {
+    "11th_BG_B17_MR_D4_center": 10,
+    "11th_BG_B17_MR_D4_band": [
+      8,
+      12
+    ],
+    "11th_BG_B17_MR_Dday_center": 16,
+    "11th_BG_B17_MR_Dday_band": [
+      14,
+      18
+    ],
+    "Central_Pacific_retention": "at_least_one_squadron_equivalent_through_Dday",
+    "PBY_Santo_search_sustained_per_day": [
+      4,
+      6
+    ],
+    "PBY_Santo_search_surge_per_day": [
+      6,
+      8
+    ]
+  },
+  "naval": {
+    "healthy_US_fleet_carriers_immediate_SOPAC": [
+      "Wasp"
+    ],
+    "additional_US_fleet_carrier_by_Dday": 0,
+    "additional_UK_fleet_carrier_by_Dday": 0,
+    "additional_heavy_surface_package_prebooked": 0
+  },
+  "H_hour_ground_effective": {
+    "warning_failure": [
+      650,
+      850
+    ],
+    "late_partial_2d_Marines": [
+      1600,
+      3300
+    ],
+    "timely_2d_Marines_only": [
+      3500,
+      4400
+    ],
+    "2d_Marines_plus_Raiders": [
+      4250,
+      5250
+    ],
+    "max_emergency_plus_Efate_detachment": [
+      4650,
+      5900
+    ],
+    "high_branch_center": 4700,
+    "physical_personnel_emergency_ceiling_without_stripping_major_fixed_garrisons": [
+      6800,
+      7500
+    ]
+  },
+  "anti_teleport": "Presence in Oceania is not release to Santo. Every move must pay warning, combat-loading/lift, transit, escort and donor-base degradation."
+}

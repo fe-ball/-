@@ -1,0 +1,6 @@
+order	gate	status	carry_in	must_not_preaward
+1	1939-04-21 to 05-09 Nanchang counteroffensive sequence	CLOSED by REPLAY1/2	Apr20 inventory; CEQ carryover; warning	see current 60-CURRENT replay files
+2	concurrent E6 Twin No.1 / HS-2 first-flight gates	PARTLY CLOSED by REPLAY2	Apr20 preflight states	E6 Twin No1 Apr29 and HS-2 May4 closed; E6 Single still future
+3	1939-05-11 Nomonhan opening clash	NEXT	May10 current state	old Nomonhan combat results; dense-core FIELD VALIDATED; mobile-GT LIMITED STANDARD
+4	Material No.2 first-flight/q-release	FUTURE	post-Apr20 build progression; E5-J allocated	q-release results
+5	E6 Single first flight	FUTURE	~90-95% integration at May10	flight date/measured speed/climb/runway

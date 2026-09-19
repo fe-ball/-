@@ -1,0 +1,33 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-02-27T24_WORKING_v001",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_NOT_AUTHORITY",
+  "as_of": "1944-02-27T24:00:00+09:00",
+  "global_frontier": "1944-02-27T24",
+  "merge_policy": "Only events at or before 27T24 are globally visible. Later SLEUTH, SA No.1, base-development and March air-transfer outcomes remain future.",
+  "Indian_Ocean": {
+    "Eastern_Fleet": "Illustrious + Gambia remain at sea on SLEUTH; Rotherham/Tjerk Hiddes detached to Addu on 24 Feb; Sussex is en route from Fremantle but joins only 28 Feb. Ceylon heavy battle squadron remains harbour/escort constrained.",
+    "SLEUTH_contact": "No Japanese weapon-quality contact through 27T24; no air or surface attack.",
+    "Japan_surface": "Oyodo + Teruzuki + Takanami + Makinami + Kiyonami remain separate reserve. SA No.1 movement begins 27 Feb with Tone/Chikuma/Aoba plus Oi/Kinu and associated destroyer screen.",
+    "Japan_air": "705 west-search remains effective through 26; late 27 transition begins toward eastward redeployment preparation, without physical double credit. 331 remains west through this clock.",
+    "Japan_ASW": "Tokai/MAD western detachment active with risk-reduction effect; Ka-go local zero.",
+    "Japan_submarines": "I-166/I-162/I-37 active/outbound; RO-111 back Penang. I-37 sinks Sutlej 26 Feb; no SLEUTH contact."
+  },
+  "Central_Pacific": {
+    "CATCHPOLE": "Eniwetok Island closes 23 Feb; Parry assaulted 25 Feb; organized resistance ends late 25; atoll secure center 26 Feb 10:00; security/logistics cleanup through 27.",
+    "Japanese_armor": "All 9 named Eniwetok Type 95 are irrecoverable by 25 Feb and fully posted out.",
+    "US_base_activation": "Engebi limited fighter/search staging may start in 27 Feb..1 Mar band. Eniwetok bomber strip is not operational and remains a mid-March first-plane clock.",
+    "HAILSTONE_recovery": "US fast carriers are in replenishment/reorganization rather than consumed by Catchpole. Truk remains a damaged air/recon/submarine staging base, not a restored fleet hub."
+  },
+  "Bengal": "No new ground re-adjudication in this window. Chittagong-Feni/Comilla state carries forward; 25th Dragoons gate remains later.",
+  "global_allocation_posting": {
+    "new_Type95_loss_posted_23_25Feb": 6,
+    "cumulative_named_Eniwetok_Type95_loss": 9,
+    "new_Japanese_CA_committed_to_SA1": 3,
+    "new_Japanese_CL_committed_to_SA1_escort": 2,
+    "new_Oyodo_group_debit": 0,
+    "new_first_line_carrier_debit_to_Indian_Ocean": 0,
+    "705_physical_eastward_debit_by_27T24": 0
+  },
+  "next_exact_action": "Advance 28 Feb..3 Mar. First resolve Sussex joining SLEUTH and SLEUTH return arc; then clock SA No.1 Banka departure/Indian Ocean entry against Allied intelligence/submarine/air reaction; post actual 705 transfer/reorganization only when departure occurs."
+}

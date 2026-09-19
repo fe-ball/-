@@ -1,0 +1,19 @@
+{
+  "revision": "v002",
+  "id": "PARALLEL_THEATER_STATE_1944-02-27T24_WORKING_v002",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "as_of": "1944-02-27T24:00:00+09:00",
+  "supersedes": "PARALLEL_THEATER_STATE_1944-02-27T24_WORKING_v001",
+  "merge_policy": "Only events at or before 27T24 are globally visible. The previous automatic SA No.1 27-Feb sortie is rolled back pending a Branch-specific movement/release gate.",
+  "Indian_Ocean": {
+    "Eastern_Fleet": "SLEUTH proceeds on the already-adjudicated 23-27 Feb arc; no Japanese weapon-quality contact established.",
+    "Japan_surface": "Oyodo + Teruzuki + Takanami + Makinami + Kiyonami remain the separate fresh-RN-contact reserve. Historical SA No.1 three-CA sortie has NOT departed. Aoba/Kinu/Oi local preparation may exist, but Tone/Chikuma are not assigned without dated arrival and Combined Fleet release.",
+    "Japan_air_ASW": "Previously adjudicated 331/705/Tokai/Ka-1 states unchanged by this correction.",
+    "Japan_submarines": "Previously adjudicated 23-27 Feb submarine events unchanged."
+  },
+  "Central_Pacific": {
+    "CATCHPOLE": "Previous 23-27 Feb global merge unchanged.",
+    "HAILSTONE_recovery": "Truk remains damaged; Japanese mobile fleet is in westward dispersal/reconstitution. Tone/Chikuma retention/release remains an unresolved cross-theater allocation question rather than a historical automatic move."
+  },
+  "next_exact_action": "Advance 28 Feb..3 Mar only after reconstructing Tone/Chikuma post-3-Feb route/readiness and adjudicating whether Combined Fleet releases either ship for an Indian Ocean commerce raid. SLEUTH return arc and 705 transfer remain valid parallel tasks."
+}

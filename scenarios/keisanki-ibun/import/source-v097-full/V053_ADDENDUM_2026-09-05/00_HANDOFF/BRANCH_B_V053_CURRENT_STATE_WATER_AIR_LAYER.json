@@ -1,0 +1,19 @@
+{
+  "id": "BRANCH_B_V053_CURRENT_STATE_WATER_AIR_LAYER",
+  "as_of_scenario": "1942-11-14T18:00",
+  "new_caledonia": {
+    "water_fighter_layer_status": "active and previously undercounted",
+    "A6M2N_equivalent_forward_lagoon_assigned": [
+      8,
+      12
+    ],
+    "A6M2N_equivalent_forward_lagoon_ready": [
+      6,
+      9
+    ],
+    "tontouta_wheeled_airfield": "limited fighter use beginning only on existing repair clock; do not equate with lagoon CAP",
+    "wasp_1942_11_13_strike_revised_US_losses_total": 9,
+    "wasp_1942_11_14_carrier_battle": "unchanged"
+  },
+  "next_scenario_rule": "carry water-fighter/tender layer explicitly into Noumea phase and main-carrier withdrawal phase"
+}

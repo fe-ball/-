@@ -1,0 +1,43 @@
+{
+  "id": "JAPAN_MARSHALL_FORWARD_LOGISTICS_1944-01-16_31_WORKING_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-01-16 through 1944-01-31",
+  "precedence": "Extends, does not replace, the 29-Nov-1943 through 15-Jan-1944 closeout.",
+  "guards": [
+    "No free merchant-hull creation.",
+    "Increasing US Gilbert air/submarine pressure reduces daylight inter-atoll movement and raises abort/loss friction.",
+    "Late cargo mostly completes existing defense/base projects; it does not create new deep tunnel fortresses on coral atolls.",
+    "Personnel additions are bounded and must not be added again to later dated garrison totals."
+  ],
+  "attempted_tonnes_band": [13000, 18000],
+  "delivered_or_usefully_redistributed_tonnes_band": [9500, 13500],
+  "delivered_center_tonnes": 11500,
+  "loaded_lost_aborted_or_delayed_band": [3000, 5500],
+  "center_by_function_tonnes": {
+    "fortification_bulk_and_obstacle_material": 2800,
+    "artillery_ammunition_mines_wire_explosives": 2300,
+    "aviation_fuel_lubricants": 1800,
+    "engineer_plant_tools_vehicle_spares": 1000,
+    "sensor_C2_power_cable_radar_radio_spares": 800,
+    "aviation_spares_ordnance_workshop_stock": 1100,
+    "routine_food_water_medical": 1200,
+    "other_unit_equipment": 500
+  },
+  "center_by_node_tonnes": {
+    "Kwajalein_Roi_Ebeye": 2700,
+    "Maloelap_Taroa": 2000,
+    "Wotje": 1200,
+    "Mili": 900,
+    "Jaluit": 500,
+    "Eniwetok": 1700,
+    "other_Marshall_nodes_and_interatoll_reserve": 2500
+  },
+  "personnel_increment_or_redistribution_band": [450, 850],
+  "personnel_note": "Mostly engineers, aviation-base, signal/AA specialists and historically plausible final reinforcement fragments; not a new field formation.",
+  "construction_effect_by_31Jan": [
+    "Priority bases finish more of already-started revetments, distributed magazines, generator/pump protection and alternate telephone routes.",
+    "Kwajalein/Roi lagoon-side fire plans and alternate command positions improve materially after Tarawa lessons, but flat-island depth remains the decisive ceiling.",
+    "Taroa/Wotje receive substantial work even if later bypassed because Japan does not know the exact US target.",
+    "Eniwetok improves as western staging/recovery node but remains less complete than Taroa or Kwajalein/Roi."
+  ]
+}

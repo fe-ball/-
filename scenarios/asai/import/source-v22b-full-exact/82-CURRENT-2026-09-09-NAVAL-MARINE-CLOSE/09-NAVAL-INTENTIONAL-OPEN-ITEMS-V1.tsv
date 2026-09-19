@@ -1,0 +1,13 @@
+topic	status	next_gate
+Exact historical registry/public number of propulsion test ship	OPEN-DETAIL	naval auxiliary registry crosswalk; do not lock working 4017
+Propulsion test ship exact dimensions/shaft rpm/reducer layout	OPEN-DESIGN	detail design records; not history-critical
+E6 marine product TBO fleet average	OPEN-MEASUREMENT	test-ship multi-module endurance; 500 h is target not guarantee
+Marine M2/M3 achievement date	OPEN	endurance/salt/gear/maintenance evidence
+E6 50-55 t torpedo-boat actual procurement quantity	POLICY OPEN	Navy requirement/prototype acceptance
+Carrier/cruiser/destroyer GT installation	POLICY/CLASS OPEN	class-specific intake/reducer/shaft/MTBO/yard gate
+1942+ slow-STOL-carrier conversions and numbers	POLICY OPEN	A8N/powered-lift carrier qualification + deck/handling/logistics
+Radar models and ship-by-ship installations	SEPARATE TECH/PROCUREMENT OPEN	Navy requirement clock + reliability/production/EMI gate
+ASW wartime doctrine/equipment quantities	HISTORY/PROCUREMENT OPEN	war experience; no prewar automatic revolution
+Submarine 1941-42 yard/battery/motor production accounting	INDUSTRIAL OPEN	dedicated production ledger
+Large-core marine LL20/E7 exact product rating/life	LOCAL PRODUCT OPEN	large-core rig + test-ship endurance
+GT-electric large-ship adoption	TECH/POLICY OPEN	generator/motor/copper/efficiency/yard integration

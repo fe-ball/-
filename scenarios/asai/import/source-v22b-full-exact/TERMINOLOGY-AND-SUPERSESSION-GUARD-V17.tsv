@@ -1,0 +1,20 @@
+term	rule
+CURRENT-CLOSE	Current authority where explicitly listed
+CURRENT-PLANNING	Accepted planning band; future realization remains replay-dependent
+WORKING-CLOSE	Accepted technical/operational interpretation until dedicated closeout refines it
+GATE	Future condition/decision; not a completed event
+REOPEN	Older deterministic decision is no longer binding; outcome must be re-audited
+ANALYSIS-ONLY	Never auto-import into canon/OOB/losses
+physical	Physically exists; does not imply accepted/service-released/assigned/ready/combat-present
+accepted	Factory/arsenal accepted; does not imply service release
+service-released	Eligible for normal unit use; does not imply theater assignment
+assigned	Allocated to a unit/theater; does not imply ready
+ready	Mission-ready at the stated time
+combat-present	Actually present in a replayed combat event
+workband	Engineering/planning range; not a direct combat multiplier or exact observed value
+historical_anchor	Historical fact/measurement used as constraint; worldline result may differ only through explicit causal change
+CRP0	Contra-rotating propeller concept/analysis stage
+CRP1	CRP component/rig stage
+CRP2	CRP full-engine development stage; prototype flight allowed
+CRP3	Specific engine+airframe installation qualified
+CRP4	Serial reproducibility/tooling/acceptance standardized

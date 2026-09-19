@@ -1,0 +1,89 @@
+{
+  "package_version": "v076_FULL",
+  "date": "2026-09-07",
+  "package_type": "FULL_SELF_CONTAINED",
+  "parent_full_archive": "\u8a08\u7b97\u6a5f\u7570\u805e_BRANCH_B_v075_FULL_HANDOFF_SANTO_D2_COMMAND_POSTURE_CLOSED_2026-09-07.zip",
+  "resume": {
+    "date": "1942-07-26",
+    "time": "00:00",
+    "phase": "SANTO_D1_RAIDERS_ASHORE_2DMARINES_TRACKED_WASP_UNDETECTED",
+    "clock_advanced_by_v076": true,
+    "center_Santo_D_day": "1942-07-27",
+    "D4_event": "CLOSED_V073",
+    "D3_event": "CLOSED_V074",
+    "D2_command": "CLOSED_V075",
+    "D2_event": "CLOSED_V076",
+    "Wasp_air_group": "CLOSED_V076_RUNTIME",
+    "Santo_H_hour_branch": "OPEN",
+    "New_Caledonia_date": "OPEN_POST_SANTO_RESET"
+  },
+  "D2_close": {
+    "Raiders": {
+      "physical_ashore": 520,
+      "effective_D1_center": "~475-480",
+      "APDs": "INTACT_WITHDRAWING_SOUTH"
+    },
+    "Japanese_recon_Raiders": {
+      "time": "~06:18",
+      "physical_confirmation": true
+    },
+    "Japanese_contingency_reserve": {
+      "gate_time": "~06:50",
+      "status": "ACTIVATED_SECOND_ECHELON",
+      "H_hour_dawn_credit": 0,
+      "center_lift": "Yasukawa_Maru_Rabaul_area_no_retroactive_forward_staging"
+    },
+    "Ryujo_Santo_strike": {
+      "package": "10 A6M + 8 B5N",
+      "Allied_air_losses": "2 F4F destroyed + 1 damaged",
+      "Japanese_air_losses": "1 A6M + 1 B5N destroyed + 1 B5N damaged",
+      "Turtle_Bay_delay_hours": "~10-14"
+    },
+    "Allied_assault_body_reacquisition": {
+      "PBY": "contact transmitted then aircraft lost",
+      "B17_strike": "5 aircraft, 0 ship hits, 1 damaged"
+    },
+    "Allied_carrier_contact": {
+      "Ryujo": "PHYSICALLY_SIGHTED_TRANSIENT",
+      "Shokaku_Zuikaku": "NOT_SIGHTED",
+      "Wasp_strike": "NO_RANGE_GEOMETRY"
+    },
+    "Japanese_deep_air_search": {
+      "2d_Marines": false,
+      "Wasp": false
+    },
+    "I32_contact": {
+      "time": "~19:20",
+      "target": "five transport 2d-Marine convoy + 2 DD",
+      "torpedo_hits": 0,
+      "I32": "LIGHT_MISSION_DEGRADING_DAMAGE",
+      "2d_Marines_eta": "1942-07-26 ~15:30-16:00"
+    }
+  },
+  "D1_opening": {
+    "Japanese_assault_body_distance_to_Santo_nm": "~280-290",
+    "Japanese_carrier_force_distance_to_Santo_nm": "~240-270 N/NW center",
+    "Japanese_carrier_MR_center": 138,
+    "Japanese_G3M_G4M_MR": "~19-20",
+    "Japanese_flying_boats_MR": "~4",
+    "Japanese_forward_water_air_MR": "~16",
+    "Japanese_ship_floatplanes_MR": "~15",
+    "Japanese_submarine_line": "~5 clean/effective + 1 marginal/damaged/closing",
+    "2d_Marines_distance_to_Santo_nm": "~235-245 east",
+    "2d_Marines_eta": "1942-07-26 ~15:30-16:00",
+    "Wasp_detected_by_Japan": false,
+    "Wasp_air_group_MR_center": 62,
+    "VMF212_MR": "~12-13",
+    "B17_MR": "~9-10",
+    "PBY_sustainable_Santo_sorties_per_day": "~4-5",
+    "Santo_resident_plus_Raiders_effective": "~1100-1300"
+  },
+  "authority": {
+    "v076_D2_event": "CURRENT",
+    "v076_Wasp_air_group": "CURRENT",
+    "v075_command_doctrine": "RETAINED",
+    "v074_Raider_correction": "RETAINED",
+    "v071_Japanese_capability": "RETAINED_AS_BASELINE_ONLY"
+  },
+  "critical_rule": "Resume at 1942-07-26 00:00. Wasp remains undetected; main Japanese fleet carriers remain unlocated by Allies; do not add the activated 1000-man Japanese reserve to 27-Jul dawn H-hour without an actual arrival event."
+}

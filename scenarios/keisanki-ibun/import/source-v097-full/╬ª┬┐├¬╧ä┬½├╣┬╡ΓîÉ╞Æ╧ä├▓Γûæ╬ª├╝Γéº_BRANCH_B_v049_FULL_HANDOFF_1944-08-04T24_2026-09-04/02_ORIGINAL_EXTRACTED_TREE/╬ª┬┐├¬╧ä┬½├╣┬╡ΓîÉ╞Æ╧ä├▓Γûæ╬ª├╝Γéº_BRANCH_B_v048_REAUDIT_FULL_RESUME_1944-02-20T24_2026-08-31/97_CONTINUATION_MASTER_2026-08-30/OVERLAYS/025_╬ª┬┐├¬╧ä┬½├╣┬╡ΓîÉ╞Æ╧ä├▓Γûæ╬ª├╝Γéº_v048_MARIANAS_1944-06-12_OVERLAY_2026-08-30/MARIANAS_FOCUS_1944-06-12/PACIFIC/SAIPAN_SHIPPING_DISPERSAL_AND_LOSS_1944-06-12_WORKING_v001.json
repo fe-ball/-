@@ -1,0 +1,36 @@
+{
+  "revision": "v001",
+  "id": "SAIPAN_SHIPPING_DISPERSAL_AND_LOSS_1944-06-12_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_SHIPPING_SETTLEMENT",
+  "clock_window": "1944-06-11 dawn..1944-06-12T24+09:00",
+  "parents": [
+    "JAPAN_MARIANAS_AIR_DEFENSE_1944-06-11_WORKING_v001"
+  ],
+  "historical_anchor": "Historical TF58 aircraft devastated a Saipan evacuation convoy over 11-12 Jun, sinking roughly ten merchant ships plus small escorts in the commonly cited cluster.",
+  "branch_geometry": "Because strategic warning began before the first raid, navigable shipping leaves in staggered packets from late 10/early 11 Jun rather than remaining as one dense, easily reacquired convoy. Faster/high-value auxiliaries receive earlier departure priority; slow merchants and local escorts remain highly vulnerable.",
+  "centerline_loss_band": {
+    "merchant_or_auxiliary_all_loss_hulls": [
+      6,
+      8
+    ],
+    "merchant_or_auxiliary_damaged_campaign_out_or_limping_band": [
+      4,
+      6
+    ],
+    "small_escort_all_loss_hulls": [
+      1,
+      2
+    ],
+    "small_escort_damaged_band": [
+      3,
+      5
+    ]
+  },
+  "named_high_value_fates": {
+    "MAMIYA": "SURVIVES 12 Jun centerline by earlier/staggered routing; no damage credit unless a later contact occurs.",
+    "T_1_fast_transport": "SURVIVES; light-to-moderate air damage centerline, remains mission-limited for several days.",
+    "OTORI": "SUNK centerline while screening a located slow packet; branch warning does not make close escort duty safe.",
+    "CD_4": "DAMAGED but survives; repeated strafing/near-miss damage without loss."
+  },
+  "operational_effect": "The branch saves a meaningful fraction of movable tonnage and key support hulls versus the historical concentrated disaster, but the evacuation still costs substantial transport capacity and confirms that daytime sea movement around Saipan is untenable under TF58 control."
+}

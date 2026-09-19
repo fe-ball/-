@@ -1,0 +1,21 @@
+{
+  "revision": "v001",
+  "id": "PARALLEL_THEATER_STATE_1944-05-24T24_WORKING_v001",
+  "status": "WORKING_DISCUSSION_SNAPSHOT_CURRENT_OVERLAY",
+  "as_of": "1944-05-24T24:00:00+09:00",
+  "global_frontier": "1944-05-24T24",
+  "China": {
+    "Changsha_Xiangtan": "Japanese physical control converted into partial operational node control; rail/river/air/admin functions are coming online in layers rather than instant transfer.",
+    "Nanjing": "32-44k rear-security/admin personnel in the Yueyang-north Hunan-Changsha/Xiangtan system; 9-14k directly committed around the new nodes under Japanese key-node supervision.",
+    "IX_War_Area": "Rewired south around Hengyang-Leiyang-Chenzhou; field army remains coherent.",
+    "Ichigo": "Phase B preparation authorized 23 May after minimum node/logistics gate passes. Southward movement begins 24 May; no Hengyang assault yet."
+  },
+  "Pacific": {
+    "US": "FORAGER reconfirmed. TG58.6 completes Marcus/Wake combat work-up/neutralization; 15 June Saipan planning center retained.",
+    "Japan": "Marianas warning becomes persistent critical. Yamamoto keeps five-carrier force in Sulu reaction posture and refuses to chase shaping raids.",
+    "ISR": "Japanese system can infer campaign direction earlier than it can generate weapon-quality carrier tracks.",
+    "force_audit": "June US fast-carrier OOB remains a mandatory branch rebuild before combat."
+  },
+  "Indian_Ocean_Bengal": "BACKGROUND_FREEZE remains active absent a new fleet/ground release trigger.",
+  "next_active_question": "25 May onward: Phase B movement/contact toward Hengyang while US FORAGER loading/rehearsal and Japanese Marianas reinforcement/ISR intensify. Track node functionality as well as front-line position."
+}

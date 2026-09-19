@@ -1,0 +1,34 @@
+{
+  "revision": "v001",
+  "id": "GLOBAL_SYNC_1944-06-06_10_MANIFEST_v001",
+  "status": "OVERLAY_MANIFEST",
+  "purpose": "Advance global branch clock from 5 Jun T24 through 10 Jun T24, then hand primary adjudication to Marianas on 11 Jun while retaining event-trigger background watches.",
+  "load_after": [
+    "計算機異聞_v048_PROGRESS_1944-05-25_06-05_OVERLAY_2026-08-30.zip"
+  ],
+  "core_decisions": [
+    "OVERLORD occurs 6 Jun as already-authorized five-beach historical-class first wave.",
+    "TF58 sortie proceeds 6-7 Jun; Majuro strike friction is absorbed before the 11 Jun attack.",
+    "Japanese ISR confirms major US carrier sortie by 9 Jun; Yamamoto starts preliminary A-GO measures but does not sortie the five-carrier core by 10 Jun.",
+    "Historical KON/Biak detachment is absent; Yamato/Musashi remain in the main Pacific fleet pool.",
+    "Tawi-Tawi Harder cluster is re-adjudicated: Hayanami lost, Minazuki/Tanikaze survive this window.",
+    "Hengyang remains Chinese-held and becomes a background siege/node-transfer watch after 10 Jun."
+  ],
+  "hard_guards": [
+    "Do not pre-award 11 Jun Marianas air combat.",
+    "Do not reuse historical Toyoda command chain; Yamamoto remains CINC Combined Fleet.",
+    "Do not inherit historical KON/Biak movements or Harusame loss.",
+    "Do not inherit historical Minazuki/Tanikaze June losses after this settlement.",
+    "Do not credit I-34/I-29 German hardware ashore before actual arrival events."
+  ],
+  "active_files": [
+    "STATE/GLOBAL_SYNC_STATE_1944-06-10T24_WORKING_v001.json",
+    "PACIFIC/US_TF58_SORTIE_AND_JAPAN_ISR_1944-06-06_10_WORKING_v001.json",
+    "PACIFIC/JAPAN_TAWITAWI_ASW_SUBWAR_1944-06-06_10_WORKING_v001.json",
+    "PACIFIC/JAPAN_A_GO_PRELIMINARY_GATE_1944-06-10_WORKING_v001.json",
+    "CHINA/HENGYANG_REDUCTION_1944-06-06_10_WORKING_v001.json",
+    "EUROPE/OVERLORD_BRANCH_SYNC_1944-06-06_10_WORKING_v001.json",
+    "YANAGI/YANAGI_ROUTE_STATE_1944-06-10_WORKING_v001.json",
+    "TECH/WEAPONS_TECH_BACKGROUND_STATE_1944-06-10_WORKING_v001.json"
+  ]
+}

@@ -1,0 +1,11 @@
+category	unit/system	assigned	serviceable	worldline_state	confidence/note
+armor	Tank Regiment (-1 company), working ID 7th	34	31	mixed legacy + one Chi-Ha company	unit ID medium confidence
+armor	Type 97 Chi-Ha WET1	12	11	200 hp continuous / 220 hp short	allocation closure
+armor	Type 89B	16	15	partial wet-weather retrofit	legacy main body
+armor	Type 94/97 tankette family	6	5	light recon/support	working mix
+engineer	6th Division bridge-material companies	2 companies		historical	plus independent engineer regiment
+engineer	106th Division river-crossing engineer regiment	1 regiment		historical	
+engineer	Uemura landing/shipping engineer regiment	1 regiment		historical	no automatic tank ferry
+mobile_power	small GT/APU	8 sets	7-8	worldline allocation	2 sixth/2 33d/2 106th/1 Uemura/1 army reserve
+workshop	enhanced workshop/recovery packages	9	8-9	worldline allocation	3 33d/2 sixth/2 106th/1 Uemura/1 reserve
+heavy_vehicle	turbo-heavy-service share	18-24% of suitable heavy-duty pools		worldline	not ordinary light trucks

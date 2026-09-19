@@ -1,0 +1,22 @@
+{
+  "revision": "v033",
+  "package_root": "計算機異聞_refactor_v033_2026-08-29_BRANCH_B_EASTERN_FLEET_LIGHT_OOB_WORKING_FULL",
+  "generated": "2026-08-29",
+  "purpose": "Advance WORKING discussion after Axis-report adjudication and audit named Eastern Fleet medium/light January OOB without changing CURRENT authority.",
+  "base_package": "計算機異聞_refactor_v032_2026-08-29_BRANCH_B_INDIAN_OCEAN_FRONTIER_REPAIR_WORKING_FULL",
+  "branch_id": "BRANCH_B_1943SUMMER_EXPLORATION",
+  "authority_status": "CURRENT AUTHORITIES UNCHANGED; WORKING DISCUSSION CLOCK CENTER 1944-01-13",
+  "current_branch_state_file": "06_RUNTIME/CURRENT_BRANCH_STATE_v012.json",
+  "current_restart_checkpoint": "05_WARTIME/CHECKPOINT_1943-12-31T24_BRANCH_B_v004.json",
+  "current_overrides": "00_CONFIG/current_branch_overrides_v012.json",
+  "discussion_frontier": "00_README/CURRENT_DISCUSSION_FRONTIER_v002.json",
+  "next_session_handoff": "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v033.md",
+  "working_release": "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v006.json",
+  "Eastern_Fleet_light_OOB": "06_RUNTIME/EASTERN_FLEET_MEDIUM_LIGHT_OOB_1944-01_WORKING_v001.json",
+  "validator": "98_TOOLS/validate_refactor_v020.py",
+  "validation": "95_AUDIT/VALIDATION_RESULT_v033.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v033.txt",
+  "file_count_before_checksum": 745,
+  "file_count_total": 746,
+  "json_file_count": 352
+}

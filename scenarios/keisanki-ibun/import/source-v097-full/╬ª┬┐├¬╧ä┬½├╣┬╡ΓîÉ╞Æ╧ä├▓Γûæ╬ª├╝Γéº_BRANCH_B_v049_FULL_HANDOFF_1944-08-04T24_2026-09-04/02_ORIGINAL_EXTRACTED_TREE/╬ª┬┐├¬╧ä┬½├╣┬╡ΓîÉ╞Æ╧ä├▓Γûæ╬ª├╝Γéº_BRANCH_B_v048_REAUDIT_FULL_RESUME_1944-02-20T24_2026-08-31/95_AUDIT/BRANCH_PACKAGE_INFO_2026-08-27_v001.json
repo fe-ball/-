@@ -1,0 +1,8 @@
+{
+  "branch_package": "計算機異聞_refactor_v025_2026-08-27_BRANCH_B_1943SUMMER_EXPLORATION_FULL",
+  "source_package": "計算機異聞_refactor_v025_2026-08-26_FULL_REPAIRED + 2026-08-27 working memo patch",
+  "created_date": "2026-08-27",
+  "branch": "B_1943SUMMER_EXPLORATION",
+  "current_state": "06_RUNTIME/CURRENT_BRANCH_STATE_v008.json",
+  "note": "Legacy manifests/checksums inside the inherited v025 tree remain historical records of prior package revisions. Use BRANCH_SHA256SUMS_2026-08-27_v001.txt for this branched package."
+}

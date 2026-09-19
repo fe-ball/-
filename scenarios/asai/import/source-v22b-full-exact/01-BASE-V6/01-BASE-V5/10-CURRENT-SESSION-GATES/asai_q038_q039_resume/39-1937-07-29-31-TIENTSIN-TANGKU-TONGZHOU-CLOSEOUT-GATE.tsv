@@ -1,0 +1,6 @@
+event_id	time	sector	historical_baseline	asai_delta	status	notes
+E-19370729-31-01	1937-07-29 night to 1937-07-30	Tientsin	Chinese organized resistance deteriorates and withdraws under Japanese ground/air pressure	Minor aviation/vehicle readiness advantage only	CLOSED-SAME-ENDSTATE	Do not compress final battle to dawn 29 Jul
+E-19370731-02	1937-07-31 10:00	Tientsin	City reported quiet; only remnants cleared during night	Slightly smaller maintenance backlog	CLOSED-SAME	Exact last firefight non-branching
+E-19370730-03	by 1937-07-30/31	Tangku/Taku	Japanese control established; port route available	No capture-date branch; marginal post-capture transport efficiency	CLOSED-SAME-ENDSTATE	Exact fort/navy-yard damage OPEN-detail
+E-19370729-30-04	1937-07-29 to 1937-07-30	Tongzhou	Japanese air response followed by land relief; mutineers driven out/control restored	Minor readiness only after response begins	CLOSED-SAME-ENDSTATE	Cannot prevent main killings
+E-19370731-05	1937-07-31	North China Japanese forces	Peiping-Tientsin local combat phase largely completed	Aircraft/vehicles/workshops carry slightly better usable stock into August	CLOSED-MINOR-CARRYOVER	No territorial delta

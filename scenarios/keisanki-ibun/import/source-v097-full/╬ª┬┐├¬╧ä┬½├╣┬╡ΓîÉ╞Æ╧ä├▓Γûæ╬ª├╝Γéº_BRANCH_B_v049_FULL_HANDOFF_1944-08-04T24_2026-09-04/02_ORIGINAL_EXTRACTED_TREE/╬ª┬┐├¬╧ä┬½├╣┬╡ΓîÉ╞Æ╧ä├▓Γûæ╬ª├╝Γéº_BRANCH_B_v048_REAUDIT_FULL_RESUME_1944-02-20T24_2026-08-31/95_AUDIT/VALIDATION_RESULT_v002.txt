@@ -1,0 +1,10 @@
+json_files: 56
+json_validation: PASS
+legacy_files: 188
+legacy_byte_identity_vs_v001: PASS
+tech_entries: 49
+prewar_entries: 18
+coral_sea_handout_entries: 23
+coral_sea_required_cards: PASS
+pearl_sync_normalized_to_v003: PASS
+errors: []

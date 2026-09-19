@@ -1,0 +1,32 @@
+{
+  "id": "FLINTLOCK_1944-02-07T24_WORKING_CHECKPOINT_v001",
+  "status": "WORKING_FRONTIER_CHECKPOINT_NOT_CANONICAL",
+  "as_of": "1944-02-07T24+12:00",
+  "US": {
+    "Roi": "Mopping essentially complete.",
+    "Namur": "Organized resistance broken late D+1; isolated pockets remain.",
+    "Kwajalein": "About 65-75% controlled/fire-dominated; northeastern strongpoint belt remains organized.",
+    "Dplus1_ground_KW_center": 715,
+    "cumulative_main_ground_center": 1500,
+    "fleet": "No new major ship hit centered; CVE/direct-fire/ASW support remains active while some fast-carrier elements begin normal replenishment/cover cycles."
+  },
+  "Japan": {
+    "Namur": "110-190 isolated/local fighters plus 70-130 scattered/support; no coherent island command.",
+    "Kwajalein": "850-1,150 organized/local fighters plus 250-400 scattered/support; several local mutually supporting clusters remain.",
+    "air": "Regional combat-serviceable 10-14 centered 12; water/recon still contributes warning but coherent strike capacity is effectively gone.",
+    "submarines": "No new hit centered; one additional boat temporarily unavailable 48-72h.",
+    "fleet_carriers": "Main carrier force continues westward regeneration; no renewed eastward carrier strike on 7-Feb."
+  },
+  "open_7_8Feb_night": [
+    "Kwajalein local night infiltration from shrinking northeastern defense",
+    "Namur final pocket clearance/secure declaration timing",
+    "Kwajalein D+2 reduction and whether organized resistance survives into 9-Feb",
+    "remaining submarine/outer-air reconnaissance opportunities"
+  ],
+  "do_not_inherit": [
+    "historical Kwajalein secure date as a fixed script",
+    "historical Namur dawn attack size as a fixed result",
+    "old v003 D+1/D+2 casualty totals",
+    "historical magazine explosion"
+  ]
+}

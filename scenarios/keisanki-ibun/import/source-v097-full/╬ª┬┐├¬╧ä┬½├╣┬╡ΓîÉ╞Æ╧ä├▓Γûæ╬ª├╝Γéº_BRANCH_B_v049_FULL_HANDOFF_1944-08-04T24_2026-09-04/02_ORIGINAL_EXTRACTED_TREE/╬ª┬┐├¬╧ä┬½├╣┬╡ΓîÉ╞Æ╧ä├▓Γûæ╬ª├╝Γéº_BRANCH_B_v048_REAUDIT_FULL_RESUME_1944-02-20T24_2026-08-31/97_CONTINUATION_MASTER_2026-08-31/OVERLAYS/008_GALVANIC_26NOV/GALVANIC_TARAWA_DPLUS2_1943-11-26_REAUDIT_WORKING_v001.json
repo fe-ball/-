@@ -1,0 +1,64 @@
+{
+  "id": "GALVANIC_TARAWA_DPLUS2_1943-11-26_REAUDIT_WORKING_v001",
+  "status": "WORKING_BRANCH_RERUN_NOT_YET_PROMOTED",
+  "time": "1943-11-26T05:30..24:00 local",
+  "US_behavior": "natural adaptation: preserve the now-secure seam, mass M4A2 + engineers + 75-mm + naval direct fire + CVE spotting against identified strongpoints, and avoid broad unsupported infantry pushes. Fire is efficient but not omniscient; hidden firing slits, false damage assessment and local coordination failures persist.",
+  "US_ground_state": {
+    "M4A2_operational_day_band": [
+      9,
+      11
+    ],
+    "logistics": "verified lanes plus repaired LVT/LCM shuttle make ammunition, water, engineer stores and evacuation reliable enough for deliberate reduction warfare",
+    "Green_Beach": "centered secured for useful logistics during afternoon after costly western strongpoint reduction; not instantly safe at dawn"
+  },
+  "Japanese_ground_state": {
+    "organized_first_line_equivalent_dawn": [
+      1050,
+      1350
+    ],
+    "armed_support_local_pool_dawn": [
+      250,
+      400
+    ],
+    "Type95_dawn_contact_capable": [
+      2,
+      4
+    ],
+    "Type95_T24_contact_capable": [
+      1,
+      2
+    ],
+    "C2": "islandwide command mostly fragmented; strongpoint wire/runners/local ammunition continue to make individual pockets tougher than the aggregate command picture suggests",
+    "doctrine": "no new mass banzai charge; surviving tanks used as short-hop mobile firepoints and local counter-move reserve"
+  },
+  "progress": [
+    "Morning: US reduces the Red 2/3-adjacent and central-airfield strongpoints systematically; Japanese positions can still inflict losses but lose mutual support.",
+    "Midday-afternoon: western/southwestern positions that benefited from the pre-GALVANIC defensive bias are reduced with tanks, engineers and destroyer/direct fire; Green Beach becomes increasingly useful.",
+    "Late day: eastern/northern and selected inland strongpoints remain organized. The island is not declared secure and high-intensity CVE/spotting demand continues into 27 Nov."
+  ],
+  "casualties": {
+    "US_Dplus2": [
+      390,
+      570
+    ],
+    "US_cumulative_through_T24": [
+      2390,
+      3120
+    ],
+    "Japan_Dplus2": [
+      700,
+      950
+    ]
+  },
+  "T24_state": {
+    "organized_Japanese_pockets_equivalent": [
+      650,
+      900
+    ],
+    "armed_support_still_locally_useful": [
+      150,
+      280
+    ],
+    "assessment": "US victory on Betio is structurally certain, but organized resistance remains sufficient to demand another full reduction day. Do not close Tarawa on old 11/28/29 clocks yet; propagate from this state."
+  }
+}

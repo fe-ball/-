@@ -1,0 +1,37 @@
+{
+  "id": "JAPAN_FLINTLOCK_CARRIER_SUBMARINE_POSTURE_1944-01-22_31_WORKING_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-01-22 through 1944-01-31",
+  "first_line_carrier_force": {
+    "carriers": ["Shokaku", "Zuikaku", "Hiryu", "Soryu"],
+    "ready_aircraft_band": [250, 272],
+    "coherent_first_line_strike_band": [188, 216],
+    "Soryu_note": "Available in this rerun; the old three-carrier holding-force line is superseded for this working branch.",
+    "screen_center": {
+      "fast_battleships": ["Hiei", "Kirishima"],
+      "heavy_cruisers": ["Tone", "Chikuma"],
+      "light_cruiser": ["Noshiro"],
+      "destroyers_count": 10
+    },
+    "movement": [
+      "22-24 Jan: Pacific-priority alert and departure/closure from Truk-area readiness rather than routine training dispersal.",
+      "25-29 Jan: radio-disciplined holding position west of the Marshalls, retaining westward egress and staying outside routine US island-strike search expectation.",
+      "30-31 Jan: after firm carrier contact, limited eastward closure is authorized but no strike without a fresh enough target and acceptable other-TG uncertainty."
+    ]
+  },
+  "secondary_carriers": {
+    "carriers": ["Junyo", "Hiyo", "Ryujo", "Zuiho"],
+    "combat_usable_aircraft_band": [98, 116],
+    "posture": "Truk/Ponape rear-deck reserve and ferry/CAP/recovery depth. Not added to the first-line strike by default.",
+    "use_if_battle_opens": "CAP/search relief, cross-deck recovery, reinforcement ferry, and a bounded follow-on package if geometry remains favorable."
+  },
+  "submarine_network": {
+    "assigned_band": [16, 18],
+    "center_assigned": 17,
+    "effectively_on_station_by_28Jan_band": [13, 14],
+    "Sentaka_inner_layer_center": 5,
+    "delta_from_old_line": "I-175 is not locked into the superseded GALVANIC Pierce-hit/heavy-repair path, adding one plausible effective patrol asset. No wolfpack datalink is created.",
+    "reporting_rule": "Time/position/type/course/speed/confidence reports are fused with DF, water-air and traffic analysis; a boat may report instead of taking a poor shot."
+  },
+  "Yamamoto_decision_rule": "The four-deck force makes intervention more credible, but the fleet is not committed merely because one US TG is seen. GO requires fresh target geometry, evidence of US mission split/recovery state, acceptable uncertainty about other TGs, and a safe Japanese recovery/egress window."
+}

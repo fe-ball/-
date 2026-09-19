@@ -1,0 +1,17 @@
+date_or_interval	round_family	stage_or_event	quantity	usable_balance_or_reference	basis	status
+1939-05-29	AT37	release	0	0	combat-evaluation release approved; front stock 0	CLOSED
+1939-06-03	AT37	forward_issue	48	48	4 guns x12	CLOSED
+1939-06-17	TANK37	qualification	0	0	limited qualification PASS; separate complete round	CLOSED
+1939-06-24/25	TANK37	forward_issue	48	48	8 Ha-Go x6 combat-test lot	CLOSED
+1939-06-30	TANK37	combat_fired	8	40	partial field PASS; balance from 48-round lot	CLOSED
+1939-07-03	TANK37	combat_fired	26	14	field validation PASS	CLOSED
+1939-07-03	AT37	combat_fired	24	24	field validation PASS	CLOSED
+1939-07-04_to_08-19	AT37	additional_forward_replenishment_min	888	912	minimum required to bridge Jul3 residue 24 to V9 Aug19 stock 912	CLOSED-MINIMUM
+1939-07-04_to_08-19	TANK37	additional_forward_replenishment_min	274	288	minimum required to bridge Jul3 residue 14 to V9 Aug19 stock 288	CLOSED-MINIMUM
+through_1939-08-19	AT37	cumulative_accepted_forwarded_min	936	912	48 initial + 888 additional; 24 prior combat fired	CLOSED-LOWER-BOUND
+through_1939-08-19	TANK37	cumulative_accepted_forwarded_min	322	288	48 initial + 274 additional; 34 prior combat fired	CLOSED-LOWER-BOUND
+1939-08-20_to_08-22	AT37	net_theater_draw	362	550	V9 start 912 -> Aug22 residual 550	CLOSED-CAMPAIGN
+1939-08-20_to_08-22	TANK37	net_theater_draw	172	116	V9 start 288 -> Aug22 residual 116	CLOSED-CAMPAIGN
+1939-08-22	AT37	redistribution	72	550	four new Type94 AT guns x18; no new production	CLOSED-NET-ZERO
+1939-08-23_to_08-25	AT37	net_theater_draw	80	470	Aug22 550 -> Aug25 470	CLOSED-CAMPAIGN
+1939-08-23_to_08-25	TANK37	net_theater_draw	16	100	Aug22 116 -> Aug25 100	CLOSED-CAMPAIGN

@@ -1,0 +1,33 @@
+{
+  "revision": "v008",
+  "package_root": "計算機異聞_refactor_v008_2026-08-22",
+  "generated": "2026-08-22",
+  "purpose": "Advance v007 1942 year-end restart through 1943 and 1944-04-30, integrating Pacific/China/Burma/Europe/Eastern Front/weapon audits with explicit rationale, hidden-variable and re-gate recording.",
+  "current_restart": "CHECKPOINT_1944-04-30T24_v001",
+  "file_count": 345,
+  "new_revision_entrypoints": [
+    "00_README/README_refactor_v008.md",
+    "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v008.md",
+    "00_CONFIG/current_branch_overrides_v002.json",
+    "02_TECH/TECH_INDEX_v005.json",
+    "05_WARTIME/CHECKPOINT_INDEX_v007.json",
+    "05_WARTIME/CHECKPOINT_GRAPH_v006.json",
+    "05_WARTIME/CHECKPOINT_1944-04-30T24_v001.json",
+    "06_RUNTIME/1943_1944Q1_STRATEGIC_SETTLEMENT_v001.md",
+    "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+    "06_RUNTIME/CHINA_BURMA_CBI_1943_1944Q1_SETTLEMENT_v001.md",
+    "06_RUNTIME/EUROPE_ITALY_OVERLORD_ANVIL_REAUDIT_1943_1944Q1_v001.md",
+    "06_RUNTIME/EASTERN_FRONT_1941_1944Q1_DIFFERENTIAL_LEDGER_v001.md",
+    "06_RUNTIME/WEAPONS_AUDIT_1944-04-30_v001.md",
+    "06_RUNTIME/AIR_COMBAT_RESEARCH_1944SPRING_v001.md",
+    "06_RUNTIME/MATERIALS_NICKEL_TURBO_JET_1944SPRING_v001.md",
+    "06_RUNTIME/ASW_TOKAI_MAD_SUBWAR_1944SPRING_v001.md",
+    "06_RUNTIME/I400_SEIRAN_READINESS_GATE_1944_v001.md",
+    "06_RUNTIME/DECISION_RATIONALE_VARIABLE_LEDGER_v001.md",
+    "95_AUDIT/1943_1944Q1_ADVANCE_CLOSEOUT_v001.json"
+  ],
+  "validation": "95_AUDIT/VALIDATION_RESULT_v008.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v008.txt",
+  "legacy_policy": "99_LEGACY_UNTOUCHED retained byte-identical; legacy battle outcomes remain evidence/comparison only unless revalidated.",
+  "decision_recording_policy": "Major judgments record reason, non-implication, hidden/watch variables, opportunity cost, information state and re-adjudication gate."
+}

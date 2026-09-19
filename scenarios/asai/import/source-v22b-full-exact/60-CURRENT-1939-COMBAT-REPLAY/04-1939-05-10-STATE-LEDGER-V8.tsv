@@ -1,0 +1,22 @@
+field	value	status
+current_revalidated_combat_checkpoint	1939-05-10 24:00	CURRENT
+combat_replay_status	ACTIVE_COMBAT_REPLAY	CURRENT
+last_closed_combat_gate	1939-04-27 to 1939-05-09 Nanchang closeout	CLOSED
+next_chronological_combat_gate	1939-05-11 Nomonhan opening clash / border incident sequence	NEXT
+Nanchang_control	Japanese-held	CLOSED
+Nanchang_supply_connection	open / operational	CLOSED
+Chinese_Nanchang_counteroffensive	failed; general withdrawal May9	CLOSED
+Chinese_high_water_delta	best axis ~2-4 km shallower than matched-history center; airfield/station zones contested but not durably recaptured	CLOSED
+Japanese_Apr27_May9_loss_delta	~5-10% below matched history in comparable directly engaged sectors	WORKING CLOSED
+Chinese_assault_sector_loss_cohesion_delta	~8-15% above matched history for repeatedly exposed assault formations	WORKING CLOSED
+106th_relative_carryover	~+2100 to +2800 CEQ vs matched-history counterpart	WORKING CLOSED
+China_theater_usable_capital_delta	retain broad +5000 to +8000 CEQ family; no invented precise national retotal	CURRENT BAND
+E6_Twin_No1	first airframe flight 1939-04-29; basic PASS; interim/known propulsion	CURRENT
+E6_M_J_Twin_package	flight target Jun-Jul 1939; not yet flown	FUTURE
+E6_M_JF_Twin_package	flight target Aug-Sep 1939; not yet flown	FUTURE
+HS2	first flight 1939-05-04 on ~475 kgf E6-S-J; initial PASS; M<~0.45	CURRENT
+HS2_next_envelope	calibration / HS-1 overlap to M0.50-0.60, then staged M0.62+	NEXT TECHNICAL
+E6_Single	~90-95% integration; no first flight	CURRENT
+E6_Single_first_flight	late-May/Jun target	FUTURE
+Nomonhan_field_validated_dense_core	NOT YET; May11+ event gate required	BLOCK FUTURE BACKFLOW
+Nomonhan_mobile_GT_limited_standard	NOT YET	BLOCK FUTURE BACKFLOW

@@ -1,0 +1,42 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_OPERATION_SA1_MOBILIZATION_1944-02-25_27_WORKING_v001",
+  "status": "WORKING_BRANCH_INHERITED_HISTORICAL_MOVEMENT_WITH_RESOURCE_RECONCILIATION",
+  "clock_window": "1944-02-25..27",
+  "global_frontier_after_event": "1944-02-27T24",
+  "purpose": "Instantiate the separate Japanese Indian Ocean commerce-raiding operation without conflating it with the Oyodo Eastern-Fleet interception reserve.",
+  "branch_compatibility": "Inherited because no posted Branch event removes or damages Tone, Chikuma, Aoba, Oi, Kinu, Uranami, Amagiri or Shikinami before this clock. Existing Bengal damage to Uranami/Shikinami had Jan-1944 repair clocks and does not block Feb departure.",
+  "chronology": [
+    {
+      "date": "1944-02-25",
+      "event": "Aoba attached to CruDiv 16 as Sakonjo flagship with Kinu; commerce-raiding formation preparation is treated as active."
+    },
+    {
+      "date": "1944-02-27",
+      "event": "Tone + Chikuma + Aoba depart Lingga; Oi + Kinu + Uranami + Amagiri + Shikinami provide the associated Singapore/Lingga escort movement toward Banka. Uranami is one hull and is not double-counted across source descriptions.",
+      "mission": "SA No.1 commerce raiding; not an interception sortie against Illustrious.",
+      "global_effect": "Force is committed to south/west movement and is unavailable for speculative Bay/Andaman interception while this mission is active."
+    }
+  ],
+  "separation_from_Oyodo_group": {
+    "Oyodo_group": [
+      "Oyodo",
+      "Teruzuki",
+      "Takanami",
+      "Makinami",
+      "Kiyonami"
+    ],
+    "status_at_27T24": "HELD Singapore/Lingga reserve for fresh RN contact/night exploitation",
+    "not_added_to_SA1": true,
+    "reason": "No SLEUTH weapon-quality contact and no need to burn the dedicated observation/interception reserve on routine escort."
+  },
+  "air_ASW_interlock": "Tokai/MAD western detachment provides bounded departure-lane risk reduction around Penang/Singapore/Sumatra; no submarine kill is credited. Ka-go local contribution remains zero.",
+  "next_gate": "On 1 Mar, SA No.1 reaches Banka and then enters the Indian Ocean commerce-raiding phase; adjudicate Allied intelligence/submarine/air reaction before inheriting later results.",
+  "sources_external": [
+    "https://www.combinedfleet.com/tone_t.htm",
+    "https://www.combinedfleet.com/chikuma_t.htm",
+    "https://www.combinedfleet.com/aoba_t.htm",
+    "https://www.combinedfleet.com/oi_t.htm",
+    "https://www.combinedfleet.com/kinu_t.htm"
+  ]
+}

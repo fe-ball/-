@@ -1,0 +1,11 @@
+{
+  "schema":"asai-worldline-handoff-current-state-v3",
+  "date":"2026-08-29",
+  "package_role":"full resume overlay; not semantic v49",
+  "base":{"semantic":"v48","machine":"v48r3","container":"asai-worldline-20260828-v48r3-marine-gt-processed-handoff-v10.zip","marine":"V10"},
+  "method":{"term":"計算集計機使用文化","orange":["O0","O1","O2","O3"],"gain":["D","T","S"],"no_magic_calendar":true},
+  "closed":{"tomozuru_fourth_fleet":"events occur; post-event scope changes","ordinary_tank":"closed through Type 97","gt_tank_1938":"technical success, not normal replacement","carrier_gt_pre_1941_12_08":"none selected"},
+  "surface":{"steam":"dominant through 1941","hiei_emergency_gt":"discussion-closed overlay: ~400-450kW E4-class one-unit P2","test_ship":{"name":"OPEN","schedule":"1938 req; 1939 order; 1940 launch/outfit; 1941 trials","initial":"2x E6-M + safe-return diesel"}},
+  "merchant":{"physical_tonnage_delta":"+0.5 to +1.0% central; ~1.5% upper","effective_transport":"+2 to +3% central; ~5% upper","hard_conversion_pool":"~8 hulls including Scharnhorst","option_upgrade":"3-5 second-tier hulls; actual extra opening carriers likely 0-1"},
+  "next":"name/classify and finalize machinery of the propulsion test ship"
+}

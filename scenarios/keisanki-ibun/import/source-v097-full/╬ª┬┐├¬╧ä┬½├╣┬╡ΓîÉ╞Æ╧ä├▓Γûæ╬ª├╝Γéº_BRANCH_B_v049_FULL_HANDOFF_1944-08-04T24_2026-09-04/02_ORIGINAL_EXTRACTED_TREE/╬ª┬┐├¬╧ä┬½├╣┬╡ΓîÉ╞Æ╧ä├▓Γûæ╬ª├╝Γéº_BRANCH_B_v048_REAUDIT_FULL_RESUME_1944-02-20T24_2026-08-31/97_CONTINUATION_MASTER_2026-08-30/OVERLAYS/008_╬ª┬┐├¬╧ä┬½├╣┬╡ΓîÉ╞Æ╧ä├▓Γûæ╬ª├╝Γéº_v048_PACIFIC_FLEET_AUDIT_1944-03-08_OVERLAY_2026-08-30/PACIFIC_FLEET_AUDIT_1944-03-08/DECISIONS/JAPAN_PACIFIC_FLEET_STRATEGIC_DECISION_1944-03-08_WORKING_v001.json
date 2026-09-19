@@ -1,0 +1,55 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_PACIFIC_FLEET_STRATEGIC_DECISION_1944-03-08_WORKING_v001",
+  "status": "WORKING_BRANCH_DECISION",
+  "decision_time": "1944-03-08T24:00:00+09:00",
+  "purpose": "Choose Japanese naval posture from actual early-March branch fleet readiness rather than historical movement copying.",
+  "decision_gate": {
+    "temporary_US_weakness": {
+      "state": "TRUE_BUT_SHORT",
+      "evidence": "Cabot and Independence remain long-repair casualties; Lexington is not yet credited; immediate TF58 is about 10 fast decks. However Hornet/Lexington and additional new-build CV/CVL hulls are approaching."
+    },
+    "Japanese_hull_strength": {
+      "state": "PASS",
+      "evidence": "four established fleet-carrier hull/decks are again usable; Taiho exists physically; surface fleet and modern destroyer depth are healthy"
+    },
+    "Japanese_carrier_air_integration": {
+      "state": "MIXED_FAIL_FOR_OFFENSIVE",
+      "evidence": "3-Feb loss of experienced attack cadres has not been fully regenerated; Taiho is early work-up"
+    },
+    "forward_basing": {
+      "state": "FAIL_FOR_DEEP_OFFENSIVE",
+      "evidence": "Truk has lost fleet-hub function; Marshalls/Eniwetok are lost; any offensive toward Majuro/Eniwetok lengthens tanker/search/egress exposure"
+    },
+    "US_surface_and_system_strength": {
+      "state": "FAIL_FOR_GENERAL_FLEET_BATTLE",
+      "evidence": "eight fast battleships remain intact in the branch and US radar/CIC/F6F/AA system remains superior; temporary deck compression is not fleet-system collapse"
+    },
+    "time_pressure": {
+      "state": "PASS",
+      "evidence": "Japan can infer that US industrial carrier reinforcement will close the temporary gap even without knowing exact individual arrival dates"
+    }
+  },
+  "main_decision": "DO_NOT_LAUNCH_A_MARCH_OPEN_OCEAN_CARRIER_OFFENSIVE. Use the short US compression window to regenerate and position the fleet for a conditional counterstroke against the next fixed US amphibious/raid geometry.",
+  "orders_8Mar_to_about_20Mar": {
+    "carrier_core": "Concentrate Shokaku/Zuikaku/Hiryu/Soryu as one training/operational system on the western-Philippines/Davao-Borneo support axis. Do not immediately bury the whole carrier core at Lingga; preserve a reasonable reaction route toward Palau/Marianas while gaining southern fuel access.",
+    "Taiho": "Remain on home-area work-up/deck qualification. Do not accelerate her into combat merely because the US has damaged decks. Release south only after basic ship/air-group integration gate passes.",
+    "secondary_carriers": "Use Junyo/Hiyo/Ryuho/Ryujo/Zuiho/Shoho primarily as air-group shock absorbers, ferry/training/rear CAP and limited operational reserve. Do not dilute the best four-core instructors/leaders to make every hull look combat-ready.",
+    "fast_screen": "Keep Hiei/Kirishima, Tone/Chikuma, a modern CL layer and high-quality DDs aligned with the carrier core; exact screen can rotate for maintenance.",
+    "heavy_surface_reserve": "Concentrate Yamato/Musashi/Nagato and available Kongo/Haruna on the southern fuel axis as a second-echelon threat, not as blind carrier escorts or independent raiders. Their best use is against a US landing/fire-support force whose position is fixed by an amphibious operation.",
+    "forward_pressure": "Use submarines, K706/land-based long-range air, reconnaissance and pickets to make Eniwetok/Majuro/Palau approaches expensive and to generate the fresh contact needed for a fleet decision. This exploits the US temporary compression without risking the carrier cadre in a search duel.",
+    "Indian_Ocean": "No Tone/Chikuma diversion, no SA-style surface commerce raid, no blind Oyodo sortie."
+  },
+  "fleet_battle_release_gate": {
+    "required": [
+      "fresh multi-source US carrier/amphibious track",
+      "US force fixed or mission-constrained by landing/raid support",
+      "Japanese four-core strike cohesion at acceptable level",
+      "egress and tanker plan viable",
+      "expected gain includes carrier/transport/landing-system mission kills, not merely island prestige"
+    ],
+    "preferred_geometry": "western Carolines/Palau/Marianas approaches where Japanese land-based reconnaissance/air and submarines can contribute; not a long eastward hunt toward Majuro",
+    "surface_night_gate": "May open more readily against detached bombardment/transport groups after US carrier position is separated or suppressed; does not open merely because Japanese cruiser/DD numbers are healthy."
+  },
+  "strategic_interpretation": "The Branch gives Japan a genuine March fleet-in-being window, but the rational exploitation is concentration + training + ISR/attrition + conditional ambush. The window is too short and Japanese carrier-air human recovery too incomplete for a voluntary symmetric carrier battle."
+}

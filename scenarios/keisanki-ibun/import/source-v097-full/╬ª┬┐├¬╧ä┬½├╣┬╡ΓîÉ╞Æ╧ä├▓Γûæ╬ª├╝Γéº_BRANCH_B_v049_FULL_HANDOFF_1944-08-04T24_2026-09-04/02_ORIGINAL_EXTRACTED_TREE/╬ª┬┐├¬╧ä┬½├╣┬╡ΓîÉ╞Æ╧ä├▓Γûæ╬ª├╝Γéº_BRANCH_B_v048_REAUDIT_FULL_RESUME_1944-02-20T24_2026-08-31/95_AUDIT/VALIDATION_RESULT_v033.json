@@ -1,0 +1,26 @@
+{
+  "revision": "v033",
+  "generated": "2026-08-29",
+  "validator": "98_TOOLS/validate_refactor_v020.py",
+  "status": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "json_file_count": 352,
+  "authoritative_frontier": "1944-01-01T00:00",
+  "discussion_clock_center": "1944-01-13",
+  "authority_changed": false,
+  "discussion_frontier": "00_README/CURRENT_DISCUSSION_FRONTIER_v002.json",
+  "runtime_checks": {
+    "current_checkpoint_resolution": "PASS",
+    "Axis_to_Japan_delivery_working": "REALIZED",
+    "first_Japanese_release_working": "REALIZED_NOT_CURRENT",
+    "Pacific_allocation_debit": "EXPLICIT",
+    "Eastern_Fleet_medium_light_named_OOB": "PASS",
+    "true_January_new_arrivals": "7_NAMED_HULLS",
+    "saved_hull_auto_spawn": "REJECTED",
+    "future_arrival_early_instantiation": "REJECTED"
+  },
+  "validator_output": [
+    "ERRORS=0 WARNINGS=0 JSON_FILES=352"
+  ]
+}

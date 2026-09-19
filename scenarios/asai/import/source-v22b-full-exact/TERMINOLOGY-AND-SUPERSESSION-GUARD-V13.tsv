@@ -1,0 +1,46 @@
+term_or_issue	current_rule	supersedes_or_guard
+return vs reallocation	Use POST-CEASEFIRE REALLOCATION for E5/Ki42 Manchuria->China; existing China fleets never disappeared	supersedes RETURN-CLOSEOUT-V1 wording
+E5/Ki42 pure addition	Operational fleets are major near-pure OOB additions vs OLD; conventional historical aviation remains unless explicit substitution	prevents backgrounding/omission
+old Ki40 JF x2 recon	Replace duplicated narrow reconnaissance effect with persistent E5 system; do not stack	double-count guard
+fuel/range	Existing mission radii already include appropriate auxiliary-fuel configurations	no new range multiplier
+Chi-Ha WET1	wet/splash reliability only; routine ford ~1m; no deep wading	no amphibious magic
+GT winter effect	apply to supported clusters and morning readiness/launch timing/repair load	no all-day division multiplier
+1940 appearance ledger	planning gate only until actual combat date/allocation/serviceability closed	no prototype auto-fielding
+old V9 effects	carry forward unless explicitly replaced	no-backflow
+E6 Single research-only posture	E6 Single is service-production A/B after E6SINGLE1; pure-J standard, exact allocation/combat date replay-local	supersedes stale Single C / requirement-dependent-only wording
+R1As	九八式高速陸上偵察機; Navy E5 JF-biased reconnaissance lineage	distinguishes from conventional C5M 九八式偵察機
+R2As	零式高速陸上偵察機; Navy E6 Twin JF main reconnaissance branch	NAVALJETTORP1 current naming
+G4As	零式陸上攻撃機; high-speed supplementary G4 branch parallel to G4M; not G4M hardware	do not import G4M range/payload or replace G4M automatically
+Type91 Mod2 high-speed	1941 service identity retained; worldline normal air-drop qualification ~400-430km/h, selected ~450km/h growth	do not back-port late-war 300/350-knot strengthened states
+B6N E6-S-T	E6-S-T remains a powerplant candidate only; torpedo interface ~400-430km/h is closed independently	do not force turboprop selection before corrected 1300/1400hp H->A
+B5N2 TP serial conversion	No serial E5-S-T B5N2 re-engine program; only 2-4 technical conversion/test aircraft are plausible under B5NAUDIT1	prevents turbine-availability = automatic fleet conversion
+B5N2 1941 torpedo-speed inheritance	1941 Type91 ~400-430km/h normal envelope improves margin/repeatability but does not make B5N a 400+km/h aircraft	no airframe-speed backflow from torpedo qualification
+G3M turboprop conversion	G3M2 remains gasoline piston long-range branch; E5-S-T is paper study only and E6-S-T does not open a serial G3M variant	prevents turbine availability from deleting long-range piston economics
+G3M 4400km range	Treat ~4400km as maximum/ferry historical anchor, not 800kg-torpedo combat radius	range semantics guard
+old aircraft branch files	Files in 91-PROVENANCE-QUARANTINED-AIRCRAFT-RESEARCH-V11 are provenance-only even if they internally say current/canonical/closed	hard quarantine; current H->A and gates required before restoration
+development-history restoration	Restore research/requirement history before finished-aircraft claims; prototype, designation, production and combat are separate gates	prevents old-branch result-first backflow
+E6-B vs common E6 Twin	E6-B is a separate ~6.7t dedicated fast-heavy twin; common E6 Twin remains ~0.40t multi-role	do not inflate common Twin geometry/payload
+E5 Gaifu	E5 1000-shp mass carrier-fighter mainline remains rejected; only X/research utility survives	prevents resurrection of old 560-600km/h 1940-mainstay claim
+Sakufu 1941	1941 may contain a dedicated land-based prototype/deck-system test; carrier qualification/service remains 1942+ unless separately closed	no prototype=service backflow
+T5 capacity	1939Q4 prewar capacity commitment for 1942 demand insurance; mature +1500-2200 cores/year planning increment; not proof of 1941 combat output	capacity option, not combat/OOB
+prewar aluminum	Do not default to bulk aluminum starvation before Pacific-war gate; FRP substitution and planned supply growth help, but processing/components/QA remain possible bottlenecks	no material-magic or unlimited airframes
+wartime factory surge	If factories physically survive after war opening, forced shifts/overtime/outsourcing may exceed peacetime sustainable output at quality/TBO/maintenance cost	does not waive destroyed capacity or immature technology
+E5 Army Ki-40 evaluation label	Old E5 Twin Ki-40 allocation/evaluation wording is provenance only; current formal Ki-40 identity belongs to the Mitsubishi TP high-altitude reconnaissance program after the V12 naming gate	prevents collision/backflow
+Ki-40 current identity	Ki-40 = Mitsubishi TP high-altitude reconnaissance development/evaluation program in V12; not the old E5 Twin allocation label	formal restoration at new naming gate
+A7M / Gaifu	A7M=Gaifu identity preserved; formal A7M airframe prime is Mitsubishi; 1937-40 X-TP work remains pre-designation research	no retroactive A7M code or E5 mass-fighter resurrection
+A8N / Sakufu	A8N=Sakufu identity preserved; formal A8N airframe prime is Nakajima; 1941 is prototype/deck-system development and carrier qualification remains 1942+	no prototype=service backflow
+J2N / Hekireki	J2N=Hekireki identity remains protected, but 1941 dedicated prototype order is zero; re-open in 1942 only for a distinct heavy/night/all-weather/radar requirement	old dedicated 14m2 performance remains quarantined
+J2N 1941 performance	No dedicated-airframe performance table or aircraft inventory exists in 1941; requirement identity only	common E6 Single/Twin comparison first
+E6-B prime / numbering	Kawasaki is V12 airframe prime; E6-B remains the development identifier until an Army Ki-number audit is completed	do not invent a Ki number
+Ki-76	V12 formal military-STOL branch; P1/P2 are technical parents but mass service aircraft uses a cheaper piston solution and separate airframe prime	do not equate P2 hardware with Ki-76
+powered-lift 1941	Use JF bypass/cold-flow high-lift augmentation and limited vector research; no production-standard 1941 hover/vertical landing/hot-core Harrier architecture	STOL/STOVL gate guard
+1941 procurement vs OOB	Factory accepted, service released, unit assigned and operationally available are separate states	prevents procurement ledger = combat OOB
+Asai H1 helicopter	H1 is a V13 audit label for the 1939 mature piston development configuration; not a military designation	do not invent a service type name from the audit label
+Asai H2 helicopter	H2 is a V13 audit label for the 1940-41 E5-S-S small-turboshaft development configuration; not a military designation	do not equate mission evaluation with service release
+H1 1939 inventory	Exactly two Asai piston development airframes on 1939-04-20; military evaluation funding does not create a production batch	prevents research/test access from becoming OOB
+H2 1941 inventory	Four development airframes by 1941YE: Asai basic, Army mission, Navy mission, instrumented/backup; ordinary OOB zero	prevents mission-test machines from becoming service fleet
+Kayaba relationship	Kayaba remains independent; research meetings/data exchange/comparison trials allowed; no forced Asai/Kayaba joint design	supersedes old fixed airframe=Kayaba / engine=Asai support claim
+old rotorcraft support	Conflicting claims in old/support rotorcraft files are provenance/comparator even if internally called current/canonical	no automatic import of Kayaba prime, early mass autogyro inventory, medium-helicopter service, designation or OOB
+H3 medium helicopter 1941	~3.2t / ~15m / 900-1000shp-class is design/rig outlook only; 1941YE flight airframes = 0	engine power does not skip rotor-head/transmission/scale maturity
+helicopter controls prewar	Mechanical cyclic/collective/pedals and mechanical/hydromechanical governing; electronics used for measurement/diagnosis, not assumed stabilization/autopilot	no anachronistic electronic flight-control backflow
+helicopter military evaluation	Army/Navy evaluation and sponsored development are separate from procurement/service OOB	factory/development/test inventory is not combat OOB

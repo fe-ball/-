@@ -1,0 +1,29 @@
+term	rule
+CURRENT-CLOSE	Current authority where explicitly listed
+CURRENT-PLANNING	Accepted planning band; future realization remains replay-dependent
+WORKING-CLOSE	Accepted technical/operational interpretation until dedicated closeout refines it
+WORKING	Current engineering/planning result; may move with dedicated closeout
+GATED	Future condition/decision; not a completed event
+NEXT-GATE	Highest-priority next technical item; not yet closed
+OPEN	Unresolved; do not silently choose a branch
+ANALYSIS-ONLY	Never auto-import into canon/OOB/losses
+physical	Physically exists; does not imply accepted/service-released/assigned/ready/combat-present
+accepted	Factory/arsenal accepted; does not imply service release
+service-released	Eligible for normal unit use; does not imply theater assignment
+assigned	Allocated to a unit/theater; does not imply ready
+ready	Mission-ready at the stated time
+combat-present	Actually present in a replayed combat event
+workband	Engineering/planning range; not a direct combat multiplier or exact observed value
+future_technical_shadow	Engineering/design/qualification possibility after current replay date; not actual history until a later replay/procurement layer realizes it
+historical_anchor	Historical fact/measurement used as constraint; worldline result may differ only through explicit causal change
+protagonist_core	Engine/GT/jet real professional knowledge; idea/design search can compress strongly in-domain
+protagonist_industrial_gate	Materials/tooling/production/endurance/training/adoption cannot be skipped by knowledge alone
+CRP0	Contra-rotating propeller concept/analysis stage
+CRP1	CRP component/rig stage
+CRP2	CRP full-engine development stage; prototype flight allowed
+CRP3	Specific engine+airframe installation qualified
+CRP4	Serial reproducibility/tooling/acceptance standardized
+replay_clock_guard	V18 does not advance combat chronology beyond 1940-07-31 24:00
+I400_18_plan	Future Yamamoto strategic planned requirement; does not mean 18 completed hulls
+Seiran_range	Always distinguish total mission range, round-trip attack radius, discard-return radius and pure one-way reach
+accuracy_band	Planning probability band conditional on valid attack setup; use common-error + individual-error model in replay

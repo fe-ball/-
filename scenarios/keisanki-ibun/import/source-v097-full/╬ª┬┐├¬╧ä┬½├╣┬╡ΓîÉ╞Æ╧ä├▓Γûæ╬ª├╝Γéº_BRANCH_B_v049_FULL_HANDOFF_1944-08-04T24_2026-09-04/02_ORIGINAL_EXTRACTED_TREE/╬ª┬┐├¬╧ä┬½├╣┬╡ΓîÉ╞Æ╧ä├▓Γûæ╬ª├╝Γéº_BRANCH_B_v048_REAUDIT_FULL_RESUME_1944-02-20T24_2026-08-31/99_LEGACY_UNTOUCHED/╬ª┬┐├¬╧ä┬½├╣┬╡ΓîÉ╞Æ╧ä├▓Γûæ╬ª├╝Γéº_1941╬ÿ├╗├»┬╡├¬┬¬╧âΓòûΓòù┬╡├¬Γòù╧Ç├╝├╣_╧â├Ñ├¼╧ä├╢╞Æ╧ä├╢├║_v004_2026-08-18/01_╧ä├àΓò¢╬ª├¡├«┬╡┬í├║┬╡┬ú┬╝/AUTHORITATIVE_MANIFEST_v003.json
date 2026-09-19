@@ -1,0 +1,30 @@
+{
+  "revision": "v0.04-opening-synchronized",
+  "supersedes": "AUTHORITATIVE_MANIFEST_v002 for execution",
+  "purpose": "opening-executable package with portable UTF-8 paths and Pearl/Malaya/Philippines synchronized first-day state",
+  "authoritative_execution_files": [
+    "opening_sync_state_1941-12-07_08_v001.json",
+    "OPENING_DAY_RUN_v001.md",
+    "opening_state_1941-12-07_v006.json",
+    "opening_execution_state_v001.json",
+    "pearl_state_transition_v002.json",
+    "PEARL_STATE_TRANSITION_v002.md",
+    "MALAYA_PHASE0_OPENING_PACKET_v003.json",
+    "malaya_phase1_events_v001.json",
+    "philippines_opening_events_v001.json",
+    "PHILIPPINES_OPENING_1941-12-08_v001.md",
+    "switch_registry_v010.json",
+    "opening_technical_clock_guard_v001.json"
+  ],
+  "diagnostic_only": [
+    "pearl_state_transition_v001.json",
+    "PEARL_STATE_TRANSITION_v001.md"
+  ],
+  "validators": [
+    "../02_検証/validate_opening_package_v002.py",
+    "../02_検証/opening_state_validator_v004.py",
+    "state_transition_validator_v001.py"
+  ],
+  "execution_gate": "PASS when v002 validator reports errors=0",
+  "next_execution": "1941-12-08..15 Malaya daily transition; refine Pearl ship-level damage and Philippines Japanese return/serviceability in parallel"
+}

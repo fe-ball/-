@@ -1,0 +1,11 @@
+variable	historical_baseline	current_branch	comparison	decision	status
+北支政治・軍事緊張	高い	実質同じ	SAME	事件発生条件を保存	CLOSED
+豊台周辺の日本軍駐屯	存在	実質同じ	SAME	事件発生条件を保存	CLOSED
+7月7日夜間演習	実施	同じと置く	SAME	盧溝橋事件は同日発生	CLOSED-EVENT
+中国第29軍の宛平/盧溝橋配置	存在	実質同じ	SAME	事件発生条件を保存	CLOSED
+最初の発砲者	不確定	不確定	UNKNOWN	責任主体を固定しない	CLOSED-METHOD
+日本側重車両/牽引車	史実	一部過給化・稼働率改善	DIFFERENT	発火には無関係、増援/砲移動では再判定	WORKING
+移動電源/通信支援	史実発電装備	浅井小GT電源車少数	DIFFERENT	発火には無関係、7/8以後の通信/整備で再判定	WORKING
+37mm特殊徹甲弾	通常AP	U主/W backup限定special AP	DIFFERENT	発火には無関係、対装甲戦で再判定	WORKING
+航空戦力	史実1937配備	headlineほぼ史実、信頼性/QC微改善	SLIGHTLY_DIFFERENT	発火には無関係、稼働率/偵察で再判定	WORKING
+7月8日以後の拡大	史実の連鎖	未決定	RESIMULATE	各判断時点で条件差を適用	OPEN

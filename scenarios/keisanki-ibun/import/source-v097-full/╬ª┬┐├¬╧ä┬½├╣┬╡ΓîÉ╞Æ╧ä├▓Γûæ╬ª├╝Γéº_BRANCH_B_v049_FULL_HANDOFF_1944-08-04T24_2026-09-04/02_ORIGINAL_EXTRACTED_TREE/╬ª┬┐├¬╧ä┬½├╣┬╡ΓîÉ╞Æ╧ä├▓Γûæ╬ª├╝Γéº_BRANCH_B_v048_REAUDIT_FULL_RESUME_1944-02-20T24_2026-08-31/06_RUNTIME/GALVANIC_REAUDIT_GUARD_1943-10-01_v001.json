@@ -1,0 +1,89 @@
+{
+  "revision": "v001",
+  "id": "GALVANIC_REAUDIT_GUARD_1943-10-01_v001",
+  "package_revision": "v028",
+  "status": "SUPERSEDED_REFERENCE_GUARD",
+  "cutoff": "1943-10-01T00:00:00",
+  "purpose": "Scoped rollback guard for the Central-Pacific/GALVANIC re-audit while preserving unrelated 1943H2 settlements conditionally.",
+  "precedence": [
+    "06_RUNTIME/CURRENT_BRANCH_STATE_v010.json",
+    "05_WARTIME/CHECKPOINT_1943-09-30T24_v003.json",
+    "00_CONFIG/current_branch_overrides_v010.json",
+    "02_TECH/TECH_INDEX_v009.json",
+    "06_RUNTIME/GALVANIC_REAUDIT_GATE_1943-10_11_v001.md",
+    "06_RUNTIME/AXIS_SUBMARINE_LIAISON_TECH_TRANSFER_AUDIT_1942_1944_v001.md",
+    "06_RUNTIME/RADAR_ESM_DOCTRINE_REAUDIT_1942_1944_v001.md"
+  ],
+  "scoped_reopen": {
+    "reopened": [
+      "Central Pacific October-November force mobilization",
+      "GALVANIC operation and tactical outcomes",
+      "post-GALVANIC Pacific fatigue/readiness/damage state"
+    ],
+    "conditionally_retained": [
+      "Bengal/Arakan/Chittagong 1943 settlement",
+      "Royal Navy divergence and Dodecanese settlement",
+      "China/Chindwin facts not dependent on changed Pacific shared assets"
+    ],
+    "dependency_trip_rule": "Reopen a retained theater only if the GALVANIC re-audit changes a shared hull/air-group/escort/fuel/repair/shipping/command allocation enough to alter an explicit prior assumption."
+  },
+  "carrier_guard": {
+    "Japan_first_line": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu"
+    ],
+    "Japan_secondary_mandatory": [
+      "Junyo",
+      "Hiyo",
+      "Ryujo",
+      "Zuiho"
+    ],
+    "not_automatic_carriers": [
+      "Chitose",
+      "Chiyoda"
+    ],
+    "rule": "Every deck requires hull/engine/deck state, ready air group, qualified aircrew, deck/maintenance fatigue, spares, fuel/ordnance, escort, speed/wind/recovery geometry and assignment. Do not treat secondary decks as absent or as equal fast fleet carriers."
+  },
+  "fatigue_guard": {
+    "rule": "Carry fatigue/readiness from 1943-10-01 through mobilization. Resolve aircrew, deck crew, maintenance staff, surface crews, aircraft/engine hours and repair backlog; no D-Day snapshot reset."
+  },
+  "sensor_guard": {
+    "contact_chain": [
+      "EM_WARNING",
+      "SENSOR_CONTACT",
+      "TRACK",
+      "BATTLE_PREPARATION",
+      "WEAPON_QUALITY"
+    ],
+    "rule": "Compatible-band Japanese passive warning may precede US weapon-quality tracking. US SG/CIC/fighter-direction advantages remain and may dominate later stages. Apply unit/band/date distribution explicitly.",
+    "active_entries": [
+      "TECH-ESM-METRIC-RWR-1943-001",
+      "TECH-ESM-CUED-RECON-1943-001",
+      "TECH-RADAR-PRECISION-TRACK-WURZBURG-1943-001",
+      "TECH-RADAR-FIELD-SERVICE-1943-001",
+      "TECH-BASE-AIR-DEFENSE-PLOT-1943-001",
+      "TECH-RCM-GIMANSHI-1943-001",
+      "TECH-EMCON-RADAR-SURVIVABILITY-1943-001",
+      "TECH-SUB-ACOUSTIC-DECOY-BOLD-1943-001"
+    ]
+  },
+  "night_surface_guard": {
+    "rule": "Night confidence may be higher in trained surviving units because ESM and repeatable torpedo doctrine reduce total-surprise risk. Confidence changes GO/NO-GO, battle preparation and willingness for a limited torpedo probe; it is not a free accuracy multiplier or license for a prolonged SG/CIC gunfight."
+  },
+  "future_gate_guard": [
+    "I-34 Europe/return unresolved",
+    "RO-501 outcome unresolved",
+    "I-29 post-Singapore physical hardware unresolved",
+    "I-52 unresolved",
+    "no later German hardware back-port"
+  ],
+  "prior_pacific_files_as_evidence": [
+    "06_RUNTIME/GALVANIC_BRANCH_B_1943-11_SETTLEMENT_v001.md",
+    "06_RUNTIME/BRANCH_B_1943H2_YEAR_END_SETTLEMENT_v001.md"
+  ],
+  "execution_valid": false,
+  "superseded_by": "06_RUNTIME/GALVANIC_BRANCH_B_1943-11_REAUDIT_GATE_v001.md",
+  "supersession_note": "Retained for provenance only. Current execution uses the 1944-01-01 strategic frontier plus CHECKPOINT_1943-11-23T00_BRANCH_B_GALVANIC_REAUDIT_v001 for the reopened dependency."
+}

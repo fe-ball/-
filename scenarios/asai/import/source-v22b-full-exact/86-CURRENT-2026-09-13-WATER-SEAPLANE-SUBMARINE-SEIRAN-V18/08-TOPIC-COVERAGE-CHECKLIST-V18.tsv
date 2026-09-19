@@ -1,0 +1,27 @@
+topic	coverage	status_note
+protagonist_cheat_guard	covered	Real GT/engine professional knowledge; no ruler/manager drift
+E15K_CRP	covered	Initial production one-sheet still open
+N1K_Kyofu	covered	Technical water-fighter closeout strong; quantity history-gated
+floatfighter_EX3	covered	Mission-specific implementation closed
+A6M_float_fighter	covered	Performance rechecked; formal naming date open
+E13A	partial	System-level recon audit next gate
+F1M	partial	Spotting/shipboard workflow next gate
+H6K	partial	Technical late-life notes only; phase-down open
+H8K1_2_3	covered	Technical closeout; quantities open
+H9A	covered	Training/test role closed, scale open
+H10H	covered	Technical viability, procurement open
+H7Y	covered	Special experimental/recon conclusion
+E16A1_2	covered	Technical closeout strong
+A6M_land	partial	Bridge comparison working, dedicated full closeout still separate
+J2M	covered_working	Past mechanism preserved, procurement open
+N1K1J	covered_working	CRP/gear geometry and bridge role assessed
+N1K2J	covered_working	Dedicated performance closeout candidate, procurement open
+submarine_1938_43_inheritance	covered	Explicitly integrated into I400
+I400_Yamamoto	covered_working	Strategic concept restored; yard release open
+AM	partial	Role preserved, quantity/spec final after I400 yard audit
+Seiran_airframe	covered	Common 3.5 m aircraft concept
+Seiran_engine	covered_working	E7-M central conditional, Atsuta fallback
+Seiran_CRP	covered	Comparison only unless 4-blade fails
+Seiran_range_speed	covered_working	Technical planning bands closed enough for procurement audit
+Seiran_accuracy	covered_working	Replay model bands established
+ship_side_water_air_system	open	Next major water-aircraft system audit

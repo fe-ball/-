@@ -1,0 +1,1 @@
+Generated 2026-08-31 from the current conversation Branch-B working chain. Parent working gates: POST_FLINTLOCK_NEXTOPS_CLOSEOUT_1944-02-10, FLINTLOCK closeout, US amphibious wallet reaudit. Historical HAILSTONE/CATCHPOLE sources used only for process/force-structure anchors; no historical named loss is automatically inherited.

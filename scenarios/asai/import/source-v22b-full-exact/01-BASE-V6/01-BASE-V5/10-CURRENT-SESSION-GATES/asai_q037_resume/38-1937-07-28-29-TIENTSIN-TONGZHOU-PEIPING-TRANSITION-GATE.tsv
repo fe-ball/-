@@ -1,0 +1,13 @@
+event_id	time	sector	historical_baseline	asai_delta	status	notes
+E-19370728-29-01	1937-07-28 late evening	Peiping	29th Army main forces begin southward withdrawal	No meaningful change	CLOSED-SAME	Withdrawal geometry dominates
+E-19370729-02	1937-07-29 daytime	Peiping	Japanese forces pursue/occupy around city without major storming of walled core	Slightly better support readiness only	CLOSED-SAME	Political/administrative transition
+E-19370728-29-03	1937-07-28 ~22:00 onward	Tientsin	Firing begins/escalates in city	No prevention	CLOSED-SAME	FRUS places serious fighting by ~02:00
+E-19370729-04	1937-07-29 ~02:00	Tientsin	38th Division/Security Force attacks Japanese concession/HQ/airfield/installations	Initial surprise preserved	CLOSED-SAME-EVENT	Physical surprise dominates
+E-19370729-05	1937-07-29 dawn	Tientsin	Japanese reserve counteraction and air strikes begin stabilizing key sites	Few-percent higher aviation serviceability; slightly better support-vehicle recovery	CLOSED-MINOR-DELTA	Do not end city battle at dawn
+E-19370729-06	1937-07-29 daytime	Tientsin	Heavy urban fighting and Japanese bombing continue	Slightly faster sortie/maintenance recovery	CLOSED-SAME-OUTCOME-DIRECTION	Exact target damage OPEN
+E-19370729-07	1937-07-29 daytime	Tientsin airfield	Historical aircraft-loss claims conflict	Directionally small reduction in aircraft-equivalent losses/readiness degradation	OPEN-detail	Sensitivity 1-3 aircraft-equivalents only; not canon
+E-19370729-08	1937-07-29 ~19:00	Tientsin	Japanese concession still considered in grave danger; more fighting expected	No strategic change	CLOSED-SAME	Final fall belongs Q-038
+E-19370729-09	1937-07-29 pre-dawn	Tongzhou	East Hopei security-force mutiny attacks Japanese positions/residents	No prevention by Asai	CLOSED-SAME-EVENT	Garrison thinning/political betrayal/surprise dominate
+E-19370729-10	1937-07-29 morning-afternoon	Tongzhou	Japanese military/civilian casualties accumulate before effective relief	Air readiness marginally helps only after mission order; too late for main killings	CLOSED-SAME-ORDER	Exact casualty total OPEN
+E-19370729-11	1937-07-29 afternoon-evening	Tongzhou	Japanese air response develops; land relief still incomplete	Slight sortie-generation margin	CLOSED-MINOR-DELTA	No large casualty change
+E-19370729-12	1937-07-29 onward	Japan political sphere	Tongzhou shock hardens public opinion	Same direction because event/casualty scale preserved	CLOSED-SAME-DIRECTION	Decision consequences handled at later gates

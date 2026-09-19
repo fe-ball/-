@@ -1,0 +1,32 @@
+{
+  "id": "FLINTLOCK_1944-02-06T24_WORKING_CHECKPOINT_v001",
+  "status": "WORKING_FRONTIER_CHECKPOINT_NOT_CANONICAL",
+  "as_of": "1944-02-06T24+12:00",
+  "US": {
+    "Roi": "Organized resistance broken; mopping remains.",
+    "Namur": "Beachhead/most southern-central ground secure; northern/eastern organized strongpoints remain.",
+    "Kwajalein": "Western beachhead secure and sustainable; tanks/engineers/artillery in useful mass, organized Japanese defense remains ahead.",
+    "Dday_ground_KW_center": 785,
+    "pre_Dday_LST_personnel_effect_separate": "30-65",
+    "fleet": "No new major ship hit on 6-Feb centered; close-support/ASW/traffic wallets remain finite."
+  },
+  "Japan": {
+    "Roi_Namur": "Roi pockets only; Namur 650-900 organized/local fighters plus 350-500 scattered/support centered.",
+    "Kwajalein": "1,900-2,300 organized/local fighters plus 500-700 scattered/support centered.",
+    "air": "Regional combat-serviceable 16-21 centered 18; water/recon warning persists, coherent strike capacity nearly exhausted.",
+    "armor": "No Kwajalein/Roi Japanese tank unit; Namur Type 94 contact-capable 0 at T24 centered.",
+    "command": "Local cells remain dangerous; island-wide command badly fragmented."
+  },
+  "open_6_7Feb_night": [
+    "Namur local infiltration/counterattack against Marine line and support nodes",
+    "Kwajalein bounded night infiltration/local counterattack versus artillery/road/beach-exit nodes",
+    "US illumination/artillery/tank response and friendly-fire/traffic friction",
+    "remaining Japanese air/submarine reporting and attack opportunities"
+  ],
+  "do_not_inherit": [
+    "old v003 first-day casualty 430-620 band",
+    "old post-6Feb ground-reduction dates/casualty totals",
+    "historical Namur torpedo-magazine casualty event",
+    "named LST-224 loss or cargo"
+  ]
+}

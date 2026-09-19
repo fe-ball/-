@@ -1,0 +1,7 @@
+date,event,historical_anchor,worldline_decision,asai_effect,status
+1937-08-08,Nankou fighting opens,Chinese central forces contest pass system,SAME,none_decisive,CLOSED
+1937-08-mid,Suzuki Brigade bogs down,greater Chinese strength rugged terrain bad weather,SAME,minor_readiness,CLOSED
+1937-08-mid_to_23,5th Division elements reinforce progressively,reinforcement arrival governs tempo,SAME,minor_maintenance,CLOSED
+1937-08-23,breakthrough and Juyongguan occupation,Japanese operational record,SAME_DATE,minor_sustainment,CLOSED
+1937-08-27,Kwantung penetration near Wanchuan,Japanese operational record,SAME_DATE,minor_vehicle_and_air_readiness,CLOSED
+1937-08-29,operational closeout,Chinese withdrawal Japanese pursuit,SAME_ENDSTATE,maintenance_debt_slightly_lower,CLOSED

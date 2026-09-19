@@ -1,0 +1,34 @@
+item	variant/config	value_or_band	status	note
+normal_loaded_mass	E6 Twin J	4.00-4.20 t; center 4.10 t	H->A DESIGN CLOSED	E5 3.8t inheritance + E6-M-J pair mass
+normal_loaded_mass	E6 Twin JF	4.30-4.55 t; center 4.40 t	H->A DESIGN CLOSED	adds ~0.25t engine dry delta + local rear install allowance
+wing_area	common working	18.5-20.0 m2; center 19.0	H->A DESIGN CLOSED	old unsourced 14m2 rejected
+aspect_ratio	common working	6.0-6.6; center 6.25	H->A DESIGN CLOSED	performance sensitivity, not drawing freeze
+Cd0_clean	J	0.0245-0.0275; center 0.0255	H->A SENSITIVITY	
+Cd0_clean	JF	0.0265-0.0305; center 0.0275	H->A SENSITIVITY	real rear envelope/wetted-area tax
+M_drag_rise	straight metal wing	0.68-0.72; center 0.70	H->A SENSITIVITY	measured compressibility gate remains local
+static_thrust	J	~850 kgf/engine @870C	PARENT CLOSED	current E6-M-J engine authority
+static_thrust	JF	~984 kgf/engine @835C	PARENT CLOSED	long-life production center
+vmax_SL	J	~800 km/h central; ~760-830 sensitivity	DERIVED H->A	clean 4.10t
+vmax_6km	J	~830 km/h central; ~790-860 sensitivity	DERIVED H->A	clean
+vmax_SL	JF	~744 km/h central; ~700-770 sensitivity	DERIVED H->A	clean 4.40t
+vmax_6km	JF	~793 km/h central; ~740-825 sensitivity	DERIVED H->A	clean
+climb_6km	J	~4.4 min	DERIVED H->A	best-rate ideal calculation
+climb_6km	JF	~4.9 min	DERIVED H->A	835C center
+service_ceiling	J	~13.5 km	DERIVED H->A	0.5m/s ROC criterion
+service_ceiling	JF	~12.9 km	DERIVED H->A	0.5m/s ROC criterion
+one_engine_ceiling	Twin return	~6.5-7.5 km	DERIVED H->A	weight/backend dependent
+internal_fuel	JF mission center	~0.85-0.95 t usable; center 0.90	DESIGN TARGET	~1.05-1.18m3 kerosene
+routine_radius	JF internal fuel	~400-480 km	DERIVED PLANNING	includes climb/station/reserve allowance class
+external_tank	E6-D320F	300-350L each; center 320L x2	DESIGN CLOSED-BAND	flax/hemp-epoxy molded disposable tank
+D320F_usable_fuel	pair	~610-625 L; ~490-505 kg	DERIVED	
+D320F_empty_installed	pair	~42-53 kg; center ~46	DERIVED	includes tank bodies+racks+plumbing+jettison hardware
+D320F_geometry	each	~2.6m length x ~0.50m diameter @320L	DERIVED	fineness ~5.2
+D320F_material	shell	flax/hemp-epoxy 1.5-1.7mm + molded ribs + metal lugs	DESIGN CLOSED	CFRP rejected for disposable tank; structural GFRP not 1939 center
+D320F_drag_increment	pair	DeltaCd ~0.0025-0.0040; center ~0.0032	H->A SENSITIVITY	retained at transit only
+D320F_vmax_6km	JF full external	~740 km/h central	DERIVED H->A	~4.95t, tanks retained
+D320F_range	JF	~1.48-1.77 thousand km cruise-equivalent	DERIVED PLANNING	central ~1.6k km after climb/reserve accounting
+D320F_practical_radius	JF	~650-800 km	DERIVED PLANNING	mission dependent
+1940_E6_Twin_acceptance	J/JF combined	120-156 aircraft; center ~144	PLANNING REBASE-COST1	supersedes E6REBASE1 36-60 band; actual monthly replay still future
+1940_JF_share	E6 Twin	85-90%	PLANNING REBASE-COST1	main service-production block
+1940_engine_packages	E6 Twin + spares	~288-390 flight-grade packages	PLANNING REBASE-COST1	240-312 installed plus 20-25% spare/acceptance allowance
+E6_Single_1940	Single	service-production A/B under E6SINGLE1	SUPERSEDED-BY-E6SINGLE1	not bundled into Twin count; 96 firm +48 option / 84-108 accepted center ~96

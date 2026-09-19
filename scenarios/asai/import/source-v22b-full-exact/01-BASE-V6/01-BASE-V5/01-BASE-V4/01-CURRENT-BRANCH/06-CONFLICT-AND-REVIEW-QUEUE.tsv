@@ -1,0 +1,36 @@
+issue_id	domain	conflict_or_question	current_treatment	next_action	priority
+Q-001	aviation	pre-v48のSTOL汎用連絡機と材一号は別機だが、8/29 pre-naval overlayには「材一号系は少量販売域」とある	植物FRP部分構造の小型TP実用機が少量販売域という枝だけ救済。旧2.8t/1000hp完成STOLや旧名称は未復活	材料V2-COST、pre-v48 structural-testbeds/STOL、8/29 overlayをclaim-by-claim crosswalkし、1935–37の商品機を再定義	HIGH
+Q-002	aviation	E4単発jet実証機・E4双発汎用GT試験機の正確な初飛行年/名称	技術存在は保持、採用/名称を先付けしない	E3-E4 JET FLIGHT ORIGIN V12とv48 aviation resetを統合して1937夏機体台帳へ	HIGH
+Q-003	aviation	E5 pure jetのinstalled product値がpre-audit shadow 430–470kgf	能力影としてのみ使用	専用installed auditを行う	MEDIUM
+Q-004	aviation	E5-TP専用偵察機/Ki-40旧採用史	旧採用史はarchive。1937夏の要求/試作存在を自動復活しない	実需・軍要求から再構築	HIGH
+Q-005	rotorcraft	初号ヘリのrotor architecture（並列二ローター/単ローター尾 rotor等）	1937夏までの飛行成立のみCLOSE、構成未固定	1933–37技術だけでarchitecture tradeを再監査	MEDIUM
+Q-006	marine	推進実験船の公称第4017号が史実空番か	workingのみ	公称番号台帳crosswalk	LOW
+Q-007	production	1937 GT125 / turbo1300年産の実需根拠	WORKING	顧客母集団、交換率、新造船/車両/定置機数から再積算	HIGH
+Q-008	production	GT/turbo設備共通率と転換能力	WORKING	工程別 machine-hour、熱処理、動釣合、hot-section、inspection、gearを分解	HIGH
+Q-009	production	1937通常能力GT270–320、turbo2000–2200、非常転換E5 500–600	WORKING	1937人員8000–12000、工場面積、工作機械台数、shift、材料供給で監査	HIGH
+Q-010	materials	植物FRPの1937航空release範囲がV2-COST spreadsheetにあるがmarkdown正本と用語がずれる可能性	技術方向のみCLOSE	V2-COST各sheetをmachine-readable claimへ展開	HIGH
+Q-011	company	1937過剰投資の具体的工場計画（second turbine works等）の名称・投資年・設備包絡	思想はCLOSE、数量はWORKING	company/factory sourceとproduction監査を統合	MEDIUM
+Q-012	weapons	1937夏以後の軍採用を現在の技術能力から先食いしない	ルールCLOSE	各採用をrequirement→competition→selectionで再構築	ONGOING
+Q-013	materials	uranium原料の実際の地域別off-take契約・運賃・oxide grade	経済ルートはCLOSED-METHOD、数量は未確定	Colorado/Belgian/Central-European feed optionsを1930年代貿易条件でcrosswalk	MEDIUM
+Q-014	production	1937 uranium metal $4.5–7/lb engineering cost / $6–10 controlled billet bandの統合原価	価格帯は更新済みWORKING。原料契約・歩留まり・scrap回収で監査継続	feed price、yield、chemistry、metalization、casting、scrap recovery、専用衛生設備をaccounting model化	HIGH
+Q-015	materials	旧uranium-apに混入したU-Ti前提	1937中央からSUPERSEDED。Tiをuranium弾の前提にしない	必要なら別途uranium alloy qualificationを行う	LOW
+Q-016	weapons	20–37mm dense-core special APの実射貫徹値、傾斜装甲性能、距離減衰	軍事効果の方向のみCLOSED。具体mm値は未固定	九四式37mm/九七式20mm/九四式戦車砲を実砲内弾道と比較弾で個別監査	HIGH
+Q-017	materials	Uravan 250,000lb U3O8の1937/1938年別splitと浅井off-take比率	2年合計をanchorに1937浅井8–15 t-U/year Colorado procurementをWORKING	年次企業記録/USV production recordsが見つかればcrosswalk	MEDIUM
+Q-018	history	1937-07-08以後の盧溝橋事件拡大を史実のまま自動再生してよいか	7月7日の事件発生だけCLOSED。以後は浅井世界線の車両・通信・航空・補給・政治判断を入れて再シミュレーション	7/8時点の北支駐屯軍・第29軍・増援経路・航空・鉄道・外交判断を史実baselineとcurrent branch差に分解	HIGH
+Q-019	history	1937-07-08 05:30以後の最初の戦闘結果・死傷・増援・停戦交渉をcurrent branchでどこまで史実同様に閉じるか	05:30–06:00はCLOSED。最初の30分の正確な死傷内訳のみOPEN	06:00–12:00の散発射撃、撤退交渉、通信不調、中国側増援、通州部隊11:40出発を個別監査	HIGH
+Q-020	history	1937-07-08 06:00–12:00の散発射撃・撤退交渉・通信不調・増援機動に浅井差が入るか	06:00–12:00はCLOSED-SAME。電話障害も浅井電源差では解消しない。11:40通州方面部隊の出発のみ閉鎖し、輸送/到着を次へ送る	12:00–18:30の通州/北平方面増援輸送、到着時刻、北平城門閉鎖、天津側増援、18:30撤収判断をcrosswalk	CLOSED
+Q-021	history	1937-07-08 12:00–18:30の増援輸送・到着・撤退実行に浅井車両/通信差が初めて実時間差を作るか	CLOSED-NO-BRANCH THROUGH 18:30。重車両の故障率/牽引余裕差はlatentだが混成縦隊の決定的早着は置かず、18:30自発撤収決定は史実同様	exact transport/arrivalは18:30以後gateで継続。19時頃の天津増援到着と夜襲条件をcrosswalk	CLOSED
+Q-022	history	1937-07-08 18:30から7月9日05:00の中央不拡大指示・増援到着・夜間交渉・第219団夜襲をcurrent branchでどう閉じるか	PARTIAL-CLOSED through 1937-07-09 02:10。18:42中央不拡大、19時頃増援到着、夜間交渉、219団夜襲eventを処理。具体夜襲戦果と05:00再射撃は次gate	02:10–07:10の撤兵命令伝達失敗、日本軍による線/伝令阻止主張、05:00再射撃、06:40/07:10現地連絡を個別監査	PARTIAL-CLOSED
+Q-023	history	1937-07-09 02:10–07:10の撤兵合意伝達失敗と05:00再射撃に浅井通信/車両差が介在するか	CLOSED-SAME through 07:10。中国側前線への撤兵命令未達→05:00再射撃→05:10再連絡措置→06:40現地到着→07:10直接伝達を保存。日本側浅井通信/車両はfailure chainを壊さない	07:10以後の中国軍撤退監視、日本側2個中隊残置、保安隊引継ぎ/誤認衝突を次gateで監査	CLOSED
+Q-024	history	1937-07-09 07:10以後の撤退監視・日本側2個中隊残置・保安隊引継ぎと五里店附近の誤認衝突に浅井差が入るか	CLOSED-SAME through 16:00。監視2個中隊残置、保安隊/変装正規軍の誤認衝突、12:20再協議、16:00頃引継ぎ完了を保存。exact firing/casualty/headcount detailのみOPEN	次gateで7/9 16:00→7/10 16:00の第29軍防衛準備、支那駐屯軍再配置、夜間行動、龍王廟再緊張を監査	CLOSED
+Q-025	history	1937-07-09 16:00から7月10日16:00の局地収束後の軍全体防衛準備・再配置・夜間行動に浅井差が入るか	CLOSED-SAME through 1937-07-10 16:00。第29軍全軍防衛準備、9日深夜第37師出撃、10日正午の局地離隔、10日16時の竜王廟迫撃砲triggerまで保存。浅井車両差はreadiness latentのみ	次gateで7/10 16:00→21:15の中国軍前進/竜王廟占領、日本側撤収命令、牟田口独断攻撃、迫撃砲斉射、河邉到着、21:15奪還を監査	CLOSED
+Q-026	history	1937-07-10 16:00–21:15の竜王廟再衝突で浅井車両/通信/小火器差が戦闘決定・時刻・損害に介在するか	CLOSED-SAME through 21:15。17:10前進、18:00竜王廟占領、18:20/18:55撤収命令、19:00牟田口独断攻撃、19:25迫撃砲斉射、20:20河邉現着、21:15再占領を保存。浅井差はminor readiness/reliabilityのみ	第1大隊exact軽機編成/損害はOPEN-detail。次gateで21:15→11日05:00の02:00再集結、河邉強硬意見、深夜交渉、03:30今井案、05:00中国側回答を監査	CLOSED
+Q-027	history	1937-07-10 21:15から7月11日05:00の日本軍再集結・河邉強硬化・北平深夜交渉に浅井差が入るか	CLOSED-SAME。02:00西五里店集結、河邉強硬意見、深夜交渉、03:30今井案、05:00中国側回答までevent保存。浅井差は傍受/記録reliabilityのminor背景のみ	7/11 05:00以後の現地妥結・中央派兵判断へ接続済み	CLOSED
+Q-028	history	1937-07-11 20:00以後、現地協定成立と中央派兵準備が並行する中で実移動・協定履行・内地動員延期がどう進むか	CLOSED-SAME through 1937-07-13 20:00。11日夜発砲報、北方からの鉄道増援、中国中央軍北上、第20師団応急動員開始、大紅門弾薬truck爆発、13日内地派兵保留を処理。Dahongmen原因のみOPEN	次gateで7/13 20:00→7/17の騎兵殺害/小衝突、関東軍増援到着、道路移動、交渉条件追加、廬山声明を監査	CLOSED
+Q-029	history	1937-07-13 20:00以後、現地協定の履行監視と増援実到着、小衝突、7/17政治判断に浅井readiness差が入るか	CLOSED-SAME through 1937-07-17 evening。14日抑制方針/3,500名+砲12門道路移動/第37師攻勢準備、永定門・団河・16日小衝突、17日期限方針・廬山声明を処理。浅井差はmotorized ready fractionのみ	次gateで7/17夕→7/19/20の宋哲元香月訪問、天津停戦細目、宋の北平帰還、20日再射撃/自由行動通告を監査	CLOSED
+Q-030	history	1937-07-17 evening以後、19日期限を前に現地履行交渉と小衝突がどう進み、20日の再射撃へ至るか	CLOSED-SAME through 1937-07-20 night。18日宋-香月面会/京漢線軍用列車航空事件、19日宋帰平/自由行動警告/23時実施細目、20日履行努力と14:30以後の再砲撃を保存。浅井差はreadiness marginのみ	次gateで7/21–22の撤兵再開、天津軍の内地3個師団不要論、八宝山命令不徹底、平漢線修理と第37師鉄道移送を監査	CLOSED
+Q-031	history	1937-07-21–22、20日砲撃後に再び撤兵・履行が進む局面で、浅井輸送/通信差が第37師移送や日本側増派判断を変えるか	CLOSED-SAME through 1937-07-22 evening。21日再収束/天津軍内地3個師団不要論/八宝山命令未達、22日平漢線修理後の第37師鉄道移送を保存。浅井差は日本側ready-confidence marginのみ	次gateで7/23–24の撤退停止、第132師入平、熊斌来平、宋哲元と実施細目理解の不一致を監査	CLOSED
+Q-032	history	1937-07-23–24、第37師撤退が止まり第132師入平/熊斌来平/宋哲元の実施細目認識差が表面化する局面に浅井差が入るか	CLOSED-SAME。23日第37師撤退鈍化/132師入平差/熊斌来平、24日宋との会談で細目協定semantic mismatch露呈、日本側態度硬化と宋の時間稼ぎ方針を保存。浅井差は日本増援ready/perception marginのみ	25日廊坊事件：電線切断、修理隊派遣許可、宿営摩擦、包囲/発砲、増援経路を通信技術差込みで個別監査	CLOSED
+Q-033	history/communications	1937-07-25廊坊事件で、反復電線切断・日本軍修理隊派遣・中国側包囲/発砲というfailure chainに浅井通信/電機差が入るか	CLOSED-SAME through 26 Jul morning。 deliberate one-point wire sabotage survives Asai equipment improvements; no radio-topology replacement; 25 Jul 16:30 repair mission/night presence/23:10 clash/03:30 policy shift/morning Japanese control preserved. first-shot attribution and exact repair/end time remain OPEN-detail	26日広安門事件：豊台発の26台truck convoyが予定より1時間以上遅れた原因を監査し、浅井heavy-vehicle reliabilityが18:20入門時刻/門閉鎖条件を変えるか判定	CLOSED
+Q-034	history/logistics	1937-07-26広安門事件で、豊台→北平の歩2聯2大隊26台truck convoyの1時間超遅延が浅井車両/整備差で縮み、開門・入城・18:20射撃の条件を変えるか	CLOSED-SAME through 27 Jul ~04:30。遅延は史料上「豊台出発が遅れ」で、道路速度/故障原因ではない。浅井車両差で前倒しせず、18:20広安門戦闘・22:20攻撃命令・27日04:30延期を保存。予定時刻到着なら事件回避可能性はcounterfactual sensitivityとしてのみ保持	次gateで27日昼→28日攻撃開始の最後通牒/撤兵期限/居留民退避/総攻撃部署と浅井readiness・砲兵計算差を監査	CLOSED
+Q-035	history/operations	1937-07-27 daytime→28 Jul attack openingで、最後通牒・第29軍撤退状況・居留民退避・日本軍総攻撃部署に浅井motorized readiness/砲兵計算/航空整備差がどう入るか	OPEN	27日中の攻撃延期後の交渉断念、部隊展開、28日南苑/西苑等攻撃開始を個別監査し、初めて本格戦闘tempo差を数量化可能か判定	HIGH

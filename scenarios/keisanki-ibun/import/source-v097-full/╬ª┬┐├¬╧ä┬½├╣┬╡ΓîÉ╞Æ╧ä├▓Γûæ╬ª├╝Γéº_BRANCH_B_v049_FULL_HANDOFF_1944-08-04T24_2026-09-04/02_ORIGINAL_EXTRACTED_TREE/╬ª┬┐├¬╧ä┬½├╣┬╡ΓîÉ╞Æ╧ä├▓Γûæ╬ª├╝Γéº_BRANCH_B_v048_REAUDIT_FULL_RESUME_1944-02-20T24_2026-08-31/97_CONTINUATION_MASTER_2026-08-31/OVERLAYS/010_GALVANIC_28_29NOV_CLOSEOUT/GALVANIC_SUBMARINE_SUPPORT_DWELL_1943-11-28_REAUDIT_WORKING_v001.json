@@ -1,0 +1,28 @@
+{
+  "id": "GALVANIC_SUBMARINE_SUPPORT_DWELL_1943-11-28_REAUDIT_WORKING_v001",
+  "status": "WORKING_RERUN",
+  "time": "1943-11-28 local",
+  "cause": "Tarawa organized resistance persists one additional high-intensity day compared with a quicker closeout, retaining transport/CVE/fire-support/logistics shipping and thus creating additional submarine patrol opportunity.",
+  "Japanese_submarine_state": {
+    "I_175": "Still operational after the reopened 27-Nov Makin event; carries light-moderate damage/fatigue rather than old heavy-damage withdrawal state. Repositions toward the broader Tarawa support corridor but is not treated as fresh.",
+    "network": "Other Central-Pacific boats continue broad contact/approach pressure; exact named patrol assignments remain open pending individual patrol-day closure."
+  },
+  "US_countermeasures": {
+    "alert": "VERY_HIGH after Independence torpedo damage, carrier battle, 26/27 Type-93 surface raid and continuing Japanese reconnaissance.",
+    "measures": [
+      "reinforced CVE and land-based ASW sectors",
+      "destroyer outer screens and SG pickets",
+      "frequent course/speed changes during support-ship release",
+      "staged rather than mass simultaneous departure of transports"
+    ]
+  },
+  "centered_result": {
+    "firing_opportunities": "At least one marginal-to-moderate submarine firing opportunity and multiple aborted approaches are plausible during 28 Nov as support shipping begins staged release.",
+    "confirmed_US_ship_hit": "NONE centered",
+    "CVE_AO_high_value_hit": "NONE centered",
+    "Japanese_submarine_loss": "NONE centered",
+    "operational_effect": "Additional US ASW/CAP/escort sorties and slower staged release; submarine pressure remains a material attention/logistics tax even without a booked torpedo hit."
+  },
+  "I_175_end_state": "Operational but fatigued/degraded; centered to disengage from the densest Tarawa ASW box during 28/29 rather than force a second close approach. Old Pierce hit and old heavy repair clock remain void.",
+  "guard": "No compensating torpedo success is invented merely because the old Pierce result was reopened."
+}

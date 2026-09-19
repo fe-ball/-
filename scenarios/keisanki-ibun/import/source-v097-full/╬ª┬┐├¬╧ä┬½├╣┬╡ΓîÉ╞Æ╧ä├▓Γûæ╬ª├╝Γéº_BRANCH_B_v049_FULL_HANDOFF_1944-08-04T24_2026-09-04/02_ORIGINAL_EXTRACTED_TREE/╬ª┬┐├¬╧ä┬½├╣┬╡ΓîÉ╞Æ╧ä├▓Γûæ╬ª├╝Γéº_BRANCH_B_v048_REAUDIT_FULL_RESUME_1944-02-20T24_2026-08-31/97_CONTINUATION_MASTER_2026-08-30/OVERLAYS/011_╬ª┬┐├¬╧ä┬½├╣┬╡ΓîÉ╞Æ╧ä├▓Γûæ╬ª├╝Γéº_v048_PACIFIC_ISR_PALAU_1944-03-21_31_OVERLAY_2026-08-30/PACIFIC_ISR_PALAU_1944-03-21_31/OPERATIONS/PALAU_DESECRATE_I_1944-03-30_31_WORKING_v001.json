@@ -1,0 +1,45 @@
+{
+  "revision": "v001",
+  "id": "PALAU_DESECRATE_I_1944-03-30_31_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "clock_window": "1944-03-27..31",
+  "global_frontier_after_merge": "1944-03-31T24",
+  "parents": [
+    "TF58_DESECRATE_APPROACH_WARNING_1944-03-22_29_WORKING_v001",
+    "PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001"
+  ],
+  "US_force": "Preserve the authoritative Branch settlement scale: approximately 10-11 fast carrier decks, CV5 + CVL5-6 class, with about 650-700 embarked aircraft class. Exact hull allocation is not re-opened in this overlay because the Branch US pipeline differs from historical Cabot/Enterprise availability.",
+  "prestrike_Japanese_actions": {
+    "main_fleet": "No mass Combined Fleet anchorage is recreated at Palau. Four-carrier core and heavy reserve remain on the southern reaction/fuel axis under the 20-Mar standing order.",
+    "high_value_auxiliaries": "Remaining major AO/repair/high-value transport loiter is cut sharply during 28-29 Mar. Ships able to clear safely do so before mining/strike onset; small craft, repair-bound ships and ordinary shipping cannot all escape.",
+    "aircraft": "Selected reconnaissance/transport/repair-worthy aircraft and nonessential transients are ferried or dispersed when feasible. The local combat force is not evacuated wholesale because Palau remains a defended forward node.",
+    "base": "A-grade integrated warning/plot/AA/fighter readiness is held continuously into 30 Mar; revetment, dispersal, redundant communications and repair teams are activated."
+  },
+  "battle_course": {
+    "30Mar": "US strikes meet a prepared local defense. Japanese warning/plot discipline improves first-day exchange and reduces catastrophic surprise, but US numbers, fighter quality, strike repetition and target selection suppress airfields, shipping and sensor/command nodes.",
+    "31Mar": "US attacks increasingly target radar/plot/communications and surviving aviation infrastructure. Japanese local closed loop degrades; second-day defense becomes more fragmented despite prior preparation. Carrier-laid mines still complicate harbor escape and trap lower-value shipping.",
+    "Japanese_mobile_carrier_intervention": "NONE; separate decision file keeps the release gate closed."
+  },
+  "settled_results_by_31MarT24": {
+    "Japanese_aircraft_irrecoverable_or_abandoned_band": [
+      60,
+      75
+    ],
+    "US_aircraft_irrecoverable_band": [
+      28,
+      36
+    ],
+    "Japanese_main_warship_losses": 0,
+    "Palau_base_output_after_raid_percent_band": [
+      40,
+      50
+    ],
+    "high_value_shipping_effect": "Materially less exposed than a mass-anchorage outcome because pre-dispersal is executed; ordinary/small/repair-bound shipping still takes losses and mining friction.",
+    "qualitative": "US raid succeeds at temporary base neutralization and air attrition, but fails to catch the Branch Japanese main fleet or its critical mobile logistics concentration."
+  },
+  "causal_read": "The mature ISR system changes the loss mix, not the existence of the raid. Warning saves mobile assets and improves first-day defense; it cannot overcome TF58 air mass or keep the fixed Palau base intact.",
+  "sources_external": [
+    "https://www.history.navy.mil/research/histories/ship-histories/danfs/b/bunker-hill-i.html",
+    "https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/u/us-navy-at-war-second-official-report.html"
+  ]
+}

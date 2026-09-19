@@ -1,0 +1,176 @@
+{
+  "revision": "v001",
+  "id": "SOUTH_PACIFIC_ARMOR_ALLOCATION_AND_NEW_CALEDONIA_REAUDIT_1942_WORKING_v001",
+  "status": "WORKING_REOPEN_OF_ARMOR_LAYER_NOT_CURRENT",
+  "parents": [
+    "NEI_JAVA_1942_SYSTEMIC_ARMOR_AND_POSTCAMPAIGN_ALLOCATION_AUDIT_WORKING_v001",
+    "06_RUNTIME/NEW_CALEDONIA_1942-10_SETTLEMENT_v001.md"
+  ],
+  "historical_independent_clocks": {
+    "USMC_1st_Tank_Battalion": {
+      "historical_WATCHTOWER": "Companies A and B landed on Guadalcanal in Aug 1942; A used M2A4, B used M3 light tanks. Company C was assigned elsewhere/Samoa rather than the initial landing.",
+      "branch_rule": "WATCHTOWER is absent. The A/B tank companies therefore do not disappear from the theater; after Santo falls they are a plausible New Caledonia reinforcement."
+    },
+    "IJA_1st_Independent_Tank_Company": {
+      "historical": "formed from veteran 4th Company, 2nd Tank Regiment; roughly company-scale 12 tanks; nine were destroyed in the Matanikau attack",
+      "branch_rule": "No historical Matanikau attack. The company/hulls survive the historical loss gate and require reallocation."
+    },
+    "IJA_8th_Tank_Regiment": {
+      "historical": "8th Tank Regiment is listed under 17th Army / 8th Area Army at Rabaul by Nov 1942.",
+      "branch_rule": "New Caledonia/Santo create at least as strong a South Pacific allocation motive as historical Guadalcanal. The regiment is therefore retained as a South Pacific commitment, not returned to the China/Five-Go wallet."
+    }
+  },
+  "New_Caledonia_armor_OOB_working": {
+    "Japan": {
+      "2nd_Recon_Regiment": {
+        "physical": [
+          14,
+          16
+        ],
+        "ready_D_day": [
+          12,
+          15
+        ],
+        "type": "Type97 Te-Ke/tankette class",
+        "arrival": "with 2nd Division main force"
+      },
+      "2nd_Tank_Regiment_4th_Co_or_1st_Independent_Tank_Co": {
+        "physical": [
+          10,
+          12
+        ],
+        "ready": [
+          9,
+          11
+        ],
+        "type": "mainly Type97 Chi-Ha 57mm with a small Type95 component",
+        "arrival": "follow-on heavy lift centered 1942-10-09..13, not necessarily first-wave"
+      },
+      "38th_Division_tankette_element": {
+        "physical": [
+          0,
+          6
+        ],
+        "ready": [
+          0,
+          5
+        ],
+        "center": 3,
+        "type": "Type94/97 tankette class",
+        "reason_for_uncertainty": "historically detached South/Timor commitments make full-company transfer unsafe to assume"
+      },
+      "campaign_total_physical_involved_band": [
+        24,
+        34
+      ],
+      "campaign_peak_ready_band": [
+        22,
+        30
+      ]
+    },
+    "United_States": {
+      "USMC_1st_Tank_Battalion_A_B": {
+        "historical_company_establishment": "about 18 light tanks per company",
+        "branch_physical_reaching_New_Caledonia_band": [
+          30,
+          36
+        ],
+        "ready_1942_10_04_band": [
+          26,
+          32
+        ],
+        "center_ready": 29,
+        "types": "Company A M2A4; Company B M3 light tanks",
+        "reason": "No Guadalcanal commitment; Santo loss and the visible threat to Noumea/Tontouta make defensive redirection high priority."
+      },
+      "anti_tank_support": "Marine 37mm AT guns remain an important part of the local armor fight; exact count will be drawn from the final 1st Marine Division residual OOB."
+    }
+  },
+  "New_Caledonia_combat_first_pass": {
+    "terrain": "road-corridor fighting around Boulouparis-La Foa-Tontouta is more armor-usable than Guadalcanal jungle/sandbar, but bridges, mines, air/artillery and narrow routes keep tank packets small.",
+    "technical_exchange": "US 37mm light tanks have a clear direct-fire anti-armor advantage over Japanese tankettes and can penetrate Chi-Ha/Ha-Go at common battle ranges. Japanese 57mm Chi-Ha is useful HE support but is not a comfortable frontal M3/M2A4 killer; Japanese artillery, mines, air and flank geometry must do much of the anti-tank work.",
+    "Japan": {
+      "irrecoverable_AFV_band": [
+        10,
+        15
+      ],
+      "repairable_damage_band": [
+        7,
+        12
+      ],
+      "campaign_end_physical_survivor_band": [
+        13,
+        20
+      ],
+      "ready_1942_11_19_band": [
+        9,
+        15
+      ]
+    },
+    "United_States": {
+      "tank_destroyed_in_battle_band": [
+        12,
+        18
+      ],
+      "tank_abandoned_or_captured_during_retreat_band": [
+        8,
+        12
+      ],
+      "evacuated_or_northern_residual_band": [
+        4,
+        8
+      ],
+      "Japanese_repairable_captured_light_tanks_band": [
+        4,
+        7
+      ]
+    },
+    "personnel_delta_vs_current_no_explicit_armor_layer": {
+      "Japan_KWM": "+100 to +400 net, because Marine tanks/37mm anti-tank fire outweigh part of Japanese armor's infantry-support benefit",
+      "Allied_KWM": "+200 to +500 net from Japanese tracked support and additional artillery/air concentration around armored counterattacks"
+    },
+    "time": {
+      "Tontouta": "0-12h delay sensitivity; 10/16 centered capture remains",
+      "Noumea": "10/24 centered capture remains",
+      "limited_FS_close": "11/20 remains"
+    },
+    "global_settlement": "Existing Japanese 10-13k and Allied 8.5-11k ground casualty bands remain broad enough to contain this correction; centers should shift modestly upward rather than rewriting the campaign."
+  },
+  "Rabaul_8th_Tank_Regiment": {
+    "1942_11_26_presence": "HARD working anchor from 8th Area Army OOB",
+    "pre_transfer_quality": "full-strength-ish but old Type89-heavy regiment in late-1941/early-1942 descriptions",
+    "1942_late_physical_band": [
+      40,
+      50
+    ],
+    "1942_late_serviceable_band": [
+      34,
+      43
+    ],
+    "working_model_mix": {
+      "Type89_medium": "24-30",
+      "Type95_light": "8-14",
+      "tankette_other": "4-8",
+      "Type97_or_Shinhoto": "0-4 by end-1942; later replacements can increase this"
+    },
+    "allocation": "Rabaul/New Britain operational reserve and garrison. No centered transfer to New Caledonia before the Oct campaign; later company-sized reinforcement is sensitivity only.",
+    "national_accounting": "PHYSICALLY SURVIVING BUT SOUTH-PACIFIC-TIED. Must be subtracted from any China/Manchuria 'free' armor wallet."
+  },
+  "end_1942_south_pacific_tied_pool": {
+    "Rabaul_8th_Tank_Regiment_serviceable": [
+      34,
+      43
+    ],
+    "New_Caledonia_Japanese_ready": [
+      9,
+      15
+    ],
+    "New_Caledonia_repairable_captured_US_light_tanks": [
+      4,
+      7
+    ],
+    "other_local_armor": "small Santo/Lunga/Port Moresby tankette/independent elements remain OPEN; no tank regiment is auto-created at Port Moresby",
+    "meaning": "At least roughly 45-60 useful tracked combat vehicles/equivalents are already tied to the Branch South Pacific at end-1942, before counting small garrison packets."
+  },
+  "development_lesson": "New Caledonia becomes a real pre-GALVANIC tank/AT experience: Japanese crews learn again that high-velocity 37mm fire is dangerous to thin armor and that reliable vehicles still require artillery/engineer/infantry integration. It reinforces 47mm/combined-arms development but does not yet justify a 75mm medium-tank emergency."
+}

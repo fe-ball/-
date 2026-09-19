@@ -1,0 +1,9 @@
+date,front,event,worldline_decision,asai_effect,status
+1937-09-21,North_China,2d Army attacks Tsanghsien positions,SAME_DATE,minor_artillery_air_readiness,CLOSED
+1937-09-22,North_China,heavy artillery moves after railway bridge repair,SAME_DATE,mechanical_delay_reduced_not_bridge_constraint,CLOSED
+1937-09-23,North_China,6th Division penetrates outer Chingyuan positions about 1000,SAME_PHASE,artillery_support_potentially_1_to_3h_earlier,CLOSED_WORKING
+1937-09-24,North_China,Chingyuan-Paoting position occupied,SAME_DATE,final_occupation_hour_scale_earlier_possible,CLOSED
+1937-09-24,North_China,Tsanghsien captured by 2d Army,SAME_DATE,minor_sustainment_only,CLOSED
+1937-09-22,Shanghai,101st Division begins landing between Woosung and Shanghai,SAME_DATE,post_landing_ready_fraction_plus_few_points,CLOSED
+1937-09-22_to_24,Shanghai,intensive troop and supply unloading through Hongkew,SAME_PHYSICAL_CAPACITY,sorting_repair_parts_flow_small_positive,CLOSED
+1937-09-24,Dual_Front,first hour-scale calendar delta recognized,SAME_MAJOR_DATE,asai_effect_now_visible_in_documented_artillery_delay,CLOSED_WORKING

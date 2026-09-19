@@ -1,0 +1,6 @@
+Branch B v091 FULL HANDOFF
+File entry count: 1918
+Source archive: 計算機異聞_BRANCH_B_v090_FULL_HANDOFF_1943-11-05_ALEUTIANS_REAUDIT_2026-09-10.zip
+Global overlay cutoff: 1943-11-05
+Earliest active re-audit frontier: 1942-07-23 00:00
+Current task: Japanese aviation-wallet root / Zero-family / water-fighter / flying-boat reconciliation before Santo D-4 search rerun.

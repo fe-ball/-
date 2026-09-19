@@ -1,0 +1,55 @@
+{
+  "revision": "v001",
+  "id": "US_TF58_FIRST_MARIANAS_STRIKE_1944-06-11_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_DAY_SETTLEMENT",
+  "clock_window": "1944-06-11T00:00..24:00+09:00",
+  "parents": [
+    "US_TF58_SORTIE_AND_JAPAN_ISR_1944-06-06_10_WORKING_v001",
+    "US_FORAGER_FORCE_LOGISTICS_1944-05-25_06-05_WORKING_v001"
+  ],
+  "historical_anchor": [
+    "Historical TF58 advanced the opening strike by one day after losing strategic surprise; on 11 Jun all four task groups launched a fighter sweep of about 208 F6F guided by radar-equipped TBM/SB2C aircraft against Saipan, Tinian and Guam.",
+    "Historical first-day US fighter loss was about 11 F6F, many to ground fire; Japanese air power in the Marianas was then progressively reduced through 14 Jun."
+  ],
+  "branch_force": {
+    "fast_decks": 16,
+    "ready_carrier_aircraft_band": [
+      960,
+      1045
+    ],
+    "opening_fighter_sweep_band": [
+      216,
+      226
+    ],
+    "radar_navigation_guide_aircraft_band": [
+      8,
+      10
+    ],
+    "note": "The extra branch deck increases available sweep/reserve weight modestly rather than scaling the historical 208 sweep linearly; coordination/airspace saturation still bind."
+  },
+  "execution": [
+    {
+      "time_band": "1300-1330",
+      "event": "Launch opening sweep. No branch delay from the 3 Jun Seiran raid remains operationally meaningful."
+    },
+    {
+      "time_band": "1450-1530",
+      "event": "First large fighter contacts over southern Marianas. Japanese strategic surprise is absent, but exact raid timing remains a tactical surprise."
+    },
+    {
+      "time_band": "1530-1900",
+      "event": "Follow-on fighter-bomber/field suppression and shipping/installation attacks. US emphasis remains air superiority and airfield suppression rather than trying to destroy every dispersed aircraft on the ground."
+    }
+  ],
+  "US_irreversible_aircraft_loss_band": [
+    14,
+    20
+  ],
+  "US_damaged_repairable_band": [
+    16,
+    27
+  ],
+  "US_loss_note": "Most irreversible losses are F6F in air combat/AA plus a small operational component. Branch Japanese fixed-base C2 raises the price versus history, but does not overturn Hellcat numerical/quality advantage.",
+  "major_US_ship_damage": "NONE on 11 Jun; no Japanese weapon-quality carrier track generates a coordinated anti-carrier strike.",
+  "end_of_day": "TF58 holds local air superiority and continues the shaping campaign; no operational reason to break FORAGER schedule."
+}

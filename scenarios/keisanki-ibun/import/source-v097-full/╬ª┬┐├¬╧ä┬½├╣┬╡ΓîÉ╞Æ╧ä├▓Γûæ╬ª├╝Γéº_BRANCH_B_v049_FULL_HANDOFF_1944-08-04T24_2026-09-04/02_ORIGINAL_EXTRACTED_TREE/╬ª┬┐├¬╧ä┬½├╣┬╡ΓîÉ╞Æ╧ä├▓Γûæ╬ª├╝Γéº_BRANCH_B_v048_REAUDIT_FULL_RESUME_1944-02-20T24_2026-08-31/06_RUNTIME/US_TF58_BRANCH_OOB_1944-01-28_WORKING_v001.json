@@ -1,0 +1,133 @@
+{
+  "revision": "v001",
+  "id": "US_TF58_BRANCH_OOB_1944-01-28_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-01-28",
+  "purpose": "Close the Branch fast-carrier force available for the Flintlock-equivalent operation and reorganize the historical four groups into three stronger groups after Branch legacy-carrier losses and GALVANIC repair casualties.",
+  "historical_baseline": "Historical Flintlock used 6 CV + 6 CVL in four three-carrier TGs: Enterprise/Yorktown/Belleau Wood; Essex/Intrepid/Cabot; Bunker Hill/Monterey/Cowpens; Saratoga/Princeton/Langley, plus eight fast battleships.",
+  "branch_changes": [
+    "Enterprise CV-6 and Saratoga CV-3 are permanent Branch losses and cannot be reinserted.",
+    "Wasp CV-7 survives the Branch and is an experienced fast carrier.",
+    "Lexington CV-16 is under major repair after GALVANIC and unavailable.",
+    "Independence CVL-22 is in long repair and unavailable.",
+    "Intrepid CV-11, Cabot CVL-28 and Langley CVL-27 are date-valid January additions.",
+    "GALVANIC teaches the US to avoid a weak isolated carrier group against surviving Japanese first-line carriers; the now-understrength historical TG58.4 is dissolved and its two CVLs are distributed to stronger groups."
+  ],
+  "fast_deck_total": {
+    "CV": 5,
+    "CVL": 6,
+    "total": 11,
+    "ready_aircraft_band": [
+      595,
+      625
+    ],
+    "ready_aircraft_center": 610
+  },
+  "task_groups": [
+    {
+      "tg": "TG 58.1",
+      "commander": "Rear Adm. John W. Reeves Jr.",
+      "carriers": [
+        "Wasp CV-7",
+        "Yorktown CV-10",
+        "Belleau Wood CVL-24",
+        "Princeton CVL-23"
+      ],
+      "fast_battleships": [
+        "Washington BB-56",
+        "Massachusetts BB-59",
+        "Indiana BB-58"
+      ],
+      "cruiser_anchor": [
+        "Oakland CL-95"
+      ],
+      "destroyer_screen_working": "9-11",
+      "aircraft_center": 214,
+      "role": "Maloelap/Taroa suppression, northern/central CAP and flexible support",
+      "derivation": "Historical TG58.1 with Branch Wasp replacing lost Enterprise; Princeton redistributed from dissolved historical TG58.4."
+    },
+    {
+      "tg": "TG 58.2",
+      "commander": "Rear Adm. Alfred E. Montgomery",
+      "carriers": [
+        "Essex CV-9",
+        "Intrepid CV-11",
+        "Cabot CVL-28"
+      ],
+      "fast_battleships": [
+        "South Dakota BB-57",
+        "Alabama BB-60",
+        "North Carolina BB-55"
+      ],
+      "cruiser_anchor": [
+        "San Diego CL-53 class/AA-cruiser slot; exact named light-cruiser screen retained as historical fallback pending hull-level need"
+      ],
+      "destroyer_screen_working": "9-11",
+      "aircraft_center": 214,
+      "role": "Roi-Namur/Kwajalein high-priority strike group",
+      "derivation": "Historical TG58.2 largely retained; Branch does not need to invent an extra deck."
+    },
+    {
+      "tg": "TG 58.3",
+      "commander": "Rear Adm. Frederick C. Sherman",
+      "carriers": [
+        "Bunker Hill CV-17",
+        "Monterey CVL-26",
+        "Cowpens CVL-25",
+        "Langley CVL-27"
+      ],
+      "fast_battleships": [
+        "Iowa BB-61",
+        "New Jersey BB-62"
+      ],
+      "cruiser_anchor": [
+        "Wichita CA-45",
+        "Baltimore CA-68",
+        "Boston CA-69"
+      ],
+      "destroyer_screen_working": "10-12",
+      "aircraft_center": 182,
+      "role": "Kwajalein/Eniwetok suppression, reserve and western cover",
+      "derivation": "Historical TG58.3 reinforced by Langley and the heavy-cruiser pair from dissolved historical TG58.4."
+    }
+  ],
+  "screen_total_working": {
+    "fast_battleships": 8,
+    "cruisers": "5-7 depending exact screen trace; named anchors above are not the final all-cruiser roster",
+    "destroyers": "29-34 center ~32",
+    "branch_cost_note": "Franks is a permanent GALVANIC DD loss; US replacement depth can absorb one hull without reproducing the exact historical 35-DD list."
+  },
+  "mobilization_clock_center": [
+    {
+      "date": "1944-01-19..21",
+      "state": "Hawaii-origin carrier/support echelons sortie on a staggered schedule; not one radio-loud mass departure."
+    },
+    {
+      "date": "1944-01-22..25",
+      "state": "southern/Funafuti elements and logistics screen converge; branch routes avoid unavailable Espiritu Santo/New Caledonia nodes."
+    },
+    {
+      "date": "1944-01-26..29",
+      "state": "forward fueling, integrated CAP/ASW/formation drills and approach; operation-scale signature increasingly difficult to hide."
+    },
+    {
+      "date": "1944-01-30..02-01",
+      "state": "final approach/EMCON; exact launch point remains a Branch event variable."
+    },
+    {
+      "date": "1944-02-02..04",
+      "state": "centered first fast-carrier suppression-strike window, conditional on weather/fueling/contact."
+    },
+    {
+      "date": "1944-02-04..07",
+      "state": "centered amphibious D-Day window; working center ~5 Feb, not yet CURRENT-realized."
+    }
+  ],
+  "why_not_historical_31Jan": "GALVANIC removes Lexington/Independence for the next operation, imposes repair/reorganization and logistics friction, and the US faces a healthier Marshall network plus three surviving Japanese first-line carriers. These factors justify a days-scale shift, not the superseded multi-week/month delay.",
+  "anti_overreach": [
+    "Do not count Wasp as an Essex-class 90+ aircraft deck.",
+    "Do not reinsert Enterprise, Saratoga, Lexington CV-16 or Independence.",
+    "Do not treat 610 ready aircraft as 610 simultaneous strike aircraft; CAP/search/ASW/recovery reservations remain large.",
+    "D-Day is a working window until the clock reaches first strike/contact."
+  ]
+}

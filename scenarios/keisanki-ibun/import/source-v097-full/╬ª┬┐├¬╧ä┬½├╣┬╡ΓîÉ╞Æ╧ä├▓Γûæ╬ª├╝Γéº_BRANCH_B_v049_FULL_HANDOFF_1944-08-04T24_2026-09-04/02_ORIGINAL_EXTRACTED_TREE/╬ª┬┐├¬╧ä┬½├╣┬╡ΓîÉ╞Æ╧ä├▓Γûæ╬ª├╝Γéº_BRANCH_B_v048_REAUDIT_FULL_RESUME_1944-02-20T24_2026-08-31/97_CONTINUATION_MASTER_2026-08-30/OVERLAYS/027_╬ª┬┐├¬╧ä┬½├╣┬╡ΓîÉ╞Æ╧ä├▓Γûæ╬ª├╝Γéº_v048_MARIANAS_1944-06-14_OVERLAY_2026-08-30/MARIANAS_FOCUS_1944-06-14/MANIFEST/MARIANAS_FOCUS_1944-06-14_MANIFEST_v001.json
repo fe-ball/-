@@ -1,0 +1,26 @@
+{
+  "revision": "v001",
+  "id": "MARIANAS_FOCUS_1944-06-14_MANIFEST_v001",
+  "status": "OVERLAY_MANIFEST",
+  "load_after": ["計算機異聞_v048_MARIANAS_1944-06-13_OVERLAY_2026-08-30.zip"],
+  "clock_from": "1944-06-13T24",
+  "clock_to": "1944-06-14T24",
+  "primary_theater": "MARIANAS",
+  "active_files": [
+    "PACIFIC/JAPAN_MOBILE_FLEET_AIR_GROUP_AND_CARRIER_STATE_1944-06-14_WORKING_v001.json",
+    "PACIFIC/JAPAN_MOBILE_FLEET_SURFACE_SCREEN_1944-06-14_WORKING_v001.json",
+    "PACIFIC/US_TF58_CARRIER_AND_SURFACE_STATE_1944-06-14_WORKING_v001.json",
+    "PACIFIC/US_SAIPAN_CLOSE_BOMBARDMENT_1944-06-14_WORKING_v001.json",
+    "PACIFIC/JAPAN_MARIANAS_AIR_AND_LOCAL_REACTION_1944-06-14_WORKING_v001.json",
+    "PACIFIC/JAPAN_FLEET_SORTIE_AND_US_SUB_CONTACT_1944-06-14_WORKING_v001.json",
+    "STATE/MARIANAS_PRIMARY_STATE_1944-06-14T24_WORKING_v001.json"
+  ],
+  "guards": [
+    "Track aircraft variants and role mix; A7M remains combat zero and must not be inserted into Marianas combat.",
+    "Taiho is now first-cycle integrated but retains slightly lower repeat-cycle/damage-recovery robustness than the veteran four.",
+    "Secondary carriers are a separate 145-180-aircraft combat-usable echelon, not extra aircraft inside the five-carrier core.",
+    "Track surface-hull branch deltas: no KON debit, Hiei/Kirishima survive, and named destroyer survivals/losses alter escort depth.",
+    "US 16-deck TF58 exists as an operational pool, but refueling/rearming rotation means only part of it is simultaneously striking Saipan on 14 Jun.",
+    "US submarine contact on 14 Jun is strategic-major-fleet quality, not an exact carrier-group weapon-quality track."
+  ]
+}

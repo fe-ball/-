@@ -1,0 +1,90 @@
+{
+  "revision": "v007",
+  "purpose": "Add hard anti-regression guards for the 1943-10-01 synchronized restart: branch geography/ownership, Allied carrier losses, Japanese hull survival/capability, COMINT divergence and China-front state.",
+  "protocol": "00_CONFIG/rule_override_protocol_v002.json",
+  "inherits": "00_CONFIG/current_branch_overrides_v006.json",
+  "overrides": [
+    {
+      "override_id": "OVR-CURRENT-RESTART-CHECKPOINT-1943-09-30-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "2026-08-26",
+      "impact_scope": "runtime_restart_selection",
+      "effective_rule": "Default runtime restart is CHECKPOINT_1943-09-30T24_v001 at 1943-10-01T00:00. 1944 checkpoints are retained provisional and must not be selected implicitly.",
+      "source": "05_WARTIME/CHECKPOINT_1943-09-30T24_v001.json"
+    },
+    {
+      "override_id": "OVR-BRANCH-INVARIANT-GUARD-1943-10-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-10-01",
+      "impact_scope": "all_downstream_adjudication",
+      "effective_rule": "Load and preserve BRANCH_INVARIANT_GUARD_1943-10-01_v001 before applying historical defaults or retained-provisional files. Conflicts are blockers, not silent substitutions.",
+      "source": "06_RUNTIME/BRANCH_INVARIANT_GUARD_1943-10-01_v001.json"
+    },
+    {
+      "override_id": "OVR-MIDWAY-OWNER-CURRENT-JAPAN-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-10-01",
+      "impact_scope": "Pacific_geography_and_OOB",
+      "effective_rule": "At current restart Midway remains Japanese-held. The retained-provisional Sep-1943 recapture is not current history until re-adjudicated.",
+      "source": "06_RUNTIME/BRANCH_INVARIANT_GUARD_1943-10-01_v001.json"
+    },
+    {
+      "override_id": "OVR-NEW-CALEDONIA-CONTROL-NUANCE-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1942-11-20",
+      "impact_scope": "South_Pacific_geography_logistics",
+      "effective_rule": "New Caledonia is Japanese military control of the main corridor/ports/airfields/external traffic under Vichy nominal sovereignty; do not map it to normal Allied ownership or simple annexation.",
+      "source": "06_RUNTIME/NEW_CALEDONIA_1942-10_SETTLEMENT_v001.md"
+    },
+    {
+      "override_id": "OVR-ALLIED-CARRIER-LOSS-LEDGER-PERSIST-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1942-06-15",
+      "impact_scope": "Allied_naval_OOB",
+      "effective_rule": "US branch losses Lexington/Yorktown/Enterprise/Hornet/Saratoga and British Indomitable/Formidable remain paid. Wasp survival and new Essex/CVL buildup are additive; historical named-carrier availability is not restored.",
+      "source": "06_RUNTIME/BRANCH_INVARIANT_GUARD_1943-10-01_v001.json"
+    },
+    {
+      "override_id": "OVR-JP-HULL-SURVIVAL-NO-HISTORICAL-AUTOLOSS-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1942-01-01",
+      "impact_scope": "Japanese_naval_OOB_command",
+      "effective_rule": "Do not apply historical ship/commander loss dates automatically. Use branch settlements; Shokaku/Zuikaku/Hiryu/Soryu are alive at Sep end, Hiei/Kirishima/Haruna have later branch activity, and Yamamoto survives 1943-04-18. Unresolved hulls remain unresolved.",
+      "source": "06_RUNTIME/BRANCH_INVARIANT_GUARD_1943-10-01_v001.json"
+    },
+    {
+      "override_id": "OVR-JP-COMBAT-TECH-PERSIST-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1941-12-07",
+      "impact_scope": "combat_resolution",
+      "effective_rule": "Event resolution must load branch TECH v006 maturity and platform capability; never substitute historical median Japanese combat capability or back-port later systems.",
+      "source": "06_RUNTIME/BRANCH_INVARIANT_GUARD_1943-10-01_v001.json"
+    },
+    {
+      "override_id": "OVR-COMINT-DIVERGENCE-PERSIST-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1942-01-01",
+      "impact_scope": "information_state",
+      "effective_rule": "Historical JN-25-like high-grade plaintext advantage is unavailable; residual COMINT/DF/recon remain. Japanese offensive COMINT is probabilistic, not omniscient.",
+      "source": "06_RUNTIME/BRANCH_INVARIANT_GUARD_1943-10-01_v001.json"
+    },
+    {
+      "override_id": "OVR-CHINA-HANZHONG-PHASEIII-HOLD-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-07-23",
+      "impact_scope": "China_Burma_force_allocation",
+      "effective_rule": "Hanzhong is the settled Phase-II endpoint; Sichuan Phase III is HOLD. Burma transfers must be charged against post-Hanzhong consolidation/repair/storage/airfield-road pressure.",
+      "source": "06_RUNTIME/GLOBAL_1943Q3_SYNCHRONIZATION_LEDGER_v001.md"
+    }
+  ],
+  "edit_protocol": "v006 and earlier remain historical. v007 is additive and mandatory for the v023 current restart."
+}

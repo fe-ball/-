@@ -1,0 +1,75 @@
+{
+  "id": "GALVANIC_TARAWA_DPLUS3_1943-11-27_REAUDIT_WORKING_v001",
+  "status": "WORKING_BRANCH_RERUN_NOT_YET_PROMOTED",
+  "time": "1943-11-27T00..24 local",
+  "night_26_27": {
+    "Japan": "No islandwide banzai. About 75-120 infiltrators/local counterattack personnel probe seams and support nodes. One remaining Type 95 may make a short local move but is not committed to a mass tank charge.",
+    "effect": "The temporary seaward diversion of some US destroyer attention helps one infiltration penetrate a support/communications locality, but US illumination, artillery, M4A2 and machine-gun defenses contain it by dawn.",
+    "US_casualties": [
+      45,
+      85
+    ],
+    "Japan_casualties": [
+      55,
+      95
+    ],
+    "Type95_dawn_contact_capable": [
+      0,
+      1
+    ]
+  },
+  "dawn_state": {
+    "organized_Japanese_pockets_equivalent": [
+      570,
+      820
+    ],
+    "armed_support_still_locally_useful": [
+      130,
+      240
+    ],
+    "US_M4A2_operational": [
+      8,
+      10
+    ],
+    "US_behavior": "Treat every surviving pocket as a reduction problem: tank/engineer/75-mm teams with observed naval/CVE fires. No broad unsupported infantry rush; damage assessment remains imperfect."
+  },
+  "day_progress": [
+    "Morning: US re-establishes full close-fire coordination after the night surface alarm and reduces western/central residual positions; Japanese local wires/ammunition keep several pockets dangerous even after islandwide C2 has failed.",
+    "Midday-afternoon: Green Beach logistics and verified lanes permit sustained engineer explosives, flamethrower/demolition work, ammunition and evacuation. Japanese mobile armored capability effectively expires as the last Type 95 is destroyed, immobilized or cut off.",
+    "Late day: US controls most useful maneuver/logistics terrain, but eastern/northern strongpoints and several isolated bombproof clusters still require organized reduction. Tarawa is not declared secure at T24."
+  ],
+  "casualties": {
+    "US_daylight": [
+      250,
+      380
+    ],
+    "US_total_27_including_night": [
+      295,
+      465
+    ],
+    "US_cumulative_through_27T24": [
+      2685,
+      3585
+    ],
+    "Japan_daylight": [
+      420,
+      610
+    ]
+  },
+  "T24_state": {
+    "organized_Japanese_pockets_equivalent": [
+      220,
+      400
+    ],
+    "armed_support_still_locally_useful": [
+      60,
+      130
+    ],
+    "Type95_contact_capable": [
+      0,
+      0
+    ],
+    "territorial_assessment": "US controls roughly the great majority of Betio and all useful bulk landing/logistics nodes; coherent Japanese resistance remains in multiple strongpoints, so this is still organized reduction rather than pure mop-up.",
+    "secure_gate": "Do not declare secure on 27 Nov. Centered final organized collapse now remains a 28-Nov evening to 29-Nov morning problem, to be generated from the 27T24 state rather than copied."
+  }
+}

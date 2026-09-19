@@ -1,0 +1,35 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_MOBILE_FLEET_MOVEMENT_AND_SEARCH_1944-06-15_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_MOVEMENT_SEARCH_SETTLEMENT",
+  "clock_window": "1944-06-15T00:00..24:00+09:00",
+  "parents": [
+    "JAPAN_MOBILE_FLEET_AIR_GROUP_AND_CARRIER_STATE_1944-06-14_WORKING_v001",
+    "JAPAN_MOBILE_FLEET_SURFACE_SCREEN_1944-06-14_WORKING_v001",
+    "JAPAN_SIXTH_FLEET_SUBMARINE_ISR_1944-06-15_WORKING_v001"
+  ],
+  "movement": {
+    "state": "Main carrier, secondary-carrier and heavy surface echelons continue east into the Philippine Sea, preserving stagger and ASW sectors rather than rushing as one formation.",
+    "end_day_geometry": "Main battle system is roughly 700-850 nmi WSW of Saipan by late 15 Jun, depending on echelon; this is an operational sector band, not a single point.",
+    "speed_policy": "Use 16-19kt average tactical advance with search/CAP zigzag. Do not outrun oilers or the reconnaissance picture merely to gain hours.",
+    "oilers": "Remain separated behind/inside protected rendezvous geometry with dedicated escorts."
+  },
+  "air_state": {
+    "five_carrier_ready_band": [
+      356,
+      379
+    ],
+    "secondary_carrier_combat_usable_band": [
+      143,
+      179
+    ],
+    "A7M": 0,
+    "first_line_mix_guard": "Kinsei Zero/D4Y/B6N/C6N composition from 14 Jun remains controlling; no new aircraft type appears overnight."
+  },
+  "search": {
+    "carrier_and_cruiser_search_sorties": "Long-range C6N/D4Y plus Tone/Chikuma seaplane sectors search east/northeast while submarine/land-air reports are fused.",
+    "result": "No fresh TF58 task-group visual fix on 15 Jun. A broad probable carrier sector from Marianas reconnaissance and submarine cues narrows the 16 Jun search fan.",
+    "Yamamoto_decision": "Maintain approach and information-building. Do not launch a maximum-range blind strike on an 80-140 nmi uncertainty box."
+  },
+  "surface_state": "No capital ship loss/damage on 15 Jun. Yamato/Musashi/Nagato and Kongo/Haruna/Hiei/Kirishima remain available; destroyer depth remains above historical branch baseline."
+}

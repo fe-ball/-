@@ -1,0 +1,14 @@
+{
+  "revision": "v001",
+  "id": "YANAGI_ROUTE_STATE_1944-06-10_WORKING_v001",
+  "status": "WORKING_BACKGROUND_WATCH",
+  "as_of": "1944-06-10T24:00:00+09:00",
+  "parent": "YANAGI_ROUTE_STATE_1944-06-05_WORKING_v001",
+  "missions": {
+    "I34": "ALIVE_EASTBOUND; now in the late approach to Singapore/Malacca. No physical cargo/parts are credited to the Japanese home-island development system by 10 Jun. Arrival remains a background trigger for the next few days rather than a pre-awarded event.",
+    "I29": "ALIVE_EASTBOUND; Jumo 004B/HWK 509A-1 physical package still at sea. No hardware-copy credit.",
+    "I52": "ALIVE_OUTBOUND in Atlantic rendezvous approach. Historical decrypted-vector interception remains unavailable; ordinary HFDF/ASW risk stays open.",
+    "RO501": "13 May loss remains paid."
+  },
+  "focus_rule_after_11Jun": "While Marianas is the active theater, surface Yanagi again only on I-34 arrival/cargo transfer, I-52 contact/loss/rendezvous, or I-29 hardware-arrival events."
+}

@@ -1,0 +1,2932 @@
+{
+  "schema": "aircraft_profiles_v04_GALVANIC_1943-11_current_hard",
+  "profiles": {
+    "US01": {
+      "id": "US01",
+      "name": "F6F-3（1943-11 combat center）",
+      "side": "US",
+      "mass": 5553,
+      "wing": 31.03,
+      "vmax_anchors": [
+        [
+          0,
+          500
+        ],
+        [
+          3000,
+          545
+        ],
+        [
+          5000,
+          580
+        ],
+        [
+          7130,
+          605
+        ],
+        [
+          9000,
+          580
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          16.5193
+        ],
+        [
+          3000,
+          15.508
+        ],
+        [
+          5000,
+          12.9233
+        ],
+        [
+          7000,
+          9.552
+        ],
+        [
+          9000,
+          4.4951
+        ]
+      ],
+      "clmax": 1.52,
+      "roll_anchors": [
+        [
+          320,
+          78
+        ],
+        [
+          400,
+          92
+        ],
+        [
+          480,
+          100
+        ],
+        [
+          640,
+          82
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.3
+        ],
+        [
+          640,
+          4.8
+        ]
+      ],
+      "dive": 1.1,
+      "fire": 1.0,
+      "protect": 1.2,
+      "visibility": 0.98,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.02,
+      "source_grade": "USN/NHHC max-speed anchor + Grumman military-power climb center; 1943 F6F-3",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 6,
+          "ammo_per_gun": 400,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.78,
+        "armor_front": 0.55,
+        "self_seal": 0.92,
+        "fire_suppression": 0.32,
+        "structure_tough": 1.1,
+        "control_redundancy": 1.05,
+        "engine_tough": 1.13,
+        "cooling_vuln": 0.48,
+        "pilot_exposure": 0.9,
+        "engine_count": 1
+      }
+    },
+    "US02": {
+      "id": "US02",
+      "name": "F6F-5 (WEP)",
+      "side": "US",
+      "mass": 5634,
+      "wing": 31.03,
+      "vmax_anchors": [
+        [
+          0,
+          540
+        ],
+        [
+          1500,
+          555
+        ],
+        [
+          3000,
+          585
+        ],
+        [
+          5000,
+          630
+        ],
+        [
+          6580,
+          658
+        ],
+        [
+          8000,
+          640
+        ],
+        [
+          9500,
+          600
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          14.0
+        ],
+        [
+          3000,
+          13.0
+        ],
+        [
+          5000,
+          11.0
+        ],
+        [
+          7000,
+          8.0
+        ],
+        [
+          9000,
+          4.0
+        ]
+      ],
+      "clmax": 1.52,
+      "roll_anchors": [
+        [
+          320,
+          82
+        ],
+        [
+          400,
+          98
+        ],
+        [
+          480,
+          108
+        ],
+        [
+          640,
+          92
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.5
+        ],
+        [
+          640,
+          5.0
+        ]
+      ],
+      "dive": 1.12,
+      "fire": 1.0,
+      "protect": 1.22,
+      "visibility": 1.0,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.025,
+      "source_grade": "A",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 6,
+          "ammo_per_gun": 400,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.82,
+        "armor_front": 0.6,
+        "self_seal": 0.94,
+        "fire_suppression": 0.35,
+        "structure_tough": 1.12,
+        "control_redundancy": 1.06,
+        "engine_tough": 1.15,
+        "cooling_vuln": 0.46,
+        "pilot_exposure": 0.88,
+        "engine_count": 1
+      }
+    },
+    "US03": {
+      "id": "US03",
+      "name": "F4U-1/1A (water WEP)",
+      "side": "US",
+      "mass": 5350,
+      "wing": 29.17,
+      "vmax_anchors": [
+        [
+          0,
+          587
+        ],
+        [
+          3000,
+          640
+        ],
+        [
+          4450,
+          669
+        ],
+        [
+          6200,
+          694
+        ],
+        [
+          8000,
+          665
+        ],
+        [
+          9500,
+          620
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          16.3
+        ],
+        [
+          3000,
+          16.0
+        ],
+        [
+          5000,
+          14.0
+        ],
+        [
+          6500,
+          11.5
+        ],
+        [
+          8500,
+          6.0
+        ]
+      ],
+      "clmax": 1.85,
+      "roll_anchors": [
+        [
+          320,
+          80
+        ],
+        [
+          386,
+          100
+        ],
+        [
+          480,
+          112
+        ],
+        [
+          600,
+          100
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.5
+        ],
+        [
+          600,
+          5.2
+        ]
+      ],
+      "dive": 1.16,
+      "fire": 1.0,
+      "protect": 1.25,
+      "visibility": 0.93,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.025,
+      "source_grade": "A",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 6,
+          "ammo_per_gun": 400,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.72,
+        "armor_front": 0.52,
+        "self_seal": 0.9,
+        "fire_suppression": 0.3,
+        "structure_tough": 1.12,
+        "control_redundancy": 1.04,
+        "engine_tough": 1.16,
+        "cooling_vuln": 0.47,
+        "pilot_exposure": 0.91,
+        "engine_count": 1
+      }
+    },
+    "US04": {
+      "id": "US04",
+      "name": "F4U-1D (combat)",
+      "side": "US",
+      "mass": 5480,
+      "wing": 29.17,
+      "vmax_anchors": [
+        [
+          0,
+          575
+        ],
+        [
+          3000,
+          625
+        ],
+        [
+          5000,
+          655
+        ],
+        [
+          6100,
+          674
+        ],
+        [
+          8000,
+          650
+        ],
+        [
+          9500,
+          610
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          15.8
+        ],
+        [
+          3000,
+          15.5
+        ],
+        [
+          5000,
+          13.2
+        ],
+        [
+          6500,
+          10.5
+        ],
+        [
+          8500,
+          5.5
+        ]
+      ],
+      "clmax": 1.82,
+      "roll_anchors": [
+        [
+          320,
+          80
+        ],
+        [
+          386,
+          100
+        ],
+        [
+          480,
+          112
+        ],
+        [
+          600,
+          100
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.5
+        ],
+        [
+          600,
+          5.2
+        ]
+      ],
+      "dive": 1.16,
+      "fire": 1.0,
+      "protect": 1.26,
+      "visibility": 0.95,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.025,
+      "source_grade": "A",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 6,
+          "ammo_per_gun": 400,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.76,
+        "armor_front": 0.55,
+        "self_seal": 0.92,
+        "fire_suppression": 0.32,
+        "structure_tough": 1.13,
+        "control_redundancy": 1.05,
+        "engine_tough": 1.17,
+        "cooling_vuln": 0.46,
+        "pilot_exposure": 0.9,
+        "engine_count": 1
+      }
+    },
+    "US05": {
+      "id": "US05",
+      "name": "P-38G",
+      "side": "US",
+      "mass": 6305,
+      "wing": 30.43,
+      "vmax_anchors": [
+        [
+          0,
+          530
+        ],
+        [
+          3000,
+          585
+        ],
+        [
+          5000,
+          625
+        ],
+        [
+          6890,
+          650
+        ],
+        [
+          8500,
+          635
+        ],
+        [
+          10000,
+          600
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          16.8
+        ],
+        [
+          3000,
+          16.0
+        ],
+        [
+          5000,
+          14.0
+        ],
+        [
+          7000,
+          10.5
+        ],
+        [
+          9000,
+          6.0
+        ]
+      ],
+      "clmax": 1.75,
+      "roll_anchors": [
+        [
+          320,
+          72
+        ],
+        [
+          400,
+          70
+        ],
+        [
+          480,
+          60
+        ],
+        [
+          640,
+          38
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.3
+        ],
+        [
+          400,
+          5.1
+        ],
+        [
+          480,
+          4.8
+        ],
+        [
+          640,
+          4.0
+        ]
+      ],
+      "dive": 0.94,
+      "fire": 1.24,
+      "protect": 1.15,
+      "visibility": 0.96,
+      "sustain_mod": 0.98,
+      "perf_sigma": 0.035,
+      "source_grade": "B",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 4,
+          "ammo_per_gun": 500,
+          "mount": "nose"
+        },
+        {
+          "weapon": "US_ANM2_20",
+          "count": 1,
+          "ammo_per_gun": 150,
+          "mount": "nose"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "liquid",
+        "armor_aft": 0.6,
+        "armor_front": 0.42,
+        "self_seal": 0.85,
+        "fire_suppression": 0.22,
+        "structure_tough": 1.1,
+        "control_redundancy": 1.18,
+        "engine_tough": 1.05,
+        "cooling_vuln": 1.2,
+        "pilot_exposure": 0.92,
+        "engine_count": 2
+      }
+    },
+    "US06": {
+      "id": "US06",
+      "name": "P-38J-15 (no aileron boost)",
+      "side": "US",
+      "mass": 7875,
+      "wing": 30.43,
+      "vmax_anchors": [
+        [
+          0,
+          555
+        ],
+        [
+          3000,
+          610
+        ],
+        [
+          5000,
+          655
+        ],
+        [
+          6030,
+          674
+        ],
+        [
+          7320,
+          665
+        ],
+        [
+          7860,
+          678
+        ],
+        [
+          9500,
+          640
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          20.5
+        ],
+        [
+          3000,
+          19.5
+        ],
+        [
+          5000,
+          17.5
+        ],
+        [
+          7000,
+          14.0
+        ],
+        [
+          9000,
+          8.0
+        ]
+      ],
+      "clmax": 1.8,
+      "roll_anchors": [
+        [
+          320,
+          76
+        ],
+        [
+          400,
+          72
+        ],
+        [
+          480,
+          62
+        ],
+        [
+          640,
+          39
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.4
+        ],
+        [
+          400,
+          5.2
+        ],
+        [
+          480,
+          5.0
+        ],
+        [
+          640,
+          4.2
+        ]
+      ],
+      "dive": 0.96,
+      "fire": 1.24,
+      "protect": 1.18,
+      "visibility": 0.98,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.025,
+      "source_grade": "A",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 4,
+          "ammo_per_gun": 500,
+          "mount": "nose"
+        },
+        {
+          "weapon": "US_ANM2_20",
+          "count": 1,
+          "ammo_per_gun": 150,
+          "mount": "nose"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "liquid",
+        "armor_aft": 0.64,
+        "armor_front": 0.45,
+        "self_seal": 0.88,
+        "fire_suppression": 0.24,
+        "structure_tough": 1.12,
+        "control_redundancy": 1.2,
+        "engine_tough": 1.07,
+        "cooling_vuln": 1.18,
+        "pilot_exposure": 0.91,
+        "engine_count": 2
+      }
+    },
+    "US07": {
+      "id": "US07",
+      "name": "P-38J-25/L-like (boosted aileron)",
+      "side": "US",
+      "mass": 7900,
+      "wing": 30.43,
+      "vmax_anchors": [
+        [
+          0,
+          555
+        ],
+        [
+          3000,
+          610
+        ],
+        [
+          5000,
+          655
+        ],
+        [
+          6030,
+          674
+        ],
+        [
+          7860,
+          678
+        ],
+        [
+          9500,
+          642
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          20.5
+        ],
+        [
+          3000,
+          19.5
+        ],
+        [
+          5000,
+          17.5
+        ],
+        [
+          7000,
+          14.0
+        ],
+        [
+          9000,
+          8.0
+        ]
+      ],
+      "clmax": 1.8,
+      "roll_anchors": [
+        [
+          320,
+          90
+        ],
+        [
+          400,
+          105
+        ],
+        [
+          480,
+          118
+        ],
+        [
+          640,
+          120
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.4
+        ],
+        [
+          400,
+          5.4
+        ],
+        [
+          480,
+          5.3
+        ],
+        [
+          640,
+          4.8
+        ]
+      ],
+      "dive": 1.08,
+      "fire": 1.24,
+      "protect": 1.18,
+      "visibility": 0.99,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.025,
+      "source_grade": "A",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 4,
+          "ammo_per_gun": 500,
+          "mount": "nose"
+        },
+        {
+          "weapon": "US_ANM2_20",
+          "count": 1,
+          "ammo_per_gun": 150,
+          "mount": "nose"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "liquid",
+        "armor_aft": 0.64,
+        "armor_front": 0.45,
+        "self_seal": 0.88,
+        "fire_suppression": 0.24,
+        "structure_tough": 1.12,
+        "control_redundancy": 1.2,
+        "engine_tough": 1.07,
+        "cooling_vuln": 1.18,
+        "pilot_exposure": 0.91,
+        "engine_count": 2
+      }
+    },
+    "US08": {
+      "id": "US08",
+      "name": "P-47D early (56in/WI)",
+      "side": "US",
+      "mass": 6003,
+      "wing": 27.87,
+      "vmax_anchors": [
+        [
+          0,
+          536
+        ],
+        [
+          3000,
+          585
+        ],
+        [
+          5000,
+          630
+        ],
+        [
+          7000,
+          675
+        ],
+        [
+          9450,
+          700
+        ],
+        [
+          11000,
+          665
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          14.6
+        ],
+        [
+          3000,
+          14.0
+        ],
+        [
+          5000,
+          13.0
+        ],
+        [
+          7000,
+          11.0
+        ],
+        [
+          9000,
+          8.0
+        ]
+      ],
+      "clmax": 1.45,
+      "roll_anchors": [
+        [
+          320,
+          82
+        ],
+        [
+          400,
+          96
+        ],
+        [
+          480,
+          98
+        ],
+        [
+          640,
+          63
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.4
+        ],
+        [
+          640,
+          5.0
+        ]
+      ],
+      "dive": 1.2,
+      "fire": 1.28,
+      "protect": 1.45,
+      "visibility": 0.88,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.025,
+      "source_grade": "A",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 8,
+          "ammo_per_gun": 425,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.88,
+        "armor_front": 0.62,
+        "self_seal": 0.95,
+        "fire_suppression": 0.4,
+        "structure_tough": 1.3,
+        "control_redundancy": 1.1,
+        "engine_tough": 1.3,
+        "cooling_vuln": 0.42,
+        "pilot_exposure": 0.86,
+        "engine_count": 1
+      }
+    },
+    "US09": {
+      "id": "US09",
+      "name": "P-47D high boost 44-1",
+      "side": "US",
+      "mass": 6040,
+      "wing": 27.87,
+      "vmax_anchors": [
+        [
+          0,
+          565
+        ],
+        [
+          3000,
+          620
+        ],
+        [
+          5000,
+          665
+        ],
+        [
+          7070,
+          714
+        ],
+        [
+          9000,
+          700
+        ],
+        [
+          10500,
+          665
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          16.2
+        ],
+        [
+          3000,
+          16.0
+        ],
+        [
+          5000,
+          15.5
+        ],
+        [
+          7000,
+          13.5
+        ],
+        [
+          9000,
+          9.0
+        ]
+      ],
+      "clmax": 1.45,
+      "roll_anchors": [
+        [
+          320,
+          82
+        ],
+        [
+          400,
+          96
+        ],
+        [
+          480,
+          98
+        ],
+        [
+          640,
+          63
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.4
+        ],
+        [
+          640,
+          5.0
+        ]
+      ],
+      "dive": 1.21,
+      "fire": 1.28,
+      "protect": 1.45,
+      "visibility": 0.88,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.025,
+      "source_grade": "A",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 8,
+          "ammo_per_gun": 425,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.88,
+        "armor_front": 0.62,
+        "self_seal": 0.95,
+        "fire_suppression": 0.4,
+        "structure_tough": 1.3,
+        "control_redundancy": 1.1,
+        "engine_tough": 1.3,
+        "cooling_vuln": 0.42,
+        "pilot_exposure": 0.86,
+        "engine_count": 1
+      }
+    },
+    "US10": {
+      "id": "US10",
+      "name": "P-47D-25+ bubble/high boost",
+      "side": "US",
+      "mass": 6120,
+      "wing": 27.87,
+      "vmax_anchors": [
+        [
+          0,
+          558
+        ],
+        [
+          3000,
+          615
+        ],
+        [
+          5000,
+          660
+        ],
+        [
+          7070,
+          710
+        ],
+        [
+          9000,
+          697
+        ],
+        [
+          10500,
+          660
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          15.8
+        ],
+        [
+          3000,
+          15.6
+        ],
+        [
+          5000,
+          15.0
+        ],
+        [
+          7000,
+          13.0
+        ],
+        [
+          9000,
+          8.8
+        ]
+      ],
+      "clmax": 1.45,
+      "roll_anchors": [
+        [
+          320,
+          82
+        ],
+        [
+          400,
+          96
+        ],
+        [
+          480,
+          98
+        ],
+        [
+          640,
+          63
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.4
+        ],
+        [
+          640,
+          5.0
+        ]
+      ],
+      "dive": 1.21,
+      "fire": 1.28,
+      "protect": 1.45,
+      "visibility": 1.08,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.03,
+      "source_grade": "B",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 8,
+          "ammo_per_gun": 425,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.88,
+        "armor_front": 0.62,
+        "self_seal": 0.95,
+        "fire_suppression": 0.4,
+        "structure_tough": 1.3,
+        "control_redundancy": 1.1,
+        "engine_tough": 1.3,
+        "cooling_vuln": 0.42,
+        "pilot_exposure": 0.82,
+        "engine_count": 1
+      }
+    },
+    "US11": {
+      "id": "US11",
+      "name": "P-51A",
+      "side": "US",
+      "mass": 3629,
+      "wing": 21.83,
+      "vmax_anchors": [
+        [
+          0,
+          610
+        ],
+        [
+          1500,
+          635
+        ],
+        [
+          3170,
+          668
+        ],
+        [
+          5000,
+          645
+        ],
+        [
+          7000,
+          600
+        ],
+        [
+          8500,
+          550
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          15.2
+        ],
+        [
+          3000,
+          16.0
+        ],
+        [
+          5000,
+          13.0
+        ],
+        [
+          7000,
+          8.0
+        ],
+        [
+          8500,
+          4.0
+        ]
+      ],
+      "clmax": 1.5,
+      "roll_anchors": [
+        [
+          320,
+          76
+        ],
+        [
+          400,
+          92
+        ],
+        [
+          480,
+          98
+        ],
+        [
+          640,
+          76
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.4
+        ],
+        [
+          640,
+          4.8
+        ]
+      ],
+      "dive": 1.1,
+      "fire": 0.72,
+      "protect": 0.98,
+      "visibility": 0.87,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.025,
+      "source_grade": "A",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 4,
+          "ammo_per_gun": 350,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "liquid",
+        "armor_aft": 0.55,
+        "armor_front": 0.45,
+        "self_seal": 0.82,
+        "fire_suppression": 0.2,
+        "structure_tough": 1.0,
+        "control_redundancy": 1.0,
+        "engine_tough": 0.96,
+        "cooling_vuln": 1.3,
+        "pilot_exposure": 0.94,
+        "engine_count": 1
+      }
+    },
+    "US12": {
+      "id": "US12",
+      "name": "P-51B/C early Merlin 67in",
+      "side": "US",
+      "mass": 4175,
+      "wing": 21.83,
+      "vmax_anchors": [
+        [
+          0,
+          597
+        ],
+        [
+          3000,
+          650
+        ],
+        [
+          5050,
+          692
+        ],
+        [
+          7000,
+          700
+        ],
+        [
+          8960,
+          711
+        ],
+        [
+          10500,
+          680
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          18.3
+        ],
+        [
+          3000,
+          18.1
+        ],
+        [
+          5000,
+          17.0
+        ],
+        [
+          7000,
+          15.0
+        ],
+        [
+          9000,
+          11.0
+        ]
+      ],
+      "clmax": 1.5,
+      "roll_anchors": [
+        [
+          320,
+          76
+        ],
+        [
+          400,
+          94
+        ],
+        [
+          480,
+          102
+        ],
+        [
+          640,
+          78
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.4
+        ],
+        [
+          640,
+          4.8
+        ]
+      ],
+      "dive": 1.13,
+      "fire": 0.72,
+      "protect": 1.05,
+      "visibility": 0.84,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.02,
+      "source_grade": "A",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 4,
+          "ammo_per_gun": 350,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "liquid",
+        "armor_aft": 0.68,
+        "armor_front": 0.52,
+        "self_seal": 0.88,
+        "fire_suppression": 0.22,
+        "structure_tough": 1.03,
+        "control_redundancy": 1.02,
+        "engine_tough": 0.98,
+        "cooling_vuln": 1.28,
+        "pilot_exposure": 0.94,
+        "engine_count": 1
+      }
+    },
+    "US13": {
+      "id": "US13",
+      "name": "P-51B/C V-1650-7 75in",
+      "side": "US",
+      "mass": 4235,
+      "wing": 21.83,
+      "vmax_anchors": [
+        [
+          0,
+          624
+        ],
+        [
+          2250,
+          660
+        ],
+        [
+          5000,
+          700
+        ],
+        [
+          6280,
+          714
+        ],
+        [
+          8000,
+          705
+        ],
+        [
+          10000,
+          675
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          21.0
+        ],
+        [
+          1000,
+          22.3
+        ],
+        [
+          3000,
+          21.5
+        ],
+        [
+          5000,
+          19.5
+        ],
+        [
+          7000,
+          16.0
+        ],
+        [
+          9000,
+          10.0
+        ]
+      ],
+      "clmax": 1.5,
+      "roll_anchors": [
+        [
+          320,
+          76
+        ],
+        [
+          400,
+          94
+        ],
+        [
+          480,
+          102
+        ],
+        [
+          640,
+          78
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.4
+        ],
+        [
+          640,
+          4.8
+        ]
+      ],
+      "dive": 1.13,
+      "fire": 0.72,
+      "protect": 1.05,
+      "visibility": 0.84,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.025,
+      "source_grade": "A",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 4,
+          "ammo_per_gun": 350,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "liquid",
+        "armor_aft": 0.68,
+        "armor_front": 0.52,
+        "self_seal": 0.88,
+        "fire_suppression": 0.22,
+        "structure_tough": 1.03,
+        "control_redundancy": 1.02,
+        "engine_tough": 0.98,
+        "cooling_vuln": 1.28,
+        "pilot_exposure": 0.94,
+        "engine_count": 1
+      }
+    },
+    "US14": {
+      "id": "US14",
+      "name": "P-51D 67in",
+      "side": "US",
+      "mass": 4425,
+      "wing": 21.83,
+      "vmax_anchors": [
+        [
+          0,
+          603
+        ],
+        [
+          3000,
+          650
+        ],
+        [
+          5000,
+          685
+        ],
+        [
+          7000,
+          705
+        ],
+        [
+          7925,
+          711
+        ],
+        [
+          9500,
+          690
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          17.8
+        ],
+        [
+          3000,
+          17.5
+        ],
+        [
+          5000,
+          16.0
+        ],
+        [
+          7000,
+          13.5
+        ],
+        [
+          9000,
+          9.0
+        ]
+      ],
+      "clmax": 1.5,
+      "roll_anchors": [
+        [
+          320,
+          78
+        ],
+        [
+          400,
+          96
+        ],
+        [
+          480,
+          104
+        ],
+        [
+          640,
+          80
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.4
+        ],
+        [
+          640,
+          4.8
+        ]
+      ],
+      "dive": 1.13,
+      "fire": 1.0,
+      "protect": 1.1,
+      "visibility": 1.08,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.025,
+      "source_grade": "A",
+      "weapons": [
+        {
+          "weapon": "US_M2_50",
+          "count": 6,
+          "ammo_per_gun": 300,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "liquid",
+        "armor_aft": 0.72,
+        "armor_front": 0.55,
+        "self_seal": 0.9,
+        "fire_suppression": 0.24,
+        "structure_tough": 1.05,
+        "control_redundancy": 1.03,
+        "engine_tough": 1.0,
+        "cooling_vuln": 1.25,
+        "pilot_exposure": 0.86,
+        "engine_count": 1
+      }
+    },
+    "JP01": {
+      "id": "JP01",
+      "name": "後期瑞星零戦（1943-11部隊中心）",
+      "side": "JP",
+      "mass": 2800,
+      "wing": 21.75,
+      "vmax_anchors": [
+        [
+          0,
+          500
+        ],
+        [
+          2000,
+          525
+        ],
+        [
+          4000,
+          550
+        ],
+        [
+          5500,
+          564
+        ],
+        [
+          7000,
+          545
+        ],
+        [
+          9000,
+          500
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          15.307
+        ],
+        [
+          2000,
+          15.7853
+        ],
+        [
+          4000,
+          13.8719
+        ],
+        [
+          6000,
+          8.6102
+        ],
+        [
+          8000,
+          4.3051
+        ]
+      ],
+      "clmax": 1.6,
+      "roll_anchors": [
+        [
+          320,
+          82
+        ],
+        [
+          400,
+          90
+        ],
+        [
+          480,
+          75
+        ],
+        [
+          600,
+          50
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          4.9
+        ],
+        [
+          480,
+          4.0
+        ],
+        [
+          600,
+          3.1
+        ]
+      ],
+      "dive": 0.86,
+      "fire": 1.08,
+      "protect": 0.78,
+      "visibility": 0.98,
+      "sustain_mod": 1.05,
+      "perf_sigma": 0.03,
+      "source_grade": "CURRENT_HARD_CENTER; 118 audit; 6km 7:25 center",
+      "weapons": [
+        {
+          "weapon": "IJN_T99M2_20",
+          "count": 2,
+          "ammo_per_gun": 125,
+          "mount": "wing"
+        },
+        {
+          "weapon": "IJN_T3_13",
+          "count": 2,
+          "ammo_per_gun": 240,
+          "mount": "fuselage"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.42,
+        "armor_front": 0.18,
+        "self_seal": 0.42,
+        "fire_suppression": 0.3,
+        "structure_tough": 0.88,
+        "control_redundancy": 0.92,
+        "engine_tough": 0.98,
+        "cooling_vuln": 0.55,
+        "pilot_exposure": 1.0,
+        "engine_count": 1
+      }
+    },
+    "JP02": {
+      "id": "JP02",
+      "name": "金星零戦改（1943-11初期部隊中央値）",
+      "side": "JP",
+      "mass": 3290,
+      "wing": 21.75,
+      "vmax_anchors": [
+        [
+          0,
+          521.0
+        ],
+        [
+          2000,
+          548.0
+        ],
+        [
+          4000,
+          576.0
+        ],
+        [
+          5500,
+          590.0
+        ],
+        [
+          7000,
+          574.0
+        ],
+        [
+          9000,
+          531.0
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          17.1116
+        ],
+        [
+          2000,
+          17.1116
+        ],
+        [
+          4000,
+          15.3104
+        ],
+        [
+          6000,
+          9.4564
+        ],
+        [
+          8000,
+          4.9533
+        ]
+      ],
+      "clmax": 1.58,
+      "roll_anchors": [
+        [
+          320,
+          80
+        ],
+        [
+          400,
+          92
+        ],
+        [
+          480,
+          82
+        ],
+        [
+          600,
+          58
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.1
+        ],
+        [
+          480,
+          4.5
+        ],
+        [
+          600,
+          3.7
+        ]
+      ],
+      "dive": 0.92,
+      "fire": 1.08,
+      "protect": 0.92,
+      "visibility": 0.96,
+      "sustain_mod": 1.02,
+      "perf_sigma": 0.03,
+      "source_grade": "CURRENT_HARD_EVENT_MEDIAN; GALVANIC fielding gate; 6km 6:45 center",
+      "weapons": [
+        {
+          "weapon": "IJN_T99M2_20",
+          "count": 2,
+          "ammo_per_gun": 125,
+          "mount": "wing"
+        },
+        {
+          "weapon": "IJN_T3_13",
+          "count": 2,
+          "ammo_per_gun": 240,
+          "mount": "fuselage"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.58,
+        "armor_front": 0.28,
+        "self_seal": 0.62,
+        "fire_suppression": 0.38,
+        "structure_tough": 0.98,
+        "control_redundancy": 0.98,
+        "engine_tough": 1.05,
+        "cooling_vuln": 0.52,
+        "pilot_exposure": 0.98,
+        "engine_count": 1
+      }
+    },
+    "JP03": {
+      "id": "JP03",
+      "name": "Ki-44-II後期",
+      "side": "JP",
+      "mass": 2785,
+      "wing": 15.7,
+      "vmax_anchors": [
+        [
+          0,
+          535
+        ],
+        [
+          2000,
+          575
+        ],
+        [
+          4000,
+          615
+        ],
+        [
+          5200,
+          625
+        ],
+        [
+          7000,
+          600
+        ],
+        [
+          9000,
+          550
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          20.5
+        ],
+        [
+          2100,
+          23.0
+        ],
+        [
+          4000,
+          21.0
+        ],
+        [
+          5000,
+          18.0
+        ],
+        [
+          7000,
+          10.0
+        ]
+      ],
+      "clmax": 1.55,
+      "roll_anchors": [
+        [
+          320,
+          92
+        ],
+        [
+          400,
+          104
+        ],
+        [
+          480,
+          92
+        ],
+        [
+          600,
+          65
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.3
+        ],
+        [
+          400,
+          5.3
+        ],
+        [
+          480,
+          4.9
+        ],
+        [
+          600,
+          4.1
+        ]
+      ],
+      "dive": 1.03,
+      "fire": 0.66,
+      "protect": 0.92,
+      "visibility": 0.92,
+      "sustain_mod": 0.88,
+      "perf_sigma": 0.03,
+      "source_grade": "A-ALT performance + TAIC 155A configuration; roll/high-speed authority B-prior",
+      "weapons": [
+        {
+          "weapon": "JP_HO103_12",
+          "count": 4,
+          "ammo_per_gun": 250,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.55,
+        "armor_front": 0.3,
+        "self_seal": 0.6,
+        "fire_suppression": 0.32,
+        "structure_tough": 0.97,
+        "control_redundancy": 0.98,
+        "engine_tough": 1.06,
+        "cooling_vuln": 0.52,
+        "pilot_exposure": 0.97,
+        "engine_count": 1
+      }
+    },
+    "JP04": {
+      "id": "JP04",
+      "name": "Ki-61 12.7mm四門",
+      "side": "JP",
+      "mass": 3040,
+      "wing": 19.97,
+      "vmax_anchors": [
+        [
+          0,
+          520
+        ],
+        [
+          2000,
+          555
+        ],
+        [
+          4000,
+          592
+        ],
+        [
+          5200,
+          602
+        ],
+        [
+          7000,
+          580
+        ],
+        [
+          9000,
+          530
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          16.5
+        ],
+        [
+          2000,
+          17.0
+        ],
+        [
+          4000,
+          15.5
+        ],
+        [
+          5000,
+          12.0
+        ],
+        [
+          7000,
+          7.0
+        ]
+      ],
+      "clmax": 1.48,
+      "roll_anchors": [
+        [
+          320,
+          82
+        ],
+        [
+          360,
+          92
+        ],
+        [
+          400,
+          82
+        ],
+        [
+          480,
+          60
+        ],
+        [
+          600,
+          38
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.4
+        ],
+        [
+          360,
+          5.3
+        ],
+        [
+          400,
+          4.8
+        ],
+        [
+          480,
+          3.8
+        ],
+        [
+          600,
+          2.8
+        ]
+      ],
+      "dive": 1.04,
+      "fire": 0.66,
+      "protect": 0.98,
+      "visibility": 0.91,
+      "sustain_mod": 1.0,
+      "perf_sigma": 0.03,
+      "source_grade": "A/B: r30 performance + USN Tony-I direct handling; alternate fit/radiator gains do not assume aileron redesign",
+      "weapons": [
+        {
+          "weapon": "JP_HO103_12",
+          "count": 4,
+          "ammo_per_gun": 250,
+          "mount": "mixed"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "liquid",
+        "armor_aft": 0.58,
+        "armor_front": 0.34,
+        "self_seal": 0.62,
+        "fire_suppression": 0.3,
+        "structure_tough": 0.98,
+        "control_redundancy": 0.98,
+        "engine_tough": 0.96,
+        "cooling_vuln": 1.3,
+        "pilot_exposure": 0.98,
+        "engine_count": 1
+      }
+    },
+    "JP05": {
+      "id": "JP05",
+      "name": "Ki-84",
+      "side": "JP",
+      "mass": 3602,
+      "wing": 21.0,
+      "vmax_anchors": [
+        [
+          0,
+          550
+        ],
+        [
+          2000,
+          590
+        ],
+        [
+          4000,
+          625
+        ],
+        [
+          6000,
+          636
+        ],
+        [
+          7000,
+          628
+        ],
+        [
+          9000,
+          590
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          21.5
+        ],
+        [
+          2500,
+          22.0
+        ],
+        [
+          5000,
+          19.0
+        ],
+        [
+          6000,
+          16.5
+        ],
+        [
+          8000,
+          9.5
+        ]
+      ],
+      "clmax": 1.62,
+      "roll_anchors": [
+        [
+          320,
+          78
+        ],
+        [
+          370,
+          92
+        ],
+        [
+          400,
+          90
+        ],
+        [
+          480,
+          82
+        ],
+        [
+          560,
+          72
+        ],
+        [
+          650,
+          62
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.4
+        ],
+        [
+          560,
+          5.15
+        ],
+        [
+          650,
+          4.8
+        ]
+      ],
+      "dive": 1.07,
+      "fire": 1.15,
+      "protect": 1.06,
+      "visibility": 0.96,
+      "sustain_mod": 1.02,
+      "perf_sigma": 0.045,
+      "source_grade": "A/B: r30 performance + US captured Ki-84 handling; high-speed roll magnitude remains B-prior",
+      "weapons": [
+        {
+          "weapon": "JP_HO103_12",
+          "count": 2,
+          "ammo_per_gun": 350,
+          "mount": "fuselage"
+        },
+        {
+          "weapon": "JP_HO5_20",
+          "count": 2,
+          "ammo_per_gun": 150,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.66,
+        "armor_front": 0.38,
+        "self_seal": 0.72,
+        "fire_suppression": 0.38,
+        "structure_tough": 1.03,
+        "control_redundancy": 1.02,
+        "engine_tough": 1.08,
+        "cooling_vuln": 0.5,
+        "pilot_exposure": 0.94,
+        "engine_count": 1
+      }
+    },
+    "JP06": {
+      "id": "JP06",
+      "name": "紫電改",
+      "side": "JP",
+      "mass": 4025,
+      "wing": 23.5,
+      "vmax_anchors": [
+        [
+          0,
+          530
+        ],
+        [
+          2000,
+          560
+        ],
+        [
+          4000,
+          590
+        ],
+        [
+          5500,
+          604
+        ],
+        [
+          7000,
+          592
+        ],
+        [
+          9000,
+          550
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          19.5
+        ],
+        [
+          1800,
+          20.0
+        ],
+        [
+          4000,
+          17.0
+        ],
+        [
+          6000,
+          12.5
+        ],
+        [
+          8000,
+          6.5
+        ]
+      ],
+      "clmax": 1.78,
+      "roll_anchors": [
+        [
+          320,
+          86
+        ],
+        [
+          400,
+          100
+        ],
+        [
+          480,
+          98
+        ],
+        [
+          600,
+          78
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.3
+        ],
+        [
+          600,
+          4.8
+        ]
+      ],
+      "dive": 1.02,
+      "fire": 1.65,
+      "protect": 1.12,
+      "visibility": 1.0,
+      "sustain_mod": 1.08,
+      "perf_sigma": 0.035,
+      "source_grade": "A-ALT performance; automatic combat flap canon; roll/high-speed control B-prior pending N1K2 manual extraction",
+      "weapons": [
+        {
+          "weapon": "IJN_T99M2_20",
+          "count": 4,
+          "ammo_per_gun": 200,
+          "mount": "wing"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.7,
+        "armor_front": 0.4,
+        "self_seal": 0.76,
+        "fire_suppression": 0.42,
+        "structure_tough": 1.06,
+        "control_redundancy": 1.05,
+        "engine_tough": 1.1,
+        "cooling_vuln": 0.5,
+        "pilot_exposure": 0.92,
+        "engine_count": 1
+      }
+    },
+    "CAL0": {
+      "id": "CAL0",
+      "name": "A6M5 Zeke 52 calibration",
+      "side": "CAL",
+      "mass": 2733,
+      "wing": 21.37,
+      "vmax_anchors": [
+        [
+          0,
+          475
+        ],
+        [
+          1524,
+          505
+        ],
+        [
+          3048,
+          535
+        ],
+        [
+          5486,
+          539
+        ],
+        [
+          6705,
+          576
+        ],
+        [
+          8500,
+          545
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          15.95
+        ],
+        [
+          2438,
+          16.97
+        ],
+        [
+          4267,
+          14.0
+        ],
+        [
+          6700,
+          8.0
+        ],
+        [
+          8500,
+          4.0
+        ]
+      ],
+      "clmax": 1.62,
+      "roll_anchors": [
+        [
+          320,
+          82
+        ],
+        [
+          370,
+          98
+        ],
+        [
+          400,
+          82
+        ],
+        [
+          480,
+          55
+        ],
+        [
+          600,
+          35
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          350,
+          5.3
+        ],
+        [
+          400,
+          4.2
+        ],
+        [
+          480,
+          3.1
+        ],
+        [
+          600,
+          2.4
+        ]
+      ],
+      "dive": 0.82,
+      "fire": 1.02,
+      "protect": 0.6,
+      "visibility": 1.04,
+      "sustain_mod": 1.05,
+      "perf_sigma": 0.03,
+      "source_grade": "A-CAL",
+      "weapons": [
+        {
+          "weapon": "IJN_T99M2_20",
+          "count": 2,
+          "ammo_per_gun": 125,
+          "mount": "wing"
+        },
+        {
+          "weapon": "IJN_77",
+          "count": 2,
+          "ammo_per_gun": 500,
+          "mount": "fuselage"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.18,
+        "armor_front": 0.08,
+        "self_seal": 0.18,
+        "fire_suppression": 0.1,
+        "structure_tough": 0.82,
+        "control_redundancy": 0.88,
+        "engine_tough": 0.94,
+        "cooling_vuln": 0.58,
+        "pilot_exposure": 1.02,
+        "engine_count": 1
+      }
+    },
+    "JP07": {
+      "id": "JP07",
+      "name": "烈風 ハ43 中心線（初期武装）",
+      "side": "JP",
+      "mass": 4550,
+      "wing": 30.5,
+      "vmax_anchors": [
+        [
+          0,
+          545
+        ],
+        [
+          2000,
+          580
+        ],
+        [
+          4000,
+          615
+        ],
+        [
+          6000,
+          633
+        ],
+        [
+          7000,
+          625
+        ],
+        [
+          9000,
+          585
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          20.5
+        ],
+        [
+          2000,
+          21.0
+        ],
+        [
+          4000,
+          19.0
+        ],
+        [
+          6000,
+          16.4
+        ],
+        [
+          8000,
+          9.0
+        ]
+      ],
+      "clmax": 1.72,
+      "roll_anchors": [
+        [
+          320,
+          82
+        ],
+        [
+          400,
+          96
+        ],
+        [
+          480,
+          90
+        ],
+        [
+          600,
+          70
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          320,
+          5.5
+        ],
+        [
+          400,
+          5.5
+        ],
+        [
+          480,
+          5.25
+        ],
+        [
+          600,
+          4.8
+        ]
+      ],
+      "dive": 1.08,
+      "fire": 1.2,
+      "protect": 1.08,
+      "visibility": 0.98,
+      "sustain_mod": 1.03,
+      "perf_sigma": 0.03,
+      "source_grade": "B: r30 central performance; roll/control range provisional",
+      "weapons": [
+        {
+          "weapon": "IJN_T99M2_20",
+          "count": 2,
+          "ammo_per_gun": 150,
+          "mount": "wing"
+        },
+        {
+          "weapon": "IJN_T3_13",
+          "count": 2,
+          "ammo_per_gun": 300,
+          "mount": "fuselage"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.68,
+        "armor_front": 0.42,
+        "self_seal": 0.74,
+        "fire_suppression": 0.42,
+        "structure_tough": 1.08,
+        "control_redundancy": 1.06,
+        "engine_tough": 1.12,
+        "cooling_vuln": 0.48,
+        "pilot_exposure": 0.94,
+        "engine_count": 1
+      }
+    },
+    "JP08": {
+      "id": "JP08",
+      "name": "強風（水上戦闘機・暫定物理）",
+      "side": "JP",
+      "mass": 3500,
+      "wing": 23.5,
+      "vmax_anchors": [
+        [
+          0,
+          420
+        ],
+        [
+          2000,
+          450
+        ],
+        [
+          4000,
+          480
+        ],
+        [
+          5500,
+          490
+        ],
+        [
+          7000,
+          470
+        ]
+      ],
+      "roc_anchors": [
+        [
+          0,
+          14.0
+        ],
+        [
+          2000,
+          14.5
+        ],
+        [
+          4000,
+          11.5
+        ],
+        [
+          6000,
+          6.5
+        ]
+      ],
+      "clmax": 1.75,
+      "roll_anchors": [
+        [
+          280,
+          72
+        ],
+        [
+          320,
+          82
+        ],
+        [
+          400,
+          80
+        ],
+        [
+          480,
+          60
+        ],
+        [
+          550,
+          45
+        ]
+      ],
+      "control_g_anchors": [
+        [
+          280,
+          5.2
+        ],
+        [
+          320,
+          5.3
+        ],
+        [
+          400,
+          4.8
+        ],
+        [
+          480,
+          4.0
+        ],
+        [
+          550,
+          3.3
+        ]
+      ],
+      "dive": 0.72,
+      "fire": 0.95,
+      "protect": 0.82,
+      "visibility": 0.96,
+      "sustain_mod": 0.98,
+      "perf_sigma": 0.04,
+      "source_grade": "C: mission-study placeholder; excluded from v0.2 geometry grid",
+      "weapons": [
+        {
+          "weapon": "IJN_T99M2_20",
+          "count": 2,
+          "ammo_per_gun": 60,
+          "mount": "wing"
+        },
+        {
+          "weapon": "IJN_77",
+          "count": 2,
+          "ammo_per_gun": 500,
+          "mount": "fuselage"
+        }
+      ],
+      "vulnerability": {
+        "engine_type": "radial",
+        "armor_aft": 0.38,
+        "armor_front": 0.2,
+        "self_seal": 0.42,
+        "fire_suppression": 0.22,
+        "structure_tough": 0.9,
+        "control_redundancy": 0.9,
+        "engine_tough": 0.95,
+        "cooling_vuln": 0.6,
+        "pilot_exposure": 1.02,
+        "engine_count": 1
+      }
+    }
+  },
+  "weapon_types": {
+    "US_M2_50": {
+      "caliber_mm": 12.7,
+      "rpm": 800,
+      "projectile_kg": 0.0458,
+      "mv_mps": 885,
+      "he": 0.0,
+      "inc": 0.42,
+      "accuracy": 1.0
+    },
+    "US_ANM2_20": {
+      "caliber_mm": 20.0,
+      "rpm": 600,
+      "projectile_kg": 0.13,
+      "mv_mps": 850,
+      "he": 0.95,
+      "inc": 0.35,
+      "accuracy": 0.96
+    },
+    "JP_HO103_12": {
+      "caliber_mm": 12.7,
+      "rpm": 900,
+      "projectile_kg": 0.0375,
+      "mv_mps": 780,
+      "he": 0.16,
+      "inc": 0.42,
+      "accuracy": 0.96
+    },
+    "JP_HO5_20": {
+      "caliber_mm": 20.0,
+      "rpm": 900,
+      "projectile_kg": 0.112,
+      "mv_mps": 750,
+      "he": 0.9,
+      "inc": 0.32,
+      "accuracy": 0.95
+    },
+    "IJN_T99M2_20": {
+      "caliber_mm": 20.0,
+      "rpm": 500,
+      "projectile_kg": 0.123,
+      "mv_mps": 750,
+      "he": 1.0,
+      "inc": 0.35,
+      "accuracy": 0.94
+    },
+    "IJN_T3_13": {
+      "caliber_mm": 13.2,
+      "rpm": 800,
+      "projectile_kg": 0.052,
+      "mv_mps": 790,
+      "he": 0.1,
+      "inc": 0.45,
+      "accuracy": 0.95
+    },
+    "IJN_77": {
+      "caliber_mm": 7.7,
+      "rpm": 850,
+      "projectile_kg": 0.0105,
+      "mv_mps": 745,
+      "he": 0.0,
+      "inc": 0.2,
+      "accuracy": 0.98
+    }
+  },
+  "notes": {
+    "weapon_model": "round density + projectile kinetic/HE/incendiary + zone damage; not a terminal-ballistics solver",
+    "vulnerability_model": "pilot/engine/fuel/controls/structure/cooling; armor, self-sealing, fire suppression and radial/liquid distinction",
+    "Ki84_correction": "roll/turn relation corrected toward T-2 report; high-speed control authority retained",
+    "JP07": "Reppu central late-1944 profile included for future combat branch",
+    "JP08": "Kyofu placeholder included but excluded from main geometry grid",
+    "speed_convention_v03": "entry speeds are IAS/EAS-like; roll/control and dynamic pressure use IAS/EAS, TAS is derived for turn kinematics; vmax anchors remain TAS.",
+    "Ki61_v03": "high-speed aileron authority reduced from v0.2 using USN direct Tony-I evaluation: aileron excessively heavy above 180kt and very inferior in high-speed roll.",
+    "Ki84_v03": "high-speed control falloff softened using captured-aircraft report: light positive controls and no flat/reversal through tested 350mph IAS; exact roll-rate curve remains B-prior.",
+    "uncertainty_v03": "Ki-44 and N1K2-J exact roll curves remain B-priors; v0.3 deliberately avoids invented precision.",
+    "GALVANIC_v030": "JP01/JP02 recentered to current HARD audit; US01 to 1943 F6F-3 combat center."
+  }
+}

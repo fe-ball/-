@@ -1,0 +1,92 @@
+{
+  "id": "FLINTLOCK_JAPAN_FOUR_CARRIER_GO_AND_STRIKE_1944-02-02_REAUDIT_v001",
+  "status": "WORKING_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-01T16:30..1944-02-02T12:30+12:00",
+  "carrier_force": {
+    "carriers": [
+      "Shokaku",
+      "Zuikaku",
+      "Hiryu",
+      "Soryu"
+    ],
+    "ready_aircraft_prelaunch_band": [
+      252,
+      270
+    ],
+    "center": 261,
+    "coherent_strike_band": [
+      154,
+      166
+    ],
+    "center_strike": 160,
+    "search_separate": 10,
+    "package_center": {
+      "fighters": 55,
+      "Kinsei_Zero_subset": 28,
+      "late_Zuisei_Zero": 27,
+      "D4Y": 60,
+      "B6N": 45
+    },
+    "secondary_carriers": "Junyo/Hiyo/Ryujo/Zuiho remain 90-130 nmi-class rear depth centered; used for recovery/CAP relay, not added to first strike."
+  },
+  "contact_chain": [
+    {
+      "time": "02-01 17:00-23:30",
+      "event": "Carrier track decays; Combined Fleet declines another mass land-based night torpedo raid and preserves scouts/attack crews for confirmation."
+    },
+    {
+      "time": "02-02 03:30-04:05",
+      "event": "Four-carrier force launches a ten-aircraft pre-dawn fan search while closing under EMCON."
+    },
+    {
+      "time": "02-02 05:02-05:20",
+      "event": "One scout reacquires TG58.2-class three-deck/three-BB group about 235-270 nmi ESE, with launch/recovery activity visible; position error about 10-15 nmi."
+    },
+    {
+      "time": "02-02 05:15-05:31",
+      "event": "Second scout visually places another fast-carrier group about 150-190 nmi N/NE of the primary target; third group remains sector-level only."
+    },
+    {
+      "time": "02-02 05:31",
+      "event": "GO opens: fresh target, visible mission split, acceptable launch/recovery range, westward egress, and non-merged other-TG geometry."
+    }
+  ],
+  "Japanese_strike": {
+    "launch_window": "05:40-06:12",
+    "target": "TG58.2 centered: Essex/Intrepid/Cabot + fast-battleship screen",
+    "US_warning": "US radar/CIC obtains roughly 85-105 nmi warning and stages heavy F6F CAP; neighboring fighters reinforce at the engagement edge.",
+    "effective_release_aircraft_band": [
+      58,
+      72
+    ]
+  },
+  "centered_damage": {
+    "Cabot_CVL28": "One aerial torpedo hit centered. Heavy current-campaign mission kill; survives and withdraws for repair assessment.",
+    "Intrepid_CV11": "One bomb hit plus splinter damage centered. Flight-deck cycle interrupted about 5-8 h; propulsion retained.",
+    "Essex_CV9": "Near-miss/splinter/light damage only centered; no mission kill.",
+    "fast_battleships": "No mission kill centered."
+  },
+  "Japanese_offensive_losses": {
+    "irrecoverable_band": [
+      55,
+      65
+    ],
+    "center": 60,
+    "damaged_recoverable_band": [
+      20,
+      28
+    ]
+  },
+  "US_air_losses_during_defense": {
+    "irrecoverable_band": [
+      22,
+      29
+    ],
+    "center": 25
+  },
+  "anti_overreach": [
+    "Fourth Japanese deck thickens the strike but does not erase US radar/CIC/F6F/AA superiority.",
+    "No US carrier sinking centered.",
+    "Kinsei Zero improves escort choice/survival but does not inflate range or make the entire fighter force Kinsei-equipped."
+  ]
+}

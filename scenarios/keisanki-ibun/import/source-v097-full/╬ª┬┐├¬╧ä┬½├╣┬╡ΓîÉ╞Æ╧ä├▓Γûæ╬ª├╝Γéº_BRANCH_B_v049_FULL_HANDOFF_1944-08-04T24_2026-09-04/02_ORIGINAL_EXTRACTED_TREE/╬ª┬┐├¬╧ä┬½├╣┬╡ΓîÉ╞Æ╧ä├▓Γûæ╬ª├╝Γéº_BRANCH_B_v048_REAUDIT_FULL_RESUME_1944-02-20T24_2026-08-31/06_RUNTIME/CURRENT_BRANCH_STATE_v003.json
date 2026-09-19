@@ -1,0 +1,30 @@
+{
+  "revision": "v003",
+  "id": "CURRENT_BRANCH_STATE_v003",
+  "date_created": "2026-08-26",
+  "package_revision": "v021",
+  "status": "CURRENT",
+  "current_analysis_time": "1943-03-26T00:00",
+  "current_frontier_event": "Aleutians/Efate coupled re-audit reopened immediately before Komandorski; Attu resupply and US/Japanese warning/allocation must be closed before rebuilding May Efate OOB.",
+  "active_restart": {
+    "mode": "PACIFIC_1943_SPRING_COUPLED_REAUDIT",
+    "time": "1943-03-26T00:00",
+    "checkpoint": null
+  },
+  "current_overrides": "00_CONFIG/current_branch_overrides_v005.json",
+  "current_session_settlement": "06_RUNTIME/SESSION_2026-08-26_ALEUTIANS_EFATE_COUPLED_REAUDIT_HANDOFF_v001.md",
+  "retained_provisional": [
+    "06_RUNTIME/PACIFIC_MIDWAY_CONTINUOUS_CAMPAIGN_REAUDIT_1943-07_10_v001.md",
+    "06_RUNTIME/SESSION_2026-08-24_ROLLBACK_PACIFIC_CHINA_SETTLEMENT_v001.md",
+    "06_RUNTIME/PACIFIC_CENTRAL_1943_1944Q1_SETTLEMENT_v001.md",
+    "06_RUNTIME/CATCHPOLE_ENIWETOK_1944-04-18_24_SETTLEMENT_v001.md",
+    "06_RUNTIME/PRE_ICHIGO_FINAL_FORCE_LOGISTICS_GATE_1944-04-25_v001.md",
+    "06_RUNTIME/CHINA_ICHIGO_ANALOG_1944-05-10_10-20_PROVISIONAL_FORWARD_v001.md"
+  ],
+  "rolled_back_scenario_probes": [
+    "1943-05-24 to 1943-05-26 Efate battle simulation from the 2026-08-26 discussion, including Denver torpedo damage and Wasp mission-kill",
+    "May 1943 Efate surface OOB assumptions made before Aleutians allocation was integrated"
+  ],
+  "next_required_adjudication": "Rebuild 1943-03-26 Komandorski OOB and battle, derive Attu resupply under branch-specific weather/navigation/transport capability, then adjudicate US LANDCRAB choice/ISR and Japanese warning/response before reopening May Efate.",
+  "precedence_rule": "CURRENT_BRANCH_STATE_v003 and SESSION_2026-08-26_ALEUTIANS_EFATE_COUPLED_REAUDIT_HANDOFF_v001 define the present analysis order. They do not erase downstream files; downstream Pacific results remain retained provisional until retro-synchronized."
+}

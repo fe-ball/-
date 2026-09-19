@@ -1,0 +1,17 @@
+Branch B v091 delta summary — 2026-09-12
+
+Source: v090 full handoff dated 2026-09-10.
+Global overlay cutoff remains 1943-11-05.
+Earliest active frontier moves upstream to Santo 1942-07-23 00:00.
+
+New/changed authority:
+- names HMAS Australia as the Branch Coral Sea Crace-force major-damage hull;
+- restores TF44 as a real July South-Pacific surface wallet;
+- closes Japanese operational optionality structure: Haruna warm reserve, Shoho regional aviation reserve, CruDiv 6 regional reserve, second-echelon pre-positioning;
+- reopens all exact 23-29 July Santo outcomes downstream of the aviation root;
+- restores existing Branch canon that the early Zero line is Zuisei-powered and may not be modeled as generic historical A6M2 performance;
+- restores accelerated Branch A6M2-N-equivalent production canon (30-50 by 1941-12; 90-130 cumulative by 1942-03/04);
+- reopens D4Y fast-recon count and H6K/H8K forward-search totals;
+- makes 6th Air Group / occupied Midway allocation a top-priority hull-by-hull aircraft gate.
+
+Old Santo D-4 through D+2 files are retained as provenance/comparison, not current outcome authority.

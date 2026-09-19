@@ -1,0 +1,26 @@
+{
+  "revision": "v001",
+  "id": "MARIANAS_FOCUS_1944-06-12_MANIFEST_v001",
+  "status": "OVERLAY_MANIFEST",
+  "load_after": [
+    "計算機異聞_v048_MARIANAS_1944-06-11_OVERLAY_2026-08-30.zip"
+  ],
+  "clock_from": "1944-06-11T24",
+  "clock_to": "1944-06-12T24",
+  "primary_theater": "MARIANAS",
+  "active_files": [
+    "PACIFIC/US_TF58_MARIANAS_SUPPRESSION_1944-06-12_WORKING_v001.json",
+    "PACIFIC/JAPAN_MARIANAS_AIR_DEFENSE_1944-06-12_WORKING_v001.json",
+    "PACIFIC/SAIPAN_SHIPPING_DISPERSAL_AND_LOSS_1944-06-12_WORKING_v001.json",
+    "PACIFIC/YAMAMOTO_A_GO_RELEASE_GATE_1944-06-12T24_WORKING_v001.json",
+    "YANAGI/I34_RETURN_SINGAPORE_1944-06-12_WORKING_v001.json",
+    "STATE/MARIANAS_PRIMARY_STATE_1944-06-12T24_WORKING_v001.json"
+  ],
+  "guards": [
+    "Do not interpret 12 Jun carrier raids alone as confirmed amphibious landing geometry.",
+    "Do not double-subtract 11 Jun repairable aircraft; overnight returns are explicitly included in the 12 Jun opening state.",
+    "Saipan shipping losses use the branch staggered-evacuation geometry, not the historical single dense convoy replay.",
+    "I-34 return credits paper/personnel/small hardware at Singapore only; no complete Jumo/HWK engine is granted and home-island lab credit waits for onward transfer.",
+    "Five-carrier movement toward Guimaras is operational concentration, not yet a blind eastward battle commitment."
+  ]
+}

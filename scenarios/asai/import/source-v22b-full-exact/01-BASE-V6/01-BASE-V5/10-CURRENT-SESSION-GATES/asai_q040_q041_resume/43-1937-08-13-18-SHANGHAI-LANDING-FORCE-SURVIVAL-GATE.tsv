@@ -1,0 +1,8 @@
+date_time	location	event	historical_baseline	asai_delta	status	carryover
+1937-08-13/14	Shanghai	Naval landing force reinforcement	Approx 500 additional men; force around 3500	No manpower change	CLOSED-SAME	Still critically outnumbered
+1937-08-14	Shanghai	Chinese air attacks	Chinese aircraft attack landing-force HQ/Izumo area; initial Chinese air challenge strong	Historical aircraft performance retained; modest Japanese serviceability gain	CLOSED-SAME-EVENT	High-tempo air campaign begins
+1937-08-15	Shanghai	Chinese pre-reinforcement pressure	Chinese 30-40k immediate, potentially ~70k nearby vs ~4k Japanese estimate	No force-ratio change; marginal repair/availability gain	CLOSED-SAME-STRATEGIC	Japanese enclave remains precarious
+1937-08-16/17	Shanghai	Sustained naval-air-ground fighting	Japanese relies on warship fire and aviation; Chinese artillery inflicts casualties	Maintenance debt accumulates slightly more slowly	CLOSED-DIRECTION	Asai benefit becomes cumulative
+1937-08-18	Shanghai	Chinese wedge / Japanese survival crisis	Chinese nearly drives strong wedge; Japanese very hard pressed	Local counterresponse/support availability modestly more reliable; crisis still occurs	CLOSED-MINOR-TACTICAL-DELTA	Enclave survives with slightly better margin
+1937-08-18	Shanghai airspace	Air balance shift	Japanese air superiority increasingly apparent around 18 Aug	Smoother serviceability; no major date change	CLOSED-SAME-ORDER	Japanese sortie sustainability improves
+1937-08-18	Liuho/Woosung	Reports of Army landing	Contemporary report suggests division-scale landing; major reinforcement generally later	No premature full Army arrival assumed	OPEN-DETAIL	Q-043 closes main landing phase

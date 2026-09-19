@@ -1,0 +1,21 @@
+rank	scope	authority	note
+0	package	00-START-HERE-CURRENT.md	V14 entry point
+1	current state	PACKAGE-STATE-V14.tsv	V14 machine state
+2	naval/marine through 1941	82-CURRENT-2026-09-09-NAVAL-MARINE-CLOSE/	highest V14 naval/marine authority
+3	ground vehicles through 1941	81-CURRENT-2026-09-09-GROUND-VEHICLE-CLOSE/	highest V14 ground-vehicle authority
+4	prewar Asai helicopter / rotorcraft	80-CURRENT-2026-09-08-HELICOPTER-CLOSE/	V13 helicopter authority retained
+5	fixed-wing development/procurement/OOB boundary	79-CURRENT-2026-09-08-FIXED-WING-PROCUREMENT-CLOSE/	V12 fixed-wing authority retained
+6	aircraft development / industrial base	78-CURRENT-2026-09-08-AIRCRAFT-DEVELOPMENT-CLOSE/	V11/V12 development base unless overridden
+7	session/combat state	77-CURRENT-2026-09-07-SESSION-CLOSE/	combat/session state inherited; no clock advance
+8	1940 combat gate	76-CURRENT-1940-WEAPON-GATE-V10/	mandatory before 1940 combat
+9	V10 technical addenda	75-CURRENT-TECHNICAL-ADDENDA-V10/	retained unless V14 explicitly overrides
+10	China 1939	74-CURRENT-CHINA-1939-REPLAY-V10/	closed chronological replay
+11	Nomonhan	73-CURRENT-NOMONHAN-REVISED-V10/	revised closed branch
+12	retro airpower	72-CURRENT-RETRO-AIRPOWER-1938-1939/	current 1938-39 airpower corrections
+20	V9 technical control	71-CURRENT-TECHNICAL-CONTROL-V9/	retained technical base unless overridden
+90	old versions	all prior directories/files	provenance/comparator unless current chain points there
+99	post-V9 quarantine	90-PROVENANCE-SUPERSEDED-POST-V9/	not current
+100	aircraft hard quarantine	91-PROVENANCE-QUARANTINED-AIRCRAFT-RESEARCH-V11/	not current
+101	rotorcraft hard quarantine	92-PROVENANCE-QUARANTINED-ROTORCRAFT-RESEARCH-V13/	not current
+102	ground hard quarantine	93-PROVENANCE-QUARANTINED-GROUND-RESEARCH-V14/	not current
+103	naval session provenance	94-PROVENANCE-NAVAL-SESSION-SOURCES-V14/	provenance only; V14 current overrides

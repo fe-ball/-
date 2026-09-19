@@ -1,0 +1,76 @@
+{
+  "revision": "v001",
+  "id": "CATCHPOLE_ENGEBI_1944-02-21_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "assault": "1944-02-21",
+  "H_hour": "08:44 centered",
+  "Japanese_defense": {
+    "combat_effective_personnel_band": [
+      760,
+      830
+    ],
+    "other_labor_aviation_support": "roughly 450-520 persons, many armed late or used in support",
+    "weapons": "historical count family retained: 120mm coastal guns, 75mm mountain guns, 81mm mortars, 37mm AT, MG/grenade dischargers",
+    "Type95": 3,
+    "branch_change": [
+      "3-4 extra preparation days after historical clock plus mature Branch fortification/QC practice",
+      "better alternate positions, ammo dispersion, wire/radio redundancy and registered mortar lanes",
+      "two Type95 centered mobile/revetment-capable rather than all treated as static pillboxes"
+    ]
+  },
+  "US_bombardment": {
+    "effect": "heavy and tactically decisive; coastal guns largely suppressed before landing",
+    "one_120mm_survival": "one gun/position may fire 3-6 effective rounds before suppression; no US combatant hit centered",
+    "air_support": "2 CVL + 3 CVE strike/CAP cycles; lower high-end fast-carrier mass than historical Saratoga+2CVL but adequate against a fighterless island"
+  },
+  "battle": {
+    "airfield_seized_center": "10:05",
+    "main_southern_strongpoints_broken_center": "16:30",
+    "organized_resistance_end_center": "1944-02-21T19:10",
+    "organized_end_band": "18:15..21:30",
+    "night_gate": {
+      "opens": true,
+      "reason": "center crosses local sunset slightly",
+      "result": "no second organized battalion-scale attack; 20-50-man pockets/infiltrators, ammo movement and wounded recovery continue until dawn",
+      "meaningful_mop_up_end_center": "1944-02-22T07:30"
+    }
+  },
+  "armor_exchange": {
+    "Japanese_Type95_irrecoverable": 3,
+    "US_M4_irrecoverable_enemy_fire_center": 0,
+    "US_M4_repairable_damage_band": [
+      0,
+      1
+    ],
+    "US_LVT_LVTA_irrecoverable_band": [
+      1,
+      2
+    ],
+    "US_LVT_LVTA_damaged_band": [
+      2,
+      4
+    ],
+    "mechanism": "Type95 37mm and mines are dangerous to amphibian vehicles/flanks but lose rapidly to M4/75mm, naval fire and infantry-engineer reduction."
+  },
+  "casualties_working": {
+    "US_KWM_band": [
+      420,
+      560
+    ],
+    "US_center": 490,
+    "Japan_combat_dead_band": [
+      1240,
+      1300
+    ],
+    "Japan_captured_band": [
+      10,
+      25
+    ],
+    "source_guard": "Historical published Engebi casualty series conflict materially (notably wounded totals). Branch uses a wide event band rather than pretending one series is exact."
+  },
+  "systemic_effect": {
+    "Branch_tank_days": "increase enemy casualties and LVT disruption but final Japanese tank residual remains zero because the island is lost",
+    "US_cost": "extra hours consume naval shells, carrier sorties, tank ammunition and infantry fatigue",
+    "schedule": "does not delay the Eniwetok Island assault beyond 22 Feb because the 22d Marines can reorganize/reembark while mop-up continues"
+  }
+}

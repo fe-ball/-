@@ -1,0 +1,29 @@
+{
+  "version": "v058",
+  "date": "2026-09-06",
+  "status": "handoff_only_no_new_combat_adjudication",
+  "authoritative_points": {
+    "nc_campaign": "frozen_until_global_world_clock_resync",
+    "global_resync_anchor": "pre-Ironclad British Madagascar concern, roughly Feb-Mar 1942",
+    "submarine_audit_order": [
+      "current_data",
+      "current_results_assuming_stronger_submarines",
+      "revalidate_submarine_data",
+      "rescan_1942_through_provisional_end_of_NC"
+    ],
+    "no_global_multiplier_cap": true,
+    "warsman_rule": "do_not_apply_one_multiplier_everywhere; final nonlinear outcome may exceed 1.3x if causal chain supports it",
+    "reflection_start": "western Indian Ocean deployment cycle, roughly Apr-May 1942 through 1942-06-18",
+    "next_work_unit": "boat-level deployment and attack adjudication with actual sink/damage/miss plus British resource consequences"
+  },
+  "preserve": [
+    "v056 Stage1 current-state audit",
+    "v056 Stage2 assumption reverse map",
+    "v057 Stage3A patrol/attack samples and calculation framework"
+  ],
+  "do_not_canonize_as_measured": [
+    "illustrative machinery recovered-patrol-day inputs",
+    "illustrative torpedo reliability percentages",
+    "old extra-sinking/GRT values as mandatory floors or ceilings"
+  ]
+}

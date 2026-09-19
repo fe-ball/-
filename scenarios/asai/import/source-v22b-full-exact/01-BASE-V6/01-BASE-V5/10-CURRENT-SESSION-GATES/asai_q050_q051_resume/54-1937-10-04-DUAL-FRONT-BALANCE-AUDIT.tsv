@@ -1,0 +1,6 @@
+theater	metric	japan_low	japan_center	japan_high	china_low	china_center	china_high	confidence
+Shanghai	effective_personnel	80000	87500	95000	175000	195000	220000	MED
+Shanghai	ready_land_artillery	220	260	300	100	130	160	LOW-MED
+Shanghai	usable_motor_vehicles	800	1050	1300	250	425	600	LOW
+Shanghai	ASAI_high_value_vehicle_subset	45	60	75	0	0	0	WORKING
+NorthChina-ShijiazhuangAxis	effective_personnel	65000	72500	80000	90000	115000	140000	LOW-MED

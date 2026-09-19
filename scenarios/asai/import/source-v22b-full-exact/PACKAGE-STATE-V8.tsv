@@ -1,0 +1,93 @@
+field	value
+package	ASAI-WORLDLINE-HANDOFF-2026-09-05-FULL-V8-1939REPLAY3-NOMONHAN-A1-FIREOPTICS1
+statefix	REPLAY3 current through 1939-06-27; FIREOPTICS1 promotes fire-control/sighting/bombing chain; EXHAUST1 IDENTITY1 NAVAL1 retained
+furthest_prior_explored_clock	1939-09-01 00:00 / post-Nomonhan in older V6 branch
+rollback_reason	aviation-history inconsistencies discovered after post-Nomonhan progression
+current_revalidated_combat_checkpoint	1939-06-27 24:00
+current_clock_semantics	active replay/canon checkpoint; NOT furthest point ever explored
+combat_replay_status	ACTIVE_COMBAT_REPLAY
+active_technical_domain	ON_DEMAND_ONLY - broad Apr20 technical/company reconstruction closed; create local audit only when an event materially requires an open input
+aviation_audit_policy	broad audit complete for Apr20 replay; current technical closures remain inputs; capability does not auto-create procurement/adoption/history
+base_v7_preserved	YES - preserved V7/V6 provenance trees retained; only current V8 overlay/status files explicitly documented in AIRPOWER3/AIRPOWER4/AIRPOWER5 changelogs are superseded/edited
+highest_restart	50-CURRENT-1939-1941-AIRPOWER-AUDIT/00-1939-04-20-RESTART-BASELINE-V8.md
+mandatory_capability_preflight	50-CURRENT-1939-1941-AIRPOWER-AUDIT/00A-MANDATORY-CHEAT-CAPABILITY-PREFLIGHT-CANON-V8.md
+next_chronological_combat_gate_if_resumed	1939-06-28 to 06-30 command restriction + Yasuoka readiness audit; then July opening ground offensive
+next_technical_candidate	NONE BLOCKING - local event-dependent audit only
+next_technical_candidate_semantics	do not reopen broad engine/material/company capability absent a concrete contradiction or unpaid event gate
+retreat_air_interdiction_1937_status	UNRESOLVED RETROACTIVE AUDIT - not an automatic blocker; propagate forward only if materially reopened
+shiden_auto_flap_status	CORE QUESTION RESOLVED - see file 04; production quantities remain scenario-dependent
+homare_status	quarter-level branch-neutral development/qualification closed through 1943Q1 in file 11; post-1943 fleet quality/TBO/quantity remain branch-dependent
+fighter_performance_status	working quantitative authority in file 08; propeller chronology superseded by file 15 and aircraft chronology by file 16
+v8_precedence	2026-09-05 REPLAY3/FIREOPTICS1 over NAVAL1/IDENTITY1/EXHAUST1 on explicit items; current combat authority Jun27
+integrity_metadata	root V8 inventory/manifest/SHA256 rebuilt after REPLAY3 FIREOPTICS1 integration; verify against current tree
+high_power_propeller_status	branch-neutral 1,800-2,200 hp four-blade / governor / cooling technology sequence closed through 1943Q1 in file 15; national quantities remain branch-dependent
+airframe_integration_status	branch-neutral J2M/B7A/N1K and conditional Reppu integration states closed through 1943Q1 in files 16-18; formal combat-derived 1942 requirements remain replay-dependent
+gt_v46_installed_status	RETAIN - E6-M pure-J ~850/900 kgf and E6-M-JF 950-1,000 kgf at accepted 835 C long-life center are cheat-aware rebaseline values; no generic historical downrating
+gt_e6s_status	7.8 kg/s standard vs 8.2 kg/s high-flow trim semantics repaired; same-cycle thrust shadow ~476/505 vs ~500/531 kgf, local installation qualification still required
+gt_life_semantics	CLOSED in file 21: L_mat/L_core/H_qual/TBO-OH/cycle-emergency terms separated; blanket early-historical-jet TBO substitution rejected
+gt_advanced_1939_status	CLOSED at subsystem-readiness level in file 22/22A: inherited/productized vs R1/R2 advanced branches separated; integrated product qualification remains local
+gt_e8_e9_status	RE-PROMOTED AS CONTINUOUS TECHNICAL FRONT; mature-year labels are not R&D start dates; product/series outcomes remain conditional
+gt_e5j_status	CLOSED in file 23/23A: high-flow E5-J ~425-430 kgf quantity / ~450-455 normal, selected short ~470; dry ~380-415 kg; local aircraft reverse audit passed
+gt_e5jf_status	CLOSED in file 23/23A: installed ~515-545 kgf, dry ~455-505 kg, BPR~0.8-1.0/FPR~1.25-1.30; first aft-fan flight 1937Q4; no large new maximum-OD penalty
+e5_aircraft_reverse_audit	CLOSED in file 24/24A for current 1939-04-20 roster; existing E5 singles/twins remain physically coherent; simple Ki-42 JF conversion remains candidate/integration gate
+gt_e6sj_status	CLOSED in file25/25A at installed development-package level: std 7.8kg/s ~476/505kgf nonNi/Ni; 8.2kg/s short ~500/531; dry ~400-445kg; late R3/R4 candidate
+hs2_propulsion_status	CLOSED engine identity: one E6-S-J development package ~420kg center; ~475kgf initial standard; first flight remains future/measured performance open
+gt_e6mj_package_status	CLOSED in file26: E6-M-J dry ~500-555kg center~525; pure-J remains slimmer than JF
+gt_e6mjf_highrating_status	CLOSED engineering ladder in file26/26A: 835C~984, 850C~1003, 870C~1028, selected 920C~1088kgf; TBO/flight release OPEN
+gt_e6m_reheat_status	CLOSED installed R2 engineering map in file27/27A: ~+15% at 1000C outlet, +20% at1100C, +25% at1200C; variable nozzle +25-36% throat; flight release OPEN
+e6_aircraft_backend_reverse_audit	PASS in file28; no future first flight promoted; exact measured J/JF speed/range and HS-3 M1 date remain OPEN
+asai_aircraft_roster_19390420	CLOSED in file29/29A: P1/P2 cumulative9; E5 Twin10; Ki-42/E5 Single6; E5 future-form1; HS-1 donor identity; HS-2 preflight1; E6 Twin No1 preflight + No2 build; E6 Single late-build1; Material No1 flight1; Material No2 build1; helicopter2
+p2_status	CLOSED in file30/30A: P1 3 + P2 6 completed cumulative; P2 ~2.80t/~27m2/E5-S-T 952-1000hp product center; future quantities/customer serial map open
+material_no2_status	CLOSED current build state in file31/31A: one flight article ~60-70% complete; E5-J allocated; q-gated release; first flight future
+e6_airframe_build_status	CLOSED current build state in file32: Twin No1 complete preflight, comparative No2 in fabrication; Single ~80-90% complete; no first-flight result
+small_helicopter_status	CLOSED physical count/maturity and main topology: two extant development airframes; single main rotor + tail rotor; exact rotor geometry open
+cfrp_i_iv_status	CLOSED mechanism in file34/34A: I skin/bond/galvanic; II primary spar/torsion; III thin-wing aeroelastic; IV HS/CFRP transonic convergence; old M0.78 endpoint superseded
+cfrp_19390420_state	CLOSED in file36: pilot structural-carbon processing + interface/exposure/full-size Series-I ground articles active; common E5-J mother-airframe program in design/tooling; 0 completed CFRP flight aircraft
+hs_cfrp_convergence_status	CLOSED concept/dependency in file35/35A: metal fuselage + E6-M-J + metal/CFRP comparison wings; 1942H2-43H1 earliest technical shadow only; practical successor mission OPEN
+material_no3_status	CLOSED origin/technical shadow in file37-38A: practical 52-55t heavy-transport/large-structure outlet; Apr20 trade study only; formal 1939H2 concept target; procurement/flight future conditional
+material_no3_identity	Material No3 internal -> AT-3 with Nakajima/large-aircraft partner -> Ki-92 only if later Army evaluation/procurement; one lineage, not three aircraft
+l5si_material3_separation	CLOSED: L5Si ~22t/5t trunk transport remains separate from Material No3 ~52-55t/13-15t heavy cargo tier
+chiha_1939_power_status	CURRENT 200 hp continuous / 220 hp short from later v27 tank parent; older 180/200 wording superseded for new 1939 calculations; allocation/combat separate
+historical_vehicle_delta	50-CURRENT-1939-1941-AIRPOWER-AUDIT/47-1939-04-20-HISTORICAL-VEHICLE-DELTA-CANON-V8.md
+replay_launch_card	50-CURRENT-1939-1941-AIRPOWER-AUDIT/48-1939-04-20-COMBAT-REPLAY-LAUNCH-CARD-V8.md
+current_combat_gate_authority	60-CURRENT-1939-COMBAT-REPLAY/05-1939-05-11-06-27-NOMONHAN-OPENING-PHASE-GATE-V8.md
+current_combat_state_ledger	60-CURRENT-1939-COMBAT-REPLAY/06-1939-06-27-STATE-LEDGER-V8.tsv
+current_concurrent_aviation_gate	60-CURRENT-1939-COMBAT-REPLAY/03-1939-04-27-05-10-CONCURRENT-AVIATION-EVENTS-GATE-V8.md
+exhaust_energy_recovery_canon	50-CURRENT-1939-1941-AIRPOWER-AUDIT/49-PISTON-EXHAUST-ENERGY-RECOVERY-CANON-V8.md
+exhaust_application_ledger	50-CURRENT-1939-1941-AIRPOWER-AUDIT/49A-PISTON-EXHAUST-APPLICATION-LEDGER-V8.tsv
+exhaust_state_semantics	EX0 collector / EX1 individual non-integrated / EX2 thrust-individual / EX3 integrated energy recovery
+b5n2_exhaust_status	SUPERSEDED old historical-individual/E1=0; current working H state EX0 collector ring, full ~+4-6 km/h shadow valid only versus actual EX0 anchor
+ki27_exhaust_status	technical adoption CLOSED; REPLAY3 named-unit closure for current 24th Sentai pool =15 EX2 /4 EX0; other units/date mixes remain local allocation gates
+latewar_exhaust_guard	A6M5/J2M2-3/N1K1-J/N1K2-J/production Ki-84 and comparable historical EX2 anchors receive residual EX2->EX3 only; no full-card repeat
+liquid_cooled_exhaust_guard	D4Y/Ki61 historical anchors begin near EX2; exhaust residual separate from radiator/Meredith-type recovery
+historical_designation_guard	50-CURRENT-1939-1941-AIRPOWER-AUDIT/50-HISTORICAL-DESIGNATION-NOT-IDENTICAL-HARDWARE-GUARD-V8.md
+historical_designation_ledger	50-CURRENT-1939-1941-AIRPOWER-AUDIT/50A-HISTORICAL-DESIGNATION-DIFFERENCE-LEDGER-V8.tsv
+historical_identity_semantics	ID0 near-historical / ID1 installed-system / ID2 production / ID3 service / ID4 lot-split / ID5 designation-remap / IDH historical-anchor-only
+navy_a7m_guard	worldline A7M=Gaifu; historical A7M Reppu maps to worldline A9M and is H-anchor only until local adoption/rebaseline
+oob_identity_guard	historical counts do not auto-copy historical lot/config mix or ready rate; use count -> worldline lot/config -> serviceable -> forward -> combat
+current_master_index	CURRENT-MASTER-FILE-INDEX-V8.tsv
+naval_ship_carrier_guard	50-CURRENT-1939-1941-AIRPOWER-AUDIT/50-HISTORICAL-DESIGNATION-NOT-IDENTICAL-HARDWARE-GUARD-V8.md Section 7 / 50A; 42 marine-GT and selected large-marine rebaseline remain technical parents
+fire_control_sighting_canon	50-CURRENT-1939-1941-AIRPOWER-AUDIT/51-FIRE-CONTROL-SIGHTING-BOMBING-INTEGRATION-CANON-V8.md
+fire_control_sighting_ledger	50-CURRENT-1939-1941-AIRPOWER-AUDIT/51A-FIRE-CONTROL-SIGHTING-APPLICATION-LEDGER-V8.tsv
+fire_control_state_semantics	FCS0 historical/basic / FCS1 calibration-QC / FCS2 dedicated sight-calculator-workflow / FCS3 gyro-electrical-analog / FCS4 mature integrated director
+ki27_gunsight_19390627	Type 89 telescopic retained; FCS1; no blanket reflector/gyro retrofit
+bombing_1939_working_effect	well-briefed daylight area target +5-10% effective target-area concentration; no universal CEP/hit multiplier
+nomonhan_current_gate	60-CURRENT-1939-COMBAT-REPLAY/05-1939-05-11-06-27-NOMONHAN-OPENING-PHASE-GATE-V8.md
+nomonhan_current_state	60-CURRENT-1939-COMBAT-REPLAY/06-1939-06-27-STATE-LEDGER-V8.tsv
+relative_mobility_canon	50-CURRENT-1939-1941-AIRPOWER-AUDIT/52-RELATIVE-MOBILITY-GEOMETRY-TIMING-CANON-V8.md
+chiha_mobility_1939	15.3-15.6t working;200hp continuous/220 short;road~39-40;rough +8-15%;grade +12-18%;soft +3-10%;transient +15-25%;no top-speed multiplier
+photo_deepfire_canon	50-CURRENT-1939-1941-AIRPOWER-AUDIT/53-AERIAL-PHOTO-RECON-DEEP-FIRE-INTEGRATION-CANON-V8.md
+ki40_nomonhan_19390820	3 Army Ki40 JF evaluation aircraft;2 forward Hailar/Nomonhan special detachment;1 rear;not operational squadron
+reinforcement_hotreserve_canon	50-CURRENT-1939-1941-AIRPOWER-AUDIT/54-NOMONHAN-REINFORCEMENT-HOT-RESERVE-CANON-V8.md
+first_tank_group_19390819	68 physical;66 serviceable;63 HOT;3rd29 inner reserve;4th34 outer reserve
+at37_19390819	576 usable:192 forward/144 mobile group/240 army reserve
+tank37_19390819	192 usable:16 selected Ha-Go x12
+nomonhan_current_gate	60-CURRENT-1939-COMBAT-REPLAY/09-1939-08-20-SOVIET-OFFENSIVE-DAY1-GATE-V8.md
+nomonhan_current_state	60-CURRENT-1939-COMBAT-REPLAY/10-1939-08-20-STATE-LEDGER-V8.tsv
+nomonhan_war_clock	1939-08-20 24:00
+nomonhan_current_gate	60-CURRENT-1939-COMBAT-REPLAY/13-1939-08-22-OUTSIDE-RELIEF-CORRIDOR-GATE-V8.md
+nomonhan_current_state	60-CURRENT-1939-COMBAT-REPLAY/14-1939-08-22-STATE-LEDGER-V8.tsv
+nomonhan_war_clock	1939-08-22 24:00
+nomonhan_1_27_relief	1/27th Infantry reinforced battalion-group;Aug22 outside shoulder;4 Type94 AT guns;not full 7th Division
+nomonhan_aug22_armor	~29 immediate ready center;3 Chi-Ha remain
+nomonhan_aug22_special_AP	TANK-37~20 usable;AT-37~215 usable theater center

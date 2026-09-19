@@ -1,0 +1,34 @@
+{
+  "revision": "v001",
+  "id": "JAPAN_CARRIER_RESPONSE_PALAU_1944-03-27_31_WORKING_v001",
+  "status": "WORKING_BRANCH_DECISION",
+  "decision_window": "1944-03-27..31",
+  "global_frontier_after_merge": "1944-03-31T24",
+  "parents": [
+    "JAPAN_PACIFIC_CARRIER_STRATEGIC_DECISION_1944-03-20_WORKING_v001",
+    "TF58_DESECRATE_APPROACH_WARNING_1944-03-22_29_WORKING_v001",
+    "PALAU_DESECRATE_I_1944-03-30_31_WORKING_v001"
+  ],
+  "decision_gate": {
+    "physical_capability": "PASS; four-core can fight and surface reserve is strong.",
+    "command_release": "HOLD; Palau defense alone is explicitly insufficient to release the fleet.",
+    "operational_slack": "PARTIAL; carrier-air cadre is recovering rapidly but still strategically expensive to exchange.",
+    "motive_payoff": "FAIL_FOR_BLIND_INTERCEPT; Palau is valuable, but there is no transport/landing force or detached high-value target whose destruction justifies a voluntary TF58 search duel.",
+    "information_quality": "FAIL_FOR_STRIKE_RELEASE; HIGH theater warning but no stable <=90-minute weapon-quality carrier/TG track.",
+    "opportunity_cost": "HIGH; losing strike leaders or decks before five-carrier integration would erase the benefit of the March recovery window."
+  },
+  "decision": "NO-GO FOR EASTWARD CARRIER SORTIE. Raise readiness, protect tanker/egress plans, keep the four-core mobile/concealed on the southern reaction axis, and let Palau absorb the raid.",
+  "actions": [
+    "Four-core shifts to high readiness and sea-training/covered dispersal as necessary, but does not race east toward Palau.",
+    "Submarines/long-range reconnaissance continue to seek a damaged, detached or refueling US subgroup during withdrawal.",
+    "Taiho continues southward integration; its presence does not reopen the gate before five-deck synchronization.",
+    "Heavy surface ships do not make a daylight run toward a fast-carrier force."
+  ],
+  "reopen_conditions": [
+    "fresh <=90-minute multi-source track on a separated/refueling/damaged US subgroup",
+    "confirmed amphibious/transport geometry fixing US fleet position for multiple days",
+    "major US deck mission-kills creating a favorable deck ratio",
+    "credible tanker/egress plan plus preserved Japanese strike cohesion"
+  ],
+  "consistency_guard": "This preserves the established doctrine in DECISION_RATIONALE_VARIABLE_LEDGER_v001: do not sortie main carriers merely to save Palau/Truk."
+}

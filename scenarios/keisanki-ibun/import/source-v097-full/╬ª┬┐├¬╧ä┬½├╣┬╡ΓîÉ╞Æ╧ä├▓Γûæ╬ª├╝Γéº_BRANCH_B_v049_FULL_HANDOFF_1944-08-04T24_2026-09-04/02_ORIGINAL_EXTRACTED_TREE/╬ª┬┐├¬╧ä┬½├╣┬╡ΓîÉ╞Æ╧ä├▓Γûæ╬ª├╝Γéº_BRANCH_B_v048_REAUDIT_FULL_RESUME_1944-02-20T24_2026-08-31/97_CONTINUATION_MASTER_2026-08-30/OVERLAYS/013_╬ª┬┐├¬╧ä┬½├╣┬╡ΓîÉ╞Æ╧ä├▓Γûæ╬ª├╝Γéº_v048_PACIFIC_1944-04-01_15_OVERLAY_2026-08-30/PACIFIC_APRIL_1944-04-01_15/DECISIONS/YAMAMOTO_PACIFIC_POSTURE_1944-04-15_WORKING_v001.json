@@ -1,0 +1,30 @@
+{
+  "revision": "v001",
+  "id": "YAMAMOTO_PACIFIC_POSTURE_1944-04-15_WORKING_v001",
+  "status": "WORKING_BRANCH_DECISION",
+  "decision_time": "1944-04-15T24:00:00+09:00",
+  "global_frontier_after_merge": "1944-04-15T24",
+  "parents": [
+    "COMBINED_FLEET_COMMAND_YAMAMOTO_CORRECTION_1944-03-31_v001",
+    "TAIHO_FIVE_DECK_INTEGRATION_1944-04-01_15_WORKING_v001",
+    "US_FAST_CARRIER_STATE_1944-04-01_15_WORKING_v001",
+    "JAPAN_PACIFIC_ISR_SYSTEM_MATURITY_1944-03-20_31_WORKING_v001"
+  ],
+  "decision_gate": {
+    "Japanese_carrier_system": "PASS for defensive counterstroke and limited five-deck one-cycle operation; NOT yet A-grade repeated five-deck battle tempo.",
+    "US_carrier_balance": "US immediate fast-deck pool grows to 13 by mid-April with Bataan. US remains superior in deck count, radar/CIC, AA and replacement depth.",
+    "fixed_target": "FAIL. No Hollandia operation in Branch and no US amphibious force is fixed in a geometry worth risking the carrier cadre.",
+    "fuel_training": "PASS for southern training/concentration; negative EV for a long eastward hunt.",
+    "ISR": "Japan can watch likely Central-Pacific axes and preserve/disperse assets, but lacks continuous weapon-quality tracking of TF58."
+  },
+  "main_decision": "PRESERVE_AND_FINISH_FIVE_DECK_SYSTEM; STRENGTHEN_MARIANAS; DO_NOT_RAID_MAJURO_OR_CHASE_TF58.",
+  "orders": [
+    "Keep Shokaku/Zuikaku/Hiryu/Soryu/Taiho in the Davao-Celebes/Tarakan southern reaction/training system with rotated anchorages and paid ASW screens.",
+    "Continue secondary carriers as qualification/replacement/ferry/CAP machinery instead of diluting the main five-deck training cycle.",
+    "Push Marianas reinforcement, radar/plot redundancy, dispersal and air-base support; 9th Tank Regiment movement proceeds on the early-April clock.",
+    "Maintain submarine/long-range reconnaissance pressure toward Marshalls/Eniwetok/Majuro approaches but do not turn warning cues into a blind carrier sortie.",
+    "Palau remains a tripwire/recovering forward node, not a main fleet anchorage."
+  ],
+  "Yamamoto_interpretation": "The quieter first half of April has unusually high Japanese value because surviving aircrew cadres convert time into quality faster than historical 1944 Japan. Yamamoto therefore has more reason to preserve the fleet until US amphibious geometry fixes the target, not less.",
+  "hq_location": "Still not forced by this decision. Do not invent Yamamoto's exact personal anchorage unless a later operational event requires it."
+}

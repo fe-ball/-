@@ -1,0 +1,99 @@
+{
+  "revision": "v006",
+  "purpose": "Advance current synchronized branch from the v021 Mar-1943 rollback through 1943-09-30 after closing Aleutians, June Efate, Five-Go Phase II, India/Burma coastal-operation study, and Europe/Eastern Front Q3 synchronization.",
+  "protocol": "00_CONFIG/rule_override_protocol_v002.json",
+  "inherits": "00_CONFIG/current_branch_overrides_v005.json",
+  "overrides": [
+    {
+      "override_id": "OVR-CURRENT-FRONTIER-1943-10-01-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "2026-08-26",
+      "impact_scope": "session_continuation",
+      "effective_rule": "Current synchronized analysis frontier is 1943-10-01T00:00. v021 1943-03-26 reopening has been closed through Sep 30; downstream Q4/1944 files remain provisional until revisited.",
+      "source": "06_RUNTIME/CURRENT_BRANCH_STATE_v004.json"
+    },
+    {
+      "override_id": "OVR-ALEUTIANS-ATTU-CLOSED-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-03-26",
+      "impact_scope": "Aleutians_1943_descendants",
+      "effective_rule": "Use ALEUTIANS_ATTU_KISKA_REAUDIT_1943-03_07_SETTLEMENT_v001: no historical Komandorski battle central, Mar fast convoy reaches Attu, limited May rescue, Attu ends early Jun, Kiska evacuates late Jul. Do not auto-copy historical Komandorski/LANDCRAB outcomes.",
+      "source": "06_RUNTIME/ALEUTIANS_ATTU_KISKA_REAUDIT_1943-03_07_SETTLEMENT_v001.md"
+    },
+    {
+      "override_id": "OVR-YAMAMOTO-SURVIVES-VENGEANCE-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-04-18",
+      "impact_scope": "Combined_Fleet_command_and_descendants",
+      "effective_rule": "Yamamoto survives 1943-04-18. Historical Operation Vengeance kill-chain is unavailable because high-grade COMINT precision and Guadalcanal/P-38 geometry differ. Yamamoto remains Combined Fleet commander through the current 1943 frontier unless later events change it.",
+      "source": "06_RUNTIME/ALEUTIANS_ATTU_KISKA_REAUDIT_1943-03_07_SETTLEMENT_v001.md"
+    },
+    {
+      "override_id": "OVR-EFATE-JUNE-LIMITED-NEUTRALIZATION-001",
+      "action": "replace_behavior",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-06-08",
+      "impact_scope": "South_Pacific_1943_descendants",
+      "effective_rule": "Efate operation occurs Jun 8-9 as limited neutralization, not occupation or compulsory carrier duel. Wasp survives; first-line Japanese carrier group remains largely intact; Efate severe output suppression lasts days and below-full recovery about two weeks.",
+      "source": "06_RUNTIME/EFATE_LIMITED_NEUTRALIZATION_1943-06_SETTLEMENT_v001.md"
+    },
+    {
+      "override_id": "OVR-NO-GUADALCANAL-LEARNING-ANALOG-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1942-08-01",
+      "impact_scope": "Japanese_logistics_doctrine_explanations",
+      "effective_rule": "Do not cite a historical-scale Guadalcanal campaign as the source of Japanese logistics learning in this branch. Avoiding improvised escalating sustainment after overextension is a general anti-pattern visible from logistics accounting and other branch operations, not a Guadalcanal lesson.",
+      "source": "06_RUNTIME/SESSION_2026-08-26_1943Q3_SYNCHRONIZED_HANDOFF_v001.md"
+    },
+    {
+      "override_id": "OVR-INDIA-COASTAL-STUDY-NOT-GO-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-06-15",
+      "impact_scope": "Burma_India_Indian_Ocean_1943",
+      "effective_rule": "India/Burma coastal operation is an advanced operational study/preparation-authorized option through Sep 30, not an execution GO. Cox's Bazar land-sea link is minimum success; Chittagong is conditional exploit; deep Calcutta/Assam advance is not automatic.",
+      "source": "06_RUNTIME/INDIAN_OCEAN_BURMA_COASTAL_OPERATION_STUDY_1943-06_09_v001.md"
+    },
+    {
+      "override_id": "OVR-INDIA-AIR-DROP-NONAXIS-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-08-01",
+      "impact_scope": "Burma_India_logistics",
+      "effective_rule": "Air-drop/flying-boat delivery is small high-value field insurance only. Do not add it to sea/land throughput to make the Cox's sustainment gate pass. Persistent dependence on air supply is an AMBER/RED condition.",
+      "source": "06_RUNTIME/INDIAN_OCEAN_BURMA_COASTAL_OPERATION_STUDY_1943-06_09_v001.md"
+    },
+    {
+      "override_id": "OVR-ALLIED-BURMA-PLANS-NOT-AXIOM-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-06-01",
+      "impact_scope": "Allied_India_Burma_planning",
+      "effective_rule": "Historical Allied CBI/Burma intentions do not imply historical force allocation or schedule. British additional carrier losses, Mediterranean/Home Fleet competition, shipping/crew friction and US Pacific commitments must be paid. A rash British counteroffensive remains possible but low-probability unless readiness/command pressure supports it.",
+      "source": "06_RUNTIME/GLOBAL_1943Q3_SYNCHRONIZATION_LEDGER_v001.md"
+    },
+    {
+      "override_id": "OVR-INDIA-FIRSTLINE-CARRIERS-ZERO-CENTRAL-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-09-01",
+      "impact_scope": "Japanese_carrier_allocation",
+      "effective_rule": "As US new fast-carrier groups become combat-ready, the Sep-end central India package allocates zero Shokaku/Zuikaku/Hiryu/Soryu. They remain Pacific fleet-in-being; India must be designed around secondary carriers/base air/old BB/CA/DD/submarines unless a later Pacific gate reopens them.",
+      "source": "06_RUNTIME/JAPAN_AMPHIBIOUS_NAVAL_WALLET_1943-07_09_v001.json"
+    },
+    {
+      "override_id": "OVR-MEDITERRANEAN-ARMISTICE-NOT-INSTANT-RELEASE-001",
+      "action": "add_branch_rule",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "effective_from": "1943-09-08",
+      "impact_scope": "Royal_Navy_global_allocation",
+      "effective_rule": "Italian armistice starts a gradual RN release clock but does not free Mediterranean carrier/escort/landing resources immediately. Salerno, German occupation, Luftwaffe, convoy/escort and Home Fleet commitments continue; Eastern Fleet reinforcement becomes more plausible only gradually in Oct-Nov and remains conditional.",
+      "source": "06_RUNTIME/GLOBAL_1943Q3_SYNCHRONIZATION_LEDGER_v001.md"
+    }
+  ],
+  "edit_protocol": "v005 remains historical. For continuation v006 plus CURRENT_BRANCH_STATE_v004 and the v022 session handoff take precedence over older frontier and 1943 outcome text."
+}

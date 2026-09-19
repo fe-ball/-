@@ -1,0 +1,133 @@
+{
+  "revision": "v001",
+  "id": "ICHIGO_BRANCH_QUALITATIVE_REAUDIT_1944-04-30_v001",
+  "status": "AUTHORITATIVE_WORKING_REAUDIT_DOES_NOT_ADVANCE_CLOCK",
+  "as_of": "1944-04-30T24:00:00+09:00",
+  "purpose": "Re-audit the No.1/Ichigo-equivalent operation under current Branch B geography, aircrew regeneration, Pacific allocation, Burma no-U-Go, and Five-Go outcomes. Do not import historical Ichi-Go phase timing or older local-forward adjudications automatically.",
+  "historical_reference": {
+    "historical_start": "1944-04-17/19 Honan opening; Hunan-Kwangsi phase late May",
+    "historical_core_objectives": [
+      "secure north-south rail corridors",
+      "capture/deny east and south China Allied airfields including Kweilin/Liuchow potential B-29 sites",
+      "reduce reliance on vulnerable sea transport by creating an overland corridor to Indochina",
+      "damage Nationalist field armies and political position"
+    ],
+    "source_urls": [
+      "https://history.army.mil/portals/143/Images/Publications/catalog/72-38.pdf",
+      "https://www.ibiblio.org/hyperwar/Japan/Monos/JM-45/index.html"
+    ]
+  },
+  "branch_divergences": {
+    "five_go_1943": [
+      "Tongguan captured 1943-03-30/31",
+      "Xian captured 1943-04-16",
+      "Baoji captured 1943-05-07",
+      "Hanzhong captured 1943-07-21; Sichuan Phase III HOLD"
+    ],
+    "western_pressure": "Hanzhong-Guangyuan remains an active front and air/recon pressure system; 36th/41st/17th divisions remain committed at 2.3-2.8 division-equivalents.",
+    "chengdu_matterhorn": "Japan can already impose recurring air-defense/logistics tax on Chengdu/Matterhorn from the Hanzhong system; ground conquest of Sichuan is not required to impose strategic pressure.",
+    "burma": "U-Go deep Imphal/Kohima offensive is NO-GO; this avoids a large IJA aircrew/airframe sink but does not make Burma divisions freely transferable to China.",
+    "shipping": "Branch sea transport is healthier than historical 1944; the continental Korea-to-Indochina corridor retains value as redundancy and occupation integration, but its emergency necessity is lower.",
+    "nanjing": "Expanded Nanjing/security apparatus releases about 3.0-3.8 Japanese division-equivalents of static workload theater-wide, enabling a concentrated Hunan field package without stripping every rear node.",
+    "pacific_1944_04_30": "Five-carrier Japanese system is nearing full combat integration; Central Pacific/Marianas remains the top marginal sink for premium aviation, engineers, communications and fuel. China receives its already prepared package but not unlimited top-grade additions."
+  },
+  "qualitative_result": {
+    "operation_identity": "STAGED_HUNAN_CENTRIC_ICHIGO_EQUIVALENT_NOT_FULL_HISTORICAL_ICHIGO",
+    "northern_honan_phase": {
+      "decision": "NO_LARGE_KOGO_REPLAY",
+      "replacement": "North China/12th Army conducts corridor security, local clearing, bridge/rail repair and anti-guerrilla operations as needed.",
+      "caveat": "Five-Go does not automatically prove the complete Peiping-Hankow through-line is repaired and secure; rail status remains a separate audit item.",
+      "effect": "No need to delay the Hunan main operation for a full historical Honan annihilation phase."
+    },
+    "phase_A": {
+      "axis": "Wuhan-Hankou -> Yueyang/Pailiuchi -> Changsha/Xiangtan",
+      "objectives": [
+        "break northern Hunan defenses",
+        "capture Changsha/Xiangtan transport and airfield nodes",
+        "force Fourteenth Air Force evacuation/demolition of nearby fields",
+        "open rail/river repair southward"
+      ],
+      "force": "10 divisions plus brigades; 60th Division held as theater reserve",
+      "launch_window": [
+        "1944-05-08",
+        "1944-05-12"
+      ],
+      "center": "1944-05-10T05:00:00+09:00",
+      "confidence": "HIGH"
+    },
+    "phase_B": {
+      "axis": "Changsha/Xiangtan -> Hengyang",
+      "decision": "CONDITIONAL",
+      "conditions": [
+        "Changsha/Xiangtan usable as logistics nodes",
+        "limited continuous rail/bridge and Xiang River flow",
+        "650-850 t/day forward combat-supply flow for designated leading force",
+        ">=70% planned truck serviceability after Changsha phase",
+        "artillery ammunition above emergency floor",
+        "Fourteenth Air Force interdiction not causing multi-day transport collapse"
+      ],
+      "strategic_value": "Hengyang remains a major rail/river/air junction and therefore a strong second objective."
+    },
+    "phase_C": {
+      "axis": "Hengyang -> Lingling -> Kweilin/Guilin -> Liuchow/Liuzhou with possible Canton-side linkage",
+      "decision": "SEPARATE_REAUTHORISATION_REQUIRED",
+      "why_less_automatic_than_history": [
+        "healthier branch sea transport reduces emergency need for a continental Southern Army corridor",
+        "Chengdu/Matterhorn already pays a standing air-defense tax from Hanzhong pressure",
+        "Pacific/Marianas absorbs marginal premium assets",
+        "each southern advance lengthens a vulnerable inland logistics and occupation corridor"
+      ],
+      "still_has_value": [
+        "deny Fourteenth Air Force fields",
+        "reduce Chinese rail/network redundancy",
+        "expand Nanjing/Japanese administrative-tax-control zone",
+        "create strategic transport redundancy if achieved at acceptable cost"
+      ]
+    },
+    "sichuan": {
+      "decision": "NO_PURSUIT",
+      "reason": "Five-Go Phase III remains HOLD; Hanzhong-Guangyuan pressure is more cost-effective than another deep mountain campaign."
+    }
+  },
+  "air_reaudit": {
+    "note": "The Apr-25 Fifth Air Army gate predates the explicit branch aircrew-regeneration rule. Apply the regeneration effect to crewed/ready output, not raw aircraft production.",
+    "physical_total": [
+      "275",
+      "325"
+    ],
+    "revised_normal_mission_ready_working": [
+      "220",
+      "265"
+    ],
+    "central_hunan_physical": [
+      "175",
+      "215"
+    ],
+    "central_hunan_normal_ready_working": [
+      "145",
+      "180"
+    ],
+    "hunan_48_72h_surge_ready_working": [
+      "175",
+      "205"
+    ],
+    "interpretation": "A 200+ Hunan ready concentration is plausible as a short surge, not a continuous theater assumption. Western Hanzhong/Sichuan pressure must remain credible.",
+    "source_rule": "JAPAN_AIRCREW_REGENERATION_SOFT_PROGRESS_1944-03-08_WORKING_v001: IJA land-based effective ready output 1.15-1.30 versus a static replacement model; this re-audit uses only a conservative portion because the prior China gate already contained some branch recovery."
+  },
+  "timing_assessment": {
+    "historical_comparison": "The branch Hunan main attack begins about 2.5 weeks earlier than the historical late-May Hunan-Kwangsi phase, while the historical mid-April Honan phase is not replayed at full scale.",
+    "do_not_accelerate_to_april": "Air regeneration improves readiness, but final stocks, concealment, bridge/engineer positioning, truck serviceability and command synchronization remain the binding gates.",
+    "current_decision": "KEEP_MAY_08_12_WINDOW_CENTER_MAY_10"
+  },
+  "chinese_response_implications": {
+    "western_tax": "Chinese/Sichuan forces and air remain taxed by the Hanzhong-Guangyuan salient and Chengdu defense.",
+    "hunan_ground": "This may reduce freely transferable strategic reserve to Hunan, but Five-Go did not destroy the main Chinese field army and no automatic collapse is permitted.",
+    "fourteenth_air_force": "Fourteenth Air Force remains a major interdiction and airfield-denial opponent; stronger Japanese ready fractions improve the opening balance but do not remove the transport-interdiction gate."
+  },
+  "legacy_forward_nodes": {
+    "CHINA_ICHIGO_ANALOG_1944-05-10_10-20_PROVISIONAL_FORWARD_v001.md": "RETAIN_AS_CANDIDATE_ONLY_RECALCULATE_FROM_GLOBAL_CLOCK",
+    "CHINA_ICHIGO_ANALOG_1944-05-27_08-06_FORWARD_ADJUDICATION_v001.md": "REFERENCE_ONLY_DO_NOT_IMPORT; launch date/scale conflict with current gate and later branch audits",
+    "rule": "No future Changsha/Hengyang/Guilin/Liuzhou outcome is pre-awarded by this re-audit."
+  },
+  "next_gate": "At 1944-05-01 through D-day, adjudicate Chinese/Fourteenth Air Force detection, Japanese concealment, final air/engineer/fuel allocation and rail status in North China; then execute Phase A only."
+}

@@ -1,0 +1,18 @@
+{
+  "revision": "v010",
+  "validator": "98_TOOLS/validate_refactor_v008.py",
+  "date": "2026-08-23",
+  "phase": "preflight_then_final",
+  "result": "PASS",
+  "errors": 0,
+  "warnings": 0,
+  "scope": [
+    "JSON parse",
+    "current-family targets",
+    "current checkpoint/graph combat support",
+    "combat factor taxonomy/matrix coverage",
+    "generator factor emission across all profiles",
+    "runtime-input readiness transition",
+    "manifest/checksum final pass"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "revision": "v001",
+  "id": "INDIAN_OCEAN_BENGAL_BACKGROUND_FREEZE_1944-03-12_20_WORKING_v001",
+  "status": "WORKING_BRANCH_BACKGROUND_GATE",
+  "effective_from": "1944-03-12",
+  "through_frontier": "1944-03-20T24",
+  "parents": [
+    "EASTERN_FLEET_BENGAL_DORMANCY_GATE_1944-03-08_WORKING_v001",
+    "BENGAL_ARAKAN_AIR_POSTURE_REBALANCE_1944-03-08_WORKING_v001"
+  ],
+  "Eastern_Fleet": {
+    "INITIAL": "Returns Trincomalee on 12 Mar after training/show-of-force. Japanese late cue from deliberate 11-Mar W/T advertising is insufficient for a weapon-quality intercept before return.",
+    "post_INITIAL": "BACKGROUND_FREEZE. Routine exercises/patrols are not advanced as major events.",
+    "historical_DIPLOMAT_guard": "Do not copy historical 21-Mar DIPLOMAT because its US carrier rendezvous depended on Saratoga CV-3, a permanent Branch carrier loss. Any analogous US/RN carrier cooperation requires a new explicit allocation decision."
+  },
+  "Bengal_Arakan_land": {
+    "Japan": "No Feni/Comilla offensive; hold Chittagong/Patenga, repair logistics and local defense.",
+    "Allies": "No immediate Chittagong recapture offensive; rebuild/re-equip north of the line.",
+    "air": "Use corrected larger local air pools for CAP, sweep, interdiction and reconnaissance, but no event-level land advance is generated absent a ground-operation gate."
+  },
+  "reopen_triggers": [
+    "new Allied carrier reinforcement explicitly allocated to Indian Ocean",
+    "Chittagong recapture or Japanese Feni/Comilla offensive order",
+    "fresh Eastern Fleet approach toward Andaman/Japanese Bengal positions",
+    "Japanese major surface force release west",
+    "confirmed submarine/air event with campaign-level consequence"
+  ],
+  "effect": "From 12 Mar the active strategic clock is Pacific-first; Indian Ocean/Bengal remains conserved background unless a trigger fires."
+}

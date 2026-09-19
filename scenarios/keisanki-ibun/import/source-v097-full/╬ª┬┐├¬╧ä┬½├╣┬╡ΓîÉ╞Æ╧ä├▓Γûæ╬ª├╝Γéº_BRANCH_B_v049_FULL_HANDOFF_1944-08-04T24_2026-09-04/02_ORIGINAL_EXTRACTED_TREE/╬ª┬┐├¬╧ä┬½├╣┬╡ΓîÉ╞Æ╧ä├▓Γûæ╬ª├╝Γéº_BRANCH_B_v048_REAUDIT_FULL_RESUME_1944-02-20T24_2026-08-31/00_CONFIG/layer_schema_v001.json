@@ -1,0 +1,41 @@
+{
+  "revision": "v001",
+  "layers": [
+    {
+      "id": "CORE",
+      "dir": "01_CORE",
+      "definition": "Exogenous computer-scenario assumptions and computer capability clock."
+    },
+    {
+      "id": "TECH",
+      "dir": "02_TECH",
+      "definition": "Technically plausible/accepted effects derived from CORE; includes quantitative and qualitative military mechanisms, not their historical adoption."
+    },
+    {
+      "id": "PREWAR",
+      "dir": "03_PREWAR",
+      "definition": "Changes plausibly realized by the opening of the US war after adoption, budget, production, training, and organizational clocks."
+    },
+    {
+      "id": "WARSTART",
+      "dir": "04_WARSTART",
+      "definition": "Materialized opening snapshot; principal rewind floor for normal wartime simulation."
+    },
+    {
+      "id": "WARTIME",
+      "dir": "05_WARTIME",
+      "definition": "Post-opening history as restartable checkpoint chain and deltas."
+    },
+    {
+      "id": "REFERENCE",
+      "dir": "90_REFERENCE",
+      "definition": "Calculations, long-form aircraft/ship studies, source digests, old branches, and evidence used to support other layers."
+    }
+  ],
+  "crosscutting": [
+    "RULES",
+    "AUDIT",
+    "RUNTIME_PROJECTION"
+  ],
+  "note": "A legacy file may span multiple layers; primary_layer describes responsibility, secondary_layers signal required future splitting."
+}

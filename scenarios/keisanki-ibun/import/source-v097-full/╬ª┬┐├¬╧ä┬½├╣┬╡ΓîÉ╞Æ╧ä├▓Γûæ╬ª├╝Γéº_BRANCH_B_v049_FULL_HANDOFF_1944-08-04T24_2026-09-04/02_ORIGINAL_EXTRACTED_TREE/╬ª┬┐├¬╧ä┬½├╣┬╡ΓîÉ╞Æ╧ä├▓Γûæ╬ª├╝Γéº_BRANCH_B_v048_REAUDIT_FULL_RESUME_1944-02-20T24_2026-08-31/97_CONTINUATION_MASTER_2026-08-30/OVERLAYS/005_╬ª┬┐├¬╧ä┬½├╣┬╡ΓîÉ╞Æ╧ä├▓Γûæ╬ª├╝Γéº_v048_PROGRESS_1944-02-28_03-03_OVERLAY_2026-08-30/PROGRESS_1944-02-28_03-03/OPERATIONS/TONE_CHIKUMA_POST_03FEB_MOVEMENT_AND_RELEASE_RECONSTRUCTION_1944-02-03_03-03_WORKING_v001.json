@@ -1,0 +1,58 @@
+{
+  "revision": "v001",
+  "id": "TONE_CHIKUMA_POST_03FEB_MOVEMENT_AND_RELEASE_RECONSTRUCTION_1944-02-03_03-03_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_CURRENT_OVERLAY",
+  "as_of": "1944-03-03T24:00:00+09:00",
+  "purpose": "Close the Branch-specific movement/release chain that the historical SA No.1 chronology cannot supply after Tone and Chikuma fought with the carrier force on 3 Feb.",
+  "branch_fixed_inputs": [
+    "Tone and Chikuma were in the 3-Feb first-line carrier screen in the Branch.",
+    "The carrier force withdrew west after severe air-group attrition; Hiryu required Truk emergency repair while Shokaku/Zuikaku remained operational.",
+    "High-value mobile assets were evacuated from Truk before the 20-21 Feb HAILSTONE-equivalent attack.",
+    "Central-Pacific priority remained HIGH through HAILSTONE/CATCHPOLE and explicitly blocked automatic second Indian-Ocean surface reinforcement."
+  ],
+  "reconstructed_route_band": [
+    {
+      "window": "1944-02-03..06",
+      "state": "WITH_CARRIER_FORCE_WITHDRAWAL",
+      "center": "withdraw Marshalls sector -> Truk/western egress; no battle damage to either cruiser is posted"
+    },
+    {
+      "window": "1944-02-06..15",
+      "state": "MOBILE_FORCE_SCREEN/SCOUT_POOL",
+      "center": "Truk-centered or immediate western approaches while carrier repair/refuel/air-group triage proceeds; not available for Indian Ocean assignment"
+    },
+    {
+      "window": "1944-02-15..18",
+      "state": "HIGH_VALUE_EVACUATION_WEST",
+      "center": "depart Truk before HAILSTONE risk peak and reach Palau/western-Carolines support axis; exact port-hour intentionally not overfixed"
+    },
+    {
+      "window": "1944-02-18..03-03",
+      "state": "PALAU_WESTERN_PHILIPPINES_MOBILE_POOL",
+      "center": "retained in carrier-scout/screen pool; plausible movement within Palau-Davao/western-Philippines support axis, but no dated southbound chain to Lingga"
+    }
+  ],
+  "readiness_at_27Feb_03Mar": {
+    "hull_machinery": "OPERATIONAL centered; no Branch damage debit is posted to either cruiser from 3 Feb.",
+    "crew": "Initial battle/transit fatigue largely recovered by late Feb, but reconnaissance teams and shipboard aircraft remain high-value mobile-fleet assets.",
+    "fuel": "Adequate for assigned mobile-fleet movements via western support nodes; not treated as discretionary fuel for a low-payoff detour.",
+    "availability_interpretation": "CAPABLE does not equal SURPLUS."
+  },
+  "01Mar_command_effect": "Formation/reorganization of the First Mobile Fleet increases the institutional value of keeping first-line scout cruisers with the carrier force. It does not itself move them to Lingga or authorize commerce raiding.",
+  "release_decision_at_03Mar": {
+    "Tone": "RETAIN_MOBILE_FLEET",
+    "Chikuma": "RETAIN_MOBILE_FLEET",
+    "Indian_Ocean_debit": 0
+  },
+  "future_gate": "They may later move south with the Mobile Fleet for fuel/training concentration; that is a fleet-basing decision and must not be confused with release for a commerce raid.",
+  "historical_contrast": {
+    "Tone": "Historically left Truk 1 Feb and reached Lingga 21 Feb, a chain invalidated by the Branch 3-Feb battle.",
+    "Chikuma": "Historically completed Kure refit 1 Feb and reached Lingga 13 Feb, also invalidated by the Branch 3-Feb battle.",
+    "lesson": "Historical readiness at Lingga on 27 Feb cannot be inherited after the Branch battle."
+  },
+  "sources_external": [
+    "https://www.combinedfleet.com/tone_t.htm",
+    "https://www.combinedfleet.com/chikuma_t.htm",
+    "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1944/battle-philippine-sea/turkey-shoot.html"
+  ]
+}

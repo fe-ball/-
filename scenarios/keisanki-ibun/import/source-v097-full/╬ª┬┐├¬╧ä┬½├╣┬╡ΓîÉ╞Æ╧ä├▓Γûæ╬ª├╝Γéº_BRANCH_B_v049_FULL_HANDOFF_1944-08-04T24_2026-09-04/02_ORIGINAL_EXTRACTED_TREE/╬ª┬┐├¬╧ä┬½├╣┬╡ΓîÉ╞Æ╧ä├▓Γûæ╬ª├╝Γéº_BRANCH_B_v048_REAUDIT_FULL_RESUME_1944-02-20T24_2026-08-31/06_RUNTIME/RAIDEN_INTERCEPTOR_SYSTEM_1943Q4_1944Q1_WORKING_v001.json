@@ -1,0 +1,202 @@
+{
+  "revision": "v001",
+  "id": "RAIDEN_INTERCEPTOR_SYSTEM_1943Q4_1944Q1_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_CURRENT",
+  "as_of": "1944-01-28",
+  "purpose": "Close Raiden/J2M as a full land-base interceptor system: production median, variant split, altitude envelope, armament, base readiness, radar/plot/radio-vector integration, attack-cycle limits and target-specific implications. This is a working overlay on TECH-AIR-J2M-FIELDING-1942-43-001; it does not change TECH_INDEX_v009 authority.",
+  "authority_anchor": {
+    "tech": "02_TECH/TECH_INDEX_v009.json#TECH-AIR-J2M-FIELDING-1942-43-001",
+    "fielding": "06_RUNTIME/AIRCRAFT_FIELDING_LEDGER_1943-10-01_v003.json",
+    "ew_c2": "06_RUNTIME/ELECTRONIC_WARFARE_OPERATIONAL_DERIVATIVES_1942-1944_v001.md",
+    "galvanic_lessons": "06_RUNTIME/GALVANIC_AIRCRAFT_AFTER_ACTION_LESSONS_1943-12_v002.md"
+  },
+  "historical_sanity_anchors": [
+    {
+      "subject": "J2M2/J2M3",
+      "use": "Historical published figures around 596 km/h near 5.45 km and roughly 5:38-5:40 to 6 km are used only to prevent a Branch production median from exceeding plausible airframe/engine physics."
+    },
+    {
+      "subject": "J2M3/J2M3a armament",
+      "use": "Historical J2M3 mixed Type 99 Model 1/2 cannon and J2M3a four Model 2 cannon constrain how quickly the Branch can claim ballistic unification."
+    },
+    {
+      "subject": "J2M4/J2M5",
+      "use": "Historical turbo-supercharged J2M4 remained troublesome; mechanically supercharged J2M5 demonstrates that high-altitude improvement can exist without granting a mature turbo fleet."
+    }
+  ],
+  "national_inventory_working_1944_01_28": {
+    "note": "Extrapolated from accepted Aug-1943 fielding and 1943H2 30-40/month center. These are January WORKING inventory bands, not a rewrite of the 1943-10 authority ledger.",
+    "completed_or_accepted_cumulative_band": [
+      410,
+      455
+    ],
+    "completed_or_accepted_center": 432,
+    "frontline_assigned_band": [
+      255,
+      300
+    ],
+    "frontline_assigned_center": 278,
+    "normal_serviceable_band": [
+      195,
+      235
+    ],
+    "normal_serviceable_center": 215,
+    "warning": "Do not compare national serviceable inventory with one theater's immediately launchable count. Allocation, base quality and alert posture are separate."
+  },
+  "variants": {
+    "standard_production_raiden": {
+      "role": "3-8 km short-duration base interception; strongest in roughly 3-6 km band; not a fighter-sweep or long-range escort aircraft.",
+      "engine": "Kasei 20/23-class Branch production line, about 1,800-1,850 hp class; Branch benefit is cooling/vibration/tolerance median rather than magical rated-power increase.",
+      "loaded_mass_kg_band": [
+        3300,
+        3450
+      ],
+      "max_speed_kmh_band": [
+        590,
+        600
+      ],
+      "max_speed_altitude_km_band": [
+        5.4,
+        5.8
+      ],
+      "climb_to_6000m_production_median": "5:35-5:55",
+      "climb_to_6000m_good_aircraft_or_prototype_tail": "5:20-5:34; not the national production median",
+      "ceiling_m_band": [
+        11300,
+        11800
+      ],
+      "ceiling_guard": "Service ceiling is not practical interception ceiling. At 9-10 km the standard aircraft has little sustained closure margin and depends on early warning/front-quarter geometry.",
+      "altitude_bands": [
+        {
+          "band": "0-3 km",
+          "assessment": "strong acceleration/climb; excellent for low/medium raid interception but vulnerable to escort energy tactics"
+        },
+        {
+          "band": "3-6 km",
+          "assessment": "best overall interception band; useful closure margin against B-24-class bombers when vectoring is timely"
+        },
+        {
+          "band": "6-8 km",
+          "assessment": "still useful, but climb/closure margin declines; attack planning becomes warning-time dependent"
+        },
+        {
+          "band": "8-9 km",
+          "assessment": "marginal sustained chase; useful mainly if already climbing/on altitude or given early front-quarter vector"
+        },
+        {
+          "band": "9-10 km",
+          "assessment": "poor sustained B-29-class chase; one front-quarter pass may be possible with long warning, but do not model parity"
+        }
+      ]
+    },
+    "high_altitude_mechanical_supercharge_subset": {
+      "role": "limited high-altitude interception subset from the domestic high-altitude Kasei line; a Branch variant family, not a claim that every aircraft is an exact historical J2M5 copy.",
+      "development_clock": "ground/high-altitude work 1942; flight integration late-1942 through 1943; limited practical use 1943H2; standardization begins 1944.",
+      "physical_or_accepted_subset_band": [
+        24,
+        36
+      ],
+      "frontline_assigned_subset_band": [
+        18,
+        28
+      ],
+      "serviceable_subset_band": [
+        14,
+        22
+      ],
+      "inventory_guard": "All figures are subsets of national Raiden totals above, never additive.",
+      "max_speed_kmh_band": [
+        605,
+        615
+      ],
+      "max_speed_altitude_km_band": [
+        6.5,
+        7.1
+      ],
+      "climb_to_6000m": "6:10-6:30",
+      "climb_to_8000m": "9:40-10:20",
+      "practical_intercept_band": "useful into roughly 8.5-9.3 km with adequate warning; 10 km remains marginal, especially for repeat attacks",
+      "allocation_priority": "Truk/Palau/home-defense and other strategic A-grade bases before remote outer-island sprinkling."
+    },
+    "exhaust_turbo_experimental": {
+      "status_on_1944_01_28": "TEST_ONLY_COMBAT_READY_0",
+      "role": "high-altitude technology test; not counted in operational squadrons",
+      "guard": "Do not use turbo-supercharged Raiden performance in 1943 or Jan-1944 combat. Historical J2M4 experience is a caution that rated-altitude gain does not equal service maturity."
+    }
+  },
+  "armament_state_1944_01_28": {
+    "frontline_four_20mm_share_band": "75-85%",
+    "frontline_early_two_20mm_plus_two_7_7mm_share_band": "15-25%",
+    "frontline_unified_four_Type99_Model2_equivalent_share_band": "35-50% of total frontline Raiden; subset of four-cannon aircraft",
+    "mixed_four_cannon_note": "A substantial four-cannon population still mixes Model 1/Model 2 ballistic characteristics. Branch testing and production control accelerate convergence but do not erase existing airframes.",
+    "bomber_attack_doctrine": "Prefer short front-quarter/beam or high-side attacks, using heavy 20-mm volume and minimizing time inside bomber defensive fire; do not center long tail chases."
+  },
+  "base_readiness_and_c2": {
+    "priority_A_grade_base_normal_serviceability": "72-82%",
+    "B_grade_base_normal_serviceability": "65-75%",
+    "remote_or_supply_stressed_base_normal_serviceability": "58-70%",
+    "high_alert_staging_for_18_to_30_aircraft_unit": {
+      "five_minute_ready": "4-6 aircraft",
+      "ten_to_fifteen_minute_ready": "additional 6-10 aircraft",
+      "twenty_to_thirty_minute": "remaining serviceable aircraft, subject to maintenance and runway state"
+    },
+    "control_chain": [
+      "radar / visual / DF / passive-warning inputs",
+      "base plot cell correlation with weather and raid direction",
+      "scramble decision and layered altitude assignment",
+      "radio vector to coarse intercept box",
+      "visual acquisition and section attack",
+      "rejoin / landing / refuel / second alert cycle"
+    ],
+    "capability_guard": "This is improved Japanese base fighter direction, not US-style continuous precision GCI/CIC. Radar may buy minutes and a coarse vector; visual acquisition still matters and degraded communications can break the loop."
+  },
+  "warning_to_intercept_working_matrix": [
+    {
+      "usable_warning": "8-12 min",
+      "standard_raiden": "one late/intermediate-altitude opportunity versus a B-24-type raid if geometry is favorable",
+      "high_alt_subset": "usually too little time for a useful 8-9 km setup",
+      "B29_note": "ground-scramble standard aircraft normally cannot establish a good high-altitude B-29 intercept"
+    },
+    {
+      "usable_warning": "14-18 min",
+      "standard_raiden": "solid 5-7 km interception setup; one attack and possible partial rejoin",
+      "high_alt_subset": "can reach roughly 7.5-8.5 km depending on launch altitude/weather",
+      "B29_note": "limited; still geometry-sensitive"
+    },
+    {
+      "usable_warning": "20-26 min",
+      "standard_raiden": "can be positioned around 7-8 km for front-quarter/beam interception",
+      "high_alt_subset": "can reach about 8.5-9 km and becomes the real B-29-relevant core",
+      "B29_note": "one good pass becomes plausible; sustained chase does not"
+    },
+    {
+      "usable_warning": "28+ min",
+      "standard_raiden": "layered setup and a second pass may be possible against predictable medium-altitude raids",
+      "high_alt_subset": "best chance for pre-positioned high-altitude interception",
+      "B29_note": "repeat attack still constrained by closure, oxygen, engine power, defensive fire and raid track"
+    }
+  ],
+  "target_specific_implications": {
+    "B24_class": "At typical 5-7.5 km approach, standard Raiden has meaningful speed/climb margin. Radar-assisted A-grade bases can make it a serious interceptor, but bomber formation fire and escort prevent easy kill assumptions.",
+    "B29_class": "Standard Raiden cannot be converted wholesale into an effective 8.5-10 km B-29 interceptor. Early warning can create a first pass; the limited high-altitude Kasei subset is the relevant core. Future inventories must split variants before computing B-29 losses.",
+    "F6F_F4U_class": "Raiden is dangerous as an energy-rich base-defense interceptor but remains a poor abstraction as a long fighter-sweep duelist. US carrier radar/CIC/fighter direction retains a major system advantage."
+  },
+  "marshall_1944_01_28_composition_overlay": {
+    "serviceable_raiden_band": [
+      12,
+      18
+    ],
+    "serviceable_raiden_center": 16,
+    "Taroa_center": 10,
+    "Roi_center": 6,
+    "high_altitude_subset_center_band": "0-2",
+    "accounting": "These aircraft are a subset of the already-closed 72 serviceable fighter/local-cover slots in MARSHALL_AIR_OOB; they do not raise theater totals.",
+    "unit_identity_guard": "Treat as base-defense detachments/allocations until a named kokutai transfer trace is closed; do not rewrite historical unit identity merely to fit aircraft type."
+  },
+  "downstream_guards": [
+    "The 4/30 working figure 'Raiden frontline ready 260-300' is an inventory/readiness figure, not 260-300 B-29-effective high-altitude interceptors.",
+    "Do not add A-grade base warning gains to carrier CAP as though the same fixed plot/radar chain exists at sea.",
+    "If radar/plot/radio is suppressed, the aircraft retains platform performance but loses much of the system-level exchange benefit.",
+    "Do not retroactively change GALVANIC fighter losses: the post-battle procedural learning starts after the battle."
+  ]
+}

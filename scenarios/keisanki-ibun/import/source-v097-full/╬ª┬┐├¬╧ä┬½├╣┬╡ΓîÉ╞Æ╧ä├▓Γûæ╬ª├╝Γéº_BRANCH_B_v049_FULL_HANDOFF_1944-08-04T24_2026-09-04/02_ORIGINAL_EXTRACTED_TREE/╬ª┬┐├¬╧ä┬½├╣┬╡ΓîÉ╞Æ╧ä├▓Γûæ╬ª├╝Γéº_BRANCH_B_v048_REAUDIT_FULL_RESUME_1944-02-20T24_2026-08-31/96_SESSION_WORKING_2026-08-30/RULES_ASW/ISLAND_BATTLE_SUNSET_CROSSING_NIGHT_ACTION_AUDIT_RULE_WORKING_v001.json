@@ -1,0 +1,33 @@
+{
+  "revision": "v001",
+  "id": "ISLAND_BATTLE_SUNSET_CROSSING_NIGHT_ACTION_AUDIT_RULE_WORKING_v001",
+  "status": "WORKING_MANDATORY_RULE",
+  "rule": "Whenever a rollback/re-adjudication moves an objective-secure or organized-resistance end time across an additional local sunset, open a separate night-action gate.",
+  "possible_outputs": [
+    "infiltration",
+    "small counterattack",
+    "major counterattack",
+    "breakout/extraction",
+    "ammo/water redistribution",
+    "wounded/equipment recovery",
+    "engineer demolition/mining",
+    "resupply by boat",
+    "no meaningful action due exhaustion/C2 collapse"
+  ],
+  "systemic_costs": [
+    "enemy casualties",
+    "own casualties",
+    "ammo/fuel",
+    "sleep/fatigue",
+    "illumination and naval/artillery expenditure",
+    "engineer workload",
+    "next-day start delay"
+  ],
+  "annihilation_guard": "Final garrison survival may still be zero; additional night effects persist in enemy losses, time, consumption and fatigue.",
+  "applies_to": [
+    "Tarawa/GALVANIC",
+    "Kwajalein/FLINTLOCK",
+    "Saipan/FORAGER",
+    "future Guam/Tinian/Peleliu/Iwo/Okinawa equivalents"
+  ]
+}

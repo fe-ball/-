@@ -1,0 +1,84 @@
+{
+  "id": "GALVANIC_BASE_AIR_OOB_AND_HARDENING_1943-11-23_WORKING_v002",
+  "status": "WORKING_REAUDIT_NOT_AUTHORITY_ARITHMETIC_REPAIRED",
+  "as_of": "1943-11-23T00:00:00+12:00",
+  "semantic_base": "Branch B v048",
+  "supersedes_working": "GALVANIC_BASE_AIR_OOB_AND_HARDENING_1943-11-23_WORKING_v001",
+  "repair": {
+    "problem": "v001 base allocation summed to physical 167/serviceable 136 while regional centers were 166/134.",
+    "changes": [
+      "Kwajalein/Roi-Ebeye Zuiun physical/serviceable 2 -> 1; regional Zuiun center restored to 5.",
+      "Other dispersed lagoon/water legacy recon serviceable 2 -> 1 while physical remains 3; regional legacy serviceable restored to 15."
+    ],
+    "no_combat_power_added": true
+  },
+  "regional_totals_center": {
+    "land_fighters_physical": 88,
+    "land_fighters_serviceable": 73,
+    "attack_aircraft_physical": 39,
+    "attack_aircraft_serviceable": 30,
+    "legacy_recon_flyingboat_float_physical": 19,
+    "legacy_recon_flyingboat_float_serviceable": 15,
+    "Kyofu_physical": 15,
+    "Kyofu_serviceable": 11,
+    "Zuiun_physical": 5,
+    "Zuiun_serviceable": 5,
+    "all_physical_center": 166,
+    "all_serviceable_center": 134
+  },
+  "base_serviceable_center": {
+    "Tarawa_Betio": {
+      "fighter": 14,
+      "attack": 3,
+      "legacy_recon": 1
+    },
+    "Maloelap_Taroa": {
+      "fighter": 23,
+      "attack": 5,
+      "legacy_recon": 2,
+      "Zuiun": 1,
+      "Raiden_subset": 10
+    },
+    "Mili": {
+      "fighter": 9,
+      "attack": 11,
+      "legacy_recon": 1,
+      "Kyofu": 2,
+      "Zuiun": 1
+    },
+    "Wotje": {
+      "fighter": 8,
+      "attack": 3,
+      "legacy_recon": 1,
+      "Zuiun": 1
+    },
+    "Jaluit": {
+      "fighter": 3,
+      "attack": 2,
+      "legacy_recon": 3,
+      "Kyofu": 5,
+      "Zuiun": 1
+    },
+    "Kwajalein_Roi_Ebeye": {
+      "fighter": 11,
+      "attack": 3,
+      "legacy_recon": 5,
+      "Zuiun": 1
+    },
+    "Nauru": {
+      "fighter": 5,
+      "attack": 3,
+      "legacy_recon": 1
+    },
+    "other_dispersed_lagoon_nodes": {
+      "legacy_recon": 1,
+      "Kyofu": 4
+    }
+  },
+  "guards": [
+    "Kinsei Zero shore allocation centered zero.",
+    "No Operation-RO historical drain unless Branch-equivalent event proven.",
+    "Open-top revetments reduce fragment/chain loss, not direct-hit lethality.",
+    "Water-air is not erased by runway suppression."
+  ]
+}

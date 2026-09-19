@@ -1,0 +1,118 @@
+{
+  "revision": "v001",
+  "id": "GALVANIC_FIRST_CONTACT_LEDGER_1943-11-22_23_v001",
+  "status": "CURRENT_WORKING_REAUDIT_LEDGER",
+  "scope": "Operation GALVANIC Branch-B contact chain from late 1943-11-22 through the first firm Japanese external sensor contact on the morning of 1943-11-23. Stops before weapon release.",
+  "parent_checkpoint": "CHECKPOINT_1943-11-23T00_BRANCH_B_GALVANIC_REAUDIT_v001",
+  "parent_sortie_ledger": "06_RUNTIME/GALVANIC_SORTIE_MOBILIZATION_LEDGER_1943-11-10_23_v001.json",
+  "adjudication_rule": "Use EM warning -> bearing history/battle preparation -> sensor contact -> track -> weapon-quality. This ledger closes through SENSOR CONTACT / partial operational TRACK only; no strike or surface-weapon result is inherited from the old settlement.",
+  "environment": {
+    "weather_center": "Partly cloudy / broken tropical trade-weather regime; working visibility 10-20 nmi in clear sectors, easterly 10-18 kt, slight-to-moderate sea. Historical GALVANIC aerology reports 12-20 mile visibility and satisfactory reconnaissance/landing weather through succeeding days; Branch D-day is shifted, so this is a fallback band rather than an exact copied observation.",
+    "moon": "Waning crescent. Roughly 15-20% illuminated on 11/23 and about 10% on 11/24; moon is mainly a pre-dawn object, leaving the evening/first half of night very dark.",
+    "operational_effect": "Daybreak visual search is workable; the following night strongly favors concealment and makes recontact/reporting more important than moonlit visual acquisition."
+  },
+  "search_system": {
+    "southern_marshalls_priority_sector": "Mili-Jaluit-Taroa/Kwajalein correlation line, with visual/RI-DF/passive ESM and selected warning-radar inputs. Do not assume every island has every Branch device.",
+    "passive_ESM_fit": {
+      "status": "CENTERED_SELECTED_PRIORITY_NODES",
+      "centered_geometry": "At least two reporting nodes across the southern-Marshalls approach sector have metric-band passive warning/DF integration by 1943H2; exact box serials are not asserted.",
+      "capability": "Bearing/warning against compatible US metric emissions; no range, no reliable ship type, no SG/10-cm immunity.",
+      "sensitivity": "One effective node delays/narrows the warning less efficiently; three nodes improve bearing history. The centered first-contact conclusion does not require fleetwide ESM."
+    },
+    "air_search_assets_relevant_to_contact": {
+      "legacy_long_range": "H8K/H6K/G4M-recon class and mature E13A/F1M search/observation assets remain the broad-search backbone; exact local type counts are still being closed for weapon-release adjudication.",
+      "D4Y": "Use for fast confirmation when locally assigned; not assumed everywhere.",
+      "Zuiun": "Small first-detachment layer is allowed in the Marshall-side network by 11/23. It is held primarily for re-search/fast confirmation, not credited with creating the initial broad-ocean detection by itself.",
+      "working_dawn_search_effort": "About 7-10 useful long-range/floatplane search sorties across the southern search ring is the centered event-level effort after fatigue, maintenance and other duties; 1-2 fast re-search/confirmation sorties can be generated if the local Zuiun/D4Y allocation is serviceable.",
+      "anti_error": "Do not add national aircraft inventories or the entire 4-7-ready Zuiun working regional band to one base."
+    }
+  },
+  "US_emission_and_route_state": {
+    "route": "Branch routing is not historical one-for-one because Midway is Japanese-held and Espiritu Santo/New Caledonia are unavailable. However, by D-1 carrier cover and assault forces must enter the Gilbert/southern-Marshall operating geometry to suppress Mili/Jaluit/Tarawa/Makin and cover the landings.",
+    "emission_state": "Fast-carrier/CVL formations cannot remain completely radio/radar silent while running CAP, search, ASW, launch/recovery and fighter direction in a known Japanese air-threat area. Some compatible metric emissions are therefore available to passive warning even under disciplined EMCON.",
+    "screen_effect": "US radar/CAP makes Japanese scouts vulnerable and can break continuous shadowing; it does not prevent a scout from transmitting a short contact report before interception."
+  },
+  "contact_sequence": [
+    {
+      "time_band_local": "1943-11-22 21:00..23:59",
+      "stage": "EM_WARNING",
+      "result": "Intermittent compatible emissions plus RI/DF/traffic and the already-tight Gilbert-Marshall target inference produce a probable large US naval-force bearing sector. No carrier identity or range is obtained.",
+      "quality": "LOW_TO_MODERATE; operational warning only"
+    },
+    {
+      "time_band_local": "1943-11-23 01:30..04:30",
+      "stage": "BEARING_HISTORY_BATTLE_PREPARATION",
+      "result": "Repeated/shifted bearings and external indicators narrow the priority dawn-search sectors. Search crews, selected attack units, submarine sectors and light-surface readiness are raised. This buys preparation time but is still not a target solution.",
+      "quality": "MODERATE sector cue"
+    },
+    {
+      "time_band_local": "1943-11-23 05:30..06:20",
+      "stage": "SEARCH",
+      "result": "Dawn search launches into the narrowed southern/eastern approach sectors. Legacy long-range aircraft carry the wide arcs; faster scarce aircraft are reserved or redirected for suspicious-contact confirmation.",
+      "quality": "CUE-ASSISTED SEARCH"
+    },
+    {
+      "time_band_local": "1943-11-23 06:10..07:10",
+      "center_time_local": "about 06:30",
+      "stage": "SENSOR_CONTACT",
+      "result": "A Japanese long-range scout visually acquires one US carrier-cover formation in the Gilbert-southern-Marshall operating area and transmits before CAP can fully erase the report. The centered report supports 'carrier task group / multiple flight decks probable, heavy escorts present' but not an exact named OOB.",
+      "contact_target": "One fast-carrier/CVL cover formation, not the entire US fast-carrier pool and not yet the complete assault convoy disposition.",
+      "quality": "FIRM OPERATIONAL CONTACT; NOT WEAPON-QUALITY"
+    },
+    {
+      "time_band_local": "1943-11-23 06:45..08:15",
+      "stage": "PARTIAL_TRACK_RECONTACT",
+      "result": "A re-search/confirmation attempt, aided where available by D4Y/Zuiun-speed and the narrowed sector, refreshes the contact enough to validate continued carrier activity. US CAP/radar pressure prevents a clean continuous shadow. Report latency/position error remains combat-relevant.",
+      "quality": "PARTIAL TRACK",
+      "working_report_age": "roughly 20-50 minutes at the receiving operational command after confirmation",
+      "working_position_error": "roughly 20-40 nmi class after relay and target movement; course/speed only approximate"
+    }
+  ],
+  "centered_outcome": {
+    "first_firm_external_contact": "Morning 1943-11-23, centered about 06:30 local, by Japanese air reconnaissance after earlier passive/DF cueing.",
+    "what_Japan_knows": [
+      "A major US carrier-covered operation is immediately present in the Gilbert-southern-Marshall battle space.",
+      "At least one carrier task group is visually confirmed and large enough to justify immediate strike planning.",
+      "The prior amphibious inference is strongly reinforced."
+    ],
+    "what_Japan_does_not_know": [
+      "The exact disposition of all US CV/CVL groups.",
+      "The exact assault convoy location and screen geometry.",
+      "Whether the sighted carrier group is the best target or a covering/interceptor element.",
+      "A weapon-quality range/course solution valid hours later."
+    ],
+    "US_awareness": "US radar/CAP likely detects or chases at least one scout/confirming aircraft, so US commanders know Japanese reconnaissance is active; they do not necessarily know how much of the report was transmitted or correlated with passive bearings."
+  },
+  "historical_fallback_comparison": {
+    "note": "Historical GALVANIC also produced a D-1 Japanese carrier-force sighting; this is used as a detectability sanity check, not copied as an exact Branch position/time. Branch B has healthier Marshall air and better cue-to-confirm process, but different US routing and D-day.",
+    "historical_sanity_check": "A Japanese account summarized by Stan Jersey places discovery of two US carrier striking groups at about 0630 on historical D-1 (19 Nov), about 100 miles south/southwest of Tarawa."
+  },
+  "qualitative_threshold_test": {
+    "crossed": true,
+    "reason": "The old detailed settlement did not explicitly carry a firm D-1 cue-to-contact chain and placed its first major Marshall night air strike after the Branch landings. The re-audit now yields a credible firm carrier contact early on 11/23, while the local air wallet is healthier and the following night is very dark. This creates a real pre-D-day 11/23-24 strike/recontact decision gate and must be resolved before returning to the old sequence.",
+    "not_yet_changed": "US landing success, named carrier damage and the four-carrier Japanese main-body decision are not changed yet. The threshold is an operational branch gate, not a pre-awarded hit."
+  },
+  "next_boundary": {
+    "time": "1943-11-23 afternoon through night 11/23-24",
+    "question": "Can Japan maintain/reacquire a sufficiently fresh target track to launch a night land-air strike and/or light-surface one-pass probe before D-day, and what does US radar/CAP/screen geometry do to that attempt?",
+    "must_close_before_weapon_release": [
+      "base-by-base Marshall/Gilbert attack/recon ready aircraft and night-qualified crews",
+      "named light-surface group hulls/readiness/fuel and launch position",
+      "submarine on-station hulls/patrol-days and approach sectors",
+      "US fast-carrier/assault-force screen and route geometry on 11/23",
+      "actual emitting/radar-equipped US formations and Japanese selected ESM-equipped nodes/ships",
+      "event weather/cloud/visibility and recovery-base condition after D-1 suppression"
+    ]
+  },
+  "sources": [
+    "06_RUNTIME/GALVANIC_SORTIE_MOBILIZATION_LEDGER_1943-11-10_23_v001.json",
+    "06_RUNTIME/SEAPLANE_TACTICS_LEDGER_1943-10-01_v001.json",
+    "06_RUNTIME/AIRCRAFT_FIELDING_LEDGER_1943-10-01_v001.json",
+    "06_RUNTIME/ELECTRONIC_WARFARE_OPERATIONAL_DERIVATIVES_1942-1944_v001.md",
+    "02_TECH/TECH_INDEX_v009.json",
+    "NHHC, Occupation of the Gilbert Islands / aerology report (historical weather fallback)",
+    "NHHC, H-025-1 Operation Galvanic (carrier/CVE and Japanese counterattack context)",
+    "Radar and the Fighter Directors, Gilbert and Marshall Islands chapter (US radar/CAP/fighter-direction context)",
+    "Stan Jersey, Japanese Forces in the Gilbert and Nauru Islands (historical D-1 Japanese sighting sanity check)"
+  ]
+}

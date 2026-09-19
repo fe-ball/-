@@ -1,0 +1,38 @@
+{
+  "revision": "v004",
+  "json_parse": "PASS",
+  "json_count": 87,
+  "legacy_byte_identity": "PASS",
+  "legacy_files": 188,
+  "coverage_test": "PASS",
+  "warstart_completeness": "PASS_READY_WITH_EXPLICIT_BOUNDS",
+  "formal_restart_checkpoint": "PASS",
+  "json_count_postclose": 91,
+  "json_parse_postclose": "PASS",
+  "postclose_errors": [],
+  "key_files": [
+    {
+      "file": "05_WARTIME/CHECKPOINT_1942-05-06T24_v001.json",
+      "exists": true
+    },
+    {
+      "file": "04_WARSTART/WARSTART_STATE_LEDGER_v002.json",
+      "exists": true
+    },
+    {
+      "file": "06_RUNTIME/EVENT_RELEVANCE_PROFILES_v002.json",
+      "exists": true
+    },
+    {
+      "file": "00_CONFIG/DOMAIN_STATE_MAP_v001.json",
+      "exists": true
+    },
+    {
+      "file": "95_AUDIT/FULL_LEGACY_RESIDUAL_AUDIT_v001.json",
+      "exists": true
+    }
+  ],
+  "graph_current_warstart_present": true,
+  "carrier_handout_generated": true,
+  "coral_sea_reaudit_packet_generated": true
+}

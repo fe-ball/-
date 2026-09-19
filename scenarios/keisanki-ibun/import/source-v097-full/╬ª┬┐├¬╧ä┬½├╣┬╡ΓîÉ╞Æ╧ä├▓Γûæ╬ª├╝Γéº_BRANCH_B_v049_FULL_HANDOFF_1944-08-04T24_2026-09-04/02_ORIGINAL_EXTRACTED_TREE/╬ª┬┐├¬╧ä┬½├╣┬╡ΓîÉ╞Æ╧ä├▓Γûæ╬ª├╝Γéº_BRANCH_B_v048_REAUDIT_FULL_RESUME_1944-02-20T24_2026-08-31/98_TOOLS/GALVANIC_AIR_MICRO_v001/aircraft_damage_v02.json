@@ -1,0 +1,647 @@
+{
+  "model_version": "air-microcombat-v0.2",
+  "note": "Protection fields are zonal working inputs, not literal whole-aircraft armor thickness. source_grade A means directly anchored; B-prior means scenario/engineering working prior pending individual-airframe damage-vulnerability audit.",
+  "aircraft": {
+    "US01": {
+      "armament": [
+        [
+          "US50_M2",
+          6,
+          400,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 9.0,
+      "front_armor_mm": 7.0,
+      "self_seal": 0.9,
+      "fire_supp": 0.35,
+      "structure": 1.08,
+      "controls": 1.05,
+      "cooling_vuln": 0.55,
+      "engine_tough": 1.1,
+      "redundancy": 1.0,
+      "source_grade": "A/B"
+    },
+    "US02": {
+      "armament": [
+        [
+          "US50_M2",
+          6,
+          400,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 10.0,
+      "front_armor_mm": 7.5,
+      "self_seal": 0.92,
+      "fire_supp": 0.38,
+      "structure": 1.1,
+      "controls": 1.06,
+      "cooling_vuln": 0.52,
+      "engine_tough": 1.12,
+      "redundancy": 1.0,
+      "source_grade": "A/B"
+    },
+    "US03": {
+      "armament": [
+        [
+          "US50_M2",
+          6,
+          400,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 10.0,
+      "front_armor_mm": 6.5,
+      "self_seal": 0.92,
+      "fire_supp": 0.38,
+      "structure": 1.1,
+      "controls": 1.05,
+      "cooling_vuln": 0.52,
+      "engine_tough": 1.12,
+      "redundancy": 1.0,
+      "source_grade": "A/B"
+    },
+    "US04": {
+      "armament": [
+        [
+          "US50_M2",
+          6,
+          400,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 10.0,
+      "front_armor_mm": 6.5,
+      "self_seal": 0.92,
+      "fire_supp": 0.4,
+      "structure": 1.12,
+      "controls": 1.06,
+      "cooling_vuln": 0.5,
+      "engine_tough": 1.13,
+      "redundancy": 1.0,
+      "source_grade": "A/B"
+    },
+    "US05": {
+      "armament": [
+        [
+          "US50_M2",
+          4,
+          500,
+          "nose",
+          0,
+          1.0
+        ],
+        [
+          "US20_ANM2",
+          1,
+          150,
+          "nose",
+          0,
+          1.0
+        ]
+      ],
+      "engine": "twin_liquid",
+      "rear_armor_mm": 8.0,
+      "front_armor_mm": 7.0,
+      "self_seal": 0.88,
+      "fire_supp": 0.3,
+      "structure": 1.1,
+      "controls": 1.06,
+      "cooling_vuln": 0.85,
+      "engine_tough": 1.25,
+      "redundancy": 1.38,
+      "source_grade": "B"
+    },
+    "US06": {
+      "armament": [
+        [
+          "US50_M2",
+          4,
+          500,
+          "nose",
+          0,
+          1.0
+        ],
+        [
+          "US20_ANM2",
+          1,
+          150,
+          "nose",
+          0,
+          1.0
+        ]
+      ],
+      "engine": "twin_liquid",
+      "rear_armor_mm": 8.0,
+      "front_armor_mm": 7.0,
+      "self_seal": 0.9,
+      "fire_supp": 0.32,
+      "structure": 1.12,
+      "controls": 1.07,
+      "cooling_vuln": 0.82,
+      "engine_tough": 1.28,
+      "redundancy": 1.4,
+      "source_grade": "B"
+    },
+    "US07": {
+      "armament": [
+        [
+          "US50_M2",
+          4,
+          500,
+          "nose",
+          0,
+          1.0
+        ],
+        [
+          "US20_ANM2",
+          1,
+          150,
+          "nose",
+          0,
+          1.0
+        ]
+      ],
+      "engine": "twin_liquid",
+      "rear_armor_mm": 8.0,
+      "front_armor_mm": 7.0,
+      "self_seal": 0.9,
+      "fire_supp": 0.32,
+      "structure": 1.12,
+      "controls": 1.08,
+      "cooling_vuln": 0.82,
+      "engine_tough": 1.28,
+      "redundancy": 1.4,
+      "source_grade": "B"
+    },
+    "US08": {
+      "armament": [
+        [
+          "US50_M2",
+          8,
+          425,
+          "wing",
+          275,
+          1.0
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 11.0,
+      "front_armor_mm": 8.5,
+      "self_seal": 0.94,
+      "fire_supp": 0.42,
+      "structure": 1.25,
+      "controls": 1.12,
+      "cooling_vuln": 0.45,
+      "engine_tough": 1.25,
+      "redundancy": 1.0,
+      "source_grade": "B"
+    },
+    "US09": {
+      "armament": [
+        [
+          "US50_M2",
+          8,
+          425,
+          "wing",
+          275,
+          1.0
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 11.0,
+      "front_armor_mm": 8.5,
+      "self_seal": 0.94,
+      "fire_supp": 0.42,
+      "structure": 1.25,
+      "controls": 1.12,
+      "cooling_vuln": 0.45,
+      "engine_tough": 1.25,
+      "redundancy": 1.0,
+      "source_grade": "B"
+    },
+    "US10": {
+      "armament": [
+        [
+          "US50_M2",
+          8,
+          425,
+          "wing",
+          275,
+          1.0
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 11.0,
+      "front_armor_mm": 8.5,
+      "self_seal": 0.94,
+      "fire_supp": 0.42,
+      "structure": 1.25,
+      "controls": 1.12,
+      "cooling_vuln": 0.45,
+      "engine_tough": 1.25,
+      "redundancy": 1.0,
+      "source_grade": "B"
+    },
+    "US11": {
+      "armament": [
+        [
+          "US50_M2",
+          4,
+          315,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "liquid",
+      "rear_armor_mm": 6.35,
+      "front_armor_mm": 6.0,
+      "self_seal": 0.9,
+      "fire_supp": 0.28,
+      "structure": 1.02,
+      "controls": 1.02,
+      "cooling_vuln": 1.25,
+      "engine_tough": 1.0,
+      "redundancy": 1.0,
+      "source_grade": "A/B"
+    },
+    "US12": {
+      "armament": [
+        [
+          "US50_M2",
+          2,
+          350,
+          "wing",
+          250,
+          1.0
+        ],
+        [
+          "US50_M2",
+          2,
+          280,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "liquid",
+      "rear_armor_mm": 8.0,
+      "front_armor_mm": 7.0,
+      "self_seal": 0.92,
+      "fire_supp": 0.3,
+      "structure": 1.05,
+      "controls": 1.04,
+      "cooling_vuln": 1.2,
+      "engine_tough": 1.03,
+      "redundancy": 1.0,
+      "source_grade": "A/B"
+    },
+    "US13": {
+      "armament": [
+        [
+          "US50_M2",
+          2,
+          350,
+          "wing",
+          250,
+          1.0
+        ],
+        [
+          "US50_M2",
+          2,
+          280,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "liquid",
+      "rear_armor_mm": 8.0,
+      "front_armor_mm": 7.0,
+      "self_seal": 0.92,
+      "fire_supp": 0.3,
+      "structure": 1.05,
+      "controls": 1.04,
+      "cooling_vuln": 1.2,
+      "engine_tough": 1.03,
+      "redundancy": 1.0,
+      "source_grade": "A/B"
+    },
+    "US14": {
+      "armament": [
+        [
+          "US50_M2",
+          2,
+          400,
+          "wing",
+          250,
+          1.0
+        ],
+        [
+          "US50_M2",
+          4,
+          270,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "liquid",
+      "rear_armor_mm": 8.0,
+      "front_armor_mm": 7.0,
+      "self_seal": 0.92,
+      "fire_supp": 0.3,
+      "structure": 1.05,
+      "controls": 1.04,
+      "cooling_vuln": 1.2,
+      "engine_tough": 1.03,
+      "redundancy": 1.0,
+      "source_grade": "A/B"
+    },
+    "JP01": {
+      "armament": [
+        [
+          "JP20_T99_2",
+          2,
+          125,
+          "wing",
+          250,
+          1.0
+        ],
+        [
+          "JP132_T3",
+          2,
+          240,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 5.0,
+      "front_armor_mm": 3.0,
+      "self_seal": 0.48,
+      "fire_supp": 0.52,
+      "structure": 0.88,
+      "controls": 0.94,
+      "cooling_vuln": 0.62,
+      "engine_tough": 0.98,
+      "redundancy": 1.0,
+      "source_grade": "canon/B-prior"
+    },
+    "JP02": {
+      "armament": [
+        [
+          "JP20_T99_2",
+          2,
+          125,
+          "wing",
+          250,
+          1.0
+        ],
+        [
+          "JP132_T3",
+          2,
+          240,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 7.0,
+      "front_armor_mm": 4.5,
+      "self_seal": 0.65,
+      "fire_supp": 0.58,
+      "structure": 0.98,
+      "controls": 0.98,
+      "cooling_vuln": 0.58,
+      "engine_tough": 1.03,
+      "redundancy": 1.0,
+      "source_grade": "canon/B-prior"
+    },
+    "JP03": {
+      "armament": [
+        [
+          "JP127_HO103",
+          2,
+          250,
+          "nose",
+          0,
+          0.82
+        ],
+        [
+          "JP127_HO103",
+          2,
+          250,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 7.0,
+      "front_armor_mm": 4.5,
+      "self_seal": 0.7,
+      "fire_supp": 0.45,
+      "structure": 1.0,
+      "controls": 1.0,
+      "cooling_vuln": 0.55,
+      "engine_tough": 1.05,
+      "redundancy": 1.0,
+      "source_grade": "canon/B-prior"
+    },
+    "JP04": {
+      "armament": [
+        [
+          "JP127_HO103",
+          2,
+          250,
+          "nose",
+          0,
+          0.82
+        ],
+        [
+          "JP127_HO103",
+          2,
+          250,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "liquid",
+      "rear_armor_mm": 7.0,
+      "front_armor_mm": 4.5,
+      "self_seal": 0.65,
+      "fire_supp": 0.42,
+      "structure": 1.0,
+      "controls": 1.0,
+      "cooling_vuln": 1.28,
+      "engine_tough": 0.98,
+      "redundancy": 1.0,
+      "source_grade": "canon/B-prior"
+    },
+    "JP05": {
+      "armament": [
+        [
+          "JP127_HO103",
+          2,
+          350,
+          "nose",
+          0,
+          0.82
+        ],
+        [
+          "JP20_HO5",
+          2,
+          150,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 8.0,
+      "front_armor_mm": 7.0,
+      "self_seal": 0.88,
+      "fire_supp": 0.05,
+      "structure": 1.12,
+      "controls": 1.05,
+      "cooling_vuln": 0.52,
+      "engine_tough": 1.1,
+      "redundancy": 1.0,
+      "source_grade": "A/canon+B"
+    },
+    "JP06": {
+      "armament": [
+        [
+          "JP20_T99_2",
+          4,
+          200,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 8.0,
+      "front_armor_mm": 5.5,
+      "self_seal": 0.78,
+      "fire_supp": 0.5,
+      "structure": 1.08,
+      "controls": 1.04,
+      "cooling_vuln": 0.55,
+      "engine_tough": 1.08,
+      "redundancy": 1.0,
+      "source_grade": "canon/B-prior"
+    },
+    "CAL0": {
+      "armament": [
+        [
+          "JP20_T99_2",
+          2,
+          125,
+          "wing",
+          250,
+          1.0
+        ],
+        [
+          "JP77_T97",
+          2,
+          500,
+          "nose",
+          0,
+          0.85
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 0.0,
+      "front_armor_mm": 0.0,
+      "self_seal": 0.0,
+      "fire_supp": 0.05,
+      "structure": 0.82,
+      "controls": 0.92,
+      "cooling_vuln": 0.62,
+      "engine_tough": 0.95,
+      "redundancy": 1.0,
+      "source_grade": "A/B"
+    },
+    "JP07": {
+      "armament": [
+        [
+          "JP20_T99_2",
+          2,
+          150,
+          "wing",
+          250,
+          1.0
+        ],
+        [
+          "JP132_T3",
+          2,
+          300,
+          "wing",
+          250,
+          1.0
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 8.0,
+      "front_armor_mm": 5.5,
+      "self_seal": 0.78,
+      "fire_supp": 0.5,
+      "structure": 1.1,
+      "controls": 1.05,
+      "cooling_vuln": 0.52,
+      "engine_tough": 1.1,
+      "redundancy": 1.0,
+      "source_grade": "r30 canon/B-prior: initial 2x20mm+2x13.2mm; protection central estimate"
+    },
+    "JP08": {
+      "armament": [
+        [
+          "JP20_T99_2",
+          2,
+          60,
+          "wing",
+          250,
+          1.0
+        ],
+        [
+          "JP77_T97",
+          2,
+          500,
+          "nose",
+          0,
+          0.82
+        ]
+      ],
+      "engine": "radial",
+      "rear_armor_mm": 4.0,
+      "front_armor_mm": 2.5,
+      "self_seal": 0.45,
+      "fire_supp": 0.25,
+      "structure": 0.9,
+      "controls": 0.9,
+      "cooling_vuln": 0.62,
+      "engine_tough": 0.96,
+      "redundancy": 1.0,
+      "source_grade": "mission-study C prior"
+    }
+  }
+}

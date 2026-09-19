@@ -1,0 +1,66 @@
+{
+  "scenario": "Pearl Harbor 1941-12-07 first-pass state transition",
+  "historical_baseline": {
+    "planned_first_wave": 189,
+    "launched_first_wave": 183,
+    "planned_second_wave": 171,
+    "launched_second_wave": 167,
+    "total_attacking": 350,
+    "composition_first": {
+      "torpedo_attack": 40,
+      "level_bomber": 49,
+      "dive_bomber": 51,
+      "fighter": 43
+    },
+    "composition_second": {
+      "level_attack": 54,
+      "dive_bomber": 78,
+      "fighter": 35
+    },
+    "aircraft_lost": 29,
+    "loss_by_wave_type": {
+      "first_fighter": 9,
+      "second_dive_bomber": 15,
+      "second_carrier_attack": 5
+    },
+    "aircrew_killed_approx": 55
+  },
+  "alt_world_first_pass": {
+    "planned_total": 360,
+    "attacking_aircraft": {
+      "conservative": 350,
+      "center": 352,
+      "upper": 353
+    },
+    "irrecoverable_aircraft_loss": {
+      "conservative": 29,
+      "center": 27,
+      "upper": 25
+    },
+    "additional_surviving_aircrew_vs_baseline": {
+      "center": [
+        3,
+        6
+      ],
+      "upper": [
+        6,
+        10
+      ]
+    },
+    "strategic_result_class": "provisionally unchanged; ship-specific repair clocks remain open"
+  },
+  "carry_forward": [
+    "carrier aircraft serviceability",
+    "damaged returned aircraft",
+    "aircrew survivor cohorts",
+    "wounded/medical state",
+    "carrier maintenance burden",
+    "US observed capabilities",
+    "JP observed lessons"
+  ],
+  "notes": [
+    "Do not apply +15-25% first-line output as a Pearl attack-count multiplier.",
+    "Type 91 torpedo reliability improvement applies to water-entry/normal-run process, but Pearl damage is saturation-prone.",
+    "Aircraft-loss branches are accounting sensitivities, not calibrated tactical kill probabilities."
+  ]
+}

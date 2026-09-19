@@ -1,0 +1,24 @@
+item	summer_stage	stage_1937_11_12	numerical_working_delta_or_order	decision_at_11_12	confidence	notes
+Diesel exhaust turbocharger - military heavy vehicles	A5	A5-WAR	Emergency incremental order ~80-120 units; immediate stock release ~20-40	Accelerated procurement	MEDIUM-HIGH	Replacement/spares first; new-fit second
+E4 fixed emergency GT	A5 limited	A5 limited-WAR	Additional emergency order ~4-8 sets	Increase limited procurement	MEDIUM	Rear bases/arsenals/airfields
+Small mobile GT power set	A2/A3	A3	Additional ~4-8 sets ordered; rear-area field evaluation expands	Operational trial expands; no full standardization	MEDIUM-LOW	No retroactive battlefield effect before Nov 12 assumed
+Large portable/towed E4 power set	A2	A2	0-2 additional trial sets	Remain trial-only	MEDIUM	Too rare/bulky for routine field issue
+Military computation/service capacity	A5 service	A5 priority	+5-10 FSE equivalent shifted to military-priority processing	Priority allocation	MEDIUM	Inventory/repair/production/technical calculation
+Special steels/carbide/gauges/tooling	A5	A5-WAR	Total output +5-10%; military allocation +15-25% vs peacetime mix	War-priority allocation	MEDIUM-HIGH	Short-run gain mostly allocation, not new furnace capacity
+Type 97 Chi-Ha worldline baseline	A3/A4	A4	0 frontline series in 1937; 0-10 pre-series vehicles/chassis remains WORKING	Selection closed; production engineering and initial contract	MEDIUM	Historical production begins 1938
+Type 96 24 cm howitzer	A2/A3	A3-HOLD	No expansion beyond ~6-8 gun limited/test stock	Do not enter broad series production	HIGH procurement / LOW exact cause	Better metrology may terminate bad paths sooner; exact dispersion cause open
+Type 97 20 mm automatic cannon	A2 - 8 prototypes	A2/A3	1938 ~50-gun operational trial lot remains next step	No 1937 mass production; trial program continues	MEDIUM-HIGH	Manufacturing help does not remove weight/design tradeoff
+Type 96 25 mm AA reliability package	A5 with component issue	A5 component-change	Improved firing-pin/heat-treatment parts begin entering new/replacement lots	Reliability modification accelerated	MEDIUM	Magazine/tracking/director limits unchanged
+Type 96 light machine gun	A4/A5 low-rate	A5 ramp-prep	Late-1937 output could be ~10-20% above matched low-rate ramp; absolute number open	Ramp smoother; no mass replacement of Type 11	LOW-MEDIUM	Factory merger/tooling and design reliability still constrain output
+Type 97 81 mm mortar	A4/A5 boundary	A5 entry	No date shift; modestly smoother 1937-38 ramp	Adopt/produce on historical calendar	MEDIUM	Main Asai effect is gauges/tool life/lot consistency
+Ki-27 Type 97 fighter	A3 pre-production	A3/A4	10 pre-production aircraft remain Jun-Dec 1937; tooling/long-lead prep may start before formal order	Formal production order remains 28 Dec 1937	HIGH	No early mass deployment
+Ki-21 Type 97 heavy bomber	A3 competition	A4 - Nov gate	Selection/production-order process closes in Nov; deliveries remain 1938	Proceed to production preparation	MEDIUM-HIGH	Test convergence improves, no 1937 service debut
+B5N Type 97 carrier attack bomber	A3 competition/selection	A4/A5 initial production	Initial production begins around Nov 1937; no mass carrier conversion yet	Enter initial production	MEDIUM	Navy caution retained; B5M limited branch survives
+H6K Type 97 flying boat	A3	A3/A4	Final qualification continues; 1938 service delivery retained	No calendar acceleration	MEDIUM	Reliability/QC help only
+Aircraft exhaust turbosupercharger	A2 - 8-15 trial units	A2	No operational mass order; perhaps +4-8 follow-on test units into 1938	Stay trial program	MEDIUM-LOW	China fighting does not create a decisive high-altitude requirement yet
+E4/E5 aviation GT / TP / jet-fan	A2 - 5-12 military-received cores	A2	0-4 additional test cores; no series order	Testing continues; mass-production pitch deferred	MEDIUM	Existing turbo/tool/power demand and short-war expectations dominate
+Submarine 2-cycle compound scavenging/turbo	A3 limited sea trial	A3	No fleet-standard order	Continue limited trials	HIGH	China war gives little reason to accelerate
+E5 marine GT small-craft program	A1/A2	A2	1938 comparative test-craft planning only	No 1937 series procurement	MEDIUM-LOW	Existing piston torpedo-boat line remains central
+Asai small helicopter	Internal prototype; military adoption open	A1 working	Military observation/data request plausible; 0 procurement	Do not adopt; continue company test	LOW	Technology demonstrator, not a 1937 field aircraft
+Plant-fiber epoxy / honeycomb structures	A2 technical evaluation	A2	Small material/secondary-structure trials only	No primary-structure military release	MEDIUM	War may increase repair/material interest
+U/W dense-core special AP	A2/A3 limited	A3 limited reserve	U military material allocation ~1.5-3 t/year remains; broad combat issue not justified	Limited evaluation/war reserve	MEDIUM	Chinese armored-target demand is too small to force general issue

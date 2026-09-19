@@ -1,0 +1,176 @@
+{
+  "id": "BRANCH_B_NC_1942_WATER_FIGHTER_REAUDIT_v001",
+  "status": "working_canon_overlay",
+  "date": "2026-09-05",
+  "scenario_date_scope": "1942-11-08 through 1942-11-14",
+  "finding": "material_underaccounting",
+  "aircraft": {
+    "A6M2N_equivalent": {
+      "branch_existing_performance_kmh": {
+        "max_band": [
+          444,
+          452
+        ],
+        "frontline_median_band": [
+          438,
+          447
+        ]
+      },
+      "armament_class": "2x20mm + 2x7.7mm",
+      "historical_anchor_max_kmh": 435,
+      "role": [
+        "local_interceptor",
+        "convoy_CAP",
+        "patrol_recon_intercept",
+        "strike_disruption"
+      ],
+      "not_role": [
+        "modern_single_seat_fighter_sweep",
+        "carrier_fighter"
+      ],
+      "1942_11_national_working_ledger": {
+        "cumulative_completed_band": [
+          185,
+          235
+        ],
+        "surviving_frontline_capable_band": [
+          125,
+          160
+        ],
+        "normally_ready_band": [
+          90,
+          120
+        ]
+      },
+      "new_caledonia_theater": {
+        "assigned_band": [
+          30,
+          38
+        ],
+        "opening_ready_band": [
+          22,
+          28
+        ],
+        "forward_lagoon_after_beachhead_assigned_band": [
+          8,
+          12
+        ],
+        "forward_lagoon_normal_ready_band": [
+          6,
+          9
+        ]
+      }
+    },
+    "F1M2": {
+      "branch_existing_max_kmh_band": [
+        379,
+        387
+      ],
+      "role": [
+        "spotting",
+        "recon",
+        "light_bombing",
+        "secondary_fighter_top_cover"
+      ],
+      "not_role": [
+        "modern_fighter_equivalent"
+      ],
+      "NC_support_network_ready_equivalent_band": [
+        12,
+        18
+      ]
+    },
+    "N1K1_Kyofu": {
+      "NC_1942_11_combat_use": false,
+      "gate": {
+        "1942_end": "practical specification near-fixed",
+        "1943_01_02": "pre-production",
+        "1943_04_05": "first operational unit"
+      }
+    }
+  },
+  "water_base_output": {
+    "established_sheltered_base_vs_land_fighter": [
+      0.6,
+      0.75
+    ],
+    "new_forward_lagoon_vs_land_fighter": [
+      0.45,
+      0.6
+    ],
+    "constraints": [
+      "sea_state",
+      "reef_passages",
+      "towing",
+      "recovery",
+      "cranes",
+      "fuel",
+      "ammunition",
+      "corrosion",
+      "maintenance",
+      "anchorage_attack"
+    ]
+  },
+  "retroactive_deltas": {
+    "1942_11_08_shipping_strike": {
+      "us_aircraft_losses_delta_center": 1,
+      "transport_mission_kill": "unchanged"
+    },
+    "1942_11_09_morning_landing_strike": {
+      "previous_us_losses": 8,
+      "revised_center_us_losses": 9,
+      "landing_result": "unchanged"
+    },
+    "1942_11_09_to_12": {
+      "local_floatfighter_CAP_typical_band": [
+        6,
+        12
+      ],
+      "effect": "slightly worse US attack cohesion and marginally safer Japanese unloading; no wholesale ground-front rewrite"
+    },
+    "1942_11_12_after_tontouta_capture": {
+      "evening_to_dawn_assigned": [
+        6,
+        8
+      ],
+      "evening_to_dawn_ready": [
+        4,
+        6
+      ],
+      "within_24h_assigned": [
+        8,
+        12
+      ],
+      "within_24h_ready": [
+        6,
+        9
+      ],
+      "tontouta_runway_clock": "unchanged"
+    },
+    "1942_11_13_wasp_shipping_strike": {
+      "previous_US_losses": {
+        "F4F": 2,
+        "SBD": 4,
+        "TBF": 2,
+        "total": 8
+      },
+      "revised_center_US_losses": {
+        "F4F": 2,
+        "SBD": 5,
+        "TBF": 2,
+        "total": 9
+      },
+      "additional_Japanese_losses": {
+        "A6M2N_equivalent": 1
+      },
+      "transport_bomb_hit_heavy_damage": "unchanged"
+    },
+    "1942_11_14_carrier_battle": "no_material_change"
+  },
+  "double_count_rules": [
+    "Do not include float fighters in Santo land-air total unless explicitly rebased to a land strip as wheeled aircraft, which they are not.",
+    "Do not include float fighters in carrier air groups.",
+    "Do not count F1M as one-for-one modern fighters.",
+    "Do not convert local water CAP into offshore carrier CAP without a documented water-base/tender geometry."
+  ]
+}

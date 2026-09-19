@@ -1,0 +1,8 @@
+Inputs used:
+- Current conversation working overlays through FLINTLOCK_1944-02-10 closeout.
+- US amphibious wallet re-audit 1944-02-10.
+- Branch v048 canonical archive structural files, especially US_TF58_BRANCH_OOB_1944-01-28 and old non-current HAILSTONE/CATCHPOLE working files used only as audit/structure records.
+- Historical process anchors from NHHC, U.S. Army CMH and USMC official histories.
+
+Important branch-contamination guard:
+Enterprise CV-6 and Saratoga CV-3 are permanent Branch Midway losses. HAILSTONE Branch force uses Wasp CV-7 in the surviving legacy-carrier slot. Cabot CVL-28 is campaign-out after 2-Feb 1944.

@@ -1,0 +1,15 @@
+{
+  "id": "FLINTLOCK_US_SUPPORT_RELEASE_1944-02-08_v001",
+  "status": "WORKING_PROCESS_ADJUDICATION_NOT_CANONICAL",
+  "period": "1944-02-08",
+  "constraints": {
+    "Roi_Namur": "Secure status releases demand, not physical location. Ammunition, fuel, aircraft spotting cycles, landing-craft traffic and lagoon transit still gate reassignment.",
+    "Kwajalein": "Until organized resistance collapses late 8-Feb, tanks, engineers, artillery observation, CVE spotting and close destroyer fires remain heavily committed.",
+    "ASW": "Submarine contacts and previous LST/Cabot events prevent a wholesale reduction of outer escort and air-ASW even after the islands are tactically won."
+  },
+  "centerline": {
+    "late_morning": "A limited northern-sector fire/observation wallet starts shifting toward Kwajalein or replenishment.",
+    "late_afternoon": "As organized resistance collapses, two-to-four destroyer-equivalent direct-fire/support assignments and roughly one-to-two CVE-equivalent daily sortie wallets can begin transition toward replenishment, ASW or follow-on tasks.",
+    "guard": "This is task-capacity release, not instant appearance at another battlefield and not a count of entire ships permanently detached."
+  }
+}

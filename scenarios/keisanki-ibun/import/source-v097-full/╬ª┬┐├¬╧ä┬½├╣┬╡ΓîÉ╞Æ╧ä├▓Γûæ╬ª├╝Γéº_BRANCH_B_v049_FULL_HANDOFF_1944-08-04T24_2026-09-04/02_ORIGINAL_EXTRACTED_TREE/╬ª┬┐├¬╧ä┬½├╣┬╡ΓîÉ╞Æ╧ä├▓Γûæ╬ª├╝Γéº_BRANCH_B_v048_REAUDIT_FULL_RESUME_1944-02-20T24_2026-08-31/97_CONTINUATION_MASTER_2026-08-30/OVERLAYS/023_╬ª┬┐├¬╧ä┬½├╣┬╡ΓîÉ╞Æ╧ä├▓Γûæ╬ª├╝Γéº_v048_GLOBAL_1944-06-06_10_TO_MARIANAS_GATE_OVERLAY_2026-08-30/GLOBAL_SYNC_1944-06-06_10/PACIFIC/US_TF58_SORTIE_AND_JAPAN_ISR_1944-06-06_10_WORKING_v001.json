@@ -1,0 +1,47 @@
+{
+  "revision": "v001",
+  "id": "US_TF58_SORTIE_AND_JAPAN_ISR_1944-06-06_10_WORKING_v001",
+  "status": "AUTHORITATIVE_WORKING_PRE_MARIANAS_SHAPING_STATE",
+  "clock_window": "1944-06-06..06-10",
+  "parents": [
+    "US_FORAGER_FORCE_LOGISTICS_1944-05-25_06-05_WORKING_v001",
+    "JAPAN_MOBILE_FLEET_MARIANAS_POSTURE_1944-05-25_06-05_WORKING_v001"
+  ],
+  "historical_anchors": [
+    "Historical TF58 departed Majuro on 6 Jun for FORAGER; historical Japanese C6N/MyRT reconnaissance on 9 Jun found the anchorage emptied and warned that TF58 was moving.",
+    "Historical TF58 began Marianas strikes on 11 Jun."
+  ],
+  "branch_progress": [
+    {
+      "date": "1944-06-06",
+      "US": "Lead TF58 groups depart Majuro. The 3 Jun Seiran strike produces loading/inspection friction but does not stop the sortie.",
+      "Japan": "Communications/logistics pattern changes strengthen the existing CRITICAL Marianas warning but do not yet yield a fleet track."
+    },
+    {
+      "date": "1944-06-07",
+      "US": "Remaining/most delayed elements clear the Majuro support cycle and rejoin the movement plan; the small sortie stagger is operationally absorbed.",
+      "Japan": "Submarine/air-recon sectors are weighted farther east/northeast; no weapon-quality contact."
+    },
+    {
+      "date": "1944-06-08",
+      "Japan": "Majuro silence plus picket/recon negatives makes a major westbound US carrier operation HIGH-confidence. Marianas becomes the dominant interpretation, but exact target and D-day remain unknown."
+    },
+    {
+      "date": "1944-06-09",
+      "Japan": "A high-speed long-range reconnaissance check confirms Majuro is largely emptied of the fast-carrier concentration. This closes the operational-warning question: TF58 is at sea and a Central Pacific major operation is imminent."
+    },
+    {
+      "date": "1944-06-10",
+      "Japan": "Warning is converted into preliminary A-GO deployment measures: submarines/pickets and base reconnaissance tighten, oilers/forward logistics prepare, fleet readiness rises. Main carrier force still does not sortie east without the strike/landing geometry."
+    }
+  ],
+  "US_branch_OOB_guard": "Use current 8 CV + 8 CVL / 16 fast-deck branch pool before combat losses/detachments, not the legacy 7 CV + 8 CVL settlement.",
+  "sortie_friction_result": "The Seiran raid causes hours-scale staggering only. By 10 Jun it no longer changes TF58 ability to execute an 11 Jun carrier strike.",
+  "intelligence_quality_10Jun": {
+    "strategic_warning": "VERY_HIGH",
+    "theater_axis": "MARIANAS/WESTERN_CAROLINES HIGH",
+    "exact_TG_positions": "LOW",
+    "exact_first_strike_time": "LOW_TO_MODERATE"
+  },
+  "guard": "Do not pre-award the 11 Jun air battle or Japanese carrier release before the 11 Jun focused adjudication."
+}

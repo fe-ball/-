@@ -1,0 +1,19 @@
+{
+  "revision": "v021",
+  "package_root": "計算機異聞_refactor_v021_2026-08-26",
+  "generated": "2026-08-26",
+  "purpose": "Preserve the 2026-08-26 spring-1943 re-audit handoff: reopen at Komandorski/Attu supply, integrate Aleutians and Efate into one ship/air/logistics wallet, and rollback the provisional May Efate battle result until North Pacific allocation is closed.",
+  "base_package": "計算機異聞_refactor_v020_2026-08-25",
+  "current_branch_state_file": "06_RUNTIME/CURRENT_BRANCH_STATE_v003.json",
+  "current_branch_analysis_frontier": "1943-03-26T00:00",
+  "current_working_audit": "06_RUNTIME/SESSION_2026-08-26_ALEUTIANS_EFATE_COUPLED_REAUDIT_HANDOFF_v001.md",
+  "next_session_handoff": "00_README/NEXT_SESSION_HANDOFF_REFACTOR_v021.md",
+  "clock_advanced": false,
+  "clock_reopened": true,
+  "downstream_results_retained_provisional": true,
+  "validation": "95_AUDIT/VALIDATION_RESULT_v021.json",
+  "checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v021.txt",
+  "historical_checksum": "95_AUDIT/SHA256SUMS_REFACTOR_v020.txt",
+  "next_required_adjudication": "Komandorski -> Attu resupply -> US intelligence/LANDCRAB decision -> Japanese warning/response -> Attu/Kiska closure -> rebuild May Efate OOB -> only then reopen Indian Ocean option.",
+  "file_count_before_checksum": 498
+}

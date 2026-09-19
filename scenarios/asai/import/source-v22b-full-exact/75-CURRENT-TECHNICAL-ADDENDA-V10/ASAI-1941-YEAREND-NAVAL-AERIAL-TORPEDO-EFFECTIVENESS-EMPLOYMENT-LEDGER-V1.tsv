@@ -1,0 +1,34 @@
+category	item	value	unit	status	note
+weapon	Type91_Mod1_mass	784	kg	HISTORICAL-ANCHOR	retained 1941 service weapon
+weapon	Type91_Mod1_warhead	150	kg Type97	HISTORICAL-ANCHOR	approximately TNT-equivalent planning
+weapon	Type91_Mod2_mass	935	kg	HISTORICAL-ANCHOR	principal premium 1941 weapon
+weapon	Type91_Mod2_warhead	205	kg Type97	HISTORICAL-ANCHOR	+36.7% charge mass vs Mod1
+weapon	Type91_water_speed	41-43	kt	HISTORICAL-ANCHOR	~2000m nominal run
+qualification	Mod2_highspeed_normal	400-430	km/h air-drop	CLOSED-1941	normal qualified high-speed band
+qualification	Mod2_selected_growth	~450	km/h air-drop	SELECTED-DEVELOPMENT	not fleet default
+reliability	Mod1_normal_entry_run	95-98	percent	H->A	after technically correct release
+reliability	Mod2_normal_entry_run	96-99	percent	H->A	ordinary B5N/G3M/G4M speed
+reliability	Mod2_400_430_entry_run	94-97	percent	H->A	qualified high-speed release
+reliability	Mod2_450_entry_run	90-94	percent	H->A-DEVELOPMENT	selected only
+hit_band	anchored_restricted	45-60	percent per valid running torpedo	H->A	surprise/restricted maneuver
+hit_band	capital_multi_axis	16-24	percent per valid running torpedo	H->A	maneuvering major ship; no effective fighter disruption
+hit_band	capital_single_axis_alert	10-16	percent per valid running torpedo	H->A	alert target can comb tracks
+hit_band	capital_damaged_boxed	25-40	percent per valid running torpedo	H->A	slowed/steering damaged/crossing attacks
+hit_band	cruiser_carrier	10-18	percent per valid running torpedo	H->A	maneuvering
+hit_band	destroyer_light	5-12	percent per valid running torpedo	H->A	fast/evasive; inefficient torpedo target
+hit_band	night_poor_visual	6-15	percent per valid running torpedo vs capital	H->A	unless strong contact/illumination aid
+release	close_run	500-800	m	MODELING-BIN	highest accuracy / highest aircraft exposure
+release	normal_run	800-1200	m	MODELING-BIN	standard compromise
+release	long_run	1200-1600	m	MODELING-BIN	more lead error / less aircraft exposure
+platform	B5N2_role	carrier-mobile mature torpedo delivery		CLOSED	9/18 aircraft strike blocks; Mod1/Mod2 mission selected
+platform	G3M2_role	long-range land torpedo delivery		CLOSED	~650-800km ordinary torpedo radius
+platform	G4As1_role	high-speed multi-axis land torpedo attack		CLOSED	~300-400km normal radius; ~400-430km/h terminal release
+platform	G4M1_role	~433-436km/h conventional very-long-range branch; torpedo radius ~900-1150km		CLOSED-G4MAUDIT1	favorable ~1200-1300km sensitivity only; actual combat attrition replay-local
+platform	B6N_inheritance	400-430km/h Type91 design-origin interface		CLOSED-INTERFACE	not operationalized by this closure
+damage	Mod2_charge_ratio_vs_Mod1	1.367	x	DERIVED	205/150
+damage	Mod2_characteristic_blast_length_ratio	1.110	x	DERIVED	cube-root charge scaling
+formation	9_valid_expected_hits	1.4-2.2	hits vs maneuvering capital	DERIVED-H->A	uses 16-24% band
+formation	12_valid_expected_hits	1.9-2.9	hits	DERIVED-H->A	
+formation	18_valid_expected_hits	2.9-4.3	hits	DERIVED-H->A	
+formation	24_valid_expected_hits	3.8-5.8	hits	DERIVED-H->A	
+force_structure	fleet_carrier_torpedo_capable_block	18-24	aircraft	PLANNING-IMPLICATION	not all torpedo-loaded every sortie; opposition determines valid releases

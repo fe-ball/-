@@ -1,0 +1,40 @@
+{
+  "id": "POST_GALVANIC_MARSHALL_1944-01-15T24_WORKING_CHECKPOINT_v001",
+  "status": "WORKING_FRONTIER_CHECKPOINT_NOT_CANONICAL",
+  "as_of": "1944-01-15T24",
+  "territory": {
+    "Tarawa": "US-held; operational forward air base under continuing expansion",
+    "Makin": "US-held; forward airfield growing",
+    "Abemama": "US-held; fighter/bomber staging useful",
+    "Marshalls": "Japanese-held",
+    "Kusaie_Ponape": "Japanese-held eastern-Carolines staging/defense depth"
+  },
+  "Japan": {
+    "Marshall_personnel": "26,500-28,500 total-scale work band; do not double count Jan reinforcement arrivals",
+    "Kwajalein_Roi_personnel": "8,200-8,900 work band",
+    "Marshall_air": "~148 combat-serviceable center, ~128 immediate alert/search center",
+    "carrier_core": "Shokaku/Zuikaku/Hiryu/Soryu all operational; ~250-275 first-line ready aircraft; experienced strike-cadre debt remains",
+    "secondary_carriers": "Junyo/Hiyo/Ryujo/Zuiho ~100-120 combat-useful",
+    "defense": "Outer atoll construction and warning/C2 materially improved; no deep-cave miracle; Kusaie limited staging strip usable, Ponape rear staging intact"
+  },
+  "United_States": {
+    "Gilbert_forward_air": "~205-245 mission-ready across Tarawa/Makin/Abemama plus patrol/search layers",
+    "carrier_damage": "Independence out; Lexington CV-16 under major repair; Yorktown CV-10 operational",
+    "planning": "Kwajalein direct remains centered but final assault date/OOB not closed; finite bombardment/transport/CAP/ASW resources explicitly budgeted"
+  },
+  "reopened_downstream": [
+    "late-Jan Marshall suppression sequence",
+    "exact FLINTLOCK target/date and fast-carrier OOB",
+    "Marshall air attrition from 16 Jan onward",
+    "Japanese submarine/surface/carrier forward posture",
+    "Kwajalein/Roi D-Day fortification survival and ground combat"
+  ],
+  "closed_here": [
+    "Makin/Tarawa ground combat and their direct residuals",
+    "29 Nov-15 Jan Japanese forward defense/logistics work band",
+    "mid-Jan Marshall fortification/sensor/C2 state",
+    "mid-Jan regional Japanese air pool",
+    "Soryu rapid repair and four-deck first-line return",
+    "mid-Jan US Gilbert base growth and post-Tarawa finite-learning model"
+  ]
+}

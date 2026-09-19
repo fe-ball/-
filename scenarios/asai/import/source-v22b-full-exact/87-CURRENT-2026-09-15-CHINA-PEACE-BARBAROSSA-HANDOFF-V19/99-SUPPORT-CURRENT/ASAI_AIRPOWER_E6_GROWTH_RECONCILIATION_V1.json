@@ -1,0 +1,152 @@
+{
+  "clock": "1940-09-30T24:00 (replay notation)",
+  "status": "ANALYTICAL_RECONCILIATION; NO_NEW_COMBAT_EVENTS_OR_FACTORY_ACTUALS",
+  "monthly_source_plan": [
+    {
+      "month": "1940-01",
+      "twin_acceptance_plan": 6,
+      "twin_cumulative_acceptance_plan": 6,
+      "twin_extant_planning_center": 6,
+      "e5_extant_planning_center": 137,
+      "status": "SOURCE_PLANNING_NOT_REPLAY_INVENTORY"
+    },
+    {
+      "month": "1940-02",
+      "twin_acceptance_plan": 7,
+      "twin_cumulative_acceptance_plan": 13,
+      "twin_extant_planning_center": 13,
+      "e5_extant_planning_center": 143,
+      "status": "SOURCE_PLANNING_NOT_REPLAY_INVENTORY"
+    },
+    {
+      "month": "1940-03",
+      "twin_acceptance_plan": 8,
+      "twin_cumulative_acceptance_plan": 21,
+      "twin_extant_planning_center": 20,
+      "e5_extant_planning_center": 148,
+      "status": "SOURCE_PLANNING_NOT_REPLAY_INVENTORY"
+    },
+    {
+      "month": "1940-04",
+      "twin_acceptance_plan": 10,
+      "twin_cumulative_acceptance_plan": 31,
+      "twin_extant_planning_center": 30,
+      "e5_extant_planning_center": 152,
+      "status": "SOURCE_PLANNING_NOT_REPLAY_INVENTORY"
+    },
+    {
+      "month": "1940-05",
+      "twin_acceptance_plan": 12,
+      "twin_cumulative_acceptance_plan": 43,
+      "twin_extant_planning_center": 41,
+      "e5_extant_planning_center": 155,
+      "status": "SOURCE_PLANNING_NOT_REPLAY_INVENTORY"
+    },
+    {
+      "month": "1940-06",
+      "twin_acceptance_plan": 14,
+      "twin_cumulative_acceptance_plan": 57,
+      "twin_extant_planning_center": 54,
+      "e5_extant_planning_center": 157,
+      "status": "SOURCE_PLANNING_NOT_REPLAY_INVENTORY"
+    },
+    {
+      "month": "1940-07",
+      "twin_acceptance_plan": 14,
+      "twin_cumulative_acceptance_plan": 71,
+      "twin_extant_planning_center": 68,
+      "e5_extant_planning_center": 157,
+      "status": "SOURCE_PLANNING_NOT_REPLAY_INVENTORY"
+    },
+    {
+      "month": "1940-08",
+      "twin_acceptance_plan": 14,
+      "twin_cumulative_acceptance_plan": 85,
+      "twin_extant_planning_center": 81,
+      "e5_extant_planning_center": 157,
+      "status": "SOURCE_PLANNING_NOT_REPLAY_INVENTORY"
+    },
+    {
+      "month": "1940-09",
+      "twin_acceptance_plan": 14,
+      "twin_cumulative_acceptance_plan": 99,
+      "twin_extant_planning_center": 94,
+      "e5_extant_planning_center": 156,
+      "status": "SOURCE_PLANNING_NOT_REPLAY_INVENTORY"
+    },
+    {
+      "month": "1940-10",
+      "twin_acceptance_plan": 15,
+      "twin_cumulative_acceptance_plan": 114,
+      "twin_extant_planning_center": 108,
+      "e5_extant_planning_center": 155,
+      "status": "SOURCE_PLANNING_NOT_REPLAY_INVENTORY"
+    },
+    {
+      "month": "1940-11",
+      "twin_acceptance_plan": 15,
+      "twin_cumulative_acceptance_plan": 129,
+      "twin_extant_planning_center": 122,
+      "e5_extant_planning_center": 153,
+      "status": "SOURCE_PLANNING_NOT_REPLAY_INVENTORY"
+    },
+    {
+      "month": "1940-12",
+      "twin_acceptance_plan": 15,
+      "twin_cumulative_acceptance_plan": 144,
+      "twin_extant_planning_center": 136,
+      "e5_extant_planning_center": 152,
+      "status": "SOURCE_PLANNING_NOT_REPLAY_INVENTORY"
+    }
+  ],
+  "single_cumulative_acceptance_bands": {
+    "1940Q1": [
+      12,
+      18
+    ],
+    "1940Q2": [
+      30,
+      44
+    ],
+    "1940Q3": [
+      56,
+      76
+    ],
+    "1940Q4": [
+      84,
+      108
+    ]
+  },
+  "single_midpoint_only": {
+    "1940Q1": 15,
+    "1940Q2": 37,
+    "1940Q3": 66
+  },
+  "single_year_end_source_center": 96,
+  "Q3_new_twin_plan": 42,
+  "Aug_Sep_new_twin_plan": 28,
+  "Q3_combined_acceptance_center_derived": 165,
+  "1941_new_factory_acceptance_plan": {
+    "twin": 228,
+    "single": 195,
+    "total": 423
+  },
+  "declared_detachments_not_total_theater_inventory": {
+    "north_china_twin": {
+      "JF": 4,
+      "J": 2
+    },
+    "north_indochina_twin": {
+      "JF": 2,
+      "J": 0
+    }
+  },
+  "source_of_exact_detachments": "ASAI_REPLAY_1940-09-11_1940-09-30_V1.md (conversation adjudication)",
+  "unresolved": [
+    "monthly actual receipts versus plan",
+    "full national loss/disposition ledger",
+    "Army/Navy production split",
+    "each theater incoming replacements and training release",
+    "historical/counterfactual sortie and economic outcomes"
+  ]
+}

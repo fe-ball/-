@@ -1,0 +1,57 @@
+{
+  "id": "MARSHALL_REGIONAL_AIR_OOB_1944-01-15_WORKING_v001",
+  "status": "WORKING_CLOSEOUT_ADJUDICATION_NOT_YET_CANONICAL",
+  "as_of": "1944-01-15",
+  "accounting_guard": "Includes descendants of the Tarawa-evacuated aircraft already folded into the regional pool; do not add them again. Kyofu/Zuiun are subsets, not additive bonus aircraft.",
+  "theatre_total": {
+    "physical_present_band": [
+      165,
+      185
+    ],
+    "physical_center": 175,
+    "combat_serviceable_band": [
+      138,
+      158
+    ],
+    "combat_serviceable_center": 148,
+    "immediate_alert_or_search_capable_band": [
+      118,
+      138
+    ],
+    "immediate_center": 128
+  },
+  "serviceable_role_center": {
+    "fighter_or_local_cover": 80,
+    "attack": 42,
+    "recon_water_other": 26,
+    "sum": 148
+  },
+  "subsets": {
+    "Raiden_serviceable_band": [
+      14,
+      18
+    ],
+    "Kyofu_serviceable_band": [
+      9,
+      11
+    ],
+    "Zuiun_serviceable_band": [
+      6,
+      8
+    ],
+    "Kinsei_Zero_Marshall_detachment": 0
+  },
+  "base_serviceable_centers": {
+    "Maloelap_Taroa": 48,
+    "Roi_Namur_land_air": 31,
+    "Kwajalein_Ebeye_water_recon": 10,
+    "Wotje": 15,
+    "Mili": 12,
+    "Jaluit": 9,
+    "Eniwetok": 14,
+    "other_dispersed_water_nodes": 9
+  },
+  "operational_effect": "Hardening and no automatic historical 4-Dec mass raid let the regional pool regenerate into the high-140s serviceable by mid-Jan despite repeated US land-air pressure. This is not one concentrated strike force; useful strength is distributed and many sorties are CAP/search/night attack/repair rotation.",
+  "learning_maturity": "Priority A-grade bases use the early-Jan post-GALVANIC fixed-base procedural band (+8% to +15% favorable-exchange shift only when warning/plot/radio chain is intact). Do not add a separate generic lesson multiplier.",
+  "outer_node_rule": "Kusaie/Ponape/Nauru/Wake/Truk add staging, warning and repair depth, not free same-morning Marshall fighter CAP."
+}

@@ -1,0 +1,8 @@
+program	physical_airframes_1941YE	flyable_or_active_1941YE	owner_control	role	ordinary_OOB_count	status
+Asai H1 piston helicopter	2	1-2 depending rebuild state	Asai research	legacy flight/endurance + instrumented/rebuild reserve	0	RESEARCH ONLY
+Asai H2 turboshaft No.1	1	1	Asai research	basic flight/control/endurance	0	DEVELOPMENT
+Asai H2 turboshaft No.2	1	1	Army-funded contractor test	Army liaison/observer/litter mission evaluation	0	DEVELOPMENT / MILITARY EVALUATION
+Asai H2 turboshaft No.3	1	1	Navy-funded contractor test	Navy rescue/deck/liaison evaluation	0	DEVELOPMENT / MILITARY EVALUATION
+Asai H2 turboshaft No.4	1	0-1	Asai research	instrumented backup / transmission / rebuild article	0	DEVELOPMENT
+H3 medium helicopter	0	0	design/rig study	~3.2t growth study only	0	NO FLIGHT AIRFRAME BY 1941YE
+Kayaba independent rotorcraft	NOT SET BY V13	NOT SET BY V13	independent	separate autogyro/rotorcraft research; may join comparison trials	NOT AUTO-COUNTED	OUTSIDE ASAI HELICOPTER CLOSE

@@ -1,0 +1,32 @@
+{
+  "revision": "v001",
+  "purpose": "Current-branch overrides without rewriting old rules. Any item can be replaced later by rule_id.",
+  "overrides": [
+    {
+      "rule_id": "OVR-COMINT-1942-HIGHGRADE-001",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "replaces_runtime_behavior": [
+        "RERUN_GATE_MATRIX_v005 K1 final sentence",
+        "COMSEC-1942-HIGH-GRADE-OUTCOME=OPEN as an automatic runtime reopen"
+      ],
+      "effective_rule": "In 1942 Japanese high-grade naval plaintext is not available to US forces at strategically useful time/precision under normal conditions. Low-grade/plaintext/traffic/DF/recon/submarine/geographic-logistic inference remain active.",
+      "sources": [
+        "70_暗号・通信情報_設計防御・攻撃・運用.md",
+        "SESSION_HANDOFF_2026-08-18_v001.md"
+      ],
+      "invalidation_if_changed": [
+        "CHECKPOINT_1942-05-06T24_v001 and all descendants where COMINT affected observation/decision"
+      ]
+    },
+    {
+      "rule_id": "OVR-PEARL-SYNC-001",
+      "status": "ACTIVE_CURRENT_BRANCH",
+      "replaces_runtime_behavior": [
+        "opening_sync_state legacy Pearl pointer to v002"
+      ],
+      "effective_rule": "Pearl opening sync uses pearl_state_transition_v003 for execution; v001/v002 remain diagnostic/archive.",
+      "source": "AUTHORITATIVE_MANIFEST_v004.json"
+    }
+  ],
+  "edit_protocol": "Create a new override revision; do not rewrite old evidence. Re-run only checkpoints listed by dependency/invalidation maps."
+}

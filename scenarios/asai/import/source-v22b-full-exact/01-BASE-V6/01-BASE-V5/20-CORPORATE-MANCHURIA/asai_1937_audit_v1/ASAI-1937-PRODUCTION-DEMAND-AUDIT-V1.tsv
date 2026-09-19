@@ -1,0 +1,14 @@
+product	metric	low	central	high	unit	assessment	notes
+Computation	Japan FSE available/processed workload	71	93	115	FSE	WORKING-AUDIT	Includes customer installations and Asai service-bureau capacity.
+Computation	Manchuria FSE available/processed workload	25	34	42	FSE	WORKING-AUDIT	Used/refurbished lease model raises penetration without requiring latest machines.
+Computation	Japan+Manchuria FSE total	96	127	157	FSE	WORKING-AUDIT	Recommend canon center ≈125 FSE, not 200-400 full systems.
+Computation	individual component machines corresponding to FSE base	500	700	900	machines	ROUGH-CONVERSION	Punch/verify/sort/tabulate/print are separate units; actual topology varies.
+Technical computation	Japan high-end scientific/relay rooms	14	17	20	sites	WORKING-AUDIT	Only a small subset U4; do not infer nationwide Asai-level expertise.
+Technical computation	Manchuria high-end scientific/relay rooms	2	3	4	sites	RESTORE-CANDIDATE	Mostly engineering/planning rather than advanced engine design.
+Independent GT	customer-installed/delivered	70	88	105	cores/year	WORKING-AUDIT	Military 30-60 plus public/industrial niches, with overlap removed.
+Independent GT	factory completions	105	125	135	cores/year	RESOLUTION-CANDIDATE	Supports existing ≈125/yr if interpreted as factory-completed cores.
+Independent GT	internal test/spares/inventory difference	20	32	45	cores/year	DERIVED	Difference between completions and customer deliveries; exact split remains open.
+Exhaust turbo	end-user absorption / installed-disposed	1050	1135	1220	cores/year	RESOLUTION-CANDIDATE	Military + marine + stationary + rail/heavy civil + replacements, overlap-adjusted.
+Exhaust turbo	factory completions/run-rate	1200	1300	1350	cores/year	RESOLUTION-CANDIDATE	Existing ≈1300/yr survives best as factory-completion/run-rate, not pure installations.
+Exhaust turbo	inventory/test/export timing gap	80	150	220	cores/year	DERIVED	Allows quarterly batching, spares and stock-building without inventing end users.
+Exhaust turbo	Manchuria share, all uses	80	100	125	cores/year	WORKING-AUDIT	Subset of total; civilian-only roughly 60-90.

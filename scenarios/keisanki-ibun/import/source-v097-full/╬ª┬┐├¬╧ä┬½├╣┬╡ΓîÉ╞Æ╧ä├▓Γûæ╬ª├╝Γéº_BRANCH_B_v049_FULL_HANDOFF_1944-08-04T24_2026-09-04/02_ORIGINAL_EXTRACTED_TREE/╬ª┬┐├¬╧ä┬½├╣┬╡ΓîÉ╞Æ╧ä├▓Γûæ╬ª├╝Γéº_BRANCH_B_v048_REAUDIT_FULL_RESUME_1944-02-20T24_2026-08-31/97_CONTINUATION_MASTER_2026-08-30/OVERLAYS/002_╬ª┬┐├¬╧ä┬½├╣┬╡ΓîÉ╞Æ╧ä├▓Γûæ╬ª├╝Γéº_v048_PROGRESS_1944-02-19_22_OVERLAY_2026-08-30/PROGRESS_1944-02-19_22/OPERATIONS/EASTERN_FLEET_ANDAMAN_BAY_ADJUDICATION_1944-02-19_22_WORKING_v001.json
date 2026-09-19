@@ -1,0 +1,80 @@
+{
+  "revision": "v001",
+  "id": "EASTERN_FLEET_ANDAMAN_BAY_ADJUDICATION_1944-02-19_22_WORKING_v001",
+  "status": "WORKING_BRANCH_ADJUDICATED_NOT_AUTHORITY",
+  "clock_window": "1944-02-19..22",
+  "global_frontier_after_event": "1944-02-22T24",
+  "purpose": "Close the Indian Ocean cross-theater gate using the reconstructed combat-air and ASW-air capability bands, named submarine catch-up, actual Eastern Fleet movement, and the Andaman-Arakan observation network.",
+  "adjudication_method": [
+    "Use dated historical movement when Branch-compatible.",
+    "Use capability bands for readiness/tasking, not false exact counts.",
+    "cue != track != maintained datum != weapon-quality contact.",
+    "No strike or reinforcement gate opens from inference alone."
+  ],
+  "chronology": [
+    {
+      "date": "1944-02-19",
+      "RN_state": "Queen Elizabeth/Valiant/Renown heavy group remains in Ceylon workup/training cycle; no Bay/Andaman combat sortie.",
+      "Japan_air": "705th maritime search remains within 4-8 sorties/24h capability band; 5th Air Division is not diverted from Bengal/Arakan without a fleet cue.",
+      "subwar": "I-166 attacks British Fusilier and misses.",
+      "contact_result": "No Japanese weapon-quality track on an Eastern Fleet major force.",
+      "decision": "Second Japanese western surface reinforcement remains HOLD."
+    },
+    {
+      "date": "1944-02-20",
+      "RN_state": "Gambia arrives Trincomalee and becomes available to Eastern Fleet. Heavy units remain escort-constrained.",
+      "air_state": "Ceylon land-based maritime search continues; Illustrious operational squadrons are still treated shore-based for immediate carrier-launch accounting.",
+      "contact_result": "No branch-valid Japanese major-force contact.",
+      "decision": "Oyodo group remains Singapore/Lingga rear-mobile reserve; no forward dash to Port Blair/Sabang."
+    },
+    {
+      "date": "1944-02-21",
+      "RN_state": "Tromp sails Trincomalee to Colombo for docking/self-refit. No eastbound battle-fleet sortie.",
+      "air_state": "No Japanese strike is released against Ceylon; 331st remains local-defense capable and 705th search does not mature into a maintained datum.",
+      "asw_state": "Western Tokai detachment performs routine priority-lane sweep/datum readiness only; no Allied submarine datum exists to convert into attack. Ka-go local presence remains zero.",
+      "decision": "Bay-entry escalation gate remains CLOSED."
+    },
+    {
+      "date": "1944-02-22",
+      "RN_state": "Operation SLEUTH sails from Trincomalee: Illustrious + Gambia + Rotherham + Tjerk Hiddes, heading toward the Cocos-area search zone rather than the Bay of Bengal/Andaman axis.",
+      "carrier_air": "15 Wing Corsairs re-embark. Illustrious is allowed its reconstructed embarked first-window capability band (27-36 mission-ready total; 10-14 Barracuda strike/search and 8-14 fighter CAP/escort subject to deck cycle), with no duplicate shore credit.",
+      "Japan_search": "705th/Andaman-Sumatra search system generates no weapon-quality contact on SLEUTH by 22T24. RO-111 does not obtain a usable recontact. I-37 is far to the west near the Addu lane and sinks British Chivalry, which does not cue SLEUTH.",
+      "Japan_surface": "Oyodo + Teruzuki + Takanami + Makinami + Kiyonami do not sortie. The force is held for fresh contact/night exploitation and not exposed on a speculative chase.",
+      "Japan_air_strike": "NONE. No fresh contact exists for 705th anti-shipping release; 5th Air Division and 331st are not converted into long-range anti-carrier strike strength.",
+      "asw_state": "Tokai/MAD western detachment continues routine lane protection; I-162 departure from Penang benefits from covered-lane risk reduction but no Allied submarine contact/attack occurs in this event window. Ka-go contribution = 0.",
+      "contact_result": "Japanese operational intelligence may infer increased RN activity only after delayed reporting; same-day force composition/track remains LOW confidence."
+    }
+  ],
+  "event_outcome": {
+    "RN_Bay_entry": "NO",
+    "RN_heavy_surface_sortie_east_of_Ceylon": "NO",
+    "RN_carrier_sortie": "YES_OPERATION_SLEUTH_SOUTH_SOUTHEAST",
+    "Japanese_weapon_quality_contact_on_RN_carrier_force_by_22T24": "NO",
+    "Japanese_air_attack_on_Eastern_Fleet": "NO",
+    "Japanese_surface_interception": "NO",
+    "Japanese_second_surface_reinforcement_gate": "CLOSED",
+    "Japanese_submarine_shipping_result": "I-166 miss on 19 Feb; I-37 sinks British Chivalry on 22 Feb; no contact with SLEUTH",
+    "Tokai_effect": "routine covered-lane risk reduction only; no kill/mission-kill claim",
+    "Ka_go_effect": "NONE_LOCAL_ZERO"
+  },
+  "cross_theater_reconciliation": {
+    "Central_Pacific": "No additional CL/DD/carrier debit. Existing Oyodo + four-DD western allocation remains booked.",
+    "Bengal_Arakan": "No emergency diversion of the 5th Air Division from land-support/air-defense tasks.",
+    "Allied": "Illustrious sortie creates a real carrier availability commitment away from Ceylon after departure; do not simultaneously count its embarked squadrons as Ceylon shore strength.",
+    "result": "Indian Ocean gate that blocked global advance through 21 Feb is CLOSED."
+  },
+  "historical_anchors": [
+    "Eastern Fleet war diary: 15-21 Feb escort shortage restricts heavy-ship sea training; Gambia arrives 20 Feb; Tromp sails 21 Feb; Operation SLEUTH sails 22 Feb.",
+    "Operation SLEUTH objective: search for suspected German blockade runners southwest of Cocos Island."
+  ],
+  "sources_internal": [
+    "97_SESSION_CLEANED_2026-08-30/AIR/INDIAN_OCEAN_AIR_CAPABILITY_LEDGER_1944-02-19_22_WORKING_v002.json",
+    "97_SESSION_CLEANED_2026-08-30/AIR/JAPAN_INDIAN_OCEAN_ASW_AIR_CAPABILITY_1944-02-19_22_WORKING_v001.json",
+    "06_RUNTIME/ANDAMAN_ARAKAN_OBSERVATION_NETWORK_1944-01-01_WORKING_v001.json",
+    "06_RUNTIME/JAPAN_INDIAN_OCEAN_REINFORCEMENT_CANDIDATES_1944-01_WORKING_v006.json"
+  ],
+  "sources_external": [
+    "https://www.naval-history.net/xDKWD-EF1943Dec-Apr1944.htm",
+    "https://www.uboat.net/allies/warships/ship/3258.html"
+  ]
+}

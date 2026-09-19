@@ -1,0 +1,16 @@
+field	value
+nominal_version	V19
+base_package	V18 water/seaplane/submarine/Seiran consolidated full package
+build_date	2026-09-15
+current_replay_session_folder	87-CURRENT-2026-09-15-CHINA-PEACE-BARBAROSSA-HANDOFF-V19
+current_technical_session_folder	86-CURRENT-2026-09-13-WATER-SEAPLANE-SUBMARINE-SEIRAN-V18
+history_clock	1941-05-31 24:00
+china_clock	1941-05-31 24:00
+nomonhan_clock	1939-08-31 24:00 CLOSED
+china_peace	formal branch peace signed 1941-05-15; effective 1941-05-20
+japan_soviet_neutrality	1941-04-13 historical treaty retained
+next_replay_gate	1941-06-01 to 1941-06-22 force posture, then Barbarossa
+next_highest_audit	Soviet Far East/Transbaikal historical OOB+westbound transfers vs worldline Kwantung/returning-China OOB
+fuel_guard	V16 Grade A/B/C middle-distillate doctrine retained; avgas control != total GT/diesel fuel suppression
+us_policy_state	conditional/reversible normalization is working central branch, not immutable outcome
+branch_guard	V19 explicit-only supersession; otherwise inherit V18/V17/V16 and older current authority

@@ -1,0 +1,37 @@
+{
+  "id": "CURRENT_REAUDIT_STATE_1944-02-20T24_v001",
+  "status": "WORKING_CANONICAL_RESUME_POINT",
+  "semantic_base": "Branch B v048",
+  "frontier": "1944-02-20T24",
+  "Truk": {
+    "hailstone_day1": "complete",
+    "US_force": "5 CV + 3 CVL; 445-485 ready aircraft, center 465",
+    "US_day1_irrecoverable_aircraft": "24-31, center 27",
+    "Japan_day1_irrecoverable_aircraft": "40-50, center 45",
+    "Japan_dusk_fighters_serviceable": "16-22",
+    "Japan_dusk_attack_recon_water_night_capable": "13-19",
+    "warning_plot_throughput": "50-65% of dawn",
+    "major_mobile_targets": "first-line carriers and Akashi evacuated west; no historical shipping massacre geometry",
+    "night_counterstrike": "OPEN; cue is sector-quality, not exact carrier fix"
+  },
+  "Eniwetok": {
+    "Engebi_Dday": "planned 1944-02-21",
+    "garrison_physical": "3380-3540",
+    "Type95": "9 physical, center 9 serviceable, 3 per main island",
+    "local_air_serviceable_dusk_20Feb": "3-5",
+    "local_radar": 0,
+    "warning": "visual + radio/DF + small air/water recon + external reports",
+    "US_amtracs": "106 physical; center 103 ready pre-assault",
+    "US_amphibian_tanks": "17 physical; center 17 ready",
+    "passage_delay": "2.5-4.0 hours consumed schedule margin but did not cancel 21 Feb assault"
+  },
+  "locked_recent_results": [
+    "GALVANIC/Tarawa rerun and Makin closeout",
+    "Soryu early recovery and four Japanese first-line carrier hulls surviving FLINTLOCK period",
+    "FLINTLOCK D-Day 1944-02-06; Kwajalein secure 1944-02-09; FLINTLOCK closeout 1944-02-10",
+    "US CATCHPOLE dedicated 106 amtrac + 17 amphibian-tank wallet",
+    "HAILSTONE main force 5 CV + 3 CVL",
+    "No local Eniwetok radar without shipment trace"
+  ],
+  "reopened_downstream": "All Pacific outcomes after 1944-02-20 that depend on these changes, including old HAILSTONE Day2/CATCHPOLE results and later Marianas settlements, must be rerun."
+}
