@@ -2,12 +2,13 @@
 
 ## Authority
 
-- Current authority: **Branch B v097**
-- Canonical clock: **1944-04-30T24:00**
-- Clock state: **FROZEN**
-- v097 explicit settlements/supersessions override retained v096 authority.
-- v096 remains the base authority/provenance layer where non-conflicting.
+- Current authority: **Branch B v098**
+- Working canonical clock: **1944-06-14T12:00**
+- Clock state: **OPEN / EVENT-SIMULATION**
+- v098 explicit settlements / working-event closures override retained v097/v096 authority for the points they address.
+- v097 remains the immediate parent and v096 remains the base authority/provenance layer where non-conflicting.
 - Older later-clock branches do not regain authority merely because they describe a later historical date.
+- Closed inherited settlements remain closed unless explicitly superseded; missing promoted detail is not an automatic reopen.
 
 ## Epistemic rule
 
@@ -20,16 +21,15 @@
 ## What the computer changes
 
 計算機は主として、
-
 - 大量反復計算
 - 設計空間探索
 - 公差・ばらつき評価
 - 試験・故障・量産不良feedbackの高速化
+- 情報の時刻化、相関、I/O変換、手順標準化
 
 を可能にする。
 
 計算機は、
-
 - 馬力
 - 材料
 - 工作機械
@@ -38,11 +38,20 @@
 - 搭乗員
 - 実時間の耐久試験
 - 実戦経験
+- 艦艇・飛行場・基地そのもの
 
 を無料で生成しない。
 
 ## Current guard
 
-FORAGER / Saipanへ進む前に、航空機processing-historyを機種・世代ごとに再監査する。
+FORAGER is now in active event simulation.
 
-最近のJune-Marianas航空戦力projectionは、監査完了までcurrent authorityへ昇格させない。
+Always separate:
+- U.S. assessed destruction vs actual Japanese system state;
+- physical / serviceable / mission-ready / immediately launchable;
+- technical feasibility / production / deployability / tactical / operational / strategic effect.
+
+Do not auto-import historical Biak/Kon/Philippine-Sea events where Branch causal geometry differs.
+
+Parallel gap:
+China/Ichi-Go detailed 29 May–14 Jun events remain OPEN and must be backfilled before detailed China-state effects are used.
